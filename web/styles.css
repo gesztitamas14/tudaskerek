@@ -971,3 +971,18 @@ body.in-game #toast { bottom: calc(var(--safe-bottom) + 24px); }
   height: 1px;
   background: var(--line);
 }
+
+/* A szobalista sora: a kártya és a törlés-gomb egymás mellett. */
+.room-row { display: flex; align-items: stretch; gap: 6px; }
+.room-row .room-item { flex: 1; min-width: 0; }
+.room-delete {
+  flex: 0 0 auto;
+  width: 40px;
+  border-radius: var(--radius);
+  background: rgba(232, 85, 107, 0.12);
+  border: 1px solid rgba(232, 85, 107, 0.35);
+  color: var(--bad);
+  font-size: 15px;
+  cursor: pointer;
+}
+.room-delete:active { transform: scale(0.96); }

@@ -31,7 +31,7 @@ képernyő. Nincs `npm install` – a Node 20 beépített moduljai elegendők.
 |---|---|
 | **PWA** (`web/`) – teljes játék, offline is | ✅ böngészőben tesztelve |
 | **Kérdésbank** – **1157 kérdés, 22 kategória** | ✅ validált |
-| **Backend** (`supabase/`) – 12 migráció, RLS, 27 RPC | ✅ kész |
+| **Backend** (`supabase/`) – 13 migráció, RLS, 37 RPC | ✅ kész |
 | **Multiplayer** – kieséses, szobalista + 3 jegyű PIN, 2–5 fő | ✅ |
 | **Ranglista** – örök / havi / heti / napi | ✅ |
 | **Bejelentkezés** – vendég, Google, e-mail + jelszó | ✅ |
@@ -125,7 +125,7 @@ web/                      a PWA – build nélkül futó teljes játék
   js/sound.js             szintetizált játékhangok (nincs hangfájl)
   js/screens.js           home, statisztika, ranglista, profil, beállítás, névjegy
   tests/                  node --test + böngészős integrációs teszt
-supabase/migrations/      12 migráció: séma, RLS, RPC, multiplayer, auth
+supabase/migrations/      13 migráció: séma, RLS, RPC, multiplayer, auth
 admin/                    kérdéskezelés, review, import/export (statikus)
 tools/src/                seed build/validáció, import, AI generálás,
                           Wikidata, fact-check, ikon, szerver, böngészőteszt
@@ -169,8 +169,8 @@ node tools/src/validate-seed.mjs
 
 ```bash
 node --test web/tests/rules.test.mjs   # 30 teszt: pontozás, kerék, állapotgép
-node tools/src/browser-test.mjs        # 85 ellenőrzés valódi böngészőben
-node tools/src/db-test.mjs             # 101 ellenőrzés igazi PostgreSQL-en
+node tools/src/browser-test.mjs        # 109 ellenőrzés valódi böngészőben
+node tools/src/db-test.mjs             # 111 ellenőrzés igazi PostgreSQL-en
 node tools/src/validate-seed.mjs       # kérdésbank minőségi kapui
 ```
 
@@ -182,7 +182,7 @@ nézőnél. Ellenőrzi a szobalistát, a görgetős PIN-választót, és azt is,
 hangmotor AudioContextje tényleg elindul (a néma hiba különben nem látszik), és
 a bejelentkezési űrlapot (vendég átalakítása, hibás adat, magyar hibaüzenetek).
 
-Az adatbázis-teszt lefuttatja mind a 12 migrációt és lejátszik két teljes
+Az adatbázis-teszt lefuttatja mind a 13 migrációt és lejátszik két teljes
 szobás játékot **igazi Postgresen** (PGlite = Postgres WebAssemblyre fordítva),
 Docker és Postgres-telepítés nélkül. Ellenőrzi a kiesést, az időtúllépést, a
 körvégi összesítést, a jutalomtáblát (hibátlan kör = 15 000 pont), a PIN
@@ -227,7 +227,7 @@ node tools/src/generate-from-wikidata.mjs --all --limit 100
 | [`HOSTING.md`](HOSTING.md) | **hosztolás és backend – a rövid változat** |
 | [`docs/01-technikai-terv.md`](docs/01-technikai-terv.md) | technológiai döntések és indoklásuk |
 | [`docs/02-architektura.md`](docs/02-architektura.md) | rétegek, a session driver absztrakció, offline-first, biztonság |
-| [`docs/03-api-es-adatbazis.md`](docs/03-api-es-adatbazis.md) | táblák, nézetek, 25 RPC, RLS, duplikátumszűrés |
+| [`docs/03-api-es-adatbazis.md`](docs/03-api-es-adatbazis.md) | táblák, nézetek, 37 RPC, RLS, duplikátumszűrés |
 | [`docs/04-kerdesforrasok.md`](docs/04-kerdesforrasok.md) | licencek, Wikidata pipeline, miért nem OpenTDB az alap |
 | [`docs/05-beallitas.md`](docs/05-beallitas.md) | üzembe helyezés lépésről lépésre |
 | [`docs/06-kvizkerek-kutatas.md`](docs/06-kvizkerek-kutatas.md) | a műfaj kutatása és a jogi keret |

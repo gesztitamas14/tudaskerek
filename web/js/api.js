@@ -146,9 +146,25 @@ export class Supabase {
     return `${this.url}/auth/v1/authorize?${params}`;
   }
 
+  /**
+   * Hova térjen vissza a megerősítő e-mailben lévő link.
+   *
+   * Enélkül a Supabase a projekt **Site URL**-jét használja, ami gyárilag
+   * `http://localhost:3000` – tehát a levélben lévő link egy nem létező helyi
+   * szerverre visz. Ezért minden e-mailes műveletnél explicit megadjuk, hol
+   * vagyunk épp: fejlesztéskor a localhost, éles helyzetben a Pages-cím.
+   *
+   * A Supabase csak a **Redirect URLs** listán szereplő címeket fogadja el,
+   * tehát oda fel kell venni ezt a címet (lásd HOSTING.md).
+   */
+  get #emailRedirectTo() {
+    return location.origin + location.pathname;
+  }
+
   /** Regisztráció e-mail + jelszóval. */
   async signUpWithEmail(email, password) {
-    const response = await this.#fetch('/auth/v1/signup', {
+    const query = new URLSearchParams({ redirect_to: this.#emailRedirectTo });
+    const response = await this.#fetch(`/auth/v1/signup?${query}`, {
       method: 'POST',
       body: { email, password },
       authorized: false
@@ -182,15 +198,22 @@ export class Supabase {
    * (a `profiles.is_anonymous` egy trigger révén false-ra vált).
    */
   async upgradeGuest(email, password) {
-    const user = await this.#fetch('/auth/v1/user', {
+    const query = new URLSearchParams({ redirect_to: this.#emailRedirectTo });
+    const user = await this.#fetch(`/auth/v1/user?${query}`, {
       method: 'PUT',
       body: { email, password }
     });
 
+    // Ha a projekten be van kapcsolva az e-mail megerősítés, az e-mail még
+    // NEM az övé: a `new_email` mezőben várakozik, amíg rá nem kattint a
+    // levélben. Addig vendég marad – ezt a felületnek meg kell tudnia mondani.
+    const needsConfirmation = Boolean(user?.new_email) && user?.email !== email;
+
     // A JWT még a régi `is_anonymous: true` állítást tartalmazza, ezért
     // frissítjük – enélkül a felület vendégként kezelne tovább.
-    await this.refreshIfNeeded(true);
-    return user;
+    if (!needsConfirmation) await this.refreshIfNeeded(true);
+
+    return { user, needsConfirmation };
   }
 
   async signInWithGoogle() {

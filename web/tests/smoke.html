@@ -556,7 +556,7 @@
         'a PIN-nel védett szoba zárral van jelölve'
       );
       check(
-        roomHost.querySelector('.room-item:last-of-type')?.disabled === true,
+        roomHost.querySelectorAll('.room-item')[2]?.disabled === true,
         'a tele szoba nem választható'
       );
       check(
@@ -706,7 +706,7 @@
       // ── 8. bejelentkezés: Google és e-mail (Apple helyett) ──
       const { profileScreen } = await import('../js/screens.js');
 
-      function makeAuthApp({ signedIn, anonymous, calls, fail = null }) {
+      function makeAuthApp({ signedIn, anonymous, calls, fail = null, pending = false }) {
         return {
           bank,
           supabase: {
@@ -723,12 +723,12 @@
             signUpWithEmail: async (email, password) => {
               calls.push({ name: 'signUp', email, password });
               if (fail) throw fail;
-              return { session: {}, needsConfirmation: false };
+              return { session: {}, needsConfirmation: pending };
             },
             upgradeGuest: async (email, password) => {
               calls.push({ name: 'upgrade', email, password });
               if (fail) throw fail;
-              return {};
+              return { user: {}, needsConfirmation: pending };
             },
             signOut: () => calls.push({ name: 'signOut' }),
             rpc: async () => ({})
@@ -835,6 +835,28 @@
       );
       roomHost.replaceChildren();
 
+      // ── 8b-2. e-mail megerősítés bekapcsolva: vendégként ezt kell közölni ──
+      calls = [];
+      roomHost.append(
+        profileScreen(makeAuthApp({ signedIn: true, anonymous: true, calls, pending: true }))
+      );
+      fill('vendeg@example.com', 'titkos123');
+      clickSubmit();
+      await pause();
+      check(
+        roomHost.textContent.includes('megerősítő levelet'),
+        'megerősítés-kötelezettségnél elmondja, hogy levél jött'
+      );
+      check(
+        roomHost.textContent.includes('vendégként játszhatsz tovább'),
+        'közli, hogy addig vendégként folytathatja'
+      );
+      check(
+        !calls.some((entry) => entry.name === 'refresh'),
+        'megerősítésre várva nem rendereli újra bejelentkezettként'
+      );
+      roomHost.replaceChildren();
+
       // ── 8c. szerverhiba magyarul ──
       calls = [];
       roomHost.append(
@@ -867,6 +889,268 @@
         roomHost.textContent.includes('felkerülsz a ranglistára'),
         'bejelentkezve jelzi, hogy a pont a ranglistára kerül'
       );
+      roomHost.replaceChildren();
+
+      // ── 9. a VÁRÓ (lobby) képernyő ──
+      //
+      // Ez a szakasz azért létezik, mert korábban egy nem definiált függvényre
+      // (`lobbyActions`) hivatkozott a váró renderelése – és ez a képernyő
+      // állapot NEM volt tesztelve, így csak éles használatban derült ki.
+      // Minden szoba-státuszt le kell fedni.
+      const LOBBY_PLAYERS = [
+        { player_id: 'aaaa', seat: 1, score: 0, block_score: 0, is_ready: true,
+          is_eliminated: false, has_left: false, nickname: 'Anna', avatar_id: 'fox', is_guest: false },
+        { player_id: ME, seat: 2, score: 0, block_score: 0, is_ready: false,
+          is_eliminated: false, has_left: false, nickname: 'Bela', avatar_id: 'owl', is_guest: true }
+      ];
+
+      function lobbyRoom({ hostId = 'aaaa', players = LOBBY_PLAYERS, pin = '407' } = {}) {
+        return {
+          id: 'lobby-room',
+          host_id: hostId,
+          status: 'lobby',
+          max_players: 4,
+          rounds_per_player: 10,
+          difficulty: null,
+          block_no: 0,
+          questions_per_category: 1,
+          answer_seconds: 15,
+          reveal_seconds: 5,
+          max_questions: 10,
+          has_pin: Boolean(pin),
+          my_pin: hostId === ME ? pin : null,
+          i_am_guest: true,
+          server_time: new Date().toISOString(),
+          current_question: null,
+          last_block_scores: null,
+          last_block_ended_at: null,
+          players
+        };
+      }
+
+      const roomCalls = [];
+
+      function mountLobby(room) {
+        const lobbyApp = {
+          bank,
+          supabase: {
+            isConfigured: true, isSignedIn: true, isAnonymous: true, userId: ME,
+            rpc: async (name, params) => {
+              roomCalls.push({ name, params });
+              if (name === 'room_tick' || name === 'room_state') return room;
+              if (name === 'set_ready') return { ...room, players: room.players };
+              if (name === 'start_room') return { ...room, status: 'playing' };
+              if (name === 'close_room') return { ok: true };
+              return {};
+            }
+          },
+          sync: { scoringRules: async () => FALLBACK_RULES, run: async () => {} },
+          navigate: (screen) => roomCalls.push({ name: 'navigate', screen }),
+          refreshCurrentScreen: () => {},
+          pushProfile: () => {}
+        };
+        const node = roomScreen(lobbyApp, { room });
+        roomHost.append(node);
+        return node;
+      }
+
+      // ── 9a. nem én vagyok a host: „készen állok” ──
+      let lobbyNode = mountLobby(lobbyRoom({ hostId: 'aaaa' }));
+
+      check(
+        roomHost.textContent.includes('Készen állok'),
+        'a váróban a nem-host „Készen állok” gombot kap'
+      );
+      check(
+        roomHost.textContent.includes('A szoba létrehozója indítja'),
+        'megmondja, hogy a készítő indít'
+      );
+      check(
+        ![...roomHost.querySelectorAll('.btn')].some((b) =>
+          b.textContent.includes('Játék indítása')
+        ),
+        'a nem-host NEM kap indító gombot'
+      );
+      check(
+        ![...roomHost.querySelectorAll('.btn')].some((b) =>
+          b.textContent.includes('Szoba törlése')
+        ),
+        'a nem-host NEM kap szobatörlő gombot'
+      );
+      check(
+        roomHost.textContent.includes('2/4 játékos'),
+        'látszik a létszám'
+      );
+      check(
+        roomHost.querySelectorAll('.player-row').length === 2,
+        'mindkét játékos szerepel a listán'
+      );
+      unmountRoom(lobbyNode);
+
+      // ── 9b. én vagyok a host: PIN, indítás, törlés ──
+      lobbyNode = mountLobby(lobbyRoom({ hostId: ME }));
+
+      check(
+        roomHost.textContent.includes('BELÉPÉSI PIN') && roomHost.textContent.includes('407'),
+        'a készítő látja a saját PIN-jét'
+      );
+      check(
+        [...roomHost.querySelectorAll('.btn')].some((b) =>
+          b.textContent.includes('Játék indítása')
+        ),
+        'a készítő indító gombot kap'
+      );
+      check(
+        [...roomHost.querySelectorAll('.btn')].some((b) =>
+          b.textContent.includes('Szoba törlése')
+        ),
+        'a készítő tudja törölni a szobát'
+      );
+      check(
+        !roomHost.textContent.includes('Legalább két játékos'),
+        'két játékossal már nem kéri több embert'
+      );
+      unmountRoom(lobbyNode);
+
+      // ── 9c. egyedül a szobában: nem indítható ──
+      lobbyNode = mountLobby(
+        lobbyRoom({ hostId: ME, players: [{ ...LOBBY_PLAYERS[1], player_id: ME, seat: 1 }] })
+      );
+      check(
+        [...roomHost.querySelectorAll('.btn')].find((b) =>
+          b.textContent.includes('Játék indítása')
+        )?.disabled === true,
+        'egyedül nem indítható a játék'
+      );
+      check(
+        roomHost.textContent.includes('Legalább két játékos'),
+        'kiírja, hogy még kell játékos'
+      );
+      unmountRoom(lobbyNode);
+
+      // ── 9d. bezárt szoba: a benne lévő is megérti ──
+      lobbyNode = mountLobby({ ...lobbyRoom(), status: 'cancelled' });
+      check(
+        roomHost.textContent.includes('A szoba bezárt'),
+        'a bezárt szobát a felület megmondja'
+      );
+      unmountRoom(lobbyNode);
+
+      // ── 9e. vendégjáték kikapcsolva: érthető üzenet, ne néma üres lista ──
+      const guestOffCalls = [];
+      const guestOffApp = {
+        bank,
+        supabase: {
+          isConfigured: true,
+          isSignedIn: false,
+          isAnonymous: true,
+          userId: null,
+          signInAnonymously: async () => {
+            const error = new Error('Anonymous sign-ins are disabled');
+            error.kind = 'http';
+            throw error;
+          },
+          rpc: async (name) => {
+            guestOffCalls.push({ name });
+            return [];
+          }
+        },
+        sync: { scoringRules: async () => FALLBACK_RULES, run: async () => {} },
+        navigate: (screen) => guestOffCalls.push({ name: 'navigate', screen }),
+        refreshCurrentScreen: () => {},
+        pushProfile: () => {}
+      };
+
+      const offNode = multiplayerScreen(guestOffApp);
+      roomHost.append(offNode);
+      await wait(150);
+
+      check(
+        roomHost.textContent.includes('Jelentkezz be a játékhoz'),
+        'kikapcsolt vendégjátéknál érthető magyar üzenet jön'
+      );
+      check(
+        !guestOffCalls.some((entry) => entry.name === 'list_open_rooms'),
+        'be nem lépett állapotban nem is próbál szobát listázni'
+      );
+      check(
+        !roomHost.textContent.includes('Anonymous sign-ins are disabled'),
+        'a szerver nyers angol mondata nem kerül a felhasználó elé'
+      );
+      check(
+        roomHost.textContent.includes('Authentication → Providers'),
+        'a projekt tulajdonosának megmondja, hol kapcsolhatja be'
+      );
+      const profileBtn = [...roomHost.querySelectorAll('.btn')].find((b) =>
+        b.textContent.includes('Profil')
+      );
+      check(Boolean(profileBtn), 'kap egy gombot a Profil lapra');
+      profileBtn?.click();
+      check(
+        guestOffCalls.some((entry) => entry.name === 'navigate' && entry.screen === 'profile'),
+        'a gomb tényleg a Profil lapra visz'
+      );
+      offNode.dispatchEvent(new CustomEvent('screen:unmount'));
+      roomHost.replaceChildren();
+
+      // ── 9f. a saját szoba a listából is törölhető ──
+      const delCalls = [];
+      const delApp = {
+        bank,
+        supabase: {
+          isConfigured: true, isSignedIn: true, isAnonymous: false, userId: ME,
+          signInAnonymously: async () => ({}),
+          rpc: async (name, params) => {
+            delCalls.push({ name, params });
+            if (name === 'list_open_rooms') {
+              return [
+                { id: 'mine', host_nickname: 'Bela', host_avatar: 'owl', host_is_guest: false,
+                  max_players: 4, rounds_per_player: 10, answer_seconds: 15,
+                  questions_per_category: 1, difficulty: null,
+                  created_at: new Date().toISOString(), needs_pin: true,
+                  i_am_host: true, player_count: 1, i_am_in: true },
+                { id: 'other', host_nickname: 'Anna', host_avatar: 'fox', host_is_guest: false,
+                  max_players: 4, rounds_per_player: 10, answer_seconds: 15,
+                  questions_per_category: 1, difficulty: null,
+                  created_at: new Date().toISOString(), needs_pin: true,
+                  i_am_host: false, player_count: 2, i_am_in: false }
+              ];
+            }
+            if (name === 'close_room') return { ok: true };
+            return {};
+          }
+        },
+        sync: { scoringRules: async () => FALLBACK_RULES, run: async () => {} },
+        navigate: () => {},
+        refreshCurrentScreen: () => {},
+        pushProfile: () => {}
+      };
+
+      const delNode = multiplayerScreen(delApp);
+      roomHost.append(delNode);
+      await wait(150);
+
+      check(
+        roomHost.querySelectorAll('.room-delete').length === 1,
+        'csak a saját szobánál van törlés-gomb'
+      );
+      check(
+        roomHost.textContent.includes('a te szobád'),
+        'a saját szoba meg van jelölve a listán'
+      );
+
+      // A megerősítő párbeszédet átmenetileg elfogadjuk.
+      const realConfirm = window.confirm;
+      window.confirm = () => true;
+      roomHost.querySelector('.room-delete').click();
+      await wait(120);
+      window.confirm = realConfirm;
+
+      check(
+        delCalls.some((entry) => entry.name === 'close_room' && entry.params?.p_room === 'mine'),
+        'a törlés a saját szobára hívja a close_room-ot'
+      );
+      delNode.dispatchEvent(new CustomEvent('screen:unmount'));
       roomHost.replaceChildren();
     }
 

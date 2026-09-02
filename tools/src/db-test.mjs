@@ -744,6 +744,59 @@ ok(
   'ha csak az e-mail jelenik meg (is_anonymous marad), az is igazi fióknak számít'
 );
 
+// ─────────────────── 13. szoba bezárása ───────────────────
+
+console.log('\n13. A készítő bezárhatja a szobát, más nem');
+
+let closable = await asPlayer(
+  ANNA,
+  `select public.create_room(3::smallint, 1::smallint, null, 1::smallint, 15::smallint, '222')`
+);
+const joined13 = await asPlayer(BELA, `select public.join_room(${q(closable.id)}, '222')`);
+ok(joined13.ok === true, 'egy másik játékos belépett a szobába');
+
+// A lista megmondja, kinek a szobája – enélkül a felület nem tudná, hol
+// mutasson törlés-gombot.
+const listAnna = await asPlayer(ANNA, `select public.list_open_rooms(30::int)`);
+const listBela = await asPlayer(BELA, `select public.list_open_rooms(30::int)`);
+ok(
+  listAnna.find((r) => r.id === closable.id)?.i_am_host === true,
+  'a készítőnél i_am_host = true'
+);
+ok(
+  listBela.find((r) => r.id === closable.id)?.i_am_host === false,
+  'a belépőnél i_am_host = false'
+);
+
+// Nem a készítő nem zárhatja be – a gomb elrejtése nem védelem.
+try {
+  await asPlayer(BELA, `select public.close_room(${q(closable.id)})`);
+  ok(false, 'nem a készítő NEM zárhatja be a szobát');
+} catch (error) {
+  ok(/csak a szoba létrehozója/i.test(error.message), 'nem a készítő NEM zárhatja be a szobát');
+}
+
+const closed = await asPlayer(ANNA, `select public.close_room(${q(closable.id)})`);
+ok(closed.ok === true && closed.already_closed === false, 'a készítő bezárta a szobát');
+ok(
+  (await one(`select status from public.rooms where id = ${q(closable.id)}`)).status === 'cancelled',
+  'a szoba állapota cancelled lett'
+);
+ok(
+  !(await asPlayer(ANNA, `select public.list_open_rooms(30::int)`)).some(
+    (r) => r.id === closable.id
+  ),
+  'a bezárt szoba eltűnt a nyitott szobák listájáról'
+);
+
+// Idempotens: kétszeri bezárás nem hiba.
+const again = await asPlayer(ANNA, `select public.close_room(${q(closable.id)})`);
+ok(again.already_closed === true, 'a kétszeri bezárás nem hiba, csak jelzi');
+
+// A többiek kliense a szobaállapotból látja, hogy vége.
+const seenByBela = await asPlayer(BELA, `select public.room_state(${q(closable.id)})`);
+ok(seenByBela.status === 'cancelled', 'a benne lévő játékos is látja, hogy a szoba bezárt');
+
 // ─────────────────── összegzés ───────────────────
 
 console.log(

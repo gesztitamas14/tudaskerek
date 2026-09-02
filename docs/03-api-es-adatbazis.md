@@ -143,13 +143,14 @@ ismételni, mint játszhatatlan kategóriát adni.
 | RPC | Mit tesz |
 |---|---|
 | `create_room(max_players, rounds, difficulty, questions_per_category, answer_seconds, join_pin)` | szoba, opcionális 3 jegyű PIN-nel |
-| `list_open_rooms(limit)` | a nyitott (lobby) szobák – a PIN **soha** nincs benne, csak a `needs_pin` jelző |
+| `list_open_rooms(limit)` | a nyitott (lobby) szobák – a PIN **soha** nincs benne, csak a `needs_pin` jelző; az `i_am_host` megmondja, melyik törölhető |
 | `join_room(room, pin)` | csatlakozás PIN-nel; burkolót ad vissza (lásd lent) |
 | `set_ready(room, ready)` | készenlét |
 | `start_room(room)` | indítás – csak host, min. 2 játékos |
 | **`room_tick(room)`** | **a játékot hajtó RPC**: lezárás, kiesés, továbblépés, majd a teljes állapot |
 | `answer_room_question(room, room_question, answer, ms)` | válasz beküldése – nem adja vissza, hogy jó volt-e |
 | `room_state(room)` | teljes szobaállapot, léptetés nélkül (váróhoz, olvasáshoz) |
+| `close_room(room)` | a szoba megszüntetése – **csak a készítő** vagy admin |
 | `leave_room(room)` | kilépés, host-átadás |
 
 #### A `room_tick()` és a kieséses menet

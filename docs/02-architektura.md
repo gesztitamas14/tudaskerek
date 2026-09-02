@@ -7,7 +7,7 @@
                         │        Supabase           │
    ┌────────────┐       │  Postgres + RLS + RPC     │
    │  PWA       │◄─────►│  Auth (vendég/Google/mail)│
-   │  web/      │  REST │  12 migráció, 27 RPC      │
+   │  web/      │  REST │  13 migráció, 37 RPC      │
    └────────────┘       └─────────────┬─────────────┘
          ▲                            ▲
          │                            │

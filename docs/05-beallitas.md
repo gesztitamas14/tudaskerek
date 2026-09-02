@@ -96,6 +96,7 @@ futtasd le:
 10. `20260901091000_elimination_multiplayer.sql`
 11. `20260901091100_room_list_and_pin.sql`
 12. `20260901091200_google_and_email_auth.sql`
+13. `20260901091300_close_room.sql`
 
 > A sorrend kötelező: a későbbi fájlok az előzők típusaira és függvényeire
 > építenek.
@@ -123,9 +124,13 @@ Aki vendégként kezdett, később megadhat e-mailt és jelszót: **ugyanaz a fi
 marad**, tehát a pontjai és a statisztikája megmaradnak, és felkerül a
 ranglistára.
 
-Authentication → URL Configuration → **Redirect URLs**: add hozzá a publikált
-címet (pl. `https://<felhasznalo>.github.io/tudaskerek/`) és a helyi
-`http://localhost:5173`-at, különben az OAuth visszatérés elutasításra kerül.
+Authentication → URL Configuration – **két** mezőt kell kitölteni:
+
+- **Site URL**: a publikált cím (pl. `https://<felhasznalo>.github.io/tudaskerek/`).
+  A levelekben (e-mail megerősítés, jelszó-visszaállítás) lévő linkek ide
+  mutatnak. A gyári `http://localhost:3000` értéket mindenképp írd át.
+- **Redirect URLs**: ugyanez, plusz a helyi `http://localhost:5173/`. Csak az
+  itt felsorolt címekre engedi a visszatérést.
 
 ### 2.4 Kérdésbank feltöltése
 

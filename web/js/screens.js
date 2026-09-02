@@ -573,7 +573,17 @@ function accountActions(app) {
 
     try {
       if (isGuest) {
-        await app.supabase.upgradeGuest(email, password);
+        const { needsConfirmation } = await app.supabase.upgradeGuest(email, password);
+        if (needsConfirmation) {
+          // A projekten be van kapcsolva az e-mail megerősítés: addig vendég
+          // marad, de a pontjai nem tűnnek el – a fiók ugyanaz.
+          say(
+            'Elküldtünk egy megerősítő levelet erre a címre. Kattints a linkre – ' +
+              'addig vendégként játszhatsz tovább, az eredményeid megmaradnak.',
+            'good'
+          );
+          return;
+        }
         toast('Kész! Az eredményeid megmaradtak.');
       } else if (mode === 'signup') {
         const { needsConfirmation } = await app.supabase.signUpWithEmail(email, password);

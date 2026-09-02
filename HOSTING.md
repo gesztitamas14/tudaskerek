@@ -95,7 +95,7 @@ A `link` elkéri az **adatbázis jelszót** – azt, amit a projekt létrehozás
 megadtál. Ha elveszett: *Settings → Database → Reset database password*.
 
 ```bash
-npx supabase db push          # lefuttatja mind a 12 migrációt
+npx supabase db push          # lefuttatja mind a 13 migrációt
 ```
 
 Ellenőrzés: `npx supabase migration list` – kiírja, melyik migráció futott le
@@ -190,15 +190,27 @@ Aki vendégként kezdett, a Profil lapon megadhat e-mailt és jelszót.
 **Ugyanaz a fiók marad**, tehát a pontjai és a statisztikája megmaradnak – csak
 onnantól felkerül a nyilvános ranglistára is.
 
-### 2.9 Redirect URL
+### 2.9 Site URL és Redirect URLs — ⚠️ ezt könnyű elfelejteni
 
-**Authentication → URL Configuration → Redirect URLs** közé add hozzá a Pages
-címedet (`https://<felhasznalonev>.github.io/tudaskerek/`) és fejlesztéshez a
-`http://localhost:5173`-at. Enélkül a Google-bejelentkezés visszatérését
-elutasítja.
+**Authentication → URL Configuration**
 
-A felület kiírja a hibát: ha az OAuth visszatérés hibával jön, a képernyőn
-megjelenik magyarul, hogy mi hiányzik.
+| Mező | Mit írj be | Miért |
+|---|---|---|
+| **Site URL** | `https://<felhasznalonev>.github.io/tudaskerek/` | ez a **levelekben lévő linkek** célja |
+| **Redirect URLs** | ugyanez + `http://localhost:5173/` | csak az itt felsorolt címekre engedi a visszatérést |
+
+A **Site URL** gyári értéke `http://localhost:3000` — ezért visz a megerősítő
+e-mail egy nem létező helyi szerverre, ha nem írod át. Ez a leggyakoribb
+buktató.
+
+Az alkalmazás minden e-mailes műveletnél megadja, hogy hova térjen vissza
+(`redirect_to`), tehát fejlesztéskor a localhostra, élesben a Pages-címre visz.
+Ez viszont **csak akkor működik, ha a cím szerepel a Redirect URLs listán** —
+különben a Supabase a Site URL-re esik vissza.
+
+A localhost portja `5173`, mert a `node tools/src/serve.mjs web` ezen indul.
+A záró `/` számít; ha bizonytalan vagy, vedd fel a joker alakot is:
+`http://localhost:5173/**`.
 
 ---
 
@@ -242,6 +254,7 @@ de ha hetekre elfelejtitek, ébresztés kell.
 | `Node.js 20 is deprecated` figyelmeztetés | régi action-verziók – a mostani workflow már `@v7` / `@v5`-öt használ |
 | „Backend szükséges” a multiplayernél | `web/js/config.js` nincs kitöltve |
 | A multiplayer nem indul | nincs bekapcsolva a névtelen bejelentkezés (2.5) |
+| A megerősítő e-mail `localhost:3000`-re visz | a **Site URL** gyári értéke maradt (2.9) |
 | `Unsupported provider: missing OAuth secret` | a szolgáltatónál nincs kitöltve a Client Secret (Google: 2.7). Az Apple ki is került a projektből. |
 | Nem hallok hangot | Beállítások → Hang; iPhone-on a **néma kapcsoló** a böngésző hangját is elhallgattatja |
 | Régi verzió jön push után | várj ~1 percet, vagy zárd be és nyisd újra az appot |

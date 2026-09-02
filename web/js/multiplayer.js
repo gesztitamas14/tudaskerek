@@ -62,6 +62,8 @@ export function multiplayerScreen(app) {
   let isWorking = false;
   let openRooms = [];
   let refreshTimer = null;
+  // Ha a belépés eleve nem megy, ezt írjuk ki a lista helyén.
+  let authProblem = null;
 
   const listHost = el('div.room-list');
   const listCard = card([
@@ -87,23 +89,80 @@ export function multiplayerScreen(app) {
 
   // ─────────── belépés ───────────
 
+  /**
+   * A szobákhoz játékosazonosító kell. Ha nincs bejelentkezve, csendben
+   * vendégbelépést próbálunk – de ez a Supabase projekten ki lehet kapcsolva
+   * (`Anonymous sign-ins`). Akkor nem elég egy nyers hibát kiírni: meg kell
+   * mondani, mi a kiút.
+   */
   async function ensureSignedIn() {
-    if (app.supabase.isSignedIn) return true;
+    if (app.supabase.isSignedIn) {
+      authProblem = null;
+      return true;
+    }
     try {
-      // Vendégbelépés: nincs regisztráció, mégis van játékosazonosító, amire
-      // a szobák és a székek hivatkozni tudnak.
       await app.supabase.signInAnonymously();
+      authProblem = null;
       return true;
     } catch (error) {
-      toast(`Vendégbelépés nem sikerült: ${error.message}`, { tone: 'error' });
+      authProblem = signInProblem(error);
       return false;
     }
+  }
+
+  /** A Supabase auth hibái angolul jönnek – a lényegeseket lefordítjuk. */
+  function signInProblem(error) {
+    const raw = String(error?.message ?? error);
+
+    if (/anonymous.*disabled|anonymous_provider_disabled/i.test(raw)) {
+      return {
+        title: 'Jelentkezz be a játékhoz',
+        message:
+          'Ezen a szerveren a vendégjáték ki van kapcsolva, ezért szobához ' +
+          'bejelentkezés kell. A Profil lapon beléphetsz Google-fiókkal vagy ' +
+          'e-maillel – utána visszatérhetsz ide.',
+        // Ez a projekt beállítása, nem a játékos hibája – de a tulajdonosnak
+        // hasznos tudni, hol lehet bekapcsolni.
+        hint: 'A projekt tulajdonosának: Supabase → Authentication → Providers → Anonymous sign-ins.'
+      };
+    }
+    if (/rate limit|too many/i.test(raw)) {
+      return {
+        title: 'Túl sok próbálkozás',
+        message: 'A szerver egy időre visszafogta a belépéseket. Próbáld újra pár perc múlva.'
+      };
+    }
+    if (/failed to fetch|networkerror|network/i.test(raw)) {
+      return {
+        title: 'Nincs kapcsolat',
+        message: 'A többjátékos módhoz internet kell. Az egyjátékos mód offline is működik.'
+      };
+    }
+    return { title: 'Belépés nem sikerült', message: raw };
+  }
+
+  function renderAuthProblem() {
+    clear(listHost);
+    guestNote.hidden = true;
+    listHost.append(
+      stateMessage({
+        icon: '🔒',
+        title: authProblem.title,
+        message: authProblem.message,
+        actionLabel: 'Ugrás a Profil lapra',
+        action: () => app.navigate('profile')
+      }),
+      authProblem.hint ? el('p.muted.small.center', { text: authProblem.hint }) : null
+    );
   }
 
   // ─────────── szobalista ───────────
 
   async function refresh({ silent = false } = {}) {
-    if (!(await ensureSignedIn())) return;
+    if (!(await ensureSignedIn())) {
+      renderAuthProblem();
+      return;
+    }
     guestNote.hidden = !app.supabase.isAnonymous;
     try {
       openRooms = (await app.supabase.rpc('list_open_rooms', { p_limit: 30 })) ?? [];
@@ -127,7 +186,9 @@ export function multiplayerScreen(app) {
 
     for (const item of openRooms) {
       const full = item.player_count >= item.max_players;
-      listHost.append(
+      const row = el('div.room-row');
+
+      row.append(
         el('button.room-item', {
           type: 'button',
           disabled: full && !item.i_am_in,
@@ -144,13 +205,46 @@ export function multiplayerScreen(app) {
               el('span', { text: `${item.rounds_per_player} kör` }),
               el('span', { text: `${item.answer_seconds} mp / kérdés` }),
               item.difficulty ? el('span', { text: fmt.difficulty(item.difficulty) }) : null,
-              item.i_am_in ? el('span.good', { text: 'már bent vagy' }) : null,
+              item.i_am_host ? el('span.gold', { text: 'a te szobád' }) : null,
+              item.i_am_in && !item.i_am_host ? el('span.good', { text: 'már bent vagy' }) : null,
               full && !item.i_am_in ? el('span.warn', { text: 'tele' }) : null
             ])
           ]),
           el('span.room-item-count', { text: `${item.player_count}/${item.max_players}` })
         ])
       );
+
+      // A saját szobát innen is meg lehessen szüntetni.
+      if (item.i_am_host) {
+        row.append(
+          el('button.room-delete', {
+            type: 'button',
+            'aria-label': 'Szoba törlése',
+            title: 'Szoba törlése',
+            text: '✕',
+            on: { click: () => deleteRoom(item) }
+          })
+        );
+      }
+
+      listHost.append(row);
+    }
+  }
+
+  /** A saját szoba megszüntetése a listából. */
+  async function deleteRoom(item) {
+    if (isWorking) return;
+    if (!confirm('Biztosan törlöd a szobát?')) return;
+    isWorking = true;
+    try {
+      await app.supabase.rpc('close_room', { p_room: item.id });
+      haptic(HAPTIC.tap);
+      toast('Szoba törölve.');
+      await refresh({ silent: true });
+    } catch (error) {
+      toast(error.message, { tone: 'error' });
+    } finally {
+      isWorking = false;
     }
   }
 
@@ -498,6 +592,12 @@ export function roomScreen(app, { room: initialRoom }) {
       const rpc = room.status === 'playing' ? 'room_tick' : 'room_state';
       const next = await app.supabase.rpc(rpc, { p_room: room.id });
       applyState(next);
+
+      // Ha közben véget ért vagy bezárták a szobát, nincs mit tovább kérdezni.
+      if (isOver()) {
+        stopPolling();
+        return;
+      }
       restartPollingIfNeeded();
     } catch (error) {
       // Átmeneti hiba: a következő poll újrapróbálja.
@@ -565,6 +665,11 @@ export function roomScreen(app, { room: initialRoom }) {
 
   function pollInterval() {
     return room.status === 'playing' ? POLL_PLAYING_MS : POLL_LOBBY_MS;
+  }
+
+  /** Lezárt szobát nincs értelme tovább kérdezni. */
+  function isOver() {
+    return room.status === 'finished' || room.status === 'cancelled';
   }
 
   function startPolling() {
@@ -701,16 +806,82 @@ export function roomScreen(app, { room: initialRoom }) {
           ? [scoreStrip(), ...playingSections()]
           : [finishedPanel(standings), playerListCard(standings)];
 
+    // A készítő a váróban a szobát is megszüntetheti – különben egy elrontott
+    // beállítású szoba két órán át ott lóg a nyitott szobák listáján.
+    const canClose = isHost() && (room.status === 'lobby' || room.status === 'playing');
+
     sections.push(
       el('div.actions', null, [
         primaryButton(room.status === 'playing' ? 'Kilépés (feladom)' : 'Kilépés a szobából', leave, {
-          tone: 'danger'
-        })
-      ])
+          tone: 'secondary'
+        }),
+        canClose
+          ? primaryButton('Szoba törlése', closeRoom, { tone: 'danger', disabled: isWorking })
+          : null
+      ].filter(Boolean))
     );
 
     body.append(...sections.filter(Boolean));
     updateClockUi();
+  }
+
+  /**
+   * A váró műveletei.
+   *
+   * A hostnak indítás + szobatörlés, a többieknek „készen állok”. A gomb
+   * elrejtése nem védelem: a `start_room` és a `close_room` szerveroldalon is
+   * ellenőrzi, hogy a hívó a szoba készítője-e.
+   */
+  function lobbyActions() {
+    const playerCount = activePlayers().length;
+    const canStart = playerCount >= 2;
+
+    if (!isHost()) {
+      return el('div.actions', null, [
+        primaryButton(amIReady() ? 'Mégsem vagyok kész' : 'Készen állok', toggleReady, {
+          tone: amIReady() ? 'secondary' : 'primary',
+          disabled: isWorking
+        }),
+        el('p.muted.small.center', {
+          text: 'A szoba létrehozója indítja a játékot.'
+        })
+      ]);
+    }
+
+    return el('div.actions', null, [
+      primaryButton('Játék indítása', startRoom, {
+        tone: 'gold',
+        disabled: !canStart || isWorking
+      }),
+      canStart
+        ? el('p.muted.small.center', {
+            text: `${playerCount} játékos a szobában. Bármikor indíthatsz.`
+          })
+        : el('p.muted.small.center', {
+            text: room.has_pin
+              ? 'Legalább két játékos kell. Mondd be a PIN-t – a szobád a „Nyitott szobák” listában van.'
+              : 'Legalább két játékos kell. A szobád a „Nyitott szobák” listában van.'
+          })
+    ]);
+  }
+
+  /** A szoba megszüntetése – csak a készítő. */
+  async function closeRoom() {
+    if (isWorking) return;
+    if (!confirm('Biztosan törlöd a szobát? A többiek kikerülnek belőle.')) return;
+
+    isWorking = true;
+    stopPolling();
+    try {
+      await app.supabase.rpc('close_room', { p_room: room.id });
+      haptic(HAPTIC.tap);
+      toast('Szoba törölve.');
+      app.navigate('multiplayer');
+    } catch (error) {
+      toast(error.message, { tone: 'error' });
+      isWorking = false;
+      startPolling();
+    }
   }
 
   /**

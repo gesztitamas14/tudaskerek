@@ -154,7 +154,7 @@ mindkét módot, és nem kell ismernie a helyes választ.
 | 2 | Kerék UI és fizikai lassulású pörgetés | ✅ |
 | 3 | Kérdés UI, `GameEngine`, kör lezárás | ✅ |
 | 4 | Lokális kérdésbank (1157 kérdés, 22 kategória) | ✅ |
-| 5 | Supabase séma, RLS, 25 RPC | ✅ |
+| 5 | Supabase séma, RLS, 37 RPC | ✅ |
 | 6 | Auth: vendég mód, Google OAuth, e-mail/jelszó | ✅ |
 | 7 | Admin felület, AI pipeline, dedup, fact-check | ✅ |
 | 8 | Offline cache, kimenő sor, szinkronizálás | ✅ |

@@ -176,6 +176,7 @@ Ezt illeszd be a **SQL Editor → New query** ablakba, és futtasd egyszerre.
 20260901091000_elimination_multiplayer.sql
 20260901091100_room_list_and_pin.sql
 20260901091200_google_and_email_auth.sql
+20260901091300_close_room.sql
 ```
 
 ### 2.3 A kérdések feltöltése
@@ -231,9 +232,17 @@ Aki vendégként kezdett, később megadhat e-mailt és jelszót: **ugyanaz a fi
 marad**, tehát a pontjai és a statisztikája megmaradnak, és felkerül a
 ranglistára.
 
-**Authentication → URL Configuration → Redirect URLs:** add hozzá a Pages
-címedet (`https://<felhasznalo>.github.io/tudaskerek/`), különben a Google
-bejelentkezés visszatérése elutasításra kerül.
+**Authentication → URL Configuration** – két külön mező, mindkettő kell:
+
+- **Site URL:** a Pages-címed (`https://<felhasznalo>.github.io/tudaskerek/`).
+  Ez a **levelekben lévő linkek** célja. A gyári érték `http://localhost:3000`,
+  ezért visz a megerősítő e-mail egy nem létező helyi szerverre, ha nem írod át.
+- **Redirect URLs:** ugyanez a cím, plusz fejlesztéshez
+  `http://localhost:5173/`. Csak az itt felsoroltakra engedi a visszatérést.
+
+Az alkalmazás minden e-mailes műveletnél megadja a visszatérési címet
+(`redirect_to`), de ez csak akkor érvényesül, ha a cím szerepel a Redirect URLs
+listán – különben a Supabase a Site URL-re esik vissza.
 
 ---
 
