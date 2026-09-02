@@ -1,0 +1,566 @@
+{
+  "category": "cegek-markak",
+  "default_source": null,
+  "questions": [
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Agence France-Presse?",
+      "a": [
+        "médiaipar",
+        "news media",
+        "filmipar",
+        "aggregator"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Agence France-Presse iparága: médiaipar.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q40464"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: Petrobras?",
+      "a": [
+        "2000-es évek",
+        "1890-es évek",
+        "1850-es évek",
+        "1950-es évek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Petrobras alapítása: 1950-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q210047"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Associated Press?",
+      "a": [
+        "news media",
+        "pornóipar",
+        "aggregator",
+        "kiadás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Associated Press iparága: news media.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q40469"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: American International Group?",
+      "a": [
+        "1980-es évek",
+        "1910-es évek",
+        "1970-es évek",
+        "1860-es évek"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "American International Group alapítása: 1910-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q212235"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Australian Associated Press?",
+      "a": [
+        "photo agency",
+        "tömegközlekedés",
+        "hírügynökség",
+        "sörgyártás"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Australian Associated Press iparága: hírügynökség.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q83728"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: Avaya?",
+      "a": [
+        "2010-es évek",
+        "1870-es évek",
+        "1990-es évek",
+        "2000-es évek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Avaya alapítása: 2000-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q212433"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Reuters?",
+      "a": [
+        "news media",
+        "dairying",
+        "távközlés",
+        "photo agency"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Reuters iparága: távközlés.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q130879"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: ConocoPhillips?",
+      "a": [
+        "1850-es évek",
+        "1920-es évek",
+        "1900-es évek",
+        "1870-es évek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "ConocoPhillips alapítása: 1870-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q214763"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Xinhua hírügynökség?",
+      "a": [
+        "dairying",
+        "italipar",
+        "médiaipar",
+        "tömegmédia"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Xinhua hírügynökség iparága: médiaipar.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q204839"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: Berkshire Hathaway?",
+      "a": [
+        "1890-es évek",
+        "2000-es évek",
+        "1900-es évek",
+        "1950-es évek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Berkshire Hathaway alapítása: 1950-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q217583"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Press Trust of India?",
+      "a": [
+        "televízió",
+        "news media",
+        "gasztronómia",
+        "aggregator"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Press Trust of India iparága: news media.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q268897"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: Citigroup?",
+      "a": [
+        "1970-es évek",
+        "1960-es évek",
+        "1990-es évek",
+        "1950-es évek"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Citigroup alapítása: 1990-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q219508"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: German Press Agency?",
+      "a": [
+        "médiaipar",
+        "news media",
+        "dairy industry",
+        "aggregator"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "German Press Agency iparága: news media.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q312653"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: BlackRock?",
+      "a": [
+        "1970-es évek",
+        "1960-es évek",
+        "1980-es évek",
+        "1890-es évek"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "BlackRock alapítása: 1980-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q219635"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Koreai Központi Hírügynökség?",
+      "a": [
+        "hír",
+        "sörgyártás",
+        "médiaipar",
+        "kiadás"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Koreai Központi Hírügynökség iparága: kiadás.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q326804"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: DuPont?",
+      "a": [
+        "2010-es évek",
+        "1930-es évek",
+        "1910-es évek",
+        "1860-es évek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "DuPont alapítása: 2010-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q221062"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Tanjug?",
+      "a": [
+        "újságírás",
+        "médiaipar",
+        "photo agency",
+        "filmipar"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Tanjug iparága: médiaipar.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q371267"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: Celestica?",
+      "a": [
+        "1990-es évek",
+        "1960-es évek",
+        "1940-es évek",
+        "1890-es évek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Celestica alapítása: 1990-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q225440"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Interfax?",
+      "a": [
+        "news media",
+        "újságírás",
+        "pornóipar",
+        "filmkészítés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Interfax iparága: news media.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q379271"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: Merck & Co.?",
+      "a": [
+        "1930-es évek",
+        "1890-es évek",
+        "1880-es évek",
+        "1990-es évek"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Merck & Co. alapítása: 1890-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q247489"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Agenzia Nazionale Stampa Associata?",
+      "a": [
+        "photo agency",
+        "filmipar",
+        "szoftveripar",
+        "news media"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Agenzia Nazionale Stampa Associata iparága: news media.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q392934"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: Dolby?",
+      "a": [
+        "1920-es évek",
+        "1960-es évek",
+        "2010-es évek",
+        "2000-es évek"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Dolby alapítása: 1960-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q261288"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Anadolu Agency?",
+      "a": [
+        "televízió",
+        "hírügynökség",
+        "news media",
+        "kiadás"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Anadolu Agency iparága: news media.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q477436"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: Turkcell?",
+      "a": [
+        "1990-es évek",
+        "2010-es évek",
+        "1850-es évek",
+        "1870-es évek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Turkcell alapítása: 1990-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q283852"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: United Press International?",
+      "a": [
+        "pornóipar",
+        "photo agency",
+        "újságírás",
+        "filmipar"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "United Press International iparága: újságírás.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q493845"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: Aegon?",
+      "a": [
+        "1890-es évek",
+        "1860-es évek",
+        "1950-es évek",
+        "1980-es évek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Aegon alapítása: 1980-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q291171"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Antara?",
+      "a": [
+        "logisztika",
+        "hírügynökség",
+        "kábeltelevízió",
+        "taxiszolgáltatás"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Antara iparága: hírügynökség.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q571116"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: AES Corporation?",
+      "a": [
+        "1920-es évek",
+        "1870-es évek",
+        "2000-es évek",
+        "1980-es évek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "AES Corporation alapítása: 1980-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q291508"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Islamic Republic News Agency?",
+      "a": [
+        "aggregator",
+        "forgalmazás",
+        "médiaipar",
+        "televízió"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Islamic Republic News Agency iparága: médiaipar.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q649695"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: AGCO?",
+      "a": [
+        "1990-es évek",
+        "1860-es évek",
+        "1850-es évek",
+        "1980-es évek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "AGCO alapítása: 1990-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q292292"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Allgemeiner Deutscher Nachrichtendienst?",
+      "a": [
+        "television production",
+        "vasúti közlekedés",
+        "news media",
+        "hír"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Allgemeiner Deutscher Nachrichtendienst iparága: hír.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q665940"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: AMC Theatres?",
+      "a": [
+        "1920-es évek",
+        "1860-es évek",
+        "1950-es évek",
+        "1870-es évek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "AMC Theatres alapítása: 1920-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q294721"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Jewish Telegraphic Agency?",
+      "a": [
+        "hírügynökség",
+        "dairying",
+        "news media",
+        "kiadás"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Jewish Telegraphic Agency iparága: news media.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q666186"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: AUO Corporation?",
+      "a": [
+        "1970-es évek",
+        "1940-es évek",
+        "1850-es évek",
+        "2000-es évek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "AUO Corporation alapítása: 2000-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q300120"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Austria Presse Agentur?",
+      "a": [
+        "filmipar",
+        "újságírás",
+        "televízió",
+        "étteremipar"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Austria Presse Agentur iparága: újságírás.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q680662"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: Sprint Corporation?",
+      "a": [
+        "1940-es évek",
+        "1980-es évek",
+        "1990-es évek",
+        "1890-es évek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Sprint Corporation alapítása: 1890-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q301965"
+    },
+    {
+      "q": "Melyik iparágban működik a következő vállalat: Kyodo News?",
+      "a": [
+        "filmforgalmazás",
+        "sörfőzde",
+        "hírügynökség",
+        "show-biznisz"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Kyodo News iparága: hírügynökség.",
+      "t": "iparágak",
+      "s": "http://www.wikidata.org/entity/Q779730"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: IQVIA Holdings, Inc.?",
+      "a": [
+        "1980-es évek",
+        "2010-es évek",
+        "1970-es évek",
+        "1860-es évek"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "IQVIA Holdings, Inc. alapítása: 2010-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q305473"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: Abbott Laboratories?",
+      "a": [
+        "1930-es évek",
+        "1950-es évek",
+        "1880-es évek",
+        "2010-es évek"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Abbott Laboratories alapítása: 1880-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q306764"
+    },
+    {
+      "q": "Melyik évtizedben alapították a következő vállalatot: Qiagen?",
+      "a": [
+        "1860-es évek",
+        "1980-es évek",
+        "1880-es évek",
+        "1960-es évek"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Qiagen alapítása: 1980-es évek.",
+      "t": "cégek alapítása",
+      "s": "http://www.wikidata.org/entity/Q315287"
+    }
+  ]
+}

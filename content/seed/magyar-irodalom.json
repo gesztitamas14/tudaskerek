@@ -2,61 +2,733 @@
   "category": "magyar-irodalom",
   "default_source": "saját szerkesztés (általános műveltségi tananyag)",
   "questions": [
-    {"q": "Ki írta a Nemzeti dal című költeményt?", "a": ["Petőfi Sándor", "Arany János", "Vörösmarty Mihály", "Kölcsey Ferenc"], "c": 0, "d": "easy", "e": "Petőfi 1848. március 13-án írta, két nappal a forradalom kitörése előtt.", "t": "Petőfi"},
-    {"q": "Melyik mű kezdődik így: „Talpra magyar, hí a haza!”?", "a": ["Szózat", "Nemzeti dal", "Himnusz", "A Tisza"], "c": 1, "d": "easy", "e": "A Nemzeti dal nyitó sora a magyar forradalmi líra legismertebb kezdete.", "t": "Petőfi"},
-    {"q": "Ki írta a Himnusz szövegét?", "a": ["Vörösmarty Mihály", "Kölcsey Ferenc", "Petőfi Sándor", "Berzsenyi Dániel"], "c": 1, "d": "easy", "e": "Kölcsey Ferenc 1823-ban írta Szatmárcsekén; a zenét Erkel Ferenc szerezte.", "t": "Kölcsey"},
-    {"q": "Ki írta a Szózat című költeményt?", "a": ["Kölcsey Ferenc", "Vörösmarty Mihály", "Arany János", "Tompa Mihály"], "c": 1, "d": "easy", "e": "Vörösmarty Mihály 1836-os verse a magyar nemzeti líra másik alapműve.", "t": "Vörösmarty"},
-    {"q": "Melyik Petőfi-mű főszereplője Kukorica Jancsi?", "a": ["Az apostol", "János vitéz", "A helység kalapácsa", "Bolond Istók"], "c": 1, "d": "easy", "e": "A János vitéz 1844-es elbeszélő költemény, népmesei elemekkel.", "t": "Petőfi"},
-    {"q": "Ki írta a Toldi című elbeszélő költeményt?", "a": ["Petőfi Sándor", "Arany János", "Vörösmarty Mihály", "Gárdonyi Géza"], "c": 1, "d": "easy", "e": "Arany János 1846-ban készült el a Toldival, amellyel pályadíjat nyert.", "t": "Arany"},
-    {"q": "Ki Toldi Miklós ellenlábasa a testvérek közül?", "a": ["Toldi György", "Toldi Lőrinc", "Bence", "Tar Lőrinc"], "c": 0, "d": "medium", "e": "Toldi György a királyi udvarban élő idősebb testvér, aki elnyomja Miklóst.", "t": "Arany"},
-    {"q": "Ki Toldi Miklós hűséges szolgája?", "a": ["Bence", "Miklós", "Gergő", "Dani"], "c": 0, "d": "medium", "e": "Bence a család öreg szolgája, aki követi és segíti Miklóst.", "t": "Arany"},
-    {"q": "Melyik Arany-ballada főszereplője bűntudatában megőrül?", "a": ["Ágnes asszony", "Szondi két apródja", "A walesi bárdok", "Tetemre hívás"], "c": 0, "d": "medium", "e": "Ágnes asszony a férje meggyilkolása után a patakban örökké a lepedőt mossa.", "t": "Arany"},
-    {"q": "Melyik Arany-ballada szól az énekesek dacos ellenállásáról egy hódító királlyal szemben?", "a": ["A walesi bárdok", "Ágnes asszony", "Mátyás anyja", "V. László"], "c": 0, "d": "easy", "e": "A walesi bárdok allegorikusan az 1850-es évek magyar helyzetére utal.", "t": "Arany"},
-    {"q": "Ki írta Az ember tragédiája című drámai költeményt?", "a": ["Madách Imre", "Katona József", "Vörösmarty Mihály", "Csokonai Vitéz Mihály"], "c": 0, "d": "easy", "e": "Madách Imre műve 1861-ben készült el, tizenöt színből áll.", "t": "Madách"},
-    {"q": "Ki írta a Bánk bán című drámát?", "a": ["Madách Imre", "Katona József", "Kisfaludy Károly", "Szigligeti Ede"], "c": 1, "d": "easy", "e": "Katona József 1815-ben írta; Erkel Ferenc operát is komponált belőle.", "t": "Katona"},
-    {"q": "Melyik regény főszereplője Timár Mihály?", "a": ["Az arany ember", "A kőszívű ember fiai", "Egy magyar nábob", "Fekete gyémántok"], "c": 0, "d": "medium", "e": "Az arany ember Jókai Mór 1872-es regénye, a Senki szigetének történetével.", "t": "Jókai"},
-    {"q": "Melyik Jókai-regény szereplője Baradlay Richárd?", "a": ["A kőszívű ember fiai", "Az új földesúr", "Egy magyar nábob", "A jövő század regénye"], "c": 0, "d": "medium", "e": "A kőszívű ember fiai a Baradlay család 1848–49-es történetét mondja el.", "t": "Jókai"},
-    {"q": "Ki írta az Egri csillagok című regényt?", "a": ["Jókai Mór", "Gárdonyi Géza", "Mikszáth Kálmán", "Móricz Zsigmond"], "c": 1, "d": "easy", "e": "Gárdonyi Géza 1899-es regénye Eger 1552-es ostromát dolgozza fel.", "t": "Gárdonyi"},
-    {"q": "Ki az Egri csillagok főszereplője?", "a": ["Bornemissza Gergely", "Dobó István", "Toldi Miklós", "Baradlay Ödön"], "c": 0, "d": "easy", "e": "Bornemissza Gergely a regény központi hőse, mellette Cecey Éva a másik főszereplő.", "t": "Gárdonyi"},
-    {"q": "Melyik regényben szerepel a Pál utcai grund?", "a": ["A Pál utcai fiúk", "Légy jó mindhalálig", "Tüskevár", "Kincskereső kisködmön"], "c": 0, "d": "easy", "e": "Molnár Ferenc 1907-es regénye a grundért folytatott küzdelemről szól.", "t": "Molnár"},
-    {"q": "Ki írta a Légy jó mindhalálig című regényt?", "a": ["Móra Ferenc", "Móricz Zsigmond", "Molnár Ferenc", "Kosztolányi Dezső"], "c": 1, "d": "medium", "e": "Móricz Zsigmond regényének főszereplője Nyilas Misi debreceni diák.", "t": "Móricz"},
-    {"q": "Ki a Légy jó mindhalálig főszereplője?", "a": ["Nyilas Misi", "Nemecsek Ernő", "Tüskevári Tutajos", "Gergő"], "c": 0, "d": "medium", "e": "Nyilas Misi a debreceni kollégium szegény diákja.", "t": "Móricz"},
-    {"q": "Melyik Mikszáth-regény témája egy érvénytelenné tett egyházi esküvő?", "a": ["Különös házasság", "Szent Péter esernyője", "A Noszty fiú esete Tóth Marival", "Beszterce ostroma"], "c": 0, "d": "medium", "e": "A Különös házasság 1900-ban jelent meg, Buttler János gróf esete alapján.", "t": "Mikszáth"},
-    {"q": "Ki írta a Szent Péter esernyője című regényt?", "a": ["Mikszáth Kálmán", "Jókai Mór", "Gárdonyi Géza", "Krúdy Gyula"], "c": 0, "d": "medium", "e": "Mikszáth 1895-es regénye anekdotázó, humoros hangvételű.", "t": "Mikszáth"},
-    {"q": "Melyik folyóirat volt a 20. század eleji magyar irodalmi modernség fő fóruma?", "a": ["Nyugat", "Athenaeum", "Élet és Irodalom", "Kortárs"], "c": 0, "d": "medium", "e": "A Nyugat 1908-ban indult, Ady, Babits, Móricz és Kosztolányi nemzedékének lapja volt.", "t": "Nyugat"},
-    {"q": "Melyik Ady-kötet indította el a költő országos ismertségét 1906-ban?", "a": ["Új versek", "Vér és arany", "Az Illés szekerén", "A halottak élén"], "c": 0, "d": "hard", "e": "Az Új versek kötet a Góg és Magóg fia vagyok én című programverssel indul.", "t": "Ady"},
-    {"q": "Melyik költő verse A Sion-hegy alatt?", "a": ["Ady Endre", "Babits Mihály", "Juhász Gyula", "Tóth Árpád"], "c": 0, "d": "hard", "e": "Ady istenes verseinek egyik legismertebb darabja.", "t": "Ady"},
-    {"q": "Ki írta a Jónás könyve című művet?", "a": ["Babits Mihály", "Ady Endre", "József Attila", "Radnóti Miklós"], "c": 0, "d": "medium", "e": "Babits 1938-as műve a próféta felelősségéről szól a háború árnyékában.", "t": "Babits"},
-    {"q": "Ki írta az Édes Anna című regényt?", "a": ["Kosztolányi Dezső", "Móricz Zsigmond", "Németh László", "Krúdy Gyula"], "c": 0, "d": "medium", "e": "Kosztolányi 1926-os regénye egy cselédlány tragédiáját írja meg.", "t": "Kosztolányi"},
-    {"q": "Melyik Kosztolányi-mű főszereplője egy vidéki család vak lánya?", "a": ["Pacsirta", "Aranysárkány", "Nero, a véres költő", "Esti Kornél"], "c": 0, "d": "hard", "e": "A Pacsirta 1924-es kisregény a sárszegi Vajkay család életéről.", "t": "Kosztolányi"},
-    {"q": "Kihez kötődik az Esti Kornél alakja?", "a": ["Kosztolányi Dezsőhöz", "Krúdy Gyulához", "Karinthy Frigyeshez", "Márai Sándorhoz"], "c": 0, "d": "medium", "e": "Esti Kornél Kosztolányi novellafüzérének visszatérő alteregója.", "t": "Kosztolányi"},
-    {"q": "Ki írta az Így írtok ti című irodalmi paródiakötetet?", "a": ["Karinthy Frigyes", "Nagy Lajos", "Rejtő Jenő", "Heltai Jenő"], "c": 0, "d": "medium", "e": "Karinthy 1912-es kötete a kortárs írókat parodizálja.", "t": "Karinthy"},
-    {"q": "Melyik regény szerzője Karinthy Frigyes?", "a": ["Utazás a koponyám körül", "Utazás a Holdba", "A rossz orvos", "Szindbád"], "c": 0, "d": "medium", "e": "Az Utazás a koponyám körül a szerző agyműtétjének önéletrajzi feldolgozása.", "t": "Karinthy"},
-    {"q": "Melyik költő írta a Nem tudhatom… kezdetű verset?", "a": ["Radnóti Miklós", "József Attila", "Illyés Gyula", "Szabó Lőrinc"], "c": 0, "d": "medium", "e": "Radnóti 1944-es verse a szülőföldhöz való kötődésről szól.", "t": "Radnóti"},
-    {"q": "Hol találták meg Radnóti Miklós utolsó verseit?", "a": ["Bori notesz nevű zsebkönyvében", "Egy pesti lakásban", "Egy müncheni levéltárban", "Egy kolozsvári kéziratban"], "c": 0, "d": "hard", "e": "A Bori noteszt a költő kabátjában találták meg exhumálásakor 1946-ban.", "t": "Radnóti"},
-    {"q": "Melyik József Attila-vers kezdődik így: „Mama”?", "a": ["Mama", "Óda", "Tiszta szívvel", "Kései sirató"], "c": 0, "d": "medium", "e": "A Mama 1934-es vers a költő korán elhunyt édesanyjáról.", "t": "József Attila"},
-    {"q": "Melyik vers miatt zárták ki József Attilát a szegedi egyetemről?", "a": ["Tiszta szívvel", "Óda", "Munkások", "Levegőt!"], "c": 0, "d": "hard", "e": "A Tiszta szívvel című vers után Horger Antal professzor közölte, hogy nem lehet tanár.", "t": "József Attila"},
-    {"q": "Melyik költő írta az Óda című verset, amely a szerelem testi és szellemi élményét egyesíti?", "a": ["József Attila", "Ady Endre", "Vörösmarty Mihály", "Tóth Árpád"], "c": 0, "d": "medium", "e": "Az Óda 1933-ban Lillafüreden született.", "t": "József Attila"},
-    {"q": "Ki írta A Gyertyák csonkig égnek című regényt?", "a": ["Márai Sándor", "Szerb Antal", "Németh László", "Ottlik Géza"], "c": 0, "d": "medium", "e": "Márai Sándor 1942-es regénye két öreg barát éjszakai számadása.", "t": "Márai"},
-    {"q": "Ki írta az Utas és holdvilág című regényt?", "a": ["Szerb Antal", "Márai Sándor", "Kosztolányi Dezső", "Krúdy Gyula"], "c": 0, "d": "medium", "e": "Szerb Antal 1937-es regénye Mihály itáliai útjáról és önkereséséről szól.", "t": "Szerb Antal"},
-    {"q": "Ki írta az Iskola a határon című regényt?", "a": ["Ottlik Géza", "Mészöly Miklós", "Déry Tibor", "Sarkadi Imre"], "c": 0, "d": "medium", "e": "Ottlik Géza 1959-es regénye egy katonai alreáliskola világát ábrázolja.", "t": "Ottlik"},
-    {"q": "Melyik magyar író kapott irodalmi Nobel-díjat 2002-ben?", "a": ["Kertész Imre", "Esterházy Péter", "Nádas Péter", "Krasznahorkai László"], "c": 0, "d": "easy", "e": "Kertész Imre a Sorstalanság szerzője, 2002-ben kapta a Nobel-díjat.", "t": "Nobel-díj"},
-    {"q": "Melyik regényért ismert leginkább Kertész Imre?", "a": ["Sorstalanság", "Kaddis a meg nem született gyermekért", "Az angol lobogó", "A kudarc"], "c": 0, "d": "medium", "e": "A Sorstalanság 1975-ben jelent meg, egy fiú koncentrációs táborbeli sorsáról.", "t": "Nobel-díj"},
-    {"q": "Melyik magyar szerző kapott irodalmi Nobel-díjat 2025-ben?", "a": ["Krasznahorkai László", "Nádas Péter", "Tolnai Ottó", "Bartis Attila"], "c": 0, "d": "medium", "e": "Krasznahorkai László a Sátántangó és Az ellenállás melankóliája szerzője.", "t": "Nobel-díj"},
-    {"q": "Ki írta a Sátántangó című regényt?", "a": ["Krasznahorkai László", "Esterházy Péter", "Bodor Ádám", "Darvasi László"], "c": 0, "d": "medium", "e": "Az 1985-es regényből Tarr Béla készített nagy hatású filmet.", "t": "kortárs irodalom"},
-    {"q": "Ki írta a Harmonia caelestis című művet?", "a": ["Esterházy Péter", "Nádas Péter", "Kertész Imre", "Spiró György"], "c": 0, "d": "medium", "e": "Esterházy Péter 2000-es családregénye a saját felmenőit írja meg.", "t": "kortárs irodalom"},
-    {"q": "Ki írta az Emlékiratok könyve című nagyregényt?", "a": ["Nádas Péter", "Esterházy Péter", "Mészöly Miklós", "Konrád György"], "c": 0, "d": "hard", "e": "Nádas Péter 1986-os regénye a magyar próza egyik legterjedelmesebb műve.", "t": "kortárs irodalom"},
-    {"q": "Melyik kalandregény-szerző írói neve Rejtő Jenő?", "a": ["P. Howard", "Mark Twain", "Sir Arthur", "H. Rider"], "c": 0, "d": "medium", "e": "Rejtő Jenő P. Howard néven jelentette meg a legtöbb humoros ponyváját.", "t": "Rejtő"},
-    {"q": "Melyik Rejtő-mű címe utal egy légiós alakulatra?", "a": ["A tizennégy karátos autó", "Piszkos Fred, a kapitány", "Az elátkozott part", "A szőke ciklon"], "c": 2, "d": "hard", "e": "Az elátkozott part az idegenlégiós regények egyik legismertebb darabja.", "t": "Rejtő"},
-    {"q": "Ki írta a Tüskevár című ifjúsági regényt?", "a": ["Fekete István", "Móra Ferenc", "Szabó Magda", "Gárdonyi Géza"], "c": 0, "d": "easy", "e": "Fekete István 1957-es regénye a Kis-Balaton világában játszódik.", "t": "Fekete István"},
-    {"q": "Ki írta az Abigél című regényt?", "a": ["Szabó Magda", "Jókai Anna", "Németh László", "Kaffka Margit"], "c": 0, "d": "medium", "e": "Szabó Magda 1970-es regénye egy debreceni leánykollégiumban játszódik a háború alatt.", "t": "Szabó Magda"},
-    {"q": "Melyik Szabó Magda-regény kapott Femina-díjat Franciaországban?", "a": ["Az ajtó", "Abigél", "Für Elise", "Ókút"], "c": 0, "d": "hard", "e": "Az ajtó Szeredás Emerenc és az írónő viszonyát mutatja be.", "t": "Szabó Magda"},
-    {"q": "Ki írta a Kincskereső kisködmön című mesekönyvet?", "a": ["Móra Ferenc", "Gárdonyi Géza", "Fekete István", "Benedek Elek"], "c": 0, "d": "easy", "e": "Móra Ferenc 1918-as műve Gergő történetét mondja el.", "t": "Móra"},
-    {"q": "Melyik költő nevéhez fűződik A vén cigány című vers?", "a": ["Vörösmarty Mihály", "Petőfi Sándor", "Arany János", "Berzsenyi Dániel"], "c": 0, "d": "hard", "e": "Vörösmarty 1854-es kései verse az önkényuralom idejének létösszegzése.", "t": "Vörösmarty"},
-    {"q": "Ki írta a Csongor és Tünde című mesedrámát?", "a": ["Vörösmarty Mihály", "Madách Imre", "Katona József", "Kisfaludy Sándor"], "c": 0, "d": "medium", "e": "Vörösmarty 1830-as mesedrámája a boldogság keresésének filozófiai játéka.", "t": "Vörösmarty"},
-    {"q": "Melyik költő írta a Reményhez című verset?", "a": ["Csokonai Vitéz Mihály", "Kölcsey Ferenc", "Berzsenyi Dániel", "Batsányi János"], "c": 0, "d": "hard", "e": "Csokonai a Lilla-szerelem elvesztése után írta a Reményhez című dalt.", "t": "felvilágosodás"},
-    {"q": "Ki volt a magyar nyelvújítás vezéralakja?", "a": ["Kazinczy Ferenc", "Révai Miklós", "Verseghy Ferenc", "Bessenyei György"], "c": 0, "d": "medium", "e": "Kazinczy Ferenc irányította a nyelvújítási mozgalmat a 19. század elején.", "t": "nyelvújítás"},
-    {"q": "Melyik Örkény-műfaj az „egyperces”?", "a": ["Rövid, csattanós próza", "Egyfelvonásos dráma", "Szonettforma", "Rádiójáték"], "c": 0, "d": "medium", "e": "Örkény István egyperces novellái a groteszk magyar próza jellegzetes darabjai.", "t": "Örkény"},
-    {"q": "Melyik Örkény-dráma játszódik egy kivégzésre készülő család körül?", "a": ["Tóték", "Macskajáték", "Pisti a vérzivatarban", "Kulcskeresők"], "c": 0, "d": "hard", "e": "A Tóték a groteszk hatalomkritika klasszikus magyar drámája.", "t": "Örkény"}
+    {
+      "q": "Ki írta a Nemzeti dal című költeményt?",
+      "a": [
+        "Petőfi Sándor",
+        "Arany János",
+        "Vörösmarty Mihály",
+        "Kölcsey Ferenc"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Petőfi 1848. március 13-án írta, két nappal a forradalom kitörése előtt.",
+      "t": "Petőfi"
+    },
+    {
+      "q": "Melyik mű kezdődik így: „Talpra magyar, hí a haza!”?",
+      "a": [
+        "Szózat",
+        "Nemzeti dal",
+        "Himnusz",
+        "A Tisza"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "A Nemzeti dal nyitó sora a magyar forradalmi líra legismertebb kezdete.",
+      "t": "Petőfi"
+    },
+    {
+      "q": "Ki írta a Himnusz szövegét?",
+      "a": [
+        "Vörösmarty Mihály",
+        "Kölcsey Ferenc",
+        "Petőfi Sándor",
+        "Berzsenyi Dániel"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "Kölcsey Ferenc 1823-ban írta Szatmárcsekén; a zenét Erkel Ferenc szerezte.",
+      "t": "Kölcsey"
+    },
+    {
+      "q": "Ki írta a Szózat című költeményt?",
+      "a": [
+        "Kölcsey Ferenc",
+        "Vörösmarty Mihály",
+        "Arany János",
+        "Tompa Mihály"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "Vörösmarty Mihály 1836-os verse a magyar nemzeti líra másik alapműve.",
+      "t": "Vörösmarty"
+    },
+    {
+      "q": "Melyik Petőfi-mű főszereplője Kukorica Jancsi?",
+      "a": [
+        "Az apostol",
+        "János vitéz",
+        "A helység kalapácsa",
+        "Bolond Istók"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "A János vitéz 1844-es elbeszélő költemény, népmesei elemekkel.",
+      "t": "Petőfi"
+    },
+    {
+      "q": "Ki írta a Toldi című elbeszélő költeményt?",
+      "a": [
+        "Petőfi Sándor",
+        "Arany János",
+        "Vörösmarty Mihály",
+        "Gárdonyi Géza"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "Arany János 1846-ban készült el a Toldival, amellyel pályadíjat nyert.",
+      "t": "Arany"
+    },
+    {
+      "q": "Ki Toldi Miklós ellenlábasa a testvérek közül?",
+      "a": [
+        "Toldi György",
+        "Toldi Lőrinc",
+        "Bence",
+        "Tar Lőrinc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Toldi György a királyi udvarban élő idősebb testvér, aki elnyomja Miklóst.",
+      "t": "Arany"
+    },
+    {
+      "q": "Ki Toldi Miklós hűséges szolgája?",
+      "a": [
+        "Bence",
+        "Miklós",
+        "Gergő",
+        "Dani"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bence a család öreg szolgája, aki követi és segíti Miklóst.",
+      "t": "Arany"
+    },
+    {
+      "q": "Melyik Arany-ballada főszereplője bűntudatában megőrül?",
+      "a": [
+        "Ágnes asszony",
+        "Szondi két apródja",
+        "A walesi bárdok",
+        "Tetemre hívás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ágnes asszony a férje meggyilkolása után a patakban örökké a lepedőt mossa.",
+      "t": "Arany"
+    },
+    {
+      "q": "Melyik Arany-ballada szól az énekesek dacos ellenállásáról egy hódító királlyal szemben?",
+      "a": [
+        "A walesi bárdok",
+        "Ágnes asszony",
+        "Mátyás anyja",
+        "V. László"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A walesi bárdok allegorikusan az 1850-es évek magyar helyzetére utal.",
+      "t": "Arany"
+    },
+    {
+      "q": "Ki írta Az ember tragédiája című drámai költeményt?",
+      "a": [
+        "Madách Imre",
+        "Katona József",
+        "Vörösmarty Mihály",
+        "Csokonai Vitéz Mihály"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Madách Imre műve 1861-ben készült el, tizenöt színből áll.",
+      "t": "Madách"
+    },
+    {
+      "q": "Ki írta a Bánk bán című drámát?",
+      "a": [
+        "Madách Imre",
+        "Katona József",
+        "Kisfaludy Károly",
+        "Szigligeti Ede"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "Katona József 1815-ben írta; Erkel Ferenc operát is komponált belőle.",
+      "t": "Katona"
+    },
+    {
+      "q": "Melyik regény főszereplője Timár Mihály?",
+      "a": [
+        "Az arany ember",
+        "A kőszívű ember fiai",
+        "Egy magyar nábob",
+        "Fekete gyémántok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az arany ember Jókai Mór 1872-es regénye, a Senki szigetének történetével.",
+      "t": "Jókai"
+    },
+    {
+      "q": "Melyik Jókai-regény szereplője Baradlay Richárd?",
+      "a": [
+        "A kőszívű ember fiai",
+        "Az új földesúr",
+        "Egy magyar nábob",
+        "A jövő század regénye"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kőszívű ember fiai a Baradlay család 1848–49-es történetét mondja el.",
+      "t": "Jókai"
+    },
+    {
+      "q": "Ki írta az Egri csillagok című regényt?",
+      "a": [
+        "Jókai Mór",
+        "Gárdonyi Géza",
+        "Mikszáth Kálmán",
+        "Móricz Zsigmond"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "Gárdonyi Géza 1899-es regénye Eger 1552-es ostromát dolgozza fel.",
+      "t": "Gárdonyi"
+    },
+    {
+      "q": "Ki az Egri csillagok főszereplője?",
+      "a": [
+        "Bornemissza Gergely",
+        "Dobó István",
+        "Toldi Miklós",
+        "Baradlay Ödön"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bornemissza Gergely a regény központi hőse, mellette Cecey Éva a másik főszereplő.",
+      "t": "Gárdonyi"
+    },
+    {
+      "q": "Melyik regényben szerepel a Pál utcai grund?",
+      "a": [
+        "A Pál utcai fiúk",
+        "Légy jó mindhalálig",
+        "Tüskevár",
+        "Kincskereső kisködmön"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Molnár Ferenc 1907-es regénye a grundért folytatott küzdelemről szól.",
+      "t": "Molnár"
+    },
+    {
+      "q": "Ki írta a Légy jó mindhalálig című regényt?",
+      "a": [
+        "Móra Ferenc",
+        "Móricz Zsigmond",
+        "Molnár Ferenc",
+        "Kosztolányi Dezső"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Móricz Zsigmond regényének főszereplője Nyilas Misi debreceni diák.",
+      "t": "Móricz"
+    },
+    {
+      "q": "Ki a Légy jó mindhalálig főszereplője?",
+      "a": [
+        "Nyilas Misi",
+        "Nemecsek Ernő",
+        "Tüskevári Tutajos",
+        "Gergő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nyilas Misi a debreceni kollégium szegény diákja.",
+      "t": "Móricz"
+    },
+    {
+      "q": "Melyik Mikszáth-regény témája egy érvénytelenné tett egyházi esküvő?",
+      "a": [
+        "Különös házasság",
+        "Szent Péter esernyője",
+        "A Noszty fiú esete Tóth Marival",
+        "Beszterce ostroma"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Különös házasság 1900-ban jelent meg, Buttler János gróf esete alapján.",
+      "t": "Mikszáth"
+    },
+    {
+      "q": "Ki írta a Szent Péter esernyője című regényt?",
+      "a": [
+        "Mikszáth Kálmán",
+        "Jókai Mór",
+        "Gárdonyi Géza",
+        "Krúdy Gyula"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mikszáth 1895-es regénye anekdotázó, humoros hangvételű.",
+      "t": "Mikszáth"
+    },
+    {
+      "q": "Melyik folyóirat volt a 20. század eleji magyar irodalmi modernség fő fóruma?",
+      "a": [
+        "Nyugat",
+        "Athenaeum",
+        "Élet és Irodalom",
+        "Kortárs"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nyugat 1908-ban indult, Ady, Babits, Móricz és Kosztolányi nemzedékének lapja volt.",
+      "t": "Nyugat"
+    },
+    {
+      "q": "Melyik Ady-kötet indította el a költő országos ismertségét 1906-ban?",
+      "a": [
+        "Új versek",
+        "Vér és arany",
+        "Az Illés szekerén",
+        "A halottak élén"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Új versek kötet a Góg és Magóg fia vagyok én című programverssel indul.",
+      "t": "Ady"
+    },
+    {
+      "q": "Melyik költő verse A Sion-hegy alatt?",
+      "a": [
+        "Ady Endre",
+        "Babits Mihály",
+        "Juhász Gyula",
+        "Tóth Árpád"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ady istenes verseinek egyik legismertebb darabja.",
+      "t": "Ady"
+    },
+    {
+      "q": "Ki írta a Jónás könyve című művet?",
+      "a": [
+        "Babits Mihály",
+        "Ady Endre",
+        "József Attila",
+        "Radnóti Miklós"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Babits 1938-as műve a próféta felelősségéről szól a háború árnyékában.",
+      "t": "Babits"
+    },
+    {
+      "q": "Ki írta az Édes Anna című regényt?",
+      "a": [
+        "Kosztolányi Dezső",
+        "Móricz Zsigmond",
+        "Németh László",
+        "Krúdy Gyula"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kosztolányi 1926-os regénye egy cselédlány tragédiáját írja meg.",
+      "t": "Kosztolányi"
+    },
+    {
+      "q": "Melyik Kosztolányi-mű főszereplője egy vidéki család vak lánya?",
+      "a": [
+        "Pacsirta",
+        "Aranysárkány",
+        "Nero, a véres költő",
+        "Esti Kornél"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Pacsirta 1924-es kisregény a sárszegi Vajkay család életéről.",
+      "t": "Kosztolányi"
+    },
+    {
+      "q": "Kihez kötődik az Esti Kornél alakja?",
+      "a": [
+        "Kosztolányi Dezsőhöz",
+        "Krúdy Gyulához",
+        "Karinthy Frigyeshez",
+        "Márai Sándorhoz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Esti Kornél Kosztolányi novellafüzérének visszatérő alteregója.",
+      "t": "Kosztolányi"
+    },
+    {
+      "q": "Ki írta az Így írtok ti című irodalmi paródiakötetet?",
+      "a": [
+        "Karinthy Frigyes",
+        "Nagy Lajos",
+        "Rejtő Jenő",
+        "Heltai Jenő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Karinthy 1912-es kötete a kortárs írókat parodizálja.",
+      "t": "Karinthy"
+    },
+    {
+      "q": "Melyik regény szerzője Karinthy Frigyes?",
+      "a": [
+        "Utazás a koponyám körül",
+        "Utazás a Holdba",
+        "A rossz orvos",
+        "Szindbád"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Utazás a koponyám körül a szerző agyműtétjének önéletrajzi feldolgozása.",
+      "t": "Karinthy"
+    },
+    {
+      "q": "Melyik költő írta a Nem tudhatom… kezdetű verset?",
+      "a": [
+        "Radnóti Miklós",
+        "József Attila",
+        "Illyés Gyula",
+        "Szabó Lőrinc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Radnóti 1944-es verse a szülőföldhöz való kötődésről szól.",
+      "t": "Radnóti"
+    },
+    {
+      "q": "Hol találták meg Radnóti Miklós utolsó verseit?",
+      "a": [
+        "Bori notesz nevű zsebkönyvében",
+        "Egy pesti lakásban",
+        "Egy müncheni levéltárban",
+        "Egy kolozsvári kéziratban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Bori noteszt a költő kabátjában találták meg exhumálásakor 1946-ban.",
+      "t": "Radnóti"
+    },
+    {
+      "q": "Melyik József Attila-vers kezdődik így: „Mama”?",
+      "a": [
+        "Mama",
+        "Óda",
+        "Tiszta szívvel",
+        "Kései sirató"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Mama 1934-es vers a költő korán elhunyt édesanyjáról.",
+      "t": "József Attila"
+    },
+    {
+      "q": "Melyik vers miatt zárták ki József Attilát a szegedi egyetemről?",
+      "a": [
+        "Tiszta szívvel",
+        "Óda",
+        "Munkások",
+        "Levegőt!"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Tiszta szívvel című vers után Horger Antal professzor közölte, hogy nem lehet tanár.",
+      "t": "József Attila"
+    },
+    {
+      "q": "Melyik költő írta az Óda című verset, amely a szerelem testi és szellemi élményét egyesíti?",
+      "a": [
+        "József Attila",
+        "Ady Endre",
+        "Vörösmarty Mihály",
+        "Tóth Árpád"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Óda 1933-ban Lillafüreden született.",
+      "t": "József Attila"
+    },
+    {
+      "q": "Ki írta A Gyertyák csonkig égnek című regényt?",
+      "a": [
+        "Márai Sándor",
+        "Szerb Antal",
+        "Németh László",
+        "Ottlik Géza"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Márai Sándor 1942-es regénye két öreg barát éjszakai számadása.",
+      "t": "Márai"
+    },
+    {
+      "q": "Ki írta az Utas és holdvilág című regényt?",
+      "a": [
+        "Szerb Antal",
+        "Márai Sándor",
+        "Kosztolányi Dezső",
+        "Krúdy Gyula"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szerb Antal 1937-es regénye Mihály itáliai útjáról és önkereséséről szól.",
+      "t": "Szerb Antal"
+    },
+    {
+      "q": "Ki írta az Iskola a határon című regényt?",
+      "a": [
+        "Ottlik Géza",
+        "Mészöly Miklós",
+        "Déry Tibor",
+        "Sarkadi Imre"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ottlik Géza 1959-es regénye egy katonai alreáliskola világát ábrázolja.",
+      "t": "Ottlik"
+    },
+    {
+      "q": "Melyik magyar író kapott irodalmi Nobel-díjat 2002-ben?",
+      "a": [
+        "Kertész Imre",
+        "Esterházy Péter",
+        "Nádas Péter",
+        "Krasznahorkai László"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kertész Imre a Sorstalanság szerzője, 2002-ben kapta a Nobel-díjat.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik regényért ismert leginkább Kertész Imre?",
+      "a": [
+        "Sorstalanság",
+        "Kaddis a meg nem született gyermekért",
+        "Az angol lobogó",
+        "A kudarc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Sorstalanság 1975-ben jelent meg, egy fiú koncentrációs táborbeli sorsáról.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik magyar szerző kapott irodalmi Nobel-díjat 2025-ben?",
+      "a": [
+        "Krasznahorkai László",
+        "Nádas Péter",
+        "Tolnai Ottó",
+        "Bartis Attila"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Krasznahorkai László a Sátántangó és Az ellenállás melankóliája szerzője.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Ki írta a Sátántangó című regényt?",
+      "a": [
+        "Krasznahorkai László",
+        "Esterházy Péter",
+        "Bodor Ádám",
+        "Darvasi László"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1985-es regényből Tarr Béla készített nagy hatású filmet.",
+      "t": "kortárs irodalom"
+    },
+    {
+      "q": "Ki írta a Harmonia caelestis című művet?",
+      "a": [
+        "Esterházy Péter",
+        "Nádas Péter",
+        "Kertész Imre",
+        "Spiró György"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Esterházy Péter 2000-es családregénye a saját felmenőit írja meg.",
+      "t": "kortárs irodalom"
+    },
+    {
+      "q": "Ki írta az Emlékiratok könyve című nagyregényt?",
+      "a": [
+        "Nádas Péter",
+        "Esterházy Péter",
+        "Mészöly Miklós",
+        "Konrád György"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Nádas Péter 1986-os regénye a magyar próza egyik legterjedelmesebb műve.",
+      "t": "kortárs irodalom"
+    },
+    {
+      "q": "Melyik kalandregény-szerző írói neve Rejtő Jenő?",
+      "a": [
+        "P. Howard",
+        "Mark Twain",
+        "Sir Arthur",
+        "H. Rider"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Rejtő Jenő P. Howard néven jelentette meg a legtöbb humoros ponyváját.",
+      "t": "Rejtő"
+    },
+    {
+      "q": "Melyik Rejtő-mű címe utal egy légiós alakulatra?",
+      "a": [
+        "A tizennégy karátos autó",
+        "Piszkos Fred, a kapitány",
+        "Az elátkozott part",
+        "A szőke ciklon"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Az elátkozott part az idegenlégiós regények egyik legismertebb darabja.",
+      "t": "Rejtő"
+    },
+    {
+      "q": "Ki írta a Tüskevár című ifjúsági regényt?",
+      "a": [
+        "Fekete István",
+        "Móra Ferenc",
+        "Szabó Magda",
+        "Gárdonyi Géza"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Fekete István 1957-es regénye a Kis-Balaton világában játszódik.",
+      "t": "Fekete István"
+    },
+    {
+      "q": "Ki írta az Abigél című regényt?",
+      "a": [
+        "Szabó Magda",
+        "Jókai Anna",
+        "Németh László",
+        "Kaffka Margit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szabó Magda 1970-es regénye egy debreceni leánykollégiumban játszódik a háború alatt.",
+      "t": "Szabó Magda"
+    },
+    {
+      "q": "Melyik Szabó Magda-regény kapott Femina-díjat Franciaországban?",
+      "a": [
+        "Az ajtó",
+        "Abigél",
+        "Für Elise",
+        "Ókút"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ajtó Szeredás Emerenc és az írónő viszonyát mutatja be.",
+      "t": "Szabó Magda"
+    },
+    {
+      "q": "Ki írta a Kincskereső kisködmön című mesekönyvet?",
+      "a": [
+        "Móra Ferenc",
+        "Gárdonyi Géza",
+        "Fekete István",
+        "Benedek Elek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Móra Ferenc 1918-as műve Gergő történetét mondja el.",
+      "t": "Móra"
+    },
+    {
+      "q": "Melyik költő nevéhez fűződik A vén cigány című vers?",
+      "a": [
+        "Vörösmarty Mihály",
+        "Petőfi Sándor",
+        "Arany János",
+        "Berzsenyi Dániel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Vörösmarty 1854-es kései verse az önkényuralom idejének létösszegzése.",
+      "t": "Vörösmarty"
+    },
+    {
+      "q": "Ki írta a Csongor és Tünde című mesedrámát?",
+      "a": [
+        "Vörösmarty Mihály",
+        "Madách Imre",
+        "Katona József",
+        "Kisfaludy Sándor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Vörösmarty 1830-as mesedrámája a boldogság keresésének filozófiai játéka.",
+      "t": "Vörösmarty"
+    },
+    {
+      "q": "Melyik költő írta a Reményhez című verset?",
+      "a": [
+        "Csokonai Vitéz Mihály",
+        "Kölcsey Ferenc",
+        "Berzsenyi Dániel",
+        "Batsányi János"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Csokonai a Lilla-szerelem elvesztése után írta a Reményhez című dalt.",
+      "t": "felvilágosodás"
+    },
+    {
+      "q": "Ki volt a magyar nyelvújítás vezéralakja?",
+      "a": [
+        "Kazinczy Ferenc",
+        "Révai Miklós",
+        "Verseghy Ferenc",
+        "Bessenyei György"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kazinczy Ferenc irányította a nyelvújítási mozgalmat a 19. század elején.",
+      "t": "nyelvújítás"
+    },
+    {
+      "q": "Melyik Örkény-műfaj az „egyperces”?",
+      "a": [
+        "Rövid, csattanós próza",
+        "Egyfelvonásos dráma",
+        "Szonettforma",
+        "Rádiójáték"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Örkény István egyperces novellái a groteszk magyar próza jellegzetes darabjai.",
+      "t": "Örkény"
+    },
+    {
+      "q": "Melyik Örkény-dráma játszódik egy kivégzésre készülő család körül?",
+      "a": [
+        "Tóték",
+        "Macskajáték",
+        "Pisti a vérzivatarban",
+        "Kulcskeresők"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Tóték a groteszk hatalomkritika klasszikus magyar drámája.",
+      "t": "Örkény"
+    }
   ]
 }

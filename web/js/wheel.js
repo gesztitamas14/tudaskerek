@@ -123,8 +123,17 @@ export class Wheel {
     }
 
     // ── feliratok (pörgés közben olvashatatlan lenne, ezért kihagyjuk) ──
-    if (!this.isSpinning && count <= 24) {
-      const fontSize = count > 16 ? Math.max(8, size * 0.026) : Math.max(9, size * 0.032);
+    //
+    // A korábbi `count <= 24` korlát 26 kategóriánál csendben elhagyta az
+    // összes feliratot, és a kerék dísszé vált. A szöveg RADIÁLISAN fut, tehát
+    // nem a cikk szélessége a szűk keresztmetszet, hanem a magassága: 26
+    // szeletnél a cikk 13,8°, ami a peremnél még ~29 px érintő irányú hely –
+    // egy 8–9 px-es betűnek elég. A korlát ezért 34-re nőtt, sávos betűmérettel.
+    if (!this.isSpinning && count <= 34) {
+      const fontSize =
+        count > 26 ? Math.max(7, size * 0.022)
+        : count > 16 ? Math.max(8, size * 0.026)
+        : Math.max(9, size * 0.032);
       ctx.font = `700 ${fontSize}px system-ui, -apple-system, sans-serif`;
       ctx.textAlign = 'right';
       ctx.textBaseline = 'middle';
@@ -309,7 +318,19 @@ const SHORT_NAMES = {
   'Magyar sport': 'M. sport',
   'Magyar zene és film': 'M. zene/film',
   'Magyar nyelv': 'M. nyelv',
+  'Film, színház': 'Film',
   'Filmek és sorozatok': 'Film',
+  'Állatok, biológia': 'Állatok',
+  'Földrajz, csillagászat': 'Földrajz',
+  'Művészet, építészet': 'Művészet',
+  'Technika, találmányok': 'Technika',
+  'Zene, tánc': 'Zene',
+  'Egyéb tudomány, kultúra': 'Egyéb',
+  'Cégek, márkák': 'Cégek',
+  'Mitológia, vallás': 'Mitológia',
+  'Ünnepek, jeles napok': 'Ünnepek',
+  'Divat, öltözködés': 'Divat',
+  'Híres emberek': 'Híres emb.',
   'Logika és fejtörők': 'Logika',
   Világtörténelem: 'Világtört.',
   'Étel és ital': 'Étel/ital'

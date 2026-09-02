@@ -1,0 +1,566 @@
+{
+  "category": "unnepek",
+  "default_source": null,
+  "questions": [
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Vijayadashami?",
+      "a": [
+        "Suriname",
+        "Japán",
+        "Dél-Korea",
+        "India"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Vijayadashami India ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q10274"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: fegyverszünet napja?",
+      "a": [
+        "Hollandia",
+        "Kanada",
+        "Montenegró",
+        "Ukrajna"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "fegyverszünet napja Kanada ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q27631"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Bhai Dooj?",
+      "a": [
+        "Kína",
+        "India",
+        "Moldova",
+        "Kanada"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Bhai Dooj India ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q31023"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Independence Day?",
+      "a": [
+        "India",
+        "Vietnám",
+        "Mexikó",
+        "Kína"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Independence Day India ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q56106"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: National Day of Catalonia?",
+      "a": [
+        "Törökország",
+        "Spanyolország",
+        "Montenegró",
+        "Bulgária"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "National Day of Catalonia Spanyolország ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q156397"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: a német egység napja?",
+      "a": [
+        "Finnország",
+        "Ausztrália",
+        "Szaúd-Arábia",
+        "Németország"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "a német egység napja Németország ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q157582"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: az anyaország védőinek napja?",
+      "a": [
+        "Vietnám",
+        "Törökország",
+        "Pakisztán",
+        "Oroszország"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "az anyaország védőinek napja Oroszország ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q163708"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: a győzelem napja?",
+      "a": [
+        "Oroszország",
+        "Görögország",
+        "Észak-Korea",
+        "Szingapúr"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "a győzelem napja Oroszország ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q270706"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Anzac Day?",
+      "a": [
+        "Moldova",
+        "Észtország",
+        "Ausztrália",
+        "Horvátország"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Anzac Day Ausztrália ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q295859"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Yom HaShoah?",
+      "a": [
+        "Bolívia",
+        "Pakisztán",
+        "Brazília",
+        "Izrael"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Yom HaShoah Izrael ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q309530"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Koningsdag?",
+      "a": [
+        "Málta",
+        "Hollandia",
+        "Indonézia",
+        "Spanyolország"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Koningsdag Hollandia ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q333016"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Őszközép ünnep?",
+      "a": [
+        "Kína",
+        "Grúzia",
+        "Izrael",
+        "Malajzia"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Őszközép ünnep Kína ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q379519"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Függetlenség napja?",
+      "a": [
+        "Izland",
+        "Ukrajna",
+        "Németország",
+        "Finnország"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Függetlenség napja Finnország ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q419595"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Statehood Day?",
+      "a": [
+        "Észak-Macedónia",
+        "Franciaország",
+        "Horvátország",
+        "Észak-Ciprus"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Statehood Day Horvátország ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q449367"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Matariki?",
+      "a": [
+        "Új-Zéland",
+        "Málta",
+        "Izland",
+        "Thaiföld"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Matariki Új-Zéland ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q455596"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Double Ninth Festival?",
+      "a": [
+        "Ukrajna",
+        "Kína",
+        "Japán",
+        "Nauru"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Double Ninth Festival Japán ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q463754"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Gaecheonjeol?",
+      "a": [
+        "Mongólia",
+        "Izrael",
+        "Dél-Korea",
+        "Hollandia"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Gaecheonjeol Dél-Korea ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q485634"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Leif Erikson Day?",
+      "a": [
+        "Észak-Macedónia",
+        "Amerikai Egyesült Államok",
+        "Fehéroroszország",
+        "Egyesült Királyság"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Leif Erikson Day Amerikai Egyesült Államok ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q486608"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Korea nemzeti felszabadításának napja?",
+      "a": [
+        "Türkmenisztán",
+        "Bolívia",
+        "Észak-Korea",
+        "Mongólia"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Korea nemzeti felszabadításának napja Észak-Korea ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q488443"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: hangulnap?",
+      "a": [
+        "Dél-Korea",
+        "Afganisztán",
+        "India",
+        "Kanada"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "hangulnap Dél-Korea ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q494394"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Angam Day?",
+      "a": [
+        "Thaiföld",
+        "Malajzia",
+        "Nauru",
+        "Szerbia"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Angam Day Nauru ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q530453"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Cassinga Day?",
+      "a": [
+        "Mongólia",
+        "Mexikó",
+        "Namíbia",
+        "Kazahsztán"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Cassinga Day Namíbia ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q586908"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Armenian Genocide Remembrance Day?",
+      "a": [
+        "Törökország",
+        "Szlovénia",
+        "Indonézia",
+        "Szaúd-Arábia"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Armenian Genocide Remembrance Day Törökország ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q616407"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Victory in Europe Day?",
+      "a": [
+        "Szlovénia",
+        "Szaúd-Arábia",
+        "Montenegró",
+        "Franciaország"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Victory in Europe Day Franciaország ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q622365"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Canada Day?",
+      "a": [
+        "Irán",
+        "Kanada",
+        "Ciprus",
+        "Nepál"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Canada Day Kanada ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q639756"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Gandhi Jayanti?",
+      "a": [
+        "Románia",
+        "Kína",
+        "India",
+        "Kambodzsa"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Gandhi Jayanti India ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q658185"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Retrocession Day?",
+      "a": [
+        "Kína",
+        "Albánia",
+        "Moldova",
+        "India"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Retrocession Day Kína ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q697228"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Qingming Festival?",
+      "a": [
+        "Kína",
+        "India",
+        "Suriname",
+        "Izland"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Qingming Festival Kína ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q718778"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Naadam?",
+      "a": [
+        "Malajzia",
+        "Nauru",
+        "Új-Zéland",
+        "Mongólia"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Naadam Mongólia ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q721133"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Victory Day?",
+      "a": [
+        "Franciaország",
+        "Kambodzsa",
+        "Horvátország",
+        "Mongólia"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Victory Day Horvátország ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q728012"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: elnökök napja?",
+      "a": [
+        "Holland Királyság",
+        "Egyesült Királyság",
+        "Amerikai Egyesült Államok",
+        "Észak-Macedónia"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "elnökök napja Amerikai Egyesült Államok ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q744159"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: veteránok napja?",
+      "a": [
+        "Amerikai Egyesült Államok",
+        "Észak-Macedónia",
+        "Fehéroroszország",
+        "Holland Királyság"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "veteránok napja Amerikai Egyesült Államok ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q755999"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Republic Day?",
+      "a": [
+        "Afganisztán",
+        "Ausztrália",
+        "Örményország",
+        "Törökország"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Republic Day Törökország ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q803181"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: „ohi” nap?",
+      "a": [
+        "Törökország",
+        "Azerbajdzsán",
+        "Görögország",
+        "Montenegró"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "„ohi” nap Görögország ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q830166"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Cshuszok?",
+      "a": [
+        "Grúzia",
+        "Spanyolország",
+        "Dél-Korea",
+        "Kambodzsa"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Cshuszok Dél-Korea ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q1090024"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: koreai újév?",
+      "a": [
+        "Mongólia",
+        "Pakisztán",
+        "Dél-Korea",
+        "Málta"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "koreai újév Dél-Korea ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q8249787"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Kazakhstan Independence Day?",
+      "a": [
+        "Románia",
+        "Ciprus",
+        "Kazahsztán",
+        "Németország"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Kazakhstan Independence Day Kazahsztán ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q841137"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: a munka ünnepe az USA-ban?",
+      "a": [
+        "Fehéroroszország",
+        "Amerikai Egyesült Államok",
+        "Egyesült Királyság",
+        "Holland Királyság"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "a munka ünnepe az USA-ban Amerikai Egyesült Államok ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q848352"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Ganesh Chaturthi?",
+      "a": [
+        "Malajzia",
+        "India",
+        "Kanada",
+        "Mongólia"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Ganesh Chaturthi India ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q929250"
+    },
+    {
+      "q": "Melyik országban nemzeti ünnep a következő: Armed Forces Flag Day?",
+      "a": [
+        "Izrael",
+        "Pakisztán",
+        "India",
+        "Brazília"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Armed Forces Flag Day India ünnepe.",
+      "t": "nemzeti ünnepek",
+      "s": "http://www.wikidata.org/entity/Q970234"
+    }
+  ]
+}

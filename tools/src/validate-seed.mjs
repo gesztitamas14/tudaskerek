@@ -178,17 +178,31 @@ for (const [key, group] of answerSetsPerCategory) {
   }
 }
 
-// Kategórián belüli közel-duplikátumok szövegalapon (a válaszhalmaztól függetlenül)
+// Kategórián belüli közel-duplikátumok.
+//
+// A puszta szöveghasonlóság itt félrevezet: a sablonból generált kérdések
+// mind ugyanazzal a tővel kezdődnek („Melyik évtizedben lett független X?”),
+// tehát a trigram-hasonlóságuk magas, pedig teljesen más kérdések – Szudán és
+// Dél-Szudán nem ugyanaz. Ha csak a szöveget nézzük, 45 hamis figyelmeztetés
+// keletkezik, ami elnyomja az igaziakat.
+//
+// Ezért a hasonlóság MELLETT azt is megköveteljük, hogy a HELYES VÁLASZ is
+// egyezzen. Két kérdés akkor duplikátum, ha ugyanazt kérdezi ÉS ugyanaz a
+// megoldása; ha a válasz más, akkor a játékosnak más tudás kell hozzá.
 for (const [slug, items] of byCategory) {
   for (let i = 0; i < items.length; i++) {
     for (let j = i + 1; j < items.length; j++) {
       const score = similarity(items[i].question, items[j].question);
-      if (score >= 0.8) {
-        warn(
-          `Közel-duplikátum (${slug}, hasonlóság ${score.toFixed(2)}):\n` +
-          `    - ${items[i].question}\n    - ${items[j].question}`
-        );
-      }
+      if (score < 0.8) continue;
+
+      const correctI = normalize(String(items[i].answers?.[items[i].correct] ?? ''));
+      const correctJ = normalize(String(items[j].answers?.[items[j].correct] ?? ''));
+      if (correctI && correctI !== correctJ) continue;
+
+      warn(
+        `Közel-duplikátum (${slug}, hasonlóság ${score.toFixed(2)}, ugyanaz a válasz):\n` +
+        `    - ${items[i].question}\n    - ${items[j].question}`
+      );
     }
   }
 }

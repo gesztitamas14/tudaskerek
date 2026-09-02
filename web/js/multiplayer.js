@@ -518,7 +518,9 @@ export function roomScreen(app, { room: initialRoom }) {
   // Amíg a beküldés fut, azonnal jelöljük a választ – ne tűnjön akadásnak.
   let answerPending = null;
   // Melyik kérdéshez futott már le a kerék animációja.
-  let spunFor = null;
+  // Melyik kérdésnél futott már LE a kerék animációja (nem az, hogy elindult:
+  // így egy közbeeső újrarajzolás újraindítja, nem lefagyasztja).
+  let spinDoneFor = null;
   // Melyik kérdés kiértékelését jeleztük már rezgéssel / üzenettel.
   let notifiedFor = null;
   let lastBlockShown = null;
@@ -597,7 +599,7 @@ export function roomScreen(app, { room: initialRoom }) {
     }
   }
 
-  function applyState(next) {
+  function applyState(next, { force = false } = {}) {
     if (next.server_time) skewMs = Date.now() - Date.parse(next.server_time);
 
     const q = next.current_question;
@@ -613,7 +615,7 @@ export function roomScreen(app, { room: initialRoom }) {
 
     const phase = phaseOf();
     const sig = signature(next, phase);
-    if (sig !== lastSignature) {
+    if (force || sig !== lastSignature) {
       lastSignature = sig;
       render();
     } else {
@@ -716,19 +718,31 @@ export function roomScreen(app, { room: initialRoom }) {
 
   // ── műveletek ──
 
+  /**
+   * Egy szerverművelet lefuttatása „dolgozunk” állapottal.
+   *
+   * FIGYELEM – pontosan EGY renderelés kell a művelet után. Korábban a
+   * `finally` blokk mindig újrarenderelt, ráadásul az `applyState` renderelése
+   * UTÁN: a második renderelés kicserélte a DOM-ot, és a kerék animációja
+   * elveszett (a host az első kör pörgetését nem látta). Ezért a `isWorking`
+   * flaget az állapot alkalmazása ELŐTT engedjük el, és utána csak egyszer
+   * rajzolunk.
+   */
   async function run(operation) {
     if (isWorking) return;
     isWorking = true;
     render();
+
+    let next = null;
     try {
-      const next = await operation();
-      if (next) applyState(next);
+      next = await operation();
     } catch (error) {
       toast(error.message, { tone: 'error' });
-    } finally {
-      isWorking = false;
-      render();
     }
+
+    isWorking = false;
+    if (next) applyState(next, { force: true });
+    else render();
   }
 
   const toggleReady = () =>
@@ -1178,18 +1192,30 @@ export function roomScreen(app, { room: initialRoom }) {
         Math.min(reduced ? 1.2 : 2.6, untilOpen - 1.2)
       );
 
-      requestAnimationFrame(() => {
+      // A pörgetés indítása NEM függhet animációs kerettől.
+      //
+      // A `requestAnimationFrame` rejtett lapon (és fejnélküli böngészőben)
+      // nem biztosan fut le. Ha csak arra várnánk, a kártya örökre a
+      // „Kategória pörgetése…” állapotban ragadna, és a kategória sosem
+      // kerülne kihirdetésre. Ezért a rAF mellett időzítő is elindítja, és
+      // egy jelző gondoskodik róla, hogy pontosan egyszer induljon.
+      let launched = false;
+      const launch = () => {
+        if (launched) return;
+        launched = true;
         wheel.resize();
 
-        // Egy kérdéshez csak egyszer pörgetünk, még ha újrarajzolunk is – és ha
-        // a kerék már lefutott, csak a kategóriát mutatjuk.
-        if (spunFor === q.id) {
+        // A „már lefutott” jelzőt CSAK a befejezés állítja be. Így ha közben
+        // újrarajzolunk (pl. beesik egy szobaállapot), az animáció újraindul a
+        // maradék idővel – nem fagy le félúton egy statikus képre.
+        //
+        // Ha viszont már lement, ne pörgessük újra: a kategória marad kiírva.
+        if (spinDoneFor === q.id || untilOpen < 0.7) {
           wheel.rotation = 0;
           wheel.draw();
           announce();
           return;
         }
-        spunFor = q.id;
 
         wheel
           .spinTo({
@@ -1202,12 +1228,16 @@ export function roomScreen(app, { room: initialRoom }) {
             }
           })
           .then(() => {
+            spinDoneFor = q.id;
             haptic(HAPTIC.stop);
             sfx.wheelStop();
             announce();
           })
           .catch(() => {});
-      });
+      };
+
+      requestAnimationFrame(launch);
+      setTimeout(launch, 60);
     } else {
       // Nincs helyi kerék (pl. ismeretlen kategória): rögtön a nevét mutatjuk.
       announce();

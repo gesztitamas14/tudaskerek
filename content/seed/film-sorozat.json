@@ -2,60 +2,1042 @@
   "category": "film-sorozat",
   "default_source": "saját szerkesztés (általános műveltségi tananyag)",
   "questions": [
-    {"q": "Ki rendezte A Keresztapa című filmet?", "a": ["Francis Ford Coppola", "Martin Scorsese", "Steven Spielberg", "Brian De Palma"], "c": 0, "d": "medium", "e": "A film 1972-ben készült Mario Puzo regényéből.", "t": "klasszikusok"},
-    {"q": "Melyik filmhez kötődik a „visszautasíthatatlan ajánlat” szállóige?", "a": ["A Keresztapa", "Casino", "Sicario", "A tégla"], "c": 0, "d": "medium", "e": "Don Corleone ajánlata a film legismertebb motívuma.", "t": "klasszikusok"},
-    {"q": "Ki rendezte a Cápa és az E.T. című filmeket?", "a": ["Steven Spielberg", "George Lucas", "James Cameron", "Ridley Scott"], "c": 0, "d": "easy", "e": "Spielberg mindkettővel a modern blockbuster műfaját alakította.", "t": "rendezők"},
-    {"q": "Ki alkotta meg a Csillagok háborúja univerzumát?", "a": ["George Lucas", "Gene Roddenberry", "J. J. Abrams", "Ridley Scott"], "c": 0, "d": "easy", "e": "Az első film 1977-ben jelent meg.", "t": "sci-fi"},
-    {"q": "Ki rendezte a Titanic és az Avatar című filmeket?", "a": ["James Cameron", "Peter Jackson", "Christopher Nolan", "Michael Bay"], "c": 0, "d": "easy", "e": "Cameron filmjei rekordokat döntöttek a bevételi listákon.", "t": "rendezők"},
-    {"q": "Ki rendezte A Gyűrűk Ura filmtrilógiát?", "a": ["Peter Jackson", "Guillermo del Toro", "David Yates", "Chris Columbus"], "c": 0, "d": "easy", "e": "A trilógia 2001 és 2003 között készült Új-Zélandon.", "t": "fantasy"},
-    {"q": "Melyik regényből készült A Gyűrűk Ura filmtrilógia?", "a": ["J. R. R. Tolkien regényéből", "C. S. Lewis regényéből", "George R. R. Martin regényéből", "Ursula K. Le Guin regényéből"], "c": 0, "d": "easy", "e": "Tolkien 1954–55-ben adta ki a trilógiát.", "t": "fantasy"},
-    {"q": "Ki rendezte az Eredet (Inception) és a Csillagok között (Interstellar) című filmeket?", "a": ["Christopher Nolan", "Denis Villeneuve", "Alfonso Cuarón", "Darren Aronofsky"], "c": 0, "d": "medium", "e": "Nolan filmjeit a nemlineáris szerkezet és a nagy léptékű képi világ jellemzi.", "t": "rendezők"},
-    {"q": "Melyik film nyerte a legjobb film Oscar-díját 2020-ban?", "a": ["Élősködők (Parasite)", "1917", "Joker", "Volt egyszer egy… Hollywood"], "c": 0, "d": "medium", "e": "A Parasite az első nem angol nyelvű film, amely elnyerte a legjobb film Oscarját.", "t": "Oscar"},
-    {"q": "Melyik országból származik az Élősködők (Parasite) című film?", "a": ["Dél-Korea", "Japán", "Kína", "Tajvan"], "c": 0, "d": "medium", "e": "A rendező Bong Joon-ho.", "t": "világfilm"},
-    {"q": "Melyik díj a legfontosabb amerikai filmes elismerés?", "a": ["Oscar-díj", "Golden Globe", "BAFTA", "Arany Pálma"], "c": 0, "d": "easy", "e": "Az Oscart az Amerikai Filmakadémia osztja ki.", "t": "Oscar"},
-    {"q": "Melyik fesztivál fődíja az Arany Pálma?", "a": ["Cannes-i filmfesztivál", "Berlini filmfesztivál", "Velencei filmfesztivál", "Sundance"], "c": 0, "d": "medium", "e": "A berlini fődíj az Arany Medve, a velencei az Arany Oroszlán.", "t": "fesztiválok"},
-    {"q": "Melyik magyar film kapott Oscar-díjat a legjobb idegen nyelvű film kategóriában 2016-ban?", "a": ["Saul fia", "Testről és lélekről", "Fehér tenyér", "Kontroll"], "c": 0, "d": "medium", "e": "Nemes Jeles László filmje 2016-ban nyert Oscart.", "t": "magyar film"},
-    {"q": "Melyik magyar animációs rövidfilm kapott Oscar-díjat 1981-ben?", "a": ["A légy", "Gustavus", "Hófehér", "Vízipók-csodapók"], "c": 0, "d": "hard", "e": "Rofusz Ferenc A légy című filmje kapta a rövid animációs Oscart.", "t": "magyar film"},
-    {"q": "Melyik magyar operatőr kapott Oscar-díjat a Harmadik típusú találkozásokért?", "a": ["Zsigmond Vilmos", "Kovács László", "Koltai Lajos", "Ragályi Elemér"], "c": 0, "d": "hard", "e": "Zsigmond Vilmos 1978-ban kapta az elismerést Steven Spielberg filmjéért.", "t": "magyar film"},
-    {"q": "Melyik magyar rövidfilm kapott Oscar-díjat 2017-ben?", "a": ["Mindenki", "Sing Sing", "Balaton method", "Bakkermann"], "c": 0, "d": "medium", "e": "Deák Kristóf Mindenki című filmje kapta a legjobb élőszereplős rövidfilm Oscarját.", "t": "magyar film"},
-    {"q": "Melyik magyar filmrendező nevéhez fűződik a Sátántangó és a Werckmeister harmóniák?", "a": ["Tarr Béla", "Szabó István", "Jancsó Miklós", "Fábri Zoltán"], "c": 0, "d": "medium", "e": "Tarr Béla hosszú beállításairól ismert.", "t": "magyar film"},
-    {"q": "Melyik magyar rendező filmje a Mephisto, amely 1982-ben Oscart kapott?", "a": ["Szabó István", "Jancsó Miklós", "Makk Károly", "Bacsó Péter"], "c": 0, "d": "medium", "e": "A Mephisto a legjobb idegen nyelvű film Oscarját nyerte el.", "t": "magyar film"},
-    {"q": "Melyik magyar film klasszikus a „szocializmus szatírája” Bacsó Pétertől?", "a": ["A tanú", "Megáll az idő", "Szindbád", "Szerelem"], "c": 0, "d": "medium", "e": "A tanú 1969-ben készült, de csak 1979-ben került a mozikba.", "t": "magyar film"},
-    {"q": "Melyik magyar filmből származik a „narancs, az van” típusú kultuszjelenet?", "a": ["A tanú", "Indul a bakterház", "Egy szoknya, egy nadrág", "Régi nyár"], "c": 0, "d": "hard", "e": "A tanú narancs-jelenete a magyar filmtörténet legismertebb szatírája.", "t": "magyar film"},
-    {"q": "Ki játszotta a főszerepet a Nyomorultak 2012-es filmváltozatában Jean Valjean-ként?", "a": ["Hugh Jackman", "Russell Crowe", "Eddie Redmayne", "Sacha Baron Cohen"], "c": 0, "d": "medium", "e": "A filmet Tom Hooper rendezte.", "t": "színészek"},
-    {"q": "Ki játszotta Forrest Gumpot?", "a": ["Tom Hanks", "Robin Williams", "Kevin Costner", "Bruce Willis"], "c": 0, "d": "easy", "e": "Tom Hanks 1995-ben Oscart kapott a szerepért.", "t": "színészek"},
-    {"q": "Ki játszotta Jack Dawsont a Titanicban?", "a": ["Leonardo DiCaprio", "Brad Pitt", "Matt Damon", "Johnny Depp"], "c": 0, "d": "easy", "e": "Rose szerepében Kate Winslet volt látható.", "t": "színészek"},
-    {"q": "Melyik filmért kapta Leonardo DiCaprio az első Oscar-díját?", "a": ["A visszatérő", "Farkas a Wall Streetről", "Django elszabadul", "Eredet"], "c": 0, "d": "medium", "e": "A visszatérő (The Revenant) 2016-ban hozta el az elismerést.", "t": "színészek"},
-    {"q": "Ki játszotta Hermione Grangert a Harry Potter-filmekben?", "a": ["Emma Watson", "Emma Stone", "Bonnie Wright", "Evanna Lynch"], "c": 0, "d": "easy", "e": "A trió tagjai Daniel Radcliffe, Rupert Grint és Emma Watson voltak.", "t": "színészek"},
-    {"q": "Melyik írónő könyveiből készültek a Harry Potter-filmek?", "a": ["J. K. Rowling", "Suzanne Collins", "Stephenie Meyer", "Philip Pullman"], "c": 0, "d": "easy", "e": "Az első kötet 1997-ben jelent meg.", "t": "fantasy"},
-    {"q": "Melyik sorozat játszódik Westeros földjén?", "a": ["Trónok harca", "A Gyűrűk Ura", "Vikingek", "The Witcher"], "c": 0, "d": "easy", "e": "A sorozat George R. R. Martin regényciklusán alapul.", "t": "sorozatok"},
-    {"q": "Melyik sorozat főszereplője Walter White, a kémiatanár?", "a": ["Breaking Bad", "Better Call Saul", "Ozark", "Narcos"], "c": 0, "d": "easy", "e": "A sorozat 2008 és 2013 között futott.", "t": "sorozatok"},
-    {"q": "Melyik sorozat spin-offja a Better Call Saul?", "a": ["Breaking Bad", "The Wire", "Fargo", "Dexter"], "c": 0, "d": "medium", "e": "A Better Call Saul Jimmy McGill előtörténetét mutatja be.", "t": "sorozatok"},
-    {"q": "Melyik sorozat játszódik a képzeletbeli Hawkins városában?", "a": ["Stranger Things", "Twin Peaks", "Riverdale", "Dark"], "c": 0, "d": "easy", "e": "A sorozat a nyolcvanas évek hangulatát idézi.", "t": "sorozatok"},
-    {"q": "Melyik sorozat hat New York-i barát életéről szól, a Central Perk kávézóval?", "a": ["Jóbarátok", "Seinfeld", "How I Met Your Mother", "Will és Grace"], "c": 0, "d": "easy", "e": "A Jóbarátok tíz évadon át futott 1994 és 2004 között.", "t": "sorozatok"},
-    {"q": "Melyik sorozat főszereplője Sheldon Cooper?", "a": ["Agymenők", "Jóbarátok", "Modern család", "Két pasi meg egy kicsi"], "c": 0, "d": "easy", "e": "Az Agymenők (The Big Bang Theory) 2007-ben indult.", "t": "sorozatok"},
-    {"q": "Melyik animációs sorozat szereplői Homer, Marge, Bart, Lisa és Maggie?", "a": ["A Simpson család", "Family Guy", "South Park", "Futurama"], "c": 0, "d": "easy", "e": "A sorozat 1989-ben indult, a televíziótörténet leghosszabb ideig futó szitkomja.", "t": "animáció"},
-    {"q": "Melyik stúdió készítette a Toy Story című filmet?", "a": ["Pixar", "DreamWorks", "Illumination", "Studio Ghibli"], "c": 0, "d": "easy", "e": "A Toy Story 1995-ben az első teljesen számítógéppel animált nagyjátékfilm volt.", "t": "animáció"},
-    {"q": "Melyik japán animációs stúdió készítette a Chihiro Szellemországban című filmet?", "a": ["Studio Ghibli", "Toei Animation", "Madhouse", "Kyoto Animation"], "c": 0, "d": "medium", "e": "A film rendezője Mijazaki Hajao, 2003-ban Oscart kapott.", "t": "animáció"},
-    {"q": "Melyik Disney-film főszereplője Elsa és Anna?", "a": ["Jégvarázs", "Oroszlánkirály", "Aladdin", "Mulan"], "c": 0, "d": "easy", "e": "A Jégvarázs 2013-ban jelent meg.", "t": "animáció"},
-    {"q": "Melyik animációs film zenéje a „Hakuna matata”?", "a": ["Az oroszlánkirály", "Dzsungel könyve", "Tarzan", "Madagaszkár"], "c": 0, "d": "easy", "e": "A dal jelentése szuahéliül kb. „semmi gond”.", "t": "animáció"},
-    {"q": "Melyik filmsorozat főszereplője James Bond?", "a": ["007-es filmek", "Mission Impossible", "Bourne-filmek", "Kingsman"], "c": 0, "d": "easy", "e": "Bond karakterét Ian Fleming írta meg.", "t": "franchise-ok"},
-    {"q": "Ki volt az első James Bondot alakító színész a filmvásznon?", "a": ["Sean Connery", "Roger Moore", "George Lazenby", "Timothy Dalton"], "c": 0, "d": "medium", "e": "Sean Connery 1962-ben, a Dr. No című filmben debütált.", "t": "franchise-ok"},
-    {"q": "Melyik filmsorozat része a Vasember, a Hulk és a Thor?", "a": ["Marvel-filmuniverzum", "DC-univerzum", "X-Men-filmek", "Transformers"], "c": 0, "d": "easy", "e": "Az MCU 2008-ban indult a Vasemberrel.", "t": "franchise-ok"},
-    {"q": "Melyik DC-szuperhős városa Gotham?", "a": ["Batman", "Superman", "Flash", "Aquaman"], "c": 0, "d": "easy", "e": "Superman városa Metropolis.", "t": "franchise-ok"},
-    {"q": "Melyik film a világ legnagyobb bevételű filmjei közé tartozik, kék bőrű lakókkal a Pandora nevű holdon?", "a": ["Avatar", "Star Wars", "Dűne", "Ready Player One"], "c": 0, "d": "easy", "e": "Az Avatar 2009-ben jelent meg.", "t": "sci-fi"},
-    {"q": "Melyik regényből készült a Dűne című film?", "a": ["Frank Herbert regényéből", "Isaac Asimov regényéből", "Arthur C. Clarke regényéből", "Philip K. Dick regényéből"], "c": 0, "d": "medium", "e": "A regény 1965-ben jelent meg.", "t": "sci-fi"},
-    {"q": "Melyik film alapja Philip K. Dick regénye, androidokkal és „replikánsokkal”?", "a": ["Szárnyas fejvadász", "Mátrix", "Ex Machina", "A. I."], "c": 0, "d": "medium", "e": "A Szárnyas fejvadász (Blade Runner) 1982-ben jelent meg.", "t": "sci-fi"},
-    {"q": "Melyik film főszereplője Neo, aki „a kiválasztott”?", "a": ["Mátrix", "Tron", "Inception", "Equilibrium"], "c": 0, "d": "easy", "e": "A Mátrix 1999-ben jelent meg, a Wachowski-testvérek rendezésében.", "t": "sci-fi"},
-    {"q": "Melyik film zenéje a „Ta-dum, ta-dum” cápamotívum?", "a": ["Cápa", "Alien", "Psycho", "Az ördögűző"], "c": 0, "d": "medium", "e": "A zenét John Williams komponálta.", "t": "filmzene"},
-    {"q": "Melyik zeneszerző írta a Star Wars, az Indiana Jones és a Cápa filmzenéjét?", "a": ["John Williams", "Hans Zimmer", "Ennio Morricone", "Howard Shore"], "c": 0, "d": "medium", "e": "Williams a filmtörténet legtöbb Oscar-jelölését kapott zeneszerzői közé tartozik.", "t": "filmzene"},
-    {"q": "Melyik zeneszerző írta a Csillagok között és a Sötét lovag zenéjét?", "a": ["Hans Zimmer", "John Williams", "Alexandre Desplat", "Ludwig Göransson"], "c": 0, "d": "medium", "e": "Zimmer Christopher Nolan több filmjének zeneszerzője volt.", "t": "filmzene"},
-    {"q": "Melyik olasz zeneszerző írta a spagettiwesternek ikonikus zenéjét?", "a": ["Ennio Morricone", "Nino Rota", "Riz Ortolani", "Luis Bacalov"], "c": 0, "d": "hard", "e": "Morricone A Jó, a Rossz és a Csúf zenéjével lett világhírű.", "t": "filmzene"},
-    {"q": "Melyik film nyerte a legjobb film Oscar-díját a Ponyvaregény és A remény rabjai évében?", "a": ["Forrest Gump", "Ponyvaregény", "A remény rabjai", "Négy esküvő és egy temetés"], "c": 0, "d": "medium", "e": "Az 1995-ös díjátadón, az 1994-es filmekért, a Forrest Gump hat Oscart kapott.", "t": "Oscar"},
-    {"q": "Ki rendezte a Ponyvaregényt?", "a": ["Quentin Tarantino", "Robert Rodriguez", "Guy Ritchie", "Coen testvérek"], "c": 0, "d": "easy", "e": "A film 1994-ben Arany Pálmát kapott Cannes-ban.", "t": "rendezők"},
-    {"q": "Melyik filmben szerepel a „Vörös pirula vagy kék pirula” választás?", "a": ["Mátrix", "Terminátor", "Total Recall", "Fekete tükör"], "c": 0, "d": "medium", "e": "Morpheus ajánlata a film egyik legismertebb jelenete.", "t": "sci-fi"},
-    {"q": "Melyik streamingszolgáltató készítette a Squid Game című sorozatot?", "a": ["Netflix", "HBO", "Disney+", "Amazon Prime"], "c": 0, "d": "easy", "e": "A dél-koreai sorozat 2021-ben lett világsiker.", "t": "sorozatok"},
-    {"q": "Melyik HBO-minisorozat szól az 1986-os atomerőmű-katasztrófáról?", "a": ["Csernobil", "Az elveszettek", "The Terror", "Band of Brothers"], "c": 0, "d": "medium", "e": "Az ötrészes minisorozat 2019-ben jelent meg.", "t": "sorozatok"},
-    {"q": "Melyik magyar színész alakította a Kontroll című film főszerepét?", "a": ["Csányi Sándor", "Nagy Ervin", "Mucsi Zoltán", "Anger Zsolt"], "c": 0, "d": "hard", "e": "Antal Nimród 2003-as filmje a budapesti metróban játszódik.", "t": "magyar film"}
+    {
+      "q": "Ki rendezte A Keresztapa című filmet?",
+      "a": [
+        "Francis Ford Coppola",
+        "Martin Scorsese",
+        "Steven Spielberg",
+        "Brian De Palma"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A film 1972-ben készült Mario Puzo regényéből.",
+      "t": "klasszikusok"
+    },
+    {
+      "q": "Melyik filmhez kötődik a „visszautasíthatatlan ajánlat” szállóige?",
+      "a": [
+        "A Keresztapa",
+        "Casino",
+        "Sicario",
+        "A tégla"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Don Corleone ajánlata a film legismertebb motívuma.",
+      "t": "klasszikusok"
+    },
+    {
+      "q": "Ki rendezte a Cápa és az E.T. című filmeket?",
+      "a": [
+        "Steven Spielberg",
+        "George Lucas",
+        "James Cameron",
+        "Ridley Scott"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Spielberg mindkettővel a modern blockbuster műfaját alakította.",
+      "t": "rendezők"
+    },
+    {
+      "q": "Ki alkotta meg a Csillagok háborúja univerzumát?",
+      "a": [
+        "George Lucas",
+        "Gene Roddenberry",
+        "J. J. Abrams",
+        "Ridley Scott"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az első film 1977-ben jelent meg.",
+      "t": "sci-fi"
+    },
+    {
+      "q": "Ki rendezte a Titanic és az Avatar című filmeket?",
+      "a": [
+        "James Cameron",
+        "Peter Jackson",
+        "Christopher Nolan",
+        "Michael Bay"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Cameron filmjei rekordokat döntöttek a bevételi listákon.",
+      "t": "rendezők"
+    },
+    {
+      "q": "Ki rendezte A Gyűrűk Ura filmtrilógiát?",
+      "a": [
+        "Peter Jackson",
+        "Guillermo del Toro",
+        "David Yates",
+        "Chris Columbus"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A trilógia 2001 és 2003 között készült Új-Zélandon.",
+      "t": "fantasy"
+    },
+    {
+      "q": "Melyik regényből készült A Gyűrűk Ura filmtrilógia?",
+      "a": [
+        "J. R. R. Tolkien regényéből",
+        "C. S. Lewis regényéből",
+        "George R. R. Martin regényéből",
+        "Ursula K. Le Guin regényéből"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Tolkien 1954–55-ben adta ki a trilógiát.",
+      "t": "fantasy"
+    },
+    {
+      "q": "Ki rendezte az Eredet (Inception) és a Csillagok között (Interstellar) című filmeket?",
+      "a": [
+        "Christopher Nolan",
+        "Denis Villeneuve",
+        "Alfonso Cuarón",
+        "Darren Aronofsky"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nolan filmjeit a nemlineáris szerkezet és a nagy léptékű képi világ jellemzi.",
+      "t": "rendezők"
+    },
+    {
+      "q": "Melyik film nyerte a legjobb film Oscar-díját 2020-ban?",
+      "a": [
+        "Élősködők (Parasite)",
+        "1917",
+        "Joker",
+        "Volt egyszer egy… Hollywood"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Parasite az első nem angol nyelvű film, amely elnyerte a legjobb film Oscarját.",
+      "t": "Oscar"
+    },
+    {
+      "q": "Melyik országból származik az Élősködők (Parasite) című film?",
+      "a": [
+        "Dél-Korea",
+        "Japán",
+        "Kína",
+        "Tajvan"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rendező Bong Joon-ho.",
+      "t": "világfilm"
+    },
+    {
+      "q": "Melyik díj a legfontosabb amerikai filmes elismerés?",
+      "a": [
+        "Oscar-díj",
+        "Golden Globe",
+        "BAFTA",
+        "Arany Pálma"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Oscart az Amerikai Filmakadémia osztja ki.",
+      "t": "Oscar"
+    },
+    {
+      "q": "Melyik fesztivál fődíja az Arany Pálma?",
+      "a": [
+        "Cannes-i filmfesztivál",
+        "Berlini filmfesztivál",
+        "Velencei filmfesztivál",
+        "Sundance"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A berlini fődíj az Arany Medve, a velencei az Arany Oroszlán.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Melyik magyar film kapott Oscar-díjat a legjobb idegen nyelvű film kategóriában 2016-ban?",
+      "a": [
+        "Saul fia",
+        "Testről és lélekről",
+        "Fehér tenyér",
+        "Kontroll"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nemes Jeles László filmje 2016-ban nyert Oscart.",
+      "t": "magyar film"
+    },
+    {
+      "q": "Melyik magyar animációs rövidfilm kapott Oscar-díjat 1981-ben?",
+      "a": [
+        "A légy",
+        "Gustavus",
+        "Hófehér",
+        "Vízipók-csodapók"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Rofusz Ferenc A légy című filmje kapta a rövid animációs Oscart.",
+      "t": "magyar film"
+    },
+    {
+      "q": "Melyik magyar operatőr kapott Oscar-díjat a Harmadik típusú találkozásokért?",
+      "a": [
+        "Zsigmond Vilmos",
+        "Kovács László",
+        "Koltai Lajos",
+        "Ragályi Elemér"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Zsigmond Vilmos 1978-ban kapta az elismerést Steven Spielberg filmjéért.",
+      "t": "magyar film"
+    },
+    {
+      "q": "Melyik magyar rövidfilm kapott Oscar-díjat 2017-ben?",
+      "a": [
+        "Mindenki",
+        "Sing Sing",
+        "Balaton method",
+        "Bakkermann"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Deák Kristóf Mindenki című filmje kapta a legjobb élőszereplős rövidfilm Oscarját.",
+      "t": "magyar film"
+    },
+    {
+      "q": "Melyik magyar filmrendező nevéhez fűződik a Sátántangó és a Werckmeister harmóniák?",
+      "a": [
+        "Tarr Béla",
+        "Szabó István",
+        "Jancsó Miklós",
+        "Fábri Zoltán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Tarr Béla hosszú beállításairól ismert.",
+      "t": "magyar film"
+    },
+    {
+      "q": "Melyik magyar rendező filmje a Mephisto, amely 1982-ben Oscart kapott?",
+      "a": [
+        "Szabó István",
+        "Jancsó Miklós",
+        "Makk Károly",
+        "Bacsó Péter"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Mephisto a legjobb idegen nyelvű film Oscarját nyerte el.",
+      "t": "magyar film"
+    },
+    {
+      "q": "Melyik magyar film klasszikus a „szocializmus szatírája” Bacsó Pétertől?",
+      "a": [
+        "A tanú",
+        "Megáll az idő",
+        "Szindbád",
+        "Szerelem"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tanú 1969-ben készült, de csak 1979-ben került a mozikba.",
+      "t": "magyar film"
+    },
+    {
+      "q": "Melyik magyar filmből származik a „narancs, az van” típusú kultuszjelenet?",
+      "a": [
+        "A tanú",
+        "Indul a bakterház",
+        "Egy szoknya, egy nadrág",
+        "Régi nyár"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tanú narancs-jelenete a magyar filmtörténet legismertebb szatírája.",
+      "t": "magyar film"
+    },
+    {
+      "q": "Ki játszotta a főszerepet a Nyomorultak 2012-es filmváltozatában Jean Valjean-ként?",
+      "a": [
+        "Hugh Jackman",
+        "Russell Crowe",
+        "Eddie Redmayne",
+        "Sacha Baron Cohen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A filmet Tom Hooper rendezte.",
+      "t": "színészek"
+    },
+    {
+      "q": "Ki játszotta Forrest Gumpot?",
+      "a": [
+        "Tom Hanks",
+        "Robin Williams",
+        "Kevin Costner",
+        "Bruce Willis"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Tom Hanks 1995-ben Oscart kapott a szerepért.",
+      "t": "színészek"
+    },
+    {
+      "q": "Ki játszotta Jack Dawsont a Titanicban?",
+      "a": [
+        "Leonardo DiCaprio",
+        "Brad Pitt",
+        "Matt Damon",
+        "Johnny Depp"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Rose szerepében Kate Winslet volt látható.",
+      "t": "színészek"
+    },
+    {
+      "q": "Melyik filmért kapta Leonardo DiCaprio az első Oscar-díját?",
+      "a": [
+        "A visszatérő",
+        "Farkas a Wall Streetről",
+        "Django elszabadul",
+        "Eredet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A visszatérő (The Revenant) 2016-ban hozta el az elismerést.",
+      "t": "színészek"
+    },
+    {
+      "q": "Ki játszotta Hermione Grangert a Harry Potter-filmekben?",
+      "a": [
+        "Emma Watson",
+        "Emma Stone",
+        "Bonnie Wright",
+        "Evanna Lynch"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A trió tagjai Daniel Radcliffe, Rupert Grint és Emma Watson voltak.",
+      "t": "színészek"
+    },
+    {
+      "q": "Melyik írónő könyveiből készültek a Harry Potter-filmek?",
+      "a": [
+        "J. K. Rowling",
+        "Suzanne Collins",
+        "Stephenie Meyer",
+        "Philip Pullman"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az első kötet 1997-ben jelent meg.",
+      "t": "fantasy"
+    },
+    {
+      "q": "Melyik sorozat játszódik Westeros földjén?",
+      "a": [
+        "Trónok harca",
+        "A Gyűrűk Ura",
+        "Vikingek",
+        "The Witcher"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sorozat George R. R. Martin regényciklusán alapul.",
+      "t": "sorozatok"
+    },
+    {
+      "q": "Melyik sorozat főszereplője Walter White, a kémiatanár?",
+      "a": [
+        "Breaking Bad",
+        "Better Call Saul",
+        "Ozark",
+        "Narcos"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sorozat 2008 és 2013 között futott.",
+      "t": "sorozatok"
+    },
+    {
+      "q": "Melyik sorozat spin-offja a Better Call Saul?",
+      "a": [
+        "Breaking Bad",
+        "The Wire",
+        "Fargo",
+        "Dexter"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Better Call Saul Jimmy McGill előtörténetét mutatja be.",
+      "t": "sorozatok"
+    },
+    {
+      "q": "Melyik sorozat játszódik a képzeletbeli Hawkins városában?",
+      "a": [
+        "Stranger Things",
+        "Twin Peaks",
+        "Riverdale",
+        "Dark"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sorozat a nyolcvanas évek hangulatát idézi.",
+      "t": "sorozatok"
+    },
+    {
+      "q": "Melyik sorozat hat New York-i barát életéről szól, a Central Perk kávézóval?",
+      "a": [
+        "Jóbarátok",
+        "Seinfeld",
+        "How I Met Your Mother",
+        "Will és Grace"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Jóbarátok tíz évadon át futott 1994 és 2004 között.",
+      "t": "sorozatok"
+    },
+    {
+      "q": "Melyik sorozat főszereplője Sheldon Cooper?",
+      "a": [
+        "Agymenők",
+        "Jóbarátok",
+        "Modern család",
+        "Két pasi meg egy kicsi"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Agymenők (The Big Bang Theory) 2007-ben indult.",
+      "t": "sorozatok"
+    },
+    {
+      "q": "Melyik animációs sorozat szereplői Homer, Marge, Bart, Lisa és Maggie?",
+      "a": [
+        "A Simpson család",
+        "Family Guy",
+        "South Park",
+        "Futurama"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sorozat 1989-ben indult, a televíziótörténet leghosszabb ideig futó szitkomja.",
+      "t": "animáció"
+    },
+    {
+      "q": "Melyik stúdió készítette a Toy Story című filmet?",
+      "a": [
+        "Pixar",
+        "DreamWorks",
+        "Illumination",
+        "Studio Ghibli"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Toy Story 1995-ben az első teljesen számítógéppel animált nagyjátékfilm volt.",
+      "t": "animáció"
+    },
+    {
+      "q": "Melyik japán animációs stúdió készítette a Chihiro Szellemországban című filmet?",
+      "a": [
+        "Studio Ghibli",
+        "Toei Animation",
+        "Madhouse",
+        "Kyoto Animation"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A film rendezője Mijazaki Hajao, 2003-ban Oscart kapott.",
+      "t": "animáció"
+    },
+    {
+      "q": "Melyik Disney-film főszereplője Elsa és Anna?",
+      "a": [
+        "Jégvarázs",
+        "Oroszlánkirály",
+        "Aladdin",
+        "Mulan"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Jégvarázs 2013-ban jelent meg.",
+      "t": "animáció"
+    },
+    {
+      "q": "Melyik animációs film zenéje a „Hakuna matata”?",
+      "a": [
+        "Az oroszlánkirály",
+        "Dzsungel könyve",
+        "Tarzan",
+        "Madagaszkár"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A dal jelentése szuahéliül kb. „semmi gond”.",
+      "t": "animáció"
+    },
+    {
+      "q": "Melyik filmsorozat főszereplője James Bond?",
+      "a": [
+        "007-es filmek",
+        "Mission Impossible",
+        "Bourne-filmek",
+        "Kingsman"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bond karakterét Ian Fleming írta meg.",
+      "t": "franchise-ok"
+    },
+    {
+      "q": "Ki volt az első James Bondot alakító színész a filmvásznon?",
+      "a": [
+        "Sean Connery",
+        "Roger Moore",
+        "George Lazenby",
+        "Timothy Dalton"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Sean Connery 1962-ben, a Dr. No című filmben debütált.",
+      "t": "franchise-ok"
+    },
+    {
+      "q": "Melyik filmsorozat része a Vasember, a Hulk és a Thor?",
+      "a": [
+        "Marvel-filmuniverzum",
+        "DC-univerzum",
+        "X-Men-filmek",
+        "Transformers"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az MCU 2008-ban indult a Vasemberrel.",
+      "t": "franchise-ok"
+    },
+    {
+      "q": "Melyik DC-szuperhős városa Gotham?",
+      "a": [
+        "Batman",
+        "Superman",
+        "Flash",
+        "Aquaman"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Superman városa Metropolis.",
+      "t": "franchise-ok"
+    },
+    {
+      "q": "Melyik film a világ legnagyobb bevételű filmjei közé tartozik, kék bőrű lakókkal a Pandora nevű holdon?",
+      "a": [
+        "Avatar",
+        "Star Wars",
+        "Dűne",
+        "Ready Player One"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Avatar 2009-ben jelent meg.",
+      "t": "sci-fi"
+    },
+    {
+      "q": "Melyik regényből készült a Dűne című film?",
+      "a": [
+        "Frank Herbert regényéből",
+        "Isaac Asimov regényéből",
+        "Arthur C. Clarke regényéből",
+        "Philip K. Dick regényéből"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A regény 1965-ben jelent meg.",
+      "t": "sci-fi"
+    },
+    {
+      "q": "Melyik film alapja Philip K. Dick regénye, androidokkal és „replikánsokkal”?",
+      "a": [
+        "Szárnyas fejvadász",
+        "Mátrix",
+        "Ex Machina",
+        "A. I."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Szárnyas fejvadász (Blade Runner) 1982-ben jelent meg.",
+      "t": "sci-fi"
+    },
+    {
+      "q": "Melyik film főszereplője Neo, aki „a kiválasztott”?",
+      "a": [
+        "Mátrix",
+        "Tron",
+        "Inception",
+        "Equilibrium"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Mátrix 1999-ben jelent meg, a Wachowski-testvérek rendezésében.",
+      "t": "sci-fi"
+    },
+    {
+      "q": "Melyik film zenéje a „Ta-dum, ta-dum” cápamotívum?",
+      "a": [
+        "Cápa",
+        "Alien",
+        "Psycho",
+        "Az ördögűző"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A zenét John Williams komponálta.",
+      "t": "filmzene"
+    },
+    {
+      "q": "Melyik zeneszerző írta a Star Wars, az Indiana Jones és a Cápa filmzenéjét?",
+      "a": [
+        "John Williams",
+        "Hans Zimmer",
+        "Ennio Morricone",
+        "Howard Shore"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Williams a filmtörténet legtöbb Oscar-jelölését kapott zeneszerzői közé tartozik.",
+      "t": "filmzene"
+    },
+    {
+      "q": "Melyik zeneszerző írta a Csillagok között és a Sötét lovag zenéjét?",
+      "a": [
+        "Hans Zimmer",
+        "John Williams",
+        "Alexandre Desplat",
+        "Ludwig Göransson"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Zimmer Christopher Nolan több filmjének zeneszerzője volt.",
+      "t": "filmzene"
+    },
+    {
+      "q": "Melyik olasz zeneszerző írta a spagettiwesternek ikonikus zenéjét?",
+      "a": [
+        "Ennio Morricone",
+        "Nino Rota",
+        "Riz Ortolani",
+        "Luis Bacalov"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Morricone A Jó, a Rossz és a Csúf zenéjével lett világhírű.",
+      "t": "filmzene"
+    },
+    {
+      "q": "Melyik film nyerte a legjobb film Oscar-díját a Ponyvaregény és A remény rabjai évében?",
+      "a": [
+        "Forrest Gump",
+        "Ponyvaregény",
+        "A remény rabjai",
+        "Négy esküvő és egy temetés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1995-ös díjátadón, az 1994-es filmekért, a Forrest Gump hat Oscart kapott.",
+      "t": "Oscar"
+    },
+    {
+      "q": "Ki rendezte a Ponyvaregényt?",
+      "a": [
+        "Quentin Tarantino",
+        "Robert Rodriguez",
+        "Guy Ritchie",
+        "Coen testvérek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A film 1994-ben Arany Pálmát kapott Cannes-ban.",
+      "t": "rendezők"
+    },
+    {
+      "q": "Melyik filmben szerepel a „Vörös pirula vagy kék pirula” választás?",
+      "a": [
+        "Mátrix",
+        "Terminátor",
+        "Total Recall",
+        "Fekete tükör"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Morpheus ajánlata a film egyik legismertebb jelenete.",
+      "t": "sci-fi"
+    },
+    {
+      "q": "Melyik streamingszolgáltató készítette a Squid Game című sorozatot?",
+      "a": [
+        "Netflix",
+        "HBO",
+        "Disney+",
+        "Amazon Prime"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A dél-koreai sorozat 2021-ben lett világsiker.",
+      "t": "sorozatok"
+    },
+    {
+      "q": "Melyik HBO-minisorozat szól az 1986-os atomerőmű-katasztrófáról?",
+      "a": [
+        "Csernobil",
+        "Az elveszettek",
+        "The Terror",
+        "Band of Brothers"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ötrészes minisorozat 2019-ben jelent meg.",
+      "t": "sorozatok"
+    },
+    {
+      "q": "Melyik magyar színész alakította a Kontroll című film főszerepét?",
+      "a": [
+        "Csányi Sándor",
+        "Nagy Ervin",
+        "Mucsi Zoltán",
+        "Anger Zsolt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Antal Nimród 2003-as filmje a budapesti metróban játszódik.",
+      "t": "magyar film"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: A Lyon-i banda?",
+      "a": [
+        "1950-es évek",
+        "1980-es évek",
+        "1990-es évek",
+        "2010-es évek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "A Lyon-i banda bemutatója: 2010-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q593"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Életrevalók?",
+      "a": [
+        "1950-es évek",
+        "1940-es évek",
+        "2010-es évek",
+        "1960-es évek"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Életrevalók bemutatója: 2010-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q595"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Travolti da un insolito destino nell’azzurro mare d’agosto?",
+      "a": [
+        "1990-es évek",
+        "1930-es évek",
+        "1970-es évek",
+        "2010-es évek"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Travolti da un insolito destino nell’azzurro mare d’agosto bemutatója: 1970-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q1365"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Ha/ver?",
+      "a": [
+        "1990-es évek",
+        "1930-es évek",
+        "2010-es évek",
+        "1940-es évek"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Ha/ver bemutatója: 2010-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q2201"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Tizenkét dühös ember?",
+      "a": [
+        "1950-es évek",
+        "1940-es évek",
+        "1990-es évek",
+        "2000-es évek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Tizenkét dühös ember bemutatója: 1950-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q2345"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Elfújta a szél?",
+      "a": [
+        "1970-es évek",
+        "1930-es évek",
+        "2000-es évek",
+        "1960-es évek"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Elfújta a szél bemutatója: 1930-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q2875"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: The Man Between?",
+      "a": [
+        "1950-es évek",
+        "1980-es évek",
+        "1960-es évek",
+        "1940-es évek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "The Man Between bemutatója: 1950-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q3092"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Rough Night in Jericho?",
+      "a": [
+        "1970-es évek",
+        "1960-es évek",
+        "2000-es évek",
+        "1980-es évek"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Rough Night in Jericho bemutatója: 1960-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q3187"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: A mandzsúriai jelölt?",
+      "a": [
+        "1960-es évek",
+        "2000-es évek",
+        "1930-es évek",
+        "2010-es évek"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "A mandzsúriai jelölt bemutatója: 2000-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q3589"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Wanted?",
+      "a": [
+        "1950-es évek",
+        "1940-es évek",
+        "2000-es évek",
+        "1930-es évek"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Wanted bemutatója: 2000-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q4444"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Delirious?",
+      "a": [
+        "1930-es évek",
+        "1980-es évek",
+        "2010-es évek",
+        "2000-es évek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Delirious bemutatója: 2000-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q4471"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Trükkös fiúk?",
+      "a": [
+        "1960-es évek",
+        "1940-es évek",
+        "2000-es évek",
+        "1990-es évek"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Trükkös fiúk bemutatója: 2000-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q4536"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Csípem a családodat?",
+      "a": [
+        "1950-es évek",
+        "2000-es évek",
+        "1990-es évek",
+        "2010-es évek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Csípem a családodat bemutatója: 2010-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q4739"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Skyfall?",
+      "a": [
+        "2010-es évek",
+        "1980-es évek",
+        "1990-es évek",
+        "1960-es évek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Skyfall bemutatója: 2010-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q4941"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Négy oroszlán?",
+      "a": [
+        "2010-es évek",
+        "1970-es évek",
+        "2000-es évek",
+        "1960-es évek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Négy oroszlán bemutatója: 2010-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q5590"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: V mint vérbosszú?",
+      "a": [
+        "1940-es évek",
+        "2000-es évek",
+        "1990-es évek",
+        "2010-es évek"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "V mint vérbosszú bemutatója: 2000-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q5890"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Star Wars: Az ébredő Erő?",
+      "a": [
+        "1970-es évek",
+        "2010-es évek",
+        "1930-es évek",
+        "1940-es évek"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Star Wars: Az ébredő Erő bemutatója: 2010-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q6074"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Pirates II: Stagnetti's Revenge?",
+      "a": [
+        "1980-es évek",
+        "2000-es évek",
+        "1970-es évek",
+        "1990-es évek"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Pirates II: Stagnetti's Revenge bemutatója: 2000-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q7216"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Megvagy!?",
+      "a": [
+        "1950-es évek",
+        "1960-es évek",
+        "1990-es évek",
+        "1980-es évek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Megvagy! bemutatója: 1980-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q8328"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: 101 kiskutya?",
+      "a": [
+        "2010-es évek",
+        "1970-es évek",
+        "1980-es évek",
+        "1990-es évek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "101 kiskutya bemutatója: 1990-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q8594"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Az utolsó léghajlító?",
+      "a": [
+        "1930-es évek",
+        "1950-es évek",
+        "2010-es évek",
+        "1980-es évek"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Az utolsó léghajlító bemutatója: 2010-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q11593"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: Radírfej?",
+      "a": [
+        "2000-es évek",
+        "1930-es évek",
+        "1940-es évek",
+        "1970-es évek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Radírfej bemutatója: 1970-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q11618"
+    },
+    {
+      "q": "Melyik évtizedben jelent meg a következő film: E. T., a földönkívüli?",
+      "a": [
+        "1980-es évek",
+        "1950-es évek",
+        "1930-es évek",
+        "1970-es évek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "E. T., a földönkívüli bemutatója: 1980-es évek.",
+      "t": "filmek évtizede",
+      "s": "http://www.wikidata.org/entity/Q11621"
+    }
   ]
 }

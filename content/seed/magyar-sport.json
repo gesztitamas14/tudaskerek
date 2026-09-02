@@ -2,60 +2,720 @@
   "category": "magyar-sport",
   "default_source": "saját szerkesztés (általános műveltségi tananyag)",
   "questions": [
-    {"q": "Melyik sportágban nyerte Magyarország a legtöbb olimpiai aranyérmet?", "a": ["Vívás", "Kajak-kenu", "Úszás", "Birkózás"], "c": 0, "d": "medium", "e": "A magyar vívósport, kiemelten a kardvívás, a legeredményesebb olimpiai sportágunk.", "t": "olimpia"},
-    {"q": "Ki volt az első magyar olimpiai bajnok 1896-ban?", "a": ["Hajós Alfréd", "Dani Nándor", "Szokolyi Alajos", "Papp László"], "c": 0, "d": "medium", "e": "Hajós Alfréd Athénban két úszószámot nyert meg.", "t": "olimpia"},
-    {"q": "Melyik sportágban volt olimpiai bajnok Hajós Alfréd?", "a": ["Úszás", "Atlétika", "Vívás", "Kerékpár"], "c": 0, "d": "medium", "e": "Hajós 100 és 1200 méter gyorson lett bajnok; civilben építész volt.", "t": "olimpia"},
-    {"q": "Ki a legeredményesebb magyar olimpikon hét aranyéremmel?", "a": ["Gerevich Aladár", "Egerszegi Krisztina", "Papp László", "Balczó András"], "c": 0, "d": "medium", "e": "Gerevich Aladár kardvívó hat olimpián nyert csapataranyat, egyéniben pedig 1948-ban.", "t": "olimpia"},
-    {"q": "Hány olimpiai aranyérmet nyert Egerszegi Krisztina?", "a": ["5", "3", "7", "4"], "c": 0, "d": "medium", "e": "Három olimpián összesen öt aranyat szerzett úszásban.", "t": "olimpia"},
-    {"q": "Melyik olimpián lett Egerszegi Krisztina 14 évesen olimpiai bajnok?", "a": ["1988, Szöul", "1992, Barcelona", "1996, Atlanta", "1984, Los Angeles"], "c": 0, "d": "hard", "e": "Szöulban 200 méter háton győzött, ezzel a legfiatalabb magyar olimpiai bajnok lett.", "t": "olimpia"},
-    {"q": "Melyik sportágban lett háromszoros olimpiai bajnok Papp László?", "a": ["Ökölvívás", "Birkózás", "Vívás", "Cselgáncs"], "c": 0, "d": "medium", "e": "Papp László 1948-ban, 1952-ben és 1956-ban is aranyat szerzett.", "t": "olimpia"},
-    {"q": "Melyik évtized magyar labdarúgó-válogatottját nevezik Aranycsapatnak?", "a": ["Az 1950-es évekét", "Az 1930-as évekét", "Az 1980-as évekét", "A 2010-es évekét"], "c": 0, "d": "easy", "e": "Az Aranycsapat 1950 és 1956 között a világ legjobbjai közé tartozott.", "t": "labdarúgás"},
-    {"q": "Melyik labdarúgót hívták „Öcsi” néven?", "a": ["Puskás Ferenc", "Kocsis Sándor", "Hidegkuti Nándor", "Czibor Zoltán"], "c": 0, "d": "easy", "e": "Puskás Ferenc később a Real Madrid legendája lett.", "t": "labdarúgás"},
-    {"q": "Milyen eredménnyel győzött a magyar válogatott Angliában 1953-ban?", "a": ["6–3", "4–2", "7–1", "3–2"], "c": 0, "d": "medium", "e": "Az „évszázad mérkőzésén” a Wembleyben 6–3-ra nyert a magyar csapat.", "t": "labdarúgás"},
-    {"q": "Milyen eredménnyel győzött a magyar válogatott Anglia ellen a budapesti visszavágón 1954-ben?", "a": ["7–1", "6–3", "4–0", "5–2"], "c": 0, "d": "hard", "e": "A Népstadionban 7–1 lett a végeredmény.", "t": "labdarúgás"},
-    {"q": "Melyik világbajnokság döntőjében szerepelt a magyar labdarúgó-válogatott?", "a": ["1954, Svájc", "1938, Franciaország és 1954, Svájc", "1962, Chile", "1986, Mexikó"], "c": 1, "d": "hard", "e": "A magyar válogatott 1938-ban és 1954-ben is világbajnoki döntőt játszott, mindkettőt elveszítve.", "t": "labdarúgás"},
-    {"q": "Ki ellen vesztette el a magyar válogatott az 1954-es világbajnoki döntőt?", "a": ["Nyugat-Németország", "Brazília", "Uruguay", "Olaszország"], "c": 0, "d": "medium", "e": "A berni döntőben 3–2-re győzött a nyugatnémet válogatott.", "t": "labdarúgás"},
-    {"q": "Melyik magyar klub nyerte a legtöbb hazai labdarúgó-bajnoki címet?", "a": ["Ferencváros", "Újpest", "MTK", "Honvéd"], "c": 0, "d": "medium", "e": "A Ferencváros a legtöbbszörös magyar bajnok.", "t": "labdarúgás"},
-    {"q": "Melyik magyar labdarúgóról nevezte el a FIFA az év legszebb góljának díját?", "a": ["Puskás Ferenc", "Albert Flórián", "Bozsik József", "Grosics Gyula"], "c": 0, "d": "medium", "e": "A Puskás-díjat 2009-ben alapította a FIFA.", "t": "labdarúgás"},
-    {"q": "Melyik magyar labdarúgó kapott Aranylabdát 1967-ben?", "a": ["Albert Flórián", "Puskás Ferenc", "Bozsik József", "Détári Lajos"], "c": 0, "d": "medium", "e": "Albert Flórián az egyetlen magyar Aranylabdás játékos.", "t": "labdarúgás"},
-    {"q": "Melyik Európa-bajnokságon szerepelt újra a magyar válogatott 44 év kihagyás után?", "a": ["2016, Franciaország", "2012, Lengyelország–Ukrajna", "2008, Ausztria–Svájc", "2004, Portugália"], "c": 0, "d": "medium", "e": "A magyar csapat 1972 után 2016-ban jutott ki ismét Eb-re, és csoportelső lett.", "t": "labdarúgás"},
-    {"q": "Melyik magyar kapus jellegzetes viselete volt a szürke melegítőalsó?", "a": ["Király Gábor", "Grosics Gyula", "Gulácsi Péter", "Fülöp Márton"], "c": 0, "d": "medium", "e": "Király Gábor melegítőalsója a válogatott ikonikus látványa lett.", "t": "labdarúgás"},
-    {"q": "Melyik magyar labdarúgó volt a válogatott csapatkapitánya a 2010-es években, a legtöbb válogatottsággal?", "a": ["Dzsudzsák Balázs", "Szalai Ádám", "Gera Zoltán", "Bőle Lukács"], "c": 0, "d": "medium", "e": "Dzsudzsák Balázs a magyar válogatott rekorder játékosa.", "t": "labdarúgás"},
-    {"q": "Melyik csapatsportban nyerte Magyarország a legtöbb olimpiai aranyat?", "a": ["Vízilabda", "Kézilabda", "Kosárlabda", "Röplabda"], "c": 0, "d": "easy", "e": "A magyar férfi vízilabda-válogatott kilenc olimpiai bajnoki címet szerzett.", "t": "vízilabda"},
-    {"q": "Melyik olimpián játszották a „melbourne-i vérfürdőként” emlegetett vízilabda-mérkőzést?", "a": ["1956", "1952", "1964", "1972"], "c": 0, "d": "medium", "e": "Az 1956-os magyar–szovjet mérkőzést a forradalom leverése utáni feszültség kísérte.", "t": "vízilabda"},
-    {"q": "Hány egymást követő olimpiát nyert a magyar férfi vízilabda-válogatott 2000-től?", "a": ["Hármat", "Egyet", "Kettőt", "Négyet"], "c": 0, "d": "medium", "e": "Sydney, Athén és Peking is magyar aranyat hozott.", "t": "vízilabda"},
-    {"q": "Melyik számban nyert Hosszú Katinka két aranyat is a 2016-os olimpián?", "a": ["Vegyesúszás", "Gyorsúszás", "Mellúszás", "Pillangóúszás"], "c": 0, "d": "medium", "e": "200 és 400 méter vegyesen is első lett, valamint 100 méter háton.", "t": "úszás"},
-    {"q": "Hány aranyérmet szerzett Hosszú Katinka a 2016-os riói olimpián?", "a": ["3", "1", "2", "4"], "c": 0, "d": "medium", "e": "Két vegyes szám és 100 méter hát hozta a három aranyat.", "t": "úszás"},
-    {"q": "Melyik magyar úszó lett olimpiai bajnok 200 méter pillangón Tokióban?", "a": ["Milák Kristóf", "Cseh László", "Gyurta Dániel", "Verrasztó Dávid"], "c": 0, "d": "medium", "e": "Milák Kristóf olimpiai csúccsal győzött.", "t": "úszás"},
-    {"q": "Melyik magyar úszó lett olimpiai bajnok 200 méter mellen 2012-ben?", "a": ["Gyurta Dániel", "Cseh László", "Milák Kristóf", "Kis Gergő"], "c": 0, "d": "medium", "e": "Gyurta Dániel Londonban világcsúccsal nyert.", "t": "úszás"},
-    {"q": "Mely öt sportág alkotja az öttusát?", "a": ["Vívás, úszás, lovaglás, lövészet, futás", "Futás, kerékpár, úszás, torna, vívás", "Úszás, torna, birkózás, futás, lövészet", "Lovaglás, evezés, futás, úszás, vívás"], "c": 0, "d": "medium", "e": "Az öttusa klasszikus összetétele: vívás, úszás, lovaglás, lövészet és futás.", "t": "öttusa"},
-    {"q": "Melyik magyar öttusázó nyert három olimpiai aranyat?", "a": ["Balczó András", "Martinek János", "Fábián László", "Kancsal Tamás"], "c": 0, "d": "hard", "e": "Balczó András 1960-ban és 1968-ban csapatban, 1972-ben egyéniben lett bajnok.", "t": "öttusa"},
-    {"q": "Melyik magyar vívó nyert három egymást követő olimpián egyéni kardaranyat?", "a": ["Szilágyi Áron", "Imre Géza", "Boczkó Gábor", "Gémesi Csanád"], "c": 0, "d": "medium", "e": "Szilágyi Áron 2012-ben, 2016-ban és 2020-ban is egyéni olimpiai bajnok lett.", "t": "vívás"},
-    {"q": "Melyik magyar tornász lett olimpiai bajnok lólengésben 1976-ban és 1980-ban is?", "a": ["Magyar Zoltán", "Berki Krisztián", "Csollány Szilveszter", "Guczoghy György"], "c": 0, "d": "hard", "e": "Magyar Zoltán nevéhez fűződik a „Magyar-vándor” nevű elem is.", "t": "torna"},
-    {"q": "Melyik magyar tornász lett olimpiai bajnok gyűrűn 2000-ben?", "a": ["Csollány Szilveszter", "Magyar Zoltán", "Berki Krisztián", "Kovács Péter"], "c": 0, "d": "hard", "e": "Csollány Szilveszter Sydneyben szerzett aranyat.", "t": "torna"},
-    {"q": "Melyik magyar tornász lett olimpiai bajnok lólengésben 2012-ben?", "a": ["Berki Krisztián", "Magyar Zoltán", "Csollány Szilveszter", "Vecsernyés Dávid"], "c": 0, "d": "medium", "e": "Berki Krisztián Londonban lett olimpiai bajnok.", "t": "torna"},
-    {"q": "Melyik magyar atléta lett olimpiai bajnok kalapácsvetésben 2012-ben?", "a": ["Pars Krisztián", "Annus Adrián", "Kiss Balázs", "Németh Miklós"], "c": 0, "d": "medium", "e": "Pars Krisztián Londonban szerzett aranyat.", "t": "atlétika"},
-    {"q": "Melyik magyar atléta dobott világcsúcsot gerelyhajításban a montreali olimpián?", "a": ["Németh Miklós", "Kulcsár Gergely", "Paragi Ferenc", "Szabó Miklós"], "c": 0, "d": "hard", "e": "Németh Miklós 1976-ban 94,58 méterrel győzött.", "t": "atlétika"},
-    {"q": "Melyik magyar atlétától vonták vissza a 2004-es olimpiai kalapácsvető aranyát?", "a": ["Annus Adrián", "Pars Krisztián", "Kiss Balázs", "Fazekas Róbert"], "c": 0, "d": "hard", "e": "Annus Adrián érmét doppingellenőrzés megtagadása miatt vonták vissza.", "t": "atlétika"},
-    {"q": "Melyik magyar városban rendezték a 2017-es úszó-világbajnokságot?", "a": ["Budapest", "Debrecen", "Győr", "Szeged"], "c": 0, "d": "medium", "e": "A világbajnokság fő helyszíne a Duna Aréna volt.", "t": "sportesemények"},
-    {"q": "Melyik magyar városban rendezték a 2023-as atlétikai világbajnokságot?", "a": ["Budapest", "Debrecen", "Miskolc", "Székesfehérvár"], "c": 0, "d": "medium", "e": "A helyszín a budapesti Nemzeti Atlétikai Központ volt.", "t": "sportesemények"},
-    {"q": "Rendezett-e már Magyarország nyári olimpiai játékokat?", "a": ["Nem, egyszer sem", "Igen, 1936-ban", "Igen, 1980-ban", "Igen, 2004-ben"], "c": 0, "d": "medium", "e": "Több pályázat ellenére Magyarország eddig nem rendezett olimpiát.", "t": "olimpia"},
-    {"q": "Ki volt az első magyar Forma-1-es pilóta?", "a": ["Baumgartner Zsolt", "Michelisz Norbert", "Kiss Norbert", "Wéber Gábor"], "c": 0, "d": "medium", "e": "Baumgartner Zsolt 2003-ban debütált, 2004-ben pontot is szerzett.", "t": "motorsport"},
-    {"q": "Hol rendezik a Forma-1 Magyar Nagydíját?", "a": ["Hungaroring", "Pannónia Ring", "Balaton Park", "Kakucs Ring"], "c": 0, "d": "easy", "e": "A mogyoródi Hungaroring 1986 óta ad otthont a futamnak.", "t": "motorsport"},
-    {"q": "Melyik magyar cselgáncsozó lett olimpiai bajnok Barcelonában?", "a": ["Kovács Antal", "Bor Barna", "Ungvári Miklós", "Csoknyai László"], "c": 0, "d": "hard", "e": "Kovács Antal 1992-ben szerzett aranyat.", "t": "cselgáncs"},
-    {"q": "Melyik magyar sportlövő lett olimpiai bajnok 2004-ben skeet számban?", "a": ["Igaly Diána", "Sidi Péter", "Csonka Zsófia", "Bognár László"], "c": 0, "d": "hard", "e": "Igaly Diána athéni győzelme a magyar sportlövészet nagy pillanata.", "t": "sportlövészet"},
-    {"q": "Melyik magyar kajakos nő szerezte a legtöbb olimpiai aranyat?", "a": ["Kozák Danuta", "Kovács Katalin", "Szabó Gabriella", "Csipes Tamara"], "c": 0, "d": "hard", "e": "Kozák Danuta hat olimpiai bajnoki címet gyűjtött.", "t": "kajak-kenu"},
-    {"q": "Melyik magyar kenus lett olimpiai bajnok C-1 1000 méteren 2008-ban?", "a": ["Vajda Attila", "Kolonics György", "Horváth Gábor", "Sík Csaba"], "c": 0, "d": "hard", "e": "Vajda Attila Pekingben győzött.", "t": "kajak-kenu"},
-    {"q": "Melyik magyar női kézilabdaklub ötszörös Bajnokok Ligája-győztes?", "a": ["Győri Audi ETO KC", "FTC-Rail Cargo Hungaria", "DVSC", "Siófok KC"], "c": 0, "d": "medium", "e": "A Győri Audi ETO KC 2013 és 2019 között öt BL-t nyert.", "t": "kézilabda"},
-    {"q": "Melyik magyar sakkozó a valaha volt legerősebb női játékos, aki férfi nagymesterek ellen versenyzett?", "a": ["Polgár Judit", "Polgár Zsuzsa", "Hoang Thanh Trang", "Rudolf Anna"], "c": 0, "d": "medium", "e": "Polgár Judit a világranglista első száz helyezettje között is szerepelt.", "t": "sakk"},
-    {"q": "Melyik magyar sakkozó volt a 20. század elején a világ élvonalában?", "a": ["Maróczy Géza", "Portisch Lajos", "Szabó László", "Bilek István"], "c": 0, "d": "hard", "e": "Maróczy Gézát világbajnoki párharcra is jelölték.", "t": "sakk"},
-    {"q": "Melyik magyar sportágban jellemző a „szablya” helyett használt „kard” kifejezés a versenyszámban?", "a": ["Vívás", "Íjászat", "Karate", "Ökölvívás"], "c": 0, "d": "easy", "e": "A vívás három fegyvernemben zajlik: tőr, párbajtőr és kard.", "t": "vívás"},
-    {"q": "Melyik vívó fegyvernem NEM olimpiai szám?", "a": ["Szablya-párbaj", "Tőr", "Párbajtőr", "Kard"], "c": 0, "d": "medium", "e": "Az olimpiai vívás fegyvernemei a tőr, a párbajtőr és a kard.", "t": "vívás"},
-    {"q": "Melyik magyar sportuszoda adott otthont a 2017-es vb versenyeinek Budapesten?", "a": ["Duna Aréna", "Császár-Komjádi uszoda", "Hajós Alfréd sportuszoda", "Tüskecsarnok"], "c": 0, "d": "hard", "e": "A Duna Aréna kifejezetten a világbajnokságra épült.", "t": "sportesemények"},
-    {"q": "Melyik magyar stadion a labdarúgó-válogatott otthona 2019-től?", "a": ["Puskás Aréna", "Groupama Aréna", "Nagyerdei Stadion", "MOL Aréna Sóstó"], "c": 0, "d": "easy", "e": "A Puskás Aréna a régi Népstadion helyén épült fel.", "t": "labdarúgás"},
-    {"q": "Melyik magyar sportág versenyszáma a „szinkronúszás” új neve?", "a": ["Műúszás", "Vízitánc", "Aquabalett", "Vízibalett"], "c": 0, "d": "hard", "e": "A sportág nemzetközi neve 2017-től artistic swimming, magyarul műúszás.", "t": "úszás"},
-    {"q": "Melyik magyar sportolónő lett olimpiai bajnok kardvívásban 2024-ben?", "a": ["Nem volt magyar női kardarany 2024-ben", "Márton Anna", "Battai Sugár Katinka", "Pusztai Liza"], "c": 0, "d": "hard", "e": "A 2024-es párizsi olimpián magyar női kardvívó nem szerzett egyéni aranyat.", "t": "vívás"},
-    {"q": "Melyik magyar sportágban ismert a „Magyar-vándor” nevű elem?", "a": ["Torna", "Vívás", "Atlétika", "Úszás"], "c": 0, "d": "hard", "e": "A lólengés elemét Magyar Zoltán tornászról nevezték el.", "t": "torna"},
-    {"q": "Melyik évben rendezték az első újkori olimpiát, ahol magyar sportolók is indultak?", "a": ["1896", "1900", "1906", "1912"], "c": 0, "d": "medium", "e": "Magyarország az 1896-os athéni olimpia résztvevője volt.", "t": "olimpia"}
+    {
+      "q": "Melyik sportágban nyerte Magyarország a legtöbb olimpiai aranyérmet?",
+      "a": [
+        "Vívás",
+        "Kajak-kenu",
+        "Úszás",
+        "Birkózás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar vívósport, kiemelten a kardvívás, a legeredményesebb olimpiai sportágunk.",
+      "t": "olimpia"
+    },
+    {
+      "q": "Ki volt az első magyar olimpiai bajnok 1896-ban?",
+      "a": [
+        "Hajós Alfréd",
+        "Dani Nándor",
+        "Szokolyi Alajos",
+        "Papp László"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hajós Alfréd Athénban két úszószámot nyert meg.",
+      "t": "olimpia"
+    },
+    {
+      "q": "Melyik sportágban volt olimpiai bajnok Hajós Alfréd?",
+      "a": [
+        "Úszás",
+        "Atlétika",
+        "Vívás",
+        "Kerékpár"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hajós 100 és 1200 méter gyorson lett bajnok; civilben építész volt.",
+      "t": "olimpia"
+    },
+    {
+      "q": "Ki a legeredményesebb magyar olimpikon hét aranyéremmel?",
+      "a": [
+        "Gerevich Aladár",
+        "Egerszegi Krisztina",
+        "Papp László",
+        "Balczó András"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Gerevich Aladár kardvívó hat olimpián nyert csapataranyat, egyéniben pedig 1948-ban.",
+      "t": "olimpia"
+    },
+    {
+      "q": "Hány olimpiai aranyérmet nyert Egerszegi Krisztina?",
+      "a": [
+        "5",
+        "3",
+        "7",
+        "4"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Három olimpián összesen öt aranyat szerzett úszásban.",
+      "t": "olimpia"
+    },
+    {
+      "q": "Melyik olimpián lett Egerszegi Krisztina 14 évesen olimpiai bajnok?",
+      "a": [
+        "1988, Szöul",
+        "1992, Barcelona",
+        "1996, Atlanta",
+        "1984, Los Angeles"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Szöulban 200 méter háton győzött, ezzel a legfiatalabb magyar olimpiai bajnok lett.",
+      "t": "olimpia"
+    },
+    {
+      "q": "Melyik sportágban lett háromszoros olimpiai bajnok Papp László?",
+      "a": [
+        "Ökölvívás",
+        "Birkózás",
+        "Vívás",
+        "Cselgáncs"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Papp László 1948-ban, 1952-ben és 1956-ban is aranyat szerzett.",
+      "t": "olimpia"
+    },
+    {
+      "q": "Melyik évtized magyar labdarúgó-válogatottját nevezik Aranycsapatnak?",
+      "a": [
+        "Az 1950-es évekét",
+        "Az 1930-as évekét",
+        "Az 1980-as évekét",
+        "A 2010-es évekét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Aranycsapat 1950 és 1956 között a világ legjobbjai közé tartozott.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik labdarúgót hívták „Öcsi” néven?",
+      "a": [
+        "Puskás Ferenc",
+        "Kocsis Sándor",
+        "Hidegkuti Nándor",
+        "Czibor Zoltán"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Puskás Ferenc később a Real Madrid legendája lett.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Milyen eredménnyel győzött a magyar válogatott Angliában 1953-ban?",
+      "a": [
+        "6–3",
+        "4–2",
+        "7–1",
+        "3–2"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az „évszázad mérkőzésén” a Wembleyben 6–3-ra nyert a magyar csapat.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Milyen eredménnyel győzött a magyar válogatott Anglia ellen a budapesti visszavágón 1954-ben?",
+      "a": [
+        "7–1",
+        "6–3",
+        "4–0",
+        "5–2"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Népstadionban 7–1 lett a végeredmény.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik világbajnokság döntőjében szerepelt a magyar labdarúgó-válogatott?",
+      "a": [
+        "1954, Svájc",
+        "1938, Franciaország és 1954, Svájc",
+        "1962, Chile",
+        "1986, Mexikó"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "A magyar válogatott 1938-ban és 1954-ben is világbajnoki döntőt játszott, mindkettőt elveszítve.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Ki ellen vesztette el a magyar válogatott az 1954-es világbajnoki döntőt?",
+      "a": [
+        "Nyugat-Németország",
+        "Brazília",
+        "Uruguay",
+        "Olaszország"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A berni döntőben 3–2-re győzött a nyugatnémet válogatott.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik magyar klub nyerte a legtöbb hazai labdarúgó-bajnoki címet?",
+      "a": [
+        "Ferencváros",
+        "Újpest",
+        "MTK",
+        "Honvéd"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Ferencváros a legtöbbszörös magyar bajnok.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik magyar labdarúgóról nevezte el a FIFA az év legszebb góljának díját?",
+      "a": [
+        "Puskás Ferenc",
+        "Albert Flórián",
+        "Bozsik József",
+        "Grosics Gyula"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Puskás-díjat 2009-ben alapította a FIFA.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik magyar labdarúgó kapott Aranylabdát 1967-ben?",
+      "a": [
+        "Albert Flórián",
+        "Puskás Ferenc",
+        "Bozsik József",
+        "Détári Lajos"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Albert Flórián az egyetlen magyar Aranylabdás játékos.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik Európa-bajnokságon szerepelt újra a magyar válogatott 44 év kihagyás után?",
+      "a": [
+        "2016, Franciaország",
+        "2012, Lengyelország–Ukrajna",
+        "2008, Ausztria–Svájc",
+        "2004, Portugália"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar csapat 1972 után 2016-ban jutott ki ismét Eb-re, és csoportelső lett.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik magyar kapus jellegzetes viselete volt a szürke melegítőalsó?",
+      "a": [
+        "Király Gábor",
+        "Grosics Gyula",
+        "Gulácsi Péter",
+        "Fülöp Márton"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Király Gábor melegítőalsója a válogatott ikonikus látványa lett.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik magyar labdarúgó volt a válogatott csapatkapitánya a 2010-es években, a legtöbb válogatottsággal?",
+      "a": [
+        "Dzsudzsák Balázs",
+        "Szalai Ádám",
+        "Gera Zoltán",
+        "Bőle Lukács"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Dzsudzsák Balázs a magyar válogatott rekorder játékosa.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik csapatsportban nyerte Magyarország a legtöbb olimpiai aranyat?",
+      "a": [
+        "Vízilabda",
+        "Kézilabda",
+        "Kosárlabda",
+        "Röplabda"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A magyar férfi vízilabda-válogatott kilenc olimpiai bajnoki címet szerzett.",
+      "t": "vízilabda"
+    },
+    {
+      "q": "Melyik olimpián játszották a „melbourne-i vérfürdőként” emlegetett vízilabda-mérkőzést?",
+      "a": [
+        "1956",
+        "1952",
+        "1964",
+        "1972"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1956-os magyar–szovjet mérkőzést a forradalom leverése utáni feszültség kísérte.",
+      "t": "vízilabda"
+    },
+    {
+      "q": "Hány egymást követő olimpiát nyert a magyar férfi vízilabda-válogatott 2000-től?",
+      "a": [
+        "Hármat",
+        "Egyet",
+        "Kettőt",
+        "Négyet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Sydney, Athén és Peking is magyar aranyat hozott.",
+      "t": "vízilabda"
+    },
+    {
+      "q": "Melyik számban nyert Hosszú Katinka két aranyat is a 2016-os olimpián?",
+      "a": [
+        "Vegyesúszás",
+        "Gyorsúszás",
+        "Mellúszás",
+        "Pillangóúszás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "200 és 400 méter vegyesen is első lett, valamint 100 méter háton.",
+      "t": "úszás"
+    },
+    {
+      "q": "Hány aranyérmet szerzett Hosszú Katinka a 2016-os riói olimpián?",
+      "a": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Két vegyes szám és 100 méter hát hozta a három aranyat.",
+      "t": "úszás"
+    },
+    {
+      "q": "Melyik magyar úszó lett olimpiai bajnok 200 méter pillangón Tokióban?",
+      "a": [
+        "Milák Kristóf",
+        "Cseh László",
+        "Gyurta Dániel",
+        "Verrasztó Dávid"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Milák Kristóf olimpiai csúccsal győzött.",
+      "t": "úszás"
+    },
+    {
+      "q": "Melyik magyar úszó lett olimpiai bajnok 200 méter mellen 2012-ben?",
+      "a": [
+        "Gyurta Dániel",
+        "Cseh László",
+        "Milák Kristóf",
+        "Kis Gergő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Gyurta Dániel Londonban világcsúccsal nyert.",
+      "t": "úszás"
+    },
+    {
+      "q": "Mely öt sportág alkotja az öttusát?",
+      "a": [
+        "Vívás, úszás, lovaglás, lövészet, futás",
+        "Futás, kerékpár, úszás, torna, vívás",
+        "Úszás, torna, birkózás, futás, lövészet",
+        "Lovaglás, evezés, futás, úszás, vívás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az öttusa klasszikus összetétele: vívás, úszás, lovaglás, lövészet és futás.",
+      "t": "öttusa"
+    },
+    {
+      "q": "Melyik magyar öttusázó nyert három olimpiai aranyat?",
+      "a": [
+        "Balczó András",
+        "Martinek János",
+        "Fábián László",
+        "Kancsal Tamás"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Balczó András 1960-ban és 1968-ban csapatban, 1972-ben egyéniben lett bajnok.",
+      "t": "öttusa"
+    },
+    {
+      "q": "Melyik magyar vívó nyert három egymást követő olimpián egyéni kardaranyat?",
+      "a": [
+        "Szilágyi Áron",
+        "Imre Géza",
+        "Boczkó Gábor",
+        "Gémesi Csanád"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szilágyi Áron 2012-ben, 2016-ban és 2020-ban is egyéni olimpiai bajnok lett.",
+      "t": "vívás"
+    },
+    {
+      "q": "Melyik magyar tornász lett olimpiai bajnok lólengésben 1976-ban és 1980-ban is?",
+      "a": [
+        "Magyar Zoltán",
+        "Berki Krisztián",
+        "Csollány Szilveszter",
+        "Guczoghy György"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Magyar Zoltán nevéhez fűződik a „Magyar-vándor” nevű elem is.",
+      "t": "torna"
+    },
+    {
+      "q": "Melyik magyar tornász lett olimpiai bajnok gyűrűn 2000-ben?",
+      "a": [
+        "Csollány Szilveszter",
+        "Magyar Zoltán",
+        "Berki Krisztián",
+        "Kovács Péter"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Csollány Szilveszter Sydneyben szerzett aranyat.",
+      "t": "torna"
+    },
+    {
+      "q": "Melyik magyar tornász lett olimpiai bajnok lólengésben 2012-ben?",
+      "a": [
+        "Berki Krisztián",
+        "Magyar Zoltán",
+        "Csollány Szilveszter",
+        "Vecsernyés Dávid"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Berki Krisztián Londonban lett olimpiai bajnok.",
+      "t": "torna"
+    },
+    {
+      "q": "Melyik magyar atléta lett olimpiai bajnok kalapácsvetésben 2012-ben?",
+      "a": [
+        "Pars Krisztián",
+        "Annus Adrián",
+        "Kiss Balázs",
+        "Németh Miklós"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pars Krisztián Londonban szerzett aranyat.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Melyik magyar atléta dobott világcsúcsot gerelyhajításban a montreali olimpián?",
+      "a": [
+        "Németh Miklós",
+        "Kulcsár Gergely",
+        "Paragi Ferenc",
+        "Szabó Miklós"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Németh Miklós 1976-ban 94,58 méterrel győzött.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Melyik magyar atlétától vonták vissza a 2004-es olimpiai kalapácsvető aranyát?",
+      "a": [
+        "Annus Adrián",
+        "Pars Krisztián",
+        "Kiss Balázs",
+        "Fazekas Róbert"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Annus Adrián érmét doppingellenőrzés megtagadása miatt vonták vissza.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Melyik magyar városban rendezték a 2017-es úszó-világbajnokságot?",
+      "a": [
+        "Budapest",
+        "Debrecen",
+        "Győr",
+        "Szeged"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A világbajnokság fő helyszíne a Duna Aréna volt.",
+      "t": "sportesemények"
+    },
+    {
+      "q": "Melyik magyar városban rendezték a 2023-as atlétikai világbajnokságot?",
+      "a": [
+        "Budapest",
+        "Debrecen",
+        "Miskolc",
+        "Székesfehérvár"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A helyszín a budapesti Nemzeti Atlétikai Központ volt.",
+      "t": "sportesemények"
+    },
+    {
+      "q": "Rendezett-e már Magyarország nyári olimpiai játékokat?",
+      "a": [
+        "Nem, egyszer sem",
+        "Igen, 1936-ban",
+        "Igen, 1980-ban",
+        "Igen, 2004-ben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Több pályázat ellenére Magyarország eddig nem rendezett olimpiát.",
+      "t": "olimpia"
+    },
+    {
+      "q": "Ki volt az első magyar Forma-1-es pilóta?",
+      "a": [
+        "Baumgartner Zsolt",
+        "Michelisz Norbert",
+        "Kiss Norbert",
+        "Wéber Gábor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Baumgartner Zsolt 2003-ban debütált, 2004-ben pontot is szerzett.",
+      "t": "motorsport"
+    },
+    {
+      "q": "Hol rendezik a Forma-1 Magyar Nagydíját?",
+      "a": [
+        "Hungaroring",
+        "Pannónia Ring",
+        "Balaton Park",
+        "Kakucs Ring"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mogyoródi Hungaroring 1986 óta ad otthont a futamnak.",
+      "t": "motorsport"
+    },
+    {
+      "q": "Melyik magyar cselgáncsozó lett olimpiai bajnok Barcelonában?",
+      "a": [
+        "Kovács Antal",
+        "Bor Barna",
+        "Ungvári Miklós",
+        "Csoknyai László"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kovács Antal 1992-ben szerzett aranyat.",
+      "t": "cselgáncs"
+    },
+    {
+      "q": "Melyik magyar sportlövő lett olimpiai bajnok 2004-ben skeet számban?",
+      "a": [
+        "Igaly Diána",
+        "Sidi Péter",
+        "Csonka Zsófia",
+        "Bognár László"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Igaly Diána athéni győzelme a magyar sportlövészet nagy pillanata.",
+      "t": "sportlövészet"
+    },
+    {
+      "q": "Melyik magyar kajakos nő szerezte a legtöbb olimpiai aranyat?",
+      "a": [
+        "Kozák Danuta",
+        "Kovács Katalin",
+        "Szabó Gabriella",
+        "Csipes Tamara"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kozák Danuta hat olimpiai bajnoki címet gyűjtött.",
+      "t": "kajak-kenu"
+    },
+    {
+      "q": "Melyik magyar kenus lett olimpiai bajnok C-1 1000 méteren 2008-ban?",
+      "a": [
+        "Vajda Attila",
+        "Kolonics György",
+        "Horváth Gábor",
+        "Sík Csaba"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Vajda Attila Pekingben győzött.",
+      "t": "kajak-kenu"
+    },
+    {
+      "q": "Melyik magyar női kézilabdaklub ötszörös Bajnokok Ligája-győztes?",
+      "a": [
+        "Győri Audi ETO KC",
+        "FTC-Rail Cargo Hungaria",
+        "DVSC",
+        "Siófok KC"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Győri Audi ETO KC 2013 és 2019 között öt BL-t nyert.",
+      "t": "kézilabda"
+    },
+    {
+      "q": "Melyik magyar sakkozó a valaha volt legerősebb női játékos, aki férfi nagymesterek ellen versenyzett?",
+      "a": [
+        "Polgár Judit",
+        "Polgár Zsuzsa",
+        "Hoang Thanh Trang",
+        "Rudolf Anna"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Polgár Judit a világranglista első száz helyezettje között is szerepelt.",
+      "t": "sakk"
+    },
+    {
+      "q": "Melyik magyar sakkozó volt a 20. század elején a világ élvonalában?",
+      "a": [
+        "Maróczy Géza",
+        "Portisch Lajos",
+        "Szabó László",
+        "Bilek István"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Maróczy Gézát világbajnoki párharcra is jelölték.",
+      "t": "sakk"
+    },
+    {
+      "q": "Melyik magyar sportágban jellemző a „szablya” helyett használt „kard” kifejezés a versenyszámban?",
+      "a": [
+        "Vívás",
+        "Íjászat",
+        "Karate",
+        "Ökölvívás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A vívás három fegyvernemben zajlik: tőr, párbajtőr és kard.",
+      "t": "vívás"
+    },
+    {
+      "q": "Melyik vívó fegyvernem NEM olimpiai szám?",
+      "a": [
+        "Szablya-párbaj",
+        "Tőr",
+        "Párbajtőr",
+        "Kard"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az olimpiai vívás fegyvernemei a tőr, a párbajtőr és a kard.",
+      "t": "vívás"
+    },
+    {
+      "q": "Melyik magyar sportuszoda adott otthont a 2017-es vb versenyeinek Budapesten?",
+      "a": [
+        "Duna Aréna",
+        "Császár-Komjádi uszoda",
+        "Hajós Alfréd sportuszoda",
+        "Tüskecsarnok"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Duna Aréna kifejezetten a világbajnokságra épült.",
+      "t": "sportesemények"
+    },
+    {
+      "q": "Melyik magyar stadion a labdarúgó-válogatott otthona 2019-től?",
+      "a": [
+        "Puskás Aréna",
+        "Groupama Aréna",
+        "Nagyerdei Stadion",
+        "MOL Aréna Sóstó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Puskás Aréna a régi Népstadion helyén épült fel.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik magyar sportág versenyszáma a „szinkronúszás” új neve?",
+      "a": [
+        "Műúszás",
+        "Vízitánc",
+        "Aquabalett",
+        "Vízibalett"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A sportág nemzetközi neve 2017-től artistic swimming, magyarul műúszás.",
+      "t": "úszás"
+    },
+    {
+      "q": "Melyik magyar sportolónő lett olimpiai bajnok kardvívásban 2024-ben?",
+      "a": [
+        "Nem volt magyar női kardarany 2024-ben",
+        "Márton Anna",
+        "Battai Sugár Katinka",
+        "Pusztai Liza"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 2024-es párizsi olimpián magyar női kardvívó nem szerzett egyéni aranyat.",
+      "t": "vívás"
+    },
+    {
+      "q": "Melyik magyar sportágban ismert a „Magyar-vándor” nevű elem?",
+      "a": [
+        "Torna",
+        "Vívás",
+        "Atlétika",
+        "Úszás"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A lólengés elemét Magyar Zoltán tornászról nevezték el.",
+      "t": "torna"
+    },
+    {
+      "q": "Melyik évben rendezték az első újkori olimpiát, ahol magyar sportolók is indultak?",
+      "a": [
+        "1896",
+        "1900",
+        "1906",
+        "1912"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Magyarország az 1896-os athéni olimpia résztvevője volt.",
+      "t": "olimpia"
+    }
   ]
 }

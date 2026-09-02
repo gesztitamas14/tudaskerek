@@ -90,7 +90,7 @@ function startServer() {
 
 // ─────────────────── böngésző futtatása ───────────────────
 
-function runBrowser(browser, url, { screenshot = null, budget = 45000, windowSize = '390,844' } = {}) {
+function runBrowser(browser, url, { screenshot = null, budget = 60000, windowSize = '390,844' } = {}) {
   const args = [
     '--headless=new',
     '--disable-gpu',

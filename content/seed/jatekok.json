@@ -1,0 +1,342 @@
+{
+  "category": "jatekok",
+  "default_source": null,
+  "questions": [
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Mega Man IV?",
+      "a": [
+        "Hezbollah",
+        "Capcom",
+        "Nintendo",
+        "Konami"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Mega Man IV fejlesztője: Capcom.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q605032"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Mega Man 7?",
+      "a": [
+        "Capcom",
+        "Konami",
+        "Hezbollah",
+        "Google LLC"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mega Man 7 fejlesztője: Capcom.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q610749"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Resident Evil?",
+      "a": [
+        "Google LLC",
+        "Nintendo",
+        "Hezbollah",
+        "Capcom"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Resident Evil fejlesztője: Capcom.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q622336"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Phoenix Wright: Ace Attorney – Justice for All?",
+      "a": [
+        "Microsoft",
+        "Konami",
+        "Hezbollah",
+        "Capcom"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Phoenix Wright: Ace Attorney – Justice for All fejlesztője: Capcom.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q645003"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Resident Evil 3: Nemesis?",
+      "a": [
+        "Konami",
+        "Google LLC",
+        "Nintendo",
+        "Capcom"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Resident Evil 3: Nemesis fejlesztője: Capcom.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q739784"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Breath of Fire IV?",
+      "a": [
+        "Hezbollah",
+        "Google LLC",
+        "Capcom",
+        "Microsoft"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Breath of Fire IV fejlesztője: Capcom.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q796510"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Devil May Cry?",
+      "a": [
+        "Microsoft",
+        "Nintendo",
+        "Capcom",
+        "Google LLC"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Devil May Cry fejlesztője: Capcom.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q840889"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Street Fighter 2010?",
+      "a": [
+        "Microsoft",
+        "Konami",
+        "Capcom",
+        "Google LLC"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Street Fighter 2010 fejlesztője: Capcom.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q907744"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Google Lively?",
+      "a": [
+        "Google LLC",
+        "Nintendo",
+        "Microsoft",
+        "GNU Project"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Google Lively fejlesztője: Google LLC.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q665647"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Google Santa Tracker?",
+      "a": [
+        "Google LLC",
+        "GNU Project",
+        "Nintendo",
+        "Hezbollah"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Google Santa Tracker fejlesztője: Google LLC.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q22077991"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: InkBall?",
+      "a": [
+        "Nintendo",
+        "Microsoft",
+        "Konami",
+        "GNU Project"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "InkBall fejlesztője: Microsoft.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q1340777"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: GNU Go?",
+      "a": [
+        "Google LLC",
+        "GNU Project",
+        "Microsoft",
+        "Hezbollah"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "GNU Go fejlesztője: GNU Project.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q1404540"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: International Superstar Soccer 2000?",
+      "a": [
+        "Microsoft",
+        "Hezbollah",
+        "Konami",
+        "Google LLC"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "International Superstar Soccer 2000 fejlesztője: Konami.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q1865940"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Road Fighter?",
+      "a": [
+        "Nintendo",
+        "Capcom",
+        "Microsoft",
+        "Konami"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Road Fighter fejlesztője: Konami.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q1980593"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Pro Evolution Soccer 3?",
+      "a": [
+        "Hezbollah",
+        "Nintendo",
+        "Konami",
+        "Google LLC"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Pro Evolution Soccer 3 fejlesztője: Konami.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q1988599"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: The Legend of Zelda: Ocarina of Time?",
+      "a": [
+        "Google LLC",
+        "GNU Project",
+        "Konami",
+        "Nintendo"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "The Legend of Zelda: Ocarina of Time fejlesztője: Nintendo.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q213911"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Paper Mario: Sticker Star?",
+      "a": [
+        "Capcom",
+        "Google LLC",
+        "Nintendo",
+        "GNU Project"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Paper Mario: Sticker Star fejlesztője: Nintendo.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q764736"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Pilotwings 64?",
+      "a": [
+        "Hezbollah",
+        "Nintendo",
+        "Capcom",
+        "GNU Project"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Pilotwings 64 fejlesztője: Nintendo.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q933524"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Super Mario All-Stars?",
+      "a": [
+        "GNU Project",
+        "Capcom",
+        "Konami",
+        "Nintendo"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Super Mario All-Stars fejlesztője: Nintendo.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q1058903"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Donkey Kong Jr.?",
+      "a": [
+        "Microsoft",
+        "GNU Project",
+        "Nintendo",
+        "Hezbollah"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Donkey Kong Jr. fejlesztője: Nintendo.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q2264301"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Golf?",
+      "a": [
+        "Capcom",
+        "Microsoft",
+        "Hezbollah",
+        "Nintendo"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Golf fejlesztője: Nintendo.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q2731595"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Dinosaur Game?",
+      "a": [
+        "Konami",
+        "Google LLC",
+        "Microsoft",
+        "GNU Project"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Dinosaur Game fejlesztője: Google LLC.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q82235406"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Age of Empires Online?",
+      "a": [
+        "Pandemic Studios",
+        "GNU Project",
+        "Gas Powered Games",
+        "Google LLC"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Age of Empires Online fejlesztője: Gas Powered Games.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q34920"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette a következő játékot: Dungeon Siege?",
+      "a": [
+        "Pandemic Studios",
+        "Gas Powered Games",
+        "Nintendo",
+        "Microsoft"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Dungeon Siege fejlesztője: Gas Powered Games.",
+      "t": "videojátékok",
+      "s": "http://www.wikidata.org/entity/Q866349"
+    }
+  ]
+}

@@ -2,60 +2,1084 @@
   "category": "erdekessegek",
   "default_source": "saját szerkesztés (általános műveltségi tananyag)",
   "questions": [
-    {"q": "Melyik a leggyakoribb vércsoport a világon?", "a": ["0 pozitív", "AB negatív", "B negatív", "A negatív"], "c": 0, "d": "medium", "e": "A 0 pozitív a leggyakoribb, az AB negatív a legritkább.", "t": "emberi test"},
-    {"q": "Hány foga van egy felnőtt embernek a bölcsességfogakkal együtt?", "a": ["32", "28", "36", "24"], "c": 0, "d": "easy", "e": "20 gyermekfog után 32 maradó fog nő ki.", "t": "emberi test"},
-    {"q": "Melyik a leggyakoribb szem színe a világon?", "a": ["Barna", "Kék", "Zöld", "Szürke"], "c": 0, "d": "easy", "e": "A világ népességének nagy többsége barna szemű.", "t": "emberi test"},
-    {"q": "Melyik szerv termeli az inzulint?", "a": ["Hasnyálmirigy", "Máj", "Vese", "Pajzsmirigy"], "c": 0, "d": "medium", "e": "A Langerhans-szigetek beta-sejtjei termelik.", "t": "emberi test"},
-    {"q": "Hány csont van az emberi kézben (csuklóval együtt)?", "a": ["27", "19", "35", "14"], "c": 0, "d": "hard", "e": "8 kéztőcsont, 5 kézközépcsont és 14 ujjcsont.", "t": "emberi test"},
-    {"q": "Mennyi a felnőtt ember átlagos testhőmérséklete?", "a": ["36,6 °C", "35,0 °C", "38,0 °C", "37,5 °C"], "c": 0, "d": "easy", "e": "Az egészséges tartomány kb. 36,1 és 37,2 °C között van.", "t": "emberi test"},
-    {"q": "Melyik nyelvet beszélik a legtöbben anyanyelvként?", "a": ["Mandarin kínai", "Angol", "Spanyol", "Hindi"], "c": 0, "d": "medium", "e": "A mandarin anyanyelvi beszélőinek száma a legnagyobb.", "t": "nyelvek"},
-    {"q": "Hány betű van a magyar ábécében a kettős és hármas betűkkel együtt?", "a": ["44", "26", "35", "40"], "c": 0, "d": "hard", "e": "A magyar ábécé 44 betűből áll, benne a dzs is.", "t": "nyelvek"},
-    {"q": "Melyik nyelvcsaládhoz tartozik a magyar nyelv?", "a": ["Uráli (finnugor)", "Indoeurópai", "Altaji", "Sémi"], "c": 0, "d": "medium", "e": "Legközelebbi rokonai a manysi és a hanti.", "t": "nyelvek"},
-    {"q": "Melyik ország hivatalos nyelve a portugál Európán kívül a legtöbb beszélővel?", "a": ["Brazília", "Angola", "Mozambik", "Kelet-Timor"], "c": 0, "d": "medium", "e": "Brazíliában több mint 200 millió portugál beszélő él.", "t": "nyelvek"},
-    {"q": "Mennyi ideig tart a Föld egy fordulata a saját tengelye körül?", "a": ["Kb. 24 óra", "Kb. 12 óra", "Kb. 365 nap", "Kb. 30 nap"], "c": 0, "d": "easy", "e": "A csillagnap kb. 23 óra 56 perc.", "t": "érdekes tények"},
-    {"q": "Hány szívverés jut átlagosan egy percre nyugalomban egy felnőttnél?", "a": ["60-100", "20-40", "120-160", "150-200"], "c": 0, "d": "easy", "e": "Sportolóknál ez akár 40 alá is eshet.", "t": "emberi test"},
-    {"q": "Melyik anyag a legkeményebb a természetben előforduló ásványok közül?", "a": ["Gyémánt", "Kvarc", "Korund", "Topáz"], "c": 0, "d": "easy", "e": "A Mohs-skálán a gyémánt 10-es értékkel a legkeményebb.", "t": "érdekes tények"},
-    {"q": "Melyik fém folyékony szobahőmérsékleten?", "a": ["Higany", "Ólom", "Alumínium", "Cink"], "c": 0, "d": "easy", "e": "A higany fagyáspontja -39 °C.", "t": "érdekes tények"},
-    {"q": "Melyik anyag a legjobb elektromos vezető a fémek közül?", "a": ["Ezüst", "Réz", "Arany", "Alumínium"], "c": 0, "d": "medium", "e": "Az ezüst vezet legjobban, de drágább, ezért a rézt használják.", "t": "érdekes tények"},
-    {"q": "Mennyi a Föld átlagos átmérője?", "a": ["Kb. 12 742 km", "Kb. 6371 km", "Kb. 40 000 km", "Kb. 3474 km"], "c": 0, "d": "medium", "e": "A sugár kb. 6371 km, a kerülete kb. 40 075 km.", "t": "érdekes tények"},
-    {"q": "Melyik a legmélyebben fekvő szárazföldi pont a Földön?", "a": ["Holt-tenger partja", "Death Valley", "Kaszpi-mélyföld", "Qattara-mélyföld"], "c": 0, "d": "medium", "e": "A Holt-tenger felszíne több mint 400 méterrel a tengerszint alatt van.", "t": "érdekes tények"},
-    {"q": "Hány éves egy évszázad?", "a": ["100", "10", "1000", "50"], "c": 0, "d": "easy", "e": "Egy évezred 1000, egy évtized 10 év.", "t": "érdekes tények"},
-    {"q": "Hány másodperc van egy napban?", "a": ["86 400", "36 000", "10 000", "144 000"], "c": 0, "d": "medium", "e": "24 × 60 × 60 = 86 400.", "t": "érdekes tények"},
-    {"q": "Hány óra van egy héten?", "a": ["168", "148", "182", "156"], "c": 0, "d": "medium", "e": "7 × 24 = 168.", "t": "érdekes tények"},
-    {"q": "Melyik évben lett szökőév a felsoroltak közül?", "a": ["2024", "2023", "2022", "2021"], "c": 0, "d": "easy", "e": "Szökőév minden negyedik év, kivéve a 100-cal osztható, de 400-cal nem osztható éveket.", "t": "érdekes tények"},
-    {"q": "Melyik ország pénzneme oszlik öt kisebb egységre a szokásos száz helyett?", "a": ["Mauritánia", "Japán", "Kanada", "Norvégia"], "c": 0, "d": "hard", "e": "A mauritániai ouguiya öt khoumsra oszlik.", "t": "érdekes tények"},
-    {"q": "Melyik ország zászlaja nem négyszögletű?", "a": ["Nepál", "Svájc", "Vatikán", "Japán"], "c": 0, "d": "medium", "e": "Nepál zászlaja két egymásra helyezett háromszög.", "t": "zászlók"},
-    {"q": "Melyik két ország zászlaja négyzet alakú?", "a": ["Svájc és a Vatikán", "Nepál és Bhután", "Japán és Palau", "Ausztria és Lettország"], "c": 0, "d": "hard", "e": "Ezek az egyetlen négyzet alakú állami zászlók.", "t": "zászlók"},
-    {"q": "Melyik ország zászlaján van vörös levél?", "a": ["Kanada", "Ausztrália", "Új-Zéland", "Japán"], "c": 0, "d": "easy", "e": "A juharlevél Kanada jelképe.", "t": "zászlók"},
-    {"q": "Hány csillag van az Amerikai Egyesült Államok zászlaján?", "a": ["50", "13", "48", "52"], "c": 0, "d": "medium", "e": "Az 50 csillag az 50 szövetségi államot, a 13 sáv az alapító államokat jelöli.", "t": "zászlók"},
-    {"q": "Melyik szín nem szerepel az olimpiai karikákon?", "a": ["Lila", "Kék", "Sárga", "Zöld"], "c": 0, "d": "medium", "e": "A karikák színe kék, sárga, fekete, zöld és piros.", "t": "érdekes tények"},
-    {"q": "Melyik a világ legnagyobb méretű hangszere?", "a": ["Orgona", "Zongora", "Hárfa", "Nagybőgő"], "c": 0, "d": "medium", "e": "A nagy templomi orgonák több emelet magasak és több ezer sípból állnak.", "t": "érdekes tények"},
-    {"q": "Mennyi a leggyakoribb dobásösszeg két hatoldalú kockával?", "a": ["7", "6", "8", "10"], "c": 0, "d": "medium", "e": "A 7-re hat kombináció létezik, ez a legtöbb.", "t": "valószínűség"},
-    {"q": "Mennyi a valószínűsége, hogy egy szabályos érme fejre esik?", "a": ["50%", "25%", "75%", "33%"], "c": 0, "d": "easy", "e": "Két egyenlő esélyű kimenet van.", "t": "valószínűség"},
-    {"q": "Hány lapból áll egy francia kártyacsomag jokerek nélkül?", "a": ["52", "48", "54", "36"], "c": 0, "d": "easy", "e": "Négy szín, mindegyikben 13 lap.", "t": "érdekes tények"},
-    {"q": "Hány lapból áll a magyar kártya?", "a": ["32", "36", "52", "40"], "c": 0, "d": "medium", "e": "Négy szín, színenként nyolc lap.", "t": "érdekes tények"},
-    {"q": "Hány mezője van egy sakktáblának?", "a": ["64", "81", "100", "49"], "c": 0, "d": "easy", "e": "Nyolcszor nyolcas tábla.", "t": "érdekes tények"},
-    {"q": "Hány bábuval kezd egy játékos a sakkban?", "a": ["16", "12", "20", "8"], "c": 0, "d": "easy", "e": "Nyolc gyalog, két huszár, két bástya, két futó, király és királynő.", "t": "érdekes tények"},
-    {"q": "Melyik testrészünkben van a legtöbb csont az emberi testben?", "a": ["A kéz és a lábak", "A koponya", "A mellkas", "A gerinc"], "c": 0, "d": "medium", "e": "A két kéz és a két láb csontjai a teljes csontállomány több mint felét adják.", "t": "emberi test"},
-    {"q": "Melyik találmány elődje volt a nyomtatott könyv Európában?", "a": ["Kézzel írt kódex", "Papirusztekercs", "Kőtábla", "Agyagtábla"], "c": 0, "d": "medium", "e": "Gutenberg mozgatható betűs nyomtatása 1450 körül forradalmasította a könyvet.", "t": "érdekes tények"},
-    {"q": "Ki fejlesztette ki a mozgatható betűs könyvnyomtatást Európában?", "a": ["Johannes Gutenberg", "William Caxton", "Aldus Manutius", "Nicolas Jenson"], "c": 0, "d": "medium", "e": "A Gutenberg-Biblia 1455 körül készült el Mainzban.", "t": "érdekes tények"},
-    {"q": "Melyik évben indult a világ első metróvonala Londonban?", "a": ["1863", "1896", "1900", "1912"], "c": 0, "d": "hard", "e": "A Metropolitan Railway 1863-ban nyílt meg.", "t": "érdekes tények"},
-    {"q": "Melyik város kapta a kontinentális Európa első metróvonalát?", "a": ["Budapest", "Bécs", "Párizs", "Berlin"], "c": 0, "d": "medium", "e": "A budapesti Millenniumi Földalatti 1896-ban nyílt meg.", "t": "érdekes tények"},
-    {"q": "Melyik anyagot nevezik „fehér aranynak” a történelemben?", "a": ["A sót", "A gyapotot", "A cukrot", "Az elefántcsontot"], "c": 0, "d": "hard", "e": "A só értéke miatt kapta ezt a nevet; a „só” és a „salárium” szó is összefügg.", "t": "érdekes tények"},
-    {"q": "Miből rövidült a magyar „szervusz” köszönés?", "a": ["A latin servus humilis kifejezésből", "Egy német jókívánságból", "Egy szláv köszönésből", "Egy török szóból"], "c": 0, "d": "hard", "e": "A servus humilis jelentése „alázatos szolgád”.", "t": "érdekes tények"},
-    {"q": "Mit mér a Richter-skála?", "a": ["Földrengés erősségét", "Szélerősséget", "Hőmérsékletet", "Zajszintet"], "c": 0, "d": "easy", "e": "A skála logaritmikus: egy egész fokozat kb. 32-szeres energiakülönbség.", "t": "mértékek"},
-    {"q": "Mit mér a Beaufort-skála?", "a": ["Szélerősséget", "Földrengést", "Csapadékot", "Fényerőt"], "c": 0, "d": "medium", "e": "A skála 0-tól 12-ig terjed.", "t": "mértékek"},
-    {"q": "Mit mér a decibel?", "a": ["Hangerősséget", "Fényerőt", "Nyomást", "Hőmérsékletet"], "c": 0, "d": "easy", "e": "A decibel logaritmikus mérték.", "t": "mértékek"},
-    {"q": "Mit mér a Mohs-skála?", "a": ["Ásványok keménységét", "Savasságot", "Hőt", "Sűrűséget"], "c": 0, "d": "medium", "e": "1 a talkum, 10 a gyémánt.", "t": "mértékek"},
-    {"q": "Mennyi egy tengeri mérföld körülbelül?", "a": ["1852 méter", "1000 méter", "1609 méter", "2000 méter"], "c": 0, "d": "hard", "e": "Egy tengeri mérföld a földrajzi szélesség egy ívpercének felel meg.", "t": "mértékek"},
-    {"q": "Mennyi egy szárazföldi mérföld körülbelül?", "a": ["1609 méter", "1000 méter", "1852 méter", "2500 méter"], "c": 0, "d": "medium", "e": "A brit-amerikai mérföld 1609,344 méter.", "t": "mértékek"},
-    {"q": "Melyik nap a leghosszabb az északi féltekén?", "a": ["Június 21. körül", "December 21. körül", "Március 21. körül", "Szeptember 23. körül"], "c": 0, "d": "easy", "e": "A nyári napforduló idején a legnagyobb a nappal hossza.", "t": "érdekes tények"},
-    {"q": "Mit jelent a „napéjegyenlőség”?", "a": ["A nappal és az éjszaka hossza megegyezik", "A legrövidebb nap", "A leghosszabb nap", "A holdtölte"], "c": 0, "d": "medium", "e": "Március és szeptember végén fordul elő.", "t": "érdekes tények"},
-    {"q": "Melyik találmányt köszönhetjük a véletlennek a felsoroltak közül?", "a": ["Penicillin", "Gőzgép", "Telefon", "Nyomtatás"], "c": 0, "d": "medium", "e": "Fleming egy elszennyeződött tenyészeten figyelte meg a gomba hatását.", "t": "érdekes tények"},
-    {"q": "Melyik állat lett az első a világűrben, amely visszatért a Földre élve?", "a": ["Kutya (Belka és Sztrelka)", "Csimpánz", "Macska", "Egér"], "c": 0, "d": "hard", "e": "Belka és Sztrelka 1960-ban tért vissza épségben.", "t": "érdekes tények"},
-    {"q": "Melyik a világ legrégebbi, ma is működő egyeteme?", "a": ["Bolognai Egyetem", "Sorbonne", "Oxford", "Salamanca"], "c": 0, "d": "hard", "e": "A Bolognai Egyetemet 1088-ban alapították.", "t": "érdekes tények"},
-    {"q": "Melyik a világ legrégebbi ma is használt írásrendszere?", "a": ["Kínai írásjegyek", "Latin ábécé", "Cirill ábécé", "Görög ábécé"], "c": 0, "d": "hard", "e": "A kínai írás több mint háromezer éves folytonossággal használatos.", "t": "érdekes tények"},
-    {"q": "Melyik évben indult a World Wide Web nyilvános használata?", "a": ["1991", "1985", "1996", "2000"], "c": 0, "d": "medium", "e": "A CERN 1991-ben tette elérhetővé a webet a nagyközönség számára.", "t": "érdekes tények"},
-    {"q": "Melyik szó a leghosszabb magyar szó a közismert példák szerint?", "a": ["Megszentségteleníthetetlenségeskedéseitekért", "Elkelkáposztásítottalanítottátok", "Legeslegmegszentségtelenítőbb", "Visszaemlékezéseikről"], "c": 0, "d": "hard", "e": "Ez a nyelvi játék klasszikus példája, nem valódi köznyelvi szó.", "t": "nyelvek"}
+    {
+      "q": "Melyik a leggyakoribb vércsoport a világon?",
+      "a": [
+        "0 pozitív",
+        "AB negatív",
+        "B negatív",
+        "A negatív"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 0 pozitív a leggyakoribb, az AB negatív a legritkább.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Hány foga van egy felnőtt embernek a bölcsességfogakkal együtt?",
+      "a": [
+        "32",
+        "28",
+        "36",
+        "24"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "20 gyermekfog után 32 maradó fog nő ki.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Melyik a leggyakoribb szem színe a világon?",
+      "a": [
+        "Barna",
+        "Kék",
+        "Zöld",
+        "Szürke"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A világ népességének nagy többsége barna szemű.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Melyik szerv termeli az inzulint?",
+      "a": [
+        "Hasnyálmirigy",
+        "Máj",
+        "Vese",
+        "Pajzsmirigy"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Langerhans-szigetek beta-sejtjei termelik.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Hány csont van az emberi kézben (csuklóval együtt)?",
+      "a": [
+        "27",
+        "19",
+        "35",
+        "14"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "8 kéztőcsont, 5 kézközépcsont és 14 ujjcsont.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Mennyi a felnőtt ember átlagos testhőmérséklete?",
+      "a": [
+        "36,6 °C",
+        "35,0 °C",
+        "38,0 °C",
+        "37,5 °C"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az egészséges tartomány kb. 36,1 és 37,2 °C között van.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Melyik nyelvet beszélik a legtöbben anyanyelvként?",
+      "a": [
+        "Mandarin kínai",
+        "Angol",
+        "Spanyol",
+        "Hindi"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mandarin anyanyelvi beszélőinek száma a legnagyobb.",
+      "t": "nyelvek"
+    },
+    {
+      "q": "Hány betű van a magyar ábécében a kettős és hármas betűkkel együtt?",
+      "a": [
+        "44",
+        "26",
+        "35",
+        "40"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar ábécé 44 betűből áll, benne a dzs is.",
+      "t": "nyelvek"
+    },
+    {
+      "q": "Melyik nyelvcsaládhoz tartozik a magyar nyelv?",
+      "a": [
+        "Uráli (finnugor)",
+        "Indoeurópai",
+        "Altaji",
+        "Sémi"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Legközelebbi rokonai a manysi és a hanti.",
+      "t": "nyelvek"
+    },
+    {
+      "q": "Melyik ország hivatalos nyelve a portugál Európán kívül a legtöbb beszélővel?",
+      "a": [
+        "Brazília",
+        "Angola",
+        "Mozambik",
+        "Kelet-Timor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Brazíliában több mint 200 millió portugál beszélő él.",
+      "t": "nyelvek"
+    },
+    {
+      "q": "Mennyi ideig tart a Föld egy fordulata a saját tengelye körül?",
+      "a": [
+        "Kb. 24 óra",
+        "Kb. 12 óra",
+        "Kb. 365 nap",
+        "Kb. 30 nap"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A csillagnap kb. 23 óra 56 perc.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Hány szívverés jut átlagosan egy percre nyugalomban egy felnőttnél?",
+      "a": [
+        "60-100",
+        "20-40",
+        "120-160",
+        "150-200"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Sportolóknál ez akár 40 alá is eshet.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Melyik anyag a legkeményebb a természetben előforduló ásványok közül?",
+      "a": [
+        "Gyémánt",
+        "Kvarc",
+        "Korund",
+        "Topáz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Mohs-skálán a gyémánt 10-es értékkel a legkeményebb.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik fém folyékony szobahőmérsékleten?",
+      "a": [
+        "Higany",
+        "Ólom",
+        "Alumínium",
+        "Cink"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A higany fagyáspontja -39 °C.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik anyag a legjobb elektromos vezető a fémek közül?",
+      "a": [
+        "Ezüst",
+        "Réz",
+        "Arany",
+        "Alumínium"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ezüst vezet legjobban, de drágább, ezért a rézt használják.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Mennyi a Föld átlagos átmérője?",
+      "a": [
+        "Kb. 12 742 km",
+        "Kb. 6371 km",
+        "Kb. 40 000 km",
+        "Kb. 3474 km"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sugár kb. 6371 km, a kerülete kb. 40 075 km.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik a legmélyebben fekvő szárazföldi pont a Földön?",
+      "a": [
+        "Holt-tenger partja",
+        "Death Valley",
+        "Kaszpi-mélyföld",
+        "Qattara-mélyföld"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Holt-tenger felszíne több mint 400 méterrel a tengerszint alatt van.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Hány éves egy évszázad?",
+      "a": [
+        "100",
+        "10",
+        "1000",
+        "50"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egy évezred 1000, egy évtized 10 év.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Hány másodperc van egy napban?",
+      "a": [
+        "86 400",
+        "36 000",
+        "10 000",
+        "144 000"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "24 × 60 × 60 = 86 400.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Hány óra van egy héten?",
+      "a": [
+        "168",
+        "148",
+        "182",
+        "156"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "7 × 24 = 168.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik évben lett szökőév a felsoroltak közül?",
+      "a": [
+        "2024",
+        "2023",
+        "2022",
+        "2021"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Szökőév minden negyedik év, kivéve a 100-cal osztható, de 400-cal nem osztható éveket.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik ország pénzneme oszlik öt kisebb egységre a szokásos száz helyett?",
+      "a": [
+        "Mauritánia",
+        "Japán",
+        "Kanada",
+        "Norvégia"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A mauritániai ouguiya öt khoumsra oszlik.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik ország zászlaja nem négyszögletű?",
+      "a": [
+        "Nepál",
+        "Svájc",
+        "Vatikán",
+        "Japán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nepál zászlaja két egymásra helyezett háromszög.",
+      "t": "zászlók"
+    },
+    {
+      "q": "Melyik két ország zászlaja négyzet alakú?",
+      "a": [
+        "Svájc és a Vatikán",
+        "Nepál és Bhután",
+        "Japán és Palau",
+        "Ausztria és Lettország"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ezek az egyetlen négyzet alakú állami zászlók.",
+      "t": "zászlók"
+    },
+    {
+      "q": "Melyik ország zászlaján van vörös levél?",
+      "a": [
+        "Kanada",
+        "Ausztrália",
+        "Új-Zéland",
+        "Japán"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A juharlevél Kanada jelképe.",
+      "t": "zászlók"
+    },
+    {
+      "q": "Hány csillag van az Amerikai Egyesült Államok zászlaján?",
+      "a": [
+        "50",
+        "13",
+        "48",
+        "52"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 50 csillag az 50 szövetségi államot, a 13 sáv az alapító államokat jelöli.",
+      "t": "zászlók"
+    },
+    {
+      "q": "Melyik szín nem szerepel az olimpiai karikákon?",
+      "a": [
+        "Lila",
+        "Kék",
+        "Sárga",
+        "Zöld"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A karikák színe kék, sárga, fekete, zöld és piros.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik a világ legnagyobb méretű hangszere?",
+      "a": [
+        "Orgona",
+        "Zongora",
+        "Hárfa",
+        "Nagybőgő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nagy templomi orgonák több emelet magasak és több ezer sípból állnak.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Mennyi a leggyakoribb dobásösszeg két hatoldalú kockával?",
+      "a": [
+        "7",
+        "6",
+        "8",
+        "10"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 7-re hat kombináció létezik, ez a legtöbb.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Mennyi a valószínűsége, hogy egy szabályos érme fejre esik?",
+      "a": [
+        "50%",
+        "25%",
+        "75%",
+        "33%"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Két egyenlő esélyű kimenet van.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Hány lapból áll egy francia kártyacsomag jokerek nélkül?",
+      "a": [
+        "52",
+        "48",
+        "54",
+        "36"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Négy szín, mindegyikben 13 lap.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Hány lapból áll a magyar kártya?",
+      "a": [
+        "32",
+        "36",
+        "52",
+        "40"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Négy szín, színenként nyolc lap.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Hány mezője van egy sakktáblának?",
+      "a": [
+        "64",
+        "81",
+        "100",
+        "49"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Nyolcszor nyolcas tábla.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Hány bábuval kezd egy játékos a sakkban?",
+      "a": [
+        "16",
+        "12",
+        "20",
+        "8"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Nyolc gyalog, két huszár, két bástya, két futó, király és királynő.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik testrészünkben van a legtöbb csont az emberi testben?",
+      "a": [
+        "A kéz és a lábak",
+        "A koponya",
+        "A mellkas",
+        "A gerinc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A két kéz és a két láb csontjai a teljes csontállomány több mint felét adják.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Melyik találmány elődje volt a nyomtatott könyv Európában?",
+      "a": [
+        "Kézzel írt kódex",
+        "Papirusztekercs",
+        "Kőtábla",
+        "Agyagtábla"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Gutenberg mozgatható betűs nyomtatása 1450 körül forradalmasította a könyvet.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Ki fejlesztette ki a mozgatható betűs könyvnyomtatást Európában?",
+      "a": [
+        "Johannes Gutenberg",
+        "William Caxton",
+        "Aldus Manutius",
+        "Nicolas Jenson"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Gutenberg-Biblia 1455 körül készült el Mainzban.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik évben indult a világ első metróvonala Londonban?",
+      "a": [
+        "1863",
+        "1896",
+        "1900",
+        "1912"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Metropolitan Railway 1863-ban nyílt meg.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik város kapta a kontinentális Európa első metróvonalát?",
+      "a": [
+        "Budapest",
+        "Bécs",
+        "Párizs",
+        "Berlin"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A budapesti Millenniumi Földalatti 1896-ban nyílt meg.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik anyagot nevezik „fehér aranynak” a történelemben?",
+      "a": [
+        "A sót",
+        "A gyapotot",
+        "A cukrot",
+        "Az elefántcsontot"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A só értéke miatt kapta ezt a nevet; a „só” és a „salárium” szó is összefügg.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Miből rövidült a magyar „szervusz” köszönés?",
+      "a": [
+        "A latin servus humilis kifejezésből",
+        "Egy német jókívánságból",
+        "Egy szláv köszönésből",
+        "Egy török szóból"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A servus humilis jelentése „alázatos szolgád”.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Mit mér a Richter-skála?",
+      "a": [
+        "Földrengés erősségét",
+        "Szélerősséget",
+        "Hőmérsékletet",
+        "Zajszintet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A skála logaritmikus: egy egész fokozat kb. 32-szeres energiakülönbség.",
+      "t": "mértékek"
+    },
+    {
+      "q": "Mit mér a Beaufort-skála?",
+      "a": [
+        "Szélerősséget",
+        "Földrengést",
+        "Csapadékot",
+        "Fényerőt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A skála 0-tól 12-ig terjed.",
+      "t": "mértékek"
+    },
+    {
+      "q": "Mit mér a decibel?",
+      "a": [
+        "Hangerősséget",
+        "Fényerőt",
+        "Nyomást",
+        "Hőmérsékletet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A decibel logaritmikus mérték.",
+      "t": "mértékek"
+    },
+    {
+      "q": "Mit mér a Mohs-skála?",
+      "a": [
+        "Ásványok keménységét",
+        "Savasságot",
+        "Hőt",
+        "Sűrűséget"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1 a talkum, 10 a gyémánt.",
+      "t": "mértékek"
+    },
+    {
+      "q": "Mennyi egy tengeri mérföld körülbelül?",
+      "a": [
+        "1852 méter",
+        "1000 méter",
+        "1609 méter",
+        "2000 méter"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Egy tengeri mérföld a földrajzi szélesség egy ívpercének felel meg.",
+      "t": "mértékek"
+    },
+    {
+      "q": "Mennyi egy szárazföldi mérföld körülbelül?",
+      "a": [
+        "1609 méter",
+        "1000 méter",
+        "1852 méter",
+        "2500 méter"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A brit-amerikai mérföld 1609,344 méter.",
+      "t": "mértékek"
+    },
+    {
+      "q": "Melyik nap a leghosszabb az északi féltekén?",
+      "a": [
+        "Június 21. körül",
+        "December 21. körül",
+        "Március 21. körül",
+        "Szeptember 23. körül"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A nyári napforduló idején a legnagyobb a nappal hossza.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Mit jelent a „napéjegyenlőség”?",
+      "a": [
+        "A nappal és az éjszaka hossza megegyezik",
+        "A legrövidebb nap",
+        "A leghosszabb nap",
+        "A holdtölte"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Március és szeptember végén fordul elő.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik találmányt köszönhetjük a véletlennek a felsoroltak közül?",
+      "a": [
+        "Penicillin",
+        "Gőzgép",
+        "Telefon",
+        "Nyomtatás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Fleming egy elszennyeződött tenyészeten figyelte meg a gomba hatását.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik állat lett az első a világűrben, amely visszatért a Földre élve?",
+      "a": [
+        "Kutya (Belka és Sztrelka)",
+        "Csimpánz",
+        "Macska",
+        "Egér"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Belka és Sztrelka 1960-ban tért vissza épségben.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik a világ legrégebbi, ma is működő egyeteme?",
+      "a": [
+        "Bolognai Egyetem",
+        "Sorbonne",
+        "Oxford",
+        "Salamanca"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Bolognai Egyetemet 1088-ban alapították.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik a világ legrégebbi ma is használt írásrendszere?",
+      "a": [
+        "Kínai írásjegyek",
+        "Latin ábécé",
+        "Cirill ábécé",
+        "Görög ábécé"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kínai írás több mint háromezer éves folytonossággal használatos.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik évben indult a World Wide Web nyilvános használata?",
+      "a": [
+        "1991",
+        "1985",
+        "1996",
+        "2000"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A CERN 1991-ben tette elérhetővé a webet a nagyközönség számára.",
+      "t": "érdekes tények"
+    },
+    {
+      "q": "Melyik szó a leghosszabb magyar szó a közismert példák szerint?",
+      "a": [
+        "Megszentségteleníthetetlenségeskedéseitekért",
+        "Elkelkáposztásítottalanítottátok",
+        "Legeslegmegszentségtelenítőbb",
+        "Visszaemlékezéseikről"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ez a nyelvi játék klasszikus példája, nem valódi köznyelvi szó.",
+      "t": "nyelvek"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: fluor?",
+      "a": [
+        "Glenn T. Seaborg",
+        "Albert Ghiorso",
+        "Julius Caesar Scaliger",
+        "André-Marie Ampère"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "fluor felfedezője André-Marie Ampère.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q650"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: plutónium?",
+      "a": [
+        "Hans Christian Ørsted",
+        "Henry Cavendish",
+        "Edwin M. McMillan",
+        "Morris Travers"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "plutónium felfedezője Edwin M. McMillan.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q1102"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: neptúnium?",
+      "a": [
+        "Edwin M. McMillan",
+        "Henry Cavendish",
+        "Juan José Elhuyar",
+        "André-Marie Ampère"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "neptúnium felfedezője Edwin M. McMillan.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q1105"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: polónium?",
+      "a": [
+        "Ida Noddack",
+        "Pierre Curie",
+        "Hennig Brand",
+        "Georg Brandt"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "polónium felfedezője Pierre Curie.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q979"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: szén?",
+      "a": [
+        "Antoine Lavoisier",
+        "Philip Abelson",
+        "Louis Nicolas Vauquelin",
+        "Jan Hendrik de Boer"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "szén felfedezője Antoine Lavoisier.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q623"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: kén?",
+      "a": [
+        "Antoine Lavoisier",
+        "Georges Urbain",
+        "Anton Eduard van Arkel",
+        "Charles D. Coryell"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "kén felfedezője Antoine Lavoisier.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q682"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: alumínium?",
+      "a": [
+        "Friedrich Wöhler",
+        "Hans Christian Ørsted",
+        "Emilio G. Segrè",
+        "William Hyde Wollaston"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "alumínium felfedezője Hans Christian Ørsted.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q663"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: protaktínium?",
+      "a": [
+        "Ida Noddack",
+        "Marguerite Perey",
+        "Fausto Elhuyar",
+        "Lise Meitner"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "protaktínium felfedezője Lise Meitner.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q1109"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: berillium?",
+      "a": [
+        "Anton Eduard van Arkel",
+        "Friedrich Wöhler",
+        "André-Louis Debierne",
+        "Albertus Magnus"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "berillium felfedezője Friedrich Wöhler.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q569"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: titán?",
+      "a": [
+        "John William Strutt",
+        "Kasimir Fajans",
+        "Friedrich Wöhler",
+        "André-Louis Debierne"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "titán felfedezője Friedrich Wöhler.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q716"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: ittrium?",
+      "a": [
+        "Bernard Courtois",
+        "Friedrich Wöhler",
+        "Jules Janssen",
+        "André-Marie Ampère"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "ittrium felfedezője Friedrich Wöhler.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q941"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: rubídium?",
+      "a": [
+        "Gustav Robert Kirchhoff",
+        "Jacques-Louis Soret",
+        "André-Marie Ampère",
+        "Eugène-Melchior Péligot"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "rubídium felfedezője Gustav Robert Kirchhoff.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q895"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: cézium?",
+      "a": [
+        "Philip Abelson",
+        "Hieronymous Theodor Richter",
+        "Gustav Robert Kirchhoff",
+        "Johan Gottlieb Gahn"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "cézium felfedezője Gustav Robert Kirchhoff.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q1108"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: arzén?",
+      "a": [
+        "Clemens Winkler",
+        "Albertus Magnus",
+        "Johan Gadolin",
+        "Henry Cavendish"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "arzén felfedezője Albertus Magnus.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q871"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: rénium?",
+      "a": [
+        "Carl Jacob Löwig",
+        "Arthur Wahl",
+        "Walter Noddack",
+        "Marc Delafontaine"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "rénium felfedezője Walter Noddack.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q737"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: bróm?",
+      "a": [
+        "Carl Jacob Löwig",
+        "Hans Christian Ørsted",
+        "André-Louis Debierne",
+        "Antonio de Ulloa"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "bróm felfedezője Carl Jacob Löwig.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q879"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: kadmium?",
+      "a": [
+        "Paul Émile Lecoq de Boisbaudran",
+        "Carl Wilhelm Scheele",
+        "Karl Samuel Leberecht Hermann",
+        "Egyesített Atomkutató Intézet"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "kadmium felfedezője Karl Samuel Leberecht Hermann.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q1091"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: oxigén?",
+      "a": [
+        "Friedrich Ernst Dorn",
+        "Eugène-Melchior Péligot",
+        "Carl Wilhelm Scheele",
+        "Anders Gustaf Ekeberg"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "oxigén felfedezője Carl Wilhelm Scheele.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q629"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: klór?",
+      "a": [
+        "Johan Gottlieb Gahn",
+        "John William Strutt",
+        "Carl Wilhelm Scheele",
+        "Hans Christian Ørsted"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "klór felfedezője Carl Wilhelm Scheele.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q688"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: molibdén?",
+      "a": [
+        "Carl Wilhelm Scheele",
+        "Georges Urbain",
+        "Andrés Manuel del Río",
+        "Carlo Perrier"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "molibdén felfedezője Carl Wilhelm Scheele.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q1053"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: germánium?",
+      "a": [
+        "Clemens Winkler",
+        "Albertus Magnus",
+        "Per Teodor Cleve",
+        "William Cruickshank"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "germánium felfedezője Clemens Winkler.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q867"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: foszfor?",
+      "a": [
+        "Antoine Bussy",
+        "Hennig Brand",
+        "Ida Noddack",
+        "Pierre Curie"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "foszfor felfedezője Hennig Brand.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q674"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: indium?",
+      "a": [
+        "Henry Cavendish",
+        "Lise Meitner",
+        "Ferdinand Reich",
+        "Albertus Magnus"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "indium felfedezője Ferdinand Reich.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q1094"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: argon?",
+      "a": [
+        "Antoine Lavoisier",
+        "Marguerite Perey",
+        "John William Strutt",
+        "Georg Brandt"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "argon felfedezője John William Strutt.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q696"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: tellúr?",
+      "a": [
+        "Smithson Tennant",
+        "Hans Christian Ørsted",
+        "Lars Fredrik Nilson",
+        "Müller Ferenc József"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "tellúr felfedezője Müller Ferenc József.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q1100"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: hélium?",
+      "a": [
+        "Per Teodor Cleve",
+        "Henry Cavendish",
+        "William Ramsay",
+        "Norman Lockyer"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "hélium felfedezője Norman Lockyer.",
+      "t": "kémiai elemek",
+      "s": "http://www.wikidata.org/entity/Q560"
+    }
   ]
 }

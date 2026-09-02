@@ -2,60 +2,958 @@
   "category": "muveszet",
   "default_source": "saját szerkesztés (általános műveltségi tananyag)",
   "questions": [
-    {"q": "Ki festette a Mona Lisát?", "a": ["Leonardo da Vinci", "Michelangelo", "Raffaello", "Botticelli"], "c": 0, "d": "easy", "e": "A festmény a párizsi Louvre-ban látható.", "t": "reneszánsz"},
-    {"q": "Melyik múzeumban látható a Mona Lisa?", "a": ["Louvre", "Uffizi", "Prado", "Ermitázs"], "c": 0, "d": "easy", "e": "A Louvre Párizs legnagyobb múzeuma.", "t": "múzeumok"},
-    {"q": "Ki festette a Sixtus-kápolna mennyezetét?", "a": ["Michelangelo", "Leonardo da Vinci", "Raffaello", "Tiziano"], "c": 0, "d": "easy", "e": "A munka 1508 és 1512 között készült.", "t": "reneszánsz"},
-    {"q": "Ki készítette a Dávid-szobrot Firenzében?", "a": ["Michelangelo", "Donatello", "Bernini", "Cellini"], "c": 0, "d": "medium", "e": "Az 5 méteres márványszobor 1504-ben készült el.", "t": "szobrászat"},
-    {"q": "Melyik művész festette az Utolsó vacsorát Milánóban?", "a": ["Leonardo da Vinci", "Michelangelo", "Caravaggio", "Giotto"], "c": 0, "d": "medium", "e": "A falfestmény a Santa Maria delle Grazie refektóriumában van.", "t": "reneszánsz"},
-    {"q": "Ki festette a Vénusz születése című képet?", "a": ["Sandro Botticelli", "Tiziano", "Raffaello", "Veronese"], "c": 0, "d": "medium", "e": "A festmény a firenzei Uffizi képtárban látható.", "t": "reneszánsz"},
-    {"q": "Ki festette a Csillagos éj című képet?", "a": ["Vincent van Gogh", "Claude Monet", "Paul Cézanne", "Edvard Munch"], "c": 0, "d": "easy", "e": "A képet 1889-ben festette Saint-Rémy-ben.", "t": "posztimpresszionizmus"},
-    {"q": "Melyik művész vágta le a saját fülének egy részét?", "a": ["Vincent van Gogh", "Paul Gauguin", "Henri Matisse", "Edgar Degas"], "c": 0, "d": "medium", "e": "Az 1888-as arles-i eset a művészettörténet legismertebb epizódjai közé tartozik.", "t": "posztimpresszionizmus"},
-    {"q": "Melyik festő nevéhez fűződik az impresszionizmus elnevezése?", "a": ["Claude Monet", "Auguste Renoir", "Camille Pissarro", "Alfred Sisley"], "c": 0, "d": "medium", "e": "Monet Impresszió, a felkelő nap című képéről nevezték el a stílust.", "t": "impresszionizmus"},
-    {"q": "Melyik festő ismert a vízililiomokat és a Rouen-i katedrálist ábrázoló sorozatairól?", "a": ["Claude Monet", "Édouard Manet", "Paul Signac", "Georges Seurat"], "c": 0, "d": "medium", "e": "Monet ugyanazt a témát különböző fényviszonyok között festette meg.", "t": "impresszionizmus"},
-    {"q": "Melyik stílus alapítója Pablo Picasso Georges Braque-kal együtt?", "a": ["Kubizmus", "Szürrealizmus", "Fauvizmus", "Expresszionizmus"], "c": 0, "d": "medium", "e": "A kubizmus a tárgyakat egyszerre több nézetből ábrázolja.", "t": "20. századi művészet"},
-    {"q": "Melyik Picasso-festmény ábrázolja a spanyol polgárháború egyik bombázását?", "a": ["Guernica", "Avignoni kisasszonyok", "A vak ember reggelije", "A régi gitáros"], "c": 0, "d": "medium", "e": "A Guernica 1937-ben készült, ma Madridban látható.", "t": "20. századi művészet"},
-    {"q": "Melyik művész ismert az olvadó órákat ábrázoló festményéről?", "a": ["Salvador Dalí", "René Magritte", "Max Ernst", "Joan Miró"], "c": 0, "d": "easy", "e": "Az emlékezet állandósága 1931-ben készült.", "t": "szürrealizmus"},
-    {"q": "Melyik stílushoz tartozik Magritte „Ez nem pipa” feliratú festménye?", "a": ["Szürrealizmus", "Kubizmus", "Dada", "Pop-art"], "c": 0, "d": "hard", "e": "A kép a szó és a kép viszonyát kérdőjelezi meg.", "t": "szürrealizmus"},
-    {"q": "Melyik művész készítette a Campbell-konzerv sorozatot?", "a": ["Andy Warhol", "Roy Lichtenstein", "Jasper Johns", "Robert Rauschenberg"], "c": 0, "d": "medium", "e": "A pop-art a fogyasztói kultúra képeit használta fel.", "t": "pop-art"},
-    {"q": "Melyik művészeti stílushoz tartozik Andy Warhol?", "a": ["Pop-art", "Kubizmus", "Barokk", "Realizmus"], "c": 0, "d": "easy", "e": "A pop-art az 1950-es évek végén indult Nagy-Britanniában és az USA-ban.", "t": "pop-art"},
-    {"q": "Melyik művész festette A sikoly című képet?", "a": ["Edvard Munch", "Vincent van Gogh", "Egon Schiele", "Gustav Klimt"], "c": 0, "d": "easy", "e": "A norvég festő több változatot is készített 1893-tól.", "t": "expresszionizmus"},
-    {"q": "Melyik festő ismert az aranyat használó, díszes szecessziós képeiről, például A csókról?", "a": ["Gustav Klimt", "Egon Schiele", "Alfons Mucha", "Oskar Kokoschka"], "c": 0, "d": "medium", "e": "A csók 1908 körül készült, Bécsben látható.", "t": "szecesszió"},
-    {"q": "Melyik művészeti korszak jellemzője a mozgalmas, drámai fény-árnyék és a dinamika?", "a": ["Barokk", "Klasszicizmus", "Reneszánsz", "Gótika"], "c": 0, "d": "medium", "e": "A barokk a 17. század dominánsan mozgalmas stílusa.", "t": "stílusok"},
-    {"q": "Melyik festő volt a fény-árnyék (chiaroscuro) drámai használatának mestere a barokkban?", "a": ["Caravaggio", "Rubens", "Velázquez", "Rembrandt"], "c": 0, "d": "hard", "e": "Caravaggio erős fénykontrasztjai forradalminak számítottak.", "t": "barokk"},
-    {"q": "Melyik holland festő készítette az Éjjeli őrjárat című képet?", "a": ["Rembrandt", "Vermeer", "Hals", "Van Dyck"], "c": 0, "d": "medium", "e": "A kép 1642-ben készült, Amszterdamban látható.", "t": "barokk"},
-    {"q": "Melyik holland festő képe a Leány gyöngy fülbevalóval?", "a": ["Johannes Vermeer", "Rembrandt", "Jan Steen", "Pieter de Hooch"], "c": 0, "d": "medium", "e": "A kép 1665 körül készült, Hágában látható.", "t": "barokk"},
-    {"q": "Melyik építészeti stílus jellemzője a csúcsív, a bordás keresztboltozat és a támpillér?", "a": ["Gótika", "Román stílus", "Barokk", "Klasszicizmus"], "c": 0, "d": "medium", "e": "A gótika a 12. századtól terjedt el Európában.", "t": "építészet"},
-    {"q": "Melyik építészeti stílus jellemzője a félköríves nyílás és a vaskos falak?", "a": ["Román stílus", "Gótika", "Reneszánsz", "Szecesszió"], "c": 0, "d": "medium", "e": "A román stílus a 10-12. században volt jellemző.", "t": "építészet"},
-    {"q": "Melyik templom Párizs leghíresebb gótikus katedrálisa?", "a": ["Notre-Dame", "Sacré-Cœur", "Sainte-Chapelle", "Saint-Sulpice"], "c": 0, "d": "easy", "e": "Az építése 1163-ban kezdődött.", "t": "építészet"},
-    {"q": "Melyik ókori épület Athén fellegvárán áll?", "a": ["Parthenón", "Colosseum", "Pantheon", "Zeusz-templom"], "c": 0, "d": "easy", "e": "A Parthenón Athéné istennő temploma volt.", "t": "ókori művészet"},
-    {"q": "Melyik római épület kör alaprajzú, kupolával és nyitott szemmel a tetején?", "a": ["Pantheon", "Colosseum", "Circus Maximus", "Forum Romanum"], "c": 0, "d": "medium", "e": "A Pantheon kupolája ma is a világ legnagyobb vasalás nélküli betonkupolája.", "t": "ókori művészet"},
-    {"q": "Melyik magyar festő műve a Krisztus Pilátus előtt?", "a": ["Munkácsy Mihály", "Szinyei Merse Pál", "Csontváry Kosztka Tivadar", "Rippl-Rónai József"], "c": 0, "d": "medium", "e": "Munkácsy trilógiájának első darabja 1881-ben készült.", "t": "magyar művészet"},
-    {"q": "Melyik magyar festő képe a Majális?", "a": ["Szinyei Merse Pál", "Munkácsy Mihály", "Ferenczy Károly", "Paál László"], "c": 0, "d": "medium", "e": "A Majális 1873-ban készült, a magyar plein air festészet alapműve.", "t": "magyar művészet"},
-    {"q": "Melyik magyar festő műve a Magányos cédrus?", "a": ["Csontváry Kosztka Tivadar", "Munkácsy Mihály", "Szinyei Merse Pál", "Vaszary János"], "c": 0, "d": "medium", "e": "Csontváry 1907-ben festette a képet.", "t": "magyar művészet"},
-    {"q": "Melyik magyar művészcsoport működött Nagybányán a 20. század elején?", "a": ["Nagybányai művésztelep", "Gödöllői szövőműhely", "Nyolcak", "Európai Iskola"], "c": 0, "d": "hard", "e": "A telep 1896-ban alakult, Hollósy Simon vezetésével.", "t": "magyar művészet"},
-    {"q": "Melyik magyar szobrász alkotása a budapesti Hősök tere Millenniumi emlékműve?", "a": ["Zala György", "Fadrusz János", "Stróbl Alajos", "Kisfaludi Strobl Zsigmond"], "c": 0, "d": "hard", "e": "Zala György szobrai Schickedanz Albert építészeti terveihez készültek.", "t": "magyar művészet"},
-    {"q": "Melyik magyar szobrász műve a Szabadság-szobor a Gellért-hegyen?", "a": ["Kisfaludi Strobl Zsigmond", "Zala György", "Medgyessy Ferenc", "Vigh Tamás"], "c": 0, "d": "hard", "e": "A szobor 1947-ben került a helyére.", "t": "magyar művészet"},
-    {"q": "Melyik magyar képzőművész nevéhez fűződik az op-art világhírű megújítása?", "a": ["Victor Vasarely", "Moholy-Nagy László", "Kassák Lajos", "Bortnyik Sándor"], "c": 0, "d": "medium", "e": "Vásárhelyi Győző (Victor Vasarely) Franciaországban lett világhírű.", "t": "magyar művészet"},
-    {"q": "Melyik magyar származású művész tanított a Bauhausban?", "a": ["Moholy-Nagy László", "Csontváry Kosztka Tivadar", "Rippl-Rónai József", "Ferenczy Béni"], "c": 0, "d": "hard", "e": "Moholy-Nagy László a fénnyel és az új anyagokkal kísérletezett.", "t": "magyar művészet"},
-    {"q": "Melyik magyar múzeum a legnagyobb európai képtárral rendelkező intézmény Budapesten?", "a": ["Szépművészeti Múzeum", "Magyar Nemzeti Galéria", "Iparművészeti Múzeum", "Ludwig Múzeum"], "c": 0, "d": "medium", "e": "A Szépművészeti Múzeum gyűjteménye az egyiptomi művészettől a 19. századig tart.", "t": "múzeumok"},
-    {"q": "Melyik múzeum Madrid legnagyobb képtára?", "a": ["Prado", "Reina Sofía", "Thyssen-Bornemisza", "Guggenheim"], "c": 0, "d": "medium", "e": "A Pradóban Velázquez és Goya főművei láthatók.", "t": "múzeumok"},
-    {"q": "Melyik múzeum Szentpéterváron az egyik legnagyobb a világon?", "a": ["Ermitázs", "Tretyakov Galéria", "Puskin Múzeum", "Russzkij Muzej"], "c": 0, "d": "medium", "e": "Az Ermitázst 1764-ben alapította Nagy Katalin.", "t": "múzeumok"},
-    {"q": "Melyik művészeti technika a „freskó”?", "a": ["Nedves vakolatra festés", "Olajfestés vászonra", "Metszet fémlemezről", "Mozaik kőből"], "c": 0, "d": "medium", "e": "A festék a vakolattal együtt kötődik meg.", "t": "technikák"},
-    {"q": "Mi a mozaik?", "a": ["Apró kő- vagy üvegdarabokból kirakott kép", "Nedves vakolatra festett kép", "Fémbe karcolt rajz", "Fába vájt dombormű"], "c": 0, "d": "easy", "e": "A bizánci művészet emblematikus technikája.", "t": "technikák"},
-    {"q": "Mi az akvarell?", "a": ["Vízzel oldható festékkel készült festmény", "Olajfestmény", "Szoborcsoport", "Fénykép"], "c": 0, "d": "easy", "e": "Az akvarell átlátszó rétegeket ad, jellemzően papíron.", "t": "technikák"},
-    {"q": "Mi a szobrászatban a „bronzöntés” lényege?", "a": ["Olvadt fémet formába öntenek", "Kőből kivésik az alakot", "Fából kifaragják", "Gipszet öntenek papírra"], "c": 0, "d": "medium", "e": "A leggyakoribb módszer az elveszett viasz eljárás.", "t": "technikák"},
-    {"q": "Melyik művész készítette A gondolkodó című szobrot?", "a": ["Auguste Rodin", "Michelangelo", "Antonio Canova", "Alberto Giacometti"], "c": 0, "d": "medium", "e": "A szobor eredetileg A pokol kapuja része volt.", "t": "szobrászat"},
-    {"q": "Melyik művészeti stílus jellemzője a geometrikus formák és az elsődleges színek használata (Mondrian)?", "a": ["Neoplaszticizmus (De Stijl)", "Fauvizmus", "Futurizmus", "Barokk"], "c": 0, "d": "hard", "e": "Piet Mondrian rácsos kompozíciói a De Stijl mozgalomhoz tartoznak.", "t": "20. századi művészet"},
-    {"q": "Melyik művészeti mozgalom hirdette a gépek, a sebesség és a modernitás kultuszát Olaszországban?", "a": ["Futurizmus", "Szimbolizmus", "Klasszicizmus", "Realizmus"], "c": 0, "d": "hard", "e": "A futurizmus 1909-ben, Marinetti kiáltványával indult.", "t": "20. századi művészet"},
-    {"q": "Melyik művészeti mozgalom volt tudatosan értelmetlen és provokatív az első világháború után?", "a": ["Dada", "Impresszionizmus", "Rokokó", "Manierizmus"], "c": 0, "d": "hard", "e": "A dada a háború értelmetlenségére adott válasz volt.", "t": "20. századi művészet"},
-    {"q": "Melyik iskola egyesítette a képzőművészetet, az építészetet és a tervezést 1919-től Németországban?", "a": ["Bauhaus", "Blaue Reiter", "Die Brücke", "Werkbund"], "c": 0, "d": "medium", "e": "A Bauhaust Walter Gropius alapította Weimarban.", "t": "20. századi művészet"},
-    {"q": "Melyik építész tervezte a barcelonai Sagrada Famíliát?", "a": ["Antoni Gaudí", "Le Corbusier", "Frank Lloyd Wright", "Mies van der Rohe"], "c": 0, "d": "easy", "e": "Az építés 1882-ben kezdődött, a mai napig tart.", "t": "építészet"},
-    {"q": "Melyik építész alkotta a Vízeséses házat (Fallingwater)?", "a": ["Frank Lloyd Wright", "Le Corbusier", "Alvar Aalto", "Louis Kahn"], "c": 0, "d": "hard", "e": "A ház 1935-ben készült Pennsylvaniában.", "t": "építészet"},
-    {"q": "Melyik épület Sydney jelképe, vitorlaszerű héjszerkezetekkel?", "a": ["Operaház", "Harbour Bridge", "Town Hall", "Queen Victoria Building"], "c": 0, "d": "easy", "e": "A Sydney-i Operaházat Jørn Utzon tervezte.", "t": "építészet"},
-    {"q": "Melyik magyar építész tervezte a Zeneakadémia szecessziós épületét?", "a": ["Korb Flóris és Giergl Kálmán", "Lechner Ödön", "Ybl Miklós", "Steindl Imre"], "c": 0, "d": "hard", "e": "A Liszt Ferenc téri épület 1907-ben nyílt meg.", "t": "magyar művészet"},
-    {"q": "Melyik művészeti ág foglalkozik a mozgókép esztétikájával?", "a": ["Filmművészet", "Grafika", "Iparművészet", "Szobrászat"], "c": 0, "d": "easy", "e": "A filmet gyakran a „hetedik művészet” néven emlegetik.", "t": "művészeti ágak"},
-    {"q": "Mit jelent a „plein air” festészet?", "a": ["Szabad levegőn, természetben festés", "Műtermi portréfestés", "Templomi falfestés", "Emlékezetből festés"], "c": 0, "d": "medium", "e": "Az impresszionisták a fény változását a helyszínen figyelték meg.", "t": "technikák"},
-    {"q": "Melyik művészeti korszak követi közvetlenül a reneszánszot?", "a": ["Manierizmus, majd barokk", "Gótika", "Klasszicizmus", "Romantika"], "c": 0, "d": "hard", "e": "A 16. század végén a manierizmus vezetett át a barokkba.", "t": "stílusok"},
-    {"q": "Melyik művészeti stílus jellemzője a könnyed, játékos díszítés és a pasztellszínek a 18. században?", "a": ["Rokokó", "Barokk", "Gótika", "Realizmus"], "c": 0, "d": "medium", "e": "A rokokó a késő barokk elegáns, intim változata.", "t": "stílusok"}
+    {
+      "q": "Ki festette a Mona Lisát?",
+      "a": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Raffaello",
+        "Botticelli"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A festmény a párizsi Louvre-ban látható.",
+      "t": "reneszánsz"
+    },
+    {
+      "q": "Melyik múzeumban látható a Mona Lisa?",
+      "a": [
+        "Louvre",
+        "Uffizi",
+        "Prado",
+        "Ermitázs"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Louvre Párizs legnagyobb múzeuma.",
+      "t": "múzeumok"
+    },
+    {
+      "q": "Ki festette a Sixtus-kápolna mennyezetét?",
+      "a": [
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Raffaello",
+        "Tiziano"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A munka 1508 és 1512 között készült.",
+      "t": "reneszánsz"
+    },
+    {
+      "q": "Ki készítette a Dávid-szobrot Firenzében?",
+      "a": [
+        "Michelangelo",
+        "Donatello",
+        "Bernini",
+        "Cellini"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 5 méteres márványszobor 1504-ben készült el.",
+      "t": "szobrászat"
+    },
+    {
+      "q": "Melyik művész festette az Utolsó vacsorát Milánóban?",
+      "a": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Caravaggio",
+        "Giotto"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A falfestmény a Santa Maria delle Grazie refektóriumában van.",
+      "t": "reneszánsz"
+    },
+    {
+      "q": "Ki festette a Vénusz születése című képet?",
+      "a": [
+        "Sandro Botticelli",
+        "Tiziano",
+        "Raffaello",
+        "Veronese"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A festmény a firenzei Uffizi képtárban látható.",
+      "t": "reneszánsz"
+    },
+    {
+      "q": "Ki festette a Csillagos éj című képet?",
+      "a": [
+        "Vincent van Gogh",
+        "Claude Monet",
+        "Paul Cézanne",
+        "Edvard Munch"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A képet 1889-ben festette Saint-Rémy-ben.",
+      "t": "posztimpresszionizmus"
+    },
+    {
+      "q": "Melyik művész vágta le a saját fülének egy részét?",
+      "a": [
+        "Vincent van Gogh",
+        "Paul Gauguin",
+        "Henri Matisse",
+        "Edgar Degas"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1888-as arles-i eset a művészettörténet legismertebb epizódjai közé tartozik.",
+      "t": "posztimpresszionizmus"
+    },
+    {
+      "q": "Melyik festő nevéhez fűződik az impresszionizmus elnevezése?",
+      "a": [
+        "Claude Monet",
+        "Auguste Renoir",
+        "Camille Pissarro",
+        "Alfred Sisley"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Monet Impresszió, a felkelő nap című képéről nevezték el a stílust.",
+      "t": "impresszionizmus"
+    },
+    {
+      "q": "Melyik festő ismert a vízililiomokat és a Rouen-i katedrálist ábrázoló sorozatairól?",
+      "a": [
+        "Claude Monet",
+        "Édouard Manet",
+        "Paul Signac",
+        "Georges Seurat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Monet ugyanazt a témát különböző fényviszonyok között festette meg.",
+      "t": "impresszionizmus"
+    },
+    {
+      "q": "Melyik stílus alapítója Pablo Picasso Georges Braque-kal együtt?",
+      "a": [
+        "Kubizmus",
+        "Szürrealizmus",
+        "Fauvizmus",
+        "Expresszionizmus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kubizmus a tárgyakat egyszerre több nézetből ábrázolja.",
+      "t": "20. századi művészet"
+    },
+    {
+      "q": "Melyik Picasso-festmény ábrázolja a spanyol polgárháború egyik bombázását?",
+      "a": [
+        "Guernica",
+        "Avignoni kisasszonyok",
+        "A vak ember reggelije",
+        "A régi gitáros"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Guernica 1937-ben készült, ma Madridban látható.",
+      "t": "20. századi művészet"
+    },
+    {
+      "q": "Melyik művész ismert az olvadó órákat ábrázoló festményéről?",
+      "a": [
+        "Salvador Dalí",
+        "René Magritte",
+        "Max Ernst",
+        "Joan Miró"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az emlékezet állandósága 1931-ben készült.",
+      "t": "szürrealizmus"
+    },
+    {
+      "q": "Melyik stílushoz tartozik Magritte „Ez nem pipa” feliratú festménye?",
+      "a": [
+        "Szürrealizmus",
+        "Kubizmus",
+        "Dada",
+        "Pop-art"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kép a szó és a kép viszonyát kérdőjelezi meg.",
+      "t": "szürrealizmus"
+    },
+    {
+      "q": "Melyik művész készítette a Campbell-konzerv sorozatot?",
+      "a": [
+        "Andy Warhol",
+        "Roy Lichtenstein",
+        "Jasper Johns",
+        "Robert Rauschenberg"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pop-art a fogyasztói kultúra képeit használta fel.",
+      "t": "pop-art"
+    },
+    {
+      "q": "Melyik művészeti stílushoz tartozik Andy Warhol?",
+      "a": [
+        "Pop-art",
+        "Kubizmus",
+        "Barokk",
+        "Realizmus"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pop-art az 1950-es évek végén indult Nagy-Britanniában és az USA-ban.",
+      "t": "pop-art"
+    },
+    {
+      "q": "Melyik művész festette A sikoly című képet?",
+      "a": [
+        "Edvard Munch",
+        "Vincent van Gogh",
+        "Egon Schiele",
+        "Gustav Klimt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A norvég festő több változatot is készített 1893-tól.",
+      "t": "expresszionizmus"
+    },
+    {
+      "q": "Melyik festő ismert az aranyat használó, díszes szecessziós képeiről, például A csókról?",
+      "a": [
+        "Gustav Klimt",
+        "Egon Schiele",
+        "Alfons Mucha",
+        "Oskar Kokoschka"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A csók 1908 körül készült, Bécsben látható.",
+      "t": "szecesszió"
+    },
+    {
+      "q": "Melyik művészeti korszak jellemzője a mozgalmas, drámai fény-árnyék és a dinamika?",
+      "a": [
+        "Barokk",
+        "Klasszicizmus",
+        "Reneszánsz",
+        "Gótika"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A barokk a 17. század dominánsan mozgalmas stílusa.",
+      "t": "stílusok"
+    },
+    {
+      "q": "Melyik festő volt a fény-árnyék (chiaroscuro) drámai használatának mestere a barokkban?",
+      "a": [
+        "Caravaggio",
+        "Rubens",
+        "Velázquez",
+        "Rembrandt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Caravaggio erős fénykontrasztjai forradalminak számítottak.",
+      "t": "barokk"
+    },
+    {
+      "q": "Melyik holland festő készítette az Éjjeli őrjárat című képet?",
+      "a": [
+        "Rembrandt",
+        "Vermeer",
+        "Hals",
+        "Van Dyck"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kép 1642-ben készült, Amszterdamban látható.",
+      "t": "barokk"
+    },
+    {
+      "q": "Melyik holland festő képe a Leány gyöngy fülbevalóval?",
+      "a": [
+        "Johannes Vermeer",
+        "Rembrandt",
+        "Jan Steen",
+        "Pieter de Hooch"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kép 1665 körül készült, Hágában látható.",
+      "t": "barokk"
+    },
+    {
+      "q": "Melyik építészeti stílus jellemzője a csúcsív, a bordás keresztboltozat és a támpillér?",
+      "a": [
+        "Gótika",
+        "Román stílus",
+        "Barokk",
+        "Klasszicizmus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gótika a 12. századtól terjedt el Európában.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik építészeti stílus jellemzője a félköríves nyílás és a vaskos falak?",
+      "a": [
+        "Román stílus",
+        "Gótika",
+        "Reneszánsz",
+        "Szecesszió"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A román stílus a 10-12. században volt jellemző.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik templom Párizs leghíresebb gótikus katedrálisa?",
+      "a": [
+        "Notre-Dame",
+        "Sacré-Cœur",
+        "Sainte-Chapelle",
+        "Saint-Sulpice"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az építése 1163-ban kezdődött.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik ókori épület Athén fellegvárán áll?",
+      "a": [
+        "Parthenón",
+        "Colosseum",
+        "Pantheon",
+        "Zeusz-templom"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Parthenón Athéné istennő temploma volt.",
+      "t": "ókori művészet"
+    },
+    {
+      "q": "Melyik római épület kör alaprajzú, kupolával és nyitott szemmel a tetején?",
+      "a": [
+        "Pantheon",
+        "Colosseum",
+        "Circus Maximus",
+        "Forum Romanum"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Pantheon kupolája ma is a világ legnagyobb vasalás nélküli betonkupolája.",
+      "t": "ókori művészet"
+    },
+    {
+      "q": "Melyik magyar festő műve a Krisztus Pilátus előtt?",
+      "a": [
+        "Munkácsy Mihály",
+        "Szinyei Merse Pál",
+        "Csontváry Kosztka Tivadar",
+        "Rippl-Rónai József"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Munkácsy trilógiájának első darabja 1881-ben készült.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik magyar festő képe a Majális?",
+      "a": [
+        "Szinyei Merse Pál",
+        "Munkácsy Mihály",
+        "Ferenczy Károly",
+        "Paál László"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Majális 1873-ban készült, a magyar plein air festészet alapműve.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik magyar festő műve a Magányos cédrus?",
+      "a": [
+        "Csontváry Kosztka Tivadar",
+        "Munkácsy Mihály",
+        "Szinyei Merse Pál",
+        "Vaszary János"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Csontváry 1907-ben festette a képet.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik magyar művészcsoport működött Nagybányán a 20. század elején?",
+      "a": [
+        "Nagybányai művésztelep",
+        "Gödöllői szövőműhely",
+        "Nyolcak",
+        "Európai Iskola"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A telep 1896-ban alakult, Hollósy Simon vezetésével.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik magyar szobrász alkotása a budapesti Hősök tere Millenniumi emlékműve?",
+      "a": [
+        "Zala György",
+        "Fadrusz János",
+        "Stróbl Alajos",
+        "Kisfaludi Strobl Zsigmond"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Zala György szobrai Schickedanz Albert építészeti terveihez készültek.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik magyar szobrász műve a Szabadság-szobor a Gellért-hegyen?",
+      "a": [
+        "Kisfaludi Strobl Zsigmond",
+        "Zala György",
+        "Medgyessy Ferenc",
+        "Vigh Tamás"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szobor 1947-ben került a helyére.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik magyar képzőművész nevéhez fűződik az op-art világhírű megújítása?",
+      "a": [
+        "Victor Vasarely",
+        "Moholy-Nagy László",
+        "Kassák Lajos",
+        "Bortnyik Sándor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Vásárhelyi Győző (Victor Vasarely) Franciaországban lett világhírű.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik magyar származású művész tanított a Bauhausban?",
+      "a": [
+        "Moholy-Nagy László",
+        "Csontváry Kosztka Tivadar",
+        "Rippl-Rónai József",
+        "Ferenczy Béni"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Moholy-Nagy László a fénnyel és az új anyagokkal kísérletezett.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik magyar múzeum a legnagyobb európai képtárral rendelkező intézmény Budapesten?",
+      "a": [
+        "Szépművészeti Múzeum",
+        "Magyar Nemzeti Galéria",
+        "Iparművészeti Múzeum",
+        "Ludwig Múzeum"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Szépművészeti Múzeum gyűjteménye az egyiptomi művészettől a 19. századig tart.",
+      "t": "múzeumok"
+    },
+    {
+      "q": "Melyik múzeum Madrid legnagyobb képtára?",
+      "a": [
+        "Prado",
+        "Reina Sofía",
+        "Thyssen-Bornemisza",
+        "Guggenheim"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Pradóban Velázquez és Goya főművei láthatók.",
+      "t": "múzeumok"
+    },
+    {
+      "q": "Melyik múzeum Szentpéterváron az egyik legnagyobb a világon?",
+      "a": [
+        "Ermitázs",
+        "Tretyakov Galéria",
+        "Puskin Múzeum",
+        "Russzkij Muzej"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Ermitázst 1764-ben alapította Nagy Katalin.",
+      "t": "múzeumok"
+    },
+    {
+      "q": "Melyik művészeti technika a „freskó”?",
+      "a": [
+        "Nedves vakolatra festés",
+        "Olajfestés vászonra",
+        "Metszet fémlemezről",
+        "Mozaik kőből"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A festék a vakolattal együtt kötődik meg.",
+      "t": "technikák"
+    },
+    {
+      "q": "Mi a mozaik?",
+      "a": [
+        "Apró kő- vagy üvegdarabokból kirakott kép",
+        "Nedves vakolatra festett kép",
+        "Fémbe karcolt rajz",
+        "Fába vájt dombormű"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A bizánci művészet emblematikus technikája.",
+      "t": "technikák"
+    },
+    {
+      "q": "Mi az akvarell?",
+      "a": [
+        "Vízzel oldható festékkel készült festmény",
+        "Olajfestmény",
+        "Szoborcsoport",
+        "Fénykép"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az akvarell átlátszó rétegeket ad, jellemzően papíron.",
+      "t": "technikák"
+    },
+    {
+      "q": "Mi a szobrászatban a „bronzöntés” lényege?",
+      "a": [
+        "Olvadt fémet formába öntenek",
+        "Kőből kivésik az alakot",
+        "Fából kifaragják",
+        "Gipszet öntenek papírra"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A leggyakoribb módszer az elveszett viasz eljárás.",
+      "t": "technikák"
+    },
+    {
+      "q": "Melyik művész készítette A gondolkodó című szobrot?",
+      "a": [
+        "Auguste Rodin",
+        "Michelangelo",
+        "Antonio Canova",
+        "Alberto Giacometti"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szobor eredetileg A pokol kapuja része volt.",
+      "t": "szobrászat"
+    },
+    {
+      "q": "Melyik művészeti stílus jellemzője a geometrikus formák és az elsődleges színek használata (Mondrian)?",
+      "a": [
+        "Neoplaszticizmus (De Stijl)",
+        "Fauvizmus",
+        "Futurizmus",
+        "Barokk"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Piet Mondrian rácsos kompozíciói a De Stijl mozgalomhoz tartoznak.",
+      "t": "20. századi művészet"
+    },
+    {
+      "q": "Melyik művészeti mozgalom hirdette a gépek, a sebesség és a modernitás kultuszát Olaszországban?",
+      "a": [
+        "Futurizmus",
+        "Szimbolizmus",
+        "Klasszicizmus",
+        "Realizmus"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A futurizmus 1909-ben, Marinetti kiáltványával indult.",
+      "t": "20. századi művészet"
+    },
+    {
+      "q": "Melyik művészeti mozgalom volt tudatosan értelmetlen és provokatív az első világháború után?",
+      "a": [
+        "Dada",
+        "Impresszionizmus",
+        "Rokokó",
+        "Manierizmus"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A dada a háború értelmetlenségére adott válasz volt.",
+      "t": "20. századi művészet"
+    },
+    {
+      "q": "Melyik iskola egyesítette a képzőművészetet, az építészetet és a tervezést 1919-től Németországban?",
+      "a": [
+        "Bauhaus",
+        "Blaue Reiter",
+        "Die Brücke",
+        "Werkbund"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Bauhaust Walter Gropius alapította Weimarban.",
+      "t": "20. századi művészet"
+    },
+    {
+      "q": "Melyik építész tervezte a barcelonai Sagrada Famíliát?",
+      "a": [
+        "Antoni Gaudí",
+        "Le Corbusier",
+        "Frank Lloyd Wright",
+        "Mies van der Rohe"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az építés 1882-ben kezdődött, a mai napig tart.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik építész alkotta a Vízeséses házat (Fallingwater)?",
+      "a": [
+        "Frank Lloyd Wright",
+        "Le Corbusier",
+        "Alvar Aalto",
+        "Louis Kahn"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A ház 1935-ben készült Pennsylvaniában.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik épület Sydney jelképe, vitorlaszerű héjszerkezetekkel?",
+      "a": [
+        "Operaház",
+        "Harbour Bridge",
+        "Town Hall",
+        "Queen Victoria Building"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Sydney-i Operaházat Jørn Utzon tervezte.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik magyar építész tervezte a Zeneakadémia szecessziós épületét?",
+      "a": [
+        "Korb Flóris és Giergl Kálmán",
+        "Lechner Ödön",
+        "Ybl Miklós",
+        "Steindl Imre"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Liszt Ferenc téri épület 1907-ben nyílt meg.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik művészeti ág foglalkozik a mozgókép esztétikájával?",
+      "a": [
+        "Filmművészet",
+        "Grafika",
+        "Iparművészet",
+        "Szobrászat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A filmet gyakran a „hetedik művészet” néven emlegetik.",
+      "t": "művészeti ágak"
+    },
+    {
+      "q": "Mit jelent a „plein air” festészet?",
+      "a": [
+        "Szabad levegőn, természetben festés",
+        "Műtermi portréfestés",
+        "Templomi falfestés",
+        "Emlékezetből festés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az impresszionisták a fény változását a helyszínen figyelték meg.",
+      "t": "technikák"
+    },
+    {
+      "q": "Melyik művészeti korszak követi közvetlenül a reneszánszot?",
+      "a": [
+        "Manierizmus, majd barokk",
+        "Gótika",
+        "Klasszicizmus",
+        "Romantika"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 16. század végén a manierizmus vezetett át a barokkba.",
+      "t": "stílusok"
+    },
+    {
+      "q": "Melyik művészeti stílus jellemzője a könnyed, játékos díszítés és a pasztellszínek a 18. században?",
+      "a": [
+        "Rokokó",
+        "Barokk",
+        "Gótika",
+        "Realizmus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rokokó a késő barokk elegáns, intim változata.",
+      "t": "stílusok"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: Southern Fuegian Railway?",
+      "a": [
+        "City of Edinburgh",
+        "Admiralteysky District",
+        "Tierra del Fuego, Antarctica and South Atlantic Islands Province",
+        "San Francisco"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Southern Fuegian Railway Tierra del Fuego, Antarctica and South Atlantic Islands Provinceban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q115044"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: Riffelalp decauville?",
+      "a": [
+        "Prága",
+        "Antwerpen",
+        "Kentron",
+        "Zermatt"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Riffelalp decauville Zermattban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q351031"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: Nilgiri Mountain Railway?",
+      "a": [
+        "Obergoms",
+        "Aberdeenshire",
+        "Tamilnádu",
+        "Novyy Afon"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Nilgiri Mountain Railway Tamilnáduban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q463735"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: Darjeeling Himalayan Railway?",
+      "a": [
+        "Oborishte District",
+        "Darjeeling district",
+        "North Charleston",
+        "Charlottenburg-Wilmersdorf"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Darjeeling Himalayan Railway Darjeeling districtban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q463874"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: Talyllyn Railway?",
+      "a": [
+        "Wierschem",
+        "Róma",
+        "Tywyn",
+        "Helsinki"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Talyllyn Railway Tywynban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q648932"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: Furka Cogwheel Steam Railway?",
+      "a": [
+        "Obergoms",
+        "Śródmieście",
+        "Ağdam",
+        "Firenze"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Furka Cogwheel Steam Railway Obergomsban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q666898"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: Alishan Forest Railway?",
+      "a": [
+        "Nagaszaki",
+        "Chiayi County",
+        "Manhattan",
+        "Engelhartstetten"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Alishan Forest Railway Chiayi Countyban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q708937"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: Ffestiniog Railway?",
+      "a": [
+        "Penzing",
+        "Nagaszaki",
+        "Porthmadog",
+        "Kentron"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Ffestiniog Railway Porthmadogban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q1410337"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: London Post Office Railway?",
+      "a": [
+        "Göteborg község",
+        "Honolulu megye",
+        "Syddjurs község",
+        "Nagy-London"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "London Post Office Railway Nagy-Londonban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q1415097"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: Mont Blanc Tramway?",
+      "a": [
+        "Saint-Gervais-les-Bains",
+        "Gratwein-Straßengel",
+        "Neuhausen-Nymphenburg",
+        "Druskininkai municipality"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mont Blanc Tramway Saint-Gervais-les-Bainsban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q1577318"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: Dán Filmintézet?",
+      "a": [
+        "Mount Pleasant",
+        "Koppenhága község",
+        "Greenwich kerület",
+        "Los Angeles"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Dán Filmintézet Koppenhága községban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q1201043"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: George Eastman House?",
+      "a": [
+        "La Salut",
+        "Porthmadog",
+        "Rochester",
+        "Sinsheim"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "George Eastman House Rochesterban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q1507284"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: Eye Filmmuseum?",
+      "a": [
+        "Amszterdam",
+        "Gdynia",
+        "Innsbruck",
+        "Beykoz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Eye Filmmuseum Amszterdamban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q1538389"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: Israeli Film Archive Jerusalem Cinematheque?",
+      "a": [
+        "Jeruzsálem",
+        "Szarajevó",
+        "Otterlo",
+        "Nagy-London"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Israeli Film Archive Jerusalem Cinematheque Jeruzsálemban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q2916137"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: RRS Discovery?",
+      "a": [
+        "San Francisco",
+        "Dundee City",
+        "Fontainebleau",
+        "München"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "RRS Discovery Dundee Cityban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q82257"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: Auróra?",
+      "a": [
+        "Csedzsu város",
+        "Oborishte District",
+        "Párizs 14. kerülete",
+        "Petrogradsky District"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Auróra Petrogradsky Districtban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q168713"
+    },
+    {
+      "q": "Melyik városban található a következő múzeum: Cutty Sark?",
+      "a": [
+        "Greenwich kerület",
+        "Höganäs Municipality",
+        "Eltville am Rhein",
+        "Camden kerület"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Cutty Sark Greenwich kerületban/ben található.",
+      "t": "múzeumok",
+      "s": "http://www.wikidata.org/entity/Q171255"
+    }
   ]
 }

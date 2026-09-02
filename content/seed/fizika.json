@@ -1,0 +1,566 @@
+{
+  "category": "fizika",
+  "default_source": null,
+  "questions": [
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: newton?",
+      "a": [
+        "sugár",
+        "hő",
+        "tömeg",
+        "erő"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "A(z) newton a(z) erő mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q12438"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: watt?",
+      "a": [
+        "Néel-hőmérséklet",
+        "teljesítmény",
+        "sound absorption",
+        "fénysűrűség"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "A(z) watt a(z) teljesítmény mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q25236"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: Celsius-fok?",
+      "a": [
+        "elektromos töltés",
+        "hatásos vezetés",
+        "Celsius-hőmérséklet",
+        "meddő ellenállás"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "A(z) Celsius-fok a(z) Celsius-hőmérséklet mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q25267"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: joule?",
+      "a": [
+        "terület",
+        "energia",
+        "térfogat",
+        "átmérő"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "A(z) joule a(z) energia mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q25269"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: köbméter?",
+      "a": [
+        "protoflux",
+        "térszög",
+        "fénysűrűség",
+        "térfogat"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "A(z) köbméter a(z) térfogat mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q25517"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: gramm?",
+      "a": [
+        "fényáram",
+        "tömeg",
+        "nyomás",
+        "erő"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "A(z) gramm a(z) tömeg mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q41803"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: ohm?",
+      "a": [
+        "current linkage",
+        "mágneses polarizáció",
+        "látszólagos ellenállás",
+        "elektromos ellenállás"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "A(z) ohm a(z) elektromos ellenállás mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q47083"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: henry?",
+      "a": [
+        "admittancia",
+        "Néel-hőmérséklet",
+        "induktivitás",
+        "denzitás"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "A(z) henry a(z) induktivitás mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q163354"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: centiméter?",
+      "a": [
+        "hosszúság",
+        "teljesítmény",
+        "térfogat",
+        "munka"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A(z) centiméter a(z) hosszúság mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q174728"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: milliméter?",
+      "a": [
+        "hosszúság",
+        "permeancia",
+        "térfogat",
+        "sebesség"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A(z) milliméter a(z) hosszúság mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q174789"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: mikrométer?",
+      "a": [
+        "szélesség",
+        "átmérő",
+        "hosszúság",
+        "gyorsulás"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "A(z) mikrométer a(z) hosszúság mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q175821"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: nanométer?",
+      "a": [
+        "térfogat",
+        "térfogatáram",
+        "munka",
+        "hosszúság"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "A(z) nanométer a(z) hosszúság mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q178674"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: lux?",
+      "a": [
+        "fordulatszám",
+        "megvilágítás",
+        "fénysűrűség",
+        "section modulus"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "A(z) lux a(z) megvilágítás mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q179836"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: pikométer?",
+      "a": [
+        "szélesség",
+        "terület",
+        "hosszúság",
+        "térfogatáram"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "A(z) pikométer a(z) hosszúság mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q192274"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: deciméter?",
+      "a": [
+        "fordulatszám",
+        "hosszúság",
+        "impedancia",
+        "sebesség"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "A(z) deciméter a(z) hosszúság mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q200323"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: femtométer?",
+      "a": [
+        "kerma",
+        "szögsebesség",
+        "sűrűség",
+        "hosszúság"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "A(z) femtométer a(z) hosszúság mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q208788"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: kandela per négyzetméter?",
+      "a": [
+        "anyagmennyiség",
+        "Young-modulus",
+        "teljesítmény",
+        "fénysűrűség"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "A(z) kandela per négyzetméter a(z) fénysűrűség mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q281096"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: lumen?",
+      "a": [
+        "térfogatáram",
+        "sűrűség",
+        "fényáram",
+        "teljesítmény"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "A(z) lumen a(z) fényáram mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q484092"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: voltamper?",
+      "a": [
+        "elektromos teljesítmény",
+        "elektromos töltés",
+        "látszólagos teljesítmény",
+        "elektromos ellenállás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A(z) voltamper a(z) elektromos teljesítmény mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q550341"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: négyzetkilométer?",
+      "a": [
+        "terület",
+        "admittancia",
+        "távolság",
+        "vastagság"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A(z) négyzetkilométer a(z) terület mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q712226"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: milliszekundum?",
+      "a": [
+        "sűrűség",
+        "pixel density",
+        "időtartam",
+        "munka"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "A(z) milliszekundum a(z) időtartam mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q723733"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: köbméter per másodperc?",
+      "a": [
+        "proper length",
+        "térfogatáram",
+        "fénysűrűség",
+        "szögtávolság"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "A(z) köbméter per másodperc a(z) térfogatáram mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q794261"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: kilométer?",
+      "a": [
+        "szögsebesség",
+        "fényáram",
+        "frekvencia",
+        "hosszúság"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "A(z) kilométer a(z) hosszúság mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q828224"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: nanoszekundum?",
+      "a": [
+        "vastagság",
+        "időtartam",
+        "hosszúság",
+        "Young-modulus"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "A(z) nanoszekundum a(z) időtartam mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q838801"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: mikroszekundum?",
+      "a": [
+        "térfogat",
+        "harmatpont",
+        "luminozitás",
+        "időtartam"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "A(z) mikroszekundum a(z) időtartam mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q842015"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: kilogramm per köbméter?",
+      "a": [
+        "impedancia",
+        "erőnyomaték",
+        "sűrűség",
+        "permeancia"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "A(z) kilogramm per köbméter a(z) sűrűség mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q844211"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: hektométer?",
+      "a": [
+        "hosszúság",
+        "teljesítmény",
+        "térszög",
+        "induktivitás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A(z) hektométer a(z) hosszúság mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q844338"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: dekaméter?",
+      "a": [
+        "terület",
+        "magasság",
+        "erőnyomaték",
+        "hosszúság"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "A(z) dekaméter a(z) hosszúság mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q848856"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: gigaméter?",
+      "a": [
+        "hosszúság",
+        "fénysűrűség",
+        "körfrekvencia",
+        "térszög"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A(z) gigaméter a(z) hosszúság mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q854546"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: köbcentiméter?",
+      "a": [
+        "energia",
+        "sebesség",
+        "lendület",
+        "térfogat"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "A(z) köbcentiméter a(z) térfogat mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q1022113"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: megaméter?",
+      "a": [
+        "kerma",
+        "Young-modulus",
+        "hosszúság",
+        "átmérő"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "A(z) megaméter a(z) hosszúság mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q1054140"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: hektogramm?",
+      "a": [
+        "tömeg",
+        "nyomás",
+        "sűrűség",
+        "hő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A(z) hektogramm a(z) tömeg mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q1057069"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: milliradián?",
+      "a": [
+        "Néel-hőmérséklet",
+        "anyagmennyiség",
+        "sebesség",
+        "szögtávolság"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "A(z) milliradián a(z) szögtávolság mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q1065153"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: kiloszekundum?",
+      "a": [
+        "frekvencia",
+        "sugár",
+        "időtartam",
+        "átmérő"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "A(z) kiloszekundum a(z) időtartam mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q1374438"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: mikrogramm?",
+      "a": [
+        "hosszúság",
+        "tömeg",
+        "vastagság",
+        "sebesség"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "A(z) mikrogramm a(z) tömeg mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q1645498"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: decigramm?",
+      "a": [
+        "energia",
+        "tömeg",
+        "szélesség",
+        "hő"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "A(z) decigramm a(z) tömeg mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q1772386"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: femtoszekundum?",
+      "a": [
+        "időtartam",
+        "fordulatszám",
+        "hosszúság",
+        "gyorsulás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A(z) femtoszekundum a(z) időtartam mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q1777507"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: zeptoszekundum?",
+      "a": [
+        "időtartam",
+        "magasság",
+        "denzitás",
+        "Young-modulus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A(z) zeptoszekundum a(z) időtartam mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q1872619"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: nanogramm?",
+      "a": [
+        "vastagság",
+        "aktivitás",
+        "tömeg",
+        "sugár"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "A(z) nanogramm a(z) tömeg mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q2282906"
+    },
+    {
+      "q": "Milyen fizikai mennyiség mértékegysége a következő: attoszekundum?",
+      "a": [
+        "lendület",
+        "frekvencia",
+        "szélesség",
+        "időtartam"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "A(z) attoszekundum a(z) időtartam mértékegysége.",
+      "t": "mértékegységek",
+      "s": "http://www.wikidata.org/entity/Q2483628"
+    }
+  ]
+}

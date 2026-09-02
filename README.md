@@ -20,7 +20,7 @@ node tools/src/serve.mjs web 5173  # helyi szerver
 
 Nyisd meg: <http://localhost:5173/>
 
-Ez **backend nélkül** fut: 1157 kérdés, offline mód, statisztika, minden
+Ez **backend nélkül** fut: 1783 kérdés, offline mód, statisztika, minden
 képernyő. Nincs `npm install` – a Node 20 beépített moduljai elegendők.
 
 ---
@@ -30,8 +30,8 @@ képernyő. Nincs `npm install` – a Node 20 beépített moduljai elegendők.
 | Rész | Állapot |
 |---|---|
 | **PWA** (`web/`) – teljes játék, offline is | ✅ böngészőben tesztelve |
-| **Kérdésbank** – **1157 kérdés, 22 kategória** | ✅ validált |
-| **Backend** (`supabase/`) – 14 migráció, RLS, 37 RPC | ✅ kész |
+| **Kérdésbank** – **1783 kérdés, 26 aktív kategória** | ✅ validált |
+| **Backend** (`supabase/`) – 15 migráció, RLS, 37 RPC | ✅ kész |
 | **Multiplayer** – kieséses, szobalista + 3 jegyű PIN, 2–5 fő | ✅ |
 | **Ranglista** – örök / havi / heti / napi | ✅ |
 | **Bejelentkezés** – vendég, Google, e-mail + jelszó | ✅ |
@@ -114,8 +114,8 @@ Részletek: [`docs/02-architektura.md`](docs/02-architektura.md) 5. pont.
 
 ```
 content/
-  categories.json         22 kategória definíciója (egy igazság)
-  seed/*.json             1157 kérdés, kategóriánként egy fájl
+  categories.json         26 kategória definíciója (egy igazság)
+  seed/*.json             1783 kérdés, kategóriánként egy fájl
 web/                      a PWA – build nélkül futó teljes játék
   index.html, styles.css, sw.js, manifest.webmanifest
   js/rules.js             pontozás + állapotgép (tesztelt)
@@ -127,7 +127,7 @@ web/                      a PWA – build nélkül futó teljes játék
   js/sound.js             szintetizált játékhangok (nincs hangfájl)
   js/screens.js           home, statisztika, ranglista, profil, beállítás, névjegy
   tests/                  node --test + böngészős integrációs teszt
-supabase/migrations/      14 migráció: séma, RLS, RPC, multiplayer, auth
+supabase/migrations/      15 migráció: séma, RLS, RPC, multiplayer, auth
 admin/                    kérdéskezelés, review, import/export (statikus)
 tools/src/                seed build/validáció, import, AI generálás,
                           Wikidata, fact-check, ikon, szerver, böngészőteszt
@@ -142,12 +142,12 @@ docs/                     terv, architektúra, API, beállítás, forrás, kutat
 
 | Mutató | Érték |
 |---|---|
-| Kérdés összesen | **1157** |
-| Kategória | 22 (8 magyar fókuszú) |
+| Kérdés összesen | **1783** |
+| Kategória | 26 aktív, 28 definiált (6 magyar fókuszú) |
 | Nehézség | 384 könnyű / 605 közepes / 168 nehéz |
 | Magyarázat aránya | 100% |
-| Helyes válasz pozíciójának szórása | 25,0% / 25,1% / 25,6% / 24,4% |
-| „A helyes a leghosszabb” | 31,5% (véletlen: 25%, hibahatár: 45%) |
+| Helyes válasz pozíciójának szórása | 24,7% / 26,9% / 24,0% / 24,4% |
+| „A helyes a leghosszabb” | 35,9% (véletlen: 25%, hibahatár: 45%) |
 
 A helyes válasz pozíciója **determinisztikus keveréssel** egyenletes: a
 `build-seed.mjs` a kérdés szövegéből vett maggal keveri a válaszokat, tehát a
@@ -160,10 +160,30 @@ Minőségi kapuk (a `validate-seed.mjs` hibával leáll, ha sérülnek):
 - a kérdés nem tartalmazza a helyes választ (kivéve a „kakukktojás” típust)
 - a helyes válasz pozíciója 15–35% között minden pozíción
 - minden MVP-kategóriában legalább 50 kérdés
+- egy témacsoport nem foglalhatja el a kategória több mint 30%-át (különben a
+  játék egyhangú: a `film-sorozat` egyszer 66%-ban „Ki rendezte a…?” volt)
 
 ```bash
 node tools/src/validate-seed.mjs
 ```
+
+### Bank bővítése
+
+```bash
+node tools/src/generate-from-wikidata.mjs --all --limit 150   --out content/generated/wd.json          # CC0, sablonalapú, nem hallucinál
+node tools/src/merge-generated.mjs content/generated/wd.json --cap 300 --dry-run
+node tools/src/merge-generated.mjs content/generated/wd.json --cap 300
+node tools/src/validate-seed.mjs && node tools/src/build-seed.mjs
+```
+
+A generátor négy minőségi szűrőt alkalmaz (ismertség, magyar címke,
+válasz-ismertség, válaszkiegyensúlyozás) – ezek nélkül a nyers Wikidata-tartalom
+technikailag helyes, de játszhatatlan. Részletek és a mért számok:
+[`docs/04-kerdesforrasok.md`](docs/04-kerdesforrasok.md).
+
+A `merge-generated.mjs` csendben eldob mindent, ami már bent van (normalizált
+szöveg vagy válaszhalmaz egyezése) vagy nem megy át a szerkezeti szabályokon –
+így egyetlen ütköző kérdés nem buktatja meg a köteget.
 
 ---
 
@@ -171,7 +191,7 @@ node tools/src/validate-seed.mjs
 
 ```bash
 node --test web/tests/rules.test.mjs   # 30 teszt: pontozás, kerék, állapotgép
-node tools/src/browser-test.mjs        # 120 ellenőrzés valódi böngészőben
+node tools/src/browser-test.mjs        # 127 ellenőrzés valódi böngészőben
 node tools/src/db-test.mjs             # 117 ellenőrzés igazi PostgreSQL-en
 node tools/src/validate-seed.mjs       # kérdésbank minőségi kapui
 ```

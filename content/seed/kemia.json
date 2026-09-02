@@ -1,0 +1,566 @@
+{
+  "category": "kemia",
+  "default_source": null,
+  "questions": [
+    {
+      "q": "Mi a következő kémiai elem vegyjele: unbiunium?",
+      "a": [
+        "Tm",
+        "Uto",
+        "Ubu",
+        "Cl"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "unbiunium vegyjele: Ubu.",
+      "t": "vegyjelek",
+      "s": "http://www.wikidata.org/entity/Q1466"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: fluor?",
+      "a": [
+        "Clemens Winkler",
+        "Jöns Jakob Berzelius",
+        "André-Marie Ampère",
+        "Friedrich Wöhler"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "fluor felfedezője André-Marie Ampère.",
+      "t": "elemek felfedezői",
+      "s": "http://www.wikidata.org/entity/Q650"
+    },
+    {
+      "q": "Melyik elemcsoportba tartozik a következő elem: hidrogén?",
+      "a": [
+        "allergén",
+        "s-mező",
+        "gyógyszer",
+        "nemesgázok"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "hidrogén elemcsoportja: s-mező.",
+      "t": "periódusos rendszer",
+      "s": "http://www.wikidata.org/entity/Q556"
+    },
+    {
+      "q": "Mi a következő kémiai elem vegyjele: lantán?",
+      "a": [
+        "Po",
+        "Yb",
+        "La",
+        "H"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "lantán vegyjele: La.",
+      "t": "vegyjelek",
+      "s": "http://www.wikidata.org/entity/Q1801"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: plutónium?",
+      "a": [
+        "Friedrich Ernst Dorn",
+        "Marc Delafontaine",
+        "Bernard Courtois",
+        "Edwin M. McMillan"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "plutónium felfedezője Edwin M. McMillan.",
+      "t": "elemek felfedezői",
+      "s": "http://www.wikidata.org/entity/Q1102"
+    },
+    {
+      "q": "Melyik elemcsoportba tartozik a következő elem: hélium?",
+      "a": [
+        "s-mező",
+        "nemfém",
+        "félfémek",
+        "aktinoidák"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "hélium elemcsoportja: nemfém.",
+      "t": "periódusos rendszer",
+      "s": "http://www.wikidata.org/entity/Q560"
+    },
+    {
+      "q": "Mi a következő kémiai elem vegyjele: prométium?",
+      "a": [
+        "Pm",
+        "Sm",
+        "H",
+        "Lv"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "prométium vegyjele: Pm.",
+      "t": "vegyjelek",
+      "s": "http://www.wikidata.org/entity/Q1809"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: neptúnium?",
+      "a": [
+        "Hans Christian Ørsted",
+        "Norman Lockyer",
+        "Friedrich Wöhler",
+        "Edwin M. McMillan"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "neptúnium felfedezője Edwin M. McMillan.",
+      "t": "elemek felfedezői",
+      "s": "http://www.wikidata.org/entity/Q1105"
+    },
+    {
+      "q": "Melyik elemcsoportba tartozik a következő elem: lítium?",
+      "a": [
+        "allergén",
+        "redukálószer",
+        "alkálifémek",
+        "oxidálószer"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "lítium elemcsoportja: alkálifémek.",
+      "t": "periódusos rendszer",
+      "s": "http://www.wikidata.org/entity/Q568"
+    },
+    {
+      "q": "Mi a következő kémiai elem vegyjele: szamárium?",
+      "a": [
+        "Eu",
+        "Ubu",
+        "Sm",
+        "Be"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "szamárium vegyjele: Sm.",
+      "t": "vegyjelek",
+      "s": "http://www.wikidata.org/entity/Q1819"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: polónium?",
+      "a": [
+        "Pierre Curie",
+        "Henri Moissan",
+        "Ferdinand Reich",
+        "Dirk Coster"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "polónium felfedezője Pierre Curie.",
+      "t": "elemek felfedezői",
+      "s": "http://www.wikidata.org/entity/Q979"
+    },
+    {
+      "q": "Melyik elemcsoportba tartozik a következő elem: berillium?",
+      "a": [
+        "flammable solid",
+        "fém",
+        "nemfém",
+        "ritkaföldfémek"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "berillium elemcsoportja: fém.",
+      "t": "periódusos rendszer",
+      "s": "http://www.wikidata.org/entity/Q569"
+    },
+    {
+      "q": "Mi a következő kémiai elem vegyjele: gadolínium?",
+      "a": [
+        "H",
+        "At",
+        "Zn",
+        "Gd"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "gadolínium vegyjele: Gd.",
+      "t": "vegyjelek",
+      "s": "http://www.wikidata.org/entity/Q1832"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: szén?",
+      "a": [
+        "Antoine Lavoisier",
+        "Marc Delafontaine",
+        "Daniel Rutherford",
+        "Axel Fredrik Cronstedt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "szén felfedezője Antoine Lavoisier.",
+      "t": "elemek felfedezői",
+      "s": "http://www.wikidata.org/entity/Q623"
+    },
+    {
+      "q": "Melyik elemcsoportba tartozik a következő elem: szén?",
+      "a": [
+        "platinacsoport",
+        "polyatomic nonmetal",
+        "superactinide",
+        "3. periódusbeli elem"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "szén elemcsoportja: polyatomic nonmetal.",
+      "t": "periódusos rendszer",
+      "s": "http://www.wikidata.org/entity/Q623"
+    },
+    {
+      "q": "Mi a következő kémiai elem vegyjele: terbium?",
+      "a": [
+        "Ubo",
+        "Tb",
+        "Po",
+        "O"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "terbium vegyjele: Tb.",
+      "t": "vegyjelek",
+      "s": "http://www.wikidata.org/entity/Q1838"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: kén?",
+      "a": [
+        "Hans Christian Ørsted",
+        "Marc Delafontaine",
+        "Arthur Wahl",
+        "Antoine Lavoisier"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "kén felfedezője Antoine Lavoisier.",
+      "t": "elemek felfedezői",
+      "s": "http://www.wikidata.org/entity/Q682"
+    },
+    {
+      "q": "Melyik elemcsoportba tartozik a következő elem: nitrogén?",
+      "a": [
+        "5. periódusbeli elem",
+        "oxidálószer",
+        "kétatomos nemfém",
+        "oxigéncsoport"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "nitrogén elemcsoportja: kétatomos nemfém.",
+      "t": "periódusos rendszer",
+      "s": "http://www.wikidata.org/entity/Q627"
+    },
+    {
+      "q": "Mi a következő kémiai elem vegyjele: diszprózium?",
+      "a": [
+        "Ubu",
+        "Dy",
+        "Pu",
+        "Sc"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "diszprózium vegyjele: Dy.",
+      "t": "vegyjelek",
+      "s": "http://www.wikidata.org/entity/Q1843"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: alumínium?",
+      "a": [
+        "Ferdinand Reich",
+        "Hans Christian Ørsted",
+        "Jacques-Louis Soret",
+        "William Hyde Wollaston"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "alumínium felfedezője Hans Christian Ørsted.",
+      "t": "elemek felfedezői",
+      "s": "http://www.wikidata.org/entity/Q663"
+    },
+    {
+      "q": "Melyik elemcsoportba tartozik a következő elem: oxigén?",
+      "a": [
+        "redukálószer",
+        "superactinide",
+        "flammable solid",
+        "oxigéncsoport"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "oxigén elemcsoportja: oxigéncsoport.",
+      "t": "periódusos rendszer",
+      "s": "http://www.wikidata.org/entity/Q629"
+    },
+    {
+      "q": "Mi a következő kémiai elem vegyjele: holmium?",
+      "a": [
+        "Ubu",
+        "Al",
+        "Ca",
+        "Ho"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "holmium vegyjele: Ho.",
+      "t": "vegyjelek",
+      "s": "http://www.wikidata.org/entity/Q1846"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: protaktínium?",
+      "a": [
+        "Clemens Winkler",
+        "Otto Hahn",
+        "Pierre Curie",
+        "Lise Meitner"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "protaktínium felfedezője Lise Meitner.",
+      "t": "elemek felfedezői",
+      "s": "http://www.wikidata.org/entity/Q1109"
+    },
+    {
+      "q": "Melyik elemcsoportba tartozik a következő elem: fluor?",
+      "a": [
+        "nemesfém",
+        "építőanyag",
+        "nemfém",
+        "fém"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "fluor elemcsoportja: nemfém.",
+      "t": "periódusos rendszer",
+      "s": "http://www.wikidata.org/entity/Q650"
+    },
+    {
+      "q": "Mi a következő kémiai elem vegyjele: erbium?",
+      "a": [
+        "Er",
+        "Ubu",
+        "Hf",
+        "Si"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "erbium vegyjele: Er.",
+      "t": "vegyjelek",
+      "s": "http://www.wikidata.org/entity/Q1849"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: berillium?",
+      "a": [
+        "Antonio de Ulloa",
+        "Friedrich Wöhler",
+        "Albertus Magnus",
+        "Edwin M. McMillan"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "berillium felfedezője Friedrich Wöhler.",
+      "t": "elemek felfedezői",
+      "s": "http://www.wikidata.org/entity/Q569"
+    },
+    {
+      "q": "Melyik elemcsoportba tartozik a következő elem: neon?",
+      "a": [
+        "nemesgázok",
+        "halogének",
+        "superactinide",
+        "vegyi anyag"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "neon elemcsoportja: nemesgázok.",
+      "t": "periódusos rendszer",
+      "s": "http://www.wikidata.org/entity/Q654"
+    },
+    {
+      "q": "Mi a következő kémiai elem vegyjele: túlium?",
+      "a": [
+        "Ti",
+        "Tm",
+        "Ga",
+        "Ubu"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "túlium vegyjele: Tm.",
+      "t": "vegyjelek",
+      "s": "http://www.wikidata.org/entity/Q1853"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: titán?",
+      "a": [
+        "Friedrich Wöhler",
+        "Antoine Lavoisier",
+        "Bernard Courtois",
+        "Philip Abelson"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "titán felfedezője Friedrich Wöhler.",
+      "t": "elemek felfedezői",
+      "s": "http://www.wikidata.org/entity/Q716"
+    },
+    {
+      "q": "Melyik elemcsoportba tartozik a következő elem: nátrium?",
+      "a": [
+        "vegyi anyag",
+        "oxidálószer",
+        "nemesgázok",
+        "alkálifémek"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "nátrium elemcsoportja: alkálifémek.",
+      "t": "periódusos rendszer",
+      "s": "http://www.wikidata.org/entity/Q658"
+    },
+    {
+      "q": "Mi a következő kémiai elem vegyjele: itterbium?",
+      "a": [
+        "Ta",
+        "Cm",
+        "Ubu",
+        "Yb"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "itterbium vegyjele: Yb.",
+      "t": "vegyjelek",
+      "s": "http://www.wikidata.org/entity/Q1855"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: ittrium?",
+      "a": [
+        "Friedrich Wöhler",
+        "Glenn T. Seaborg",
+        "Anton Eduard van Arkel",
+        "Walter Noddack"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "ittrium felfedezője Friedrich Wöhler.",
+      "t": "elemek felfedezői",
+      "s": "http://www.wikidata.org/entity/Q941"
+    },
+    {
+      "q": "Melyik elemcsoportba tartozik a következő elem: magnézium?",
+      "a": [
+        "alkáliföldfémek",
+        "oxidálószer",
+        "ritkaföldfémek",
+        "aktinoidák"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "magnézium elemcsoportja: alkáliföldfémek.",
+      "t": "periódusos rendszer",
+      "s": "http://www.wikidata.org/entity/Q660"
+    },
+    {
+      "q": "Mi a következő kémiai elem vegyjele: lutécium?",
+      "a": [
+        "Lu",
+        "Ubn",
+        "Lr",
+        "Rf"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "lutécium vegyjele: Lu.",
+      "t": "vegyjelek",
+      "s": "http://www.wikidata.org/entity/Q1857"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: rubídium?",
+      "a": [
+        "Albert Ghiorso",
+        "Gustav Robert Kirchhoff",
+        "Louis Nicolas Vauquelin",
+        "Fausto Elhuyar"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "rubídium felfedezője Gustav Robert Kirchhoff.",
+      "t": "elemek felfedezői",
+      "s": "http://www.wikidata.org/entity/Q895"
+    },
+    {
+      "q": "Melyik elemcsoportba tartozik a következő elem: alumínium?",
+      "a": [
+        "lantanoidák",
+        "fém",
+        "simple substance",
+        "gyógyszer"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "alumínium elemcsoportja: fém.",
+      "t": "periódusos rendszer",
+      "s": "http://www.wikidata.org/entity/Q663"
+    },
+    {
+      "q": "Mi a következő kémiai elem vegyjele: amerícium?",
+      "a": [
+        "Ubp",
+        "Ts",
+        "Mc",
+        "Am"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "amerícium vegyjele: Am.",
+      "t": "vegyjelek",
+      "s": "http://www.wikidata.org/entity/Q1872"
+    },
+    {
+      "q": "Ki fedezte fel a következő kémiai elemet: cézium?",
+      "a": [
+        "Axel Fredrik Cronstedt",
+        "Gustav Robert Kirchhoff",
+        "Lars Fredrik Nilson",
+        "Martin Heinrich Klaproth"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "cézium felfedezője Gustav Robert Kirchhoff.",
+      "t": "elemek felfedezői",
+      "s": "http://www.wikidata.org/entity/Q1108"
+    },
+    {
+      "q": "Melyik elemcsoportba tartozik a következő elem: szilícium?",
+      "a": [
+        "transzurán elemek",
+        "combustible powder",
+        "polyatomic nonmetal",
+        "vegyi anyag"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "szilícium elemcsoportja: combustible powder.",
+      "t": "periódusos rendszer",
+      "s": "http://www.wikidata.org/entity/Q670"
+    },
+    {
+      "q": "Melyik elemcsoportba tartozik a következő elem: francium?",
+      "a": [
+        "alkálifémek",
+        "másodfajú fémek",
+        "nemesfém",
+        "flammable solid"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "francium elemcsoportja: alkálifémek.",
+      "t": "periódusos rendszer",
+      "s": "http://www.wikidata.org/entity/Q671"
+    }
+  ]
+}

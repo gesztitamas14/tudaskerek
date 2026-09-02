@@ -13,7 +13,7 @@ pontszám ne legyen hamisítható.
 
 | Tábla | Mit tárol | Kliens hozzáférés |
 |---|---|---|
-| `categories` | 22 kategória (név, ikon, szín, sorrend) | olvasás (RLS: aktív) |
+| `categories` | 26 kategória (név, ikon, szín, sorrend) | olvasás (RLS: aktív) |
 | `questions` | a kérdésbank, **helyes válasszal** | **nincs** – csak moderátor |
 | `question_stats` | válaszszám, találati arány, átlagos idő, bejelentések | nincs |
 | `question_packs` | monetizáció-előkészítés (`NULL` pack = ingyenes) | olvasás |

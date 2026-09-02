@@ -2,60 +2,1560 @@
   "category": "foldrajz",
   "default_source": "saját szerkesztés (általános műveltségi tananyag)",
   "questions": [
-    {"q": "Melyik a világ leghosszabb folyója?", "a": ["Nílus", "Amazonas", "Jangce", "Mississippi"], "c": 0, "d": "medium", "e": "A Nílus hossza kb. 6650 km; az Amazonas vízhozama viszont a legnagyobb.", "t": "folyók"},
-    {"q": "Melyik folyó vízhozama a legnagyobb a Földön?", "a": ["Amazonas", "Nílus", "Kongó", "Jangce"], "c": 0, "d": "medium", "e": "Az Amazonas a világ összes folyóvízhozamának mintegy ötödét adja.", "t": "folyók"},
-    {"q": "Melyik a Föld legmagasabb hegycsúcsa?", "a": ["Csomolungma (Everest)", "K2", "Kilimandzsáró", "Aconcagua"], "c": 0, "d": "easy", "e": "A Csomolungma 8849 méter magas a Himalájában.", "t": "hegyek"},
-    {"q": "Melyik földrész a legnagyobb területű?", "a": ["Ázsia", "Afrika", "Észak-Amerika", "Antarktisz"], "c": 0, "d": "easy", "e": "Ázsia területe kb. 44 millió km².", "t": "kontinensek"},
-    {"q": "Melyik a legnagyobb óceán?", "a": ["Csendes-óceán", "Atlanti-óceán", "Indiai-óceán", "Jeges-tenger"], "c": 0, "d": "easy", "e": "A Csendes-óceán a Föld felszínének kb. egyharmadát borítja.", "t": "óceánok"},
-    {"q": "Melyik a Föld legnagyobb szigete?", "a": ["Grönland", "Új-Guinea", "Borneó", "Madagaszkár"], "c": 0, "d": "easy", "e": "Grönland területe kb. 2,17 millió km².", "t": "szigetek"},
-    {"q": "Melyik a világ legnagyobb sivataga?", "a": ["Antarktisz (hideg sivatag)", "Szahara", "Góbi", "Kalahári"], "c": 0, "d": "hard", "e": "Csapadék szempontjából az Antarktisz a legnagyobb sivatag; a meleg sivatagok közül a Szahara.", "t": "sivatagok"},
-    {"q": "Melyik a legnagyobb meleg sivatag?", "a": ["Szahara", "Góbi", "Kalahári", "Atacama"], "c": 0, "d": "easy", "e": "A Szahara Afrika északi részén kb. 9 millió km².", "t": "sivatagok"},
-    {"q": "Melyik a Föld legmélyebb pontja az óceánokban?", "a": ["Mariana-árok", "Puerto Rico-árok", "Tonga-árok", "Java-árok"], "c": 0, "d": "medium", "e": "A Mariana-árok Challenger-mélye kb. 10 900 méter.", "t": "óceánok"},
-    {"q": "Melyik a legnagyobb területű tó a Földön?", "a": ["Kaszpi-tenger", "Felső-tó", "Viktória-tó", "Bajkál-tó"], "c": 0, "d": "medium", "e": "A Kaszpi-tenger sós vizű, de zárt tó, területe kb. 371 000 km².", "t": "tavak"},
-    {"q": "Melyik a Föld legmélyebb tava?", "a": ["Bajkál-tó", "Tanganyika-tó", "Kaszpi-tenger", "Nagy Medve-tó"], "c": 0, "d": "medium", "e": "A Bajkál-tó mélysége meghaladja az 1600 métert.", "t": "tavak"},
-    {"q": "Melyik ország fővárosa Canberra?", "a": ["Ausztrália", "Új-Zéland", "Kanada", "Dél-Afrika"], "c": 0, "d": "medium", "e": "Canberrát azért választották, hogy Sydney és Melbourne vitáját feloldják.", "t": "fővárosok"},
-    {"q": "Melyik ország fővárosa Ottawa?", "a": ["Kanada", "Ausztrália", "Új-Zéland", "Írország"], "c": 0, "d": "easy", "e": "Ottawa Ontario tartományban van, a Rideau-csatorna mellett.", "t": "fővárosok"},
-    {"q": "Melyik ország fővárosa Brasília?", "a": ["Brazília", "Argentína", "Peru", "Kolumbia"], "c": 0, "d": "easy", "e": "Brasília 1960 óta a főváros, Rio de Janeiro helyett.", "t": "fővárosok"},
-    {"q": "Melyik ország fővárosa Wellington?", "a": ["Új-Zéland", "Ausztrália", "Fidzsi", "Pápua Új-Guinea"], "c": 0, "d": "medium", "e": "Wellington az Északi-sziget déli csúcsán fekszik.", "t": "fővárosok"},
-    {"q": "Melyik ország fővárosa Ankara?", "a": ["Törökország", "Görögország", "Örményország", "Grúzia"], "c": 0, "d": "easy", "e": "Ankara 1923 óta Törökország fővárosa Isztambul helyett.", "t": "fővárosok"},
-    {"q": "Melyik ország fővárosa Bern?", "a": ["Svájc", "Ausztria", "Belgium", "Liechtenstein"], "c": 0, "d": "medium", "e": "Bern Svájc szövetségi városa, azaz gyakorlatilag a főváros.", "t": "fővárosok"},
-    {"q": "Melyik ország fővárosa Hanoi?", "a": ["Vietnám", "Thaiföld", "Kambodzsa", "Laosz"], "c": 0, "d": "medium", "e": "Hanoi Vietnám északi részén fekszik, a Vörös-folyó mellett.", "t": "fővárosok"},
-    {"q": "Melyik ország fővárosa Nairobi?", "a": ["Kenya", "Tanzánia", "Uganda", "Etiópia"], "c": 0, "d": "medium", "e": "Nairobi Kelet-Afrika egyik legnagyobb városa.", "t": "fővárosok"},
-    {"q": "Melyik ország fővárosa Lima?", "a": ["Peru", "Chile", "Bolívia", "Ecuador"], "c": 0, "d": "medium", "e": "Limát 1535-ben alapította Francisco Pizarro.", "t": "fővárosok"},
-    {"q": "Melyik a világ legkisebb önálló állama?", "a": ["Vatikán", "Monaco", "San Marino", "Nauru"], "c": 0, "d": "easy", "e": "A Vatikán területe mindössze 0,44 km².", "t": "államok"},
-    {"q": "Melyik ország területe a legnagyobb a Földön?", "a": ["Oroszország", "Kanada", "Kína", "Egyesült Államok"], "c": 0, "d": "easy", "e": "Oroszország területe kb. 17,1 millió km².", "t": "államok"},
-    {"q": "Melyik országnak van a legtöbb lakosa napjainkban?", "a": ["India", "Kína", "Egyesült Államok", "Indonézia"], "c": 0, "d": "medium", "e": "India 2023-ban lépte túl Kína népességét.", "t": "államok"},
-    {"q": "Melyik hegység választja el Európát Ázsiától keleten?", "a": ["Urál", "Kaukázus", "Alpok", "Kárpátok"], "c": 0, "d": "medium", "e": "Az Urál hegység a hagyományos kontinenshatár.", "t": "hegyek"},
-    {"q": "Melyik hegység a leghosszabb szárazföldi hegylánc?", "a": ["Andok", "Himalája", "Sziklás-hegység", "Alpok"], "c": 0, "d": "medium", "e": "Az Andok kb. 7000 km hosszan nyúlik el Dél-Amerika nyugati partja mentén.", "t": "hegyek"},
-    {"q": "Melyik szoros választja el Európát Afrikától?", "a": ["Gibraltári-szoros", "Boszporusz", "Doveri-szoros", "Messinai-szoros"], "c": 0, "d": "medium", "e": "A Gibraltári-szoros legszűkebb pontja kb. 14 km.", "t": "tengerek"},
-    {"q": "Melyik csatorna kapcsolja össze a Földközi-tengert a Vörös-tengerrel?", "a": ["Szuezi-csatorna", "Panama-csatorna", "Kieli-csatorna", "Korinthoszi-csatorna"], "c": 0, "d": "easy", "e": "A Szuezi-csatorna 1869-ben nyílt meg.", "t": "vízi utak"},
-    {"q": "Melyik csatorna köti össze az Atlanti- és a Csendes-óceánt?", "a": ["Panama-csatorna", "Szuezi-csatorna", "Kieli-csatorna", "Volga–Don-csatorna"], "c": 0, "d": "easy", "e": "A Panama-csatorna 1914-ben nyílt meg.", "t": "vízi utak"},
-    {"q": "Melyik a világ legnagyobb vízesése vízhozam szerint?", "a": ["Boyoma-vízesés", "Niagara", "Viktória-vízesés", "Angel-vízesés"], "c": 0, "d": "hard", "e": "A Kongó folyón lévő Boyoma-zuhatag vízhozama a legnagyobb.", "t": "vízesések"},
-    {"q": "Melyik a világ legnagyobb szabadesésű vízesése?", "a": ["Angel-vízesés", "Niagara", "Viktória-vízesés", "Iguazú"], "c": 0, "d": "medium", "e": "A venezuelai Angel-vízesés kb. 979 méter magas.", "t": "vízesések"},
-    {"q": "Melyik ország területén fekszik a Nagy-korallzátony?", "a": ["Ausztrália", "Indonézia", "Fülöp-szigetek", "Mexikó"], "c": 0, "d": "easy", "e": "A Nagy-korallzátony Queensland partjai mentén 2300 km hosszú.", "t": "természet"},
-    {"q": "Melyik földrészen található az Amazonas-esőerdő legnagyobb része?", "a": ["Dél-Amerika", "Afrika", "Ázsia", "Ausztrália"], "c": 0, "d": "easy", "e": "Az esőerdő kb. 60%-a Brazíliában van.", "t": "természet"},
-    {"q": "Melyik a Föld leghidegebb lakott térsége, ahol rendszeresen –50 °C alá süllyed a hőmérséklet?", "a": ["Kelet-Szibéria", "Grönland belseje", "Alaszka déli partja", "Patagónia"], "c": 0, "d": "medium", "e": "Ojmjakon és Verhojanszk a leghidegebb lakott települések közé tartozik.", "t": "éghajlat"},
-    {"q": "Milyen éghajlat jellemzi az Egyenlítő környékét?", "a": ["Trópusi esős", "Mediterrán", "Kontinentális", "Sarkvidéki"], "c": 0, "d": "easy", "e": "Az egyenlítői övben egész évben csapadékos, meleg éghajlat van.", "t": "éghajlat"},
-    {"q": "Mi a monszun?", "a": ["Évszakosan irányt váltó szél", "Trópusi vihar neve", "Óceáni áramlat", "Sarki jelenség"], "c": 0, "d": "medium", "e": "A monszun a szárazföld és a tenger felmelegedésének különbségéből ered.", "t": "éghajlat"},
-    {"q": "Hogyan nevezik a Csendes-óceán térségében kialakuló forgószeleket?", "a": ["Tájfun", "Hurrikán", "Tornádó", "Ciklon"], "c": 0, "d": "medium", "e": "Az Atlanti-óceánon hurrikán, a Csendes-óceán nyugati részén tájfun a neve.", "t": "időjárás"},
-    {"q": "Melyik óceáni áramlat melegíti Nyugat-Európa partjait?", "a": ["Golf-áramlat", "Humboldt-áramlat", "Labrador-áramlat", "Benguela-áramlat"], "c": 0, "d": "medium", "e": "A Golf-áramlat miatt Skandinávia partjai télen sem fagynak be teljesen.", "t": "óceánok"},
-    {"q": "Melyik ország nem az Európai Unió tagja?", "a": ["Norvégia", "Finnország", "Portugália", "Litvánia"], "c": 0, "d": "medium", "e": "Norvégia két népszavazáson is elvetette a csatlakozást.", "t": "Európa"},
-    {"q": "Melyik ország fővárosa Ljubljana?", "a": ["Szlovénia", "Szlovákia", "Horvátország", "Bosznia-Hercegovina"], "c": 0, "d": "medium", "e": "Ljubljana Szlovénia fővárosa és legnagyobb városa.", "t": "Európa"},
-    {"q": "Melyik ország fővárosa Bratislava (Pozsony)?", "a": ["Szlovákia", "Szlovénia", "Csehország", "Ausztria"], "c": 0, "d": "easy", "e": "Pozsony a Duna mellett, a magyar határ közelében fekszik.", "t": "Európa"},
-    {"q": "Melyik a leghosszabb folyó Európában?", "a": ["Volga", "Duna", "Rajna", "Dnyeper"], "c": 0, "d": "medium", "e": "A Volga kb. 3530 km hosszú, teljes egészében Oroszországban.", "t": "Európa"},
-    {"q": "Hány országon folyik át a Duna?", "a": ["Tízen", "Négyen", "Hét országon", "Tizenkettőn"], "c": 0, "d": "hard", "e": "A Duna tíz országot érint, ezzel a világ legtöbb országot érintő folyója.", "t": "Európa"},
-    {"q": "Melyik tenger a legsósabb a felsoroltak közül?", "a": ["Holt-tenger", "Balti-tenger", "Fekete-tenger", "Északi-tenger"], "c": 0, "d": "easy", "e": "A Holt-tenger sótartalma kb. 30%, sokszorosa az óceáni átlagnak.", "t": "tengerek"},
-    {"q": "Melyik ország területén van a Kilimandzsáró?", "a": ["Tanzánia", "Kenya", "Uganda", "Etiópia"], "c": 0, "d": "medium", "e": "A Kilimandzsáró 5895 méteres, Afrika legmagasabb pontja.", "t": "hegyek"},
-    {"q": "Melyik Afrika legnagyobb tava?", "a": ["Viktória-tó", "Tanganyika-tó", "Csád-tó", "Malawi-tó"], "c": 0, "d": "medium", "e": "A Viktória-tó területe kb. 68 800 km².", "t": "tavak"},
-    {"q": "Melyik a legnagyobb félsziget a Földön?", "a": ["Arab-félsziget", "Indiai-félsziget", "Skandináv-félsziget", "Labrador-félsziget"], "c": 0, "d": "hard", "e": "Az Arab-félsziget területe kb. 3,2 millió km².", "t": "földrajz"},
-    {"q": "Melyik két ország között húzódik a leghosszabb szárazföldi határ?", "a": ["Kanada és az Egyesült Államok", "Oroszország és Kína", "Argentína és Chile", "India és Kína"], "c": 0, "d": "medium", "e": "A kanadai–amerikai határ kb. 8890 km hosszú.", "t": "államok"},
-    {"q": "Melyik város fekszik két kontinensen?", "a": ["Isztambul", "Kairó", "Moszkva", "Jeruzsálem"], "c": 0, "d": "medium", "e": "A Boszporusz kettéválasztja Isztambul európai és ázsiai részét.", "t": "városok"},
-    {"q": "Melyik a világ legnépesebb városa agglomerációval együtt?", "a": ["Tokió", "Sanghaj", "Delhi", "New York"], "c": 0, "d": "medium", "e": "A tokiói agglomeráció népessége meghaladja a 37 milliót.", "t": "városok"},
-    {"q": "Melyik ország szigetország a Csendes-óceánban, négy nagy szigettel?", "a": ["Japán", "Fülöp-szigetek", "Indonézia", "Új-Zéland"], "c": 0, "d": "medium", "e": "Japán négy fő szigete: Honshu, Hokkaido, Kyushu és Shikoku.", "t": "Ázsia"},
-    {"q": "Melyik ország a legtöbb szigetből álló szigetország?", "a": ["Indonézia", "Japán", "Fülöp-szigetek", "Görögország"], "c": 0, "d": "hard", "e": "Indonézia több mint 17 000 szigetből áll.", "t": "Ázsia"},
-    {"q": "Melyik földrajzi vonal jelöli a 0 fokos hosszúságot?", "a": ["Greenwichi kezdő meridián", "Egyenlítő", "Ráktérítő", "Baktérítő"], "c": 0, "d": "medium", "e": "A kezdő meridián a londoni Greenwichen halad át.", "t": "földrajz"},
-    {"q": "Mi az Egyenlítő szélességi foka?", "a": ["0 fok", "23,5 fok", "45 fok", "90 fok"], "c": 0, "d": "easy", "e": "Az Egyenlítő a 0 fokos szélességi kör.", "t": "földrajz"},
-    {"q": "Melyik jelenség okozza a nappalok és éjszakák váltakozását?", "a": ["A Föld tengely körüli forgása", "A Föld Nap körüli keringése", "A Hold vonzása", "A tengelyferdeség"], "c": 0, "d": "easy", "e": "A napi forgás kb. 24 óra alatt fordul egyet.", "t": "földrajz"},
-    {"q": "Mi okozza az évszakok váltakozását?", "a": ["A Föld tengelyének ferdesége", "A Naptól való távolság változása", "A Hold keringése", "Az óceáni áramlatok"], "c": 0, "d": "medium", "e": "A 23,5 fokos tengelyferdeség miatt változik a napsugárzás beesési szöge.", "t": "földrajz"}
+    {
+      "q": "Melyik a világ leghosszabb folyója?",
+      "a": [
+        "Nílus",
+        "Amazonas",
+        "Jangce",
+        "Mississippi"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nílus hossza kb. 6650 km; az Amazonas vízhozama viszont a legnagyobb.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik folyó vízhozama a legnagyobb a Földön?",
+      "a": [
+        "Amazonas",
+        "Nílus",
+        "Kongó",
+        "Jangce"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Amazonas a világ összes folyóvízhozamának mintegy ötödét adja.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik a Föld legmagasabb hegycsúcsa?",
+      "a": [
+        "Csomolungma (Everest)",
+        "K2",
+        "Kilimandzsáró",
+        "Aconcagua"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Csomolungma 8849 méter magas a Himalájában.",
+      "t": "hegyek"
+    },
+    {
+      "q": "Melyik földrész a legnagyobb területű?",
+      "a": [
+        "Ázsia",
+        "Afrika",
+        "Észak-Amerika",
+        "Antarktisz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ázsia területe kb. 44 millió km².",
+      "t": "kontinensek"
+    },
+    {
+      "q": "Melyik a legnagyobb óceán?",
+      "a": [
+        "Csendes-óceán",
+        "Atlanti-óceán",
+        "Indiai-óceán",
+        "Jeges-tenger"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Csendes-óceán a Föld felszínének kb. egyharmadát borítja.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Melyik a Föld legnagyobb szigete?",
+      "a": [
+        "Grönland",
+        "Új-Guinea",
+        "Borneó",
+        "Madagaszkár"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Grönland területe kb. 2,17 millió km².",
+      "t": "szigetek"
+    },
+    {
+      "q": "Melyik a világ legnagyobb sivataga?",
+      "a": [
+        "Antarktisz (hideg sivatag)",
+        "Szahara",
+        "Góbi",
+        "Kalahári"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Csapadék szempontjából az Antarktisz a legnagyobb sivatag; a meleg sivatagok közül a Szahara.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Melyik a legnagyobb meleg sivatag?",
+      "a": [
+        "Szahara",
+        "Góbi",
+        "Kalahári",
+        "Atacama"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Szahara Afrika északi részén kb. 9 millió km².",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Melyik a Föld legmélyebb pontja az óceánokban?",
+      "a": [
+        "Mariana-árok",
+        "Puerto Rico-árok",
+        "Tonga-árok",
+        "Java-árok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Mariana-árok Challenger-mélye kb. 10 900 méter.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Melyik a legnagyobb területű tó a Földön?",
+      "a": [
+        "Kaszpi-tenger",
+        "Felső-tó",
+        "Viktória-tó",
+        "Bajkál-tó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kaszpi-tenger sós vizű, de zárt tó, területe kb. 371 000 km².",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik a Föld legmélyebb tava?",
+      "a": [
+        "Bajkál-tó",
+        "Tanganyika-tó",
+        "Kaszpi-tenger",
+        "Nagy Medve-tó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Bajkál-tó mélysége meghaladja az 1600 métert.",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik ország fővárosa Canberra?",
+      "a": [
+        "Ausztrália",
+        "Új-Zéland",
+        "Kanada",
+        "Dél-Afrika"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Canberrát azért választották, hogy Sydney és Melbourne vitáját feloldják.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik ország fővárosa Ottawa?",
+      "a": [
+        "Kanada",
+        "Ausztrália",
+        "Új-Zéland",
+        "Írország"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ottawa Ontario tartományban van, a Rideau-csatorna mellett.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik ország fővárosa Brasília?",
+      "a": [
+        "Brazília",
+        "Argentína",
+        "Peru",
+        "Kolumbia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Brasília 1960 óta a főváros, Rio de Janeiro helyett.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik ország fővárosa Wellington?",
+      "a": [
+        "Új-Zéland",
+        "Ausztrália",
+        "Fidzsi",
+        "Pápua Új-Guinea"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Wellington az Északi-sziget déli csúcsán fekszik.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik ország fővárosa Ankara?",
+      "a": [
+        "Törökország",
+        "Görögország",
+        "Örményország",
+        "Grúzia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ankara 1923 óta Törökország fővárosa Isztambul helyett.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik ország fővárosa Bern?",
+      "a": [
+        "Svájc",
+        "Ausztria",
+        "Belgium",
+        "Liechtenstein"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bern Svájc szövetségi városa, azaz gyakorlatilag a főváros.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik ország fővárosa Hanoi?",
+      "a": [
+        "Vietnám",
+        "Thaiföld",
+        "Kambodzsa",
+        "Laosz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hanoi Vietnám északi részén fekszik, a Vörös-folyó mellett.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik ország fővárosa Nairobi?",
+      "a": [
+        "Kenya",
+        "Tanzánia",
+        "Uganda",
+        "Etiópia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nairobi Kelet-Afrika egyik legnagyobb városa.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik ország fővárosa Lima?",
+      "a": [
+        "Peru",
+        "Chile",
+        "Bolívia",
+        "Ecuador"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Limát 1535-ben alapította Francisco Pizarro.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik a világ legkisebb önálló állama?",
+      "a": [
+        "Vatikán",
+        "Monaco",
+        "San Marino",
+        "Nauru"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Vatikán területe mindössze 0,44 km².",
+      "t": "államok"
+    },
+    {
+      "q": "Melyik ország területe a legnagyobb a Földön?",
+      "a": [
+        "Oroszország",
+        "Kanada",
+        "Kína",
+        "Egyesült Államok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Oroszország területe kb. 17,1 millió km².",
+      "t": "államok"
+    },
+    {
+      "q": "Melyik országnak van a legtöbb lakosa napjainkban?",
+      "a": [
+        "India",
+        "Kína",
+        "Egyesült Államok",
+        "Indonézia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "India 2023-ban lépte túl Kína népességét.",
+      "t": "államok"
+    },
+    {
+      "q": "Melyik hegység választja el Európát Ázsiától keleten?",
+      "a": [
+        "Urál",
+        "Kaukázus",
+        "Alpok",
+        "Kárpátok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Urál hegység a hagyományos kontinenshatár.",
+      "t": "hegyek"
+    },
+    {
+      "q": "Melyik hegység a leghosszabb szárazföldi hegylánc?",
+      "a": [
+        "Andok",
+        "Himalája",
+        "Sziklás-hegység",
+        "Alpok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Andok kb. 7000 km hosszan nyúlik el Dél-Amerika nyugati partja mentén.",
+      "t": "hegyek"
+    },
+    {
+      "q": "Melyik szoros választja el Európát Afrikától?",
+      "a": [
+        "Gibraltári-szoros",
+        "Boszporusz",
+        "Doveri-szoros",
+        "Messinai-szoros"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Gibraltári-szoros legszűkebb pontja kb. 14 km.",
+      "t": "tengerek"
+    },
+    {
+      "q": "Melyik csatorna kapcsolja össze a Földközi-tengert a Vörös-tengerrel?",
+      "a": [
+        "Szuezi-csatorna",
+        "Panama-csatorna",
+        "Kieli-csatorna",
+        "Korinthoszi-csatorna"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Szuezi-csatorna 1869-ben nyílt meg.",
+      "t": "vízi utak"
+    },
+    {
+      "q": "Melyik csatorna köti össze az Atlanti- és a Csendes-óceánt?",
+      "a": [
+        "Panama-csatorna",
+        "Szuezi-csatorna",
+        "Kieli-csatorna",
+        "Volga–Don-csatorna"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Panama-csatorna 1914-ben nyílt meg.",
+      "t": "vízi utak"
+    },
+    {
+      "q": "Melyik a világ legnagyobb vízesése vízhozam szerint?",
+      "a": [
+        "Boyoma-vízesés",
+        "Niagara",
+        "Viktória-vízesés",
+        "Angel-vízesés"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Kongó folyón lévő Boyoma-zuhatag vízhozama a legnagyobb.",
+      "t": "vízesések"
+    },
+    {
+      "q": "Melyik a világ legnagyobb szabadesésű vízesése?",
+      "a": [
+        "Angel-vízesés",
+        "Niagara",
+        "Viktória-vízesés",
+        "Iguazú"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A venezuelai Angel-vízesés kb. 979 méter magas.",
+      "t": "vízesések"
+    },
+    {
+      "q": "Melyik ország területén fekszik a Nagy-korallzátony?",
+      "a": [
+        "Ausztrália",
+        "Indonézia",
+        "Fülöp-szigetek",
+        "Mexikó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Nagy-korallzátony Queensland partjai mentén 2300 km hosszú.",
+      "t": "természet"
+    },
+    {
+      "q": "Melyik földrészen található az Amazonas-esőerdő legnagyobb része?",
+      "a": [
+        "Dél-Amerika",
+        "Afrika",
+        "Ázsia",
+        "Ausztrália"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az esőerdő kb. 60%-a Brazíliában van.",
+      "t": "természet"
+    },
+    {
+      "q": "Melyik a Föld leghidegebb lakott térsége, ahol rendszeresen –50 °C alá süllyed a hőmérséklet?",
+      "a": [
+        "Kelet-Szibéria",
+        "Grönland belseje",
+        "Alaszka déli partja",
+        "Patagónia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ojmjakon és Verhojanszk a leghidegebb lakott települések közé tartozik.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Milyen éghajlat jellemzi az Egyenlítő környékét?",
+      "a": [
+        "Trópusi esős",
+        "Mediterrán",
+        "Kontinentális",
+        "Sarkvidéki"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az egyenlítői övben egész évben csapadékos, meleg éghajlat van.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Mi a monszun?",
+      "a": [
+        "Évszakosan irányt váltó szél",
+        "Trópusi vihar neve",
+        "Óceáni áramlat",
+        "Sarki jelenség"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A monszun a szárazföld és a tenger felmelegedésének különbségéből ered.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Hogyan nevezik a Csendes-óceán térségében kialakuló forgószeleket?",
+      "a": [
+        "Tájfun",
+        "Hurrikán",
+        "Tornádó",
+        "Ciklon"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Atlanti-óceánon hurrikán, a Csendes-óceán nyugati részén tájfun a neve.",
+      "t": "időjárás"
+    },
+    {
+      "q": "Melyik óceáni áramlat melegíti Nyugat-Európa partjait?",
+      "a": [
+        "Golf-áramlat",
+        "Humboldt-áramlat",
+        "Labrador-áramlat",
+        "Benguela-áramlat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Golf-áramlat miatt Skandinávia partjai télen sem fagynak be teljesen.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Melyik ország nem az Európai Unió tagja?",
+      "a": [
+        "Norvégia",
+        "Finnország",
+        "Portugália",
+        "Litvánia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Norvégia két népszavazáson is elvetette a csatlakozást.",
+      "t": "Európa"
+    },
+    {
+      "q": "Melyik ország fővárosa Ljubljana?",
+      "a": [
+        "Szlovénia",
+        "Szlovákia",
+        "Horvátország",
+        "Bosznia-Hercegovina"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ljubljana Szlovénia fővárosa és legnagyobb városa.",
+      "t": "Európa"
+    },
+    {
+      "q": "Melyik ország fővárosa Bratislava (Pozsony)?",
+      "a": [
+        "Szlovákia",
+        "Szlovénia",
+        "Csehország",
+        "Ausztria"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Pozsony a Duna mellett, a magyar határ közelében fekszik.",
+      "t": "Európa"
+    },
+    {
+      "q": "Melyik a leghosszabb folyó Európában?",
+      "a": [
+        "Volga",
+        "Duna",
+        "Rajna",
+        "Dnyeper"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Volga kb. 3530 km hosszú, teljes egészében Oroszországban.",
+      "t": "Európa"
+    },
+    {
+      "q": "Hány országon folyik át a Duna?",
+      "a": [
+        "Tízen",
+        "Négyen",
+        "Hét országon",
+        "Tizenkettőn"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Duna tíz országot érint, ezzel a világ legtöbb országot érintő folyója.",
+      "t": "Európa"
+    },
+    {
+      "q": "Melyik tenger a legsósabb a felsoroltak közül?",
+      "a": [
+        "Holt-tenger",
+        "Balti-tenger",
+        "Fekete-tenger",
+        "Északi-tenger"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Holt-tenger sótartalma kb. 30%, sokszorosa az óceáni átlagnak.",
+      "t": "tengerek"
+    },
+    {
+      "q": "Melyik ország területén van a Kilimandzsáró?",
+      "a": [
+        "Tanzánia",
+        "Kenya",
+        "Uganda",
+        "Etiópia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kilimandzsáró 5895 méteres, Afrika legmagasabb pontja.",
+      "t": "hegyek"
+    },
+    {
+      "q": "Melyik Afrika legnagyobb tava?",
+      "a": [
+        "Viktória-tó",
+        "Tanganyika-tó",
+        "Csád-tó",
+        "Malawi-tó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Viktória-tó területe kb. 68 800 km².",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik a legnagyobb félsziget a Földön?",
+      "a": [
+        "Arab-félsziget",
+        "Indiai-félsziget",
+        "Skandináv-félsziget",
+        "Labrador-félsziget"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Arab-félsziget területe kb. 3,2 millió km².",
+      "t": "földrajz"
+    },
+    {
+      "q": "Melyik két ország között húzódik a leghosszabb szárazföldi határ?",
+      "a": [
+        "Kanada és az Egyesült Államok",
+        "Oroszország és Kína",
+        "Argentína és Chile",
+        "India és Kína"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kanadai–amerikai határ kb. 8890 km hosszú.",
+      "t": "államok"
+    },
+    {
+      "q": "Melyik város fekszik két kontinensen?",
+      "a": [
+        "Isztambul",
+        "Kairó",
+        "Moszkva",
+        "Jeruzsálem"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Boszporusz kettéválasztja Isztambul európai és ázsiai részét.",
+      "t": "városok"
+    },
+    {
+      "q": "Melyik a világ legnépesebb városa agglomerációval együtt?",
+      "a": [
+        "Tokió",
+        "Sanghaj",
+        "Delhi",
+        "New York"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tokiói agglomeráció népessége meghaladja a 37 milliót.",
+      "t": "városok"
+    },
+    {
+      "q": "Melyik ország szigetország a Csendes-óceánban, négy nagy szigettel?",
+      "a": [
+        "Japán",
+        "Fülöp-szigetek",
+        "Indonézia",
+        "Új-Zéland"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Japán négy fő szigete: Honshu, Hokkaido, Kyushu és Shikoku.",
+      "t": "Ázsia"
+    },
+    {
+      "q": "Melyik ország a legtöbb szigetből álló szigetország?",
+      "a": [
+        "Indonézia",
+        "Japán",
+        "Fülöp-szigetek",
+        "Görögország"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Indonézia több mint 17 000 szigetből áll.",
+      "t": "Ázsia"
+    },
+    {
+      "q": "Melyik földrajzi vonal jelöli a 0 fokos hosszúságot?",
+      "a": [
+        "Greenwichi kezdő meridián",
+        "Egyenlítő",
+        "Ráktérítő",
+        "Baktérítő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kezdő meridián a londoni Greenwichen halad át.",
+      "t": "földrajz"
+    },
+    {
+      "q": "Mi az Egyenlítő szélességi foka?",
+      "a": [
+        "0 fok",
+        "23,5 fok",
+        "45 fok",
+        "90 fok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Egyenlítő a 0 fokos szélességi kör.",
+      "t": "földrajz"
+    },
+    {
+      "q": "Melyik jelenség okozza a nappalok és éjszakák váltakozását?",
+      "a": [
+        "A Föld tengely körüli forgása",
+        "A Föld Nap körüli keringése",
+        "A Hold vonzása",
+        "A tengelyferdeség"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A napi forgás kb. 24 óra alatt fordul egyet.",
+      "t": "földrajz"
+    },
+    {
+      "q": "Mi okozza az évszakok váltakozását?",
+      "a": [
+        "A Föld tengelyének ferdesége",
+        "A Naptól való távolság változása",
+        "A Hold keringése",
+        "Az óceáni áramlatok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 23,5 fokos tengelyferdeség miatt változik a napsugárzás beesési szöge.",
+      "t": "földrajz"
+    },
+    {
+      "q": "Mi Kanada hivatalos fizetőeszköze?",
+      "a": [
+        "kazah tenge",
+        "amerikai dollár",
+        "jordán dinár",
+        "kanadai dollár"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Kanada pénzneme a(z) kanadai dollár.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q16"
+    },
+    {
+      "q": "Melyik földrészen található Kanada?",
+      "a": [
+        "Ázsia",
+        "Eurázsia",
+        "Észak-Amerika",
+        "Ausztrália és Óceánia"
+      ],
+      "c": 2,
+      "d": "easy",
+      "e": "Kanada Észak-Amerika területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q16"
+    },
+    {
+      "q": "Mi Japán hivatalos fizetőeszköze?",
+      "a": [
+        "japán jen",
+        "orosz rubel",
+        "moldován lej",
+        "iráni riál"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Japán pénzneme a(z) japán jen.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q17"
+    },
+    {
+      "q": "Melyik földrészen található Japán?",
+      "a": [
+        "Európa",
+        "Óceánia",
+        "Eurázsia",
+        "Ázsia"
+      ],
+      "c": 3,
+      "d": "easy",
+      "e": "Japán Ázsia területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q17"
+    },
+    {
+      "q": "Mi Norvégia hivatalos fizetőeszköze?",
+      "a": [
+        "kanadai dollár",
+        "magyar forint",
+        "uruguayi peso",
+        "norvég korona"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Norvégia pénzneme a(z) norvég korona.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q20"
+    },
+    {
+      "q": "Mi Írország hivatalos fizetőeszköze?",
+      "a": [
+        "SOV",
+        "bitcoin",
+        "thai bát",
+        "euró"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Írország pénzneme a(z) euró.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q27"
+    },
+    {
+      "q": "Mi Magyarország hivatalos fizetőeszköze?",
+      "a": [
+        "magyar forint",
+        "karibi forint",
+        "mauritiusi rúpia",
+        "szudáni font"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Magyarország pénzneme a(z) magyar forint.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q28"
+    },
+    {
+      "q": "Melyik földrészen található Magyarország?",
+      "a": [
+        "Ázsia",
+        "Afrika",
+        "Óceánia",
+        "Európa"
+      ],
+      "c": 3,
+      "d": "easy",
+      "e": "Magyarország Európa területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q28"
+    },
+    {
+      "q": "Mi Amerikai Egyesült Államok hivatalos fizetőeszköze?",
+      "a": [
+        "vietnámi đồng",
+        "amerikai dollár",
+        "ukrán hrivnya",
+        "seychelle-i rúpia"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Amerikai Egyesült Államok pénzneme a(z) amerikai dollár.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q30"
+    },
+    {
+      "q": "Melyik földrészen található Amerikai Egyesült Államok?",
+      "a": [
+        "Ausztrália és Óceánia",
+        "Afrika",
+        "Óceánia",
+        "Észak-Amerika"
+      ],
+      "c": 3,
+      "d": "easy",
+      "e": "Amerikai Egyesült Államok Észak-Amerika területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q30"
+    },
+    {
+      "q": "Melyik földrészen található Finnország?",
+      "a": [
+        "Afrika",
+        "Eurázsia",
+        "Európa",
+        "Ázsia"
+      ],
+      "c": 2,
+      "d": "easy",
+      "e": "Finnország Európa területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q33"
+    },
+    {
+      "q": "Mi Svédország hivatalos fizetőeszköze?",
+      "a": [
+        "katari riál",
+        "török líra",
+        "maldív rúfia",
+        "svéd korona"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Svédország pénzneme a(z) svéd korona.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q34"
+    },
+    {
+      "q": "Mi Lengyelország hivatalos fizetőeszköze?",
+      "a": [
+        "pakisztáni rúpia",
+        "lengyel złoty",
+        "etióp birr",
+        "indonéz rúpia"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Lengyelország pénzneme a(z) lengyel złoty.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q36"
+    },
+    {
+      "q": "Melyik földrészen található Litvánia?",
+      "a": [
+        "Európa",
+        "Afrika",
+        "Óceánia",
+        "Eurázsia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Litvánia Európa területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q37"
+    },
+    {
+      "q": "Mi Svájc hivatalos fizetőeszköze?",
+      "a": [
+        "svéd korona",
+        "moldován lej",
+        "svájci frank",
+        "maldív rúfia"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Svájc pénzneme a(z) svájci frank.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q39"
+    },
+    {
+      "q": "Mi Törökország hivatalos fizetőeszköze?",
+      "a": [
+        "burundi frank",
+        "svájci frank",
+        "török líra",
+        "malawi kwacha"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Törökország pénzneme a(z) török líra.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "q": "Melyik földrészen található Uruguay?",
+      "a": [
+        "Óceánia",
+        "Észak-Amerika",
+        "Dél-Amerika",
+        "Eurázsia"
+      ],
+      "c": 2,
+      "d": "easy",
+      "e": "Uruguay Dél-Amerika területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q77"
+    },
+    {
+      "q": "Mi Uruguay hivatalos fizetőeszköze?",
+      "a": [
+        "kiribati dollár",
+        "uruguayi peso",
+        "Costa Rica-i colón",
+        "angolai kwanza"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Uruguay pénzneme a(z) uruguayi peso.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q77"
+    },
+    {
+      "q": "Mi Egyiptom hivatalos fizetőeszköze?",
+      "a": [
+        "zambiai kwacha",
+        "egyiptomi font",
+        "amerikai dollár",
+        "botswanai pula"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Egyiptom pénzneme a(z) egyiptomi font.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q79"
+    },
+    {
+      "q": "Melyik földrészen található Mexikó?",
+      "a": [
+        "Észak-Amerika",
+        "Afrika",
+        "Óceánia",
+        "Európa"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Mexikó Észak-Amerika területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q96"
+    },
+    {
+      "q": "Mi Mexikó hivatalos fizetőeszköze?",
+      "a": [
+        "mexikói peso",
+        "gambiai dalasi",
+        "jordán dinár",
+        "svéd korona"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mexikó pénzneme a(z) mexikói peso.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q96"
+    },
+    {
+      "q": "Mi Kenya hivatalos fizetőeszköze?",
+      "a": [
+        "dzsibuti frank",
+        "tuvalui dollár",
+        "kenyai shilling",
+        "nicaraguai córdoba"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Kenya pénzneme a(z) kenyai shilling.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q114"
+    },
+    {
+      "q": "Mi Etiópia hivatalos fizetőeszköze?",
+      "a": [
+        "etióp birr",
+        "albán lek",
+        "türkmén manat",
+        "iraki dinár"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Etiópia pénzneme a(z) etióp birr.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q115"
+    },
+    {
+      "q": "Mi Ghána hivatalos fizetőeszköze?",
+      "a": [
+        "ghánai cedi",
+        "jordán dinár",
+        "román lej",
+        "japán jen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ghána pénzneme a(z) ghánai cedi.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q117"
+    },
+    {
+      "q": "Melyik földrészen található Kína?",
+      "a": [
+        "Afrika",
+        "Ázsia",
+        "Óceánia",
+        "Eurázsia"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "Kína Ázsia területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q148"
+    },
+    {
+      "q": "Mi Egyesült Királyság hivatalos fizetőeszköze?",
+      "a": [
+        "burundi frank",
+        "új-zélandi dollár",
+        "font sterling",
+        "kazah tenge"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Egyesült Királyság pénzneme a(z) font sterling.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q145"
+    },
+    {
+      "q": "Mi Kína hivatalos fizetőeszköze?",
+      "a": [
+        "kínai jüan",
+        "etióp birr",
+        "japán jen",
+        "örmény dram"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kína pénzneme a(z) kínai jüan.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q148"
+    },
+    {
+      "q": "Mi Brazília hivatalos fizetőeszköze?",
+      "a": [
+        "tongai paʻanga",
+        "svéd korona",
+        "szír font",
+        "brazil real"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Brazília pénzneme a(z) brazil real.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q155"
+    },
+    {
+      "q": "Mi Oroszország hivatalos fizetőeszköze?",
+      "a": [
+        "orosz rubel",
+        "moldován lej",
+        "belize-i dollár",
+        "etióp birr"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Oroszország pénzneme a(z) orosz rubel.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q159"
+    },
+    {
+      "q": "Melyik földrészen található Belize?",
+      "a": [
+        "Ausztrália és Óceánia",
+        "Dél-Amerika",
+        "Európa",
+        "Észak-Amerika"
+      ],
+      "c": 3,
+      "d": "easy",
+      "e": "Belize Észak-Amerika területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q242"
+    },
+    {
+      "q": "Mi Fehéroroszország hivatalos fizetőeszköze?",
+      "a": [
+        "bahamai dollár",
+        "belarusz rubel",
+        "üzbég szom",
+        "Korean mun"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Fehéroroszország pénzneme a(z) belarusz rubel.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q184"
+    },
+    {
+      "q": "Mi Izland hivatalos fizetőeszköze?",
+      "a": [
+        "dél-afrikai rand",
+        "burundi frank",
+        "izlandi korona",
+        "kambodzsai riel"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Izland pénzneme a(z) izlandi korona.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q189"
+    },
+    {
+      "q": "Mi Ukrajna hivatalos fizetőeszköze?",
+      "a": [
+        "svéd korona",
+        "svájci frank",
+        "panamai balboa",
+        "ukrán hrivnya"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Ukrajna pénzneme a(z) ukrán hrivnya.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q212"
+    },
+    {
+      "q": "Mi Csehország hivatalos fizetőeszköze?",
+      "a": [
+        "uruguayi peso",
+        "dzsibuti frank",
+        "kiribati dollár",
+        "cseh korona"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Csehország pénzneme a(z) cseh korona.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q213"
+    },
+    {
+      "q": "Mi Moldova hivatalos fizetőeszköze?",
+      "a": [
+        "vietnámi đồng",
+        "moldován lej",
+        "botswanai pula",
+        "perui új sol"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Moldova pénzneme a(z) moldován lej.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q217"
+    },
+    {
+      "q": "Mi Románia hivatalos fizetőeszköze?",
+      "a": [
+        "román lej",
+        "Zimbabwe ZiG",
+        "vietnámi đồng",
+        "thai bát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Románia pénzneme a(z) román lej.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q218"
+    },
+    {
+      "q": "Mi Észak-Macedónia hivatalos fizetőeszköze?",
+      "a": [
+        "svájci frank",
+        "macedón dénár",
+        "arubai florin",
+        "fidzsi dollár"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Észak-Macedónia pénzneme a(z) macedón dénár.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q221"
+    },
+    {
+      "q": "Melyik földrészen található Ausztrália?",
+      "a": [
+        "Európa",
+        "Ausztrália és Óceánia",
+        "Afrika",
+        "Óceánia"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "Ausztrália Ausztrália és Óceánia területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q408"
+    },
+    {
+      "q": "Mi Albánia hivatalos fizetőeszköze?",
+      "a": [
+        "mongol tugrik",
+        "albán lek",
+        "japán jen",
+        "malawi kwacha"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Albánia pénzneme a(z) albán lek.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q222"
+    },
+    {
+      "q": "Mi Bosznia-Hercegovina hivatalos fizetőeszköze?",
+      "a": [
+        "bosnyák konvertibilis márka",
+        "Salamon-szigeteki dollár",
+        "madagaszkári ariary",
+        "Bosnia and Herzegovina dinar"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bosznia-Hercegovina pénzneme a(z) bosnyák konvertibilis márka.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q225"
+    },
+    {
+      "q": "Mi Azerbajdzsán hivatalos fizetőeszköze?",
+      "a": [
+        "botswanai pula",
+        "líbiai dinár",
+        "török líra",
+        "azeri manat"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Azerbajdzsán pénzneme a(z) azeri manat.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q227"
+    },
+    {
+      "q": "Mi Grúzia hivatalos fizetőeszköze?",
+      "a": [
+        "karibi forint",
+        "thai bát",
+        "laoszi kip",
+        "grúz lari"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Grúzia pénzneme a(z) grúz lari.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q230"
+    },
+    {
+      "q": "Mi Kazahsztán hivatalos fizetőeszköze?",
+      "a": [
+        "kazah tenge",
+        "mexikói peso",
+        "tunéziai dinár",
+        "török líra"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kazahsztán pénzneme a(z) kazah tenge.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q232"
+    },
+    {
+      "q": "Mi Kuba hivatalos fizetőeszköze?",
+      "a": [
+        "kubai peso",
+        "japán jen",
+        "font sterling",
+        "belarusz rubel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kuba pénzneme a(z) kubai peso.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q241"
+    },
+    {
+      "q": "Mi Belize hivatalos fizetőeszköze?",
+      "a": [
+        "mianmari kjap",
+        "madagaszkári ariary",
+        "comore-i frank",
+        "belize-i dollár"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Belize pénzneme a(z) belize-i dollár.",
+      "t": "valuták",
+      "s": "http://www.wikidata.org/entity/Q242"
+    },
+    {
+      "q": "Melyik földrészen található Új-Zéland?",
+      "a": [
+        "Ausztrália és Óceánia",
+        "Eurázsia",
+        "Óceánia",
+        "Afrika"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Új-Zéland Ausztrália és Óceánia területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q664"
+    },
+    {
+      "q": "Melyik földrészen található Tuvalu?",
+      "a": [
+        "Afrika",
+        "Dél-Amerika",
+        "Európa",
+        "Óceánia"
+      ],
+      "c": 3,
+      "d": "easy",
+      "e": "Tuvalu Óceánia területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q672"
+    },
+    {
+      "q": "Melyik földrészen található Tonga?",
+      "a": [
+        "Ausztrália és Óceánia",
+        "Afrika",
+        "Európa",
+        "Észak-Amerika"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Tonga Ausztrália és Óceánia területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q678"
+    },
+    {
+      "q": "Melyik földrészen található Szamoa?",
+      "a": [
+        "Európa",
+        "Ausztrália és Óceánia",
+        "Eurázsia",
+        "Óceánia"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "Szamoa Ausztrália és Óceánia területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q683"
+    },
+    {
+      "q": "Melyik földrészen található Pápua Új-Guinea?",
+      "a": [
+        "Eurázsia",
+        "Dél-Amerika",
+        "Ausztrália és Óceánia",
+        "Óceánia"
+      ],
+      "c": 2,
+      "d": "easy",
+      "e": "Pápua Új-Guinea Ausztrália és Óceánia területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q691"
+    },
+    {
+      "q": "Melyik földrészen található Nauru?",
+      "a": [
+        "Óceánia",
+        "Észak-Amerika",
+        "Dél-Amerika",
+        "Ausztrália és Óceánia"
+      ],
+      "c": 3,
+      "d": "easy",
+      "e": "Nauru Ausztrália és Óceánia területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q697"
+    },
+    {
+      "q": "Melyik földrészen található Mikronéziai Szövetségi Államok?",
+      "a": [
+        "Európa",
+        "Ázsia",
+        "Észak-Amerika",
+        "Ausztrália és Óceánia"
+      ],
+      "c": 3,
+      "d": "easy",
+      "e": "Mikronéziai Szövetségi Államok Ausztrália és Óceánia területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q702"
+    },
+    {
+      "q": "Melyik földrészen található Fidzsi-szigetek?",
+      "a": [
+        "Óceánia",
+        "Európa",
+        "Ázsia",
+        "Dél-Amerika"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Fidzsi-szigetek Óceánia területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q712"
+    },
+    {
+      "q": "Melyik földrészen található Saint Vincent és a Grenadine-szigetek?",
+      "a": [
+        "Eurázsia",
+        "Európa",
+        "Ausztrália és Óceánia",
+        "Észak-Amerika"
+      ],
+      "c": 3,
+      "d": "easy",
+      "e": "Saint Vincent és a Grenadine-szigetek Észak-Amerika területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q757"
+    },
+    {
+      "q": "Melyik földrészen található Saint Lucia?",
+      "a": [
+        "Ázsia",
+        "Afrika",
+        "Európa",
+        "Észak-Amerika"
+      ],
+      "c": 3,
+      "d": "easy",
+      "e": "Saint Lucia Észak-Amerika területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q760"
+    },
+    {
+      "q": "Melyik földrészen található Jamaica?",
+      "a": [
+        "Észak-Amerika",
+        "Ausztrália és Óceánia",
+        "Afrika",
+        "Eurázsia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Jamaica Észak-Amerika területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q766"
+    },
+    {
+      "q": "Melyik földrészen található Grenada?",
+      "a": [
+        "Dél-Amerika",
+        "Ázsia",
+        "Észak-Amerika",
+        "Óceánia"
+      ],
+      "c": 2,
+      "d": "easy",
+      "e": "Grenada Észak-Amerika területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q769"
+    },
+    {
+      "q": "Melyik földrészen található Guatemala?",
+      "a": [
+        "Európa",
+        "Óceánia",
+        "Észak-Amerika",
+        "Ausztrália és Óceánia"
+      ],
+      "c": 2,
+      "d": "easy",
+      "e": "Guatemala Észak-Amerika területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q774"
+    },
+    {
+      "q": "Melyik földrészen található Bahama-szigetek?",
+      "a": [
+        "Afrika",
+        "Ausztrália és Óceánia",
+        "Észak-Amerika",
+        "Dél-Amerika"
+      ],
+      "c": 2,
+      "d": "easy",
+      "e": "Bahama-szigetek Észak-Amerika területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q778"
+    },
+    {
+      "q": "Melyik földrészen található Antigua és Barbuda?",
+      "a": [
+        "Óceánia",
+        "Ázsia",
+        "Észak-Amerika",
+        "Ausztrália és Óceánia"
+      ],
+      "c": 2,
+      "d": "easy",
+      "e": "Antigua és Barbuda Észak-Amerika területén helyezkedik el.",
+      "t": "kontinensek",
+      "s": "http://www.wikidata.org/entity/Q781"
+    }
   ]
 }

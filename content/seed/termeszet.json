@@ -2,51 +2,869 @@
   "category": "termeszet",
   "default_source": "saját szerkesztés (általános műveltségi tananyag)",
   "questions": [
-    {"q": "Melyik gáz szükséges a növények fotoszintéziséhez?", "a": ["Szén-dioxid", "Oxigén", "Nitrogén", "Hélium"], "c": 0, "d": "easy", "e": "A növény szén-dioxidot és vizet használ, oxigént fejleszt.", "t": "növények"},
-    {"q": "Melyik növényi rész végzi a víz felszívását?", "a": ["Gyökér", "Levél", "Virág", "Termés"], "c": 0, "d": "easy", "e": "A gyökérszőrök nagy felületet biztosítanak a felszívásra.", "t": "növények"},
-    {"q": "Mi adja a levelek zöld színét?", "a": ["Klorofill", "Karotin", "Antocián", "Xantofill"], "c": 0, "d": "easy", "e": "A klorofill nyeli el a fény energiáját.", "t": "növények"},
-    {"q": "Miért sárgulnak és vörösödnek a levelek ősszel?", "a": ["A klorofill lebomlik, más színanyagok láthatóvá válnak", "Új festékanyag termelődik", "A levelek megfagynak", "A napfény színe változik"], "c": 0, "d": "medium", "e": "A karotinoidok egész évben ott vannak, csak a zöld elnyomja őket.", "t": "növények"},
-    {"q": "Melyik fa levele tűlevél?", "a": ["Erdeifenyő", "Tölgy", "Bükk", "Hárs"], "c": 0, "d": "easy", "e": "A tűlevelű fák örökzöldek (a vörösfenyő kivételével).", "t": "növények"},
-    {"q": "Melyik fafajta terméke a tobozok?", "a": ["Tűlevelűek", "Lombos fák", "Pálmák", "Cserjék"], "c": 0, "d": "easy", "e": "A toboz a nyitvatermők jellegzetes szaporító szerve.", "t": "növények"},
-    {"q": "Melyik fa termése a makk?", "a": ["Tölgy", "Fenyő", "Nyír", "Fűz"], "c": 0, "d": "easy", "e": "A bükk termése a bükköcske, a tölgyé a makk.", "t": "növények"},
-    {"q": "Melyik magyar erdőtípus a leggyakoribb az ország alacsonyabb hegyvidékein?", "a": ["Tölgyes", "Trópusi esőerdő", "Tajga", "Mangrove"], "c": 0, "d": "medium", "e": "A cseres-kocsánytalan tölgyes a hazai hegylábak jellemző erdeje.", "t": "növények"},
-    {"q": "Melyik növény Magyarország egyik jellegzetes pusztai fűféléje?", "a": ["Árvalányhaj", "Bambusz", "Kaktusz", "Papirusz"], "c": 0, "d": "medium", "e": "Az árvalányhaj a homokpuszták és sziklafüves lejtők jellemző növénye.", "t": "növények"},
-    {"q": "Melyik virág a magyar népköltészet és népművészet gyakori motívuma?", "a": ["Tulipán", "Orchidea", "Lótusz", "Kamélia"], "c": 0, "d": "easy", "e": "A tulipánmotívum a magyar népi díszítőművészet alapeleme.", "t": "növények"},
-    {"q": "Mi a fotoszintézis mellékterméke, amit az élővilág belélegzik?", "a": ["Oxigén", "Szén-dioxid", "Metán", "Ammónia"], "c": 0, "d": "easy", "e": "A növények oxigént bocsátanak ki a folyamat során.", "t": "ökológia"},
-    {"q": "Mi a tápláléklánc első szintje?", "a": ["Termelők (növények)", "Ragadozók", "Lebontók", "Fogyasztók"], "c": 0, "d": "medium", "e": "A növények a napenergiát szerves anyagba építik be.", "t": "ökológia"},
-    {"q": "Mi a lebontók szerepe az ökoszisztémában?", "a": ["Az elhalt szerves anyagot ásványi anyagokra bontják", "Fotoszintetizálnak", "Ragadozók", "Beporzók"], "c": 0, "d": "medium", "e": "A gombák és baktériumok zárják be az anyagkörforgást.", "t": "ökológia"},
-    {"q": "Mi a biodiverzitás?", "a": ["Az élővilág sokfélesége", "Az élőlények száma egy fajban", "A talaj termőképessége", "A levegő páratartalma"], "c": 0, "d": "medium", "e": "A biodiverzitás genetikai, faji és ökoszisztéma-szinten is értelmezhető.", "t": "ökológia"},
-    {"q": "Mit jelent az „invazív faj” kifejezés?", "a": ["Idegen faj, amely károsítja a helyi élővilágot", "Kihalás közelében lévő faj", "Őshonos ragadozó", "Beporzó rovar"], "c": 0, "d": "medium", "e": "Például a bálványfa vagy a selyemkóró Magyarországon.", "t": "ökológia"},
-    {"q": "Melyik magyar védett terület kategóriája a legmagasabb szintű?", "a": ["Nemzeti park", "Tájvédelmi körzet", "Természetvédelmi terület", "Helyi védettség"], "c": 0, "d": "medium", "e": "Magyarországon tíz nemzeti park működik.", "t": "természetvédelem"},
-    {"q": "Hány nemzeti park működik Magyarországon?", "a": ["10", "5", "12", "8"], "c": 0, "d": "medium", "e": "Az elsőt 1973-ban, a Hortobágyot hozták létre.", "t": "természetvédelem"},
-    {"q": "Mi a ramsari terület?", "a": ["Nemzetközileg jelentős vizes élőhely", "Vadászterület", "Erdőgazdasági egység", "Sziklamászó terület"], "c": 0, "d": "hard", "e": "A ramsari egyezmény a vizes élőhelyek védelméről szól.", "t": "természetvédelem"},
-    {"q": "Mit jelent a „fokozottan védett” minősítés?", "a": ["A legszigorúbban védett fajok kategóriája", "Vadászható faj", "Betelepített faj", "Termesztett faj"], "c": 0, "d": "medium", "e": "A fokozottan védett fajok természetvédelmi értéke a legnagyobb.", "t": "természetvédelem"},
-    {"q": "Melyik jelenség okozza az üvegházhatást?", "a": ["Bizonyos gázok visszatartják a hősugárzást", "A napfény erősödik", "A Föld közelebb kerül a Naphoz", "Az óceánok kiszáradnak"], "c": 0, "d": "medium", "e": "A szén-dioxid, a metán és a vízgőz a legfontosabb üvegházgázok.", "t": "éghajlat"},
-    {"q": "Melyik gáz a legfontosabb emberi eredetű üvegházgáz?", "a": ["Szén-dioxid", "Oxigén", "Nitrogén", "Argon"], "c": 0, "d": "easy", "e": "A fosszilis tüzelőanyagok elégetése a fő forrás.", "t": "éghajlat"},
-    {"q": "Mi az ózonpajzs feladata?", "a": ["Az ultraviola sugárzás nagy részének kiszűrése", "A hő megtartása", "A szén-dioxid felszívása", "A szél irányítása"], "c": 0, "d": "medium", "e": "A sztratoszférikus ózon védi az élővilágot az UV-sugárzástól.", "t": "éghajlat"},
-    {"q": "Mi okozta az ózonlyuk kialakulását?", "a": ["Freonok (CFC-k) kibocsátása", "Szén-dioxid", "Metán", "Vízgőz"], "c": 0, "d": "medium", "e": "A montreali jegyzőkönyv 1987-ben tiltotta be a legkárosabb anyagokat.", "t": "éghajlat"},
-    {"q": "Mi a savas eső fő oka?", "a": ["Kén- és nitrogén-oxidok kibocsátása", "Szén-dioxid", "Pollen", "Homokvihar"], "c": 0, "d": "medium", "e": "Az oxidok a levegő vizével savakat képeznek.", "t": "éghajlat"},
-    {"q": "Melyik a víz körforgásának első lépése a felszínről?", "a": ["Párolgás", "Csapadékképződés", "Beszivárgás", "Lefolyás"], "c": 0, "d": "easy", "e": "A napenergia hatására a víz elpárolog, majd lecsapódik.", "t": "természeti jelenségek"},
-    {"q": "Mi a szivárvány kialakulásának fizikai alapja?", "a": ["A fény törése és szóródása vízcseppekben", "A levegő páratartalma", "A napfoltok", "A légnyomás"], "c": 0, "d": "medium", "e": "A vízcseppekben a fehér fény színeire bomlik.", "t": "természeti jelenségek"},
-    {"q": "Mi okozza a villámlást?", "a": ["Elektrosztatikus kisülés a felhőkben", "A levegő felmelegedése", "A szél irányváltása", "A napsugárzás"], "c": 0, "d": "medium", "e": "A felhőn belüli töltésszétválás után nagy feszültségű kisülés jön létre.", "t": "természeti jelenségek"},
-    {"q": "Miért látjuk a villámot előbb, mint hogy a mennydörgést meghallanánk?", "a": ["A fény sokkal gyorsabb a hangnál", "A hang nem terjed felfelé", "A villám előbb keletkezik", "A mennydörgés máshol keletkezik"], "c": 0, "d": "easy", "e": "A hang kb. 340 m/s, a fény 300 000 km/s.", "t": "természeti jelenségek"},
-    {"q": "Mi okozza a tengerek árapály jelenségét?", "a": ["A Hold és a Nap gravitációja", "A szél", "A tengeráramlatok", "A vízhőmérséklet"], "c": 0, "d": "medium", "e": "A Hold vonzása a domináns hatás.", "t": "természeti jelenségek"},
-    {"q": "Mi a földrengés közvetlen oka?", "a": ["A kőzetlemezek hirtelen elmozdulása", "A hőmérséklet emelkedése", "A csapadék mennyisége", "A napkitörések"], "c": 0, "d": "medium", "e": "A feszültség felszabadulása rezgést indít el.", "t": "természeti jelenségek"},
-    {"q": "Mi a vulkánkitörés során feltörő olvadt kőzet neve a felszínen?", "a": ["Láva", "Magma", "Bazalt", "Tufa"], "c": 0, "d": "easy", "e": "A felszín alatt magma, a felszínen láva a neve.", "t": "természeti jelenségek"},
-    {"q": "Melyik réteg a Föld legkülső, szilárd része?", "a": ["Kéreg", "Köpeny", "Külső mag", "Belső mag"], "c": 0, "d": "medium", "e": "A kéreg a szárazföldeken kb. 30-70 km vastag.", "t": "földtan"},
-    {"q": "Mi a kőszén kialakulásának alapja?", "a": ["Elhalt növényi anyag átalakulása", "Kőzetek olvadása", "Sók kicsapódása", "Vulkáni hamu"], "c": 0, "d": "medium", "e": "A mocsári növényzet évmilliók alatt szenesedett el.", "t": "földtan"},
-    {"q": "Melyik kőzet vulkáni eredetű?", "a": ["Bazalt", "Mészkő", "Homokkő", "Agyagpala"], "c": 0, "d": "medium", "e": "A bazalt kiömlési magmás kőzet.", "t": "földtan"},
-    {"q": "Melyik kőzetből alakulnak ki jellemzően a barlangok?", "a": ["Mészkő", "Bazalt", "Gránit", "Homokkő"], "c": 0, "d": "medium", "e": "A karsztos folyamatok a mészkövet oldják.", "t": "földtan"},
-    {"q": "Mi a cseppkő kialakulásának oka?", "a": ["Oldott mészkő kiválása a barlangi vízből", "A kőzet olvadása", "A jég nyomása", "A szél koptatása"], "c": 0, "d": "medium", "e": "A sztalaktit felülről, a sztalagmit alulról nő.", "t": "földtan"},
-    {"q": "Melyik magyar hegység vulkáni eredetű?", "a": ["Mátra", "Bükk", "Mecsek", "Villányi-hegység"], "c": 0, "d": "hard", "e": "A Mátra és a Zempléni-hegység vulkáni működés nyomán jött létre.", "t": "földtan"},
-    {"q": "Mit jelent a „karszt” kifejezés?", "a": ["Mészkőterület felszíni és felszín alatti oldásformákkal", "Homokdűne-vidék", "Vulkáni fennsík", "Jégmezők"], "c": 0, "d": "hard", "e": "Az Aggteleki-karszt Magyarország legjelentősebb karsztvidéke.", "t": "földtan"},
-    {"q": "Melyik évszakban a leghosszabb a nappal az északi féltekén?", "a": ["Nyáron", "Télen", "Ősszel", "Tavasszal"], "c": 0, "d": "easy", "e": "A nyári napforduló körül a leghosszabb a nappal.", "t": "éghajlat"},
-    {"q": "Mit nevezünk „mikroklímának”?", "a": ["Kis terület saját éghajlati viszonyait", "A globális éghajlatot", "A napi időjárást", "Egy évtized átlagát"], "c": 0, "d": "medium", "e": "Egy erdőszél vagy egy városi tér mikroklímája eltér a környezetétől.", "t": "éghajlat"},
-    {"q": "Mi a különbség az időjárás és az éghajlat között?", "a": ["Az éghajlat hosszú időszak átlaga", "Az időjárás hosszabb időszak", "Nincs különbség", "Az éghajlat csak a hőmérséklet"], "c": 0, "d": "medium", "e": "Az éghajlatot jellemzően 30 éves átlagokkal írják le.", "t": "éghajlat"},
-    {"q": "Melyik erdő a Föld legnagyobb esőerdeje?", "a": ["Amazonas-esőerdő", "Kongói esőerdő", "Borneói esőerdő", "Tajga"], "c": 0, "d": "easy", "e": "Az Amazonas-medence esőerdeje kb. 5,5 millió km².", "t": "élőhelyek"},
-    {"q": "Miért nevezik az esőerdőket „a Föld tüdejének”?", "a": ["Nagy mennyiségű oxigént termelnek és szenet kötnek meg", "Ott a legtöbb szél", "Ott a legtöbb eső", "Ott élnek a legnagyobb állatok"], "c": 0, "d": "medium", "e": "Az elnevezés leegyszerűsítés, de a szén-körforgásban valóban kulcsszerepük van.", "t": "élőhelyek"},
-    {"q": "Mi a korallzátonyok pusztulásának egyik fő oka?", "a": ["A tengervíz felmelegedése", "A túl sok hal", "A sótartalom csökkenése mindenütt", "A tengerfenék emelkedése"], "c": 0, "d": "medium", "e": "A melegedés kifehéríti a korallokat, mert elvesztik a szimbionta algáikat.", "t": "élőhelyek"},
-    {"q": "Melyik élőhely jellemzője a fagyott talaj (permafroszt)?", "a": ["Tundra", "Szavanna", "Esőerdő", "Sivatag"], "c": 0, "d": "medium", "e": "A tundrán a talaj csak a felső rétegben olvad fel nyáron.", "t": "élőhelyek"},
-    {"q": "Melyik élőhely jellemzője a hosszú száraz és rövid esős évszak, magas fűvel és szórt fákkal?", "a": ["Szavanna", "Tajga", "Tundra", "Sivatag"], "c": 0, "d": "medium", "e": "A szavanna a trópusi és a sivatagi öv között helyezkedik el.", "t": "élőhelyek"}
+    {
+      "q": "Melyik gáz szükséges a növények fotoszintéziséhez?",
+      "a": [
+        "Szén-dioxid",
+        "Oxigén",
+        "Nitrogén",
+        "Hélium"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A növény szén-dioxidot és vizet használ, oxigént fejleszt.",
+      "t": "növények"
+    },
+    {
+      "q": "Melyik növényi rész végzi a víz felszívását?",
+      "a": [
+        "Gyökér",
+        "Levél",
+        "Virág",
+        "Termés"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gyökérszőrök nagy felületet biztosítanak a felszívásra.",
+      "t": "növények"
+    },
+    {
+      "q": "Mi adja a levelek zöld színét?",
+      "a": [
+        "Klorofill",
+        "Karotin",
+        "Antocián",
+        "Xantofill"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A klorofill nyeli el a fény energiáját.",
+      "t": "növények"
+    },
+    {
+      "q": "Miért sárgulnak és vörösödnek a levelek ősszel?",
+      "a": [
+        "A klorofill lebomlik, más színanyagok láthatóvá válnak",
+        "Új festékanyag termelődik",
+        "A levelek megfagynak",
+        "A napfény színe változik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A karotinoidok egész évben ott vannak, csak a zöld elnyomja őket.",
+      "t": "növények"
+    },
+    {
+      "q": "Melyik fa levele tűlevél?",
+      "a": [
+        "Erdeifenyő",
+        "Tölgy",
+        "Bükk",
+        "Hárs"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tűlevelű fák örökzöldek (a vörösfenyő kivételével).",
+      "t": "növények"
+    },
+    {
+      "q": "Melyik fafajta terméke a tobozok?",
+      "a": [
+        "Tűlevelűek",
+        "Lombos fák",
+        "Pálmák",
+        "Cserjék"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A toboz a nyitvatermők jellegzetes szaporító szerve.",
+      "t": "növények"
+    },
+    {
+      "q": "Melyik fa termése a makk?",
+      "a": [
+        "Tölgy",
+        "Fenyő",
+        "Nyír",
+        "Fűz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A bükk termése a bükköcske, a tölgyé a makk.",
+      "t": "növények"
+    },
+    {
+      "q": "Melyik magyar erdőtípus a leggyakoribb az ország alacsonyabb hegyvidékein?",
+      "a": [
+        "Tölgyes",
+        "Trópusi esőerdő",
+        "Tajga",
+        "Mangrove"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A cseres-kocsánytalan tölgyes a hazai hegylábak jellemző erdeje.",
+      "t": "növények"
+    },
+    {
+      "q": "Melyik növény Magyarország egyik jellegzetes pusztai fűféléje?",
+      "a": [
+        "Árvalányhaj",
+        "Bambusz",
+        "Kaktusz",
+        "Papirusz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az árvalányhaj a homokpuszták és sziklafüves lejtők jellemző növénye.",
+      "t": "növények"
+    },
+    {
+      "q": "Melyik virág a magyar népköltészet és népművészet gyakori motívuma?",
+      "a": [
+        "Tulipán",
+        "Orchidea",
+        "Lótusz",
+        "Kamélia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tulipánmotívum a magyar népi díszítőművészet alapeleme.",
+      "t": "növények"
+    },
+    {
+      "q": "Mi a fotoszintézis mellékterméke, amit az élővilág belélegzik?",
+      "a": [
+        "Oxigén",
+        "Szén-dioxid",
+        "Metán",
+        "Ammónia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A növények oxigént bocsátanak ki a folyamat során.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Mi a tápláléklánc első szintje?",
+      "a": [
+        "Termelők (növények)",
+        "Ragadozók",
+        "Lebontók",
+        "Fogyasztók"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A növények a napenergiát szerves anyagba építik be.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Mi a lebontók szerepe az ökoszisztémában?",
+      "a": [
+        "Az elhalt szerves anyagot ásványi anyagokra bontják",
+        "Fotoszintetizálnak",
+        "Ragadozók",
+        "Beporzók"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gombák és baktériumok zárják be az anyagkörforgást.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Mi a biodiverzitás?",
+      "a": [
+        "Az élővilág sokfélesége",
+        "Az élőlények száma egy fajban",
+        "A talaj termőképessége",
+        "A levegő páratartalma"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A biodiverzitás genetikai, faji és ökoszisztéma-szinten is értelmezhető.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Mit jelent az „invazív faj” kifejezés?",
+      "a": [
+        "Idegen faj, amely károsítja a helyi élővilágot",
+        "Kihalás közelében lévő faj",
+        "Őshonos ragadozó",
+        "Beporzó rovar"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Például a bálványfa vagy a selyemkóró Magyarországon.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Melyik magyar védett terület kategóriája a legmagasabb szintű?",
+      "a": [
+        "Nemzeti park",
+        "Tájvédelmi körzet",
+        "Természetvédelmi terület",
+        "Helyi védettség"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Magyarországon tíz nemzeti park működik.",
+      "t": "természetvédelem"
+    },
+    {
+      "q": "Hány nemzeti park működik Magyarországon?",
+      "a": [
+        "10",
+        "5",
+        "12",
+        "8"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az elsőt 1973-ban, a Hortobágyot hozták létre.",
+      "t": "természetvédelem"
+    },
+    {
+      "q": "Mi a ramsari terület?",
+      "a": [
+        "Nemzetközileg jelentős vizes élőhely",
+        "Vadászterület",
+        "Erdőgazdasági egység",
+        "Sziklamászó terület"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A ramsari egyezmény a vizes élőhelyek védelméről szól.",
+      "t": "természetvédelem"
+    },
+    {
+      "q": "Mit jelent a „fokozottan védett” minősítés?",
+      "a": [
+        "A legszigorúbban védett fajok kategóriája",
+        "Vadászható faj",
+        "Betelepített faj",
+        "Termesztett faj"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fokozottan védett fajok természetvédelmi értéke a legnagyobb.",
+      "t": "természetvédelem"
+    },
+    {
+      "q": "Melyik jelenség okozza az üvegházhatást?",
+      "a": [
+        "Bizonyos gázok visszatartják a hősugárzást",
+        "A napfény erősödik",
+        "A Föld közelebb kerül a Naphoz",
+        "Az óceánok kiszáradnak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szén-dioxid, a metán és a vízgőz a legfontosabb üvegházgázok.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Melyik gáz a legfontosabb emberi eredetű üvegházgáz?",
+      "a": [
+        "Szén-dioxid",
+        "Oxigén",
+        "Nitrogén",
+        "Argon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fosszilis tüzelőanyagok elégetése a fő forrás.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Mi az ózonpajzs feladata?",
+      "a": [
+        "Az ultraviola sugárzás nagy részének kiszűrése",
+        "A hő megtartása",
+        "A szén-dioxid felszívása",
+        "A szél irányítása"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sztratoszférikus ózon védi az élővilágot az UV-sugárzástól.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Mi okozta az ózonlyuk kialakulását?",
+      "a": [
+        "Freonok (CFC-k) kibocsátása",
+        "Szén-dioxid",
+        "Metán",
+        "Vízgőz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A montreali jegyzőkönyv 1987-ben tiltotta be a legkárosabb anyagokat.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Mi a savas eső fő oka?",
+      "a": [
+        "Kén- és nitrogén-oxidok kibocsátása",
+        "Szén-dioxid",
+        "Pollen",
+        "Homokvihar"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az oxidok a levegő vizével savakat képeznek.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Melyik a víz körforgásának első lépése a felszínről?",
+      "a": [
+        "Párolgás",
+        "Csapadékképződés",
+        "Beszivárgás",
+        "Lefolyás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A napenergia hatására a víz elpárolog, majd lecsapódik.",
+      "t": "természeti jelenségek"
+    },
+    {
+      "q": "Mi a szivárvány kialakulásának fizikai alapja?",
+      "a": [
+        "A fény törése és szóródása vízcseppekben",
+        "A levegő páratartalma",
+        "A napfoltok",
+        "A légnyomás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vízcseppekben a fehér fény színeire bomlik.",
+      "t": "természeti jelenségek"
+    },
+    {
+      "q": "Mi okozza a villámlást?",
+      "a": [
+        "Elektrosztatikus kisülés a felhőkben",
+        "A levegő felmelegedése",
+        "A szél irányváltása",
+        "A napsugárzás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A felhőn belüli töltésszétválás után nagy feszültségű kisülés jön létre.",
+      "t": "természeti jelenségek"
+    },
+    {
+      "q": "Miért látjuk a villámot előbb, mint hogy a mennydörgést meghallanánk?",
+      "a": [
+        "A fény sokkal gyorsabb a hangnál",
+        "A hang nem terjed felfelé",
+        "A villám előbb keletkezik",
+        "A mennydörgés máshol keletkezik"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hang kb. 340 m/s, a fény 300 000 km/s.",
+      "t": "természeti jelenségek"
+    },
+    {
+      "q": "Mi okozza a tengerek árapály jelenségét?",
+      "a": [
+        "A Hold és a Nap gravitációja",
+        "A szél",
+        "A tengeráramlatok",
+        "A vízhőmérséklet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Hold vonzása a domináns hatás.",
+      "t": "természeti jelenségek"
+    },
+    {
+      "q": "Mi a földrengés közvetlen oka?",
+      "a": [
+        "A kőzetlemezek hirtelen elmozdulása",
+        "A hőmérséklet emelkedése",
+        "A csapadék mennyisége",
+        "A napkitörések"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A feszültség felszabadulása rezgést indít el.",
+      "t": "természeti jelenségek"
+    },
+    {
+      "q": "Mi a vulkánkitörés során feltörő olvadt kőzet neve a felszínen?",
+      "a": [
+        "Láva",
+        "Magma",
+        "Bazalt",
+        "Tufa"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A felszín alatt magma, a felszínen láva a neve.",
+      "t": "természeti jelenségek"
+    },
+    {
+      "q": "Melyik réteg a Föld legkülső, szilárd része?",
+      "a": [
+        "Kéreg",
+        "Köpeny",
+        "Külső mag",
+        "Belső mag"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kéreg a szárazföldeken kb. 30-70 km vastag.",
+      "t": "földtan"
+    },
+    {
+      "q": "Mi a kőszén kialakulásának alapja?",
+      "a": [
+        "Elhalt növényi anyag átalakulása",
+        "Kőzetek olvadása",
+        "Sók kicsapódása",
+        "Vulkáni hamu"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mocsári növényzet évmilliók alatt szenesedett el.",
+      "t": "földtan"
+    },
+    {
+      "q": "Melyik kőzet vulkáni eredetű?",
+      "a": [
+        "Bazalt",
+        "Mészkő",
+        "Homokkő",
+        "Agyagpala"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A bazalt kiömlési magmás kőzet.",
+      "t": "földtan"
+    },
+    {
+      "q": "Melyik kőzetből alakulnak ki jellemzően a barlangok?",
+      "a": [
+        "Mészkő",
+        "Bazalt",
+        "Gránit",
+        "Homokkő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A karsztos folyamatok a mészkövet oldják.",
+      "t": "földtan"
+    },
+    {
+      "q": "Mi a cseppkő kialakulásának oka?",
+      "a": [
+        "Oldott mészkő kiválása a barlangi vízből",
+        "A kőzet olvadása",
+        "A jég nyomása",
+        "A szél koptatása"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sztalaktit felülről, a sztalagmit alulról nő.",
+      "t": "földtan"
+    },
+    {
+      "q": "Melyik magyar hegység vulkáni eredetű?",
+      "a": [
+        "Mátra",
+        "Bükk",
+        "Mecsek",
+        "Villányi-hegység"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Mátra és a Zempléni-hegység vulkáni működés nyomán jött létre.",
+      "t": "földtan"
+    },
+    {
+      "q": "Mit jelent a „karszt” kifejezés?",
+      "a": [
+        "Mészkőterület felszíni és felszín alatti oldásformákkal",
+        "Homokdűne-vidék",
+        "Vulkáni fennsík",
+        "Jégmezők"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Aggteleki-karszt Magyarország legjelentősebb karsztvidéke.",
+      "t": "földtan"
+    },
+    {
+      "q": "Melyik évszakban a leghosszabb a nappal az északi féltekén?",
+      "a": [
+        "Nyáron",
+        "Télen",
+        "Ősszel",
+        "Tavasszal"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A nyári napforduló körül a leghosszabb a nappal.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Mit nevezünk „mikroklímának”?",
+      "a": [
+        "Kis terület saját éghajlati viszonyait",
+        "A globális éghajlatot",
+        "A napi időjárást",
+        "Egy évtized átlagát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Egy erdőszél vagy egy városi tér mikroklímája eltér a környezetétől.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Mi a különbség az időjárás és az éghajlat között?",
+      "a": [
+        "Az éghajlat hosszú időszak átlaga",
+        "Az időjárás hosszabb időszak",
+        "Nincs különbség",
+        "Az éghajlat csak a hőmérséklet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az éghajlatot jellemzően 30 éves átlagokkal írják le.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Melyik erdő a Föld legnagyobb esőerdeje?",
+      "a": [
+        "Amazonas-esőerdő",
+        "Kongói esőerdő",
+        "Borneói esőerdő",
+        "Tajga"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Amazonas-medence esőerdeje kb. 5,5 millió km².",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Miért nevezik az esőerdőket „a Föld tüdejének”?",
+      "a": [
+        "Nagy mennyiségű oxigént termelnek és szenet kötnek meg",
+        "Ott a legtöbb szél",
+        "Ott a legtöbb eső",
+        "Ott élnek a legnagyobb állatok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az elnevezés leegyszerűsítés, de a szén-körforgásban valóban kulcsszerepük van.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Mi a korallzátonyok pusztulásának egyik fő oka?",
+      "a": [
+        "A tengervíz felmelegedése",
+        "A túl sok hal",
+        "A sótartalom csökkenése mindenütt",
+        "A tengerfenék emelkedése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A melegedés kifehéríti a korallokat, mert elvesztik a szimbionta algáikat.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Melyik élőhely jellemzője a fagyott talaj (permafroszt)?",
+      "a": [
+        "Tundra",
+        "Szavanna",
+        "Esőerdő",
+        "Sivatag"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tundrán a talaj csak a felső rétegben olvad fel nyáron.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Melyik élőhely jellemzője a hosszú száraz és rövid esős évszak, magas fűvel és szórt fákkal?",
+      "a": [
+        "Szavanna",
+        "Tajga",
+        "Tundra",
+        "Sivatag"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szavanna a trópusi és a sivatagi öv között helyezkedik el.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Melyik országban található Csomolungma?",
+      "a": [
+        "Irán",
+        "Kína",
+        "India",
+        "Ausztria"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Csomolungma Kína területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q513"
+    },
+    {
+      "q": "Melyik országban található Mont Blanc?",
+      "a": [
+        "Salvador",
+        "Ausztria",
+        "Fülöp-szigetek",
+        "Olaszország"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Mont Blanc Olaszország területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q583"
+    },
+    {
+      "q": "Melyik országban található Triglav?",
+      "a": [
+        "Olaszország",
+        "Argentína",
+        "Szlovénia",
+        "Salvador"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Triglav Szlovénia területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q1024"
+    },
+    {
+      "q": "Melyik országban található Monte Viso?",
+      "a": [
+        "Olaszország",
+        "Venezuela",
+        "Liechtenstein",
+        "Bolívia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Monte Viso Olaszország területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q1248"
+    },
+    {
+      "q": "Melyik országban található Gran Paradiso?",
+      "a": [
+        "Kolumbia",
+        "Malajzia",
+        "Olaszország",
+        "Venezuela"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Gran Paradiso Olaszország területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q1372"
+    },
+    {
+      "q": "Melyik országban található Grivola?",
+      "a": [
+        "Olaszország",
+        "Argentína",
+        "Franciaország",
+        "Malajzia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Grivola Olaszország területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q1373"
+    },
+    {
+      "q": "Melyik országban található Matterhorn?",
+      "a": [
+        "Szlovákia",
+        "Franciaország",
+        "Brazília",
+        "Olaszország"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Matterhorn Olaszország területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q1374"
+    },
+    {
+      "q": "Melyik országban található Mayon?",
+      "a": [
+        "Indonézia",
+        "Észak-Macedónia",
+        "Olaszország",
+        "Fülöp-szigetek"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Mayon Fülöp-szigetek területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q1484"
+    },
+    {
+      "q": "Melyik országban található Zugspitze?",
+      "a": [
+        "Malajzia",
+        "Indonézia",
+        "Argentína",
+        "Ausztria"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Zugspitze Ausztria területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q3375"
+    },
+    {
+      "q": "Melyik országban található Großglockner?",
+      "a": [
+        "India",
+        "Észak-Korea",
+        "Ausztria",
+        "Szlovákia"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Großglockner Ausztria területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q3388"
+    },
+    {
+      "q": "Melyik országban található Dufourspitze?",
+      "a": [
+        "Irán",
+        "Vietnám",
+        "Svájc",
+        "Salvador"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Dufourspitze Svájc területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q3403"
+    },
+    {
+      "q": "Melyik országban található Eiger?",
+      "a": [
+        "Srí Lanka",
+        "Svájc",
+        "Új-Zéland",
+        "Nepál"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Eiger Svájc területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q4425"
+    },
+    {
+      "q": "Melyik országban található Mount Saint Helens?",
+      "a": [
+        "Amerikai Egyesült Államok",
+        "Tádzsikisztán",
+        "Andorra",
+        "Vietnám"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mount Saint Helens Amerikai Egyesült Államok területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q4675"
+    },
+    {
+      "q": "Melyik országban található Roraima-hegy?",
+      "a": [
+        "Brazília",
+        "Törökország",
+        "Argentína",
+        "Indonézia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Roraima-hegy Brazília területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q4777"
+    },
+    {
+      "q": "Melyik országban található Mount Cook?",
+      "a": [
+        "Chile",
+        "Argentína",
+        "Srí Lanka",
+        "Új-Zéland"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Mount Cook Új-Zéland területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q5059"
+    },
+    {
+      "q": "Melyik országban található Canigó?",
+      "a": [
+        "Fülöp-szigetek",
+        "Oroszország",
+        "Srí Lanka",
+        "Franciaország"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Canigó Franciaország területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q6650"
+    },
+    {
+      "q": "Melyik országban található Kreuzjoch?",
+      "a": [
+        "Japán",
+        "Ausztria",
+        "Srí Lanka",
+        "Peru"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Kreuzjoch Ausztria területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q13668"
+    },
+    {
+      "q": "Melyik országban található Sangay?",
+      "a": [
+        "Svájc",
+        "Salvador",
+        "Németország",
+        "Ecuador"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Sangay Ecuador területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q14052"
+    },
+    {
+      "q": "Melyik országban található Chimborazo?",
+      "a": [
+        "Albánia",
+        "Kanada",
+        "Görögország",
+        "Ecuador"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Chimborazo Ecuador területén található.",
+      "t": "hegyek",
+      "s": "http://www.wikidata.org/entity/Q14081"
+    }
   ]
 }

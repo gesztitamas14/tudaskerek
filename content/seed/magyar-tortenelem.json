@@ -2,60 +2,1042 @@
   "category": "magyar-tortenelem",
   "default_source": "saját szerkesztés (általános műveltségi tananyag)",
   "questions": [
-    {"q": "Melyik évben volt a honfoglalás hagyományos dátuma?", "a": ["862", "895", "955", "1000"], "c": 1, "d": "easy", "e": "A magyar törzsek Árpád vezetésével 895 körül keltek át a Kárpátokon.", "t": "honfoglalás"},
-    {"q": "Ki volt Árpád apja a hagyomány szerint?", "a": ["Álmos", "Előd", "Ond", "Töhötöm"], "c": 0, "d": "medium", "e": "A krónikák szerint Álmos vezette a magyarokat Etelközbe, fia Árpád a Kárpát-medencébe.", "t": "honfoglalás"},
-    {"q": "Melyik csatában szenvedtek a magyarok súlyos vereséget 955-ben?", "a": ["Merseburgi csata", "Augsburgi (Lech-mezei) csata", "Riade-i csata", "Pozsonyi csata"], "c": 1, "d": "medium", "e": "A 955-es Lech-mezei vereség után a kalandozások nyugat felé megszűntek.", "t": "kalandozások"},
-    {"q": "Mikor koronázták királlyá I. Istvánt a hagyomány szerint?", "a": ["972-ben", "997-ben", "1000/1001 fordulóján", "1038-ban"], "c": 2, "d": "easy", "e": "Az államalapítás jelképes dátuma 1000 karácsonya, illetve 1001 első napjai.", "t": "államalapítás"},
-    {"q": "Melyik pogány vezért győzte le István a koronázás előtt?", "a": ["Koppányt", "Ajtonyt", "Vatát", "Gyulát"], "c": 0, "d": "easy", "e": "Koppány a szeniorátus alapján követelte a hatalmat; a veszprémi csatában vesztett.", "t": "államalapítás"},
-    {"q": "Kinek a nevéhez fűződik az Intelmek című uralkodói tanítás?", "a": ["Szent Lászlóhoz", "Szent Istvánhoz", "Könyves Kálmánhoz", "III. Bélához"], "c": 1, "d": "medium", "e": "Az Intelmeket Szent István fiának, Imre hercegnek szánták.", "t": "államalapítás"},
-    {"q": "Melyik uralkodó szentté avatását ismerjük 1083-ból, Istvánnal és Imrével együtt?", "a": ["Gellért püspököt", "Szent Lászlót", "Szent Mórt", "Szent Zoerárdot"], "c": 0, "d": "hard", "e": "1083-ban I. László szentté avattatta Istvánt, Imrét és Gellért püspököt.", "t": "Árpád-kor"},
-    {"q": "Melyik király uralkodása alatt zajlott a második keresztes hadjárat átvonulása Magyarországon?", "a": ["II. Béla", "II. Géza", "III. István", "IV. Béla"], "c": 1, "d": "hard", "e": "II. Géza idején, 1147-ben vonult át az országon a második keresztes hadjárat.", "t": "Árpád-kor"},
-    {"q": "Mikor adta ki II. András az Aranybullát?", "a": ["1205-ben", "1222-ben", "1231-ben", "1267-ben"], "c": 1, "d": "easy", "e": "Az 1222-es Aranybulla a nemesi jogokat rögzítette, benne az ellenállási záradékkal.", "t": "Aranybulla"},
-    {"q": "Melyik évben érte el Magyarországot a tatárjárás fő támadása?", "a": ["1235", "1241", "1245", "1250"], "c": 1, "d": "easy", "e": "1241 áprilisában a muhi csatában szenvedett vereséget IV. Béla hadereje.", "t": "tatárjárás"},
-    {"q": "Hol csaptak össze a magyar és a mongol seregek 1241-ben?", "a": ["Muhi puszta", "Mohács", "Nándorfehérvár", "Rozgony"], "c": 0, "d": "easy", "e": "A muhi csata a Sajó mellett zajlott, és a magyar sereg megsemmisítő vereségével végződött.", "t": "tatárjárás"},
-    {"q": "Milyen melléknévvel illetik IV. Bélát az újjáépítés miatt?", "a": ["Igazságos", "Második honalapító", "Nagy", "Könyves"], "c": 1, "d": "medium", "e": "A tatárjárás utáni kővárépítés és újratelepítés miatt hívják második honalapítónak.", "t": "tatárjárás"},
-    {"q": "Melyik uralkodóházból származott Károly Róbert?", "a": ["Luxemburgi", "Anjou", "Habsburg", "Jagelló"], "c": 1, "d": "medium", "e": "Károly Róbert a nápolyi Anjou-ház tagja volt, 1308-tól magyar király.", "t": "Anjou-kor"},
-    {"q": "Milyen pénzt vezetett be Károly Róbert gazdasági reformja során?", "a": ["Ezüst tallér", "Aranyforint", "Dénár", "Korona"], "c": 1, "d": "medium", "e": "Az 1325-től vert aranyforint stabil pénzt és jelentős királyi bevételt biztosított.", "t": "Anjou-kor"},
-    {"q": "Melyik országnak volt Nagy Lajos is a királya 1370-től?", "a": ["Csehország", "Lengyelország", "Szerbia", "Bosznia"], "c": 1, "d": "medium", "e": "Nagy Lajos nagybátyja, Kázmér halála után lengyel király is lett.", "t": "Anjou-kor"},
-    {"q": "Melyik magyar király lett később német-római császár is?", "a": ["Zsigmond", "Nagy Lajos", "Mátyás", "II. Ulászló"], "c": 0, "d": "medium", "e": "Luxemburgi Zsigmondot 1433-ban koronázták német-római császárrá.", "t": "Zsigmond-kor"},
-    {"q": "Melyik csatában győzte le Hunyadi János a törököket 1456-ban Belgrád alatt?", "a": ["Nikápolyi csata", "Nándorfehérvári diadal", "Várnai csata", "Rigómezei csata"], "c": 1, "d": "easy", "e": "Az 1456-os nándorfehérvári győzelem emlékére szól délben a harang.", "t": "Hunyadiak"},
-    {"q": "Melyik évben lett Mátyás magyar király?", "a": ["1443", "1458", "1467", "1490"], "c": 1, "d": "medium", "e": "Mátyást 1458 januárjában választották királlyá a Duna jegén.", "t": "Hunyadiak"},
-    {"q": "Mi volt Mátyás király zsoldos hadseregének a neve?", "a": ["Fekete sereg", "Végvári vitézek", "Székely határőrség", "Nemesi felkelés"], "c": 0, "d": "easy", "e": "A Fekete sereg állandó zsoldos haderő volt, fenntartása súlyos adóterhet jelentett.", "t": "Hunyadiak"},
-    {"q": "Melyik város volt Mátyás király reneszánsz udvarának központja?", "a": ["Visegrád", "Buda", "Pozsony", "Esztergom"], "c": 1, "d": "medium", "e": "Buda vára Mátyás alatt európai szintű reneszánsz központtá vált.", "t": "Hunyadiak"},
-    {"q": "Mi volt Mátyás király híres könyvtárának a neve?", "a": ["Bibliotheca Regia", "Corvina", "Chronica Hungarorum", "Athenaeum"], "c": 1, "d": "medium", "e": "A Corvina Európa egyik legnagyobb humanista könyvtára volt.", "t": "Hunyadiak"},
-    {"q": "Melyik évben zajlott a mohácsi csata?", "a": ["1514", "1526", "1541", "1552"], "c": 1, "d": "easy", "e": "1526. augusztus 29-én a magyar sereg vereséget szenvedett, II. Lajos is életét vesztette.", "t": "Mohács"},
-    {"q": "Ki volt a magyar király a mohácsi csata idején?", "a": ["II. Ulászló", "II. Lajos", "I. Ferdinánd", "Szapolyai János"], "c": 1, "d": "easy", "e": "II. Lajos a csata után a Csele-patakban lelte halálát.", "t": "Mohács"},
-    {"q": "Melyik szultán vezette a török sereget Mohácsnál?", "a": ["II. Mehmed", "I. Szulejmán", "II. Bajezid", "IV. Murád"], "c": 1, "d": "medium", "e": "I. (Nagy) Szulejmán uralkodása alatt hódította meg a törökség Magyarország középső részét.", "t": "Mohács"},
-    {"q": "Melyik évben foglalta el a török Budát véglegesen?", "a": ["1526", "1529", "1541", "1566"], "c": 2, "d": "medium", "e": "1541-ben Buda török kézre került, ezzel kezdődött a hódoltság korszaka.", "t": "török hódoltság"},
-    {"q": "Ki védte Szigetvárt 1566-ban?", "a": ["Dobó István", "Zrínyi Miklós", "Losonczy István", "Jurisics Miklós"], "c": 1, "d": "easy", "e": "A szigetvári Zrínyi Miklós a vár elestekor esett el; a szultán is a várostrom alatt hunyt el.", "t": "török hódoltság"},
-    {"q": "Ki vezette Eger védelmét 1552-ben?", "a": ["Dobó István", "Nádasdy Tamás", "Szondi György", "Thúry György"], "c": 0, "d": "easy", "e": "Dobó István sikeresen megvédte Eger várát a török ostrommal szemben.", "t": "török hódoltság"},
-    {"q": "Hogyan hívták az országnak azt a részét, amely a Habsburgok fennhatósága alá tartozott a hódoltság idején?", "a": ["Királyi Magyarország", "Erdélyi Fejedelemség", "Bánát", "Partium"], "c": 0, "d": "medium", "e": "Az ország három részre szakadt: Királyi Magyarország, hódoltság és Erdély.", "t": "török hódoltság"},
-    {"q": "Melyik erdélyi fejedelem lett 1620-ban magyar királlyá választva, de nem koronázták meg?", "a": ["Bocskai István", "Bethlen Gábor", "I. Rákóczi György", "Báthory Gábor"], "c": 1, "d": "hard", "e": "Bethlen Gábort a besztercebányai országgyűlés választotta királlyá, a címet később letette.", "t": "Erdély"},
-    {"q": "Melyik évben szabadult fel Buda a török uralom alól?", "a": ["1683", "1686", "1697", "1699"], "c": 1, "d": "medium", "e": "1686-ban a keresztény szövetséges seregek visszavették Budát.", "t": "török kiűzése"},
-    {"q": "Melyik békével zárult a török kiűzése Magyarországról 1699-ben?", "a": ["Vasvári béke", "Karlócai béke", "Szatmári béke", "Passarowitzi béke"], "c": 1, "d": "hard", "e": "Az 1699-es karlócai béke rögzítette a török kiszorulását a Temesvidék kivételével.", "t": "török kiűzése"},
-    {"q": "Melyik években zajlott a Rákóczi-szabadságharc?", "a": ["1683–1699", "1703–1711", "1716–1718", "1741–1748"], "c": 1, "d": "medium", "e": "II. Rákóczi Ferenc vezette szabadságharc 1703-ban indult, 1711-ben zárult le.", "t": "Rákóczi"},
-    {"q": "Milyen békével ért véget a Rákóczi-szabadságharc?", "a": ["Szatmári béke", "Karlócai béke", "Bécsi béke", "Linzi béke"], "c": 0, "d": "medium", "e": "Az 1711-es szatmári béke amnesztiát adott, de a szabadságharc célja nem teljesült.", "t": "Rákóczi"},
-    {"q": "Ki volt Rákóczi legendás tábornoka, akihez a „bujdosó” kuruc emlékezet is kötődik?", "a": ["Bercsényi Miklós", "Vak Bottyán János", "Károlyi Sándor", "Ocskay László"], "c": 1, "d": "hard", "e": "Bottyán János, a „Vak Bottyán” a szabadságharc egyik legsikeresebb hadvezére volt.", "t": "Rákóczi"},
-    {"q": "Melyik uralkodó adta ki a Türelmi rendeletet 1781-ben?", "a": ["Mária Terézia", "II. József", "I. Lipót", "II. Lipót"], "c": 1, "d": "medium", "e": "II. József türelmi rendelete a protestánsoknak és ortodoxoknak adott vallásgyakorlási jogot.", "t": "felvilágosult abszolutizmus"},
-    {"q": "Mit vezetett be Mária Terézia 1767-es rendelete?", "a": ["Urbáriumot", "Türelmi rendeletet", "Jobbágyfelszabadítást", "Kalapos rendeletet"], "c": 0, "d": "hard", "e": "Az urbárium egységesen szabályozta a jobbágyok szolgáltatásait.", "t": "felvilágosult abszolutizmus"},
-    {"q": "Kihez kötődik a Hitel című reformkori mű?", "a": ["Kossuth Lajos", "Széchenyi István", "Wesselényi Miklós", "Deák Ferenc"], "c": 1, "d": "easy", "e": "Széchenyi István 1830-as Hitel című műve a reformkor programadó írása.", "t": "reformkor"},
-    {"q": "Melyik napon kezdődött az 1848-as pesti forradalom?", "a": ["Március 3.", "Március 15.", "Április 11.", "Szeptember 29."], "c": 1, "d": "easy", "e": "1848. március 15-én a pesti forradalom kikényszerítette a 12 pont követeléseit.", "t": "1848–49"},
-    {"q": "Ki volt az első felelős magyar miniszterelnök 1848-ban?", "a": ["Kossuth Lajos", "Batthyány Lajos", "Szemere Bertalan", "Deák Ferenc"], "c": 1, "d": "easy", "e": "Batthyány Lajos vezette az első felelős magyar kormányt.", "t": "1848–49"},
-    {"q": "Melyik csatában győzött a magyar honvédsereg 1849 áprilisában, Tápióbicske után Isaszegnél?", "a": ["A tavaszi hadjáratban", "A nyári hadjáratban", "A téli hadjáratban", "A délvidéki hadjáratban"], "c": 0, "d": "medium", "e": "Az 1849-es tavaszi hadjárat sorozatos magyar győzelmeket hozott.", "t": "1848–49"},
-    {"q": "Hol tette le a magyar sereg a fegyvert 1849. augusztus 13-án?", "a": ["Világosnál", "Aradon", "Temesvárnál", "Szőlőspusztán"], "c": 0, "d": "medium", "e": "Világosnál a fősereg az orosz csapatok előtt tette le a fegyvert.", "t": "1848–49"},
-    {"q": "Hány honvédtisztet végeztek ki Aradon 1849. október 6-án?", "a": ["9", "13", "16", "21"], "c": 1, "d": "easy", "e": "Az aradi vértanúk száma tizenhárom volt; ugyanezen a napon Pesten Batthyányt is kivégezték.", "t": "1848–49"},
-    {"q": "Melyik évben született meg az osztrák–magyar kiegyezés?", "a": ["1848", "1859", "1867", "1875"], "c": 2, "d": "easy", "e": "Az 1867-es kiegyezés hozta létre az Osztrák–Magyar Monarchiát.", "t": "dualizmus"},
-    {"q": "Ki volt a kiegyezés fő magyar politikai kidolgozója?", "a": ["Andrássy Gyula", "Deák Ferenc", "Tisza Kálmán", "Eötvös József"], "c": 1, "d": "medium", "e": "Deák Ferencet „a haza bölcse” néven is emlegetik a kiegyezés miatt.", "t": "dualizmus"},
-    {"q": "Melyik évben egyesült Pest, Buda és Óbuda Budapest néven?", "a": ["1867", "1873", "1896", "1900"], "c": 1, "d": "medium", "e": "Az 1873-as egyesítéssel jött létre a mai főváros közigazgatási elődje.", "t": "dualizmus"},
-    {"q": "Melyik évben írták alá a trianoni békeszerződést?", "a": ["1918", "1919", "1920", "1921"], "c": 2, "d": "easy", "e": "A szerződést 1920. június 4-én írták alá a versailles-i Nagy-Trianon palotában.", "t": "Trianon"},
-    {"q": "Ki volt Magyarország kormányzója 1920 és 1944 között?", "a": ["Horthy Miklós", "Bethlen István", "Károlyi Mihály", "Teleki Pál"], "c": 0, "d": "easy", "e": "Horthy Miklóst 1920 márciusában választotta kormányzóvá a nemzetgyűlés.", "t": "két világháború"},
-    {"q": "Melyik évben történt a nyilas hatalomátvétel Magyarországon?", "a": ["1938", "1941", "1944", "1945"], "c": 2, "d": "medium", "e": "1944. október 15-én, Horthy kiugrási kísérletének kudarca után került hatalomra a Szálasi-féle vezetés.", "t": "két világháború"},
-    {"q": "Melyik napon kezdődött az 1956-os forradalom?", "a": ["Október 6.", "Október 23.", "November 4.", "December 8."], "c": 1, "d": "easy", "e": "1956. október 23-án a budapesti diáktüntetésből forradalom lett.", "t": "1956"},
-    {"q": "Ki volt a forradalom miniszterelnöke 1956-ban?", "a": ["Kádár János", "Nagy Imre", "Rákosi Mátyás", "Hegedüs András"], "c": 1, "d": "easy", "e": "Nagy Imrét 1958-ban perben halálra ítélték és kivégezték.", "t": "1956"},
-    {"q": "Melyik évben zajlott a rendszerváltás első szabad országgyűlési választása?", "a": ["1988", "1989", "1990", "1991"], "c": 2, "d": "medium", "e": "Az első szabad választást 1990 tavaszán tartották.", "t": "rendszerváltás"},
-    {"q": "Melyik évben hagyta el az utolsó szovjet katona Magyarországot?", "a": ["1989", "1990", "1991", "1992"], "c": 2, "d": "medium", "e": "A szovjet csapatkivonás 1991. június 19-én zárult le.", "t": "rendszerváltás"},
-    {"q": "Melyik évben csatlakozott Magyarország a NATO-hoz?", "a": ["1994", "1997", "1999", "2004"], "c": 2, "d": "medium", "e": "Magyarország 1999. március 12-én lett a NATO tagja.", "t": "rendszerváltás"},
-    {"q": "Melyik évben lett Magyarország az Európai Unió tagja?", "a": ["1999", "2002", "2004", "2007"], "c": 2, "d": "easy", "e": "A csatlakozás 2004. május 1-jén történt meg, kilenc másik országgal együtt.", "t": "rendszerváltás"},
-    {"q": "Mi volt az 1989-es páneurópai piknik jelentősége?", "a": ["Kelet-német menekültek átjutottak Ausztriába", "Aláírták a rendszerváltás alkotmányát", "Megszűnt a Varsói Szerződés", "Kivonultak a szovjet csapatok"], "c": 0, "d": "medium", "e": "Az 1989. augusztus 19-i sopronpusztai határnyitás a vasfüggöny lebontásának szimbóluma lett.", "t": "rendszerváltás"}
+    {
+      "q": "Melyik évben volt a honfoglalás hagyományos dátuma?",
+      "a": [
+        "862",
+        "895",
+        "955",
+        "1000"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "A magyar törzsek Árpád vezetésével 895 körül keltek át a Kárpátokon.",
+      "t": "honfoglalás"
+    },
+    {
+      "q": "Ki volt Árpád apja a hagyomány szerint?",
+      "a": [
+        "Álmos",
+        "Előd",
+        "Ond",
+        "Töhötöm"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A krónikák szerint Álmos vezette a magyarokat Etelközbe, fia Árpád a Kárpát-medencébe.",
+      "t": "honfoglalás"
+    },
+    {
+      "q": "Melyik csatában szenvedtek a magyarok súlyos vereséget 955-ben?",
+      "a": [
+        "Merseburgi csata",
+        "Augsburgi (Lech-mezei) csata",
+        "Riade-i csata",
+        "Pozsonyi csata"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "A 955-es Lech-mezei vereség után a kalandozások nyugat felé megszűntek.",
+      "t": "kalandozások"
+    },
+    {
+      "q": "Mikor koronázták királlyá I. Istvánt a hagyomány szerint?",
+      "a": [
+        "972-ben",
+        "997-ben",
+        "1000/1001 fordulóján",
+        "1038-ban"
+      ],
+      "c": 2,
+      "d": "easy",
+      "e": "Az államalapítás jelképes dátuma 1000 karácsonya, illetve 1001 első napjai.",
+      "t": "államalapítás"
+    },
+    {
+      "q": "Melyik pogány vezért győzte le István a koronázás előtt?",
+      "a": [
+        "Koppányt",
+        "Ajtonyt",
+        "Vatát",
+        "Gyulát"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Koppány a szeniorátus alapján követelte a hatalmat; a veszprémi csatában vesztett.",
+      "t": "államalapítás"
+    },
+    {
+      "q": "Kinek a nevéhez fűződik az Intelmek című uralkodói tanítás?",
+      "a": [
+        "Szent Lászlóhoz",
+        "Szent Istvánhoz",
+        "Könyves Kálmánhoz",
+        "III. Bélához"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Az Intelmeket Szent István fiának, Imre hercegnek szánták.",
+      "t": "államalapítás"
+    },
+    {
+      "q": "Melyik uralkodó szentté avatását ismerjük 1083-ból, Istvánnal és Imrével együtt?",
+      "a": [
+        "Gellért püspököt",
+        "Szent Lászlót",
+        "Szent Mórt",
+        "Szent Zoerárdot"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1083-ban I. László szentté avattatta Istvánt, Imrét és Gellért püspököt.",
+      "t": "Árpád-kor"
+    },
+    {
+      "q": "Melyik király uralkodása alatt zajlott a második keresztes hadjárat átvonulása Magyarországon?",
+      "a": [
+        "II. Béla",
+        "II. Géza",
+        "III. István",
+        "IV. Béla"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "II. Géza idején, 1147-ben vonult át az országon a második keresztes hadjárat.",
+      "t": "Árpád-kor"
+    },
+    {
+      "q": "Mikor adta ki II. András az Aranybullát?",
+      "a": [
+        "1205-ben",
+        "1222-ben",
+        "1231-ben",
+        "1267-ben"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "Az 1222-es Aranybulla a nemesi jogokat rögzítette, benne az ellenállási záradékkal.",
+      "t": "Aranybulla"
+    },
+    {
+      "q": "Melyik évben érte el Magyarországot a tatárjárás fő támadása?",
+      "a": [
+        "1235",
+        "1241",
+        "1245",
+        "1250"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "1241 áprilisában a muhi csatában szenvedett vereséget IV. Béla hadereje.",
+      "t": "tatárjárás"
+    },
+    {
+      "q": "Hol csaptak össze a magyar és a mongol seregek 1241-ben?",
+      "a": [
+        "Muhi puszta",
+        "Mohács",
+        "Nándorfehérvár",
+        "Rozgony"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A muhi csata a Sajó mellett zajlott, és a magyar sereg megsemmisítő vereségével végződött.",
+      "t": "tatárjárás"
+    },
+    {
+      "q": "Milyen melléknévvel illetik IV. Bélát az újjáépítés miatt?",
+      "a": [
+        "Igazságos",
+        "Második honalapító",
+        "Nagy",
+        "Könyves"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "A tatárjárás utáni kővárépítés és újratelepítés miatt hívják második honalapítónak.",
+      "t": "tatárjárás"
+    },
+    {
+      "q": "Melyik uralkodóházból származott Károly Róbert?",
+      "a": [
+        "Luxemburgi",
+        "Anjou",
+        "Habsburg",
+        "Jagelló"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Károly Róbert a nápolyi Anjou-ház tagja volt, 1308-tól magyar király.",
+      "t": "Anjou-kor"
+    },
+    {
+      "q": "Milyen pénzt vezetett be Károly Róbert gazdasági reformja során?",
+      "a": [
+        "Ezüst tallér",
+        "Aranyforint",
+        "Dénár",
+        "Korona"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Az 1325-től vert aranyforint stabil pénzt és jelentős királyi bevételt biztosított.",
+      "t": "Anjou-kor"
+    },
+    {
+      "q": "Melyik országnak volt Nagy Lajos is a királya 1370-től?",
+      "a": [
+        "Csehország",
+        "Lengyelország",
+        "Szerbia",
+        "Bosznia"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Nagy Lajos nagybátyja, Kázmér halála után lengyel király is lett.",
+      "t": "Anjou-kor"
+    },
+    {
+      "q": "Melyik magyar király lett később német-római császár is?",
+      "a": [
+        "Zsigmond",
+        "Nagy Lajos",
+        "Mátyás",
+        "II. Ulászló"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Luxemburgi Zsigmondot 1433-ban koronázták német-római császárrá.",
+      "t": "Zsigmond-kor"
+    },
+    {
+      "q": "Melyik csatában győzte le Hunyadi János a törököket 1456-ban Belgrád alatt?",
+      "a": [
+        "Nikápolyi csata",
+        "Nándorfehérvári diadal",
+        "Várnai csata",
+        "Rigómezei csata"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "Az 1456-os nándorfehérvári győzelem emlékére szól délben a harang.",
+      "t": "Hunyadiak"
+    },
+    {
+      "q": "Melyik évben lett Mátyás magyar király?",
+      "a": [
+        "1443",
+        "1458",
+        "1467",
+        "1490"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Mátyást 1458 januárjában választották királlyá a Duna jegén.",
+      "t": "Hunyadiak"
+    },
+    {
+      "q": "Mi volt Mátyás király zsoldos hadseregének a neve?",
+      "a": [
+        "Fekete sereg",
+        "Végvári vitézek",
+        "Székely határőrség",
+        "Nemesi felkelés"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Fekete sereg állandó zsoldos haderő volt, fenntartása súlyos adóterhet jelentett.",
+      "t": "Hunyadiak"
+    },
+    {
+      "q": "Melyik város volt Mátyás király reneszánsz udvarának központja?",
+      "a": [
+        "Visegrád",
+        "Buda",
+        "Pozsony",
+        "Esztergom"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Buda vára Mátyás alatt európai szintű reneszánsz központtá vált.",
+      "t": "Hunyadiak"
+    },
+    {
+      "q": "Mi volt Mátyás király híres könyvtárának a neve?",
+      "a": [
+        "Bibliotheca Regia",
+        "Corvina",
+        "Chronica Hungarorum",
+        "Athenaeum"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "A Corvina Európa egyik legnagyobb humanista könyvtára volt.",
+      "t": "Hunyadiak"
+    },
+    {
+      "q": "Melyik évben zajlott a mohácsi csata?",
+      "a": [
+        "1514",
+        "1526",
+        "1541",
+        "1552"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "1526. augusztus 29-én a magyar sereg vereséget szenvedett, II. Lajos is életét vesztette.",
+      "t": "Mohács"
+    },
+    {
+      "q": "Ki volt a magyar király a mohácsi csata idején?",
+      "a": [
+        "II. Ulászló",
+        "II. Lajos",
+        "I. Ferdinánd",
+        "Szapolyai János"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "II. Lajos a csata után a Csele-patakban lelte halálát.",
+      "t": "Mohács"
+    },
+    {
+      "q": "Melyik szultán vezette a török sereget Mohácsnál?",
+      "a": [
+        "II. Mehmed",
+        "I. Szulejmán",
+        "II. Bajezid",
+        "IV. Murád"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "I. (Nagy) Szulejmán uralkodása alatt hódította meg a törökség Magyarország középső részét.",
+      "t": "Mohács"
+    },
+    {
+      "q": "Melyik évben foglalta el a török Budát véglegesen?",
+      "a": [
+        "1526",
+        "1529",
+        "1541",
+        "1566"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "1541-ben Buda török kézre került, ezzel kezdődött a hódoltság korszaka.",
+      "t": "török hódoltság"
+    },
+    {
+      "q": "Ki védte Szigetvárt 1566-ban?",
+      "a": [
+        "Dobó István",
+        "Zrínyi Miklós",
+        "Losonczy István",
+        "Jurisics Miklós"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "A szigetvári Zrínyi Miklós a vár elestekor esett el; a szultán is a várostrom alatt hunyt el.",
+      "t": "török hódoltság"
+    },
+    {
+      "q": "Ki vezette Eger védelmét 1552-ben?",
+      "a": [
+        "Dobó István",
+        "Nádasdy Tamás",
+        "Szondi György",
+        "Thúry György"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Dobó István sikeresen megvédte Eger várát a török ostrommal szemben.",
+      "t": "török hódoltság"
+    },
+    {
+      "q": "Hogyan hívták az országnak azt a részét, amely a Habsburgok fennhatósága alá tartozott a hódoltság idején?",
+      "a": [
+        "Királyi Magyarország",
+        "Erdélyi Fejedelemség",
+        "Bánát",
+        "Partium"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ország három részre szakadt: Királyi Magyarország, hódoltság és Erdély.",
+      "t": "török hódoltság"
+    },
+    {
+      "q": "Melyik erdélyi fejedelem lett 1620-ban magyar királlyá választva, de nem koronázták meg?",
+      "a": [
+        "Bocskai István",
+        "Bethlen Gábor",
+        "I. Rákóczi György",
+        "Báthory Gábor"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Bethlen Gábort a besztercebányai országgyűlés választotta királlyá, a címet később letette.",
+      "t": "Erdély"
+    },
+    {
+      "q": "Melyik évben szabadult fel Buda a török uralom alól?",
+      "a": [
+        "1683",
+        "1686",
+        "1697",
+        "1699"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "1686-ban a keresztény szövetséges seregek visszavették Budát.",
+      "t": "török kiűzése"
+    },
+    {
+      "q": "Melyik békével zárult a török kiűzése Magyarországról 1699-ben?",
+      "a": [
+        "Vasvári béke",
+        "Karlócai béke",
+        "Szatmári béke",
+        "Passarowitzi béke"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Az 1699-es karlócai béke rögzítette a török kiszorulását a Temesvidék kivételével.",
+      "t": "török kiűzése"
+    },
+    {
+      "q": "Melyik években zajlott a Rákóczi-szabadságharc?",
+      "a": [
+        "1683–1699",
+        "1703–1711",
+        "1716–1718",
+        "1741–1748"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "II. Rákóczi Ferenc vezette szabadságharc 1703-ban indult, 1711-ben zárult le.",
+      "t": "Rákóczi"
+    },
+    {
+      "q": "Milyen békével ért véget a Rákóczi-szabadságharc?",
+      "a": [
+        "Szatmári béke",
+        "Karlócai béke",
+        "Bécsi béke",
+        "Linzi béke"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1711-es szatmári béke amnesztiát adott, de a szabadságharc célja nem teljesült.",
+      "t": "Rákóczi"
+    },
+    {
+      "q": "Ki volt Rákóczi legendás tábornoka, akihez a „bujdosó” kuruc emlékezet is kötődik?",
+      "a": [
+        "Bercsényi Miklós",
+        "Vak Bottyán János",
+        "Károlyi Sándor",
+        "Ocskay László"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Bottyán János, a „Vak Bottyán” a szabadságharc egyik legsikeresebb hadvezére volt.",
+      "t": "Rákóczi"
+    },
+    {
+      "q": "Melyik uralkodó adta ki a Türelmi rendeletet 1781-ben?",
+      "a": [
+        "Mária Terézia",
+        "II. József",
+        "I. Lipót",
+        "II. Lipót"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "II. József türelmi rendelete a protestánsoknak és ortodoxoknak adott vallásgyakorlási jogot.",
+      "t": "felvilágosult abszolutizmus"
+    },
+    {
+      "q": "Mit vezetett be Mária Terézia 1767-es rendelete?",
+      "a": [
+        "Urbáriumot",
+        "Türelmi rendeletet",
+        "Jobbágyfelszabadítást",
+        "Kalapos rendeletet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az urbárium egységesen szabályozta a jobbágyok szolgáltatásait.",
+      "t": "felvilágosult abszolutizmus"
+    },
+    {
+      "q": "Kihez kötődik a Hitel című reformkori mű?",
+      "a": [
+        "Kossuth Lajos",
+        "Széchenyi István",
+        "Wesselényi Miklós",
+        "Deák Ferenc"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "Széchenyi István 1830-as Hitel című műve a reformkor programadó írása.",
+      "t": "reformkor"
+    },
+    {
+      "q": "Melyik napon kezdődött az 1848-as pesti forradalom?",
+      "a": [
+        "Március 3.",
+        "Március 15.",
+        "Április 11.",
+        "Szeptember 29."
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "1848. március 15-én a pesti forradalom kikényszerítette a 12 pont követeléseit.",
+      "t": "1848–49"
+    },
+    {
+      "q": "Ki volt az első felelős magyar miniszterelnök 1848-ban?",
+      "a": [
+        "Kossuth Lajos",
+        "Batthyány Lajos",
+        "Szemere Bertalan",
+        "Deák Ferenc"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "Batthyány Lajos vezette az első felelős magyar kormányt.",
+      "t": "1848–49"
+    },
+    {
+      "q": "Melyik csatában győzött a magyar honvédsereg 1849 áprilisában, Tápióbicske után Isaszegnél?",
+      "a": [
+        "A tavaszi hadjáratban",
+        "A nyári hadjáratban",
+        "A téli hadjáratban",
+        "A délvidéki hadjáratban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1849-es tavaszi hadjárat sorozatos magyar győzelmeket hozott.",
+      "t": "1848–49"
+    },
+    {
+      "q": "Hol tette le a magyar sereg a fegyvert 1849. augusztus 13-án?",
+      "a": [
+        "Világosnál",
+        "Aradon",
+        "Temesvárnál",
+        "Szőlőspusztán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Világosnál a fősereg az orosz csapatok előtt tette le a fegyvert.",
+      "t": "1848–49"
+    },
+    {
+      "q": "Hány honvédtisztet végeztek ki Aradon 1849. október 6-án?",
+      "a": [
+        "9",
+        "13",
+        "16",
+        "21"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "Az aradi vértanúk száma tizenhárom volt; ugyanezen a napon Pesten Batthyányt is kivégezték.",
+      "t": "1848–49"
+    },
+    {
+      "q": "Melyik évben született meg az osztrák–magyar kiegyezés?",
+      "a": [
+        "1848",
+        "1859",
+        "1867",
+        "1875"
+      ],
+      "c": 2,
+      "d": "easy",
+      "e": "Az 1867-es kiegyezés hozta létre az Osztrák–Magyar Monarchiát.",
+      "t": "dualizmus"
+    },
+    {
+      "q": "Ki volt a kiegyezés fő magyar politikai kidolgozója?",
+      "a": [
+        "Andrássy Gyula",
+        "Deák Ferenc",
+        "Tisza Kálmán",
+        "Eötvös József"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Deák Ferencet „a haza bölcse” néven is emlegetik a kiegyezés miatt.",
+      "t": "dualizmus"
+    },
+    {
+      "q": "Melyik évben egyesült Pest, Buda és Óbuda Budapest néven?",
+      "a": [
+        "1867",
+        "1873",
+        "1896",
+        "1900"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Az 1873-as egyesítéssel jött létre a mai főváros közigazgatási elődje.",
+      "t": "dualizmus"
+    },
+    {
+      "q": "Melyik évben írták alá a trianoni békeszerződést?",
+      "a": [
+        "1918",
+        "1919",
+        "1920",
+        "1921"
+      ],
+      "c": 2,
+      "d": "easy",
+      "e": "A szerződést 1920. június 4-én írták alá a versailles-i Nagy-Trianon palotában.",
+      "t": "Trianon"
+    },
+    {
+      "q": "Ki volt Magyarország kormányzója 1920 és 1944 között?",
+      "a": [
+        "Horthy Miklós",
+        "Bethlen István",
+        "Károlyi Mihály",
+        "Teleki Pál"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Horthy Miklóst 1920 márciusában választotta kormányzóvá a nemzetgyűlés.",
+      "t": "két világháború"
+    },
+    {
+      "q": "Melyik évben történt a nyilas hatalomátvétel Magyarországon?",
+      "a": [
+        "1938",
+        "1941",
+        "1944",
+        "1945"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "1944. október 15-én, Horthy kiugrási kísérletének kudarca után került hatalomra a Szálasi-féle vezetés.",
+      "t": "két világháború"
+    },
+    {
+      "q": "Melyik napon kezdődött az 1956-os forradalom?",
+      "a": [
+        "Október 6.",
+        "Október 23.",
+        "November 4.",
+        "December 8."
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "1956. október 23-án a budapesti diáktüntetésből forradalom lett.",
+      "t": "1956"
+    },
+    {
+      "q": "Ki volt a forradalom miniszterelnöke 1956-ban?",
+      "a": [
+        "Kádár János",
+        "Nagy Imre",
+        "Rákosi Mátyás",
+        "Hegedüs András"
+      ],
+      "c": 1,
+      "d": "easy",
+      "e": "Nagy Imrét 1958-ban perben halálra ítélték és kivégezték.",
+      "t": "1956"
+    },
+    {
+      "q": "Melyik évben zajlott a rendszerváltás első szabad országgyűlési választása?",
+      "a": [
+        "1988",
+        "1989",
+        "1990",
+        "1991"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Az első szabad választást 1990 tavaszán tartották.",
+      "t": "rendszerváltás"
+    },
+    {
+      "q": "Melyik évben hagyta el az utolsó szovjet katona Magyarországot?",
+      "a": [
+        "1989",
+        "1990",
+        "1991",
+        "1992"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "A szovjet csapatkivonás 1991. június 19-én zárult le.",
+      "t": "rendszerváltás"
+    },
+    {
+      "q": "Melyik évben csatlakozott Magyarország a NATO-hoz?",
+      "a": [
+        "1994",
+        "1997",
+        "1999",
+        "2004"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Magyarország 1999. március 12-én lett a NATO tagja.",
+      "t": "rendszerváltás"
+    },
+    {
+      "q": "Melyik évben lett Magyarország az Európai Unió tagja?",
+      "a": [
+        "1999",
+        "2002",
+        "2004",
+        "2007"
+      ],
+      "c": 2,
+      "d": "easy",
+      "e": "A csatlakozás 2004. május 1-jén történt meg, kilenc másik országgal együtt.",
+      "t": "rendszerváltás"
+    },
+    {
+      "q": "Mi volt az 1989-es páneurópai piknik jelentősége?",
+      "a": [
+        "Kelet-német menekültek átjutottak Ausztriába",
+        "Aláírták a rendszerváltás alkotmányát",
+        "Megszűnt a Varsói Szerződés",
+        "Kivonultak a szovjet csapatok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1989. augusztus 19-i sopronpusztai határnyitás a vasfüggöny lebontásának szimbóluma lett.",
+      "t": "rendszerváltás"
+    },
+    {
+      "q": "Melyik évszázadban született II. Rákóczi Ferenc?",
+      "a": [
+        "19. század",
+        "17. század",
+        "18. század",
+        "11. század"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "II. Rákóczi Ferenc születése: 17. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q181333"
+    },
+    {
+      "q": "Melyik évszázadban született Habsburg–Lotaringiai József Ágost főherceg?",
+      "a": [
+        "19. század",
+        "14. század",
+        "12. század",
+        "13. század"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Habsburg–Lotaringiai József Ágost főherceg születése: 19. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q78535"
+    },
+    {
+      "q": "Melyik évszázadban született Teleki Sámuel?",
+      "a": [
+        "14. század",
+        "15. század",
+        "19. század",
+        "11. század"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Teleki Sámuel születése: 19. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q78584"
+    },
+    {
+      "q": "Melyik évszázadban született Gyulay Ignác?",
+      "a": [
+        "18. század",
+        "10. század",
+        "14. század",
+        "13. század"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Gyulay Ignác születése: 18. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q78783"
+    },
+    {
+      "q": "Melyik évszázadban született II. István magyar király?",
+      "a": [
+        "12. század",
+        "11. század",
+        "15. század",
+        "17. század"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "II. István magyar király születése: 12. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q82448"
+    },
+    {
+      "q": "Melyik évszázadban született Habsburg Ottó?",
+      "a": [
+        "15. század",
+        "20. század",
+        "18. század",
+        "10. század"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Habsburg Ottó születése: 20. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q76343"
+    },
+    {
+      "q": "Melyik évszázadban született II. Béla magyar király?",
+      "a": [
+        "14. század",
+        "15. század",
+        "12. század",
+        "11. század"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "II. Béla magyar király születése: 12. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q82686"
+    },
+    {
+      "q": "Melyik évszázadban született I. Géza magyar király?",
+      "a": [
+        "10. század",
+        "11. század",
+        "12. század",
+        "14. század"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "I. Géza magyar király születése: 11. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q82687"
+    },
+    {
+      "q": "Melyik évszázadban született Rákosi Mátyás?",
+      "a": [
+        "20. század",
+        "16. század",
+        "14. század",
+        "19. század"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Rákosi Mátyás születése: 19. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q207631"
+    },
+    {
+      "q": "Melyik évszázadban született Szende István?",
+      "a": [
+        "11. század",
+        "10. század",
+        "16. század",
+        "20. század"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Szende István születése: 20. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q214569"
+    },
+    {
+      "q": "Melyik évszázadban született Kádár János?",
+      "a": [
+        "17. század",
+        "15. század",
+        "20. század",
+        "11. század"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Kádár János születése: 20. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q200850"
+    },
+    {
+      "q": "Melyik évszázadban született II. László?",
+      "a": [
+        "12. század",
+        "18. század",
+        "20. század",
+        "15. század"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "II. László születése: 12. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q87044"
+    },
+    {
+      "q": "Melyik évszázadban született III. István?",
+      "a": [
+        "12. század",
+        "14. század",
+        "17. század",
+        "13. század"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "III. István születése: 12. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q87051"
+    },
+    {
+      "q": "Melyik évszázadban született Zrínyi Miklós?",
+      "a": [
+        "19. század",
+        "13. század",
+        "18. század",
+        "16. század"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Zrínyi Miklós születése: 16. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q467477"
+    },
+    {
+      "q": "Melyik évszázadban született Eötvös József?",
+      "a": [
+        "10. század",
+        "18. század",
+        "19. század",
+        "15. század"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Eötvös József születése: 19. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q469996"
+    },
+    {
+      "q": "Melyik évszázadban született Polinszky Károly?",
+      "a": [
+        "20. század",
+        "12. század",
+        "13. század",
+        "19. század"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Polinszky Károly születése: 20. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q217580"
+    },
+    {
+      "q": "Melyik évszázadban született Ottó magyar király?",
+      "a": [
+        "18. század",
+        "20. század",
+        "13. század",
+        "11. század"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Ottó magyar király születése: 13. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q57323"
+    },
+    {
+      "q": "Melyik évszázadban született Nemes Dezső?",
+      "a": [
+        "12. század",
+        "19. század",
+        "20. század",
+        "16. század"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Nemes Dezső születése: 20. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q71956"
+    },
+    {
+      "q": "Melyik évszázadban született Klapka György?",
+      "a": [
+        "19. század",
+        "11. század",
+        "18. század",
+        "12. század"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Klapka György születése: 19. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q18712"
+    },
+    {
+      "q": "Melyik évszázadban született Jászi Oszkár?",
+      "a": [
+        "19. század",
+        "11. század",
+        "13. század",
+        "14. század"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Jászi Oszkár születése: 19. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q139980"
+    },
+    {
+      "q": "Melyik évszázadban született Ivan Ribar?",
+      "a": [
+        "14. század",
+        "19. század",
+        "20. század",
+        "11. század"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Ivan Ribar születése: 19. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q149090"
+    },
+    {
+      "q": "Melyik évszázadban született Kálmán magyar király?",
+      "a": [
+        "15. század",
+        "11. század",
+        "19. század",
+        "18. század"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Kálmán magyar király születése: 11. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q83066"
+    },
+    {
+      "q": "Melyik évszázadban született Bartók Béla?",
+      "a": [
+        "20. század",
+        "18. század",
+        "11. század",
+        "19. század"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Bartók Béla születése: 19. század.",
+      "t": "történelmi személyek",
+      "s": "http://www.wikidata.org/entity/Q83326"
+    }
   ]
 }

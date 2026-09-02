@@ -2,60 +2,1552 @@
   "category": "magyar-kultura",
   "default_source": "saját szerkesztés (általános műveltségi tananyag)",
   "questions": [
-    {"q": "Melyik magyar találmány köthető Bíró László József nevéhez?", "a": ["Golyóstoll", "Telefonhírmondó", "Dinamó", "Gyufa"], "c": 0, "d": "easy", "e": "Bíró László József 1938-ban szabadalmaztatta a golyóstollat.", "t": "találmányok"},
-    {"q": "Ki találta fel a Rubik-kockát?", "a": ["Rubik Ernő", "Neumann János", "Kandó Kálmán", "Jedlik Ányos"], "c": 0, "d": "easy", "e": "Rubik Ernő 1974-ben készítette el a bűvös kockát.", "t": "találmányok"},
-    {"q": "Kihez fűződik a dinamó elvének felfedezése Magyarországon?", "a": ["Jedlik Ányos", "Bláthy Ottó", "Zipernowsky Károly", "Kandó Kálmán"], "c": 0, "d": "medium", "e": "Jedlik Ányos már 1861 körül leírta az öngerjesztés elvét.", "t": "találmányok"},
-    {"q": "Kik alkották meg a transzformátort 1885-ben a Ganz gyárban?", "a": ["Bláthy, Déri és Zipernowsky", "Puskás és Bíró", "Kandó és Jedlik", "Galamb és Csonka"], "c": 0, "d": "medium", "e": "Bláthy Ottó Titusz, Déri Miksa és Zipernowsky Károly szabadalma a zárt vasmagos transzformátor.", "t": "találmányok"},
-    {"q": "Kinek a nevéhez fűződik a telefonközpont és a Telefonhírmondó?", "a": ["Puskás Tivadar", "Bláthy Ottó", "Csonka János", "Galamb József"], "c": 0, "d": "medium", "e": "Puskás Tivadar 1893-ban indította el a budapesti Telefonhírmondót.", "t": "találmányok"},
-    {"q": "Ki volt az a magyar származású matematikus, aki a modern számítógép-architektúra megalkotója?", "a": ["Neumann János", "Erdős Pál", "Bolyai János", "Riesz Frigyes"], "c": 0, "d": "easy", "e": "Neumann János nevéhez fűződik a tárolt programú számítógép elve.", "t": "tudósok"},
-    {"q": "Ki írta le a nemeuklideszi geometria alapjait a magyar matematikusok közül?", "a": ["Bolyai János", "Neumann János", "Erdős Pál", "Fejér Lipót"], "c": 0, "d": "medium", "e": "Bolyai János 1832-ben megjelent Appendixe a hiperbolikus geometria alapműve.", "t": "tudósok"},
-    {"q": "Melyik magyar orvos érdeme a gyermekágyi láz megelőzése kézmosással?", "a": ["Semmelweis Ignác", "Korányi Frigyes", "Szent-Györgyi Albert", "Bókay János"], "c": 0, "d": "easy", "e": "Semmelweis Ignácot „az anyák megmentőjeként” is emlegetik.", "t": "tudósok"},
-    {"q": "Melyik magyar tudós kapott Nobel-díjat a C-vitamin kutatásáért?", "a": ["Szent-Györgyi Albert", "Békésy György", "Hevesy György", "Gábor Dénes"], "c": 0, "d": "medium", "e": "Szent-Györgyi Albert 1937-ben kapott fiziológiai és orvostudományi Nobel-díjat.", "t": "Nobel-díj"},
-    {"q": "Melyik magyar tudós kapta a Nobel-díjat a holográfia felfedezéséért?", "a": ["Gábor Dénes", "Wigner Jenő", "Oláh György", "Polányi János"], "c": 0, "d": "medium", "e": "Gábor Dénes 1971-ben kapott fizikai Nobel-díjat.", "t": "Nobel-díj"},
-    {"q": "Melyik magyar kutató kapott 2023-ban orvosi Nobel-díjat az mRNS-technológiáért?", "a": ["Karikó Katalin", "Hámori József", "Freund Tamás", "Lovász László"], "c": 0, "d": "medium", "e": "Karikó Katalin Drew Weissmannal együtt kapta a díjat a módosított mRNS kutatásáért.", "t": "Nobel-díj"},
-    {"q": "Melyik magyar néptánc-hagyomány áll az UNESCO szellemi kulturális örökség listáján a tánctanítás módszereként?", "a": ["Táncház-módszer", "Verbunk", "Csárdás", "Karikázó"], "c": 0, "d": "hard", "e": "A táncház-módszer 2011-ben került a jó megőrzési gyakorlatok listájára.", "t": "néphagyomány"},
-    {"q": "Mi a busójárás?", "a": ["Mohácsi télűző maszkos szokás", "Nyári aratóünnep", "Szüreti felvonulás", "Pünkösdi királyválasztás"], "c": 0, "d": "medium", "e": "A mohácsi busójárás UNESCO szellemi kulturális örökség.", "t": "néphagyomány"},
-    {"q": "Melyik népi szokás kötődik a pünkösdhöz?", "a": ["Pünkösdi királyválasztás", "Regölés", "Betlehemezés", "Luca-napi kotyolás"], "c": 0, "d": "medium", "e": "A pünkösdi királyt versenyekkel választották ki egy évre.", "t": "néphagyomány"},
-    {"q": "Mikor szokás locsolkodni a magyar hagyomány szerint?", "a": ["Húsvéthétfőn", "Pünkösdkor", "Nagypénteken", "Farsangkor"], "c": 0, "d": "easy", "e": "A húsvéthétfői locsolás termékenységi és tisztító rítusból ered.", "t": "néphagyomány"},
-    {"q": "Mit jelöl a „Luca napja” a néphagyományban?", "a": ["December 13-át", "November 1-jét", "Február 2-át", "Március 25-ét"], "c": 0, "d": "medium", "e": "Luca napja december 13., a Luca-szék és a Luca-búza szokásával.", "t": "néphagyomány"},
-    {"q": "Melyik hímzésstílus kötődik Kalocsához?", "a": ["Színes virágos kalocsai hímzés", "Fekete úri hímzés", "Kék festés", "Matyó szűrrátét"], "c": 0, "d": "medium", "e": "A kalocsai írásos hímzés élénk színű, virágos motívumvilágú.", "t": "népművészet"},
-    {"q": "Melyik település nevéhez kötődik a matyó népművészet?", "a": ["Mezőkövesd", "Kalocsa", "Sárközi Decs", "Hollókő"], "c": 0, "d": "medium", "e": "A matyó népművészet központja Mezőkövesd; UNESCO-listás örökség.", "t": "népművészet"},
-    {"q": "Mi a herendi manufaktúra fő terméke?", "a": ["Porcelán", "Üveg", "Fajansz csempe", "Ólomkristály"], "c": 0, "d": "easy", "e": "A Herendi Porcelánmanufaktúra 1826-ban alapult.", "t": "népművészet"},
-    {"q": "Melyik magyar keramikus nevéhez fűződik az eozin mázas kerámia?", "a": ["Zsolnay Vilmos", "Gorka Géza", "Kovács Margit", "Herend Vince"], "c": 0, "d": "medium", "e": "A Zsolnay-gyár eozin mázát a 19. század végén fejlesztették ki Pécsen.", "t": "népművészet"},
-    {"q": "Melyik magyar városban működik a Zsolnay-gyár?", "a": ["Pécs", "Herend", "Hódmezővásárhely", "Kalocsa"], "c": 0, "d": "medium", "e": "A Zsolnay Porcelánmanufaktúra pécsi alapítású.", "t": "népművészet"},
-    {"q": "Melyik magyar hangszer a citera?", "a": ["Pengetős népi hangszer", "Fúvós hangszer", "Ütős hangszer", "Vonós hangszer"], "c": 0, "d": "medium", "e": "A citera pengetős, húros népi hangszer, a magyar népzene jellegzetes eszköze.", "t": "néphagyomány"},
-    {"q": "Mi a tárogató?", "a": ["Fafúvós hangszer", "Vonós hangszer", "Ütős hangszer", "Pengetős hangszer"], "c": 0, "d": "medium", "e": "A tárogató a kuruc hagyomány jelképes fafúvós hangszere.", "t": "néphagyomány"},
-    {"q": "Melyik magyar népi építészeti elem a „tornác”?", "a": ["Oszlopos nyitott folyosó", "Kemence", "Tetőszerkezet", "Kerítéskapu"], "c": 0, "d": "medium", "e": "A tornác a ház hosszanti oldalán futó nyitott, oszlopos folyosó.", "t": "népi építészet"},
-    {"q": "Melyik magyar népi lakóház-forma jellemző a Nagykunságra és a Hortobágyra?", "a": ["Vályogfalú, nádtetős ház", "Kőházas emeletes ház", "Faborítású boronaház", "Téglaházas villa"], "c": 0, "d": "hard", "e": "Az Alföldön a vályog és a nádtető volt a jellemző anyaghasználat.", "t": "népi építészet"},
-    {"q": "Melyik magyar nemzeti jelkép színei felülről lefelé?", "a": ["Piros, fehér, zöld", "Zöld, fehér, piros", "Fehér, piros, zöld", "Piros, zöld, fehér"], "c": 0, "d": "easy", "e": "A magyar zászló sorrendje felülről: piros, fehér, zöld.", "t": "jelképek"},
-    {"q": "Mit jelképez a magyar címerben a kettős kereszt?", "a": ["Az apostoli királyságot", "A négy folyót", "A hét törzset", "A királyi bíróságot"], "c": 0, "d": "medium", "e": "A kettős kereszt bizánci eredetű, az apostoli királyság jelképe lett.", "t": "jelképek"},
-    {"q": "Melyik virág a magyar néphagyomány gyakori motívuma a hímzéseken?", "a": ["Tulipán", "Orchidea", "Kaktuszvirág", "Kamélia"], "c": 0, "d": "easy", "e": "A tulipán a magyar népművészet egyik legelterjedtebb motívuma.", "t": "népművészet"},
-    {"q": "Mi a hungarikum?", "a": ["Kiemelt nemzeti értékként elismert termék vagy hagyomány", "Uniós szabadalmi kategória", "Magyar szabvány jelzés", "Vámmentes áru"], "c": 0, "d": "medium", "e": "A hungarikumok gyűjteményébe törvényi eljárás alapján kerülnek értékek.", "t": "hungarikumok"},
-    {"q": "Melyik nem hungarikum a felsoroltak közül?", "a": ["Camembert sajt", "Tokaji aszú", "Gyulai kolbász", "Herendi porcelán"], "c": 0, "d": "medium", "e": "A camembert francia eredetű sajt, nem magyar érték.", "t": "hungarikumok"},
-    {"q": "Melyik város a magyar színjátszás első kőszínházának helye 1821-ből?", "a": ["Kolozsvár", "Pest", "Miskolc", "Debrecen"], "c": 0, "d": "hard", "e": "A kolozsvári kőszínház 1821-ben nyílt meg, a pesti Nemzeti Színház 1837-ben.", "t": "színház"},
-    {"q": "Melyik évben nyílt meg a pesti Nemzeti Színház?", "a": ["1837", "1848", "1867", "1884"], "c": 0, "d": "hard", "e": "A Pesti Magyar Színház 1837-ben nyitott, később lett Nemzeti Színház.", "t": "színház"},
-    {"q": "Melyik évben nyitották meg a budapesti Operaházat?", "a": ["1884", "1873", "1896", "1902"], "c": 0, "d": "medium", "e": "Az Ybl Miklós tervezte Operaház 1884-ben nyílt meg az Andrássy úton.", "t": "építészet"},
-    {"q": "Ki tervezte a budapesti Országházat?", "a": ["Steindl Imre", "Ybl Miklós", "Lechner Ödön", "Hauszmann Alajos"], "c": 0, "d": "medium", "e": "Steindl Imre neogótikus terve alapján 1885 és 1904 között épült.", "t": "építészet"},
-    {"q": "Melyik magyar építész nevéhez fűződik a szecessziós „magyar formanyelv”, például az Iparművészeti Múzeum?", "a": ["Lechner Ödön", "Steindl Imre", "Ybl Miklós", "Pollack Mihály"], "c": 0, "d": "medium", "e": "Lechner Ödön a magyaros szecesszió megteremtője.", "t": "építészet"},
-    {"q": "Ki tervezte a Magyar Nemzeti Múzeum klasszicista épületét?", "a": ["Pollack Mihály", "Ybl Miklós", "Hild József", "Feszl Frigyes"], "c": 0, "d": "hard", "e": "Pollack Mihály tervei alapján 1837 és 1847 között épült.", "t": "építészet"},
-    {"q": "Melyik magyar fürdő Budapest legrégebbi, török eredetű fürdői közé tartozik?", "a": ["Rudas gyógyfürdő", "Széchenyi fürdő", "Gellért fürdő", "Palatinus strand"], "c": 0, "d": "medium", "e": "A Rudas fürdő 16. századi török eredetű kupolás terme ma is működik.", "t": "kultúra"},
-    {"q": "Melyik magyar könyv az első teljes magyar nyelvű Biblia-fordítás?", "a": ["Vizsolyi Biblia", "Sylvester-féle Újszövetség", "Halotti beszéd", "Bécsi kódex"], "c": 0, "d": "medium", "e": "Károlyi Gáspár 1590-es vizsolyi Bibliája az első teljes magyar fordítás.", "t": "könyvkultúra"},
-    {"q": "Mi a legkorábbi ismert összefüggő magyar nyelvű szövegemlék?", "a": ["Halotti beszéd és könyörgés", "Ómagyar Mária-siralom", "Tihanyi apátság alapítólevele", "Gyulafehérvári sorok"], "c": 0, "d": "medium", "e": "A Halotti beszéd 1192–1195 körül keletkezett, a Pray-kódexben maradt fenn.", "t": "könyvkultúra"},
-    {"q": "Melyik a legkorábbi ismert magyar nyelvű vers?", "a": ["Ómagyar Mária-siralom", "Halotti beszéd", "Szabács viadala", "Cantio de Sancto Ladislao"], "c": 0, "d": "medium", "e": "Az Ómagyar Mária-siralom a 13. század közepéről származik.", "t": "könyvkultúra"},
-    {"q": "Melyik magyar nyomdász nevéhez fűződik az első Magyarországon nyomtatott könyv, a Chronica Hungarorum?", "a": ["Hess András", "Manlius János", "Heltai Gáspár", "Honterus János"], "c": 0, "d": "hard", "e": "Hess András budai nyomdájában 1473-ban készült el a Chronica Hungarorum.", "t": "könyvkultúra"},
-    {"q": "Melyik magyar szokás szerint ünneplik a névnapokat?", "a": ["A naptárban a névhez rendelt napon", "Mindig a születésnap előtt", "Csak januárban", "A keresztelő napján"], "c": 0, "d": "easy", "e": "A névnap a naptári névhez kötődik, a magyar szokásrendben önálló ünnep.", "t": "szokások"},
-    {"q": "Mit jelent a „gulyás” szó eredeti jelentése?", "a": ["Marhapásztor", "Bogrács", "Fűszerkeverék", "Sűrű leves"], "c": 0, "d": "medium", "e": "A gulyás eredetileg a gulyát, azaz a marhacsordát őrző pásztor.", "t": "szokások"},
-    {"q": "Melyik magyar tánc a verbunk eredete szerint?", "a": ["Katonai újoncgyűjtő tánc", "Aratótánc", "Menyegzői körtánc", "Pásztortánc botokkal"], "c": 0, "d": "hard", "e": "A verbunk a 18. századi katonai újoncszedéshez kapcsolódó férfitánc.", "t": "néphagyomány"},
-    {"q": "Melyik magyar népi hangszer szól a betlehemezésben és a regölésben?", "a": ["Köcsögduda", "Cselló", "Hárfa", "Klarinét"], "c": 0, "d": "hard", "e": "A köcsögduda (bika) surdó jellegű, dörmögő hangot adó népi eszköz.", "t": "néphagyomány"},
-    {"q": "Melyik magyar múzeum őrzi a Szent Koronát?", "a": ["Az Országház", "Magyar Nemzeti Múzeum", "Szépművészeti Múzeum", "Iparművészeti Múzeum"], "c": 0, "d": "medium", "e": "A Szent Korona 2000 óta az Országház kupolatermében látható.", "t": "jelképek"},
-    {"q": "Mikor van a magyar kultúra napja?", "a": ["Január 22.", "Március 15.", "Augusztus 20.", "Október 23."], "c": 0, "d": "medium", "e": "Január 22. a Himnusz kéziratának befejezési dátuma (1823).", "t": "ünnepek"},
-    {"q": "Melyik nap Magyarország állami ünnepe az államalapítás emlékére?", "a": ["Augusztus 20.", "Március 15.", "Október 23.", "Június 4."], "c": 0, "d": "easy", "e": "Augusztus 20. Szent István napja, az államalapítás ünnepe.", "t": "ünnepek"},
-    {"q": "Melyik magyar ünnep emlékezik az 1956-os forradalomra?", "a": ["Október 23.", "Március 15.", "Augusztus 20.", "November 4."], "c": 0, "d": "easy", "e": "Október 23. 1989 óta nemzeti ünnep.", "t": "ünnepek"},
-    {"q": "Mit ünneplünk március 15-én?", "a": ["Az 1848-as forradalom kitörését", "Az államalapítást", "A rendszerváltást", "A trianoni békeszerződést"], "c": 0, "d": "easy", "e": "1848. március 15. a pesti forradalom napja.", "t": "ünnepek"},
-    {"q": "Melyik magyar díj a legmagasabb állami művészeti elismerés?", "a": ["Kossuth-díj", "Széchenyi-díj", "Prima Primissima", "Balázs Béla-díj"], "c": 0, "d": "medium", "e": "A Kossuth-díj a művészeti és kulturális teljesítmény legfőbb állami kitüntetése.", "t": "díjak"},
-    {"q": "Melyik magyar díj a tudományos teljesítmény állami elismerése?", "a": ["Széchenyi-díj", "Kossuth-díj", "Bolyai-díj", "Corvin-lánc"], "c": 0, "d": "hard", "e": "A Széchenyi-díj a tudomány területén elért kiemelkedő eredményeket jutalmazza.", "t": "díjak"},
-    {"q": "Melyik magyar szervezet a legfőbb tudományos testület?", "a": ["Magyar Tudományos Akadémia", "Magyar Nemzeti Bank", "Országos Széchényi Könyvtár", "Magyar Írószövetség"], "c": 0, "d": "easy", "e": "Az MTA-t 1825-ben Széchenyi István felajánlásából alapították.", "t": "intézmények"},
-    {"q": "Melyik könyvtár a magyar nemzeti könyvtár?", "a": ["Országos Széchényi Könyvtár", "Fővárosi Szabó Ervin Könyvtár", "Egyetemi Könyvtár", "Nemzeti Múzeum könyvtára"], "c": 0, "d": "medium", "e": "Az OSZK a Budavári Palotában működik, Széchényi Ferenc alapításából.", "t": "intézmények"},
-    {"q": "Melyik magyar hagyományos játék a „métázás”?", "a": ["Ütővel és labdával játszott csapatjáték", "Kártyajáték", "Táblás stratégiai játék", "Kockajáték"], "c": 0, "d": "hard", "e": "A méta a baseballhoz hasonló, ütővel játszott régi magyar népi labdajáték.", "t": "szokások"}
+    {
+      "q": "Melyik magyar találmány köthető Bíró László József nevéhez?",
+      "a": [
+        "Golyóstoll",
+        "Telefonhírmondó",
+        "Dinamó",
+        "Gyufa"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bíró László József 1938-ban szabadalmaztatta a golyóstollat.",
+      "t": "találmányok"
+    },
+    {
+      "q": "Ki találta fel a Rubik-kockát?",
+      "a": [
+        "Rubik Ernő",
+        "Neumann János",
+        "Kandó Kálmán",
+        "Jedlik Ányos"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Rubik Ernő 1974-ben készítette el a bűvös kockát.",
+      "t": "találmányok"
+    },
+    {
+      "q": "Kihez fűződik a dinamó elvének felfedezése Magyarországon?",
+      "a": [
+        "Jedlik Ányos",
+        "Bláthy Ottó",
+        "Zipernowsky Károly",
+        "Kandó Kálmán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Jedlik Ányos már 1861 körül leírta az öngerjesztés elvét.",
+      "t": "találmányok"
+    },
+    {
+      "q": "Kik alkották meg a transzformátort 1885-ben a Ganz gyárban?",
+      "a": [
+        "Bláthy, Déri és Zipernowsky",
+        "Puskás és Bíró",
+        "Kandó és Jedlik",
+        "Galamb és Csonka"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bláthy Ottó Titusz, Déri Miksa és Zipernowsky Károly szabadalma a zárt vasmagos transzformátor.",
+      "t": "találmányok"
+    },
+    {
+      "q": "Kinek a nevéhez fűződik a telefonközpont és a Telefonhírmondó?",
+      "a": [
+        "Puskás Tivadar",
+        "Bláthy Ottó",
+        "Csonka János",
+        "Galamb József"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Puskás Tivadar 1893-ban indította el a budapesti Telefonhírmondót.",
+      "t": "találmányok"
+    },
+    {
+      "q": "Ki volt az a magyar származású matematikus, aki a modern számítógép-architektúra megalkotója?",
+      "a": [
+        "Neumann János",
+        "Erdős Pál",
+        "Bolyai János",
+        "Riesz Frigyes"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Neumann János nevéhez fűződik a tárolt programú számítógép elve.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Ki írta le a nemeuklideszi geometria alapjait a magyar matematikusok közül?",
+      "a": [
+        "Bolyai János",
+        "Neumann János",
+        "Erdős Pál",
+        "Fejér Lipót"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bolyai János 1832-ben megjelent Appendixe a hiperbolikus geometria alapműve.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik magyar orvos érdeme a gyermekágyi láz megelőzése kézmosással?",
+      "a": [
+        "Semmelweis Ignác",
+        "Korányi Frigyes",
+        "Szent-Györgyi Albert",
+        "Bókay János"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Semmelweis Ignácot „az anyák megmentőjeként” is emlegetik.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik magyar tudós kapott Nobel-díjat a C-vitamin kutatásáért?",
+      "a": [
+        "Szent-Györgyi Albert",
+        "Békésy György",
+        "Hevesy György",
+        "Gábor Dénes"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szent-Györgyi Albert 1937-ben kapott fiziológiai és orvostudományi Nobel-díjat.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik magyar tudós kapta a Nobel-díjat a holográfia felfedezéséért?",
+      "a": [
+        "Gábor Dénes",
+        "Wigner Jenő",
+        "Oláh György",
+        "Polányi János"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Gábor Dénes 1971-ben kapott fizikai Nobel-díjat.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik magyar kutató kapott 2023-ban orvosi Nobel-díjat az mRNS-technológiáért?",
+      "a": [
+        "Karikó Katalin",
+        "Hámori József",
+        "Freund Tamás",
+        "Lovász László"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Karikó Katalin Drew Weissmannal együtt kapta a díjat a módosított mRNS kutatásáért.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik magyar néptánc-hagyomány áll az UNESCO szellemi kulturális örökség listáján a tánctanítás módszereként?",
+      "a": [
+        "Táncház-módszer",
+        "Verbunk",
+        "Csárdás",
+        "Karikázó"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A táncház-módszer 2011-ben került a jó megőrzési gyakorlatok listájára.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Mi a busójárás?",
+      "a": [
+        "Mohácsi télűző maszkos szokás",
+        "Nyári aratóünnep",
+        "Szüreti felvonulás",
+        "Pünkösdi királyválasztás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mohácsi busójárás UNESCO szellemi kulturális örökség.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Melyik népi szokás kötődik a pünkösdhöz?",
+      "a": [
+        "Pünkösdi királyválasztás",
+        "Regölés",
+        "Betlehemezés",
+        "Luca-napi kotyolás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pünkösdi királyt versenyekkel választották ki egy évre.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Mikor szokás locsolkodni a magyar hagyomány szerint?",
+      "a": [
+        "Húsvéthétfőn",
+        "Pünkösdkor",
+        "Nagypénteken",
+        "Farsangkor"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A húsvéthétfői locsolás termékenységi és tisztító rítusból ered.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Mit jelöl a „Luca napja” a néphagyományban?",
+      "a": [
+        "December 13-át",
+        "November 1-jét",
+        "Február 2-át",
+        "Március 25-ét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Luca napja december 13., a Luca-szék és a Luca-búza szokásával.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Melyik hímzésstílus kötődik Kalocsához?",
+      "a": [
+        "Színes virágos kalocsai hímzés",
+        "Fekete úri hímzés",
+        "Kék festés",
+        "Matyó szűrrátét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kalocsai írásos hímzés élénk színű, virágos motívumvilágú.",
+      "t": "népművészet"
+    },
+    {
+      "q": "Melyik település nevéhez kötődik a matyó népművészet?",
+      "a": [
+        "Mezőkövesd",
+        "Kalocsa",
+        "Sárközi Decs",
+        "Hollókő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A matyó népművészet központja Mezőkövesd; UNESCO-listás örökség.",
+      "t": "népművészet"
+    },
+    {
+      "q": "Mi a herendi manufaktúra fő terméke?",
+      "a": [
+        "Porcelán",
+        "Üveg",
+        "Fajansz csempe",
+        "Ólomkristály"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Herendi Porcelánmanufaktúra 1826-ban alapult.",
+      "t": "népművészet"
+    },
+    {
+      "q": "Melyik magyar keramikus nevéhez fűződik az eozin mázas kerámia?",
+      "a": [
+        "Zsolnay Vilmos",
+        "Gorka Géza",
+        "Kovács Margit",
+        "Herend Vince"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Zsolnay-gyár eozin mázát a 19. század végén fejlesztették ki Pécsen.",
+      "t": "népművészet"
+    },
+    {
+      "q": "Melyik magyar városban működik a Zsolnay-gyár?",
+      "a": [
+        "Pécs",
+        "Herend",
+        "Hódmezővásárhely",
+        "Kalocsa"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Zsolnay Porcelánmanufaktúra pécsi alapítású.",
+      "t": "népművészet"
+    },
+    {
+      "q": "Melyik magyar hangszer a citera?",
+      "a": [
+        "Pengetős népi hangszer",
+        "Fúvós hangszer",
+        "Ütős hangszer",
+        "Vonós hangszer"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A citera pengetős, húros népi hangszer, a magyar népzene jellegzetes eszköze.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Mi a tárogató?",
+      "a": [
+        "Fafúvós hangszer",
+        "Vonós hangszer",
+        "Ütős hangszer",
+        "Pengetős hangszer"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tárogató a kuruc hagyomány jelképes fafúvós hangszere.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Melyik magyar népi építészeti elem a „tornác”?",
+      "a": [
+        "Oszlopos nyitott folyosó",
+        "Kemence",
+        "Tetőszerkezet",
+        "Kerítéskapu"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tornác a ház hosszanti oldalán futó nyitott, oszlopos folyosó.",
+      "t": "népi építészet"
+    },
+    {
+      "q": "Melyik magyar népi lakóház-forma jellemző a Nagykunságra és a Hortobágyra?",
+      "a": [
+        "Vályogfalú, nádtetős ház",
+        "Kőházas emeletes ház",
+        "Faborítású boronaház",
+        "Téglaházas villa"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Alföldön a vályog és a nádtető volt a jellemző anyaghasználat.",
+      "t": "népi építészet"
+    },
+    {
+      "q": "Melyik magyar nemzeti jelkép színei felülről lefelé?",
+      "a": [
+        "Piros, fehér, zöld",
+        "Zöld, fehér, piros",
+        "Fehér, piros, zöld",
+        "Piros, zöld, fehér"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A magyar zászló sorrendje felülről: piros, fehér, zöld.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Mit jelképez a magyar címerben a kettős kereszt?",
+      "a": [
+        "Az apostoli királyságot",
+        "A négy folyót",
+        "A hét törzset",
+        "A királyi bíróságot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kettős kereszt bizánci eredetű, az apostoli királyság jelképe lett.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Melyik virág a magyar néphagyomány gyakori motívuma a hímzéseken?",
+      "a": [
+        "Tulipán",
+        "Orchidea",
+        "Kaktuszvirág",
+        "Kamélia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tulipán a magyar népművészet egyik legelterjedtebb motívuma.",
+      "t": "népművészet"
+    },
+    {
+      "q": "Mi a hungarikum?",
+      "a": [
+        "Kiemelt nemzeti értékként elismert termék vagy hagyomány",
+        "Uniós szabadalmi kategória",
+        "Magyar szabvány jelzés",
+        "Vámmentes áru"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hungarikumok gyűjteményébe törvényi eljárás alapján kerülnek értékek.",
+      "t": "hungarikumok"
+    },
+    {
+      "q": "Melyik nem hungarikum a felsoroltak közül?",
+      "a": [
+        "Camembert sajt",
+        "Tokaji aszú",
+        "Gyulai kolbász",
+        "Herendi porcelán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A camembert francia eredetű sajt, nem magyar érték.",
+      "t": "hungarikumok"
+    },
+    {
+      "q": "Melyik város a magyar színjátszás első kőszínházának helye 1821-ből?",
+      "a": [
+        "Kolozsvár",
+        "Pest",
+        "Miskolc",
+        "Debrecen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kolozsvári kőszínház 1821-ben nyílt meg, a pesti Nemzeti Színház 1837-ben.",
+      "t": "színház"
+    },
+    {
+      "q": "Melyik évben nyílt meg a pesti Nemzeti Színház?",
+      "a": [
+        "1837",
+        "1848",
+        "1867",
+        "1884"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Pesti Magyar Színház 1837-ben nyitott, később lett Nemzeti Színház.",
+      "t": "színház"
+    },
+    {
+      "q": "Melyik évben nyitották meg a budapesti Operaházat?",
+      "a": [
+        "1884",
+        "1873",
+        "1896",
+        "1902"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Ybl Miklós tervezte Operaház 1884-ben nyílt meg az Andrássy úton.",
+      "t": "építészet"
+    },
+    {
+      "q": "Ki tervezte a budapesti Országházat?",
+      "a": [
+        "Steindl Imre",
+        "Ybl Miklós",
+        "Lechner Ödön",
+        "Hauszmann Alajos"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Steindl Imre neogótikus terve alapján 1885 és 1904 között épült.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik magyar építész nevéhez fűződik a szecessziós „magyar formanyelv”, például az Iparművészeti Múzeum?",
+      "a": [
+        "Lechner Ödön",
+        "Steindl Imre",
+        "Ybl Miklós",
+        "Pollack Mihály"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Lechner Ödön a magyaros szecesszió megteremtője.",
+      "t": "építészet"
+    },
+    {
+      "q": "Ki tervezte a Magyar Nemzeti Múzeum klasszicista épületét?",
+      "a": [
+        "Pollack Mihály",
+        "Ybl Miklós",
+        "Hild József",
+        "Feszl Frigyes"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Pollack Mihály tervei alapján 1837 és 1847 között épült.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik magyar fürdő Budapest legrégebbi, török eredetű fürdői közé tartozik?",
+      "a": [
+        "Rudas gyógyfürdő",
+        "Széchenyi fürdő",
+        "Gellért fürdő",
+        "Palatinus strand"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Rudas fürdő 16. századi török eredetű kupolás terme ma is működik.",
+      "t": "kultúra"
+    },
+    {
+      "q": "Melyik magyar könyv az első teljes magyar nyelvű Biblia-fordítás?",
+      "a": [
+        "Vizsolyi Biblia",
+        "Sylvester-féle Újszövetség",
+        "Halotti beszéd",
+        "Bécsi kódex"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Károlyi Gáspár 1590-es vizsolyi Bibliája az első teljes magyar fordítás.",
+      "t": "könyvkultúra"
+    },
+    {
+      "q": "Mi a legkorábbi ismert összefüggő magyar nyelvű szövegemlék?",
+      "a": [
+        "Halotti beszéd és könyörgés",
+        "Ómagyar Mária-siralom",
+        "Tihanyi apátság alapítólevele",
+        "Gyulafehérvári sorok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Halotti beszéd 1192–1195 körül keletkezett, a Pray-kódexben maradt fenn.",
+      "t": "könyvkultúra"
+    },
+    {
+      "q": "Melyik a legkorábbi ismert magyar nyelvű vers?",
+      "a": [
+        "Ómagyar Mária-siralom",
+        "Halotti beszéd",
+        "Szabács viadala",
+        "Cantio de Sancto Ladislao"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Ómagyar Mária-siralom a 13. század közepéről származik.",
+      "t": "könyvkultúra"
+    },
+    {
+      "q": "Melyik magyar nyomdász nevéhez fűződik az első Magyarországon nyomtatott könyv, a Chronica Hungarorum?",
+      "a": [
+        "Hess András",
+        "Manlius János",
+        "Heltai Gáspár",
+        "Honterus János"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Hess András budai nyomdájában 1473-ban készült el a Chronica Hungarorum.",
+      "t": "könyvkultúra"
+    },
+    {
+      "q": "Melyik magyar szokás szerint ünneplik a névnapokat?",
+      "a": [
+        "A naptárban a névhez rendelt napon",
+        "Mindig a születésnap előtt",
+        "Csak januárban",
+        "A keresztelő napján"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A névnap a naptári névhez kötődik, a magyar szokásrendben önálló ünnep.",
+      "t": "szokások"
+    },
+    {
+      "q": "Mit jelent a „gulyás” szó eredeti jelentése?",
+      "a": [
+        "Marhapásztor",
+        "Bogrács",
+        "Fűszerkeverék",
+        "Sűrű leves"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gulyás eredetileg a gulyát, azaz a marhacsordát őrző pásztor.",
+      "t": "szokások"
+    },
+    {
+      "q": "Melyik magyar tánc a verbunk eredete szerint?",
+      "a": [
+        "Katonai újoncgyűjtő tánc",
+        "Aratótánc",
+        "Menyegzői körtánc",
+        "Pásztortánc botokkal"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A verbunk a 18. századi katonai újoncszedéshez kapcsolódó férfitánc.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Melyik magyar népi hangszer szól a betlehemezésben és a regölésben?",
+      "a": [
+        "Köcsögduda",
+        "Cselló",
+        "Hárfa",
+        "Klarinét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A köcsögduda (bika) surdó jellegű, dörmögő hangot adó népi eszköz.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Melyik magyar múzeum őrzi a Szent Koronát?",
+      "a": [
+        "Az Országház",
+        "Magyar Nemzeti Múzeum",
+        "Szépművészeti Múzeum",
+        "Iparművészeti Múzeum"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Szent Korona 2000 óta az Országház kupolatermében látható.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Mikor van a magyar kultúra napja?",
+      "a": [
+        "Január 22.",
+        "Március 15.",
+        "Augusztus 20.",
+        "Október 23."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Január 22. a Himnusz kéziratának befejezési dátuma (1823).",
+      "t": "ünnepek"
+    },
+    {
+      "q": "Melyik nap Magyarország állami ünnepe az államalapítás emlékére?",
+      "a": [
+        "Augusztus 20.",
+        "Március 15.",
+        "Október 23.",
+        "Június 4."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Augusztus 20. Szent István napja, az államalapítás ünnepe.",
+      "t": "ünnepek"
+    },
+    {
+      "q": "Melyik magyar ünnep emlékezik az 1956-os forradalomra?",
+      "a": [
+        "Október 23.",
+        "Március 15.",
+        "Augusztus 20.",
+        "November 4."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Október 23. 1989 óta nemzeti ünnep.",
+      "t": "ünnepek"
+    },
+    {
+      "q": "Mit ünneplünk március 15-én?",
+      "a": [
+        "Az 1848-as forradalom kitörését",
+        "Az államalapítást",
+        "A rendszerváltást",
+        "A trianoni békeszerződést"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1848. március 15. a pesti forradalom napja.",
+      "t": "ünnepek"
+    },
+    {
+      "q": "Melyik magyar díj a legmagasabb állami művészeti elismerés?",
+      "a": [
+        "Kossuth-díj",
+        "Széchenyi-díj",
+        "Prima Primissima",
+        "Balázs Béla-díj"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kossuth-díj a művészeti és kulturális teljesítmény legfőbb állami kitüntetése.",
+      "t": "díjak"
+    },
+    {
+      "q": "Melyik magyar díj a tudományos teljesítmény állami elismerése?",
+      "a": [
+        "Széchenyi-díj",
+        "Kossuth-díj",
+        "Bolyai-díj",
+        "Corvin-lánc"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Széchenyi-díj a tudomány területén elért kiemelkedő eredményeket jutalmazza.",
+      "t": "díjak"
+    },
+    {
+      "q": "Melyik magyar szervezet a legfőbb tudományos testület?",
+      "a": [
+        "Magyar Tudományos Akadémia",
+        "Magyar Nemzeti Bank",
+        "Országos Széchényi Könyvtár",
+        "Magyar Írószövetség"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az MTA-t 1825-ben Széchenyi István felajánlásából alapították.",
+      "t": "intézmények"
+    },
+    {
+      "q": "Melyik könyvtár a magyar nemzeti könyvtár?",
+      "a": [
+        "Országos Széchényi Könyvtár",
+        "Fővárosi Szabó Ervin Könyvtár",
+        "Egyetemi Könyvtár",
+        "Nemzeti Múzeum könyvtára"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az OSZK a Budavári Palotában működik, Széchényi Ferenc alapításából.",
+      "t": "intézmények"
+    },
+    {
+      "q": "Melyik magyar hagyományos játék a „métázás”?",
+      "a": [
+        "Ütővel és labdával játszott csapatjáték",
+        "Kártyajáték",
+        "Táblás stratégiai játék",
+        "Kockajáték"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A méta a baseballhoz hasonló, ütővel játszott régi magyar népi labdajáték.",
+      "t": "szokások"
+    },
+    {
+      "q": "Ki komponálta a Himnusz zenéjét?",
+      "a": [
+        "Erkel Ferenc",
+        "Liszt Ferenc",
+        "Bartók Béla",
+        "Kodály Zoltán"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Erkel Ferenc 1844-ben nyerte meg a Himnusz megzenésítésére kiírt pályázatot.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik magyar zeneszerző gyűjtött népzenét Kodály Zoltánnal együtt?",
+      "a": [
+        "Bartók Béla",
+        "Dohnányi Ernő",
+        "Weiner Leó",
+        "Hubay Jenő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A két zeneszerző több ezer népdalt jegyzett le a 20. század elején.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik magyar zeneszerző műve a Psalmus Hungaricus?",
+      "a": [
+        "Kodály Zoltán",
+        "Bartók Béla",
+        "Erkel Ferenc",
+        "Liszt Ferenc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mű 1923-ban készült Budapest egyesítésének ötvenéves évfordulójára.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik Erkel-opera nyitánya a legtöbbet játszott magyar operanyitány?",
+      "a": [
+        "Hunyadi László",
+        "Bánk bán",
+        "Brankovics György",
+        "Dózsa György"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Hunyadi László nyitánya Erkel legnépszerűbb zenekari darabja.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik magyar zongoraművész-zeneszerző lett a 19. század virtuóz sztárja?",
+      "a": [
+        "Liszt Ferenc",
+        "Erkel Ferenc",
+        "Bartók Béla",
+        "Dohnányi Ernő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Liszt Ferenc Európa koncerttermeinek első modern sztárzongoristája volt.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik magyar karmester lett a Chicagói Szimfonikusok legendás vezetője?",
+      "a": [
+        "Solti György",
+        "Fricsay Ferenc",
+        "Doráti Antal",
+        "Ormándy Jenő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Solti György 1969-től huszonkét évig vezette a zenekart.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik magyar karmester vezette évtizedekig a Philadelphiai Zenekart?",
+      "a": [
+        "Ormándy Jenő",
+        "Solti György",
+        "Doráti Antal",
+        "Kocsis Zoltán"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ormándy Jenő 1936-tól 1980-ig volt a zenekar vezetője.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik magyar zongoraművész alapította a Nemzeti Filharmonikusok mai formáját?",
+      "a": [
+        "Kocsis Zoltán",
+        "Ránki Dezső",
+        "Schiff András",
+        "Jandó Jenő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kocsis Zoltán 1997-től volt a zenekar főzeneigazgatója.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik magyar zenekar legismertebb dala a Gyöngyhajú lány?",
+      "a": [
+        "Omega",
+        "Illés",
+        "Locomotiv GT",
+        "Bergendy"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az 1969-es dal külföldön is feldolgozásra került.",
+      "t": "könnyűzene"
+    },
+    {
+      "q": "Melyik magyar zenekar énekese volt Kóbor János?",
+      "a": [
+        "Omega",
+        "Illés",
+        "Piramis",
+        "Republic"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kóbor János az Omega alapító tagja és énekese volt.",
+      "t": "könnyűzene"
+    },
+    {
+      "q": "Melyik magyar zenekart alapította Presser Gábor 1971-ben?",
+      "a": [
+        "Locomotiv GT",
+        "Omega",
+        "Illés",
+        "Bergendy"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az LGT a magyar rock egyik legfontosabb együttese lett.",
+      "t": "könnyűzene"
+    },
+    {
+      "q": "Melyik magyar rockopera szerzői Szörényi Levente és Bródy János?",
+      "a": [
+        "István, a király",
+        "A padlás",
+        "Sose halunk meg",
+        "Légy jó mindhalálig"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1983-as bemutató a magyar színháztörténet nagy pillanata volt.",
+      "t": "könnyűzene"
+    },
+    {
+      "q": "Melyik zenekar énekese volt Sztevanovity Zorán a hatvanas években?",
+      "a": [
+        "Metro",
+        "Illés",
+        "Omega",
+        "Bergendy"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Metro az Illés és az Omega mellett a magyar beatzene harmadik nagy együttese volt.",
+      "t": "könnyűzene"
+    },
+    {
+      "q": "Melyik magyar énekesnő pályája kötődik szorosan az Illés zenekarhoz?",
+      "a": [
+        "Koncz Zsuzsa",
+        "Kovács Kati",
+        "Zalatnay Sarolta",
+        "Cserháti Zsuzsa"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Koncz Zsuzsa több lemezén az Illés tagjai kísérték.",
+      "t": "könnyűzene"
+    },
+    {
+      "q": "Melyik magyar előadó nyerte a 2019-es A Dal című műsort?",
+      "a": [
+        "Pápai Joci",
+        "AWS",
+        "Kállay Saunders",
+        "ByeAlex"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Pápai Joci a Az én apám című dallal győzött.",
+      "t": "könnyűzene"
+    },
+    {
+      "q": "Melyik magyar zenei fesztivál a legnagyobb, a Hajógyári-szigeten?",
+      "a": [
+        "Sziget Fesztivál",
+        "Volt Fesztivál",
+        "Balaton Sound",
+        "EFOTT"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Sziget 1993-ban indult, Európa egyik legnagyobb fesztiválja.",
+      "t": "könnyűzene"
+    },
+    {
+      "q": "Melyik magyar városban rendezik a Volt Fesztivált?",
+      "a": [
+        "Sopron",
+        "Szeged",
+        "Debrecen",
+        "Pécs"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Volt Fesztivál soproni helyszínen zajlik.",
+      "t": "könnyűzene"
+    },
+    {
+      "q": "Melyik magyar film kapott Oscar-díjat 2016-ban?",
+      "a": [
+        "Saul fia",
+        "Testről és lélekről",
+        "Napszállta",
+        "Aurora Borealis"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nemes Jeles László filmje a legjobb idegen nyelvű film kategóriában győzött.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar rendező filmje a Mephisto, amely Oscart kapott 1982-ben?",
+      "a": [
+        "Szabó István",
+        "Jancsó Miklós",
+        "Makk Károly",
+        "Fábri Zoltán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A film Klaus Mann regénye alapján készült.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar rendező filmje a Szegénylegények?",
+      "a": [
+        "Jancsó Miklós",
+        "Szabó István",
+        "Gaál István",
+        "Kósa Ferenc"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Jancsó 1966-os filmje hosszú beállításokkal dolgozik.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar film főszereplője Pelikán József gátőr?",
+      "a": [
+        "A tanú",
+        "Régi idők focija",
+        "Megáll az idő",
+        "Szindbád"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bacsó Péter 1969-es szatírája a magyar filmtörténet kultuszdarabja.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar animációs film sorozatból lett nagyjátékfilm, a „Vuk” címmel?",
+      "a": [
+        "Vuk",
+        "Macskafogó",
+        "Az erdő kapitánya",
+        "Szaffi"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Vuk 1981-ben készült Fekete István regényéből.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar animációs film főszereplői egerek és macskák egy krimi-paródiában?",
+      "a": [
+        "Macskafogó",
+        "Vuk",
+        "Szaffi",
+        "Hófehér"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Macskafogó 1986-ban készült, Ternovszky Béla rendezésében.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar animációs sorozat főszereplője egy tudós vízipók?",
+      "a": [
+        "Vízipók-csodapók",
+        "Kukori és Kotkoda",
+        "Pom Pom mesél",
+        "A nagy ho-ho-horgász"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sorozat a vízi élővilágot mutatta be gyerekeknek.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar animációs sorozat szereplője Pom Pom?",
+      "a": [
+        "Pom Pom mesél",
+        "Vuk",
+        "Frakk",
+        "Kérem a következőt!"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sorozat Csukás István műve alapján készült.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar animációs sorozat főszereplője egy macskarettegtető kutya?",
+      "a": [
+        "Frakk, a macskák réme",
+        "Vuk",
+        "Pom Pom mesél",
+        "Süsü, a sárkány"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Frakk Károly bácsi kutyája, Szerénke és Lukrécia ellenlábasa.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar mesefigura egy egyfejű sárkány?",
+      "a": [
+        "Süsü",
+        "Vuk",
+        "Frakk",
+        "Pom Pom"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Süsü Csukás István meséjének főszereplője.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar rendező filmje a Kontroll, amely a budapesti metróban játszódik?",
+      "a": [
+        "Antal Nimród",
+        "Nemes Jeles László",
+        "Hajdu Szabolcs",
+        "Pálfi György"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A film 2003-ban készült, Csányi Sándor főszereplésével.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar film kapta a cannes-i zsűri nagydíját 2015-ben?",
+      "a": [
+        "Saul fia",
+        "Testről és lélekről",
+        "Napszállta",
+        "Liza, a rókatündér"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Saul fia Cannes-ban a Grand Prix-t nyerte el.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar film kapta a berlini Arany Medvét 2017-ben?",
+      "a": [
+        "Testről és lélekről",
+        "Saul fia",
+        "Kontroll",
+        "Fehér tenyér"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Enyedi Ildikó filmje nyerte a fesztivál fődíját.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar színész alakította Pelikán Józsefet A tanúban?",
+      "a": [
+        "Kállai Ferenc",
+        "Latinovits Zoltán",
+        "Bessenyei Ferenc",
+        "Garas Dezső"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kállai Ferenc alakítása a magyar filmtörténet legendás szerepe.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar színészt hívták „a színészkirálynak”?",
+      "a": [
+        "Latinovits Zoltán",
+        "Kállai Ferenc",
+        "Sinkovits Imre",
+        "Gábor Miklós"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Latinovits Zoltán a 20. századi magyar színjátszás ikonikus alakja.",
+      "t": "film"
+    },
+    {
+      "q": "Melyik magyar operaénekes lett világhírű basszista a 20. században?",
+      "a": [
+        "Székely Mihály",
+        "Simándy József",
+        "Melis György",
+        "Ilosfalvy Róbert"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Székely Mihály a Metropolitan Operában is fellépett.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik magyar tenor legendás alakítása a Bánk bán Hazám, hazám áriája?",
+      "a": [
+        "Simándy József",
+        "Székely Mihály",
+        "Melis György",
+        "Gulyás Dénes"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Simándy József előadása a magyar operajátszás emblematikus pillanata.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik magyar zeneszerző írta a Csárdáskirálynő című operettet?",
+      "a": [
+        "Kálmán Imre",
+        "Lehár Ferenc",
+        "Huszka Jenő",
+        "Ábrahám Pál"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Csárdáskirálynő 1915-ben került bemutatásra Bécsben.",
+      "t": "operett"
+    },
+    {
+      "q": "Melyik magyar származású zeneszerző írta A víg özvegy című operettet?",
+      "a": [
+        "Lehár Ferenc",
+        "Kálmán Imre",
+        "Huszka Jenő",
+        "Jacobi Viktor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Lehár Ferenc 1905-ös operettje világsiker lett.",
+      "t": "operett"
+    },
+    {
+      "q": "Melyik magyar operett szerzője Huszka Jenő?",
+      "a": [
+        "Lili bárónő",
+        "Csárdáskirálynő",
+        "A víg özvegy",
+        "Marica grófnő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Lili bárónő 1919-ben került bemutatásra.",
+      "t": "operett"
+    },
+    {
+      "q": "Melyik szó helyesírása helyes?",
+      "a": [
+        "muszáj",
+        "musáj",
+        "muszály",
+        "musszáj"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A helyes alak: muszáj.",
+      "t": "helyesírás"
+    },
+    {
+      "q": "Melyik szó jelentése „pillanatnyilag, mostanáig”?",
+      "a": [
+        "Egyelőre",
+        "Egyenlőre",
+        "Egyaránt",
+        "Egyenesen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az „egyenlőre” azt jelenti: egyenlő méretűre – gyakran összekeverik a kettőt.",
+      "t": "helyesírás"
+    },
+    {
+      "q": "Melyik szót írjuk a magyarban egybe?",
+      "a": [
+        "Mindegy",
+        "Nem tudom",
+        "Meg is",
+        "Azon kívül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A „mindegy” egybeírt szó, a tagadószót viszont külön írjuk az igétől.",
+      "t": "helyesírás"
+    },
+    {
+      "q": "Mit jelent a „tulajdonképpen” szó?",
+      "a": [
+        "Valójában",
+        "Véletlenül",
+        "Kizárólag",
+        "Alkalmanként"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tulajdonképpen a lényeget, a valódi helyzetet vezeti be.",
+      "t": "szókincs"
+    },
+    {
+      "q": "Hogyan írjuk helyesen a hónapneveket a magyarban?",
+      "a": [
+        "Kisbetűvel",
+        "Nagybetűvel",
+        "Csak rövidítve",
+        "Idézőjelben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Például: 2026. március 15.",
+      "t": "helyesírás"
+    },
+    {
+      "q": "Milyen sorrendben írjuk a dátumot a magyar helyesírás szerint?",
+      "a": [
+        "Év, hónap, nap",
+        "Nap, hónap, év",
+        "Hónap, nap, év",
+        "Hónap, év, nap"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Például: 2026. március 15. – az év után pont áll, a hónap kisbetűvel.",
+      "t": "helyesírás"
+    },
+    {
+      "q": "Melyik a helyes toldalékolás: „Budapest” + „-ban/-ben”?",
+      "a": [
+        "Budapesten",
+        "Budapestben",
+        "Budapestban",
+        "Budapestön"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar városnevek egy részéhez a külső helyhatározó járul.",
+      "t": "nyelvtan"
+    },
+    {
+      "q": "Milyen toldalékot kap a legtöbb magyar városnév a „hol?” kérdésre?",
+      "a": [
+        "-n / -on / -en / -ön",
+        "-ban / -ben",
+        "-nál / -nél",
+        "-hoz / -hez"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Például Szegeden, Debrecenben viszont belső helyhatározó – ez kivétel.",
+      "t": "nyelvtan"
+    },
+    {
+      "q": "Mi a magyar nyelv jellegzetes nyelvtani vonása a névszóknál?",
+      "a": [
+        "Sok esetrag (ragozó nyelv)",
+        "Nemek szerinti egyeztetés",
+        "Kötelező névelőhasználat mindenhol",
+        "Igeidők hármas rendszere"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar agglutináló nyelv: a jelentést toldalékok hordozzák.",
+      "t": "nyelvtan"
+    },
+    {
+      "q": "Melyik nyelv a magyar legközelebbi élő rokona?",
+      "a": [
+        "Manysi (vogul)",
+        "Finn",
+        "Észt",
+        "Török"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A manysi és a hanti az obi-ugor nyelvek, a magyar legközelebbi rokonai.",
+      "t": "nyelvtörténet"
+    },
+    {
+      "q": "Mit jelent a magánhangzó-harmónia a magyarban?",
+      "a": [
+        "A toldalék hangrendje a szóhoz illeszkedik",
+        "Minden szó ugyanannyi szótagú",
+        "A hangsúly a szó végén van",
+        "A magánhangzók sosem hosszúak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ezért „házban”, de „kertben”.",
+      "t": "nyelvtan"
+    },
+    {
+      "q": "Mit jelent a „megszólítás” utáni írásjel a magyar levelekben?",
+      "a": [
+        "Vesszőt vagy felkiáltójelet használunk",
+        "Mindig kettőspont áll",
+        "Nem használunk írásjelet",
+        "Mindig pontosvessző áll"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Például: „Kedves Anna,” vagy „Kedves Anna!”.",
+      "t": "helyesírás"
+    },
+    {
+      "q": "Melyik szó jelentése „hirtelen elhatározásból”?",
+      "a": [
+        "Hebehurgyán",
+        "Nyakatekerten",
+        "Fondorlatosan",
+        "Kényelmesen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hebehurgya jelentése kapkodó, meggondolatlan.",
+      "t": "szókincs"
+    },
+    {
+      "q": "Mit jelent a „kelekótya” szó?",
+      "a": [
+        "Bolondos, szeleburdi",
+        "Nagyon okos",
+        "Szomorú",
+        "Erős"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kelekótya bizonytalan viselkedésű, szeleburdi embert jelöl.",
+      "t": "szókincs"
+    },
+    {
+      "q": "Mit jelent az „egyik kutya, másik nem” szólás?",
+      "a": [
+        "Nincs érdemi különbség köztük",
+        "Nagy különbség van köztük",
+        "Csak az egyik hasznos",
+        "Mindkettő rossz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szólás a látszólagos különbségek jelentéktelenségét fejezi ki.",
+      "t": "szólások"
+    },
+    {
+      "q": "Mit jelent a „köpni-nyelni nem tudott” szólás?",
+      "a": [
+        "Annyira meglepődött, hogy nem jutott szóhoz",
+        "Beteg volt",
+        "Szomjas volt",
+        "Nagyon éhes volt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szólás a döbbenet erős kifejezése.",
+      "t": "szólások"
+    },
+    {
+      "q": "Mit jelent az „ökörszem” szó a magyarban?",
+      "a": [
+        "Egy kis madárfaj",
+        "Az ökör szemének mérete",
+        "Egy ablaktípus",
+        "Egy gyógynövény"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ökörszem apró énekesmadár, Európa egyik legkisebb madara.",
+      "t": "szókincs"
+    },
+    {
+      "q": "Hány igemód van a magyar nyelvben?",
+      "a": [
+        "Három",
+        "Kettő",
+        "Négy",
+        "Öt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kijelentő, felszólító és feltételes mód.",
+      "t": "nyelvtan"
+    },
+    {
+      "q": "Hány igeidőt használ a mai magyar nyelv?",
+      "a": [
+        "Hármat",
+        "Kettőt",
+        "Négyet",
+        "Ötöt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Jelen, múlt és jövő idő.",
+      "t": "nyelvtan"
+    },
+    {
+      "q": "Mit jelent a „nyelvújítás” a magyar nyelvtörténetben?",
+      "a": [
+        "Új magyar szavak tudatos létrehozása a 19. század elején",
+        "Az ábécé megváltoztatása",
+        "A latin nyelv bevezetése",
+        "A helyesírás eltörlése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kazinczy és társai több ezer új szót alkottak.",
+      "t": "nyelvtörténet"
+    },
+    {
+      "q": "Melyik szó a nyelvújítás korából származik?",
+      "a": [
+        "Zongora",
+        "Kenyér",
+        "Ház",
+        "Víz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A zongora tudatosan alkotott új szó a 19. századból.",
+      "t": "nyelvtörténet"
+    },
+    {
+      "q": "Melyik szó a nyelvújítás alkotása a felsoroltak közül?",
+      "a": [
+        "Vasút",
+        "Fa",
+        "Kő",
+        "Hold"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vasút összetett szóként a technika új jelenségére született.",
+      "t": "nyelvtörténet"
+    },
+    {
+      "q": "Mit jelent a „jövevényszó”?",
+      "a": [
+        "Más nyelvből átvett szó",
+        "Régies szó",
+        "Tájnyelvi szó",
+        "Új alkotott szó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Például a „templom” latin, a „bab” szláv eredetű.",
+      "t": "nyelvtörténet"
+    },
+    {
+      "q": "Melyik nyelvből származik a magyar „paprika” szó?",
+      "a": [
+        "Szerb-horvát közvetítéssel",
+        "Angol",
+        "Francia",
+        "Görög"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szó délszláv közvetítéssel került a magyarba.",
+      "t": "nyelvtörténet"
+    },
+    {
+      "q": "Mit nevezünk „tájszónak”?",
+      "a": [
+        "Egy vidékre jellemző szót",
+        "Idegen szót",
+        "Új szót",
+        "Régi írásmódot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Például a „csobán” vagy a „pityóka” tájnyelvi szavak.",
+      "t": "nyelvtan"
+    },
+    {
+      "q": "Melyik a helyes birtokos alak a „barát” szóból többes számban?",
+      "a": [
+        "Barátaim",
+        "Barátjaim",
+        "Barátim",
+        "Barátomék"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A helyes alak: barátaim.",
+      "t": "nyelvtan"
+    },
+    {
+      "q": "Melyik alak helyes: „ne hozz” vagy „ne hozzál”?",
+      "a": [
+        "Mindkettő helyes",
+        "Csak a „ne hozz”",
+        "Csak a „ne hozzál”",
+        "Egyik sem helyes"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A felszólító módban a rövidebb és a hosszabb alak is szabályos.",
+      "t": "nyelvtan"
+    }
   ]
 }

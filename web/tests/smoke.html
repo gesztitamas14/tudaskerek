@@ -1268,6 +1268,85 @@
         'a rövid pörgetés alatt sincs válaszgomb'
       );
       unmountRoom(spinNode);
+
+      // ── 11. a host indítása után induljon el a kerék ──
+      //
+      // REGRESSZIÓ: a `run()` korábban KÉTSZER renderelt (egyszer az
+      // `applyState`, egyszer a `finally`). A második renderelés kicserélte a
+      // DOM-ot, és mivel a „már pörgettünk” jelző már be volt állítva, a kerék
+      // statikus képre ugrott – a host az első kör pörgetését nem látta.
+      //
+      // A megfigyelhető különbség: pörgetés közben a fejléc még
+      // „Kategória pörgetése…”, és csak a befejezés után lesz
+      // „A kör kategóriája”.
+      const startCalls = [];
+      const startedRoom = spinningRoom(9);
+
+      const hostLobby = {
+        ...lobbyRoom({ hostId: ME }),
+        id: startedRoom.id
+      };
+
+      const startApp = {
+        bank,
+        supabase: {
+          isConfigured: true, isSignedIn: true, isAnonymous: false, userId: ME,
+          rpc: async (name) => {
+            startCalls.push(name);
+            if (name === 'start_room') return startedRoom;
+            return startedRoom;
+          }
+        },
+        sync: { scoringRules: async () => FALLBACK_RULES, run: async () => {} },
+        navigate: () => {},
+        refreshCurrentScreen: () => {},
+        pushProfile: () => {}
+      };
+
+      const startNode = roomScreen(startApp, { room: hostLobby });
+      roomHost.append(startNode);
+
+      const startBtn = [...roomHost.querySelectorAll('.btn')].find((b) =>
+        b.textContent.includes('Játék indítása')
+      );
+      check(Boolean(startBtn), 'a host indító gombja megvan');
+      startBtn.click();
+      await wait(200);
+
+      check(
+        startCalls.includes('start_room'),
+        'az indítás elküldi a start_room hívást'
+      );
+      check(
+        Boolean(roomHost.querySelector('canvas.wheel')),
+        'indítás után a pörgetés képernyő jelenik meg'
+      );
+      check(
+        roomHost.textContent.includes('Kategória pörgetése'),
+        'a kerék MÉG PÖRÖG – nem ugrott azonnal a végállapotra'
+      );
+      check(
+        !roomHost.textContent.includes('A kör kategóriája'),
+        'a kategória még nincs kihirdetve, amíg a kerék forog'
+      );
+
+      // A pörgetés végén viszont ki kell hirdetni a kategóriát.
+      await wait(4600);
+      check(
+        roomHost.textContent.includes('A kör kategóriája'),
+        'a pörgetés lefutása után kihirdeti a kategóriát'
+      );
+      // A kategória nevét a felső sáv is tartalmazza, ezért a keréknél
+      // konkrétan a jelvényt keressük – különben az állítás triviális lenne.
+      check(
+        roomHost.querySelector('.wheel-caption .badge')?.textContent?.includes(
+          'Magyar történelem'
+        ) ?? false,
+        'a kerék alatt megjelenik a kategóriajelvény'
+      );
+
+      startNode.dispatchEvent(new CustomEvent('screen:unmount'));
+      roomHost.replaceChildren();
     }
 
     run()

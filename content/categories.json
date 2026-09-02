@@ -54,24 +54,6 @@
     "sort_order": 60
   },
   {
-    "slug": "magyar-zene-film",
-    "name": "Magyar zene és film",
-    "description": "Zeneszerzők, előadók, filmek, rendezők, díjak.",
-    "icon": "🎬",
-    "color": "#9B4DCA",
-    "is_hungarian": true,
-    "sort_order": 70
-  },
-  {
-    "slug": "magyar-nyelv",
-    "name": "Magyar nyelv",
-    "description": "Helyesírás, nyelvtan, szólások, jelentések, nyelvtörténet.",
-    "icon": "🔤",
-    "color": "#A8703A",
-    "is_hungarian": true,
-    "sort_order": 80
-  },
-  {
     "slug": "vilagtortenelem",
     "name": "Világtörténelem",
     "description": "Ókortól a 20. századig: birodalmak, uralkodók, fordulópontok.",
@@ -82,7 +64,7 @@
   },
   {
     "slug": "foldrajz",
-    "name": "Földrajz",
+    "name": "Földrajz, csillagászat",
     "description": "Országok, fővárosok, hegyek, óceánok, rekordok.",
     "icon": "🌍",
     "color": "#2F7F8C",
@@ -100,7 +82,7 @@
   },
   {
     "slug": "technologia",
-    "name": "Technológia",
+    "name": "Technika, találmányok",
     "description": "Számítástechnika, internet, mérnöki megoldások, találmányok.",
     "icon": "💻",
     "color": "#4B5563",
@@ -109,7 +91,7 @@
   },
   {
     "slug": "allatvilag",
-    "name": "Állatvilág",
+    "name": "Állatok, biológia",
     "description": "Emlősök, madarak, halak, rovarok – élőhelyek és rekordok.",
     "icon": "🦊",
     "color": "#6B8E23",
@@ -136,7 +118,7 @@
   },
   {
     "slug": "film-sorozat",
-    "name": "Filmek és sorozatok",
+    "name": "Film, színház",
     "description": "Klasszikusok, rendezők, szereplők, díjak.",
     "icon": "🍿",
     "color": "#B5446E",
@@ -145,7 +127,7 @@
   },
   {
     "slug": "zene",
-    "name": "Zene",
+    "name": "Zene, tánc",
     "description": "Klasszikus és populáris zene, előadók, hangszerek.",
     "icon": "🎵",
     "color": "#8A5CF6",
@@ -163,7 +145,7 @@
   },
   {
     "slug": "muveszet",
-    "name": "Művészet",
+    "name": "Művészet, építészet",
     "description": "Festészet, szobrászat, építészet, stílusok.",
     "icon": "🎨",
     "color": "#D97706",
@@ -181,12 +163,32 @@
   },
   {
     "slug": "erdekessegek",
-    "name": "Érdekességek",
+    "name": "Egyéb tudomány, kultúra",
     "description": "Vegyes tudnivalók, rekordok, kevéssé ismert tények.",
     "icon": "✨",
     "color": "#0EA5A4",
     "is_hungarian": false,
     "sort_order": 230
+  },
+  {
+    "slug": "cegek-markak",
+    "name": "Cégek, márkák",
+    "description": "Vállalatok, logók, alapítók és a mögöttük lévő történetek.",
+    "icon": "🏢",
+    "color": "#4A6FA5",
+    "is_hungarian": false,
+    "sort_order": 230
+  },
+  {
+    "slug": "hires-ember",
+    "name": "Híres emberek",
+    "description": "Feltalálók, uralkodók, sztárok – ki kicsoda a világtörténelemben.",
+    "icon": "🌟",
+    "color": "#C9A227",
+    "is_hungarian": false,
+    "sort_order": 235,
+    "is_active": false,
+    "note": "Nincs még elég kérdés: a Wikidata publikus végpontja ezekhez a lekérdezésekhez időtúllépést ad. Kézzel írt kérdések kellenek."
   },
   {
     "slug": "logika",
@@ -196,5 +198,61 @@
     "color": "#6366F1",
     "is_hungarian": false,
     "sort_order": 240
+  },
+  {
+    "slug": "fizika",
+    "name": "Fizika",
+    "description": "Erők, energia, fény és a világ működésének szabályai.",
+    "icon": "⚛️",
+    "color": "#3C6E71",
+    "is_hungarian": false,
+    "sort_order": 240
+  },
+  {
+    "slug": "kemia",
+    "name": "Kémia",
+    "description": "Elemek, vegyületek, reakciók és a periódusos rendszer.",
+    "icon": "🧪",
+    "color": "#6A8E7F",
+    "is_hungarian": false,
+    "sort_order": 245
+  },
+  {
+    "slug": "mitologia-vallas",
+    "name": "Mitológia, vallás",
+    "description": "Istenek, hősök, szent könyvek és világvallások.",
+    "icon": "🏺",
+    "color": "#8E6C88",
+    "is_hungarian": false,
+    "sort_order": 250
+  },
+  {
+    "slug": "unnepek",
+    "name": "Ünnepek, jeles napok",
+    "description": "Szokások, hagyományok és a naptár nevezetes napjai.",
+    "icon": "🎉",
+    "color": "#D96C6C",
+    "is_hungarian": false,
+    "sort_order": 255
+  },
+  {
+    "slug": "jatekok",
+    "name": "Játékok",
+    "description": "Társasjátékok, kártya, sakk és videojátékok.",
+    "icon": "🎲",
+    "color": "#5C7AEA",
+    "is_hungarian": false,
+    "sort_order": 260
+  },
+  {
+    "slug": "divat",
+    "name": "Divat, öltözködés",
+    "description": "Márkák, tervezők, stílusok és a ruhák története.",
+    "icon": "👗",
+    "color": "#B5838D",
+    "is_hungarian": false,
+    "sort_order": 265,
+    "is_active": false,
+    "note": "Nincs még elég kérdés: a Wikidata publikus végpontja ezekhez a lekérdezésekhez időtúllépést ad. Kézzel írt kérdések kellenek."
   }
 ]

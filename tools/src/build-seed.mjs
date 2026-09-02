@@ -24,9 +24,34 @@ const { questions, files } = loadSeedQuestions({ shuffle: true });
 
 // Csak a valóban feltöltött kategóriák kerülnek a bundle-be – a kerék így nem
 // tud üres cikkre megállni.
-const usedSlugs = new Set(questions.map((q) => q.category));
+// EGY KÖR 10 KÉRDÉS UGYANABBÓL A KATEGÓRIÁBÓL.
+//
+// Ezért egy kategória 10 kérdés alatt nem kerülhet a kerékre: a szoba a kör
+// közben elfogyó kérdésnél elhasalna. Ez korábban csak azért nem fordult elő,
+// mert a szűrő véletlenül kizárta az üres kategóriákat – most kimondjuk.
+const MIN_PLAYABLE = 10;
+
+const perCategory = new Map();
+for (const q of questions) {
+  perCategory.set(q.category, (perCategory.get(q.category) ?? 0) + 1);
+}
+
+const excluded = categories.filter(
+  (c) => c.is_active === false || (perCategory.get(c.slug) ?? 0) < MIN_PLAYABLE
+);
+if (excluded.length > 0) {
+  console.log('\nKihagyva a csomagból (nincs elég kérdés vagy inaktív):');
+  for (const c of excluded) {
+    console.log(
+      `  ${c.slug.padEnd(20)} ${String(perCategory.get(c.slug) ?? 0).padStart(3)} kérdés` +
+        `${c.is_active === false ? '   (inaktív)' : ''}`
+    );
+  }
+  console.log('');
+}
+
 const bundledCategories = categories
-  .filter((c) => usedSlugs.has(c.slug))
+  .filter((c) => c.is_active !== false && (perCategory.get(c.slug) ?? 0) >= MIN_PLAYABLE)
   .map((c) => ({
     slug: c.slug,
     name: c.name,

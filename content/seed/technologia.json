@@ -2,60 +2,1840 @@
   "category": "technologia",
   "default_source": "saját szerkesztés (általános műveltségi tananyag)",
   "questions": [
-    {"q": "Mit jelent a CPU rövidítés?", "a": ["Központi feldolgozó egység", "Számítógépes memória", "Grafikus processzor", "Hálózati kártya"], "c": 0, "d": "easy", "e": "A CPU a Central Processing Unit rövidítése.", "t": "hardver"},
-    {"q": "Mit jelent a RAM rövidítés?", "a": ["Közvetlen elérésű memória", "Merevlemez", "Optikai tároló", "Vezérlőegység"], "c": 0, "d": "easy", "e": "A Random Access Memory a futó programok átmeneti tárolója.", "t": "hardver"},
-    {"q": "Melyik tárolóeszköz nem tartalmaz mozgó alkatrészt?", "a": ["SSD", "HDD", "Floppy", "CD-lejátszó"], "c": 0, "d": "easy", "e": "Az SSD félvezető alapú, ezért csendesebb és gyorsabb.", "t": "hardver"},
-    {"q": "Hány bit egy bájt?", "a": ["8", "4", "16", "10"], "c": 0, "d": "easy", "e": "Egy bájt nyolc bitből áll.", "t": "informatika"},
-    {"q": "Melyik számrendszert használják a számítógépek alapszinten?", "a": ["Kettes (bináris)", "Tízes", "Tizenhatos", "Nyolcas"], "c": 0, "d": "easy", "e": "A tranzisztorok két állapotot tudnak megkülönböztetni.", "t": "informatika"},
-    {"q": "Mennyi 2 a nyolcadik hatványon?", "a": ["256", "128", "512", "64"], "c": 0, "d": "medium", "e": "Ezért fér 256 különböző érték egy bájtba.", "t": "informatika"},
-    {"q": "Mit jelent a HTTP rövidítés?", "a": ["Hipertext átviteli protokoll", "Hálózati titkosítási protokoll", "Otthoni átviteli szabvány", "Hipertext szövegszerkesztő"], "c": 0, "d": "medium", "e": "A HTTP a weboldalak átvitelének protokollja.", "t": "internet"},
-    {"q": "Mi a HTTPS legfontosabb előnye a HTTP-vel szemben?", "a": ["Titkosított kapcsolat", "Nagyobb sávszélesség", "Ingyenes domain", "Gyorsabb DNS"], "c": 0, "d": "medium", "e": "A HTTPS TLS-titkosítást használ, így az adatok nem olvashatók le útközben.", "t": "internet"},
-    {"q": "Mit tesz a DNS az interneten?", "a": ["Domainnevet IP-címre fordít", "Titkosítja a forgalmat", "Weboldalt tárol", "E-mailt küld"], "c": 0, "d": "medium", "e": "A Domain Name System az internet „telefonkönyve”.", "t": "internet"},
-    {"q": "Mit jelent az IP rövidítés a hálózatban?", "a": ["Internet Protocol", "Internal Port", "Information Packet", "Interface Protocol"], "c": 0, "d": "medium", "e": "Az IP-cím a hálózati eszközök azonosítója.", "t": "internet"},
-    {"q": "Melyik IP-verzió használ 128 bites címeket?", "a": ["IPv6", "IPv4", "IPv5", "IPv8"], "c": 0, "d": "hard", "e": "Az IPv4 32 bites, az IPv6 128 bites címeket használ.", "t": "internet"},
-    {"q": "Mi a tűzfal feladata?", "a": ["A hálózati forgalom szűrése", "A fájlok tömörítése", "A képernyő fényerejének szabályozása", "Az adatok mentése"], "c": 0, "d": "easy", "e": "A tűzfal szabályok alapján engedi vagy tiltja a kapcsolatokat.", "t": "biztonság"},
-    {"q": "Mi a kétfaktoros hitelesítés (2FA) lényege?", "a": ["A jelszó mellett egy második bizonyíték is kell", "Két jelszó megadása", "Két eszközön ugyanaz a fiók", "Kétszer hosszabb jelszó"], "c": 0, "d": "medium", "e": "Például jelszó + egyszeri kód vagy biometria.", "t": "biztonság"},
-    {"q": "Mi az adathalászat (phishing)?", "a": ["Megtévesztő üzenettel adatot kicsaló csalás", "Hálózati sebességmérés", "Adatbázis-tömörítés", "Vírusirtási módszer"], "c": 0, "d": "easy", "e": "A csaló megbízható szolgáltatónak adja ki magát.", "t": "biztonság"},
-    {"q": "Mit jelent a VPN rövidítés?", "a": ["Virtuális magánhálózat", "Változó protokoll-név", "Videó protokoll hálózat", "Vezetékes privát node"], "c": 0, "d": "medium", "e": "A VPN titkosított csatornán vezeti át a forgalmat.", "t": "biztonság"},
-    {"q": "Ki tekinthető a világháló (World Wide Web) megalkotójának?", "a": ["Tim Berners-Lee", "Bill Gates", "Steve Jobs", "Vint Cerf"], "c": 0, "d": "medium", "e": "Berners-Lee 1989-ben a CERN-ben dolgozta ki a webet.", "t": "internettörténet"},
-    {"q": "Melyik hálózat volt az internet közvetlen elődje?", "a": ["ARPANET", "Ethernet", "Usenet", "Minitel"], "c": 0, "d": "medium", "e": "Az ARPANET 1969-ben indult az Egyesült Államokban.", "t": "internettörténet"},
-    {"q": "Melyik cég készítette az első IBM PC operációs rendszerét?", "a": ["Microsoft", "Apple", "Digital Research", "Intel"], "c": 0, "d": "hard", "e": "Az MS-DOS a Microsoft terméke volt, 1981-től.", "t": "informatikatörténet"},
-    {"q": "Ki alapította az Apple-t Steve Jobs mellett?", "a": ["Steve Wozniak", "Bill Gates", "Paul Allen", "Larry Page"], "c": 0, "d": "easy", "e": "Wozniak tervezte az Apple I és Apple II gépeket.", "t": "informatikatörténet"},
-    {"q": "Melyik programozási nyelvet fejlesztették ki a webböngészőkhöz 1995-ben?", "a": ["JavaScript", "Java", "Python", "PHP"], "c": 0, "d": "medium", "e": "A JavaScriptet Brendan Eich készítette a Netscape-nél.", "t": "programozás"},
-    {"q": "Melyik nyelvet használják jellemzően a weboldalak szerkezetének leírására?", "a": ["HTML", "CSS", "SQL", "JSON"], "c": 0, "d": "easy", "e": "A HTML jelölőnyelv, nem programozási nyelv.", "t": "programozás"},
-    {"q": "Mire használják a CSS-t?", "a": ["Weboldalak megjelenésének leírására", "Adatbázis-kezelésre", "Hálózati útvonalválasztásra", "Fájlok titkosítására"], "c": 0, "d": "easy", "e": "A Cascading Style Sheets a stílust és a kinézetet szabályozza.", "t": "programozás"},
-    {"q": "Melyik nyelv az adatbázis-lekérdezések szabványa?", "a": ["SQL", "HTML", "XML", "YAML"], "c": 0, "d": "medium", "e": "Az SQL a relációs adatbázisok lekérdező nyelve.", "t": "programozás"},
-    {"q": "Mit jelent a nyílt forráskódú szoftver?", "a": ["A forráskód szabadon megtekinthető és jellemzően módosítható", "Ingyenes, de zárt", "Csak vállalatoknak elérhető", "Nem tartalmaz licencet"], "c": 0, "d": "medium", "e": "A nyílt forráskód nem feltétlenül jelent ingyenességet, de a kód elérhető.", "t": "szoftver"},
-    {"q": "Melyik operációs rendszer kernelét készítette Linus Torvalds?", "a": ["Linux", "Windows", "macOS", "FreeBSD"], "c": 0, "d": "easy", "e": "Torvalds 1991-ben adta ki az első Linux kernelt.", "t": "szoftver"},
-    {"q": "Melyik cég fejleszti az Android operációs rendszert?", "a": ["Google", "Apple", "Samsung", "Microsoft"], "c": 0, "d": "easy", "e": "A Google 2005-ben vásárolta meg az Android Inc.-et.", "t": "szoftver"},
-    {"q": "Melyik programozási nyelv a Swift alkalmazási területe elsősorban?", "a": ["Apple platformok fejlesztése", "Beágyazott mikrokontrollerek", "Nagy adatbázisok kezelése", "Weboldalak stílusa"], "c": 0, "d": "medium", "e": "A Swift 2014-ben jelent meg iOS- és macOS-fejlesztéshez.", "t": "programozás"},
-    {"q": "Mi a gépi tanulás lényege?", "a": ["A rendszer adatokból tanul szabályokat", "A programozó minden szabályt megír", "A gép hardvere önmagát cseréli", "A felhasználó tanítja a hardvert"], "c": 0, "d": "medium", "e": "A modell a példákból általánosít, nem explicit szabályokból.", "t": "mesterséges intelligencia"},
-    {"q": "Mit jelent a „nagy nyelvi modell” kifejezés?", "a": ["Nagy szövegkorpuszon tanított, szöveget előrejelző modell", "Egy fordítóprogram szótára", "Egy hangfelismerő mikrofon", "Egy adatbázis-séma"], "c": 0, "d": "medium", "e": "Az ilyen modellek a következő szövegrészt becsülik meg statisztikusan.", "t": "mesterséges intelligencia"},
-    {"q": "Mi a felhőszolgáltatás (cloud) alapötlete?", "a": ["Távoli szervereken futó, bérelt erőforrások", "Vezeték nélküli töltés", "Helyi merevlemezes tárolás", "Nyomtatás hálózaton"], "c": 0, "d": "easy", "e": "A felhasználó nem üzemeltet saját szervert, hanem szolgáltatást vesz igénybe.", "t": "informatika"},
-    {"q": "Mi a különbség a bit és a bájt között?", "a": ["A bájt nyolc bit", "A bit nagyobb egység", "Ugyanaz a kettő", "A bájt kettő bit"], "c": 0, "d": "easy", "e": "Sávszélességet gyakran bitben, tárolást bájtban mérünk.", "t": "informatika"},
-    {"q": "Mennyi egy gigabájt megabájtban a bináris előtag szerint?", "a": ["1024", "1000", "512", "2048"], "c": 0, "d": "medium", "e": "Bináris előtaggal 1 GiB = 1024 MiB; a gyártók gyakran 1000-rel számolnak.", "t": "informatika"},
-    {"q": "Mit jelent a Wi-Fi kifejezés a gyakorlatban?", "a": ["Vezeték nélküli helyi hálózat", "Mobilhálózati generáció", "Bluetooth utódja", "Optikai kábel típusa"], "c": 0, "d": "easy", "e": "A Wi-Fi az IEEE 802.11 szabványcsalád márkaneve.", "t": "hálózat"},
-    {"q": "Melyik mobilhálózati generáció hozta a nagy sávszélességű, kis késleltetésű kapcsolatot 2019 után?", "a": ["5G", "4G", "3G", "2G"], "c": 0, "d": "easy", "e": "Az 5G kereskedelmi bevezetése 2019-ben kezdődött világszerte.", "t": "hálózat"},
-    {"q": "Melyik technológia teszi lehetővé a mobilfizetést érintéssel?", "a": ["NFC", "GPS", "Bluetooth 2.0", "Infravörös"], "c": 0, "d": "medium", "e": "Az NFC néhány centiméteres távolságon működő rádiós technológia.", "t": "hálózat"},
-    {"q": "Mire szolgál a GPS?", "a": ["Helymeghatározásra", "Adattitkosításra", "Videótömörítésre", "Akkumulátor-kímélésre"], "c": 0, "d": "easy", "e": "A GPS műholdak jeleiből számol pozíciót.", "t": "technika"},
-    {"q": "Hány műhold jele szükséges legalább a pontos GPS-helymeghatározáshoz?", "a": ["Négy", "Kettő", "Egy", "Nyolc"], "c": 0, "d": "hard", "e": "Három a pozícióhoz, egy pedig az órahiba kiszűréséhez kell.", "t": "technika"},
-    {"q": "Mi a 3D-nyomtatás alapelve?", "a": ["Rétegenkénti anyagfelépítés", "Anyag elforgácsolása", "Öntés formába", "Lézeres vágás"], "c": 0, "d": "easy", "e": "Az additív gyártás rétegekben építi fel a tárgyat.", "t": "technika"},
-    {"q": "Melyik energiaforrás nem megújuló?", "a": ["Földgáz", "Napenergia", "Szélenergia", "Vízenergia"], "c": 0, "d": "easy", "e": "A földgáz fosszilis energiahordozó.", "t": "energia"},
-    {"q": "Mi a napelem működésének alapja?", "a": ["Fotovoltaikus hatás", "Termikus tágulás", "Mágneses indukció", "Kémiai égés"], "c": 0, "d": "medium", "e": "A félvezetőben a fény hatására töltésszétválasztás történik.", "t": "energia"},
-    {"q": "Melyik akkumulátortípus a legelterjedtebb a mobiltelefonokban?", "a": ["Lítiumion", "Ólom-sav", "Nikkel-kadmium", "Cink-szén"], "c": 0, "d": "easy", "e": "A lítiumion nagy energiasűrűségű és újratölthető.", "t": "energia"},
-    {"q": "Mit jelent az elektromos autóknál a „kWh” egység?", "a": ["Tárolt energiát", "Csúcsteljesítményt", "Töltési sebességet", "Menettartományt"], "c": 0, "d": "medium", "e": "A kilowattóra energiamennyiség; a teljesítmény kW-ban mérhető.", "t": "energia"},
-    {"q": "Mi a blokklánc legfontosabb tulajdonsága?", "a": ["Utólag nehezen módosítható, összefűzött adatblokkok", "Végtelen tárolókapacitás", "Ingyenes tranzakciók", "Automatikus adatvesztés"], "c": 0, "d": "medium", "e": "A blokkok kriptográfiai hash-ekkel kapcsolódnak egymáshoz.", "t": "informatika"},
-    {"q": "Mi a nyílt forráskódú verziókövető rendszer, amit Linus Torvalds készített?", "a": ["Git", "SVN", "Mercurial", "CVS"], "c": 0, "d": "medium", "e": "A Git 2005-ben született a Linux kernel fejlesztéséhez.", "t": "programozás"},
-    {"q": "Mi a fordítóprogram (compiler) feladata?", "a": ["Forráskódot gépi kódra alakít", "Fájlokat tömörít", "Hálózati csomagokat továbbít", "Adatbázist indexel"], "c": 0, "d": "medium", "e": "A fordító a magas szintű kódot végrehajtható formára képezi le.", "t": "programozás"},
-    {"q": "Mit jelent az API rövidítés?", "a": ["Alkalmazásprogramozási felület", "Automatikus programindító", "Adatbázis-példány", "Alkalmazás-processzor"], "c": 0, "d": "medium", "e": "Az API az a szerződés, amin keresztül a programok kommunikálnak.", "t": "programozás"},
-    {"q": "Melyik adatformátumot használják gyakran API-k válaszaiban?", "a": ["JSON", "DOCX", "MP3", "BMP"], "c": 0, "d": "easy", "e": "A JSON egyszerű, szöveges és széles körben támogatott.", "t": "programozás"},
-    {"q": "Mi a különbség a szimmetrikus és az aszimmetrikus titkosítás között?", "a": ["Az aszimmetrikus külön nyilvános és titkos kulcsot használ", "A szimmetrikus lassabb", "Az aszimmetrikus nem használ kulcsot", "A szimmetrikus csak fájlokra jó"], "c": 0, "d": "hard", "e": "A nyilvános kulccsal titkosított adatot csak a privát kulcs tudja megnyitni.", "t": "biztonság"},
-    {"q": "Mi a jelszókezelő program célja?", "a": ["Egyedi, erős jelszavak biztonságos tárolása", "A jelszó megjegyeztetése fejben", "A jelszavak nyilvános megosztása", "A jelszavak rövidítése"], "c": 0, "d": "easy", "e": "Így minden fiókhoz más jelszó tartozhat.", "t": "biztonság"},
-    {"q": "Melyik magyar mérnök nevéhez fűződik a villamos vontatás fejlesztése?", "a": ["Kandó Kálmán", "Bláthy Ottó", "Bíró László József", "Galamb József"], "c": 0, "d": "medium", "e": "Kandó Kálmán a fázisváltós villamos vontatás megalkotója.", "t": "magyar mérnökök"},
-    {"q": "Melyik magyar mérnök dolgozott a Ford T-modell tervezésén?", "a": ["Galamb József", "Csonka János", "Kandó Kálmán", "Zipernowsky Károly"], "c": 0, "d": "hard", "e": "Galamb József Ford főmérnökeként vett részt a T-modell fejlesztésében.", "t": "magyar mérnökök"},
-    {"q": "Melyik találmány köthető Csonka Jánoshoz és Bánki Donáthoz?", "a": ["Karburátor", "Golyóstoll", "Transzformátor", "Holográfia"], "c": 0, "d": "medium", "e": "A porlasztó (karburátor) szabadalmát 1893-ban jegyezték be.", "t": "magyar mérnökök"},
-    {"q": "Mi a szoftverhiba (bug) elnevezés eredete a hagyomány szerint?", "a": ["Egy valódi rovar a korai számítógépben", "Egy programozó neve", "Egy angol rövidítés", "Egy hardvergyártó márka"], "c": 0, "d": "hard", "e": "A történet szerint egy lepkét találtak a Harvard Mark II relé között.", "t": "informatikatörténet"},
-    {"q": "Mi a különbség a vírus és a zsarolóvírus (ransomware) között?", "a": ["A ransomware titkosítja az adatokat és váltságdíjat kér", "A vírus mindig hardvert tör", "A ransomware csak reklámot mutat", "Nincs különbség"], "c": 0, "d": "medium", "e": "A ransomware üzleti modellje a fájlok visszafejtésének megvásárlása.", "t": "biztonság"},
-    {"q": "Mit jelent a „reszponzív” weboldal?", "a": ["A képernyő méretéhez alkalmazkodik", "Gyorsan töltődik be", "Több nyelven elérhető", "Csak mobilon működik"], "c": 0, "d": "easy", "e": "A reszponzív elrendezés telefonon és nagy monitoron is használható.", "t": "programozás"}
+    {
+      "q": "Mit jelent a CPU rövidítés?",
+      "a": [
+        "Központi feldolgozó egység",
+        "Számítógépes memória",
+        "Grafikus processzor",
+        "Hálózati kártya"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A CPU a Central Processing Unit rövidítése.",
+      "t": "hardver"
+    },
+    {
+      "q": "Mit jelent a RAM rövidítés?",
+      "a": [
+        "Közvetlen elérésű memória",
+        "Merevlemez",
+        "Optikai tároló",
+        "Vezérlőegység"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Random Access Memory a futó programok átmeneti tárolója.",
+      "t": "hardver"
+    },
+    {
+      "q": "Melyik tárolóeszköz nem tartalmaz mozgó alkatrészt?",
+      "a": [
+        "SSD",
+        "HDD",
+        "Floppy",
+        "CD-lejátszó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az SSD félvezető alapú, ezért csendesebb és gyorsabb.",
+      "t": "hardver"
+    },
+    {
+      "q": "Hány bit egy bájt?",
+      "a": [
+        "8",
+        "4",
+        "16",
+        "10"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egy bájt nyolc bitből áll.",
+      "t": "informatika"
+    },
+    {
+      "q": "Melyik számrendszert használják a számítógépek alapszinten?",
+      "a": [
+        "Kettes (bináris)",
+        "Tízes",
+        "Tizenhatos",
+        "Nyolcas"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tranzisztorok két állapotot tudnak megkülönböztetni.",
+      "t": "informatika"
+    },
+    {
+      "q": "Mennyi 2 a nyolcadik hatványon?",
+      "a": [
+        "256",
+        "128",
+        "512",
+        "64"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ezért fér 256 különböző érték egy bájtba.",
+      "t": "informatika"
+    },
+    {
+      "q": "Mit jelent a HTTP rövidítés?",
+      "a": [
+        "Hipertext átviteli protokoll",
+        "Hálózati titkosítási protokoll",
+        "Otthoni átviteli szabvány",
+        "Hipertext szövegszerkesztő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A HTTP a weboldalak átvitelének protokollja.",
+      "t": "internet"
+    },
+    {
+      "q": "Mi a HTTPS legfontosabb előnye a HTTP-vel szemben?",
+      "a": [
+        "Titkosított kapcsolat",
+        "Nagyobb sávszélesség",
+        "Ingyenes domain",
+        "Gyorsabb DNS"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A HTTPS TLS-titkosítást használ, így az adatok nem olvashatók le útközben.",
+      "t": "internet"
+    },
+    {
+      "q": "Mit tesz a DNS az interneten?",
+      "a": [
+        "Domainnevet IP-címre fordít",
+        "Titkosítja a forgalmat",
+        "Weboldalt tárol",
+        "E-mailt küld"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Domain Name System az internet „telefonkönyve”.",
+      "t": "internet"
+    },
+    {
+      "q": "Mit jelent az IP rövidítés a hálózatban?",
+      "a": [
+        "Internet Protocol",
+        "Internal Port",
+        "Information Packet",
+        "Interface Protocol"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az IP-cím a hálózati eszközök azonosítója.",
+      "t": "internet"
+    },
+    {
+      "q": "Melyik IP-verzió használ 128 bites címeket?",
+      "a": [
+        "IPv6",
+        "IPv4",
+        "IPv5",
+        "IPv8"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az IPv4 32 bites, az IPv6 128 bites címeket használ.",
+      "t": "internet"
+    },
+    {
+      "q": "Mi a tűzfal feladata?",
+      "a": [
+        "A hálózati forgalom szűrése",
+        "A fájlok tömörítése",
+        "A képernyő fényerejének szabályozása",
+        "Az adatok mentése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tűzfal szabályok alapján engedi vagy tiltja a kapcsolatokat.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Mi a kétfaktoros hitelesítés (2FA) lényege?",
+      "a": [
+        "A jelszó mellett egy második bizonyíték is kell",
+        "Két jelszó megadása",
+        "Két eszközön ugyanaz a fiók",
+        "Kétszer hosszabb jelszó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Például jelszó + egyszeri kód vagy biometria.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Mi az adathalászat (phishing)?",
+      "a": [
+        "Megtévesztő üzenettel adatot kicsaló csalás",
+        "Hálózati sebességmérés",
+        "Adatbázis-tömörítés",
+        "Vírusirtási módszer"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A csaló megbízható szolgáltatónak adja ki magát.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Mit jelent a VPN rövidítés?",
+      "a": [
+        "Virtuális magánhálózat",
+        "Változó protokoll-név",
+        "Videó protokoll hálózat",
+        "Vezetékes privát node"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A VPN titkosított csatornán vezeti át a forgalmat.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Ki tekinthető a világháló (World Wide Web) megalkotójának?",
+      "a": [
+        "Tim Berners-Lee",
+        "Bill Gates",
+        "Steve Jobs",
+        "Vint Cerf"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Berners-Lee 1989-ben a CERN-ben dolgozta ki a webet.",
+      "t": "internettörténet"
+    },
+    {
+      "q": "Melyik hálózat volt az internet közvetlen elődje?",
+      "a": [
+        "ARPANET",
+        "Ethernet",
+        "Usenet",
+        "Minitel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ARPANET 1969-ben indult az Egyesült Államokban.",
+      "t": "internettörténet"
+    },
+    {
+      "q": "Melyik cég készítette az első IBM PC operációs rendszerét?",
+      "a": [
+        "Microsoft",
+        "Apple",
+        "Digital Research",
+        "Intel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az MS-DOS a Microsoft terméke volt, 1981-től.",
+      "t": "informatikatörténet"
+    },
+    {
+      "q": "Ki alapította az Apple-t Steve Jobs mellett?",
+      "a": [
+        "Steve Wozniak",
+        "Bill Gates",
+        "Paul Allen",
+        "Larry Page"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Wozniak tervezte az Apple I és Apple II gépeket.",
+      "t": "informatikatörténet"
+    },
+    {
+      "q": "Melyik programozási nyelvet fejlesztették ki a webböngészőkhöz 1995-ben?",
+      "a": [
+        "JavaScript",
+        "Java",
+        "Python",
+        "PHP"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A JavaScriptet Brendan Eich készítette a Netscape-nél.",
+      "t": "programozás"
+    },
+    {
+      "q": "Melyik nyelvet használják jellemzően a weboldalak szerkezetének leírására?",
+      "a": [
+        "HTML",
+        "CSS",
+        "SQL",
+        "JSON"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A HTML jelölőnyelv, nem programozási nyelv.",
+      "t": "programozás"
+    },
+    {
+      "q": "Mire használják a CSS-t?",
+      "a": [
+        "Weboldalak megjelenésének leírására",
+        "Adatbázis-kezelésre",
+        "Hálózati útvonalválasztásra",
+        "Fájlok titkosítására"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Cascading Style Sheets a stílust és a kinézetet szabályozza.",
+      "t": "programozás"
+    },
+    {
+      "q": "Melyik nyelv az adatbázis-lekérdezések szabványa?",
+      "a": [
+        "SQL",
+        "HTML",
+        "XML",
+        "YAML"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az SQL a relációs adatbázisok lekérdező nyelve.",
+      "t": "programozás"
+    },
+    {
+      "q": "Mit jelent a nyílt forráskódú szoftver?",
+      "a": [
+        "A forráskód szabadon megtekinthető és jellemzően módosítható",
+        "Ingyenes, de zárt",
+        "Csak vállalatoknak elérhető",
+        "Nem tartalmaz licencet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nyílt forráskód nem feltétlenül jelent ingyenességet, de a kód elérhető.",
+      "t": "szoftver"
+    },
+    {
+      "q": "Melyik operációs rendszer kernelét készítette Linus Torvalds?",
+      "a": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "FreeBSD"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Torvalds 1991-ben adta ki az első Linux kernelt.",
+      "t": "szoftver"
+    },
+    {
+      "q": "Melyik cég fejleszti az Android operációs rendszert?",
+      "a": [
+        "Google",
+        "Apple",
+        "Samsung",
+        "Microsoft"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Google 2005-ben vásárolta meg az Android Inc.-et.",
+      "t": "szoftver"
+    },
+    {
+      "q": "Melyik programozási nyelv a Swift alkalmazási területe elsősorban?",
+      "a": [
+        "Apple platformok fejlesztése",
+        "Beágyazott mikrokontrollerek",
+        "Nagy adatbázisok kezelése",
+        "Weboldalak stílusa"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Swift 2014-ben jelent meg iOS- és macOS-fejlesztéshez.",
+      "t": "programozás"
+    },
+    {
+      "q": "Mi a gépi tanulás lényege?",
+      "a": [
+        "A rendszer adatokból tanul szabályokat",
+        "A programozó minden szabályt megír",
+        "A gép hardvere önmagát cseréli",
+        "A felhasználó tanítja a hardvert"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A modell a példákból általánosít, nem explicit szabályokból.",
+      "t": "mesterséges intelligencia"
+    },
+    {
+      "q": "Mit jelent a „nagy nyelvi modell” kifejezés?",
+      "a": [
+        "Nagy szövegkorpuszon tanított, szöveget előrejelző modell",
+        "Egy fordítóprogram szótára",
+        "Egy hangfelismerő mikrofon",
+        "Egy adatbázis-séma"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ilyen modellek a következő szövegrészt becsülik meg statisztikusan.",
+      "t": "mesterséges intelligencia"
+    },
+    {
+      "q": "Mi a felhőszolgáltatás (cloud) alapötlete?",
+      "a": [
+        "Távoli szervereken futó, bérelt erőforrások",
+        "Vezeték nélküli töltés",
+        "Helyi merevlemezes tárolás",
+        "Nyomtatás hálózaton"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A felhasználó nem üzemeltet saját szervert, hanem szolgáltatást vesz igénybe.",
+      "t": "informatika"
+    },
+    {
+      "q": "Mi a különbség a bit és a bájt között?",
+      "a": [
+        "A bájt nyolc bit",
+        "A bit nagyobb egység",
+        "Ugyanaz a kettő",
+        "A bájt kettő bit"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Sávszélességet gyakran bitben, tárolást bájtban mérünk.",
+      "t": "informatika"
+    },
+    {
+      "q": "Mennyi egy gigabájt megabájtban a bináris előtag szerint?",
+      "a": [
+        "1024",
+        "1000",
+        "512",
+        "2048"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bináris előtaggal 1 GiB = 1024 MiB; a gyártók gyakran 1000-rel számolnak.",
+      "t": "informatika"
+    },
+    {
+      "q": "Mit jelent a Wi-Fi kifejezés a gyakorlatban?",
+      "a": [
+        "Vezeték nélküli helyi hálózat",
+        "Mobilhálózati generáció",
+        "Bluetooth utódja",
+        "Optikai kábel típusa"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Wi-Fi az IEEE 802.11 szabványcsalád márkaneve.",
+      "t": "hálózat"
+    },
+    {
+      "q": "Melyik mobilhálózati generáció hozta a nagy sávszélességű, kis késleltetésű kapcsolatot 2019 után?",
+      "a": [
+        "5G",
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az 5G kereskedelmi bevezetése 2019-ben kezdődött világszerte.",
+      "t": "hálózat"
+    },
+    {
+      "q": "Melyik technológia teszi lehetővé a mobilfizetést érintéssel?",
+      "a": [
+        "NFC",
+        "GPS",
+        "Bluetooth 2.0",
+        "Infravörös"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az NFC néhány centiméteres távolságon működő rádiós technológia.",
+      "t": "hálózat"
+    },
+    {
+      "q": "Mire szolgál a GPS?",
+      "a": [
+        "Helymeghatározásra",
+        "Adattitkosításra",
+        "Videótömörítésre",
+        "Akkumulátor-kímélésre"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A GPS műholdak jeleiből számol pozíciót.",
+      "t": "technika"
+    },
+    {
+      "q": "Hány műhold jele szükséges legalább a pontos GPS-helymeghatározáshoz?",
+      "a": [
+        "Négy",
+        "Kettő",
+        "Egy",
+        "Nyolc"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Három a pozícióhoz, egy pedig az órahiba kiszűréséhez kell.",
+      "t": "technika"
+    },
+    {
+      "q": "Mi a 3D-nyomtatás alapelve?",
+      "a": [
+        "Rétegenkénti anyagfelépítés",
+        "Anyag elforgácsolása",
+        "Öntés formába",
+        "Lézeres vágás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az additív gyártás rétegekben építi fel a tárgyat.",
+      "t": "technika"
+    },
+    {
+      "q": "Melyik energiaforrás nem megújuló?",
+      "a": [
+        "Földgáz",
+        "Napenergia",
+        "Szélenergia",
+        "Vízenergia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A földgáz fosszilis energiahordozó.",
+      "t": "energia"
+    },
+    {
+      "q": "Mi a napelem működésének alapja?",
+      "a": [
+        "Fotovoltaikus hatás",
+        "Termikus tágulás",
+        "Mágneses indukció",
+        "Kémiai égés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A félvezetőben a fény hatására töltésszétválasztás történik.",
+      "t": "energia"
+    },
+    {
+      "q": "Melyik akkumulátortípus a legelterjedtebb a mobiltelefonokban?",
+      "a": [
+        "Lítiumion",
+        "Ólom-sav",
+        "Nikkel-kadmium",
+        "Cink-szén"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A lítiumion nagy energiasűrűségű és újratölthető.",
+      "t": "energia"
+    },
+    {
+      "q": "Mit jelent az elektromos autóknál a „kWh” egység?",
+      "a": [
+        "Tárolt energiát",
+        "Csúcsteljesítményt",
+        "Töltési sebességet",
+        "Menettartományt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kilowattóra energiamennyiség; a teljesítmény kW-ban mérhető.",
+      "t": "energia"
+    },
+    {
+      "q": "Mi a blokklánc legfontosabb tulajdonsága?",
+      "a": [
+        "Utólag nehezen módosítható, összefűzött adatblokkok",
+        "Végtelen tárolókapacitás",
+        "Ingyenes tranzakciók",
+        "Automatikus adatvesztés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A blokkok kriptográfiai hash-ekkel kapcsolódnak egymáshoz.",
+      "t": "informatika"
+    },
+    {
+      "q": "Mi a nyílt forráskódú verziókövető rendszer, amit Linus Torvalds készített?",
+      "a": [
+        "Git",
+        "SVN",
+        "Mercurial",
+        "CVS"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Git 2005-ben született a Linux kernel fejlesztéséhez.",
+      "t": "programozás"
+    },
+    {
+      "q": "Mi a fordítóprogram (compiler) feladata?",
+      "a": [
+        "Forráskódot gépi kódra alakít",
+        "Fájlokat tömörít",
+        "Hálózati csomagokat továbbít",
+        "Adatbázist indexel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fordító a magas szintű kódot végrehajtható formára képezi le.",
+      "t": "programozás"
+    },
+    {
+      "q": "Mit jelent az API rövidítés?",
+      "a": [
+        "Alkalmazásprogramozási felület",
+        "Automatikus programindító",
+        "Adatbázis-példány",
+        "Alkalmazás-processzor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az API az a szerződés, amin keresztül a programok kommunikálnak.",
+      "t": "programozás"
+    },
+    {
+      "q": "Melyik adatformátumot használják gyakran API-k válaszaiban?",
+      "a": [
+        "JSON",
+        "DOCX",
+        "MP3",
+        "BMP"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A JSON egyszerű, szöveges és széles körben támogatott.",
+      "t": "programozás"
+    },
+    {
+      "q": "Mi a különbség a szimmetrikus és az aszimmetrikus titkosítás között?",
+      "a": [
+        "Az aszimmetrikus külön nyilvános és titkos kulcsot használ",
+        "A szimmetrikus lassabb",
+        "Az aszimmetrikus nem használ kulcsot",
+        "A szimmetrikus csak fájlokra jó"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A nyilvános kulccsal titkosított adatot csak a privát kulcs tudja megnyitni.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Mi a jelszókezelő program célja?",
+      "a": [
+        "Egyedi, erős jelszavak biztonságos tárolása",
+        "A jelszó megjegyeztetése fejben",
+        "A jelszavak nyilvános megosztása",
+        "A jelszavak rövidítése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Így minden fiókhoz más jelszó tartozhat.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Melyik magyar mérnök nevéhez fűződik a villamos vontatás fejlesztése?",
+      "a": [
+        "Kandó Kálmán",
+        "Bláthy Ottó",
+        "Bíró László József",
+        "Galamb József"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kandó Kálmán a fázisváltós villamos vontatás megalkotója.",
+      "t": "magyar mérnökök"
+    },
+    {
+      "q": "Melyik magyar mérnök dolgozott a Ford T-modell tervezésén?",
+      "a": [
+        "Galamb József",
+        "Csonka János",
+        "Kandó Kálmán",
+        "Zipernowsky Károly"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Galamb József Ford főmérnökeként vett részt a T-modell fejlesztésében.",
+      "t": "magyar mérnökök"
+    },
+    {
+      "q": "Melyik találmány köthető Csonka Jánoshoz és Bánki Donáthoz?",
+      "a": [
+        "Karburátor",
+        "Golyóstoll",
+        "Transzformátor",
+        "Holográfia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A porlasztó (karburátor) szabadalmát 1893-ban jegyezték be.",
+      "t": "magyar mérnökök"
+    },
+    {
+      "q": "Mi a szoftverhiba (bug) elnevezés eredete a hagyomány szerint?",
+      "a": [
+        "Egy valódi rovar a korai számítógépben",
+        "Egy programozó neve",
+        "Egy angol rövidítés",
+        "Egy hardvergyártó márka"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A történet szerint egy lepkét találtak a Harvard Mark II relé között.",
+      "t": "informatikatörténet"
+    },
+    {
+      "q": "Mi a különbség a vírus és a zsarolóvírus (ransomware) között?",
+      "a": [
+        "A ransomware titkosítja az adatokat és váltságdíjat kér",
+        "A vírus mindig hardvert tör",
+        "A ransomware csak reklámot mutat",
+        "Nincs különbség"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A ransomware üzleti modellje a fájlok visszafejtésének megvásárlása.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Mit jelent a „reszponzív” weboldal?",
+      "a": [
+        "A képernyő méretéhez alkalmazkodik",
+        "Gyorsan töltődik be",
+        "Több nyelven elérhető",
+        "Csak mobilon működik"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A reszponzív elrendezés telefonon és nagy monitoron is használható.",
+      "t": "programozás"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: CPL?",
+      "a": [
+        "Guy L. Steele",
+        "Martin Odersky",
+        "Roberto Ierusalimschy",
+        "Christopher Strachey"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "CPL tervezője Christopher Strachey.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q2347334"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Xamarin?",
+      "a": [
+        "Michael J. Saylor",
+        "Ikutaro Kakehashi",
+        "Miguel de Icaza",
+        "Diane Greene"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Xamarin egyik alapítója Miguel de Icaza.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q3073996"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Modula-2?",
+      "a": [
+        "Adele Goldberg",
+        "Niklaus Wirth",
+        "Microsoft",
+        "Seymour Papert"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Modula-2 tervezője Niklaus Wirth.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q777358"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Cygnus Solutions?",
+      "a": [
+        "Steve Case",
+        "Ikutaro Kakehashi",
+        "Geir Ivarsøy",
+        "Michael Tiemann"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Cygnus Solutions egyik alapítója Michael Tiemann.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q2074158"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Turbo Pascal?",
+      "a": [
+        "Guy L. Steele",
+        "Christopher Strachey",
+        "Stephen Wolfram",
+        "Anders Hejlsberg"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Turbo Pascal tervezője Anders Hejlsberg.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q473201"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Symbian Software?",
+      "a": [
+        "Geir Ivarsøy",
+        "Ericsson",
+        "Sergey Brin",
+        "Janus Friis"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Symbian Software egyik alapítója Ericsson.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q888456"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Scala?",
+      "a": [
+        "Martin Odersky",
+        "Carl Sassenrath",
+        "Guy L. Steele",
+        "John McCarthy"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Scala tervezője Martin Odersky.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q460584"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Palm, Inc.?",
+      "a": [
+        "John Warnock",
+        "Marcel Dassault",
+        "Jeff Hawkins",
+        "Stephen Wolfram"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Palm, Inc. egyik alapítója Jeff Hawkins.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q854437"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: B (programozási nyelv)?",
+      "a": [
+        "John Backus",
+        "Ken Thompson",
+        "Chris Lattner",
+        "Alain Colmerauer"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "B (programozási nyelv) tervezője Ken Thompson.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q797302"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Dassault Systèmes?",
+      "a": [
+        "Pat Hanrahan",
+        "Marcel Dassault",
+        "Thomas J. Watson",
+        "Charles Ranlett Flint"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Dassault Systèmes egyik alapítója Marcel Dassault.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q1172038"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: F Sharp?",
+      "a": [
+        "Microsoft Research",
+        "Palo Alto Research Center",
+        "Stephen Wolfram",
+        "Barbara Liskov"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "F Sharp tervezője Microsoft Research.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q648619"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Wolfram Research?",
+      "a": [
+        "Stephen Wolfram",
+        "Michael Widenius",
+        "Michael Tiemann",
+        "Miguel de Icaza"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Wolfram Research egyik alapítója Stephen Wolfram.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q1367937"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: CLU?",
+      "a": [
+        "Barbara Liskov",
+        "Carl Sassenrath",
+        "John McCarthy",
+        "Brian Kerninghan"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "CLU tervezője Barbara Liskov.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q775159"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Roland Corporation?",
+      "a": [
+        "Ikutaro Kakehashi",
+        "Mozilla Alapítvány",
+        "Nat Friedman",
+        "Diane Greene"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Roland Corporation egyik alapítója Ikutaro Kakehashi.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q848490"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: TypeScript?",
+      "a": [
+        "Peter Naur",
+        "Microsoft",
+        "Larry Wall",
+        "Brad Cox"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "TypeScript tervezője Microsoft.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q978185"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Lotus Software?",
+      "a": [
+        "Miguel de Icaza",
+        "Zeev Suraski",
+        "Mitch Kapor",
+        "Larry Page"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Lotus Software egyik alapítója Mitch Kapor.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q909169"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Emacs Lisp?",
+      "a": [
+        "Richard Matthew Stallman",
+        "Friedrich L. Bauer",
+        "Roberto Ierusalimschy",
+        "Robert Kowalski"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Emacs Lisp tervezője Richard Matthew Stallman.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q1334586"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: MySQL AB?",
+      "a": [
+        "David Packard",
+        "Michael Widenius",
+        "John Gilmore",
+        "Miguel de Icaza"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "MySQL AB egyik alapítója Michael Widenius.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q1000428"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: FLOW-MATIC?",
+      "a": [
+        "Niklaus Wirth",
+        "Cleve Moler",
+        "Grace Hopper",
+        "Audrey Tang"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "FLOW-MATIC tervezője Grace Hopper.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q1389173"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Salesforce?",
+      "a": [
+        "Marc Benioff",
+        "Jaan Tallinn",
+        "Justin Frankel",
+        "Hasso Plattner"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Salesforce egyik alapítója Marc Benioff.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q941127"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Curl?",
+      "a": [
+        "Palo Alto Research Center",
+        "Massachusetts Institute of Technology",
+        "Richard Matthew Stallman",
+        "Institute of Electrical and Electronics Engineers"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Curl tervezője Massachusetts Institute of Technology.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q1144631"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Strategy?",
+      "a": [
+        "Ikutaro Kakehashi",
+        "Dietmar Hopp",
+        "Michael J. Saylor",
+        "Mozilla Alapítvány"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Strategy egyik alapítója Michael J. Saylor.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q1192211"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Oberon?",
+      "a": [
+        "Simon Peyton Jones",
+        "Adele Goldberg",
+        "Brad Cox",
+        "Niklaus Wirth"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Oberon tervezője Niklaus Wirth.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q1323362"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Google LLC?",
+      "a": [
+        "John Warnock",
+        "Hasso Plattner",
+        "Larry Page",
+        "John Gilmore"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Google LLC egyik alapítója Larry Page.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q95"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: ML?",
+      "a": [
+        "Seymour Papert",
+        "Martin Odersky",
+        "Robin Milner",
+        "Anders Hejlsberg"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "ML tervezője Robin Milner.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q860654"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Microsoft?",
+      "a": [
+        "Andi Gutmans",
+        "John McAfee",
+        "Lufthansa",
+        "Bill Gates"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Microsoft egyik alapítója Bill Gates.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q2283"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: ALGOL 60?",
+      "a": [
+        "Brendan Eich",
+        "Martin Odersky",
+        "Grace Hopper",
+        "John Backus"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "ALGOL 60 tervezője John Backus.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q1209759"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: GNU Project?",
+      "a": [
+        "Scandinavian Airlines",
+        "Richard Matthew Stallman",
+        "Michael Tiemann",
+        "Iberia Airlines"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "GNU Project egyik alapítója Richard Matthew Stallman.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q7598"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Common Lisp?",
+      "a": [
+        "Scott E. Fahlman",
+        "Charles Moore",
+        "Christopher Strachey",
+        "Chris Lattner"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Common Lisp tervezője Scott E. Fahlman.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q849146"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Amadeus IT Group?",
+      "a": [
+        "Ronald Wayne",
+        "Ericsson",
+        "John Gilmore",
+        "Lufthansa"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Amadeus IT Group egyik alapítója Lufthansa.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q696061"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: SystemVerilog?",
+      "a": [
+        "Palo Alto Research Center",
+        "Martin Odersky",
+        "James Gosling",
+        "Institute of Electrical and Electronics Engineers"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "SystemVerilog tervezője Institute of Electrical and Electronics Engineers.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q1387402"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: VMware?",
+      "a": [
+        "Diane Greene",
+        "Marc Benioff",
+        "Ronald Wayne",
+        "Mitch Kapor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "VMware egyik alapítója Diane Greene.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q11407"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: REBOL?",
+      "a": [
+        "Simon Peyton Jones",
+        "Friedrich L. Bauer",
+        "Brian Kerninghan",
+        "Carl Sassenrath"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "REBOL tervezője Carl Sassenrath.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q1359171"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Bell Labs?",
+      "a": [
+        "Alexander Graham Bell",
+        "Ikutaro Kakehashi",
+        "Arkady Volozh",
+        "David Packard"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bell Labs egyik alapítója Alexander Graham Bell.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q217365"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Raku?",
+      "a": [
+        "Audrey Tang",
+        "Larry Wall",
+        "Brendan Eich",
+        "Adele Goldberg"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Raku tervezője Audrey Tang.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q2052676"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: McAfee?",
+      "a": [
+        "John McAfee",
+        "Hasso Plattner",
+        "Miguel de Icaza",
+        "Jaan Tallinn"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "McAfee egyik alapítója John McAfee.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q267313"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: ALGOL 68?",
+      "a": [
+        "Richard Matthew Stallman",
+        "Carl Sassenrath",
+        "Adriaan van Wijngaarden",
+        "Stephen Wolfram"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "ALGOL 68 tervezője Adriaan van Wijngaarden.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q2166735"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Mozilla Corporation?",
+      "a": [
+        "Mozilla Alapítvány",
+        "Nadiem Makarim",
+        "Mitch Kapor",
+        "Richard Matthew Stallman"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mozilla Corporation egyik alapítója Mozilla Alapítvány.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q169925"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Smalltalk?",
+      "a": [
+        "Charles Moore",
+        "Audrey Tang",
+        "Peter Naur",
+        "Adele Goldberg"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Smalltalk tervezője Adele Goldberg.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q235086"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: SAP SE?",
+      "a": [
+        "Michael Dell",
+        "Charles Geschke",
+        "James H. Clark",
+        "Dietmar Hopp"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "SAP SE egyik alapítója Dietmar Hopp.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q552581"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Java?",
+      "a": [
+        "Sun Microsystems",
+        "Guy L. Steele",
+        "Seymour Papert",
+        "Barbara Liskov"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Java tervezője Sun Microsystems.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q251"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Ximian?",
+      "a": [
+        "Philippe Kahn",
+        "Mozilla Alapítvány",
+        "Miguel de Icaza",
+        "Michael Tiemann"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Ximian egyik alapítója Miguel de Icaza.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q384744"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: PL/I?",
+      "a": [
+        "Ken Thompson",
+        "Alain Colmerauer",
+        "Martin Odersky",
+        "IBM"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "PL/I tervezője IBM.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q223433"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Netscape?",
+      "a": [
+        "Marc Benioff",
+        "Marc Andreessen",
+        "Michael Widenius",
+        "Air France"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Netscape egyik alapítója Marc Andreessen.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q210057"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Plankalkül?",
+      "a": [
+        "Microsoft",
+        "Ole-Johan Dahl",
+        "Rob Pike",
+        "Konrad Zuse"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Plankalkül tervezője Konrad Zuse.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q34280"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Zend Technologies?",
+      "a": [
+        "Ericsson",
+        "Andi Gutmans",
+        "Zeev Suraski",
+        "Philippe Kahn"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Zend Technologies egyik alapítója Zeev Suraski.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q189477"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: ALGOL?",
+      "a": [
+        "Alan Perlis",
+        "Guy L. Steele",
+        "Robin Milner",
+        "Peter Naur"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "ALGOL tervezője Alan Perlis.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q188436"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Digital Research?",
+      "a": [
+        "Ronald Wayne",
+        "Michael Tiemann",
+        "Gary Kildall",
+        "John Gilmore"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Digital Research egyik alapítója Gary Kildall.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q185608"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: m4?",
+      "a": [
+        "Friedrich L. Bauer",
+        "Niklaus Wirth",
+        "Brian Kerninghan",
+        "John McCarthy"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "m4 tervezője Brian Kerninghan.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q292068"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Skype Technologies?",
+      "a": [
+        "Niklas Zennström",
+        "Mitch Kapor",
+        "Philippe Kahn",
+        "Ronald Wayne"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Skype Technologies egyik alapítója Niklas Zennström.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q246125"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: JavaScript?",
+      "a": [
+        "Niklaus Wirth",
+        "Rob Pike",
+        "Brendan Eich",
+        "Adele Goldberg"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "JavaScript tervezője Brendan Eich.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q2005"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Opera Software?",
+      "a": [
+        "William Redington Hewlett",
+        "Jon Stephenson von Tetzchner",
+        "Michael J. Saylor",
+        "Scandinavian Airlines"
+      ],
+      "c": 1,
+      "d": "medium",
+      "e": "Opera Software egyik alapítója Jon Stephenson von Tetzchner.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q215639"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Simula?",
+      "a": [
+        "Guy L. Steele",
+        "Ole-Johan Dahl",
+        "Konrad Zuse",
+        "Carl Sassenrath"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "Simula tervezője Ole-Johan Dahl.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q212569"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Nullsoft?",
+      "a": [
+        "Justin Frankel",
+        "Geir Ivarsøy",
+        "Miguel de Icaza",
+        "Mozilla Alapítvány"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nullsoft egyik alapítója Justin Frankel.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q385572"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Fortran?",
+      "a": [
+        "Peter Naur",
+        "Robert Kowalski",
+        "Microsoft",
+        "John Backus"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Fortran tervezője John Backus.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q83303"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Logitech?",
+      "a": [
+        "Janus Friis",
+        "Air France",
+        "Michael Dell",
+        "Daniel Borel"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Logitech egyik alapítója Daniel Borel.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q223127"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: MATLAB?",
+      "a": [
+        "Brendan Eich",
+        "Cleve Moler",
+        "Brad Cox",
+        "Alan Kay"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "MATLAB tervezője Cleve Moler.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q169478"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Dell?",
+      "a": [
+        "Michael Dell",
+        "Nadiem Makarim",
+        "Ronald Wayne",
+        "Nat Friedman"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Dell egyik alapítója Michael Dell.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q30873"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: C--?",
+      "a": [
+        "Brian Kerninghan",
+        "Simon Peyton Jones",
+        "Carl Sassenrath",
+        "Roberto Ierusalimschy"
+      ],
+      "c": 1,
+      "d": "hard",
+      "e": "C-- tervezője Simon Peyton Jones.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q81348"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Canonical Ltd.?",
+      "a": [
+        "Gary Kildall",
+        "Charles Ranlett Flint",
+        "Tanaka Hisashige",
+        "Mark Shuttleworth"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Canonical Ltd. egyik alapítója Mark Shuttleworth.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q39064"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Forth?",
+      "a": [
+        "Adele Goldberg",
+        "Ken Thompson",
+        "Barbara Liskov",
+        "Charles Moore"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Forth tervezője Charles Moore.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q275472"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Apple Inc.?",
+      "a": [
+        "Steve Wozniak",
+        "Stephen Wolfram",
+        "Ronald Wayne",
+        "Mitch Kapor"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "Apple Inc. egyik alapítója Ronald Wayne.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q312"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Prolog?",
+      "a": [
+        "Seymour Papert",
+        "Robert Kowalski",
+        "Anders Hejlsberg",
+        "Alain Colmerauer"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Prolog tervezője Alain Colmerauer.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q163468"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Hewlett-Packard?",
+      "a": [
+        "William Redington Hewlett",
+        "Michael Tiemann",
+        "Stephen Wolfram",
+        "Miguel de Icaza"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hewlett-Packard egyik alapítója William Redington Hewlett.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q80978"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Logo?",
+      "a": [
+        "Seymour Papert",
+        "Brian Kerninghan",
+        "Sun Microsystems",
+        "Carl Sassenrath"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Logo tervezője Seymour Papert.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q201436"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: IBM?",
+      "a": [
+        "Thomas J. Watson",
+        "Michael Tiemann",
+        "Pat Hanrahan",
+        "Ikutaro Kakehashi"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "IBM egyik alapítója Thomas J. Watson.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q37156"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Go?",
+      "a": [
+        "IBM",
+        "Peter Naur",
+        "Rob Pike",
+        "Brad Cox"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Go tervezője Rob Pike.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q37227"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: America Online?",
+      "a": [
+        "Lufthansa",
+        "Ronald Wayne",
+        "Steve Case",
+        "Andi Gutmans"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "America Online egyik alapítója Steve Case.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q27585"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Lua?",
+      "a": [
+        "Palo Alto Research Center",
+        "Simon Peyton Jones",
+        "Roberto Ierusalimschy",
+        "Christopher Strachey"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Lua tervezője Roberto Ierusalimschy.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q207316"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Toshiba?",
+      "a": [
+        "Larry Page",
+        "Ronald Wayne",
+        "Bill Gates",
+        "Tanaka Hisashige"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Toshiba egyik alapítója Tanaka Hisashige.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q49125"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Objective-C?",
+      "a": [
+        "Brendan Eich",
+        "Alan Perlis",
+        "Brad Cox",
+        "Alan Kay"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Objective-C tervezője Brad Cox.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q188531"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Adobe?",
+      "a": [
+        "Marcel Dassault",
+        "John Gilmore",
+        "Mitch Kapor",
+        "John Warnock"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Adobe egyik alapítója John Warnock.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q11463"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: D?",
+      "a": [
+        "Microsoft",
+        "Barbara Liskov",
+        "Walter Bright",
+        "Brendan Eich"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "D tervezője Walter Bright.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q319268"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Borland Software Corporation?",
+      "a": [
+        "Diane Greene",
+        "Pat Hanrahan",
+        "Andi Gutmans",
+        "Philippe Kahn"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Borland Software Corporation egyik alapítója Philippe Kahn.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q210075"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Wolfram Language?",
+      "a": [
+        "Ole-Johan Dahl",
+        "Robin Milner",
+        "Stephen Wolfram",
+        "Anders Hejlsberg"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Wolfram Language tervezője Stephen Wolfram.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q15241057"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Red Hat?",
+      "a": [
+        "Ericsson",
+        "Sergey Brin",
+        "Nat Friedman",
+        "Bob Young"
+      ],
+      "c": 3,
+      "d": "medium",
+      "e": "Red Hat egyik alapítója Bob Young.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q485593"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Delphi?",
+      "a": [
+        "Charles Moore",
+        "Friedrich L. Bauer",
+        "Anders Hejlsberg",
+        "Barbara Liskov"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Delphi tervezője Anders Hejlsberg.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q4037189"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: Yandex?",
+      "a": [
+        "Arkady Volozh",
+        "Tanaka Hisashige",
+        "Stephen Wolfram",
+        "John Warnock"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Yandex egyik alapítója Arkady Volozh.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q5281"
+    },
+    {
+      "q": "Ki tervezte a következő programozási nyelvet: Swift?",
+      "a": [
+        "Scott E. Fahlman",
+        "Sun Microsystems",
+        "Chris Lattner",
+        "Microsoft Research"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "Swift tervezője Chris Lattner.",
+      "t": "programozási nyelvek",
+      "s": "http://www.wikidata.org/entity/Q17118377"
+    },
+    {
+      "q": "Ki az egyik alapítója a következő vállalatnak: HP Inc.?",
+      "a": [
+        "Stephen Wolfram",
+        "Gary Kildall",
+        "Hewlett-Packard",
+        "Michael Widenius"
+      ],
+      "c": 2,
+      "d": "medium",
+      "e": "HP Inc. egyik alapítója Hewlett-Packard.",
+      "t": "cégek és alapítók",
+      "s": "http://www.wikidata.org/entity/Q21404084"
+    }
   ]
 }
