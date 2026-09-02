@@ -138,7 +138,7 @@
         supabase: {
           isConfigured: false,
           isSignedIn: false,
-          isAnonymous: true,
+          isAnonymous: true, isGuestAccount: async () => true,
           userId: null,
           rpc: async () => { throw new Error('nincs backend'); }
         },
@@ -275,7 +275,7 @@
           supabase: {
             isConfigured: true,
             isSignedIn: true,
-            isAnonymous: true,
+            isAnonymous: true, isGuestAccount: async () => true,
             userId: ME,
             rpc: async (name) => {
               if (name === 'room_tick' || name === 'room_state') return room;
@@ -520,6 +520,7 @@
             isAnonymous,
             userId: ME,
             signInAnonymously: async () => ({}),
+            isGuestAccount: async () => isAnonymous,
             rpc: async (name, params) => {
               rpcLog.push({ name, params });
               if (name === 'list_open_rooms') return OPEN_ROOMS;
@@ -934,7 +935,7 @@
         const lobbyApp = {
           bank,
           supabase: {
-            isConfigured: true, isSignedIn: true, isAnonymous: true, userId: ME,
+            isConfigured: true, isSignedIn: true, isAnonymous: true, isGuestAccount: async () => true, userId: ME,
             rpc: async (name, params) => {
               roomCalls.push({ name, params });
               if (name === 'room_tick' || name === 'room_state') return room;
@@ -1043,7 +1044,7 @@
         supabase: {
           isConfigured: true,
           isSignedIn: false,
-          isAnonymous: true,
+          isAnonymous: true, isGuestAccount: async () => true,
           userId: null,
           signInAnonymously: async () => {
             const error = new Error('Anonymous sign-ins are disabled');
@@ -1100,6 +1101,7 @@
         supabase: {
           isConfigured: true, isSignedIn: true, isAnonymous: false, userId: ME,
           signInAnonymously: async () => ({}),
+          isGuestAccount: async () => false,
           rpc: async (name, params) => {
             delCalls.push({ name, params });
             if (name === 'list_open_rooms') {
@@ -1290,7 +1292,7 @@
       const startApp = {
         bank,
         supabase: {
-          isConfigured: true, isSignedIn: true, isAnonymous: false, userId: ME,
+          isConfigured: true, isSignedIn: true, isAnonymous: false, isGuestAccount: async () => false, userId: ME,
           rpc: async (name) => {
             startCalls.push(name);
             if (name === 'start_room') return startedRoom;

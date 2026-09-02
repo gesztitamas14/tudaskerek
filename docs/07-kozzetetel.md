@@ -4,7 +4,7 @@ Két különböző dolog kell, és **nem ugyanott futnak**:
 
 | | Mit tartalmaz | Hol fut | Költség |
 |---|---|---|---|
-| **Statikus fájlok** (`web/`) | HTML, CSS, JS, ikonok, 1783 kérdés | GitHub Pages | 0 Ft |
+| **Statikus fájlok** (`web/`) | HTML, CSS, JS, ikonok, 2125 kérdés | GitHub Pages | 0 Ft |
 | **Adatbázis + auth** | ranglista, multiplayer, központi kérdésbank | Supabase (felhő) | 0 Ft (free tier) |
 
 Miért kettő? A GitHub Pages **csak fájlokat tud kiszolgálni** – nincs benne
@@ -21,7 +21,7 @@ szerveroldali kód és nincs adatbázis. Ezért az adatbázis egy külön szolg�
                            /rest/v1/rpc/next_question, leaderboard, room_state …
 ```
 
-**Fontos:** a játék az adatbázis nélkül is teljesen működik (offline mód, 1783
+**Fontos:** a játék az adatbázis nélkül is teljesen működik (offline mód, 2125
 beépített kérdés, statisztika). Az adatbázis a ranglistához és a
 többjátékos módhoz kell.
 
@@ -76,7 +76,7 @@ többjátékos módhoz kell.
 A GitHub Pages projekt-oldal nem a gyökérben van, hanem `/<repónév>/` alatt.
 Minden hivatkozás ezért **relatív** (`./js/app.js`, `./seed-questions.json`), a
 manifestben a `start_url` és a `scope` is `./`. Ezt le is teszteltük: a PWA
-aloldalról kiszolgálva ugyanúgy betölti mind a 1783 kérdést.
+aloldalról kiszolgálva ugyanúgy betölti mind a 2125 kérdést.
 
 A `web/.nojekyll` fájl azért kell, hogy a GitHub ne próbálja Jekyllel
 feldolgozni a mappát.
@@ -189,7 +189,7 @@ cp tools/.env.example tools/.env
 #   (Supabase → Project Settings → API)
 
 node tools/src/import-seed.mjs --dry-run   # próbafutás: mit tenne
-node tools/src/import-seed.mjs             # 26 kategória + 1783 kérdés
+node tools/src/import-seed.mjs             # 28 kategória + 2125 kérdés
 ```
 
 Az import **idempotens**: a `(category_id, norm_question)` egyedi index miatt

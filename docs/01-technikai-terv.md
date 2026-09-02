@@ -33,7 +33,7 @@ jelenlét és a natív rendszerintegráció.
 | Terület | Döntés | Indoklás |
 |---|---|---|
 | Kliens | PWA: HTML + CSS + ES modulok | **nincs build lépés** – a `web/` mappa önmagában a kész alkalmazás; Windowson azonnal futtatható, bármely statikus hostra kirakható |
-| Keretrendszer | nincs | 1783 kérdés és 8 képernyő nem igényel virtuális DOM-ot; a nulla függőség egyben nulla supply-chain kockázat |
+| Keretrendszer | nincs | 2125 kérdés és 8 képernyő nem igényel virtuális DOM-ot; a nulla függőség egyben nulla supply-chain kockázat |
 | Offline | service worker: precache + stale-while-revalidate | az app első indításnál is játszható internet nélkül |
 | Lokális tároló | `localStorage` a `store.js` absztrakció mögött | az adat kicsi (néhány száz eredmény) és szinkron, tehát nincs versenyhelyzet a játékmenet közben; IndexedDB-re cserélhető, ha egyszer tízezres lesz a helyi bank |
 | Kerék | `<canvas>` + `requestAnimationFrame` | 22 cikk és felirat egyetlen rétegben; a végszög előre kiszámolt, az animáció csak megjeleníti |
@@ -153,7 +153,7 @@ mindkét módot, és nem kell ismernie a helyes választ.
 | 1 | Projektszerkezet, design system, navigáció | ✅ |
 | 2 | Kerék UI és fizikai lassulású pörgetés | ✅ |
 | 3 | Kérdés UI, `GameEngine`, kör lezárás | ✅ |
-| 4 | Lokális kérdésbank (1783 kérdés, 26 kategória) | ✅ |
+| 4 | Lokális kérdésbank (2125 kérdés, 28 kategória) | ✅ |
 | 5 | Supabase séma, RLS, 37 RPC | ✅ |
 | 6 | Auth: vendég mód, Google OAuth, e-mail/jelszó | ✅ |
 | 7 | Admin felület, AI pipeline, dedup, fact-check | ✅ |

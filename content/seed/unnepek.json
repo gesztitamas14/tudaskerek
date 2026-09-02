@@ -213,354 +213,459 @@
       "s": "http://www.wikidata.org/entity/Q455596"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Double Ninth Festival?",
+      "q": "Melyik nap Magyarországon az államalapítás ünnepe?",
       "a": [
-        "Ukrajna",
-        "Kína",
-        "Japán",
-        "Nauru"
+        "Augusztus 20.",
+        "Március 15.",
+        "Október 23.",
+        "Május 1."
       ],
-      "c": 2,
-      "d": "hard",
-      "e": "Double Ninth Festival Japán ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q463754"
+      "c": 0,
+      "d": "easy",
+      "e": "Szent István napja; a hagyomány szerint ekkor szentelték fel az első magyar király ereklyéjét.",
+      "t": "magyar ünnepek"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Gaecheonjeol?",
+      "q": "Mit ünneplünk március 15-én?",
       "a": [
-        "Mongólia",
-        "Izrael",
-        "Dél-Korea",
-        "Hollandia"
+        "Az 1848-as forradalom kitörését",
+        "Az államalapítást",
+        "Az 1956-os forradalmat",
+        "A rendszerváltást"
       ],
-      "c": 2,
-      "d": "hard",
-      "e": "Gaecheonjeol Dél-Korea ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q485634"
+      "c": 0,
+      "d": "easy",
+      "e": "1848. március 15-én Pesten kezdődött a forradalom; a kokárda ennek a jelképe.",
+      "t": "magyar ünnepek"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Leif Erikson Day?",
+      "q": "Melyik esemény évfordulója október 23.?",
       "a": [
-        "Észak-Macedónia",
-        "Amerikai Egyesült Államok",
-        "Fehéroroszország",
-        "Egyesült Királyság"
+        "Az 1956-os forradalom kitörése",
+        "Az 1848-as forradalom",
+        "A trianoni békeszerződés",
+        "A honfoglalás"
       ],
-      "c": 1,
-      "d": "hard",
-      "e": "Leif Erikson Day Amerikai Egyesült Államok ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q486608"
+      "c": 0,
+      "d": "easy",
+      "e": "1989-ben ugyanezen a napon kiáltották ki a Magyar Köztársaságot is.",
+      "t": "magyar ünnepek"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Korea nemzeti felszabadításának napja?",
+      "q": "Mikor van a magyar kultúra napja?",
       "a": [
-        "Türkmenisztán",
-        "Bolívia",
-        "Észak-Korea",
-        "Mongólia"
-      ],
-      "c": 2,
-      "d": "hard",
-      "e": "Korea nemzeti felszabadításának napja Észak-Korea ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q488443"
-    },
-    {
-      "q": "Melyik országban nemzeti ünnep a következő: hangulnap?",
-      "a": [
-        "Dél-Korea",
-        "Afganisztán",
-        "India",
-        "Kanada"
+        "Január 22.",
+        "Március 1.",
+        "Szeptember 1.",
+        "November 3."
       ],
       "c": 0,
       "d": "hard",
-      "e": "hangulnap Dél-Korea ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q494394"
+      "e": "Kölcsey Ferenc ezen a napon fejezte be a Himnusz kéziratát 1823-ban.",
+      "t": "magyar ünnepek"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Angam Day?",
+      "q": "Melyik napot tartják a magyar népi hagyományban a tél derekának, amikor a medve kinéz?",
       "a": [
-        "Thaiföld",
-        "Malajzia",
-        "Nauru",
-        "Szerbia"
-      ],
-      "c": 2,
-      "d": "hard",
-      "e": "Angam Day Nauru ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q530453"
-    },
-    {
-      "q": "Melyik országban nemzeti ünnep a következő: Cassinga Day?",
-      "a": [
-        "Mongólia",
-        "Mexikó",
-        "Namíbia",
-        "Kazahsztán"
-      ],
-      "c": 2,
-      "d": "hard",
-      "e": "Cassinga Day Namíbia ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q586908"
-    },
-    {
-      "q": "Melyik országban nemzeti ünnep a következő: Armenian Genocide Remembrance Day?",
-      "a": [
-        "Törökország",
-        "Szlovénia",
-        "Indonézia",
-        "Szaúd-Arábia"
+        "Gyertyaszentelő Boldogasszony, február 2.",
+        "Vízkereszt, január 6.",
+        "Nagyboldogasszony, augusztus 15.",
+        "Katalin napja, november 25."
       ],
       "c": 0,
       "d": "hard",
-      "e": "Armenian Genocide Remembrance Day Törökország ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q616407"
+      "e": "A hagyomány szerint ha ekkor napos idő van, a medve visszamegy, mert hosszú lesz még a tél.",
+      "t": "magyar ünnepek"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Victory in Europe Day?",
+      "q": "Milyen népszokás kötődik a magyar hagyományban Luca napjához?",
       "a": [
-        "Szlovénia",
-        "Szaúd-Arábia",
-        "Montenegró",
-        "Franciaország"
+        "A Luca-szék készítése és a jóslás",
+        "A húsvéti locsolkodás",
+        "A májusfa állítása",
+        "A szüreti mulatság"
       ],
-      "c": 3,
-      "d": "hard",
-      "e": "Victory in Europe Day Franciaország ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q622365"
+      "c": 0,
+      "d": "medium",
+      "e": "A Luca-székre a karácsonyi éjféli misén állva állítólag felismerhetők voltak a boszorkányok.",
+      "t": "magyar ünnepek"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Canada Day?",
+      "q": "Mit szokás állítani május elsején a magyar néphagyományban?",
       "a": [
-        "Irán",
-        "Kanada",
-        "Ciprus",
-        "Nepál"
+        "Májusfát",
+        "Betlehemet",
+        "Szüreti kaput",
+        "Aratókoszorút"
       ],
-      "c": 1,
-      "d": "hard",
-      "e": "Canada Day Kanada ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q639756"
+      "c": 0,
+      "d": "medium",
+      "e": "A legények a kiszemelt lány háza elé állították a feldíszített fát, jellemzően éjszaka.",
+      "t": "magyar ünnepek"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Gandhi Jayanti?",
+      "q": "Melyik ünnephez kötődik a magyar hagyományban a húsvéti locsolkodás?",
       "a": [
-        "Románia",
-        "Kína",
-        "India",
-        "Kambodzsa"
+        "Húsvéthétfő",
+        "Nagypéntek",
+        "Húsvétvasárnap",
+        "Áldozócsütörtök"
       ],
-      "c": 2,
-      "d": "hard",
-      "e": "Gandhi Jayanti India ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q658185"
+      "c": 0,
+      "d": "easy",
+      "e": "A víz a megtisztulás és a termékenység jelképe; a locsolóversek a 19. századtól terjedtek el.",
+      "t": "magyar ünnepek"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Retrocession Day?",
+      "q": "Mi a farsang lezáró napja a magyar hagyományban?",
       "a": [
-        "Kína",
-        "Albánia",
-        "Moldova",
-        "India"
+        "Húshagyó kedd",
+        "Hamvazószerda",
+        "Vízkereszt",
+        "Virágvasárnap"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A farsang vízkereszttől húshagyó keddig tart; utána kezdődik a negyvennapos nagyböjt.",
+      "t": "magyar ünnepek"
+    },
+    {
+      "q": "Melyik napon szokás Magyarországon a búcsúkat, vagyis a templom védőszentjének ünnepét tartani?",
+      "a": [
+        "A templom védőszentjének napján",
+        "Mindig augusztus 20-án",
+        "Mindig pünkösd hétfőn",
+        "Minden hónap első vasárnapján"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ezért esik minden településen más napra; a búcsú vásárral és mulatsággal járt.",
+      "t": "magyar ünnepek"
+    },
+    {
+      "q": "Melyik ünnep a keresztény hagyományban a Szentlélek eljövetelének emléknapja?",
+      "a": [
+        "Pünkösd",
+        "Karácsony",
+        "Húsvét",
+        "Vízkereszt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pünkösd húsvét után az ötvenedik napon van; a görög pentékosztész, azaz ötvenedik szóból jön a neve.",
+      "t": "világ ünnepei"
+    },
+    {
+      "q": "Melyik ünnep zárja a zsidó naptárban a nagy engesztelés napját?",
+      "a": [
+        "Jom kippur",
+        "Hanuka",
+        "Purim",
+        "Pészah"
       ],
       "c": 0,
       "d": "hard",
-      "e": "Retrocession Day Kína ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q697228"
+      "e": "A jom kippur teljes böjttel és imádsággal töltött nap, a zsidó év legfontosabb ünnepe.",
+      "t": "világ ünnepei"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Qingming Festival?",
+      "q": "Mit ünnepelnek a muszlimok a ramadán végén?",
       "a": [
-        "Kína",
-        "India",
-        "Suriname",
-        "Izland"
+        "Íd al-fitr, a böjt megtörésének ünnepét",
+        "Az újév kezdetét",
+        "A mekkai zarándoklatot",
+        "A próféta születését"
       ],
       "c": 0,
       "d": "hard",
-      "e": "Qingming Festival Kína ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q718778"
+      "e": "A ramadán holdhónap, ezért évről évre korábbra kerül a naptárban.",
+      "t": "világ ünnepei"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Naadam?",
+      "q": "Melyik ünnep a fények ünnepe az indiai hagyományban?",
       "a": [
-        "Malajzia",
-        "Nauru",
-        "Új-Zéland",
-        "Mongólia"
+        "Diváli",
+        "Holi",
+        "Onám",
+        "Pongal"
       ],
-      "c": 3,
-      "d": "hard",
-      "e": "Naadam Mongólia ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q721133"
+      "c": 0,
+      "d": "medium",
+      "e": "A diváli során olajlámpásokat és mécseseket gyújtanak a jó győzelmének jelképeként.",
+      "t": "világ ünnepei"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Victory Day?",
+      "q": "Melyik indiai ünnepen szórnak egymásra színes porokat?",
       "a": [
-        "Franciaország",
-        "Kambodzsa",
-        "Horvátország",
-        "Mongólia"
+        "Holi",
+        "Diváli",
+        "Ramadán",
+        "Vészak"
       ],
-      "c": 2,
-      "d": "hard",
-      "e": "Victory Day Horvátország ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q728012"
+      "c": 0,
+      "d": "medium",
+      "e": "A holi a tavaszt köszönti; a színes por neve gulál.",
+      "t": "világ ünnepei"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: elnökök napja?",
+      "q": "Melyik nap a hálaadás ünnepe az Egyesült Államokban?",
       "a": [
-        "Holland Királyság",
-        "Egyesült Királyság",
-        "Amerikai Egyesült Államok",
-        "Észak-Macedónia"
+        "November negyedik csütörtökje",
+        "December első vasárnapja",
+        "Október utolsó hétfője",
+        "Szeptember első hétfője"
       ],
-      "c": 2,
-      "d": "hard",
-      "e": "elnökök napja Amerikai Egyesült Államok ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q744159"
+      "c": 0,
+      "d": "medium",
+      "e": "Kanadában október második hétfőjén tartják; a hagyomány az 1621-es plymouth-i aratásra vezethető vissza.",
+      "t": "világ ünnepei"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: veteránok napja?",
+      "q": "Melyik ünnepen viselnek jelmezt és járnak házaktól házig édességért október 31-én?",
       "a": [
-        "Amerikai Egyesült Államok",
-        "Észak-Macedónia",
-        "Fehéroroszország",
-        "Holland Királyság"
+        "Halloween",
+        "Karnevál",
+        "Szent Patrik napja",
+        "Hálaadás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ír-skót samhain hagyományból ered; a tökből vágott lámpás eredetileg répából készült.",
+      "t": "világ ünnepei"
+    },
+    {
+      "q": "Mit ünnepelnek Mexikóban november elsején és másodikán?",
+      "a": [
+        "A halottak napját, a Día de Muertost",
+        "Az aratást",
+        "A függetlenséget",
+        "A tavasz kezdetét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ünnep vidám: cukorkoponyákkal és oltárral emlékeznek az elhunytakra.",
+      "t": "világ ünnepei"
+    },
+    {
+      "q": "Melyik ünnepen tartják a kínai hagyományban a sárkánytáncot és a piros borítékok osztását?",
+      "a": [
+        "A kínai újév",
+        "A holdfesztivál",
+        "A lampionfesztivál",
+        "A sárkányhajó-fesztivál"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A holdnaptár szerint január 21. és február 20. között váltakozik a dátum; minden évhez állat tartozik.",
+      "t": "világ ünnepei"
+    },
+    {
+      "q": "Melyik napot jelölték ki a nők nemzetközi ünnepének?",
+      "a": [
+        "Március 8.",
+        "Május 1.",
+        "Június 1.",
+        "Október 1."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az 1900-as évek eleji munkásmozgalmi tüntetésekből alakult ki; az ENSZ 1977-ben ismerte el.",
+      "t": "világ ünnepei"
+    },
+    {
+      "q": "Mikor van a Föld napja?",
+      "a": [
+        "Április 22.",
+        "Március 22.",
+        "Június 5.",
+        "Szeptember 16."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1970-től tartják; a víz világnapja március 22-én, a környezetvédelmi világnap június 5-én van.",
+      "t": "világ ünnepei"
+    },
+    {
+      "q": "Melyik naphoz köti a hagyomány, hogy a tavasz első napja a csillagászati naptárban?",
+      "a": [
+        "A tavaszi napéjegyenlőség, március 20. körül",
+        "Március 1.",
+        "Április 1.",
+        "Február 20."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ekkor egyenlő a nappal és az éjszaka hossza; a meteorológiai tavasz március 1-jén kezdődik.",
+      "t": "világ ünnepei"
+    },
+    {
+      "q": "Miért esik a húsvét minden évben más napra?",
+      "a": [
+        "A tavaszi holdtölte utáni vasárnap",
+        "Mindig április első vasárnapja",
+        "A naptárreform miatt",
+        "A helyi hagyomány dönt róla"
       ],
       "c": 0,
       "d": "hard",
-      "e": "veteránok napja Amerikai Egyesült Államok ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q755999"
+      "e": "A tavaszi napéjegyenlőség utáni első holdtöltét követő vasárnap – ezért mozog március 22. és április 25. között.",
+      "t": "világ ünnepei"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Republic Day?",
+      "q": "Melyik ünnep emlékezik meg a zsidó nép egyiptomi kivonulásáról?",
       "a": [
-        "Afganisztán",
-        "Ausztrália",
-        "Örményország",
-        "Törökország"
+        "Pészah",
+        "Hanuka",
+        "Szukkot",
+        "Purim"
       ],
-      "c": 3,
-      "d": "hard",
-      "e": "Republic Day Törökország ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q803181"
+      "c": 0,
+      "d": "medium",
+      "e": "A pészah nyolc napja alatt kovásztalan kenyeret, maceszt esznek.",
+      "t": "világ ünnepei"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: „ohi” nap?",
+      "q": "Mit jelképez a hanuka nyolc gyertyája?",
       "a": [
-        "Törökország",
-        "Azerbajdzsán",
-        "Görögország",
-        "Montenegró"
+        "A templomi olaj nyolc napig tartó csodáját",
+        "A nyolc próféta emlékét",
+        "A nyolc törzs egységét",
+        "A hét nyolc napját"
       ],
-      "c": 2,
+      "c": 0,
       "d": "hard",
-      "e": "„ohi” nap Görögország ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q830166"
+      "e": "A menóra kilencedik szára a segédgyertya, amivel a többit meggyújtják.",
+      "t": "világ ünnepei"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Cshuszok?",
+      "q": "Melyik napon tartják a keresztény hagyományban Jézus születésének ünnepét a nyugati egyházban?",
       "a": [
-        "Grúzia",
-        "Spanyolország",
-        "Dél-Korea",
-        "Kambodzsa"
+        "December 25.",
+        "December 24.",
+        "Január 6.",
+        "Január 7."
       ],
-      "c": 2,
-      "d": "hard",
-      "e": "Cshuszok Dél-Korea ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q1090024"
+      "c": 0,
+      "d": "easy",
+      "e": "Az ortodox egyházak egy része a Julián-naptár szerint január 7-én ünnepel.",
+      "t": "szokások, hagyományok"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: koreai újév?",
+      "q": "Mit szokás a magyar hagyományban az adventi koszorún hetente gyújtani?",
       "a": [
-        "Mongólia",
-        "Pakisztán",
-        "Dél-Korea",
-        "Málta"
+        "Egy újabb gyertyát",
+        "Egy mécsest",
+        "Egy csillagszórót",
+        "Egy fáklyát"
       ],
-      "c": 2,
-      "d": "hard",
-      "e": "koreai újév Dél-Korea ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q8249787"
+      "c": 0,
+      "d": "easy",
+      "e": "Négy gyertya van rajta, három lila és egy rózsaszín; az utóbbi a harmadik, örömvasárnapra jut.",
+      "t": "szokások, hagyományok"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Kazakhstan Independence Day?",
+      "q": "Mi a jelentése a szilveszteri lencse- vagy babfogyasztásnak a néphagyományban?",
       "a": [
-        "Románia",
-        "Ciprus",
-        "Kazahsztán",
-        "Németország"
+        "Bőséget és pénzt hoz az új évre",
+        "Elűzi a betegséget",
+        "Szerencsés házasságot ígér",
+        "Jó termést jelez"
       ],
-      "c": 2,
-      "d": "hard",
-      "e": "Kazakhstan Independence Day Kazahsztán ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q841137"
+      "c": 0,
+      "d": "medium",
+      "e": "A szemek a pénzérmékre hasonlítanak; ugyanezért kerülik a szárnyas húst, hogy a szerencse ne szálljon el.",
+      "t": "szokások, hagyományok"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: a munka ünnepe az USA-ban?",
+      "q": "Melyik ünnephez kötődik a magyar hagyományban a betlehemezés?",
       "a": [
-        "Fehéroroszország",
-        "Amerikai Egyesült Államok",
-        "Egyesült Királyság",
-        "Holland Királyság"
+        "Karácsonyhoz",
+        "Húsvéthoz",
+        "Pünkösdhöz",
+        "Farsanghoz"
       ],
-      "c": 1,
-      "d": "hard",
-      "e": "a munka ünnepe az USA-ban Amerikai Egyesült Államok ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q848352"
+      "c": 0,
+      "d": "medium",
+      "e": "A betlehemes játék dramatizált pásztorjáték, amit házaknál adtak elő az ünnep előtti napokban.",
+      "t": "szokások, hagyományok"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Ganesh Chaturthi?",
+      "q": "Mit jelképez a húsvéti tojás a hagyományban?",
       "a": [
-        "Malajzia",
-        "India",
-        "Kanada",
-        "Mongólia"
+        "Az újjászületést és az életet",
+        "A böjt végét",
+        "A gazdagságot",
+        "A tavaszi vetést"
       ],
-      "c": 1,
-      "d": "hard",
-      "e": "Ganesh Chaturthi India ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q929250"
+      "c": 0,
+      "d": "easy",
+      "e": "A díszítés technikái közé tartozik az írókázás, a karcolás és a patkolás.",
+      "t": "szokások, hagyományok"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Armed Forces Flag Day?",
+      "q": "Melyik napon szokás Magyarországon a Mikulás-ajándékozás?",
       "a": [
-        "Izrael",
-        "Pakisztán",
-        "India",
-        "Brazília"
+        "December 6.",
+        "December 24.",
+        "December 13.",
+        "November 30."
       ],
-      "c": 2,
+      "c": 0,
+      "d": "easy",
+      "e": "Szent Miklós püspök emléknapja; a hagyomány szerint a kirakott csizmába kerül az ajándék.",
+      "t": "szokások, hagyományok"
+    },
+    {
+      "q": "Mit tartalmaz a hagyomány szerint a Mikulás virgácsa mellett a jó gyerek csomagja?",
+      "a": [
+        "Édességet és gyümölcsöt",
+        "Pénzt",
+        "Játékot",
+        "Ruhát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Régen mogyoró, alma és szárított füge került bele – a csokoládé újabb szokás.",
+      "t": "szokások, hagyományok"
+    },
+    {
+      "q": "Melyik ünnepen szokás Magyarországon tökből lámpást készíteni?",
+      "a": [
+        "Halloween és a magyar tökfesztiválok idején",
+        "Húsvétkor",
+        "Pünkösdkor",
+        "Farsangkor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar néphagyományban is ismert volt a répa- és tökLámpás, jóval a Halloween átvétele előtt.",
+      "t": "szokások, hagyományok"
+    },
+    {
+      "q": "Mit ünneplünk pedagógusnapon Magyarországon?",
+      "a": [
+        "A tanárok munkáját, június első vasárnapján",
+        "A tanév végét",
+        "Az iskolaalapítást",
+        "A diákok sikereit"
+      ],
+      "c": 0,
       "d": "hard",
-      "e": "Armed Forces Flag Day India ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q970234"
+      "e": "Magyarországon 1952 óta tartják; a nemzetközi pedagógusnap október 5-én van.",
+      "t": "szokások, hagyományok"
+    },
+    {
+      "q": "Melyik napon van Magyarországon a nőnap mellett tartott anyák napja?",
+      "a": [
+        "Május első vasárnapja",
+        "Március 8.",
+        "Május 1.",
+        "Június első vasárnapja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Magyarországon 1925 óta ünneplik; sok országban május második vasárnapján tartják.",
+      "t": "szokások, hagyományok"
     }
   ]
 }

@@ -1,5 +1,1228 @@
 {
   "category": "divat",
   "default_source": null,
-  "questions": []
+  "questions": [
+    {
+      "q": "Melyik divatház alapítója vezette be a kis fekete ruhát a húszas években?",
+      "a": [
+        "Coco Chanel",
+        "Elsa Schiaparelli",
+        "Jeanne Lanvin",
+        "Madeleine Vionnet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Chanel 1926-os egyszerű fekete ruháját a Vogue „Ford-modellnek” nevezte: mindenkinek jó és bárhol viselhető.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Ki alkotta meg 1947-ben a New Look nevű szűk derekú, bő szoknyás sziluettet?",
+      "a": [
+        "Christian Dior",
+        "Cristóbal Balenciaga",
+        "Hubert de Givenchy",
+        "Pierre Balmain"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Dior első kollekciója a háborús anyagtakarékosság után pazarló mennyiségű szövetet használt.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik tervező nevéhez fűződik a női szmoking, a Le Smoking bevezetése?",
+      "a": [
+        "Yves Saint Laurent",
+        "Karl Lagerfeld",
+        "Valentino Garavani",
+        "Gianni Versace"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Saint Laurent 1966-ban tette a férfi estélyi öltönyt női viseletté; sok étterem előbb nem engedte be a viselőit.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik olasz tervezőt gyilkolták meg 1997-ben Miamiban?",
+      "a": [
+        "Gianni Versace",
+        "Gianfranco Ferré",
+        "Ottavio Missoni",
+        "Emilio Pucci"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A házat ezután a nővére, Donatella Versace vezette tovább.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Ki volt a Chanel kreatív vezetője 1983-tól három évtizeden át?",
+      "a": [
+        "Karl Lagerfeld",
+        "Virginie Viard",
+        "Hedi Slimane",
+        "Tom Ford"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Lagerfeld egyszerre vezette a Chanelt, a Fendit és a saját márkáját; jellegzetes jelmezéhez tartozott a fekete napszemüveg.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik márkát ismerjük a piros talpú női cipőkről?",
+      "a": [
+        "Christian Louboutin",
+        "Manolo Blahnik",
+        "Jimmy Choo",
+        "Sergio Rossi"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Louboutin 1993-ban egy asszisztense piros lakkjával festette be a talpat, és ez lett a védjegye.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik divatház jelképe a összefonódó dupla G monogram?",
+      "a": [
+        "Gucci",
+        "Givenchy",
+        "Dolce & Gabbana",
+        "Fendi"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A monogram az alapító, Guccio Gucci nevének kezdőbetűje; a firenzei ház 1921-ben bőrárukkal indult.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik márka indult 1854-ben párizsi utazóbőröndök gyártásával?",
+      "a": [
+        "Louis Vuitton",
+        "Hermès",
+        "Prada",
+        "Loewe"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Vuitton lapos tetejű, egymásra rakható bőröndje volt az újítás a korábbi domború tetejű ládákkal szemben.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik divatház kezdte lószerszámok készítésével a 19. században?",
+      "a": [
+        "Hermès",
+        "Chanel",
+        "Dior",
+        "Balenciaga"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1837-ben nyílt párizsi műhely nyeregkészítőként indult; a kocsis-logó ma is erre utal.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik tervezőt nevezték a divat építészének a szerkezetes, testtől elemelt szabásai miatt?",
+      "a": [
+        "Cristóbal Balenciaga",
+        "Christian Dior",
+        "Coco Chanel",
+        "Jean Paul Gaultier"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A spanyol Balenciaga buborékszoknyája és babydoll ruhája nem követte, hanem formálta a testet.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Ki volt a brit tervező, akinek koponyás sálja és színházi bemutatói ikonikussá lettek?",
+      "a": [
+        "Alexander McQueen",
+        "Vivienne Westwood",
+        "Paul Smith",
+        "Stella McCartney"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "McQueen bemutatói inkább előadások voltak; 2010-ben, 40 évesen halt meg.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik tervezőt kötik a punk stílus divatba emeléséhez Londonban?",
+      "a": [
+        "Vivienne Westwood",
+        "Mary Quant",
+        "Zandra Rhodes",
+        "Ossie Clark"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Westwood a Sex Pistols körüli King's Road-i üzletéből indult, és a szakadt, biztosítótűs stílust vitte a kifutóra.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik tervezőnő nevéhez fűződik a miniszoknya elterjesztése a hatvanas években?",
+      "a": [
+        "Mary Quant",
+        "Vivienne Westwood",
+        "Jean Muir",
+        "Barbara Hulanicki"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Quant a londoni Bazaar üzletében árulta; a szoknyát állítása szerint a Mini autóról nevezte el.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik japán tervező vezette be a fekete, aszimmetrikus, szándékosan viseltes megjelenést Párizsban?",
+      "a": [
+        "Rei Kawakubo",
+        "Issey Miyake",
+        "Kenzo Takada",
+        "Junya Watanabe"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kawakubo Comme des Garçons márkája 1981-es bemutatóját a francia sajtó „Hirosima-sikknek” nevezte.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik tervező márkáját ismerjük a hőkezelt, tartós plisszéről?",
+      "a": [
+        "Issey Miyake",
+        "Rei Kawakubo",
+        "Yohji Yamamoto",
+        "Junya Watanabe"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Pleats Please eljárásnál a kész ruhát préselik, nem az anyagot – így a redő tartós marad.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik brit márka lett világszerte ismert a jellegzetes kockás bélésről és a trencskóról?",
+      "a": [
+        "Burberry",
+        "Aquascutum",
+        "Barbour",
+        "Mackintosh"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Thomas Burberry a gabardin szövet feltalálója; a trencskót az első világháborús tisztek viselete alapján fejlesztették.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik amerikai tervező építette márkáját a póló-emblémás, klasszikus amerikai stílusra?",
+      "a": [
+        "Ralph Lauren",
+        "Calvin Klein",
+        "Tommy Hilfiger",
+        "Donna Karan"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ralph Lauren nyakkendőkkel kezdte 1967-ben; eredeti neve Ralph Lifshitz volt.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik magyar származású tervező lett Hollywood kedvelt kosztümtervezője?",
+      "a": [
+        "Vértes Marcell",
+        "Zukor Adolf",
+        "Korda Sándor",
+        "Rózsa Miklós"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Vértes Marcell illusztrátorként és kosztümtervezőként dolgozott; a Moulin Rouge-ért Oscart kapott 1953-ban.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik divatházat vezette Tom Ford a kilencvenes években, felvirágoztatva azt?",
+      "a": [
+        "Gucci",
+        "Prada",
+        "Versace",
+        "Armani"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ford 1994-től volt kreatív vezető, és a csődközeli céget a legjövedelmezőbb luxusmárkák közé emelte.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik tervező mutatta be a kúpos melltartót, amit Madonna is viselt turnéján?",
+      "a": [
+        "Jean Paul Gaultier",
+        "Thierry Mugler",
+        "Claude Montana",
+        "Azzedine Alaïa"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Gaultier az 1990-es Blond Ambition turné jelmezeit tervezte; a fűző mint felsőruha az ő ötlete volt.",
+      "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik ruhadarab kapta a nevét a francia hadsereg egyik egyenruha-darabjától, és lett esőkabát?",
+      "a": [
+        "A trencskó",
+        "A zakó",
+        "A blézer",
+        "A poncsó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A trench coat szó szerint „lövészárok-kabát”: az első világháborús brit tisztek viselete vált civil ruhává.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Honnan származik a farmer alapanyagának, a denimnek a neve?",
+      "a": [
+        "A francia Nîmes városából",
+        "Az olasz Genova kikötőjéből",
+        "Az angliai Denham falujából",
+        "A hollandiai Delft városából"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A „de Nîmes”, azaz nîmes-i szövetből lett denim; a Genovából származó „bleu de Gênes” adta a „jeans” szót.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Melyik cég szabadalmaztatta 1873-ban a farmer zsebének szegecses megerősítését?",
+      "a": [
+        "Levi Strauss & Co.",
+        "Wrangler",
+        "Lee",
+        "Diesel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Jacob Davis szabó ötletét Levi Strauss szabadalmaztatta – a szegecs a bányászok szakadó zsebeire volt válasz.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Melyik ruhadarabot terjesztette el a bikini néven ismert kétrészes fürdőruha 1946-ban?",
+      "a": [
+        "Louis Réard tervezte",
+        "Coco Chanel tervezte",
+        "Jacques Heim tervezte",
+        "Emilio Pucci tervezte"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Réard a Bikini-atollon végzett atomkísérletről nevezte el, a robbanásszerű hatásra utalva.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Mikor jelent meg a nyakkendő közvetlen elődje Európában?",
+      "a": [
+        "A 17. században, horvát katonák nyakravalójából",
+        "A 14. században, itáliai udvarokban",
+        "A 19. században, angol klubokban",
+        "A 16. században, spanyol udvarban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A francia „cravate” a horvátok nevéből származik; a 30 éves háború zsoldosai hozták a divatot Párizsba.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Melyik ruhadarab volt eredetileg alsóruha, és csak a 20. században lett önálló felsőruha?",
+      "a": [
+        "A póló",
+        "A szoknya",
+        "A kardigán",
+        "A mellény"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rövid ujjú kötött felsőt az amerikai haditengerészet alsóruhaként adta ki; Marlon Brando filmjei tették önálló viseletté.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Kiről kapta a nevét a kardigán?",
+      "a": [
+        "Egy krími háborús brit tábornokról",
+        "Egy walesi juhászcsalád nevéről",
+        "Egy skót posztógyáros nevéről",
+        "Egy párizsi divattervezőről"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "James Brudenell, Cardigan grófja viselt ilyen elöl nyitott kötött ruhát; a raglán ujj is egy krími tábornokról kapta nevét.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Melyik testrészről kapta a nevét a raglán ujj?",
+      "a": [
+        "Senkiről, egy lordról nevezték el",
+        "A vállvonal magasságáról",
+        "A felkar középső részéről",
+        "A nyakkivágás szélességéről"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Raglan lord elvesztette a karját, és olyan kabátot csináltatott, amelynek ujja a nyakvonalig ér – így könnyebb volt felvenni.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Melyik viselet volt a nyugati nők számára a 19. században a szűk derék eszköze?",
+      "a": [
+        "A fűző",
+        "A krinolin",
+        "A turnűr",
+        "A pruszlik"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fűző néha 15-20 centiméterrel szűkítette a derekat; orvosok már a korban is figyelmeztettek a károkra.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Mit tartott a 19. századi krinolin?",
+      "a": [
+        "A szoknya bő alját",
+        "A derék szűkítését",
+        "A kalap karimáját",
+        "A ruhaujj formáját"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A krinolin abroncsos vagy lószőrrel keményített alsószoknya volt, ami buborékformát adott a szoknyának.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Melyik ruhadarab lett a hatvanas évek ifjúsági divatjának jelképe Angliában?",
+      "a": [
+        "A miniszoknya",
+        "A krinolin",
+        "A frakk",
+        "A turnűr"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A térd fölé érő szoknya a fiatalok önálló divatjának első nagy jele volt.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Melyik magyar népi ruhadarab a hímzett, ujjatlan férfi felsőruha?",
+      "a": [
+        "A pruszlik",
+        "A ködmön",
+        "A szűr",
+        "A cifraszűr"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A pruszlik ujjatlan, testhez simuló mellény; a szűr ezzel szemben hosszú, ujjas posztókabát volt.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Mi a cifraszűr?",
+      "a": [
+        "Gazdagon hímzett magyar posztókabát",
+        "Kötött, gyapjúból készült női kendő",
+        "Bőrből szabott, fűzős magyar bocskor",
+        "Csipkével díszített asszonyi főkötő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szűrt a pásztorok vállra vetve viselték; a hímzés mértéke a gazdagságot jelezte.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Mire szolgált a 18. századi férfidivatban a jabot?",
+      "a": [
+        "A nyakat és mellet díszítő fodros betét volt",
+        "A kabát belső bélésanyaga volt",
+        "A cipőt záró fémcsat díszítése volt",
+        "A kalapot körbefogó szalag volt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A jabot a nyakkendő elődje: a gomboláson kibuggyanó csipkés vagy fodros ingbetét.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Melyik kabátfajta jellegzetessége a duplasoros gombolás és a hajtókán a széles gallér?",
+      "a": [
+        "A trencskó",
+        "A bomberdzseki",
+        "A parka",
+        "A poncsó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A trencskó tipikus jegyei: dupla gombolás, vállpánt, csuklópánt, hátán szélszárny és pántos derék.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Mi volt eredetileg a bomberdzseki funkciója?",
+      "a": [
+        "Repülős pilóták bélelt kabátja volt",
+        "Motorosok bőr védőruhája volt",
+        "Tengerészek viaszos esőkabátja volt",
+        "Bányászok vászon munkaruhája volt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hűtlen fűtésű bombázókban fázó pilóták kaptak először ilyen rövid, szoros derekú, bélelt dzsekit.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Melyik anyagot nyerik a selyemhernyó gubójából?",
+      "a": [
+        "A selymet",
+        "A gyapjút",
+        "A lent",
+        "A pamutot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egy gubóból akár 900 méter folytonos fonál is lefejthető; a kínaiak évezredekig titokban tartották az eljárást.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Melyik növényből készül a vászon?",
+      "a": [
+        "A lenből",
+        "A gyapotból",
+        "A kenderből",
+        "A jutából"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A len szárának rostjait áztatják, majd fonják; a legrégebbi ismert vászonleletek több ezer évesek.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Melyik állat szőréből készül a kasmír?",
+      "a": [
+        "Kasmírkecskéből",
+        "Angóranyúlból",
+        "Lámából",
+        "Merinó birkából"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Egy kecske évente csak néhány száz gramm finom pehelyszőrt ad – ezért drága az anyag.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Melyik állat adja a mohair fonalat?",
+      "a": [
+        "Az angórakecske",
+        "Az angóranyúl",
+        "Az alpaka",
+        "A jak"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A mohair az angórakecske szőre; az angóranyúlból ezzel szemben az angóra fonal készül – gyakran összekeverik a kettőt.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Melyik szintetikus szálat vezették be 1938-ban, és először harisnyát készítettek belőle?",
+      "a": [
+        "A nejlont",
+        "A poliésztert",
+        "Az akrilt",
+        "Az elasztánt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A DuPont nejlonharisnyája 1940-ben került forgalomba; a háború alatt ejtőernyőkhöz vonták el az anyagot.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Milyen tulajdonságáért használják a ruhákban az elasztánt?",
+      "a": [
+        "Nagy nyúlóképességéért",
+        "Hőszigetelő képességéért",
+        "Víztaszító képességéért",
+        "Kopásállóságáért"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az elasztán eredeti hosszának több mint ötszörösére nyúlik, és visszaugrik; márkanevei a Lycra és a Spandex.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Mi a bőr velúr és a nubuk közti fő különbség?",
+      "a": [
+        "A velúr a bőr belső, a nubuk a külső oldalán csiszolt",
+        "A velúr lényegesen vastagabb bőrből készül",
+        "A nubukot mindig sötétre festik gyártáskor",
+        "A velúr kizárólag marhabőrből készíthető"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A nubuk a szemcsés külső oldal finom csiszolása, ezért tartósabb és selymesebb tapintású, mint a velúr.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Melyik szövet jellegzetessége az átlós vonalkázás a felszínén?",
+      "a": [
+        "A twill",
+        "A vászonkötés",
+        "A jersey",
+        "A frottír"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A twill, magyarul sávolykötés adja a farmer és a gabardin jellegzetes ferde bordázatát.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Mi a jersey?",
+      "a": [
+        "Kötött, nyúlós textília",
+        "Sűrűn szövött, alig nyúló vászonféle",
+        "Merev, műszálas bevonatos anyag",
+        "Mesterséges szőrmét imitáló textília"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A jersey kötött, nem szövött – ezért nyúlik. Chanel emelte divatba, addig főleg alsóruhához használták.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Milyen anyagból készül a hagyományos tweed?",
+      "a": [
+        "Gyapjúból",
+        "Pamutból",
+        "Lenből",
+        "Selyemből"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A durva, meleg skót és ír gyapjúszövet eredetileg a szabadban végzett munka viselete volt.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Mi a különbség a filc és a szövet között?",
+      "a": [
+        "A filc nem szövött, a szálak összetömörödnek",
+        "A filcet kizárólag gyapjúból lehet készíteni",
+        "A szövet lényegesen nyúlósabb a filcnél",
+        "A filcet gyártás közben mindig megfestik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A filcnél a szálakat nedvességgel, hővel és dörzsöléssel tömörítik – nincs benne fonal, se szövés, se kötés.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Melyik anyagot nevezik gyakran „második bőrnek” a mikroszálas, puha felülete miatt?",
+      "a": [
+        "A mikroszálas velúrt",
+        "A frottírt",
+        "A gyapjúfilcet",
+        "A tafotát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A mikroszálas anyagok szála a selyemnél is finomabb; ezért érződik bőrszerűen.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Melyik korszak divatját jellemezte a széles vállú, katonás női kosztüm?",
+      "a": [
+        "A negyvenes évek",
+        "A húszas évek",
+        "A hatvanas évek",
+        "A századforduló"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A háborús anyaghiány és a nők munkába állása formálta a szigorú, vállas sziluettet.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Mi jellemezte a húszas évek flapper stílusát?",
+      "a": [
+        "Derékvonal nélküli, térdig érő ruha",
+        "Szűk derék és földig érő bő szoknya",
+        "Abroncsos alsószoknya és fűzött derék",
+        "Magas csipkegallér és hosszú uszály"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A laza, egyenes vonalú ruha a tánchoz és a nők új szabadságához illett; a fűző divatja megtört.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Melyik évtizedhez köthető a harangnadrág és a psichedelikus minták fénykora?",
+      "a": [
+        "A hetvenes évek",
+        "A ötvenes évek",
+        "A kilencvenes évek",
+        "A harmincas évek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hippi- és diszkókultúra hozta a bő szárú nadrágot, a virágos mintákat és a platformtalpat.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Mi volt a grunge stílus jellemzője a kilencvenes években?",
+      "a": [
+        "Kockás flanel és szakadt farmer",
+        "Fényes szatén és hosszú tollboa",
+        "Csipkeruha szoros derékfűzővel",
+        "Aranyszínű flitter és tűsarkú"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A seattle-i zenei színtér viselete lett divat; Marc Jacobs 1992-es kollekciója emelte kifutóra.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Melyik uralkodói udvar szabta meg az európai divatot a 17. század második felében?",
+      "a": [
+        "A francia",
+        "A spanyol",
+        "A brit",
+        "Az osztrák"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "XIV. Lajos Versailles-a tudatosan használta a divatot hatalmi eszközként és exportcikként.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Mit jelent a haute couture kifejezés?",
+      "a": [
+        "Egyedi méretre készített, kézi luxusruha",
+        "Sorozatban gyártott, márkás bolti ruha",
+        "Használt ruhák javítása és felújítása",
+        "Sportos, mindennapi utcai viselet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Párizsban jogilag védett cím: csak az a ház használhatja, amely megfelel a szigorú műhely- és bemutatókövetelményeknek.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Mi a prêt-à-porter?",
+      "a": [
+        "Kész, sorozatban gyártott konfekció",
+        "Egyedi méretre szabott, kézi munka",
+        "Kizárólag estélyi és alkalmi viselet",
+        "Kézzel hímzett, egyedi díszítésű darab"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szó szerint „kész a viselésre”; a hatvanas években lett a divatházak fő üzlete a couture mellett.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Melyik divatbemutató-hetet tartják a négy nagy közül a legrégebbinek?",
+      "a": [
+        "A New York-i",
+        "A párizsi",
+        "A milánói",
+        "A londoni"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "New Yorkban 1943-ban rendezték az első szervezett divathetet, hogy a háború miatt Párizstól elszakadt sajtót ellássák.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Mit nevezünk fast fashionnak?",
+      "a": [
+        "Gyorsan cserélt, alacsony árú kollekciókat",
+        "Kézműves, lassan készülő egyedi darabokat",
+        "Kizárólag interneten értékesített ruhát",
+        "A sportruházati piac egyik szegmensét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A modell heti-kétheti kollekciócserével dolgozik; fő kritikája a környezeti terhelés és a munkakörülmények.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Melyik esemény hívta fel a világ figyelmét a ruhaipari munkakörülményekre 2013-ban?",
+      "a": [
+        "A Rana Plaza összeomlása",
+        "A Triangle-gyár tüze",
+        "A Bhopali katasztrófa",
+        "A Deepwater Horizon baleset"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A bangladesi épület összeomlásában több mint 1100 ruhaipari munkás halt meg.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Mit jelent a divatban a capsule wardrobe?",
+      "a": [
+        "Kevés, egymással kombinálható alapdarab",
+        "Egyetlen szezonra szánt teljes kollekció",
+        "Kizárólag fekete és fehér darabok ruhatára",
+        "Bemutatóra készült, el nem adott prototípus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fogalmat Susie Faux vezette be a hetvenes években: kevés, jó minőségű, sokféleképpen viselhető darab.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Melyik divatlap indult 1892-ben, és lett a szakma legismertebb kiadványa?",
+      "a": [
+        "A Vogue",
+        "Az Elle",
+        "A Harper's Bazaar",
+        "A Cosmopolitan"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Vogue New Yorkban indult hetilapként; a Harper's Bazaar valójában korábbi, 1867-es alapítású.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Mit takar a divatban a sustainable, vagyis fenntartható jelző?",
+      "a": [
+        "Kisebb környezeti és társadalmi terheléssel készült ruhát",
+        "Kizárólag természetes eredetű anyagot",
+        "Kizárólag kézzel, gépek nélkül készült ruhát",
+        "Kizárólag újrahasznosított szálból szőtt ruhát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az anyagválasztás, a víz- és energiafelhasználás, a munkakörülmények és a termék élettartama együtt számít.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Melyik évtizedben lett általános, hogy a nők nyilvánosan nadrágot viseljenek Európában?",
+      "a": [
+        "A hatvanas években",
+        "A húszas években",
+        "A nyolcvanas években",
+        "A századfordulón"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A folyamat a háborús munkával indult, de a mindennapi, elfogadott viseletté a hatvanas években lett.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Mit jelent a divatszakmában a vintage megjelölés?",
+      "a": [
+        "Legalább húsz-huszonöt éves, korára jellemző darabot",
+        "Bármilyen korú, korábban használt ruhát",
+        "Régi minta alapján ma készült új gyártást",
+        "Kizárólag az ötvenes években készült ruhát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A száz évnél idősebb darabot már antiknak nevezik; a régi minta alapján készült új ruha a retró.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Melyik lábbeli talpát nevezik platformnak?",
+      "a": [
+        "Az egyenletesen magas, vastag talpat",
+        "A hátrafelé keskenyedő tűsarkat",
+        "A vékony, lapos bőrtalpat",
+        "A rugalmas, csúszásmentes gumitalpat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A platform az egész talpat megemeli, ezért kényelmesebb, mint a hasonló magasságú tűsarkú.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Melyik cipőtípust az észak-amerikai őslakosok puha bőrű, talpszegély nélküli lábbelijéről neveztük el?",
+      "a": [
+        "A mokaszin",
+        "A balerina",
+        "Az oxford",
+        "A csizma"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az észak-amerikai őslakosok puha bőrből, talpszegély nélkül készített lábbelije adta a nevet és a formát.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Mi a különbség az oxford és a derby cipő között?",
+      "a": [
+        "Az oxford fűzőrésze zárt, a derbyé nyitott",
+        "Az oxford kizárólag fekete színben készül",
+        "A derby sarka mindig magasabb az oxfordénál",
+        "Az oxford csak női lábbeliként létezik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az oxfordon a fűzőszárny alá van szabva, ezért elegánsabb; a derby nyitott szárnya bővebb lábra jó.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Melyik sportmárka logója a pipa formájú Swoosh?",
+      "a": [
+        "A Nike",
+        "Az Adidas",
+        "A Puma",
+        "A Reebok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jelet 1971-ben egy diák, Carolyn Davidson tervezte 35 dollárért; a görög győzelemistennő szárnyát jelképezi.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Melyik két testvér márkája a három csík és a nagymacska?",
+      "a": [
+        "Adolf és Rudolf Dassler",
+        "Fred és Adi Perry testvérpár",
+        "Joe és Bill Bata testvérpár",
+        "Phil és Bob Knight testvérpár"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az összeveszés után Adolf az Adidast, Rudolf a Pumát alapította ugyanabban a német városban, Herzogenaurachban.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Melyik kalapfajta jellegzetessége a hosszanti benyomás a tetején és a felhajtott karima?",
+      "a": [
+        "A fedora",
+        "A cilinder",
+        "A porkpie",
+        "A panama"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fedora nevét egy 1882-es színdarab hősnőjéről kapta; a benyomás segít a felvételnél.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Miből készül a hagyományos panamakalap?",
+      "a": [
+        "Ecuadori pálmalevélből",
+        "Panamai gyapotszálból",
+        "Kubai gyapjúfonalból",
+        "Mexikói szizálrostból"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A név megtévesztő: a kalap Ecuadorban készül, csak Panamában került a világkereskedelembe.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Melyik kiegészítő nevét a francia „táska” szóból kaptuk, és estélyi viseletként kicsi?",
+      "a": [
+        "A pochette",
+        "A clutch",
+        "A shopper",
+        "A hátizsák"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A pochette lapos, pánt nélküli estélyi táska; angol megfelelője a clutch, azaz „szorító”.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Melyik táskatípust nevezték el egy brit énekes-színésznőről?",
+      "a": [
+        "A Birkin táskát",
+        "A Kelly táskát",
+        "A Boston táskát",
+        "A Baguette táskát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Hermès 1984-ben Jane Birkinről nevezte el; a Kelly táska Grace Kelly monacói hercegnéről kapta a nevét.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Melyik napszemüveg-forma nevét az amerikai légierő pilótái adták?",
+      "a": [
+        "Az aviator",
+        "A wayfarer",
+        "A cat eye",
+        "A clubmaster"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Ray-Ban 1937-ben a pilóták szemének védelmére fejlesztette ki a csepp formájú lencsét.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Melyik ékszer a fülbevaló, nyaklánc és karkötő összehangolt együttese?",
+      "a": [
+        "A parúra",
+        "A kolié",
+        "A mediál",
+        "A brossz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A parúra egy stílusban készült ékszerkészlet; a kolié önmagában a szoros nyaklánc.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Mi a bross?",
+      "a": [
+        "Kitűzhető, csattal rögzített ékszer",
+        "Nyakba akasztott medál",
+        "Hajba tűzött dísz",
+        "Bokára fűzött lánc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A bross a legrégebbi ékszertípusok közé tartozik: eredetileg a köpeny összefogására szolgált.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Mit jelöl a gyémántoknál a négy C egyike, a carat?",
+      "a": [
+        "A kő tömegét",
+        "A csiszolás formáját",
+        "A színt",
+        "A tisztaságot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Egy karát 0,2 gramm. A másik három C: cut, color, clarity – csiszolás, szín, tisztaság.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Mit mutat az arany finomságát jelző 18 karátos jelzés?",
+      "a": [
+        "Az ötvözet 75 százaléka arany",
+        "Az ötvözet 100 százaléka arany",
+        "Az ötvözet 50 százaléka arany",
+        "A tárgy tömege 18 gramm"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 24 karát a tiszta arany, tehát 18/24 = 75 százalék; a maradék réz, ezüst vagy palládium.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Mit jelent a szabászatban, hogy egy ruha ferdén, azaz biasban van szabva?",
+      "a": [
+        "A szálirányhoz 45 fokban",
+        "A szálirányra pontosan",
+        "Kétszeres anyagfelhasználással",
+        "Toldás nélkül"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A ferdén szabott anyag jobban nyúlik és lágyabban omlik; Madeleine Vionnet emelte művészi szintre a technikát.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mi a szabásminta?",
+      "a": [
+        "Papírra rajzolt alkatrészek a szabáshoz",
+        "A kész ruha fotója",
+        "A szövet mintázata",
+        "Az anyagminta-gyűjtemény"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szabásminta a ruha kiterített alkatrészeinek papírmodellje, ráhagyásokkal együtt.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mire szolgál a ruhán a bevágás, amit hasítéknak nevezünk?",
+      "a": [
+        "A mozgás könnyítésére",
+        "A díszítésre",
+        "A méret jelölésére",
+        "A vasalás könnyítésére"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A zakó hátán vagy a szoknya alján lévő hasíték a lépést és a leülést könnyíti.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mit jelent a divatban az öltöztető, azaz stylist munkája?",
+      "a": [
+        "Összeállítja és színpadra viszi a megjelenést",
+        "Megtervezi a ruha szabását",
+        "Előállítja az anyagot",
+        "Vezeti a divatházat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A stylist meglévő darabokból alkot összképet fotózásra, filmre vagy egy adott személyre.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mi a lookbook?",
+      "a": [
+        "Egy kollekció összeállításait bemutató képes kiadvány",
+        "A szabásminták gyűjteménye",
+        "A vásárlói adatbázis",
+        "A bemutató forgatókönyve"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A lookbook a kereskedőknek és a sajtónak mutatja meg, hogyan viselhetők együtt a kollekció darabjai.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mit jelöl a ruhacímkén a keresztbe húzott háromszög jel?",
+      "a": [
+        "Nem fehéríthető",
+        "Nem vasalható",
+        "Nem centrifugálható",
+        "Nem mosható"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A háromszög a fehérítésre utal; áthúzva azt jelenti, hogy semmilyen fehérítő nem használható.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mit jelent a ruhacímkén a körbe írt P betű?",
+      "a": [
+        "Vegytisztítható szénhidrogénnel",
+        "Kézzel mosható",
+        "Csak szárítógépben szárítható",
+        "Csak hidegen vasalható"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kör a vegytisztítást jelöli; a benne lévő betű a használható oldószert adja meg a tisztító számára.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mit jelent, ha egy kollekciót cruise vagy resort néven mutatnak be?",
+      "a": [
+        "A két főszezon közötti, melegebb éghajlatra szánt sorozat",
+        "Kizárólag fürdőruhák",
+        "Sportruházat",
+        "Esküvői ruhák"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Eredetileg a téli utazásokhoz készült; ma a divatházak fő bevételi sorozatai közé tartozik.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mi a különbség a modell és a manöken között a magyar szóhasználatban?",
+      "a": [
+        "Gyakorlatilag ugyanazt jelöli, a manöken régiesebb",
+        "A modell csak fotózik",
+        "A manöken csak férfi lehet",
+        "A modell tervez is"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A manöken a francia mannequin szóból jön, ami eredetileg a próbababát jelentette.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mit nevezünk a divatiparban kifutónak?",
+      "a": [
+        "A bemutató emelt sétapódiumát",
+        "A raktárból kifutó árut",
+        "A szezonvégi akciót",
+        "A tervezői vázlatot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az angol runway vagy catwalk magyar megfelelője; a közönség két oldalról látja rajta a ruhát.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mit takar a divatban az upcycling?",
+      "a": [
+        "Meglévő ruha átalakítása értékesebb darabbá",
+        "Ruha újrahasznosítása rongyként",
+        "Használt ruha újraeladása",
+        "Anyagok szálra bontása"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az upcyclingnál a darab értéke nő; a hagyományos újrahasznosításnál a szálra bontás rontja az anyag minőségét.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mi az a szabászati fogás, amikor a szövetbe beszabott háromszöggel formára állítják a ruhát?",
+      "a": [
+        "A hajtás, azaz beszabás",
+        "A szegés",
+        "A gallérozás",
+        "A bélelés"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar szakmai neve mellbeszabás vagy derékbeszabás: a fölös anyag kivétele adja a test formáját.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Milyen ruhadarabot rejt a smoking megnevezés az angol szóhasználatban?",
+      "a": [
+        "A férfi estélyi zakót",
+        "A pizsamát",
+        "A munkakabátot",
+        "A hosszú kabátot"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az angol smoking jacket eredetileg szivarozáshoz felvett házikabát volt; a mai szmoking ebből fejlődött.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mit jelöl a black tie megjelölés egy meghívón?",
+      "a": [
+        "Szmokingot és estélyi ruhát",
+        "Öltönyt és koktélruhát",
+        "Szabadon választott viseletet",
+        "Frakkot és uszályos ruhát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A frakkot a white tie kéri; a black tie a szmoking, csokornyakkendővel.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mit jelent a divatban a monokróm összeállítás?",
+      "a": [
+        "Egyetlen szín árnyalataiból áll",
+        "Fekete-fehér kombináció",
+        "Mintás és sima anyag váltása",
+        "Két egymást kiegészítő szín"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A monokróm nem feltétlenül fekete: egyetlen színcsalád különböző világosságú árnyalatait jelenti.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Melyik magyar népi hímzés jellemzője a gazdag, virágos, több színben kivitelezett motívum?",
+      "a": [
+        "A matyó hímzés",
+        "A halasi csipke",
+        "A sárközi szőttes",
+        "A hódmezővásárhelyi kerámia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mezőkövesdi matyó hímzés a 19. század végén vált egyre díszesebbé; ma hungarikum.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mi a halasi csipke?",
+      "a": [
+        "Kézzel varrt, magyar eredetű csipke",
+        "Gépi kötésű függönycsipke",
+        "Horgolt terítőminta",
+        "Fémszálas szegély"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kiskunhalason 1902 óta készül Markovits Mária tervei alapján; egy nagyobb darab elkészítése hónapokat vesz igénybe.",
+      "t": "szakmai fogalmak"
+    }
+  ]
 }

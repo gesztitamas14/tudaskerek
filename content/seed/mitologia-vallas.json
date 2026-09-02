@@ -507,60 +507,329 @@
       "s": "http://www.wikidata.org/entity/Q217059"
     },
     {
-      "q": "Kihez köthető a következő vallás vagy felekezet: Jedizmus?",
+      "q": "Melyik görög isten volt a tenger úrnője, illetve ura?",
       "a": [
-        "Yoda",
-        "Linji",
-        "Báb",
-        "Hónen"
+        "Poszeidón",
+        "Zeusz",
+        "Hadész",
+        "Apollón"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A három testvér felosztotta a világot: Zeusz az égé, Poszeidón a tengeré, Hadész az alvilágé lett.",
+      "t": "görög-római istenek"
+    },
+    {
+      "q": "Ki volt a görög mitológiában a bölcsesség istennője?",
+      "a": [
+        "Athéné",
+        "Héra",
+        "Aphrodité",
+        "Artemisz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hagyomány szerint Zeusz fejéből, teljes fegyverzetben született; Athén védőistene volt.",
+      "t": "görög-római istenek"
+    },
+    {
+      "q": "Melyik római isten felel meg a görög Zeusznak?",
+      "a": [
+        "Jupiter",
+        "Mars",
+        "Neptunus",
+        "Mercurius"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rómaiak a görög isteneket saját neveken vették át: Héra–Juno, Árész–Mars, Hermész–Mercurius.",
+      "t": "görög-római istenek"
+    },
+    {
+      "q": "Ki volt a görög mitológia hírnök-istene, szárnyas szandállal?",
+      "a": [
+        "Hermész",
+        "Apollón",
+        "Dionüszosz",
+        "Héphaisztosz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hermész a kereskedők, utazók és tolvajok pártfogója is volt.",
+      "t": "görög-római istenek"
+    },
+    {
+      "q": "Melyik isten volt a kovácsmesterség mestere a görög mitológiában?",
+      "a": [
+        "Héphaisztosz",
+        "Árész",
+        "Poszeidón",
+        "Kronosz"
       ],
       "c": 0,
       "d": "hard",
-      "e": "Jedizmus alapítója Yoda.",
-      "t": "vallások",
-      "s": "http://www.wikidata.org/entity/Q258945"
+      "e": "Ő kovácsolta az istenek fegyvereit; a mítosz szerint sánta volt, mert Zeusz letaszította az Olümposzról.",
+      "t": "görög-római istenek"
     },
     {
-      "q": "Kihez köthető a következő vallás vagy felekezet: Discordianism?",
+      "q": "Hány munkát kellett elvégeznie Héraklésznek?",
       "a": [
-        "Khon Konchok Gyelpo",
-        "Anton Szandor LaVey",
-        "Kerry Wendell Thornley",
-        "Ulrich Zwingli"
+        "Tizenkettőt",
+        "Hetet",
+        "Kilencet",
+        "Húszat"
       ],
-      "c": 2,
-      "d": "hard",
-      "e": "Discordianism alapítója Kerry Wendell Thornley.",
-      "t": "vallások",
-      "s": "http://www.wikidata.org/entity/Q7340"
+      "c": 0,
+      "d": "medium",
+      "e": "A tizenkét munka között volt a nemeai oroszlán, a lernai hidra és Augeiász istállójának kitisztítása.",
+      "t": "görög-római istenek"
     },
     {
-      "q": "Kihez köthető a következő vallás vagy felekezet: pasztafarianizmus?",
+      "q": "Melyik szörny elé küldték az athéni ifjakat a krétai labirintusba?",
       "a": [
-        "Li Hongzhi",
-        "Rudolf Steiner",
-        "Márk evangelista",
-        "Bobby Henderson"
+        "A Minótaurosz",
+        "A Kentaur",
+        "A Küklopsz",
+        "A Kerberosz"
       ],
-      "c": 3,
-      "d": "hard",
-      "e": "pasztafarianizmus alapítója Bobby Henderson.",
-      "t": "vallások",
-      "s": "http://www.wikidata.org/entity/Q14397660"
+      "c": 0,
+      "d": "medium",
+      "e": "Thészeusz Ariadné fonalának segítségével jutott ki a labirintusból.",
+      "t": "görög-római istenek"
     },
     {
-      "q": "Kihez köthető a következő vallás vagy felekezet: buddhizmus?",
+      "q": "Kinek a mítoszához fűződik a viaszszárny és a Naphoz túl közeli repülés?",
       "a": [
-        "Simon Kimbangu",
-        "Huỳnh Phú Sổ",
-        "Wallace Fard Muhammad",
-        "Gautama Sziddhártha"
+        "Ikarosz",
+        "Prométheusz",
+        "Orpheusz",
+        "Perszeusz"
       ],
-      "c": 3,
+      "c": 0,
+      "d": "easy",
+      "e": "Apja, Daidalosz építette a szárnyakat; Ikarosz nem hallgatott a figyelmeztetésre.",
+      "t": "görög-római istenek"
+    },
+    {
+      "q": "Melyik titán vitte el az emberekhez a tüzet a mítosz szerint?",
+      "a": [
+        "Prométheusz",
+        "Atlasz",
+        "Kronosz",
+        "Hüperión"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Büntetésül sziklához kötözték, és egy sas mindennap kivájta a máját.",
+      "t": "görög-római istenek"
+    },
+    {
+      "q": "Melyik északi isten volt a mennydörgés úra, kalapácsával?",
+      "a": [
+        "Thor",
+        "Odin",
+        "Loki",
+        "Freyr"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kalapácsának neve Mjölnir; a csütörtök angol neve, Thursday, tőle származik.",
+      "t": "más mitológiák"
+    },
+    {
+      "q": "Melyik északi isten volt a bölcsesség és a háború atyja, aki egy szemét adta a tudásért?",
+      "a": [
+        "Odin",
+        "Thor",
+        "Baldr",
+        "Heimdall"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Odin egyik szemét adta a tudás forrásából való ivásért; két hollója járta be a világot híreket hozni.",
+      "t": "más mitológiák"
+    },
+    {
+      "q": "Mi a neve a világ végét jelentő nagy csatának az északi mitológiában?",
+      "a": [
+        "Ragnarök",
+        "Valhalla",
+        "Yggdrasil",
+        "Asgard"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Valhalla az elesett hősök csarnoka, az Yggdrasil a világfa, az Asgard az istenek lakhelye.",
+      "t": "más mitológiák"
+    },
+    {
+      "q": "Melyik egyiptomi istent ábrázolták sólyomfejjel?",
+      "a": [
+        "Hóruszt",
+        "Anubiszt",
+        "Ptahot",
+        "Thotot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Anubisz sakálfejű, Thot íbiszfejű; Hórusz szeme védelmező jelkép lett.",
+      "t": "más mitológiák"
+    },
+    {
+      "q": "Melyik egyiptomi isten vezette a halottakat, sakálfejjel ábrázolva?",
+      "a": [
+        "Anubisz",
+        "Ozirisz",
+        "Ré",
+        "Széth"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Anubisz mérte meg a szívet a tollal szemben az igazság csarnokában.",
+      "t": "más mitológiák"
+    },
+    {
+      "q": "Melyik lény a magyar néphagyomány szerint a világfa csúcsán lakó hatalmas madár?",
+      "a": [
+        "A turul",
+        "A főnix",
+        "A griff",
+        "A sárkány"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A turul a magyar eredetmítoszok madara; Emese álmában is megjelenik.",
+      "t": "más mitológiák"
+    },
+    {
+      "q": "Ki volt a magyar hagyomány szerint a csodaszarvast követő két vezér?",
+      "a": [
+        "Hunor és Magor",
+        "Attila és Buda",
+        "Árpád és Kurszán",
+        "Álmos és Előd"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A krónikák szerint a szarvast követve találtak új hazát, és nőket raboltak maguknak.",
+      "t": "más mitológiák"
+    },
+    {
+      "q": "Melyik vallás alapszövege a Korán?",
+      "a": [
+        "Az iszlám",
+        "A hinduizmus",
+        "A buddhizmus",
+        "A szikhizmus"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A muszlimok szerint a szöveget Mohamed próféta kapta kinyilatkoztatásként.",
+      "t": "világvallások"
+    },
+    {
+      "q": "Melyik vallás legfontosabb tanítója Sziddhártha Gautama?",
+      "a": [
+        "A buddhizmus",
+        "A hinduizmus",
+        "A dzsainizmus",
+        "A taoizmus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A megvilágosodás után nevezték Buddhának, ami „felébredettet” jelent.",
+      "t": "világvallások"
+    },
+    {
+      "q": "Hány pillére van az iszlámnak?",
+      "a": [
+        "Öt",
+        "Három",
+        "Hét",
+        "Tíz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hitvallás, az ima, az alamizsna, a ramadáni böjt és a mekkai zarándoklat.",
+      "t": "világvallások"
+    },
+    {
+      "q": "Melyik vallás szent könyve a Tóra?",
+      "a": [
+        "A zsidó vallás",
+        "A kereszténység",
+        "Az iszlám",
+        "A hinduizmus"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Tóra Mózes öt könyve; a keresztény Bibliában is szerepel az Ószövetség részeként.",
+      "t": "világvallások"
+    },
+    {
+      "q": "Mit jelent a nirvána a buddhista tanításban?",
+      "a": [
+        "A szenvedés és az újraszületés körének megszűnését",
+        "A mennyországot",
+        "A lélek testet váltását",
+        "A világ végét"
+      ],
+      "c": 0,
       "d": "hard",
-      "e": "buddhizmus alapítója Gautama Sziddhártha.",
-      "t": "vallások",
-      "s": "http://www.wikidata.org/entity/Q748"
+      "e": "Nem hely, hanem állapot: a vágy, a gyűlölet és a tudatlanság kioltása.",
+      "t": "világvallások"
+    },
+    {
+      "q": "Melyik folyót tartják a legszentebbnek a hinduizmusban?",
+      "a": [
+        "A Gangeszt",
+        "A Nílust",
+        "A Jangcét",
+        "A Jordánt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hívők szerint a Gangeszben való megmerítkezés megtisztít a bűnöktől.",
+      "t": "világvallások"
+    },
+    {
+      "q": "Mit nevezünk a kereszténységben ökumenizmusnak?",
+      "a": [
+        "A keresztény felekezetek közelítésére irányuló törekvést",
+        "A misszionárius munkát",
+        "A pápa tévedhetetlenségét",
+        "A szentek tiszteletét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szó a görög oikumené, azaz „lakott világ” kifejezésből származik.",
+      "t": "világvallások"
+    },
+    {
+      "q": "Melyik felekezet indult Luther Márton 1517-es fellépéséből?",
+      "a": [
+        "Az evangélikus",
+        "A református",
+        "Az ortodox",
+        "Az anglikán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A reformáció másik nagy ága, a református vagy kálvinista Kálvin János nevéhez fűződik.",
+      "t": "világvallások"
+    },
+    {
+      "q": "Ki a katolikus egyház feje?",
+      "a": [
+        "A pápa",
+        "A konstantinápolyi patriarcha",
+        "A canterburyi érsek",
+        "A dalai láma"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pápa egyben Vatikánváros államfője is – a világ legkisebb önálló államáé.",
+      "t": "világvallások"
     }
   ]
 }

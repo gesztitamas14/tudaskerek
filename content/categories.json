@@ -186,9 +186,7 @@
     "icon": "🌟",
     "color": "#C9A227",
     "is_hungarian": false,
-    "sort_order": 235,
-    "is_active": false,
-    "note": "Nincs még elég kérdés: a Wikidata publikus végpontja ezekhez a lekérdezésekhez időtúllépést ad. Kézzel írt kérdések kellenek."
+    "sort_order": 235
   },
   {
     "slug": "logika",
@@ -251,8 +249,6 @@
     "icon": "👗",
     "color": "#B5838D",
     "is_hungarian": false,
-    "sort_order": 265,
-    "is_active": false,
-    "note": "Nincs még elég kérdés: a Wikidata publikus végpontja ezekhez a lekérdezésekhez időtúllépést ad. Kézzel írt kérdések kellenek."
+    "sort_order": 265
   }
 ]

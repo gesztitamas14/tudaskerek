@@ -240,6 +240,37 @@ if (longestRatio > 0.45) {
   warn(`A helyes válasz gyakran a leghosszabb: ${(longestRatio * 100).toFixed(1)}%`);
 }
 
+// KATEGÓRIÁNKÉNT is meg kell nézni.
+//
+// A globális átlag elrejti a problémát: 45% összesítve azt jelentheti, hogy a
+// kategóriák fele 30%, a másik fele 70% – és egy körben MINDIG egy kategória
+// kérdései jönnek. Ha ott 70%, a játékos tudás nélkül nyer azzal, hogy mindig
+// a leghosszabb választ jelöli meg.
+//
+// Ez figyelmeztetés, nem hiba: a meglévő, kézzel írt kérdéseket nem lehet
+// automatikusan javítani, a jelzés viszont megmutatja, hol kell rontókat
+// hosszabbra írni.
+for (const [slug, items] of byCategory) {
+  let long = 0;
+  let counted = 0;
+  for (const q of items) {
+    const lengths = q.answers.map((a) => String(a).length);
+    const max = Math.max(...lengths);
+    // Ha több válasz is a leghosszabb, a jelzés nem használható – kihagyjuk.
+    if (lengths.filter((l) => l === max).length > 1) continue;
+    counted++;
+    if (lengths[q.correct] === max) long++;
+  }
+  if (counted < 20) continue;
+  const ratio = long / counted;
+  if (ratio > 0.55) {
+    warn(
+      `${slug}: a helyes válasz az esetek ${(ratio * 100).toFixed(0)}%-ában a leghosszabb ` +
+        '– ebben a kategóriában a hosszból tippelni lehet. Írj hosszabb rontókat.'
+    );
+  }
+}
+
 const difficultyHistogram = { easy: 0, medium: 0, hard: 0 };
 for (const q of questions) {
   if (q.difficulty in difficultyHistogram) difficultyHistogram[q.difficulty]++;

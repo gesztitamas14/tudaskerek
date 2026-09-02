@@ -93,7 +93,7 @@ indítás
 
 Amit ez ad:
 
-- **Az első indítás internet nélkül is játszható.** 1783 kérdés a csomagban.
+- **Az első indítás internet nélkül is játszható.** 2125 kérdés a csomagban.
 - **Nem veszik el eredmény.** Minden kör azonnal lokálisan mentődik; a feltöltés
   kliens-generált UUID-vel idempotens.
 - **Nem duplázódik eredmény.** A `submit_offline_result(p_client_id)` ugyanazzal

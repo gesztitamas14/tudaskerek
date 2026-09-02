@@ -289,6 +289,30 @@ export class Supabase {
     if (!token) return true;
     return readJwtClaim(token, 'is_anonymous') === true;
   }
+
+  /**
+   * Vendég-e a bejelentkezett felhasználó – a SZERVER szerint.
+   *
+   * Az `isAnonymous` a JWT `is_anonymous` állítását olvassa, ami két esetben
+   * félrevezet: (1) a szolgáltató nem mindig teszi bele, (2) vendégfiók
+   * átalakítása után a régi token még vendéget mond, amíg le nem cserélődik.
+   * A `profiles.is_anonymous` viszont hiteles, és a kliens olvashatja.
+   *
+   * @returns {Promise<boolean|null>} null, ha nem lehetett megállapítani –
+   *   ilyenkor a felület NE állítson semmit a felhasználóról.
+   */
+  async isGuestAccount() {
+    if (!this.isSignedIn) return null;
+    const id = this.userId;
+    if (!id) return null;
+    try {
+      const rows = await this.select('profiles', `id=eq.${id}&select=is_anonymous&limit=1`);
+      if (!Array.isArray(rows) || rows.length === 0) return null;
+      return rows[0].is_anonymous === true;
+    } catch {
+      return null;
+    }
+  }
 }
 
 export class ApiError extends Error {

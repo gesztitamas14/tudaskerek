@@ -297,270 +297,654 @@
       "s": "http://www.wikidata.org/entity/Q723733"
     },
     {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: köbméter per másodperc?",
+      "q": "Mekkora a fény sebessége vákuumban, kerekítve?",
       "a": [
-        "proper length",
-        "térfogatáram",
-        "fénysűrűség",
-        "szögtávolság"
+        "300 000 km/s",
+        "30 000 km/s",
+        "3 millió km/s",
+        "150 000 km/s"
       ],
-      "c": 1,
-      "d": "medium",
-      "e": "A(z) köbméter per másodperc a(z) térfogatáram mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q794261"
+      "c": 0,
+      "d": "easy",
+      "e": "Pontosan 299 792 458 méter másodpercenként – ez ma a méter definíciójának alapja.",
+      "t": "alapfogalmak"
     },
     {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: kilométer?",
+      "q": "Melyik mennyiség mértékegysége a newton?",
       "a": [
-        "szögsebesség",
-        "fényáram",
-        "frekvencia",
-        "hosszúság"
+        "Az erő",
+        "A munka",
+        "A teljesítmény",
+        "A nyomás"
       ],
-      "c": 3,
-      "d": "medium",
-      "e": "A(z) kilométer a(z) hosszúság mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q828224"
+      "c": 0,
+      "d": "easy",
+      "e": "Egy newton az az erő, amely 1 kilogrammos testnek 1 m/s² gyorsulást ad.",
+      "t": "alapfogalmak"
     },
     {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: nanoszekundum?",
+      "q": "Mit mérünk pascalban?",
       "a": [
-        "vastagság",
-        "időtartam",
-        "hosszúság",
-        "Young-modulus"
-      ],
-      "c": 1,
-      "d": "medium",
-      "e": "A(z) nanoszekundum a(z) időtartam mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q838801"
-    },
-    {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: mikroszekundum?",
-      "a": [
-        "térfogat",
-        "harmatpont",
-        "luminozitás",
-        "időtartam"
-      ],
-      "c": 3,
-      "d": "medium",
-      "e": "A(z) mikroszekundum a(z) időtartam mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q842015"
-    },
-    {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: kilogramm per köbméter?",
-      "a": [
-        "impedancia",
-        "erőnyomaték",
-        "sűrűség",
-        "permeancia"
-      ],
-      "c": 2,
-      "d": "medium",
-      "e": "A(z) kilogramm per köbméter a(z) sűrűség mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q844211"
-    },
-    {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: hektométer?",
-      "a": [
-        "hosszúság",
-        "teljesítmény",
-        "térszög",
-        "induktivitás"
+        "A nyomást",
+        "A hőmérsékletet",
+        "Az energiát",
+        "A frekvenciát"
       ],
       "c": 0,
       "d": "medium",
-      "e": "A(z) hektométer a(z) hosszúság mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q844338"
+      "e": "Egy pascal egy newton erő egy négyzetméteren; a légköri nyomás kb. 101 325 pascal.",
+      "t": "alapfogalmak"
     },
     {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: dekaméter?",
+      "q": "Melyik mennyiség mértékegysége a joule?",
       "a": [
-        "terület",
-        "magasság",
-        "erőnyomaték",
-        "hosszúság"
+        "Az energia",
+        "Az erő",
+        "A teljesítmény",
+        "A töltés"
       ],
-      "c": 3,
-      "d": "medium",
-      "e": "A(z) dekaméter a(z) hosszúság mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q848856"
+      "c": 0,
+      "d": "easy",
+      "e": "Egy joule az a munka, amit egy newton erő végez egy méter úton.",
+      "t": "alapfogalmak"
     },
     {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: gigaméter?",
+      "q": "Mit jelent a watt mint mértékegység?",
       "a": [
-        "hosszúság",
-        "fénysűrűség",
-        "körfrekvencia",
-        "térszög"
+        "Egy joule munkát másodpercenként",
+        "Egy joule energiát összesen",
+        "Egy newton erőt",
+        "Egy amper áramot"
       ],
       "c": 0,
       "d": "medium",
-      "e": "A(z) gigaméter a(z) hosszúság mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q854546"
+      "e": "A watt teljesítményegység: az energiaátadás sebességét méri.",
+      "t": "alapfogalmak"
     },
     {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: köbcentiméter?",
+      "q": "Mekkora a nehézségi gyorsulás átlagos értéke a Földön?",
       "a": [
-        "energia",
-        "sebesség",
-        "lendület",
-        "térfogat"
+        "Kb. 9,81 m/s²",
+        "Kb. 1,62 m/s²",
+        "Kb. 3,71 m/s²",
+        "Kb. 24,8 m/s²"
       ],
-      "c": 3,
-      "d": "medium",
-      "e": "A(z) köbcentiméter a(z) térfogat mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q1022113"
+      "c": 0,
+      "d": "easy",
+      "e": "A Holdon ennek hatoda, a Marson kb. harmada; a pontos érték a Földön is változik a szélességgel.",
+      "t": "alapfogalmak"
     },
     {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: megaméter?",
+      "q": "Mit mond ki Newton harmadik törvénye?",
       "a": [
-        "kerma",
-        "Young-modulus",
-        "hosszúság",
-        "átmérő"
-      ],
-      "c": 2,
-      "d": "medium",
-      "e": "A(z) megaméter a(z) hosszúság mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q1054140"
-    },
-    {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: hektogramm?",
-      "a": [
-        "tömeg",
-        "nyomás",
-        "sűrűség",
-        "hő"
+        "Minden hatással egyenlő és ellentétes ellenhatás jár",
+        "A test megtartja mozgásállapotát",
+        "Az erő a gyorsulással arányos",
+        "Az energia nem keletkezik és nem szűnik meg"
       ],
       "c": 0,
       "d": "medium",
-      "e": "A(z) hektogramm a(z) tömeg mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q1057069"
+      "e": "Ezért lökődik hátra a puska, és ezért tud a rakéta a vákuumban is haladni.",
+      "t": "alapfogalmak"
     },
     {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: milliradián?",
+      "q": "Mit fejez ki a tehetetlenség törvénye?",
       "a": [
-        "Néel-hőmérséklet",
-        "anyagmennyiség",
-        "sebesség",
-        "szögtávolság"
-      ],
-      "c": 3,
-      "d": "medium",
-      "e": "A(z) milliradián a(z) szögtávolság mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q1065153"
-    },
-    {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: kiloszekundum?",
-      "a": [
-        "frekvencia",
-        "sugár",
-        "időtartam",
-        "átmérő"
-      ],
-      "c": 2,
-      "d": "medium",
-      "e": "A(z) kiloszekundum a(z) időtartam mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q1374438"
-    },
-    {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: mikrogramm?",
-      "a": [
-        "hosszúság",
-        "tömeg",
-        "vastagság",
-        "sebesség"
-      ],
-      "c": 1,
-      "d": "medium",
-      "e": "A(z) mikrogramm a(z) tömeg mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q1645498"
-    },
-    {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: decigramm?",
-      "a": [
-        "energia",
-        "tömeg",
-        "szélesség",
-        "hő"
-      ],
-      "c": 1,
-      "d": "medium",
-      "e": "A(z) decigramm a(z) tömeg mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q1772386"
-    },
-    {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: femtoszekundum?",
-      "a": [
-        "időtartam",
-        "fordulatszám",
-        "hosszúság",
-        "gyorsulás"
+        "Erő nélkül a test megtartja mozgásállapotát",
+        "Az erő gyorsulást okoz",
+        "Minden test vonzza a másikat",
+        "A hő magától a melegebb felé áramlik"
       ],
       "c": 0,
       "d": "medium",
-      "e": "A(z) femtoszekundum a(z) időtartam mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q1777507"
+      "e": "Newton első törvénye szerint az egyenes vonalú, egyenletes mozgás nem igényel erőt.",
+      "t": "alapfogalmak"
     },
     {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: zeptoszekundum?",
+      "q": "Mi az SI-alapmértékegysége az elektromos áramnak?",
       "a": [
-        "időtartam",
-        "magasság",
-        "denzitás",
-        "Young-modulus"
+        "Az amper",
+        "A volt",
+        "A coulomb",
+        "Az ohm"
       ],
       "c": 0,
       "d": "medium",
-      "e": "A(z) zeptoszekundum a(z) időtartam mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q1872619"
+      "e": "Az amper a hét SI-alapegység egyike; a volt és az ohm ezekből származtatott.",
+      "t": "alapfogalmak"
     },
     {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: nanogramm?",
+      "q": "Mit mér a hertz?",
       "a": [
-        "vastagság",
-        "aktivitás",
-        "tömeg",
-        "sugár"
+        "A frekvenciát",
+        "A hangerőt",
+        "A hullámhosszt",
+        "A sebességet"
       ],
-      "c": 2,
-      "d": "medium",
-      "e": "A(z) nanogramm a(z) tömeg mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q2282906"
+      "c": 0,
+      "d": "easy",
+      "e": "Egy hertz egy ismétlődés másodpercenként; a hallható hang kb. 20 Hz és 20 000 Hz között van.",
+      "t": "alapfogalmak"
     },
     {
-      "q": "Milyen fizikai mennyiség mértékegysége a következő: attoszekundum?",
+      "q": "Mi történik az elektromos vezető ellenállásával, ha megnöveljük a hosszát?",
       "a": [
-        "lendület",
-        "frekvencia",
-        "szélesség",
-        "időtartam"
+        "Nő",
+        "Csökken",
+        "Nem változik",
+        "Először csökken, aztán nő"
       ],
-      "c": 3,
+      "c": 0,
       "d": "medium",
-      "e": "A(z) attoszekundum a(z) időtartam mértékegysége.",
-      "t": "mértékegységek",
-      "s": "http://www.wikidata.org/entity/Q2483628"
+      "e": "Az ellenállás a hosszal egyenesen, a keresztmetszettel fordítottan arányos.",
+      "t": "elektromosság, mágnesesség"
+    },
+    {
+      "q": "Mit mond ki az Ohm-törvény?",
+      "a": [
+        "A feszültség az áram és az ellenállás szorzata",
+        "Az áram a feszültség és az ellenállás szorzata",
+        "Az ellenállás a feszültség és az áram szorzata",
+        "A teljesítmény a feszültség és az idő szorzata"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "U = I × R. Ebből következik, hogy adott feszültségen kisebb ellenállás nagyobb áramot jelent.",
+      "t": "elektromosság, mágnesesség"
+    },
+    {
+      "q": "Milyen töltésű az elektron?",
+      "a": [
+        "Negatív",
+        "Pozitív",
+        "Semleges",
+        "Változó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az elektron negatív, a proton pozitív, a neutron semleges töltésű.",
+      "t": "elektromosság, mágnesesség"
+    },
+    {
+      "q": "Mi jön létre az elektromos vezető körül, ha áram folyik benne?",
+      "a": [
+        "Mágneses tér",
+        "Gravitációs tér",
+        "Hangtér",
+        "Vákuum"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ez Ørsted 1820-as felfedezése, ami összekapcsolta az elektromosságot és a mágnesességet.",
+      "t": "elektromosság, mágnesesség"
+    },
+    {
+      "q": "Hogyan viselkedik két azonos mágneses pólus egymással?",
+      "a": [
+        "Taszítják egymást",
+        "Vonzzák egymást",
+        "Nem hatnak egymásra",
+        "Semlegesítik egymást"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Azonos pólusok taszítanak, ellentétesek vonzanak – akárcsak az elektromos töltések.",
+      "t": "elektromosság, mágnesesség"
+    },
+    {
+      "q": "Lehet-e egyetlen mágneses pólust, mágneses monopólust előállítani?",
+      "a": [
+        "Nem, a mágnest kettévágva két teljes mágnest kapunk",
+        "Igen, elég erős hűtéssel",
+        "Igen, elektromágnessel",
+        "Csak szupravezetőben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Minden ismert mágnesnek két pólusa van; a monopólus létét elméletek felvetik, de kísérlet nem igazolta.",
+      "t": "elektromosság, mágnesesség"
+    },
+    {
+      "q": "Miért nem éri áramütés a madarat a nagyfeszültségű vezetéken?",
+      "a": [
+        "Mert nincs feszültségkülönbség a lábai között",
+        "Mert a tolla szigetel",
+        "Mert kicsi a testsúlya",
+        "Mert a vezeték szigetelt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Áram csak akkor folyik, ha van potenciálkülönbség. Ha a madár egy másik vezetéket is elérne, azonnal átfolyna rajta.",
+      "t": "elektromosság, mágnesesség"
+    },
+    {
+      "q": "Mi az elektromágneses indukció alapjelensége?",
+      "a": [
+        "Változó mágneses tér áramot indít",
+        "Állandó mágneses tér áramot indít",
+        "Az áram lehűti a vezetőt",
+        "A töltés eltűnik a vezetőben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Faraday 1831-es felfedezése ez; ezen alapul minden generátor és transzformátor.",
+      "t": "elektromosság, mágnesesség"
+    },
+    {
+      "q": "Miért nem lehet váltakozó áram nélkül transzformálni a feszültséget?",
+      "a": [
+        "Mert csak a változó tér indukál",
+        "Mert az egyenáram túl erős",
+        "Mert a vas nem vezeti az egyenáramot",
+        "Mert a réz felmelegszik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az indukcióhoz változó mágneses tér kell; ezért győzött a váltakozó áram a hálózatokban.",
+      "t": "elektromosság, mágnesesség"
+    },
+    {
+      "q": "Mit jelent a szupravezetés?",
+      "a": [
+        "Az ellenállás nullára csökken",
+        "A vezető felmelegszik",
+        "A vezető taszítja a töltést",
+        "A feszültség megduplázódik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Bizonyos anyagokban alacsony hőmérsékleten az ellenállás pontosan nulla lesz; ez lebegtetést is lehetővé tesz.",
+      "t": "elektromosság, mágnesesség"
+    },
+    {
+      "q": "Mi történik a fénnyel, amikor vízbe lép a levegőből?",
+      "a": [
+        "Megtörik és lassul",
+        "Gyorsul és megtörik",
+        "Változatlanul haladt tovább",
+        "Teljesen visszaverődik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vízben a fény kb. 225 000 km/s-ra lassul, és ezért látszik megtörtnek a vízbe merített kanál.",
+      "t": "fény, hang, hő"
+    },
+    {
+      "q": "Miért kék az égbolt?",
+      "a": [
+        "A levegő a rövidebb hullámhosszt jobban szórja",
+        "A tenger visszaverődése miatt",
+        "Az ózon színe miatt",
+        "A levegő elnyeli a vöröset"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ez a Rayleigh-szórás; naplementekor a hosszabb úton a kék kiszóródik, ezért látjuk vörösnek a Napot.",
+      "t": "fény, hang, hő"
+    },
+    {
+      "q": "Mekkora sebességgel terjed a hang levegőben, szobahőmérsékleten?",
+      "a": [
+        "Kb. 340 m/s",
+        "Kb. 34 m/s",
+        "Kb. 3400 m/s",
+        "Kb. 1500 m/s"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Vízben jóval gyorsabb, kb. 1500 m/s; vákuumban a hang egyáltalán nem terjed.",
+      "t": "fény, hang, hő"
+    },
+    {
+      "q": "Miért látjuk előbb a villámot, mint ahogy a dörgést hallanánk?",
+      "a": [
+        "A fény sokkal gyorsabb a hangnál",
+        "A hang lassabban keletkezik",
+        "A dörgés később alakul ki",
+        "A hang elnyelődik a felhőben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Három másodperc késés kb. egy kilométer távolságot jelent.",
+      "t": "fény, hang, hő"
+    },
+    {
+      "q": "Mit nevezünk Doppler-hatásnak?",
+      "a": [
+        "A hang magasságának változását a mozgás miatt",
+        "A hang erősségének növekedését",
+        "A visszhang jelenségét",
+        "A hang elnyelődését"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A közeledő szirénahang magasabb, a távolodó mélyebb; a jelenség a fénynél is fellép, ezt vöröseltolódásnak hívjuk.",
+      "t": "fény, hang, hő"
+    },
+    {
+      "q": "Melyik hőterjedési mód nem igényel közeget?",
+      "a": [
+        "A sugárzás",
+        "A vezetés",
+        "Az áramlás",
+        "Mindhárom igényel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nap hője sugárzással, tehát elektromágneses hullámokkal ér el minket a világűr vákuumán át.",
+      "t": "fény, hang, hő"
+    },
+    {
+      "q": "Miért érződik a fém hidegebbnek a fánál ugyanolyan hőmérsékleten?",
+      "a": [
+        "Mert gyorsabban vezeti el a kezünk hőjét",
+        "Mert valóban hidegebb",
+        "Mert simább a felszíne",
+        "Mert sűrűbb az anyaga"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hőérzet nem a hőmérsékletet, hanem a hőelvonás sebességét méri.",
+      "t": "fény, hang, hő"
+    },
+    {
+      "q": "Mi a víz forráspontja normál légköri nyomáson?",
+      "a": [
+        "100 °C",
+        "90 °C",
+        "110 °C",
+        "120 °C"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Magas hegyen a kisebb nyomás miatt alacsonyabb hőmérsékleten forr, ezért lassabban puhul meg a főzött étel.",
+      "t": "fény, hang, hő"
+    },
+    {
+      "q": "Mit mond ki a termodinamika második főtétele a hőáramlásról?",
+      "a": [
+        "A hő magától a melegebbtől a hidegebb felé áramlik",
+        "A hő magától a hidegebbtől a melegebb felé áramlik",
+        "A hő nem áramlik magától",
+        "A hő mindig egyenletesen oszlik el azonnal"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ezért kell energiát befektetni a hűtőgépbe: a fordított irányú hőszállításhoz munka szükséges.",
+      "t": "fény, hang, hő"
+    },
+    {
+      "q": "Mi a szivárvány kialakulásának fizikai alapja?",
+      "a": [
+        "A fény törése és színekre bomlása a vízcseppekben",
+        "A napfény visszaverődése a felhőkről",
+        "A levegő páratartalmának világítása",
+        "A légköri elektromosság"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A csepp belsejében a fény megtörik, visszaverődik, majd újra megtörik – a színek eltérő mértékben térülnek el.",
+      "t": "fény, hang, hő"
+    },
+    {
+      "q": "Mennyi ideig tart, míg a napfény eléri a Földet?",
+      "a": [
+        "Kb. 8 perc",
+        "Kb. 8 másodperc",
+        "Kb. 80 perc",
+        "Azonnal odaér"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nap 150 millió kilométerre van; a fény 8 perc 20 másodperc alatt ér ide.",
+      "t": "csillagászat, űr"
+    },
+    {
+      "q": "Melyik erő tartja a bolygókat a Nap körüli pályán?",
+      "a": [
+        "A gravitáció",
+        "A mágneses erő",
+        "A centrifugális erő",
+        "A napszél"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gravitációs vonzás és a pályamenti sebesség együtt eredményezi a zárt, ellipszis alakú pályát.",
+      "t": "csillagászat, űr"
+    },
+    {
+      "q": "Miért lebegnek az űrhajósok a Föld körüli pályán?",
+      "a": [
+        "Mert az űrhajóval együtt szabadon esnek",
+        "Mert ott nincs gravitáció",
+        "Mert könnyebbek lesznek",
+        "Mert a levegő tartja őket"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az űrállomáson a gravitáció alig kisebb, mint a felszínen – de mindenki ugyanúgy esik, ezért nincs súlyérzet.",
+      "t": "csillagászat, űr"
+    },
+    {
+      "q": "Mi a fekete lyuk eseményhorizontja?",
+      "a": [
+        "A felület, ahonnan már a fény sem tud kiszabadulni",
+        "A fekete lyuk középpontja",
+        "A körülötte forgó anyagkorong",
+        "A látható peremvidéke"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Belülről a szökési sebesség nagyobb lenne a fénysebességnél, ezért semmi nem hagyhatja el.",
+      "t": "csillagászat, űr"
+    },
+    {
+      "q": "Mit jelent a fényév?",
+      "a": [
+        "Távolságot: amennyit a fény egy év alatt megtesz",
+        "Egy év hosszát a fény szempontjából",
+        "A fény erősségét",
+        "Egy csillag életkorát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Egy fényév kb. 9460 milliárd kilométer; a legközelebbi csillag 4,2 fényévre van.",
+      "t": "csillagászat, űr"
+    },
+    {
+      "q": "Melyik erő okozza a Föld árapály-jelenségét elsősorban?",
+      "a": [
+        "A Hold gravitációja",
+        "A Nap sugárzása",
+        "A Föld forgása egyedül",
+        "A szélrendszerek"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Hold hatása kb. kétszerese a Napénak; amikor egy irányba esnek, jön a szökőár.",
+      "t": "csillagászat, űr"
+    },
+    {
+      "q": "Miért vannak évszakok a Földön?",
+      "a": [
+        "A forgástengely ferdesége miatt",
+        "Mert változik a Naptól való távolság",
+        "A Hold hatása miatt",
+        "A légkör összetétele miatt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 23,5 fokos tengelyferdeség miatt más szögben érkezik a napfény; a távolságváltozás hatása elhanyagolható.",
+      "t": "csillagászat, űr"
+    },
+    {
+      "q": "Mit nevezünk szökési sebességnek a Földön?",
+      "a": [
+        "Kb. 11,2 km/s",
+        "Kb. 7,9 km/s",
+        "Kb. 1,5 km/s",
+        "Kb. 30 km/s"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ennél kisebb sebességgel a test visszahull; a 7,9 km/s a Föld körüli pályán maradáshoz kell.",
+      "t": "csillagászat, űr"
+    },
+    {
+      "q": "Milyen halmazállapotban van a Nap anyagának túlnyomó része?",
+      "a": [
+        "Plazma",
+        "Gáz",
+        "Folyadék",
+        "Szilárd"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A plazmában az atomok ionizáltak: az elektronok elszakadtak a magoktól.",
+      "t": "csillagászat, űr"
+    },
+    {
+      "q": "Melyik folyamat termeli a Nap energiáját?",
+      "a": [
+        "A hidrogén héliummá alakulása",
+        "A szén elégése",
+        "A hélium hidrogénné bomlása",
+        "Az urán hasadása"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magfúzió során a keletkező hélium tömege kisebb az összetevőknél; a különbség energiává válik.",
+      "t": "csillagászat, űr"
+    },
+    {
+      "q": "Mit ír le Einstein E = mc² összefüggése?",
+      "a": [
+        "A tömeg és az energia egyenértékűségét",
+        "A fény és a hang viszonyát",
+        "A gravitáció erősségét",
+        "Az atom méretét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Egészen kis tömeg is óriási energiának felel meg, mert a fénysebesség négyzete hatalmas szám.",
+      "t": "modern fizika"
+    },
+    {
+      "q": "Mit állít a speciális relativitáselmélet az időről?",
+      "a": [
+        "Nagy sebességnél lassabban telik",
+        "Mindenhol egyformán telik",
+        "Nagy sebességnél gyorsabban telik",
+        "A gravitáció nem hat rá"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az idődilatációt a GPS-műholdaknál napi szinten korrigálni kell, különben méterekkel tévednének.",
+      "t": "modern fizika"
+    },
+    {
+      "q": "Mit fejez ki a Heisenberg-féle határozatlansági elv?",
+      "a": [
+        "A hely és a lendület nem mérhető együtt tetszőleges pontossággal",
+        "A mérés mindig pontatlan a műszer miatt",
+        "Az energia nem megmaradó",
+        "A részecske nem létezik megfigyelés nélkül"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ez nem műszerhiba, hanem a természet alapvető tulajdonsága a kvantummechanikában.",
+      "t": "modern fizika"
+    },
+    {
+      "q": "Mit jelent a fény kettős természete?",
+      "a": [
+        "Hullámként és részecskeként is viselkedik",
+        "Egyszerre kék és vörös",
+        "Vákuumban és anyagban más",
+        "Melegít és világít"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kétréses kísérlet hullámként, a fényelektromos jelenség részecskeként mutatja meg a fényt.",
+      "t": "modern fizika"
+    },
+    {
+      "q": "Milyen részecske a foton?",
+      "a": [
+        "A fény tömeg nélküli energiakvantuma",
+        "Az atommag alkotója",
+        "Negatív töltésű részecske",
+        "A gravitáció közvetítője"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A foton nyugalmi tömege nulla, ezért mindig fénysebességgel mozog.",
+      "t": "modern fizika"
+    },
+    {
+      "q": "Mi a radioaktív felezési idő?",
+      "a": [
+        "Amíg az atomok fele elbomlik",
+        "Amíg az összes atom elbomlik",
+        "A sugárzás fele elnyelődik",
+        "A minta fele elpárolog"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Statisztikus jellemző: nem tudjuk, melyik atom bomlik el, csak azt, hogy átlagosan mennyi.",
+      "t": "modern fizika"
+    },
+    {
+      "q": "Melyik részecskét nevezik a Higgs-mechanizmus miatt tömeget adó részecskének?",
+      "a": [
+        "A Higgs-bozont",
+        "A neutrínót",
+        "A müont",
+        "A gluont"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A CERN 2012-ben igazolta a létét a Nagy Hadronütköztetőben, csaknem 50 évvel a jóslat után.",
+      "t": "modern fizika"
+    },
+    {
+      "q": "Mit jelent a kvantum-összefonódás?",
+      "a": [
+        "Két részecske mérése összefügg egymással",
+        "A részecskék összeragadnak",
+        "Két atom közös elektront használ",
+        "A fény két útra bomlik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az összefonódott részecskék mérési eredményei korreláltak, bármilyen messze vannak – de információt így sem lehet küldeni.",
+      "t": "modern fizika"
+    },
+    {
+      "q": "Melyik alapvető kölcsönhatás a leggyengébb a négy közül?",
+      "a": [
+        "A gravitáció",
+        "Az elektromágneses",
+        "Az erős",
+        "A gyenge"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Elképesztően gyenge: egy hűtőmágnes legyőzi az egész Föld gravitációját egy gemkapocson.",
+      "t": "modern fizika"
+    },
+    {
+      "q": "Mit mutatott meg a kétréses kísérlet egyetlen elektronnal is elvégezve?",
+      "a": [
+        "Az egyes részecskék is interferenciát adnak",
+        "Az elektron mindig az egyik résen megy át",
+        "Az elektron nem hatol át a résen",
+        "Az elektron elnyelődik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Egyenként kilőtt elektronokból is kirajzolódik a csíkos mintázat – mintha mindegyik egyszerre mindkét résen átmenne.",
+      "t": "modern fizika"
     }
   ]
 }

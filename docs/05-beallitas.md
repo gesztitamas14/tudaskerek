@@ -1,7 +1,7 @@
 # Beállítás és üzembe helyezés
 
 Három komponens van, és **egymástól függetlenül** üzembe helyezhetők. A játék
-backend nélkül is teljesen működik (offline mód, 1783 beépített kérdés).
+backend nélkül is teljesen működik (offline mód, 2125 beépített kérdés).
 
 | Komponens | Kell hozzá | Mit ad |
 |---|---|---|
@@ -42,7 +42,7 @@ Nyisd meg: <http://localhost:5173/>
 > `file://` protokollon **nem működik**: a böngésző ott nem engedi az ES modulok
 > és a service worker betöltését. Ezért kell a helyi szerver.
 
-Ez a változat **backend nélkül** fut: offline mód, 1783 kérdés, statisztika,
+Ez a változat **backend nélkül** fut: offline mód, 2125 kérdés, statisztika,
 minden képernyő. A ranglista és a többjátékos mód ilyenkor nem elérhető.
 
 ### Tesztek

@@ -66,6 +66,8 @@ export function multiplayerScreen(app) {
   let refreshTimer = null;
   // Ha a belépés eleve nem megy, ezt írjuk ki a lista helyén.
   let authProblem = null;
+  // null = még nem tudjuk; a szerver válasza után true/false.
+  let isGuest = null;
 
   const listHost = el('div.room-list');
   const listCard = card([
@@ -105,6 +107,7 @@ export function multiplayerScreen(app) {
     try {
       await app.supabase.signInAnonymously();
       authProblem = null;
+      isGuest = null;   // új session → újra meg kell kérdezni
       return true;
     } catch (error) {
       authProblem = signInProblem(error);
@@ -165,7 +168,18 @@ export function multiplayerScreen(app) {
       renderAuthProblem();
       return;
     }
-    guestNote.hidden = !app.supabase.isAnonymous;
+    // A vendégfigyelmeztetést CSAK akkor írjuk ki, ha a szerver megerősíti.
+    //
+    // Korábban a JWT `is_anonymous` állítására épült, és bejelentkezett
+    // felhasználónak is megjelent. A JWT ezt nem mindig tartalmazza, és
+    // vendégfiók átalakítása után elavul – a `profiles` sor viszont hiteles.
+    // Ha nem tudjuk eldönteni, hallgatunk: rosszabb valótlant állítani a
+    // felhasználó fiókjáról, mint semmit.
+    if (isGuest === null) {
+      isGuest = await app.supabase.isGuestAccount();
+    }
+    guestNote.hidden = isGuest !== true;
+
     try {
       openRooms = (await app.supabase.rpc('list_open_rooms', { p_limit: 30 })) ?? [];
       renderList();

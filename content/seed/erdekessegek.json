@@ -1080,6 +1080,84 @@
       "e": "hélium felfedezője Norman Lockyer.",
       "t": "kémiai elemek",
       "s": "http://www.wikidata.org/entity/Q560"
+    },
+    {
+      "q": "Melyik a világ legnagyobb területű országa?",
+      "a": [
+        "Oroszország",
+        "Kanada",
+        "Kína",
+        "Az Egyesült Államok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Oroszország 17 millió négyzetkilométer, csaknem kétszerese Kanadának; tizenegy időzónát fed le.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Melyik a világ legmélyebb tava?",
+      "a": [
+        "A Bajkál-tó",
+        "A Tanganyika-tó",
+        "A Kaszpi-tenger",
+        "A Felső-tó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Bajkál 1642 méter mély, és a Föld édesvízkészletének egyötödét tartalmazza.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Melyik a világ legszárazabb lakott vidéke?",
+      "a": [
+        "Az Atacama-sivatag",
+        "A Szahara",
+        "A Góbi",
+        "A Nagy-Viktória-sivatag"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Atacama egyes pontjain évtizedekig nem mérnek csapadékot; ezért van itt sok csillagvizsgáló.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Melyik állat a legnagyobb, amely valaha élt a Földön?",
+      "a": [
+        "A kék bálna",
+        "A brachiosaurus",
+        "Az afrikai elefánt",
+        "A tyrannosaurus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kék bálna 30 méter hosszú és 150 tonna is lehet – nagyobb, mint bármely ismert dinoszaurusz.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Mennyi a leghosszabb ismert emberi élettartam megbízhatóan dokumentálva?",
+      "a": [
+        "122 év",
+        "105 év",
+        "135 év",
+        "150 év"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A francia Jeanne Calment 1997-ben, 122 éves és 164 napos korában halt meg.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Melyik nyelvet beszélik anyanyelvként a legtöbben a világon?",
+      "a": [
+        "A mandarin kínait",
+        "Az angolt",
+        "A spanyolt",
+        "A hindit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Anyanyelvi beszélők szerint a mandarin vezet; összes beszélőt számolva az angol az első.",
+      "t": "rekordok"
     }
   ]
 }

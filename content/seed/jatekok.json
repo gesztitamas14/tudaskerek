@@ -59,284 +59,524 @@
       "s": "http://www.wikidata.org/entity/Q645003"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Resident Evil 3: Nemesis?",
+      "q": "Hány mezőből áll a sakktábla?",
       "a": [
-        "Konami",
-        "Google LLC",
-        "Nintendo",
-        "Capcom"
+        "64",
+        "81",
+        "100",
+        "49"
       ],
-      "c": 3,
-      "d": "hard",
-      "e": "Resident Evil 3: Nemesis fejlesztője: Capcom.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q739784"
+      "c": 0,
+      "d": "easy",
+      "e": "Nyolcszor nyolc mező, felváltva világos és sötét; a jobb alsó sarok mindig világos.",
+      "t": "sakk, táblás játékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Breath of Fire IV?",
+      "q": "Melyik sakkbábu léphet L alakban?",
       "a": [
-        "Hezbollah",
-        "Google LLC",
-        "Capcom",
-        "Microsoft"
+        "A huszár",
+        "A futó",
+        "A bástya",
+        "A király"
       ],
-      "c": 2,
-      "d": "hard",
-      "e": "Breath of Fire IV fejlesztője: Capcom.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q796510"
+      "c": 0,
+      "d": "easy",
+      "e": "A huszár az egyetlen bábu, amely átléphet más figurák fölött.",
+      "t": "sakk, táblás játékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Devil May Cry?",
+      "q": "Mit jelent a sakkban a patt?",
       "a": [
-        "Microsoft",
-        "Nintendo",
-        "Capcom",
-        "Google LLC"
+        "A lépéskényszerben lévő fél nem tud szabályosan lépni",
+        "A király sakkban van",
+        "Mindkét fél feladja",
+        "Az utolsó bábu is elfogyott"
       ],
-      "c": 2,
-      "d": "hard",
-      "e": "Devil May Cry fejlesztője: Capcom.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q840889"
+      "c": 0,
+      "d": "medium",
+      "e": "A patt döntetlen, nem vereség – gyakran ez a védekező fél utolsó mentsvára.",
+      "t": "sakk, táblás játékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Street Fighter 2010?",
+      "q": "Melyik játékban a cél, hogy az ellenfél kövei közé zárva megfordítsuk azokat?",
       "a": [
-        "Microsoft",
-        "Konami",
-        "Capcom",
-        "Google LLC"
-      ],
-      "c": 2,
-      "d": "hard",
-      "e": "Street Fighter 2010 fejlesztője: Capcom.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q907744"
-    },
-    {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Google Lively?",
-      "a": [
-        "Google LLC",
-        "Nintendo",
-        "Microsoft",
-        "GNU Project"
+        "Reversi, más néven Othello",
+        "Go",
+        "Dáma",
+        "Halma"
       ],
       "c": 0,
       "d": "hard",
-      "e": "Google Lively fejlesztője: Google LLC.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q665647"
+      "e": "A kétszínű korongokat a bekerítés fordítja meg; a tábla nyolcszor nyolcas.",
+      "t": "sakk, táblás játékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Google Santa Tracker?",
+      "q": "Melyik ősi táblás játék célja a terület bekerítése kövekkel?",
       "a": [
-        "Google LLC",
-        "GNU Project",
-        "Nintendo",
-        "Hezbollah"
+        "A go",
+        "A sakk",
+        "A backgammon",
+        "A malom"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A go Kínából származik, több mint kétezer éves; a 19×19-es tábla lehetőségeinek száma csillagászati.",
+      "t": "sakk, táblás játékok"
+    },
+    {
+      "q": "Melyik társasjátékban vásárolunk utcákat és építünk házakat?",
+      "a": [
+        "Monopoly",
+        "Gazdálkodj okosan!",
+        "Catan telepesei",
+        "Carcassonne"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az 1935-ös amerikai kiadás előzménye a The Landlord's Game volt, ami eredetileg a földmonopólium kritikája.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Mi a magyar megfelelője a Monopolynak, amit évtizedekig itthon gyártottak?",
+      "a": [
+        "Gazdálkodj okosan!",
+        "Capitaly",
+        "Vagyonom",
+        "Városépítő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A játék 1961-ben jelent meg; a Capitaly egy másik, szintén népszerű magyar változat volt.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik társasjátékban gyűjtünk nyersanyagot, és utat meg falut építünk?",
+      "a": [
+        "Catan telepesei",
+        "Monopoly",
+        "Risk",
+        "Scrabble"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Klaus Teuber 1995-es játéka indította el a modern társasjátékok német iskoláját.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik játékban betűkből kell szavakat kirakni a táblán, pontértékkel?",
+      "a": [
+        "Scrabble",
+        "Rummikub",
+        "Activity",
+        "Tabu"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A magyar változatban a betűk gyakorisága és pontértéke a magyar nyelvhez van igazítva.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik társasjátékban egy gyilkosság körülményeit kell kitalálni?",
+      "a": [
+        "Cluedo",
+        "Monopoly",
+        "Risk",
+        "Dixit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A megoldás – a tettes, a helyszín és a fegyver – a játék elején egy borítékba kerül.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik játék célja a világ meghódítása kockával vívott csatákban?",
+      "a": [
+        "Risk",
+        "Catan telepesei",
+        "Carcassonne",
+        "Cluedo"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A francia eredetű játékot 1957-ben Albert Lamorisse filmrendező alkotta.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Hány kockát dobunk egyszerre a hagyományos backgammonban?",
+      "a": [
+        "Kettőt",
+        "Egyet",
+        "Hármat",
+        "Ötöt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ha dupla jön ki, a játékos négyszer léphet az adott értékkel.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik kártyajáték az, amiben a legerősebb kombináció a színsor a legnagyobb lapokkal?",
+      "a": [
+        "A póker",
+        "A römi",
+        "A bridzs",
+        "A canasta"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ezt royal flushnak nevezik: ász, király, dáma, jumbó és tízes egy színben.",
+      "t": "kártya, kockajátékok"
+    },
+    {
+      "q": "Hány lapból áll a francia kártya jokerek nélkül?",
+      "a": [
+        "52",
+        "48",
+        "36",
+        "54"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Négy szín, mindegyikben tizenhárom lap; a magyar kártya ezzel szemben 32 lapos.",
+      "t": "kártya, kockajátékok"
+    },
+    {
+      "q": "Hány lapos a magyar kártya?",
+      "a": [
+        "32",
+        "52",
+        "36",
+        "40"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Négy szín – tök, zöld, piros, akác –, mindegyikben nyolc lap.",
+      "t": "kártya, kockajátékok"
+    },
+    {
+      "q": "Melyik kártyajátékot játsszák négyen, párokban, licitálással?",
+      "a": [
+        "A bridzs",
+        "A römi",
+        "Az ulti",
+        "A snapszer"
       ],
       "c": 0,
       "d": "hard",
-      "e": "Google Santa Tracker fejlesztője: Google LLC.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q22077991"
+      "e": "A bridzsnek versenyszabályai és világranglistája is van; a licit során a párok kódolt információt adnak egymásnak.",
+      "t": "kártya, kockajátékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: InkBall?",
+      "q": "Melyik magyar kártyajátékot játsszák hárman, magyar kártyával, bemondásokkal?",
       "a": [
-        "Nintendo",
-        "Microsoft",
-        "Konami",
-        "GNU Project"
+        "Az ulti",
+        "A römi",
+        "A bridzs",
+        "A snapszer"
       ],
-      "c": 1,
-      "d": "hard",
-      "e": "InkBall fejlesztője: Microsoft.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q1340777"
+      "c": 0,
+      "d": "medium",
+      "e": "Az ulti a 19. század végén alakult ki Magyarországon; nevét a legfontosabb bemondásáról kapta.",
+      "t": "kártya, kockajátékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: GNU Go?",
+      "q": "Melyik kockajátékban a cél ötféle kombináció összegyűjtése, például a full house?",
       "a": [
-        "Google LLC",
-        "GNU Project",
-        "Microsoft",
-        "Hezbollah"
+        "A jamb, más néven Yahtzee",
+        "A backgammon",
+        "A craps",
+        "A ludo"
       ],
-      "c": 1,
+      "c": 0,
       "d": "hard",
-      "e": "GNU Go fejlesztője: GNU Project.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q1404540"
+      "e": "Öt kockával, három dobásból lehet a kívánt kombinációt összeállítani.",
+      "t": "kártya, kockajátékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: International Superstar Soccer 2000?",
+      "q": "Melyik videojáték lett a legtöbb példányban eladott játék a világon?",
       "a": [
-        "Microsoft",
-        "Hezbollah",
-        "Konami",
-        "Google LLC"
+        "A Minecraft",
+        "A Tetris",
+        "A GTA V",
+        "A Wii Sports"
       ],
-      "c": 2,
-      "d": "hard",
-      "e": "International Superstar Soccer 2000 fejlesztője: Konami.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q1865940"
+      "c": 0,
+      "d": "medium",
+      "e": "A Minecraft 300 millió példány felett jár; a Tetris a különböző kiadásokkal együtt versenyzik vele.",
+      "t": "videojátékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Road Fighter?",
+      "q": "Melyik országban készült a Tetris?",
       "a": [
-        "Nintendo",
-        "Capcom",
-        "Microsoft",
-        "Konami"
+        "A Szovjetunióban",
+        "Japánban",
+        "Az Egyesült Államokban",
+        "Lengyelországban"
       ],
-      "c": 3,
-      "d": "hard",
-      "e": "Road Fighter fejlesztője: Konami.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q1980593"
+      "c": 0,
+      "d": "medium",
+      "e": "Alekszej Pazsitnov 1984-ben, moszkvai kutatóintézetben írta meg; a jogi vita évekig tartott.",
+      "t": "videojátékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Pro Evolution Soccer 3?",
+      "q": "Melyik cég adta ki a Mario-játékokat?",
       "a": [
-        "Hezbollah",
-        "Nintendo",
-        "Konami",
-        "Google LLC"
+        "A Nintendo",
+        "A Sega",
+        "A Sony",
+        "Az Atari"
       ],
-      "c": 2,
-      "d": "hard",
-      "e": "Pro Evolution Soccer 3 fejlesztője: Konami.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q1988599"
+      "c": 0,
+      "d": "easy",
+      "e": "A karaktert Sigeru Mijamoto alkotta; először az 1981-es Donkey Kongban jelent meg.",
+      "t": "videojátékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: The Legend of Zelda: Ocarina of Time?",
+      "q": "Melyik magyar fejlesztésű játéksorozat lett világszerte ismert autós szimulátorként?",
       "a": [
-        "Google LLC",
-        "GNU Project",
-        "Konami",
-        "Nintendo"
+        "A Euro Truck Simulator előfutárai és a Rally Trophy",
+        "A Half-Life",
+        "A FIFA",
+        "A Doom"
       ],
-      "c": 3,
+      "c": 0,
       "d": "hard",
-      "e": "The Legend of Zelda: Ocarina of Time fejlesztője: Nintendo.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q213911"
+      "e": "A magyar játékfejlesztés több sikeres címet adott, például az Imperium Galacticát és a Codename: Panzerst.",
+      "t": "videojátékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Paper Mario: Sticker Star?",
+      "q": "Melyik magyar fejlesztésű stratégiai játék jelent meg 1997-ben, űrbeli témában?",
       "a": [
-        "Capcom",
-        "Google LLC",
-        "Nintendo",
-        "GNU Project"
+        "Az Imperium Galactica",
+        "A StarCraft",
+        "A Homeworld",
+        "A Master of Orion"
       ],
-      "c": 2,
+      "c": 0,
       "d": "hard",
-      "e": "Paper Mario: Sticker Star fejlesztője: Nintendo.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q764736"
+      "e": "A Digital Reality játéka a magyar játékfejlesztés első nagy nemzetközi sikere volt.",
+      "t": "videojátékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Pilotwings 64?",
+      "q": "Mit jelent a videojátékokban az MMO rövidítés?",
       "a": [
-        "Hezbollah",
-        "Nintendo",
-        "Capcom",
-        "GNU Project"
+        "Sok játékos által egyszerre játszott online játék",
+        "Mobilra optimalizált játék",
+        "Egyjátékos küldetésrendszer",
+        "Verekedős játékstílus"
       ],
-      "c": 1,
-      "d": "hard",
-      "e": "Pilotwings 64 fejlesztője: Nintendo.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q933524"
+      "c": 0,
+      "d": "medium",
+      "e": "A massively multiplayer online rövidítése; a World of Warcraft a legismertebb példa.",
+      "t": "videojátékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Super Mario All-Stars?",
+      "q": "Melyik játékkonzol volt a Sony első saját fejlesztése 1994-ben?",
       "a": [
-        "GNU Project",
-        "Capcom",
-        "Konami",
-        "Nintendo"
+        "A PlayStation",
+        "A Dreamcast",
+        "Az Xbox",
+        "A Nintendo 64"
       ],
-      "c": 3,
-      "d": "hard",
-      "e": "Super Mario All-Stars fejlesztője: Nintendo.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q1058903"
+      "c": 0,
+      "d": "medium",
+      "e": "Eredetileg a Nintendóval közös CD-s kiegészítőnek indult, de a partnerség felbomlott.",
+      "t": "videojátékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Donkey Kong Jr.?",
+      "q": "Melyik játék indította el a battle royale műfaj tömeges népszerűségét?",
       "a": [
-        "Microsoft",
-        "GNU Project",
-        "Nintendo",
-        "Hezbollah"
+        "A PUBG",
+        "A Counter-Strike",
+        "A Doom",
+        "A Quake"
       ],
-      "c": 2,
+      "c": 0,
       "d": "hard",
-      "e": "Donkey Kong Jr. fejlesztője: Nintendo.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q2264301"
+      "e": "A PlayerUnknown's Battlegrounds 2017-ben futott be; a Fortnite néhány hónappal később követte.",
+      "t": "videojátékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Golf?",
+      "q": "Melyik játékban kell egymáshoz illő színes elemekből hármas sorokat kialakítani?",
       "a": [
-        "Capcom",
-        "Microsoft",
-        "Hezbollah",
-        "Nintendo"
+        "A match-three típusú játékokban",
+        "A lövöldözős játékokban",
+        "A körökre osztott stratégiákban",
+        "A szimulátorokban"
       ],
-      "c": 3,
-      "d": "hard",
-      "e": "Golf fejlesztője: Nintendo.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q2731595"
+      "c": 0,
+      "d": "medium",
+      "e": "A műfaj alapja a Bejeweled volt; a Candy Crush ezt vitte mobilra több százmillió játékoshoz.",
+      "t": "videojátékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Dinosaur Game?",
+      "q": "Hány bábuval kezd egy játékos a sakkban?",
       "a": [
-        "Konami",
-        "Google LLC",
-        "Microsoft",
-        "GNU Project"
+        "Tizenhattal",
+        "Tizenkettővel",
+        "Húszzal",
+        "Nyolccal"
       ],
-      "c": 1,
-      "d": "hard",
-      "e": "Dinosaur Game fejlesztője: Google LLC.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q82235406"
+      "c": 0,
+      "d": "easy",
+      "e": "Nyolc gyalog, két huszár, két futó, két bástya, egy király és egy vezér.",
+      "t": "sakk, táblás játékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Age of Empires Online?",
+      "q": "Mit nevezünk sakkban sáncolásnak?",
       "a": [
-        "Pandemic Studios",
-        "GNU Project",
-        "Gas Powered Games",
-        "Google LLC"
+        "A király és a bástya közös lépését",
+        "A gyalog átváltozását",
+        "A vezér elvesztését",
+        "Az ellenfél bekerítését"
       ],
-      "c": 2,
-      "d": "hard",
-      "e": "Age of Empires Online fejlesztője: Gas Powered Games.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q34920"
+      "c": 0,
+      "d": "medium",
+      "e": "Az egyetlen lépés, amikor egyszerre két saját bábu mozdul; csak akkor szabad, ha egyik sem lépett még.",
+      "t": "sakk, táblás játékok"
     },
     {
-      "q": "Melyik stúdió fejlesztette a következő játékot: Dungeon Siege?",
+      "q": "Mi történik a sakkban, ha a gyalog eléri az utolsó sort?",
       "a": [
-        "Pandemic Studios",
-        "Gas Powered Games",
-        "Nintendo",
-        "Microsoft"
+        "Bármely bábuvá átváltoztatható a király kivételével",
+        "Automatikusan vezér lesz",
+        "Levételre kerül",
+        "Visszalép a kezdőállásba"
       ],
-      "c": 1,
+      "c": 0,
+      "d": "medium",
+      "e": "A gyakorlatban szinte mindig vezért választanak, de néha huszár a helyes döntés.",
+      "t": "sakk, táblás játékok"
+    },
+    {
+      "q": "Melyik játékban lépnek a bábuk csak átlósan, és a cél az ellenfél köveinek elfogása?",
+      "a": [
+        "A dáma",
+        "A sakk",
+        "A malom",
+        "A go"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A dáma egyszerűbb szabályrendszerű, de a versenyváltozatai mélyen elemzettek.",
+      "t": "sakk, táblás játékok"
+    },
+    {
+      "q": "Mennyi a malom játékban egy játékos köveinek száma a kezdéskor?",
+      "a": [
+        "Kilenc",
+        "Hat",
+        "Tizenkettő",
+        "Három"
+      ],
+      "c": 0,
       "d": "hard",
-      "e": "Dungeon Siege fejlesztője: Gas Powered Games.",
-      "t": "videojátékok",
-      "s": "http://www.wikidata.org/entity/Q866349"
+      "e": "A cél három kő egy vonalba rakása, ami feljogosít az ellenfél egy kövének elvételére.",
+      "t": "sakk, táblás játékok"
+    },
+    {
+      "q": "Melyik ősi játékot játsszák gödrökbe rakott magokkal Afrikában?",
+      "a": [
+        "A mancalát",
+        "A gót",
+        "A sogit",
+        "A backgammont"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A mancala játékcsalád több ezer éves; a szabályok régiónként eltérnek.",
+      "t": "sakk, táblás játékok"
+    },
+    {
+      "q": "Mit nevezünk a rejtvényfejtésben szudokunak?",
+      "a": [
+        "Számokat kell elhelyezni ismétlés nélkül a rácsban",
+        "Betűkből szavakat kell kirakni",
+        "Képeket kell párosítani",
+        "Utat kell keresni a labirintusban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A 9×9-es rácsban minden sorban, oszlopban és 3×3-as blokkban egyszer szerepel az 1-től 9-ig minden szám.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Melyik játék célja gyufaszálakkal vagy pálcikákkal alakzatok átrendezése?",
+      "a": [
+        "A gyufarejtvény",
+        "A sudoku",
+        "A tangram",
+        "A rubikkocka"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Klasszikus fejtörőtípus: adott számú pálcika mozgatásával kell új alakzatot vagy helyes egyenletet kapni.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Miből áll a tangram?",
+      "a": [
+        "Hét síkidomból, amikből alakzatokat rakunk",
+        "Kilenc kockából",
+        "Színes gyűrűkből",
+        "Számozott lapokból"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kínai eredetű készlet öt háromszögből, egy négyzetből és egy paralelogrammából áll.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Hány mozgatható elemből áll egy hagyományos 3×3-as Rubik-kocka külső rétege?",
+      "a": [
+        "Huszonhat",
+        "Huszonhét",
+        "Húsz",
+        "Huszonnégy"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 27 kis kockából a középső, láthatatlan mag nem mozdul – huszonhat marad.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Mennyi a legkevesebb lépés, amivel bármely Rubik-kocka-állás megoldható?",
+      "a": [
+        "Húsz",
+        "Tizenöt",
+        "Huszonöt",
+        "Ötven"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ezt nevezik Isten számának; számítógépes bizonyítás igazolta 2010-ben.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Melyik játék célja, hogy az ellenfél hajóit megtaláljuk egy rácson?",
+      "a": [
+        "A torpedó",
+        "Az amőba",
+        "A malom",
+        "A dáma"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A játék papíron is játszható; a hajók hossza és száma előre megállapodás kérdése.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Mit nevezünk amőbának?",
+      "a": [
+        "Három vagy öt jel egy vonalba rakását",
+        "Kockákkal való számolást",
+        "Kártyák párosítását",
+        "Betűk kirakását"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A háromszor hármas változat matematikailag megoldott: helyes játékkal mindig döntetlen.",
+      "t": "logikai játékok"
     }
   ]
 }

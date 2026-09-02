@@ -2,7 +2,7 @@
 // beállítások, névjegy.
 
 import { CONFIG } from './config.js';
-import { settings, results, history, remoteQuestions, localStats } from './store.js';
+import { settings, results, history, localStats } from './store.js';
 import { Wheel } from './wheel.js';
 import { sfx, setSoundEnabled } from './sound.js';
 import {
@@ -680,23 +680,6 @@ export function settingsScreen(app) {
   ]);
   difficultySelect.value = settings.get('preferredDifficulty') ?? 'mixed';
 
-  const refreshButton = primaryButton('Kérdések frissítése most', async () => {
-    if (!app.supabase.isConfigured || !navigator.onLine) {
-      toast('Ehhez backend és internetkapcsolat kell.', { tone: 'warn' });
-      return;
-    }
-    refreshButton.disabled = true;
-    try {
-      const inserted = await app.sync.refreshQuestions();
-      toast(`Kész: ${inserted} új kérdés. Összesen ${app.bank.questions.length}.`);
-      app.refreshCurrentScreen();
-    } catch (error) {
-      toast(`Nem sikerült: ${error.message}`, { tone: 'error' });
-    } finally {
-      refreshButton.disabled = false;
-    }
-  }, { tone: 'secondary' });
-
   root.append(
     card([
       el('h3', { text: 'Játékmenet' }),
@@ -726,14 +709,6 @@ export function settingsScreen(app) {
           'iPhone-on a böngésző nem támogatja a rezgést – ez a natív alkalmazás ' +
           'egyik előnye. Androidon és asztali gépen működik.'
       })
-    ]),
-
-    card([
-      el('h3', { text: 'Kérdésbank' }),
-      row('Helyben tárolt kérdés', String(app.bank.questions.length)),
-      row('Letöltött (online) kérdés', String(remoteQuestions.all().length)),
-      toggleRow('Kérdések automatikus letöltése', 'autoDownloadQuestions'),
-      refreshButton
     ]),
 
     card([

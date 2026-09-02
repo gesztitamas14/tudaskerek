@@ -1,5 +1,1943 @@
 {
   "category": "hires-ember",
   "default_source": null,
-  "questions": []
+  "questions": [
+    {
+      "q": "Ki dolgozta ki a telefon egyik első működő változatát, amiért 1876-ban szabadalmat kapott?",
+      "a": [
+        "Alexander Graham Bell",
+        "Guglielmo Marconi",
+        "Samuel Morse",
+        "Nikola Tesla"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bell 1876-ban kapta meg a telefon szabadalmát; a vitatott elsőségről Antonio Meuccivel évtizedekig folyt a jogi küzdelem.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik magyar mérnök nevéhez köthető a dinamó elvének felismerése?",
+      "a": [
+        "Jedlik Ányos",
+        "Bláthy Ottó",
+        "Kandó Kálmán",
+        "Zipernowsky Károly"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Jedlik Ányos már 1861 körül leírta az öngerjesztés elvét, évekkel Siemens előtt, de nem szabadalmaztatta.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Kihez fűződik a gőzgép hatásfokát döntően javító külön kondenzátor ötlete?",
+      "a": [
+        "James Watt",
+        "Thomas Newcomen",
+        "Richard Trevithick",
+        "George Stephenson"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Watt 1769-es szabadalma a külön kondenzátorral drasztikusan csökkentette a gőzgép fogyasztását.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Ki alkotta meg a Rubik-kockát?",
+      "a": [
+        "Rubik Ernő",
+        "Bíró László József",
+        "Galamb József",
+        "Puskás Tivadar"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Rubik Ernő építész 1974-ben készítette el az első fadarabokból álló prototípust.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik magyar feltaláló nevéhez kötődik a golyóstoll?",
+      "a": [
+        "Bíró László József",
+        "Mihályi Dénes",
+        "Csonka János",
+        "Kőrösi Csoma Sándor"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bíró 1938-ban szabadalmaztatta a golyóstollat; Argentínában „birome” néven ma is így hívják.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Ki fejlesztette ki a modern porszívó elődjét jelentő szívóelvű tisztítógépet 1901-ben?",
+      "a": [
+        "Hubert Cecil Booth",
+        "James Dyson",
+        "William Hoover",
+        "Melville Bissell"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Booth lóvontatású, benzinmotoros gépe volt az első, amely szívással, nem fúvással tisztított.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik feltaláló szabadalmaztatta a dinamitot?",
+      "a": [
+        "Alfred Nobel",
+        "Ascanio Sobrero",
+        "Christian Schönbein",
+        "Antoine Lavoisier"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Nobel 1867-ben tette biztonságosan kezelhetővé a nitroglicerint kőporral megkötve.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Ki tervezte az első programozható, mechanikus számológépet, az analitikus gépet?",
+      "a": [
+        "Charles Babbage",
+        "Blaise Pascal",
+        "Herman Hollerith",
+        "Konrad Zuse"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Babbage 1837-es terve máig a programozható számítógép elvi elődjének számít; sosem épült meg életében.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik magyar mérnök alkotta meg a Ford T-modell karburátorát?",
+      "a": [
+        "Galamb József",
+        "Csonka János",
+        "Kandó Kálmán",
+        "Bánki Donát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Galamb József a Ford főmérnökeként a T-modell számos elemét, köztük a karburátort is tervezte.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Kinek a neve fűződik a szikratávíró gyakorlati megvalósításához és az első transzatlanti rádiójelhez?",
+      "a": [
+        "Guglielmo Marconi",
+        "Heinrich Hertz",
+        "James Clerk Maxwell",
+        "Reginald Fessenden"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Marconi 1901-ben fogott rádiójelet az Atlanti-óceán túlpartjáról; 1909-ben Nobel-díjat kapott.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Ki alkotta meg a mai értelemben vett gyufát, a dörzsgyufát?",
+      "a": [
+        "John Walker",
+        "Irinyi János",
+        "Robert Boyle",
+        "Charles Sauria"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Walker 1826-ban készített dörzsgyufát; Irinyi János később a zajtalan, biztonságos gyufát fejlesztette ki.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik magyar tudós fejlesztette ki a zajtalan gyufát?",
+      "a": [
+        "Irinyi János",
+        "Semmelweis Ignác",
+        "Eötvös Loránd",
+        "Szilárd Leó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Irinyi 1836-ban ólom-dioxidot használt a robbanásszerű kálium-klorát helyett, így lett a gyufa zajtalan.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Kinek köszönhetjük a villamos transzformátor gyakorlati, párhuzamos kapcsolású rendszerét?",
+      "a": [
+        "Bláthy, Déri és Zipernowsky",
+        "Edison és Tesla",
+        "Siemens és Halske",
+        "Westinghouse és Stanley"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Ganz gyár három mérnöke 1885-ben szabadalmaztatta a transzformátort, ami az egész váltakozó áramú hálózat alapja lett.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Ki tervezte az első sikeres, motoros repülőgépet, amely 1903-ban emelkedett a levegőbe?",
+      "a": [
+        "A Wright fivérek",
+        "Otto Lilienthal",
+        "Louis Blériot",
+        "Alberto Santos-Dumont"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Orville és Wilbur Wright 1903. december 17-én Kitty Hawknál teljesített irányított, motoros repülést.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik feltaláló nevéhez kötődik a nyomdai szedőgép, a linotype?",
+      "a": [
+        "Ottmar Mergenthaler",
+        "Johannes Gutenberg",
+        "William Caxton",
+        "Friedrich Koenig"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mergenthaler 1884-es gépe egyetlen kezelővel pótolta a sorszedők egész csapatát.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Ki dolgozta ki a szélessávú rádiózás alapját adó frekvenciaugratás elvét, filmes karrierje mellett?",
+      "a": [
+        "Hedy Lamarr",
+        "Marlene Dietrich",
+        "Greta Garbo",
+        "Rita Hayworth"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Lamarr 1942-ben George Antheillel közösen szabadalmaztatta a torpedók irányítására szánt frekvenciaugratást.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik mérnök nevéhez fűződik a fázisváltós villanymotor és a többfázisú áram elméleti kidolgozása?",
+      "a": [
+        "Nikola Tesla",
+        "Thomas Edison",
+        "André-Marie Ampère",
+        "Michael Faraday"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Tesla indukciós motorja és többfázisú rendszere győzött az Edison-féle egyenáram ellen a hálózatok háborújában.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Ki alkotta meg a Kodak fényképezőgépet és a tekercsfilmet?",
+      "a": [
+        "George Eastman",
+        "Louis Daguerre",
+        "Nicéphore Niépce",
+        "Edwin Land"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Eastman 1888-as jelmondata – „Ön megnyomja a gombot, a többit mi végezzük” – tette a fotózást tömegessé.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik feltaláló nevéhez kötődik az azonnal előhívó fényképezőgép?",
+      "a": [
+        "Edwin Land",
+        "George Eastman",
+        "Oskar Barnack",
+        "Steven Sasson"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Land 1948-ban mutatta be a Polaroid gépet, miután a lánya megkérdezte, miért nem látja rögtön a képet.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Ki tervezte a Nap felé tartó rakéták előfutárának számító első folyékony hajtóanyagú rakétát?",
+      "a": [
+        "Robert Goddard",
+        "Konsztantyin Ciolkovszkij",
+        "Wernher von Braun",
+        "Szergej Koroljov"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Goddard 1926-ban indította az első folyékony üzemanyagú rakétát; mindössze 12 métert emelkedett.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik magyar származású tudós vezette a hidrogénbomba amerikai fejlesztését?",
+      "a": [
+        "Teller Ede",
+        "Szilárd Leó",
+        "Wigner Jenő",
+        "Neumann János"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Teller Edét a hidrogénbomba atyjaként ismerik, bár a megvalósításban Stanisław Ulam ötlete volt a döntő.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Ki írta le a gyermekágyi láz okát és vezette be a klórvizes kézmosást?",
+      "a": [
+        "Semmelweis Ignác",
+        "Louis Pasteur",
+        "Joseph Lister",
+        "Robert Koch"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Semmelweis 1847-ben bizonyította, hogy a fertőtlenítés drámaian csökkenti a halálozást – kortársai mégis elutasították.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik tudós fedezte fel a penicillint?",
+      "a": [
+        "Alexander Fleming",
+        "Paul Ehrlich",
+        "Gerhard Domagk",
+        "Selman Waksman"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Fleming 1928-ban egy elszennyeződött tenyészeten vette észre, hogy a penészgomba gátolja a baktériumokat.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Ki kapott két különböző tudományterületen is Nobel-díjat?",
+      "a": [
+        "Marie Curie",
+        "Albert Einstein",
+        "Linus Pauling",
+        "Ernest Rutherford"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Marie Curie 1903-ban fizikai, 1911-ben kémiai Nobel-díjat kapott. Pauling szintén kettőt, de az egyik béke-Nobel volt.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik magyar tudós kapott Nobel-díjat a C-vitamin izolálásáért?",
+      "a": [
+        "Szent-Györgyi Albert",
+        "Hevesy György",
+        "Békésy György",
+        "Bárány Róbert"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szent-Györgyi 1937-ben kapta a díjat; a C-vitamint paprikából állította elő nagy mennyiségben.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Ki írta le a fajok evolúcióját a természetes kiválasztódás elvével?",
+      "a": [
+        "Charles Darwin",
+        "Jean-Baptiste Lamarck",
+        "Gregor Mendel",
+        "Thomas Huxley"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Darwin 1859-ben adta ki A fajok eredetét; Alfred Russel Wallace vele párhuzamosan jutott hasonló következtetésre.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik szerzetes vetette meg a genetika alapjait borsókísérletekkel?",
+      "a": [
+        "Gregor Mendel",
+        "Louis Pasteur",
+        "Carl Linné",
+        "Hugo de Vries"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mendel 1866-os munkája évtizedekig ismeretlen maradt, majd 1900 körül három kutató is újra felfedezte.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Ki alkotta meg a bolygómozgás három törvényét?",
+      "a": [
+        "Johannes Kepler",
+        "Tycho Brahe",
+        "Nikolausz Kopernikusz",
+        "Galileo Galilei"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kepler Tycho Brahe pontos Mars-megfigyeléseiből vezette le, hogy a bolygók pályája ellipszis.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik tudós dolgozta ki a modern rendszertani névadást, a kettős nevezéktant?",
+      "a": [
+        "Carl Linné",
+        "Georges Cuvier",
+        "Jean-Baptiste Lamarck",
+        "Charles Darwin"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Linné 1753-tól vezette be a nemzetség- és fajnévből álló latin neveket, amit ma is használunk.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Ki fedezte fel a radioaktivitást 1896-ban, uránsók vizsgálata során?",
+      "a": [
+        "Henri Becquerel",
+        "Wilhelm Röntgen",
+        "Ernest Rutherford",
+        "Pierre Curie"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Becquerel véletlenül vette észre, hogy az uránsó megvilágítás nélkül is elszínezi a fényérzékeny lemezt.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik magyar matematikus dolgozta ki a nem-euklideszi geometria egyik változatát?",
+      "a": [
+        "Bolyai János",
+        "Riesz Frigyes",
+        "Fejér Lipót",
+        "Kürschák József"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bolyai 1832-ben adta közre az Appendixet; Lobacsevszkij tőle függetlenül jutott hasonló eredményre.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Kihez fűződik a számítógépek tárolt programú felépítésének elve?",
+      "a": [
+        "Neumann János",
+        "Alan Turing",
+        "Claude Shannon",
+        "Charles Babbage"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Neumann-elvű gép ugyanabban a memóriában tárolja az adatot és a programot – ma is így működik minden számítógép.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik kutató írta le a DNS kettős spirál szerkezetét társával 1953-ban?",
+      "a": [
+        "James Watson",
+        "Linus Pauling",
+        "Frederick Sanger",
+        "Erwin Chargaff"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Watson és Crick modellje Rosalind Franklin röntgenfelvételei nélkül nem született volna meg.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Ki dolgozta ki a röntgensugárzás felfedezéséért az első fizikai Nobel-díjat érő kutatást?",
+      "a": [
+        "Wilhelm Röntgen",
+        "Philipp Lenard",
+        "Max Planck",
+        "Joseph John Thomson"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Röntgen 1895-ben fedezte fel a sugárzást, és 1901-ben ő kapta a legelső fizikai Nobel-díjat.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik tudós vezette be a kvantum fogalmát a sugárzás magyarázatához?",
+      "a": [
+        "Max Planck",
+        "Niels Bohr",
+        "Werner Heisenberg",
+        "Erwin Schrödinger"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Planck 1900-ban feltételezte, hogy az energia csak adagokban adható át – ezzel indult a kvantumfizika.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Ki alkotta meg az atommag felfedezéséhez vezető szórási kísérletet?",
+      "a": [
+        "Ernest Rutherford",
+        "James Chadwick",
+        "John Dalton",
+        "Niels Bohr"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Rutherford aranyfüstlemezes kísérlete 1911-ben megmutatta, hogy az atom szinte teljesen üres, a tömeg a magban van.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik magyar orvos kapott Nobel-díjat a belső fül működésének kutatásáért?",
+      "a": [
+        "Békésy György",
+        "Szent-Györgyi Albert",
+        "Hevesy György",
+        "Wigner Jenő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Békésy György 1961-ben kapta a díjat a hallószerv csigájában lezajló folyamatok leírásáért.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Ki írta le a kondicionált reflexet kutyákon végzett kísérletekkel?",
+      "a": [
+        "Ivan Pavlov",
+        "Sigmund Freud",
+        "Burrhus Skinner",
+        "John Watson"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Pavlov felfedezte, hogy a csengőszóra is beindul a nyálelválasztás, ha korábban étel követte.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik tudós vezette a nukleáris láncreakció első szabályozott megvalósítását 1942-ben?",
+      "a": [
+        "Enrico Fermi",
+        "Robert Oppenheimer",
+        "Otto Hahn",
+        "Lise Meitner"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Fermi csapata Chicagóban indította be az első működő atomreaktort, a Chicago Pile-1-et.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Ki dolgozta ki a magyar nyelvű orvosi antiszepszis mellett a radioaktív nyomjelzés módszerét?",
+      "a": [
+        "Hevesy György",
+        "Zsigmondy Richárd",
+        "Polányi Mihály",
+        "Kármán Tódor"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Hevesy György radioaktív izotópokkal követte nyomon az anyagok útját, amiért 1943-ban Nobel-díjat kapott.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik uralkodó alatt vette fel Magyarország a kereszténységet államvallásként?",
+      "a": [
+        "I. István",
+        "Géza fejedelem",
+        "Szent László",
+        "I. András"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "István 1000 vagy 1001 fordulóján koronázták királlyá; a keresztény államszervezet kiépítése az ő nevéhez fűződik.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik királyunkat nevezték Igazságosnak a néphagyományban?",
+      "a": [
+        "Mátyás",
+        "Szent László",
+        "Nagy Lajos",
+        "Zsigmond"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Hunyadi Mátyás alakja körül gazdag mesevilág született a vándorló, igazságot tevő királyról.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Ki volt Franciaország uralkodója, aki magát Napkirálynak nevezte?",
+      "a": [
+        "XIV. Lajos",
+        "XVI. Lajos",
+        "I. Ferenc",
+        "IV. Henrik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "XIV. Lajos 72 évig uralkodott, és Versailles-t az abszolutista udvar mintájává tette.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik brit uralkodó nevéhez fűződik a leghosszabb, 70 évet meghaladó regnálás?",
+      "a": [
+        "II. Erzsébet",
+        "Viktória",
+        "III. György",
+        "I. Erzsébet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "II. Erzsébet 1952-től 2022-ig, 70 éven át volt uralkodó – ez a brit történelem leghosszabb uralkodása.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Ki volt az Amerikai Egyesült Államok első elnöke?",
+      "a": [
+        "George Washington",
+        "Thomas Jefferson",
+        "John Adams",
+        "Benjamin Franklin"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Washington 1789-ben lépett hivatalba, és két ciklus után önként visszavonult – ez lett a hagyomány alapja.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik államférfi nevéhez kötődik az Egyesült Államokban a rabszolgaság eltörlése?",
+      "a": [
+        "Abraham Lincoln",
+        "Ulysses Grant",
+        "Andrew Johnson",
+        "Franklin Pierce"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Lincoln 1863-as felszabadítási kiáltványa és a 13. alkotmánymódosítás vetett véget a rabszolgaságnak.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Ki volt Nagy-Britannia miniszterelnöke a második világháború nagy részében?",
+      "a": [
+        "Winston Churchill",
+        "Neville Chamberlain",
+        "Clement Attlee",
+        "Anthony Eden"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Churchill 1940 májusától vezette a háborús kormányt, és 1945-ben rögtön a választásokon veszített.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik magyar politikus vezette az 1848–49-es szabadságharc kormányát?",
+      "a": [
+        "Kossuth Lajos",
+        "Batthyány Lajos",
+        "Széchenyi István",
+        "Deák Ferenc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kossuth 1849 áprilisában lett kormányzó-elnök; Batthyány az első felelős magyar miniszterelnök volt.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Kit nevezik a legnagyobb magyarnak a reformkori építkezései és javaslatai miatt?",
+      "a": [
+        "Széchenyi István",
+        "Kossuth Lajos",
+        "Wesselényi Miklós",
+        "Eötvös József"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A jelzőt maga Kossuth adta neki. Széchenyi a Lánchíd, a Tisza-szabályozás és az Akadémia mögött állt.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik vezető nevéhez fűződik India függetlenségi mozgalmának erőszakmentes irányzata?",
+      "a": [
+        "Mahatma Gandhi",
+        "Dzsaváharlál Nehru",
+        "Szubhász Csandra Bósz",
+        "Bhimrao Ambedkar"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Gandhi a szatjágraha, az igazsághoz való ragaszkodás elvét hirdette; 1948-ban meggyilkolták.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Ki volt Dél-Afrika első, szabad választáson megválasztott elnöke?",
+      "a": [
+        "Nelson Mandela",
+        "Desmond Tutu",
+        "Thabo Mbeki",
+        "Frederik de Klerk"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mandela 27 év fogság után 1994-ben lett elnök; de Klerkkel közösen kapott béke-Nobelt.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik uralkodó vezette a mongol seregeket a 13. századi hódítások kezdetén?",
+      "a": [
+        "Dzsingisz kán",
+        "Batu kán",
+        "Kubiláj kán",
+        "Timur Lenk"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Dzsingisz kán 1206-ban egyesítette a mongol törzseket; unokája, Batu vezette a Magyarországot elérő hadjáratot.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Ki volt Egyiptom utolsó fáraója, aki Rómával is szövetségre lépett?",
+      "a": [
+        "VII. Kleopátra",
+        "Hatsepszut",
+        "Nofertiti",
+        "Nofertari"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kleopátra Caesarral, majd Antoniusszal szövetkezett; halálával Egyiptom római provincia lett.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik cárt nevezik Nagynak az orosz állam átalakítása és Szentpétervár alapítása miatt?",
+      "a": [
+        "I. Péter",
+        "IV. Iván",
+        "II. Katalin",
+        "I. Sándor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "I. Péter nyugati mintára szervezte át a hadsereget és a közigazgatást, és 1703-ban alapította új fővárosát.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Ki volt az a makedón király, aki Indiáig vezette hadait?",
+      "a": [
+        "Nagy Sándor",
+        "II. Philipposz",
+        "I. Ptolemaiosz",
+        "Szeleukosz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Nagy Sándor tíz év alatt hódította meg a Perzsa Birodalmat, majd 32 évesen halt meg Babilonban.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik magyar király vezette be az arany forintot?",
+      "a": [
+        "Károly Róbert",
+        "Nagy Lajos",
+        "Mátyás",
+        "IV. Béla"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Károly Róbert 1325 körül veretett először aranyforintot, firenzei minta alapján; ez alapozta meg a kincstár erejét.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Ki volt az a királynő, akinek uralkodása alatt vívta a győztes tengeri csatát az angol flotta a spanyol Armada ellen?",
+      "a": [
+        "I. Erzsébet",
+        "I. Mária",
+        "Skót Mária",
+        "Anna"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1588-as ütközet után Anglia tengeri nagyhatalommá emelkedett I. Erzsébet uralkodása alatt.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik vezető hirdette meg a Szovjetunióban az átalakítás és a nyitottság politikáját?",
+      "a": [
+        "Mihail Gorbacsov",
+        "Leonyid Brezsnyev",
+        "Nyikita Hruscsov",
+        "Borisz Jelcin"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Gorbacsov 1985-től a peresztrojkával és a glasznoszttyal indított reformokat, amelyek a birodalom széteséséhez vezettek.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Ki volt Róma első császára?",
+      "a": [
+        "Augustus",
+        "Julius Caesar",
+        "Tiberius",
+        "Nero"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Octavianus Kr. e. 27-ben vette fel az Augustus nevet; Caesar még nem volt császár, hanem diktátor.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik magyar király idején épült fel a visegrádi királyi palota fénykora és rendezték a királytalálkozót?",
+      "a": [
+        "Károly Róbert",
+        "Szent István",
+        "Zsigmond",
+        "II. András"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az 1335-ös visegrádi királytalálkozón a magyar, cseh és lengyel uralkodó egyezett meg a kereskedelmi útvonalról.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik utazó tett elsőként hajóval teljes földkerülő utat, bár maga nem érte meg a végét?",
+      "a": [
+        "Ferdinand Magellán",
+        "Vasco da Gama",
+        "Kolumbusz Kristóf",
+        "James Cook"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Magellán 1521-ben a Fülöp-szigeteken esett el; expedícióját Juan Sebastián Elcano vezette haza.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Ki jutott elsőként Európából tengeri úton Indiába a Jóreménység foka körül?",
+      "a": [
+        "Vasco da Gama",
+        "Bartolomeu Dias",
+        "Pedro Cabral",
+        "Ferdinand Magellán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Da Gama 1498-ban érte el Kalikutot; Dias korábban csak a fokot kerülte meg.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik felfedező hajói érték el 1492-ben Amerika szigeteit?",
+      "a": [
+        "Kolumbusz Kristóf",
+        "Amerigo Vespucci",
+        "John Cabot",
+        "Leif Eriksson"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kolumbusz haláláig azt hitte, Ázsiát érte el; a kontinens Vespucci nevét kapta.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Ki érte el elsőként a Déli-sarkot?",
+      "a": [
+        "Roald Amundsen",
+        "Robert Scott",
+        "Ernest Shackleton",
+        "Douglas Mawson"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Amundsen 1911. december 14-én ért célba, egy hónappal Scott előtt – Scott csapata a visszaúton elpusztult.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik hegymászó jutott fel elsőként a Csomolungma csúcsára Tendzing Norgaj társaságában?",
+      "a": [
+        "Edmund Hillary",
+        "George Mallory",
+        "Reinhold Messner",
+        "Chris Bonington"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az új-zélandi Hillary és a serpa Tendzing 1953. május 29-én ért fel a Föld legmagasabb csúcsára.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Ki volt az első ember a világűrben?",
+      "a": [
+        "Jurij Gagarin",
+        "Alan Shepard",
+        "German Tyitov",
+        "Valentyina Tyereskova"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Gagarin 1961. április 12-én egyetlen Föld körüli fordulatot tett a Vosztok–1 fedélzetén.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik magyar űrhajós járt a világűrben 1980-ban?",
+      "a": [
+        "Farkas Bertalan",
+        "Magyari Béla",
+        "Simonyi Károly",
+        "Kármán Tódor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Farkas Bertalan a Szojuz–36 fedélzetén, az Interkozmosz program keretében repült; tartaléka Magyari Béla volt.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Ki lépett elsőként a Hold felszínére?",
+      "a": [
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Michael Collins",
+        "John Glenn"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Armstrong 1969. július 21-én szállt le a létráról; Collins a Hold körül maradt a parancsnoki egységben.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik magyar utazó járta be Afrikát és gyűjtött néprajzi anyagot a 19. század végén?",
+      "a": [
+        "Teleki Sámuel",
+        "Vámbéry Ármin",
+        "Kőrösi Csoma Sándor",
+        "Xántus János"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Teleki Sámuel 1888-ban fedezte fel és nevezte el a Rudolf-tavat, a mai Turkana-tavat.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Ki utazott derviském álruhában Közép-Ázsiába, és lett a magyar keletkutatás megalapítója?",
+      "a": [
+        "Vámbéry Ármin",
+        "Kőrösi Csoma Sándor",
+        "Stein Aurél",
+        "Lóczy Lajos"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Vámbéry 1863-as útján Bokharáig jutott; leleplezése biztos halált jelentett volna.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik magyar tudós indult a magyar őshaza keresésére, és lett a tibetológia megalapozója?",
+      "a": [
+        "Kőrösi Csoma Sándor",
+        "Vámbéry Ármin",
+        "Reguly Antal",
+        "Stein Aurél"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kőrösi Csoma gyalog indult Ázsiába, és megírta az első tibeti–angol szótárt és nyelvtant.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Ki járta be a Selyemút romvárosait, és tárta fel a dunhuangi könyvtárbarlangot?",
+      "a": [
+        "Stein Aurél",
+        "Kőrösi Csoma Sándor",
+        "Vámbéry Ármin",
+        "Széchenyi Béla"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Stein Aurél magyar származású, brit szolgálatban álló régész volt; expedíciói ma is vitatottak a leletek elszállítása miatt.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik felfedező kutatta a Nílus forrásvidékét, és nevezte el a Viktória-vízesést?",
+      "a": [
+        "David Livingstone",
+        "Henry Morton Stanley",
+        "Richard Burton",
+        "John Speke"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Livingstone 1855-ben látta meg a vízesést; évekkel később Stanley talált rá a mondattal: „Doktor Livingstone, ugyebár?”",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Ki fedezte fel Ausztrália keleti partvidékét európai szemmel a 18. században?",
+      "a": [
+        "James Cook",
+        "Abel Tasman",
+        "William Dampier",
+        "Matthew Flinders"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Cook 1770-ben partra szállt a Botany-öbölben; Tasman jóval korábban a nyugati és déli részeket látta.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik óceánmélységi merülés vitte embert a Mariana-árok legmélyebb pontjára először?",
+      "a": [
+        "A Trieste merülése 1960-ban",
+        "A Nautile merülése 1987-ben",
+        "A Mir–1 merülése 1991-ben",
+        "Az Alvin merülése 1977-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Jacques Piccard és Don Walsh a Trieste batiszkáffal ért le csaknem 11 kilométer mélységbe.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik festő vágta le a saját fülcimpáját egy válságos időszakában?",
+      "a": [
+        "Vincent van Gogh",
+        "Paul Gauguin",
+        "Edvard Munch",
+        "Egon Schiele"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Van Gogh 1888 karácsonya előtt, Gauguinnel való összeveszése után sebezte meg magát Arles-ban.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Ki festette a Mona Lisát?",
+      "a": [
+        "Leonardo da Vinci",
+        "Raffaello",
+        "Michelangelo",
+        "Tiziano"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kép 1503 körül készült; ma a Louvre leglátogatottabb műtárgya.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik szobrász alkotta a firenzei Dávid-szobrot?",
+      "a": [
+        "Michelangelo",
+        "Donatello",
+        "Bernini",
+        "Cellini"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Michelangelo 1501 és 1504 között faragta ki egyetlen, korábban elhibázott márványtömbből.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Ki komponálta a Kilencedik szimfóniát, amelynek zárótétele az Örömóda?",
+      "a": [
+        "Ludwig van Beethoven",
+        "Johannes Brahms",
+        "Franz Schubert",
+        "Gustav Mahler"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Beethoven már szinte teljesen megsüketült, amikor 1824-ben bemutatták a művet.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik zeneszerző írta A varázsfuvolát?",
+      "a": [
+        "Wolfgang Amadeus Mozart",
+        "Joseph Haydn",
+        "Christoph Gluck",
+        "Antonio Salieri"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mozart 1791-ben, halála évében fejezte be az operát.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Ki szerezte a Négy évszak című versenymű-sorozatot?",
+      "a": [
+        "Antonio Vivaldi",
+        "Johann Sebastian Bach",
+        "Georg Friedrich Händel",
+        "Arcangelo Corelli"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Vivaldi négy hegedűversenye 1725-ben jelent meg, mindegyikhez egy szonett is tartozik.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik magyar zeneszerző gyűjtött népzenét Bartók Bélával közösen?",
+      "a": [
+        "Kodály Zoltán",
+        "Liszt Ferenc",
+        "Erkel Ferenc",
+        "Dohnányi Ernő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kodály és Bartók 1905-től fonográffal járta a falvakat; ez alapozta meg a magyar zenetudományt.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Ki írta a Bánk bán című operát?",
+      "a": [
+        "Erkel Ferenc",
+        "Kodály Zoltán",
+        "Liszt Ferenc",
+        "Goldmark Károly"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Erkel operája 1861-ben került színre Katona József drámája alapján; ő szerezte a Himnusz zenéjét is.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik magyar zeneszerző lett Európa legismertebb zongoravirtuóza a 19. században?",
+      "a": [
+        "Liszt Ferenc",
+        "Erkel Ferenc",
+        "Hubay Jenő",
+        "Mosonyi Mihály"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Liszt a mai koncertforma megteremtője: ő játszott először fejből, egyedül, oldalt fordított zongoránál.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Ki festette a Csillagos éj című képet?",
+      "a": [
+        "Vincent van Gogh",
+        "Claude Monet",
+        "Paul Cézanne",
+        "Henri Matisse"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A festmény 1889-ben, a saint-rémy-i szanatóriumban készült, ablakából látott tájat átlényegítve.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik művész nevéhez fűződik a Sixtus-kápolna mennyezetének kifestése?",
+      "a": [
+        "Michelangelo",
+        "Raffaello",
+        "Botticelli",
+        "Perugino"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Michelangelo négy éven át, 1508 és 1512 között festette az ószövetségi jeleneteket, állva, nem hanyatt.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Ki alkotta A gondolkodó című szobrot?",
+      "a": [
+        "Auguste Rodin",
+        "Antoine Bourdelle",
+        "Aristide Maillol",
+        "Constantin Brâncuși"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Rodin eredetileg A pokol kapuja című nagy kompozíció részének szánta, Dantét ábrázolva.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik magyar festő legismertebb műve a Krisztus Pilátus előtt?",
+      "a": [
+        "Munkácsy Mihály",
+        "Szinyei Merse Pál",
+        "Csontváry Kosztka Tivadar",
+        "Rippl-Rónai József"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Munkácsy 1881-es festménye világkörüli sikert hozott neki; a mű ma Debrecenben látható.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Ki festette a Majális című képet, amely a magyar plein air festészet ikonja?",
+      "a": [
+        "Szinyei Merse Pál",
+        "Munkácsy Mihály",
+        "Paál László",
+        "Ferenczy Károly"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Szinyei 1873-as képét a kortársak elutasították; évtizedekkel később lett belőle klasszikus.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik magyar festő alkotta a Magányos cédrust?",
+      "a": [
+        "Csontváry Kosztka Tivadar",
+        "Vaszary János",
+        "Gulácsy Lajos",
+        "Mednyánszky László"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Csontváry 1907-es képe libanoni útja után született; a festő gyógyszerészként kezdte pályáját.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Ki írta a Rómeó és Júliát?",
+      "a": [
+        "William Shakespeare",
+        "Christopher Marlowe",
+        "Ben Jonson",
+        "John Webster"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A darab 1595 körül született; Shakespeare egy korábbi olasz elbeszélésből dolgozott.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik szerző írta a Száz év magány című regényt?",
+      "a": [
+        "Gabriel García Márquez",
+        "Mario Vargas Llosa",
+        "Jorge Luis Borges",
+        "Julio Cortázar"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kolumbiai szerző 1967-es regénye a mágikus realizmus alapműve; 1982-ben Nobel-díjat kapott.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Ki tervezte a barcelonai Sagrada Famíliát?",
+      "a": [
+        "Antoni Gaudí",
+        "Lluís Domènech",
+        "Josep Puig",
+        "Ricardo Bofill"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Gaudí 1883-tól haláláig, 1926-ig dolgozott a templomon; az építés ma is tart.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik építész nevéhez fűződik a New York-i Guggenheim Múzeum csigavonalas épülete?",
+      "a": [
+        "Frank Lloyd Wright",
+        "Le Corbusier",
+        "Mies van der Rohe",
+        "Walter Gropius"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Wright utolsó nagy munkája 1959-ben, néhány hónappal a halála után nyílt meg.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Ki írta A Gyűrűk Ura című regényt?",
+      "a": [
+        "J. R. R. Tolkien",
+        "C. S. Lewis",
+        "Ursula Le Guin",
+        "T. H. White"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Tolkien oxfordi nyelvészprofesszor volt; a művet 1954–55-ben adták ki három kötetben.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik sportoló nyert egyetlen olimpián négy aranyat 1936-ban Berlinben?",
+      "a": [
+        "Jesse Owens",
+        "Carl Lewis",
+        "Emil Zátopek",
+        "Paavo Nurmi"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Owens négy arannyal cáfolta a náci propagandát a saját olimpiájukon.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Ki az egyetlen labdarúgó, aki három világbajnokságot nyert játékosként?",
+      "a": [
+        "Pelé",
+        "Diego Maradona",
+        "Franz Beckenbauer",
+        "Zinédine Zidane"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pelé 1958-ban, 1962-ben és 1970-ben lett világbajnok Brazíliával.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik magyar sportoló nyerte az olimpiai aranyat háromszor öttusában?",
+      "a": [
+        "Balczó András",
+        "Kárpáti Rudolf",
+        "Gerevich Aladár",
+        "Németh Angéla"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Balczó két csapat- és egy egyéni olimpiai aranyat szerzett, és tízszeres világbajnok volt.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Ki nyerte a legtöbb olimpiai aranyérmet a sporttörténetben?",
+      "a": [
+        "Michael Phelps",
+        "Larisza Latinyina",
+        "Usain Bolt",
+        "Mark Spitz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A úszó Phelps 23 olimpiai aranyat szerzett 2004 és 2016 között.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik magyar vívó nyert hat egymást követő olimpián aranyat?",
+      "a": [
+        "Gerevich Aladár",
+        "Kárpáti Rudolf",
+        "Kovács Pál",
+        "Nedo Nadi"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Gerevich 1932 és 1960 között hat olimpián lett kardcsapatban bajnok – ez páratlan teljesítmény.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Ki volt az Aranycsapat legendás csatára, akit Öcsi néven ismertek?",
+      "a": [
+        "Puskás Ferenc",
+        "Kocsis Sándor",
+        "Hidegkuti Nándor",
+        "Czibor Zoltán"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Puskás a Real Madridban is klasszis lett; a FIFA a legjobb gólnak adott díjat róla nevezte el.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik magyar úszó nyert három aranyat a 2016-os riói olimpián?",
+      "a": [
+        "Hosszú Katinka",
+        "Cseh László",
+        "Gyurta Dániel",
+        "Risztov Éva"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hosszú Katinka 100 és 200 méter háton, valamint 400 méter vegyesen győzött Rióban.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Ki volt az a boxoló, aki magát a Legnagyobbnak nevezte, és megtagadta a vietnámi behívót?",
+      "a": [
+        "Muhammad Ali",
+        "Joe Frazier",
+        "Sugar Ray Leonard",
+        "George Foreman"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ali 1967-es döntése miatt évekre eltiltották; később háromszor lett nehézsúlyú világbajnok.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik teniszező nyerte a legtöbb férfi Grand Slam-tornát a 2020-as évek közepéig?",
+      "a": [
+        "Novak Đoković",
+        "Rafael Nadal",
+        "Roger Federer",
+        "Pete Sampras"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Đoković 2023-ban lépte át a 23 Grand Slam-győzelmet, megelőzve Nadalt és Federert.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Ki tartja a 100 méteres síkfutás világcsúcsát?",
+      "a": [
+        "Usain Bolt",
+        "Tyson Gay",
+        "Asafa Powell",
+        "Yohan Blake"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bolt 2009-ben Berlinben futott 9,58-at – ez a rekord azóta is áll.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik magyar vízilabdázó lett háromszoros olimpiai bajnok a 2000-es években?",
+      "a": [
+        "Kásás Tamás",
+        "Benedek Tibor",
+        "Kiss Gergely",
+        "Mind a három"
+      ],
+      "c": 3,
+      "d": "hard",
+      "e": "Kásás, Benedek és Kiss is tagja volt a 2000-es, 2004-es és 2008-as aranycsapatnak.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Ki volt a Forma-1 első magyar versenyzője?",
+      "a": [
+        "Baumgartner Zsolt",
+        "Palik László",
+        "Wéber Gábor",
+        "Michelisz Norbert"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Baumgartner Zsolt 2003-ban debütált, és 2004-ben Indianapolisban egy pontot szerzett.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik kosárlabdázót tartják a sportág legnagyobb hatású játékosának a Chicago Bulls hatszoros bajnoki sorozatából?",
+      "a": [
+        "Michael Jordan",
+        "Scottie Pippen",
+        "Dennis Rodman",
+        "Magic Johnson"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Jordan a Bullsszal 1991 és 1998 között hatszor lett NBA-bajnok, két háromszoros sorozatban.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Ki volt az a futó, aki egyetlen olimpián nyert 5000-en, 10 000-en és maratonon is?",
+      "a": [
+        "Emil Zátopek",
+        "Paavo Nurmi",
+        "Haile Gebrselassie",
+        "Abebe Bikila"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Zátopek 1952-ben Helsinkiben mindhárom számban győzött, a maratont akkor futotta először.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik sakkozó volt világbajnok 1985 és 2000 között szinte megszakítás nélkül?",
+      "a": [
+        "Garri Kaszparov",
+        "Anatolij Karpov",
+        "Bobby Fischer",
+        "Vlagyimir Kramnyik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kaszparov 22 évesen lett a legfiatalabb világbajnok; 1997-ben veszített a Deep Blue számítógéptől.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik magyar sakkozó nő lett a férfiak között is a világ élvonalába tartozó nagymester?",
+      "a": [
+        "Polgár Judit",
+        "Polgár Zsuzsa",
+        "Polgár Zsófia",
+        "Verőci Zsuzsa"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Polgár Judit soha nem játszott női világbajnokságon; a nyílt versenyeken a 8. helyig jutott a világranglistán.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Ki volt az a nő, aki elsőként repült egyedül át az Atlanti-óceánon?",
+      "a": [
+        "Amelia Earhart",
+        "Bessie Coleman",
+        "Amy Johnson",
+        "Jacqueline Cochran"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Earhart 1932-ben teljesítette a szólórepülést; 1937-ben nyomtalanul eltűnt a Csendes-óceán felett.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik nővér vezette be a modern kórházi higiéniát a krími háborúban?",
+      "a": [
+        "Florence Nightingale",
+        "Clara Barton",
+        "Mary Seacole",
+        "Edith Cavell"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nightingale statisztikákkal bizonyította, hogy a fertőzések több katonát vittek el, mint a sebek.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Ki volt az a szerzetesnő, aki Kalkuttában a legszegényebbek gondozására szentelte életét?",
+      "a": [
+        "Teréz anya",
+        "Loyolai Szent Ignác",
+        "Assisi Szent Ferenc",
+        "Avilai Teréz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az albán származású Teréz anya 1979-ben kapott béke-Nobelt; 2016-ban szentté avatták.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik újságíró és feltaláló írta le a mozgókép egyik első nyilvános bemutatóját Párizsban 1895-ben?",
+      "a": [
+        "A Lumière fivérek tartották",
+        "Thomas Edison tartotta",
+        "Georges Méliès tartotta",
+        "Eadweard Muybridge tartotta"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Auguste és Louis Lumière 1895. december 28-án tartotta az első fizetős filmvetítést a Grand Caféban.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Kit tartanak a számítógép-programozás első alakjának, aki algoritmust írt Babbage gépéhez?",
+      "a": [
+        "Ada Lovelace",
+        "Grace Hopper",
+        "Hedy Lamarr",
+        "Mary Somerville"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Lovelace 1843-as jegyzeteiben nemcsak algoritmust írt, hanem felvetette, hogy a gép zenét is szerezhetne.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik programozó nevéhez fűződik a szoftverhiba jelölésére használt „bug” kifejezés elterjesztése?",
+      "a": [
+        "Grace Hopper",
+        "Ada Lovelace",
+        "Dennis Ritchie",
+        "John Backus"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Hopper csapata 1947-ben egy valódi lepkét talált a Mark II relémezei között, és beragasztotta a naplóba.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Ki volt az a fizikus, aki tolószékben is a fekete lyukak kutatásának vezető alakja lett?",
+      "a": [
+        "Stephen Hawking",
+        "Roger Penrose",
+        "Kip Thorne",
+        "Subrahmanyan Chandrasekhar"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Hawking 21 évesen kapta a diagnózist, és több mint fél évszázadot élt vele; a Hawking-sugárzás róla kapta nevét.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik énekesnőt nevezik a jazz első hölgyének?",
+      "a": [
+        "Ella Fitzgerald",
+        "Billie Holiday",
+        "Nina Simone",
+        "Sarah Vaughan"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Fitzgerald hangterjedelme és scat-improvizációi miatt kapta a címet; 13 Grammyt nyert.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Ki volt az a magyar származású karmester, aki a Chicagói Szimfonikusokat vezette évtizedeken át?",
+      "a": [
+        "Solti György",
+        "Ormándy Jenő",
+        "Reiner Frigyes",
+        "Doráti Antal"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Solti György 1969-től 22 évig volt a zenekar vezetője, és 31 Grammy-díjat kapott.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik norvég utazó kelte át a Csendes-óceánt balsafa tutajjal 1947-ben?",
+      "a": [
+        "Thor Heyerdahl",
+        "Roald Amundsen",
+        "Fridtjof Nansen",
+        "Erling Kagge"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Kon-Tiki expedíció azt akarta bizonyítani, hogy Dél-Amerikából is elérhették Polinéziát.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Ki volt az első nő a világűrben?",
+      "a": [
+        "Valentyina Tyereskova",
+        "Szvetlana Szavickaja",
+        "Sally Ride",
+        "Mae Jemison"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Tyereskova 1963 júniusában repült a Vosztok–6 fedélzetén, két évvel Gagarin után.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik felfedező vezette a Lewis és Clark expedíció mellett a bennszülött útmutatást?",
+      "a": [
+        "Sacagawea",
+        "Pocahontas",
+        "Nancy Ward",
+        "Wilma Mankiller"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A soson származású Sacagawea tolmácsként és útmutatóként segítette az 1804–06-os expedíciót.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Ki érte el elsőként a Mariana-árok legmélyebb pontját egyedül, 2012-ben?",
+      "a": [
+        "James Cameron",
+        "Robert Ballard",
+        "Jacques Cousteau",
+        "Don Walsh"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A filmrendező Cameron a Deepsea Challenger merülőhajóval szállt le csaknem 11 kilométerre.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik kutató találta meg a Titanic roncsát 1985-ben?",
+      "a": [
+        "Robert Ballard",
+        "Jacques Cousteau",
+        "James Cameron",
+        "Sylvia Earle"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ballard csapata az Argo nevű vontatott kamerarendszerrel bukkant rá a hajóra 3800 méter mélyen.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Ki járta be a Kárpát-medence barlangjait, és lett a magyar barlangkutatás névadója?",
+      "a": [
+        "Kadić Ottokár",
+        "Cholnoky Jenő",
+        "Lóczy Lajos",
+        "Jakucs László"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kadić Ottokár a Szeleta-barlang feltárásával a magyar őskőkor-kutatás alapjait vetette meg.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik feltaláló nevéhez fűződik az elektromos gitár korai, tömör testű változata?",
+      "a": [
+        "Les Paul",
+        "Leo Fender",
+        "Adolph Rickenbacker",
+        "Orville Gibson"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Les Paul 1941-es „The Log” néven ismert prototípusa egy deszkára szerelt húrozat volt.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Ki szabadalmaztatta a cipzárt mai formájában?",
+      "a": [
+        "Gideon Sundback",
+        "Elias Howe",
+        "Whitcomb Judson",
+        "Isaac Singer"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A svéd-amerikai Sundback 1913-ra fejlesztette ki a sűrű fogazású, megbízható változatot.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik magyar mérnök alkotta meg a villamos vontatás fázisváltós rendszerét?",
+      "a": [
+        "Kandó Kálmán",
+        "Bláthy Ottó",
+        "Zipernowsky Károly",
+        "Mechwart András"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kandó rendszere tette lehetővé, hogy a vasút közvetlenül az ipari hálózatról működjön.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Ki fejlesztette ki a szélvédő első automatikus ablaktörlőjét?",
+      "a": [
+        "Mary Anderson",
+        "Bertha Benz",
+        "Margaret Knight",
+        "Josephine Cochrane"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Anderson 1903-ban szabadalmaztatta a kézi karral működtetett törlőt, miután havas New Yorkban utazott villamoson.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik feltaláló nevéhez kötődik a mosogatógép első használható változata?",
+      "a": [
+        "Josephine Cochrane",
+        "Mary Anderson",
+        "Melitta Bentz",
+        "Hedy Lamarr"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Cochrane 1886-ban azért építette, mert a személyzet folyton összetörte a porcelánját.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Ki alkotta meg a papírszűrős kávéfőzést?",
+      "a": [
+        "Melitta Bentz",
+        "Josephine Cochrane",
+        "Luigi Bezzera",
+        "Achille Gaggia"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Bentz 1908-ban a fia iskolai füzetéből kivágott papírral szűrte le a kávét, és céget alapított rá.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik tudós írta le az általános relativitáselméletet?",
+      "a": [
+        "Albert Einstein",
+        "Hendrik Lorentz",
+        "Henri Poincaré",
+        "Hermann Minkowski"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Einstein 1915-ben tette közzé a gravitáció geometriai elméletét; a fényelhajlást 1919-ben mérték ki.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Ki fedezte fel a neutront?",
+      "a": [
+        "James Chadwick",
+        "Ernest Rutherford",
+        "Enrico Fermi",
+        "Niels Bohr"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Chadwick 1932-es kísérlete magyarázta meg, miért nehezebb az atom, mint a protonjai számából következne.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik kutatónő röntgenfelvételei voltak döntőek a DNS szerkezetének megfejtésében?",
+      "a": [
+        "Rosalind Franklin",
+        "Barbara McClintock",
+        "Dorothy Hodgkin",
+        "Rita Levi-Montalcini"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 51-es számú felvétel egyértelműen spirált mutatott; Franklin 37 évesen, a Nobel-díj előtt meghalt.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Ki dolgozta ki a himlő elleni védőoltás első módszerét?",
+      "a": [
+        "Edward Jenner",
+        "Louis Pasteur",
+        "Jonas Salk",
+        "Albert Sabin"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Jenner 1796-ban tehénhimlővel oltott be egy fiút; a vakcina szó a latin vacca, azaz tehén szóból jön.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik kutató fejlesztette ki az első hatékony gyermekparalízis elleni oltást?",
+      "a": [
+        "Jonas Salk",
+        "Albert Sabin",
+        "Alexander Fleming",
+        "Robert Koch"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Salk 1955-ben bemutatott vakcináját nem szabadalmaztatta, hogy mindenki hozzájuthasson.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Ki írta le a periódusos rendszer első használható változatát?",
+      "a": [
+        "Dmitrij Mendelejev",
+        "Antoine Lavoisier",
+        "John Dalton",
+        "Julius Meyer"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mendelejev 1869-es táblázata üres helyeket hagyott a még fel nem fedezett elemeknek – és eltalálta a tulajdonságaikat.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik magyar származású tudós írta az első levelet Rooseveltnek az atombomba lehetőségéről?",
+      "a": [
+        "Szilárd Leó",
+        "Teller Ede",
+        "Wigner Jenő",
+        "Neumann János"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A levelet Szilárd fogalmazta, és Einstein írta alá 1939-ben – ez indította el a Manhattan-tervet.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik uralkodó adta ki az első írott angol szabadságjogi oklevelet, a Magna Cartát?",
+      "a": [
+        "János angol király",
+        "I. Richárd",
+        "II. Henrik",
+        "I. Eduárd"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A bárók 1215-ben kényszerítették rá Jánost; az oklevél a királyi hatalom első írott korlátja.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Ki volt Magyarország kormányzója a két világháború között?",
+      "a": [
+        "Horthy Miklós",
+        "Bethlen István",
+        "Károlyi Mihály",
+        "Teleki Pál"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Horthy 1920-tól 1944-ig volt kormányzó; a korszakot róla nevezik Horthy-korszaknak.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik magyar politikus volt az 1956-os forradalom miniszterelnöke?",
+      "a": [
+        "Nagy Imre",
+        "Kádár János",
+        "Rákosi Mátyás",
+        "Maléter Pál"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nagy Imrét a forradalom leverése után elhurcolták, és 1958-ban kivégezték.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Ki volt a Német Szövetségi Köztársaság első kancellárja?",
+      "a": [
+        "Konrad Adenauer",
+        "Willy Brandt",
+        "Ludwig Erhard",
+        "Helmut Schmidt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Adenauer 1949-től 14 évig vezette az országot, és a nyugati integráció felé fordította.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik uralkodónő volt Mária Terézia lánya, akit a francia forradalom idején kivégeztek?",
+      "a": [
+        "Marie Antoinette",
+        "Mária Krisztina",
+        "Mária Karolina",
+        "Mária Amália"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Marie Antoinette 1793 októberében került guillotine alá, kilenc hónappal a férje után.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik szobrász alkotta a Szabadság-szobor belső vasszerkezetét?",
+      "a": [
+        "Gustave Eiffel",
+        "Frédéric Bartholdi",
+        "Auguste Rodin",
+        "Antoni Gaudí"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szobrot Bartholdi formálta, de a belső tartószerkezetet Eiffel tervezte – ugyanaz, aki a tornyot.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Ki írta a Kékszakállú herceg vára című operát?",
+      "a": [
+        "Bartók Béla",
+        "Kodály Zoltán",
+        "Dohnányi Ernő",
+        "Weiner Leó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bartók egyetlen operája 1911-ben született Balázs Béla szövegkönyvére, de csak 1918-ban játszották.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik festő nevéhez fűződik a kubizmus megteremtése Georges Braque társaságában?",
+      "a": [
+        "Pablo Picasso",
+        "Henri Matisse",
+        "Juan Gris",
+        "Fernand Léger"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A két festő 1907 és 1914 között együtt dolgozta ki a formákat síkokra bontó látásmódot.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Ki írta a Sorstalanság című regényt, amiért irodalmi Nobel-díjat kapott?",
+      "a": [
+        "Kertész Imre",
+        "Esterházy Péter",
+        "Nádas Péter",
+        "Konrád György"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kertész Imre 2002-ben lett az első magyar irodalmi Nobel-díjas.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik magyar költő halt meg a segesvári csata idején, 1849-ben?",
+      "a": [
+        "Petőfi Sándor",
+        "Vörösmarty Mihály",
+        "Arany János",
+        "Tompa Mihály"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Petőfi 1849. július 31-én tűnt el a csatában; halálának pontos körülményei ma sem ismertek.",
+      "t": "művészek, zeneszerzők"
+    }
+  ]
 }

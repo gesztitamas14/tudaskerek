@@ -423,144 +423,277 @@
       "s": "http://www.wikidata.org/entity/Q292292"
     },
     {
-      "q": "Melyik iparágban működik a következő vállalat: Allgemeiner Deutscher Nachrichtendienst?",
+      "q": "Melyik cég logója a bekapott alma?",
       "a": [
-        "television production",
-        "vasúti közlekedés",
-        "news media",
-        "hír"
+        "Apple",
+        "Android",
+        "Acer",
+        "Alienware"
       ],
-      "c": 3,
-      "d": "medium",
-      "e": "Allgemeiner Deutscher Nachrichtendienst iparága: hír.",
-      "t": "iparágak",
-      "s": "http://www.wikidata.org/entity/Q665940"
+      "c": 0,
+      "d": "easy",
+      "e": "A harapás azért került rá, hogy ne lehessen cseresznyével összetéveszteni kis méretben.",
+      "t": "logók, jelképek"
     },
     {
-      "q": "Melyik évtizedben alapították a következő vállalatot: AMC Theatres?",
+      "q": "Melyik márka jelképe a három csík?",
       "a": [
-        "1920-es évek",
-        "1860-es évek",
-        "1950-es évek",
-        "1870-es évek"
+        "Adidas",
+        "Puma",
+        "Nike",
+        "Umbro"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Adi Dassler eredetileg a cipő oldalának megerősítésére tette rá a csíkokat.",
+      "t": "logók, jelképek"
+    },
+    {
+      "q": "Melyik autómárka jelvénye a négy összekapcsolt kör?",
+      "a": [
+        "Audi",
+        "BMW",
+        "Volvo",
+        "Opel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A négy kör a négy egyesült gyárat jelöli: Audi, DKW, Horch és Wanderer.",
+      "t": "logók, jelképek"
+    },
+    {
+      "q": "Mit jelképez a BMW kék-fehér köre?",
+      "a": [
+        "A bajor zászló színeit",
+        "Forgó repülőpropellert",
+        "Kék eget és felhőt",
+        "Egy céltáblát"
       ],
       "c": 0,
       "d": "hard",
-      "e": "AMC Theatres alapítása: 1920-es évek.",
-      "t": "cégek alapítása",
-      "s": "http://www.wikidata.org/entity/Q294721"
+      "e": "A propeller-magyarázat későbbi reklámötlet volt; eredetileg Bajorország címerszíneit vették át.",
+      "t": "logók, jelképek"
     },
     {
-      "q": "Melyik iparágban működik a következő vállalat: Jewish Telegraphic Agency?",
+      "q": "Melyik márka logója a háromágú csillag körben?",
       "a": [
-        "hírügynökség",
-        "dairying",
-        "news media",
-        "kiadás"
+        "Mercedes-Benz",
+        "Maserati",
+        "Alfa Romeo",
+        "Lancia"
       ],
-      "c": 2,
-      "d": "medium",
-      "e": "Jewish Telegraphic Agency iparága: news media.",
-      "t": "iparágak",
-      "s": "http://www.wikidata.org/entity/Q666186"
+      "c": 0,
+      "d": "easy",
+      "e": "A három ág a szárazföldi, vízi és légi motorizációt jelképezi.",
+      "t": "logók, jelképek"
     },
     {
-      "q": "Melyik évtizedben alapították a következő vállalatot: AUO Corporation?",
+      "q": "Melyik cég jelképe a kagyló?",
       "a": [
-        "1970-es évek",
-        "1940-es évek",
-        "1850-es évek",
-        "2000-es évek"
+        "Shell",
+        "BP",
+        "Total",
+        "Esso"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vállalat kagylók és keleti dísztárgyak importjával kezdte a 19. században – innen a név és a jel.",
+      "t": "logók, jelképek"
+    },
+    {
+      "q": "Melyik gyorsétteremlánc jelképe a sárga ív?",
+      "a": [
+        "McDonald's",
+        "Burger King",
+        "KFC",
+        "Subway"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az aranykapu eredetileg az első éttermek építészeti eleme volt, nem logó.",
+      "t": "logók, jelképek"
+    },
+    {
+      "q": "Melyik autómárka nevében szerepel az alapító neve, aki a mozgószalagos gyártást bevezette?",
+      "a": [
+        "Ford",
+        "Chrysler",
+        "Chevrolet",
+        "Dodge"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Henry Ford 1913-tól alkalmazta a futószalagot, ezzel a T-modell összeállítási ideje órákra csökkent.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Melyik cég indult 1976-ban egy kaliforniai garázsban?",
+      "a": [
+        "Apple",
+        "Microsoft",
+        "Intel",
+        "Oracle"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Steve Jobs, Steve Wozniak és Ronald Wayne alapította; Wayne 12 nap után eladta a részét 800 dollárért.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Melyik svéd cég lett a lapraszerelt bútor jelképe?",
+      "a": [
+        "IKEA",
+        "H&M",
+        "Electrolux",
+        "Volvo"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A név az alapító nevének és a szülőhelyének kezdőbetűiből áll össze.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Melyik márka indult 1886-ban patikai szirupként?",
+      "a": [
+        "Coca-Cola",
+        "Pepsi",
+        "Fanta",
+        "Schweppes"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "John Pemberton atlantai gyógyszerész keverte ki; eredetileg fejfájás elleni tonikként árulta.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Melyik japán cég kezdte kártyagyártással 1889-ben?",
+      "a": [
+        "Nintendo",
+        "Sony",
+        "Panasonic",
+        "Toshiba"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hanafuda kártyák gyártásával indult; a videojátékokhoz csak a hetvenes években jutott el.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Melyik cég neve dán nyelven a „jól játszik” kifejezés rövidítése?",
+      "a": [
+        "LEGO",
+        "Playmobil",
+        "Bandai",
+        "Hasbro"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A „leg godt” összevonása; véletlen egybeesés, hogy latinul azt is jelenti: összeszedem.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Melyik magyar márka volt a szocializmus ikonikus rádió- és televíziógyártója?",
+      "a": [
+        "Orion",
+        "Videoton",
+        "Ikarus",
+        "Tungsram"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Orion 1913-ban indult; a Videoton szintén elektronikát, az Ikarus autóbuszt gyártott.",
+      "t": "magyar márkák"
+    },
+    {
+      "q": "Melyik magyar gyár készítette a világszerte exportált autóbuszokat?",
+      "a": [
+        "Ikarus",
+        "Rába",
+        "Csepel",
+        "MÁVAG"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Ikarus csúcsán évente több mint tizenkétezer buszt gyártott, főleg a szocialista piacra.",
+      "t": "magyar márkák"
+    },
+    {
+      "q": "Melyik magyar márkát ismerjük az izzólámpákról és a fényforrásokról?",
+      "a": [
+        "Tungsram",
+        "Orion",
+        "Videoton",
+        "Ganz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A név a tungsten és a wolfram szavak összevonása; Bródy Imre kriptonlámpája is itt született.",
+      "t": "magyar márkák"
+    },
+    {
+      "q": "Melyik magyar cég gyártott villamos berendezéseket, és fűződik hozzá a transzformátor?",
+      "a": [
+        "Ganz",
+        "Ikarus",
+        "Rába",
+        "Chinoin"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Ganz gyárban dolgozott Bláthy, Déri és Zipernowsky, a transzformátor szabadalmának birtokosai.",
+      "t": "magyar márkák"
+    },
+    {
+      "q": "Melyik magyar gyógyszergyárat alapította Richter Gedeon 1901-ben?",
+      "a": [
+        "A Richter Gedeon Nyrt.-t",
+        "Az Egist",
+        "A Chinoint",
+        "A Biogalt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Richter az első gyárat a saját Üllői úti patikájából fejlesztette ki.",
+      "t": "magyar márkák"
+    },
+    {
+      "q": "Melyik magyar üdítőmárka indult 1970-ben, és lett a hazai kóla-alternatíva?",
+      "a": [
+        "A Márka",
+        "A Traubisoda",
+        "A Bambi",
+        "A Queen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Bambi már az ötvenes években megjelent; a Márka 1970-től, a Traubisoda 1971-től készült.",
+      "t": "magyar márkák"
+    },
+    {
+      "q": "Melyik magyar édesipari márkát ismerjük a kockás csokoládéról és a szaloncukorról?",
+      "a": [
+        "A Szerencsi",
+        "A Győri Keksz",
+        "A Zwack",
+        "A Pick"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szerencsi csokoládégyár 1923-ban indult, és évtizedekig a magyar csokoládé jelképe volt.",
+      "t": "magyar márkák"
+    },
+    {
+      "q": "Melyik magyar húsipari márka legismertebb terméke a téliszalámi?",
+      "a": [
+        "A Pick",
+        "A Zwack",
+        "A Herz",
+        "Mindkettő, a Pick és a Herz is"
       ],
       "c": 3,
       "d": "hard",
-      "e": "AUO Corporation alapítása: 2000-es évek.",
-      "t": "cégek alapítása",
-      "s": "http://www.wikidata.org/entity/Q300120"
-    },
-    {
-      "q": "Melyik iparágban működik a következő vállalat: Austria Presse Agentur?",
-      "a": [
-        "filmipar",
-        "újságírás",
-        "televízió",
-        "étteremipar"
-      ],
-      "c": 1,
-      "d": "medium",
-      "e": "Austria Presse Agentur iparága: újságírás.",
-      "t": "iparágak",
-      "s": "http://www.wikidata.org/entity/Q680662"
-    },
-    {
-      "q": "Melyik évtizedben alapították a következő vállalatot: Sprint Corporation?",
-      "a": [
-        "1940-es évek",
-        "1980-es évek",
-        "1990-es évek",
-        "1890-es évek"
-      ],
-      "c": 3,
-      "d": "hard",
-      "e": "Sprint Corporation alapítása: 1890-es évek.",
-      "t": "cégek alapítása",
-      "s": "http://www.wikidata.org/entity/Q301965"
-    },
-    {
-      "q": "Melyik iparágban működik a következő vállalat: Kyodo News?",
-      "a": [
-        "filmforgalmazás",
-        "sörfőzde",
-        "hírügynökség",
-        "show-biznisz"
-      ],
-      "c": 2,
-      "d": "medium",
-      "e": "Kyodo News iparága: hírügynökség.",
-      "t": "iparágak",
-      "s": "http://www.wikidata.org/entity/Q779730"
-    },
-    {
-      "q": "Melyik évtizedben alapították a következő vállalatot: IQVIA Holdings, Inc.?",
-      "a": [
-        "1980-es évek",
-        "2010-es évek",
-        "1970-es évek",
-        "1860-es évek"
-      ],
-      "c": 1,
-      "d": "hard",
-      "e": "IQVIA Holdings, Inc. alapítása: 2010-es évek.",
-      "t": "cégek alapítása",
-      "s": "http://www.wikidata.org/entity/Q305473"
-    },
-    {
-      "q": "Melyik évtizedben alapították a következő vállalatot: Abbott Laboratories?",
-      "a": [
-        "1930-es évek",
-        "1950-es évek",
-        "1880-es évek",
-        "2010-es évek"
-      ],
-      "c": 2,
-      "d": "hard",
-      "e": "Abbott Laboratories alapítása: 1880-es évek.",
-      "t": "cégek alapítása",
-      "s": "http://www.wikidata.org/entity/Q306764"
-    },
-    {
-      "q": "Melyik évtizedben alapították a következő vállalatot: Qiagen?",
-      "a": [
-        "1860-es évek",
-        "1980-es évek",
-        "1880-es évek",
-        "1960-es évek"
-      ],
-      "c": 1,
-      "d": "hard",
-      "e": "Qiagen alapítása: 1980-es évek.",
-      "t": "cégek alapítása",
-      "s": "http://www.wikidata.org/entity/Q315287"
+      "e": "Mind a Pick, mind a Herz szegedi, illetve budapesti szalámigyártóként lett világhírű.",
+      "t": "magyar márkák"
     }
   ]
 }
