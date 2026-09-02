@@ -46,10 +46,21 @@ többjátékos módhoz kell.
 2. **GitHub Pages bekapcsolása:** a repó oldalán
    **Settings → Pages → Build and deployment → Source: `GitHub Actions`**.
 
+   Ez a lépés **nem hagyható ki**, és a push előtt vagy után is megtehető – de
+   amíg nincs meg, a deploy `Not Found` hibával elhasal, mert a repóhoz még nem
+   tartozik Pages-oldal. Ha beállítás után hasalt el, nem kell új push: **Actions
+   → a legutóbbi futás → Re-run all jobs**.
+
+   Ha a legördülőben **nincs „GitHub Actions” opció**, a repó privát egy olyan
+   csomagon, ahol a Pages nem elérhető. Tedd publikussá (Settings → General →
+   Change visibility), vagy használj Cloudflare Pages-t – az privát repóból is
+   ingyen publikál, ugyanezt a `web/` mappát, build parancs nélkül.
+
 3. Ennyi. A `.github/workflows/deploy.yml` már a repóban van, és minden `main`-re
    küldött push után automatikusan:
    - validálja a kérdésbankot,
    - lefuttatja a játéklogika tesztjeit,
+   - lefuttatja a migrációkat és a szobalogikát igazi Postgresen,
    - összeállítja a `seed-questions.json`-t,
    - legenerálja az ikonokat,
    - kirakja a `web/` mappát.

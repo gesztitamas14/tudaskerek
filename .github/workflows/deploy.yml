@@ -1,15 +1,23 @@
 # A PWA közzététele GitHub Pages-re.
 #
 # Mit tesz:
-#   1. összeállítja a kérdésbankot a content/seed/*.json fájlokból,
-#   2. legenerálja az ikonokat,
-#   3. lefuttatja a validációt és a játéklogika tesztjeit,
-#   4. a web/ mappát kirakja GitHub Pages-re.
+#   1. validálja a kérdésbankot és lefuttatja a teszteket (játéklogika +
+#      migrációk igazi Postgresen),
+#   2. összeállítja a kérdésbankot és az ikonokat,
+#   3. a web/ mappát kirakja GitHub Pages-re.
 #
-# Egyszeri beállítás a GitHubon:
-#   Settings → Pages → Source: "GitHub Actions"
+# EGYSZERI BEÁLLÍTÁS A GITHUBON – enélkül a deploy „Not Found” hibával elhasal:
+#   Settings → Pages → Build and deployment → Source: "GitHub Actions"
 #
-# Ezután minden main-re küldött push automatikusan frissíti az oldalt.
+# Ha a "GitHub Actions" nem választható, a repó privát egy olyan csomagon, ahol
+# a Pages nem elérhető. Tedd publikussá (Settings → General → Change visibility),
+# vagy használj Cloudflare Pages-t.
+#
+# Miért nincs itt `actions/configure-pages`? Mert annak csak statikus
+# oldalgenerátorokhoz (Next, Nuxt, Gatsby…) van dolga: base_url-t számol és
+# konfigot ír. Ez a projekt sima statikus fájlokat tesz közzé, tehát a lépés
+# nem tesz semmit – viszont ő adta a legrejtélyesebb hibaüzenetet, ha a Pages
+# nem volt bekapcsolva.
 
 name: Közzététel (GitHub Pages)
 
@@ -33,11 +41,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: '20'
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: tools/package-lock.json
 
       - name: Kérdésbank validálása
         run: node tools/src/validate-seed.mjs
@@ -49,7 +59,7 @@ jobs:
       # (PGlite = Postgres WebAssemblyre fordítva). Így egy hibás migráció nem
       # jut el a Supabase-ig.
       - name: Adatbázis-eszközök telepítése
-        run: npm install --no-audit --no-fund
+        run: npm ci --no-audit --no-fund
         working-directory: tools
 
       - name: Migrációk és multiplayer logika tesztje
@@ -64,13 +74,12 @@ jobs:
       - name: Hivatkozott fájlok ellenőrzése
         run: node tools/src/serve.mjs web --check
 
-      - name: Pages beállítás
-        uses: actions/configure-pages@v5
-
       - name: Feltöltés
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: web
+          # A web/.nojekyll pont-fájl, ezt enélkül kihagyná a csomagból.
+          include-hidden-files: true
 
   deploy:
     needs: build
@@ -80,4 +89,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

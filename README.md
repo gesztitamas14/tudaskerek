@@ -51,8 +51,10 @@ telefon böngészője
    └── HTTPS → xxxx.supabase.co                    adatbázis + auth (ingyen)
 ```
 
-1. Töltsd fel a repót GitHubra.
-2. **Settings → Pages → Source: `GitHub Actions`**.
+1. Töltsd fel a repót GitHubra (publikusan – ingyenes csomagon a Pages csak
+   publikus repóból publikál).
+2. **Settings → Pages → Build and deployment → Source: `GitHub Actions`**.
+   Enélkül a deploy `Not Found` hibával elhasal.
 3. Kész – a `.github/workflows/deploy.yml` minden push után validál, tesztel és
    publikál. Ha egy teszt elhasal, nem publikál.
 4. A linket Safariban megnyitva: **Megosztás → Főképernyőhöz adás** – innen saját

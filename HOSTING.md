@@ -26,16 +26,32 @@ git remote add origin https://github.com/<felhasznalonev>/tudaskerek.git
 git push -u origin main
 ```
 
-Majd a GitHubon: **Settings → Pages → Source: `GitHub Actions`**.
+### ⚠️ Ezt a lépést nem lehet kihagyni
+
+A GitHubon: **Settings → Pages → Build and deployment → Source: `GitHub Actions`**
+
+Enélkül a deploy elhasal, mert a repóhoz még nem tartozik Pages-oldal:
+
+```
+Get Pages site failed. Please verify that the repository has Pages
+enabled and configured to build using GitHub Actions
+Error: Not Found
+```
+
+**Ha a „GitHub Actions” nem választható** a legördülőben, akkor a repó privát
+egy olyan csomagon, ahol a Pages nem elérhető. Két kiút:
+
+- **Settings → General → Danger Zone → Change visibility → Public**, vagy
+- Cloudflare Pages, ami privát repóból is ingyen publikál (ugyanez a `web/`
+  mappa, build parancs nélkül).
+
+Miután beállítottad, indítsd újra a futást: **Actions → Közzététel → a legutóbbi
+futás → Re-run all jobs**. (Új push nem kell.)
 
 Kész. Az oldal itt lesz: `https://<felhasznalonev>.github.io/tudaskerek/`
 
 Innentől minden `git push` automatikusan újrapublikál – de csak ha a tesztek
 átmennek (validáció, játéklogika, migrációk).
-
-> **Egy megkötés:** ingyenes csomagon a GitHub Pages csak **publikus** repóból
-> publikál. Ha privát repót akarsz, a Cloudflare Pages privátból is ingyen megy
-> (ugyanez a `web/` mappa, build parancs nélkül).
 
 ---
 
@@ -122,13 +138,16 @@ de ha hetekre elfelejtitek, ébresztés kell.
 
 ## 5. Ha valami nem megy
 
-| Tünet | Ok |
+| Tünet | Ok és megoldás |
 |---|---|
+| `Get Pages site failed … Not Found` | a Pages nincs bekapcsolva: Settings → Pages → Source **GitHub Actions**, majd Re-run all jobs (lásd az 1. pontot) |
+| a Pages-nél nincs „GitHub Actions” opció | a repó privát, és a csomagban nincs Pages → tedd publikussá, vagy Cloudflare Pages |
+| 404 a Pages linken | a deploy lefutott, de a Source még nem GitHub Actions |
+| `Node.js 20 is deprecated` figyelmeztetés | régi action-verziók – a mostani workflow már `@v7` / `@v5`-öt használ |
 | „Backend szükséges” a multiplayernél | `web/js/config.js` nincs kitöltve |
 | A multiplayer nem indul | nincs bekapcsolva a névtelen bejelentkezés (2.5) |
 | Régi verzió jön push után | várj ~1 percet, vagy zárd be és nyisd újra az appot |
 | `db push` hibát ad | `node tools/src/db-test.mjs` – lefuttatja a migrációkat helyben |
-| 404 a Pages linken | Settings → Pages → Source **GitHub Actions** legyen |
 
 Helyi kipróbálás feltöltés nélkül:
 
