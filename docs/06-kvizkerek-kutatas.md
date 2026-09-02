@@ -54,6 +54,7 @@ kínál 2–4 játékosnak, illetve említ online játékot és ranglistát.
 
 A TudásKerék ehelyett **valódi online szobás multiplayert** valósít meg: 6
 karakteres szobakód, 2–5 játékos, külön eszközökön, Supabase Realtime
+(a megvalósításban a kód helyett nyitott szobák listája + 3 jegyű PIN lett)
 broadcasttel, szerveroldali válaszvalidációval. Ez tudatos továbbfejlesztés.
 
 ### Képernyőstruktúra (nyilvános képernyőképek alapján)

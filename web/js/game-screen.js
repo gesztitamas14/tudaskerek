@@ -7,6 +7,7 @@ import { GameEngine, bonusPositions, pickWheelIndex } from './rules.js';
 import { ApiError, OfflineDriver, OnlineDriver } from './api.js';
 import { settings, meta } from './store.js';
 import { Wheel } from './wheel.js';
+import { sfx } from './sound.js';
 import {
   el, clear, card, primaryButton, progressBar, scorePill, categoryBadge,
   stateMessage, spinner, toast, haptic, HAPTIC, confetti, fmt
@@ -228,10 +229,14 @@ export class GameScreen {
       turns: reduced ? 2 : 4 + Math.floor(Math.random() * 3),
       duration: reduced ? 1.2 : 3 + Math.random() * 0.8,
       jitter: Math.random() * 1.6 - 0.8,
-      onTick: (intensity) => haptic(Math.max(4, Math.round(HAPTIC.tick * intensity)))
+      onTick: (intensity) => {
+        haptic(Math.max(4, Math.round(HAPTIC.tick * intensity)));
+        sfx.wheelTick(intensity);
+      }
     });
 
     haptic(HAPTIC.stop);
+    sfx.wheelStop();
 
     const category = this.categories[landedIndex];
     this.recentWheelIndices = [landedIndex, ...this.recentWheelIndices].slice(0, 6);
@@ -387,6 +392,7 @@ export class GameScreen {
         }
         toast(error.message, { tone: 'error' });
         haptic(HAPTIC.wrong);
+        sfx.timeout();
       }
     }
   }
@@ -408,6 +414,9 @@ export class GameScreen {
       else button.classList.add('answer-dimmed');
     }
 
+    if (outcome.awardedPoints >= 2000) sfx.bigWin();
+    else if (outcome.isCorrect) sfx.correct();
+    else sfx.wrong();
     haptic(outcome.awardedPoints >= 2000 ? HAPTIC.bigWin : outcome.isCorrect ? HAPTIC.correct : HAPTIC.wrong);
 
     this.isBusy = false;
@@ -617,6 +626,7 @@ export class GameScreen {
     if (!summary.busted && summary.score > 0) {
       confetti(this.root);
       haptic(HAPTIC.bigWin);
+      sfx.bigWin();
     }
   }
 

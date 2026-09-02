@@ -73,11 +73,54 @@ A **Settings → API** lapon két dolog kell:
 
 ### 2.2 Séma feltöltése
 
+**Három lépés, és a sorrend számít.** A `db push` önmagában
+`Cannot find project ref. Have you run supabase link?` hibát ad.
+
 ```bash
 npx supabase login
-npx supabase link --project-ref <a-projekt-ref>
-npx supabase db push          # lefuttatja mind a 10 migrációt
 ```
+
+Megnyit egy böngészőlapot, ahol jóváhagyod – utána a tokent a
+`~/.supabase/` mappába menti. (Ha ez nem járható, lásd a lenti B) utat.)
+
+```bash
+npx supabase link --project-ref <a-projekt-ref>
+```
+
+**A projekt-ref a Project URL aldomainje**: ha a `web/js/config.js`-ben
+`https://abcdefghijklm.supabase.co` áll, akkor a ref `abcdefghijklm`. A
+dashboardon is megtalálod: *Settings → General → Reference ID*.
+
+A `link` elkéri az **adatbázis jelszót** – azt, amit a projekt létrehozásakor
+megadtál. Ha elveszett: *Settings → Database → Reset database password*.
+
+```bash
+npx supabase db push          # lefuttatja mind a 12 migrációt
+```
+
+Ellenőrzés: `npx supabase migration list` – kiírja, melyik migráció futott le
+helyben és a szerveren.
+
+> A `link` figyelmeztethet, hogy a `supabase/config.toml` Postgres-verziója nem
+> egyezik a projektéddel. Ez ártalmatlan: az a beállítás csak a helyi
+> fejlesztői adatbázishoz kell (`supabase start`), a `db push`-t nem érinti.
+> A CLI fel is ajánlja a javítást.
+
+#### B) Ha a CLI nem járható út
+
+Bejelentkezés vagy elveszett jelszó nélkül a migrációk kézzel is lefuttathatók.
+Tizenkét fájlt egyenként bemásolni sorrend-érzékeny munka, ezért van rá eszköz:
+
+```bash
+node tools/src/bundle-migrations.mjs      # → supabase/all-migrations.sql
+```
+
+A kapott fájlt illeszd be a **Dashboard → SQL Editor → New query** ablakba, és
+futtasd le egyszerre. (Ez a fájl generált és nincs verziókövetve – bármikor
+újragenerálható.)
+
+Ennek az a hátránya, hogy a Supabase nem tartja nyilván, mi futott már le:
+később kézzel kell tudnod, melyik migráció új.
 
 ### 2.3 Kérdések feltöltése
 
@@ -99,12 +142,63 @@ const DEFAULTS = {
 
 Commit, push – a Pages újrapublikál, és él a ranglista meg a multiplayer.
 
-### 2.5 Névtelen bejelentkezés bekapcsolása
+### 2.5 Névtelen bejelentkezés bekapcsolása (kötelező)
 
 **Authentication → Providers → Anonymous sign-ins: ON**
 
 Enélkül a multiplayer nem indul: a szobákhoz kell egy játékosazonosító, és nem
 akarjuk regisztrációra kényszeríteni a barátaidat.
+
+Ez adja a **vendégjátékot**: aki nem jelentkezik be, az is csinálhat szobát és
+csatlakozhat, csak a pontja nem kerül a nyilvános ranglistára (a vendégnév
+generált, és a fiók bármikor eldobható). A saját statisztikája megmarad.
+
+### 2.6 Bejelentkezés e-maillel (ingyen, semmi teendő)
+
+**Authentication → Providers → Email: BE** (alapból az).
+
+Egy dolgot érdemes átállítani: **Confirm email → KI**. Az ingyenes Supabase
+beépített levelezője óránként csak néhány levelet küld, és a saját
+dokumentációja szerint sem éles használatra való. Megerősítés nélkül a
+regisztráció azonnal működik, e-mail-küldés nélkül.
+
+> Ennek az az ára, hogy valaki más e-mail címével is regisztrálhat. Egy
+> kvíz-ranglistánál ez elfogadható; ha zavar, kapcsold be a megerősítést, és
+> állíts be saját SMTP-t (a Supabase támogatja, pl. Resend vagy Brevo ingyenes
+> csomagjával).
+
+### 2.7 Google bejelentkezés (opcionális, ingyen)
+
+**Authentication → Providers → Google: BE**, majd két érték kell hozzá a
+[Google Cloud Console](https://console.cloud.google.com/apis/credentials)-ból:
+
+1. *APIs & Services → Credentials → Create credentials → OAuth client ID*
+2. Application type: **Web application**
+3. *Authorized redirect URIs* közé: `https://<ref>.supabase.co/auth/v1/callback`
+4. A kapott **Client ID** és **Client Secret** mehet a Supabase mezőibe.
+
+Ez ingyenes, és nem jár le.
+
+> **Az Apple bejelentkezés kimaradt a projektből.** Fizetős Apple Developer
+> tagságot (99 USD/év) és egy félévente cserélendő, `.p8` kulccsal aláírt
+> titkot igényel – ez adta a `Unsupported provider: missing OAuth secret`
+> hibát. A Google ugyanazt nyújtja ingyen, és iPhone-on is működik.
+
+### 2.8 Vendégből igazi fiók
+
+Aki vendégként kezdett, a Profil lapon megadhat e-mailt és jelszót.
+**Ugyanaz a fiók marad**, tehát a pontjai és a statisztikája megmaradnak – csak
+onnantól felkerül a nyilvános ranglistára is.
+
+### 2.9 Redirect URL
+
+**Authentication → URL Configuration → Redirect URLs** közé add hozzá a Pages
+címedet (`https://<felhasznalonev>.github.io/tudaskerek/`) és fejlesztéshez a
+`http://localhost:5173`-at. Enélkül a Google-bejelentkezés visszatérését
+elutasítja.
+
+A felület kiírja a hibát: ha az OAuth visszatérés hibával jön, a képernyőn
+megjelenik magyarul, hogy mi hiányzik.
 
 ---
 
@@ -140,12 +234,16 @@ de ha hetekre elfelejtitek, ébresztés kell.
 
 | Tünet | Ok és megoldás |
 |---|---|
+| `Cannot find project ref. Have you run supabase link?` | kimaradt a `supabase login` + `supabase link` (2.2) |
+| `NotFound: FileSystem.readFile (….supabaseprofile)` | nem futott le a `supabase login` (2.2) |
 | `Get Pages site failed … Not Found` | a Pages nincs bekapcsolva: Settings → Pages → Source **GitHub Actions**, majd Re-run all jobs (lásd az 1. pontot) |
 | a Pages-nél nincs „GitHub Actions” opció | a repó privát, és a csomagban nincs Pages → tedd publikussá, vagy Cloudflare Pages |
 | 404 a Pages linken | a deploy lefutott, de a Source még nem GitHub Actions |
 | `Node.js 20 is deprecated` figyelmeztetés | régi action-verziók – a mostani workflow már `@v7` / `@v5`-öt használ |
 | „Backend szükséges” a multiplayernél | `web/js/config.js` nincs kitöltve |
 | A multiplayer nem indul | nincs bekapcsolva a névtelen bejelentkezés (2.5) |
+| `Unsupported provider: missing OAuth secret` | a szolgáltatónál nincs kitöltve a Client Secret (Google: 2.7). Az Apple ki is került a projektből. |
+| Nem hallok hangot | Beállítások → Hang; iPhone-on a **néma kapcsoló** a böngésző hangját is elhallgattatja |
 | Régi verzió jön push után | várj ~1 percet, vagy zárd be és nyisd újra az appot |
 | `db push` hibát ad | `node tools/src/db-test.mjs` – lefuttatja a migrációkat helyben |
 

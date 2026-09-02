@@ -39,7 +39,7 @@ jelenlét és a natív rendszerintegráció.
 | Kerék | `<canvas>` + `requestAnimationFrame` | 22 cikk és felirat egyetlen rétegben; a végszög előre kiszámolt, az animáció csak megjeleníti |
 | Backend | **Supabase** (menedzselt Postgres) | lásd 3. pont |
 | Hálózat | sima `fetch`, saját vékony kliens | nincs `@supabase/supabase-js` függőség; a REST-szerződés azonos, az SDK bármikor becserélhető |
-| Auth | anonim (vendég) + Apple OAuth a weben | regisztráció nélkül is legyen szerveroldali pontszám és ranglista-hely |
+| Auth | anonim (vendég) + Google OAuth + e-mail/jelszó | regisztráció nélkül is legyen szerveroldali pontszám és ranglista-hely |
 | Hosting | GitHub Pages, GitHub Actions deployjal | ingyenes, HTTPS-t ad (a service worker megköveteli), a kód mellett van |
 | Admin | build nélküli statikus web app (sima `fetch` + PostgREST) | „nem kell szépnek lennie”, nulla toolchain |
 | Pipeline | Node 20+, sima ESM szkriptek | seed import, AI generálás, dedup, fact-check – függőség nélkül (kivéve az AI generálás: hivatalos `@anthropic-ai/sdk`) |
@@ -155,7 +155,7 @@ mindkét módot, és nem kell ismernie a helyes választ.
 | 3 | Kérdés UI, `GameEngine`, kör lezárás | ✅ |
 | 4 | Lokális kérdésbank (1157 kérdés, 22 kategória) | ✅ |
 | 5 | Supabase séma, RLS, 25 RPC | ✅ |
-| 6 | Auth: vendég mód és Apple OAuth | ✅ |
+| 6 | Auth: vendég mód, Google OAuth, e-mail/jelszó | ✅ |
 | 7 | Admin felület, AI pipeline, dedup, fact-check | ✅ |
 | 8 | Offline cache, kimenő sor, szinkronizálás | ✅ |
 | 9 | Statisztika, ranglista (örök/havi/heti/napi) | ✅ |

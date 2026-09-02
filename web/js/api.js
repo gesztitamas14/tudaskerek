@@ -134,13 +134,67 @@ export class Supabase {
     return session;
   }
 
-  /** Apple Sign In – a weben OAuth átirányítással. */
-  appleSignInUrl(redirectTo = location.origin + location.pathname) {
-    const params = new URLSearchParams({
-      provider: 'apple',
-      redirect_to: redirectTo
-    });
+  /**
+   * OAuth bejelentkezés átirányítással (weben ez a járható út).
+   *
+   * Miért Google és nem Apple? Az Apple OAuth-hoz fizetős Apple Developer
+   * tagság kell (99 USD/év) és egy félévente cserélendő, `.p8` kulccsal aláírt
+   * titok. A Google-höz csak egy Client ID + Client Secret kell, ingyen.
+   */
+  oauthSignInUrl(provider = 'google', redirectTo = location.origin + location.pathname) {
+    const params = new URLSearchParams({ provider, redirect_to: redirectTo });
     return `${this.url}/auth/v1/authorize?${params}`;
+  }
+
+  /** Regisztráció e-mail + jelszóval. */
+  async signUpWithEmail(email, password) {
+    const response = await this.#fetch('/auth/v1/signup', {
+      method: 'POST',
+      body: { email, password },
+      authorized: false
+    });
+
+    // Ha a Supabase-en be van kapcsolva az e-mail megerősítés, itt még NINCS
+    // session – a felhasználónak először kattintania kell a levélben.
+    if (response?.access_token) {
+      this.#saveSession(response);
+      return { session: response, needsConfirmation: false };
+    }
+    return { session: null, needsConfirmation: true };
+  }
+
+  /** Bejelentkezés e-mail + jelszóval. */
+  async signInWithEmail(email, password) {
+    const session = await this.#fetch('/auth/v1/token?grant_type=password', {
+      method: 'POST',
+      body: { email, password },
+      authorized: false
+    });
+    this.#saveSession(session);
+    return session;
+  }
+
+  /**
+   * Vendégfiók átalakítása igazi fiókká – az eredmények megmaradnak.
+   *
+   * Ez ugyanaz a felhasználó marad (ugyanaz az `id`), csak kap e-mailt és
+   * jelszót. Ezért nem veszik el a statisztika, és a ranglistára is felkerül
+   * (a `profiles.is_anonymous` egy trigger révén false-ra vált).
+   */
+  async upgradeGuest(email, password) {
+    const user = await this.#fetch('/auth/v1/user', {
+      method: 'PUT',
+      body: { email, password }
+    });
+
+    // A JWT még a régi `is_anonymous: true` állítást tartalmazza, ezért
+    // frissítjük – enélkül a felület vendégként kezelne tovább.
+    await this.refreshIfNeeded(true);
+    return user;
+  }
+
+  async signInWithGoogle() {
+    location.href = this.oauthSignInUrl('google');
   }
 
   /**
@@ -148,6 +202,15 @@ export class Supabase {
    * (#access_token=…&refresh_token=…). Ezt kell elmenteni és eltakarítani.
    */
   async captureOAuthRedirect() {
+    // A sikertelen OAuth is visszahoz ide, csak `error`/`error_description`
+    // paraméterekkel. Ezt eddig csendben eldobtuk: a felhasználó úgy látta,
+    // mintha semmi nem történt volna. Most kivételként jelezzük.
+    const failure = readOAuthError();
+    if (failure) {
+      window.history.replaceState(null, '', location.pathname);
+      throw new ApiError(failure, 'oauth', 400);
+    }
+
     if (!location.hash.includes('access_token')) return false;
     const params = new URLSearchParams(location.hash.slice(1));
     const accessToken = params.get('access_token');
@@ -165,11 +228,16 @@ export class Supabase {
     return true;
   }
 
-  async refreshIfNeeded() {
+  /**
+   * @param {boolean} [force] a lejárattól függetlenül újítsa meg a tokent.
+   *   Vendégfiók átalakítása után kell: a régi JWT-ben még
+   *   `is_anonymous: true` szerepel, és abból a felület vendéget olvasna.
+   */
+  async refreshIfNeeded(force = false) {
     const session = this.session;
     if (!session?.refresh_token) return false;
     const expiresAt = Number(session.expires_at ?? 0);
-    if (expiresAt - Date.now() / 1000 > 120) return true;
+    if (!force && expiresAt - Date.now() / 1000 > 120) return true;
 
     try {
       const fresh = await this.#fetch('/auth/v1/token?grant_type=refresh_token', {
@@ -216,6 +284,36 @@ function sleep(ms) {
 }
 
 /** JWT payload claim kiolvasása. NEM hitelesít – csak UI-döntésekhez. */
+/**
+ * OAuth hibaüzenet a visszatérési URL-ből – lehet a query stringben és a
+ * fragmentben is, szolgáltatótól függően.
+ *
+ * A leggyakoribb eset a „missing OAuth secret”: a Supabase-en be van kapcsolva
+ * a szolgáltató és megvan a Client ID, de a titkos kulcs nincs kitöltve.
+ * Erre külön, érthető magyar üzenetet adunk.
+ */
+function readOAuthError() {
+  const sources = [
+    new URLSearchParams(location.search),
+    new URLSearchParams(location.hash.replace(/^#/, ''))
+  ];
+
+  for (const params of sources) {
+    const code = params.get('error') ?? params.get('error_code');
+    if (!code) continue;
+
+    const description = params.get('error_description') ?? '';
+    if (/oauth secret|missing.*secret/i.test(`${code} ${description}`)) {
+      return (
+        'A bejelentkezési szolgáltató nincs készre állítva: a Supabase-en hiányzik ' +
+        'a titkos kulcs (Secret Key for OAuth). A Client ID önmagában nem elég.'
+      );
+    }
+    return description || `Bejelentkezési hiba: ${code}`;
+  }
+  return null;
+}
+
 function readJwtClaim(token, claim) {
   try {
     const [, payload] = token.split('.');

@@ -94,6 +94,8 @@ futtasd le:
 8. `20260901090700_rls_and_grants.sql`
 9. `20260901090800_seed_categories.sql`
 10. `20260901091000_elimination_multiplayer.sql`
+11. `20260901091100_room_list_and_pin.sql`
+12. `20260901091200_google_and_email_auth.sql`
 
 > A sorrend kötelező: a későbbi fájlok az előzők típusaira és függvényeire
 > építenek.
@@ -103,11 +105,23 @@ futtasd le:
 Authentication → Providers:
 
 - **Anonymous sign-ins: BE.** Ez adja a vendég módot: a játékos regisztráció
-  nélkül kap szerveroldali fiókot, pontszámot és ranglista-helyet.
-  **A multiplayerhez ez kötelező**, mert szobához csak bejelentkezett
-  felhasználó tud csatlakozni.
-- **Apple: opcionális.** Weben Apple Service ID kell hozzá, és a Return URL:
+  nélkül kap szerveroldali fiókot és statisztikát. **A multiplayerhez ez
+  kötelező**, mert szobához csak bejelentkezett felhasználó tud csatlakozni.
+  A vendég pontja szándékosan NEM kerül a nyilvános ranglistára.
+- **Email: BE** (alapból az). Ha kikapcsolod a *Confirm email*-t, e-mail-küldés
+  nélkül is működik a regisztráció – az ingyenes Supabase beépített levelezője
+  óránként csak néhány levelet küld, tehát valódi használatra amúgy sem elég.
+- **Google: opcionális, ingyenes.** Kell hozzá egy Google Cloud OAuth kliens
+  (Client ID + Client Secret), a Return URL pedig:
   `https://<projekt>.supabase.co/auth/v1/callback`.
+
+Az **Apple bejelentkezés kimaradt a projektből**: fizetős Apple Developer
+tagságot (99 USD/év) és egy félévente cserélendő, `.p8` kulccsal aláírt titkot
+igényel. A Google ugyanazt adja ingyen.
+
+Aki vendégként kezdett, később megadhat e-mailt és jelszót: **ugyanaz a fiók
+marad**, tehát a pontjai és a statisztikája megmaradnak, és felkerül a
+ranglistára.
 
 Authentication → URL Configuration → **Redirect URLs**: add hozzá a publikált
 címet (pl. `https://<felhasznalo>.github.io/tudaskerek/`) és a helyi

@@ -4,6 +4,7 @@
 import { CONFIG } from './config.js';
 import { settings, results, history, remoteQuestions, localStats } from './store.js';
 import { Wheel } from './wheel.js';
+import { sfx, setSoundEnabled } from './sound.js';
 import {
   el, clear, card, primaryButton, stateMessage, spinner, toast, fmt,
   AVATARS, avatarEmoji, haptic, HAPTIC
@@ -470,10 +471,22 @@ function accountStatusText(app) {
     return 'Nem vagy bejelentkezve. Az eredmények a készüléken maradnak, amíg nincs kapcsolat.';
   }
   return app.supabase.isAnonymous
-    ? 'Vendégfiók (szinkronizált). Jelentkezz be Apple ID-val, hogy készülékcsere után is megmaradjanak az eredményeid.'
-    : 'Bejelentkezve Apple ID-val.';
+    ? 'Vendégfiók. Minden működik, de a pontod nem kerül a nyilvános ranglistára, ' +
+      'és készülékcserénél elveszne. Adj meg egy e-mailt vagy jelentkezz be ' +
+      'Google-fiókkal – az eredményeid megmaradnak.'
+    : 'Bejelentkezve. Az eredményeid a fiókodhoz tartoznak, és felkerülsz a ranglistára.';
 }
 
+/**
+ * Fiókműveletek: Google OAuth vagy e-mail + jelszó.
+ *
+ * Miért nem Apple? Ahhoz fizetős Apple Developer tagság (99 USD/év) és egy
+ * félévente cserélendő, `.p8` kulccsal aláírt titok kell. A Google-höz csak
+ * egy ingyenes Client ID + Secret, az e-mailhez pedig semmi.
+ *
+ * Vendégként a form NEM új fiókot csinál, hanem a meglévőt alakítja át
+ * (`upgradeGuest`) – így nem veszik el a statisztika.
+ */
 function accountActions(app) {
   if (!app.supabase.isConfigured) return [];
 
@@ -487,16 +500,154 @@ function accountActions(app) {
     ];
   }
 
+  const isGuest = app.supabase.isSignedIn && app.supabase.isAnonymous;
+  let mode = 'signin';           // 'signin' | 'signup'
+  let isWorking = false;
+
+  const emailInput = el('input.text-input', {
+    type: 'email',
+    inputMode: 'email',
+    autocapitalize: 'off',
+    autocomplete: 'email',
+    spellcheck: false,
+    placeholder: 'valaki@example.com'
+  });
+
+  const passwordInput = el('input.text-input', {
+    type: 'password',
+    autocomplete: 'current-password',
+    placeholder: 'jelszó (legalább 6 karakter)'
+  });
+
+  const feedback = el('p.small.center', { hidden: true });
+  const submit = primaryButton('', () => run());
+
+  // Vendégnél nincs „bejelentkezés/regisztráció” választás: a meglévő fiókot
+  // alakítjuk át, különben elveszne az addigi statisztika.
+  const switcher = el('button.link-btn', {
+    type: 'button',
+    hidden: isGuest,
+    on: {
+      click: () => {
+        mode = mode === 'signin' ? 'signup' : 'signin';
+        paint();
+      }
+    }
+  });
+
+  function paint() {
+    submit.querySelector('span:last-child').textContent = isGuest
+      ? 'Fiók létrehozása (eredmények megtartva)'
+      : mode === 'signin'
+        ? 'Bejelentkezés'
+        : 'Regisztráció';
+    switcher.textContent =
+      mode === 'signin' ? 'Nincs még fiókom – regisztrálok' : 'Van már fiókom – bejelentkezés';
+    passwordInput.autocomplete = mode === 'signin' && !isGuest ? 'current-password' : 'new-password';
+  }
+
+  function say(message, tone = 'muted') {
+    feedback.hidden = false;
+    feedback.className = `small center ${tone}`;
+    feedback.textContent = message;
+  }
+
+  async function run() {
+    if (isWorking) return;
+
+    const email = emailInput.value.trim();
+    const password = passwordInput.value;
+
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+      say('Adj meg egy érvényes e-mail címet.', 'bad');
+      return;
+    }
+    if (password.length < 6) {
+      say('A jelszó legalább 6 karakter legyen.', 'bad');
+      return;
+    }
+
+    isWorking = true;
+    submit.disabled = true;
+    say('Egy pillanat…');
+
+    try {
+      if (isGuest) {
+        await app.supabase.upgradeGuest(email, password);
+        toast('Kész! Az eredményeid megmaradtak.');
+      } else if (mode === 'signup') {
+        const { needsConfirmation } = await app.supabase.signUpWithEmail(email, password);
+        if (needsConfirmation) {
+          // A Supabase-en be van kapcsolva az e-mail megerősítés: session még
+          // nincs, a felhasználónak a levélben kell kattintania.
+          say('Elküldtünk egy megerősítő levelet. Kattints rá, majd jelentkezz be.', 'good');
+          return;
+        }
+        toast('Fiók létrehozva.');
+      } else {
+        await app.supabase.signInWithEmail(email, password);
+        toast('Bejelentkeztél.');
+      }
+      app.refreshCurrentScreen();
+    } catch (error) {
+      say(authErrorText(error, mode, isGuest), 'bad');
+    } finally {
+      // Sikernél a szülő újrarendereli a képernyőt, de az űrlap ne várjon
+      // erre: enélkül egy elmaradó újrarenderelés véglegesen letiltaná.
+      isWorking = false;
+      submit.disabled = false;
+    }
+  }
+
+  paint();
+
   return [
-    primaryButton('Bejelentkezés Apple ID-val', () => {
-      location.href = app.supabase.appleSignInUrl();
-    }, { tone: 'secondary' }),
-    el('p.muted.small', {
-      text:
-        'A weben az Apple bejelentkezés átirányítással működik. Ehhez a Supabase ' +
-        'projektben engedélyezni kell az Apple providert (lásd docs/05-beallitas.md).'
-    })
-  ];
+    primaryButton('Belépés Google-fiókkal', () => app.supabase.signInWithGoogle(), {
+      tone: 'secondary'
+    }),
+
+    el('div.auth-divider', null, [el('span', { text: 'vagy e-maillel' })]),
+
+    el('div.auth-form', null, [emailInput, passwordInput, submit, switcher, feedback]),
+
+    isGuest
+      ? el('p.muted.small', {
+          text:
+            'A fiók a MOSTANI vendégfiókodból lesz: a pontjaid, a statisztikád és ' +
+            'az előtörténeted megmarad.'
+        })
+      : null
+  ].filter(Boolean);
+}
+
+/** A Supabase auth hibái angolul jönnek – a gyakoriakat lefordítjuk. */
+function authErrorText(error, mode, isGuest) {
+  const raw = String(error?.message ?? error);
+
+  if (/invalid login credentials/i.test(raw)) {
+    return 'Hibás e-mail vagy jelszó.';
+  }
+  if (/already registered|already been registered|user already exists/i.test(raw)) {
+    return isGuest
+      ? 'Ezzel az e-maillel már van fiók. Jelentkezz ki, és lépj be vele.'
+      : 'Ezzel az e-maillel már van fiók – válts bejelentkezésre.';
+  }
+  if (/email.*not confirmed/i.test(raw)) {
+    return 'Az e-mail még nincs megerősítve. Keresd a levelet a postafiókodban.';
+  }
+  if (/signups? not allowed|email.*disabled|provider.*disabled/i.test(raw)) {
+    return 'Az e-mailes regisztráció nincs engedélyezve a Supabase projektben.';
+  }
+  if (/missing oauth secret|unsupported provider/i.test(raw)) {
+    return 'Ez a bejelentkezési szolgáltató nincs beállítva a Supabase-en.';
+  }
+  if (/password/i.test(raw) && /short|least|weak/i.test(raw)) {
+    return 'A jelszó túl rövid vagy túl egyszerű.';
+  }
+  if (/rate limit|too many/i.test(raw)) {
+    return 'Túl sok próbálkozás. Várj egy kicsit, és próbáld újra.';
+  }
+  return raw;
 }
 
 // ─────────────────────────── beállítások ───────────────────────────
@@ -552,7 +703,14 @@ export function settingsScreen(app) {
 
     card([
       el('h3', { text: 'Visszajelzés' }),
+      toggleRow('Hang', 'soundEnabled'),
       toggleRow('Rezgés', 'hapticsEnabled'),
+      el('p.muted.small', {
+        text:
+          'A hangok szintetizáltak, nincs letöltendő hangfájl. iPhone-on a néma ' +
+          'kapcsoló (silent switch) a böngésző hangját is elhallgattatja – ha nem ' +
+          'szól, érdemes azt ellenőrizni.'
+      }),
       el('p.muted.small', {
         text:
           'iPhone-on a böngésző nem támogatja a rezgést – ez a natív alkalmazás ' +
@@ -601,6 +759,11 @@ function toggleRow(label, key) {
       change: (event) => {
         settings.set(key, event.target.checked);
         if (key === 'hapticsEnabled') haptic(HAPTIC.tap);
+        if (key === 'soundEnabled') {
+          setSoundEnabled(event.target.checked);
+          // Azonnali visszajelzés: a kapcsoló így ellenőrizhető is.
+          if (event.target.checked) sfx.correct();
+        }
       }
     }
   });

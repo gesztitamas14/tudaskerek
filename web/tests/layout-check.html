@@ -17,8 +17,14 @@
   <iframe id="frame"></iframe>
   <script>
     // ?src=#/game → az alkalmazás adott képernyője tölt be a keretbe
-    const requested = new URLSearchParams(location.search).get("src") || "";
-    document.getElementById("frame").src = "../index.html" + requested;
+    // ?page=lobby-shot.html#pin → nem a főalkalmazás, hanem egy adatokkal
+    // feltöltött próbalap (pl. szobalista, PIN-választó), amihez backend kellene.
+    const params = new URLSearchParams(location.search);
+    const page = params.get("page");
+    const requested = params.get("src") || "";
+    document.getElementById("frame").src = page
+      ? "./" + page
+      : "../index.html" + requested;
   </script>
   <script>
     const frame = document.getElementById('frame');
@@ -52,7 +58,7 @@
       lines.push(...offenders.slice(0, 15).map((line) => `  ${line}`));
 
       out.innerHTML = lines.join('<br>');
-    }, 3000);
+    }, 4000);
   </script>
 </body>
 </html>

@@ -190,17 +190,87 @@ ok(qn === 70, `${qn} teszt kérdés betöltve`);
 
 console.log('\n3. Szoba létrehozása, csatlakozás, indítás');
 
+const PIN = '407';
+
 let room = await asPlayer(
   ANNA,
-  `select public.create_room(4::smallint, 2::smallint, null, 1::smallint, 20::smallint)`
+  `select public.create_room(4::smallint, 2::smallint, null, 1::smallint, 20::smallint, ${q(PIN)})`
 );
 ok(room.status === 'lobby', 'a szoba lobby állapotban jött létre');
-ok(/^[A-Z0-9]{6}$/.test(room.code), `a szobakód formátuma jó (${room.code})`);
+ok(room.has_pin === true, 'a szoba PIN-nel védett');
+ok(room.my_pin === PIN, 'a szoba készítője látja a saját PIN-jét');
 
-for (const player of [BELA, CILI, DORA]) {
-  room = await asPlayer(player, `select public.join_room(${q(room.code)})`);
+// ── a nyitott szobák listája: itt találják meg a többiek ──
+const openRooms = await asPlayer(BELA, `select public.list_open_rooms(30::int)`);
+ok(Array.isArray(openRooms) && openRooms.length === 1, `egy nyitott szoba látszik (${openRooms?.length})`);
+ok(openRooms[0]?.id === room.id, 'a lista a most készült szobát adja');
+ok(openRooms[0]?.host_nickname === 'Anna', 'a listán látszik a szoba készítője');
+ok(openRooms[0]?.needs_pin === true, 'a listán látszik, hogy PIN kell');
+ok(
+  !('join_pin' in openRooms[0]) && !('code' in openRooms[0]),
+  'a listában NINCS benne se a PIN, se a belső kód'
+);
+ok(openRooms[0]?.player_count === 1, `a listán látszik a létszám (${openRooms[0]?.player_count})`);
+
+// ── hibás PIN ──
+//
+// A `join_room` burkolót ad vissza és NEM dob kivételt: a hibás tippek
+// számlálóját egy kivétel visszapörgetné a tranzakcióval együtt.
+let attempt = await asPlayer(BELA, `select public.join_room(${q(room.id)}, '123')`);
+ok(attempt.ok === false && attempt.error === 'bad_pin', 'hibás PIN-nel nem lehet belépni');
+ok(attempt.attempts_left === 4, `visszajelzi, hány próbálkozás maradt (${attempt.attempts_left})`);
+
+attempt = await asPlayer(BELA, `select public.join_room(${q(room.id)}, null)`);
+ok(
+  attempt.ok === false && attempt.error === 'bad_pin',
+  'PIN nélkül sem lehet belépni a védett szobába'
+);
+
+// ── próbálkozás-korlát: 3 jegy csak akkor zár, ha nem lehet végigpróbálni ──
+for (let i = 0; i < 3; i++) {
+  await asPlayer(BELA, `select public.join_room(${q(room.id)}, '999')`);
+}
+attempt = await asPlayer(BELA, `select public.join_room(${q(room.id)}, '888')`);
+ok(attempt.error === 'locked', 'öt hibás tipp után zárolás jön');
+
+// A helyes PIN sem segít, amíg a zárolás áll.
+attempt = await asPlayer(BELA, `select public.join_room(${q(room.id)}, ${q(PIN)})`);
+ok(attempt.error === 'locked', 'zárolás alatt a helyes PIN sem engedi be');
+
+ok(
+  (
+    await one(
+      `select failures from public.room_join_attempts
+       where room_id = ${q(room.id)} and player_id = ${q(BELA)}`
+    )
+  ).failures === 5,
+  'a hibás próbálkozások tényleg elmentődtek (a kivétel visszapörgette volna)'
+);
+
+// A zárolás játékosonként külön áll: Cili nem sínyli meg Béla tippelgetését.
+const ciliTry = await asPlayer(CILI, `select public.join_room(${q(room.id)}, ${q(PIN)})`);
+ok(ciliTry.ok === true, 'másik játékost nem érint Béla zárolása');
+
+// Béla zárolását feloldjuk (mintha eltelt volna 10 perc), és jó PIN-nel belép.
+await db.exec(
+  `update public.room_join_attempts set last_failure_at = now() - interval '20 minutes'
+   where room_id = ${q(room.id)} and player_id = ${q(BELA)}`
+);
+
+for (const player of [BELA, DORA]) {
+  const joined = await asPlayer(player, `select public.join_room(${q(room.id)}, ${q(PIN)})`);
+  ok(joined.ok === true, `belépés helyes PIN-nel (${player === BELA ? 'Béla' : 'Dóra'})`);
+  room = joined.room;
 }
 ok(room.players?.length === 4, `mind a négy játékos a szobában van (${room.players?.length})`);
+ok(
+  (
+    await one(
+      `select count(*)::int as n from public.room_join_attempts where room_id = ${q(room.id)}`
+    )
+  ).n === 0,
+  'sikeres belépés után a próbálkozás-számláló törlődik'
+);
 
 const EXTRA = (
   await one(
@@ -210,10 +280,10 @@ const EXTRA = (
 ).id;
 
 try {
-  await asPlayer(EXTRA, `select public.join_room(${q(room.code)})`);
-  ok(false, 'a tele szoba visszautasítja az ötödik játékost');
+  const fullTry = await asPlayer(EXTRA, `select public.join_room(${q(room.id)}, ${q(PIN)})`);
+  ok(fullTry.error === 'full', 'a tele szoba visszautasítja az ötödik játékost');
 } catch (error) {
-  ok(/tele/i.test(error.message), 'a tele szoba visszautasítja az ötödik játékost');
+  fail('a tele szoba visszautasítja az ötödik játékost', error);
 }
 
 try {
@@ -512,9 +582,9 @@ console.log('\n10. Aki mind a 10 kérdést eltalálja, a teljes pontot kapja');
 
 let solo = await asPlayer(
   ANNA,
-  `select public.create_room(2::smallint, 1::smallint, null, 1::smallint, 20::smallint)`
+  `select public.create_room(2::smallint, 1::smallint, null, 1::smallint, 20::smallint, null)`
 );
-solo = await asPlayer(BELA, `select public.join_room(${q(solo.code)})`);
+solo = (await asPlayer(BELA, `select public.join_room(${q(solo.id)}, null)`)).room;
 solo = await asPlayer(ANNA, `select public.start_room(${q(solo.id)})`);
 
 const seenOrdinals = [];
@@ -565,6 +635,114 @@ ok(
   `a hibátlan kör 15 000 pont (kapott: ${soloPlayers.get(ANNA).score})`
 );
 ok(soloPlayers.get(BELA).score === 0, 'aki az első kérdést elvétette, nulla pontot kapott');
+
+// ─────────────────── 11. vendégjáték ───────────────────
+//
+// Vendég (névtelen) játékos ugyanúgy játszhat és szobát is csinálhat, de a
+// pontja nem kerül a NYILVÁNOS ranglistára – a neve automatikusan generált,
+// és a fiók bármikor eldobható. A saját statisztikáját viszont látja.
+
+console.log('\n11. Vendég játszhat, de nem kerül a ranglistára');
+
+const GUEST = (
+  await one(
+    `insert into auth.users (email, raw_user_meta_data, is_anonymous)
+     values (null, jsonb_build_object('nickname', 'Vendeg', 'is_anonymous', true), true)
+     returning id`
+  )
+).id;
+
+ok(
+  (await one(`select is_anonymous from public.profiles where id = ${q(GUEST)}`)).is_anonymous === true,
+  'a vendég profilja vendégként jött létre'
+);
+
+// Nagyon magas pontszám: ha bekerülne, biztosan az élen lenne.
+await db.exec(
+  `insert into public.game_results (player_id, mode, score, questions, correct, is_trusted)
+   values (${q(GUEST)}, 'multiplayer', 999999, 10::smallint, 10::smallint, true)`
+);
+
+const boardWithGuest = (
+  await db.query(`select * from public.leaderboard('all_time', 50::int)`)
+).rows;
+ok(
+  !boardWithGuest.some((row) => row.player_id === GUEST),
+  'a vendég 999 999 pontja NEM jelenik meg a ranglistán'
+);
+ok(boardWithGuest.length > 0, 'a bejelentkezett játékosok viszont ott vannak');
+
+// A saját statisztikájában viszont látszik.
+const guestStats = await asPlayer(GUEST, 'select public.my_stats()');
+ok(
+  Number(guestStats?.profile?.total_score ?? 0) > 0,
+  `a vendég a SAJÁT statisztikájában látja a pontját (${guestStats?.profile?.total_score})`
+);
+
+// Vendég is csinálhat szobát.
+const guestRoom = await asPlayer(
+  GUEST,
+  `select public.create_room(2::smallint, 1::smallint, null, 1::smallint, 15::smallint, '111')`
+);
+ok(guestRoom.status === 'lobby', 'a vendég is tud szobát létrehozni');
+ok(guestRoom.i_am_guest === true, 'a szobaállapot jelzi, hogy vendég vagyok');
+ok(
+  guestRoom.players?.[0]?.is_guest === true,
+  'a játékoslistán is meg van jelölve a vendég'
+);
+
+// ─────────────────── 12. vendégfiók átalakítása igazi fiókká ───────────────────
+//
+// Ez a korábbi hibát fedi le: a `profiles.is_anonymous` mezőt csak a BESZÚRÁS
+// triggere állította, tehát ha egy vendég e-mailt adott meg, a profilja
+// vendégként maradt jelölve – és a ranglistából örökre kimaradt volna.
+
+console.log('\n12. A vendég igazi fiókká alakulva felkerül a ranglistára');
+
+ok(
+  (await one(`select is_anonymous from public.profiles where id = ${q(GUEST)}`)).is_anonymous === true,
+  'kiinduláskor a profil vendégként van jelölve'
+);
+
+// Ezt teszi a GoTrue, amikor a vendég e-mailt és jelszót ad meg
+// (PUT /auth/v1/user): ugyanaz a felhasználó, csak már nem névtelen.
+await db.exec(
+  `update auth.users
+   set email = 'vendeg@example.test', is_anonymous = false
+   where id = ${q(GUEST)}`
+);
+
+ok(
+  (await one(`select is_anonymous from public.profiles where id = ${q(GUEST)}`)).is_anonymous === false,
+  'a trigger átállította a profilt igazi fiókra'
+);
+
+const boardAfterUpgrade = (
+  await db.query(`select * from public.leaderboard('all_time', 50::int)`)
+).rows;
+ok(
+  boardAfterUpgrade.some((row) => row.player_id === GUEST),
+  'az átalakított fiók MOSTMÁR szerepel a ranglistán'
+);
+ok(
+  Number(boardAfterUpgrade.find((row) => row.player_id === GUEST)?.total_score) === 999999,
+  'a vendégként gyűjtött pontja megmaradt'
+);
+
+// Védekező ág: ha a GoTrue nem állítaná az `is_anonymous` jelzőt, az e-mail
+// jelenléte is elég ahhoz, hogy ne vendégnek számítson.
+const GUEST2 = (
+  await one(
+    `insert into auth.users (email, raw_user_meta_data, is_anonymous)
+     values (null, jsonb_build_object('nickname', 'Vendeg2', 'is_anonymous', true), true)
+     returning id`
+  )
+).id;
+await db.exec(`update auth.users set email = 'v2@example.test' where id = ${q(GUEST2)}`);
+ok(
+  (await one(`select is_anonymous from public.profiles where id = ${q(GUEST2)}`)).is_anonymous === false,
+  'ha csak az e-mail jelenik meg (is_anonymous marad), az is igazi fióknak számít'
+);
 
 // ─────────────────── összegzés ───────────────────
 

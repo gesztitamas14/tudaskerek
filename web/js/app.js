@@ -13,6 +13,7 @@ import {
   homeScreen, statsScreen, leaderboardScreen, profileScreen, settingsScreen, aboutScreen
 } from './screens.js';
 import { el, clear, qs, toast, setHapticsEnabled, spinner } from './ui.js';
+import { setSoundEnabled, bindUnlockOnFirstGesture } from './sound.js';
 
 const TABS = [
   { id: 'home', label: 'Játék', icon: '🎡' },
@@ -39,6 +40,10 @@ class App {
     shell.append(spinner('Kérdésbank betöltése…'));
 
     setHapticsEnabled(settings.get('hapticsEnabled'));
+    setSoundEnabled(settings.get('soundEnabled'));
+    // A böngésző csak felhasználói interakció után engedi a hangot, ezért az
+    // AudioContext az első koppintásnál indul.
+    bindUnlockOnFirstGesture();
 
     if (!storageAvailable()) {
       toast(
@@ -66,14 +71,16 @@ class App {
       return;
     }
 
-    // OAuth visszatérés feldolgozása (Apple bejelentkezés a weben)
+    // OAuth visszatérés feldolgozása (Google bejelentkezés a weben)
     if (HAS_BACKEND) {
       try {
         if (await this.supabase.captureOAuthRedirect()) {
           toast('Bejelentkezés sikeres.');
         }
-      } catch {
-        /* nem kritikus */
+      } catch (error) {
+        // A bejelentkezés hibája nem kritikus (a játék offline is megy), de a
+        // felhasználónak látnia kell – különben úgy tűnik, semmi nem történt.
+        toast(error.message, { tone: 'error', duration: 7000 });
       }
     }
 

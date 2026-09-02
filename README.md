@@ -31,9 +31,10 @@ képernyő. Nincs `npm install` – a Node 20 beépített moduljai elegendők.
 |---|---|
 | **PWA** (`web/`) – teljes játék, offline is | ✅ böngészőben tesztelve |
 | **Kérdésbank** – **1157 kérdés, 22 kategória** | ✅ validált |
-| **Backend** (`supabase/`) – 10 migráció, RLS, 25 RPC | ✅ kész |
-| **Multiplayer** – szobák kóddal, 2–5 fő, nézői kérdéslátás | ✅ |
+| **Backend** (`supabase/`) – 12 migráció, RLS, 27 RPC | ✅ kész |
+| **Multiplayer** – kieséses, szobalista + 3 jegyű PIN, 2–5 fő | ✅ |
 | **Ranglista** – örök / havi / heti / napi | ✅ |
+| **Bejelentkezés** – vendég, Google, e-mail + jelszó | ✅ |
 | **Admin felület** (`admin/`) | ✅ kész |
 | **AI pipeline** (`tools/`) – generálás, dedup, fact-check | ✅ élőben tesztelve |
 | **Automatikus közzététel** GitHub Pages-re | ✅ workflow kész |
@@ -87,6 +88,15 @@ időre**. Aki hibázik vagy lekési az időt, kiesik a körből és nézővé v�
 pontjait megtartja. A kör addig megy, amíg elfogy a 10 kérdés, vagy mindenki
 kiesik; utána jön a következő kategória. Az állás végig látszik felül.
 
+**Szobakód nincs.** A nyitott szobák fel vannak sorolva: látszik, kinek a
+szobája, hányan vannak benne, kell-e PIN. A készítő egy **3 jegyű PIN-t** görget
+be, és azt kell megadni a belépéshez. Ez nem titok, hanem zár – ezért a szerver
+játékosonként 5 hibás tipp után 10 percre zárol.
+
+**Vendégként is játszható:** bejelentkezés nélkül is lehet szobát csinálni és
+csatlakozni, csak a pont nem kerül a nyilvános ranglistára. Erre a felület
+figyelmeztet is.
+
 A biztonsági kulcspont: a **helyes válasz addig senkinek nem derül ki, amíg a
 kérdés le nem zárult** – akkor sem, aki már válaszolt. Így egy gyors játékos nem
 tudja megsúgni a többieknek. Ezt SQL kényszeríti ki, nem a felület, és a kliens
@@ -110,10 +120,12 @@ web/                      a PWA – build nélkül futó teljes játék
   js/api.js               Supabase kliens + online/offline driver
   js/wheel.js             canvas kerék
   js/game-screen.js       a kör vezénylése
-  js/multiplayer.js       lobby, szoba, nézői kérdéspanel
+  js/multiplayer.js       szobalista, PIN-es belépés, kieséses szoba
+  js/picker.js            görgetős számjegyválasztó (szoba-PIN)
+  js/sound.js             szintetizált játékhangok (nincs hangfájl)
   js/screens.js           home, statisztika, ranglista, profil, beállítás, névjegy
   tests/                  node --test + böngészős integrációs teszt
-supabase/migrations/      10 migráció: séma, RLS, RPC, multiplayer
+supabase/migrations/      12 migráció: séma, RLS, RPC, multiplayer, auth
 admin/                    kérdéskezelés, review, import/export (statikus)
 tools/src/                seed build/validáció, import, AI generálás,
                           Wikidata, fact-check, ikon, szerver, böngészőteszt
@@ -157,8 +169,8 @@ node tools/src/validate-seed.mjs
 
 ```bash
 node --test web/tests/rules.test.mjs   # 30 teszt: pontozás, kerék, állapotgép
-node tools/src/browser-test.mjs        # 48 ellenőrzés valódi böngészőben
-node tools/src/db-test.mjs             # 70 ellenőrzés igazi PostgreSQL-en
+node tools/src/browser-test.mjs        # 85 ellenőrzés valódi böngészőben
+node tools/src/db-test.mjs             # 101 ellenőrzés igazi PostgreSQL-en
 node tools/src/validate-seed.mjs       # kérdésbank minőségi kapui
 ```
 
@@ -166,12 +178,16 @@ A böngészős teszt valódi Chromium-alapú böngészőt hajt (Edge vagy Chrome
 Playwright/Puppeteer nélkül: lejátszik egy teljes kört, majd végigveszi a
 kieséses multiplayer összes fázisát – beleértve azt, hogy **lezárás előtt
 egyetlen lehetőség sincs helyesként megjelölve**, sem a válaszolónál, sem a
-nézőnél.
+nézőnél. Ellenőrzi a szobalistát, a görgetős PIN-választót, és azt is, hogy a
+hangmotor AudioContextje tényleg elindul (a néma hiba különben nem látszik), és
+a bejelentkezési űrlapot (vendég átalakítása, hibás adat, magyar hibaüzenetek).
 
-Az adatbázis-teszt lefuttatja mind a 10 migrációt és lejátszik két teljes
+Az adatbázis-teszt lefuttatja mind a 12 migrációt és lejátszik két teljes
 szobás játékot **igazi Postgresen** (PGlite = Postgres WebAssemblyre fordítva),
 Docker és Postgres-telepítés nélkül. Ellenőrzi a kiesést, az időtúllépést, a
-körvégi összesítést, a jutalomtáblát (hibátlan kör = 15 000 pont), és kliens
+körvégi összesítést, a jutalomtáblát (hibátlan kör = 15 000 pont), a PIN
+próbálkozás-korlátját, a vendég ranglistából való kizárását és későbbi
+felvételét (ha igazi fiókká alakul), és kliens
 szerepben azt is, hogy a játékos **nem tudja kiolvasni a helyes választ** a
 táblákból. Ehhez egyszer kell `cd tools && npm install`.
 

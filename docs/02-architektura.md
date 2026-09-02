@@ -6,8 +6,8 @@
                         ┌───────────────────────────┐
                         │        Supabase           │
    ┌────────────┐       │  Postgres + RLS + RPC     │
-   │  PWA       │◄─────►│  Auth (vendég / Apple)    │
-   │  web/      │  REST │  10 migráció, 25 RPC      │
+   │  PWA       │◄─────►│  Auth (vendég/Google/mail)│
+   │  web/      │  REST │  12 migráció, 27 RPC      │
    └────────────┘       └─────────────┬─────────────┘
          ▲                            ▲
          │                            │
@@ -33,7 +33,9 @@ kérdéslista, ami elcsúszhatna.
 app.js        – bootstrap, hash-router, shell, service worker frissítés
 screens.js    – home, statisztika, ranglista, profil, beállítások, névjegy
 game-screen.js– a kör vezénylése (kerék → kérdés → válasz → döntés → vége)
-multiplayer.js– lobby, szoba, nézői kérdéspanel
+multiplayer.js– szobalista, PIN-es belépés, kieséses szoba
+picker.js     – görgetős számjegyválasztó (szoba-PIN)
+sound.js      – szintetizált játékhangok (nincs hangfájl)
 ─────────────────────────────────────────────────────────────
 rules.js      – GameEngine, ScoringRules, kerékmatematika (30 egységteszt)
 wheel.js      – canvas rajzolás + pörgetés

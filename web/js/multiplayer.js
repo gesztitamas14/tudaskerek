@@ -26,6 +26,8 @@
 
 import { Wheel } from './wheel.js';
 import { settings } from './store.js';
+import { sfx } from './sound.js';
+import { digitPicker } from './picker.js';
 import {
   el, clear, card, primaryButton, spinner, stateMessage, toast, fmt,
   avatarEmoji, haptic, HAPTIC, categoryBadge
@@ -57,113 +59,269 @@ export function multiplayerScreen(app) {
     return root;
   }
 
-  let maxPlayers = 4;
-  let rounds = 3;
-  let answerSeconds = 20;
-  let questionsPerCategory = 1;
-  let difficulty = null;
   let isWorking = false;
+  let openRooms = [];
+  let refreshTimer = null;
 
-  const codeInput = el('input.code-input', {
-    type: 'text',
-    inputMode: 'text',
-    autocapitalize: 'characters',
-    autocomplete: 'off',
-    spellcheck: false,
-    maxLength: 6,
-    placeholder: 'PL. K7MQ2X',
-    on: {
-      input: (event) => {
-        const filtered = event.target.value.toUpperCase().replace(/[^A-Z0-9]/g, '');
-        event.target.value = filtered.slice(0, 6);
-        joinButton.disabled = event.target.value.length !== 6 || isWorking;
-      }
-    }
-  });
-
-  const joinButton = primaryButton('Csatlakozás', () => join(), {
-    tone: 'secondary',
-    disabled: true
-  });
-
-  const playersStepper = stepper('Játékosok', maxPlayers, 2, 5, (value) => {
-    maxPlayers = value;
-  });
-  const roundsStepper = stepper('Körök száma', rounds, 1, 5, (value) => {
-    rounds = value;
-  });
-  const secondsStepper = stepper('Válaszidő (mp)', answerSeconds, 5, 60, (value) => {
-    answerSeconds = value;
-  }, 5);
-
-  const difficultySelect = el('select.select', {
-    on: { change: (event) => { difficulty = event.target.value === 'mixed' ? null : event.target.value; } }
-  }, [
-    el('option', { value: 'mixed', text: 'Vegyes' }),
-    el('option', { value: 'easy', text: 'Könnyű' }),
-    el('option', { value: 'medium', text: 'Közepes' }),
-    el('option', { value: 'hard', text: 'Nehéz' })
+  const listHost = el('div.room-list');
+  const listCard = card([
+    el('div.card-head', null, [
+      el('h3', { text: 'Nyitott szobák' }),
+      el('button.link-btn', { type: 'button', text: 'Frissítés', on: { click: () => refresh() } })
+    ]),
+    listHost
   ]);
 
-  const wheelModeSelect = el('select.select', {
-    on: { change: (event) => { questionsPerCategory = Number(event.target.value); } }
-  }, [
-    el('option', { value: '1', text: 'Minden kérdés előtt' }),
-    el('option', { value: '10', text: 'Körönként egyszer' })
+  // ── vendégjelzés ──
+  //
+  // Vendégként is lehet szobát csinálni és csatlakozni. A pont viszont nem
+  // kerül a nyilvános ranglistára: a vendégnév generált, a fiók eldobható.
+  const guestNote = el('div.guest-note', { hidden: true }, [
+    el('span', { text: '👤' }),
+    el('span', {
+      text:
+        'Vendégként játszol: a szobában minden működik, de a pontod nem kerül a ' +
+        'nyilvános ranglistára. A saját statisztikád megmarad.'
+    })
   ]);
 
-  const createButton = primaryButton('Szoba létrehozása', () => create());
+  // ─────────── belépés ───────────
 
   async function ensureSignedIn() {
     if (app.supabase.isSignedIn) return true;
     try {
+      // Vendégbelépés: nincs regisztráció, mégis van játékosazonosító, amire
+      // a szobák és a székek hivatkozni tudnak.
       await app.supabase.signInAnonymously();
       return true;
     } catch (error) {
-      toast(`Bejelentkezés nem sikerült: ${error.message}`, { tone: 'error' });
+      toast(`Vendégbelépés nem sikerült: ${error.message}`, { tone: 'error' });
       return false;
     }
   }
 
-  async function create() {
-    if (isWorking) return;
-    isWorking = true;
-    createButton.disabled = true;
+  // ─────────── szobalista ───────────
+
+  async function refresh({ silent = false } = {}) {
+    if (!(await ensureSignedIn())) return;
+    guestNote.hidden = !app.supabase.isAnonymous;
     try {
-      if (!(await ensureSignedIn())) return;
-      const room = await app.supabase.rpc('create_room', {
-        p_max_players: maxPlayers,
-        p_rounds_per_player: rounds,
-        p_difficulty: difficulty,
-        p_questions_per_category: questionsPerCategory,
-        p_answer_seconds: answerSeconds
-      });
-      haptic(HAPTIC.tap);
-      app.navigate('room', { room });
+      openRooms = (await app.supabase.rpc('list_open_rooms', { p_limit: 30 })) ?? [];
+      renderList();
     } catch (error) {
-      toast(error.message, { tone: 'error' });
-    } finally {
-      isWorking = false;
-      createButton.disabled = false;
+      if (!silent) toast(error.message, { tone: 'error' });
     }
   }
 
-  async function join() {
-    if (isWorking) return;
-    isWorking = true;
-    joinButton.disabled = true;
-    try {
-      if (!(await ensureSignedIn())) return;
-      const room = await app.supabase.rpc('join_room', { p_code: codeInput.value });
-      haptic(HAPTIC.tap);
-      app.navigate('room', { room });
-    } catch (error) {
-      toast(error.message, { tone: 'error' });
-    } finally {
-      isWorking = false;
-      joinButton.disabled = codeInput.value.length !== 6;
+  function renderList() {
+    clear(listHost);
+
+    if (openRooms.length === 0) {
+      listHost.append(
+        el('p.muted.small.center', {
+          text: 'Most nincs nyitott szoba. Készíts egyet, és oszd meg a PIN-t!'
+        })
+      );
+      return;
+    }
+
+    for (const item of openRooms) {
+      const full = item.player_count >= item.max_players;
+      listHost.append(
+        el('button.room-item', {
+          type: 'button',
+          disabled: full && !item.i_am_in,
+          on: { click: () => openJoin(item) }
+        }, [
+          el('span.lb-avatar', { text: avatarEmoji(item.host_avatar) }),
+          el('div.room-item-main', null, [
+            el('div.room-item-host', null, [
+              el('span', { text: item.host_nickname }),
+              item.host_is_guest ? el('span.muted.small', { text: '(vendég)' }) : null,
+              item.needs_pin ? el('span', { text: '🔒' }) : null
+            ]),
+            el('div.room-item-meta', null, [
+              el('span', { text: `${item.rounds_per_player} kör` }),
+              el('span', { text: `${item.answer_seconds} mp / kérdés` }),
+              item.difficulty ? el('span', { text: fmt.difficulty(item.difficulty) }) : null,
+              item.i_am_in ? el('span.good', { text: 'már bent vagy' }) : null,
+              full && !item.i_am_in ? el('span.warn', { text: 'tele' }) : null
+            ])
+          ]),
+          el('span.room-item-count', { text: `${item.player_count}/${item.max_players}` })
+        ])
+      );
     }
   }
+
+  // ─────────── csatlakozás PIN-nel ───────────
+
+  function openJoin(item) {
+    haptic(HAPTIC.tap);
+
+    // Nincs PIN: azonnal beléphet.
+    if (!item.needs_pin || item.i_am_in) {
+      join(item, null);
+      return;
+    }
+
+    const feedback = el('p.pin-attempts', { hidden: true });
+    const picker = digitPicker({ length: 3 });
+
+    const dialog = modal({
+      title: `${item.host_nickname} szobája`,
+      body: [
+        el('p.muted.small.center', { text: 'Add meg a szoba 3 jegyű PIN-jét.' }),
+        picker.node,
+        feedback
+      ],
+      confirmLabel: 'Belépés',
+      onConfirm: async (setBusy) => {
+        setBusy(true);
+        const result = await join(item, picker.value(), { keepOpen: true });
+        setBusy(false);
+        if (result?.ok) return true;          // a modal bezárul
+        feedback.hidden = false;
+        feedback.textContent =
+          result?.error === 'locked'
+            ? 'Túl sok hibás PIN. Próbáld újra 10 perc múlva.'
+            : result?.error === 'bad_pin'
+              ? `Hibás PIN. Még ${result.attempts_left ?? 0} próbálkozásod van.`
+              : (result?.message ?? 'Nem sikerült belépni.');
+        haptic(HAPTIC.wrong);
+        sfx.wrong();
+        return false;                          // a modal nyitva marad
+      }
+    });
+
+    root.append(dialog);
+    requestAnimationFrame(() => picker.relayout());
+  }
+
+  async function join(item, pin, { keepOpen = false } = {}) {
+    if (isWorking) return null;
+    isWorking = true;
+    try {
+      if (!(await ensureSignedIn())) return null;
+      const result = await app.supabase.rpc('join_room', {
+        p_room: item.id,
+        p_pin: pin
+      });
+
+      if (!result?.ok) {
+        if (!keepOpen) toast(result?.message ?? 'Nem sikerült belépni.', { tone: 'error' });
+        // Tele/elindult szoba esetén a lista elavult – frissítsük.
+        if (result?.error === 'full' || result?.error === 'started') refresh({ silent: true });
+        return result;
+      }
+
+      haptic(HAPTIC.tap);
+      sfx.tap();
+      app.navigate('room', { room: result.room });
+      return result;
+    } catch (error) {
+      if (!keepOpen) toast(error.message, { tone: 'error' });
+      return { ok: false, message: error.message };
+    } finally {
+      isWorking = false;
+    }
+  }
+
+  // ─────────── új szoba ───────────
+
+  function openCreate() {
+    haptic(HAPTIC.tap);
+
+    let maxPlayers = 4;
+    let rounds = 10;
+    let answerSeconds = 15;
+    let questionsPerCategory = 1;
+    let difficulty = null;
+    let usePin = true;
+
+    const picker = digitPicker({ value: randomPin() });
+
+    const pinRow = el('div', null, [
+      el('p.muted.small.center', {
+        text: 'Ezt a 3 jegyű PIN-t kell megadnia annak, aki belép. Pörgesd be, amit szeretnél.'
+      }),
+      picker.node
+    ]);
+
+    const pinToggle = el('input', {
+      type: 'checkbox',
+      checked: true,
+      on: {
+        change: (event) => {
+          usePin = event.target.checked;
+          pinRow.hidden = !usePin;
+          if (usePin) requestAnimationFrame(() => picker.relayout());
+        }
+      }
+    });
+
+    const difficultySelect = el('select.select', {
+      on: {
+        change: (event) => {
+          difficulty = event.target.value === 'mixed' ? null : event.target.value;
+        }
+      }
+    }, [
+      el('option', { value: 'mixed', text: 'Vegyes' }),
+      el('option', { value: 'easy', text: 'Könnyű' }),
+      el('option', { value: 'medium', text: 'Közepes' }),
+      el('option', { value: 'hard', text: 'Nehéz' })
+    ]);
+
+    const wheelModeSelect = el('select.select', {
+      on: { change: (event) => { questionsPerCategory = Number(event.target.value); } }
+    }, [
+      el('option', { value: '1', text: 'Minden kérdés előtt' }),
+      el('option', { value: '10', text: 'Körönként egyszer' })
+    ]);
+
+    const dialog = modal({
+      title: 'Új szoba',
+      body: [
+        stepper('Játékosok', maxPlayers, 2, 5, (value) => { maxPlayers = value; }),
+        stepper('Körök száma', rounds, 1, 10, (value) => { rounds = value; }),
+        stepper('Válaszidő (mp)', answerSeconds, 5, 60, (value) => { answerSeconds = value; }, 5),
+        el('div.setting-row', null, [el('span', { text: 'Nehézség' }), difficultySelect]),
+        el('div.setting-row', null, [el('span', { text: 'Pörgetés' }), wheelModeSelect]),
+        el('div.setting-row', null, [el('span', { text: 'PIN-kód kérése' }), pinToggle]),
+        pinRow
+      ],
+      confirmLabel: 'Létrehozás',
+      onConfirm: async (setBusy) => {
+        setBusy(true);
+        try {
+          if (!(await ensureSignedIn())) return false;
+          const room = await app.supabase.rpc('create_room', {
+            p_max_players: maxPlayers,
+            p_rounds_per_player: rounds,
+            p_difficulty: difficulty,
+            p_questions_per_category: questionsPerCategory,
+            p_answer_seconds: answerSeconds,
+            p_join_pin: usePin ? picker.value() : null
+          });
+          haptic(HAPTIC.tap);
+          sfx.bank();
+          app.navigate('room', { room });
+          return true;
+        } catch (error) {
+          toast(error.message, { tone: 'error' });
+          return false;
+        } finally {
+          setBusy(false);
+        }
+      }
+    });
+
+    root.append(dialog);
+    requestAnimationFrame(() => picker.relayout());
+  }
+
+  // ─────────── összeállítás ───────────
 
   root.append(
     el('div.about-head', null, [
@@ -176,25 +334,61 @@ export function multiplayerScreen(app) {
           'viszi a legtöbb pontot.'
       })
     ]),
-
-    card([
-      el('h3', { text: 'Új szoba' }),
-      playersStepper,
-      roundsStepper,
-      secondsStepper,
-      el('div.setting-row', null, [el('span', { text: 'Nehézség' }), difficultySelect]),
-      el('div.setting-row', null, [el('span', { text: 'Pörgetés' }), wheelModeSelect]),
-      createButton
-    ]),
-
-    card([
-      el('h3', { text: 'Csatlakozás kóddal' }),
-      codeInput,
-      joinButton
-    ])
+    guestNote,
+    el('div.actions', null, [primaryButton('Új szoba létrehozása', openCreate, { tone: 'gold' })]),
+    listCard
   );
 
+  // A lista magától frissül, hogy ne kelljen nyomkodni: közben más is nyithat
+  // szobát. 6 másodperc elég ritka ahhoz, hogy ne terhelje a backendet.
+  refresh();
+  refreshTimer = setInterval(() => refresh({ silent: true }), 6000);
+  root.addEventListener('screen:unmount', () => clearInterval(refreshTimer), { once: true });
+
   return root;
+}
+
+/** Véletlen 3 jegyű kezdő-PIN, hogy ne kelljen kitalálni. */
+function randomPin() {
+  return String(Math.floor(Math.random() * 1000)).padStart(3, '0');
+}
+
+/**
+ * Egyszerű modális párbeszéd. Az `onConfirm` visszatérési értéke dönt: `true`
+ * esetén bezárul, `false` esetén nyitva marad (pl. hibás PIN után).
+ */
+function modal({ title, body, confirmLabel, onConfirm }) {
+  const overlay = el('div.modal-overlay');
+  const busyState = { value: false };
+
+  const confirm = primaryButton(confirmLabel, async () => {
+    if (busyState.value) return;
+    const done = await onConfirm((busy) => {
+      busyState.value = busy;
+      confirm.disabled = busy;
+    });
+    if (done) overlay.remove();
+  }, { tone: 'gold' });
+
+  const sheet = el('div.modal-sheet', null, [
+    el('h3.center', { text: title }),
+    ...body.filter(Boolean),
+    el('div.actions', null, [
+      confirm,
+      el('button.link-btn', {
+        type: 'button',
+        text: 'Mégsem',
+        on: { click: () => overlay.remove() }
+      })
+    ])
+  ]);
+
+  overlay.append(sheet);
+  overlay.addEventListener('click', (event) => {
+    if (event.target === overlay && !busyState.value) overlay.remove();
+  });
+
+  return overlay;
 }
 
 function stepper(label, initial, min, max, onChange, step = 1) {
@@ -247,6 +441,8 @@ export function roomScreen(app, { room: initialRoom }) {
   let timerFill = null;
   let timerLabel = null;
   let renderedPhase = null;
+  // Melyik másodpercnél csipogtunk utoljára (ne szóljon 5×/másodperc).
+  let lastBeepSecond = null;
 
   const myId = () => app.supabase.userId;
   const isHost = () => myId() === room.host_id;
@@ -343,8 +539,11 @@ export function roomScreen(app, { room: initialRoom }) {
       if (mine) {
         if (mine.is_correct) {
           haptic(HAPTIC.tap);
+          sfx.correct();
         } else {
           haptic(HAPTIC.stop);
+          // Kieséses módban a rossz válasz nem „csak” hiba: kiszáll a körből.
+          sfx.eliminated();
           toast(
             mine.selected_answer === null
               ? 'Lejárt az idő – kiestél a körből.'
@@ -357,7 +556,10 @@ export function roomScreen(app, { room: initialRoom }) {
 
     if (room.last_block_ended_at && lastBlockShown !== room.last_block_ended_at) {
       lastBlockShown = room.last_block_ended_at;
-      if (room.status === 'playing') haptic(HAPTIC.bigWin);
+      if (room.status === 'playing') {
+        haptic(HAPTIC.bigWin);
+        sfx.bigWin();
+      }
     }
   }
 
@@ -400,7 +602,17 @@ export function roomScreen(app, { room: initialRoom }) {
     const left = Math.max(0, (Date.parse(q.deadline_at) - serverNow()) / 1000);
     timerFill.style.width = `${Math.min(100, (left / total) * 100)}%`;
     timerFill.classList.toggle('timer-low', left <= 5);
-    if (timerLabel) timerLabel.textContent = `${Math.ceil(left)} mp`;
+    const seconds = Math.ceil(left);
+    if (timerLabel) timerLabel.textContent = `${seconds} mp`;
+
+    // Az utolsó három másodperc csipog – de csak ha még válaszolhatok, és
+    // másodpercenként legfeljebb egyszer.
+    if (seconds !== lastBeepSecond) {
+      lastBeepSecond = seconds;
+      if (seconds > 0 && seconds <= 3 && !q.i_answered && answerPending === null && !amIOut()) {
+        sfx.countdown();
+      }
+    }
   }
 
   root.addEventListener('screen:unmount', () => stopPolling(), { once: true });
@@ -441,6 +653,7 @@ export function roomScreen(app, { room: initialRoom }) {
     lastSignature = signature(room, phaseOf());
     render();
     haptic(HAPTIC.tap);
+    sfx.tap();
 
     try {
       await app.supabase.rpc('answer_room_question', {
@@ -500,28 +713,31 @@ export function roomScreen(app, { room: initialRoom }) {
     updateClockUi();
   }
 
+  /**
+   * A váró fejlapja. Nincs többé szobakód: a többiek a nyitott szobák
+   * listájában találják meg ezt a szobát. A készítő a PIN-t látja, hogy
+   * be tudja mondani.
+   */
   function roomCodeCard() {
     return card([
-      el('div.muted.small.center', { text: 'SZOBAKÓD' }),
-      el('div.room-code', { text: room.code }),
-      el('button.link-btn', {
-        type: 'button',
-        text: 'Kód másolása',
-        on: {
-          click: async () => {
-            try {
-              await navigator.clipboard.writeText(room.code);
-              toast('Kód a vágólapon.');
-            } catch {
-              toast(`A kód: ${room.code}`);
-            }
-          }
-        }
-      }),
+      room.my_pin
+        ? el('div', null, [
+            el('div.muted.small.center', { text: 'BELÉPÉSI PIN' }),
+            el('div.room-code', { text: room.my_pin }),
+            el('p.muted.small.center', {
+              text: 'Mondd be a többieknek. A szobád a „Nyitott szobák” listában látszik.'
+            })
+          ])
+        : el('div', null, [
+            el('div.muted.small.center', { text: 'VÁRUNK A JÁTÉKOSOKRA' }),
+            room.has_pin
+              ? el('p.muted.small.center', { text: 'Ez a szoba PIN-nel védett.' })
+              : el('p.muted.small.center', { text: 'Ebbe a szobába PIN nélkül is be lehet lépni.' })
+          ]),
       el('div.room-meta', null, [
-        el('span', { text: `👥 ${activePlayers().length}/${room.max_players}` }),
-        el('span', { text: `🔁 ${room.rounds_per_player} kör` }),
-        el('span', { text: `⏱ ${room.answer_seconds} mp` }),
+        el('span', { text: `${activePlayers().length}/${room.max_players} játékos` }),
+        el('span', { text: `${room.rounds_per_player} kör` }),
+        el('span', { text: `${room.answer_seconds} mp / kérdés` }),
         room.difficulty ? el('span', { text: fmt.difficulty(room.difficulty) }) : null
       ])
     ]);
@@ -764,10 +980,14 @@ export function roomScreen(app, { room: initialRoom }) {
             targetIndex,
             turns: settings.get('reduceWheelSpin') ? 1 : 2,
             duration: seconds,
-            onTick: (intensity) => haptic(Math.max(3, Math.round(HAPTIC.tick * intensity)))
+            onTick: (intensity) => {
+              haptic(Math.max(3, Math.round(HAPTIC.tick * intensity)));
+              sfx.wheelTick(intensity);
+            }
           })
           .then(() => {
             haptic(HAPTIC.stop);
+            sfx.wheelStop();
             if (category) caption.append(categoryBadge(category));
           })
           .catch(() => {});

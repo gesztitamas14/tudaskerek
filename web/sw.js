@@ -11,7 +11,7 @@
 // A CACHE_VERSION növelésével minden régi cache törlődik. A `build:seed`
 // futtatása után érdemes emelni, ha a kérdésbank változott.
 
-const CACHE_VERSION = 'tudaskerek-v3';
+const CACHE_VERSION = 'tudaskerek-v5';
 
 const PRECACHE = [
   './',
@@ -24,6 +24,8 @@ const PRECACHE = [
   './js/config.js',
   './js/game-screen.js',
   './js/multiplayer.js',
+  './js/picker.js',
+  './js/sound.js',
   './js/rules.js',
   './js/screens.js',
   './js/store.js',

@@ -19,7 +19,8 @@
     "factcheck": "node src/factcheck.mjs",
     "wikidata": "node src/generate-from-wikidata.mjs",
     "import:opentdb": "node src/import-opentdb.mjs",
-    "test:db": "node src/db-test.mjs"
+    "test:db": "node src/db-test.mjs",
+    "bundle:migrations": "node src/bundle-migrations.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.123.0",

@@ -454,6 +454,420 @@
         'jelzi, hogy új kategória jön'
       );
       unmountRoom(node);
+
+      // ── 6. szobalista és a 3 jegyű PIN ──
+      //
+      // Nincs többé generált szobakód: a játékos a nyitott szobák listájából
+      // választ, és görgetős PIN-nel léphet be.
+      const { multiplayerScreen } = await import('../js/multiplayer.js');
+
+      const OPEN_ROOMS = [
+        {
+          id: 'room-locked',
+          host_nickname: 'Anna',
+          host_avatar: 'fox',
+          host_is_guest: false,
+          max_players: 4,
+          rounds_per_player: 10,
+          answer_seconds: 15,
+          questions_per_category: 1,
+          difficulty: null,
+          created_at: new Date().toISOString(),
+          needs_pin: true,
+          player_count: 2,
+          i_am_in: false
+        },
+        {
+          id: 'room-open',
+          host_nickname: 'Cili',
+          host_avatar: 'cat',
+          host_is_guest: true,
+          max_players: 3,
+          rounds_per_player: 5,
+          answer_seconds: 20,
+          questions_per_category: 10,
+          difficulty: 'easy',
+          created_at: new Date().toISOString(),
+          needs_pin: false,
+          player_count: 1,
+          i_am_in: false
+        },
+        {
+          id: 'room-full',
+          host_nickname: 'Dora',
+          host_avatar: 'owl',
+          host_is_guest: false,
+          max_players: 2,
+          rounds_per_player: 3,
+          answer_seconds: 30,
+          questions_per_category: 1,
+          difficulty: null,
+          created_at: new Date().toISOString(),
+          needs_pin: true,
+          player_count: 2,
+          i_am_in: false
+        }
+      ];
+
+      const rpcLog = [];
+
+      function makeLobbyApp({ joinResult, isAnonymous = true }) {
+        return {
+          bank,
+          supabase: {
+            isConfigured: true,
+            isSignedIn: true,
+            isAnonymous,
+            userId: ME,
+            signInAnonymously: async () => ({}),
+            rpc: async (name, params) => {
+              rpcLog.push({ name, params });
+              if (name === 'list_open_rooms') return OPEN_ROOMS;
+              if (name === 'join_room') return joinResult(params);
+              if (name === 'create_room') return { id: 'new-room', status: 'lobby', players: [] };
+              throw new Error('nem vart RPC: ' + name);
+            }
+          },
+          sync: { scoringRules: async () => FALLBACK_RULES, run: async () => {} },
+          navigate: (screen, params) => rpcLog.push({ name: 'navigate', screen, params }),
+          refreshCurrentScreen: () => {},
+          pushProfile: () => {}
+        };
+      }
+
+      const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+      let lobby = multiplayerScreen(
+        makeLobbyApp({ joinResult: () => ({ ok: true, room: { id: 'x', players: [] } }) })
+      );
+      roomHost.append(lobby);
+      await wait(120);
+
+      check(
+        roomHost.querySelectorAll('.room-item').length === 3,
+        `mindhárom nyitott szoba megjelenik (${roomHost.querySelectorAll('.room-item').length})`
+      );
+      check(
+        roomHost.textContent.includes('Anna') && roomHost.textContent.includes('Cili'),
+        'a listán a szobák készítőinek neve látszik'
+      );
+      check(
+        roomHost.textContent.includes('🔒'),
+        'a PIN-nel védett szoba zárral van jelölve'
+      );
+      check(
+        roomHost.querySelector('.room-item:last-of-type')?.disabled === true,
+        'a tele szoba nem választható'
+      );
+      check(
+        roomHost.querySelector('.guest-note')?.hidden === false,
+        'vendégként figyelmeztet, hogy a pont nem kerül ranglistára'
+      );
+      check(
+        !roomHost.textContent.includes('SZOBAKÓD') && !roomHost.querySelector('.code-input'),
+        'nincs többé generált szobakód, se kódbeíró mező'
+      );
+
+      // ── PIN nélküli szoba: azonnal belép ──
+      rpcLog.length = 0;
+      roomHost.querySelectorAll('.room-item')[1].click();
+      await wait(60);
+      const directJoin = rpcLog.find((entry) => entry.name === 'join_room');
+      check(Boolean(directJoin), 'PIN nélküli szobánál azonnal indul a belépés');
+      check(
+        directJoin?.params?.p_pin === null && directJoin?.params?.p_room === 'room-open',
+        'PIN nélküli belépésnél nem megy PIN a szerverre'
+      );
+
+      // ── PIN-nel védett szoba: modális görgetős választó ──
+      rpcLog.length = 0;
+      roomHost.querySelectorAll('.room-item')[0].click();
+      await wait(60);
+
+      check(Boolean(roomHost.querySelector('.modal-overlay')), 'PIN-es szobánál párbeszéd nyílik');
+      check(
+        rpcLog.every((entry) => entry.name !== 'join_room'),
+        'a párbeszéd megnyitása még nem küld belépést'
+      );
+      const columns = roomHost.querySelectorAll('.picker-col');
+      check(columns.length === 3, `három számjegy-oszlop van (${columns.length})`);
+      check(
+        roomHost.querySelectorAll('.picker-col .picker-item').length === 30,
+        'minden oszlopban 0–9 választható'
+      );
+      check(
+        columns[0]?.querySelector('.picker-item') !== null &&
+          getComputedStyle(columns[0]).overflowY === 'scroll',
+        'az oszlopok görgethetők (nem sima beviteli mező)'
+      );
+
+      // A választó billentyűzetről is állítható – így teszteljük az értékét.
+      for (const [index, digit] of ['4', '0', '7'].entries()) {
+        columns[index].focus();
+        columns[index].dispatchEvent(
+          new KeyboardEvent('keydown', { key: digit, bubbles: true })
+        );
+      }
+      await wait(120);
+      check(
+        roomHost.querySelectorAll('.picker-item.picker-active').length === 3,
+        'mindhárom oszlopban ki van jelölve egy szám'
+      );
+
+      // ── hibás PIN: a párbeszéd nyitva marad, és kiírja, mennyi maradt ──
+      lobby.dispatchEvent(new CustomEvent('screen:unmount'));
+      roomHost.replaceChildren();
+
+      lobby = multiplayerScreen(
+        makeLobbyApp({
+          joinResult: () => ({ ok: false, error: 'bad_pin', attempts_left: 3, message: 'Hibás PIN.' })
+        })
+      );
+      roomHost.append(lobby);
+      await wait(120);
+      roomHost.querySelectorAll('.room-item')[0].click();
+      await wait(60);
+      roomHost.querySelector('.modal-sheet .btn-gold')?.click();
+      await wait(120);
+
+      check(
+        Boolean(roomHost.querySelector('.modal-overlay')),
+        'hibás PIN után a párbeszéd NEM zárul be'
+      );
+      check(
+        roomHost.textContent.includes('Még 3 próbálkozásod'),
+        'kiírja, hány próbálkozás maradt'
+      );
+
+      lobby.dispatchEvent(new CustomEvent('screen:unmount'));
+      roomHost.replaceChildren();
+
+      // ── 7. hangmotor ──
+      //
+      // A hang eddig csak egy beállítás volt, ami semmit nem tett. A néma
+      // hiba nem látszik a felületen, ezért itt ténylegesen elindítjuk az
+      // AudioContextet, és minden effektet meghívunk.
+      const { sfx, unlock, audioState, setSoundEnabled, isSoundEnabled } =
+        await import('../js/sound.js');
+
+      check(audioState() === 'none', 'induláskor még nincs AudioContext');
+
+      unlock();
+      // A `resume()` ígéretet ad vissza; adjunk neki egy pillanatot.
+      await new Promise((resolve) => setTimeout(resolve, 80));
+
+      check(
+        audioState() === 'running',
+        `az AudioContext elindult (${audioState()})`
+      );
+
+      // Minden effekt lefut kivétel nélkül. Ha egy oszcillátor-paraméter
+      // érvénytelen (pl. 0 Hz-re csúszó exponenciális rámpa), az itt derül ki.
+      let soundError = null;
+      try {
+        sfx.tap();
+        sfx.wheelTick(0);
+        sfx.wheelTick(1);
+        sfx.wheelStop();
+        sfx.correct();
+        sfx.wrong();
+        sfx.eliminated();
+        sfx.bigWin();
+        sfx.bank();
+        sfx.countdown();
+        sfx.timeout();
+        sfx.newQuestion();
+      } catch (error) {
+        soundError = error;
+      }
+      check(soundError === null, `minden hangeffekt hibátlanul lefut${soundError ? ': ' + soundError.message : ''}`);
+
+      // Kikapcsolva ne szólaljon meg semmi – és ne is dobjon.
+      setSoundEnabled(false);
+      check(isSoundEnabled() === false, 'a hang kikapcsolható');
+      let mutedError = null;
+      try {
+        sfx.bigWin();
+        sfx.wheelTick(1);
+      } catch (error) {
+        mutedError = error;
+      }
+      check(mutedError === null, 'kikapcsolt hangnál sem dob hibát');
+      setSoundEnabled(true);
+
+      // A beállítás alapértéke: a hang legyen bekapcsolva.
+      const { settings: soundSettings } = await import('../js/store.js');
+      localStorage.removeItem('tudaskerek.settings');
+      check(
+        soundSettings.get('soundEnabled') === true,
+        'a hang alapból be van kapcsolva'
+      );
+
+      // ── 8. bejelentkezés: Google és e-mail (Apple helyett) ──
+      const { profileScreen } = await import('../js/screens.js');
+
+      function makeAuthApp({ signedIn, anonymous, calls, fail = null }) {
+        return {
+          bank,
+          supabase: {
+            isConfigured: true,
+            isSignedIn: signedIn,
+            isAnonymous: anonymous,
+            userId: signedIn ? ME : null,
+            signInWithGoogle: () => calls.push({ name: 'google' }),
+            signInWithEmail: async (email, password) => {
+              calls.push({ name: 'signIn', email, password });
+              if (fail) throw fail;
+              return {};
+            },
+            signUpWithEmail: async (email, password) => {
+              calls.push({ name: 'signUp', email, password });
+              if (fail) throw fail;
+              return { session: {}, needsConfirmation: false };
+            },
+            upgradeGuest: async (email, password) => {
+              calls.push({ name: 'upgrade', email, password });
+              if (fail) throw fail;
+              return {};
+            },
+            signOut: () => calls.push({ name: 'signOut' }),
+            rpc: async () => ({})
+          },
+          sync: { scoringRules: async () => FALLBACK_RULES, run: async () => {} },
+          navigate: () => {},
+          refreshCurrentScreen: () => calls.push({ name: 'refresh' }),
+          pushProfile: () => {}
+        };
+      }
+
+      const fill = (email, password) => {
+        roomHost.querySelector('.auth-form input[type=email]').value = email;
+        roomHost.querySelector('.auth-form input[type=password]').value = password;
+      };
+      const clickSubmit = () => roomHost.querySelector('.auth-form .btn').click();
+      const pause = (ms = 80) => new Promise((resolve) => setTimeout(resolve, ms));
+
+      // ── 8a. nincs bejelentkezve: Google + e-mail választható ──
+      let calls = [];
+      roomHost.append(profileScreen(makeAuthApp({ signedIn: false, anonymous: true, calls })));
+
+      check(
+        !roomHost.textContent.includes('Apple'),
+        'nincs többé Apple bejelentkezés a felületen'
+      );
+      check(
+        roomHost.textContent.includes('Belépés Google-fiókkal'),
+        'van Google bejelentkezés'
+      );
+      check(
+        Boolean(roomHost.querySelector('.auth-form input[type=email]')) &&
+          Boolean(roomHost.querySelector('.auth-form input[type=password]')),
+        'van e-mail + jelszó űrlap'
+      );
+
+      // Érvénytelen e-mail: nem küld semmit a szervernek.
+      fill('nemjo', 'titkos123');
+      clickSubmit();
+      await pause();
+      check(
+        calls.length === 0 && roomHost.textContent.includes('érvényes e-mail'),
+        'érvénytelen e-mailt nem küld el, hanem jelzi'
+      );
+
+      // Rövid jelszó szintén megáll a kliensen.
+      fill('teszt@example.com', '123');
+      clickSubmit();
+      await pause();
+      check(
+        calls.length === 0 && roomHost.textContent.includes('legalább 6 karakter'),
+        'túl rövid jelszót nem küld el'
+      );
+
+      // Érvényes adat → bejelentkezés (alapból ez a mód).
+      fill('teszt@example.com', 'titkos123');
+      clickSubmit();
+      await pause();
+      check(
+        calls.some((entry) => entry.name === 'signIn' && entry.email === 'teszt@example.com'),
+        'érvényes adattal bejelentkezést indít'
+      );
+
+      // Átváltás regisztrációra.
+      calls.length = 0;
+      roomHost.querySelector('.auth-form .link-btn').click();
+      fill('uj@example.com', 'titkos123');
+      clickSubmit();
+      await pause();
+      check(
+        calls.some((entry) => entry.name === 'signUp'),
+        'átváltás után regisztrációt indít'
+      );
+      roomHost.replaceChildren();
+
+      // ── 8b. vendégként: a MEGLÉVŐ fiókot alakítja át, nem újat csinál ──
+      calls = [];
+      roomHost.append(profileScreen(makeAuthApp({ signedIn: true, anonymous: true, calls })));
+
+      check(
+        roomHost.textContent.includes('nem kerül a nyilvános ranglistára'),
+        'vendégnél elmondja, mi a hátránya'
+      );
+      check(
+        roomHost.querySelector('.auth-form .link-btn')?.hidden === true,
+        'vendégnél nincs „bejelentkezés / regisztráció” választás'
+      );
+      check(
+        roomHost.textContent.includes('eredményeid megmaradnak') ||
+          roomHost.textContent.includes('megmarad'),
+        'vendégnél jelzi, hogy az eredmények megmaradnak'
+      );
+
+      fill('vendeg@example.com', 'titkos123');
+      clickSubmit();
+      await pause();
+      check(
+        calls.some((entry) => entry.name === 'upgrade'),
+        'vendégnél a meglévő fiókot alakítja át (nem új regisztráció)'
+      );
+      check(
+        !calls.some((entry) => entry.name === 'signUp'),
+        'vendégnél NEM hív regisztrációt – az elveszítené a statisztikát'
+      );
+      roomHost.replaceChildren();
+
+      // ── 8c. szerverhiba magyarul ──
+      calls = [];
+      roomHost.append(
+        profileScreen(
+          makeAuthApp({
+            signedIn: false,
+            anonymous: true,
+            calls,
+            fail: new Error('Invalid login credentials')
+          })
+        )
+      );
+      fill('teszt@example.com', 'rosszjelszo');
+      clickSubmit();
+      await pause();
+      check(
+        roomHost.textContent.includes('Hibás e-mail vagy jelszó'),
+        'a szerver angol hibáját magyarul írja ki'
+      );
+      roomHost.replaceChildren();
+
+      // ── 8d. bejelentkezve: csak kijelentkezés ──
+      calls = [];
+      roomHost.append(profileScreen(makeAuthApp({ signedIn: true, anonymous: false, calls })));
+      check(
+        !roomHost.querySelector('.auth-form') && roomHost.textContent.includes('Kijelentkezés'),
+        'bejelentkezve csak kijelentkezés látszik'
+      );
+      check(
+        roomHost.textContent.includes('felkerülsz a ranglistára'),
+        'bejelentkezve jelzi, hogy a pont a ranglistára kerül'
+      );
+      roomHost.replaceChildren();
     }
 
     run()

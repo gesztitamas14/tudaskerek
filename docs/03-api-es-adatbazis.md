@@ -46,10 +46,11 @@ answer_set_hash text  generated always as (answer_set_hash(a,b,c,d)) stored
 
 | Tábla | Mit tárol |
 |---|---|
-| `rooms` | szobakód, host, létszám, aktuális kör, időzítés (`answer_seconds`, `spin_seconds`, `reveal_seconds`) |
+| `rooms` | host, létszám, aktuális kör, 3 jegyű `join_pin`, időzítés (`answer_seconds`, `spin_seconds`, `reveal_seconds`) |
 | `room_players` | résztvevők, székek, összesített pont, köri pont, kiesett-e |
 | `room_questions` | a szobában feltett kérdések: kör, sorszám, kategória, határidők |
 | `room_answers` | ki mit válaszolt, jó volt-e, mennyi pontot ért |
+| `room_join_attempts` | hibás PIN-próbálkozások játékosonként (végigpróbálás ellen) |
 
 A `room_questions` és a `room_answers` táblákra **szándékosan nincs semmilyen
 kliensjog** (se grant, se policy). A kliens mindent a `room_tick()` /
@@ -131,7 +132,7 @@ ismételni, mint játszhatatlan kategóriát adni.
 
 | RPC | Mit ad |
 |---|---|
-| `leaderboard(scope, limit)` | `all_time` / `month` / `week` / `day` rangsor; **csak `is_trusted` eredmények** |
+| `leaderboard(scope, limit)` | `all_time` / `month` / `week` / `day` rangsor; **csak `is_trusted` eredmény és nem vendég játékos** |
 | `my_rank(scope)` | a hívó helye a top 200-ban |
 | `my_stats()` | profil + kategóriabontás + legutóbbi körök |
 | `attributions()` | licenc-megkötéses források összesítése (CC BY-SA feltüntetéshez) |
@@ -141,8 +142,9 @@ ismételni, mint játszhatatlan kategóriát adni.
 
 | RPC | Mit tesz |
 |---|---|
-| `create_room(max_players, rounds, difficulty, questions_per_category, answer_seconds)` | szoba + 6 karakteres kód |
-| `join_room(code)` | csatlakozás, szék kiosztása, visszatérő játékos kezelése |
+| `create_room(max_players, rounds, difficulty, questions_per_category, answer_seconds, join_pin)` | szoba, opcionális 3 jegyű PIN-nel |
+| `list_open_rooms(limit)` | a nyitott (lobby) szobák – a PIN **soha** nincs benne, csak a `needs_pin` jelző |
+| `join_room(room, pin)` | csatlakozás PIN-nel; burkolót ad vissza (lásd lent) |
 | `set_ready(room, ready)` | készenlét |
 | `start_room(room)` | indítás – csak host, min. 2 játékos |
 | **`room_tick(room)`** | **a játékot hajtó RPC**: lezárás, kiesés, továbblépés, majd a teljes állapot |
@@ -260,8 +262,72 @@ Egy kérdés egy szobában csak egyszer jöhet elő – ezt a
 `room_questions (room_id, question_id)` unique index garantálja, nem csak a
 kiválasztó lekérdezés.
 
-A szobakód olyan ábécéből generálódik, amiben nincs `I`, `O`, `S`, `0`, `1`, `5`
-– ezeket szóban és írásban gyakran összekeverik.
+#### Belépés: szobalista + 3 jegyű PIN
+
+Nincs generált szobakód a felületen. A `list_open_rooms()` adja a nyitott
+szobákat, és a belépés a szoba azonosítójával + PIN-nel történik.
+
+A listában **soha nincs benne a PIN**, csak az, hogy kell-e:
+
+```json
+[{ "id": "…", "host_nickname": "Anna", "host_avatar": "fox",
+   "host_is_guest": false, "max_players": 4, "rounds_per_player": 10,
+   "answer_seconds": 15, "difficulty": null,
+   "needs_pin": true, "player_count": 2, "i_am_in": false }]
+```
+
+A `rooms.code` oszlop megmaradt, de **csak belső azonosító** (naplók,
+támogatás): a felület nem mutatja, és nem lehet vele csatlakozni. Nem töröltük,
+mert egyedi és stabil kapaszkodó egy szobára – a 3 jegyű PIN nyilvánvalóan nem
+egyedi.
+
+#### Miért ad a `join_room()` burkolót és nem dob kivételt?
+
+Ez a projekt egyetlen RPC-je, ami hibát is adatként ad vissza:
+
+```json
+siker:  { "ok": true,  "room": { …szobaállapot… } }
+hiba:   { "ok": false, "error": "bad_pin", "attempts_left": 3, "message": "Hibás PIN." }
+```
+
+Az `error` lehet `bad_pin`, `locked`, `full`, `started` vagy `not_found`.
+
+**Az ok nem stílus, hanem kényszer.** A hibás PIN-t számolni kell, különben
+1000 lehetőséget végig lehet próbálni. Egy `raise exception` viszont
+visszapörgeti az egész tranzakciót – beleértve a most beírt számlálósort is. A
+PL/pgSQL-ben nincs autonóm tranzakció, tehát nem lehet „írok, majd dobok”. Ha
+kivételt dobnánk, a számláló mindig nullán maradna, és a korlát papíron
+létezne, a valóságban nem.
+
+#### A PIN próbálkozás-korlátja
+
+Három jegy 1000 lehetőség: kézzel is végigpróbálható. Ezért a
+`room_join_attempts` tábla **játékosonként és szobánként** számol, és 5 hibás
+tipp után 10 percre zár. Az időablak lejártával a számláló nullázódik, sikeres
+belépés után a sor törlődik.
+
+Ez játékosonként külön áll: egy rossz tippelő nem zárja ki a többieket.
+
+**Amit ez nem véd meg:** aki új névtelen fiókot csinál, annak új számlálója
+lesz. Ez tudatos kompromisszum – a PIN itt nem titok, hanem zár, ami idegent
+tart ki egy barátok közti szobából. A Supabase a regisztrációkat amúgy is
+rate-limitálja.
+
+A `room_join_attempts` táblára nincs semmilyen kliensjog, és nincs policy sem:
+csak a `join_room()` írja.
+
+#### Vendégjáték
+
+Névtelenül bejelentkezett (vendég) játékos ugyanúgy csinálhat szobát és
+csatlakozhat. Két különbség:
+
+- a `leaderboard()` kizárja (`where not p.is_anonymous`) – a vendégnév generált,
+  és a fiók bármikor eldobható, tehát a nyilvános rangsorba nem való,
+- a `room_state()` `i_am_guest` és a játékosoknál `is_guest` jelzőt ad, hogy a
+  felület ki tudja írni.
+
+A `my_stats()` viszont működik: a vendég a **saját** statisztikáját látja.
+A `game_results` sor is elkészül, csak a nyilvános rangsorba nem számít.
 
 ### Moderátori / admin
 

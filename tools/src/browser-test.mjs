@@ -96,6 +96,9 @@ function runBrowser(browser, url, { screenshot = null, budget = 45000, windowSiz
     '--disable-gpu',
     '--no-sandbox',
     '--hide-scrollbars',
+    // Enélkül a fejnélküli böngésző nem indítja el az AudioContextet gesztus
+    // nélkül, és a hangteszt mindig 'suspended'-et látna.
+    '--autoplay-policy=no-user-gesture-required',
     '--force-device-scale-factor=1',
     `--window-size=${windowSize}`,
     `--virtual-time-budget=${budget}`,
@@ -168,7 +171,14 @@ try {
       ['pwa-home.png', ''],
       ['pwa-game.png', '%23/game'],
       ['pwa-stats.png', '%23/stats'],
+      ['pwa-profile.png', '%23/profile'],
       ['pwa-settings.png', '%23/settings']
+    ];
+    // A szobalista és a PIN-választó nem a fő navigációból érhető el (backend
+    // kell hozzá), ezért saját, adatokkal feltöltött lapról készül a kép.
+    const lobbyShots = [
+      ['pwa-lobby.png', ''],
+      ['pwa-pin.png', '%23pin']
     ];
     console.log('\nKépernyőképek:');
     for (const [name, hash] of shots) {
@@ -177,6 +187,17 @@ try {
         browser,
         `http://localhost:${PORT}/tests/layout-check.html?src=${hash}`,
         { screenshot: target, budget: 12000, windowSize: '460,1000' }
+      );
+      console.log(`  ${target}`);
+    }
+    for (const [name, hash] of lobbyShots) {
+      const target = join(SHOT_DIR, name);
+      // A layout-check keretén át: a fejnélküli böngésző `--window-size`-a nem
+      // hat (innerWidth mindig ~492), az iframe viszont pontosan 390px.
+      await runBrowser(
+        browser,
+        `http://localhost:${PORT}/tests/layout-check.html?page=lobby-shot.html${hash}`,
+        { screenshot: target, budget: 14000, windowSize: '460,1000' }
       );
       console.log(`  ${target}`);
     }

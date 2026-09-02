@@ -46,7 +46,7 @@ const DEFAULT_SETTINGS = {
   nickname: '',
   avatar: 'fox',
   hapticsEnabled: true,
-  soundEnabled: false,
+  soundEnabled: true,
   showExplanations: true,
   onlyHungarianCategories: false,
   reduceWheelSpin: false,

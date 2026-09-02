@@ -12,3 +12,6 @@ node_modules/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# generált: a migrációk összefűzött változata (node tools/src/bundle-migrations.mjs)
+supabase/all-migrations.sql

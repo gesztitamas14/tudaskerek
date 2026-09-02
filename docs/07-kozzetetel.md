@@ -129,7 +129,7 @@ REST API-val. Az ingyenes csomag ehhez a projekthez bőven elég:
 | Erőforrás | Free tier | Amire nekünk kell |
 |---|---|---|
 | Adatbázis | 500 MB | 50 000 kérdés is kb. 40–60 MB |
-| Auth | 50 000 aktív felhasználó / hó | vendég + Apple bejelentkezés |
+| Auth | 50 000 aktív felhasználó / hó | vendég + Google / e-mail bejelentkezés |
 | Egress | 5 GB / hó | egy kérdés kb. 300 bájt |
 | Projekt | 2 db | dev + éles |
 
@@ -154,8 +154,14 @@ npx supabase db push
 
 **B) Kézzel, az SQL Editorban**
 
-A `supabase/migrations/` fájljait **fájlnév szerinti sorrendben** másold be és
-futtasd le (a sorrend kötelező, mert egymásra épülnek):
+Egy fájlba fűzve a legkényelmesebb – a sorrendet így nem lehet elrontani:
+
+```bash
+node tools/src/bundle-migrations.mjs      # → supabase/all-migrations.sql
+```
+
+Ezt illeszd be a **SQL Editor → New query** ablakba, és futtasd egyszerre.
+(A fájl generált, nincs verziókövetve.) A benne lévő migrációk sorrendje:
 
 ```
 20260901090000_extensions.sql
@@ -168,6 +174,8 @@ futtasd le (a sorrend kötelező, mert egymásra épülnek):
 20260901090700_rls_and_grants.sql
 20260901090800_seed_categories.sql
 20260901091000_elimination_multiplayer.sql
+20260901091100_room_list_and_pin.sql
+20260901091200_google_and_email_auth.sql
 ```
 
 ### 2.3 A kérdések feltöltése
@@ -205,13 +213,26 @@ automatikusan újrapublikál, és a ranglista + multiplayer élesedik.
 **Authentication → Providers:**
 
 - **Anonymous sign-ins: BE.** Ez adja a vendég módot: a játékos regisztráció
-  nélkül kap szerveroldali fiókot, pontszámot és ranglista-helyet. **A
-  multiplayerhez ez kell**, mert szobához csak bejelentkezett felhasználó tud
-  csatlakozni.
-- **Apple: opcionális.** Weben Apple Service ID kell hozzá.
+  nélkül kap szerveroldali fiókot és statisztikát. **A multiplayerhez ez
+  kötelező**, mert szobához csak bejelentkezett felhasználó tud csatlakozni.
+  A vendég pontja szándékosan NEM kerül a nyilvános ranglistára.
+- **Email: BE** (alapból az). Ha kikapcsolod a *Confirm email*-t, e-mail-küldés
+  nélkül is működik a regisztráció – az ingyenes Supabase beépített levelezője
+  óránként csak néhány levelet küld, tehát valódi használatra amúgy sem elég.
+- **Google: opcionális, ingyenes.** Kell hozzá egy Google Cloud OAuth kliens
+  (Client ID + Client Secret), a Return URL pedig:
+  `https://<projekt>.supabase.co/auth/v1/callback`.
+
+Az **Apple bejelentkezés kimaradt a projektből**: fizetős Apple Developer
+tagságot (99 USD/év) és egy félévente cserélendő, `.p8` kulccsal aláírt titkot
+igényel. A Google ugyanazt adja ingyen.
+
+Aki vendégként kezdett, később megadhat e-mailt és jelszót: **ugyanaz a fiók
+marad**, tehát a pontjai és a statisztikája megmaradnak, és felkerül a
+ranglistára.
 
 **Authentication → URL Configuration → Redirect URLs:** add hozzá a Pages
-címedet (`https://<felhasznalo>.github.io/tudaskerek/`), különben az Apple
+címedet (`https://<felhasznalo>.github.io/tudaskerek/`), különben a Google
 bejelentkezés visszatérése elutasításra kerül.
 
 ---
@@ -340,15 +361,29 @@ Ha bármelyik hiányzik, a felület elmondja, mi hiányzik.
 
 ### 3.7 Szoba használata
 
-1. Egy játékos létrehoz szobát: létszám 2–5, körök száma 1–5, válaszidő,
-   nehézség, és hogy minden kérdés előtt pörögjön-e a kerék vagy körönként
-   egyszer.
-2. Megkapja a **6 karakteres kódot** (pl. `K7MQ2X`) – ezt megosztja.
-   A kódban nincs `I`, `O`, `S`, `0`, `1`, `5`, mert ezeket szóban és írásban
-   gyakran összekeverik.
-3. A többiek beírják a kódot, és jelzik, hogy készen állnak.
+Nincs kód, amit be kellene diktálni: a nyitott szobák **fel vannak sorolva**.
+
+1. Egy játékos létrehoz szobát: létszám 2–5, körök száma 1–10 (alap: 10),
+   válaszidő (alap: 15 mp), nehézség, és hogy minden kérdés előtt pörögjön-e a
+   kerék vagy körönként egyszer.
+2. Megad egy **3 jegyű PIN-t** egy görgetős választón. (Ki is kapcsolható –
+   akkor bárki beléphet a listáról.)
+3. A többiek a „Nyitott szobák” listában látják a szobát: kinek a szobája,
+   hányan vannak benne, kell-e PIN. Rákoppintanak, begörgetik a PIN-t, és bent
+   vannak.
 4. A szoba létrehozója indítja a játékot – innentől automatikusan megy.
-5. Kiesésnél a telefon rezeg, és kiírja, hogy mostantól néző vagy.
+5. Kiesésnél a telefon rezeg, hangot ad, és kiírja, hogy mostantól néző vagy.
+
+**Miért 3 jegy, és miért elég?** Mert nem titok, hanem zár: azt akadályozza
+meg, hogy idegen beessen a szobába. Három jegy 1000 lehetőség, ami kézzel
+végigpróbálható lenne, ezért a szerver **játékosonként és szobánként 5 hibás
+tipp után 10 percre zárol**. Ez nem kriptográfiai védelem, és nem is akar az
+lenni – barátok közti szobához pont elég, viszont szóban bemondható.
+
+**Vendégjáték:** aki nem jelentkezett be, az is csinálhat szobát és
+csatlakozhat. A pontja viszont nem kerül a nyilvános ranglistára, mert a
+vendégnév generált és a fiók eldobható. Erre a felület figyelmeztet is. A saját
+statisztikája megmarad.
 
 ---
 

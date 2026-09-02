@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>TudásKerék – szobalista és PIN-választó (kép)</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <!--
+    Csak képernyőkép készítéséhez: a nyitott szobák listája és a görgetős
+    PIN-választó, valódi adat és backend nélkül.
+      node tools/src/shot-lobby.mjs
+  -->
+  <div class="viewport"><div id="host"></div></div>
+
+  <script type="module">
+    import { multiplayerScreen } from '../js/multiplayer.js';
+    import { QuestionBank } from '../js/api.js';
+
+    const bank = new QuestionBank();
+    await bank.load();
+
+    const ROOMS = [
+      { id: 'r1', host_nickname: 'Anna', host_avatar: 'fox', host_is_guest: false,
+        max_players: 4, rounds_per_player: 10, answer_seconds: 15,
+        questions_per_category: 1, difficulty: null,
+        created_at: new Date().toISOString(), needs_pin: true,
+        player_count: 2, i_am_in: false },
+      { id: 'r2', host_nickname: 'Cili', host_avatar: 'cat', host_is_guest: true,
+        max_players: 3, rounds_per_player: 5, answer_seconds: 20,
+        questions_per_category: 10, difficulty: 'easy',
+        created_at: new Date().toISOString(), needs_pin: false,
+        player_count: 1, i_am_in: false },
+      { id: 'r3', host_nickname: 'Dóra', host_avatar: 'owl', host_is_guest: false,
+        max_players: 2, rounds_per_player: 3, answer_seconds: 30,
+        questions_per_category: 1, difficulty: 'hard',
+        created_at: new Date().toISOString(), needs_pin: true,
+        player_count: 2, i_am_in: false }
+    ];
+
+    const app = {
+      bank,
+      supabase: {
+        isConfigured: true, isSignedIn: true, isAnonymous: true, userId: 'me',
+        signInAnonymously: async () => ({}),
+        rpc: async (name) => (name === 'list_open_rooms' ? ROOMS : {})
+      },
+      sync: { scoringRules: async () => ({}), run: async () => {} },
+      navigate: () => {},
+      refreshCurrentScreen: () => {},
+      pushProfile: () => {}
+    };
+
+    const host = document.getElementById('host');
+    host.append(multiplayerScreen(app));
+
+    // Megvárjuk a lista kirajzolását, majd megnyitjuk a PIN-párbeszédet, ha a
+    // címben kérték – így két különböző kép készíthető ugyanerről a lapról.
+    await new Promise((resolve) => setTimeout(resolve, 300));
+    if (location.hash === '#pin') {
+      host.querySelectorAll('.room-item')[0]?.click();
+      await new Promise((resolve) => setTimeout(resolve, 400));
+    }
+    document.body.dataset.ready = 'true';
+  </script>
+</body>
+</html>
