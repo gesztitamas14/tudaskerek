@@ -9,7 +9,7 @@ telefon böngészője
    └── HTTPS →  <ref>.supabase.co                        ← Postgres + bejelentkezés (Supabase)
 ```
 
-Az egyjátékos mód adatbázis **nélkül is** teljesen működik (2135 beépített
+Az egyjátékos mód adatbázis **nélkül is** teljesen működik (2236 beépített
 kérdés, offline is). A Supabase a ranglistához és a multiplayerhez kell.
 
 ---
@@ -126,7 +126,7 @@ később kézzel kell tudnod, melyik migráció új.
 
 ```bash
 cp tools/.env.example tools/.env      # ide a service_role kulcs
-node tools/src/import-seed.mjs        # 2135 kérdés
+node tools/src/import-seed.mjs        # 2236 kérdés
 ```
 
 ### 2.4 A kliens összekötése
@@ -232,7 +232,7 @@ Utána saját ikonként indul, böngészősáv nélkül, és offline is működi
 | | Limit | Mire elég |
 |---|---|---|
 | GitHub Pages | 100 GB / hó forgalom | gyakorlatilag korlátlan ehhez |
-| Supabase DB | 500 MB | ~50 000 kérdés (most 2135 ≈ 2 MB) |
+| Supabase DB | 500 MB | ~50 000 kérdés (most 2236 ≈ 2 MB) |
 | Supabase forgalom | 5 GB / hó | több ezer játék |
 | Supabase felhasználók | 50 000 MAU | bőven |
 

@@ -10,8 +10,13 @@
   <meta name="description"
         content="Magyar nyelvű kvízjáték szerencsekerékkel: pörgess, válaszolj, és döntsd el, hogy megállsz vagy kockáztatsz. Offline is működik.">
 
-  <meta name="theme-color" content="#141029">
-  <meta name="color-scheme" content="dark">
+  <!-- A téma világos krém. A `color-scheme: dark` maradvány volt a régi lila
+       palettából, és VALÓDI HIBÁT okozott: a böngésző ilyenkor sötétre festi a
+       saját vásznát, ezért a body által nem takart részen (pl. amikor a
+       címsáv el-eltűnik, vagy visszatéréskor a layout átmenetileg alacsonyabb)
+       fekete sáv jelent meg alul. -->
+  <meta name="theme-color" content="#fbf6ec">
+  <meta name="color-scheme" content="light">
 
   <!-- PWA -->
   <link rel="manifest" href="./manifest.webmanifest">

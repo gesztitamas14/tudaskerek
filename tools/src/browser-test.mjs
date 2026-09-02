@@ -119,7 +119,11 @@ function runBrowser(browser, url, { screenshot = null, budget = 60000, windowSiz
 // ─────────────────── eredmény kiolvasása ───────────────────
 
 function parseResults(html) {
-  const block = html.match(/<div id="results">([\s\S]*?)<\/div>\s*<div id="host">/);
+  // A záró horgony NE követelje meg, hogy a `host` divnek ne legyen attribútuma:
+  // a játék futás közben osztályt tesz rá (a görgetés kikapcsolásához), és ettől
+  // a korábbi `<div id="host">` minta csendben nem illeszkedett – a futtató
+  // „nem találom az eredményt” hibát adott, pedig a teszt lefutott.
+  const block = html.match(/<div id="results">([\s\S]*?)<\/div>\s*<div id="host"[\s>]/);
   if (!block) return { ok: false, summary: 'Nem találom a teszt eredményét a DOM-ban.', lines: [] };
 
   const text = block[1]
@@ -180,7 +184,14 @@ try {
     ['szoba létrehozása', 'lobby-shot.html%23create', 844],
     ['szoba létrehozása (címsávval)', 'lobby-shot.html%23create', 700],
     ['szoba létrehozása (fekvő)', 'lobby-shot.html%23create', 360],
-    ['PIN-párbeszéd', 'lobby-shot.html%23pin', 700]
+    ['PIN-párbeszéd', 'lobby-shot.html%23pin', 700],
+    // A kérdésfázis: a kérdésnek, a pontsávnak és mind a négy válasznak
+    // egy képernyőre kell kiférnie, görgetés nélkül.
+    ['kérdés + 4 válasz', 'lobby-shot.html%23answer', 844],
+    ['kérdés (címsávval)', 'lobby-shot.html%23answer', 700],
+    ['kérdés, 5 játékos, hosszú szöveg', 'lobby-shot.html%23answer5', 700],
+    ['kérdés, szűk képernyő', 'lobby-shot.html%23answer5', 560],
+    ['kérdés, nagyon szűk képernyő', 'lobby-shot.html%23answer5', 520]
   ];
 
   console.log('\n── elrendezés telefonon ───────────────────────');
@@ -191,12 +202,25 @@ try {
       `http://localhost:${PORT}/tests/layout-check.html?page=${page}&h=${height}`,
       { budget: 9000, windowSize: '460,1200' }
     );
-    // Csak a MÉRT sorok érdekesek, a lap forrásában is szerepel a szöveg.
+    // CSAK a mérés kimenetét vizsgáljuk, ne a lap forrását: a keresett
+    // szövegek szó szerint benne vannak a layout-check.html szkriptjében is,
+    // ezért a teljes DOM-on illesztve MINDEN eset hamisan hibás lett.
+    const out = dom.match(/<div id="out">([\s\S]*?)<\/div>\s*<iframe/);
+    const report = out ? out[1] : '';
     const problems = [];
-    const horizontal = dom.match(/VÍZSZINTES TÚLLÓGÁS: (\d+)px/);
+    if (!out) problems.push('nem találom a mérés kimenetét');
+    const horizontal = report.match(/VÍZSZINTES TÚLLÓGÁS: (\d+)px/);
     if (horizontal) problems.push(`${horizontal[1]}px vízszintes túllógás`);
-    const unreachable = dom.match(/ELÉRHETETLEN ELEMEK: (\d+)</);
+    const unreachable = report.match(/ELÉRHETETLEN ELEMEK: (\d+)</);
     if (unreachable) problems.push(`${unreachable[1]} elérhetetlen elem fix rétegben`);
+    // A kérdésfázis kiférése.
+    const cut = report.match(/A NEGYEDIK VÁLASZ KILÓG: (\d+)px/);
+    if (cut) problems.push(`a negyedik válasz ${cut[1]}px-szel kilóg`);
+    const scrolls = report.match(/A KÉRDÉSKÉPERNYŐ GÖRGETHETŐ: (\d+)px/);
+    if (scrolls) problems.push(`a kérdésképernyő görgethető (${scrolls[1]}px)`);
+    const wrapped = report.match(/A PONTSÁV (\d+) SORBA TÖRDELŐDÖTT/);
+    if (wrapped) problems.push(`a pontsáv ${wrapped[1]} sorba tördelődött`);
+    if (/A BESZÓLÁS-BUBORÉK NEM LÁTSZIK/.test(report)) problems.push('a beszólás-buborék nem látszik');
 
     if (problems.length === 0) {
       console.log(`  ✓ ${label} (${height}px)`);
@@ -223,6 +247,8 @@ try {
       ['pwa-lobby.png', ''],
       ['pwa-pin.png', '%23pin'],
       ['pwa-create.png', '%23create'],
+      ['pwa-answer.png', '%23answer'],
+      ['pwa-answer5.png', '%23answer5'],
       ['pwa-spin.png', '%23spin']
     ];
     console.log('\nKépernyőképek:');

@@ -15,6 +15,27 @@ import {
 import { el, clear, qs, toast, setHapticsEnabled, spinner } from './ui.js';
 import { setSoundEnabled, bindUnlockOnFirstGesture } from './sound.js';
 
+/**
+ * A lap visszahúzása a tetejére.
+ *
+ * A törzs `overflow: hidden`, tehát elvileg nem görgethető – a mobil
+ * böngészők viszont a címsáv animációja és a lapgyorsítótár miatt mégis
+ * elgörgetett állapotban adhatják vissza a lapot. Ilyenkor a felső sáv
+ * kicsúszik a látható területből, és a lap alján sáv marad.
+ */
+function resetViewportScroll() {
+  // Két lépésben: az azonnali javítás sokszor visszabillen, mert a böngésző a
+  // saját címsáv-animációja végén állítja be a végleges méretet.
+  const fix = () => {
+    if (window.scrollY !== 0 || window.scrollX !== 0) window.scrollTo(0, 0);
+    if (document.documentElement.scrollTop !== 0) document.documentElement.scrollTop = 0;
+    if (document.body.scrollTop !== 0) document.body.scrollTop = 0;
+  };
+  fix();
+  requestAnimationFrame(fix);
+  setTimeout(fix, 250);
+}
+
 const TABS = [
   { id: 'home', label: 'Játék', icon: '🎡' },
   { id: 'leaderboard', label: 'Ranglista', icon: '🏆' },
@@ -92,8 +113,18 @@ class App {
 
     // Előtérbe kerüléskor és hálózat visszatérésekor újra próbáljuk.
     document.addEventListener('visibilitychange', () => {
-      if (document.visibilityState === 'visible') this.sync.run().catch(() => {});
+      if (document.visibilityState === 'visible') {
+        this.sync.run().catch(() => {});
+        resetViewportScroll();
+      }
     });
+
+    // A böngésző a háttérből visszatérve elgörgetve is visszaadhatja a lapot
+    // (a címsáv el-eltűnése és a lapgyorsítótár miatt). Ilyenkor a felső sáv
+    // kicsúszik a képből. A `pageshow` a lapgyorsítótárból való visszatérést
+    // is elkapja, amit a `load` nem.
+    window.addEventListener('pageshow', resetViewportScroll);
+    window.addEventListener('orientationchange', resetViewportScroll);
     window.addEventListener('online', () => {
       toast('Újra online.');
       this.sync.run().catch(() => {});

@@ -93,7 +93,7 @@ indítás
 
 Amit ez ad:
 
-- **Az első indítás internet nélkül is játszható.** 2135 kérdés a csomagban.
+- **Az első indítás internet nélkül is játszható.** 2236 kérdés a csomagban.
 - **Nem veszik el eredmény.** Minden kör azonnal lokálisan mentődik; a feltöltés
   kliens-generált UUID-vel idempotens.
 - **Nem duplázódik eredmény.** A `submit_offline_result(p_client_id)` ugyanazzal
@@ -140,7 +140,27 @@ hálózatvesztésével megállna a játék, és nincs szükség külön háttér
 |---|---|---|
 | pörgetés | `answer_open_at`-ig (6 mp, körönként egyszer) | a kerék kifut a kategóriára, **majd szünet elolvasni**; válaszok zárva |
 | válasz | `deadline_at`-ig | kérdés + 4 lehetőség + visszaszámláló |
-| kiértékelés | `reveal_seconds` | helyes válasz, magyarázat, ki mit választott, ki esett ki |
+| kiértékelés | `reveal_seconds` | a helyes válasz zölden, a sajátom pirosan, és hogy kiestem-e |
+
+A kiértékelés **szándékosan szűkszavú**: nincs magyarázat, és nincs
+játékosonkénti „ki mit válaszolt” lista. Két okból: a képernyő pár másodpercig
+látszik, tehát nincs idő elolvasni, a helyükre viszont kell a hely, hogy a
+kérdés és mind a négy válasz **egy képernyőre kiférjen**.
+
+**A kérdésképernyő fix magasságú és nem görgethető.** Időzített kérdésnél
+elfogadhatatlan, hogy a negyedik válaszhoz görgetni kelljen. Ezért:
+
+- a pontsáv **vízszintesen** görgethető, nem tördelődik több sorba – így a
+  magassága akárhány játékosnál állandó,
+- a válaszok a maradék helyet egyenlően osztják el (min. 44 px érintőfelület),
+- hosszú kérdésnél a kérdés szövege kap saját, korlátozott görgetést,
+- **játék közben nincs kilépés gomb** – helyet foglalna, és egy félrekattintás
+  kiszakítana a körből. Aki mégis ki akar lépni, a vissza gombot használja: erre
+  megjelenik a gomb (a `popstate` elkapása egy őrszem history-bejegyzéssel megy,
+  a hash nem változik, ezért a router nem navigál el).
+
+Ezt a `tools/src/browser-test.mjs` méri valódi telefonméretű keretben, több
+látható magasságon (844, 700, 560, 520 px), 3 és 5 játékossal.
 
 A pörgetés azért kap külön időablakot, mert különben az animáció ideje elvenne a
 válaszidőből – és annak mindenkinél ugyanannyinak kell lennie. A szerver ezért

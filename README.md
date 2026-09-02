@@ -20,7 +20,7 @@ node tools/src/serve.mjs web 5173  # helyi szerver
 
 Nyisd meg: <http://localhost:5173/>
 
-Ez **backend nélkül** fut: 2135 kérdés, offline mód, statisztika, minden
+Ez **backend nélkül** fut: 2236 kérdés, offline mód, statisztika, minden
 képernyő. Nincs `npm install` – a Node 20 beépített moduljai elegendők.
 
 ---
@@ -30,7 +30,7 @@ képernyő. Nincs `npm install` – a Node 20 beépített moduljai elegendők.
 | Rész | Állapot |
 |---|---|
 | **PWA** (`web/`) – teljes játék, offline is | ✅ böngészőben tesztelve |
-| **Kérdésbank** – **2135 kérdés, 28 kategória** | ✅ validált |
+| **Kérdésbank** – **2236 kérdés, 28 kategória** | ✅ validált |
 | **Backend** (`supabase/`) – 15 migráció, RLS, 37 RPC | ✅ kész |
 | **Multiplayer** – kieséses, szobalista + 3 jegyű PIN, 2–5 fő | ✅ |
 | **Ranglista** – örök / havi / heti / napi | ✅ |
@@ -115,7 +115,7 @@ Részletek: [`docs/02-architektura.md`](docs/02-architektura.md) 5. pont.
 ```
 content/
   categories.json         28 kategória definíciója (egy igazság)
-  seed/*.json             2135 kérdés, kategóriánként egy fájl
+  seed/*.json             2236 kérdés, kategóriánként egy fájl
 web/                      a PWA – build nélkül futó teljes játék
   index.html, styles.css, sw.js, manifest.webmanifest
   js/rules.js             pontozás + állapotgép (tesztelt)
@@ -142,7 +142,7 @@ docs/                     terv, architektúra, API, beállítás, forrás, kutat
 
 | Mutató | Érték |
 |---|---|
-| Kérdés összesen | **2135** |
+| Kérdés összesen | **2236** |
 | Kategória | 28 kategória (6 magyar fókuszú) |
 | Nehézség | 384 könnyű / 605 közepes / 168 nehéz |
 | Magyarázat aránya | 100% |

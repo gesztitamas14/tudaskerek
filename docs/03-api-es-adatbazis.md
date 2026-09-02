@@ -50,6 +50,8 @@ answer_set_hash text  generated always as (answer_set_hash(a,b,c,d)) stored
 | `room_players` | résztvevők, székek, összesített pont, köri pont, kiesett-e |
 | `room_questions` | a szobában feltett kérdések: kör, sorszám, kategória, határidők |
 | `room_answers` | ki mit válaszolt, jó volt-e, mennyi pontot ért |
+| `reaction_catalog` | a választható beszólások **szövege** (id, szöveg, emoji) | olvasás (aktív sorok) |
+| `room_reactions` | ki mikor melyik beszólást küldte egy szobában | nincs (csak RPC-n) |
 | `room_join_attempts` | hibás PIN-próbálkozások játékosonként (végigpróbálás ellen) |
 
 A `room_questions` és a `room_answers` táblákra **szándékosan nincs semmilyen
@@ -134,6 +136,8 @@ ismételni, mint játszhatatlan kategóriát adni.
 |---|---|
 | `leaderboard(scope, limit)` | `all_time` / `month` / `week` / `day` rangsor; **csak `is_trusted` eredmény és nem vendég játékos** |
 | `my_rank(scope)` | a hívó helye a top 200-ban |
+| `send_room_reaction(room, reaction)` | egy előre megírt beszólás elküldése; a **szöveget nem** fogadja, csak katalógus-azonosítót |
+| `room_recent_reactions(room)` | a szoba utolsó 8 másodpercének beszólásai (a `room_state()` is ezt hívja) |
 | `my_stats()` | profil + kategóriabontás + legutóbbi körök |
 | `attributions()` | licenc-megkötéses források összesítése (CC BY-SA feltüntetéshez) |
 | `report_question(question, reason)` | hibás kérdés jelzése |
@@ -407,3 +411,33 @@ Miért így jobb:
   statisztikát ír és visszaadja a magyarázatot.
 - **Nincs külön szerver.** Nincs Node backend, amit üzemeltetni és skálázni
   kell; a logika ott van, ahol az adat.
+
+## Beszólások (játék közbeni rövid megjegyzések)
+
+Játék közben a jobb alsó buborékkal küldhető egy **előre megírt** rövid
+megjegyzés, ami mindenkinél felvillan pár másodpercre a képernyő tetején.
+
+**A kliens sosem küld szabad szöveget – csak azonosítót.** Ez nem stílus
+kérdése: egy szabad szöveges csatorna (a) lehetővé tenné a helyes válasz
+bekiabálását, (b) moderálási kötelezettséget hozna, (c) egy újabb felületet
+adna, amin tartalom juttatható másokhoz. A szövegek ezért kizárólag a
+szerveren, a `reaction_catalog` táblában vannak.
+
+```
+kliens:  send_room_reaction(room, 'hurry')      ← csak az azonosító
+szerver: ellenőrzi, hogy a katalógusban van-e; ha nem → unknown_reaction
+```
+
+Szerveroldali korlátok (mindet a `tools/src/db-test.mjs` ellenőrzi):
+
+| Szabály | Miért |
+|---|---|
+| csak `playing` státuszú szobában | az üzenet a játék tetején villan fel |
+| csak a szoba tagja (kiesett is) | nézőként is része a társasjátéknak |
+| csak katalógusbeli azonosító | szabad szöveg nem juttatható át |
+| játékosonként 3 másodperc szünet | koppintgatással teleszemetelné mindenki képernyőjét |
+| a `room_state()` csak 8 másodpercig adja vissza | felvillanó jelzés, nem visszaolvasható üzenetfal |
+
+A `room_reactions` táblán **nincs sem policy, sem grant**: kizárólag a
+`SECURITY DEFINER` függvényeken keresztül írható és olvasható, így a szűrés
+(csak a saját szobám, csak a friss üzenetek) nem kerülhető ki.

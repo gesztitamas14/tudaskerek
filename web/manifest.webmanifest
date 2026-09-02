@@ -9,8 +9,8 @@
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#141029",
-  "theme_color": "#141029",
+  "background_color": "#fbf6ec",
+  "theme_color": "#fbf6ec",
   "categories": ["games", "education", "trivia"],
   "icons": [
     {

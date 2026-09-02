@@ -415,21 +415,37 @@
         roomHost.querySelector('.answer-wrong')?.textContent?.includes('1541') ?? false,
         'a saját rossz válasz pirosan látszik'
       );
+      // A MAGYARÁZAT ÉS A „KI MIT VÁLASZOLT” LISTA SZÁNDÉKOSAN NINCS.
+      // A kiértékelés csak pár másodpercig látszik, tehát nincs idő elolvasni,
+      // viszont a helyükre kell a kérdés és a négy válasz, hogy egy képernyőre
+      // kiférjen. A helyes válasz magán a listán, zölden látszik.
       check(
-        roomHost.textContent.includes('1526. augusztus 29'),
-        'a magyarázat is megjelenik'
+        !roomHost.textContent.includes('1526. augusztus 29'),
+        'a magyarázat NEM jelenik meg – helyette a válaszok kapják a helyet'
       );
       check(
         roomHost.textContent.includes('kiestél a körből'),
         'közli, hogy a rossz válasz kiesést jelent'
       );
       check(
-        roomHost.querySelectorAll('.result-line').length === 2,
-        'mindkét válaszoló szerepel a kiértékelésben'
+        roomHost.querySelectorAll('.result-line').length === 0,
+        'a „ki mit válaszolt” lista NEM jelenik meg'
       );
       check(
-        roomHost.textContent.includes('Anna'),
-        'a kiértékelésben a másik játékos neve is szerepel'
+        roomHost.querySelector('.result-line') === null &&
+          !roomHost.textContent.includes('nem válaszolt'),
+        'nincs játékosonkénti válaszlista a kiértékelésben'
+      );
+      // A NEVEK a felső pontsávban továbbra is ott vannak – az kell.
+      check(
+        [...roomHost.querySelectorAll('.score-chip-name')].some((n) =>
+          n.textContent.includes('Anna')
+        ),
+        'a többi játékos neve a felső pontsávban látszik'
+      );
+      check(
+        roomHost.querySelector('.answer-pickers') === null,
+        'a válaszok mellett nincsenek avatarok'
       );
       unmountRoom(node);
 
@@ -1356,11 +1372,26 @@
         ),
         'a HOST sem kap szobatörlő gombot játék közben – félrekattintás nem szakítja meg a kört'
       );
+      // JÁTÉK KÖZBEN NINCS KILÉPÉS GOMB.
+      // Elfoglalná a helyet, amire a kérdésnek és a négy válasznak van
+      // szüksége, és egy félrekattintás kiszakítana a körből. Aki mégis ki
+      // akar lépni, a vissza gombot használja – arra megjelenik a gomb.
+      check(
+        ![...roomHost.querySelectorAll('.btn')].some((b) =>
+          b.textContent.includes('Kilépés')
+        ),
+        'játék közben NINCS kilépés gomb – a válaszoknak kell a hely'
+      );
+
+      // Vissza-navigáció: az őrszem history-bejegyzés miatt a hash nem
+      // változik, tehát a router nem navigál el – csak a gomb jelenik meg.
+      window.dispatchEvent(new PopStateEvent('popstate', { state: null }));
+      await wait(80);
       check(
         [...roomHost.querySelectorAll('.btn')].some((b) =>
           b.textContent.includes('Kilépés (feladom)')
         ),
-        'játék közben kilépni viszont lehet – a játék a többiekkel megy tovább'
+        'a vissza gomb megnyomása után MEGJELENIK a kilépés'
       );
       unmountRoom(spinNode);
 
@@ -1376,6 +1407,98 @@
         'a rövid pörgetés alatt sincs válaszgomb'
       );
       unmountRoom(spinNode);
+
+      // ── 12. beszólások ────────────────────────────────────────────────
+      //
+      // A LÉNYEG: a kliens AZONOSÍTÓT küld, nem szöveget. Ez nem stílus
+      // kérdése – szabad szöveggel be lehetne kiabálni a helyes választ, és
+      // moderálni kellene. A szövegek a szerveren, a katalógusban vannak.
+      const reactCalls = [];
+      const CATALOG = [
+        { id: 'gg', body: 'Ez nagyon jó volt!', emoji: '👏', sort_order: 10 },
+        { id: 'hurry', body: 'Gyerünk, ketyeg az óra!', emoji: '⏳', sort_order: 60 }
+      ];
+      const reactApp = {
+        bank,
+        supabase: {
+          isConfigured: true, isSignedIn: true, isAnonymous: false,
+          isGuestAccount: async () => false, userId: ME,
+          reactionCatalog: async () => CATALOG,
+          rpc: async (name, params) => {
+            reactCalls.push({ name, params });
+            if (name === 'send_room_reaction') return { ok: true };
+            return reactRoom;
+          }
+        },
+        sync: { scoringRules: async () => FALLBACK_RULES, run: async () => {} },
+        navigate: () => {},
+        refreshCurrentScreen: () => {},
+        pushProfile: () => {}
+      };
+      const reactRoom = makeRoom({ players: PLAYERS, question: OPEN_QUESTION });
+      const reactNode = roomScreen(reactApp, { room: reactRoom });
+      roomHost.append(reactNode);
+      await wait(120);
+
+      const bubble = roomHost.querySelector('.reaction-bubble');
+      check(Boolean(bubble), 'játék közben ott a beszólás-buborék');
+      check(
+        roomHost.querySelector('.modal-overlay') === null,
+        'a buborék önmagában nem nyit párbeszédet'
+      );
+
+      bubble.click();
+      await wait(120);
+      const options = [...roomHost.querySelectorAll('.reaction-option')];
+      check(options.length === CATALOG.length, `a katalógus mind a ${CATALOG.length} beszólását felsorolja`);
+      check(
+        options[0]?.textContent.includes('Ez nagyon jó volt!'),
+        'a beszólás szövege a szerverről érkezik, és megjelenik'
+      );
+
+      reactCalls.length = 0;
+      options[1].click();
+      await wait(150);
+      const sent = reactCalls.find((c) => c.name === 'send_room_reaction');
+      check(Boolean(sent), 'a választott beszólás elküldésre kerül');
+      check(
+        sent?.params?.p_reaction === 'hurry',
+        'a szerverre az AZONOSÍTÓ megy, nem a szöveg'
+      );
+      check(
+        !JSON.stringify(sent?.params ?? {}).includes('ketyeg'),
+        'a beszólás szövege NEM kerül át a kérésbe – szabad szöveget nem lehet küldeni'
+      );
+      check(
+        roomHost.querySelector('.modal-overlay') === null,
+        'küldés után a párbeszéd bezárul'
+      );
+      check(
+        Boolean(roomHost.querySelector('.reaction-flash')),
+        'a saját beszólás azonnal felvillan felül'
+      );
+
+      // Mástól érkező beszólás: a szobaállapotból jön, és felvillan.
+      reactRoom.reactions = [
+        { id: 991, player_id: 'aaaa', nickname: 'Anna', avatar_id: 'owl',
+          body: 'Le a kalappal.', emoji: '🎩', created_at: new Date().toISOString() }
+      ];
+      // A képernyő játék közben másodpercenként kérdezi az állapotot; nincs
+      // külön esemény a kiváltására, ezért megvárjuk a következő kört.
+      await wait(1300);
+      const flashes = [...roomHost.querySelectorAll('.reaction-flash')];
+      check(
+        flashes.some((f) => f.textContent.includes('Le a kalappal')),
+        'a másik játékos beszólása is felvillan'
+      );
+      check(
+        flashes.some((f) => f.textContent.includes('Anna')),
+        'a felvillanó beszólásnál látszik, ki küldte'
+      );
+
+      unmountRoom(reactNode);
+
+
 
       // ── 11. a host indítása után induljon el a kerék ──
       //

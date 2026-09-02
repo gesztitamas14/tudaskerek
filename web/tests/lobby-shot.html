@@ -12,7 +12,18 @@
     PIN-választó, valódi adat és backend nélkül.
       node tools/src/shot-lobby.mjs
   -->
-  <div class="viewport"><div id="host"></div></div>
+  <!-- A VALÓDI alkalmazásvázat kell utánozni (`#app` > felső sáv > `.viewport`),
+       különben a `.viewport` magassága kötetlen, és a fix magasságú
+       kérdésképernyő `height: 100%`-a nem érvényesül. Enélkül a kiférés-mérés
+       hamis zöldet adna: rövid tartalom miatt „elfér”, nem azért, mert a
+       szabály működik. -->
+  <div id="app">
+    <div class="top-bar"><span class="app-title">TudásKerék</span></div>
+    <!-- A képernyő KÖZVETLENÜL a `.viewport` gyermeke, ahogy a valódi
+         alkalmazásban is: egy közbeiktatott réteg megtörné a magasság
+         leterjedését, és a mérés hamis zöldet adna. -->
+    <div id="host" class="viewport"></div>
+  </div>
 
   <script type="module">
     import { multiplayerScreen, roomScreen } from '../js/multiplayer.js';
@@ -58,27 +69,49 @@
 
     const host = document.getElementById('host');
 
-    // #spin → a pörgetés fázisa (a kör kategóriájának kihúzása), nem a lista.
-    if (location.hash === '#spin') {
+    // #spin → a pörgetés fázisa; #answer → a válaszfázis (a kérdés + 4 válasz);
+    // #answer5 → ugyanaz ÖT játékossal és hosszú kérdéssel, hogy a szűk eset is
+    // mérhető legyen (kiférés-ellenőrzés a layout-check.html-ben).
+    if (location.hash === '#spin' || location.hash.startsWith('#answer')) {
+      const isAnswer = location.hash.startsWith('#answer');
+      const crowded = location.hash === '#answer5';
       const now = Date.now();
+      const extraPlayers = [
+        { player_id: 'd', seat: 4, score: 5000, block_score: 1000, is_ready: true,
+          is_eliminated: false, has_left: false, nickname: 'Dorka', avatar_id: 'bear', is_guest: false },
+        { player_id: 'e', seat: 5, score: 3000, block_score: 0, is_ready: true,
+          is_eliminated: true, has_left: false, nickname: 'Elemér', avatar_id: 'wolf', is_guest: true }
+      ];
       const room = {
         id: 'r', host_id: 'me', status: 'playing',
-        max_players: 4, rounds_per_player: 10, difficulty: null,
+        max_players: 5, rounds_per_player: 10, difficulty: null,
         block_no: 3, questions_per_category: 10,
         answer_seconds: 15, reveal_seconds: 5, spin_seconds: 6,
         max_questions: 10, has_pin: true, my_pin: null, i_am_guest: false,
         server_time: new Date(now).toISOString(),
+        reactions: [],
         current_round: {
           category_slug: 'magyar-tortenelem', category_name: 'Magyar történelem',
           answered_questions: 0, questions_in_round: 10
         },
         current_question: {
-          id: 'rq', question_text: 'Melyik évben volt a mohácsi csata?',
-          answers: ['1514', '1526', '1541', '1552'], difficulty: 'easy',
+          id: 'rq',
+          question_text: crowded
+            ? 'Melyik évben zajlott az a csata, amely a középkori magyar állam ' +
+              'hanyatlásának egyik legfontosabb fordulópontjaként vonult be a köztudatba?'
+            : 'Melyik évben volt a mohácsi csata?',
+          answers: crowded
+            ? ['1514, a Dózsa-féle parasztfelkelés éve',
+               '1526, a mohácsi csata éve',
+               '1541, Buda török kézre kerülése',
+               '1552, a végvári harcok egyik éve']
+            : ['1514', '1526', '1541', '1552'],
+          difficulty: 'easy',
           category_slug: 'magyar-tortenelem', ordinal: 1, max_questions: 10,
           reward: 1000,
-          answer_open_at: new Date(now + 3200).toISOString(),
-          deadline_at: new Date(now + 18200).toISOString(),
+          // Válaszfázisban a válaszablak MÁR nyitva van, pörgetésnél még nem.
+          answer_open_at: new Date(now + (isAnswer ? -1000 : 3200)).toISOString(),
+          deadline_at: new Date(now + (isAnswer ? 12000 : 18200)).toISOString(),
           resolved: false, resolved_at: null, my_answer: null, i_answered: false,
           answered_count: 0, alive_count: 4,
           correct_answer: null, explanation: null, results: null
@@ -90,7 +123,8 @@
           { player_id: 'a', seat: 2, score: 7000, block_score: 0, is_ready: true,
             is_eliminated: false, has_left: false, nickname: 'Anna', avatar_id: 'owl', is_guest: false },
           { player_id: 'c', seat: 3, score: 2000, block_score: 0, is_ready: true,
-            is_eliminated: false, has_left: false, nickname: 'Cili', avatar_id: 'cat', is_guest: true }
+            is_eliminated: false, has_left: false, nickname: 'Cili', avatar_id: 'cat', is_guest: true },
+          ...(crowded ? extraPlayers : [])
         ]
       };
       host.append(
@@ -99,8 +133,9 @@
           { room }
         )
       );
-      // Hagyjuk lefutni a kerék animációját, hogy a kép a kategóriát mutassa.
-      await new Promise((resolve) => setTimeout(resolve, 3600));
+      // Pörgetésnél hagyjuk lefutni a kerék animációját, hogy a kép a
+      // kategóriát mutassa; válaszfázisban nincs mire várni.
+      await new Promise((resolve) => setTimeout(resolve, isAnswer ? 400 : 3600));
       document.body.dataset.ready = 'true';
     } else {
       host.append(multiplayerScreen(app));

@@ -301,6 +301,20 @@ export class Supabase {
    * @returns {Promise<boolean|null>} null, ha nem lehetett megállapítani –
    *   ilyenkor a felület NE állítson semmit a felhasználóról.
    */
+  /**
+   * A választható beszólások listája.
+   *
+   * A SZÖVEG A SZERVEREN VAN, a kliens csak megjeleníti, és az `id`-t küldi
+   * vissza. Így a csatornán szabad szöveg nem juthat át.
+   */
+  async reactionCatalog() {
+    const rows = await this.select(
+      'reaction_catalog',
+      'is_active=eq.true&select=id,body,emoji,sort_order&order=sort_order.asc'
+    );
+    return Array.isArray(rows) ? rows : [];
+  }
+
   async isGuestAccount() {
     if (!this.isSignedIn) return null;
     const id = this.userId;

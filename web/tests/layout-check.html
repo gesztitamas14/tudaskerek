@@ -185,6 +185,43 @@
         }
       }
 
+      // ── kiférés a kérdésfázisban ────────────────────────────────────────
+      //
+      // A kérdésnek, a pontsávnak és MIND A NÉGY VÁLASZNAK egy képernyőre kell
+      // kiférnie: időzített kérdésnél elfogadhatatlan, hogy a negyedik
+      // válaszhoz görgetni kelljen.
+      const answers = [...doc.querySelectorAll('.answers .answer')];
+      if (answers.length > 0) {
+        const last = answers[answers.length - 1].getBoundingClientRect();
+        const scroller = doc.querySelector('.viewport') || doc.documentElement;
+        const overflow = scroller.scrollHeight - scroller.clientHeight;
+
+        lines.push('');
+        lines.push(`válaszok: ${answers.length}, utolsó alja = ${Math.round(last.bottom)}px`);
+        lines.push(last.bottom <= viewportHeight + 1
+          ? '<span class="ok">a negyedik válasz is kifér a képernyőre</span>'
+          : `<span class="bad">A NEGYEDIK VÁLASZ KILÓG: ${Math.round(last.bottom - viewportHeight)}px</span>`);
+        lines.push(overflow <= 1
+          ? '<span class="ok">a kérdésképernyő nem görgethető</span>'
+          : `<span class="bad">A KÉRDÉSKÉPERNYŐ GÖRGETHETŐ: ${overflow}px</span>`);
+
+        // A pontsáv EGY sorban legyen, vízszintesen görgetve – nem tördelve.
+        const chips = [...doc.querySelectorAll('.score-chip')];
+        if (chips.length > 1) {
+          const tops = new Set(chips.map((c) => Math.round(c.getBoundingClientRect().top)));
+          lines.push(tops.size === 1
+            ? `<span class="ok">a ${chips.length} pontjelvény egy sorban van</span>`
+            : `<span class="bad">A PONTSÁV ${tops.size} SORBA TÖRDELŐDÖTT</span>`);
+        }
+
+        // A beszólás-buborék legyen ott, és látszódjon is.
+        const bubble = doc.querySelector('.reaction-bubble');
+        const bubbleBox = bubble?.getBoundingClientRect();
+        lines.push(bubble && bubbleBox.width > 0 && bubbleBox.bottom <= viewportHeight + 1
+          ? '<span class="ok">a beszólás-buborék látszik a képernyőn</span>'
+          : '<span class="bad">A BESZÓLÁS-BUBORÉK NEM LÁTSZIK</span>');
+      }
+
       out.innerHTML = lines.join('<br>');
     }, 4000);
   </script>

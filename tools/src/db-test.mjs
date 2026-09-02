@@ -841,6 +841,107 @@ ok(again.already_closed === true, 'a kétszeri bezárás nem hiba, csak jelzi');
 const seenByBela = await asPlayer(BELA, `select public.room_state(${q(closable.id)})`);
 ok(seenByBela.status === 'cancelled', 'a benne lévő játékos is látja, hogy a szoba bezárt');
 
+// ─────────────────── 14. beszólások ───────────────────
+
+console.log('\n14. Beszólások: csak katalógusból, csak a szobából, visszafogva');
+
+let reactRoom = await asPlayer(
+  ANNA,
+  `select public.create_room(3::smallint, 1::smallint, null, 1::smallint, 15::smallint, null)`
+);
+const joined14 = await asPlayer(BELA, `select public.join_room(${q(reactRoom.id)}, null)`);
+ok(joined14.ok === true, 'BELA belépett a beszólás-tesztszobába');
+
+// A VÁRÓBAN még nem lehet beszólni: az üzenet a játék tetején villan fel.
+const inLobby = await asPlayer(ANNA, `select public.send_room_reaction(${q(reactRoom.id)}, 'gg')`);
+ok(inLobby.ok === false && inLobby.error === 'not_playing', 'a váróban nem lehet beszólni');
+
+reactRoom = await asPlayer(ANNA, `select public.start_room(${q(reactRoom.id)})`);
+ok(reactRoom.status === 'playing', 'a szoba elindult');
+
+// A KATALÓGUSON KÍVÜLI azonosítót a szerver elutasítja. Ez a lényegi
+// védelem: a kliens szabad szöveget nem tud átjuttatni.
+const bogus = await asPlayer(
+  ANNA,
+  `select public.send_room_reaction(${q(reactRoom.id)}, 'A helyes válasz a B!')`
+);
+ok(
+  bogus.ok === false && bogus.error === 'unknown_reaction',
+  'a katalóguson kívüli szöveget a szerver elutasítja'
+);
+
+const sent = await asPlayer(ANNA, `select public.send_room_reaction(${q(reactRoom.id)}, 'gg')`);
+ok(sent.ok === true, 'a katalógusból választott beszólás elmegy');
+
+// Visszafogás: 3 másodpercen belül nem jöhet a következő ugyanattól.
+const tooFast = await asPlayer(ANNA, `select public.send_room_reaction(${q(reactRoom.id)}, 'hurry')`);
+ok(
+  tooFast.ok === false && tooFast.error === 'too_fast',
+  'ugyanaz a játékos 3 másodpercen belül nem szólhat be újra'
+);
+
+// MÁS játékost ez nem érint – a korlát játékosonként van.
+const otherPlayer = await asPlayer(BELA, `select public.send_room_reaction(${q(reactRoom.id)}, 'hurry')`);
+ok(otherPlayer.ok === true, 'a visszafogás játékosonként külön számol');
+
+// Kívülálló nem szólhat be egy szobába, amiben nincs benne.
+const outsider = await asPlayer(CILI, `select public.send_room_reaction(${q(reactRoom.id)}, 'gg')`);
+ok(
+  outsider.ok === false && outsider.error === 'not_in_room',
+  'aki nincs a szobában, nem tud beszólni'
+);
+
+// A szobaállapot visszaadja a friss üzeneteket, SZÖVEGGEL – a szöveg
+// a szerveren van, a kliens csak megjeleníti.
+const stateWithReactions = await asPlayer(BELA, `select public.room_state(${q(reactRoom.id)})`);
+const reactions = stateWithReactions.reactions ?? [];
+ok(reactions.length === 2, `a szobaállapot mindkét friss beszólást visszaadja (${reactions.length})`);
+ok(
+  reactions.some((r) => r.body === 'Ez nagyon jó volt!'),
+  'a beszólás SZÖVEGE a szerverről érkezik'
+);
+ok(
+  reactions.every((r) => typeof r.nickname === 'string' && r.nickname.length > 0),
+  'minden beszóláshoz tartozik feladó'
+);
+
+// A 8 másodpercnél régebbi üzenet kiesik: ez nem üzenetfal.
+await db.exec(
+  `update public.room_reactions set created_at = now() - interval '20 seconds'
+   where room_id = ${q(reactRoom.id)}`
+);
+const afterExpiry = await asPlayer(BELA, `select public.room_state(${q(reactRoom.id)})`);
+ok(
+  (afterExpiry.reactions ?? []).length === 0,
+  'a régi beszólások kiesnek – nincs visszaolvasható üzenetfal'
+);
+
+// A tábla közvetlenül NEM olvasható és NEM írható a kliens szerepében:
+// csak a függvényeken keresztül, ahol a szűrés nem kerülhető ki.
+try {
+  const rows = await asClient(BELA, `select * from public.room_reactions`);
+  ok(false, `a room_reactions táblát nem lehet közvetlenül olvasni (${rows.length} sor jött)`);
+} catch {
+  ok(true, 'a room_reactions táblát a kliens közvetlenül nem olvashatja');
+}
+try {
+  await asClient(
+    BELA,
+    `insert into public.room_reactions (room_id, player_id, reaction_id)
+     values (${q(reactRoom.id)}, ${q(BELA)}, 'gg')`
+  );
+  ok(false, 'a room_reactions táblába nem lehet közvetlenül írni');
+} catch {
+  ok(true, 'a room_reactions táblába a kliens közvetlenül nem írhat');
+}
+
+// A katalógus viszont olvasható: a kliensnek meg kell tudnia jeleníteni.
+const catalogRows = await asClient(
+  BELA,
+  `select id, body from public.reaction_catalog order by sort_order`
+);
+ok(catalogRows.length >= 10, `a katalógus olvasható a kliensnek (${catalogRows.length} tétel)`);
+
 // ─────────────────── összegzés ───────────────────
 
 console.log(

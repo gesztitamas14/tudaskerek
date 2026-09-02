@@ -1,7 +1,7 @@
 {
- "version": 7827127,
- "generated_at": "2026-09-02T14:08:57.100Z",
- "content_hash": "776eb78e4482d9ac0ebbcb07e81e55bc19e9fdb68d2cbc196fe55437a124c02f",
+ "version": 14749828,
+ "generated_at": "2026-09-02T14:18:56.614Z",
+ "content_hash": "e1108423c7496c2c79eb480a5c9b50490fe00ea49555d962a04401486171d301",
  "categories": [
   {
    "slug": "magyar-tortenelem",
@@ -3841,6 +3841,996 @@
    "explanation": "Kiskunhalason 1902 óta készül Markovits Mária tervei alapján; egy nagyobb darab elkészítése hónapokat vesz igénybe.",
    "source": null,
    "topic": "szakmai fogalmak"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik francia divattervező nevéhez köthető a New Look stílus 1947-ből?",
+   "answers": [
+    "Hubert de Givenchy",
+    "Yves Saint Laurent",
+    "Christian Dior",
+    "Pierre Cardin"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A karcsú derekú, bő szoknyás szabás a háborús anyaghiány utáni bőség jelképe lett.",
+   "source": null,
+   "topic": "divattörténet"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik évtizedhez kötődik a válltöméses, dominánsan színes üzleti öltözék divatja?",
+   "answers": [
+    "Az ötvenes évekhez",
+    "A nyolcvanas évekhez",
+    "A kilencvenes évekhez",
+    "A hetvenes évekhez"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A karrierista nőideál a nyolcvanas években erőteljes vállú kosztümökben jelent meg.",
+   "source": null,
+   "topic": "divattörténet"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik évtizedben terjedt el a miniszoknya Nyugat-Európában?",
+   "answers": [
+    "A nyolcvanas években",
+    "A hatvanas években",
+    "Az ötvenes években",
+    "A negyvenes években"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "Mary Quant tervezte, és a fiatalos, felszabadult hatvanas évek jelképévé vált.",
+   "source": null,
+   "topic": "divattörténet"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik anyagból készült ruhadarab vált jellegzetessé a farmerszövet elterjedésével?",
+   "answers": [
+    "A csipkeing",
+    "A gyapjúkabát",
+    "A farmernadrág",
+    "A selyemsál"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A pamutból szőtt, erős szövésű denim eredetileg munkaruha-alapanyag volt.",
+   "source": null,
+   "topic": "anyagok"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik rovarból nyerik a valódi selymet?",
+   "answers": [
+    "Molyból",
+    "Pillangóból",
+    "Méhből",
+    "Selyemhernyóból"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A selyemhernyó gubójának szálát fejtik le és fonják cérnává.",
+   "source": null,
+   "topic": "anyagok"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik állat szőréből készül a kasmír fonal?",
+   "answers": [
+    "Kasmíri kecskéből",
+    "Alpakából",
+    "Angóranyúlból",
+    "Lámából"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A kecske finom alsószőrét fésülik ki, ez adja a kasmír puhaságát.",
+   "source": null,
+   "topic": "anyagok"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik növényi rostból készül a legelterjedtebb természetes textíliák egyike, a vászon?",
+   "answers": [
+    "Bambuszból",
+    "Lenből",
+    "Nádból",
+    "Kenderből"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A len szárának rostjaiból szőtt vászon már az ókorban is elterjedt textília volt.",
+   "source": null,
+   "topic": "anyagok"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik anyagot fejlesztették ki a második világháború idején a nejlonharisnya alapanyagaként?",
+   "answers": [
+    "A lycrát",
+    "A poliésztert",
+    "A nejlont",
+    "A viszkózt"
+   ],
+   "correct": 2,
+   "difficulty": "hard",
+   "explanation": "A DuPont vegyészei szintetikus poliamid szálat állítottak elő, amely gyorsan a selyem helyettesítője lett.",
+   "source": null,
+   "topic": "anyagok"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik franciás elnevezésű ruhadarab a testhez simuló, ujjatlan felsőrész?",
+   "answers": [
+    "A parka",
+    "A blézer",
+    "A top",
+    "A mellény"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A top kifejezés az angol felsőrész szóból ered, és a divatnyelvben nemzetközileg elterjedt.",
+   "source": null,
+   "topic": "ruhadarabok története"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik ruhadarab vált a hetvenes években a szabadság és a fiatalság jelképévé Amerikában?",
+   "answers": [
+    "A pareo",
+    "A farmernadrág",
+    "A body",
+    "A szmoking"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A farmer a munkaruhából ekkorra vált tömegesen viselt divatdarabbá.",
+   "source": null,
+   "topic": "ruhadarabok története"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik kiegészítőt viselték hagyományosan az elegáns úriemberek a 19. században fejfedőként?",
+   "answers": [
+    "A svájcisapkát",
+    "A sildes sapkát",
+    "A cilindert",
+    "A kalapkát"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A magas, hengeres cilinder a polgári elegancia jelképe volt a 19. században.",
+   "source": null,
+   "topic": "kiegészítők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik kiegészítő elengedhetetlen tartozéka a hagyományos szmokingnak?",
+   "answers": [
+    "A baseballsapka",
+    "A csokornyakkendő",
+    "A sportcipő",
+    "A hátizsák"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "A csokornyakkendő az esti öltözék klasszikus, formális kiegészítője.",
+   "source": null,
+   "topic": "kiegészítők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik táskaformát neveznek a kifejezés eredete szerint erszénynek is?",
+   "answers": [
+    "A bőröndöt",
+    "A válltáskát",
+    "A clutch-ot",
+    "A hátizsákot"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A clutch kézben fogott, pánt nélküli estélyi táska, neve az angol markol igéből ered.",
+   "source": null,
+   "topic": "kiegészítők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik lábbelitípust jellemzi a vékony, magas sarok?",
+   "answers": [
+    "A tűsarkú cipő",
+    "A bakancs",
+    "A szandál",
+    "A mokaszin"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A tűsarok a huszadik század közepén terjedt el, és az elegáns női viselet jelképe lett.",
+   "source": null,
+   "topic": "lábbeli"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik lábbelit hordták eredetileg amerikai őslakosok puha talpú, díszített formában?",
+   "answers": [
+    "A klumpát",
+    "A papucsot",
+    "A csizmát",
+    "A mokaszint"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A mokaszin puha bőrből készült, varrott talpú lábbeli, amelyet később a divat is átvett.",
+   "source": null,
+   "topic": "lábbeli"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik sportcipő-típust jellemzi a vászon felsőrész és a gumitalp klasszikus kombinációja?",
+   "answers": [
+    "A szandált",
+    "A bakancsot",
+    "A papucsot",
+    "A tornacipőt"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A vászon tornacipő a 20. század eleji sportcipőktől a hétköznapi utcai divatig jutott.",
+   "source": null,
+   "topic": "lábbeli"
+  },
+  {
+   "category": "divat",
+   "question": "Mit jelent a haute couture kifejezés szó szerinti fordítása?",
+   "answers": [
+    "Divatos szín",
+    "Kézi varrás",
+    "Első bemutató",
+    "Magas szabászat"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A francia kifejezés az egyedi, kézzel készített, luxus szabászatot jelöli.",
+   "source": null,
+   "topic": "szakmai fogalmak"
+  },
+  {
+   "category": "divat",
+   "question": "Mit jelent a prêt-à-porter kifejezés a divatszakmában?",
+   "answers": [
+    "Kézzel varrott egyedi darab",
+    "Kizárólag esküvői ruha",
+    "Színpadi jelmez",
+    "Konfekció, azaz kész, sorozatban gyártott ruha"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A francia kifejezés szó szerint viselésre készet jelent, szemben az egyedi haute couture-rel.",
+   "source": null,
+   "topic": "szakmai fogalmak"
+  },
+  {
+   "category": "divat",
+   "question": "Mit jelöl a divatszakmában a capsule collection kifejezés?",
+   "answers": [
+    "A tervező első bemutatóját",
+    "Kis darabszámú, egymással jól kombinálható kollekciót",
+    "Kizárólag férfiruházatot",
+    "Csak esküvői ruhákat"
+   ],
+   "correct": 1,
+   "difficulty": "hard",
+   "explanation": "A kapszulakollekció kevés, gondosan összeválogatott, sokoldalúan kombinálható darabból áll.",
+   "source": null,
+   "topic": "szakmai fogalmak"
+  },
+  {
+   "category": "divat",
+   "question": "Mit takar a fast fashion kifejezés a divatiparban?",
+   "answers": [
+    "Kizárólag luxusmárkákat",
+    "Gyorsan gyártott, olcsó, trendkövető ruházatot",
+    "Csak sportruházatot",
+    "Egyedi szabászati technikát"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A gyors divat gyorsan reagál a trendekre, alacsony áron és nagy mennyiségben gyárt.",
+   "source": null,
+   "topic": "szakmai fogalmak"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik divatfővárost emlegetik gyakran a haute couture történelmi központjaként?",
+   "answers": [
+    "Milánót",
+    "New Yorkot",
+    "Párizst",
+    "Londont"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A magas szabászat intézménye a 19. századi Párizsban alakult ki.",
+   "source": null,
+   "topic": "divattörténet"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik olasz várost tartják a luxus konfekciódivat egyik legfontosabb központjának?",
+   "answers": [
+    "Rómát",
+    "Torinót",
+    "Milánót",
+    "Velencét"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "Milánóban rendezik az egyik legfontosabb nemzetközi divathetet.",
+   "source": null,
+   "topic": "divattörténet"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik divatházat alapította Miuccia Prada nagyapja bőrdíszműves üzletként?",
+   "answers": [
+    "A Pradát",
+    "A Guccit",
+    "A Fendit",
+    "A Versacét"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A milánói céget 1913-ban alapították, és évtizedekkel később Miuccia Prada vezette világhírűvé.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik olasz divatházat alapította Guccio Gucci Firenzében?",
+   "answers": [
+    "A Fendit",
+    "A Guccit",
+    "Az Armanit",
+    "A Pradát"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "A céget 1921-ben alapították bőráru-készítőként.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik divattervező nevéhez köthető a kis fekete ruha modern klasszikussá tétele?",
+   "answers": [
+    "Mary Quant",
+    "Vivienne Westwood",
+    "Coco Chanel",
+    "Elsa Schiaparelli"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "Chanel az 1920-as években egyszerűsítette le a fekete estélyi ruha formáját.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik divattervező alapította a Dior házat 1946-ban?",
+   "answers": [
+    "Pierre Balmain",
+    "Christian Dior",
+    "Yves Saint Laurent",
+    "Hubert de Givenchy"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Christian Dior párizsi szalonja 1947-es kollekciójával robbant be a köztudatba.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik tervező vezette a Dior házat Christian Dior halála után fiatal örökösként?",
+   "answers": [
+    "Yves Saint Laurent",
+    "Karl Lagerfeld",
+    "Alexander McQueen",
+    "Tom Ford"
+   ],
+   "correct": 0,
+   "difficulty": "hard",
+   "explanation": "Saint Laurent mindössze huszonegy évesen vette át a stúdió vezetését 1957-ben.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik brit divattervező nevéhez köthető a punk stílus divatba emelése a hetvenes években?",
+   "answers": [
+    "Vivienne Westwood",
+    "Stella McCartney",
+    "Mary Quant",
+    "Alexander McQueen"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "Westwood a punk mozgalom stílusát vitte a hivatalos divatszínpadra.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik amerikai tervező neve fonódott össze a minimalista, elegáns kifutói stílussal a kilencvenes években?",
+   "answers": [
+    "Ralph Lauren",
+    "Marc Jacobs",
+    "Calvin Klein",
+    "Tommy Hilfiger"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A letisztult szabás és a visszafogott színvilág a márka védjegyévé vált.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik divatházat alapította Giorgio Armani 1975-ben?",
+   "answers": [
+    "Az Armanit",
+    "A Versacét",
+    "A Valentinót",
+    "A Zegnát"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "Armani a lezser, mégis elegáns öltönyszabásáról vált világhírűvé.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik divatházat vezette kreatív igazgatóként hosszú ideig Karl Lagerfeld?",
+   "answers": [
+    "A Pradát",
+    "A Diort",
+    "A Chanelt",
+    "A Guccit"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "Lagerfeld 1983-tól évtizedeken át formálta a Chanel modern arculatát.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik márka logójában szerepel két egymásba fonódó C betű?",
+   "answers": [
+    "A Gucci",
+    "A Louis Vuitton",
+    "A Chanel",
+    "A Dior"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A híres monogram Coco Chanel nevének kezdőbetűiből áll.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik párizsi divatházat alapította Louis Vuitton eredetileg bőröndkészítőként?",
+   "answers": [
+    "A Balenciagát",
+    "A Hermèst",
+    "A Louis Vuittont",
+    "A Chanelt"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A céget 1854-ben alapították utazóládák és bőröndök gyártására.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik francia luxusházat alapították eredetileg lószerszám-készítő műhelyként?",
+   "answers": [
+    "A Hermèst",
+    "A Chanelt",
+    "A Guccit",
+    "A Diort"
+   ],
+   "correct": 0,
+   "difficulty": "hard",
+   "explanation": "A céget 1837-ben alapították, és csak később fordult a bőrdíszmű és a divat felé.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik divattervező tette híressé a merész, gyakran vitatott, avantgárd kifutói bemutatóit a kilencvenes-kétezres években?",
+   "answers": [
+    "Alexander McQueen",
+    "Roberto Cavalli",
+    "Tom Ford",
+    "Marc Jacobs"
+   ],
+   "correct": 0,
+   "difficulty": "hard",
+   "explanation": "McQueen bemutatói drámai koreográfiával és extrém szabásokkal hívták fel magukra a figyelmet.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik divattervező nevéhez köthető a szafari dzseki és a nőknek szabott szmoking, a Le Smoking?",
+   "answers": [
+    "Pierre Cardin",
+    "Coco Chanel",
+    "Yves Saint Laurent",
+    "Christian Dior"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "Saint Laurent az 1960-as években hozta be a férfias szabású darabokat a női divatba.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik olasz divatházat alapította Gianni Versace 1978-ban?",
+   "answers": [
+    "A Guccit",
+    "A Versacét",
+    "A Pradát",
+    "A Fendit"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A Versace a merész mintáiról és a rikító színvilágáról vált ismertté.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik cipőtervező vált híressé a vörös talpú magas sarkú cipőiről?",
+   "answers": [
+    "Salvatore Ferragamo",
+    "Jimmy Choo",
+    "Christian Louboutin",
+    "Manolo Blahnik"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A jellegzetes vörös talp Louboutin védjegyévé és felismerhető jelévé vált.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik olasz cipőmárka vált híressé a mozgókép sztárjainak lábbeliként a 20. század közepén?",
+   "answers": [
+    "A Gucci",
+    "A Salvatore Ferragamo",
+    "A Fendi",
+    "A Prada"
+   ],
+   "correct": 1,
+   "difficulty": "hard",
+   "explanation": "Ferragamo Hollywoodban dolgozott, mielőtt Firenzében nyitott saját céget.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik anyagot használják jellemzően a farmernadrágok jellegzetes kék színének eléréséhez?",
+   "answers": [
+    "Csersavat",
+    "Kármint",
+    "Sáfrányt",
+    "Indigófestéket"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Az indigófesték csak a szál felszínét festi meg, ezért kophat le a farmer.",
+   "source": null,
+   "topic": "anyagok"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik ruhadarabot viselik hagyományosan skót férfiak nemzeti öltözetként?",
+   "answers": [
+    "A kiltet",
+    "A kaftánt",
+    "A kimonót",
+    "A ponchót"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A kockás mintás szoknyaszerű ruhadarab a skót klánok hagyományos viselete.",
+   "source": null,
+   "topic": "ruhadarabok története"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik hagyományos japán ruhadarabot öveznek jellegzetes széles övvel, az obival?",
+   "answers": [
+    "A tunikát",
+    "A kaftánt",
+    "A kimonót",
+    "A szárit"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A kimonó hagyományos japán öltözék, amelyet az obi öv tart össze.",
+   "source": null,
+   "topic": "ruhadarabok története"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik indiai ruhadarabot tekerik testhosszan a viselő köré egyetlen hosszú anyagdarabból?",
+   "answers": [
+    "A kimonót",
+    "A tógát",
+    "A szárit",
+    "A kaftánt"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A szári egyetlen, több méteres kelme, amelyet meghatározott módon tekernek a testre.",
+   "source": null,
+   "topic": "ruhadarabok története"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik ókori ruhadarab volt a római polgárok jellegzetes, testre tekert felsőruhája?",
+   "answers": [
+    "A kimonó",
+    "A tóga",
+    "A kaftán",
+    "A tunika csak félig"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A tógát a római polgárjog jelképeként viselték, jellemzően fehér gyapjúból.",
+   "source": null,
+   "topic": "ruhadarabok története"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik évtizedben vált a farmernadrág tömegesen viselt hétköznapi ruhadarabbá Európában is?",
+   "answers": [
+    "A kilencvenes évek végén",
+    "Az ötvenes évek elején",
+    "A húszas években",
+    "A hatvanas-hetvenes években"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A farmer a fiatalos, lázadó image miatt vált a hatvanas-hetvenes évek jellegzetes darabjává.",
+   "source": null,
+   "topic": "divattörténet"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik divatirányzat jellemezte a húszas évek flapper stílusát?",
+   "answers": [
+    "A rövidített szoknya és a laza szabás",
+    "A merev fűző és a krinolin",
+    "A hosszú kesztyű és a turnűr",
+    "A hosszú uszályos ruha"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A húszas évek nőideálja elhagyta a fűzőt, a szabás lazább és rövidebb lett.",
+   "source": null,
+   "topic": "divattörténet"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik viktoriánus kori ruhadarab tartotta merev formában a szoknya alját?",
+   "answers": [
+    "A blézer",
+    "A krinolin",
+    "A body",
+    "A dzseki"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A krinolin fém- vagy csontvázas alszoknya volt, amely a szoknyát kupola alakúra tágította.",
+   "source": null,
+   "topic": "divattörténet"
+  },
+  {
+   "category": "divat",
+   "question": "Milyen ruhadarabot viseltek a nők a 19. század végén a hátukon kidomborodó formára, turnűrnek nevezve?",
+   "answers": [
+    "Kesztyűt",
+    "Kabátot",
+    "Fejfedőt",
+    "Alszoknyát a fenék tájékán"
+   ],
+   "correct": 3,
+   "difficulty": "hard",
+   "explanation": "A turnűr párnázott vagy vázas kiegészítő volt, amely a szoknya hátulját emelte meg.",
+   "source": null,
+   "topic": "divattörténet"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik kiegészítőt hordják hagyományosan az esküvői ruha részeként a menyasszonyok arcuk elé?",
+   "answers": [
+    "A kalapot",
+    "A fátylat",
+    "A kesztyűt",
+    "A sálat"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "A fátyol nyugati esküvői hagyományban a szemérmesség és az ünnepélyesség jelképe.",
+   "source": null,
+   "topic": "kiegészítők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik kiegészítőt viselik hagyományosan a diplomások az egyetemi ballagáson a fejükön?",
+   "answers": [
+    "A talárhoz tartozó kalapot",
+    "A cilindert",
+    "A búbos sapkát",
+    "A svájcisapkát"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A négyszögletes tetejű diáksapka a talárhoz tartozó akadémiai öltözet része.",
+   "source": null,
+   "topic": "kiegészítők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik textilmintát jellemzi az egymást keresztező, átlós vonalakból álló négyzetes elrendezés?",
+   "answers": [
+    "A pöttyös mintát",
+    "A virágmintát",
+    "A kockás mintát",
+    "A csíkos mintát"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A kockás minta jellegzetes példája a skót klánmintás szövet is.",
+   "source": null,
+   "topic": "anyagok"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik mintázatot alkotják az egyenletes távolságban ismétlődő kis körök?",
+   "answers": [
+    "A pöttyös mintát",
+    "A csipkemintát",
+    "A kockás mintát",
+    "A hullámmintát"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A pöttyös minta a huszadik század közepén vált különösen kedvelt divatelemmé.",
+   "source": null,
+   "topic": "anyagok"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik hímzett vagy szövött, áttört mintázatú textíliát használják gyakran esküvői ruhák díszítésére?",
+   "answers": [
+    "A csipkét",
+    "A gyapjút",
+    "A bársonyt",
+    "A farmert"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A csipke áttört, finom mintázatú szövedék, amelyet régóta használnak ünnepi öltözékek díszítésére.",
+   "source": null,
+   "topic": "anyagok"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik sűrű szövésű, bolyhos felületű textíliát használják gyakran téli kabátok anyagaként?",
+   "answers": [
+    "A sifont",
+    "A posztót",
+    "A batisztot",
+    "A tüllt"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A posztó vastag, tömött szövésű gyapjúszövet, amely jól tart meleget.",
+   "source": null,
+   "topic": "anyagok"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik könnyű, áttetsző textíliát használnak gyakran estélyi ruhák és fátylak anyagaként?",
+   "answers": [
+    "A posztót",
+    "A farmert",
+    "A tüllt",
+    "A kordbársonyt"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A tüll finom hálószövésű, áttetsző anyag, amely léggömbszerű formát ad a szoknyáknak.",
+   "source": null,
+   "topic": "anyagok"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik lábbelitípust jellemzi a bokáig érő szár és a zárt orr, jellemzően bőrből?",
+   "answers": [
+    "A csizmát",
+    "A klumpát",
+    "A szandált",
+    "A papucsot"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A csizma a láb és a boka teljes körbezárásával nyújt védelmet és melegséget.",
+   "source": null,
+   "topic": "lábbeli"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik lábbelit jellemzi a nyitott orr és sarok, valamint a pántos felsőrész, jellemzően nyári viseletként?",
+   "answers": [
+    "A mokaszint",
+    "A bakancsot",
+    "A csizmát",
+    "A szandált"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A szandál könnyű, szellős szerkezete miatt jellemzően meleg időben viselt lábbeli.",
+   "source": null,
+   "topic": "lábbeli"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik holland eredetű lábbelit jellemzi a fából faragott, zárt talp?",
+   "answers": [
+    "A szandált",
+    "A papucsot",
+    "A klumpát",
+    "A mokaszint"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A klumpa hagyományos holland fapapucs, amelyet régen mezőgazdasági munkához is viseltek.",
+   "source": null,
+   "topic": "lábbeli"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik divatfogalom jelöli azt, amikor egy stílus vagy darab újra népszerűvé válik évtizedekkel később?",
+   "answers": [
+    "A prêt-à-porter",
+    "A haute couture",
+    "A capsule collection",
+    "A revival, vagyis a divat visszatérése"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A divatban ciklikusan visszatérnek korábbi évtizedek jellegzetes stílusjegyei.",
+   "source": null,
+   "topic": "szakmai fogalmak"
+  },
+  {
+   "category": "divat",
+   "question": "Mit jelent a divatszakmában az it-piece kifejezés?",
+   "answers": [
+    "A tervező aláírt ruhadarabja",
+    "Egy adott szezon legkeresettebb, trendi darabja",
+    "A minta neve",
+    "A kifutó első modellje"
+   ],
+   "correct": 1,
+   "difficulty": "hard",
+   "explanation": "Az it-piece egy szezon legmeghatározóbb, legtöbbet keresett divatdarabjára utal.",
+   "source": null,
+   "topic": "szakmai fogalmak"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik szakkifejezés jelöli a divatházak évi kétszeri, tavaszi-nyári és őszi-téli fő kollekcióját?",
+   "answers": [
+    "A limitált szériát",
+    "A upcyclingot",
+    "A capsule collection",
+    "A szezonális kollekció"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A divatipar hagyományosan évi két fő, szezonhoz kötött kollekciót mutat be.",
+   "source": null,
+   "topic": "szakmai fogalmak"
+  },
+  {
+   "category": "divat",
+   "question": "Mit jelent az upcycling kifejezés a fenntartható divatban?",
+   "answers": [
+    "Új szálak vegyi előállítása",
+    "A divatbemutató megismétlése",
+    "A ruha gyors selejtezése",
+    "Régi anyagok újrahasznosítása magasabb értékű termékké"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Az upcycling során a hulladékanyagból értékesebb, új terméket hoznak létre az újrahasznosítás helyett.",
+   "source": null,
+   "topic": "szakmai fogalmak"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik fogalom jelöli azt, amikor egy ruhadarab neme szerint semleges, bárki által viselhető szabású?",
+   "answers": [
+    "A prêt-à-porter",
+    "Az unisex divat",
+    "A capsule collection",
+    "A haute couture"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Az unisex ruhadarabokat nemtől függetlenül azonos szabással tervezik.",
+   "source": null,
+   "topic": "szakmai fogalmak"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik divatfővárosban rendezik a Fashion Weeket, amely hagyományosan a négy legfontosabb divathét sorát zárja?",
+   "answers": [
+    "Párizsban",
+    "New Yorkban",
+    "Milánóban",
+    "Londonban"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A négy nagy divathét sorrendben New York, London, Milánó, majd Párizs.",
+   "source": null,
+   "topic": "divattörténet"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik amerikai divattervező vált ismertté a sportos, elegáns, angolos stílusú kollekcióiról és a pólóján lévő lovas logóról?",
+   "answers": [
+    "Calvin Klein",
+    "Tommy Hilfiger",
+    "Michael Kors",
+    "Ralph Lauren"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A Ralph Lauren márka jelképe a pólójátékost ábrázoló hímzett logó.",
+   "source": null,
+   "topic": "divatházak, tervezők"
+  },
+  {
+   "category": "divat",
+   "question": "Melyik divattervező alapította a Burberry márkát, amelyet ma is a kockás mintáról ismernek fel?",
+   "answers": [
+    "Charles Worth",
+    "Thomas Burberry",
+    "John Galliano",
+    "Paul Poiret"
+   ],
+   "correct": 1,
+   "difficulty": "hard",
+   "explanation": "A céget 1856-ban alapították, eredetileg vízálló gabardin esőkabátokra specializálódva.",
+   "source": null,
+   "topic": "divatházak, tervezők"
   },
   {
    "category": "erdekessegek",
@@ -17926,6 +18916,531 @@
    "explanation": "Az MTA-t 1825-ben alapították Széchenyi István felajánlásából.",
    "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
    "topic": "intézmények"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Hány évre választják Magyarországon az országgyűlési képviselőket?",
+   "answers": [
+    "Hat évre",
+    "Négy évre",
+    "Öt évre",
+    "Három évre"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Az Országgyűlés ciklusa jellemzően négy évig tart, ha nincs előrehozott választás.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "választás"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Hány tagú testület jelenleg a magyar Országgyűlés?",
+   "answers": [
+    "176 fős",
+    "386 fős",
+    "250 fős",
+    "199 fős"
+   ],
+   "correct": 3,
+   "difficulty": "hard",
+   "explanation": "A 2011-es választójogi reform 386-ról 199 főre csökkentette a képviselők számát.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "államszervezet"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Hány évre választják Magyarországon a köztársasági elnököt?",
+   "answers": [
+    "Hét évre",
+    "Hat évre",
+    "Öt évre",
+    "Négy évre"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "Az államfő megbízatása öt évre szól, és egyszer újraválasztható.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "államszervezet"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Ki a magyar állam formális feje, aki képviseli az országot?",
+   "answers": [
+    "A miniszterelnök",
+    "A kormányfő",
+    "Az Országgyűlés elnöke",
+    "A köztársasági elnök"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A köztársasági elnök tölti be az államfői funkciót, a végrehajtó hatalom feje a miniszterelnök.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "államszervezet"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Ki nevezi ki Magyarországon a miniszterelnök-jelöltet?",
+   "answers": [
+    "Az Alkotmánybíróság elnöke",
+    "Az Országgyűlés elnöke",
+    "A köztársasági elnök",
+    "A legnagyobb ellenzéki párt vezetője"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A köztársasági elnök jelöli a miniszterelnököt, akit az Országgyűlés választ meg.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "államszervezet"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik testület dönt Magyarországon a jogszabályok alkotmányosságáról?",
+   "answers": [
+    "A Kúria",
+    "Az Alkotmánybíróság",
+    "A Legfelsőbb Bíróság",
+    "A Nemzeti Választási Bizottság"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Az Alkotmánybíróság vizsgálja, hogy egy jogszabály összhangban áll-e az Alaptörvénnyel.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "intézmények"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik szerv a legfelsőbb bírói fórum Magyarországon?",
+   "answers": [
+    "Az Alkotmánybíróság",
+    "A Kúria",
+    "A Legfőbb Ügyészség",
+    "Az Országos Bírósági Hivatal"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A Kúria a rendes bírósági szervezet csúcsán áll, korábbi neve Legfelsőbb Bíróság volt.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "intézmények"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik szerv felügyeli Magyarországon a választások lebonyolítását?",
+   "answers": [
+    "A Nemzeti Választási Bizottság",
+    "Az Állami Számvevőszék",
+    "Az Alkotmánybíróság",
+    "A Kúria"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A választási bizottságok rendszere felel a választások jogszerű lefolytatásáért.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "intézmények"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik intézmény felel Magyarországon az állami vagyon és a költségvetés ellenőrzéséért?",
+   "answers": [
+    "Az Állami Számvevőszék",
+    "A Nemzeti Adó- és Vámhivatal",
+    "A Magyar Nemzeti Bank",
+    "A Kúria"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "Az Állami Számvevőszék az Országgyűlés pénzügyi-gazdasági ellenőrző szerve.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "intézmények"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik intézmény felel Magyarországon az adók beszedéséért?",
+   "answers": [
+    "A Magyar Nemzeti Bank",
+    "A Nemzeti Adó- és Vámhivatal",
+    "A Kúria",
+    "Az Állami Számvevőszék"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "A NAV végzi az adóztatást és a vámellenőrzést Magyarországon.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "intézmények"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik szerv jogosult Magyarországon jegybanki feladatok ellátására?",
+   "answers": [
+    "A Nemzeti Adó- és Vámhivatal",
+    "Az Állami Számvevőszék",
+    "A Magyar Nemzeti Bank",
+    "A Pénzügyminisztérium"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A Magyar Nemzeti Bank felel a monetáris politikáért és a pénzügyi stabilitásért.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "intézmények"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik szerv képviseli Magyarországon a vádhatóságot a büntetőeljárásokban?",
+   "answers": [
+    "A rendőrség",
+    "Az önkormányzat",
+    "A bíróság",
+    "Az ügyészség"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Az ügyészség önálló alkotmányos szervként képviseli a vádat a bíróság előtt.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "intézmények"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Milyen közigazgatási egységre tagolódik Magyarország a megyék alatt?",
+   "answers": [
+    "Körzetekre",
+    "Járásokra",
+    "Tartományokra",
+    "Kerületekre csak Budapesten"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A járási rendszert 2013-ban vezették be újra a helyi közigazgatás szervezésére.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "közigazgatás"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Hány megyére oszlik Magyarország közigazgatásilag?",
+   "answers": [
+    "Tizenötre",
+    "Huszonötre",
+    "Húszra",
+    "Tizenkilencre"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Magyarországon tizenkilenc megye van, Budapest külön, megyei jogú fővárosként szerepel.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "közigazgatás"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Milyen elnevezésű a magyar helyi önkormányzatok választott vezetője egy településen?",
+   "answers": [
+    "Polgármester",
+    "Tanácselnök",
+    "Prefektus",
+    "Kormánybiztos"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A polgármestert a helyi választópolgárok választják a település élére.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "közigazgatás"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Hogyan nevezik a kormány területi képviseletét ellátó, megyei szintű hivatalt Magyarországon?",
+   "answers": [
+    "Megyeháza csak épületként",
+    "Tanácsháza",
+    "Prefektúra",
+    "Kormányhivatal"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A fővárosi és megyei kormányhivatalok látják el az államigazgatási feladatok jelentős részét helyben.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "közigazgatás"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik évben csatlakozott Magyarország az Európai Unióhoz?",
+   "answers": [
+    "2011-ben",
+    "2007-ben",
+    "2004-ben",
+    "1999-ben"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "Magyarország 2004. május 1-jén lett az Európai Unió tagja.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "nemzetközi"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik katonai szövetségnek lett tagja Magyarország 1999-ben?",
+   "answers": [
+    "Az EU-nak",
+    "Az ENSZ-nek",
+    "A V4-nek",
+    "A NATO-nak"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Magyarország Csehországgal és Lengyelországgal együtt csatlakozott a NATO-hoz 1999-ben.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "nemzetközi"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik nemzetközi szervezet New York-i székhelyű, és Magyarország is tagja?",
+   "answers": [
+    "A Világbank csak részben",
+    "A NATO",
+    "Az Európai Unió",
+    "Az Egyesült Nemzetek Szervezete"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "Magyarország 1955 óta tagja az ENSZ-nek.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "nemzetközi"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Milyen pénznemet használ hivatalos fizetőeszközként Magyarország?",
+   "answers": [
+    "Koronát",
+    "Forintot",
+    "Eurót",
+    "Zlotyt"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "Magyarország az Európai Unió tagjaként sem vezette még be az eurót, forintot használ.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "nemzetközi"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik dokumentum tölti be Magyarországon az alkotmány szerepét 2012 óta?",
+   "answers": [
+    "A Nemzeti Charta",
+    "Az Alaptörvény",
+    "A Sarkalatos törvény",
+    "A Közjogi Kódex"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Az Alaptörvény 2012. január 1-jén lépett hatályba, felváltva az 1949-es alkotmányt.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "alaptörvény"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik évben lépett hatályba a jelenlegi magyar Alaptörvény?",
+   "answers": [
+    "2010-ben",
+    "2004-ben",
+    "2015-ben",
+    "2012-ben"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Az Alaptörvényt 2011-ben fogadták el, és 2012. január 1-jén lépett hatályba.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "alaptörvény"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Milyen típusú törvények módosításához van szükség kétharmados többségre Magyarországon?",
+   "answers": [
+    "Minden törvényhez",
+    "Csak a költségvetési törvényhez",
+    "Csak a helyi rendeletekhez",
+    "A sarkalatos törvényekhez"
+   ],
+   "correct": 3,
+   "difficulty": "hard",
+   "explanation": "A sarkalatos, vagyis kiemelt fontosságú törvények elfogadásához és módosításához minősített többség kell.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "alaptörvény"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Milyen államformát rögzít Magyarország Alaptörvénye?",
+   "answers": [
+    "Szövetségi államot",
+    "Köztársaságot",
+    "Királyságot",
+    "Fejedelemséget"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "Az Alaptörvény szerint Magyarország független, demokratikus jogállam, köztársasági államformával.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "alaptörvény"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Milyen elven alapul a hatalommegosztás a magyar államszervezetben?",
+   "answers": [
+    "A vallási és világi hatalom egyesítésén",
+    "A pártok közötti rotáción",
+    "A régiók önálló törvényhozásán",
+    "A törvényhozó, végrehajtó és bírói hatalom elválasztásán"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A klasszikus hatalommegosztás elve szerint a három ág egymástól elkülönülve, egymást ellenőrizve működik.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "államszervezet"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Milyen színekből áll a magyar nemzeti zászló?",
+   "answers": [
+    "Piros, fehér, kék",
+    "Fekete, piros, arany",
+    "Piros, fehér, zöld",
+    "Kék, fehér, zöld"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A magyar trikolór piros-fehér-zöld sávjai a 19. század óta a nemzeti jelkép részei.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "jelképek"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik épület a magyar Országgyűlés hivatalos székhelye Budapesten?",
+   "answers": [
+    "A Várkert Bazár",
+    "A Sándor-palota",
+    "Az Országház",
+    "A Karmelita kolostor"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A Duna-parti Országház 1902 óta ad otthont a magyar törvényhozásnak.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "jelképek"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik épület a magyar köztársasági elnök hivatalos rezidenciája?",
+   "answers": [
+    "A Parlament",
+    "A Karmelita kolostor",
+    "Az Országház",
+    "A Sándor-palota"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A budai várban álló Sándor-palota 2003 óta az államfő hivatalos székhelye.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "jelképek"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Hol őrzik jelenleg állandó jelleggel a magyar Szent Koronát?",
+   "answers": [
+    "Az Országházban",
+    "A Mátyás-templomban",
+    "A Budai Várban",
+    "A Nemzeti Múzeumban"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A koronázási jelvényeket 2000 óta az Országház kupolacsarnokában őrzik.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "jelképek"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik napon van Magyarországon a Nemzeti Összetartozás Napja?",
+   "answers": [
+    "Augusztus 20-án",
+    "Június 4-én",
+    "Október 23-án",
+    "Március 15-én"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A trianoni békeszerződés aláírásának évfordulóján, június 4-én tartják az emléknapot.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "ünnepek"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik nemzeti ünnep esik a naptár szerint a legkorábbra az évben?",
+   "answers": [
+    "Augusztus 20.",
+    "Március 15.",
+    "Június 4.",
+    "Október 23."
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "A három magyar nemzeti ünnep közül március 15. esik legkorábbra az évben.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "ünnepek"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Melyik törvényhozási testület egykamarás jellegű Magyarországon?",
+   "answers": [
+    "A Nemzetgyűlés kétkamarás",
+    "Az Országgyűlés",
+    "A Szenátus",
+    "A Képviselőtanács"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A magyar Országgyűlés egykamarás parlament, nincs külön felsőháza.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "államszervezet"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Milyen gyakorisággal tartanak Magyarországon rendszerint önkormányzati választást?",
+   "answers": [
+    "Kétévente",
+    "Háromévente",
+    "Négyévente",
+    "Ötévente"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A helyi önkormányzati választásokat ötévenként tartják, eltérő ciklusban az országgyűlésitől.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "választás"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Hány évesen szerezhet valaki választójogot Magyarországon?",
+   "answers": [
+    "18 évesen",
+    "21 évesen",
+    "20 évesen",
+    "16 évesen"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A nagykorúsághoz kötött általános választójog Magyarországon 18 éves kortól illeti meg az állampolgárokat.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "választás"
+  },
+  {
+   "category": "magyar-kozelet",
+   "question": "Milyen választási rendszer jellemzi az Országgyűlés megválasztását 2011 óta?",
+   "answers": [
+    "Sorsolásos kiválasztás",
+    "Vegyes, egyéni és listás elemet is tartalmazó rendszer",
+    "Tisztán egyéni többségi rendszer",
+    "Tisztán listás arányos rendszer"
+   ],
+   "correct": 1,
+   "difficulty": "hard",
+   "explanation": "A 2011-es reform óta a képviselők egy része egyéni választókerületben, más része listán szerez mandátumot.",
+   "source": "saját szerkesztés (általános műveltségi, államszervezeti alapismeretek)",
+   "topic": "választás"
   },
   {
    "category": "magyar-kultura",

@@ -635,6 +635,7 @@ export function roomScreen(app, { room: initialRoom }) {
 
     room = next;
     announceIfNeeded();
+    showIncomingReactions();
 
     const phase = phaseOf();
     const sig = signature(next, phase);
@@ -816,8 +817,186 @@ export function roomScreen(app, { room: initialRoom }) {
     app.navigate('multiplayer');
   }
 
+  // ── beszólások ──
+  //
+  // A kliens SOSEM küld szabad szöveget: a katalógusból választott azonosítót
+  // küldi, a szöveg a szerveren van. Így nem lehet a csatornán keresztül a
+  // helyes választ bekiabálni, sem bármi mást átjuttatni.
+  let reactionCatalog = null;      // lusta betöltés, csak az első nyitáskor
+  let shownReactionIds = new Set(); // amit már felvillantottunk
+  let reactionCooldownUntil = 0;
+
+  /** A jobb alsó buborék: innen nyílik a választó. */
+  function reactionBubble() {
+    const disabled = Date.now() < reactionCooldownUntil;
+    return el('button.reaction-bubble', {
+      type: 'button',
+      title: 'Beszólás küldése',
+      'aria-label': 'Beszólás küldése',
+      disabled,
+      on: { click: openReactionPicker }
+    }, [el('span', { text: '💬' })]);
+  }
+
+  async function openReactionPicker() {
+    sfx.tap();
+    if (reactionCatalog === null) {
+      try {
+        reactionCatalog = await app.supabase.reactionCatalog();
+      } catch {
+        reactionCatalog = [];
+      }
+    }
+    if (!reactionCatalog.length) {
+      toast('A beszólások most nem érhetők el.', { tone: 'error' });
+      return;
+    }
+
+    const overlay = el('div.modal-overlay');
+    const close = () => overlay.remove();
+
+    const list = el('div.reaction-list', null, reactionCatalog.map((item) =>
+      el('button.reaction-option', {
+        type: 'button',
+        on: {
+          click: async () => {
+            close();
+            await sendReaction(item.id);
+          }
+        }
+      }, [
+        el('span.reaction-option-emoji', { text: item.emoji }),
+        el('span.grow', { text: item.body })
+      ])
+    ));
+
+    overlay.append(
+      el('div.modal-sheet', null, [
+        el('h3.center', { text: 'Beszólás' }),
+        el('div.modal-body', null, [list]),
+        el('div.modal-actions', null, [
+          el('button.link-btn', { type: 'button', text: 'Mégsem', on: { click: close } })
+        ])
+      ])
+    );
+    overlay.addEventListener('click', (event) => {
+      if (event.target === overlay) close();
+    });
+    root.append(overlay);
+  }
+
+  async function sendReaction(id) {
+    // A szerver 3 másodpercenként egyet engedélyez; a kliens is visszafogja
+    // magát, hogy a gomb ne tűnjön elakadtnak.
+    reactionCooldownUntil = Date.now() + 3200;
+    try {
+      const result = await app.supabase.rpc('send_room_reaction', {
+        p_room: room.id,
+        p_reaction: id
+      });
+      if (result?.ok === false) {
+        if (result.error === 'too_fast') toast('Várj egy pillanatot a következővel.');
+        else if (result.error === 'not_playing') toast('Beszólni csak játék közben lehet.');
+        else toast('A beszólás nem ment el.', { tone: 'error' });
+        return;
+      }
+      // Azonnali visszajelzés: a sajátunkat nem várjuk meg a következő
+      // állapotkéréssel, mert az lassúnak tűnne.
+      const item = (reactionCatalog ?? []).find((entry) => entry.id === id);
+      if (item) flashReaction({ nickname: 'Te', emoji: item.emoji, body: item.body });
+    } catch (error) {
+      toast(error.message, { tone: 'error' });
+    }
+  }
+
+  /**
+   * A friss beszólások felvillantása felül.
+   *
+   * A `room_state` a legutóbbi 8 másodperc üzeneteit adja vissza, és
+   * másodpercenként kérdezzük – ezért kell nyilvántartani, mit villantottunk
+   * már fel, különben ugyanaz az üzenet nyolcszor jelenne meg.
+   */
+  function showIncomingReactions() {
+    for (const item of room.reactions ?? []) {
+      if (shownReactionIds.has(item.id)) continue;
+      shownReactionIds.add(item.id);
+      // A sajátunkat a küldéskor már megjelenítettük.
+      if (item.player_id === myId()) continue;
+      flashReaction(item);
+    }
+    // A halmaz ne nőjön a végtelenbe egy hosszú játék alatt.
+    if (shownReactionIds.size > 200) shownReactionIds = new Set();
+  }
+
+  function flashReaction({ nickname, emoji, body }) {
+    const node = el('div.reaction-flash', null, [
+      el('span.reaction-flash-emoji', { text: emoji ?? '💬' }),
+      el('span.reaction-flash-name', { text: nickname ?? 'Játékos' }),
+      el('span.reaction-flash-body', { text: body ?? '' })
+    ]);
+    root.append(node);
+    // Kivezetés, majd eltávolítás – DOM-szemét nélkül.
+    setTimeout(() => {
+      node.classList.add('reaction-flash-out');
+      setTimeout(() => node.remove(), 320);
+    }, 2600);
+  }
+
+  // ── vissza-navigáció ──
+  //
+  // Játék közben NINCS kilépés gomb: elfoglalná a helyet, amire a kérdésnek és
+  // a négy válasznak van szüksége, és egy félrekattintás kiszakítana a körből.
+  // Aki mégis ki akar lépni, az a vissza gombot használja – erre megjelenik a
+  // gomb. A vissza gomb elkapása egy „őrszem” history-bejegyzéssel megy: a
+  // hash NEM változik, ezért az alkalmazás routere (`hashchange`) nem is
+  // ébred fel, tehát nem navigálunk el véletlenül.
+  let exitRevealed = false;
+  let guardPushed = false;
+
+  function pushExitGuard() {
+    if (guardPushed) return;
+    try {
+      history.pushState({ tkRoomGuard: true }, '', location.hash || undefined);
+      guardPushed = true;
+    } catch {
+      /* Ha a history nem elérhető, a gomb egyszerűen mindig látszik. */
+      exitRevealed = true;
+    }
+  }
+
+  function onPopState() {
+    // A váróban és a végén a gomb amúgy is látszik – nincs mit elkapni.
+    if (room.status !== 'playing') return;
+
+    if (!exitRevealed) {
+      exitRevealed = true;
+      guardPushed = false;
+      pushExitGuard();          // maradjunk a szobában, hogy legyen mire koppintani
+      render();
+      toast('Kilépés: koppints a gombra, vagy nyomd meg még egyszer a vissza gombot.');
+      return;
+    }
+    // Második vissza: tényleg kilépünk – de szabályosan, hogy a szerver is
+    // megtudja, különben a többiek egy sosem válaszoló játékosra várnának.
+    guardPushed = false;
+    leave();
+  }
+
+  window.addEventListener('popstate', onPopState);
+  root.addEventListener('screen:unmount', () => {
+    window.removeEventListener('popstate', onPopState);
+  }, { once: true });
+
   // ── megjelenítés ──
 
+  /**
+   * A képernyő felépítése.
+   *
+   * A KÉRDÉS FÁZISBAN a képernyő pontosan a látható magasságot töltse ki, és
+   * NE legyen görgethető: a pontsáv, a kérdés és a négy válasz együtt kiférjen.
+   * Korábban a szakaszok egymás alá nőttek, és telefonon a negyedik válaszhoz
+   * görgetni kellett – ami időzített kérdésnél elfogadhatatlan.
+   */
   function render() {
     clear(body);
     timerFill = null;
@@ -839,23 +1018,46 @@ export function roomScreen(app, { room: initialRoom }) {
     // beállítású szoba két órán át ott lóg a nyitott szobák listáján.
     //
     // Játék közben szándékosan NEM ajánljuk fel: egy félrekattintás mindenki
-    // futó játékát megszakítaná. Ha a host kiszáll, a „Kilépés” elég – a játék
-    // a többiekkel megy tovább, és a host-szerep átszáll. A szerveroldali
-    // close_room játék közben is működik, ha tényleg le kell zárni egy szobát.
+    // futó játékát megszakítaná. A szerveroldali close_room játék közben is
+    // működik, ha tényleg le kell zárni egy szobát.
     const canClose = isHost() && room.status === 'lobby';
+    // Játék közben csak akkor, ha a felhasználó a vissza gombbal kérte.
+    const showExit = room.status !== 'playing' || exitRevealed;
 
-    sections.push(
-      el('div.actions', null, [
-        primaryButton(room.status === 'playing' ? 'Kilépés (feladom)' : 'Kilépés a szobából', leave, {
-          tone: 'secondary'
-        }),
-        canClose
-          ? primaryButton('Szoba törlése', closeRoom, { tone: 'danger', disabled: isWorking })
-          : null
-      ].filter(Boolean))
-    );
+    if (showExit || canClose) {
+      sections.push(
+        el('div.actions', null, [
+          showExit
+            ? primaryButton(
+                room.status === 'playing' ? 'Kilépés (feladom)' : 'Kilépés a szobából',
+                leave,
+                { tone: 'secondary' }
+              )
+            : null,
+          canClose
+            ? primaryButton('Szoba törlése', closeRoom, { tone: 'danger', disabled: isWorking })
+            : null
+        ].filter(Boolean))
+      );
+    }
+
+    // Játék közben fix magasság, görgetés nélkül. A `room-fit` osztályt a
+    // `.viewport` is figyeli (lásd styles.css), ezért a gyökérre is kell.
+    // A `between` fázis kimarad: a köri pontlista hosszabb lehet, azt hagyjuk
+    // görgethetőnek.
+    const fit =
+      room.status === 'playing' &&
+      (renderedPhase === 'answer' || renderedPhase === 'resolved' || renderedPhase === 'spin');
+
+    // Az őrszem history-bejegyzés, hogy a vissza gombot el tudjuk kapni.
+    if (room.status === 'playing' && !exitRevealed) pushExitGuard();
+    root.classList.toggle('room-fit', fit);
+    body.classList.toggle('room-body-fit', fit);
+    // A görgetést a SZÜLŐ (.viewport) kapcsolja ki; a `:has()` csak tartalék.
+    root.parentElement?.classList?.toggle('viewport-fit', fit);
 
     body.append(...sections.filter(Boolean));
+    if (fit) body.append(reactionBubble());
     updateClockUi();
   }
 
@@ -1086,7 +1288,9 @@ export function roomScreen(app, { room: initialRoom }) {
             text: `${q.alive_count} játékos van még versenyben. Válassz!`
           });
 
-    return el('div.actions', null, [host, status]);
+    // Saját osztály, hogy a fix magasságú elrendezés CSS-e ne `:has()`-ra
+    // épüljön – az régebbi böngészőkben nem működik.
+    return el('div.actions.answers-wrap', null, [host, status]);
   }
 
   /** Kiértékelés: a helyes válasz zölden, a sajátom (ha rontottam) piros. */
@@ -1098,29 +1302,29 @@ export function roomScreen(app, { room: initialRoom }) {
       if (index === q.correct_answer) stateClass = 'answer-correct';
       else if (mine && index === mine.selected_answer) stateClass = 'answer-wrong';
 
-      // Ki választotta ezt? A kiértékelés után ez már nem árul el semmit.
-      const pickers = (q.results ?? [])
-        .filter((r) => r.selected_answer === index)
-        .map((r) => avatarEmoji(
-          (room.players ?? []).find((p) => p.player_id === r.player_id)?.avatar_id
-        ))
-        .join(' ');
-
       host.append(
         el('div.answer', { class: `answer-static ${stateClass}` }, [
           el('span.answer-letter', { text: LETTERS[index] ?? '?' }),
-          el('span.answer-text', { text: answer }),
-          pickers ? el('span.answer-pickers', { text: pickers }) : null
+          el('span.answer-text', { text: answer })
         ])
       );
     });
     return host;
   }
 
+  /**
+   * A kiértékelés visszajelzése.
+   *
+   * SZÁNDÉKOSAN CSAK A SAJÁT EREDMÉNY. Korábban itt volt egy „Ki mit
+   * válaszolt” lista és a kérdés magyarázata is, de:
+   *   - a kérdés és a négy válasz így nem fért ki egy képernyőre, és
+   *   - a kiértékelés csak pár másodpercig látszik, tehát nincs idő elolvasni.
+   * A helyes válasz magán a válaszlistán zölden látszik, az elég.
+   */
   function resolutionCard(q) {
     const results = q.results ?? [];
     const mine = results.find((r) => r.player_id === myId());
-    const out = results.filter((r) => !r.is_correct);
+    const everyoneWrong = results.length > 0 && results.every((r) => !r.is_correct);
 
     return el('div.actions', null, [
       mine
@@ -1133,33 +1337,10 @@ export function roomScreen(app, { room: initialRoom }) {
                 : 'Rossz válasz – kiestél a körből.'
           })
         : null,
-
-      card([
-        el('h3', { text: 'Ki mit válaszolt' }),
-        ...results.map((result) =>
-          el('div.result-line', null, [
-            el('span.lb-avatar', {
-              text: avatarEmoji(
-                (room.players ?? []).find((p) => p.player_id === result.player_id)?.avatar_id
-              )
-            }),
-            el('span.grow', { text: nameOf(result.player_id) }),
-            el('span.muted.small', {
-              text: result.selected_answer === null
-                ? 'nem válaszolt'
-                : LETTERS[result.selected_answer] ?? '?'
-            }),
-            result.is_correct
-              ? el('span.good', { text: `✓ +${fmt.points(result.awarded_points)}` })
-              : el('span.bad', { text: '✕ kiesett' })
-          ])
-        ),
-        out.length === results.length && results.length > 0
-          ? el('p.muted.small.center', { text: 'Mindenki elvétette – ezzel a kör véget ér.' })
-          : null,
-        q.explanation ? el('p.explanation', { text: q.explanation }) : null
-      ])
-    ]);
+      everyoneWrong
+        ? el('p.muted.small.center', { text: 'Mindenki elvétette – ezzel a kör véget ér.' })
+        : null
+    ].filter(Boolean));
   }
 
   /** A kerék pörgetése: mindenki ugyanarra a kategóriára fut ki. */

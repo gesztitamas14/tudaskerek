@@ -55,8 +55,20 @@
 html, body {
   margin: 0;
   padding: 0;
+  /* A `100%` telefonon a LAYOUT viewportot méri, ami a címsáv alatti sávot is
+     beszámítja. Emiatt visszatéréskor a felső rész kicsúszott a képből, és a
+     body által nem takart részen sáv jelent meg. A `dvh` a tényleges látható
+     magasság; a `%` a tartalék a régi böngészőknek. */
   height: 100%;
+  height: 100dvh;
   overflow: hidden;
+}
+
+/* A vászon színe akkor is látszhat, ha a body egy pillanatra alacsonyabb a
+   viewportnál (címsáv animáció, visszatérés a háttérből). Legyen a téma
+   színe, ne a böngésző alapértelmezése. */
+html {
+  background: var(--bg-bottom);
 }
 
 body {
@@ -79,6 +91,7 @@ input, textarea { -webkit-user-select: text; user-select: text; }
   display: flex;
   flex-direction: column;
   height: 100%;
+  height: 100dvh;
 }
 
 /* ─────────────────────────── felső sáv ─────────────────────────── */
@@ -773,7 +786,24 @@ body.in-game #toast { bottom: calc(var(--safe-bottom) + 24px); }
   border: 1px solid var(--stroke);
 }
 .score-strip-head { display: flex; justify-content: space-between; }
-.score-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+/* VÍZSZINTESEN görgethető, nem tördelt. A tördelés 4-5 játékosnál több sort
+   csinált, és a kérdés meg a válaszok kiszorultak a képernyőről. Így a sáv
+   magassága állandó, akárhány játékos van. */
+.score-chips {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 6px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  /* A szélein legyen egy kis levegő, hogy látszódjon: van még oldalra. */
+  scroll-padding: 0 8px;
+}
+.score-chips::-webkit-scrollbar { display: none; }
+/* A zsugorodás tiltása nélkül a flex összenyomná a neveket olvashatatlanra. */
+.score-chips > .score-chip { flex: 0 0 auto; }
 .score-chip {
   display: flex;
   align-items: center;
@@ -1173,4 +1203,164 @@ input[type='checkbox'] {
   .modal-body .picker {
     padding: 0;
   }
+}
+
+/* ─────────────── játék közbeni fix magasságú képernyő ───────────────
+   A kérdésnek, a pontsávnak és a NÉGY VÁLASZNAK egy képernyőre kell kiférnie.
+   Időzített kérdésnél elfogadhatatlan, hogy a negyedik válaszhoz görgetni
+   kelljen – ezért itt a görgetés kikapcsol, és a válaszok kapják a maradék
+   helyet. A `.room-fit` osztályt a JS teszi a képernyő gyökerére. */
+
+.viewport.viewport-fit,
+.viewport:has(> .screen.room-fit) {
+  overflow: hidden;
+}
+
+.screen.room-fit {
+  height: 100%;
+  padding-bottom: 0;
+  gap: 8px;
+  /* A buborék ehhez képest helyezkedik el. */
+  position: relative;
+}
+
+.room-body-fit {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* A pontsáv és a kérdés a saját magasságát kapja, a válaszok a maradékot. */
+.room-body-fit > * { flex: 0 0 auto; }
+
+.room-body-fit .answers {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* A négy válasz egyenlően osztja a helyet, és nem lóg ki. */
+.room-body-fit .answers > .answer {
+  flex: 1 1 0;
+  min-height: 44px;   /* érintőfelület alsó korlátja */
+  align-items: center;
+}
+
+/* A válaszokat tartó szakasz is nyúlik, különben a belső flex nem kap helyet. */
+.room-body-fit > .answers-wrap {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Fix magasságnál a hosszú kérdés se nyomja ki a válaszokat: kisebb betű,
+   és ha kell, saját görgetés CSAK a kérdésen. */
+.room-body-fit .question-text {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.3;
+  max-height: 28vh;
+  max-height: 28dvh;
+  overflow-y: auto;
+}
+.room-body-fit .question-long { font-size: 15px; }
+.room-body-fit .question-meta { margin-bottom: 6px; }
+.room-body-fit .question-category { display: none; }  /* a kategória a pontsávban is ott van */
+
+/* ─────────────── beszólások ─────────────── */
+
+.reaction-bubble {
+  position: absolute;
+  right: 2px;
+  bottom: calc(6px + var(--safe-bottom));
+  z-index: 20;
+  width: 48px;
+  height: 48px;
+  border-radius: 999px;
+  border: 1px solid var(--stroke);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reaction-bubble:active { transform: scale(0.94); }
+.reaction-bubble:disabled { opacity: 0.45; }
+
+.reaction-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.reaction-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 46px;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--stroke);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.reaction-option:active { background: var(--tint); }
+.reaction-option-emoji { font-size: 20px; flex: 0 0 auto; }
+
+/* A felvillanó üzenet: FELÜL, kicsiben, pár másodpercre. Nem üzenetfal –
+   egymás alá rakódnak, ha többen szólnak be egyszerre. */
+.reaction-flash {
+  position: fixed;
+  left: 50%;
+  top: calc(var(--safe-top) + 56px);
+  transform: translateX(-50%);
+  z-index: 70;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  max-width: min(92vw, 420px);
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(255, 253, 248, 0.96);
+  border: 1px solid var(--stroke);
+  box-shadow: var(--shadow);
+  font-size: 13px;
+  animation: reaction-in 0.18s ease-out;
+  pointer-events: none;
+}
+.reaction-flash + .reaction-flash { top: calc(var(--safe-top) + 96px); }
+.reaction-flash + .reaction-flash + .reaction-flash { top: calc(var(--safe-top) + 136px); }
+
+.reaction-flash-emoji { font-size: 15px; flex: 0 0 auto; }
+.reaction-flash-name { font-weight: 600; flex: 0 0 auto; }
+.reaction-flash-body {
+  color: var(--text-2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reaction-flash-out {
+  opacity: 0;
+  transform: translateX(-50%) translateY(-6px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+@keyframes reaction-in {
+  from { opacity: 0; transform: translateX(-50%) translateY(-8px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
 }
