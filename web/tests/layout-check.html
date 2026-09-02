@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <title>Layout ellenőrzés</title>
+  <style>
+    body { font: 13px/1.5 ui-monospace, monospace; background: #111; color: #eee; margin: 0; padding: 12px; }
+    #frame { width: 390px; height: 844px; border: 1px solid #555; }
+    .bad { color: #ff7a8a; }
+    .ok { color: #7ce0a3; }
+  </style>
+</head>
+<body>
+  <!-- Az alkalmazást iframe-ben, telefon-méretben töltjük be, és megkeressük
+       azokat az elemeket, amelyek túllógnak a viewporton. -->
+  <div id="out">mérés…</div>
+  <iframe id="frame"></iframe>
+  <script>
+    // ?src=#/game → az alkalmazás adott képernyője tölt be a keretbe
+    const requested = new URLSearchParams(location.search).get("src") || "";
+    document.getElementById("frame").src = "../index.html" + requested;
+  </script>
+  <script>
+    const frame = document.getElementById('frame');
+    const out = document.getElementById('out');
+
+    setTimeout(() => {
+      const doc = frame.contentDocument;
+      const win = frame.contentWindow;
+      const lines = [];
+
+      const viewportWidth = win.innerWidth;
+      const scrollWidth = doc.documentElement.scrollWidth;
+      lines.push(`viewport = ${viewportWidth}px, documentElement.scrollWidth = ${scrollWidth}px`);
+      lines.push(scrollWidth > viewportWidth + 1
+        ? `<span class="bad">VÍZSZINTES TÚLLÓGÁS: ${scrollWidth - viewportWidth}px</span>`
+        : '<span class="ok">nincs vízszintes túllógás</span>');
+
+      // Melyik elemek lógnak túl?
+      const offenders = [];
+      for (const node of doc.querySelectorAll('*')) {
+        const rect = node.getBoundingClientRect();
+        if (rect.width === 0) continue;
+        if (rect.right > viewportWidth + 1 || rect.left < -1) {
+          offenders.push(
+            `${node.tagName.toLowerCase()}.${(node.className || '').toString().split(' ').join('.')} ` +
+            `→ left=${Math.round(rect.left)} right=${Math.round(rect.right)} width=${Math.round(rect.width)}`
+          );
+        }
+      }
+      lines.push(`túllógó elemek: ${offenders.length}`);
+      lines.push(...offenders.slice(0, 15).map((line) => `  ${line}`));
+
+      out.innerHTML = lines.join('<br>');
+    }, 3000);
+  </script>
+</body>
+</html>

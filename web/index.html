@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <!-- viewport-fit=cover + safe-area padding: iPhone-on a kivágás („notch”) és a
+       home indikátor alatt se csússzon el a felület -->
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5">
+  <title>TudásKerék – magyar kvízjáték</title>
+  <meta name="description"
+        content="Magyar nyelvű kvízjáték szerencsekerékkel: pörgess, válaszolj, és döntsd el, hogy megállsz vagy kockáztatsz. Offline is működik.">
+
+  <meta name="theme-color" content="#141029">
+  <meta name="color-scheme" content="dark">
+
+  <!-- PWA -->
+  <link rel="manifest" href="./manifest.webmanifest">
+
+  <!-- iOS: a home screenről indított webalkalmazás teljes képernyőn fut, és
+       mentesül a Safari 7 napos tárolótörlési szabálya alól -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="TudásKerék">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Az alkalmazás JavaScriptből épül fel; ez csak az induló állapot. -->
+    <div class="spinner-wrap"><div class="spinner"></div><span>Indulás…</span></div>
+  </div>
+
+  <noscript>
+    <div class="boot-error">
+      <h2>JavaScript szükséges</h2>
+      <p>A játék JavaScript nélkül nem működik. Engedélyezd a böngészőben.</p>
+    </div>
+  </noscript>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

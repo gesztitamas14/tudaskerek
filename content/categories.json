@@ -1,0 +1,200 @@
+[
+  {
+    "slug": "magyar-tortenelem",
+    "name": "Magyar történelem",
+    "description": "Honfoglalástól a rendszerváltásig: királyok, csaták, korszakok.",
+    "icon": "👑",
+    "color": "#B23A48",
+    "is_hungarian": true,
+    "sort_order": 10
+  },
+  {
+    "slug": "magyar-irodalom",
+    "name": "Magyar irodalom",
+    "description": "Költők, regények, szereplők, idézetek, évszámok.",
+    "icon": "📖",
+    "color": "#8E5572",
+    "is_hungarian": true,
+    "sort_order": 20
+  },
+  {
+    "slug": "magyar-kultura",
+    "name": "Magyar kultúra",
+    "description": "Hagyományok, népszokások, találmányok, hétköznapi műveltség.",
+    "icon": "🎭",
+    "color": "#C77D3A",
+    "is_hungarian": true,
+    "sort_order": 30
+  },
+  {
+    "slug": "magyar-foldrajz",
+    "name": "Magyar földrajz",
+    "description": "Megyék, városok, folyók, tavak, hegyek, nemzeti parkok.",
+    "icon": "🗺️",
+    "color": "#3E7C59",
+    "is_hungarian": true,
+    "sort_order": 40
+  },
+  {
+    "slug": "magyar-kozelet",
+    "name": "Magyar közélet",
+    "description": "Államszervezet, jelképek, intézmények – tényszerű általános műveltség.",
+    "icon": "🏛️",
+    "color": "#5A6B8C",
+    "is_hungarian": true,
+    "sort_order": 50
+  },
+  {
+    "slug": "magyar-sport",
+    "name": "Magyar sport",
+    "description": "Olimpiai bajnokok, aranycsapat, klubok, rekordok.",
+    "icon": "🏃",
+    "color": "#2E7D9A",
+    "is_hungarian": true,
+    "sort_order": 60
+  },
+  {
+    "slug": "magyar-zene-film",
+    "name": "Magyar zene és film",
+    "description": "Zeneszerzők, előadók, filmek, rendezők, díjak.",
+    "icon": "🎬",
+    "color": "#9B4DCA",
+    "is_hungarian": true,
+    "sort_order": 70
+  },
+  {
+    "slug": "magyar-nyelv",
+    "name": "Magyar nyelv",
+    "description": "Helyesírás, nyelvtan, szólások, jelentések, nyelvtörténet.",
+    "icon": "🔤",
+    "color": "#A8703A",
+    "is_hungarian": true,
+    "sort_order": 80
+  },
+  {
+    "slug": "vilagtortenelem",
+    "name": "Világtörténelem",
+    "description": "Ókortól a 20. századig: birodalmak, uralkodók, fordulópontok.",
+    "icon": "🏺",
+    "color": "#7A5C3E",
+    "is_hungarian": false,
+    "sort_order": 110
+  },
+  {
+    "slug": "foldrajz",
+    "name": "Földrajz",
+    "description": "Országok, fővárosok, hegyek, óceánok, rekordok.",
+    "icon": "🌍",
+    "color": "#2F7F8C",
+    "is_hungarian": false,
+    "sort_order": 120
+  },
+  {
+    "slug": "tudomany",
+    "name": "Tudomány",
+    "description": "Fizika, kémia, biológia, matematika, csillagászat.",
+    "icon": "🔬",
+    "color": "#3C6EBF",
+    "is_hungarian": false,
+    "sort_order": 130
+  },
+  {
+    "slug": "technologia",
+    "name": "Technológia",
+    "description": "Számítástechnika, internet, mérnöki megoldások, találmányok.",
+    "icon": "💻",
+    "color": "#4B5563",
+    "is_hungarian": false,
+    "sort_order": 140
+  },
+  {
+    "slug": "allatvilag",
+    "name": "Állatvilág",
+    "description": "Emlősök, madarak, halak, rovarok – élőhelyek és rekordok.",
+    "icon": "🦊",
+    "color": "#6B8E23",
+    "is_hungarian": false,
+    "sort_order": 150
+  },
+  {
+    "slug": "termeszet",
+    "name": "Természet",
+    "description": "Növények, éghajlat, ökoszisztémák, természeti jelenségek.",
+    "icon": "🌿",
+    "color": "#3F8F5B",
+    "is_hungarian": false,
+    "sort_order": 160
+  },
+  {
+    "slug": "sport",
+    "name": "Sport",
+    "description": "Világbajnokságok, olimpiák, sportágak szabályai, legendák.",
+    "icon": "⚽",
+    "color": "#1F7A8C",
+    "is_hungarian": false,
+    "sort_order": 170
+  },
+  {
+    "slug": "film-sorozat",
+    "name": "Filmek és sorozatok",
+    "description": "Klasszikusok, rendezők, szereplők, díjak.",
+    "icon": "🍿",
+    "color": "#B5446E",
+    "is_hungarian": false,
+    "sort_order": 180
+  },
+  {
+    "slug": "zene",
+    "name": "Zene",
+    "description": "Klasszikus és populáris zene, előadók, hangszerek.",
+    "icon": "🎵",
+    "color": "#8A5CF6",
+    "is_hungarian": false,
+    "sort_order": 190
+  },
+  {
+    "slug": "irodalom",
+    "name": "Irodalom",
+    "description": "Világirodalmi művek, szerzők, korszakok.",
+    "icon": "📚",
+    "color": "#7C5CFF",
+    "is_hungarian": false,
+    "sort_order": 200
+  },
+  {
+    "slug": "muveszet",
+    "name": "Művészet",
+    "description": "Festészet, szobrászat, építészet, stílusok.",
+    "icon": "🎨",
+    "color": "#D97706",
+    "is_hungarian": false,
+    "sort_order": 210
+  },
+  {
+    "slug": "etel-ital",
+    "name": "Étel és ital",
+    "description": "Konyhák, alapanyagok, italok, gasztronómiai fogalmak.",
+    "icon": "🍽️",
+    "color": "#C2410C",
+    "is_hungarian": false,
+    "sort_order": 220
+  },
+  {
+    "slug": "erdekessegek",
+    "name": "Érdekességek",
+    "description": "Vegyes tudnivalók, rekordok, kevéssé ismert tények.",
+    "icon": "✨",
+    "color": "#0EA5A4",
+    "is_hungarian": false,
+    "sort_order": 230
+  },
+  {
+    "slug": "logika",
+    "name": "Logika és fejtörők",
+    "description": "Számsorok, következtetés, klasszikus fejtörők.",
+    "icon": "🧩",
+    "color": "#6366F1",
+    "is_hungarian": false,
+    "sort_order": 240
+  }
+]

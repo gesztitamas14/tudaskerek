@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <title>TudásKerék – integrációs füst-teszt</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    body { overflow: auto; }
+    #results { font: 13px/1.5 ui-monospace, monospace; padding: 16px; }
+    .pass { color: #35c77b; }
+    .fail { color: #e8556b; font-weight: bold; }
+    .info { color: #f5d07a; }
+    #host { border: 1px solid #333; margin: 16px; padding: 8px; }
+  </style>
+</head>
+<body>
+  <!--
+    Valódi böngészőben lejátszik egy teljes kört: pörgetés → kérdés → válasz →
+    döntés → kör vége. Nem szimulál DOM-ot: a tényleges GameScreen fut.
+
+    Futtatás:
+      node tools/src/serve.mjs web 5173
+      majd böngészőben: http://localhost:5173/tests/smoke.html
+    Vagy fejnélkül (lásd tools/src/browser-test.mjs).
+  -->
+  <div id="results"></div>
+  <div id="host"></div>
+
+  <script type="module">
+    import { QuestionBank, OfflineDriver } from '../js/api.js';
+    import { FALLBACK_RULES } from '../js/rules.js';
+    import { GameScreen } from '../js/game-screen.js';
+
+    const out = document.getElementById('results');
+    let failures = 0;
+
+    // A háttérben elszálló hibák (floating promise, event handler) különben
+    // csendben elveszne – itt viszont a teszt kiírja őket.
+    window.addEventListener('error', (event) => {
+      failures++;
+      log(`window error: ${event.message} @ ${event.filename}:${event.lineno}`, 'fail');
+    });
+    window.addEventListener('unhandledrejection', (event) => {
+      failures++;
+      const reason = event.reason;
+      log(`elkapatlan promise: ${reason?.message ?? reason}`, 'fail');
+      if (reason?.stack) log(reason.stack, 'fail');
+    });
+
+    function log(message, tone = 'info') {
+      const line = document.createElement('div');
+      line.className = tone;
+      line.textContent = `${tone === 'pass' ? '✓' : tone === 'fail' ? '✗' : '·'} ${message}`;
+      out.append(line);
+    }
+
+    function check(condition, message) {
+      if (condition) log(message, 'pass');
+      else { failures++; log(message, 'fail'); }
+      return Boolean(condition);
+    }
+
+    /** Vár egy elemre, ami megjelenik a DOM-ban. */
+    function waitFor(selector, { root = document, timeout = 12000 } = {}) {
+      return new Promise((resolve, reject) => {
+        const existing = root.querySelector(selector);
+        if (existing) return resolve(existing);
+
+        const started = Date.now();
+        const timer = setInterval(() => {
+          const found = root.querySelector(selector);
+          if (found) {
+            clearInterval(timer);
+            resolve(found);
+          } else if (Date.now() - started > timeout) {
+            clearInterval(timer);
+            reject(new Error(`időtúllépés: ${selector}`));
+          }
+        }, 60);
+      });
+    }
+
+    async function run() {
+      // A pörgetés legyen rövid, hogy a teszt gyors legyen.
+      localStorage.setItem(
+        'tudaskerek.settings',
+        JSON.stringify({ reduceWheelSpin: true, hapticsEnabled: false, showExplanations: true })
+      );
+      // Tiszta lap: ne befolyásolja korábbi futás előtörténete.
+      localStorage.removeItem('tudaskerek.seenQuestions');
+      localStorage.removeItem('tudaskerek.results');
+      localStorage.removeItem('tudaskerek.categoryStats');
+
+      // ── 1. kérdésbank ──
+      const bank = new QuestionBank();
+      await bank.load();
+      check(bank.questions.length >= 900, `kérdésbank betöltve: ${bank.questions.length} kérdés`);
+      check(bank.categories.length >= 18, `kategóriák: ${bank.categories.length}`);
+
+      const wheelCategories = bank.wheelCategories();
+      check(wheelCategories.length >= 18, `kerék kategóriák: ${wheelCategories.length}`);
+      check(
+        wheelCategories.every((category) => category.questionCount > 0),
+        'a keréken csak feltöltött kategória van'
+      );
+
+      // ── 2. offline driver: kérdés kiszolgálása és értékelése ──
+      const driver = new OfflineDriver({ bank, rules: FALLBACK_RULES });
+      await driver.start();
+      const served = await driver.nextQuestion({
+        categorySlug: wheelCategories[0].slug,
+        difficulty: null
+      });
+      check(served.answers.length === 4, 'a kiszolgált kérdésnek 4 válasza van');
+      check(
+        served.knownCorrectIndex !== null && served.knownCorrectIndex >= 0 && served.knownCorrectIndex <= 3,
+        `offline módban ismerjük a helyes indexet (${served.knownCorrectIndex})`
+      );
+
+      const good = await driver.submit({
+        questionId: served.id,
+        answerIndex: served.knownCorrectIndex
+      });
+      check(good.isCorrect === true, 'a helyes válasz helyesnek számít');
+      check(good.awardedPoints === 1000, `az első helyes válasz 1000 pont (kapott: ${good.awardedPoints})`);
+
+      // ugyanaz a kérdés nem jöhet kétszer egy körben
+      const second = await driver.nextQuestion({
+        categorySlug: wheelCategories[0].slug,
+        difficulty: null
+      });
+      check(second.id !== served.id, 'a sessionben nem ismétlődik a kérdés');
+
+      // ── 3. teljes kör a valódi GameScreen-nel ──
+      const host = document.getElementById('host');
+      const app = {
+        bank,
+        supabase: {
+          isConfigured: false,
+          isSignedIn: false,
+          isAnonymous: true,
+          userId: null,
+          rpc: async () => { throw new Error('nincs backend'); }
+        },
+        sync: {
+          scoringRules: async () => FALLBACK_RULES,
+          run: async () => {},
+          refreshQuestions: async () => 0
+        },
+        navigate: (route) => log(`navigáció: ${route}`),
+        refreshCurrentScreen: () => {},
+        pushProfile: () => {}
+      };
+
+      const screen = new GameScreen(app);
+      await screen.mount(host);
+
+      const spinButton = await waitFor('.wheel-actions .btn', { root: host });
+      check(Boolean(spinButton), 'a pörgetés gomb megjelent');
+
+      // Pörgetés → kérdés
+      spinButton.click();
+      const answersHost = await waitFor('.answers', { root: host });
+      const answerButtons = [...answersHost.querySelectorAll('.answer')];
+      check(answerButtons.length === 4, `a kérdés képernyőn 4 válaszgomb van (${answerButtons.length})`);
+      check(
+        Boolean(host.querySelector('.question-text')?.textContent?.trim()),
+        'a kérdés szövege nem üres'
+      );
+
+      // A helyes választ ismerjük (offline), ezért célzottan azt választjuk,
+      // hogy a „tovább” döntés is tesztelhető legyen.
+      const correctIndex = screen.currentQuestion.knownCorrectIndex;
+      answerButtons[correctIndex].click();
+
+      // A kijelölés a kérdés képernyőn látszik, majd a döntési képernyő
+      // váltja fel – ezért ELŐBB a kijelölést ellenőrizzük.
+      const highlighted = await waitFor('.answer-correct', { root: host });
+      check(Boolean(highlighted), 'a helyes válasz meg van jelölve');
+
+      const decision = await waitFor('.decision', { root: host });
+      check(Boolean(decision), 'a döntési képernyő megjelent');
+      check(screen.engine.score === 1000, `a kör pontja 1000 (${screen.engine.score})`);
+
+      const buttons = [...decision.querySelectorAll('.btn')];
+      const bankButton = buttons.find((button) => button.textContent.includes('Megállok'));
+      check(Boolean(bankButton), 'a „Megállok” lehetőség elérhető helyes válasz után');
+
+      // Bankolás → kör vége
+      bankButton.click();
+      const finalScore = await waitFor('.final-score', { root: host });
+      check(
+        finalScore.textContent.replace(/\s/g, '') === '1000',
+        `a végpontszám 1000 (megjelenítve: „${finalScore.textContent}”)`
+      );
+      check(
+        Boolean(host.querySelector('.breakdown-row')),
+        'a kérdésenkénti bontás megjelent'
+      );
+
+      // ── 4. az eredmény bekerült a helyi naplóba ──
+      const stored = JSON.parse(localStorage.getItem('tudaskerek.results') ?? '[]');
+      check(stored.length >= 1, `az eredmény elmentve (${stored.length} rekord)`);
+      check(stored[0]?.isTrusted === false, 'az offline kör nem „trusted”');
+      check(stored[0]?.score === 1000, `a mentett pontszám 1000 (${stored[0]?.score})`);
+
+      screen.unmount();
+      host.replaceChildren();
+
+      // ── 5. kieséses multiplayer ──
+      //
+      // A legfontosabb ellenőrzés: amíg a kérdés nem zárult le, SENKI nem
+      // láthatja a helyes választ – különben megsúgható lenne.
+      const roomHost = document.getElementById('host');
+      const ME = 'bbbb';
+      const { roomScreen } = await import('../js/multiplayer.js');
+
+      const iso = (offsetMs) => new Date(Date.now() + offsetMs).toISOString();
+
+      function makeRoom({ players, question, status = 'playing', extra = {} }) {
+        return {
+          id: '11111111-1111-4111-8111-111111111111',
+          code: 'K7MQ2X',
+          host_id: 'aaaa',
+          status,
+          max_players: 4,
+          rounds_per_player: 3,
+          difficulty: null,
+          block_no: 1,
+          questions_per_category: 1,
+          answer_seconds: 20,
+          reveal_seconds: 5,
+          max_questions: 10,
+          server_time: iso(0),
+          last_block_scores: null,
+          last_block_ended_at: null,
+          current_question: question,
+          players,
+          ...extra
+        };
+      }
+
+      const PLAYERS = [
+        { player_id: 'aaaa', seat: 1, score: 3000, block_score: 1000, is_ready: true, is_eliminated: false, has_left: false, nickname: 'Anna', avatar_id: 'fox' },
+        { player_id: ME, seat: 2, score: 2000, block_score: 1000, is_ready: true, is_eliminated: false, has_left: false, nickname: 'Bela', avatar_id: 'owl' },
+        { player_id: 'cccc', seat: 3, score: 1000, block_score: 0, is_ready: true, is_eliminated: true, has_left: false, nickname: 'Cili', avatar_id: 'cat' }
+      ];
+
+      const OPEN_QUESTION = {
+        id: 'rq1',
+        question_text: 'Melyik évben volt a mohácsi csata?',
+        answers: ['1514', '1526', '1541', '1552'],
+        difficulty: 'easy',
+        category_slug: 'magyar-tortenelem',
+        ordinal: 3,
+        max_questions: 10,
+        reward: 1000,
+        answer_open_at: iso(-2000),
+        deadline_at: iso(12000),
+        resolved: false,
+        resolved_at: null,
+        my_answer: null,
+        i_answered: false,
+        answered_count: 1,
+        alive_count: 2,
+        // A szerver lezárás előtt NEM küldi el ezeket:
+        correct_answer: null,
+        explanation: null,
+        results: null
+      };
+
+      function mountRoom(room) {
+        const mpApp = {
+          bank,
+          supabase: {
+            isConfigured: true,
+            isSignedIn: true,
+            isAnonymous: true,
+            userId: ME,
+            rpc: async (name) => {
+              if (name === 'room_tick' || name === 'room_state') return room;
+              throw new Error('nem vart RPC: ' + name);
+            }
+          },
+          sync: { scoringRules: async () => FALLBACK_RULES, run: async () => {} },
+          navigate: () => {},
+          refreshCurrentScreen: () => {},
+          pushProfile: () => {}
+        };
+        const node = roomScreen(mpApp, { room });
+        roomHost.append(node);
+        return node;
+      }
+
+      function unmountRoom(node) {
+        node.dispatchEvent(new CustomEvent('screen:unmount'));
+        roomHost.replaceChildren();
+      }
+
+      // 5a. Válaszfázis, játékban vagyok
+      let node = mountRoom(makeRoom({ players: PLAYERS, question: OPEN_QUESTION }));
+
+      check(
+        roomHost.textContent.includes('Melyik évben volt a mohácsi csata?'),
+        'mindenki látja a kérdés szövegét'
+      );
+      check(
+        roomHost.querySelectorAll('.answers .answer').length === 4,
+        'négy válaszlehetőség jelenik meg'
+      );
+      check(
+        [...roomHost.querySelectorAll('.answers .answer')].every((b) => !b.disabled),
+        'játékban lévő játékosnál a válaszok kattinthatók'
+      );
+      check(
+        roomHost.querySelector('.answer-correct') === null,
+        'LEZÁRÁS ELŐTT egyik lehetőség sincs helyesként megjelölve'
+      );
+      check(Boolean(roomHost.querySelector('.timer-fill')), 'látszik a visszaszámláló');
+      check(
+        roomHost.querySelectorAll('.score-chip').length === 3,
+        'az állás felül mindhárom játékost mutatja'
+      );
+      check(
+        Boolean(roomHost.querySelector('.score-chip-out')),
+        'a kiesett játékos megjelölve látszik az állásban'
+      );
+      check(
+        roomHost.textContent.includes('2 játékos van még versenyben'),
+        'kiírja, hányan vannak még versenyben'
+      );
+      unmountRoom(node);
+
+      // 5b. Elküldött, de még ki nem értékelt válasz
+      node = mountRoom(
+        makeRoom({
+          players: PLAYERS,
+          question: { ...OPEN_QUESTION, i_answered: true, my_answer: 2, answered_count: 2 }
+        })
+      );
+      check(
+        roomHost.querySelectorAll('.answer-pending').length === 1,
+        'a beküldött válasz meg van jelölve'
+      );
+      check(
+        roomHost.querySelector('.answer-pending')?.textContent?.includes('1541') ?? false,
+        'a megjelölt válasz az, amit választottam'
+      );
+      check(
+        [...roomHost.querySelectorAll('.answers .answer')].every((b) => b.disabled),
+        'beküldés után nem lehet másik válaszra váltani'
+      );
+      check(
+        roomHost.textContent.includes('Válaszod elküldve'),
+        'visszajelzés, hogy a válasz elment'
+      );
+      check(
+        roomHost.querySelector('.answer-correct') === null,
+        'a saját válasz beküldése sem árulja el a helyes megoldást'
+      );
+      unmountRoom(node);
+
+      // 5c. Kiesett játékos: nézőként látja a kérdést, de nem válaszolhat
+      node = mountRoom(
+        makeRoom({
+          players: PLAYERS.map((p) => (p.player_id === ME ? { ...p, is_eliminated: true } : p)),
+          question: { ...OPEN_QUESTION, alive_count: 1 }
+        })
+      );
+      check(
+        roomHost.textContent.includes('Melyik évben volt a mohácsi csata?'),
+        'a kiesett játékos is látja a kérdést'
+      );
+      check(
+        [...roomHost.querySelectorAll('.answers .answer')].every((b) => b.disabled),
+        'a kiesett játékos nem válaszolhat'
+      );
+      check(
+        roomHost.querySelector('.answer-correct') === null,
+        'a NÉZŐ sem látja előre a helyes választ'
+      );
+      check(
+        roomHost.textContent.includes('Kiestél ebből a körből'),
+        'kiírja, hogy kiestem'
+      );
+      unmountRoom(node);
+
+      // 5d. Lezárt kérdés: most már látszik a helyes válasz és a kiértékelés
+      node = mountRoom(
+        makeRoom({
+          players: PLAYERS.map((p) => (p.player_id === ME ? { ...p, is_eliminated: true } : p)),
+          question: {
+            ...OPEN_QUESTION,
+            resolved: true,
+            resolved_at: iso(-500),
+            i_answered: true,
+            my_answer: 2,
+            answered_count: 2,
+            correct_answer: 1,
+            explanation: '1526. augusztus 29-én a magyar sereg vereséget szenvedett.',
+            results: [
+              { player_id: 'aaaa', selected_answer: 1, is_correct: true, awarded_points: 1000 },
+              { player_id: ME, selected_answer: 2, is_correct: false, awarded_points: 0 }
+            ]
+          }
+        })
+      );
+      const correctNode = roomHost.querySelector('.answer-correct');
+      check(Boolean(correctNode), 'lezárás után a helyes lehetőség meg van jelölve');
+      check(
+        correctNode?.textContent?.includes('1526') ?? false,
+        'a megjelölt helyes válasz az 1526'
+      );
+      check(
+        roomHost.querySelector('.answer-wrong')?.textContent?.includes('1541') ?? false,
+        'a saját rossz válasz pirosan látszik'
+      );
+      check(
+        roomHost.textContent.includes('1526. augusztus 29'),
+        'a magyarázat is megjelenik'
+      );
+      check(
+        roomHost.textContent.includes('kiestél a körből'),
+        'közli, hogy a rossz válasz kiesést jelent'
+      );
+      check(
+        roomHost.querySelectorAll('.result-line').length === 2,
+        'mindkét válaszoló szerepel a kiértékelésben'
+      );
+      check(
+        roomHost.textContent.includes('Anna'),
+        'a kiértékelésben a másik játékos neve is szerepel'
+      );
+      unmountRoom(node);
+
+      // 5e. Két kör között: a lezárt kör pontjai
+      node = mountRoom(
+        makeRoom({
+          players: PLAYERS,
+          question: null,
+          extra: {
+            block_no: 2,
+            last_block_ended_at: iso(-1000),
+            last_block_scores: [
+              { player_id: 'aaaa', nickname: 'Anna', block_score: 5000, survived: true },
+              { player_id: ME, nickname: 'Bela', block_score: 2000, survived: false }
+            ]
+          }
+        })
+      );
+      check(roomHost.textContent.includes('Kör vége'), 'a kör végét jelzi');
+      check(
+        roomHost.textContent.includes('Jön a következő kategória'),
+        'jelzi, hogy új kategória jön'
+      );
+      unmountRoom(node);
+    }
+
+    run()
+      .then(() => {
+        const summary = document.createElement('div');
+        summary.id = 'summary';
+        summary.className = failures === 0 ? 'pass' : 'fail';
+        summary.textContent =
+          failures === 0 ? 'SMOKE-TEST: MINDEN RENDBEN' : `SMOKE-TEST: ${failures} HIBA`;
+        out.prepend(summary);
+      })
+      .catch((error) => {
+        failures++;
+        const summary = document.createElement('div');
+        summary.id = 'summary';
+        summary.className = 'fail';
+        summary.textContent = `SMOKE-TEST: KIVÉTEL – ${error.message}`;
+        out.prepend(summary);
+        log(error.stack ?? String(error), 'fail');
+      });
+  </script>
+</body>
+</html>

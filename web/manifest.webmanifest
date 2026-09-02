@@ -1,0 +1,46 @@
+{
+  "id": "hu.tudaskerek.pwa",
+  "name": "TudásKerék – magyar kvízjáték",
+  "short_name": "TudásKerék",
+  "description": "Magyar nyelvű kvízjáték szerencsekerékkel: pörgess, válaszolj, és döntsd el, hogy megállsz vagy kockáztatsz. Offline is működik.",
+  "lang": "hu",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#141029",
+  "theme_color": "#141029",
+  "categories": ["games", "education", "trivia"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Új kör",
+      "short_name": "Játék",
+      "url": "./index.html#/game"
+    },
+    {
+      "name": "Ranglista",
+      "url": "./index.html#/leaderboard"
+    }
+  ]
+}

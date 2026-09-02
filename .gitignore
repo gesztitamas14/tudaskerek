@@ -1,0 +1,14 @@
+# ── titkos adatok ──
+tools/.env
+.env
+.env.local
+
+# ── generált / átmeneti ──
+content/generated/
+node_modules/
+*.log
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini

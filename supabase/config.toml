@@ -1,0 +1,41 @@
+# Supabase CLI konfiguráció.
+#
+# Ez a fájl akkor kell, ha a migrációkat `npx supabase db push`-sal futtatod,
+# vagy `npx supabase start`-tal helyi Postgrest indítasz (ehhez Docker kell).
+# A Supabase SQL Editorába kézzel beillesztett migrációkhoz nem szükséges.
+
+project_id = "tudaskerek"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+major_version = 15
+
+[studio]
+enabled = true
+port = 54323
+
+[auth]
+enabled = true
+# A PWA és a natív app visszatérési címei. Éles projekten a Supabase
+# dashboardon kell beállítani (Authentication → URL Configuration).
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["http://localhost:5173", "hu.tudaskerek.app://login-callback"]
+jwt_expiry = 3600
+enable_refresh_token_rotation = true
+
+# Vendég mód: e-mail nélküli, valódi szerveroldali fiók.
+[auth.email]
+enable_signup = true
+enable_confirmations = false
+
+[auth.external.apple]
+enabled = false   # kapcsold be, ha van Apple Service ID / Team ID
+client_id = ""
+secret = ""

@@ -1,0 +1,193 @@
+#!/usr/bin/env node
+// A PWA integrációs tesztjének futtatása fejnélküli böngészőben.
+//
+// Elindítja a statikus szervert, megnyitja a `web/tests/smoke.html` oldalt egy
+// fejnélküli Chromium-alapú böngészőben (Edge vagy Chrome), majd a DOM-ból
+// kiolvassa az eredményt. Nulla npm-függőség: nem kell Playwright/Puppeteer.
+//
+// Használat:
+//   node tools/src/browser-test.mjs
+//   node tools/src/browser-test.mjs --screenshot   # képernyőképek is készülnek
+//
+// Miért nem `node --test`? Mert a játékképernyő valódi DOM-ot, canvas-t és
+// requestAnimationFrame-et használ – ezt csak igazi böngésző tudja futtatni.
+
+import { spawn } from 'node:child_process';
+import { existsSync, mkdirSync, rmSync } from 'node:fs';
+import { createServer } from 'node:http';
+import { createReadStream, statSync } from 'node:fs';
+import { extname, join, normalize, resolve } from 'node:path';
+import { tmpdir } from 'node:os';
+
+const PORT = 5199;
+const ROOT = resolve('web');
+const SHOTS = process.argv.includes('--screenshot');
+const SHOT_DIR = resolve('docs/screenshots');
+
+// Friss böngészőprofil minden futásnál. Ha újrahasználnánk, a KORÁBBI futás
+// service workere szolgálná ki a régi JS-t (stale-while-revalidate), és a teszt
+// nem azt mérné, amit épp megírtunk. Ez egyszer már megtévesztett minket.
+const PROFILE_DIR = join(tmpdir(), `tudaskerek-browser-test-${process.pid}-${Date.now()}`);
+
+// ─────────────────── böngésző keresése ───────────────────
+
+const CANDIDATES = [
+  // Windows
+  'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',
+  'C:/Program Files/Microsoft/Edge/Application/msedge.exe',
+  'C:/Program Files/Google/Chrome/Application/chrome.exe',
+  'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe',
+  // macOS
+  '/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge',
+  '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+  '/Applications/Chromium.app/Contents/MacOS/Chromium',
+  // Linux
+  '/usr/bin/microsoft-edge',
+  '/usr/bin/google-chrome',
+  '/usr/bin/chromium',
+  '/usr/bin/chromium-browser'
+];
+
+function findBrowser() {
+  if (process.env.BROWSER_PATH && existsSync(process.env.BROWSER_PATH)) {
+    return process.env.BROWSER_PATH;
+  }
+  return CANDIDATES.find((path) => existsSync(path)) ?? null;
+}
+
+// ─────────────────── statikus szerver ───────────────────
+
+const MIME = {
+  '.html': 'text/html; charset=utf-8',
+  '.js': 'text/javascript; charset=utf-8',
+  '.css': 'text/css; charset=utf-8',
+  '.json': 'application/json; charset=utf-8',
+  '.webmanifest': 'application/manifest+json; charset=utf-8',
+  '.png': 'image/png'
+};
+
+function startServer() {
+  const server = createServer((request, response) => {
+    let pathname = decodeURIComponent(new URL(request.url, 'http://x').pathname);
+    if (pathname.endsWith('/')) pathname += 'index.html';
+    const target = join(ROOT, normalize(pathname).replace(/^(\.\.[/\\])+/, ''));
+
+    if (!target.startsWith(ROOT) || !existsSync(target) || !statSync(target).isFile()) {
+      response.writeHead(404).end('404');
+      return;
+    }
+    response.writeHead(200, {
+      'Content-Type': MIME[extname(target).toLowerCase()] ?? 'application/octet-stream',
+      'Cache-Control': 'no-cache'
+    });
+    createReadStream(target).pipe(response);
+  });
+
+  return new Promise((resolveServer) => {
+    server.listen(PORT, () => resolveServer(server));
+  });
+}
+
+// ─────────────────── böngésző futtatása ───────────────────
+
+function runBrowser(browser, url, { screenshot = null, budget = 45000, windowSize = '390,844' } = {}) {
+  const args = [
+    '--headless=new',
+    '--disable-gpu',
+    '--no-sandbox',
+    '--hide-scrollbars',
+    '--force-device-scale-factor=1',
+    `--window-size=${windowSize}`,
+    `--virtual-time-budget=${budget}`,
+    `--user-data-dir=${PROFILE_DIR}`,
+    screenshot ? `--screenshot=${screenshot}` : '--dump-dom',
+    url
+  ];
+
+  return new Promise((resolveRun, rejectRun) => {
+    const child = spawn(browser, args, { stdio: ['ignore', 'pipe', 'pipe'] });
+    let stdout = '';
+    child.stdout.on('data', (chunk) => { stdout += chunk; });
+    child.on('error', rejectRun);
+    child.on('close', () => resolveRun(stdout));
+  });
+}
+
+// ─────────────────── eredmény kiolvasása ───────────────────
+
+function parseResults(html) {
+  const block = html.match(/<div id="results">([\s\S]*?)<\/div>\s*<div id="host">/);
+  if (!block) return { ok: false, summary: 'Nem találom a teszt eredményét a DOM-ban.', lines: [] };
+
+  const text = block[1]
+    .replace(/<div id="summary" class="\w+">/g, '\n@@SUMMARY@@')
+    .replace(/<div class="\w+">/g, '\n')
+    .replace(/<\/div>/g, '')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&');
+
+  const lines = text.split('\n').map((line) => line.trim()).filter(Boolean);
+  const summaryLine = lines.find((line) => line.startsWith('@@SUMMARY@@')) ?? '';
+  const summary = summaryLine.replace('@@SUMMARY@@', '');
+
+  return {
+    ok: summary.includes('MINDEN RENDBEN'),
+    summary,
+    lines: lines.filter((line) => !line.startsWith('@@SUMMARY@@'))
+  };
+}
+
+// ─────────────────── fő folyamat ───────────────────
+
+const browser = findBrowser();
+if (!browser) {
+  console.error(
+    'Nem találtam fejnélküli böngészőt (Edge vagy Chrome).\n' +
+    'Add meg a BROWSER_PATH környezeti változóval:\n' +
+    '  BROWSER_PATH="C:/Program Files/Google/Chrome/Application/chrome.exe" node tools/src/browser-test.mjs'
+  );
+  process.exit(1);
+}
+
+console.log(`Böngésző: ${browser}`);
+const server = await startServer();
+console.log(`Szerver:  http://localhost:${PORT}/ (${ROOT})`);
+
+try {
+  const html = await runBrowser(browser, `http://localhost:${PORT}/tests/smoke.html`);
+  const result = parseResults(html);
+
+  console.log('\n── PWA integrációs teszt ──────────────────────');
+  for (const line of result.lines) console.log(line);
+  console.log(`\n${result.summary}`);
+
+  if (SHOTS) {
+    mkdirSync(SHOT_DIR, { recursive: true });
+    const shots = [
+      ['pwa-home.png', ''],
+      ['pwa-game.png', '%23/game'],
+      ['pwa-stats.png', '%23/stats'],
+      ['pwa-settings.png', '%23/settings']
+    ];
+    console.log('\nKépernyőképek:');
+    for (const [name, hash] of shots) {
+      const target = join(SHOT_DIR, name);
+      await runBrowser(
+        browser,
+        `http://localhost:${PORT}/tests/layout-check.html?src=${hash}`,
+        { screenshot: target, budget: 12000, windowSize: '460,1000' }
+      );
+      console.log(`  ${target}`);
+    }
+  }
+
+  process.exitCode = result.ok ? 0 : 1;
+} finally {
+  server.close();
+  try {
+    rmSync(PROFILE_DIR, { recursive: true, force: true });
+  } catch {
+    /* Windowson a profil néha zárolt marad – nem kritikus */
+  }
+}

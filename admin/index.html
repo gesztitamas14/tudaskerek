@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TudásKerék – admin</title>
+  <link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+  <!--
+    Build nélküli admin felület. Nulla toolchain: statikus fájlok + fetch.
+    Futtatás:  node tools/src/serve.mjs admin 5174
+    Belépés:   e-mail + jelszó (Supabase Auth), a profilnak admin vagy
+               moderator szerepkör kell (lásd docs/05-beallitas.md).
+
+    Szándékosan nem szép: a cél a használhatóság.
+  -->
+
+  <header class="bar">
+    <strong>TudásKerék admin</strong>
+    <span id="who" class="muted"></span>
+    <button id="signOut" hidden>Kijelentkezés</button>
+  </header>
+
+  <!-- ── bejelentkezés ── -->
+  <section id="loginPanel" class="panel">
+    <h2>Bejelentkezés</h2>
+    <p class="muted small">
+      A Supabase projekt URL-je és az <code>anon</code> kulcsa nyilvános adat –
+      az admin jogosultságot a bejelentkezett felhasználó szerepköre adja.
+    </p>
+    <label>Supabase URL <input id="cfgUrl" type="url" placeholder="https://xxxx.supabase.co"></label>
+    <label>Anon kulcs <input id="cfgKey" type="text" placeholder="eyJ..."></label>
+    <hr>
+    <label>E-mail <input id="email" type="email" autocomplete="username"></label>
+    <label>Jelszó <input id="password" type="password" autocomplete="current-password"></label>
+    <button id="signIn" class="primary">Belépés</button>
+    <p id="loginError" class="error"></p>
+  </section>
+
+  <!-- ── fő felület ── -->
+  <main id="main" hidden>
+    <nav class="tabs">
+      <button data-tab="questions" class="active">Kérdések</button>
+      <button data-tab="review">Review <span id="reviewCount" class="badge"></span></button>
+      <button data-tab="categories">Kategóriák</button>
+      <button data-tab="io">Import / export</button>
+      <button data-tab="stats">Statisztika</button>
+    </nav>
+
+    <!-- Kérdések -->
+    <section class="tab-panel" data-panel="questions">
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Keresés a kérdés szövegében…">
+        <select id="filterCategory"><option value="">Minden kategória</option></select>
+        <select id="filterDifficulty">
+          <option value="">Minden nehézség</option>
+          <option value="easy">Könnyű</option>
+          <option value="medium">Közepes</option>
+          <option value="hard">Nehéz</option>
+        </select>
+        <select id="filterActive">
+          <option value="">Aktív és inaktív</option>
+          <option value="true">Csak aktív</option>
+          <option value="false">Csak inaktív</option>
+        </select>
+        <button id="reload">Frissítés</button>
+        <button id="newQuestion" class="primary">Új kérdés</button>
+      </div>
+      <div id="questionList" class="list"></div>
+      <div class="pager">
+        <button id="prevPage">← Előző</button>
+        <span id="pageInfo" class="muted"></span>
+        <button id="nextPage">Következő →</button>
+      </div>
+    </section>
+
+    <!-- Review -->
+    <section class="tab-panel" data-panel="review" hidden>
+      <div class="toolbar">
+        <select id="reviewStatus">
+          <option value="pending_review">Review-ra vár</option>
+          <option value="flagged">Megjelölt</option>
+          <option value="generated">Generált</option>
+          <option value="rejected">Elutasított</option>
+          <option value="approved">Jóváhagyott</option>
+        </select>
+        <select id="reviewCategory"><option value="">Minden kategória</option></select>
+        <button id="reloadReview">Frissítés</button>
+        <button id="approveClean">Tiszta jelöltek jóváhagyása</button>
+      </div>
+      <p class="muted small">
+        AI-generált kérdés soha nem kerül közvetlenül a játékba: innen kell
+        jóváhagyni. A jóváhagyás pillanatában a szerver újra ellenőrzi a
+        duplikátumokat.
+      </p>
+      <div id="reviewList" class="list"></div>
+    </section>
+
+    <!-- Kategóriák -->
+    <section class="tab-panel" data-panel="categories" hidden>
+      <p class="muted small">
+        Új kategória hozzáadásához NEM kell alkalmazásfrissítés: a kliens a
+        backendből olvassa a listát. A kerékre csak az kerül fel, amiben van kérdés.
+      </p>
+      <div id="categoryList" class="list"></div>
+    </section>
+
+    <!-- Import / export -->
+    <section class="tab-panel" data-panel="io" hidden>
+      <h3>Export</h3>
+      <div class="toolbar">
+        <select id="exportCategory"><option value="">Minden kategória</option></select>
+        <button id="exportJson">JSON letöltése</button>
+        <button id="exportCsv">CSV letöltése</button>
+      </div>
+
+      <h3>Import</h3>
+      <p class="muted small">
+        Elfogadott formátumok: a <code>content/seed/*.json</code> szerkezete
+        (<code>{ category, questions: [{ q, a, c, d, e, s, t }] }</code>), vagy a
+        generátorok kimenete (<code>{ questions: [{ category, question, answers,
+        correct_index, … }] }</code>). Az import a <code>question_candidates</code>
+        táblába kerül review-ra – nem közvetlenül a játékba.
+      </p>
+      <input id="importFile" type="file" accept=".json,.csv">
+      <label class="inline">
+        <input id="importDirect" type="checkbox">
+        Egyenesen a kérdésbankba (csak ha ellenőrzött tartalom)
+      </label>
+      <button id="importRun" class="primary">Import</button>
+      <pre id="importLog" class="log"></pre>
+    </section>
+
+    <!-- Statisztika -->
+    <section class="tab-panel" data-panel="stats" hidden>
+      <button id="reloadStats">Frissítés</button>
+      <div id="statsBody" class="list"></div>
+    </section>
+  </main>
+
+  <!-- ── kérdés szerkesztő ── -->
+  <dialog id="editor">
+    <form id="editorForm" method="dialog">
+      <h3 id="editorTitle">Kérdés szerkesztése</h3>
+      <label>Kategória
+        <select id="edCategory" required></select>
+      </label>
+      <label>Kérdés
+        <textarea id="edQuestion" rows="3" required minlength="8" maxlength="400"></textarea>
+      </label>
+      <div class="answers-grid">
+        <label>A <input id="edA" required></label>
+        <label>B <input id="edB" required></label>
+        <label>C <input id="edC" required></label>
+        <label>D <input id="edD" required></label>
+      </div>
+      <label>Helyes válasz
+        <select id="edCorrect">
+          <option value="0">A</option>
+          <option value="1">B</option>
+          <option value="2">C</option>
+          <option value="3">D</option>
+        </select>
+      </label>
+      <label>Nehézség
+        <select id="edDifficulty">
+          <option value="easy">Könnyű</option>
+          <option value="medium">Közepes</option>
+          <option value="hard">Nehéz</option>
+        </select>
+      </label>
+      <label>Magyarázat <textarea id="edExplanation" rows="2"></textarea></label>
+      <label>Forrás <input id="edSource"></label>
+      <label>Témakör <input id="edTopic"></label>
+      <label class="inline"><input id="edActive" type="checkbox" checked> Aktív</label>
+
+      <div id="dupeWarning" class="warning" hidden></div>
+      <p id="editorError" class="error"></p>
+
+      <div class="dialog-actions">
+        <button type="button" id="checkDupes">Duplikátum-ellenőrzés</button>
+        <button type="button" id="editorCancel">Mégsem</button>
+        <button type="button" id="editorSave" class="primary">Mentés</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast"></div>
+
+  <script type="module" src="./admin.js"></script>
+</body>
+</html>

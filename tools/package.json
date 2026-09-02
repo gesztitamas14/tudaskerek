@@ -1,0 +1,37 @@
+{
+  "name": "tudaskerek-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Kérdésbank-eszközök: seed build és validáció, Supabase import, AI generálás, dedup, fact-check.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "validate": "node src/validate-seed.mjs",
+    "validate:strict": "node src/validate-seed.mjs --strict",
+    "build:seed": "node src/build-seed.mjs",
+    "check": "node src/validate-seed.mjs && node src/build-seed.mjs",
+    "icon": "node src/make-icon.mjs",
+    "import:seed": "node src/import-seed.mjs",
+    "generate": "node src/generate-questions.mjs",
+    "upload:candidates": "node src/upload-candidates.mjs",
+    "factcheck": "node src/factcheck.mjs",
+    "wikidata": "node src/generate-from-wikidata.mjs",
+    "import:opentdb": "node src/import-opentdb.mjs",
+    "test:db": "node src/db-test.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.123.0",
+    "zod": "^3.23.0"
+  },
+  "comment": [
+    "A seed-, validációs, import- és Wikidata-szkriptek NEM igényelnek npm install-t:",
+    "csak a Node 20 beépített fetch, crypto és zlib moduljait használják.",
+    "Az `npm install` kizárólag az AI-generáláshoz (generate, factcheck) kell,",
+    "mert azok a hivatalos @anthropic-ai/sdk-t és a zod sémákat használják."
+  ],
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8"
+  }
+}
