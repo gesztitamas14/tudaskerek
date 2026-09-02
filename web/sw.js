@@ -11,7 +11,7 @@
 // A CACHE_VERSION növelésével minden régi cache törlődik. A `build:seed`
 // futtatása után érdemes emelni, ha a kérdésbank változott.
 
-const CACHE_VERSION = 'tudaskerek-v10';
+const CACHE_VERSION = 'tudaskerek-v11';
 
 const PRECACHE = [
   './',

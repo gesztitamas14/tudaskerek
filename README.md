@@ -20,7 +20,7 @@ node tools/src/serve.mjs web 5173  # helyi szerver
 
 Nyisd meg: <http://localhost:5173/>
 
-Ez **backend nélkül** fut: 2125 kérdés, offline mód, statisztika, minden
+Ez **backend nélkül** fut: 2135 kérdés, offline mód, statisztika, minden
 képernyő. Nincs `npm install` – a Node 20 beépített moduljai elegendők.
 
 ---
@@ -30,7 +30,7 @@ képernyő. Nincs `npm install` – a Node 20 beépített moduljai elegendők.
 | Rész | Állapot |
 |---|---|
 | **PWA** (`web/`) – teljes játék, offline is | ✅ böngészőben tesztelve |
-| **Kérdésbank** – **2125 kérdés, 28 kategória** | ✅ validált |
+| **Kérdésbank** – **2135 kérdés, 28 kategória** | ✅ validált |
 | **Backend** (`supabase/`) – 15 migráció, RLS, 37 RPC | ✅ kész |
 | **Multiplayer** – kieséses, szobalista + 3 jegyű PIN, 2–5 fő | ✅ |
 | **Ranglista** – örök / havi / heti / napi | ✅ |
@@ -115,7 +115,7 @@ Részletek: [`docs/02-architektura.md`](docs/02-architektura.md) 5. pont.
 ```
 content/
   categories.json         28 kategória definíciója (egy igazság)
-  seed/*.json             2125 kérdés, kategóriánként egy fájl
+  seed/*.json             2135 kérdés, kategóriánként egy fájl
 web/                      a PWA – build nélkül futó teljes játék
   index.html, styles.css, sw.js, manifest.webmanifest
   js/rules.js             pontozás + állapotgép (tesztelt)
@@ -142,7 +142,7 @@ docs/                     terv, architektúra, API, beállítás, forrás, kutat
 
 | Mutató | Érték |
 |---|---|
-| Kérdés összesen | **2125** |
+| Kérdés összesen | **2135** |
 | Kategória | 28 kategória (6 magyar fókuszú) |
 | Nehézség | 384 könnyű / 605 közepes / 168 nehéz |
 | Magyarázat aránya | 100% |
@@ -159,9 +159,16 @@ Minőségi kapuk (a `validate-seed.mjs` hibával leáll, ha sérülnek):
 - a négy válasz ékezet és írásjel nélkül is különbözik
 - a kérdés nem tartalmazza a helyes választ (kivéve a „kakukktojás” típust)
 - a helyes válasz pozíciója 15–35% között minden pozíción
-- minden MVP-kategóriában legalább 50 kérdés
+- egy kategória csak akkor kerül a csomagba, ha legalább 10 kérdése van
+  (`build-seed.mjs`); a `balance-topics.mjs` nyesése pedig 40 kérdés alá
+  nem vág, mert egy kör 10 kérdés ugyanabból a kategóriából
 - egy témacsoport nem foglalhatja el a kategória több mint 30%-át (különben a
   játék egyhangú: a `film-sorozat` egyszer 66%-ban „Ki rendezte a…?” volt)
+- ugyanaz a MEGFOGALMAZÁS legfeljebb a kategória 18%-a lehet. A témakorlát
+  ezt nem fogta meg: a `sport` „labdarúgóklubok” témája belefért a 30%-ba,
+  miközben az a 30% **42 szó szerint egyformán feltett kérdés** volt. A
+  játékos nem témát érzékel, hanem szöveget – ezt az első öt normalizált
+  szóval mérjük (`--shape-share`)
 
 ```bash
 node tools/src/validate-seed.mjs

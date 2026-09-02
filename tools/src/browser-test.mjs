@@ -165,6 +165,49 @@ try {
   for (const line of result.lines) console.log(line);
   console.log(`\n${result.summary}`);
 
+
+  // ─────────────── elrendezés-ellenőrzés több telefonmagasságon ───────────
+  //
+  // A `layout-check.html` telefonméretű iframe-be tölti az alkalmazást, és
+  // megmondja, lóg-e ki valami vízszintesen, illetve van-e olyan gomb egy
+  // FIX rétegben (párbeszéd), amit nem lehet elérni. Ez utóbbi valódi hiba
+  // volt: a szoba létrehozásánál a „Mégsem” gomb lecsúszott a képernyőről.
+  //
+  // Több magasságot mérünk, mert telefonon a látható magasság a címsávtól
+  // függ: egy 844px-es készülék böngészőben ~700px-et mutat, fekvőben ~330-at.
+  const layoutCases = [
+    ['szobalista', 'lobby-shot.html', 844],
+    ['szoba létrehozása', 'lobby-shot.html%23create', 844],
+    ['szoba létrehozása (címsávval)', 'lobby-shot.html%23create', 700],
+    ['szoba létrehozása (fekvő)', 'lobby-shot.html%23create', 360],
+    ['PIN-párbeszéd', 'lobby-shot.html%23pin', 700]
+  ];
+
+  console.log('\n── elrendezés telefonon ───────────────────────');
+  let layoutOk = true;
+  for (const [label, page, height] of layoutCases) {
+    const dom = await runBrowser(
+      browser,
+      `http://localhost:${PORT}/tests/layout-check.html?page=${page}&h=${height}`,
+      { budget: 9000, windowSize: '460,1200' }
+    );
+    // Csak a MÉRT sorok érdekesek, a lap forrásában is szerepel a szöveg.
+    const problems = [];
+    const horizontal = dom.match(/VÍZSZINTES TÚLLÓGÁS: (\d+)px/);
+    if (horizontal) problems.push(`${horizontal[1]}px vízszintes túllógás`);
+    const unreachable = dom.match(/ELÉRHETETLEN ELEMEK: (\d+)</);
+    if (unreachable) problems.push(`${unreachable[1]} elérhetetlen elem fix rétegben`);
+
+    if (problems.length === 0) {
+      console.log(`  ✓ ${label} (${height}px)`);
+    } else {
+      layoutOk = false;
+      console.log(`  ✗ ${label} (${height}px): ${problems.join(', ')}`);
+    }
+  }
+  console.log(layoutOk ? '\nELRENDEZÉS: MINDEN RENDBEN' : '\nELRENDEZÉS: HIBA');
+  if (!layoutOk) result.ok = false;
+
   if (SHOTS) {
     mkdirSync(SHOT_DIR, { recursive: true });
     const shots = [
@@ -179,6 +222,7 @@ try {
     const lobbyShots = [
       ['pwa-lobby.png', ''],
       ['pwa-pin.png', '%23pin'],
+      ['pwa-create.png', '%23create'],
       ['pwa-spin.png', '%23spin']
     ];
     console.log('\nKépernyőképek:');
@@ -197,7 +241,7 @@ try {
       // hat (innerWidth mindig ~492), az iframe viszont pontosan 390px.
       await runBrowser(
         browser,
-        `http://localhost:${PORT}/tests/layout-check.html?page=lobby-shot.html${hash}`,
+        `http://localhost:${PORT}/tests/layout-check.html?page=lobby-shot.html${hash}&shot=1`,
         { screenshot: target, budget: 14000, windowSize: '460,1000' }
       );
       console.log(`  ${target}`);

@@ -1,7 +1,7 @@
 {
- "version": 9718541,
- "generated_at": "2026-09-02T13:02:18.497Z",
- "content_hash": "944b0da4d7cbc1d657c2c6202ff2ca65ff10e511aeb115a501ff5d3f50ad022d",
+ "version": 7827127,
+ "generated_at": "2026-09-02T14:08:57.100Z",
+ "content_hash": "776eb78e4482d9ac0ebbcb07e81e55bc19e9fdb68d2cbc196fe55437a124c02f",
  "categories": [
   {
    "slug": "magyar-tortenelem",
@@ -1354,21 +1354,6 @@
   },
   {
    "category": "cegek-markak",
-   "question": "Melyik iparágban működik a következő vállalat: Interfax?",
-   "answers": [
-    "pornóipar",
-    "news media",
-    "újságírás",
-    "filmkészítés"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Interfax iparága: news media.",
-   "source": "http://www.wikidata.org/entity/Q379271",
-   "topic": "iparágak"
-  },
-  {
-   "category": "cegek-markak",
    "question": "Melyik évtizedben alapították a következő vállalatot: Merck & Co.?",
    "answers": [
     "1990-es évek",
@@ -1380,156 +1365,6 @@
    "difficulty": "hard",
    "explanation": "Merck & Co. alapítása: 1890-es évek.",
    "source": "http://www.wikidata.org/entity/Q247489",
-   "topic": "cégek alapítása"
-  },
-  {
-   "category": "cegek-markak",
-   "question": "Melyik iparágban működik a következő vállalat: Agenzia Nazionale Stampa Associata?",
-   "answers": [
-    "szoftveripar",
-    "news media",
-    "photo agency",
-    "filmipar"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Agenzia Nazionale Stampa Associata iparága: news media.",
-   "source": "http://www.wikidata.org/entity/Q392934",
-   "topic": "iparágak"
-  },
-  {
-   "category": "cegek-markak",
-   "question": "Melyik évtizedben alapították a következő vállalatot: Dolby?",
-   "answers": [
-    "1960-es évek",
-    "2000-es évek",
-    "1920-es évek",
-    "2010-es évek"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "Dolby alapítása: 1960-es évek.",
-   "source": "http://www.wikidata.org/entity/Q261288",
-   "topic": "cégek alapítása"
-  },
-  {
-   "category": "cegek-markak",
-   "question": "Melyik iparágban működik a következő vállalat: Anadolu Agency?",
-   "answers": [
-    "kiadás",
-    "hírügynökség",
-    "televízió",
-    "news media"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "Anadolu Agency iparága: news media.",
-   "source": "http://www.wikidata.org/entity/Q477436",
-   "topic": "iparágak"
-  },
-  {
-   "category": "cegek-markak",
-   "question": "Melyik évtizedben alapították a következő vállalatot: Turkcell?",
-   "answers": [
-    "1870-es évek",
-    "2010-es évek",
-    "1850-es évek",
-    "1990-es évek"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "Turkcell alapítása: 1990-es évek.",
-   "source": "http://www.wikidata.org/entity/Q283852",
-   "topic": "cégek alapítása"
-  },
-  {
-   "category": "cegek-markak",
-   "question": "Melyik iparágban működik a következő vállalat: United Press International?",
-   "answers": [
-    "photo agency",
-    "pornóipar",
-    "újságírás",
-    "filmipar"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "United Press International iparága: újságírás.",
-   "source": "http://www.wikidata.org/entity/Q493845",
-   "topic": "iparágak"
-  },
-  {
-   "category": "cegek-markak",
-   "question": "Melyik évtizedben alapították a következő vállalatot: Aegon?",
-   "answers": [
-    "1950-es évek",
-    "1860-es évek",
-    "1980-es évek",
-    "1890-es évek"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "Aegon alapítása: 1980-es évek.",
-   "source": "http://www.wikidata.org/entity/Q291171",
-   "topic": "cégek alapítása"
-  },
-  {
-   "category": "cegek-markak",
-   "question": "Melyik iparágban működik a következő vállalat: Antara?",
-   "answers": [
-    "hírügynökség",
-    "taxiszolgáltatás",
-    "logisztika",
-    "kábeltelevízió"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "Antara iparága: hírügynökség.",
-   "source": "http://www.wikidata.org/entity/Q571116",
-   "topic": "iparágak"
-  },
-  {
-   "category": "cegek-markak",
-   "question": "Melyik évtizedben alapították a következő vállalatot: AES Corporation?",
-   "answers": [
-    "1920-es évek",
-    "2000-es évek",
-    "1870-es évek",
-    "1980-es évek"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "AES Corporation alapítása: 1980-es évek.",
-   "source": "http://www.wikidata.org/entity/Q291508",
-   "topic": "cégek alapítása"
-  },
-  {
-   "category": "cegek-markak",
-   "question": "Melyik iparágban működik a következő vállalat: Islamic Republic News Agency?",
-   "answers": [
-    "aggregator",
-    "forgalmazás",
-    "médiaipar",
-    "televízió"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "Islamic Republic News Agency iparága: médiaipar.",
-   "source": "http://www.wikidata.org/entity/Q649695",
-   "topic": "iparágak"
-  },
-  {
-   "category": "cegek-markak",
-   "question": "Melyik évtizedben alapították a következő vállalatot: AGCO?",
-   "answers": [
-    "1980-es évek",
-    "1850-es évek",
-    "1860-es évek",
-    "1990-es évek"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "AGCO alapítása: 1990-es évek.",
-   "source": "http://www.wikidata.org/entity/Q292292",
    "topic": "cégek alapítása"
   },
   {
@@ -1844,6 +1679,756 @@
    "correct": 2,
    "difficulty": "hard",
    "explanation": "Mind a Pick, mind a Herz szegedi, illetve budapesti szalámigyártóként lett világhírű.",
+   "source": null,
+   "topic": "magyar márkák"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik cég reklámszlogenje volt hosszú ideig a Just Do It?",
+   "answers": [
+    "Adidas",
+    "Reebok",
+    "Puma",
+    "Nike"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A Nike 1988-ban indította a kampányt, és a szlogen a márka legismertebb jelzésévé vált.",
+   "source": null,
+   "topic": "szlogenek"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik autómárka jelmondata volt évtizedeken át a Vorsprung durch Technik?",
+   "answers": [
+    "Volkswagen",
+    "Audi",
+    "Opel",
+    "Skoda"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Az Audi 1971 óta használja a német nyelvű jelmondatot a nemzetközi piacon is.",
+   "source": null,
+   "topic": "szlogenek"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik gyorsétteremlánc szlogenje az I'm Lovin' It?",
+   "answers": [
+    "McDonald's",
+    "Burger King",
+    "Subway",
+    "KFC"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A McDonald's 2003-ban indította a kampányt, amely azóta is a lánc fő jelmondata.",
+   "source": null,
+   "topic": "szlogenek"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik technológiai cég korai jelmondata volt a Think different?",
+   "answers": [
+    "Intel",
+    "Apple",
+    "Microsoft",
+    "IBM"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Az Apple 1997-ben, Steve Jobs visszatérése után indította a kampányt.",
+   "source": null,
+   "topic": "szlogenek"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Mit jelöl eredetileg a Lego név?",
+   "answers": [
+    "Jól játszani dánul",
+    "Kis kockát latinul",
+    "Színes formát svédül",
+    "Építőmestert németül"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A név a dán leg godt, vagyis jól játszani kifejezés rövidítése.",
+   "source": null,
+   "topic": "névadás"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Miből ered a Nike márkanév?",
+   "answers": [
+    "Egy alapító keresztnevéből",
+    "Egy japán városból",
+    "Egy futócipő-modell kódjából",
+    "A görög győzelem istennőjének nevéből"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Niké a görög mitológiában a győzelem szárnyas istennője.",
+   "source": null,
+   "topic": "névadás"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Honnan származik az Adidas márkanév?",
+   "answers": [
+    "Egy német faluból",
+    "Az alapító nevének rövidítéséből",
+    "Egy latin szólásból",
+    "Egy sportág nevéből"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Adolf Dassler beceneve Adi volt, ehhez társult a családi név eleje.",
+   "source": null,
+   "topic": "névadás"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Mit takar a Volkswagen név szó szerinti fordítása?",
+   "answers": [
+    "Német gyár",
+    "Népautó",
+    "Erős motor",
+    "Új út"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "A Volk népet, a Wagen járművet jelent; a márka a széles rétegeknek szánt autót hirdette.",
+   "source": null,
+   "topic": "névadás"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik cég nevét egy dél-amerikai folyóról mintázták?",
+   "answers": [
+    "Oracle",
+    "Meta",
+    "Amazon",
+    "Tesla"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "Jeff Bezos a világ legnagyobb vízhozamú folyójáról nevezte el a céget, a nagy választékra utalva.",
+   "source": null,
+   "topic": "névadás"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Kinek a nevét viseli a Tesla autógyártó?",
+   "answers": [
+    "Egy görög istenét",
+    "Nikola Tesla feltalálóét",
+    "Az első befektetőét",
+    "Egy szerb városét"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "A cég a váltakozó áramú motor feltalálója, Nikola Tesla előtt tiszteleg.",
+   "source": null,
+   "topic": "névadás"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik gumigyártó kabalafigurája az abroncsokból formált Bibendum?",
+   "answers": [
+    "Michelin",
+    "Goodyear",
+    "Pirelli",
+    "Continental"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "Az 1898-ban bemutatott figura a cég legismertebb jelképe lett.",
+   "source": null,
+   "topic": "kabalák és logók"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik márka logóján látható egy bekapott alma?",
+   "answers": [
+    "Orange",
+    "Blackberry",
+    "Apple",
+    "Peach"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A harapásnyom eredetileg azért került rá, hogy a forma ne tűnjön cseresznyének kis méretben.",
+   "source": null,
+   "topic": "kabalák és logók"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Mit ábrázol a Mercedes-Benz háromágú csillaga?",
+   "answers": [
+    "A szárazföldi, vízi és légi motorizációt",
+    "Három német tartományt",
+    "Három alapítót",
+    "Három gyártósort"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A jelkép a Daimler törekvését fejezi ki: motort adni a földre, a vízre és a levegőbe.",
+   "source": null,
+   "topic": "kabalák és logók"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Mit jelöl az Audi emblémáján látható négy gyűrű?",
+   "answers": [
+    "Négy alapítót",
+    "Az Auto Union négy egyesült gyárát",
+    "Négy német tartományt",
+    "Négy modellcsaládot"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Az 1932-ben létrejött Auto Unionban négy autógyár olvadt össze, ezt jelzi a négy gyűrű.",
+   "source": null,
+   "topic": "kabalák és logók"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Milyen állat szerepel a Ferrari emblémáján?",
+   "answers": [
+    "Bika",
+    "Oroszlán",
+    "Ágaskodó ló",
+    "Sas"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A cavallino rampante egy vadászpilóta gépéről került a márkára.",
+   "source": null,
+   "topic": "kabalák és logók"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik márka logóján szerepel egy bika?",
+   "answers": [
+    "Bugatti",
+    "Lamborghini",
+    "Maserati",
+    "Alfa Romeo"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Ferruccio Lamborghini csillagjegye a Bika volt, és a bikaviadalok is inspirálták a modellneveket.",
+   "source": null,
+   "topic": "kabalák és logók"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik két cég egyesüléséből jött létre az Exxon Mobil?",
+   "answers": [
+    "Shell és BP",
+    "Total és Elf",
+    "Exxon és Mobil",
+    "Texaco és Chevron"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A két amerikai olajvállalat 1999-ben olvadt össze; mindkettő a Standard Oil utódja volt.",
+   "source": null,
+   "topic": "egyesülések"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik cég vásárolta meg a YouTube-ot 2006-ban?",
+   "answers": [
+    "Microsoft",
+    "Yahoo",
+    "Amazon",
+    "Google"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A Google 1,65 milliárd dollár értékű részvényért szerezte meg a videómegosztót.",
+   "source": null,
+   "topic": "egyesülések"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik vállalat vette meg az Instagramot 2012-ben?",
+   "answers": [
+    "Twitter",
+    "Apple",
+    "Google",
+    "Facebook"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A Facebook körülbelül egymilliárd dollárért szerezte meg a fotómegosztó alkalmazást.",
+   "source": null,
+   "topic": "egyesülések"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik cég szerezte meg a LinkedInt 2016-ban?",
+   "answers": [
+    "Oracle",
+    "Microsoft",
+    "IBM",
+    "Salesforce"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A Microsoft több mint 26 milliárd dollárt fizetett a szakmai közösségi hálóért.",
+   "source": null,
+   "topic": "egyesülések"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik márka nevét vette fel a Facebook anyavállalata 2021-ben?",
+   "answers": [
+    "Meta",
+    "Prisma",
+    "Alphabet",
+    "Nexus"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A névváltás a virtuális terekre, a metaverzumra helyezett hangsúlyt jelezte.",
+   "source": null,
+   "topic": "egyesülések"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Mi volt a Google anyavállalatának neve az átszervezés után?",
+   "answers": [
+    "Vertex",
+    "Orbit",
+    "Meta",
+    "Alphabet"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "Az Alphabet 2015-ben jött létre, hogy a keresőmotort és a többi projektet szétválassza.",
+   "source": null,
+   "topic": "egyesülések"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik cég termékét hívták eredetileg Backrubnak?",
+   "answers": [
+    "eBay",
+    "Google",
+    "Amazon",
+    "Yahoo"
+   ],
+   "correct": 1,
+   "difficulty": "hard",
+   "explanation": "A keresőmotor első neve a visszamutató hivatkozások elemzésére utalt.",
+   "source": null,
+   "topic": "korai évek"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Milyen terméket árult az Amazon a legelső években?",
+   "answers": [
+    "Ruhákat",
+    "Könyveket",
+    "Elektronikát",
+    "Játékokat"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "A cég 1995-ben online könyvesboltként indult, és csak később bővítette a kínálatát.",
+   "source": null,
+   "topic": "korai évek"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Milyen üzletággal indult a Nokia a 19. században?",
+   "answers": [
+    "Vasúttal",
+    "Rádiózással",
+    "Autógyártással",
+    "Papírgyártással"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A finn cég egy papírmalomként kezdte, majd gumi- és kábelgyártáson át jutott a távközlésig.",
+   "source": null,
+   "topic": "korai évek"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Milyen terméket gyártott a Samsung az alapításakor?",
+   "answers": [
+    "Mobiltelefont",
+    "Élelmiszert szállított és árult",
+    "Hajót",
+    "Televíziót"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A vállalat 1938-ban kereskedőcégként indult, főként szárított hallal és zöldséggel.",
+   "source": null,
+   "topic": "korai évek"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Milyen termékkel kezdte a pályáját a Nintendo 1889-ben?",
+   "answers": [
+    "Rádiókkal",
+    "Játékkártyákkal",
+    "Kerékpárokkal",
+    "Videójátékokkal"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A cég hanafuda kártyák gyártásával indult, és csak az 1970-es években fordult az elektronikus játékok felé.",
+   "source": null,
+   "topic": "korai évek"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Milyen üzletet vitt a Wrigley, mielőtt rágógumira váltott?",
+   "answers": [
+    "Szappant árult",
+    "Nyomdát üzemeltetett",
+    "Teát importált",
+    "Cukrászdát vezetett"
+   ],
+   "correct": 0,
+   "difficulty": "hard",
+   "explanation": "A rágógumit eredetileg ajándékként adták a szappan mellé, majd az lett a fő termék.",
+   "source": null,
+   "topic": "korai évek"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik cég bukása lett a könyvpiac és a videókölcsönzés tanulságos példája a digitalizáció miatt?",
+   "answers": [
+    "Walmart",
+    "Blockbuster",
+    "Costco",
+    "Ikea"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A videókölcsönző lánc nem állt át időben a streamingre, és 2010-ben csődvédelmet kért.",
+   "source": null,
+   "topic": "kudarcok"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik fényképészeti óriás jelentett csődöt 2012-ben, miután lekéste a digitális fordulatot?",
+   "answers": [
+    "Fujifilm",
+    "Kodak",
+    "Nikon",
+    "Leica"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A Kodak feltalálta az első digitális fényképezőgépet, de a filmüzletét védve késett az átállással.",
+   "source": null,
+   "topic": "kudarcok"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik üdítőital-újítás lett a nyolcvanas évek egyik legismertebb marketingkudarca?",
+   "answers": [
+    "A sós limonádé",
+    "A koffeinmentes tea",
+    "A New Coke",
+    "A gyümölcsös sör"
+   ],
+   "correct": 2,
+   "difficulty": "hard",
+   "explanation": "A Coca-Cola 1985-ben megváltoztatta a receptet, de a fogyasztói tiltakozás miatt visszatért az eredetihez.",
+   "source": null,
+   "topic": "kudarcok"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik cég vezette be a futószalagos tömeggyártást az autóiparban?",
+   "answers": [
+    "Renault",
+    "General Motors",
+    "Chrysler",
+    "Ford"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A Ford 1913-as szerelőszalagja drasztikusan lecsökkentette a T-modell gyártási idejét.",
+   "source": null,
+   "topic": "ipari újítások"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik svéd cég tette világszerte ismertté a lapraszerelt bútort?",
+   "answers": [
+    "Volvo",
+    "Electrolux",
+    "IKEA",
+    "H&M"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A lapraszerelés csökkentette a szállítási költséget, és önösszeszerelős modellt hozott.",
+   "source": null,
+   "topic": "ipari újítások"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik cég nevéhez köthető az első tömegpiacra szánt személyi számítógépek egyike, az 5150-es modell?",
+   "answers": [
+    "IBM",
+    "Dell",
+    "Compaq",
+    "Apple"
+   ],
+   "correct": 0,
+   "difficulty": "hard",
+   "explanation": "Az IBM PC 1981-ben jelent meg, és a nyílt architektúrája miatt sokan gyártottak vele kompatibilis gépet.",
+   "source": null,
+   "topic": "ipari újítások"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik cég mutatta be a hordozható kazettás lejátszót Walkman néven?",
+   "answers": [
+    "Sharp",
+    "Sony",
+    "Philips",
+    "Panasonic"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Az 1979-es Walkman a személyes zenehallgatás első igazán elterjedt eszköze volt.",
+   "source": null,
+   "topic": "ipari újítások"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik két cég fejlesztette közösen a CD-formátumot?",
+   "answers": [
+    "Sony és Sharp",
+    "Philips és Grundig",
+    "Toshiba és JVC",
+    "Sony és Philips"
+   ],
+   "correct": 3,
+   "difficulty": "hard",
+   "explanation": "A két vállalat 1982-ben állapodott meg a közös műszaki szabványról.",
+   "source": null,
+   "topic": "ipari újítások"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Ki építette világméretű franchise-lánccá a McDonald testvérek éttermét?",
+   "answers": [
+    "Harland Sanders",
+    "Ray Kroc",
+    "Dave Thomas",
+    "James McLamore"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Kroc franchise-ügynökként csatlakozott, majd megvásárolta a nevet, és globális láncot épített.",
+   "source": null,
+   "topic": "alapítók"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Ki alapította a Microsoftot Paul Allennel együtt?",
+   "answers": [
+    "Larry Ellison",
+    "Steve Jobs",
+    "Steve Ballmer",
+    "Bill Gates"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A két iskolatárs 1975-ben kezdett programnyelvi értelmezőt fejleszteni mikroszámítógépekre.",
+   "source": null,
+   "topic": "alapítók"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Ki volt az Apple társalapítója Steve Jobs és Ronald Wayne mellett?",
+   "answers": [
+    "Steve Wozniak",
+    "Tim Cook",
+    "Mike Markkula",
+    "Jony Ive"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "Wozniak tervezte az Apple I és Apple II gépek áramköreit.",
+   "source": null,
+   "topic": "alapítók"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Kik indították el a Google keresőt egyetemi kutatásból?",
+   "answers": [
+    "Jerry Yang és David Filo",
+    "Larry Page és Sergey Brin",
+    "Steve Chen és Chad Hurley",
+    "Evan Williams és Biz Stone"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "A két Stanford-diák a hivatkozásokat rangsoroló PageRank algoritmust fejlesztette ki.",
+   "source": null,
+   "topic": "alapítók"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik márkát alapította Gabrielle Chanel?",
+   "answers": [
+    "Dior",
+    "Givenchy",
+    "Chanel",
+    "Balmain"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "Coco Chanel 1910-ben nyitotta első kalapszalonját Párizsban.",
+   "source": null,
+   "topic": "alapítók"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik cég vezette be először a mai értelemben vett hűségkártyás pontgyűjtést a légitársaságok között?",
+   "answers": [
+    "Air France",
+    "Lufthansa",
+    "British Airways",
+    "American Airlines"
+   ],
+   "correct": 3,
+   "difficulty": "hard",
+   "explanation": "Az AAdvantage program 1981-ben indult, és mintát adott a törzsutasrendszereknek.",
+   "source": null,
+   "topic": "üzleti modellek"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Mit jelent a franchise üzleti modell lényege?",
+   "answers": [
+    "A márkanév és a működési modell bérbeadását",
+    "Az árak állami szabályozását",
+    "A cég részvényeinek szétosztását",
+    "A dolgozók tulajdonossá tételét"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A franchise-átvevő díjat fizet a névhasználatért és a kidolgozott működési rendszerért.",
+   "source": null,
+   "topic": "üzleti modellek"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Mit takar a borotva és penge néven ismert üzleti modell?",
+   "answers": [
+    "Ingyen adják a terméket reklámért",
+    "Mindent egy áron adnak",
+    "Csak nagy tételben árulnak",
+    "Az alapterméket olcsón adják, az utántöltőn keresnek"
+   ],
+   "correct": 3,
+   "difficulty": "hard",
+   "explanation": "A nyomtató és a patron, illetve a konzol és a játék is ezt a logikát követi.",
+   "source": null,
+   "topic": "üzleti modellek"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Mit jelent a freemium kifejezés?",
+   "answers": [
+    "Egyszeri díjas örökös licenc",
+    "Minden funkció ingyenes",
+    "Csak előfizetéssel használható",
+    "Alapszolgáltatás ingyen, a bővítés fizetős"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A modell nagy felhasználói bázist épít, és abból konvertál fizető előfizetőket.",
+   "source": null,
+   "topic": "üzleti modellek"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik magyar márka lett a hazai porcelángyártás legismertebb neve?",
+   "answers": [
+    "Zsolnay",
+    "Hollóházi",
+    "Herendi",
+    "Ajka"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A Herendi Porcelánmanufaktúra 1826 óta működik, és kézi festésű darabjairól ismert.",
+   "source": null,
+   "topic": "magyar márkák"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik magyar gyár készítette az egykor világszerte exportált Ikarus autóbuszokat?",
+   "answers": [
+    "Ikarus",
+    "Ganz",
+    "Rába",
+    "Csepel"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A gyár a hetvenes-nyolcvanas években évente több tízezer buszt gyártott, főleg keleti exportra.",
+   "source": null,
+   "topic": "magyar márkák"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik magyar találmányhoz köthető a Rubik név?",
+   "answers": [
+    "A telefonközponthoz",
+    "A gyufához",
+    "A bűvös kockához",
+    "A golyóstollhoz"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "Rubik Ernő 1974-ben tervezte meg a forgatható kirakós játékot.",
+   "source": null,
+   "topic": "magyar márkák"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik magyar vállalat lett a hazai gyógyszeripar egyik legrégebbi, ma is működő szereplője?",
+   "answers": [
+    "Sanofi",
+    "Richter Gedeon",
+    "Teva",
+    "Egis"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Richter Gedeon 1901-ben alapította a gyárat, amely ma is Budapesten működik.",
+   "source": null,
+   "topic": "magyar márkák"
+  },
+  {
+   "category": "cegek-markak",
+   "question": "Melyik magyar üveg- és kerámiagyár lett híres eozin mázas darabjairól?",
+   "answers": [
+    "Ajka",
+    "Zsolnay",
+    "Herendi",
+    "Salgó"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A pécsi gyár eozin technikája fémes csillogású, színjátszó felületet ad.",
    "source": null,
    "topic": "magyar márkák"
   },
@@ -4309,171 +4894,6 @@
   },
   {
    "category": "erdekessegek",
-   "question": "Ki fedezte fel a következő kémiai elemet: bróm?",
-   "answers": [
-    "Antonio de Ulloa",
-    "Hans Christian Ørsted",
-    "Carl Jacob Löwig",
-    "André-Louis Debierne"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "bróm felfedezője Carl Jacob Löwig.",
-   "source": "http://www.wikidata.org/entity/Q879",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "erdekessegek",
-   "question": "Ki fedezte fel a következő kémiai elemet: kadmium?",
-   "answers": [
-    "Carl Wilhelm Scheele",
-    "Karl Samuel Leberecht Hermann",
-    "Egyesített Atomkutató Intézet",
-    "Paul Émile Lecoq de Boisbaudran"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "kadmium felfedezője Karl Samuel Leberecht Hermann.",
-   "source": "http://www.wikidata.org/entity/Q1091",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "erdekessegek",
-   "question": "Ki fedezte fel a következő kémiai elemet: oxigén?",
-   "answers": [
-    "Friedrich Ernst Dorn",
-    "Eugène-Melchior Péligot",
-    "Carl Wilhelm Scheele",
-    "Anders Gustaf Ekeberg"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "oxigén felfedezője Carl Wilhelm Scheele.",
-   "source": "http://www.wikidata.org/entity/Q629",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "erdekessegek",
-   "question": "Ki fedezte fel a következő kémiai elemet: klór?",
-   "answers": [
-    "Hans Christian Ørsted",
-    "John William Strutt",
-    "Johan Gottlieb Gahn",
-    "Carl Wilhelm Scheele"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "klór felfedezője Carl Wilhelm Scheele.",
-   "source": "http://www.wikidata.org/entity/Q688",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "erdekessegek",
-   "question": "Ki fedezte fel a következő kémiai elemet: molibdén?",
-   "answers": [
-    "Andrés Manuel del Río",
-    "Carlo Perrier",
-    "Carl Wilhelm Scheele",
-    "Georges Urbain"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "molibdén felfedezője Carl Wilhelm Scheele.",
-   "source": "http://www.wikidata.org/entity/Q1053",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "erdekessegek",
-   "question": "Ki fedezte fel a következő kémiai elemet: germánium?",
-   "answers": [
-    "Per Teodor Cleve",
-    "William Cruickshank",
-    "Clemens Winkler",
-    "Albertus Magnus"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "germánium felfedezője Clemens Winkler.",
-   "source": "http://www.wikidata.org/entity/Q867",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "erdekessegek",
-   "question": "Ki fedezte fel a következő kémiai elemet: foszfor?",
-   "answers": [
-    "Pierre Curie",
-    "Antoine Bussy",
-    "Ida Noddack",
-    "Hennig Brand"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "foszfor felfedezője Hennig Brand.",
-   "source": "http://www.wikidata.org/entity/Q674",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "erdekessegek",
-   "question": "Ki fedezte fel a következő kémiai elemet: indium?",
-   "answers": [
-    "Lise Meitner",
-    "Albertus Magnus",
-    "Ferdinand Reich",
-    "Henry Cavendish"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "indium felfedezője Ferdinand Reich.",
-   "source": "http://www.wikidata.org/entity/Q1094",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "erdekessegek",
-   "question": "Ki fedezte fel a következő kémiai elemet: argon?",
-   "answers": [
-    "Marguerite Perey",
-    "Georg Brandt",
-    "Antoine Lavoisier",
-    "John William Strutt"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "argon felfedezője John William Strutt.",
-   "source": "http://www.wikidata.org/entity/Q696",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "erdekessegek",
-   "question": "Ki fedezte fel a következő kémiai elemet: tellúr?",
-   "answers": [
-    "Müller Ferenc József",
-    "Smithson Tennant",
-    "Lars Fredrik Nilson",
-    "Hans Christian Ørsted"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "tellúr felfedezője Müller Ferenc József.",
-   "source": "http://www.wikidata.org/entity/Q1100",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "erdekessegek",
-   "question": "Ki fedezte fel a következő kémiai elemet: hélium?",
-   "answers": [
-    "Per Teodor Cleve",
-    "Henry Cavendish",
-    "William Ramsay",
-    "Norman Lockyer"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "hélium felfedezője Norman Lockyer.",
-   "source": "http://www.wikidata.org/entity/Q560",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "erdekessegek",
    "question": "Melyik a világ legnagyobb területű országa?",
    "answers": [
     "Kína",
@@ -6408,171 +6828,6 @@
    "topic": "filmek évtizede"
   },
   {
-   "category": "film-sorozat",
-   "question": "Melyik évtizedben jelent meg a következő film: Csípem a családodat?",
-   "answers": [
-    "1990-es évek",
-    "1950-es évek",
-    "2000-es évek",
-    "2010-es évek"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "Csípem a családodat bemutatója: 2010-es évek.",
-   "source": "http://www.wikidata.org/entity/Q4739",
-   "topic": "filmek évtizede"
-  },
-  {
-   "category": "film-sorozat",
-   "question": "Melyik évtizedben jelent meg a következő film: Skyfall?",
-   "answers": [
-    "1990-es évek",
-    "2010-es évek",
-    "1960-es évek",
-    "1980-es évek"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "Skyfall bemutatója: 2010-es évek.",
-   "source": "http://www.wikidata.org/entity/Q4941",
-   "topic": "filmek évtizede"
-  },
-  {
-   "category": "film-sorozat",
-   "question": "Melyik évtizedben jelent meg a következő film: Négy oroszlán?",
-   "answers": [
-    "2010-es évek",
-    "1970-es évek",
-    "2000-es évek",
-    "1960-es évek"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "Négy oroszlán bemutatója: 2010-es évek.",
-   "source": "http://www.wikidata.org/entity/Q5590",
-   "topic": "filmek évtizede"
-  },
-  {
-   "category": "film-sorozat",
-   "question": "Melyik évtizedben jelent meg a következő film: V mint vérbosszú?",
-   "answers": [
-    "2010-es évek",
-    "1990-es évek",
-    "1940-es évek",
-    "2000-es évek"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "V mint vérbosszú bemutatója: 2000-es évek.",
-   "source": "http://www.wikidata.org/entity/Q5890",
-   "topic": "filmek évtizede"
-  },
-  {
-   "category": "film-sorozat",
-   "question": "Melyik évtizedben jelent meg a következő film: Star Wars: Az ébredő Erő?",
-   "answers": [
-    "1930-es évek",
-    "1970-es évek",
-    "2010-es évek",
-    "1940-es évek"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "Star Wars: Az ébredő Erő bemutatója: 2010-es évek.",
-   "source": "http://www.wikidata.org/entity/Q6074",
-   "topic": "filmek évtizede"
-  },
-  {
-   "category": "film-sorozat",
-   "question": "Melyik évtizedben jelent meg a következő film: Pirates II: Stagnetti's Revenge?",
-   "answers": [
-    "1990-es évek",
-    "2000-es évek",
-    "1980-es évek",
-    "1970-es évek"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "Pirates II: Stagnetti's Revenge bemutatója: 2000-es évek.",
-   "source": "http://www.wikidata.org/entity/Q7216",
-   "topic": "filmek évtizede"
-  },
-  {
-   "category": "film-sorozat",
-   "question": "Melyik évtizedben jelent meg a következő film: Megvagy!?",
-   "answers": [
-    "1960-es évek",
-    "1990-es évek",
-    "1950-es évek",
-    "1980-es évek"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "Megvagy! bemutatója: 1980-es évek.",
-   "source": "http://www.wikidata.org/entity/Q8328",
-   "topic": "filmek évtizede"
-  },
-  {
-   "category": "film-sorozat",
-   "question": "Melyik évtizedben jelent meg a következő film: 101 kiskutya?",
-   "answers": [
-    "1970-es évek",
-    "1990-es évek",
-    "1980-es évek",
-    "2010-es évek"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "101 kiskutya bemutatója: 1990-es évek.",
-   "source": "http://www.wikidata.org/entity/Q8594",
-   "topic": "filmek évtizede"
-  },
-  {
-   "category": "film-sorozat",
-   "question": "Melyik évtizedben jelent meg a következő film: Az utolsó léghajlító?",
-   "answers": [
-    "1980-es évek",
-    "1950-es évek",
-    "2010-es évek",
-    "1930-es évek"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "Az utolsó léghajlító bemutatója: 2010-es évek.",
-   "source": "http://www.wikidata.org/entity/Q11593",
-   "topic": "filmek évtizede"
-  },
-  {
-   "category": "film-sorozat",
-   "question": "Melyik évtizedben jelent meg a következő film: Radírfej?",
-   "answers": [
-    "2000-es évek",
-    "1930-es évek",
-    "1940-es évek",
-    "1970-es évek"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "Radírfej bemutatója: 1970-es évek.",
-   "source": "http://www.wikidata.org/entity/Q11618",
-   "topic": "filmek évtizede"
-  },
-  {
-   "category": "film-sorozat",
-   "question": "Melyik évtizedben jelent meg a következő film: E. T., a földönkívüli?",
-   "answers": [
-    "1970-es évek",
-    "1930-es évek",
-    "1950-es évek",
-    "1980-es évek"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "E. T., a földönkívüli bemutatója: 1980-es évek.",
-   "source": "http://www.wikidata.org/entity/Q11621",
-   "topic": "filmek évtizede"
-  },
-  {
    "category": "fizika",
    "question": "Milyen fizikai mennyiség mértékegysége a következő: newton?",
    "answers": [
@@ -6720,171 +6975,6 @@
    "difficulty": "medium",
    "explanation": "A(z) milliméter a(z) hosszúság mértékegysége.",
    "source": "http://www.wikidata.org/entity/Q174789",
-   "topic": "mértékegységek"
-  },
-  {
-   "category": "fizika",
-   "question": "Milyen fizikai mennyiség mértékegysége a következő: mikrométer?",
-   "answers": [
-    "szélesség",
-    "hosszúság",
-    "gyorsulás",
-    "átmérő"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "A(z) mikrométer a(z) hosszúság mértékegysége.",
-   "source": "http://www.wikidata.org/entity/Q175821",
-   "topic": "mértékegységek"
-  },
-  {
-   "category": "fizika",
-   "question": "Milyen fizikai mennyiség mértékegysége a következő: nanométer?",
-   "answers": [
-    "térfogatáram",
-    "munka",
-    "hosszúság",
-    "térfogat"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "A(z) nanométer a(z) hosszúság mértékegysége.",
-   "source": "http://www.wikidata.org/entity/Q178674",
-   "topic": "mértékegységek"
-  },
-  {
-   "category": "fizika",
-   "question": "Milyen fizikai mennyiség mértékegysége a következő: lux?",
-   "answers": [
-    "fordulatszám",
-    "megvilágítás",
-    "section modulus",
-    "fénysűrűség"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "A(z) lux a(z) megvilágítás mértékegysége.",
-   "source": "http://www.wikidata.org/entity/Q179836",
-   "topic": "mértékegységek"
-  },
-  {
-   "category": "fizika",
-   "question": "Milyen fizikai mennyiség mértékegysége a következő: pikométer?",
-   "answers": [
-    "térfogatáram",
-    "szélesség",
-    "hosszúság",
-    "terület"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "A(z) pikométer a(z) hosszúság mértékegysége.",
-   "source": "http://www.wikidata.org/entity/Q192274",
-   "topic": "mértékegységek"
-  },
-  {
-   "category": "fizika",
-   "question": "Milyen fizikai mennyiség mértékegysége a következő: deciméter?",
-   "answers": [
-    "fordulatszám",
-    "hosszúság",
-    "sebesség",
-    "impedancia"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "A(z) deciméter a(z) hosszúság mértékegysége.",
-   "source": "http://www.wikidata.org/entity/Q200323",
-   "topic": "mértékegységek"
-  },
-  {
-   "category": "fizika",
-   "question": "Milyen fizikai mennyiség mértékegysége a következő: femtométer?",
-   "answers": [
-    "szögsebesség",
-    "hosszúság",
-    "kerma",
-    "sűrűség"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "A(z) femtométer a(z) hosszúság mértékegysége.",
-   "source": "http://www.wikidata.org/entity/Q208788",
-   "topic": "mértékegységek"
-  },
-  {
-   "category": "fizika",
-   "question": "Milyen fizikai mennyiség mértékegysége a következő: kandela per négyzetméter?",
-   "answers": [
-    "Young-modulus",
-    "fénysűrűség",
-    "anyagmennyiség",
-    "teljesítmény"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "A(z) kandela per négyzetméter a(z) fénysűrűség mértékegysége.",
-   "source": "http://www.wikidata.org/entity/Q281096",
-   "topic": "mértékegységek"
-  },
-  {
-   "category": "fizika",
-   "question": "Milyen fizikai mennyiség mértékegysége a következő: lumen?",
-   "answers": [
-    "fényáram",
-    "térfogatáram",
-    "sűrűség",
-    "teljesítmény"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "A(z) lumen a(z) fényáram mértékegysége.",
-   "source": "http://www.wikidata.org/entity/Q484092",
-   "topic": "mértékegységek"
-  },
-  {
-   "category": "fizika",
-   "question": "Milyen fizikai mennyiség mértékegysége a következő: voltamper?",
-   "answers": [
-    "elektromos töltés",
-    "látszólagos teljesítmény",
-    "elektromos ellenállás",
-    "elektromos teljesítmény"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "A(z) voltamper a(z) elektromos teljesítmény mértékegysége.",
-   "source": "http://www.wikidata.org/entity/Q550341",
-   "topic": "mértékegységek"
-  },
-  {
-   "category": "fizika",
-   "question": "Milyen fizikai mennyiség mértékegysége a következő: négyzetkilométer?",
-   "answers": [
-    "admittancia",
-    "vastagság",
-    "távolság",
-    "terület"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "A(z) négyzetkilométer a(z) terület mértékegysége.",
-   "source": "http://www.wikidata.org/entity/Q712226",
-   "topic": "mértékegységek"
-  },
-  {
-   "category": "fizika",
-   "question": "Milyen fizikai mennyiség mértékegysége a következő: milliszekundum?",
-   "answers": [
-    "időtartam",
-    "munka",
-    "sűrűség",
-    "pixel density"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "A(z) milliszekundum a(z) időtartam mértékegysége.",
-   "source": "http://www.wikidata.org/entity/Q723733",
    "topic": "mértékegységek"
   },
   {
@@ -12618,186 +12708,6 @@
    "topic": "szerzők és műveik"
   },
   {
-   "category": "irodalom",
-   "question": "Ki írta a következő művet: Az ártatlanság múzeuma?",
-   "answers": [
-    "Annie Ernaux",
-    "Samuel Beckett",
-    "Orhan Pamuk",
-    "Herta Müller"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "A mű szerzője Orhan Pamuk.",
-   "source": "http://www.wikidata.org/entity/Q785974",
-   "topic": "szerzők és műveik"
-  },
-  {
-   "category": "irodalom",
-   "question": "Ki írta a következő művet: Napok romjai?",
-   "answers": [
-    "Günter Grass",
-    "Kazuo Ishiguro",
-    "Harry Martinson",
-    "T. S. Eliot"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "A mű szerzője Kazuo Ishiguro.",
-   "source": "http://www.wikidata.org/entity/Q829934",
-   "topic": "szerzők és műveik"
-  },
-  {
-   "category": "irodalom",
-   "question": "Ki írta a következő művet: Ne engedj el…?",
-   "answers": [
-    "Kazuo Ishiguro",
-    "Harry Martinson",
-    "Herta Müller",
-    "George Bernard Shaw"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "A mű szerzője Kazuo Ishiguro.",
-   "source": "http://www.wikidata.org/entity/Q951587",
-   "topic": "szerzők és műveik"
-  },
-  {
-   "category": "irodalom",
-   "question": "Ki írta a következő művet: Sátántangó?",
-   "answers": [
-    "Władysław Reymont",
-    "Krasznahorkai László",
-    "Henryk Sienkiewicz",
-    "Toni Morrison"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "A mű szerzője Krasznahorkai László.",
-   "source": "http://www.wikidata.org/entity/Q1315145",
-   "topic": "szerzők és műveik"
-  },
-  {
-   "category": "irodalom",
-   "question": "Ki írta a következő művet: Snow?",
-   "answers": [
-    "Orhan Pamuk",
-    "William Golding",
-    "Han Gang",
-    "Romain Rolland"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "A mű szerzője Orhan Pamuk.",
-   "source": "http://www.wikidata.org/entity/Q1478870",
-   "topic": "szerzők és műveik"
-  },
-  {
-   "category": "irodalom",
-   "question": "Ki írta a következő művet: The Silent House?",
-   "answers": [
-    "André Gide",
-    "Annie Ernaux",
-    "Orhan Pamuk",
-    "Nagíb Mahfúz"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "A mű szerzője Orhan Pamuk.",
-   "source": "http://www.wikidata.org/entity/Q2507362",
-   "topic": "szerzők és műveik"
-  },
-  {
-   "category": "irodalom",
-   "question": "Ki írta a következő művet: The White Castle?",
-   "answers": [
-    "Dario Fo",
-    "Orhan Pamuk",
-    "Günter Grass",
-    "Selma Lagerlöf"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "A mű szerzője Orhan Pamuk.",
-   "source": "http://www.wikidata.org/entity/Q2559737",
-   "topic": "szerzők és műveik"
-  },
-  {
-   "category": "irodalom",
-   "question": "Ki írta a következő művet: A dombok halvány képe?",
-   "answers": [
-    "Selma Lagerlöf",
-    "Władysław Reymont",
-    "Elias Canetti",
-    "Kazuo Ishiguro"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "A mű szerzője Kazuo Ishiguro.",
-   "source": "http://www.wikidata.org/entity/Q4658705",
-   "topic": "szerzők és műveik"
-  },
-  {
-   "category": "irodalom",
-   "question": "Ki írta a következő művet: Voices from Chernobyl?",
-   "answers": [
-    "Alekszandr Iszajevics Szolzsenyicin",
-    "Borisz Leonyidovics Paszternak",
-    "Jean-Marie Gustave Le Clézio",
-    "Szvjatlana Aljakszandravna Alekszievics"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "A mű szerzője Szvjatlana Aljakszandravna Alekszievics.",
-   "source": "http://www.wikidata.org/entity/Q7939693",
-   "topic": "szerzők és műveik"
-  },
-  {
-   "category": "irodalom",
-   "question": "Ki írta a következő művet: Flights?",
-   "answers": [
-    "Olga Tokarczuk",
-    "William Golding",
-    "Ivo Andrić",
-    "Orhan Pamuk"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "A mű szerzője Olga Tokarczuk.",
-   "source": "http://www.wikidata.org/entity/Q9171173",
-   "topic": "szerzők és műveik"
-  },
-  {
-   "category": "irodalom",
-   "question": "Ki írta a következő művet: Drive Your Plow Over the Bones of the Dead?",
-   "answers": [
-    "André Gide",
-    "Olga Tokarczuk",
-    "Hermann Hesse",
-    "Elfriede Jelinek"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "A mű szerzője Olga Tokarczuk.",
-   "source": "http://www.wikidata.org/entity/Q11827997",
-   "topic": "szerzők és műveik"
-  },
-  {
-   "category": "irodalom",
-   "question": "Ki írta a következő művet: The Buried Giant?",
-   "answers": [
-    "Kazuo Ishiguro",
-    "Elias Canetti",
-    "Anatole France",
-    "Patrick Modiano"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "A mű szerzője Kazuo Ishiguro.",
-   "source": "http://www.wikidata.org/entity/Q19363462",
-   "topic": "szerzők és műveik"
-  },
-  {
    "category": "jatekok",
    "question": "Melyik stúdió fejlesztette a következő játékot: Mega Man IV?",
    "answers": [
@@ -13459,21 +13369,6 @@
   },
   {
    "category": "kemia",
-   "question": "Mi a következő kémiai elem vegyjele: unbiunium?",
-   "answers": [
-    "Uto",
-    "Cl",
-    "Tm",
-    "Ubu"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "unbiunium vegyjele: Ubu.",
-   "source": "http://www.wikidata.org/entity/Q1466",
-   "topic": "vegyjelek"
-  },
-  {
-   "category": "kemia",
    "question": "Ki fedezte fel a következő kémiai elemet: fluor?",
    "answers": [
     "Jöns Jakob Berzelius",
@@ -14056,6 +13951,906 @@
    "explanation": "francium elemcsoportja: alkálifémek.",
    "source": "http://www.wikidata.org/entity/Q671",
    "topic": "periódusos rendszer"
+  },
+  {
+   "category": "kemia",
+   "question": "Mi a konyhasó kémiai neve?",
+   "answers": [
+    "Nátrium-klorid",
+    "Kalcium-klorid",
+    "Kálium-klorid",
+    "Nátrium-karbonát"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A konyhasó nátrium- és kloridionokból álló ionos kristály.",
+   "source": null,
+   "topic": "mindennapi anyagok"
+  },
+  {
+   "category": "kemia",
+   "question": "Hány százalék oxigén van körülbelül a Föld légkörében?",
+   "answers": [
+    "21%",
+    "35%",
+    "48%",
+    "11%"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A levegő kb. 78% nitrogén és 21% oxigén, a többi főleg argon.",
+   "source": null,
+   "topic": "levegő és gázok"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik gáz felelős elsősorban a szódavíz pezsgéséért?",
+   "answers": [
+    "Nitrogén",
+    "Hélium",
+    "Oxigén",
+    "Szén-dioxid"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A vízbe nyomás alatt oldott szén-dioxid a nyomás csökkenésekor buborékként szabadul fel.",
+   "source": null,
+   "topic": "levegő és gázok"
+  },
+  {
+   "category": "kemia",
+   "question": "Milyen pH-értéknél semleges egy oldat 25 fokon?",
+   "answers": [
+    "14",
+    "10",
+    "7",
+    "0"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A tiszta víz pH-ja 25 fokon 7; ez alatt savas, fölötte lúgos az oldat.",
+   "source": null,
+   "topic": "savak és bázisok"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik ion koncentrációja határozza meg egy oldat savasságát?",
+   "answers": [
+    "Hidroxidion",
+    "Kloridion",
+    "Hidrogénion",
+    "Nátriumion"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A savasság a hidrogénionok, pontosabban az oxóniumionok koncentrációjától függ.",
+   "source": null,
+   "topic": "savak és bázisok"
+  },
+  {
+   "category": "kemia",
+   "question": "Hogyan nevezik azt a folyamatot, amikor egy anyag szilárd állapotból közvetlenül gázzá válik?",
+   "answers": [
+    "Párolgás",
+    "Szublimáció",
+    "Kondenzáció",
+    "Olvadás"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A szárazjég például szublimál: megolvadás nélkül lesz belőle gáz.",
+   "source": null,
+   "topic": "halmazállapotok"
+  },
+  {
+   "category": "kemia",
+   "question": "Mi a víz forráspontja normál légköri nyomáson?",
+   "answers": [
+    "90 fok",
+    "100 fok",
+    "120 fok",
+    "110 fok"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "Tengerszinten, 101,3 kPa nyomáson a víz 100 fokon forr; magasabban alacsonyabb hőmérsékleten.",
+   "source": null,
+   "topic": "halmazállapotok"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik fém folyékony szobahőmérsékleten?",
+   "answers": [
+    "Cink",
+    "Alumínium",
+    "Ólom",
+    "Higany"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A higany olvadáspontja mínusz 39 fok, ezért szobahőmérsékleten folyékony.",
+   "source": null,
+   "topic": "fémek"
+  },
+  {
+   "category": "kemia",
+   "question": "Mi a rozsdásodás alapvető feltétele a vas mellett?",
+   "answers": [
+    "Oxigén és víz jelenléte",
+    "Teljes vákuum",
+    "Csak magas hőmérséklet",
+    "Csak nitrogén jelenléte"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A rozsda vas-oxid-hidrát: kialakulásához oxigén és víz is kell.",
+   "source": null,
+   "topic": "fémek"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik a legkeményebb a természetben előforduló ásványok közül?",
+   "answers": [
+    "Topáz",
+    "Korund",
+    "Gyémánt",
+    "Kvarc"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A gyémánt a Mohs-skála 10-es, legkeményebb tagja; szénatomjai térhálós szerkezetben állnak.",
+   "source": null,
+   "topic": "anyagszerkezet"
+  },
+  {
+   "category": "kemia",
+   "question": "Milyen kötés tartja össze a nátrium-klorid kristályát?",
+   "answers": [
+    "Apoláris kovalens kötés",
+    "Fémes kötés",
+    "Ionos kötés",
+    "Hidrogénkötés"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A nátrium elektront ad át a klórnak, és az ellentétes töltésű ionok vonzzák egymást.",
+   "source": null,
+   "topic": "anyagszerkezet"
+  },
+  {
+   "category": "kemia",
+   "question": "Hány atom található egy vízmolekulában?",
+   "answers": [
+    "5",
+    "2",
+    "4",
+    "3"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A víz képlete H2O: két hidrogén- és egy oxigénatom.",
+   "source": null,
+   "topic": "anyagszerkezet"
+  },
+  {
+   "category": "kemia",
+   "question": "Mit mutat meg egy elem rendszáma?",
+   "answers": [
+    "Az elektronhéjak számát",
+    "A protonok számát",
+    "A neutronok számát",
+    "Az atomtömeg pontos értékét"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A rendszám az atommagban lévő protonok száma, ez határozza meg, melyik elemről van szó.",
+   "source": null,
+   "topic": "atomszerkezet"
+  },
+  {
+   "category": "kemia",
+   "question": "Mely részecskék találhatók az atommagban?",
+   "answers": [
+    "Csak protonok",
+    "Protonok és elektronok",
+    "Csak elektronok",
+    "Protonok és neutronok"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A magot protonok és neutronok építik fel; az elektronok a mag körül helyezkednek el.",
+   "source": null,
+   "topic": "atomszerkezet"
+  },
+  {
+   "category": "kemia",
+   "question": "Miben különbözik egy elem két izotópja egymástól?",
+   "answers": [
+    "A protonok számában",
+    "A neutronok számában",
+    "A vegyjelében",
+    "A rendszámában"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Az izotópok rendszáma azonos, a neutronszámuk és így a tömegszámuk különböző.",
+   "source": null,
+   "topic": "atomszerkezet"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik tudós nevéhez köthető a periódusos rendszer első széles körben elfogadott változata?",
+   "answers": [
+    "Dmitrij Mendelejev",
+    "Antoine Lavoisier",
+    "Robert Boyle",
+    "John Dalton"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "Mendelejev 1869-ben tömeg szerint rendezte az elemeket, és helyet hagyott a még ismeretleneknek.",
+   "source": null,
+   "topic": "kémia története"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik gázt nevezték korábban éltető levegőnek, mielőtt megkapta mai nevét?",
+   "answers": [
+    "Szén-dioxid",
+    "Hidrogén",
+    "Nitrogén",
+    "Oxigén"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Lavoisier az égést támogató gázt nevezte el oxigénnek; korábban éltető levegőként utaltak rá.",
+   "source": null,
+   "topic": "kémia története"
+  },
+  {
+   "category": "kemia",
+   "question": "Mit tanácsol a laboratóriumi gyakorlat sav hígításakor?",
+   "answers": [
+    "A savat kell a vízbe önteni",
+    "Előbb melegíteni kell a savat",
+    "Mindegy, milyen sorrendben",
+    "A vizet kell a savba önteni"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A hígítás erősen hőt fejleszt; ha a savat öntjük a vízbe, a nagyobb víztérfogat elnyeli a hőt.",
+   "source": null,
+   "topic": "laborbiztonság"
+  },
+  {
+   "category": "kemia",
+   "question": "Mi a helyes teendő, ha vegyszer kerül a szembe?",
+   "answers": [
+    "Dörzsölni a szemet",
+    "Törölni és megvárni, elmúlik-e",
+    "Bő vízzel hosszan mosni",
+    "Szemcseppet használni"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A tartós, bő vizes mosás hígítja és eltávolítja a vegyszert; utána orvoshoz kell fordulni.",
+   "source": null,
+   "topic": "laborbiztonság"
+  },
+  {
+   "category": "kemia",
+   "question": "Milyen színűre változik a lakmuszpapír savas oldatban?",
+   "answers": [
+    "Vörösre",
+    "Sárgára",
+    "Zöldre",
+    "Kékre"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A lakmusz savas környezetben vörös, lúgos környezetben kék színű.",
+   "source": null,
+   "topic": "savak és bázisok"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik savat tartalmazza a gyomorsav elsősorban?",
+   "answers": [
+    "Szénsav",
+    "Ecetsav",
+    "Kénsav",
+    "Hidrogén-klorid"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A gyomor hidrogén-kloridot választ ki, ez adja a gyomorsav erősen savas jellegét.",
+   "source": null,
+   "topic": "savak és bázisok"
+  },
+  {
+   "category": "kemia",
+   "question": "Milyen sav adja az ecet jellegzetes szagát és savas ízét?",
+   "answers": [
+    "Ecetsav",
+    "Salétromsav",
+    "Foszforsav",
+    "Citromsav"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "Az étkezési ecet 5 és 20 százalék közötti ecetsavat tartalmazó vizes oldat.",
+   "source": null,
+   "topic": "savak és bázisok"
+  },
+  {
+   "category": "kemia",
+   "question": "Mi keletkezik egy sav és egy bázis reakciójában?",
+   "answers": [
+    "Csak só",
+    "Csak gáz",
+    "Só és víz",
+    "Fém és oxigén"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A semlegesítési reakció terméke egy só és víz.",
+   "source": null,
+   "topic": "savak és bázisok"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik anyag oldódik legjobban vízben a felsoroltak közül?",
+   "answers": [
+    "Konyhasó",
+    "Olaj",
+    "Viasz",
+    "Homok"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A víz poláris oldószer, ezért az ionos konyhasót jól oldja, az apoláris olajat és viaszt nem.",
+   "source": null,
+   "topic": "oldatok"
+  },
+  {
+   "category": "kemia",
+   "question": "Hogyan nevezik azt az oldatot, amely a legtöbb oldott anyagot tartalmazza az adott hőmérsékleten?",
+   "answers": [
+    "Híg oldat",
+    "Telített oldat",
+    "Semleges oldat",
+    "Kolloid oldat"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A telített oldatban az oldódás és a kiválás sebessége megegyezik.",
+   "source": null,
+   "topic": "oldatok"
+  },
+  {
+   "category": "kemia",
+   "question": "Általában hogyan változik a szilárd anyagok oldhatósága vízben a hőmérséklet emelésével?",
+   "answers": [
+    "Nem változik",
+    "Nő",
+    "Nullára esik",
+    "Csökken"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A legtöbb szilárd anyag melegebb vízben jobban oldódik; a gázoknál ez fordítva van.",
+   "source": null,
+   "topic": "oldatok"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik eljárással lehet sós vízből tiszta vizet nyerni?",
+   "answers": [
+    "Ülepítés",
+    "Szűrés",
+    "Centrifugálás",
+    "Desztillálás"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A víz elpárologtatása és a gőz lecsapatása a sót visszahagyja.",
+   "source": null,
+   "topic": "szétválasztás"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik módszer alkalmas homok és víz szétválasztására?",
+   "answers": [
+    "Kromatográfia",
+    "Kristályosítás",
+    "Desztillálás",
+    "Szűrés"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A homok szemcséi nem oldódnak, ezért a szűrőpapír visszatartja őket.",
+   "source": null,
+   "topic": "szétválasztás"
+  },
+  {
+   "category": "kemia",
+   "question": "Mire használják a kromatográfiát a laborban?",
+   "answers": [
+    "Fémek edzésére",
+    "Keverékek komponenseinek szétválasztására",
+    "Gázok sűrítésére",
+    "Hőmérséklet mérésére"
+   ],
+   "correct": 1,
+   "difficulty": "hard",
+   "explanation": "A komponensek különböző sebességgel haladnak az álló fázisban, így elkülönülnek.",
+   "source": null,
+   "topic": "szétválasztás"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik elem a szerves vegyületek vázának alapja?",
+   "answers": [
+    "Nitrogén",
+    "Kén",
+    "Szilícium",
+    "Szén"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A szén négy kötést tud kialakítani, és láncokat, gyűrűket képez; erre épül a szerves kémia.",
+   "source": null,
+   "topic": "szerves kémia"
+  },
+  {
+   "category": "kemia",
+   "question": "Mi a metán molekulájának alakja?",
+   "answers": [
+    "Síkháromszög",
+    "Lineáris",
+    "Tetraéderes",
+    "Négyzetes"
+   ],
+   "correct": 2,
+   "difficulty": "hard",
+   "explanation": "A központi szénatom négy hidrogént kötve tetraédert formál, körülbelül 109,5 fokos kötésszögekkel.",
+   "source": null,
+   "topic": "szerves kémia"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik gáz a földgáz legnagyobb arányú összetevője?",
+   "answers": [
+    "Butén",
+    "Etin",
+    "Metán",
+    "Propán"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A földgáz jellemzően 85 és 95 százalék közötti metánt tartalmaz.",
+   "source": null,
+   "topic": "szerves kémia"
+  },
+  {
+   "category": "kemia",
+   "question": "Milyen anyagcsoportba tartozik az etanol?",
+   "answers": [
+    "Ketonok",
+    "Karbonsavak",
+    "Észterek",
+    "Alkoholok"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Az etanol szénláncán hidroxilcsoport található, ez az alkoholok jellemzője.",
+   "source": null,
+   "topic": "szerves kémia"
+  },
+  {
+   "category": "kemia",
+   "question": "Mit jelent a kémiai reakcióegyenletek rendezése?",
+   "answers": [
+    "Az atomok száma két oldalon egyenlő legyen",
+    "A reakció gyorsabb legyen",
+    "Az oldat semleges legyen",
+    "A molekulák mérete egyezzen"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "Az anyag megmaradása miatt minden elem atomszámának egyeznie kell a két oldalon.",
+   "source": null,
+   "topic": "reakciók"
+  },
+  {
+   "category": "kemia",
+   "question": "Mit nevezünk exoterm reakciónak?",
+   "answers": [
+    "Amely csak fényt bocsát ki",
+    "Amely hőt von el a környezetéből",
+    "Amely nem jár energiaváltozással",
+    "Amely hőt ad le a környezetének"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Az exoterm reakció során energia szabadul fel, például égéskor.",
+   "source": null,
+   "topic": "reakciók"
+  },
+  {
+   "category": "kemia",
+   "question": "Mi a katalizátor szerepe egy reakcióban?",
+   "answers": [
+    "Gyorsítja a reakciót, miközben maga nem fogy el",
+    "Megváltoztatja a termékek összetételét",
+    "Lassítja az összes reakciót",
+    "Növeli a termék mennyiségét a végén"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A katalizátor csökkenti az aktiválási energiát, és a reakció végén változatlanul megmarad.",
+   "source": null,
+   "topic": "reakciók"
+  },
+  {
+   "category": "kemia",
+   "question": "Mi szükséges az égéshez a tűzháromszög szerint az éghető anyagon kívül?",
+   "answers": [
+    "Csak víz",
+    "Csak fény",
+    "Csak nitrogén",
+    "Oxigén és megfelelő hőmérséklet"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "Az égéshez éghető anyag, oxigén és gyulladási hőmérséklet kell; bármelyik elvonása megszünteti.",
+   "source": null,
+   "topic": "reakciók"
+  },
+  {
+   "category": "kemia",
+   "question": "Miért nem szabad vízzel oltani az égő olajat?",
+   "answers": [
+    "A víz felszívja az olajat",
+    "A víz szétfröccsenti az égő olajat",
+    "A víz oxigént termel",
+    "A víz meggyújtja az olajat"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A víz azonnal elgőzölög az olaj alatt, és robbanásszerűen kifröccsenti a lángoló olajat.",
+   "source": null,
+   "topic": "laborbiztonság"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik nemesgázt használják gyakran töltőgázként világító reklámcsövekben?",
+   "answers": [
+    "Radon",
+    "Hélium",
+    "Kripton",
+    "Neon"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A neon elektromos kisülésben jellegzetes vörös-narancs fénnyel világít.",
+   "source": null,
+   "topic": "nemesgázok"
+  },
+  {
+   "category": "kemia",
+   "question": "Miért nem reagálnak a nemesgázok szinte semmivel?",
+   "answers": [
+    "Túl nagy a rendszámuk",
+    "Mindig folyékonyak",
+    "Külső elektronhéjuk betöltött",
+    "Nincsenek elektronjaik"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A telített külső héj miatt nem nyernek energiát elektron leadásával vagy felvételével.",
+   "source": null,
+   "topic": "nemesgázok"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik gázzal töltik a léggömböket, ha azt akarják, hogy felszálljanak?",
+   "answers": [
+    "Hélium",
+    "Argon",
+    "Oxigén",
+    "Szén-dioxid"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A hélium sűrűsége jóval kisebb a levegőnél, és a hidrogénnel szemben nem gyúlékony.",
+   "source": null,
+   "topic": "nemesgázok"
+  },
+  {
+   "category": "kemia",
+   "question": "Mi a szódabikarbóna kémiai neve?",
+   "answers": [
+    "Kálium-nitrát",
+    "Kalcium-karbonát",
+    "Nátrium-hidroxid",
+    "Nátrium-hidrogén-karbonát"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Sütés közben hő vagy sav hatására szén-dioxidot fejleszt, ezért lazítja a tésztát.",
+   "source": null,
+   "topic": "mindennapi anyagok"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik anyag adja a mészkő fő összetevőjét?",
+   "answers": [
+    "Magnézium-klorid",
+    "Nátrium-szulfát",
+    "Vas-oxid",
+    "Kalcium-karbonát"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A mészkő túlnyomórészt kalcium-karbonát; savval pezseg, mert szén-dioxid szabadul fel.",
+   "source": null,
+   "topic": "mindennapi anyagok"
+  },
+  {
+   "category": "kemia",
+   "question": "Miért érdemes a vízkövet ecettel oldani?",
+   "answers": [
+    "Az ecet mechanikusan lecsiszolja",
+    "Az ecet elpárologtatja a vizet",
+    "A sav reagál a vízkő karbonátjával",
+    "Az ecet lehűti a vízkövet"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A savas ecet a kalcium-karbonátból oldható sót és szén-dioxidot képez.",
+   "source": null,
+   "topic": "mindennapi anyagok"
+  },
+  {
+   "category": "kemia",
+   "question": "Mi a szappan tisztító hatásának alapja?",
+   "answers": [
+    "Savas kémhatású",
+    "Molekulái egyszerre kötik a vizet és a zsírt",
+    "Elpárologtatja a zsírt",
+    "Feloldja a szennyeződés atomjait"
+   ],
+   "correct": 1,
+   "difficulty": "hard",
+   "explanation": "A szappanmolekula egyik vége vízkedvelő, a másik zsírkedvelő, így a zsírt vízben elkeverhetővé teszi.",
+   "source": null,
+   "topic": "mindennapi anyagok"
+  },
+  {
+   "category": "kemia",
+   "question": "Milyen kémhatású általában a háztartási hipó vizes oldata?",
+   "answers": [
+    "Pontosan semleges",
+    "Savas",
+    "Váltakozva savas és lúgos",
+    "Lúgos"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A nátrium-hipoklorit oldata lúgos; ezért sem szabad savas tisztítóval keverni.",
+   "source": null,
+   "topic": "mindennapi anyagok"
+  },
+  {
+   "category": "kemia",
+   "question": "Miért veszélyes hipót savas tisztítószerrel összekeverni?",
+   "answers": [
+    "Berobban a tisztítószer",
+    "Megsavanyodik a levegő",
+    "Elszíntelenedik a felület",
+    "Mérgező klórgáz szabadul fel"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A hipoklorit savas környezetben klórgázt fejleszt, ami már kis mennyiségben is súlyosan izgatja a tüdőt.",
+   "source": null,
+   "topic": "laborbiztonság"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik folyamat során termel a növény oxigént?",
+   "answers": [
+    "Fermentálás",
+    "Légzés",
+    "Bomlás",
+    "Fotoszintézis"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A növény fény segítségével szén-dioxidból és vízből szerves anyagot épít, és oxigént bocsát ki.",
+   "source": null,
+   "topic": "biokémia"
+  },
+  {
+   "category": "kemia",
+   "question": "Milyen anyagok építik fel a fehérjéket?",
+   "answers": [
+    "Zsírsavak",
+    "Nukleotidok",
+    "Aminosavak",
+    "Egyszerű cukrok"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A fehérjék aminosavak láncából állnak, amelyeket peptidkötés kapcsol össze.",
+   "source": null,
+   "topic": "biokémia"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik cukor a szőlőcukor másik neve?",
+   "answers": [
+    "Szacharóz",
+    "Glükóz",
+    "Laktóz",
+    "Fruktóz"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "A glükóz a sejtek legfontosabb közvetlen energiaforrása.",
+   "source": null,
+   "topic": "biokémia"
+  },
+  {
+   "category": "kemia",
+   "question": "Mit jelent az, hogy egy anyag higroszkópos?",
+   "answers": [
+    "Vizet taszít",
+    "Vizet szív magába a környezetéből",
+    "Savasan reagál",
+    "Fényt bocsát ki"
+   ],
+   "correct": 1,
+   "difficulty": "hard",
+   "explanation": "A higroszkópos anyagok, például a szilikagél, megkötik a levegő páratartalmát.",
+   "source": null,
+   "topic": "anyagjellemzők"
+  },
+  {
+   "category": "kemia",
+   "question": "Mit fejez ki egy anyag sűrűsége?",
+   "answers": [
+    "A hőmérsékletét",
+    "Az egységnyi térfogatra eső tömeget",
+    "A keménységét",
+    "Az oldhatóságát"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "A sűrűség a tömeg és a térfogat aránya, mértékegysége például kilogramm per köbméter.",
+   "source": null,
+   "topic": "anyagjellemzők"
+  },
+  {
+   "category": "kemia",
+   "question": "Miért lebeg a jég a víz felszínén?",
+   "answers": [
+    "Nem tartalmaz oxigént",
+    "Melegebb a víznél",
+    "Levegőbuborékok tartják",
+    "Kisebb a sűrűsége, mint a folyékony víznek"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Fagyáskor a hidrogénkötések nyitott szerkezetbe rendezik a molekulákat, ezért a jég térfogata nagyobb.",
+   "source": null,
+   "topic": "anyagjellemzők"
+  },
+  {
+   "category": "kemia",
+   "question": "Mi történik, ha vízbe olyan folyadékot keverünk, amely nem oldódik benne?",
+   "answers": [
+    "Homogén oldatot ad",
+    "Két különálló réteget képez",
+    "Kikristályosodik",
+    "Azonnal elpárolog"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A nem oldódó folyadékok nem elegyednek: a nagyobb sűrűségű alul, a kisebb felül helyezkedik el.",
+   "source": null,
+   "topic": "anyagjellemzők"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik mértékegység fejezi ki az anyagmennyiséget a nemzetközi rendszerben?",
+   "answers": [
+    "Gramm",
+    "Liter",
+    "Kelvin",
+    "Mól"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Egy mól annyi részecske, amennyi az Avogadro-számnak, körülbelül 6,022-szer 10 a 23-on darabnak megfelel.",
+   "source": null,
+   "topic": "számítások"
+  },
+  {
+   "category": "kemia",
+   "question": "Mit jelent egy oldat 10 tömegszázalékos koncentrációja?",
+   "answers": [
+    "Az oldat hőmérséklete 10 fok",
+    "100 gramm vízben 10 milliliter anyag van",
+    "10 gramm oldatban 100 gramm anyag van",
+    "100 gramm oldatban 10 gramm oldott anyag van"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A tömegszázalék az oldott anyag tömegét az oldat teljes tömegéhez viszonyítja.",
+   "source": null,
+   "topic": "számítások"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik gáz felelős a legnagyobb mértékben az emberi eredetű üvegházhatás növekedéséért?",
+   "answers": [
+    "Hélium",
+    "Szén-dioxid",
+    "Neon",
+    "Argon"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "A fosszilis tüzelőanyagok elégetéséből származó szén-dioxid adja a legnagyobb hozzájárulást.",
+   "source": null,
+   "topic": "környezeti kémia"
+  },
+  {
+   "category": "kemia",
+   "question": "Mi okozza a savas esőt elsősorban?",
+   "answers": [
+    "A szél sótartalma",
+    "A talaj mésztartalma",
+    "Kén- és nitrogénoxidok a levegőben",
+    "A levegő héliumtartalma"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "Az oxidok a csapadékvízben savakat képeznek, így a csapadék pH-ja lecsökken.",
+   "source": null,
+   "topic": "környezeti kémia"
+  },
+  {
+   "category": "kemia",
+   "question": "Melyik anyagcsoport bontja a sztratoszféra ózonrétegét leginkább?",
+   "answers": [
+    "Vízgőz",
+    "Szén-monoxid",
+    "Klórtartalmú freonok",
+    "Metán"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A freonokból UV-fény hatására felszabaduló klóratomok láncreakcióban bontják az ózont.",
+   "source": null,
+   "topic": "környezeti kémia"
+  },
+  {
+   "category": "kemia",
+   "question": "Miért mérgező a szén-monoxid?",
+   "answers": [
+    "Elszívja a levegő nitrogénjét",
+    "Erősebben kötődik a hemoglobinhoz, mint az oxigén",
+    "Feloldja a tüdő szöveteit",
+    "Savasítja a gyomrot"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A hemoglobinhoz kötődve megakadályozza az oxigén szállítását, ezért szagtalanul is életveszélyes.",
+   "source": null,
+   "topic": "környezeti kémia"
   },
   {
    "category": "logika",
@@ -21184,21 +21979,6 @@
   },
   {
    "category": "mitologia-vallas",
-   "question": "Kihez köthető a következő vallás vagy felekezet: tendai?",
-   "answers": [
-    "Szaicsó",
-    "juhpásztor",
-    "Ingen",
-    "En no Gyōja"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "tendai alapítója Szaicsó.",
-   "source": "http://www.wikidata.org/entity/Q855964",
-   "topic": "vallások"
-  },
-  {
-   "category": "mitologia-vallas",
    "question": "Melyik mitológiához tartozik Hapy (Son of Horus)?",
    "answers": [
     "isteni jog",
@@ -21211,21 +21991,6 @@
    "explanation": "Hapy (Son of Horus) a(z) kanópuszedény alakja.",
    "source": "http://www.wikidata.org/entity/Q1141220",
    "topic": "görög mitológia"
-  },
-  {
-   "category": "mitologia-vallas",
-   "question": "Kihez köthető a következő vallás vagy felekezet: dzsódo?",
-   "answers": [
-    "Hónen",
-    "Yoda",
-    "Lao-ce",
-    "Sinran"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "dzsódo alapítója Hónen.",
-   "source": "http://www.wikidata.org/entity/Q912208",
-   "topic": "vallások"
   },
   {
    "category": "mitologia-vallas",
@@ -21244,21 +22009,6 @@
   },
   {
    "category": "mitologia-vallas",
-   "question": "Kihez köthető a következő vallás vagy felekezet: dzsódo sin?",
-   "answers": [
-    "Jézus",
-    "Ann Lee",
-    "juhpásztor",
-    "Sinran"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "dzsódo sin alapítója Sinran.",
-   "source": "http://www.wikidata.org/entity/Q912221",
-   "topic": "vallások"
-  },
-  {
-   "category": "mitologia-vallas",
    "question": "Melyik mitológiához tartozik Qebehsenuef?",
    "answers": [
     "Felső-Egyiptom",
@@ -21274,36 +22024,6 @@
   },
   {
    "category": "mitologia-vallas",
-   "question": "Kihez köthető a következő vallás vagy felekezet: óbaku?",
-   "answers": [
-    "Eiszai",
-    "Kúkai",
-    "Ingen",
-    "Yoda"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "óbaku alapítója Ingen.",
-   "source": "http://www.wikidata.org/entity/Q384728",
-   "topic": "vallások"
-  },
-  {
-   "category": "mitologia-vallas",
-   "question": "Kihez köthető a következő vallás vagy felekezet: szakjapa?",
-   "answers": [
-    "Kerry Wendell Thornley",
-    "Onisaburo Deguchi",
-    "Harvey Spencer Lewis",
-    "Khon Konchok Gyelpo"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "szakjapa alapítója Khon Konchok Gyelpo.",
-   "source": "http://www.wikidata.org/entity/Q650035",
-   "topic": "vallások"
-  },
-  {
-   "category": "mitologia-vallas",
    "question": "Melyik mitológiához tartozik Renpet?",
    "answers": [
     "pestis",
@@ -21316,141 +22036,6 @@
    "explanation": "Renpet a(z) tavasz alakja.",
    "source": "http://www.wikidata.org/entity/Q1973150",
    "topic": "görög mitológia"
-  },
-  {
-   "category": "mitologia-vallas",
-   "question": "Kihez köthető a következő vallás vagy felekezet: Shugendō?",
-   "answers": [
-    "Jōsei Toda",
-    "En no Gyōja",
-    "Nágárdzsuna",
-    "Pál apostol"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "Shugendō alapítója En no Gyōja.",
-   "source": "http://www.wikidata.org/entity/Q1483875",
-   "topic": "vallások"
-  },
-  {
-   "category": "mitologia-vallas",
-   "question": "Melyik mitológiához tartozik Tjenenyet?",
-   "answers": [
-    "bölcsesség",
-    "boldogság",
-    "szülés",
-    "földrengés"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "Tjenenyet a(z) szülés alakja.",
-   "source": "http://www.wikidata.org/entity/Q1986464",
-   "topic": "görög mitológia"
-  },
-  {
-   "category": "mitologia-vallas",
-   "question": "Kihez köthető a következő vallás vagy felekezet: Oomoto?",
-   "answers": [
-    "En no Gyōja",
-    "Joseph Smith",
-    "Nao Deguchi",
-    "Szűz Mária"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "Oomoto alapítója Nao Deguchi.",
-   "source": "http://www.wikidata.org/entity/Q385517",
-   "topic": "vallások"
-  },
-  {
-   "category": "mitologia-vallas",
-   "question": "Melyik mitológiához tartozik Castalia?",
-   "answers": [
-    "földrengés",
-    "tengeri utazó",
-    "Castalian Spring",
-    "fegyveres konfliktus"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "Castalia a(z) Castalian Spring alakja.",
-   "source": "http://www.wikidata.org/entity/Q170053",
-   "topic": "görög mitológia"
-  },
-  {
-   "category": "mitologia-vallas",
-   "question": "Kihez köthető a következő vallás vagy felekezet: Tenrikjó?",
-   "answers": [
-    "Pál apostol",
-    "Rudolf Steiner",
-    "Nakayama Miki",
-    "juhpásztor"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "Tenrikjó alapítója Nakayama Miki.",
-   "source": "http://www.wikidata.org/entity/Q737323",
-   "topic": "vallások"
-  },
-  {
-   "category": "mitologia-vallas",
-   "question": "Melyik mitológiához tartozik Amphitrité?",
-   "answers": [
-    "nőiesség",
-    "tenger",
-    "orákulum",
-    "hegy"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "Amphitrité a(z) tenger alakja.",
-   "source": "http://www.wikidata.org/entity/Q180222",
-   "topic": "görög mitológia"
-  },
-  {
-   "category": "mitologia-vallas",
-   "question": "Kihez köthető a következő vallás vagy felekezet: kopt ortodox egyház?",
-   "answers": [
-    "Phineas Quimby",
-    "Quanah Parker",
-    "Márk evangelista",
-    "Dada Lekhraj"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "kopt ortodox egyház alapítója Márk evangelista.",
-   "source": "http://www.wikidata.org/entity/Q198998",
-   "topic": "vallások"
-  },
-  {
-   "category": "mitologia-vallas",
-   "question": "Melyik mitológiához tartozik Nemeszisz?",
-   "answers": [
-    "büntetés",
-    "fiatalkor",
-    "trade",
-    "halászat"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "Nemeszisz a(z) büntetés alakja.",
-   "source": "http://www.wikidata.org/entity/Q185747",
-   "topic": "görög mitológia"
-  },
-  {
-   "category": "mitologia-vallas",
-   "question": "Kihez köthető a következő vallás vagy felekezet: Egyesítő Egyház?",
-   "answers": [
-    "Mary Baker Eddy",
-    "Simon Kimbangu",
-    "Mun Szonmjong",
-    "Vardhamána"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "Egyesítő Egyház alapítója Mun Szonmjong.",
-   "source": "http://www.wikidata.org/entity/Q217059",
-   "topic": "vallások"
   },
   {
    "category": "mitologia-vallas",
@@ -22830,81 +23415,6 @@
    "difficulty": "hard",
    "explanation": "George Eastman House Rochesterban/ben található.",
    "source": "http://www.wikidata.org/entity/Q1507284",
-   "topic": "múzeumok"
-  },
-  {
-   "category": "muveszet",
-   "question": "Melyik városban található a következő múzeum: Eye Filmmuseum?",
-   "answers": [
-    "Amszterdam",
-    "Beykoz",
-    "Gdynia",
-    "Innsbruck"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "Eye Filmmuseum Amszterdamban/ben található.",
-   "source": "http://www.wikidata.org/entity/Q1538389",
-   "topic": "múzeumok"
-  },
-  {
-   "category": "muveszet",
-   "question": "Melyik városban található a következő múzeum: Israeli Film Archive Jerusalem Cinematheque?",
-   "answers": [
-    "Otterlo",
-    "Szarajevó",
-    "Nagy-London",
-    "Jeruzsálem"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "Israeli Film Archive Jerusalem Cinematheque Jeruzsálemban/ben található.",
-   "source": "http://www.wikidata.org/entity/Q2916137",
-   "topic": "múzeumok"
-  },
-  {
-   "category": "muveszet",
-   "question": "Melyik városban található a következő múzeum: RRS Discovery?",
-   "answers": [
-    "Fontainebleau",
-    "San Francisco",
-    "München",
-    "Dundee City"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "RRS Discovery Dundee Cityban/ben található.",
-   "source": "http://www.wikidata.org/entity/Q82257",
-   "topic": "múzeumok"
-  },
-  {
-   "category": "muveszet",
-   "question": "Melyik városban található a következő múzeum: Auróra?",
-   "answers": [
-    "Petrogradsky District",
-    "Oborishte District",
-    "Párizs 14. kerülete",
-    "Csedzsu város"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "Auróra Petrogradsky Districtban/ben található.",
-   "source": "http://www.wikidata.org/entity/Q168713",
-   "topic": "múzeumok"
-  },
-  {
-   "category": "muveszet",
-   "question": "Melyik városban található a következő múzeum: Cutty Sark?",
-   "answers": [
-    "Camden kerület",
-    "Eltville am Rhein",
-    "Greenwich kerület",
-    "Höganäs Municipality"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "Cutty Sark Greenwich kerületban/ben található.",
-   "source": "http://www.wikidata.org/entity/Q171255",
    "topic": "múzeumok"
   },
   {
@@ -24349,21 +24859,6 @@
   },
   {
    "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: Lille OSC?",
-   "answers": [
-    "Észak-Macedónia",
-    "Észtország",
-    "Franciaország",
-    "Spanyolország"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "Lille OSC Franciaország klubja.",
-   "source": "http://www.wikidata.org/entity/Q19516",
-   "topic": "labdarúgóklubok"
-  },
-  {
-   "category": "sport",
    "question": "Melyik sportágban ismert Thomas Muster?",
    "answers": [
     "szertorna",
@@ -24376,21 +24871,6 @@
    "explanation": "Thomas Muster sportága: tenisz.",
    "source": "http://www.wikidata.org/entity/Q219966",
    "topic": "sportolók és sportágak"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: Toulouse FC?",
-   "answers": [
-    "Észak-Macedónia",
-    "Franciaország",
-    "Szaúd-Arábia",
-    "Németország"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Toulouse FC Franciaország klubja.",
-   "source": "http://www.wikidata.org/entity/Q19518",
-   "topic": "labdarúgóklubok"
   },
   {
    "category": "sport",
@@ -24409,21 +24889,6 @@
   },
   {
    "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: AS Saint-Étienne?",
-   "answers": [
-    "Olaszország",
-    "Franciaország",
-    "Szlovákia",
-    "Luxemburg"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "AS Saint-Étienne Franciaország klubja.",
-   "source": "http://www.wikidata.org/entity/Q19521",
-   "topic": "labdarúgóklubok"
-  },
-  {
-   "category": "sport",
    "question": "Melyik sportágban ismert Jackie Robinson?",
    "answers": [
     "kosárlabda",
@@ -24436,21 +24901,6 @@
    "explanation": "Jackie Robinson sportága: könnyűatlétika.",
    "source": "http://www.wikidata.org/entity/Q221048",
    "topic": "sportolók és sportágak"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: AS Nancy-Lorraine?",
-   "answers": [
-    "Csehország",
-    "Franciaország",
-    "Olaszország",
-    "Észak-Macedónia"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "AS Nancy-Lorraine Franciaország klubja.",
-   "source": "http://www.wikidata.org/entity/Q19523",
-   "topic": "labdarúgóklubok"
   },
   {
    "category": "sport",
@@ -24469,21 +24919,6 @@
   },
   {
    "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: R. Charleroi SC?",
-   "answers": [
-    "Észtország",
-    "Belgium",
-    "Oroszország",
-    "Málta"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "R. Charleroi SC Belgium klubja.",
-   "source": "http://www.wikidata.org/entity/Q19585",
-   "topic": "labdarúgóklubok"
-  },
-  {
-   "category": "sport",
    "question": "Melyik sportágban ismert René Lacoste?",
    "answers": [
     "tenisz",
@@ -24496,21 +24931,6 @@
    "explanation": "René Lacoste sportága: tenisz.",
    "source": "http://www.wikidata.org/entity/Q221454",
    "topic": "sportolók és sportágak"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: FC Twente?",
-   "answers": [
-    "Szlovákia",
-    "Grúzia",
-    "Észtország",
-    "Hollandia"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "FC Twente Hollandia klubja.",
-   "source": "http://www.wikidata.org/entity/Q19603",
-   "topic": "labdarúgóklubok"
   },
   {
    "category": "sport",
@@ -24529,21 +24949,6 @@
   },
   {
    "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: FC Internazionale Milano?",
-   "answers": [
-    "Kirgizisztán",
-    "Olaszország",
-    "Észtország",
-    "Szlovénia"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "FC Internazionale Milano Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q631",
-   "topic": "labdarúgóklubok"
-  },
-  {
-   "category": "sport",
    "question": "Melyik sportágban ismert Vaszilij Ivanovics Alekszejev?",
    "answers": [
     "súlyemelés",
@@ -24556,21 +24961,6 @@
    "explanation": "Vaszilij Ivanovics Alekszejev sportága: súlyemelés.",
    "source": "http://www.wikidata.org/entity/Q225193",
    "topic": "sportolók és sportágak"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: Olympique Lyonnais?",
-   "answers": [
-    "Luxemburg",
-    "Franciaország",
-    "Kirgizisztán",
-    "Görögország"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Olympique Lyonnais Franciaország klubja.",
-   "source": "http://www.wikidata.org/entity/Q704",
-   "topic": "labdarúgóklubok"
   },
   {
    "category": "sport",
@@ -24589,21 +24979,6 @@
   },
   {
    "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: Juventus FC?",
-   "answers": [
-    "Olaszország",
-    "Görögország",
-    "Hollandia",
-    "Mongólia"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "Juventus FC Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q1422",
-   "topic": "labdarúgóklubok"
-  },
-  {
-   "category": "sport",
    "question": "Melyik sportágban ismert Maria Mutola?",
    "answers": [
     "kézilabda",
@@ -24616,21 +24991,6 @@
    "explanation": "Maria Mutola sportága: könnyűatlétika.",
    "source": "http://www.wikidata.org/entity/Q228807",
    "topic": "sportolók és sportágak"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: Unione Calcio Sampdoria?",
-   "answers": [
-    "Kirgizisztán",
-    "Olaszország",
-    "Szlovákia",
-    "Törökország"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Unione Calcio Sampdoria Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q1457",
-   "topic": "labdarúgóklubok"
   },
   {
    "category": "sport",
@@ -24649,21 +25009,6 @@
   },
   {
    "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: A.C. Milan?",
-   "answers": [
-    "Olaszország",
-    "Uruguay",
-    "Szlovénia",
-    "Kolumbia"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "A.C. Milan Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q1543",
-   "topic": "labdarúgóklubok"
-  },
-  {
-   "category": "sport",
    "question": "Melyik sportágban ismert Fanny Blankers-Koen?",
    "answers": [
     "kézilabda",
@@ -24679,333 +25024,618 @@
   },
   {
    "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: Atalanta BC?",
+   "question": "Hány gyűrű van az olimpiai zászlón?",
    "answers": [
-    "Oroszország",
-    "Albánia",
-    "Olaszország",
-    "Hollandia"
+    "Négy",
+    "Öt",
+    "Hat",
+    "Hét"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "Az öt gyűrű az öt lakott földrészt jelképezi, összefonódva az egységet.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "olimpia"
+  },
+  {
+   "category": "sport",
+   "question": "Melyik városban tartották az első modern nyári olimpiát 1896-ban?",
+   "answers": [
+    "Athénban",
+    "Párizsban",
+    "Londonban",
+    "Rómában"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "Pierre de Coubertin javaslatára az ókori hagyomány miatt esett a választás Athénra.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "olimpia"
+  },
+  {
+   "category": "sport",
+   "question": "Milyen gyakran rendezik a nyári olimpiát?",
+   "answers": [
+    "Háromévente",
+    "Ötévente",
+    "Négyévente",
+    "Kétévente"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A téli és a nyári játékokat 1994 óta egymáshoz képest két év eltéréssel tartják.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "olimpia"
+  },
+  {
+   "category": "sport",
+   "question": "Melyik sportág szerepelt az ókori olümpiai játékok első versenyszámaként?",
+   "answers": [
+    "A birkózás",
+    "A futás",
+    "A diszkoszvetés",
+    "A kocsihajtás"
+   ],
+   "correct": 1,
+   "difficulty": "hard",
+   "explanation": "Az egy stadionhossznyi futás, a sztadion volt a legrégebbi szám; innen ered a stadion szó.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "olimpia"
+  },
+  {
+   "category": "sport",
+   "question": "Mit jelöl a paralimpia?",
+   "answers": [
+    "A téli olimpia egyik szakágát",
+    "Az ifjúsági olimpiát",
+    "Az olimpia előtti selejtezőt",
+    "Fogyatékossággal élő sportolók olimpiai játékait"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "Az első paralimpiát 1960-ban Rómában rendezték; a név a görög „para”, azaz mellett szóból jön.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "olimpia"
+  },
+  {
+   "category": "sport",
+   "question": "Melyik magyar sportág hozta a legtöbb olimpiai aranyat az ország történetében?",
+   "answers": [
+    "A vívás",
+    "Az úszás",
+    "A kajak-kenu",
+    "A birkózás"
+   ],
+   "correct": 0,
+   "difficulty": "hard",
+   "explanation": "A magyar vívás közel negyven olimpiai aranyat szerzett, főleg kardban.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "olimpia"
+  },
+  {
+   "category": "sport",
+   "question": "Hány perc egy kosárlabda-mérkőzés játékideje a FIBA szabályai szerint?",
+   "answers": [
+    "Hatvan perc",
+    "Negyvennyolc perc",
+    "Negyven perc",
+    "Harminc perc"
    ],
    "correct": 2,
    "difficulty": "medium",
-   "explanation": "Atalanta BC Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q1886",
-   "topic": "labdarúgóklubok"
+   "explanation": "Négy tízperces negyed; az NBA-ben ezzel szemben négy tizenkét perces negyedet játszanak.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "szabályok"
   },
   {
    "category": "sport",
-   "question": "Melyik sportágban ismert Věra Čáslavská?",
+   "question": "Mennyi ideig birtokolhatja a támadó csapat a labdát a FIBA-kosárlabdában egy támadás alatt?",
    "answers": [
-    "ejtőernyőzés",
-    "szertorna",
-    "Formula–1",
-    "alpesisí"
+    "20 másodpercig",
+    "30 másodpercig",
+    "35 másodpercig",
+    "24 másodpercig"
    ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Věra Čáslavská sportága: szertorna.",
-   "source": "http://www.wikidata.org/entity/Q229503",
-   "topic": "sportolók és sportágak"
+   "correct": 3,
+   "difficulty": "hard",
+   "explanation": "Ha a labda a gyűrűt éri, az óra 14 másodpercre áll vissza a támadó lepattanó után.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "szabályok"
   },
   {
    "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: Bologna FC 1909?",
+   "question": "Hány szettet kell megnyerni egy férfi Grand Slam-tenisz mérkőzésen a győzelemhez?",
    "answers": [
-    "Franciaország",
-    "Tunézia",
-    "Németország",
-    "Olaszország"
+    "Kettőt",
+    "Ötöt",
+    "Négyet",
+    "Hármat"
    ],
    "correct": 3,
    "difficulty": "medium",
-   "explanation": "Bologna FC 1909 Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q1893",
-   "topic": "labdarúgóklubok"
+   "explanation": "A férfiaknál öt szettből három kell; a nőknél háromból kettő.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "szabályok"
   },
   {
    "category": "sport",
-   "question": "Melyik sportágban ismert Valentina Vezzali?",
+   "question": "Mit jelent a teniszben a love szó az eredményjelzésben?",
    "answers": [
-    "baseball",
-    "szertorna",
-    "sakk",
-    "vívás"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "Valentina Vezzali sportága: vívás.",
-   "source": "http://www.wikidata.org/entity/Q229967",
-   "topic": "sportolók és sportágak"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: Cagliari Calcio?",
-   "answers": [
-    "Olaszország",
-    "Oroszország",
-    "Észtország",
-    "Törökország"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "Cagliari Calcio Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q1900",
-   "topic": "labdarúgóklubok"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik sportágban ismert Simona Halep?",
-   "answers": [
-    "labdarúgás",
-    "ökölvívás",
-    "vívás",
-    "tenisz"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "Simona Halep sportága: tenisz.",
-   "source": "http://www.wikidata.org/entity/Q230156",
-   "topic": "sportolók és sportágak"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: Catania FC?",
-   "answers": [
-    "Mongólia",
-    "Görögország",
-    "Etiópia",
-    "Olaszország"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "Catania FC Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q2018",
-   "topic": "labdarúgóklubok"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik sportágban ismert Shane Gould?",
-   "answers": [
-    "könnyűatlétika",
-    "versenyúszás",
-    "gyorskorcsolya",
-    "cyclocross"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Shane Gould sportága: versenyúszás.",
-   "source": "http://www.wikidata.org/entity/Q231374",
-   "topic": "sportolók és sportágak"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: AC ChievoVerona?",
-   "answers": [
-    "Olaszország",
-    "Spanyolország",
-    "Németország",
-    "Törökország"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "AC ChievoVerona Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q2037",
-   "topic": "labdarúgóklubok"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik sportágban ismert Hugo Koblet?",
-   "answers": [
-    "országútikerékpár-versenyzés",
-    "Formula–1",
-    "autóversenyzés",
-    "gyorskorcsolya"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "Hugo Koblet sportága: országútikerékpár-versenyzés.",
-   "source": "http://www.wikidata.org/entity/Q123548",
-   "topic": "sportolók és sportágak"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: ACF Fiorentina?",
-   "answers": [
-    "Észak-Macedónia",
-    "Brazília",
-    "Luxemburg",
-    "Olaszország"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "ACF Fiorentina Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q2052",
-   "topic": "labdarúgóklubok"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik sportágban ismert Anatolij Jevgenyjevics Karpov?",
-   "answers": [
-    "Ungarn",
-    "krikett",
-    "golf",
-    "sakk"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "Anatolij Jevgenyjevics Karpov sportága: sakk.",
-   "source": "http://www.wikidata.org/entity/Q131674",
-   "topic": "sportolók és sportágak"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: Genoa CFC?",
-   "answers": [
-    "Hollandia",
-    "Észak-Macedónia",
-    "Olaszország",
-    "Kirgizisztán"
+    "Előnyt",
+    "Döntetlent",
+    "Nulla pontot",
+    "Egy pontot"
    ],
    "correct": 2,
    "difficulty": "medium",
-   "explanation": "Genoa CFC Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q2074",
-   "topic": "labdarúgóklubok"
+   "explanation": "Egy magyarázat szerint a francia l'œuf, azaz tojás szóból származik, ami a nulla alakjára utal.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "szabályok"
   },
   {
    "category": "sport",
-   "question": "Melyik sportágban ismert Marat Mihajlovics Szafin?",
+   "question": "Hány kör egy hagyományos boxmeccs a profi világbajnoki címért?",
    "answers": [
-    "tenisz",
-    "síugrás",
-    "vívás",
-    "szertorna"
+    "Tizenöt",
+    "Tíz",
+    "Tizenkettő",
+    "Nyolc"
    ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "Marat Mihajlovics Szafin sportága: tenisz.",
-   "source": "http://www.wikidata.org/entity/Q133318",
-   "topic": "sportolók és sportágak"
+   "correct": 2,
+   "difficulty": "hard",
+   "explanation": "1988-ban csökkentették tizenötről tizenkettőre, biztonsági okokból.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "szabályok"
   },
   {
    "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: SS Lazio?",
+   "question": "Mit jelent a röplabdában a blokk?",
    "answers": [
-    "Szaúd-Arábia",
-    "Olaszország",
-    "Törökország",
-    "Szlovákia"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "SS Lazio Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q2609",
-   "topic": "labdarúgóklubok"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik sportágban ismert Ilmari Salminen?",
-   "answers": [
-    "könnyűatlétika",
-    "cyclocross",
-    "amerikaifutball",
-    "ejtőernyőzés"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "Ilmari Salminen sportága: könnyűatlétika.",
-   "source": "http://www.wikidata.org/entity/Q133737",
-   "topic": "sportolók és sportágak"
-  },
-  {
-   "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: SSC Napoli?",
-   "answers": [
-    "Szlovénia",
-    "Szlovákia",
-    "Szaúd-Arábia",
-    "Olaszország"
+    "Cserét jeleznek be",
+    "Nyitáskor takarják a játékost",
+    "A saját térfélen mentik a labdát",
+    "A hálónál felnyúlva megállítják az ütést"
    ],
    "correct": 3,
    "difficulty": "medium",
-   "explanation": "SSC Napoli Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q2641",
-   "topic": "labdarúgóklubok"
+   "explanation": "A blokkérintés nem számít bele a csapat három érintésébe.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "szabályok"
   },
   {
    "category": "sport",
-   "question": "Melyik sportágban ismert Lukas Podolski?",
+   "question": "Mennyi egy vízilabda-mérkőzés játékrészeinek száma?",
    "answers": [
-    "ökölvívás",
-    "Formula–1",
-    "ejtőernyőzés",
-    "labdarúgás"
+    "Öt",
+    "Négy",
+    "Kettő",
+    "Három"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "Négy nyolcperces negyedet játszanak; a magyar válogatott a sportág legeredményesebb csapata.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "szabályok"
+  },
+  {
+   "category": "sport",
+   "question": "Hány sávos egy olimpiai méretű versenyuszoda?",
+   "answers": [
+    "Hat sávos",
+    "Tizenkét sávos",
+    "Négy sávos",
+    "Tíz sávos, ebből nyolcban versenyeznek"
    ],
    "correct": 3,
-   "difficulty": "medium",
-   "explanation": "Lukas Podolski sportága: labdarúgás.",
-   "source": "http://www.wikidata.org/entity/Q134976",
-   "topic": "sportolók és sportágak"
+   "difficulty": "hard",
+   "explanation": "A két szélső sáv a hullámok elnyelését szolgálja; a medence 50 méter hosszú.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "szabályok"
   },
   {
    "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: Palermo FC?",
+   "question": "Mit jelent a labdarúgásban a les, vagyis az offside?",
    "answers": [
-    "Uruguay",
-    "Olaszország",
-    "Etiópia",
-    "Észak-Macedónia"
+    "A játékos kétszer ér a labdához",
+    "A kapus kilép a tizenhatosból",
+    "A támadó az utolsó védő előtt van a labda átadásakor",
+    "A labda elhagyja a pályát"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A szabály célja, hogy a támadó ne várakozhasson a kapu előtt a védelem mögött.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "szabályok"
+  },
+  {
+   "category": "sport",
+   "question": "Mekkora egy szabályos maratoni futás hossza?",
+   "answers": [
+    "45 kilométer",
+    "42,195 kilométer",
+    "40 kilométer",
+    "38 kilométer"
    ],
    "correct": 1,
    "difficulty": "medium",
-   "explanation": "Palermo FC Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q2674",
-   "topic": "labdarúgóklubok"
+   "explanation": "A furcsa szám az 1908-as londoni olimpia útvonalából maradt meg, a királyi lodzsáig mérve.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "atlétika, futás"
   },
   {
    "category": "sport",
-   "question": "Melyik sportágban ismert Laila Schou Nilsen?",
+   "question": "Melyik atlétikai szám tartozik a tízpróbához, de a hétpróbához nem?",
    "answers": [
-    "súlyemelés",
-    "síugrás",
-    "vívás",
-    "ökölvívás"
+    "A súlylökés",
+    "A távolugrás",
+    "A magasugrás",
+    "A rúdugrás"
    ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Laila Schou Nilsen sportága: síugrás.",
-   "source": "http://www.wikidata.org/entity/Q139283",
-   "topic": "sportolók és sportágak"
+   "correct": 3,
+   "difficulty": "hard",
+   "explanation": "A női hétpróba nem tartalmaz rúdugrást, diszkoszvetést és 1500 métert; helyette 800 méter van.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "atlétika, futás"
   },
   {
    "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: Parma Calcio 1913?",
+   "question": "Hány gátat kell átugrani a 110 méteres gátfutásban?",
    "answers": [
-    "Görögország",
-    "Olaszország",
-    "Csehország",
-    "Kirgizisztán"
+    "Tízet",
+    "Nyolcat",
+    "Hatot",
+    "Tizenkettőt"
    ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Parma Calcio 1913 Olaszország klubja.",
-   "source": "http://www.wikidata.org/entity/Q2693",
-   "topic": "labdarúgóklubok"
+   "correct": 0,
+   "difficulty": "hard",
+   "explanation": "A nőknél 100 méteren szintén tíz gát van, de alacsonyabbak.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "atlétika, futás"
   },
   {
    "category": "sport",
-   "question": "Melyik országban játszik a következő labdarúgóklub: VfB Stuttgart?",
+   "question": "Mit nevezünk a futásban tempófutásnak?",
    "answers": [
-    "Németország",
-    "Spanyolország",
-    "Etiópia",
-    "Ukrajna"
+    "Egyenletes, versenyszerű iramú edzést",
+    "Rövid sprintet",
+    "Emelkedős futást",
+    "Lassú regeneráló kocogást"
    ],
    "correct": 0,
    "difficulty": "medium",
-   "explanation": "VfB Stuttgart Németország klubja.",
-   "source": "http://www.wikidata.org/entity/Q4512",
-   "topic": "labdarúgóklubok"
+   "explanation": "Az angol tempo run az anaerob küszöb közelében tartott iramot jelenti.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "atlétika, futás"
+  },
+  {
+   "category": "sport",
+   "question": "Milyen sorrendben követik egymást a triatlon szakaszai?",
+   "answers": [
+    "Úszás, kerékpár, futás",
+    "Futás, úszás, kerékpár",
+    "Kerékpár, futás, úszás",
+    "Úszás, futás, kerékpár"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "Az olimpiai távon 1,5 kilométer úszás, 40 kilométer kerékpár és 10 kilométer futás.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "atlétika, futás"
+  },
+  {
+   "category": "sport",
+   "question": "Mekkora egy Ironman verseny futószakasza?",
+   "answers": [
+    "Húsz kilométer",
+    "Tíz kilométer",
+    "Fél maraton",
+    "Egy teljes maraton"
+   ],
+   "correct": 3,
+   "difficulty": "hard",
+   "explanation": "Az Ironman: 3,86 kilométer úszás, 180,25 kilométer kerékpár és 42,195 kilométer futás.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "atlétika, futás"
+  },
+  {
+   "category": "sport",
+   "question": "Melyik kerékpáros körverseny a legrégebbi és legnagyobb presztízsű?",
+   "answers": [
+    "A Giro d'Italia",
+    "A Vuelta a España",
+    "A Paris-Roubaix",
+    "A Tour de France"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "1903 óta rendezik; a vezető sárga trikót visel, mert az alapító újság sárga papírra nyomott.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "csapatsportok, versenyek"
+  },
+  {
+   "category": "sport",
+   "question": "Mit jelöl a sárga trikó a Tour de France-on?",
+   "answers": [
+    "A hegyi pontverseny vezetőjét",
+    "A legjobb sprintert",
+    "A legjobb újoncot",
+    "Az összetettben vezetőt"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A pöttyös a hegyek királya, a zöld a sprinter, a fehér a legjobb fiatal versenyző trikója.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "csapatsportok, versenyek"
+  },
+  {
+   "category": "sport",
+   "question": "Hány játékos van egyszerre a jégen egy jégkorongcsapatból, a kapussal együtt?",
+   "answers": [
+    "Öt",
+    "Hét",
+    "Négy",
+    "Hat"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Öt játékos és egy kapus; kiállításnál emberhátrányban játszanak.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "csapatsportok, versenyek"
+  },
+  {
+   "category": "sport",
+   "question": "Melyik sportágban használnak ütőt, korongot és jeget?",
+   "answers": [
+    "A jégkorongban",
+    "A curlingben",
+    "A gyorskorcsolyában",
+    "A műkorcsolyában"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A curlingben követ csúsztatnak és söprűvel irányítják, nem ütővel játszanak.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "csapatsportok, versenyek"
+  },
+  {
+   "category": "sport",
+   "question": "Hány játékos van egy rögbicsapatban a szövetségi rögbiben, azaz a rugby unionban?",
+   "answers": [
+    "Tizenegy",
+    "Tizenhárom",
+    "Tizenöt",
+    "Kilenc"
+   ],
+   "correct": 2,
+   "difficulty": "hard",
+   "explanation": "A rugby league ezzel szemben tizenhárom fővel játszik.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "csapatsportok, versenyek"
+  },
+  {
+   "category": "sport",
+   "question": "Mit nevezünk a baseballban home runnak?",
+   "answers": [
+    "Az elütött labda a pályán kívülre száll, a futó körbeér",
+    "A futó ellopja a bázist",
+    "A csapat lecserél mindenkit",
+    "A dobó háromszor hibáz"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "Ha a bázisokon is állnak játékosok, mindenki hazaérhet – ez a grand slam, négy pont.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "csapatsportok, versenyek"
+  },
+  {
+   "category": "sport",
+   "question": "Melyik két csapat játszik a Superbowlon?",
+   "answers": [
+    "Az AFC és az NFC bajnoka",
+    "Az előző év két döntőse",
+    "A két legjobb egyetemi csapat",
+    "A liga két legrégebbi klubja"
+   ],
+   "correct": 0,
+   "difficulty": "hard",
+   "explanation": "Az amerikaifutball-liga két főcsoportjának győztese találkozik a döntőben.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "csapatsportok, versenyek"
+  },
+  {
+   "category": "sport",
+   "question": "Melyik sportágban osztanak zöld zakót a győztesnek?",
+   "answers": [
+    "A golfban, a Masters tornán",
+    "A vitorlázásban",
+    "A lóversenyzésben",
+    "A teniszben, Wimbledonban"
+   ],
+   "correct": 0,
+   "difficulty": "hard",
+   "explanation": "Az augustai Masters hagyománya 1949 óta; a győztes egy évig őrizheti a zakót.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "csapatsportok, versenyek"
+  },
+  {
+   "category": "sport",
+   "question": "Hány lyuk van egy szabályos golfpályán?",
+   "answers": [
+    "Tizennyolc",
+    "Tizenkettő",
+    "Kilenc",
+    "Huszonnégy"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A tizennyolc lyuk a skót St Andrews pálya hagyományából lett világstandard.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "csapatsportok, versenyek"
+  },
+  {
+   "category": "sport",
+   "question": "Mit jelent a golfban a birdie?",
+   "answers": [
+    "A lyuk első ütésből elért találatát",
+    "Eggyel a par feletti eredményt",
+    "Eggyel a par alatti eredményt",
+    "A pálya legnehezebb lyukát"
+   ],
+   "correct": 2,
+   "difficulty": "hard",
+   "explanation": "Az eagle kettővel, az albatrosz hárommal a par alatt van; a bogey eggyel felette.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "csapatsportok, versenyek"
+  },
+  {
+   "category": "sport",
+   "question": "Melyik magyar csapatsport hozta a legtöbb világbajnoki címet az országnak?",
+   "answers": [
+    "A vízilabda",
+    "A kézilabda",
+    "A kosárlabda",
+    "A labdarúgás"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A magyar férfi vízilabda-válogatott a sportág legeredményesebb csapata a világon.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "csapatsportok, versenyek"
+  },
+  {
+   "category": "sport",
+   "question": "Melyik évben rendezték Magyarországon az első Forma-1-es futamot?",
+   "answers": [
+    "1990-ben",
+    "1986-ban",
+    "1976-ban",
+    "1996-ban"
+   ],
+   "correct": 1,
+   "difficulty": "hard",
+   "explanation": "A Hungaroringen 1986. augusztus 10-én futották az első Magyar Nagydíjat, Nelson Piquet győzött.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "csapatsportok, versenyek"
+  },
+  {
+   "category": "sport",
+   "question": "Mit jelez a Forma-1-ben a sakktáblás zászló?",
+   "answers": [
+    "A verseny végét",
+    "A verseny megszakítását",
+    "A biztonsági autó pályára állását",
+    "Az előzési tilalmat"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A piros zászló a megszakítást, a sárga a veszélyt, a kék az előzésre készülő autót jelzi.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "csapatsportok, versenyek"
+  },
+  {
+   "category": "sport",
+   "question": "Melyik sportág olimpiai formájában van kata és kumite versenyszám?",
+   "answers": [
+    "A karate",
+    "A cselgáncs",
+    "A taekwondo",
+    "A birkózás"
+   ],
+   "correct": 0,
+   "difficulty": "hard",
+   "explanation": "A kata a formagyakorlat, a kumite a küzdelem; a karate 2021-ben szerepelt először olimpián.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "küzdősportok"
+  },
+  {
+   "category": "sport",
+   "question": "Milyen színű a legmagasabb fokozatot jelző öv a cselgáncsban a hagyományos rendszerben?",
+   "answers": [
+    "A kék",
+    "A zöld",
+    "A fehér",
+    "A fekete, illetve a legfelső fokoknál piros-fehér"
+   ],
+   "correct": 3,
+   "difficulty": "hard",
+   "explanation": "A 9. és 10. danhoz vörös öv is tartozik, de sokan a feketét viselik tovább.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "küzdősportok"
+  },
+  {
+   "category": "sport",
+   "question": "Melyik magyar sportoló nyert olimpiai aranyat cselgáncsban 1992-ben?",
+   "answers": [
+    "Wichmann Tamás",
+    "Repka Attila",
+    "Kovács Antal",
+    "Csák Ibolya"
+   ],
+   "correct": 2,
+   "difficulty": "hard",
+   "explanation": "Kovács Antal Barcelonában, félnehézsúlyban lett olimpiai bajnok.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "küzdősportok"
+  },
+  {
+   "category": "sport",
+   "question": "Hány fő súlycsoportban versenyeznek az olimpiai birkózásban stílusonként?",
+   "answers": [
+    "Hatban",
+    "Nyolcban",
+    "Tízben",
+    "Négyben"
+   ],
+   "correct": 0,
+   "difficulty": "hard",
+   "explanation": "A kötöttfogás és a szabadfogás egyaránt hat súlycsoportot használ a mai olimpiai programban.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "küzdősportok"
+  },
+  {
+   "category": "sport",
+   "question": "Mit jelent a vívásban a tus?",
+   "answers": [
+    "A szabálytalanságot",
+    "A támadás megkezdését",
+    "Az érvényes találatot",
+    "A pást szélének elérését"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A tőrnél és a párbajtőrnél szúrni, a kardnál vágni is lehet.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "küzdősportok"
+  },
+  {
+   "category": "sport",
+   "question": "Melyik vívófegyverrel lehet a teljes testre találatot elérni?",
+   "answers": [
+    "A tőrrel",
+    "A karddal",
+    "Mindhárommal",
+    "A párbajtőrrel"
+   ],
+   "correct": 3,
+   "difficulty": "hard",
+   "explanation": "A tőrnél csak a törzs, a kardnál a derék fölötti rész érvényes; a párbajtőrnél az egész test.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "küzdősportok"
+  },
+  {
+   "category": "sport",
+   "question": "Mit jelent az ökölvívásban a knockout, azaz a kiütés?",
+   "answers": [
+    "A mérkőzés döntetlenre áll",
+    "A padlóra került versenyző nem folytatja tíz másodpercen belül",
+    "A bíró leállítja a mérkőzést pontozással",
+    "A versenyző feladja a sarokban"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A technikai kiütést a bíró vagy az orvos mondja ki, ha a versenyző nem védheti magát.",
+   "source": "saját szerkesztés (általános műveltségi tananyag)",
+   "topic": "küzdősportok"
   },
   {
    "category": "technologia",
@@ -26280,756 +26910,6 @@
    "difficulty": "medium",
    "explanation": "Amadeus IT Group egyik alapítója Lufthansa.",
    "source": "http://www.wikidata.org/entity/Q696061",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: SystemVerilog?",
-   "answers": [
-    "Palo Alto Research Center",
-    "Institute of Electrical and Electronics Engineers",
-    "Martin Odersky",
-    "James Gosling"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "SystemVerilog tervezője Institute of Electrical and Electronics Engineers.",
-   "source": "http://www.wikidata.org/entity/Q1387402",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: VMware?",
-   "answers": [
-    "Diane Greene",
-    "Mitch Kapor",
-    "Marc Benioff",
-    "Ronald Wayne"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "VMware egyik alapítója Diane Greene.",
-   "source": "http://www.wikidata.org/entity/Q11407",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: REBOL?",
-   "answers": [
-    "Brian Kerninghan",
-    "Friedrich L. Bauer",
-    "Simon Peyton Jones",
-    "Carl Sassenrath"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "REBOL tervezője Carl Sassenrath.",
-   "source": "http://www.wikidata.org/entity/Q1359171",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Bell Labs?",
-   "answers": [
-    "Alexander Graham Bell",
-    "Ikutaro Kakehashi",
-    "Arkady Volozh",
-    "David Packard"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "Bell Labs egyik alapítója Alexander Graham Bell.",
-   "source": "http://www.wikidata.org/entity/Q217365",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Raku?",
-   "answers": [
-    "Adele Goldberg",
-    "Audrey Tang",
-    "Brendan Eich",
-    "Larry Wall"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "Raku tervezője Audrey Tang.",
-   "source": "http://www.wikidata.org/entity/Q2052676",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: McAfee?",
-   "answers": [
-    "Miguel de Icaza",
-    "Jaan Tallinn",
-    "John McAfee",
-    "Hasso Plattner"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "McAfee egyik alapítója John McAfee.",
-   "source": "http://www.wikidata.org/entity/Q267313",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: ALGOL 68?",
-   "answers": [
-    "Carl Sassenrath",
-    "Richard Matthew Stallman",
-    "Stephen Wolfram",
-    "Adriaan van Wijngaarden"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "ALGOL 68 tervezője Adriaan van Wijngaarden.",
-   "source": "http://www.wikidata.org/entity/Q2166735",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Mozilla Corporation?",
-   "answers": [
-    "Mitch Kapor",
-    "Mozilla Alapítvány",
-    "Richard Matthew Stallman",
-    "Nadiem Makarim"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Mozilla Corporation egyik alapítója Mozilla Alapítvány.",
-   "source": "http://www.wikidata.org/entity/Q169925",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Smalltalk?",
-   "answers": [
-    "Peter Naur",
-    "Adele Goldberg",
-    "Charles Moore",
-    "Audrey Tang"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "Smalltalk tervezője Adele Goldberg.",
-   "source": "http://www.wikidata.org/entity/Q235086",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: SAP SE?",
-   "answers": [
-    "Charles Geschke",
-    "James H. Clark",
-    "Dietmar Hopp",
-    "Michael Dell"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "SAP SE egyik alapítója Dietmar Hopp.",
-   "source": "http://www.wikidata.org/entity/Q552581",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Java?",
-   "answers": [
-    "Sun Microsystems",
-    "Seymour Papert",
-    "Barbara Liskov",
-    "Guy L. Steele"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "Java tervezője Sun Microsystems.",
-   "source": "http://www.wikidata.org/entity/Q251",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Ximian?",
-   "answers": [
-    "Mozilla Alapítvány",
-    "Miguel de Icaza",
-    "Michael Tiemann",
-    "Philippe Kahn"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Ximian egyik alapítója Miguel de Icaza.",
-   "source": "http://www.wikidata.org/entity/Q384744",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: PL/I?",
-   "answers": [
-    "IBM",
-    "Ken Thompson",
-    "Martin Odersky",
-    "Alain Colmerauer"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "PL/I tervezője IBM.",
-   "source": "http://www.wikidata.org/entity/Q223433",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Netscape?",
-   "answers": [
-    "Michael Widenius",
-    "Marc Andreessen",
-    "Marc Benioff",
-    "Air France"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Netscape egyik alapítója Marc Andreessen.",
-   "source": "http://www.wikidata.org/entity/Q210057",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Plankalkül?",
-   "answers": [
-    "Konrad Zuse",
-    "Microsoft",
-    "Rob Pike",
-    "Ole-Johan Dahl"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "Plankalkül tervezője Konrad Zuse.",
-   "source": "http://www.wikidata.org/entity/Q34280",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Zend Technologies?",
-   "answers": [
-    "Ericsson",
-    "Andi Gutmans",
-    "Zeev Suraski",
-    "Philippe Kahn"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "Zend Technologies egyik alapítója Zeev Suraski.",
-   "source": "http://www.wikidata.org/entity/Q189477",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: ALGOL?",
-   "answers": [
-    "Guy L. Steele",
-    "Peter Naur",
-    "Alan Perlis",
-    "Robin Milner"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "ALGOL tervezője Alan Perlis.",
-   "source": "http://www.wikidata.org/entity/Q188436",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Digital Research?",
-   "answers": [
-    "Michael Tiemann",
-    "Gary Kildall",
-    "John Gilmore",
-    "Ronald Wayne"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Digital Research egyik alapítója Gary Kildall.",
-   "source": "http://www.wikidata.org/entity/Q185608",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: m4?",
-   "answers": [
-    "Friedrich L. Bauer",
-    "Brian Kerninghan",
-    "John McCarthy",
-    "Niklaus Wirth"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "m4 tervezője Brian Kerninghan.",
-   "source": "http://www.wikidata.org/entity/Q292068",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Skype Technologies?",
-   "answers": [
-    "Ronald Wayne",
-    "Philippe Kahn",
-    "Mitch Kapor",
-    "Niklas Zennström"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "Skype Technologies egyik alapítója Niklas Zennström.",
-   "source": "http://www.wikidata.org/entity/Q246125",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: JavaScript?",
-   "answers": [
-    "Brendan Eich",
-    "Adele Goldberg",
-    "Rob Pike",
-    "Niklaus Wirth"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "JavaScript tervezője Brendan Eich.",
-   "source": "http://www.wikidata.org/entity/Q2005",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Opera Software?",
-   "answers": [
-    "Michael J. Saylor",
-    "Jon Stephenson von Tetzchner",
-    "Scandinavian Airlines",
-    "William Redington Hewlett"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Opera Software egyik alapítója Jon Stephenson von Tetzchner.",
-   "source": "http://www.wikidata.org/entity/Q215639",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Simula?",
-   "answers": [
-    "Guy L. Steele",
-    "Konrad Zuse",
-    "Carl Sassenrath",
-    "Ole-Johan Dahl"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "Simula tervezője Ole-Johan Dahl.",
-   "source": "http://www.wikidata.org/entity/Q212569",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Nullsoft?",
-   "answers": [
-    "Justin Frankel",
-    "Mozilla Alapítvány",
-    "Geir Ivarsøy",
-    "Miguel de Icaza"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "Nullsoft egyik alapítója Justin Frankel.",
-   "source": "http://www.wikidata.org/entity/Q385572",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Fortran?",
-   "answers": [
-    "Robert Kowalski",
-    "John Backus",
-    "Peter Naur",
-    "Microsoft"
-   ],
-   "correct": 1,
-   "difficulty": "hard",
-   "explanation": "Fortran tervezője John Backus.",
-   "source": "http://www.wikidata.org/entity/Q83303",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Logitech?",
-   "answers": [
-    "Daniel Borel",
-    "Air France",
-    "Janus Friis",
-    "Michael Dell"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "Logitech egyik alapítója Daniel Borel.",
-   "source": "http://www.wikidata.org/entity/Q223127",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: MATLAB?",
-   "answers": [
-    "Brendan Eich",
-    "Alan Kay",
-    "Brad Cox",
-    "Cleve Moler"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "MATLAB tervezője Cleve Moler.",
-   "source": "http://www.wikidata.org/entity/Q169478",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Dell?",
-   "answers": [
-    "Nat Friedman",
-    "Nadiem Makarim",
-    "Michael Dell",
-    "Ronald Wayne"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "Dell egyik alapítója Michael Dell.",
-   "source": "http://www.wikidata.org/entity/Q30873",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: C--?",
-   "answers": [
-    "Simon Peyton Jones",
-    "Roberto Ierusalimschy",
-    "Carl Sassenrath",
-    "Brian Kerninghan"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "C-- tervezője Simon Peyton Jones.",
-   "source": "http://www.wikidata.org/entity/Q81348",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Canonical Ltd.?",
-   "answers": [
-    "Gary Kildall",
-    "Mark Shuttleworth",
-    "Charles Ranlett Flint",
-    "Tanaka Hisashige"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "Canonical Ltd. egyik alapítója Mark Shuttleworth.",
-   "source": "http://www.wikidata.org/entity/Q39064",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Forth?",
-   "answers": [
-    "Charles Moore",
-    "Barbara Liskov",
-    "Ken Thompson",
-    "Adele Goldberg"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "Forth tervezője Charles Moore.",
-   "source": "http://www.wikidata.org/entity/Q275472",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Apple Inc.?",
-   "answers": [
-    "Stephen Wolfram",
-    "Steve Wozniak",
-    "Mitch Kapor",
-    "Ronald Wayne"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "Apple Inc. egyik alapítója Ronald Wayne.",
-   "source": "http://www.wikidata.org/entity/Q312",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Prolog?",
-   "answers": [
-    "Alain Colmerauer",
-    "Seymour Papert",
-    "Robert Kowalski",
-    "Anders Hejlsberg"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "Prolog tervezője Alain Colmerauer.",
-   "source": "http://www.wikidata.org/entity/Q163468",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Hewlett-Packard?",
-   "answers": [
-    "William Redington Hewlett",
-    "Stephen Wolfram",
-    "Miguel de Icaza",
-    "Michael Tiemann"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "Hewlett-Packard egyik alapítója William Redington Hewlett.",
-   "source": "http://www.wikidata.org/entity/Q80978",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Logo?",
-   "answers": [
-    "Sun Microsystems",
-    "Carl Sassenrath",
-    "Brian Kerninghan",
-    "Seymour Papert"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "Logo tervezője Seymour Papert.",
-   "source": "http://www.wikidata.org/entity/Q201436",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: IBM?",
-   "answers": [
-    "Ikutaro Kakehashi",
-    "Thomas J. Watson",
-    "Pat Hanrahan",
-    "Michael Tiemann"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "IBM egyik alapítója Thomas J. Watson.",
-   "source": "http://www.wikidata.org/entity/Q37156",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Go?",
-   "answers": [
-    "Rob Pike",
-    "IBM",
-    "Brad Cox",
-    "Peter Naur"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "Go tervezője Rob Pike.",
-   "source": "http://www.wikidata.org/entity/Q37227",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: America Online?",
-   "answers": [
-    "Steve Case",
-    "Lufthansa",
-    "Ronald Wayne",
-    "Andi Gutmans"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "America Online egyik alapítója Steve Case.",
-   "source": "http://www.wikidata.org/entity/Q27585",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Lua?",
-   "answers": [
-    "Christopher Strachey",
-    "Palo Alto Research Center",
-    "Simon Peyton Jones",
-    "Roberto Ierusalimschy"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "Lua tervezője Roberto Ierusalimschy.",
-   "source": "http://www.wikidata.org/entity/Q207316",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Toshiba?",
-   "answers": [
-    "Ronald Wayne",
-    "Larry Page",
-    "Bill Gates",
-    "Tanaka Hisashige"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "Toshiba egyik alapítója Tanaka Hisashige.",
-   "source": "http://www.wikidata.org/entity/Q49125",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Objective-C?",
-   "answers": [
-    "Alan Kay",
-    "Alan Perlis",
-    "Brad Cox",
-    "Brendan Eich"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "Objective-C tervezője Brad Cox.",
-   "source": "http://www.wikidata.org/entity/Q188531",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Adobe?",
-   "answers": [
-    "Marcel Dassault",
-    "Mitch Kapor",
-    "John Warnock",
-    "John Gilmore"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "Adobe egyik alapítója John Warnock.",
-   "source": "http://www.wikidata.org/entity/Q11463",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: D?",
-   "answers": [
-    "Walter Bright",
-    "Barbara Liskov",
-    "Brendan Eich",
-    "Microsoft"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "D tervezője Walter Bright.",
-   "source": "http://www.wikidata.org/entity/Q319268",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Borland Software Corporation?",
-   "answers": [
-    "Diane Greene",
-    "Pat Hanrahan",
-    "Philippe Kahn",
-    "Andi Gutmans"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "Borland Software Corporation egyik alapítója Philippe Kahn.",
-   "source": "http://www.wikidata.org/entity/Q210075",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Wolfram Language?",
-   "answers": [
-    "Stephen Wolfram",
-    "Ole-Johan Dahl",
-    "Robin Milner",
-    "Anders Hejlsberg"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "Wolfram Language tervezője Stephen Wolfram.",
-   "source": "http://www.wikidata.org/entity/Q15241057",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Red Hat?",
-   "answers": [
-    "Ericsson",
-    "Sergey Brin",
-    "Nat Friedman",
-    "Bob Young"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "Red Hat egyik alapítója Bob Young.",
-   "source": "http://www.wikidata.org/entity/Q485593",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Delphi?",
-   "answers": [
-    "Barbara Liskov",
-    "Friedrich L. Bauer",
-    "Charles Moore",
-    "Anders Hejlsberg"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "Delphi tervezője Anders Hejlsberg.",
-   "source": "http://www.wikidata.org/entity/Q4037189",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: Yandex?",
-   "answers": [
-    "Arkady Volozh",
-    "Tanaka Hisashige",
-    "Stephen Wolfram",
-    "John Warnock"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "Yandex egyik alapítója Arkady Volozh.",
-   "source": "http://www.wikidata.org/entity/Q5281",
-   "topic": "cégek és alapítók"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki tervezte a következő programozási nyelvet: Swift?",
-   "answers": [
-    "Microsoft Research",
-    "Sun Microsystems",
-    "Chris Lattner",
-    "Scott E. Fahlman"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "Swift tervezője Chris Lattner.",
-   "source": "http://www.wikidata.org/entity/Q17118377",
-   "topic": "programozási nyelvek"
-  },
-  {
-   "category": "technologia",
-   "question": "Ki az egyik alapítója a következő vállalatnak: HP Inc.?",
-   "answers": [
-    "Stephen Wolfram",
-    "Michael Widenius",
-    "Hewlett-Packard",
-    "Gary Kildall"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "HP Inc. egyik alapítója Hewlett-Packard.",
-   "source": "http://www.wikidata.org/entity/Q21404084",
    "topic": "cégek és alapítók"
   },
   {
@@ -29028,186 +28908,6 @@
    "topic": "kémiai elemek"
   },
   {
-   "category": "tudomany",
-   "question": "Mi a következő kémiai elem vegyjele: alumínium?",
-   "answers": [
-    "Uue",
-    "Al",
-    "Mg",
-    "Sn"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "alumínium vegyjele: Al.",
-   "source": "http://www.wikidata.org/entity/Q663",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "tudomany",
-   "question": "Mi a következő kémiai elem vegyjele: szilícium?",
-   "answers": [
-    "H",
-    "Ti",
-    "Si",
-    "Pt"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "szilícium vegyjele: Si.",
-   "source": "http://www.wikidata.org/entity/Q670",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "tudomany",
-   "question": "Mi a következő kémiai elem vegyjele: francium?",
-   "answers": [
-    "Ra",
-    "Fr",
-    "Uue",
-    "Cl"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "francium vegyjele: Fr.",
-   "source": "http://www.wikidata.org/entity/Q671",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "tudomany",
-   "question": "Mi a következő kémiai elem vegyjele: foszfor?",
-   "answers": [
-    "Md",
-    "Mo",
-    "P",
-    "Utn"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "foszfor vegyjele: P.",
-   "source": "http://www.wikidata.org/entity/Q674",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "tudomany",
-   "question": "Mi a következő kémiai elem vegyjele: vas?",
-   "answers": [
-    "Kr",
-    "H",
-    "Fe",
-    "Bh"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "vas vegyjele: Fe.",
-   "source": "http://www.wikidata.org/entity/Q677",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "tudomany",
-   "question": "Mi a következő kémiai elem vegyjele: kén?",
-   "answers": [
-    "S",
-    "Zr",
-    "Bh",
-    "Lv"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "kén vegyjele: S.",
-   "source": "http://www.wikidata.org/entity/Q682",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "tudomany",
-   "question": "Mi a következő kémiai elem vegyjele: klór?",
-   "answers": [
-    "Cl",
-    "Ir",
-    "H",
-    "Cm"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "klór vegyjele: Cl.",
-   "source": "http://www.wikidata.org/entity/Q688",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "tudomany",
-   "question": "Mi a következő kémiai elem vegyjele: argon?",
-   "answers": [
-    "Ar",
-    "Dy",
-    "Uue",
-    "Zr"
-   ],
-   "correct": 0,
-   "difficulty": "medium",
-   "explanation": "argon vegyjele: Ar.",
-   "source": "http://www.wikidata.org/entity/Q696",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "tudomany",
-   "question": "Mi a következő kémiai elem vegyjele: kálium?",
-   "answers": [
-    "Utn",
-    "K",
-    "Sg",
-    "Ne"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "kálium vegyjele: K.",
-   "source": "http://www.wikidata.org/entity/Q703",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "tudomany",
-   "question": "Mi a következő kémiai elem vegyjele: kalcium?",
-   "answers": [
-    "Rg",
-    "Ca",
-    "Ru",
-    "H"
-   ],
-   "correct": 1,
-   "difficulty": "medium",
-   "explanation": "kalcium vegyjele: Ca.",
-   "source": "http://www.wikidata.org/entity/Q706",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "tudomany",
-   "question": "Mi a következő kémiai elem vegyjele: ólom?",
-   "answers": [
-    "Th",
-    "Zn",
-    "H",
-    "Pb"
-   ],
-   "correct": 3,
-   "difficulty": "medium",
-   "explanation": "ólom vegyjele: Pb.",
-   "source": "http://www.wikidata.org/entity/Q708",
-   "topic": "kémiai elemek"
-  },
-  {
-   "category": "tudomany",
-   "question": "Mi a következő kémiai elem vegyjele: szkandium?",
-   "answers": [
-    "Ir",
-    "Se",
-    "Sc",
-    "Uue"
-   ],
-   "correct": 2,
-   "difficulty": "medium",
-   "explanation": "szkandium vegyjele: Sc.",
-   "source": "http://www.wikidata.org/entity/Q713",
-   "topic": "kémiai elemek"
-  },
-  {
    "category": "unnepek",
    "question": "Melyik országban nemzeti ünnep a következő: Vijayadashami?",
    "answers": [
@@ -29340,96 +29040,6 @@
    "difficulty": "hard",
    "explanation": "Anzac Day Ausztrália ünnepe.",
    "source": "http://www.wikidata.org/entity/Q295859",
-   "topic": "nemzeti ünnepek"
-  },
-  {
-   "category": "unnepek",
-   "question": "Melyik országban nemzeti ünnep a következő: Yom HaShoah?",
-   "answers": [
-    "Pakisztán",
-    "Brazília",
-    "Bolívia",
-    "Izrael"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "Yom HaShoah Izrael ünnepe.",
-   "source": "http://www.wikidata.org/entity/Q309530",
-   "topic": "nemzeti ünnepek"
-  },
-  {
-   "category": "unnepek",
-   "question": "Melyik országban nemzeti ünnep a következő: Koningsdag?",
-   "answers": [
-    "Hollandia",
-    "Indonézia",
-    "Málta",
-    "Spanyolország"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "Koningsdag Hollandia ünnepe.",
-   "source": "http://www.wikidata.org/entity/Q333016",
-   "topic": "nemzeti ünnepek"
-  },
-  {
-   "category": "unnepek",
-   "question": "Melyik országban nemzeti ünnep a következő: Őszközép ünnep?",
-   "answers": [
-    "Kína",
-    "Izrael",
-    "Malajzia",
-    "Grúzia"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "Őszközép ünnep Kína ünnepe.",
-   "source": "http://www.wikidata.org/entity/Q379519",
-   "topic": "nemzeti ünnepek"
-  },
-  {
-   "category": "unnepek",
-   "question": "Melyik országban nemzeti ünnep a következő: Függetlenség napja?",
-   "answers": [
-    "Izland",
-    "Ukrajna",
-    "Németország",
-    "Finnország"
-   ],
-   "correct": 3,
-   "difficulty": "hard",
-   "explanation": "Függetlenség napja Finnország ünnepe.",
-   "source": "http://www.wikidata.org/entity/Q419595",
-   "topic": "nemzeti ünnepek"
-  },
-  {
-   "category": "unnepek",
-   "question": "Melyik országban nemzeti ünnep a következő: Statehood Day?",
-   "answers": [
-    "Észak-Ciprus",
-    "Franciaország",
-    "Horvátország",
-    "Észak-Macedónia"
-   ],
-   "correct": 2,
-   "difficulty": "hard",
-   "explanation": "Statehood Day Horvátország ünnepe.",
-   "source": "http://www.wikidata.org/entity/Q449367",
-   "topic": "nemzeti ünnepek"
-  },
-  {
-   "category": "unnepek",
-   "question": "Melyik országban nemzeti ünnep a következő: Matariki?",
-   "answers": [
-    "Új-Zéland",
-    "Thaiföld",
-    "Izland",
-    "Málta"
-   ],
-   "correct": 0,
-   "difficulty": "hard",
-   "explanation": "Matariki Új-Zéland ünnepe.",
-   "source": "http://www.wikidata.org/entity/Q455596",
    "topic": "nemzeti ünnepek"
   },
   {
@@ -29956,6 +29566,546 @@
    "explanation": "Magyarországon 1925 óta ünneplik; sok országban május második vasárnapján tartják.",
    "source": null,
    "topic": "szokások, hagyományok"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik hónapban tartják Magyarországon az államalapítás ünnepét?",
+   "answers": [
+    "Októberben",
+    "Augusztusban",
+    "Márciusban",
+    "Júniusban"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "Az augusztus 20-i ünnep Szent István királyra és az államalapításra emlékezik.",
+   "source": null,
+   "topic": "magyar állami ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik eseményre emlékezik a magyar október 23-i nemzeti ünnep?",
+   "answers": [
+    "A trianoni békére",
+    "Az 1848-as szabadságharcra",
+    "Az 1956-os forradalomra",
+    "A honfoglalásra"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "1956. október 23-án kezdődött a forradalom, és ezen a napon kiáltották ki 1989-ben a köztársaságot.",
+   "source": null,
+   "topic": "magyar állami ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik évszakra esik a magyar március 15-i nemzeti ünnep?",
+   "answers": [
+    "Tavaszra",
+    "Télre",
+    "Nyárra",
+    "Őszre"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A tavaszi ünnep az 1848-as pesti forradalom kitörésének napja.",
+   "source": null,
+   "topic": "magyar állami ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Milyen jelképes virágot szokás viselni március 15-én?",
+   "answers": [
+    "Rozmaringot",
+    "Búzavirágot",
+    "Tulipánt",
+    "Kokárdát"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A nemzeti színű kokárda a francia forradalom mintájára lett a magyar szabadság jelvénye.",
+   "source": null,
+   "topic": "magyar állami ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Milyen ételt szokás hagyományosan augusztus 20-án megszentelni?",
+   "answers": [
+    "Az új kenyeret",
+    "Az első bort",
+    "A friss halat",
+    "A mézeskalácsot"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "Az új búzából sült kenyér megszegése az aratás befejezését jelzi.",
+   "source": null,
+   "topic": "magyar állami ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik keresztény ünnep Jézus születésére emlékezik?",
+   "answers": [
+    "Nagyböjt",
+    "Pünkösd",
+    "Karácsony",
+    "Húsvét"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A karácsonyt a nyugati kereszténység december 25-én tartja.",
+   "source": null,
+   "topic": "keresztény ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik ünnep Jézus feltámadásának emléknapja?",
+   "answers": [
+    "Húsvét",
+    "Pünkösd",
+    "Karácsony",
+    "Vízkereszt"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A húsvét a kereszténység legfontosabb ünnepe, dátuma évente változik.",
+   "source": null,
+   "topic": "keresztény ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Mihez kötődik a pünkösd ünnepe a kereszténységben?",
+   "answers": [
+    "A Szentlélek eljöveteléhez",
+    "Jézus születéséhez",
+    "Mária mennybevételéhez",
+    "A háromkirályok látogatásához"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A pünkösd a húsvét utáni ötvenedik napon van, és az egyház születésnapjának is tartják.",
+   "source": null,
+   "topic": "keresztény ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Mi határozza meg a húsvét időpontját a nyugati egyházban?",
+   "answers": [
+    "Egy fix naptári nap",
+    "A tavaszi holdtölte",
+    "A téli napforduló",
+    "A nyári napéjegyenlőség"
+   ],
+   "correct": 1,
+   "difficulty": "hard",
+   "explanation": "A húsvét a tavaszi napéjegyenlőség utáni első holdtöltét követő vasárnap.",
+   "source": null,
+   "topic": "keresztény ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Hány napig tart a keresztény nagyböjt hagyományosan?",
+   "answers": [
+    "Hatvan napig",
+    "Negyven napig",
+    "Húsz napig",
+    "Kilencven napig"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A nagyböjt hamvazószerdától húsvétig tart, a vasárnapokat nem számítva negyven nap.",
+   "source": null,
+   "topic": "keresztény ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik ünnepen szokás Magyarországon a lányokat vízzel meglocsolni?",
+   "answers": [
+    "Karácsonykor",
+    "Pünkösdkor",
+    "Húsvéthétfőn",
+    "Farsangkor"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A locsolkodás termékenységi rítusból ered, és a húsvéti népszokások közé tartozik.",
+   "source": null,
+   "topic": "magyar népszokások"
+  },
+  {
+   "category": "unnepek",
+   "question": "Mit tesznek a hagyomány szerint a farsang végén, húshagyókedden?",
+   "answers": [
+    "Fát ültetnek",
+    "Elbúcsúztatják a telet",
+    "Új kenyeret szegnek",
+    "Gyertyát szentelnek"
+   ],
+   "correct": 1,
+   "difficulty": "medium",
+   "explanation": "A busójárás és a kiszehajtás is a tél és a farsang jelképes elűzését szolgálja.",
+   "source": null,
+   "topic": "magyar népszokások"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik magyar városhoz köthető a nemzetközileg is ismert busójárás?",
+   "answers": [
+    "Debrecenhez",
+    "Győrhöz",
+    "Szegedhez",
+    "Mohácshoz"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A mohácsi busójárás az UNESCO szellemi kulturális örökség listáján is szerepel.",
+   "source": null,
+   "topic": "magyar népszokások"
+  },
+  {
+   "category": "unnepek",
+   "question": "Mit ünnepelnek a szüreti felvonulásokon?",
+   "answers": [
+    "A szőlő betakarítását",
+    "A búza elvetését",
+    "A tél elmúlását",
+    "A tavaszi vetést"
+   ],
+   "correct": 0,
+   "difficulty": "easy",
+   "explanation": "A szüreti bál a szőlőszedés befejezését zárja, jellemzően szeptemberben vagy októberben.",
+   "source": null,
+   "topic": "magyar népszokások"
+  },
+  {
+   "category": "unnepek",
+   "question": "Milyen napon szokás a magyar hagyományban a Luca-búzát elültetni?",
+   "answers": [
+    "Január 6-án",
+    "Február 2-án",
+    "December 13-án",
+    "November 1-jén"
+   ],
+   "correct": 2,
+   "difficulty": "hard",
+   "explanation": "A Luca napján elvetett búza karácsonyra kizöldül, és a következő év termését jelzi.",
+   "source": null,
+   "topic": "magyar népszokások"
+  },
+  {
+   "category": "unnepek",
+   "question": "Mit jelképez a mindenszentek és a halottak napja körüli gyertyagyújtás?",
+   "answers": [
+    "A tavasz közeledtét",
+    "Az új év kezdetét",
+    "Az elhunytak emlékét",
+    "A bő termést"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A november 1-jei és 2-ai megemlékezésen a sírokon gyújtott gyertya az örök világosság jele.",
+   "source": null,
+   "topic": "magyar népszokások"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik ünnepen viselnek jelmezt és gyűjtenek édességet a gyerekek az angolszász országokban?",
+   "answers": [
+    "Szilveszterkor",
+    "Hálaadáskor",
+    "Halloweenkor",
+    "Húsvétkor"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "Az október 31-i szokás a kelta Samhain ünnepből fejlődött ki.",
+   "source": null,
+   "topic": "nemzetközi ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik hónapban tartják az Egyesült Államokban a hálaadást?",
+   "answers": [
+    "Szeptemberben",
+    "Decemberben",
+    "Novemberben",
+    "Októberben"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "Az amerikai hálaadás november negyedik csütörtökje; Kanadában októberben van.",
+   "source": null,
+   "topic": "nemzetközi ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik ünnepet nevezik a fények ünnepének a zsidó hagyományban?",
+   "answers": [
+    "Pészahot",
+    "Szukkotot",
+    "Hanukát",
+    "Purimot"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A nyolc napon át gyújtott gyertyák a jeruzsálemi templom újraszentelésére emlékeztetnek.",
+   "source": null,
+   "topic": "nemzetközi ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Mit jelent a ramadán a muszlim hagyományban?",
+   "answers": [
+    "Az aratás ünnepét",
+    "Az újév napját",
+    "A böjt hónapját",
+    "A búcsújárás idejét"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A hónap során a hívők napkeltétől napnyugtáig tartózkodnak az ételtől és az italtól.",
+   "source": null,
+   "topic": "nemzetközi ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik ünnep zárja a ramadán böjti hónapját?",
+   "answers": [
+    "A holi",
+    "A nouruz",
+    "Az íd al-fitr",
+    "A húsvét"
+   ],
+   "correct": 2,
+   "difficulty": "hard",
+   "explanation": "A böjt megtörésének ünnepén közös imádság és ajándékozás is szokás.",
+   "source": null,
+   "topic": "nemzetközi ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik ünnepen szórnak egymásra színes port Indiában?",
+   "answers": [
+    "A dívalin",
+    "Az újévkor",
+    "A holin",
+    "A ramadánkor"
+   ],
+   "correct": 2,
+   "difficulty": "medium",
+   "explanation": "A tavaszi holi a színek és a jó győzelmének ünnepe.",
+   "source": null,
+   "topic": "nemzetközi ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Milyen jelképes cselekvés jellemzi a kínai újév megünneplését?",
+   "answers": [
+    "A gyertyaszentelés",
+    "A tojásfestés",
+    "A tökfaragás",
+    "A vörös borítékok ajándékozása"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A vörös borítékba tett pénz szerencsét és jókívánságot jelent a következő évre.",
+   "source": null,
+   "topic": "nemzetközi ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik állatokból álló körforgás szerint nevezik el a kínai éveket?",
+   "answers": [
+    "Tizenkét állat szerint",
+    "Húsz állat szerint",
+    "Hét állat szerint",
+    "Négy állat szerint"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A kínai zodiákus tizenkét éves ciklusban ismétlődik, például a Sárkány vagy a Nyúl évével.",
+   "source": null,
+   "topic": "nemzetközi ünnepek"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik napon köszöntik a világ nagy részén az új évet?",
+   "answers": [
+    "Március 1-jén",
+    "December 24-én",
+    "Szeptember 1-jén",
+    "Január 1-jén"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A Gergely-naptár szerinti év első napja a legelterjedtebb újévi dátum.",
+   "source": null,
+   "topic": "évfordulók"
+  },
+  {
+   "category": "unnepek",
+   "question": "Mit ünnepel a május 1-je a legtöbb országban?",
+   "answers": [
+    "Az anyák napját",
+    "A munka ünnepét",
+    "A béke napját",
+    "A gyermekek napját"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "A dátum az 1886-os chicagói munkásmegmozdulások emlékét is őrzi.",
+   "source": null,
+   "topic": "évfordulók"
+  },
+  {
+   "category": "unnepek",
+   "question": "Milyen napot tartanak világszerte április 22-én?",
+   "answers": [
+    "A béke napját",
+    "A víz világnapját",
+    "A könyv napját",
+    "A Föld napját"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Az 1970 óta tartott környezetvédelmi világnap a Föld védelmére hívja fel a figyelmet.",
+   "source": null,
+   "topic": "évfordulók"
+  },
+  {
+   "category": "unnepek",
+   "question": "Mikor tartják Magyarországon az anyák napját?",
+   "answers": [
+    "Május első vasárnapján",
+    "Június első hétfőjén",
+    "Március utolsó napján",
+    "Április közepén"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "Magyarországon 1928 óta ünnepeljük, május első vasárnapján.",
+   "source": null,
+   "topic": "évfordulók"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik napot jelöli a nemzetközi nőnap?",
+   "answers": [
+    "Január 8-át",
+    "Október 8-át",
+    "Március 8-át",
+    "Május 8-át"
+   ],
+   "correct": 2,
+   "difficulty": "easy",
+   "explanation": "A dátumot 1917 óta kötik a nők egyenlőségéért folytatott küzdelemhez.",
+   "source": null,
+   "topic": "évfordulók"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik ünnep alkalmából állítanak feldíszített fát a lakásban?",
+   "answers": [
+    "Pünkösd",
+    "Húsvét",
+    "Farsang",
+    "Karácsony"
+   ],
+   "correct": 3,
+   "difficulty": "easy",
+   "explanation": "A karácsonyfa szokása a 19. században terjedt el Európában, német területekről indulva.",
+   "source": null,
+   "topic": "ünnepi szokások"
+  },
+  {
+   "category": "unnepek",
+   "question": "Mit rejtenek el hagyományosan a gyerekek elől húsvétkor?",
+   "answers": [
+    "A farsangi maszkot",
+    "A festett tojásokat",
+    "A karácsonyi ajándékot",
+    "A szüreti koszorút"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "A tojáskeresés a termékenység és az újjászületés jelképéhez kötődő játék.",
+   "source": null,
+   "topic": "ünnepi szokások"
+  },
+  {
+   "category": "unnepek",
+   "question": "Milyen alakot formáznak a hagyományos magyar vásári mézeskalácsok gyakran?",
+   "answers": [
+    "Szívet",
+    "Hengert",
+    "Négyzetet",
+    "Kockát"
+   ],
+   "correct": 0,
+   "difficulty": "medium",
+   "explanation": "A díszített mézeskalács szív a magyar vásári hagyomány jellegzetes ajándéka.",
+   "source": null,
+   "topic": "ünnepi szokások"
+  },
+  {
+   "category": "unnepek",
+   "question": "Mit tesznek a szilveszteri hagyomány szerint éjfélkor sok helyen?",
+   "answers": [
+    "Tojást festenek",
+    "Pezsgővel koccintanak",
+    "Fát vágnak",
+    "Búzát vetnek"
+   ],
+   "correct": 1,
+   "difficulty": "easy",
+   "explanation": "Az éjféli koccintás és a jókívánságok az új év szerencsés kezdetét szolgálják.",
+   "source": null,
+   "topic": "ünnepi szokások"
+  },
+  {
+   "category": "unnepek",
+   "question": "Milyen ételt tartanak szerencsehozónak Magyarországon újév napján?",
+   "answers": [
+    "Az almát",
+    "A tököt",
+    "A halat",
+    "A lencsét"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "A lencse apró, pénzérmére emlékeztető szemei a bőséget jelképezik.",
+   "source": null,
+   "topic": "ünnepi szokások"
+  },
+  {
+   "category": "unnepek",
+   "question": "Melyik ételt kerülik sokan újév napján, mert a néphit szerint elkaparja a szerencsét?",
+   "answers": [
+    "A csirkét",
+    "A lencsét",
+    "A halat",
+    "A rétest"
+   ],
+   "correct": 0,
+   "difficulty": "hard",
+   "explanation": "A szárnyas hátrakapar, ezért a néphit szerint elkaparja a szerencsét az évből.",
+   "source": null,
+   "topic": "ünnepi szokások"
+  },
+  {
+   "category": "unnepek",
+   "question": "Mit szimbolizál a nyugati hagyományban a karácsonyi adventi koszorún meggyújtott négy gyertya?",
+   "answers": [
+    "A négy évszakot",
+    "A négy elemet",
+    "A négy égtájat",
+    "A karácsony előtti négy hetet"
+   ],
+   "correct": 3,
+   "difficulty": "medium",
+   "explanation": "Advent négy vasárnapján egyre több gyertya ég, jelezve a karácsony közeledtét.",
+   "source": null,
+   "topic": "ünnepi szokások"
   },
   {
    "category": "vilagtortenelem",

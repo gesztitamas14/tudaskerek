@@ -82,6 +82,9 @@ export function multiplayerScreen(app) {
   //
   // Vendégként is lehet szobát csinálni és csatlakozni. A pont viszont nem
   // kerül a nyilvános ranglistára: a vendégnév generált, a fiók eldobható.
+  // A jelzés csak akkor jelenik meg, ha a SZERVER megerősíti, hogy vendég a
+  // fiók (lásd `refresh`). Korábban a JWT állítására épült, és bejelentkezve
+  // is kiírta – ez volt a hibás viselkedés, nem maga a figyelmeztetés.
   const guestNote = el('div.guest-note', { hidden: true }, [
     el('span', { text: '👤' }),
     el('span', {
@@ -470,10 +473,16 @@ function modal({ title, body, confirmLabel, onConfirm }) {
     if (done) overlay.remove();
   }, { tone: 'gold' });
 
+  // HÁROM RÉSZ: fix fejléc, görgethető törzs, RAGADÓ gombsor.
+  //
+  // Korábban az egész lap görgött, és telefonon a „Mégsem” gomb kilógott a
+  // képernyőből, ráadásul nem is lehetett odatekerni: a lapon belüli görgetők
+  // (a PIN-választó oszlopai) elvették a húzás gesztusát. Így a gombsor a
+  // görgetésen KÍVÜL van, tehát mindig elérhető.
   const sheet = el('div.modal-sheet', null, [
     el('h3.center', { text: title }),
-    ...body.filter(Boolean),
-    el('div.actions', null, [
+    el('div.modal-body', null, body.filter(Boolean)),
+    el('div.modal-actions', null, [
       confirm,
       el('button.link-btn', {
         type: 'button',

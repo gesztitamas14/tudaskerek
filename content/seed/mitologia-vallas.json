@@ -255,20 +255,6 @@
       "s": "http://www.wikidata.org/entity/Q1128502"
     },
     {
-      "q": "Kihez köthető a következő vallás vagy felekezet: tendai?",
-      "a": [
-        "Ingen",
-        "juhpásztor",
-        "Szaicsó",
-        "En no Gyōja"
-      ],
-      "c": 2,
-      "d": "hard",
-      "e": "tendai alapítója Szaicsó.",
-      "t": "vallások",
-      "s": "http://www.wikidata.org/entity/Q855964"
-    },
-    {
       "q": "Melyik mitológiához tartozik Hapy (Son of Horus)?",
       "a": [
         "Felső-Egyiptom",
@@ -281,20 +267,6 @@
       "e": "Hapy (Son of Horus) a(z) kanópuszedény alakja.",
       "t": "görög mitológia",
       "s": "http://www.wikidata.org/entity/Q1141220"
-    },
-    {
-      "q": "Kihez köthető a következő vallás vagy felekezet: dzsódo?",
-      "a": [
-        "Lao-ce",
-        "Yoda",
-        "Hónen",
-        "Sinran"
-      ],
-      "c": 2,
-      "d": "hard",
-      "e": "dzsódo alapítója Hónen.",
-      "t": "vallások",
-      "s": "http://www.wikidata.org/entity/Q912208"
     },
     {
       "q": "Melyik mitológiához tartozik Duamutef?",
@@ -311,20 +283,6 @@
       "s": "http://www.wikidata.org/entity/Q1164867"
     },
     {
-      "q": "Kihez köthető a következő vallás vagy felekezet: dzsódo sin?",
-      "a": [
-        "Sinran",
-        "Jézus",
-        "juhpásztor",
-        "Ann Lee"
-      ],
-      "c": 0,
-      "d": "hard",
-      "e": "dzsódo sin alapítója Sinran.",
-      "t": "vallások",
-      "s": "http://www.wikidata.org/entity/Q912221"
-    },
-    {
       "q": "Melyik mitológiához tartozik Qebehsenuef?",
       "a": [
         "szerződés",
@@ -339,34 +297,6 @@
       "s": "http://www.wikidata.org/entity/Q1344074"
     },
     {
-      "q": "Kihez köthető a következő vallás vagy felekezet: óbaku?",
-      "a": [
-        "Ingen",
-        "Eiszai",
-        "Yoda",
-        "Kúkai"
-      ],
-      "c": 0,
-      "d": "hard",
-      "e": "óbaku alapítója Ingen.",
-      "t": "vallások",
-      "s": "http://www.wikidata.org/entity/Q384728"
-    },
-    {
-      "q": "Kihez köthető a következő vallás vagy felekezet: szakjapa?",
-      "a": [
-        "Khon Konchok Gyelpo",
-        "Onisaburo Deguchi",
-        "Harvey Spencer Lewis",
-        "Kerry Wendell Thornley"
-      ],
-      "c": 0,
-      "d": "hard",
-      "e": "szakjapa alapítója Khon Konchok Gyelpo.",
-      "t": "vallások",
-      "s": "http://www.wikidata.org/entity/Q650035"
-    },
-    {
       "q": "Melyik mitológiához tartozik Renpet?",
       "a": [
         "hegy",
@@ -379,132 +309,6 @@
       "e": "Renpet a(z) tavasz alakja.",
       "t": "görög mitológia",
       "s": "http://www.wikidata.org/entity/Q1973150"
-    },
-    {
-      "q": "Kihez köthető a következő vallás vagy felekezet: Shugendō?",
-      "a": [
-        "Pál apostol",
-        "Jōsei Toda",
-        "Nágárdzsuna",
-        "En no Gyōja"
-      ],
-      "c": 3,
-      "d": "hard",
-      "e": "Shugendō alapítója En no Gyōja.",
-      "t": "vallások",
-      "s": "http://www.wikidata.org/entity/Q1483875"
-    },
-    {
-      "q": "Melyik mitológiához tartozik Tjenenyet?",
-      "a": [
-        "boldogság",
-        "földrengés",
-        "szülés",
-        "bölcsesség"
-      ],
-      "c": 2,
-      "d": "hard",
-      "e": "Tjenenyet a(z) szülés alakja.",
-      "t": "görög mitológia",
-      "s": "http://www.wikidata.org/entity/Q1986464"
-    },
-    {
-      "q": "Kihez köthető a következő vallás vagy felekezet: Oomoto?",
-      "a": [
-        "Nao Deguchi",
-        "Szűz Mária",
-        "En no Gyōja",
-        "Joseph Smith"
-      ],
-      "c": 0,
-      "d": "hard",
-      "e": "Oomoto alapítója Nao Deguchi.",
-      "t": "vallások",
-      "s": "http://www.wikidata.org/entity/Q385517"
-    },
-    {
-      "q": "Melyik mitológiához tartozik Castalia?",
-      "a": [
-        "fegyveres konfliktus",
-        "tengeri utazó",
-        "földrengés",
-        "Castalian Spring"
-      ],
-      "c": 3,
-      "d": "hard",
-      "e": "Castalia a(z) Castalian Spring alakja.",
-      "t": "görög mitológia",
-      "s": "http://www.wikidata.org/entity/Q170053"
-    },
-    {
-      "q": "Kihez köthető a következő vallás vagy felekezet: Tenrikjó?",
-      "a": [
-        "Nakayama Miki",
-        "juhpásztor",
-        "Pál apostol",
-        "Rudolf Steiner"
-      ],
-      "c": 0,
-      "d": "hard",
-      "e": "Tenrikjó alapítója Nakayama Miki.",
-      "t": "vallások",
-      "s": "http://www.wikidata.org/entity/Q737323"
-    },
-    {
-      "q": "Melyik mitológiához tartozik Amphitrité?",
-      "a": [
-        "orákulum",
-        "nőiesség",
-        "tenger",
-        "hegy"
-      ],
-      "c": 2,
-      "d": "hard",
-      "e": "Amphitrité a(z) tenger alakja.",
-      "t": "görög mitológia",
-      "s": "http://www.wikidata.org/entity/Q180222"
-    },
-    {
-      "q": "Kihez köthető a következő vallás vagy felekezet: kopt ortodox egyház?",
-      "a": [
-        "Márk evangelista",
-        "Quanah Parker",
-        "Phineas Quimby",
-        "Dada Lekhraj"
-      ],
-      "c": 0,
-      "d": "hard",
-      "e": "kopt ortodox egyház alapítója Márk evangelista.",
-      "t": "vallások",
-      "s": "http://www.wikidata.org/entity/Q198998"
-    },
-    {
-      "q": "Melyik mitológiához tartozik Nemeszisz?",
-      "a": [
-        "fiatalkor",
-        "trade",
-        "büntetés",
-        "halászat"
-      ],
-      "c": 2,
-      "d": "hard",
-      "e": "Nemeszisz a(z) büntetés alakja.",
-      "t": "görög mitológia",
-      "s": "http://www.wikidata.org/entity/Q185747"
-    },
-    {
-      "q": "Kihez köthető a következő vallás vagy felekezet: Egyesítő Egyház?",
-      "a": [
-        "Vardhamána",
-        "Mary Baker Eddy",
-        "Simon Kimbangu",
-        "Mun Szonmjong"
-      ],
-      "c": 3,
-      "d": "hard",
-      "e": "Egyesítő Egyház alapítója Mun Szonmjong.",
-      "t": "vallások",
-      "s": "http://www.wikidata.org/entity/Q217059"
     },
     {
       "q": "Melyik görög isten volt a tenger úrnője, illetve ura?",

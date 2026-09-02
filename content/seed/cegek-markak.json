@@ -255,20 +255,6 @@
       "s": "http://www.wikidata.org/entity/Q225440"
     },
     {
-      "q": "Melyik iparágban működik a következő vállalat: Interfax?",
-      "a": [
-        "news media",
-        "újságírás",
-        "pornóipar",
-        "filmkészítés"
-      ],
-      "c": 0,
-      "d": "medium",
-      "e": "Interfax iparága: news media.",
-      "t": "iparágak",
-      "s": "http://www.wikidata.org/entity/Q379271"
-    },
-    {
       "q": "Melyik évtizedben alapították a következő vállalatot: Merck & Co.?",
       "a": [
         "1930-es évek",
@@ -281,146 +267,6 @@
       "e": "Merck & Co. alapítása: 1890-es évek.",
       "t": "cégek alapítása",
       "s": "http://www.wikidata.org/entity/Q247489"
-    },
-    {
-      "q": "Melyik iparágban működik a következő vállalat: Agenzia Nazionale Stampa Associata?",
-      "a": [
-        "photo agency",
-        "filmipar",
-        "szoftveripar",
-        "news media"
-      ],
-      "c": 3,
-      "d": "medium",
-      "e": "Agenzia Nazionale Stampa Associata iparága: news media.",
-      "t": "iparágak",
-      "s": "http://www.wikidata.org/entity/Q392934"
-    },
-    {
-      "q": "Melyik évtizedben alapították a következő vállalatot: Dolby?",
-      "a": [
-        "1920-es évek",
-        "1960-es évek",
-        "2010-es évek",
-        "2000-es évek"
-      ],
-      "c": 1,
-      "d": "hard",
-      "e": "Dolby alapítása: 1960-es évek.",
-      "t": "cégek alapítása",
-      "s": "http://www.wikidata.org/entity/Q261288"
-    },
-    {
-      "q": "Melyik iparágban működik a következő vállalat: Anadolu Agency?",
-      "a": [
-        "televízió",
-        "hírügynökség",
-        "news media",
-        "kiadás"
-      ],
-      "c": 2,
-      "d": "medium",
-      "e": "Anadolu Agency iparága: news media.",
-      "t": "iparágak",
-      "s": "http://www.wikidata.org/entity/Q477436"
-    },
-    {
-      "q": "Melyik évtizedben alapították a következő vállalatot: Turkcell?",
-      "a": [
-        "1990-es évek",
-        "2010-es évek",
-        "1850-es évek",
-        "1870-es évek"
-      ],
-      "c": 0,
-      "d": "hard",
-      "e": "Turkcell alapítása: 1990-es évek.",
-      "t": "cégek alapítása",
-      "s": "http://www.wikidata.org/entity/Q283852"
-    },
-    {
-      "q": "Melyik iparágban működik a következő vállalat: United Press International?",
-      "a": [
-        "pornóipar",
-        "photo agency",
-        "újságírás",
-        "filmipar"
-      ],
-      "c": 2,
-      "d": "medium",
-      "e": "United Press International iparága: újságírás.",
-      "t": "iparágak",
-      "s": "http://www.wikidata.org/entity/Q493845"
-    },
-    {
-      "q": "Melyik évtizedben alapították a következő vállalatot: Aegon?",
-      "a": [
-        "1890-es évek",
-        "1860-es évek",
-        "1950-es évek",
-        "1980-es évek"
-      ],
-      "c": 3,
-      "d": "hard",
-      "e": "Aegon alapítása: 1980-es évek.",
-      "t": "cégek alapítása",
-      "s": "http://www.wikidata.org/entity/Q291171"
-    },
-    {
-      "q": "Melyik iparágban működik a következő vállalat: Antara?",
-      "a": [
-        "logisztika",
-        "hírügynökség",
-        "kábeltelevízió",
-        "taxiszolgáltatás"
-      ],
-      "c": 1,
-      "d": "medium",
-      "e": "Antara iparága: hírügynökség.",
-      "t": "iparágak",
-      "s": "http://www.wikidata.org/entity/Q571116"
-    },
-    {
-      "q": "Melyik évtizedben alapították a következő vállalatot: AES Corporation?",
-      "a": [
-        "1920-es évek",
-        "1870-es évek",
-        "2000-es évek",
-        "1980-es évek"
-      ],
-      "c": 3,
-      "d": "hard",
-      "e": "AES Corporation alapítása: 1980-es évek.",
-      "t": "cégek alapítása",
-      "s": "http://www.wikidata.org/entity/Q291508"
-    },
-    {
-      "q": "Melyik iparágban működik a következő vállalat: Islamic Republic News Agency?",
-      "a": [
-        "aggregator",
-        "forgalmazás",
-        "médiaipar",
-        "televízió"
-      ],
-      "c": 2,
-      "d": "medium",
-      "e": "Islamic Republic News Agency iparága: médiaipar.",
-      "t": "iparágak",
-      "s": "http://www.wikidata.org/entity/Q649695"
-    },
-    {
-      "q": "Melyik évtizedben alapították a következő vállalatot: AGCO?",
-      "a": [
-        "1990-es évek",
-        "1860-es évek",
-        "1850-es évek",
-        "1980-es évek"
-      ],
-      "c": 0,
-      "d": "hard",
-      "e": "AGCO alapítása: 1990-es évek.",
-      "t": "cégek alapítása",
-      "s": "http://www.wikidata.org/entity/Q292292"
     },
     {
       "q": "Melyik cég logója a bekapott alma?",
@@ -693,6 +539,656 @@
       "c": 3,
       "d": "hard",
       "e": "Mind a Pick, mind a Herz szegedi, illetve budapesti szalámigyártóként lett világhírű.",
+      "t": "magyar márkák"
+    },
+    {
+      "q": "Melyik cég reklámszlogenje volt hosszú ideig a Just Do It?",
+      "a": [
+        "Nike",
+        "Adidas",
+        "Puma",
+        "Reebok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Nike 1988-ban indította a kampányt, és a szlogen a márka legismertebb jelzésévé vált.",
+      "t": "szlogenek"
+    },
+    {
+      "q": "Melyik autómárka jelmondata volt évtizedeken át a Vorsprung durch Technik?",
+      "a": [
+        "Audi",
+        "Volkswagen",
+        "Opel",
+        "Skoda"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Audi 1971 óta használja a német nyelvű jelmondatot a nemzetközi piacon is.",
+      "t": "szlogenek"
+    },
+    {
+      "q": "Melyik gyorsétteremlánc szlogenje az I'm Lovin' It?",
+      "a": [
+        "McDonald's",
+        "Burger King",
+        "KFC",
+        "Subway"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A McDonald's 2003-ban indította a kampányt, amely azóta is a lánc fő jelmondata.",
+      "t": "szlogenek"
+    },
+    {
+      "q": "Melyik technológiai cég korai jelmondata volt a Think different?",
+      "a": [
+        "Apple",
+        "IBM",
+        "Microsoft",
+        "Intel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Apple 1997-ben, Steve Jobs visszatérése után indította a kampányt.",
+      "t": "szlogenek"
+    },
+    {
+      "q": "Mit jelöl eredetileg a Lego név?",
+      "a": [
+        "Jól játszani dánul",
+        "Kis kockát latinul",
+        "Építőmestert németül",
+        "Színes formát svédül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A név a dán leg godt, vagyis jól játszani kifejezés rövidítése.",
+      "t": "névadás"
+    },
+    {
+      "q": "Miből ered a Nike márkanév?",
+      "a": [
+        "A görög győzelem istennőjének nevéből",
+        "Egy alapító keresztnevéből",
+        "Egy japán városból",
+        "Egy futócipő-modell kódjából"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Niké a görög mitológiában a győzelem szárnyas istennője.",
+      "t": "névadás"
+    },
+    {
+      "q": "Honnan származik az Adidas márkanév?",
+      "a": [
+        "Az alapító nevének rövidítéséből",
+        "Egy latin szólásból",
+        "Egy német faluból",
+        "Egy sportág nevéből"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Adolf Dassler beceneve Adi volt, ehhez társult a családi név eleje.",
+      "t": "névadás"
+    },
+    {
+      "q": "Mit takar a Volkswagen név szó szerinti fordítása?",
+      "a": [
+        "Népautó",
+        "Erős motor",
+        "Német gyár",
+        "Új út"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Volk népet, a Wagen járművet jelent; a márka a széles rétegeknek szánt autót hirdette.",
+      "t": "névadás"
+    },
+    {
+      "q": "Melyik cég nevét egy dél-amerikai folyóról mintázták?",
+      "a": [
+        "Amazon",
+        "Meta",
+        "Oracle",
+        "Tesla"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Jeff Bezos a világ legnagyobb vízhozamú folyójáról nevezte el a céget, a nagy választékra utalva.",
+      "t": "névadás"
+    },
+    {
+      "q": "Kinek a nevét viseli a Tesla autógyártó?",
+      "a": [
+        "Nikola Tesla feltalálóét",
+        "Egy szerb városét",
+        "Az első befektetőét",
+        "Egy görög istenét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cég a váltakozó áramú motor feltalálója, Nikola Tesla előtt tiszteleg.",
+      "t": "névadás"
+    },
+    {
+      "q": "Melyik gumigyártó kabalafigurája az abroncsokból formált Bibendum?",
+      "a": [
+        "Michelin",
+        "Goodyear",
+        "Pirelli",
+        "Continental"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1898-ban bemutatott figura a cég legismertebb jelképe lett.",
+      "t": "kabalák és logók"
+    },
+    {
+      "q": "Melyik márka logóján látható egy bekapott alma?",
+      "a": [
+        "Apple",
+        "Blackberry",
+        "Orange",
+        "Peach"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A harapásnyom eredetileg azért került rá, hogy a forma ne tűnjön cseresznyének kis méretben.",
+      "t": "kabalák és logók"
+    },
+    {
+      "q": "Mit ábrázol a Mercedes-Benz háromágú csillaga?",
+      "a": [
+        "A szárazföldi, vízi és légi motorizációt",
+        "Három alapítót",
+        "Három gyártósort",
+        "Három német tartományt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A jelkép a Daimler törekvését fejezi ki: motort adni a földre, a vízre és a levegőbe.",
+      "t": "kabalák és logók"
+    },
+    {
+      "q": "Mit jelöl az Audi emblémáján látható négy gyűrű?",
+      "a": [
+        "Az Auto Union négy egyesült gyárát",
+        "Négy alapítót",
+        "Négy modellcsaládot",
+        "Négy német tartományt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1932-ben létrejött Auto Unionban négy autógyár olvadt össze, ezt jelzi a négy gyűrű.",
+      "t": "kabalák és logók"
+    },
+    {
+      "q": "Milyen állat szerepel a Ferrari emblémáján?",
+      "a": [
+        "Ágaskodó ló",
+        "Bika",
+        "Oroszlán",
+        "Sas"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cavallino rampante egy vadászpilóta gépéről került a márkára.",
+      "t": "kabalák és logók"
+    },
+    {
+      "q": "Melyik márka logóján szerepel egy bika?",
+      "a": [
+        "Lamborghini",
+        "Maserati",
+        "Alfa Romeo",
+        "Bugatti"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ferruccio Lamborghini csillagjegye a Bika volt, és a bikaviadalok is inspirálták a modellneveket.",
+      "t": "kabalák és logók"
+    },
+    {
+      "q": "Melyik két cég egyesüléséből jött létre az Exxon Mobil?",
+      "a": [
+        "Exxon és Mobil",
+        "Shell és BP",
+        "Texaco és Chevron",
+        "Total és Elf"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A két amerikai olajvállalat 1999-ben olvadt össze; mindkettő a Standard Oil utódja volt.",
+      "t": "egyesülések"
+    },
+    {
+      "q": "Melyik cég vásárolta meg a YouTube-ot 2006-ban?",
+      "a": [
+        "Google",
+        "Yahoo",
+        "Microsoft",
+        "Amazon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Google 1,65 milliárd dollár értékű részvényért szerezte meg a videómegosztót.",
+      "t": "egyesülések"
+    },
+    {
+      "q": "Melyik vállalat vette meg az Instagramot 2012-ben?",
+      "a": [
+        "Facebook",
+        "Twitter",
+        "Google",
+        "Apple"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Facebook körülbelül egymilliárd dollárért szerezte meg a fotómegosztó alkalmazást.",
+      "t": "egyesülések"
+    },
+    {
+      "q": "Melyik cég szerezte meg a LinkedInt 2016-ban?",
+      "a": [
+        "Microsoft",
+        "Salesforce",
+        "Oracle",
+        "IBM"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Microsoft több mint 26 milliárd dollárt fizetett a szakmai közösségi hálóért.",
+      "t": "egyesülések"
+    },
+    {
+      "q": "Melyik márka nevét vette fel a Facebook anyavállalata 2021-ben?",
+      "a": [
+        "Meta",
+        "Alphabet",
+        "Nexus",
+        "Prisma"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A névváltás a virtuális terekre, a metaverzumra helyezett hangsúlyt jelezte.",
+      "t": "egyesülések"
+    },
+    {
+      "q": "Mi volt a Google anyavállalatának neve az átszervezés után?",
+      "a": [
+        "Alphabet",
+        "Meta",
+        "Orbit",
+        "Vertex"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Alphabet 2015-ben jött létre, hogy a keresőmotort és a többi projektet szétválassza.",
+      "t": "egyesülések"
+    },
+    {
+      "q": "Melyik cég termékét hívták eredetileg Backrubnak?",
+      "a": [
+        "Google",
+        "Yahoo",
+        "Amazon",
+        "eBay"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A keresőmotor első neve a visszamutató hivatkozások elemzésére utalt.",
+      "t": "korai évek"
+    },
+    {
+      "q": "Milyen terméket árult az Amazon a legelső években?",
+      "a": [
+        "Könyveket",
+        "Ruhákat",
+        "Elektronikát",
+        "Játékokat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cég 1995-ben online könyvesboltként indult, és csak később bővítette a kínálatát.",
+      "t": "korai évek"
+    },
+    {
+      "q": "Milyen üzletággal indult a Nokia a 19. században?",
+      "a": [
+        "Papírgyártással",
+        "Autógyártással",
+        "Rádiózással",
+        "Vasúttal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A finn cég egy papírmalomként kezdte, majd gumi- és kábelgyártáson át jutott a távközlésig.",
+      "t": "korai évek"
+    },
+    {
+      "q": "Milyen terméket gyártott a Samsung az alapításakor?",
+      "a": [
+        "Élelmiszert szállított és árult",
+        "Mobiltelefont",
+        "Televíziót",
+        "Hajót"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vállalat 1938-ban kereskedőcégként indult, főként szárított hallal és zöldséggel.",
+      "t": "korai évek"
+    },
+    {
+      "q": "Milyen termékkel kezdte a pályáját a Nintendo 1889-ben?",
+      "a": [
+        "Játékkártyákkal",
+        "Videójátékokkal",
+        "Rádiókkal",
+        "Kerékpárokkal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A cég hanafuda kártyák gyártásával indult, és csak az 1970-es években fordult az elektronikus játékok felé.",
+      "t": "korai évek"
+    },
+    {
+      "q": "Milyen üzletet vitt a Wrigley, mielőtt rágógumira váltott?",
+      "a": [
+        "Szappant árult",
+        "Cukrászdát vezetett",
+        "Nyomdát üzemeltetett",
+        "Teát importált"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A rágógumit eredetileg ajándékként adták a szappan mellé, majd az lett a fő termék.",
+      "t": "korai évek"
+    },
+    {
+      "q": "Melyik cég bukása lett a könyvpiac és a videókölcsönzés tanulságos példája a digitalizáció miatt?",
+      "a": [
+        "Blockbuster",
+        "Walmart",
+        "Ikea",
+        "Costco"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A videókölcsönző lánc nem állt át időben a streamingre, és 2010-ben csődvédelmet kért.",
+      "t": "kudarcok"
+    },
+    {
+      "q": "Melyik fényképészeti óriás jelentett csődöt 2012-ben, miután lekéste a digitális fordulatot?",
+      "a": [
+        "Kodak",
+        "Fujifilm",
+        "Nikon",
+        "Leica"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kodak feltalálta az első digitális fényképezőgépet, de a filmüzletét védve késett az átállással.",
+      "t": "kudarcok"
+    },
+    {
+      "q": "Melyik üdítőital-újítás lett a nyolcvanas évek egyik legismertebb marketingkudarca?",
+      "a": [
+        "A New Coke",
+        "A gyümölcsös sör",
+        "A koffeinmentes tea",
+        "A sós limonádé"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Coca-Cola 1985-ben megváltoztatta a receptet, de a fogyasztói tiltakozás miatt visszatért az eredetihez.",
+      "t": "kudarcok"
+    },
+    {
+      "q": "Melyik cég vezette be a futószalagos tömeggyártást az autóiparban?",
+      "a": [
+        "Ford",
+        "General Motors",
+        "Chrysler",
+        "Renault"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Ford 1913-as szerelőszalagja drasztikusan lecsökkentette a T-modell gyártási idejét.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Melyik svéd cég tette világszerte ismertté a lapraszerelt bútort?",
+      "a": [
+        "IKEA",
+        "H&M",
+        "Electrolux",
+        "Volvo"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A lapraszerelés csökkentette a szállítási költséget, és önösszeszerelős modellt hozott.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Melyik cég nevéhez köthető az első tömegpiacra szánt személyi számítógépek egyike, az 5150-es modell?",
+      "a": [
+        "IBM",
+        "Apple",
+        "Dell",
+        "Compaq"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az IBM PC 1981-ben jelent meg, és a nyílt architektúrája miatt sokan gyártottak vele kompatibilis gépet.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Melyik cég mutatta be a hordozható kazettás lejátszót Walkman néven?",
+      "a": [
+        "Sony",
+        "Panasonic",
+        "Philips",
+        "Sharp"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1979-es Walkman a személyes zenehallgatás első igazán elterjedt eszköze volt.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Melyik két cég fejlesztette közösen a CD-formátumot?",
+      "a": [
+        "Sony és Philips",
+        "Sony és Sharp",
+        "Philips és Grundig",
+        "Toshiba és JVC"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A két vállalat 1982-ben állapodott meg a közös műszaki szabványról.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Ki építette világméretű franchise-lánccá a McDonald testvérek éttermét?",
+      "a": [
+        "Ray Kroc",
+        "Harland Sanders",
+        "Dave Thomas",
+        "James McLamore"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kroc franchise-ügynökként csatlakozott, majd megvásárolta a nevet, és globális láncot épített.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Ki alapította a Microsoftot Paul Allennel együtt?",
+      "a": [
+        "Bill Gates",
+        "Steve Ballmer",
+        "Steve Jobs",
+        "Larry Ellison"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A két iskolatárs 1975-ben kezdett programnyelvi értelmezőt fejleszteni mikroszámítógépekre.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Ki volt az Apple társalapítója Steve Jobs és Ronald Wayne mellett?",
+      "a": [
+        "Steve Wozniak",
+        "Tim Cook",
+        "Jony Ive",
+        "Mike Markkula"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Wozniak tervezte az Apple I és Apple II gépek áramköreit.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Kik indították el a Google keresőt egyetemi kutatásból?",
+      "a": [
+        "Larry Page és Sergey Brin",
+        "Steve Chen és Chad Hurley",
+        "Jerry Yang és David Filo",
+        "Evan Williams és Biz Stone"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A két Stanford-diák a hivatkozásokat rangsoroló PageRank algoritmust fejlesztette ki.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Melyik márkát alapította Gabrielle Chanel?",
+      "a": [
+        "Chanel",
+        "Dior",
+        "Givenchy",
+        "Balmain"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Coco Chanel 1910-ben nyitotta első kalapszalonját Párizsban.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Melyik cég vezette be először a mai értelemben vett hűségkártyás pontgyűjtést a légitársaságok között?",
+      "a": [
+        "American Airlines",
+        "Lufthansa",
+        "Air France",
+        "British Airways"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az AAdvantage program 1981-ben indult, és mintát adott a törzsutasrendszereknek.",
+      "t": "üzleti modellek"
+    },
+    {
+      "q": "Mit jelent a franchise üzleti modell lényege?",
+      "a": [
+        "A márkanév és a működési modell bérbeadását",
+        "A cég részvényeinek szétosztását",
+        "A dolgozók tulajdonossá tételét",
+        "Az árak állami szabályozását"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A franchise-átvevő díjat fizet a névhasználatért és a kidolgozott működési rendszerért.",
+      "t": "üzleti modellek"
+    },
+    {
+      "q": "Mit takar a borotva és penge néven ismert üzleti modell?",
+      "a": [
+        "Az alapterméket olcsón adják, az utántöltőn keresnek",
+        "Mindent egy áron adnak",
+        "Csak nagy tételben árulnak",
+        "Ingyen adják a terméket reklámért"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A nyomtató és a patron, illetve a konzol és a játék is ezt a logikát követi.",
+      "t": "üzleti modellek"
+    },
+    {
+      "q": "Mit jelent a freemium kifejezés?",
+      "a": [
+        "Alapszolgáltatás ingyen, a bővítés fizetős",
+        "Minden funkció ingyenes",
+        "Csak előfizetéssel használható",
+        "Egyszeri díjas örökös licenc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A modell nagy felhasználói bázist épít, és abból konvertál fizető előfizetőket.",
+      "t": "üzleti modellek"
+    },
+    {
+      "q": "Melyik magyar márka lett a hazai porcelángyártás legismertebb neve?",
+      "a": [
+        "Herendi",
+        "Zsolnay",
+        "Ajka",
+        "Hollóházi"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Herendi Porcelánmanufaktúra 1826 óta működik, és kézi festésű darabjairól ismert.",
+      "t": "magyar márkák"
+    },
+    {
+      "q": "Melyik magyar gyár készítette az egykor világszerte exportált Ikarus autóbuszokat?",
+      "a": [
+        "Ikarus",
+        "Rába",
+        "Csepel",
+        "Ganz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gyár a hetvenes-nyolcvanas években évente több tízezer buszt gyártott, főleg keleti exportra.",
+      "t": "magyar márkák"
+    },
+    {
+      "q": "Melyik magyar találmányhoz köthető a Rubik név?",
+      "a": [
+        "A bűvös kockához",
+        "A golyóstollhoz",
+        "A telefonközponthoz",
+        "A gyufához"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Rubik Ernő 1974-ben tervezte meg a forgatható kirakós játékot.",
+      "t": "magyar márkák"
+    },
+    {
+      "q": "Melyik magyar vállalat lett a hazai gyógyszeripar egyik legrégebbi, ma is működő szereplője?",
+      "a": [
+        "Richter Gedeon",
+        "Egis",
+        "Sanofi",
+        "Teva"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Richter Gedeon 1901-ben alapította a gyárat, amely ma is Budapesten működik.",
+      "t": "magyar márkák"
+    },
+    {
+      "q": "Melyik magyar üveg- és kerámiagyár lett híres eozin mázas darabjairól?",
+      "a": [
+        "Zsolnay",
+        "Herendi",
+        "Ajka",
+        "Salgó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pécsi gyár eozin technikája fémes csillogású, színjátszó felületet ad.",
       "t": "magyar márkák"
     }
   ]

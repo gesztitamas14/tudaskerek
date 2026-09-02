@@ -1291,20 +1291,6 @@
       "s": "http://www.wikidata.org/entity/Q214313"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: Lille OSC?",
-      "a": [
-        "Franciaország",
-        "Észtország",
-        "Észak-Macedónia",
-        "Spanyolország"
-      ],
-      "c": 0,
-      "d": "medium",
-      "e": "Lille OSC Franciaország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q19516"
-    },
-    {
       "q": "Melyik sportágban ismert Thomas Muster?",
       "a": [
         "tenisz",
@@ -1317,20 +1303,6 @@
       "e": "Thomas Muster sportága: tenisz.",
       "t": "sportolók és sportágak",
       "s": "http://www.wikidata.org/entity/Q219966"
-    },
-    {
-      "q": "Melyik országban játszik a következő labdarúgóklub: Toulouse FC?",
-      "a": [
-        "Németország",
-        "Szaúd-Arábia",
-        "Franciaország",
-        "Észak-Macedónia"
-      ],
-      "c": 2,
-      "d": "medium",
-      "e": "Toulouse FC Franciaország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q19518"
     },
     {
       "q": "Melyik sportágban ismert Jacques Anquetil?",
@@ -1347,20 +1319,6 @@
       "s": "http://www.wikidata.org/entity/Q221001"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: AS Saint-Étienne?",
-      "a": [
-        "Olaszország",
-        "Luxemburg",
-        "Szlovákia",
-        "Franciaország"
-      ],
-      "c": 3,
-      "d": "medium",
-      "e": "AS Saint-Étienne Franciaország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q19521"
-    },
-    {
       "q": "Melyik sportágban ismert Jackie Robinson?",
       "a": [
         "amerikaifutball",
@@ -1373,20 +1331,6 @@
       "e": "Jackie Robinson sportága: könnyűatlétika.",
       "t": "sportolók és sportágak",
       "s": "http://www.wikidata.org/entity/Q221048"
-    },
-    {
-      "q": "Melyik országban játszik a következő labdarúgóklub: AS Nancy-Lorraine?",
-      "a": [
-        "Észak-Macedónia",
-        "Franciaország",
-        "Olaszország",
-        "Csehország"
-      ],
-      "c": 1,
-      "d": "medium",
-      "e": "AS Nancy-Lorraine Franciaország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q19523"
     },
     {
       "q": "Melyik sportágban ismert Kateřina Emmons?",
@@ -1403,20 +1347,6 @@
       "s": "http://www.wikidata.org/entity/Q221185"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: R. Charleroi SC?",
-      "a": [
-        "Málta",
-        "Belgium",
-        "Oroszország",
-        "Észtország"
-      ],
-      "c": 1,
-      "d": "medium",
-      "e": "R. Charleroi SC Belgium klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q19585"
-    },
-    {
       "q": "Melyik sportágban ismert René Lacoste?",
       "a": [
         "szertorna",
@@ -1429,20 +1359,6 @@
       "e": "René Lacoste sportága: tenisz.",
       "t": "sportolók és sportágak",
       "s": "http://www.wikidata.org/entity/Q221454"
-    },
-    {
-      "q": "Melyik országban játszik a következő labdarúgóklub: FC Twente?",
-      "a": [
-        "Grúzia",
-        "Észtország",
-        "Hollandia",
-        "Szlovákia"
-      ],
-      "c": 2,
-      "d": "medium",
-      "e": "FC Twente Hollandia klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q19603"
     },
     {
       "q": "Melyik sportágban ismert Jim Thorpe?",
@@ -1459,20 +1375,6 @@
       "s": "http://www.wikidata.org/entity/Q221482"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: FC Internazionale Milano?",
-      "a": [
-        "Szlovénia",
-        "Kirgizisztán",
-        "Észtország",
-        "Olaszország"
-      ],
-      "c": 3,
-      "d": "medium",
-      "e": "FC Internazionale Milano Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q631"
-    },
-    {
       "q": "Melyik sportágban ismert Vaszilij Ivanovics Alekszejev?",
       "a": [
         "súlyemelés",
@@ -1485,20 +1387,6 @@
       "e": "Vaszilij Ivanovics Alekszejev sportága: súlyemelés.",
       "t": "sportolók és sportágak",
       "s": "http://www.wikidata.org/entity/Q225193"
-    },
-    {
-      "q": "Melyik országban játszik a következő labdarúgóklub: Olympique Lyonnais?",
-      "a": [
-        "Görögország",
-        "Kirgizisztán",
-        "Franciaország",
-        "Luxemburg"
-      ],
-      "c": 2,
-      "d": "medium",
-      "e": "Olympique Lyonnais Franciaország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q704"
     },
     {
       "q": "Melyik sportágban ismert Kovács István?",
@@ -1515,20 +1403,6 @@
       "s": "http://www.wikidata.org/entity/Q225271"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: Juventus FC?",
-      "a": [
-        "Mongólia",
-        "Görögország",
-        "Olaszország",
-        "Hollandia"
-      ],
-      "c": 2,
-      "d": "medium",
-      "e": "Juventus FC Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q1422"
-    },
-    {
       "q": "Melyik sportágban ismert Maria Mutola?",
       "a": [
         "könnyűatlétika",
@@ -1541,20 +1415,6 @@
       "e": "Maria Mutola sportága: könnyűatlétika.",
       "t": "sportolók és sportágak",
       "s": "http://www.wikidata.org/entity/Q228807"
-    },
-    {
-      "q": "Melyik országban játszik a következő labdarúgóklub: Unione Calcio Sampdoria?",
-      "a": [
-        "Szlovákia",
-        "Olaszország",
-        "Kirgizisztán",
-        "Törökország"
-      ],
-      "c": 1,
-      "d": "medium",
-      "e": "Unione Calcio Sampdoria Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q1457"
     },
     {
       "q": "Melyik sportágban ismert Dawn Fraser?",
@@ -1571,20 +1431,6 @@
       "s": "http://www.wikidata.org/entity/Q229040"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: A.C. Milan?",
-      "a": [
-        "Szlovénia",
-        "Uruguay",
-        "Kolumbia",
-        "Olaszország"
-      ],
-      "c": 3,
-      "d": "medium",
-      "e": "A.C. Milan Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q1543"
-    },
-    {
       "q": "Melyik sportágban ismert Fanny Blankers-Koen?",
       "a": [
         "kézilabda",
@@ -1599,312 +1445,537 @@
       "s": "http://www.wikidata.org/entity/Q229046"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: Atalanta BC?",
+      "q": "Hány gyűrű van az olimpiai zászlón?",
       "a": [
-        "Olaszország",
-        "Albánia",
-        "Oroszország",
-        "Hollandia"
+        "Öt",
+        "Négy",
+        "Hat",
+        "Hét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az öt gyűrű az öt lakott földrészt jelképezi, összefonódva az egységet.",
+      "t": "olimpia"
+    },
+    {
+      "q": "Melyik városban tartották az első modern nyári olimpiát 1896-ban?",
+      "a": [
+        "Athénban",
+        "Párizsban",
+        "Londonban",
+        "Rómában"
       ],
       "c": 0,
       "d": "medium",
-      "e": "Atalanta BC Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q1886"
+      "e": "Pierre de Coubertin javaslatára az ókori hagyomány miatt esett a választás Athénra.",
+      "t": "olimpia"
     },
     {
-      "q": "Melyik sportágban ismert Věra Čáslavská?",
+      "q": "Milyen gyakran rendezik a nyári olimpiát?",
       "a": [
-        "Formula–1",
-        "alpesisí",
-        "ejtőernyőzés",
-        "szertorna"
+        "Négyévente",
+        "Kétévente",
+        "Ötévente",
+        "Háromévente"
       ],
-      "c": 3,
-      "d": "medium",
-      "e": "Věra Čáslavská sportága: szertorna.",
-      "t": "sportolók és sportágak",
-      "s": "http://www.wikidata.org/entity/Q229503"
+      "c": 0,
+      "d": "easy",
+      "e": "A téli és a nyári játékokat 1994 óta egymáshoz képest két év eltéréssel tartják.",
+      "t": "olimpia"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: Bologna FC 1909?",
+      "q": "Melyik sportág szerepelt az ókori olümpiai játékok első versenyszámaként?",
       "a": [
-        "Németország",
-        "Franciaország",
-        "Tunézia",
-        "Olaszország"
+        "A futás",
+        "A birkózás",
+        "A diszkoszvetés",
+        "A kocsihajtás"
       ],
-      "c": 3,
-      "d": "medium",
-      "e": "Bologna FC 1909 Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q1893"
+      "c": 0,
+      "d": "hard",
+      "e": "Az egy stadionhossznyi futás, a sztadion volt a legrégebbi szám; innen ered a stadion szó.",
+      "t": "olimpia"
     },
     {
-      "q": "Melyik sportágban ismert Valentina Vezzali?",
+      "q": "Mit jelöl a paralimpia?",
       "a": [
-        "szertorna",
-        "vívás",
-        "baseball",
-        "sakk"
+        "Fogyatékossággal élő sportolók olimpiai játékait",
+        "Az ifjúsági olimpiát",
+        "A téli olimpia egyik szakágát",
+        "Az olimpia előtti selejtezőt"
       ],
-      "c": 1,
-      "d": "medium",
-      "e": "Valentina Vezzali sportága: vívás.",
-      "t": "sportolók és sportágak",
-      "s": "http://www.wikidata.org/entity/Q229967"
+      "c": 0,
+      "d": "easy",
+      "e": "Az első paralimpiát 1960-ban Rómában rendezték; a név a görög „para”, azaz mellett szóból jön.",
+      "t": "olimpia"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: Cagliari Calcio?",
+      "q": "Melyik magyar sportág hozta a legtöbb olimpiai aranyat az ország történetében?",
       "a": [
-        "Észtország",
-        "Oroszország",
-        "Törökország",
-        "Olaszország"
+        "A vívás",
+        "Az úszás",
+        "A kajak-kenu",
+        "A birkózás"
       ],
-      "c": 3,
-      "d": "medium",
-      "e": "Cagliari Calcio Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q1900"
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar vívás közel negyven olimpiai aranyat szerzett, főleg kardban.",
+      "t": "olimpia"
     },
     {
-      "q": "Melyik sportágban ismert Simona Halep?",
+      "q": "Hány perc egy kosárlabda-mérkőzés játékideje a FIBA szabályai szerint?",
       "a": [
-        "tenisz",
-        "ökölvívás",
-        "vívás",
-        "labdarúgás"
+        "Negyven perc",
+        "Negyvennyolc perc",
+        "Hatvan perc",
+        "Harminc perc"
       ],
       "c": 0,
       "d": "medium",
-      "e": "Simona Halep sportága: tenisz.",
-      "t": "sportolók és sportágak",
-      "s": "http://www.wikidata.org/entity/Q230156"
+      "e": "Négy tízperces negyed; az NBA-ben ezzel szemben négy tizenkét perces negyedet játszanak.",
+      "t": "szabályok"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: Catania FC?",
+      "q": "Mennyi ideig birtokolhatja a támadó csapat a labdát a FIBA-kosárlabdában egy támadás alatt?",
       "a": [
-        "Mongólia",
-        "Etiópia",
-        "Görögország",
-        "Olaszország"
+        "24 másodpercig",
+        "30 másodpercig",
+        "20 másodpercig",
+        "35 másodpercig"
       ],
-      "c": 3,
-      "d": "medium",
-      "e": "Catania FC Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q2018"
+      "c": 0,
+      "d": "hard",
+      "e": "Ha a labda a gyűrűt éri, az óra 14 másodpercre áll vissza a támadó lepattanó után.",
+      "t": "szabályok"
     },
     {
-      "q": "Melyik sportágban ismert Shane Gould?",
+      "q": "Hány szettet kell megnyerni egy férfi Grand Slam-tenisz mérkőzésen a győzelemhez?",
       "a": [
-        "versenyúszás",
-        "cyclocross",
-        "könnyűatlétika",
-        "gyorskorcsolya"
+        "Hármat",
+        "Kettőt",
+        "Négyet",
+        "Ötöt"
       ],
       "c": 0,
       "d": "medium",
-      "e": "Shane Gould sportága: versenyúszás.",
-      "t": "sportolók és sportágak",
-      "s": "http://www.wikidata.org/entity/Q231374"
+      "e": "A férfiaknál öt szettből három kell; a nőknél háromból kettő.",
+      "t": "szabályok"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: AC ChievoVerona?",
+      "q": "Mit jelent a teniszben a love szó az eredményjelzésben?",
       "a": [
-        "Németország",
-        "Törökország",
-        "Spanyolország",
-        "Olaszország"
-      ],
-      "c": 3,
-      "d": "medium",
-      "e": "AC ChievoVerona Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q2037"
-    },
-    {
-      "q": "Melyik sportágban ismert Hugo Koblet?",
-      "a": [
-        "autóversenyzés",
-        "országútikerékpár-versenyzés",
-        "gyorskorcsolya",
-        "Formula–1"
-      ],
-      "c": 1,
-      "d": "medium",
-      "e": "Hugo Koblet sportága: országútikerékpár-versenyzés.",
-      "t": "sportolók és sportágak",
-      "s": "http://www.wikidata.org/entity/Q123548"
-    },
-    {
-      "q": "Melyik országban játszik a következő labdarúgóklub: ACF Fiorentina?",
-      "a": [
-        "Olaszország",
-        "Luxemburg",
-        "Észak-Macedónia",
-        "Brazília"
+        "Nulla pontot",
+        "Egy pontot",
+        "Döntetlent",
+        "Előnyt"
       ],
       "c": 0,
       "d": "medium",
-      "e": "ACF Fiorentina Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q2052"
+      "e": "Egy magyarázat szerint a francia l'œuf, azaz tojás szóból származik, ami a nulla alakjára utal.",
+      "t": "szabályok"
     },
     {
-      "q": "Melyik sportágban ismert Anatolij Jevgenyjevics Karpov?",
+      "q": "Hány kör egy hagyományos boxmeccs a profi világbajnoki címért?",
       "a": [
-        "sakk",
-        "golf",
-        "Ungarn",
-        "krikett"
+        "Tizenkettő",
+        "Tíz",
+        "Tizenöt",
+        "Nyolc"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1988-ban csökkentették tizenötről tizenkettőre, biztonsági okokból.",
+      "t": "szabályok"
+    },
+    {
+      "q": "Mit jelent a röplabdában a blokk?",
+      "a": [
+        "A hálónál felnyúlva megállítják az ütést",
+        "A saját térfélen mentik a labdát",
+        "Nyitáskor takarják a játékost",
+        "Cserét jeleznek be"
       ],
       "c": 0,
       "d": "medium",
-      "e": "Anatolij Jevgenyjevics Karpov sportága: sakk.",
-      "t": "sportolók és sportágak",
-      "s": "http://www.wikidata.org/entity/Q131674"
+      "e": "A blokkérintés nem számít bele a csapat három érintésébe.",
+      "t": "szabályok"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: Genoa CFC?",
+      "q": "Mennyi egy vízilabda-mérkőzés játékrészeinek száma?",
       "a": [
-        "Olaszország",
-        "Észak-Macedónia",
-        "Hollandia",
-        "Kirgizisztán"
+        "Négy",
+        "Kettő",
+        "Három",
+        "Öt"
       ],
       "c": 0,
       "d": "medium",
-      "e": "Genoa CFC Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q2074"
+      "e": "Négy nyolcperces negyedet játszanak; a magyar válogatott a sportág legeredményesebb csapata.",
+      "t": "szabályok"
     },
     {
-      "q": "Melyik sportágban ismert Marat Mihajlovics Szafin?",
+      "q": "Hány sávos egy olimpiai méretű versenyuszoda?",
       "a": [
-        "szertorna",
-        "vívás",
-        "síugrás",
-        "tenisz"
+        "Tíz sávos, ebből nyolcban versenyeznek",
+        "Hat sávos",
+        "Négy sávos",
+        "Tizenkét sávos"
       ],
-      "c": 3,
-      "d": "medium",
-      "e": "Marat Mihajlovics Szafin sportága: tenisz.",
-      "t": "sportolók és sportágak",
-      "s": "http://www.wikidata.org/entity/Q133318"
+      "c": 0,
+      "d": "hard",
+      "e": "A két szélső sáv a hullámok elnyelését szolgálja; a medence 50 méter hosszú.",
+      "t": "szabályok"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: SS Lazio?",
+      "q": "Mit jelent a labdarúgásban a les, vagyis az offside?",
       "a": [
-        "Törökország",
-        "Szlovákia",
-        "Szaúd-Arábia",
-        "Olaszország"
-      ],
-      "c": 3,
-      "d": "medium",
-      "e": "SS Lazio Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q2609"
-    },
-    {
-      "q": "Melyik sportágban ismert Ilmari Salminen?",
-      "a": [
-        "könnyűatlétika",
-        "amerikaifutball",
-        "ejtőernyőzés",
-        "cyclocross"
+        "A támadó az utolsó védő előtt van a labda átadásakor",
+        "A kapus kilép a tizenhatosból",
+        "A labda elhagyja a pályát",
+        "A játékos kétszer ér a labdához"
       ],
       "c": 0,
       "d": "medium",
-      "e": "Ilmari Salminen sportága: könnyűatlétika.",
-      "t": "sportolók és sportágak",
-      "s": "http://www.wikidata.org/entity/Q133737"
+      "e": "A szabály célja, hogy a támadó ne várakozhasson a kapu előtt a védelem mögött.",
+      "t": "szabályok"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: SSC Napoli?",
+      "q": "Mekkora egy szabályos maratoni futás hossza?",
       "a": [
-        "Szlovénia",
-        "Olaszország",
-        "Szlovákia",
-        "Szaúd-Arábia"
-      ],
-      "c": 1,
-      "d": "medium",
-      "e": "SSC Napoli Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q2641"
-    },
-    {
-      "q": "Melyik sportágban ismert Lukas Podolski?",
-      "a": [
-        "ökölvívás",
-        "ejtőernyőzés",
-        "Formula–1",
-        "labdarúgás"
-      ],
-      "c": 3,
-      "d": "medium",
-      "e": "Lukas Podolski sportága: labdarúgás.",
-      "t": "sportolók és sportágak",
-      "s": "http://www.wikidata.org/entity/Q134976"
-    },
-    {
-      "q": "Melyik országban játszik a következő labdarúgóklub: Palermo FC?",
-      "a": [
-        "Etiópia",
-        "Olaszország",
-        "Észak-Macedónia",
-        "Uruguay"
-      ],
-      "c": 1,
-      "d": "medium",
-      "e": "Palermo FC Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q2674"
-    },
-    {
-      "q": "Melyik sportágban ismert Laila Schou Nilsen?",
-      "a": [
-        "síugrás",
-        "ökölvívás",
-        "vívás",
-        "súlyemelés"
+        "42,195 kilométer",
+        "40 kilométer",
+        "45 kilométer",
+        "38 kilométer"
       ],
       "c": 0,
       "d": "medium",
-      "e": "Laila Schou Nilsen sportága: síugrás.",
-      "t": "sportolók és sportágak",
-      "s": "http://www.wikidata.org/entity/Q139283"
+      "e": "A furcsa szám az 1908-as londoni olimpia útvonalából maradt meg, a királyi lodzsáig mérve.",
+      "t": "atlétika, futás"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: Parma Calcio 1913?",
+      "q": "Melyik atlétikai szám tartozik a tízpróbához, de a hétpróbához nem?",
       "a": [
-        "Olaszország",
-        "Kirgizisztán",
-        "Csehország",
-        "Görögország"
+        "A rúdugrás",
+        "A súlylökés",
+        "A távolugrás",
+        "A magasugrás"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A női hétpróba nem tartalmaz rúdugrást, diszkoszvetést és 1500 métert; helyette 800 méter van.",
+      "t": "atlétika, futás"
+    },
+    {
+      "q": "Hány gátat kell átugrani a 110 méteres gátfutásban?",
+      "a": [
+        "Tízet",
+        "Nyolcat",
+        "Tizenkettőt",
+        "Hatot"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A nőknél 100 méteren szintén tíz gát van, de alacsonyabbak.",
+      "t": "atlétika, futás"
+    },
+    {
+      "q": "Mit nevezünk a futásban tempófutásnak?",
+      "a": [
+        "Egyenletes, versenyszerű iramú edzést",
+        "Rövid sprintet",
+        "Lassú regeneráló kocogást",
+        "Emelkedős futást"
       ],
       "c": 0,
       "d": "medium",
-      "e": "Parma Calcio 1913 Olaszország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q2693"
+      "e": "Az angol tempo run az anaerob küszöb közelében tartott iramot jelenti.",
+      "t": "atlétika, futás"
     },
     {
-      "q": "Melyik országban játszik a következő labdarúgóklub: VfB Stuttgart?",
+      "q": "Milyen sorrendben követik egymást a triatlon szakaszai?",
       "a": [
-        "Etiópia",
-        "Spanyolország",
-        "Ukrajna",
-        "Németország"
+        "Úszás, kerékpár, futás",
+        "Futás, úszás, kerékpár",
+        "Kerékpár, futás, úszás",
+        "Úszás, futás, kerékpár"
       ],
-      "c": 3,
+      "c": 0,
       "d": "medium",
-      "e": "VfB Stuttgart Németország klubja.",
-      "t": "labdarúgóklubok",
-      "s": "http://www.wikidata.org/entity/Q4512"
+      "e": "Az olimpiai távon 1,5 kilométer úszás, 40 kilométer kerékpár és 10 kilométer futás.",
+      "t": "atlétika, futás"
+    },
+    {
+      "q": "Mekkora egy Ironman verseny futószakasza?",
+      "a": [
+        "Egy teljes maraton",
+        "Fél maraton",
+        "Tíz kilométer",
+        "Húsz kilométer"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Ironman: 3,86 kilométer úszás, 180,25 kilométer kerékpár és 42,195 kilométer futás.",
+      "t": "atlétika, futás"
+    },
+    {
+      "q": "Melyik kerékpáros körverseny a legrégebbi és legnagyobb presztízsű?",
+      "a": [
+        "A Tour de France",
+        "A Giro d'Italia",
+        "A Vuelta a España",
+        "A Paris-Roubaix"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1903 óta rendezik; a vezető sárga trikót visel, mert az alapító újság sárga papírra nyomott.",
+      "t": "csapatsportok, versenyek"
+    },
+    {
+      "q": "Mit jelöl a sárga trikó a Tour de France-on?",
+      "a": [
+        "Az összetettben vezetőt",
+        "A hegyi pontverseny vezetőjét",
+        "A legjobb sprintert",
+        "A legjobb újoncot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pöttyös a hegyek királya, a zöld a sprinter, a fehér a legjobb fiatal versenyző trikója.",
+      "t": "csapatsportok, versenyek"
+    },
+    {
+      "q": "Hány játékos van egyszerre a jégen egy jégkorongcsapatból, a kapussal együtt?",
+      "a": [
+        "Hat",
+        "Öt",
+        "Hét",
+        "Négy"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Öt játékos és egy kapus; kiállításnál emberhátrányban játszanak.",
+      "t": "csapatsportok, versenyek"
+    },
+    {
+      "q": "Melyik sportágban használnak ütőt, korongot és jeget?",
+      "a": [
+        "A jégkorongban",
+        "A curlingben",
+        "A gyorskorcsolyában",
+        "A műkorcsolyában"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A curlingben követ csúsztatnak és söprűvel irányítják, nem ütővel játszanak.",
+      "t": "csapatsportok, versenyek"
+    },
+    {
+      "q": "Hány játékos van egy rögbicsapatban a szövetségi rögbiben, azaz a rugby unionban?",
+      "a": [
+        "Tizenöt",
+        "Tizenhárom",
+        "Tizenegy",
+        "Kilenc"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A rugby league ezzel szemben tizenhárom fővel játszik.",
+      "t": "csapatsportok, versenyek"
+    },
+    {
+      "q": "Mit nevezünk a baseballban home runnak?",
+      "a": [
+        "Az elütött labda a pályán kívülre száll, a futó körbeér",
+        "A dobó háromszor hibáz",
+        "A futó ellopja a bázist",
+        "A csapat lecserél mindenkit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ha a bázisokon is állnak játékosok, mindenki hazaérhet – ez a grand slam, négy pont.",
+      "t": "csapatsportok, versenyek"
+    },
+    {
+      "q": "Melyik két csapat játszik a Superbowlon?",
+      "a": [
+        "Az AFC és az NFC bajnoka",
+        "A két legjobb egyetemi csapat",
+        "Az előző év két döntőse",
+        "A liga két legrégebbi klubja"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az amerikaifutball-liga két főcsoportjának győztese találkozik a döntőben.",
+      "t": "csapatsportok, versenyek"
+    },
+    {
+      "q": "Melyik sportágban osztanak zöld zakót a győztesnek?",
+      "a": [
+        "A golfban, a Masters tornán",
+        "A teniszben, Wimbledonban",
+        "A vitorlázásban",
+        "A lóversenyzésben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az augustai Masters hagyománya 1949 óta; a győztes egy évig őrizheti a zakót.",
+      "t": "csapatsportok, versenyek"
+    },
+    {
+      "q": "Hány lyuk van egy szabályos golfpályán?",
+      "a": [
+        "Tizennyolc",
+        "Kilenc",
+        "Huszonnégy",
+        "Tizenkettő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tizennyolc lyuk a skót St Andrews pálya hagyományából lett világstandard.",
+      "t": "csapatsportok, versenyek"
+    },
+    {
+      "q": "Mit jelent a golfban a birdie?",
+      "a": [
+        "Eggyel a par alatti eredményt",
+        "Eggyel a par feletti eredményt",
+        "A lyuk első ütésből elért találatát",
+        "A pálya legnehezebb lyukát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az eagle kettővel, az albatrosz hárommal a par alatt van; a bogey eggyel felette.",
+      "t": "csapatsportok, versenyek"
+    },
+    {
+      "q": "Melyik magyar csapatsport hozta a legtöbb világbajnoki címet az országnak?",
+      "a": [
+        "A vízilabda",
+        "A kézilabda",
+        "A labdarúgás",
+        "A kosárlabda"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar férfi vízilabda-válogatott a sportág legeredményesebb csapata a világon.",
+      "t": "csapatsportok, versenyek"
+    },
+    {
+      "q": "Melyik évben rendezték Magyarországon az első Forma-1-es futamot?",
+      "a": [
+        "1986-ban",
+        "1976-ban",
+        "1996-ban",
+        "1990-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Hungaroringen 1986. augusztus 10-én futották az első Magyar Nagydíjat, Nelson Piquet győzött.",
+      "t": "csapatsportok, versenyek"
+    },
+    {
+      "q": "Mit jelez a Forma-1-ben a sakktáblás zászló?",
+      "a": [
+        "A verseny végét",
+        "A verseny megszakítását",
+        "A biztonsági autó pályára állását",
+        "Az előzési tilalmat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A piros zászló a megszakítást, a sárga a veszélyt, a kék az előzésre készülő autót jelzi.",
+      "t": "csapatsportok, versenyek"
+    },
+    {
+      "q": "Melyik sportág olimpiai formájában van kata és kumite versenyszám?",
+      "a": [
+        "A karate",
+        "A cselgáncs",
+        "A taekwondo",
+        "A birkózás"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kata a formagyakorlat, a kumite a küzdelem; a karate 2021-ben szerepelt először olimpián.",
+      "t": "küzdősportok"
+    },
+    {
+      "q": "Milyen színű a legmagasabb fokozatot jelző öv a cselgáncsban a hagyományos rendszerben?",
+      "a": [
+        "A fekete, illetve a legfelső fokoknál piros-fehér",
+        "A fehér",
+        "A kék",
+        "A zöld"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 9. és 10. danhoz vörös öv is tartozik, de sokan a feketét viselik tovább.",
+      "t": "küzdősportok"
+    },
+    {
+      "q": "Melyik magyar sportoló nyert olimpiai aranyat cselgáncsban 1992-ben?",
+      "a": [
+        "Kovács Antal",
+        "Csák Ibolya",
+        "Wichmann Tamás",
+        "Repka Attila"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kovács Antal Barcelonában, félnehézsúlyban lett olimpiai bajnok.",
+      "t": "küzdősportok"
+    },
+    {
+      "q": "Hány fő súlycsoportban versenyeznek az olimpiai birkózásban stílusonként?",
+      "a": [
+        "Hatban",
+        "Négyben",
+        "Nyolcban",
+        "Tízben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kötöttfogás és a szabadfogás egyaránt hat súlycsoportot használ a mai olimpiai programban.",
+      "t": "küzdősportok"
+    },
+    {
+      "q": "Mit jelent a vívásban a tus?",
+      "a": [
+        "Az érvényes találatot",
+        "A támadás megkezdését",
+        "A pást szélének elérését",
+        "A szabálytalanságot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tőrnél és a párbajtőrnél szúrni, a kardnál vágni is lehet.",
+      "t": "küzdősportok"
+    },
+    {
+      "q": "Melyik vívófegyverrel lehet a teljes testre találatot elérni?",
+      "a": [
+        "A párbajtőrrel",
+        "A tőrrel",
+        "A karddal",
+        "Mindhárommal"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tőrnél csak a törzs, a kardnál a derék fölötti rész érvényes; a párbajtőrnél az egész test.",
+      "t": "küzdősportok"
+    },
+    {
+      "q": "Mit jelent az ökölvívásban a knockout, azaz a kiütés?",
+      "a": [
+        "A padlóra került versenyző nem folytatja tíz másodpercen belül",
+        "A bíró leállítja a mérkőzést pontozással",
+        "A versenyző feladja a sarokban",
+        "A mérkőzés döntetlenre áll"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A technikai kiütést a bíró vagy az orvos mondja ki, ha a versenyző nem védheti magát.",
+      "t": "küzdősportok"
     }
   ]
 }

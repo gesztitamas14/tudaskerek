@@ -129,90 +129,6 @@
       "s": "http://www.wikidata.org/entity/Q295859"
     },
     {
-      "q": "Melyik országban nemzeti ünnep a következő: Yom HaShoah?",
-      "a": [
-        "Bolívia",
-        "Pakisztán",
-        "Brazília",
-        "Izrael"
-      ],
-      "c": 3,
-      "d": "hard",
-      "e": "Yom HaShoah Izrael ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q309530"
-    },
-    {
-      "q": "Melyik országban nemzeti ünnep a következő: Koningsdag?",
-      "a": [
-        "Málta",
-        "Hollandia",
-        "Indonézia",
-        "Spanyolország"
-      ],
-      "c": 1,
-      "d": "hard",
-      "e": "Koningsdag Hollandia ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q333016"
-    },
-    {
-      "q": "Melyik országban nemzeti ünnep a következő: Őszközép ünnep?",
-      "a": [
-        "Kína",
-        "Grúzia",
-        "Izrael",
-        "Malajzia"
-      ],
-      "c": 0,
-      "d": "hard",
-      "e": "Őszközép ünnep Kína ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q379519"
-    },
-    {
-      "q": "Melyik országban nemzeti ünnep a következő: Függetlenség napja?",
-      "a": [
-        "Izland",
-        "Ukrajna",
-        "Németország",
-        "Finnország"
-      ],
-      "c": 3,
-      "d": "hard",
-      "e": "Függetlenség napja Finnország ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q419595"
-    },
-    {
-      "q": "Melyik országban nemzeti ünnep a következő: Statehood Day?",
-      "a": [
-        "Észak-Macedónia",
-        "Franciaország",
-        "Horvátország",
-        "Észak-Ciprus"
-      ],
-      "c": 2,
-      "d": "hard",
-      "e": "Statehood Day Horvátország ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q449367"
-    },
-    {
-      "q": "Melyik országban nemzeti ünnep a következő: Matariki?",
-      "a": [
-        "Új-Zéland",
-        "Málta",
-        "Izland",
-        "Thaiföld"
-      ],
-      "c": 0,
-      "d": "hard",
-      "e": "Matariki Új-Zéland ünnepe.",
-      "t": "nemzeti ünnepek",
-      "s": "http://www.wikidata.org/entity/Q455596"
-    },
-    {
       "q": "Melyik nap Magyarországon az államalapítás ünnepe?",
       "a": [
         "Augusztus 20.",
@@ -666,6 +582,474 @@
       "d": "medium",
       "e": "Magyarországon 1925 óta ünneplik; sok országban május második vasárnapján tartják.",
       "t": "szokások, hagyományok"
+    },
+    {
+      "q": "Melyik hónapban tartják Magyarországon az államalapítás ünnepét?",
+      "a": [
+        "Augusztusban",
+        "Októberben",
+        "Márciusban",
+        "Júniusban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az augusztus 20-i ünnep Szent István királyra és az államalapításra emlékezik.",
+      "t": "magyar állami ünnepek"
+    },
+    {
+      "q": "Melyik eseményre emlékezik a magyar október 23-i nemzeti ünnep?",
+      "a": [
+        "Az 1956-os forradalomra",
+        "Az 1848-as szabadságharcra",
+        "A honfoglalásra",
+        "A trianoni békére"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1956. október 23-án kezdődött a forradalom, és ezen a napon kiáltották ki 1989-ben a köztársaságot.",
+      "t": "magyar állami ünnepek"
+    },
+    {
+      "q": "Melyik évszakra esik a magyar március 15-i nemzeti ünnep?",
+      "a": [
+        "Tavaszra",
+        "Nyárra",
+        "Őszre",
+        "Télre"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tavaszi ünnep az 1848-as pesti forradalom kitörésének napja.",
+      "t": "magyar állami ünnepek"
+    },
+    {
+      "q": "Milyen jelképes virágot szokás viselni március 15-én?",
+      "a": [
+        "Kokárdát",
+        "Rozmaringot",
+        "Búzavirágot",
+        "Tulipánt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A nemzeti színű kokárda a francia forradalom mintájára lett a magyar szabadság jelvénye.",
+      "t": "magyar állami ünnepek"
+    },
+    {
+      "q": "Milyen ételt szokás hagyományosan augusztus 20-án megszentelni?",
+      "a": [
+        "Az új kenyeret",
+        "A friss halat",
+        "Az első bort",
+        "A mézeskalácsot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az új búzából sült kenyér megszegése az aratás befejezését jelzi.",
+      "t": "magyar állami ünnepek"
+    },
+    {
+      "q": "Melyik keresztény ünnep Jézus születésére emlékezik?",
+      "a": [
+        "Karácsony",
+        "Húsvét",
+        "Pünkösd",
+        "Nagyböjt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A karácsonyt a nyugati kereszténység december 25-én tartja.",
+      "t": "keresztény ünnepek"
+    },
+    {
+      "q": "Melyik ünnep Jézus feltámadásának emléknapja?",
+      "a": [
+        "Húsvét",
+        "Karácsony",
+        "Pünkösd",
+        "Vízkereszt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A húsvét a kereszténység legfontosabb ünnepe, dátuma évente változik.",
+      "t": "keresztény ünnepek"
+    },
+    {
+      "q": "Mihez kötődik a pünkösd ünnepe a kereszténységben?",
+      "a": [
+        "A Szentlélek eljöveteléhez",
+        "Jézus születéséhez",
+        "A háromkirályok látogatásához",
+        "Mária mennybevételéhez"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pünkösd a húsvét utáni ötvenedik napon van, és az egyház születésnapjának is tartják.",
+      "t": "keresztény ünnepek"
+    },
+    {
+      "q": "Mi határozza meg a húsvét időpontját a nyugati egyházban?",
+      "a": [
+        "A tavaszi holdtölte",
+        "A téli napforduló",
+        "Egy fix naptári nap",
+        "A nyári napéjegyenlőség"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A húsvét a tavaszi napéjegyenlőség utáni első holdtöltét követő vasárnap.",
+      "t": "keresztény ünnepek"
+    },
+    {
+      "q": "Hány napig tart a keresztény nagyböjt hagyományosan?",
+      "a": [
+        "Negyven napig",
+        "Húsz napig",
+        "Hatvan napig",
+        "Kilencven napig"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nagyböjt hamvazószerdától húsvétig tart, a vasárnapokat nem számítva negyven nap.",
+      "t": "keresztény ünnepek"
+    },
+    {
+      "q": "Melyik ünnepen szokás Magyarországon a lányokat vízzel meglocsolni?",
+      "a": [
+        "Húsvéthétfőn",
+        "Karácsonykor",
+        "Pünkösdkor",
+        "Farsangkor"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A locsolkodás termékenységi rítusból ered, és a húsvéti népszokások közé tartozik.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Mit tesznek a hagyomány szerint a farsang végén, húshagyókedden?",
+      "a": [
+        "Elbúcsúztatják a telet",
+        "Fát ültetnek",
+        "Új kenyeret szegnek",
+        "Gyertyát szentelnek"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A busójárás és a kiszehajtás is a tél és a farsang jelképes elűzését szolgálja.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Melyik magyar városhoz köthető a nemzetközileg is ismert busójárás?",
+      "a": [
+        "Mohácshoz",
+        "Szegedhez",
+        "Debrecenhez",
+        "Győrhöz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mohácsi busójárás az UNESCO szellemi kulturális örökség listáján is szerepel.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Mit ünnepelnek a szüreti felvonulásokon?",
+      "a": [
+        "A szőlő betakarítását",
+        "A búza elvetését",
+        "A tél elmúlását",
+        "A tavaszi vetést"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szüreti bál a szőlőszedés befejezését zárja, jellemzően szeptemberben vagy októberben.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Milyen napon szokás a magyar hagyományban a Luca-búzát elültetni?",
+      "a": [
+        "December 13-án",
+        "November 1-jén",
+        "Január 6-án",
+        "Február 2-án"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Luca napján elvetett búza karácsonyra kizöldül, és a következő év termését jelzi.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Mit jelképez a mindenszentek és a halottak napja körüli gyertyagyújtás?",
+      "a": [
+        "Az elhunytak emlékét",
+        "A bő termést",
+        "Az új év kezdetét",
+        "A tavasz közeledtét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A november 1-jei és 2-ai megemlékezésen a sírokon gyújtott gyertya az örök világosság jele.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Melyik ünnepen viselnek jelmezt és gyűjtenek édességet a gyerekek az angolszász országokban?",
+      "a": [
+        "Halloweenkor",
+        "Hálaadáskor",
+        "Húsvétkor",
+        "Szilveszterkor"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az október 31-i szokás a kelta Samhain ünnepből fejlődött ki.",
+      "t": "nemzetközi ünnepek"
+    },
+    {
+      "q": "Melyik hónapban tartják az Egyesült Államokban a hálaadást?",
+      "a": [
+        "Novemberben",
+        "Októberben",
+        "Decemberben",
+        "Szeptemberben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az amerikai hálaadás november negyedik csütörtökje; Kanadában októberben van.",
+      "t": "nemzetközi ünnepek"
+    },
+    {
+      "q": "Melyik ünnepet nevezik a fények ünnepének a zsidó hagyományban?",
+      "a": [
+        "Hanukát",
+        "Pészahot",
+        "Purimot",
+        "Szukkotot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nyolc napon át gyújtott gyertyák a jeruzsálemi templom újraszentelésére emlékeztetnek.",
+      "t": "nemzetközi ünnepek"
+    },
+    {
+      "q": "Mit jelent a ramadán a muszlim hagyományban?",
+      "a": [
+        "A böjt hónapját",
+        "Az újév napját",
+        "A búcsújárás idejét",
+        "Az aratás ünnepét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hónap során a hívők napkeltétől napnyugtáig tartózkodnak az ételtől és az italtól.",
+      "t": "nemzetközi ünnepek"
+    },
+    {
+      "q": "Melyik ünnep zárja a ramadán böjti hónapját?",
+      "a": [
+        "Az íd al-fitr",
+        "A húsvét",
+        "A holi",
+        "A nouruz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A böjt megtörésének ünnepén közös imádság és ajándékozás is szokás.",
+      "t": "nemzetközi ünnepek"
+    },
+    {
+      "q": "Melyik ünnepen szórnak egymásra színes port Indiában?",
+      "a": [
+        "A holin",
+        "A dívalin",
+        "Az újévkor",
+        "A ramadánkor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tavaszi holi a színek és a jó győzelmének ünnepe.",
+      "t": "nemzetközi ünnepek"
+    },
+    {
+      "q": "Milyen jelképes cselekvés jellemzi a kínai újév megünneplését?",
+      "a": [
+        "A vörös borítékok ajándékozása",
+        "A tojásfestés",
+        "A gyertyaszentelés",
+        "A tökfaragás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vörös borítékba tett pénz szerencsét és jókívánságot jelent a következő évre.",
+      "t": "nemzetközi ünnepek"
+    },
+    {
+      "q": "Melyik állatokból álló körforgás szerint nevezik el a kínai éveket?",
+      "a": [
+        "Tizenkét állat szerint",
+        "Hét állat szerint",
+        "Húsz állat szerint",
+        "Négy állat szerint"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kínai zodiákus tizenkét éves ciklusban ismétlődik, például a Sárkány vagy a Nyúl évével.",
+      "t": "nemzetközi ünnepek"
+    },
+    {
+      "q": "Melyik napon köszöntik a világ nagy részén az új évet?",
+      "a": [
+        "Január 1-jén",
+        "December 24-én",
+        "Március 1-jén",
+        "Szeptember 1-jén"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Gergely-naptár szerinti év első napja a legelterjedtebb újévi dátum.",
+      "t": "évfordulók"
+    },
+    {
+      "q": "Mit ünnepel a május 1-je a legtöbb országban?",
+      "a": [
+        "A munka ünnepét",
+        "Az anyák napját",
+        "A gyermekek napját",
+        "A béke napját"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A dátum az 1886-os chicagói munkásmegmozdulások emlékét is őrzi.",
+      "t": "évfordulók"
+    },
+    {
+      "q": "Milyen napot tartanak világszerte április 22-én?",
+      "a": [
+        "A Föld napját",
+        "A víz világnapját",
+        "A béke napját",
+        "A könyv napját"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1970 óta tartott környezetvédelmi világnap a Föld védelmére hívja fel a figyelmet.",
+      "t": "évfordulók"
+    },
+    {
+      "q": "Mikor tartják Magyarországon az anyák napját?",
+      "a": [
+        "Május első vasárnapján",
+        "Március utolsó napján",
+        "Június első hétfőjén",
+        "Április közepén"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Magyarországon 1928 óta ünnepeljük, május első vasárnapján.",
+      "t": "évfordulók"
+    },
+    {
+      "q": "Melyik napot jelöli a nemzetközi nőnap?",
+      "a": [
+        "Március 8-át",
+        "Május 8-át",
+        "Október 8-át",
+        "Január 8-át"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A dátumot 1917 óta kötik a nők egyenlőségéért folytatott küzdelemhez.",
+      "t": "évfordulók"
+    },
+    {
+      "q": "Melyik ünnep alkalmából állítanak feldíszített fát a lakásban?",
+      "a": [
+        "Karácsony",
+        "Húsvét",
+        "Pünkösd",
+        "Farsang"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A karácsonyfa szokása a 19. században terjedt el Európában, német területekről indulva.",
+      "t": "ünnepi szokások"
+    },
+    {
+      "q": "Mit rejtenek el hagyományosan a gyerekek elől húsvétkor?",
+      "a": [
+        "A festett tojásokat",
+        "A karácsonyi ajándékot",
+        "A szüreti koszorút",
+        "A farsangi maszkot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tojáskeresés a termékenység és az újjászületés jelképéhez kötődő játék.",
+      "t": "ünnepi szokások"
+    },
+    {
+      "q": "Milyen alakot formáznak a hagyományos magyar vásári mézeskalácsok gyakran?",
+      "a": [
+        "Szívet",
+        "Kockát",
+        "Hengert",
+        "Négyzetet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A díszített mézeskalács szív a magyar vásári hagyomány jellegzetes ajándéka.",
+      "t": "ünnepi szokások"
+    },
+    {
+      "q": "Mit tesznek a szilveszteri hagyomány szerint éjfélkor sok helyen?",
+      "a": [
+        "Pezsgővel koccintanak",
+        "Fát vágnak",
+        "Tojást festenek",
+        "Búzát vetnek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az éjféli koccintás és a jókívánságok az új év szerencsés kezdetét szolgálják.",
+      "t": "ünnepi szokások"
+    },
+    {
+      "q": "Milyen ételt tartanak szerencsehozónak Magyarországon újév napján?",
+      "a": [
+        "A lencsét",
+        "A halat",
+        "Az almát",
+        "A tököt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A lencse apró, pénzérmére emlékeztető szemei a bőséget jelképezik.",
+      "t": "ünnepi szokások"
+    },
+    {
+      "q": "Melyik ételt kerülik sokan újév napján, mert a néphit szerint elkaparja a szerencsét?",
+      "a": [
+        "A csirkét",
+        "A lencsét",
+        "A halat",
+        "A rétest"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szárnyas hátrakapar, ezért a néphit szerint elkaparja a szerencsét az évből.",
+      "t": "ünnepi szokások"
+    },
+    {
+      "q": "Mit szimbolizál a nyugati hagyományban a karácsonyi adventi koszorún meggyújtott négy gyertya?",
+      "a": [
+        "A karácsony előtti négy hetet",
+        "A négy évszakot",
+        "A négy égtájat",
+        "A négy elemet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Advent négy vasárnapján egyre több gyertya ég, jelezve a karácsony közeledtét.",
+      "t": "ünnepi szokások"
     }
   ]
 }

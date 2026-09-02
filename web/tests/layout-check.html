@@ -22,6 +22,19 @@
     const params = new URLSearchParams(location.search);
     const page = params.get("page");
     const requested = params.get("src") || "";
+    // ?h=640 → alacsonyabb keret. Telefonon a látható magasság a címsáv
+    // miatt jóval kisebb, mint a képernyő: 844px-es telefon ~700px-et mutat,
+    // fekvőben ~330px-et. A fix rétegeknek ott is működniük kell.
+    // ?shot=1 → a mérés szövege elrejtve, és a keret a lap tetején kezdődik.
+    // Enélkül a diagnosztika lenyomja az iframe-et, és a képernyőképen úgy
+    // tűnik, mintha a párbeszéd alja le lenne vágva.
+    if (params.get("shot")) {
+      document.getElementById("out").style.display = "none";
+      document.body.style.padding = "0";
+      document.getElementById("frame").style.border = "0";
+    }
+    const frameHeight = params.get("h");
+    if (frameHeight) document.getElementById("frame").style.height = frameHeight + "px";
     document.getElementById("frame").src = page
       ? "./" + page
       : "../index.html" + requested;
@@ -56,6 +69,121 @@
       }
       lines.push(`túllógó elemek: ${offenders.length}`);
       lines.push(...offenders.slice(0, 15).map((line) => `  ${line}`));
+
+      // ── FÜGGŐLEGES ellenőrzés fix rétegekben ────────────────────────────
+      //
+      // Egy `position: fixed` réteg (párbeszéd, fejléc) nem görög a lappal.
+      // Ami benne a viewport alja alá kerül, az ELÉRHETETLEN: nem lehet
+      // odatekerni. Pontosan ez volt a hiba – a szoba létrehozásánál a
+      // „Mégsem” gomb lecsúszott, és nem lehetett elérni.
+      //
+      // Csak a saját görgethető felmenő nélküli elemeket jelentjük: ha egy
+      // szülő görgethető (overflow auto/scroll), akkor a tartalma legális
+      // módon elérhető görgetéssel.
+      const viewportHeight = win.innerHeight;
+
+      const isFixedLayer = (node) => {
+        for (let n = node; n && n !== doc.documentElement; n = n.parentElement) {
+          if (win.getComputedStyle(n).position === 'fixed') return n;
+        }
+        return null;
+      };
+
+      const hasScrollableAncestor = (node, stopAt) => {
+        for (let n = node.parentElement; n && n !== stopAt?.parentElement; n = n.parentElement) {
+          const overflow = win.getComputedStyle(n).overflowY;
+          if (overflow === 'auto' || overflow === 'scroll') {
+            // Csak akkor számít, ha tényleg van mit görgetni.
+            if (n.scrollHeight > n.clientHeight + 1) return true;
+          }
+        }
+        return false;
+      };
+
+      const unreachable = [];
+      for (const node of doc.querySelectorAll('button, a, input, select, .modal-actions')) {
+        const rect = node.getBoundingClientRect();
+        if (rect.height === 0) continue;
+        const layer = isFixedLayer(node);
+        if (!layer) continue;                       // a lappal együtt görög – rendben
+        // MINDKÉT irány kell. A párbeszéd alsó lapként jelenik meg
+        // (`align-items: flex-end`), tehát a túlfolyó tartalom FÖLFELÉ lóg
+        // ki, nem lefelé – csak a lefelé nézés vaknak hagyta ezt az esetet.
+        const belowFold = rect.bottom > viewportHeight + 1;
+        const aboveFold = rect.top < -1;
+        if (!belowFold && !aboveFold) continue;
+        if (hasScrollableAncestor(node, layer)) continue;
+        unreachable.push(
+          `${node.tagName.toLowerCase()}.${(node.className || '').toString().split(' ').join('.')} ` +
+          `→ ${belowFold ? `bottom=${Math.round(rect.bottom)} a viewport (${viewportHeight}) ALATT` : `top=${Math.round(rect.top)} a viewport FÖLÖTT`} ` +
+          `„${node.textContent.trim().slice(0, 24)}”`
+        );
+      }
+
+      lines.push('');
+      lines.push(`viewport magasság = ${viewportHeight}px`);
+      lines.push(unreachable.length === 0
+        ? '<span class="ok">nincs elérhetetlen elem fix rétegben</span>'
+        : `<span class="bad">ELÉRHETETLEN ELEMEK: ${unreachable.length}</span>`);
+      lines.push(...unreachable.slice(0, 10).map((line) => `  ${line}`));
+
+      // ── görgetés-lopás fix rétegben ─────────────────────────────────────
+      //
+      // Ez a hiba, ami tényleg előfordult, és amit a fenti „elérhetetlen”
+      // mérés NEM fog meg: a párbeszéd lapja MAGA görgethető volt, tehát
+      // geometriailag „elérhető” minden gombja. Érintésen viszont a benne
+      // ülő görgető (a PIN számválasztó oszlopai) elvette a húzás gesztusát,
+      // így a lap sosem görgött, és a „Mégsem” gomb elérhetetlen maradt.
+      //
+      // A szabály: egy görgethető fix rétegben ne legyen belső görgető úgy,
+      // hogy közben van a láthatón kívüli tartalom. A helyes minta a
+      // fix fejléc + görgethető törzs + fix gombsor.
+      const gestureTraps = [];
+      for (const node of doc.querySelectorAll('*')) {
+        const style = win.getComputedStyle(node);
+        if (style.position !== 'fixed') continue;
+        // Maga a réteg görgethető, és van elgörgethető tartalma?
+        const selfScrolls =
+          (style.overflowY === 'auto' || style.overflowY === 'scroll') &&
+          node.scrollHeight > node.clientHeight + 1;
+        // A belső görgethető lapok is: a párbeszéd a rétegen belül van.
+        const scrollers = [node, ...node.querySelectorAll('*')].filter((n) => {
+          const s = win.getComputedStyle(n);
+          return (
+            (s.overflowY === 'auto' || s.overflowY === 'scroll') &&
+            n.scrollHeight > n.clientHeight + 1
+          );
+        });
+        // Csapda, ha a KÜLSŐ görgető belsejében van másik görgető.
+        for (const outer of scrollers) {
+          const inner = scrollers.filter((n) => n !== outer && outer.contains(n));
+          if (inner.length === 0) continue;
+          gestureTraps.push(
+            `${outer.tagName.toLowerCase()}.${(outer.className || '').toString().split(' ').join('.')} ` +
+            `görgethető, és ${inner.length} belső görgetőt tartalmaz ` +
+            `(elgörgethető: ${outer.scrollHeight - outer.clientHeight}px)`
+          );
+        }
+        if (selfScrolls && scrollers.length === 1) {
+          // Nincs belső görgető – ez rendben van.
+        }
+      }
+
+      lines.push(gestureTraps.length === 0
+        ? '<span class="ok">nincs görgetés-lopó párbeszéd</span>'
+        : `<span class="bad">GÖRGETÉS-CSAPDA: ${gestureTraps.length}</span>`);
+      lines.push(...gestureTraps.slice(0, 6).map((line) => `  ${line}`));
+
+      // Mi mennyit fogyaszt a párbeszédből?
+      const mb = doc.querySelector('.modal-body');
+      if (mb) {
+        lines.push('');
+        lines.push(`modal-body: clientHeight=${mb.clientHeight} scrollHeight=${mb.scrollHeight}`);
+        for (const child of mb.children) {
+          const r = child.getBoundingClientRect();
+          lines.push(`  ${child.tagName.toLowerCase()}.${(child.className||'').toString().split(' ').join('.')} = ${Math.round(r.height)}px`);
+        }
+      }
 
       out.innerHTML = lines.join('<br>');
     }, 4000);

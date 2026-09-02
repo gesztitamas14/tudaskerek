@@ -44,6 +44,10 @@
       supabase: {
         isConfigured: true, isSignedIn: true, isAnonymous: true, userId: 'me',
         signInAnonymously: async () => ({}),
+        // A szobalista lekérése előtt a képernyő a szervertől kérdezi meg,
+        // vendég-e a fiók. Enélkül a mock hívása kivételt dobott, és a lista
+        // üresen maradt – a képernyőkép is üres szobalistát mutatott.
+        isGuestAccount: async () => true,
         rpc: async (name) => (name === 'list_open_rooms' ? ROOMS : {})
       },
       sync: { scoringRules: async () => ({}), run: async () => {} },
@@ -108,6 +112,15 @@
     else await new Promise((resolve) => setTimeout(resolve, 300));
     if (location.hash === '#pin') {
       host.querySelectorAll('.room-item')[0]?.click();
+      await new Promise((resolve) => setTimeout(resolve, 400));
+    }
+    // #create → a szoba létrehozó párbeszéd. Ez a LEGHOSSZABB párbeszéd
+    // (4 léptető + nehézség + PIN-kapcsoló + számválasztó), ezért ezen
+    // mérjük, hogy a gombsor telefonon is elérhető marad-e.
+    if (location.hash === '#create') {
+      [...host.querySelectorAll('button')]
+        .find((b) => b.textContent.includes('Új szoba'))
+        ?.click();
       await new Promise((resolve) => setTimeout(resolve, 400));
     }
     document.body.dataset.ready = 'true';

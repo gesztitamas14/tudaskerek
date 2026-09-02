@@ -3,20 +3,6 @@
   "default_source": null,
   "questions": [
     {
-      "q": "Mi a következő kémiai elem vegyjele: unbiunium?",
-      "a": [
-        "Tm",
-        "Uto",
-        "Ubu",
-        "Cl"
-      ],
-      "c": 2,
-      "d": "medium",
-      "e": "unbiunium vegyjele: Ubu.",
-      "t": "vegyjelek",
-      "s": "http://www.wikidata.org/entity/Q1466"
-    },
-    {
       "q": "Ki fedezte fel a következő kémiai elemet: fluor?",
       "a": [
         "Clemens Winkler",
@@ -561,6 +547,786 @@
       "e": "francium elemcsoportja: alkálifémek.",
       "t": "periódusos rendszer",
       "s": "http://www.wikidata.org/entity/Q671"
+    },
+    {
+      "q": "Mi a konyhasó kémiai neve?",
+      "a": [
+        "Nátrium-klorid",
+        "Kálium-klorid",
+        "Nátrium-karbonát",
+        "Kalcium-klorid"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A konyhasó nátrium- és kloridionokból álló ionos kristály.",
+      "t": "mindennapi anyagok"
+    },
+    {
+      "q": "Hány százalék oxigén van körülbelül a Föld légkörében?",
+      "a": [
+        "21%",
+        "11%",
+        "35%",
+        "48%"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A levegő kb. 78% nitrogén és 21% oxigén, a többi főleg argon.",
+      "t": "levegő és gázok"
+    },
+    {
+      "q": "Melyik gáz felelős elsősorban a szódavíz pezsgéséért?",
+      "a": [
+        "Szén-dioxid",
+        "Nitrogén",
+        "Oxigén",
+        "Hélium"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A vízbe nyomás alatt oldott szén-dioxid a nyomás csökkenésekor buborékként szabadul fel.",
+      "t": "levegő és gázok"
+    },
+    {
+      "q": "Milyen pH-értéknél semleges egy oldat 25 fokon?",
+      "a": [
+        "7",
+        "0",
+        "10",
+        "14"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tiszta víz pH-ja 25 fokon 7; ez alatt savas, fölötte lúgos az oldat.",
+      "t": "savak és bázisok"
+    },
+    {
+      "q": "Melyik ion koncentrációja határozza meg egy oldat savasságát?",
+      "a": [
+        "Hidrogénion",
+        "Hidroxidion",
+        "Kloridion",
+        "Nátriumion"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A savasság a hidrogénionok, pontosabban az oxóniumionok koncentrációjától függ.",
+      "t": "savak és bázisok"
+    },
+    {
+      "q": "Hogyan nevezik azt a folyamatot, amikor egy anyag szilárd állapotból közvetlenül gázzá válik?",
+      "a": [
+        "Szublimáció",
+        "Kondenzáció",
+        "Olvadás",
+        "Párolgás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szárazjég például szublimál: megolvadás nélkül lesz belőle gáz.",
+      "t": "halmazállapotok"
+    },
+    {
+      "q": "Mi a víz forráspontja normál légköri nyomáson?",
+      "a": [
+        "100 fok",
+        "90 fok",
+        "110 fok",
+        "120 fok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Tengerszinten, 101,3 kPa nyomáson a víz 100 fokon forr; magasabban alacsonyabb hőmérsékleten.",
+      "t": "halmazállapotok"
+    },
+    {
+      "q": "Melyik fém folyékony szobahőmérsékleten?",
+      "a": [
+        "Higany",
+        "Ólom",
+        "Cink",
+        "Alumínium"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A higany olvadáspontja mínusz 39 fok, ezért szobahőmérsékleten folyékony.",
+      "t": "fémek"
+    },
+    {
+      "q": "Mi a rozsdásodás alapvető feltétele a vas mellett?",
+      "a": [
+        "Oxigén és víz jelenléte",
+        "Csak magas hőmérséklet",
+        "Csak nitrogén jelenléte",
+        "Teljes vákuum"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rozsda vas-oxid-hidrát: kialakulásához oxigén és víz is kell.",
+      "t": "fémek"
+    },
+    {
+      "q": "Melyik a legkeményebb a természetben előforduló ásványok közül?",
+      "a": [
+        "Gyémánt",
+        "Kvarc",
+        "Topáz",
+        "Korund"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gyémánt a Mohs-skála 10-es, legkeményebb tagja; szénatomjai térhálós szerkezetben állnak.",
+      "t": "anyagszerkezet"
+    },
+    {
+      "q": "Milyen kötés tartja össze a nátrium-klorid kristályát?",
+      "a": [
+        "Ionos kötés",
+        "Apoláris kovalens kötés",
+        "Fémes kötés",
+        "Hidrogénkötés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nátrium elektront ad át a klórnak, és az ellentétes töltésű ionok vonzzák egymást.",
+      "t": "anyagszerkezet"
+    },
+    {
+      "q": "Hány atom található egy vízmolekulában?",
+      "a": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A víz képlete H2O: két hidrogén- és egy oxigénatom.",
+      "t": "anyagszerkezet"
+    },
+    {
+      "q": "Mit mutat meg egy elem rendszáma?",
+      "a": [
+        "A protonok számát",
+        "A neutronok számát",
+        "Az elektronhéjak számát",
+        "Az atomtömeg pontos értékét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rendszám az atommagban lévő protonok száma, ez határozza meg, melyik elemről van szó.",
+      "t": "atomszerkezet"
+    },
+    {
+      "q": "Mely részecskék találhatók az atommagban?",
+      "a": [
+        "Protonok és neutronok",
+        "Csak protonok",
+        "Protonok és elektronok",
+        "Csak elektronok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A magot protonok és neutronok építik fel; az elektronok a mag körül helyezkednek el.",
+      "t": "atomszerkezet"
+    },
+    {
+      "q": "Miben különbözik egy elem két izotópja egymástól?",
+      "a": [
+        "A neutronok számában",
+        "A protonok számában",
+        "A vegyjelében",
+        "A rendszámában"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az izotópok rendszáma azonos, a neutronszámuk és így a tömegszámuk különböző.",
+      "t": "atomszerkezet"
+    },
+    {
+      "q": "Melyik tudós nevéhez köthető a periódusos rendszer első széles körben elfogadott változata?",
+      "a": [
+        "Dmitrij Mendelejev",
+        "Antoine Lavoisier",
+        "John Dalton",
+        "Robert Boyle"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mendelejev 1869-ben tömeg szerint rendezte az elemeket, és helyet hagyott a még ismeretleneknek.",
+      "t": "kémia története"
+    },
+    {
+      "q": "Melyik gázt nevezték korábban éltető levegőnek, mielőtt megkapta mai nevét?",
+      "a": [
+        "Oxigén",
+        "Hidrogén",
+        "Nitrogén",
+        "Szén-dioxid"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Lavoisier az égést támogató gázt nevezte el oxigénnek; korábban éltető levegőként utaltak rá.",
+      "t": "kémia története"
+    },
+    {
+      "q": "Mit tanácsol a laboratóriumi gyakorlat sav hígításakor?",
+      "a": [
+        "A savat kell a vízbe önteni",
+        "A vizet kell a savba önteni",
+        "Mindegy, milyen sorrendben",
+        "Előbb melegíteni kell a savat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hígítás erősen hőt fejleszt; ha a savat öntjük a vízbe, a nagyobb víztérfogat elnyeli a hőt.",
+      "t": "laborbiztonság"
+    },
+    {
+      "q": "Mi a helyes teendő, ha vegyszer kerül a szembe?",
+      "a": [
+        "Bő vízzel hosszan mosni",
+        "Törölni és megvárni, elmúlik-e",
+        "Szemcseppet használni",
+        "Dörzsölni a szemet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tartós, bő vizes mosás hígítja és eltávolítja a vegyszert; utána orvoshoz kell fordulni.",
+      "t": "laborbiztonság"
+    },
+    {
+      "q": "Milyen színűre változik a lakmuszpapír savas oldatban?",
+      "a": [
+        "Vörösre",
+        "Kékre",
+        "Zöldre",
+        "Sárgára"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A lakmusz savas környezetben vörös, lúgos környezetben kék színű.",
+      "t": "savak és bázisok"
+    },
+    {
+      "q": "Melyik savat tartalmazza a gyomorsav elsősorban?",
+      "a": [
+        "Hidrogén-klorid",
+        "Kénsav",
+        "Ecetsav",
+        "Szénsav"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gyomor hidrogén-kloridot választ ki, ez adja a gyomorsav erősen savas jellegét.",
+      "t": "savak és bázisok"
+    },
+    {
+      "q": "Milyen sav adja az ecet jellegzetes szagát és savas ízét?",
+      "a": [
+        "Ecetsav",
+        "Citromsav",
+        "Salétromsav",
+        "Foszforsav"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az étkezési ecet 5 és 20 százalék közötti ecetsavat tartalmazó vizes oldat.",
+      "t": "savak és bázisok"
+    },
+    {
+      "q": "Mi keletkezik egy sav és egy bázis reakciójában?",
+      "a": [
+        "Só és víz",
+        "Csak gáz",
+        "Csak só",
+        "Fém és oxigén"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A semlegesítési reakció terméke egy só és víz.",
+      "t": "savak és bázisok"
+    },
+    {
+      "q": "Melyik anyag oldódik legjobban vízben a felsoroltak közül?",
+      "a": [
+        "Konyhasó",
+        "Olaj",
+        "Homok",
+        "Viasz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A víz poláris oldószer, ezért az ionos konyhasót jól oldja, az apoláris olajat és viaszt nem.",
+      "t": "oldatok"
+    },
+    {
+      "q": "Hogyan nevezik azt az oldatot, amely a legtöbb oldott anyagot tartalmazza az adott hőmérsékleten?",
+      "a": [
+        "Telített oldat",
+        "Híg oldat",
+        "Kolloid oldat",
+        "Semleges oldat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A telített oldatban az oldódás és a kiválás sebessége megegyezik.",
+      "t": "oldatok"
+    },
+    {
+      "q": "Általában hogyan változik a szilárd anyagok oldhatósága vízben a hőmérséklet emelésével?",
+      "a": [
+        "Nő",
+        "Csökken",
+        "Nem változik",
+        "Nullára esik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A legtöbb szilárd anyag melegebb vízben jobban oldódik; a gázoknál ez fordítva van.",
+      "t": "oldatok"
+    },
+    {
+      "q": "Melyik eljárással lehet sós vízből tiszta vizet nyerni?",
+      "a": [
+        "Desztillálás",
+        "Szűrés",
+        "Ülepítés",
+        "Centrifugálás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A víz elpárologtatása és a gőz lecsapatása a sót visszahagyja.",
+      "t": "szétválasztás"
+    },
+    {
+      "q": "Melyik módszer alkalmas homok és víz szétválasztására?",
+      "a": [
+        "Szűrés",
+        "Desztillálás",
+        "Kromatográfia",
+        "Kristályosítás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A homok szemcséi nem oldódnak, ezért a szűrőpapír visszatartja őket.",
+      "t": "szétválasztás"
+    },
+    {
+      "q": "Mire használják a kromatográfiát a laborban?",
+      "a": [
+        "Keverékek komponenseinek szétválasztására",
+        "Hőmérséklet mérésére",
+        "Gázok sűrítésére",
+        "Fémek edzésére"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A komponensek különböző sebességgel haladnak az álló fázisban, így elkülönülnek.",
+      "t": "szétválasztás"
+    },
+    {
+      "q": "Melyik elem a szerves vegyületek vázának alapja?",
+      "a": [
+        "Szén",
+        "Szilícium",
+        "Nitrogén",
+        "Kén"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szén négy kötést tud kialakítani, és láncokat, gyűrűket képez; erre épül a szerves kémia.",
+      "t": "szerves kémia"
+    },
+    {
+      "q": "Mi a metán molekulájának alakja?",
+      "a": [
+        "Tetraéderes",
+        "Síkháromszög",
+        "Lineáris",
+        "Négyzetes"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A központi szénatom négy hidrogént kötve tetraédert formál, körülbelül 109,5 fokos kötésszögekkel.",
+      "t": "szerves kémia"
+    },
+    {
+      "q": "Melyik gáz a földgáz legnagyobb arányú összetevője?",
+      "a": [
+        "Metán",
+        "Propán",
+        "Butén",
+        "Etin"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A földgáz jellemzően 85 és 95 százalék közötti metánt tartalmaz.",
+      "t": "szerves kémia"
+    },
+    {
+      "q": "Milyen anyagcsoportba tartozik az etanol?",
+      "a": [
+        "Alkoholok",
+        "Ketonok",
+        "Karbonsavak",
+        "Észterek"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az etanol szénláncán hidroxilcsoport található, ez az alkoholok jellemzője.",
+      "t": "szerves kémia"
+    },
+    {
+      "q": "Mit jelent a kémiai reakcióegyenletek rendezése?",
+      "a": [
+        "Az atomok száma két oldalon egyenlő legyen",
+        "A molekulák mérete egyezzen",
+        "A reakció gyorsabb legyen",
+        "Az oldat semleges legyen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az anyag megmaradása miatt minden elem atomszámának egyeznie kell a két oldalon.",
+      "t": "reakciók"
+    },
+    {
+      "q": "Mit nevezünk exoterm reakciónak?",
+      "a": [
+        "Amely hőt ad le a környezetének",
+        "Amely hőt von el a környezetéből",
+        "Amely csak fényt bocsát ki",
+        "Amely nem jár energiaváltozással"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az exoterm reakció során energia szabadul fel, például égéskor.",
+      "t": "reakciók"
+    },
+    {
+      "q": "Mi a katalizátor szerepe egy reakcióban?",
+      "a": [
+        "Gyorsítja a reakciót, miközben maga nem fogy el",
+        "Növeli a termék mennyiségét a végén",
+        "Megváltoztatja a termékek összetételét",
+        "Lassítja az összes reakciót"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A katalizátor csökkenti az aktiválási energiát, és a reakció végén változatlanul megmarad.",
+      "t": "reakciók"
+    },
+    {
+      "q": "Mi szükséges az égéshez a tűzháromszög szerint az éghető anyagon kívül?",
+      "a": [
+        "Oxigén és megfelelő hőmérséklet",
+        "Csak víz",
+        "Csak nitrogén",
+        "Csak fény"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az égéshez éghető anyag, oxigén és gyulladási hőmérséklet kell; bármelyik elvonása megszünteti.",
+      "t": "reakciók"
+    },
+    {
+      "q": "Miért nem szabad vízzel oltani az égő olajat?",
+      "a": [
+        "A víz szétfröccsenti az égő olajat",
+        "A víz felszívja az olajat",
+        "A víz meggyújtja az olajat",
+        "A víz oxigént termel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A víz azonnal elgőzölög az olaj alatt, és robbanásszerűen kifröccsenti a lángoló olajat.",
+      "t": "laborbiztonság"
+    },
+    {
+      "q": "Melyik nemesgázt használják gyakran töltőgázként világító reklámcsövekben?",
+      "a": [
+        "Neon",
+        "Hélium",
+        "Radon",
+        "Kripton"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A neon elektromos kisülésben jellegzetes vörös-narancs fénnyel világít.",
+      "t": "nemesgázok"
+    },
+    {
+      "q": "Miért nem reagálnak a nemesgázok szinte semmivel?",
+      "a": [
+        "Külső elektronhéjuk betöltött",
+        "Nincsenek elektronjaik",
+        "Túl nagy a rendszámuk",
+        "Mindig folyékonyak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A telített külső héj miatt nem nyernek energiát elektron leadásával vagy felvételével.",
+      "t": "nemesgázok"
+    },
+    {
+      "q": "Melyik gázzal töltik a léggömböket, ha azt akarják, hogy felszálljanak?",
+      "a": [
+        "Hélium",
+        "Szén-dioxid",
+        "Argon",
+        "Oxigén"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hélium sűrűsége jóval kisebb a levegőnél, és a hidrogénnel szemben nem gyúlékony.",
+      "t": "nemesgázok"
+    },
+    {
+      "q": "Mi a szódabikarbóna kémiai neve?",
+      "a": [
+        "Nátrium-hidrogén-karbonát",
+        "Nátrium-hidroxid",
+        "Kalcium-karbonát",
+        "Kálium-nitrát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Sütés közben hő vagy sav hatására szén-dioxidot fejleszt, ezért lazítja a tésztát.",
+      "t": "mindennapi anyagok"
+    },
+    {
+      "q": "Melyik anyag adja a mészkő fő összetevőjét?",
+      "a": [
+        "Kalcium-karbonát",
+        "Nátrium-szulfát",
+        "Vas-oxid",
+        "Magnézium-klorid"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mészkő túlnyomórészt kalcium-karbonát; savval pezseg, mert szén-dioxid szabadul fel.",
+      "t": "mindennapi anyagok"
+    },
+    {
+      "q": "Miért érdemes a vízkövet ecettel oldani?",
+      "a": [
+        "A sav reagál a vízkő karbonátjával",
+        "Az ecet lehűti a vízkövet",
+        "Az ecet mechanikusan lecsiszolja",
+        "Az ecet elpárologtatja a vizet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A savas ecet a kalcium-karbonátból oldható sót és szén-dioxidot képez.",
+      "t": "mindennapi anyagok"
+    },
+    {
+      "q": "Mi a szappan tisztító hatásának alapja?",
+      "a": [
+        "Molekulái egyszerre kötik a vizet és a zsírt",
+        "Feloldja a szennyeződés atomjait",
+        "Savas kémhatású",
+        "Elpárologtatja a zsírt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szappanmolekula egyik vége vízkedvelő, a másik zsírkedvelő, így a zsírt vízben elkeverhetővé teszi.",
+      "t": "mindennapi anyagok"
+    },
+    {
+      "q": "Milyen kémhatású általában a háztartási hipó vizes oldata?",
+      "a": [
+        "Lúgos",
+        "Savas",
+        "Pontosan semleges",
+        "Váltakozva savas és lúgos"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nátrium-hipoklorit oldata lúgos; ezért sem szabad savas tisztítóval keverni.",
+      "t": "mindennapi anyagok"
+    },
+    {
+      "q": "Miért veszélyes hipót savas tisztítószerrel összekeverni?",
+      "a": [
+        "Mérgező klórgáz szabadul fel",
+        "Berobban a tisztítószer",
+        "Megsavanyodik a levegő",
+        "Elszíntelenedik a felület"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hipoklorit savas környezetben klórgázt fejleszt, ami már kis mennyiségben is súlyosan izgatja a tüdőt.",
+      "t": "laborbiztonság"
+    },
+    {
+      "q": "Melyik folyamat során termel a növény oxigént?",
+      "a": [
+        "Fotoszintézis",
+        "Légzés",
+        "Fermentálás",
+        "Bomlás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A növény fény segítségével szén-dioxidból és vízből szerves anyagot épít, és oxigént bocsát ki.",
+      "t": "biokémia"
+    },
+    {
+      "q": "Milyen anyagok építik fel a fehérjéket?",
+      "a": [
+        "Aminosavak",
+        "Zsírsavak",
+        "Egyszerű cukrok",
+        "Nukleotidok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fehérjék aminosavak láncából állnak, amelyeket peptidkötés kapcsol össze.",
+      "t": "biokémia"
+    },
+    {
+      "q": "Melyik cukor a szőlőcukor másik neve?",
+      "a": [
+        "Glükóz",
+        "Fruktóz",
+        "Szacharóz",
+        "Laktóz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A glükóz a sejtek legfontosabb közvetlen energiaforrása.",
+      "t": "biokémia"
+    },
+    {
+      "q": "Mit jelent az, hogy egy anyag higroszkópos?",
+      "a": [
+        "Vizet szív magába a környezetéből",
+        "Vizet taszít",
+        "Fényt bocsát ki",
+        "Savasan reagál"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A higroszkópos anyagok, például a szilikagél, megkötik a levegő páratartalmát.",
+      "t": "anyagjellemzők"
+    },
+    {
+      "q": "Mit fejez ki egy anyag sűrűsége?",
+      "a": [
+        "Az egységnyi térfogatra eső tömeget",
+        "A hőmérsékletét",
+        "Az oldhatóságát",
+        "A keménységét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sűrűség a tömeg és a térfogat aránya, mértékegysége például kilogramm per köbméter.",
+      "t": "anyagjellemzők"
+    },
+    {
+      "q": "Miért lebeg a jég a víz felszínén?",
+      "a": [
+        "Kisebb a sűrűsége, mint a folyékony víznek",
+        "Melegebb a víznél",
+        "Nem tartalmaz oxigént",
+        "Levegőbuborékok tartják"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Fagyáskor a hidrogénkötések nyitott szerkezetbe rendezik a molekulákat, ezért a jég térfogata nagyobb.",
+      "t": "anyagjellemzők"
+    },
+    {
+      "q": "Mi történik, ha vízbe olyan folyadékot keverünk, amely nem oldódik benne?",
+      "a": [
+        "Két különálló réteget képez",
+        "Homogén oldatot ad",
+        "Azonnal elpárolog",
+        "Kikristályosodik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nem oldódó folyadékok nem elegyednek: a nagyobb sűrűségű alul, a kisebb felül helyezkedik el.",
+      "t": "anyagjellemzők"
+    },
+    {
+      "q": "Melyik mértékegység fejezi ki az anyagmennyiséget a nemzetközi rendszerben?",
+      "a": [
+        "Mól",
+        "Gramm",
+        "Liter",
+        "Kelvin"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Egy mól annyi részecske, amennyi az Avogadro-számnak, körülbelül 6,022-szer 10 a 23-on darabnak megfelel.",
+      "t": "számítások"
+    },
+    {
+      "q": "Mit jelent egy oldat 10 tömegszázalékos koncentrációja?",
+      "a": [
+        "100 gramm oldatban 10 gramm oldott anyag van",
+        "100 gramm vízben 10 milliliter anyag van",
+        "10 gramm oldatban 100 gramm anyag van",
+        "Az oldat hőmérséklete 10 fok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tömegszázalék az oldott anyag tömegét az oldat teljes tömegéhez viszonyítja.",
+      "t": "számítások"
+    },
+    {
+      "q": "Melyik gáz felelős a legnagyobb mértékben az emberi eredetű üvegházhatás növekedéséért?",
+      "a": [
+        "Szén-dioxid",
+        "Hélium",
+        "Argon",
+        "Neon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fosszilis tüzelőanyagok elégetéséből származó szén-dioxid adja a legnagyobb hozzájárulást.",
+      "t": "környezeti kémia"
+    },
+    {
+      "q": "Mi okozza a savas esőt elsősorban?",
+      "a": [
+        "Kén- és nitrogénoxidok a levegőben",
+        "A levegő héliumtartalma",
+        "A szél sótartalma",
+        "A talaj mésztartalma"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az oxidok a csapadékvízben savakat képeznek, így a csapadék pH-ja lecsökken.",
+      "t": "környezeti kémia"
+    },
+    {
+      "q": "Melyik anyagcsoport bontja a sztratoszféra ózonrétegét leginkább?",
+      "a": [
+        "Klórtartalmú freonok",
+        "Szén-monoxid",
+        "Vízgőz",
+        "Metán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A freonokból UV-fény hatására felszabaduló klóratomok láncreakcióban bontják az ózont.",
+      "t": "környezeti kémia"
+    },
+    {
+      "q": "Miért mérgező a szén-monoxid?",
+      "a": [
+        "Erősebben kötődik a hemoglobinhoz, mint az oxigén",
+        "Feloldja a tüdő szöveteit",
+        "Savasítja a gyomrot",
+        "Elszívja a levegő nitrogénjét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hemoglobinhoz kötődve megakadályozza az oxigén szállítását, ezért szagtalanul is életveszélyes.",
+      "t": "környezeti kémia"
     }
   ]
 }

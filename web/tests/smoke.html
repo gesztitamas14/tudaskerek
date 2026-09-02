@@ -560,9 +560,21 @@
         roomHost.querySelectorAll('.room-item')[2]?.disabled === true,
         'a tele szoba nem választható'
       );
+      // A `hidden` attribútum mellett a tényleges megjelenítést is mérjük:
+      // a globális `[hidden] { display: none !important }` szabály nem
+      // rejtheti el azt, aminek látszania KELL.
+      const guestNoteEl = roomHost.querySelector('.guest-note');
       check(
-        roomHost.querySelector('.guest-note')?.hidden === false,
+        guestNoteEl?.hidden === false,
         'vendégként figyelmeztet, hogy a pont nem kerül ranglistára'
+      );
+      check(
+        guestNoteEl !== null && getComputedStyle(guestNoteEl).display !== 'none',
+        'a vendégjelzés vendégként TÉNYLEGESEN látszik'
+      );
+      check(
+        roomHost.innerText.includes('Vendégként játszol'),
+        'vendégként a figyelmeztetés szövege olvasható'
       );
       check(
         !roomHost.textContent.includes('SZOBAKÓD') && !roomHost.querySelector('.code-input'),
@@ -614,6 +626,75 @@
         roomHost.querySelectorAll('.picker-item.picker-active').length === 3,
         'mindhárom oszlopban ki van jelölve egy szám'
       );
+
+
+      // ── a párbeszéd gombsora telefonon is elérhető ──
+      //
+      // REGRESSZIÓ: korábban az EGÉSZ lap görgött, és telefonon a „Mégsem”
+      // gomb lecsúszott a képernyőről úgy, hogy nem is lehetett odatekerni –
+      // a lapon belüli görgetők (a PIN-választó oszlopai) elvették a húzás
+      // gesztusát. Ezért a gombsornak a görgetésen KÍVÜL kell lennie.
+      const sheet = roomHost.querySelector('.modal-sheet');
+      const actions = sheet.querySelector('.modal-actions');
+      const modalBody = sheet.querySelector('.modal-body');
+
+      check(actions !== null && modalBody !== null, 'a párbeszéd fejléc/törzs/gombsor részekre van osztva');
+      check(actions?.parentElement === sheet, 'a gombsor közvetlenül a lapon van, nem a görgethető törzsben');
+      check(
+        modalBody?.contains(actions) === false,
+        'a gombsor NINCS a görgethető részen belül – nem tud elgörögni'
+      );
+      check(
+        getComputedStyle(sheet).overflowY === 'hidden' &&
+          getComputedStyle(modalBody).overflowY === 'auto',
+        'a lap nem görög, csak a törzse'
+      );
+
+      // Mérés: a lapot leszorítjuk a látható magasság alá, ahogy telefonon
+      // történik. A gombnak ekkor is a lap belsejében kell maradnia.
+      // A lap FIX részei (fejléc + gombsor) nem nyelhetik el az egész
+      // magasságot, különben a görgethető törzsnek nem marad hely.
+      const chromeH =
+        sheet.querySelector('h3').getBoundingClientRect().height +
+        actions.getBoundingClientRect().height;
+      check(
+        chromeH < 260,
+        `a fejléc és a gombsor együtt is elfér egy alacsony képernyőn (${Math.round(chromeH)}px)`
+      );
+
+      // Mérés: a lapot 300px-re szorítjuk – ez a valós legrosszabb eset
+      // (fekvő telefon, vagy álló telefon feljött billentyűzettel).
+      sheet.style.maxHeight = '300px';
+      await wait(30);
+      const cancelBtn = [...sheet.querySelectorAll('button')].find(
+        (b) => b.textContent.trim() === 'Mégsem'
+      );
+      check(Boolean(cancelBtn), 'van „Mégsem” gomb');
+      const sheetBox = sheet.getBoundingClientRect();
+      const cancelBox = cancelBtn.getBoundingClientRect();
+
+      check(
+        cancelBox.height > 0 && cancelBox.width > 0,
+        'a „Mégsem” gomb tényleg meg van rajzolva'
+      );
+      check(
+        cancelBox.bottom <= sheetBox.bottom + 1,
+        `a „Mégsem” gomb a lapon BELÜL van szűk képernyőn is (gomb alja ${Math.round(cancelBox.bottom)}, lap alja ${Math.round(sheetBox.bottom)})`
+      );
+      check(
+        cancelBox.top >= sheetBox.top - 1,
+        'a „Mégsem” gomb nem csúszik ki a lap tetején sem'
+      );
+      // És kattintható is: nem takarja el semmi.
+      const hit = document.elementFromPoint(
+        Math.round(cancelBox.left + cancelBox.width / 2),
+        Math.round(cancelBox.top + cancelBox.height / 2)
+      );
+      check(
+        hit === cancelBtn || cancelBtn.contains(hit),
+        'a „Mégsem” gombra tényleg rá lehet kattintani (nem takarja el semmi)'
+      );
+      sheet.style.maxHeight = '';
 
       // ── hibás PIN: a párbeszéd nyitva marad, és kiírja, mennyi maradt ──
       lobby.dispatchEvent(new CustomEvent('screen:unmount'));
@@ -1131,6 +1212,31 @@
       const delNode = multiplayerScreen(delApp);
       roomHost.append(delNode);
       await wait(150);
+
+      // ── bejelentkezve NINCS vendégjelzés ────────────────────────────────
+      //
+      // REGRESSZIÓ: a jelzést a JS a `hidden` attribútummal rejtette el, de a
+      // `.guest-note { display: flex }` osztályszabály ERŐSEBB a böngésző
+      // `[hidden] { display: none }` szabályánál – így bejelentkezve is
+      // látszott, hogy „Vendégként játszol”. Ezért a `hidden` attribútumot
+      // nem elég megvizsgálni: a TÉNYLEGES megjelenítést kell mérni.
+      const signedNote = roomHost.querySelector('.guest-note');
+      check(
+        signedNote !== null,
+        'a vendégjelzés eleme létezik (csak épp rejtve kell lennie)'
+      );
+      check(
+        signedNote?.hidden === true,
+        'bejelentkezve a vendégjelzés hidden attribútuma be van állítva'
+      );
+      check(
+        signedNote !== null && getComputedStyle(signedNote).display === 'none',
+        'bejelentkezve a vendégjelzés TÉNYLEGESEN nem látszik'
+      );
+      check(
+        !roomHost.innerText.includes('Vendégként játszol'),
+        'bejelentkezve a „Vendégként játszol” szöveg nem olvasható a képernyőn'
+      );
 
       check(
         roomHost.querySelectorAll('.room-delete').length === 1,
