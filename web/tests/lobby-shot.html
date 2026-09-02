@@ -15,7 +15,7 @@
   <div class="viewport"><div id="host"></div></div>
 
   <script type="module">
-    import { multiplayerScreen } from '../js/multiplayer.js';
+    import { multiplayerScreen, roomScreen } from '../js/multiplayer.js';
     import { QuestionBank } from '../js/api.js';
 
     const bank = new QuestionBank();
@@ -53,11 +53,59 @@
     };
 
     const host = document.getElementById('host');
-    host.append(multiplayerScreen(app));
+
+    // #spin → a pörgetés fázisa (a kör kategóriájának kihúzása), nem a lista.
+    if (location.hash === '#spin') {
+      const now = Date.now();
+      const room = {
+        id: 'r', host_id: 'me', status: 'playing',
+        max_players: 4, rounds_per_player: 10, difficulty: null,
+        block_no: 3, questions_per_category: 10,
+        answer_seconds: 15, reveal_seconds: 5, spin_seconds: 6,
+        max_questions: 10, has_pin: true, my_pin: null, i_am_guest: false,
+        server_time: new Date(now).toISOString(),
+        current_round: {
+          category_slug: 'magyar-tortenelem', category_name: 'Magyar történelem',
+          answered_questions: 0, questions_in_round: 10
+        },
+        current_question: {
+          id: 'rq', question_text: 'Melyik évben volt a mohácsi csata?',
+          answers: ['1514', '1526', '1541', '1552'], difficulty: 'easy',
+          category_slug: 'magyar-tortenelem', ordinal: 1, max_questions: 10,
+          reward: 1000,
+          answer_open_at: new Date(now + 3200).toISOString(),
+          deadline_at: new Date(now + 18200).toISOString(),
+          resolved: false, resolved_at: null, my_answer: null, i_answered: false,
+          answered_count: 0, alive_count: 4,
+          correct_answer: null, explanation: null, results: null
+        },
+        last_block_scores: null, last_block_ended_at: null,
+        players: [
+          { player_id: 'me', seat: 1, score: 4000, block_score: 0, is_ready: true,
+            is_eliminated: false, has_left: false, nickname: 'Te', avatar_id: 'fox', is_guest: false },
+          { player_id: 'a', seat: 2, score: 7000, block_score: 0, is_ready: true,
+            is_eliminated: false, has_left: false, nickname: 'Anna', avatar_id: 'owl', is_guest: false },
+          { player_id: 'c', seat: 3, score: 2000, block_score: 0, is_ready: true,
+            is_eliminated: false, has_left: false, nickname: 'Cili', avatar_id: 'cat', is_guest: true }
+        ]
+      };
+      host.append(
+        roomScreen(
+          { ...app, supabase: { ...app.supabase, userId: 'me', rpc: async () => room } },
+          { room }
+        )
+      );
+      // Hagyjuk lefutni a kerék animációját, hogy a kép a kategóriát mutassa.
+      await new Promise((resolve) => setTimeout(resolve, 3600));
+      document.body.dataset.ready = 'true';
+    } else {
+      host.append(multiplayerScreen(app));
+    }
 
     // Megvárjuk a lista kirajzolását, majd megnyitjuk a PIN-párbeszédet, ha a
     // címben kérték – így két különböző kép készíthető ugyanerről a lapról.
-    await new Promise((resolve) => setTimeout(resolve, 300));
+    if (location.hash === '#spin') { /* fentebb már kész */ }
+    else await new Promise((resolve) => setTimeout(resolve, 300));
     if (location.hash === '#pin') {
       host.querySelectorAll('.room-item')[0]?.click();
       await new Promise((resolve) => setTimeout(resolve, 400));

@@ -95,7 +95,7 @@ A `link` elkéri az **adatbázis jelszót** – azt, amit a projekt létrehozás
 megadtál. Ha elveszett: *Settings → Database → Reset database password*.
 
 ```bash
-npx supabase db push          # lefuttatja mind a 13 migrációt
+npx supabase db push          # lefuttatja mind a 14 migrációt
 ```
 
 Ellenőrzés: `npx supabase migration list` – kiírja, melyik migráció futott le

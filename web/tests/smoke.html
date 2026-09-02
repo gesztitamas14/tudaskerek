@@ -1152,6 +1152,122 @@
       );
       delNode.dispatchEvent(new CustomEvent('screen:unmount'));
       roomHost.replaceChildren();
+
+      // ── 10. a pörgetés fázisa: legyen idő elolvasni a kategóriát ──
+      //
+      // A kerék körönként EGYSZER pörög, és a kör mind a 10 kérdése abból a
+      // kategóriából jön. Ezért a pörgetés után szünet van, hogy a játékos
+      // felfogja, miről lesz szó – és addig NEM lehet válaszolni.
+      function spinningRoom(secondsUntilOpen) {
+        return {
+          id: 'spin-room',
+          // ÉN vagyok a host: így a „játék közben nincs szobatörlés” állítás
+          // tényleg a státuszt vizsgálja, nem a jogosultságot.
+          host_id: ME,
+          status: 'playing',
+          max_players: 4,
+          rounds_per_player: 10,
+          difficulty: null,
+          block_no: 3,
+          questions_per_category: 10,
+          answer_seconds: 15,
+          reveal_seconds: 5,
+          spin_seconds: 6,
+          max_questions: 10,
+          has_pin: true,
+          my_pin: null,
+          i_am_guest: false,
+          server_time: new Date().toISOString(),
+          current_round: {
+            category_slug: 'magyar-tortenelem',
+            category_name: 'Magyar történelem',
+            answered_questions: 0,
+            questions_in_round: 10
+          },
+          current_question: {
+            id: 'rq-spin',
+            question_text: 'Melyik évben volt a mohácsi csata?',
+            answers: ['1514', '1526', '1541', '1552'],
+            difficulty: 'easy',
+            category_slug: 'magyar-tortenelem',
+            ordinal: 1,
+            max_questions: 10,
+            reward: 1000,
+            // A válaszóra még nem nyílt meg: most pörög a kerék.
+            answer_open_at: new Date(Date.now() + secondsUntilOpen * 1000).toISOString(),
+            deadline_at: new Date(Date.now() + (secondsUntilOpen + 15) * 1000).toISOString(),
+            resolved: false,
+            resolved_at: null,
+            my_answer: null,
+            i_answered: false,
+            answered_count: 0,
+            alive_count: 4,
+            correct_answer: null,
+            explanation: null,
+            results: null
+          },
+          last_block_scores: null,
+          last_block_ended_at: null,
+          players: PLAYERS
+        };
+      }
+
+      let spinNode = mountRoom(spinningRoom(5));
+
+      check(
+        roomHost.textContent.includes('3. KÖR / 10'),
+        'a pörgetés alatt látszik, hányadik körben vagyunk'
+      );
+      check(
+        roomHost.textContent.includes('A kör mind a 10 kérdése ebből a kategóriából jön'),
+        'elmondja, hogy a kategória az egész körre érvényes'
+      );
+      check(
+        roomHost.querySelectorAll('.answers .answer').length === 0,
+        'a pörgetés alatt NINCSENEK válaszgombok'
+      );
+      check(
+        roomHost.querySelector('.answer-correct') === null,
+        'a pörgetés alatt sem szivárog ki helyes válasz'
+      );
+      check(
+        Boolean(roomHost.querySelector('canvas.wheel')),
+        'megjelenik a kerék'
+      );
+      check(
+        roomHost.textContent.includes('Magyar történelem'),
+        'a felső sávban a kör kategóriája is látszik'
+      );
+      check(
+        roomHost.querySelector('.timer-fill') === null,
+        'a pörgetés alatt még nincs visszaszámláló – az idő nem fogy'
+      );
+      check(
+        ![...roomHost.querySelectorAll('.btn')].some((b) =>
+          b.textContent.includes('Szoba törlése')
+        ),
+        'a HOST sem kap szobatörlő gombot játék közben – félrekattintás nem szakítja meg a kört'
+      );
+      check(
+        [...roomHost.querySelectorAll('.btn')].some((b) =>
+          b.textContent.includes('Kilépés (feladom)')
+        ),
+        'játék közben kilépni viszont lehet – a játék a többiekkel megy tovább'
+      );
+      unmountRoom(spinNode);
+
+      // A pörgetés utáni olvasási szünet: ha kevés az idő, akkor is legalább
+      // a kategória nevét látni kell (a kerék rövidebbet pörög).
+      spinNode = mountRoom(spinningRoom(1));
+      check(
+        roomHost.textContent.includes('Magyar történelem'),
+        'késve érkezőnek is kiírja a kategóriát'
+      );
+      check(
+        roomHost.querySelectorAll('.answers .answer').length === 0,
+        'a rövid pörgetés alatt sincs válaszgomb'
+      );
+      unmountRoom(spinNode);
     }
 
     run()

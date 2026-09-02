@@ -177,6 +177,7 @@ Ezt illeszd be a **SQL Editor → New query** ablakba, és futtasd egyszerre.
 20260901091100_room_list_and_pin.sql
 20260901091200_google_and_email_auth.sql
 20260901091300_close_room.sql
+20260901091400_one_category_per_round.sql
 ```
 
 ### 2.3 A kérdések feltöltése
@@ -254,19 +255,25 @@ listán – különben a Supabase a Site URL-re esik vissza.
 **mindenki ugyanarra a kérdésre válaszol, egyszerre**.
 
 ```
-1. kör
-   ├─ a kerék kategóriát pörget – ugyanazt MINDENKINEK
-   ├─ 1. kérdés → mind a 4 játékos válaszol (20 mp)
-   │     Cili rontott  → KIESETT, nézővé vált
-   ├─ 2. kérdés → már csak 3 játékos válaszol
-   │     Dóra lekéste az időt → KIESETT
-   ├─ 3. kérdés → 2 játékos …
+1. kör  ── a kerék EGYSZER pörög → „Magyar történelem”
+   │        (~2,5 mp animáció + idő elolvasni, mi jött ki)
+   ├─ 1. kérdés  Magyar történelem → mind a 4 játékos válaszol (15 mp)
+   │      Cili rontott → KIESETT, nézővé vált
+   ├─ 2. kérdés  Magyar történelem → már csak 3 játékos válaszol
+   │      Dóra lekéste az időt → KIESETT
+   ├─ 3. kérdés  Magyar történelem → 2 játékos …
    └─ a kör véget ér, ha elfogy a 10 kérdés, VAGY mindenki kiesik
         → a köri pontok beolvadnak az összesítettbe
-        → mindenki visszatér a játékba, jön a következő kategória
-2. kör … (a `rounds_per_player` szerint, 1–5)
+        → mindenki visszatér a játékba
+2. kör  ── új pörgetés → „Film” → 10 kérdés a Filmből …
+…
+10. kör
 Vége: a legtöbb összegyűjtött pont nyer.
 ```
+
+**Egy körben csak egy kategória van**, tehát egy játék alapból
+**10 kör = 10 kategória**. A kerék nem minden kérdés előtt pörög – így a
+pörgetés esemény marad, nem zaj.
 
 Aki kiesik, **megtartja** az addig szerzett pontjait – csak többet nem gyűjthet
 abban a körben. A pontskála ugyanaz, mint egyjátékosban: az 1–4. és 6–9. kérdés
@@ -346,7 +353,7 @@ Miért nem WebSocket? A Supabase Realtime elő van készítve (publikáció + RL
 
 | Fázis | Meddig | Beállítás |
 |---|---|---|
-| pörgetés | a kerék kifut a kategóriára | `rooms.spin_seconds` (3 mp) |
+| pörgetés | a kerék kifut a kategóriára, **majd van idő elolvasni** | `rooms.spin_seconds` (6 mp, körönként egyszer) |
 | válasz | visszaszámláló | `rooms.answer_seconds` (a szoba készítésekor, 5–60 mp) |
 | kiértékelés | eredmény + magyarázat | `rooms.reveal_seconds` (5 mp) |
 
@@ -373,8 +380,7 @@ Ha bármelyik hiányzik, a felület elmondja, mi hiányzik.
 Nincs kód, amit be kellene diktálni: a nyitott szobák **fel vannak sorolva**.
 
 1. Egy játékos létrehoz szobát: létszám 2–5, körök száma 1–10 (alap: 10),
-   válaszidő (alap: 15 mp), nehézség, és hogy minden kérdés előtt pörögjön-e a
-   kerék vagy körönként egyszer.
+   válaszidő (alap: 15 mp), nehézség.
 2. Megad egy **3 jegyű PIN-t** egy görgetős választón. (Ki is kapcsolható –
    akkor bárki beléphet a listáról.)
 3. A többiek a „Nyitott szobák” listában látják a szobát: kinek a szobája,

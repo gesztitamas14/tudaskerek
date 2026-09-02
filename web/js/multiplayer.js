@@ -1,13 +1,15 @@
 // Online többjátékos: KIESÉSES mód.
 //
 // A játékmenet:
-//   1. A kerék kategóriát választ – ugyanazt mindenkinek.
+//   1. A kerék KÖRÖNKÉNT EGYSZER pörög, és kiad egy kategóriát – ugyanazt
+//      mindenkinek. A kör mind a 10 kérdése ebből a kategóriából jön.
 //   2. A szoba minden még játékban lévő tagja UGYANARRA a kérdésre válaszol,
 //      egyszerre, időre.
 //   3. Aki hibázik vagy nem válaszol időben, kiesik a körből és nézővé válik.
 //      A megszerzett pontjait megtartja.
 //   4. A kör addig megy, amíg elfogy a 10 kérdés, vagy mindenki kiesik.
-//   5. Ekkor a köri pontok beolvadnak az összesítettbe, és jön a következő kör.
+//   5. Ekkor a köri pontok beolvadnak az összesítettbe, és jön a következő kör
+//      – új pörgetéssel, új kategóriával. 10 kör = 10 kategória egy játékban.
 //
 // Két dolog, amit érdemes tudni a felépítésről:
 //
@@ -329,7 +331,6 @@ export function multiplayerScreen(app) {
     let maxPlayers = 4;
     let rounds = 10;
     let answerSeconds = 15;
-    let questionsPerCategory = 1;
     let difficulty = null;
     let usePin = true;
 
@@ -367,13 +368,6 @@ export function multiplayerScreen(app) {
       el('option', { value: 'hard', text: 'Nehéz' })
     ]);
 
-    const wheelModeSelect = el('select.select', {
-      on: { change: (event) => { questionsPerCategory = Number(event.target.value); } }
-    }, [
-      el('option', { value: '1', text: 'Minden kérdés előtt' }),
-      el('option', { value: '10', text: 'Körönként egyszer' })
-    ]);
-
     const dialog = modal({
       title: 'Új szoba',
       body: [
@@ -381,7 +375,6 @@ export function multiplayerScreen(app) {
         stepper('Körök száma', rounds, 1, 10, (value) => { rounds = value; }),
         stepper('Válaszidő (mp)', answerSeconds, 5, 60, (value) => { answerSeconds = value; }, 5),
         el('div.setting-row', null, [el('span', { text: 'Nehézség' }), difficultySelect]),
-        el('div.setting-row', null, [el('span', { text: 'Pörgetés' }), wheelModeSelect]),
         el('div.setting-row', null, [el('span', { text: 'PIN-kód kérése' }), pinToggle]),
         pinRow
       ],
@@ -394,7 +387,6 @@ export function multiplayerScreen(app) {
             p_max_players: maxPlayers,
             p_rounds_per_player: rounds,
             p_difficulty: difficulty,
-            p_questions_per_category: questionsPerCategory,
             p_answer_seconds: answerSeconds,
             p_join_pin: usePin ? picker.value() : null
           });
@@ -423,9 +415,9 @@ export function multiplayerScreen(app) {
       el('h2', { text: 'Kieséses játék barátokkal' }),
       el('p.muted.small', {
         text:
-          'Mindenki a saját telefonján játszik, ugyanarra a kérdésre, egyszerre. ' +
-          'Aki hibázik, kiesik a körből és nézővé válik – az utolsó talpon maradó ' +
-          'viszi a legtöbb pontot.'
+          'A kerék kategóriát pörget, és abból jön a kör mind a 10 kérdése. ' +
+          'Mindenki a saját telefonján, ugyanarra a kérdésre, egyszerre válaszol. ' +
+          'Aki hibázik, kiesik a körből és nézővé válik – aztán jön az új kategória.'
       })
     ]),
     guestNote,
@@ -806,9 +798,14 @@ export function roomScreen(app, { room: initialRoom }) {
           ? [scoreStrip(), ...playingSections()]
           : [finishedPanel(standings), playerListCard(standings)];
 
-    // A készítő a váróban a szobát is megszüntetheti – különben egy elrontott
+    // A készítő a VÁRÓBAN megszüntetheti a szobát – különben egy elrontott
     // beállítású szoba két órán át ott lóg a nyitott szobák listáján.
-    const canClose = isHost() && (room.status === 'lobby' || room.status === 'playing');
+    //
+    // Játék közben szándékosan NEM ajánljuk fel: egy félrekattintás mindenki
+    // futó játékát megszakítaná. Ha a host kiszáll, a „Kilépés” elég – a játék
+    // a többiekkel megy tovább, és a host-szerep átszáll. A szerveroldali
+    // close_room játék közben is működik, ha tényleg le kell zárni egy szobát.
+    const canClose = isHost() && room.status === 'lobby';
 
     sections.push(
       el('div.actions', null, [
@@ -855,7 +852,9 @@ export function roomScreen(app, { room: initialRoom }) {
       }),
       canStart
         ? el('p.muted.small.center', {
-            text: `${playerCount} játékos a szobában. Bármikor indíthatsz.`
+            text:
+              `${playerCount} játékos a szobában. ` +
+              `${room.rounds_per_player} kör, körönként egy kategória és 10 kérdés.`
           })
         : el('p.muted.small.center', {
             text: room.has_pin
@@ -948,9 +947,13 @@ export function roomScreen(app, { room: initialRoom }) {
   function scoreStrip() {
     const order = [...activePlayers()].sort((a, b) => a.seat - b.seat);
     return el('div.score-strip', null, [
+      // A kör kategóriája a kör EGÉSZÉRE érvényes, ezért itt fent a helye –
+      // nem csak a kérdés fölött, ahol a kiértékelés közben eltűnne.
       el('div.score-strip-head', null, [
         el('span.muted.small', {
-          text: `${room.block_no}. kör / ${room.rounds_per_player}`
+          text:
+            `${room.block_no}. kör / ${room.rounds_per_player}` +
+            (room.current_round?.category_name ? ` · ${room.current_round.category_name}` : '')
         }),
         el('span.muted.small', {
           text: room.current_question
@@ -1123,6 +1126,20 @@ export function roomScreen(app, { room: initialRoom }) {
   }
 
   /** A kerék pörgetése: mindenki ugyanarra a kategóriára fut ki. */
+  /**
+   * A kör kategóriájának kipörgetése.
+   *
+   * A kerék KÖRÖNKÉNT EGYSZER pörög: a kipörgetett kategóriából jön a kör mind
+   * a 10 kérdése. Ezért itt nem sietünk – a pörgetés fázisa (`spin_seconds`,
+   * alapból 6 mp) két részre oszlik:
+   *
+   *   1. a kerék animációja (~2,5 mp),
+   *   2. utána marad idő ELOLVASNI, milyen kategória jött ki.
+   *
+   * A második rész a lényeg: enélkül a kérdés azonnal a pörgetés után jelent
+   * meg, és nem volt idő felfogni, miről lesz szó. A válaszidőből ez nem vesz
+   * el semmit, mert a szerver csak `answer_open_at` után fogad választ.
+   */
   function spinCard(q) {
     const categories = app.bank?.categories ?? [];
     const targetIndex = categories.findIndex((item) => item.slug === q.category_slug);
@@ -1131,26 +1148,54 @@ export function roomScreen(app, { room: initialRoom }) {
     const canvas = el('canvas.wheel', { width: 320, height: 320 });
     const host = el('div.wheel-host.wheel-host-small', null, [canvas]);
     const caption = el('div.wheel-caption');
+    const lead = el('h2.center.gold', { text: 'Kategória pörgetése…' });
+    const note = el('p.muted.small.center', {
+      text: 'A kör mind a 10 kérdése ebből a kategóriából jön.'
+    });
+
+    /** A kerék megállt: mostantól ez a kör témája. */
+    function announce() {
+      lead.textContent = 'A kör kategóriája';
+      clear(caption);
+      if (category) {
+        caption.append(categoryBadge(category));
+      } else {
+        caption.append(el('strong', { text: q.category_slug }));
+      }
+    }
+
+    const untilOpen = (Date.parse(q.answer_open_at) - serverNow()) / 1000;
 
     if (categories.length > 0 && targetIndex >= 0) {
       const wheel = new Wheel(canvas);
       wheel.setCategories(categories);
-      const seconds = Math.max(0.6, (Date.parse(q.answer_open_at) - serverNow()) / 1000 - 0.4);
+
+      // A pörgetés rövid; a maradék idő az olvasásra megy. Legalább 1,2 mp
+      // olvasási szünetet mindig hagyunk, akkor is, ha késve érkeztünk.
+      const reduced = settings.get('reduceWheelSpin');
+      const spinSeconds = Math.max(
+        0.5,
+        Math.min(reduced ? 1.2 : 2.6, untilOpen - 1.2)
+      );
 
       requestAnimationFrame(() => {
         wheel.resize();
-        // Egy kérdéshez csak egyszer pörgetünk, még ha újrarajzolunk is.
+
+        // Egy kérdéshez csak egyszer pörgetünk, még ha újrarajzolunk is – és ha
+        // a kerék már lefutott, csak a kategóriát mutatjuk.
         if (spunFor === q.id) {
           wheel.rotation = 0;
           wheel.draw();
+          announce();
           return;
         }
         spunFor = q.id;
+
         wheel
           .spinTo({
             targetIndex,
-            turns: settings.get('reduceWheelSpin') ? 1 : 2,
-            duration: seconds,
+            turns: reduced ? 1 : 2,
+            duration: spinSeconds,
             onTick: (intensity) => {
               haptic(Math.max(3, Math.round(HAPTIC.tick * intensity)));
               sfx.wheelTick(intensity);
@@ -1159,20 +1204,22 @@ export function roomScreen(app, { room: initialRoom }) {
           .then(() => {
             haptic(HAPTIC.stop);
             sfx.wheelStop();
-            if (category) caption.append(categoryBadge(category));
+            announce();
           })
           .catch(() => {});
       });
-    } else if (category) {
-      caption.append(categoryBadge(category));
+    } else {
+      // Nincs helyi kerék (pl. ismeretlen kategória): rögtön a nevét mutatjuk.
+      announce();
     }
 
     return el('div.actions', null, [
       card([
-        el('h2.center.gold', { text: 'Új kategória!' }),
+        el('div.muted.small.center', { text: `${room.block_no}. KÖR / ${room.rounds_per_player}` }),
+        lead,
         host,
         caption,
-        el('p.muted.small.center', { text: 'Mindjárt jön a kérdés – mindenki egyszerre válaszol.' })
+        note
       ])
     ]);
   }

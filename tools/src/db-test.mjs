@@ -582,12 +582,15 @@ console.log('\n10. Aki mind a 10 kérdést eltalálja, a teljes pontot kapja');
 
 let solo = await asPlayer(
   ANNA,
-  `select public.create_room(2::smallint, 1::smallint, null, 1::smallint, 20::smallint, null)`
+  `select public.create_room(2::smallint, 1::smallint, null, null, 20::smallint, null)`
 );
 solo = (await asPlayer(BELA, `select public.join_room(${q(solo.id)}, null)`)).room;
 solo = await asPlayer(ANNA, `select public.start_room(${q(solo.id)})`);
 
 const seenOrdinals = [];
+// A pörgetési ablakot MÉG a saját előretekerés előtt kell rögzíteni,
+// különben a teszt a maga módosítását mérné.
+const spinWindows = [];
 for (let guard = 0; guard < 40 && solo.status === 'playing'; guard++) {
   solo = await asPlayer(ANNA, `select public.room_tick(${q(solo.id)})`);
   const current = solo.current_question;
@@ -600,6 +603,13 @@ for (let guard = 0; guard < 40 && solo.status === 'playing'; guard++) {
     );
     continue;
   }
+
+  spinWindows.push({
+    ordinal: current.ordinal,
+    spin: Math.round(
+      (Date.parse(current.answer_open_at) - Date.parse(solo.server_time)) / 1000
+    )
+  });
 
   await db.exec(
     `update public.room_questions set answer_open_at = now() where id = ${q(current.id)}`
@@ -627,6 +637,40 @@ ok(
   JSON.stringify(seenOrdinals) === JSON.stringify([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]),
   `mind a tíz kérdés sorban jött (${seenOrdinals.join(',')})`
 );
+
+// EGY KÖR = EGY KATEGÓRIA. Ez az alapértelmezés, tehát a 10 kérdés mind
+// ugyanabból a kategóriából jött.
+const soloCats = await one(
+  `select count(distinct category_id)::int as n, count(*)::int as total
+   from public.room_questions where room_id = ${q(solo.id)}`
+);
+ok(
+  soloCats.n === 1,
+  `a kör mind a ${soloCats.total} kérdése EGY kategóriából jött (${soloCats.n} kategória)`
+);
+ok(soloCats.total === 10, `tíz kérdés volt a körben (${soloCats.total})`);
+
+// A pörgetés (és az utána következő olvasási szünet) CSAK a kör első kérdése
+// előtt van – a többinél nulla, különben minden kérdés előtt várni kellene.
+ok(
+  spinWindows[0]?.spin >= 5,
+  `a kör ELSŐ kérdése előtt van pörgetési szünet (${spinWindows[0]?.spin} mp)`
+);
+ok(
+  spinWindows.slice(1).every((row) => row.spin <= 0),
+  'a kör további kérdései előtt NINCS pörgetés – a kategória ugyanaz marad'
+);
+
+// A szobaállapot a kérdések KÖZÖTT is tudja, melyik kategóriában vagyunk –
+// erre épül a felső sáv, ami a kiértékelés közben sem üresedik ki.
+const roundInfo = (
+  await one(
+    `select c.name from public.room_questions rq
+     join public.categories c on c.id = rq.category_id
+     where rq.room_id = ${q(solo.id)} order by rq.ordinal limit 1`
+  )
+).name;
+ok(Boolean(roundInfo), `a kör kategóriája megnevezhető (${roundInfo})`);
 
 const soloPlayers = new Map((solo.players ?? []).map((p) => [p.player_id, p]));
 // 1–4. és 6–9. kérdés 1000, az 5. kérdés 2000, a 10. pedig 5000 pont.

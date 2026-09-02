@@ -7,7 +7,7 @@
                         │        Supabase           │
    ┌────────────┐       │  Postgres + RLS + RPC     │
    │  PWA       │◄─────►│  Auth (vendég/Google/mail)│
-   │  web/      │  REST │  13 migráció, 37 RPC      │
+   │  web/      │  REST │  14 migráció, 37 RPC      │
    └────────────┘       └─────────────┬─────────────┘
          ▲                            ▲
          │                            │
@@ -103,12 +103,15 @@ Amit ez ad:
 
 ## 5. Multiplayer
 
-**Kieséses, egyidejű modell.** Egy szobában 2–5 játékos; a kerék kategóriát
-választ, és a szoba minden még játékban lévő tagja **ugyanarra a kérdésre
-válaszol, egyszerre, időre**. Aki hibázik vagy nem válaszol időben, kiesik a
-körből és nézővé válik – a megszerzett pontjait megtartja. A kör addig megy,
-amíg elfogy a 10 kérdés, vagy mindenki kiesik; ekkor a köri pontok beolvadnak az
-összesítettbe, és jön a következő kategória.
+**Kieséses, egyidejű modell.** Egy szobában 2–5 játékos. A kerék **körönként
+egyszer** pörög, és a kipörgetett kategóriából jön a kör **mind a 10 kérdése**.
+A szoba minden még játékban lévő tagja **ugyanarra a kérdésre válaszol,
+egyszerre, időre**. Aki hibázik vagy nem válaszol időben, kiesik a körből és
+nézővé válik – a megszerzett pontjait megtartja. A kör akkor ér véget, ha elfogy
+a 10 kérdés, vagy mindenki kiesett; ekkor a köri pontok beolvadnak az
+összesítettbe, és **új pörgetés** hozza a következő kategóriát.
+
+Egy játék alapból **10 kör = 10 kategória**.
 
 Ez nem ugyanaz a mechanika, mint az egyjátékos press-your-luck kör: itt nincs
 „megállok vagy továbbmegyek” döntés, mert azt nem lehet közösen meghozni. A
@@ -135,7 +138,7 @@ hálózatvesztésével megállna a játék, és nincs szükség külön háttér
 
 | Fázis | Meddig | Mi látszik |
 |---|---|---|
-| pörgetés | `answer_open_at`-ig | a kerék fut a szerver választotta kategóriára, válaszok zárva |
+| pörgetés | `answer_open_at`-ig (6 mp, körönként egyszer) | a kerék kifut a kategóriára, **majd szünet elolvasni**; válaszok zárva |
 | válasz | `deadline_at`-ig | kérdés + 4 lehetőség + visszaszámláló |
 | kiértékelés | `reveal_seconds` | helyes válasz, magyarázat, ki mit választott, ki esett ki |
 
@@ -143,6 +146,12 @@ A pörgetés azért kap külön időablakot, mert különben az animáció ideje
 válaszidőből – és annak mindenkinél ugyanannyinak kell lennie. A szerver ezért
 `answer_open_at`-ot is számol, nem csak határidőt, és a válasz beküldését is
 elutasítja, amíg a kerék „pörög”.
+
+Ez az ablak két részre oszlik: a kerék animációja (~2,5 mp), majd **idő
+elolvasni, milyen kategória jött ki**. Ez azért nem lassítja a játékot, mert
+körönként csak egyszer fordul elő – nem minden kérdés előtt. A kliens ezért
+rövidebbet pörget, mint amennyi idő van, és a maradékban a kategória nevét
+mutatja.
 
 ### Amit a szerver nem küld el
 

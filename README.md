@@ -31,7 +31,7 @@ képernyő. Nincs `npm install` – a Node 20 beépített moduljai elegendők.
 |---|---|
 | **PWA** (`web/`) – teljes játék, offline is | ✅ böngészőben tesztelve |
 | **Kérdésbank** – **1157 kérdés, 22 kategória** | ✅ validált |
-| **Backend** (`supabase/`) – 13 migráció, RLS, 37 RPC | ✅ kész |
+| **Backend** (`supabase/`) – 14 migráció, RLS, 37 RPC | ✅ kész |
 | **Multiplayer** – kieséses, szobalista + 3 jegyű PIN, 2–5 fő | ✅ |
 | **Ranglista** – örök / havi / heti / napi | ✅ |
 | **Bejelentkezés** – vendég, Google, e-mail + jelszó | ✅ |
@@ -83,10 +83,12 @@ pontozás bevezetéséhez nem kell új verziót kiadni.
 ## Multiplayer
 
 **Kieséses mód.** Egy szobában 2–5 játékos, mindenki a saját telefonján. A kerék
-kategóriát választ, és **mindenki ugyanarra a kérdésre válaszol, egyszerre,
-időre**. Aki hibázik vagy lekési az időt, kiesik a körből és nézővé válik – a
-pontjait megtartja. A kör addig megy, amíg elfogy a 10 kérdés, vagy mindenki
-kiesik; utána jön a következő kategória. Az állás végig látszik felül.
+**körönként egyszer** pörög, és a kipörgetett kategóriából jön a kör **mind a 10
+kérdése**. Mindenki ugyanarra a kérdésre válaszol, egyszerre, időre. Aki hibázik
+vagy lekési az időt, kiesik a körből és nézővé válik – a pontjait megtartja. A
+kör akkor ér véget, ha elfogy a 10 kérdés, vagy mindenki kiesett; utána új
+pörgetés hozza a következő kategóriát. Egy játék alapból **10 kör = 10
+kategória**. Az állás végig látszik felül.
 
 **Szobakód nincs.** A nyitott szobák fel vannak sorolva: látszik, kinek a
 szobája, hányan vannak benne, kell-e PIN. A készítő egy **3 jegyű PIN-t** görget
@@ -125,7 +127,7 @@ web/                      a PWA – build nélkül futó teljes játék
   js/sound.js             szintetizált játékhangok (nincs hangfájl)
   js/screens.js           home, statisztika, ranglista, profil, beállítás, névjegy
   tests/                  node --test + böngészős integrációs teszt
-supabase/migrations/      13 migráció: séma, RLS, RPC, multiplayer, auth
+supabase/migrations/      14 migráció: séma, RLS, RPC, multiplayer, auth
 admin/                    kérdéskezelés, review, import/export (statikus)
 tools/src/                seed build/validáció, import, AI generálás,
                           Wikidata, fact-check, ikon, szerver, böngészőteszt
@@ -169,8 +171,8 @@ node tools/src/validate-seed.mjs
 
 ```bash
 node --test web/tests/rules.test.mjs   # 30 teszt: pontozás, kerék, állapotgép
-node tools/src/browser-test.mjs        # 109 ellenőrzés valódi böngészőben
-node tools/src/db-test.mjs             # 111 ellenőrzés igazi PostgreSQL-en
+node tools/src/browser-test.mjs        # 120 ellenőrzés valódi böngészőben
+node tools/src/db-test.mjs             # 117 ellenőrzés igazi PostgreSQL-en
 node tools/src/validate-seed.mjs       # kérdésbank minőségi kapui
 ```
 
@@ -182,7 +184,7 @@ nézőnél. Ellenőrzi a szobalistát, a görgetős PIN-választót, és azt is,
 hangmotor AudioContextje tényleg elindul (a néma hiba különben nem látszik), és
 a bejelentkezési űrlapot (vendég átalakítása, hibás adat, magyar hibaüzenetek).
 
-Az adatbázis-teszt lefuttatja mind a 13 migrációt és lejátszik két teljes
+Az adatbázis-teszt lefuttatja mind a 14 migrációt és lejátszik két teljes
 szobás játékot **igazi Postgresen** (PGlite = Postgres WebAssemblyre fordítva),
 Docker és Postgres-telepítés nélkül. Ellenőrzi a kiesést, az időtúllépést, a
 körvégi összesítést, a jutalomtáblát (hibátlan kör = 15 000 pont), a PIN

@@ -97,6 +97,7 @@ futtasd le:
 11. `20260901091100_room_list_and_pin.sql`
 12. `20260901091200_google_and_email_auth.sql`
 13. `20260901091300_close_room.sql`
+14. `20260901091400_one_category_per_round.sql`
 
 > A sorrend kötelező: a későbbi fájlok az előzők típusaira és függvényeire
 > építenek.

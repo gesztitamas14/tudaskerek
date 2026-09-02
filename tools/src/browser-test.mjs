@@ -178,7 +178,8 @@ try {
     // kell hozzá), ezért saját, adatokkal feltöltött lapról készül a kép.
     const lobbyShots = [
       ['pwa-lobby.png', ''],
-      ['pwa-pin.png', '%23pin']
+      ['pwa-pin.png', '%23pin'],
+      ['pwa-spin.png', '%23spin']
     ];
     console.log('\nKépernyőképek:');
     for (const [name, hash] of shots) {
