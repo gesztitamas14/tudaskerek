@@ -37,6 +37,27 @@ function resetViewportScroll() {
 }
 
 /**
+ * A `100dvh` helyett JS-ből számolt, pixelben rögzített magasság.
+ *
+ * A HIBA, amit ez javít: iPhone-on (Safari-alapú böngészők, a Chrome is)
+ * lezárt/háttérbe küldött lapot visszahozva a `dvh` egység WebKit-oldalon
+ * nem mindig számolódik újra – az alkalmazás felcsúszva, alul üres sávval
+ * marad, amíg a felhasználó ki nem lép és vissza nem lép (ez kényszerít ki
+ * egy teljes újrarajzolást). A `resetViewportScroll` a görgetést javítja,
+ * de nem ezt a WebKit-gyorsítótárazási hibát.
+ *
+ * A megoldás: a tényleges magasságot (`visualViewport.height`, ha van, mert
+ * az követi a címsáv/billentyűzet változását, különben `innerHeight`)
+ * KÖZVETLENÜL, pixelben állítjuk be egy egyéni CSS-tulajdonságba, minden
+ * eseménynél újraszámolva – ez mindig kikényszerít egy relayoutot, nem
+ * hagyatkozik a böngésző `dvh`-újraszámolására.
+ */
+function syncViewportHeight() {
+  const height = window.visualViewport?.height ?? window.innerHeight;
+  document.documentElement.style.setProperty('--app-vh', `${height}px`);
+}
+
+/**
  * Teljes képernyős mód.
  *
  * PWA-ként a home képernyőről indítva ez már eleve teljes képernyős
@@ -103,6 +124,17 @@ class App {
     // A böngésző csak felhasználói interakció után engedi a hangot, ezért az
     // AudioContext az első koppintásnál indul.
     bindUnlockOnFirstGesture();
+
+    // Lásd a `syncViewportHeight` doksiját: a `dvh` WebKit-en háttérből
+    // visszatérve nem mindig frissül, ezért JS-ből, pixelben tartjuk karban.
+    syncViewportHeight();
+    window.addEventListener('resize', syncViewportHeight);
+    window.addEventListener('orientationchange', syncViewportHeight);
+    window.visualViewport?.addEventListener('resize', syncViewportHeight);
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') syncViewportHeight();
+    });
+    window.addEventListener('pageshow', syncViewportHeight);
 
     if (!storageAvailable()) {
       toast(

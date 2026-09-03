@@ -67,7 +67,6 @@ export function multiplayerScreen(app) {
   // Ha a belépés eleve nem megy, ezt írjuk ki a lista helyén.
   let authProblem = null;
   // null = még nem tudjuk; a szerver válasza után true/false.
-  let isGuest = null;
 
   const listHost = el('div.room-list');
   const listCard = card([
@@ -76,22 +75,6 @@ export function multiplayerScreen(app) {
       el('button.link-btn', { type: 'button', text: 'Frissítés', on: { click: () => refresh() } })
     ]),
     listHost
-  ]);
-
-  // ── vendégjelzés ──
-  //
-  // Vendégként is lehet szobát csinálni és csatlakozni. A pont viszont nem
-  // kerül a nyilvános ranglistára: a vendégnév generált, a fiók eldobható.
-  // A jelzés csak akkor jelenik meg, ha a SZERVER megerősíti, hogy vendég a
-  // fiók (lásd `refresh`). Korábban a JWT állítására épült, és bejelentkezve
-  // is kiírta – ez volt a hibás viselkedés, nem maga a figyelmeztetés.
-  const guestNote = el('div.guest-note', { hidden: true }, [
-    el('span', { text: '👤' }),
-    el('span', {
-      text:
-        'Vendégként játszol: a szobában minden működik, de a pontod nem kerül a ' +
-        'nyilvános ranglistára. A saját statisztikád megmarad.'
-    })
   ]);
 
   // ─────────── belépés ───────────
@@ -110,7 +93,6 @@ export function multiplayerScreen(app) {
     try {
       await app.supabase.signInAnonymously();
       authProblem = null;
-      isGuest = null;   // új session → újra meg kell kérdezni
       return true;
     } catch (error) {
       authProblem = signInProblem(error);
@@ -127,8 +109,8 @@ export function multiplayerScreen(app) {
         title: 'Jelentkezz be a játékhoz',
         message:
           'Ezen a szerveren a vendégjáték ki van kapcsolva, ezért szobához ' +
-          'bejelentkezés kell. A Profil lapon beléphetsz Google-fiókkal vagy ' +
-          'e-maillel – utána visszatérhetsz ide.',
+          'bejelentkezés kell. A Profil lapon beléphetsz e-maillel – utána ' +
+          'visszatérhetsz ide.',
         // Ez a projekt beállítása, nem a játékos hibája – de a tulajdonosnak
         // hasznos tudni, hol lehet bekapcsolni.
         hint: 'A projekt tulajdonosának: Supabase → Authentication → Providers → Anonymous sign-ins.'
@@ -151,7 +133,6 @@ export function multiplayerScreen(app) {
 
   function renderAuthProblem() {
     clear(listHost);
-    guestNote.hidden = true;
     listHost.append(
       stateMessage({
         icon: '🔒',
@@ -171,17 +152,6 @@ export function multiplayerScreen(app) {
       renderAuthProblem();
       return;
     }
-    // A vendégfigyelmeztetést CSAK akkor írjuk ki, ha a szerver megerősíti.
-    //
-    // Korábban a JWT `is_anonymous` állítására épült, és bejelentkezett
-    // felhasználónak is megjelent. A JWT ezt nem mindig tartalmazza, és
-    // vendégfiók átalakítása után elavul – a `profiles` sor viszont hiteles.
-    // Ha nem tudjuk eldönteni, hallgatunk: rosszabb valótlant állítani a
-    // felhasználó fiókjáról, mint semmit.
-    if (isGuest === null) {
-      isGuest = await app.supabase.isGuestAccount();
-    }
-    guestNote.hidden = isGuest !== true;
 
     try {
       openRooms = (await app.supabase.rpc('list_open_rooms', { p_limit: 30 })) ?? [];
@@ -437,7 +407,6 @@ export function multiplayerScreen(app) {
           'Aki hibázik, kiesik a körből és nézővé válik – aztán jön az új kategória.'
       })
     ]),
-    guestNote,
     el('div.actions', null, [primaryButton('Új szoba létrehozása', openCreate, { tone: 'gold' })]),
     listCard
   );

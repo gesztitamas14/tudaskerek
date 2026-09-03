@@ -34,7 +34,7 @@ képernyő. Nincs `npm install` – a Node 20 beépített moduljai elegendők.
 | **Backend** (`supabase/`) – 15 migráció, RLS, 37 RPC | ✅ kész |
 | **Multiplayer** – kieséses, szobalista + 3 jegyű PIN, 2–5 fő | ✅ |
 | **Ranglista** – örök / havi / heti / napi | ✅ |
-| **Bejelentkezés** – vendég, Google, e-mail + jelszó | ✅ |
+| **Bejelentkezés** – vendég, e-mail + jelszó | ✅ |
 | **Admin felület** (`admin/`) | ✅ kész |
 | **AI pipeline** (`tools/`) – generálás, dedup, fact-check | ✅ élőben tesztelve |
 | **Automatikus közzététel** GitHub Pages-re | ✅ workflow kész |

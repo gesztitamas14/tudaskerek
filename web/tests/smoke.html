@@ -589,21 +589,11 @@
         roomHost.querySelectorAll('.room-item')[2]?.disabled === true,
         'a tele szoba nem választható'
       );
-      // A `hidden` attribútum mellett a tényleges megjelenítést is mérjük:
-      // a globális `[hidden] { display: none !important }` szabály nem
-      // rejtheti el azt, aminek látszania KELL.
-      const guestNoteEl = roomHost.querySelector('.guest-note');
+      // A vendégjelzést a felhasználó kérésére eltávolítottuk: vendégként is
+      // simán működik a szobalista, figyelmeztetés nélkül.
       check(
-        guestNoteEl?.hidden === false,
-        'vendégként figyelmeztet, hogy a pont nem kerül ranglistára'
-      );
-      check(
-        guestNoteEl !== null && getComputedStyle(guestNoteEl).display !== 'none',
-        'a vendégjelzés vendégként TÉNYLEGESEN látszik'
-      );
-      check(
-        roomHost.innerText.includes('Vendégként játszol'),
-        'vendégként a figyelmeztetés szövege olvasható'
+        roomHost.querySelector('.guest-note') === null,
+        'nincs vendégjelzés a szobalistán'
       );
       check(
         !roomHost.textContent.includes('SZOBAKÓD') && !roomHost.querySelector('.code-input'),
@@ -867,8 +857,8 @@
         'nincs többé Apple bejelentkezés a felületen'
       );
       check(
-        roomHost.textContent.includes('Belépés Google-fiókkal'),
-        'van Google bejelentkezés'
+        !roomHost.textContent.includes('Google'),
+        'nincs többé Google bejelentkezés a felületen – a felhasználó kérésére eltávolítva'
       );
       check(
         Boolean(roomHost.querySelector('.auth-form input[type=email]')) &&
@@ -924,8 +914,8 @@
         'vendégnél elmondja, mi a hátránya'
       );
       check(
-        roomHost.querySelector('.auth-form .link-btn')?.hidden === true,
-        'vendégnél nincs „bejelentkezés / regisztráció” választás'
+        roomHost.querySelector('.auth-form .link-btn')?.hidden !== true,
+        'vendégnél IS látszik a váltógomb – legyen mód meglévő fiókba belépni'
       );
       check(
         roomHost.textContent.includes('eredményeid megmaradnak') ||
@@ -938,11 +928,35 @@
       await pause();
       check(
         calls.some((entry) => entry.name === 'upgrade'),
-        'vendégnél a meglévő fiókot alakítja át (nem új regisztráció)'
+        'vendégnél ALAPBÓL a meglévő fiókot alakítja át (nem új regisztráció)'
       );
       check(
         !calls.some((entry) => entry.name === 'signUp'),
-        'vendégnél NEM hív regisztrációt – az elveszítené a statisztikát'
+        'vendégnél alapból NEM hív regisztrációt – az elveszítené a statisztikát'
+      );
+
+      // A REGRESSZIÓ, amit a felhasználó jelentett: vendégként a form
+      // véglegesen a „Fiók létrehozása” módban ragadt, nem lehetett meglévő
+      // fiókba egyszerűen bejelentkezni. A váltógombnak ezt lehetővé kell
+      // tennie.
+      // FONTOS: itt NEM szabad `calls = []`-t írni – a mock már a korábbi
+      // tömb REFERENCIÁJÁT zárta magába, egy új tömb nem jutna el hozzá.
+      calls.length = 0;
+      roomHost.querySelector('.auth-form .link-btn').click();
+      check(
+        roomHost.querySelector('.auth-form .btn span:last-child')?.textContent === 'Bejelentkezés',
+        'a váltógombra kattintva vendégként is elérhető a sima „Bejelentkezés” mód'
+      );
+      fill('mar-van-fiokom@example.com', 'titkos123');
+      clickSubmit();
+      await pause();
+      check(
+        calls.some((entry) => entry.name === 'signIn'),
+        'a váltás után a küldés bejelentkezést hív, NEM a vendégfiók-frissítést'
+      );
+      check(
+        !calls.some((entry) => entry.name === 'upgrade'),
+        'a váltás után NEM a vendégfiókot próbálja frissíteni'
       );
       roomHost.replaceChildren();
 
@@ -1242,29 +1256,11 @@
       roomHost.append(delNode);
       await wait(150);
 
-      // ── bejelentkezve NINCS vendégjelzés ────────────────────────────────
-      //
-      // REGRESSZIÓ: a jelzést a JS a `hidden` attribútummal rejtette el, de a
-      // `.guest-note { display: flex }` osztályszabály ERŐSEBB a böngésző
-      // `[hidden] { display: none }` szabályánál – így bejelentkezve is
-      // látszott, hogy „Vendégként játszol”. Ezért a `hidden` attribútumot
-      // nem elég megvizsgálni: a TÉNYLEGES megjelenítést kell mérni.
-      const signedNote = roomHost.querySelector('.guest-note');
+      // A vendégjelzés a felhasználó kérésére teljesen kikerült – bejelentkezve
+      // és vendégként sem jelenik meg semmi ilyesmi.
       check(
-        signedNote !== null,
-        'a vendégjelzés eleme létezik (csak épp rejtve kell lennie)'
-      );
-      check(
-        signedNote?.hidden === true,
-        'bejelentkezve a vendégjelzés hidden attribútuma be van állítva'
-      );
-      check(
-        signedNote !== null && getComputedStyle(signedNote).display === 'none',
-        'bejelentkezve a vendégjelzés TÉNYLEGESEN nem látszik'
-      );
-      check(
-        !roomHost.innerText.includes('Vendégként játszol'),
-        'bejelentkezve a „Vendégként játszol” szöveg nem olvasható a képernyőn'
+        roomHost.querySelector('.guest-note') === null,
+        'bejelentkezve sincs vendégjelzés a szobalistán'
       );
 
       check(

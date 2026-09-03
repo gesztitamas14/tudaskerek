@@ -19,7 +19,6 @@ export function homeScreen(app) {
   const categories = app.bank.wheelCategories({
     onlyHungarian: settings.get('onlyHungarianCategories')
   });
-  const stats = localStats(app.bank.categoriesBySlug);
 
   const hero = el('div.hero', null, [
     el('div.wheel-host.wheel-host-small', null, canvas),
@@ -61,28 +60,7 @@ export function homeScreen(app) {
     })
   ]);
 
-  const quickStats = card([
-    el('div.card-head', null, [
-      el('h3', { text: 'Eredményeid' }),
-      el('span.muted.small', { text: settings.displayNickname })
-    ]),
-    el('div.metric-row', null, [
-      metric('Legjobb kör', fmt.points(stats.bestRoundScore), '🏆'),
-      metric('Összpont', fmt.points(stats.totalScore), '⭐'),
-      metric('Körök', String(stats.gamesPlayed), '🎯')
-    ]),
-    stats.accuracy !== null
-      ? el('div.accuracy', null, [
-          el('div.accuracy-head', null, [
-            el('span.muted.small', { text: 'Helyes válaszok aránya' }),
-            el('span.gold.small', { text: fmt.percent(stats.accuracy) })
-          ]),
-          el('div.bar', null, el('div.bar-fill', { style: { width: `${stats.accuracy * 100}%` } }))
-        ])
-      : null
-  ]);
-
-  root.append(hero, actions, statusRow, quickStats);
+  root.append(hero, actions, statusRow);
 
   // A dekoratív kerék lassan forog a főoldalon.
   requestAnimationFrame(() => {
@@ -93,14 +71,6 @@ export function homeScreen(app) {
   });
 
   return root;
-}
-
-function metric(title, value, icon) {
-  return el('div.metric', null, [
-    el('div.metric-icon', { text: icon }),
-    el('div.metric-value', { text: value }),
-    el('div.metric-title', { text: title })
-  ]);
 }
 
 // ─────────────────────────── statisztika ───────────────────────────
@@ -472,20 +442,21 @@ function accountStatusText(app) {
   }
   return app.supabase.isAnonymous
     ? 'Vendégfiók. Minden működik, de a pontod nem kerül a nyilvános ranglistára, ' +
-      'és készülékcserénél elveszne. Adj meg egy e-mailt vagy jelentkezz be ' +
-      'Google-fiókkal – az eredményeid megmaradnak.'
+      'és készülékcserénél elveszne. Adj meg egy e-mailt – az eredményeid megmaradnak.'
     : 'Bejelentkezve. Az eredményeid a fiókodhoz tartoznak, és felkerülsz a ranglistára.';
 }
 
 /**
- * Fiókműveletek: Google OAuth vagy e-mail + jelszó.
+ * Fiókműveletek: e-mail + jelszó.
  *
- * Miért nem Apple? Ahhoz fizetős Apple Developer tagság (99 USD/év) és egy
- * félévente cserélendő, `.p8` kulccsal aláírt titok kell. A Google-höz csak
- * egy ingyenes Client ID + Secret, az e-mailhez pedig semmi.
- *
- * Vendégként a form NEM új fiókot csinál, hanem a meglévőt alakítja át
- * (`upgradeGuest`) – így nem veszik el a statisztika.
+ * Vendégként ALAPÉRTELMEZÉSBEN a form nem új fiókot csinál, hanem a
+ * meglévőt alakítja át (`upgradeGuest`) – így nem veszik el a statisztika.
+ * De ha a felhasználónak MÁR van fiókja, arra is be kell tudjon lépni – ezt
+ * az `asGuestUpgrade` kapcsoló teszi lehetővé: a „Van már fiókom –
+ * bejelentkezés” linkre kattintva kilép a vendég-frissítő módból, és a
+ * normál bejelentkezés/regisztráció váltógomb veszi át a helyét.
+ * Korábban ez a kapcsoló hiányzott, és vendégként a form véglegesen a
+ * regisztrációs módban ragadt – nem lehetett meglévő fiókba bejelentkezni.
  */
 function accountActions(app) {
   if (!app.supabase.isConfigured) return [];
@@ -501,6 +472,9 @@ function accountActions(app) {
   }
 
   const isGuest = app.supabase.isSignedIn && app.supabase.isAnonymous;
+  // Vendégként alapból a fiók-frissítő ág fut, de a felhasználó kiléphet
+  // belőle, ha már van fiókja és be akar jelentkezni.
+  let asGuestUpgrade = isGuest;
   let mode = 'signin';           // 'signin' | 'signup'
   let isWorking = false;
 
@@ -522,28 +496,45 @@ function accountActions(app) {
   const feedback = el('p.small.center', { hidden: true });
   const submit = primaryButton('', () => run());
 
-  // Vendégnél nincs „bejelentkezés/regisztráció” választás: a meglévő fiókot
-  // alakítjuk át, különben elveszne az addigi statisztika.
+  // A váltógomb HÁROM állapotot jár be, amíg vendégként indulunk:
+  //   fiók-frissítés → bejelentkezés → regisztráció → bejelentkezés → …
+  // Bejelentkezett (nem vendég) felhasználónál csak signin/signup vált.
   const switcher = el('button.link-btn', {
     type: 'button',
-    hidden: isGuest,
     on: {
       click: () => {
-        mode = mode === 'signin' ? 'signup' : 'signin';
+        if (asGuestUpgrade) {
+          asGuestUpgrade = false;
+          mode = 'signin';
+        } else {
+          mode = mode === 'signin' ? 'signup' : 'signin';
+        }
         paint();
       }
     }
   });
 
+  const guestUpgradeNote = el('p.muted.small', {
+    text:
+      'A fiók a MOSTANI vendégfiókodból lesz: a pontjaid, a statisztikád és ' +
+      'az előtörténeted megmarad.'
+  });
+
   function paint() {
-    submit.querySelector('span:last-child').textContent = isGuest
+    submit.querySelector('span:last-child').textContent = asGuestUpgrade
       ? 'Fiók létrehozása (eredmények megtartva)'
       : mode === 'signin'
         ? 'Bejelentkezés'
         : 'Regisztráció';
-    switcher.textContent =
-      mode === 'signin' ? 'Nincs még fiókom – regisztrálok' : 'Van már fiókom – bejelentkezés';
-    passwordInput.autocomplete = mode === 'signin' && !isGuest ? 'current-password' : 'new-password';
+    switcher.textContent = asGuestUpgrade
+      ? 'Van már fiókom – bejelentkezés'
+      : mode === 'signin'
+        ? 'Nincs még fiókom – regisztrálok'
+        : 'Van már fiókom – bejelentkezés';
+    passwordInput.autocomplete = mode === 'signin' && !asGuestUpgrade ? 'current-password' : 'new-password';
+    // Ha a vendég átvált sima bejelentkezésre, ez a megjegyzés már nem igaz
+    // (nem a jelenlegi vendégfiókból lesz a belépés, hanem egy meglévőbe).
+    guestUpgradeNote.hidden = !asGuestUpgrade;
   }
 
   function say(message, tone = 'muted') {
@@ -572,7 +563,7 @@ function accountActions(app) {
     say('Egy pillanat…');
 
     try {
-      if (isGuest) {
+      if (asGuestUpgrade) {
         const { needsConfirmation } = await app.supabase.upgradeGuest(email, password);
         if (needsConfirmation) {
           // A projekten be van kapcsolva az e-mail megerősítés: addig vendég
@@ -600,7 +591,7 @@ function accountActions(app) {
       }
       app.refreshCurrentScreen();
     } catch (error) {
-      say(authErrorText(error, mode, isGuest), 'bad');
+      say(authErrorText(error, mode, asGuestUpgrade), 'bad');
     } finally {
       // Sikernél a szülő újrarendereli a képernyőt, de az űrlap ne várjon
       // erre: enélkül egy elmaradó újrarenderelés véglegesen letiltaná.
@@ -612,34 +603,21 @@ function accountActions(app) {
   paint();
 
   return [
-    primaryButton('Belépés Google-fiókkal', () => app.supabase.signInWithGoogle(), {
-      tone: 'secondary'
-    }),
-
-    el('div.auth-divider', null, [el('span', { text: 'vagy e-maillel' })]),
-
     el('div.auth-form', null, [emailInput, passwordInput, submit, switcher, feedback]),
-
-    isGuest
-      ? el('p.muted.small', {
-          text:
-            'A fiók a MOSTANI vendégfiókodból lesz: a pontjaid, a statisztikád és ' +
-            'az előtörténeted megmarad.'
-        })
-      : null
-  ].filter(Boolean);
+    guestUpgradeNote
+  ];
 }
 
 /** A Supabase auth hibái angolul jönnek – a gyakoriakat lefordítjuk. */
-function authErrorText(error, mode, isGuest) {
+function authErrorText(error, mode, asGuestUpgrade) {
   const raw = String(error?.message ?? error);
 
   if (/invalid login credentials/i.test(raw)) {
     return 'Hibás e-mail vagy jelszó.';
   }
   if (/already registered|already been registered|user already exists/i.test(raw)) {
-    return isGuest
-      ? 'Ezzel az e-maillel már van fiók. Jelentkezz ki, és lépj be vele.'
+    return asGuestUpgrade
+      ? 'Ezzel az e-maillel már van fiók. Válts a „Van már fiókom – bejelentkezés” gombra.'
       : 'Ezzel az e-maillel már van fiók – válts bejelentkezésre.';
   }
   if (/email.*not confirmed/i.test(raw)) {
@@ -699,15 +677,7 @@ export function settingsScreen(app) {
       toggleRow('Hang', 'soundEnabled'),
       toggleRow('Rezgés', 'hapticsEnabled'),
       el('p.muted.small', {
-        text:
-          'A hangok szintetizáltak, nincs letöltendő hangfájl. iPhone-on a néma ' +
-          'kapcsoló (silent switch) a böngésző hangját is elhallgattatja – ha nem ' +
-          'szól, érdemes azt ellenőrizni.'
-      }),
-      el('p.muted.small', {
-        text:
-          'iPhone-on a böngésző nem támogatja a rezgést – ez a natív alkalmazás ' +
-          'egyik előnye. Androidon és asztali gépen működik.'
+        text: 'A hangok szintetizáltak, nincs letöltendő hangfájl.'
       })
     ]),
 
