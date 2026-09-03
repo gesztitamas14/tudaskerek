@@ -2081,6 +2081,526 @@
       "d": "hard",
       "e": "A céget 1856-ban alapították, eredetileg vízálló gabardin esőkabátokra specializálódva.",
       "t": "divatházak, tervezők"
+    },
+    {
+      "q": "Melyik évben jelent meg az első szám az amerikai Vogue magazinból?",
+      "a": [
+        "1892",
+        "1919",
+        "1925",
+        "1937"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az amerikai Vogue-ot Arthur Baldwin Turnure alapította, első száma 1892 decemberében jelent meg New Yorkban.",
+      "t": "divatsajtó"
+    },
+    {
+      "q": "Miért éppen \"bikini\" lett a neve az 1946-ban bemutatott kétrészes fürdőruhának?",
+      "a": [
+        "Mert a tervező, Louis Réard ekkora feltűnést remélt kelteni, mint a Bikini-atolli atombombateszt",
+        "Mert a ruhát először a Bikini-atoll melletti szigeten mutatták be egy divatbemutatón",
+        "Mert az anyagát állítólag a Bikini-atollról importált pamutból szőtték",
+        "Mert a tervező felesége Bikini szigetén született, és róla nevezte el a modellt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Réard 1946 júliusában, négy nappal a Bikini-atolli nukleáris kísérlet után mutatta be ruháját, hasonló feltűnést remélve.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Honnan ered a \"denim\" szó, amely ma a farmeranyagot jelöli?",
+      "a": [
+        "A francia \"serge de Nîmes\" kifejezésből, vagyis a nîmes-i szövetből",
+        "A dán \"denim\" faluból, ahol elsőként szőtték a pamutvásznat",
+        "Az angol \"den\" (barlang) szóból, mert a bányászok viselték elsőként",
+        "Egy holland textilkereskedő családnevéből"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A nîmes-i kelme, a \"serge de Nîmes\" elnevezés rövidült idővel denimmé.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Mire használták hagyományosan az indigófestéket a textiliparban?",
+      "a": [
+        "Kék színű pamut- és egyéb szövetek természetes úton történő festésére",
+        "A selyemfonalak fényesebbé tételére mosás után",
+        "A gyapjú molyok elleni tartósítására raktározás előtt",
+        "A len fonalak fehérítésére szövés előtt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az indigónövényből kivont festékanyagot évszázadokon át használták textíliák, például a denim kék színének előállítására.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Mi volt az eredeti célja a fűzőnek (korzettnek) a 19. századi női divatban?",
+      "a": [
+        "A derék karcsúsítása és a testtartás formálása merev betétekkel",
+        "A ruhaujjak formájának megtartása huzamosabb viselés során",
+        "A szoknya bő anyagának egyenletes elosztása a csípőn",
+        "A gallér merevségének biztosítása mosás után"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A korzett merev anyagból (pl. halcsontból) készült, hogy karcsúsítsa a derekat és kiemelje a mellkas-csípő arányt.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Milyen szabási elemet takar a peplum kifejezés?",
+      "a": [
+        "Egy dzseki vagy blúz derékvonalánál kiszélesedő, rövid fodros betoldást",
+        "Egy köpeny hátul lelógó, hosszú uszályos részét",
+        "Egy szoknya elején végigfutó, egyenes gombsort",
+        "Egy kabát ujjának felhajtható, szőrmés mandzsettáját"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A peplum a derékvonalból kiinduló, rövid, harang alakú fodor, amely kiemeli a derekat és a csípőt.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Milyen jellegzetes díszítés adta a nevét az 1950-es évek amerikai \"poodle skirt\" nevű szoknyájának?",
+      "a": [
+        "A szoknyára applikált, uszkár kutyát ábrázoló minta",
+        "A szoknya alján körben futó, göndör bundaszegély",
+        "A szoknya anyagának uszkárszőrből szőtt kikészítése",
+        "A szoknyát tervező amerikai divatház \"Poodle\" neve"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A filcből készült, széles, kerek szoknyát gyakran uszkárt ábrázoló applikációval díszítették, innen a neve.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Milyen kifejezés terjedt el az 1990-es években az olyan, önmagukban is világhírűvé vált modellekre, mint Cindy Crawford vagy Naomi Campbell?",
+      "a": [
+        "Szupermodell",
+        "Ikonarc",
+        "Sztármodell",
+        "Divatnagykövet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A \"szupermodell\" kifejezés az 1990-es években vált általánossá azokra a modellekre, akik a divatvilágon túl is híressé váltak.",
+      "t": "modellek, fotósok"
+    },
+    {
+      "q": "Milyen gyártási módot takar a \"prêt-à-porter\" kifejezés a divatiparban?",
+      "a": [
+        "Konfekcióban, sorozatban gyártott, méretre kész ruházatot",
+        "Kizárólag egyedi megrendelésre, kézzel varrt ruhadarabot",
+        "A divathét záróeseményén bemutatott exkluzív kollekciót",
+        "A tervező saját magára szabott, el nem adható mintadarabját"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A francia \"prêt-à-porter\" szó szerint \"viselésre kész\"-t jelent, vagyis szabott méretekben, sorozatban gyártott ruházatot.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Melyik négy várost szokás a divatvilág \"nagy négyesének\" (Big Four) nevezni a divathetek miatt?",
+      "a": [
+        "Párizs, Milánó, London és New York",
+        "Párizs, Róma, Berlin és Tokió",
+        "Milánó, Firenze, Barcelona és London",
+        "New York, Los Angeles, Toronto és Párizs"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A négy vezető divathét hagyományosan Párizsban, Milánóban, Londonban és New Yorkban zajlik évente kétszer.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Milyen alapvető tulajdonsága van a hagyományos japán kimonónak a szabása szempontjából?",
+      "a": [
+        "Egyenes vonalú szabásdarabokból áll, T-alakban, öv (obi) rögzíti",
+        "Testhez simuló, nyeszlett szabású, cipzárral záródó felsőrész",
+        "Aszimmetrikus, egyetlen vállon rögzített drapériaruha",
+        "Bő szárú nadrágból és rövid kabátkából álló kétrészes öltözet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kimonó egyenes vágású szövetdarabokból készül, T-formát alkotva, derekán az obi nevű öv tartja össze.",
+      "t": "hagyományos viseletek"
+    },
+    {
+      "q": "Mi jellemzi a hagyományos indiai szárit viselési módját?",
+      "a": [
+        "Egyetlen, hosszú, varratlan szövetdarabot tekernek és hajtogatnak a testre",
+        "Több gombbal záródó, testhez szabott kabátkát vesznek fel alá",
+        "Cipzárral záródó, kétrészes szoknya-blúz együttest jelent",
+        "Fűzővel megkötött, merev vállpántos ruhadarabot takar"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szári egyetlen, jellemzően 5-9 méteres, varratlan szövetdarab, amelyet különböző módokon tekernek a testre.",
+      "t": "hagyományos viseletek"
+    },
+    {
+      "q": "Mit jelent a \"fast fashion\" kifejezés a mai divatiparban?",
+      "a": [
+        "A futószalagon gyártott trendkövető ruházat gyors, olcsó tömegtermelését",
+        "A divatbemutatók után azonnal megvásárolható exkluzív darabokat",
+        "A designer márkák villámgyors, egyszeri kapszulakollekcióit",
+        "A használt ruhák online piactereken történő gyors továbbadását"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fast fashion a kifutón látott trendek gyors, olcsó és nagy mennyiségű másolását és forgalmazását jelenti.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Melyik két brit márka vitatja egymással, hogy elsőként fejlesztette ki a ma ismert trencskabátot az első világháború idején?",
+      "a": [
+        "A Burberry és az Aquascutum",
+        "A Burberry és a Barbour",
+        "A Mackintosh és a Barbour",
+        "Az Aquascutum és a Belstaff"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mindkét cég vízhatlan, katonatiszteknek szánt kabátokat gyártott a lövészárkok idejére, és mindkettő magának tulajdonítja az elsőséget.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "A legenda szerint hogyan kapta a nevét a \"tweed\" szövettípus?",
+      "a": [
+        "Egy londoni kereskedő félreolvasta a skót \"tweel\" (szövésmód) szót, és összekeverte a Tweed folyóval",
+        "Egy skót kikötő nevéből ered, ahol a kelmét hajókra rakodták",
+        "Egy 19. századi divattervezőnő keresztnevéből származik",
+        "A gyapjút mosó folyó, a Tweed vizének különleges tisztító hatásáról nevezték el"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hagyomány szerint 1831-ben egy londoni kereskedő a \"tweel\" szót tévesen Tweednek olvasta, és a név azóta is megmaradt.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Milyen újítást hozott a divatiparban Joseph Marie Jacquard 1804-ben szabadalmaztatott szövőgépe?",
+      "a": [
+        "Lyukkártyákkal vezérelve automatizálta a bonyolult mintás szövetek szövését",
+        "Elsőként tette lehetővé a szintetikus szálak gépi fonását",
+        "Bevezette a gyapjú és selyem gépi keverését egyetlen fonalban",
+        "Feltalálta az első elektromos hajtású varrógépet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Jacquard-szövőgép lyukkártyákkal vezérelte a mintázást, így képzetlen munkások is gyárthattak bonyolult mintás szöveteket.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Honnan ered eredetileg a paisley mintaként ismert, könnycsepp alakú motívum?",
+      "a": [
+        "Perzsa és kasmíri eredetű, a skóciai Paisley városról kapta angol nevét",
+        "Ókori egyiptomi eredetű, a Nílus-delta hieroglifáiból alakult ki",
+        "Angol eredetű, a 20. század eleji art deco tervezőktől származik",
+        "Ír kelta fonatmintákból fejlődött ki a középkorban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A boteh nevű motívum perzsa-kasmíri eredetű, de a skóciai Paisley városban gyártott utánzatok miatt kapta ma ismert nevét.",
+      "t": "minták, textilmustrák"
+    },
+    {
+      "q": "Melyik skót klán mintázatából ered az argyle névre hallgató, rombuszos kockás minta?",
+      "a": [
+        "A Campbell klán argylli tartánjából",
+        "A MacDonald klán skye-i tartánjából",
+        "A Stewart klán királyi tartánjából",
+        "A Bruce klán tartánjából"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az argyle mintázat az Argyll-i Campbell klán tartánjából és a skót kockás zoknijaikból alakult ki a 20. század elejére.",
+      "t": "minták, textilmustrák"
+    },
+    {
+      "q": "Miért kapcsolódik a \"polka dot\" (pöttyös) elnevezés egy 19. századi táncstílushoz, holott mintázatilag semmi köze nincs hozzá?",
+      "a": [
+        "Mert a polka tánc az 1840-es években nagy divatot csinált, és nevét ráaggatták a pöttyös anyagokra",
+        "Mert a polka lépéseinek koreográfiája kör alakú mintákat rajzolt ki a táncparketten",
+        "Mert a polkát táncoló nők ruháját eredetileg valóban kör alakú érmékkel díszítették",
+        "Mert a pöttyös anyagot elsőként egy Polka nevű cseh textilgyár készítette"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A polka tánc az 1840-es évektől kezdve rendkívül népszerű volt, és nevét egyszerű marketingfogásként ráaggatták a divatos pöttyös mintákra.",
+      "t": "minták, textilmustrák"
+    },
+    {
+      "q": "Miért volt rendkívül drága az ókori világban a bíborcsigákból (murex) nyert tirusi bíbor festék?",
+      "a": [
+        "Mert több ezer csigából lehetett csak néhány gramm festéket kinyerni",
+        "Mert a csigákat kizárólag a Vörös-tengerben lehetett fogni",
+        "Mert a festéshez arannyal kellett a szövetet előkezelni",
+        "Mert csak teliholdkor lehetett a festési eljárást elvégezni"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Egy gramm festékhez akár tízezer murex csigára is szükség volt, ezért a tirusi bíbor a császárok és uralkodók kiváltsága maradt.",
+      "t": "színek, festékek"
+    },
+    {
+      "q": "Mi volt a krinolin funkciója a 19. század közepének női divatjában?",
+      "a": [
+        "Fém- vagy szaruvázas alsószoknyaként tartotta bővre és formára a szoknyát",
+        "Merev gallérként emelte fel és formázta a nyakvonalat",
+        "Bélésanyagként melegítette a kabátok belsejét télen",
+        "Vászonövként rögzítette a szoknya és a blúz találkozását"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A krinolin abroncsos vázszerkezet volt, amely külön alátámasztás nélkül is nagy, kerek formában tartotta a szoknyát.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Melyik korszak divatjára volt jellemző a magasra, keményítővel merevített, fodros gallér, a ruff?",
+      "a": [
+        "A reneszánsz kora, főleg a 16. század",
+        "Az ókori Róma virágkora",
+        "Az 1920-as évek jazzkorszaka",
+        "A barokk kor vége, a 18. század"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A ruff nevű merevített fodorgallér a 16. századi reneszánsz udvari divat egyik legjellegzetesebb, Erzsébet korabeli darabja volt.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Melyik történelmi korszakról kapta a nevét az úgynevezett empire szabású, mellek alatt húzott derékvonalú ruha?",
+      "a": [
+        "A napóleoni Francia Császárságról (Empire)",
+        "A Brit Birodalom viktoriánus koráról",
+        "Az Osztrák-Magyar Monarchiáról",
+        "A Bizánci Birodalomról"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az empire szabás a napóleoni francia császárság (1804-1815) idején lett divatos, magasan, a mell alatt húzott derékvonalával.",
+      "t": "ruhadarabok története"
+    },
+    {
+      "q": "Melyik brit modell számított a \"swinging London\" jelképének a hatvanas években vékony alkata és nagy szemei miatt?",
+      "a": [
+        "Twiggy, a modell",
+        "Kate Moss, a modell",
+        "Jean Shrimpton, a modell",
+        "Naomi Campbell, a modell"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Twiggy becenevet (jelentése: \"gally\") vékony alkata miatt kapta, és \"The Face of '66\" címmel vonult be a divattörténetbe.",
+      "t": "modellek, fotósok"
+    },
+    {
+      "q": "Milyen céllal hozták létre 1948-ban a mai Met Galát New Yorkban?",
+      "a": [
+        "A Metropolitan Múzeum Costume Institute nevű részlegének adománygyűjtő báljaként",
+        "A New York-i divathét nyitóprogramjaként",
+        "A helyi divattervező szakszervezet éves közgyűléseként",
+        "Egy jótékonysági árverés lebonyolítására elárvult gyermekek javára"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Eleanor Lambert divatpublicista 1948-ban hozta létre a Costume Institute adománygyűjtő báljaként, amely mára a divatvilág egyik legnagyobb eseménye.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Melyik hegyvidéki tájegységről ered eredetileg az espadrille nevű, kötélalapú vászoncipő?",
+      "a": [
+        "A Pireneusok vidékéről, ahol paraszti és katonai lábbeliként hordták",
+        "Hollandiából, ahol eredetileg fapapucs helyettesítőjeként terjedt el",
+        "Japánból, a hagyományos szalmaszandálok mintájára",
+        "Skandináviából, ahol halászok viselték nedves talajon"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az espadrille a Pireneusok francia-spanyol határvidékén alakult ki, jellemzően jutakötél talppal és vászon felsőrésszel.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Melyik mintáról NEM mondható el, hogy szövési technikáját tekintve valóban skót eredetű, csak az elnevezése kötődik egy skóciai városhoz?",
+      "a": [
+        "A paisley (könnycsepp alakú) minta",
+        "Az argyle (rombuszos) minta",
+        "A tartán (kockás) minta",
+        "A houndstooth (libaláb) minta"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A paisley motívum perzsa-kasmíri eredetű; csak elnevezése köthető a skóciai Paisley városhoz, ahol tömegesen utánozták.",
+      "t": "minták, textilmustrák"
+    },
+    {
+      "q": "Hány fő teljes munkaidős alkalmazottat ír elő minimumként a párizsi Chambre Syndicale a haute couture cím viseléséhez egy divatháznak?",
+      "a": [
+        "Legalább 15 főt egy párizsi műhelyben",
+        "Legalább 5 főt bármely országban",
+        "Legalább 50 főt kizárólag Párizsban",
+        "Legalább 100 főt, több telephelyen összesen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A francia szabályozás szerint a haute couture divatháznak legalább 15 főt kell alkalmaznia egy párizsi műhelyben, és évente két kollekciót kell bemutatnia.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Melyik himalájai kecskefajta finom, alsó rétegű szőréből készül a pashmina néven ismert kasmírgyapjú?",
+      "a": [
+        "A changthangi kecske",
+        "Az angóra kecske",
+        "Az alpesi tejelő kecske",
+        "A núbiai kecske"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A changthangi kecske a nyugat-himalájai fennsíkokon él, télen kialakuló finom alsószőrét fésüléssel gyűjtik be pashmina készítéséhez.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Mi különbözteti meg alapvetően a batikolás technikáját a hagyományos mintázott szövéstől?",
+      "a": [
+        "A mintát forró viasszal rajzolják a kész szövetre, ami festéskor ellenáll a festéknek",
+        "A fonalakat a szövés előtt kötözik el, hogy a festék ne fogjon meg rajtuk",
+        "A mintát kizárólag fehérítéssel, vegyszeres maratással alakítják ki",
+        "A szövetet szövés közben eltérő vastagságú fonalakkal díszítik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A batikolásnál forró viasszal rajzolják meg a mintát a kész anyagon, így a viaszolt részek festéskor fehérek maradnak.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Miben különbözik az ikat technikája a batikolástól a mintázás időzítése szempontjából?",
+      "a": [
+        "Az ikatnál a fonalakat festik meg mintázottan még a szövés előtt, nem a kész szövetet",
+        "Az ikatnál a mintát csak a szövés befejezése után, hímzéssel viszik fel",
+        "Az ikat kizárólag szintetikus szálakon alkalmazható technika",
+        "Az ikatnál a festéket forrón, gőzöléssel rögzítik a kész ruhadarabon"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ikat technikánál a fonalakat kötözéssel mintázottan festik meg a szövés előtt, ellentétben a batikkal, ahol a kész szövetet kezelik.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Milyen technikával készülnek a macramé textíliák, szemben a szövéssel vagy kötéssel?",
+      "a": [
+        "Kizárólag csomózással, tű vagy horgolótű nélkül",
+        "Gépi hímzéssel, előre nyomtatott mintasablon alapján",
+        "Nemezeléssel, gyapjúszálak összepréselésével",
+        "Batikoláshoz hasonló, viaszos mintázó eljárással"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A macramé kizárólag fonalak kézi csomózásával készül, tű vagy szövőszék használata nélkül, ami megkülönbözteti a kötéstől és szövéstől.",
+      "t": "anyagok, textíliák"
+    },
+    {
+      "q": "Ki fejlesztette tovább 1913-ban megbízhatóra Whitcomb Judson korai, még megbízhatatlan cipzár-szabadalmát?",
+      "a": [
+        "Gideon Sundback",
+        "Elias Howe",
+        "Isaac Singer",
+        "Levi Strauss"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A svéd-amerikai mérnök, Gideon Sundback 1913-ban, majd 1917-ben szabadalmaztatta a ma is használt, egymásba kapaszkodó fogas cipzárszerkezetet.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Milyen újítást vezetett be az öltözködésben a 19. század eleji angol dandy, Beau Brummell?",
+      "a": [
+        "Elhagyta a térdnadrágot, és bevezette a hosszú szárú, mai értelemben vett férfinadrágot",
+        "Elsőként viselt színes selyemzekét az udvari fogadásokon",
+        "Bevezette a parókaviselést a férfi udvari eleganciában",
+        "Feltalálta az első gombos mandzsettát az inguk ujján"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Brummell elutasította a térdnadrágot és a harisnyát, és népszerűsítette a hosszú nadrágot, kabátot és mellényt, a mai öltöny elődjét.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Milyen színt alkotott meg és tett védjegyévé Elsa Schiaparelli az 1930-as években?",
+      "a": [
+        "A \"shocking pink\" néven ismert élénk rózsaszínt",
+        "A \"Klein-kék\" néven ismert mély ultramarint",
+        "A \"Tiffany-kék\" néven ismert türkiz árnyalatot",
+        "A \"Schiaparelli-zöld\" néven ismert smaragdzöldet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Schiaparelli 1937-ben mutatta be Shocking nevű parfümjét, melynek élénk rózsaszíne híres védjegyévé, a \"shocking pink\" színné vált.",
+      "t": "divattörténet"
+    },
+    {
+      "q": "Melyik évtől kezdve hirdet a Pantone színszabvány-cég évente úgynevezett \"Év Színét\" a divat- és tervezőipar számára?",
+      "a": [
+        "2000-től",
+        "1975-től",
+        "1990-től",
+        "2010-től"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Pantone 1999-ben jelentette be az első, 2000-re szóló Év Színét (cerulean kék), és azóta minden évben folytatja a hagyományt.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Milyen katonai eredetű ruhadarabról kapta a nevét a francia \"cravate\", a mai nyakkendő őse?",
+      "a": [
+        "A francia zsoldban álló horvát katonák nyakkendőjéről",
+        "A svájci pápai gárdisták ünnepi díszes gallérjáról",
+        "A porosz huszárok bőrből készült nyakvédő szíjazatáról",
+        "Az angol királyi tengerészgyalogosok fehér vászon sáljáról"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 17. században francia zsoldban álló horvát katonák nyakkendőjét \"croate\", majd \"cravate\" néven vették át, ebből ered a mai nyakkendő.",
+      "t": "kiegészítők, lábbeli"
+    },
+    {
+      "q": "Milyen gyakorlatot takar az \"upcycling\" fogalma a fenntartható divatban?",
+      "a": [
+        "Használt anyagok vagy ruhadarabok magasabb értékű, új termékké alakítását",
+        "A raktáron maradt ruhák leértékelt kiárusítását szezon végén",
+        "A gyártás során keletkező textilhulladék elégetését energiatermelésre",
+        "A műszálas anyagok vegyi úton történő lebontását nyersanyaggá"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az upcycling során a hulladékanyagot vagy elhasznált ruhát nem lebontják, hanem eredeti formájánál értékesebb új darabbá alakítják.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Mit takar a \"kapszulagardrób\" fogalma az öltözködésben?",
+      "a": [
+        "Kevés, egymással jól kombinálható, időtálló ruhadarabból álló szűk kollekciót",
+        "Egyetlen alkalomra tervezett, különleges díszruhák gyűjteményét",
+        "A repülőgépeken hordható, összehajtható utazóruhák sorozatát",
+        "A divatházak szezononkénti, korlátlan darabszámú bemutatóit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kapszulagardrób néhány, egymással sokféleképpen kombinálható, minőségi és időtálló ruhadarabból áll, csökkentve a felesleges vásárlást.",
+      "t": "szakmai fogalmak"
+    },
+    {
+      "q": "Milyen társadalmi jelenséghez kötődött az 1940-es évek Amerikájában a hivalkodóan bő szabású \"zoot suit\" öltöny viselése?",
+      "a": [
+        "A mexikói-amerikai fiatalok pachuco szubkultúrájához, mely 1943-as zavargásokhoz vezetett",
+        "Az egyetemi diáksport-csapatok hivatalos versenyöltözetéhez",
+        "A második világháborús hadiipari munkások védőruházatához",
+        "A hollywoodi filmsztárok vörös szőnyeges gálaesteihez"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hivalkodó zoot suitot elsősorban mexikói-amerikai fiatalok viselték, és a stílus 1943-ban Los Angelesben zavargásokhoz vezetett.",
+      "t": "divattörténet"
     }
   ]
 }

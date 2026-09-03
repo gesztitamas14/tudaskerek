@@ -1136,6 +1136,1046 @@
       "e": "Amadeus IT Group egyik alapítója Lufthansa.",
       "t": "cégek és alapítók",
       "s": "http://www.wikidata.org/entity/Q696061"
+    },
+    {
+      "q": "Mire szolgál a számítógépben a GPU (grafikus processzor)?",
+      "a": [
+        "Grafikai számítások gyors elvégzésére",
+        "Hálózati adatok titkosítására",
+        "Az operációs rendszer betöltésére",
+        "A merevlemez hűtésére"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A GPU a képi és párhuzamos számításokra specializált egység, ezért gyorsabb grafikai feladatoknál, mint az általános CPU.",
+      "t": "hardver"
+    },
+    {
+      "q": "Melyik tárolóeszköz-típus olvas és ír adatot forgó mágneses lemezen, mozgó fejjel?",
+      "a": [
+        "HDD, azaz hagyományos merevlemez",
+        "SSD, azaz szilárdtestalapú meghajtó",
+        "RAM, azaz memóriamodul",
+        "Flash-kártya, azaz memóriakártya"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A HDD forgó mágneses lemezt és mozgó írófejet használ, ellentétben a mozgó alkatrész nélküli SSD-vel.",
+      "t": "hardver"
+    },
+    {
+      "q": "Hány bit alkot egy kilobájtot a hagyományos, 1024 bájtos számítás szerint?",
+      "a": [
+        "8192 bit",
+        "1024 bit",
+        "4096 bit",
+        "2048 bit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1 kilobájt 1024 bájt, egy bájt pedig 8 bit, így 1024×8=8192 bit.",
+      "t": "hardver"
+    },
+    {
+      "q": "Mi a fő különbség a RAM és a ROM memória között?",
+      "a": [
+        "A RAM tartalma áramkimaradáskor elvész, a ROMé megmarad",
+        "A ROM tartalma áramkimaradáskor elvész, a RAMé megmarad",
+        "A RAM és a ROM között nincs érdemi különbség",
+        "A RAM kizárólag a processzorban található, a ROM a merevlemezen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A RAM (véletlen elérésű memória) felejtő tár, míg a ROM (csak olvasható memória) megőrzi adatait áram nélkül is.",
+      "t": "hardver"
+    },
+    {
+      "q": "Melyik alkatrész felelős a számítógép komponenseinek fizikai összekötéséért?",
+      "a": [
+        "Az alaplap, más néven motherboard",
+        "A tápegység, amely az áramellátásért felel",
+        "A hűtőventilátor, amely a hőt vezeti el",
+        "A grafikus kártya, amely a képet jeleníti meg"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az alaplap tartalmazza a foglalatokat és buszokat, amelyek összekötik a processzort, a memóriát és a többi alkatrészt.",
+      "t": "hardver"
+    },
+    {
+      "q": "Miért gyorsabb jellemzően egy SSD egy HDD-nél?",
+      "a": [
+        "Mert nincsenek mozgó alkatrészei, az adatok elektronikusan érhetők el",
+        "Mert nagyobb a fizikai mérete, így több adat fér el rajta",
+        "Mert mágneses lemezt forgat gyorsabban, mint a HDD",
+        "Mert mindig több memóriát tartalmaz, mint egy HDD"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az SSD villámmemóriát használ mozgó alkatrészek nélkül, ezért az adatelérés gyorsabb, mint a HDD mechanikus fejénél.",
+      "t": "hardver"
+    },
+    {
+      "q": "Mi a különbség a fordítóprogram (compiler) és az értelmező (interpreter) között?",
+      "a": [
+        "A fordító egyszerre lefordítja az egész kódot, az értelmező soronként hajtja végre",
+        "A fordító csak hibákat keres, az értelmező futtatja a programot",
+        "A fordító grafikus felületet készít, az értelmező szöveges kódot",
+        "A fordító és az értelmező pontosan ugyanazt csinálja"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A fordító a teljes forráskódot egyszerre gépi kódra alakítja, míg az értelmező a kódot futás közben, soronként dolgozza fel.",
+      "t": "szoftver"
+    },
+    {
+      "q": "Mit jelent az, hogy egy szoftver \"nyílt forráskódú\" (open source)?",
+      "a": [
+        "A programkódja bárki számára elérhető és módosítható",
+        "A program teljesen ingyenes, de a kódja titkos",
+        "A szoftvert csak nagyvállalatok fejleszthetik",
+        "A program kizárólag online, böngészőben fut"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A nyílt forráskódú szoftvernél a forráskód nyilvánosan hozzáférhető, így bárki megtekintheti, módosíthatja és terjesztheti.",
+      "t": "szoftver"
+    },
+    {
+      "q": "Mi a rosszindulatú kódok gyűjtőneve, amely magába foglalja a vírusokat, férgeket és trójaiakat?",
+      "a": [
+        "Malware",
+        "Firmware",
+        "Freeware",
+        "Middleware"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A malware kifejezés minden kártékony célra írt szoftvert jelöl, ide tartoznak a vírusok, férgek és trójai programok is.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Mi a kernel szerepe egy operációs rendszerben?",
+      "a": [
+        "Közvetlenül kezeli a hardvert, és erőforrásokat oszt szét a programok között",
+        "Megjeleníti a grafikus felhasználói felületet",
+        "Tárolja a felhasználói fájlokat és mappákat",
+        "Csatlakoztatja a számítógépet az internethez"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kernel az operációs rendszer magja, amely közvetlenül kommunikál a hardverrel és kezeli az erőforrás-elosztást.",
+      "t": "szoftver"
+    },
+    {
+      "q": "Mi a firmware?",
+      "a": [
+        "Hardvereszközbe beégetett, alapvető működést vezérlő szoftver",
+        "Kizárólag játékokhoz készített alkalmazás",
+        "Egy internetes böngésző beépülő modulja",
+        "Vírusirtó program másik neve"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A firmware egy eszköz (pl. router vagy nyomtató) memóriájába írt szoftver, amely annak alapfunkcióit vezérli.",
+      "t": "szoftver"
+    },
+    {
+      "q": "Miért fontos rendszeresen frissíteni egy operációs rendszert?",
+      "a": [
+        "Mert a frissítések gyakran biztonsági réseket javítanak ki",
+        "Mert enélkül a számítógép fizikailag túlmelegszik",
+        "Mert a frissítés mindig új billentyűzetet igényel",
+        "Mert a frissítés törli az összes telepített programot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szoftverfrissítések gyakran biztonsági javításokat tartalmaznak, amelyek megvédik a rendszert az újonnan felfedezett sebezhetőségektől.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Mit jelent a HTML rövidítés?",
+      "a": [
+        "HyperText Markup Language",
+        "High Text Machine Language",
+        "Home Tool Markup Language",
+        "HyperText Modern Layout"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A HTML a weboldalak szerkezetét leíró jelölőnyelv, teljes nevén HyperText Markup Language.",
+      "t": "internet"
+    },
+    {
+      "q": "Mire szolgálnak a böngészőben tárolt \"sütik\" (cookie-k)?",
+      "a": [
+        "Információk tárolására a felhasználó böngészési szokásairól és beállításairól",
+        "A számítógép vírusok elleni védelmére",
+        "A weboldalak betöltési sebességének növelésére szerver oldalon",
+        "Az internetkapcsolat titkosítására"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cookie-k kis adatfájlok, amelyeket a böngésző tárol, hogy a weboldal megjegyezze a felhasználó beállításait és tevékenységét.",
+      "t": "internet"
+    },
+    {
+      "q": "Melyik kutatóintézethez köthető a World Wide Web alapjainak kidolgozása 1989-ben?",
+      "a": [
+        "A CERN európai részecskefizikai kutatóintézethez",
+        "A NASA amerikai űrügynökséghez",
+        "A Microsoft vállalathoz",
+        "Az IBM vállalathoz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Tim Berners-Lee 1989-ben, a genfi CERN kutatójaként dolgozta ki a World Wide Web alapjait.",
+      "t": "internet"
+    },
+    {
+      "q": "Mi a doménnév szerepe az interneten?",
+      "a": [
+        "Könnyen megjegyezhető nevet ad egy szerver IP-címéhez",
+        "Titkosítja a weboldal teljes tartalmát",
+        "Meghatározza a böngésző színsémáját",
+        "Korlátozza a letölthető fájlok méretét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A doménnév (pl. wikipedia.org) egy számokból álló IP-cím helyett használható, könnyen megjegyezhető azonosító.",
+      "t": "internet"
+    },
+    {
+      "q": "Miért terjedtek el gyorsan a streamingszolgáltatások a hagyományos fájlletöltéssel szemben?",
+      "a": [
+        "Mert a tartalom azonnal, letöltés nélkül, folyamatosan lejátszható",
+        "Mert a streaming mindig olcsóbb, mint bármilyen letöltés",
+        "Mert a streaming nem igényel internetkapcsolatot",
+        "Mert a streaming automatikusan törli a nézett tartalmat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A streaming lehetővé teszi, hogy a tartalmat menet közben, letöltés és tárhelyfoglalás nélkül nézzük vagy hallgassuk.",
+      "t": "internet"
+    },
+    {
+      "q": "Mire utal a Wi-Fi elnevezés a vezeték nélküli hálózatoknál?",
+      "a": [
+        "Egy kitalált márkanévre, ami nem hivatalos rövidítés",
+        "A \"Wireless Fidelity\" kifejezés hivatalos rövidítésére",
+        "A technológia feltalálójának becenevére",
+        "Egy nemzetközi szabványügyi kód számára"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Wi-Fi nevet egy márkázási ügynökség alkotta, és bár sokan tévesen a \"Wireless Fidelity\" rövidítésének gondolják, hivatalosan nem betűszó.",
+      "t": "hálózat"
+    },
+    {
+      "q": "Mi a router fő feladata egy otthoni hálózatban?",
+      "a": [
+        "Összeköti a helyi hálózatot az internettel, és irányítja az adatforgalmat",
+        "Kizárólag a wifi jelszavát tárolja",
+        "Nagyobb sebességre kapcsolja a merevlemezt",
+        "Vírusirtó funkciót lát el a gépeken"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A router (útválasztó) irányítja az adatcsomagokat a helyi hálózat eszközei és az internet között.",
+      "t": "hálózat"
+    },
+    {
+      "q": "Miért nevezték el a Bluetooth technológiát egy középkori dán királyról?",
+      "a": [
+        "Mert a technológia célja az eszközök \"egyesítése\", ahogy a király egyesítette a törzseket",
+        "Mert a király feltalálta a rádióhullámokat",
+        "Mert a szabványt Dániában jegyezték be elsőként",
+        "Mert a fejlesztőcsapat vezetője dán származású volt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A nevet Harald \"Kékfogú\" dán királyról kapta, mert a Bluetooth az eszközöket egyesíti, ahogy ő egyesítette a skandináv törzseket.",
+      "t": "hálózat"
+    },
+    {
+      "q": "Mi különbözteti meg alapvetően az 5G hálózatot a korábbi 4G szabványtól?",
+      "a": [
+        "Lényegesen nagyobb sebességet és alacsonyabb késleltetést biztosít",
+        "Kizárólag vezetékes eszközökön működik",
+        "Csak hangátvitelre alkalmas, adatra nem",
+        "Nem igényel mobiltornyot, csak műholdat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 5G a korábbi generációkhoz képest jelentősen nagyobb adatátviteli sebességet és kisebb késleltetést kínál.",
+      "t": "hálózat"
+    },
+    {
+      "q": "Mi a helyi hálózat (LAN) és a nagy kiterjedésű hálózat (WAN) közötti fő különbség?",
+      "a": [
+        "A LAN egy kisebb, földrajzilag korlátozott területet fed le, a WAN nagy távolságokat",
+        "A LAN csak vezeték nélküli lehet, a WAN csak vezetékes",
+        "A LAN gyorsabb kapcsolatot jelent, mint bármely WAN",
+        "A WAN kizárólag mobilhálózatokra vonatkozik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A LAN (helyi hálózat) egy épületet vagy telephelyet fed le, míg a WAN (nagy kiterjedésű hálózat) városokat, országokat köt össze.",
+      "t": "hálózat"
+    },
+    {
+      "q": "Mi a \"brute force\" (nyers erő) támadás lényege jelszavak feltörésénél?",
+      "a": [
+        "Az összes lehetséges karakterkombináció szisztematikus kipróbálása",
+        "A felhasználó megtévesztése hamis e-maillel",
+        "A hálózati forgalom lehallgatása",
+        "A jelszót tároló fájl végleges törlése"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A brute force támadás során a támadó automatizáltan végigpróbálja a lehetséges jelszókombinációkat, amíg el nem találja a helyeset.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Mi a social engineering (megtévesztésen alapuló) támadás lényege?",
+      "a": [
+        "Emberi hiszékenységet kihasználva csalják ki a bizalmas adatokat",
+        "Kizárólag vírusprogramok segítségével törnek be rendszerekbe",
+        "A hálózati kábeleket fizikailag vágják el",
+        "Automatizált kérésekkel túlterhelik a szervert"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A social engineering nem technikai, hanem pszichológiai eszközökkel, megtévesztéssel veszi rá az áldozatot bizalmas adatok kiadására.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Mit jelent a DDoS támadás lényege?",
+      "a": [
+        "Egy szolgáltatást túlterhelnek hatalmas mennyiségű kéréssel, hogy elérhetetlenné váljon",
+        "Egy jelszót próbálnak kitalálni ismétlődő próbálkozásokkal",
+        "Egy vírus titkosítja az áldozat összes tárolt fájlját",
+        "Egy hamis weboldal segítségével lopnak el bejelentkezési adatokat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A DDoS (elosztott szolgáltatásmegtagadás) támadás célja, hogy a célrendszert forgalommal elárasztva működésképtelenné tegye.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Mi a zsarolóvírus (ransomware) működésének lényege?",
+      "a": [
+        "Titkosítja az áldozat fájljait, majd váltságdíjat követel a feloldásért",
+        "Lelassítja a számítógépet, hogy reklámokat jelenítsen meg",
+        "Ellopja a böngésző jelszavait észrevétlenül",
+        "Túlterheli a hálózatot felesleges forgalommal"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A ransomware titkosítja az áldozat adatait, és csak fizetés esetén ígéri a helyreállítást.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Mire szolgál a CAPTCHA ellenőrzés weboldalakon?",
+      "a": [
+        "Megkülönbözteti az embereket az automatizált robotprogramoktól",
+        "Titkosítja a bejelentkezési adatokat",
+        "Meggyorsítja az oldal betöltését",
+        "Nyomon követi a felhasználó helyzetét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A CAPTCHA olyan feladatot ad, amelyet emberek könnyen, automatizált programok nehezen tudnak megoldani, így szűri ki a robotokat.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Miért veszélyes ugyanazt a jelszót használni több különböző online fiókban?",
+      "a": [
+        "Mert egyetlen adatszivárgás esetén az összes fiók egyszerre válik feltörhetővé",
+        "Mert a jelszókezelők ezt automatikusan letiltják",
+        "Mert a böngészők technikailag nem engedik ezt meg",
+        "Mert ez lassítja a bejelentkezés folyamatát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ha egy szolgáltatásnál kiszivárog a jelszó, a támadók ugyanazt kipróbálják más fiókoknál is (credential stuffing).",
+      "t": "biztonság"
+    },
+    {
+      "q": "Mi a Turing-teszt célja a mesterséges intelligencia kutatásban?",
+      "a": [
+        "Megállapítani, hogy egy gép viselkedése megkülönböztethetetlen-e egy emberétől",
+        "Lemérni egy számítógép processzorának sebességét",
+        "Tesztelni egy szoftver biztonsági réseit",
+        "Megmérni egy hálózat átviteli sebességét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Alan Turing 1950-ben javasolt tesztje azt vizsgálja, hogy egy géppel folytatott beszélgetés megkülönböztethető-e egy emberrel folytatottól.",
+      "t": "mesterséges intelligencia"
+    },
+    {
+      "q": "Mit jelent a \"gépi tanulás\" (machine learning) alapelve?",
+      "a": [
+        "A rendszer adatokból tanulva javítja teljesítményét, explicit programozás nélkül",
+        "A programozó minden lehetséges esetet előre kódba ír",
+        "A gép szó szerint másolja az emberi agy felépítését",
+        "A szoftver kizárólag véletlenszerű döntéseket hoz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gépi tanulás során az algoritmus mintákat ismer fel nagy mennyiségű adatból, ez alapján javul, nem kézzel megírt szabályok alapján.",
+      "t": "mesterséges intelligencia"
+    },
+    {
+      "q": "Mi a mesterséges neurális háló ihletője?",
+      "a": [
+        "Az emberi agy idegsejtjeinek (neuronok) működése",
+        "A számítógép processzorának áramkörei",
+        "A DNS kettős spirál szerkezete",
+        "A bolygók keringési pályája"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mesterséges neurális hálókat az agy neuronjainak és szinapszisainak működése ihlette, egymással kapcsolt csomópontokból épülnek fel.",
+      "t": "mesterséges intelligencia"
+    },
+    {
+      "q": "Mit jelent a \"deepfake\" kifejezés?",
+      "a": [
+        "Mesterséges intelligenciával hamisított, valósághűnek tűnő kép vagy videó",
+        "Egy különösen mély internetes keresési technika",
+        "Egy titkosítási eljárás neve",
+        "Egy régi, elavult adattömörítési formátum"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A deepfake technológia mesterséges intelligenciával olyan hamis videót vagy hangot hoz létre, amely valódinak tűnik.",
+      "t": "mesterséges intelligencia"
+    },
+    {
+      "q": "Miért van szükség nagy mennyiségű adatra a legtöbb modern MI-modell betanításához?",
+      "a": [
+        "Mert a modell a mintákat a példák sokaságából ismeri fel, minél több van, annál pontosabb lehet",
+        "Mert a törvény előírja egy minimális adatmennyiség felhasználását",
+        "Mert a processzorok csak nagy adathalmazokkal indíthatók el",
+        "Mert kevesebb adattal a szoftver egyáltalán nem indul el"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A gépi tanulási modellek statisztikai mintázatokat tanulnak meg az adatokból, és jellemzően több, változatos adattal pontosabbak lesznek.",
+      "t": "mesterséges intelligencia"
+    },
+    {
+      "q": "Mi a chatbot alapvető funkciója?",
+      "a": [
+        "Szöveges vagy hangalapú párbeszédet folytat a felhasználóval, gyakran automatizált válaszokkal",
+        "Kizárólag képeket szerkeszt automatikusan",
+        "Vírusokat távolít el a számítógépről",
+        "Hálózati sebességet mér és optimalizál"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A chatbot egy program, amely emberi nyelven kommunikál a felhasználóval, gyakran ügyfélszolgálati vagy információs céllal.",
+      "t": "mesterséges intelligencia"
+    },
+    {
+      "q": "Mi volt a JavaScript programozási nyelv eredeti neve, mielőtt 1995-ben átnevezték?",
+      "a": [
+        "Mocha",
+        "Java Junior",
+        "WebScript",
+        "NetCode"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Netscape fejlesztése alatt a nyelvet előbb Mochának, majd LiveScriptnek hívták, mielőtt marketingokból JavaScriptre keresztelték.",
+      "t": "programozási nyelvek"
+    },
+    {
+      "q": "Miért nem tekinthető a HTML programozási nyelvnek a szakmai definíció szerint?",
+      "a": [
+        "Mert jelölőnyelv, amely a tartalom szerkezetét írja le, nem tartalmaz vezérlési logikát",
+        "Mert kizárólag képek megjelenítésére alkalmas",
+        "Mert nem lehet vele szöveget megjeleníteni",
+        "Mert csak mobiltelefonokon futtatható"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A HTML jelölőnyelv, amely a dokumentum szerkezetét adja meg, de nincsenek benne feltételek vagy ciklusok, mint egy programozási nyelvben.",
+      "t": "programozási nyelvek"
+    },
+    {
+      "q": "Mire szolgál elsősorban az SQL nyelv?",
+      "a": [
+        "Adatbázisok lekérdezésére és kezelésére",
+        "Weboldalak vizuális megjelenítésének formázására",
+        "Mobilalkalmazások felhasználói felületének tervezésére",
+        "Számítógépes hálózatok titkosítására"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az SQL (Structured Query Language) az adatbázisokban tárolt adatok lekérdezésére, módosítására és kezelésére szolgáló nyelv.",
+      "t": "programozási nyelvek"
+    },
+    {
+      "q": "Mi jellemzi az assembly (gépközeli) nyelvet a magas szintű nyelvekhez képest?",
+      "a": [
+        "Közvetlenül a processzor utasításkészletéhez kapcsolódik, ezért nehezebben olvasható",
+        "Kizárólag webfejlesztésre alkalmas és böngészőben fut",
+        "Automatikusan lefordítja magát bármely más nyelvre",
+        "Nem igényel fordítást vagy értelmezést a futtatáshoz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az assembly nyelv utasításai szorosan megfelelnek a processzor gépi kódjának, ezért gyors, de nehezen olvasható és platformfüggő.",
+      "t": "programozási nyelvek"
+    },
+    {
+      "q": "Melyik programozási nyelv nevét adták egy híres brit humorcsoportról, nem a kígyófajról?",
+      "a": [
+        "Python",
+        "Cobra",
+        "Viper",
+        "Anaconda"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Python nyelv alkotója, Guido van Rossum a Monty Python's Flying Circus rajongójaként nevezte el a nyelvet, nem a kígyóról.",
+      "t": "programozási nyelvek"
+    },
+    {
+      "q": "Mi a különbség a statikusan és a dinamikusan típusos programozási nyelvek között?",
+      "a": [
+        "A statikus nyelveknél a változó típusát fordításkor rögzítik, a dinamikusnál futás közben dől el",
+        "A statikus nyelvek mindig gyorsabbak minden dinamikus nyelvnél",
+        "A dinamikus nyelveket nem lehet fordítóval lefordítani",
+        "A statikus nyelvekben nincsenek változók"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Statikus típusosságnál a fordító már fordításkor ismeri és ellenőrzi a változók típusát, dinamikusnál ez csak futás közben dől el.",
+      "t": "programozási nyelvek"
+    },
+    {
+      "q": "Melyik évben alapította Larry Page és Sergey Brin a Google vállalatot?",
+      "a": [
+        "1998",
+        "1994",
+        "2001",
+        "2004"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Google-t Larry Page és Sergey Brin 1998-ban alapította a Stanford Egyetemen végzett kutatásaikból kiindulva.",
+      "t": "cégek és alapítók"
+    },
+    {
+      "q": "Melyik nagyvállalat vásárolta fel 2005-ben az akkor még kis mobilos startupként induló Androidot?",
+      "a": [
+        "A Google",
+        "A Microsoft",
+        "Az Apple",
+        "A Samsung"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Google 2005-ben mindössze 50 millió dollárért vásárolta meg az Android nevű induló mobiloperációs-rendszer fejlesztő céget.",
+      "t": "cégek és alapítók"
+    },
+    {
+      "q": "Melyik évben vásárolta meg a Google a YouTube videómegosztó portált?",
+      "a": [
+        "2006",
+        "2004",
+        "2009",
+        "2011"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Google 2006 októberében 1,65 milliárd dollárért vásárolta fel a YouTube-ot, alig másfél évvel annak indulása után.",
+      "t": "cégek és alapítók"
+    },
+    {
+      "q": "Mit takar az IBM cégnév teljes kiírásban?",
+      "a": [
+        "International Business Machines",
+        "Internet Business Management",
+        "International Broadband Media",
+        "Integrated Business Microsystems"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az IBM az International Business Machines rövidítése, amely az egyik legrégebbi számítástechnikai vállalat.",
+      "t": "cégek és alapítók"
+    },
+    {
+      "q": "Melyik évben indult el a Facebook közösségi oldal Mark Zuckerberg kezdeményezésére?",
+      "a": [
+        "2004",
+        "2001",
+        "2007",
+        "2010"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Facebookot Mark Zuckerberg és egyetemi társai 2004-ben indították el a Harvard Egyetemen.",
+      "t": "cégek és alapítók"
+    },
+    {
+      "q": "Melyik évben helyezték üzembe az ENIAC nevű, egyik első elektronikus, általános célú számítógépet?",
+      "a": [
+        "1945",
+        "1951",
+        "1938",
+        "1960"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ENIAC-ot 1945-ben állították üzembe a Pennsylvaniai Egyetemen, és a második világháború alatt kezdték fejleszteni.",
+      "t": "informatikatörténet"
+    },
+    {
+      "q": "Ki küldte el az első hálózati e-mailt 1971-ben?",
+      "a": [
+        "Ray Tomlinson",
+        "Vint Cerf",
+        "Tim Berners-Lee",
+        "Bill Gates"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ray Tomlinson 1971-ben küldte az első hálózati üzenetet, és ő vezette be a \"@\" jelet a címzésben.",
+      "t": "informatikatörténet"
+    },
+    {
+      "q": "Miért választotta Ray Tomlinson a \"@\" jelet az e-mail címek elválasztására?",
+      "a": [
+        "Mert ez a karakter szinte biztosan nem szerepel emberi nevekben",
+        "Mert ez volt a billentyűzet legnagyobb betűje",
+        "Mert a \"@\" jel matematikai szorzást jelöl",
+        "Mert ezt a jelet a fő megbízója kérte tőle"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Tomlinson azért választotta az \"@\" jelet, mert ritkán fordul elő névben, így egyértelműen elválasztja a felhasználót a géptől.",
+      "t": "informatikatörténet"
+    },
+    {
+      "q": "Mi volt az \"Y2K-probléma\" (millenniumi hiba) lényege 1999-2000 fordulóján?",
+      "a": [
+        "A régi rendszerek az évszámot két számjeggyel tárolták, ami hibás dátumkezeléshez vezethetett",
+        "A számítógépek fizikailag nem bírták az új évezred kezdetét",
+        "Az internet globálisan összeomlott 2000. január 1-jén",
+        "Minden merevlemez automatikusan törlődött az évváltáskor"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Sok korai rendszer az évet csak két számjeggyel tárolta, ezért 2000-ben \"00\"-ra váltva hibás dátumszámítást okozhatott.",
+      "t": "informatikatörténet"
+    },
+    {
+      "q": "Mi volt jellemző az 1980-as évek \"otthoni számítógépeire\" (pl. Commodore 64) a mai gépekhez képest?",
+      "a": [
+        "Sokkal kisebb memóriával és tárolókapacitással rendelkeztek",
+        "Gyorsabbak voltak, mint a mai szuperszámítógépek",
+        "Kizárólag hangfelismeréssel lehetett őket vezérelni",
+        "Vezeték nélküli internetkapcsolattal rendelkeztek gyárilag"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A korai otthoni számítógépek, mint a Commodore 64, néhány kilobájtos memóriával működtek, szemben a mai gigabájtos rendszerekkel.",
+      "t": "informatikatörténet"
+    },
+    {
+      "q": "Mire használták eredetileg a floppy lemezt (hajlékonylemezt) a személyi számítógépeknél?",
+      "a": [
+        "Adatok és programok hordozható tárolására és átvitelére",
+        "Kizárólag a monitor képfrissítésének szabályozására",
+        "A billentyűzet bemeneteinek rögzítésére",
+        "Az internetkapcsolat sebességének növelésére"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A floppy lemez hordozható mágneses adathordozó volt, amelyen fájlokat és programokat lehetett tárolni és átvinni a számítógépek között.",
+      "t": "informatikatörténet"
+    },
+    {
+      "q": "Melyik magyar tervezőmérnök alkotta meg 1974-ben a világhírű logikai játékot, a Rubik-kockát?",
+      "a": [
+        "Rubik Ernő",
+        "Neumann János",
+        "Kármán Tódor",
+        "Bay Zoltán"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Rubik Ernő építész és tervezőmérnök 1974-ben alkotta meg a róla elnevezett térbeli logikai játékot.",
+      "t": "magyar mérnökök"
+    },
+    {
+      "q": "Mi köze Bíró László József magyar újságírónak a golyóstoll feltalálásához?",
+      "a": [
+        "Ő szabadalmaztatta a ma is használt golyóstoll-technológiát az 1930-40-es években",
+        "Ő gyártotta az első számítógépes egeret",
+        "Ő fejlesztette ki az első hordozható rádiót",
+        "Ő találta fel a modern írógépet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bíró László József 1938-tól fejlesztette, majd Argentínában 1943-ban szabadalmaztatta a ma is használt golyóstoll technológiáját.",
+      "t": "magyar mérnökök"
+    },
+    {
+      "q": "Miről nevezték el a légkör és a világűr határát jelző, 100 km magasságban húzódó képzeletbeli vonalat?",
+      "a": [
+        "Kármán Tódor magyar-amerikai mérnökről",
+        "Neumann János matematikusról",
+        "Szilárd Leó fizikusról",
+        "Teller Ede fizikusról"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kármán-vonalat Kármán Tódor magyar-amerikai repüléstechnikai mérnök számításai alapján nevezték el, aki meghatározta ezt a magassági határt.",
+      "t": "magyar mérnökök"
+    },
+    {
+      "q": "Milyen elméleti alapötlet köthető Neumann János nevéhez a modern számítógépek felépítésében?",
+      "a": [
+        "A tárolt program elve, miszerint az utasítások és az adatok azonos memóriában tárolódnak",
+        "A merevlemez mágneses tárolásának elve",
+        "A világháló hipertext-alapú felépítése",
+        "A vezeték nélküli adatátvitel elve"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Neumann János az 1940-es években fogalmazta meg a tárolt program elvét, amely szerint a program utasításai a memóriában tárolódnak az adatokkal együtt.",
+      "t": "magyar mérnökök"
+    },
+    {
+      "q": "Milyen találmányáról ismert Puskás Tivadar magyar mérnök a XIX. század végéről?",
+      "a": [
+        "A telefonhírmondó, egy telefonvonalon sugárzott korai hírszolgáltatás",
+        "A színes televízió",
+        "A digitális fényképezőgép",
+        "A mikrohullámú sütő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Puskás Tivadar 1893-ban Budapesten indította el a telefonhírmondót, amely telefonvonalon sugárzott híreket és műsorokat előfizetőinek.",
+      "t": "magyar mérnökök"
+    },
+    {
+      "q": "Hogyan alakítja át a napelem a napfényt elektromos árammá?",
+      "a": [
+        "A fotovoltaikus hatás segítségével, félvezető anyagban áramot keltve",
+        "Hőenergiával turbinát forgatva termel áramot",
+        "Kémiai reakcióval, akkumulátorhoz hasonlóan",
+        "Mechanikus mozgással, szélkerékhez hasonlóan"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A napelemek félvezető anyagában a beeső fény elektronokat szabadít fel, ez a fotovoltaikus hatás, amely elektromos áramot eredményez.",
+      "t": "energia"
+    },
+    {
+      "q": "Mi a fő különbség a lítiumion-akkumulátor és a hagyományos ólomakkumulátor között?",
+      "a": [
+        "A lítiumion nagyobb energiasűrűségű és könnyebb azonos kapacitás mellett",
+        "Az ólomakkumulátor mindig gyorsabban tölthető, mint a lítiumion",
+        "A lítiumion csak napelemekkel tölthető",
+        "Az ólomakkumulátor sosem meríthető le teljesen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A lítiumion-akkumulátorok jóval több energiát tárolnak azonos tömeg mellett, ezért terjedtek el a hordozható elektronikában és elektromos autókban.",
+      "t": "energia"
+    },
+    {
+      "q": "Miért tekinthető az elektromos autó a hagyományos, belső égésű motoros autónál energiahatékonyabbnak?",
+      "a": [
+        "Mert az elektromos motor kevesebb energiát veszít hő formájában, mint a robbanómotor",
+        "Mert az elektromos autók sosem igényelnek karbantartást",
+        "Mert az elektromos autók súlya mindig kisebb",
+        "Mert a benzinmotor egyáltalán nem termel mozgási energiát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az elektromos motorok hatásfoka jellemzően magasabb, mint a belső égésű motoroké, mert kevesebb energia vész el hő formájában.",
+      "t": "energia"
+    },
+    {
+      "q": "Mi az atomerőmű működésének energiaforrása?",
+      "a": [
+        "Az atommagok hasadása során felszabaduló hőenergia",
+        "A nap sugárzási energiája közvetlenül",
+        "A szél mozgási energiája",
+        "A folyók vízesésének mozgási energiája"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az atomerőművek az urán atommagjainak hasadásakor (fisszió) felszabaduló hőt alakítják elektromos árammá.",
+      "t": "energia"
+    },
+    {
+      "q": "Melyik évben mutatta be Steve Jobs az első iPhone-t?",
+      "a": [
+        "2007",
+        "2001",
+        "2010",
+        "2004"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Steve Jobs 2007 januárjában mutatta be az első iPhone-t, amely alapjaiban változtatta meg az okostelefon-piacot.",
+      "t": "mobiltechnológia"
+    },
+    {
+      "q": "Mire szolgál a SIM-kártya egy mobiltelefonban?",
+      "a": [
+        "Azonosítja az előfizetőt a mobilhálózaton, és tárol alapadatokat",
+        "Növeli a telefon képernyőjének felbontását",
+        "Tölti a telefon akkumulátorát vezeték nélkül",
+        "Titkosítja a telefonon tárolt fényképeket"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A SIM-kártya (Subscriber Identity Module) azonosítja a felhasználót a mobilhálózat felé, és tárolja az előfizetői adatokat.",
+      "t": "mobiltechnológia"
+    },
+    {
+      "q": "Mi jellemzi az érintőképernyős kapacitív technológiát a rezisztív típussal szemben?",
+      "a": [
+        "Az ujj elektromos vezetőképességét érzékeli, nyomás nélkül is működik",
+        "Kizárólag tollal használható, ujjal nem",
+        "Sosem érzékel több érintési pontot egyszerre",
+        "Mechanikus gombokkal helyettesíti az érintést"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kapacitív érintőképernyő az emberi bőr elektromos vezetőképességét érzékeli, ezért finom érintésre is reagál, és több pontot is felismer.",
+      "t": "mobiltechnológia"
+    },
+    {
+      "q": "Miért volt jelentős újítás az alkalmazásboltok (pl. App Store) megjelenése az okostelefonoknál?",
+      "a": [
+        "Egy helyen tették elérhetővé és telepíthetővé a külső fejlesztésű alkalmazásokat",
+        "Ettől kezdve lehetett csak telefonálni okostelefonnal",
+        "Ez tette lehetővé először, hogy a telefonnak legyen kijelzője",
+        "Ez szüntette meg a mobilhálózatok szükségességét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az alkalmazásboltok központosított, biztonságos platformot adtak a fejlesztőknek alkalmazások terjesztésére és a felhasználóknak azok telepítésére.",
+      "t": "mobiltechnológia"
+    },
+    {
+      "q": "Mi az emoji szó eredeti jelentése a japán nyelvben?",
+      "a": [
+        "Kép-írásjel (szó szerint \"kép\" + \"karakter\")",
+        "Mosolygó arc",
+        "Elektronikus üzenet",
+        "Rövid szöveg"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az \"emoji\" szó japán eredetű, az \"e\" (kép) és a \"moji\" (karakter/jel) szavak összetétele, nem az angol \"emotion\" szóból ered.",
+      "t": "digitális kultúra"
+    },
+    {
+      "q": "Mire szolgál a hashtag (#) jel a közösségi médiában?",
+      "a": [
+        "Kulcsszó szerint csoportosítja és kereshetővé teszi a bejegyzéseket",
+        "Titkosítja a bejegyzés tartalmát",
+        "Automatikusan törli a bejegyzést egy nap után",
+        "Jelzi, hogy a bejegyzés fizetett hirdetés"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hashtag egy kulcsszó elé tett # jel, amely összekapcsolja az adott témában született bejegyzéseket, és kereshetővé teszi őket.",
+      "t": "digitális kultúra"
+    },
+    {
+      "q": "Mi jellemzi az internetes \"mém\" fogalmát?",
+      "a": [
+        "Gyorsan terjedő, gyakran humoros kép, videó vagy ötlet, amit sokan továbbadnak és variálnak",
+        "Egy fizetős online tanfolyam típusa",
+        "Egy vírusirtó program neve",
+        "Egy hivatalos internetes protokoll rövidítése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mém olyan kulturális elem (kép, videó, ötlet), amely az interneten gyorsan terjed, és a felhasználók gyakran saját változatokat is készítenek belőle.",
+      "t": "digitális kultúra"
+    },
+    {
+      "q": "Miért jelent kihívást a \"deepfake\" tartalmak elterjedése a digitális médiában?",
+      "a": [
+        "Mert valósághűen hamisítanak meg hang- és képfelvételeket, nehezítve a valódiság ellenőrzését",
+        "Mert minden esetben azonnal felismerhetők a rossz képminőség miatt",
+        "Mert kizárólag szöveges tartalmakat érintenek",
+        "Mert csak nyomtatott sajtóban terjednek"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A deepfake technológia olyan valósághű hamis felvételeket készít, hogy egyre nehezebb megkülönböztetni a valódi és a hamisított tartalmat.",
+      "t": "digitális kultúra"
+    },
+    {
+      "q": "Mit jelent a \"big data\" kifejezés a technológiában?",
+      "a": [
+        "Olyan hatalmas és összetett adathalmazokat, amelyeket hagyományos eszközökkel nehéz feldolgozni",
+        "Egy adatbázis-kezelő szoftver márkanevét",
+        "Egy egyetlen, nagyon nagy méretű fájlt",
+        "Egy régi, elavult tárolási formátumot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A big data nagy méretű, gyorsan növekvő és összetett adathalmazokra utal, amelyek elemzéséhez speciális eszközök és módszerek szükségesek.",
+      "t": "adatbázisok"
+    },
+    {
+      "q": "Mi a relációs adatbázis alapvető szervezési egysége?",
+      "a": [
+        "A táblázat, amely sorokból és oszlopokból áll",
+        "A mappa, amely fájlokat tartalmaz",
+        "A szerver, amely a hálózatot vezérli",
+        "A pixel, amely a képet alkotja"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A relációs adatbázisokban az adatok táblázatokban, sorokban (rekordokban) és oszlopokban (mezőkben) szerveződnek.",
+      "t": "adatbázisok"
+    },
+    {
+      "q": "Miért fontos az adatok rendszeres biztonsági mentése (backup)?",
+      "a": [
+        "Mert hardverhiba vagy támadás esetén az adatok visszaállíthatók egy korábbi állapotból",
+        "Mert enélkül a számítógép egyáltalán nem indul el",
+        "Mert a mentés automatikusan felgyorsítja a processzort",
+        "Mert törvény írja elő minden magánszemély esetében"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A rendszeres biztonsági mentés lehetővé teszi, hogy adatvesztés (meghibásodás, törlés, támadás) esetén visszaállítsuk a korábbi állapotot.",
+      "t": "adatbázisok"
+    },
+    {
+      "q": "Mi a különbség a strukturált és a strukturálatlan adatok között?",
+      "a": [
+        "A strukturált adat rögzített formátumú (pl. táblázat), a strukturálatlan nem (pl. szöveg, kép)",
+        "A strukturált adat mindig kisebb méretű, mint a strukturálatlan",
+        "A strukturálatlan adatot nem lehet számítógépen tárolni",
+        "A strukturált adat csak képekből állhat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A strukturált adatok jól definiált mezőkbe rendezhetők (pl. táblázatban), míg a strukturálatlan adatok (szöveg, kép, videó) nem illeszkednek ilyen merev formába.",
+      "t": "adatbázisok"
+    },
+    {
+      "q": "Mit jelent a \"felhő alapú tárolás\" (cloud storage) a gyakorlatban?",
+      "a": [
+        "Az adatokat távoli szervereken tárolják, amelyekhez interneten át férünk hozzá",
+        "Az adatokat kizárólag a saját számítógép memóriájában tárolják",
+        "Az adatokat papíron nyomtatják ki biztonsági okokból",
+        "Az adatokat egy speciális, internet nélküli hálózaton tárolják"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A felhő alapú tárolásnál az adatok külső, internetre kötött szervereken vannak, amelyekhez bárhonnan hozzá lehet férni.",
+      "t": "felhő számítástechnika"
+    },
+    {
+      "q": "Mi az API szerepe a szoftverfejlesztésben?",
+      "a": [
+        "Szabványosított módot ad két program vagy szolgáltatás közötti kommunikációra",
+        "Kizárólag a felhasználói felület grafikáját rajzolja meg",
+        "Titkosítja a hálózati forgalmat automatikusan",
+        "Fizikailag összeköti a szerverek hardverét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az API (Application Programming Interface) meghatározott szabályok szerint teszi lehetővé, hogy különböző programok adatokat és funkciókat cseréljenek egymással.",
+      "t": "felhő számítástechnika"
+    },
+    {
+      "q": "Miért építenek sok nagyvállalat hatalmas adatközpontokat (data centereket) hűtőrendszerekkel?",
+      "a": [
+        "Mert a sok szerver működés közben nagy hőt termel, amit el kell vezetni",
+        "Mert a szerverek csak alacsony hőmérsékleten indíthatók el egyáltalán",
+        "Mert a hűtés növeli az internetsebességet",
+        "Mert törvény írja elő a szerverek hűtését"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nagy mennyiségű, folyamatosan működő szerver jelentős hőt termel, amit hatékony hűtéssel kell elvezetni a túlmelegedés elkerülésére.",
+      "t": "felhő számítástechnika"
+    },
+    {
+      "q": "Mi a különbség a nyilvános (public) és a privát (private) felhőszolgáltatás között?",
+      "a": [
+        "A nyilvános felhőt sok ügyfél osztja meg, a privátot egyetlen szervezet használja kizárólagosan",
+        "A nyilvános felhő mindig ingyenes, a privát sosem az",
+        "A privát felhő nem érhető el internetkapcsolaton",
+        "A nyilvános felhőben nem tárolható semmilyen adat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A nyilvános felhőszolgáltatás erőforrásait több ügyfél osztja meg egy szolgáltatónál, míg a privát felhőt egyetlen szervezet kizárólagosan használja.",
+      "t": "felhő számítástechnika"
+    },
+    {
+      "q": "Melyik cseh író alkotta meg a \"robot\" szót az 1920-ban megjelent színdarabjában?",
+      "a": [
+        "Karel Čapek",
+        "Franz Kafka",
+        "Jules Verne",
+        "Isaac Asimov"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Karel Čapek cseh író használta először a \"robot\" szót az R.U.R. című 1920-as darabjában, a cseh \"robota\" (kényszermunka) szóból.",
+      "t": "robotika"
+    },
+    {
+      "q": "Mi jellemzi elsősorban az ipari robotokat a gyártósorokon?",
+      "a": [
+        "Ismétlődő, precíz feladatokat végeznek el emberi beavatkozás nélkül",
+        "Kizárólag emberi hangutasításokra reagálnak",
+        "Nem képesek mozgásra, csak érzékelésre",
+        "Csak szoftverek tesztelésére használják őket"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ipari robotokat gyártósorokon ismétlődő, pontos műveletek (pl. hegesztés, szerelés) automatikus elvégzésére tervezik.",
+      "t": "robotika"
+    },
+    {
+      "q": "Mi a fő különbség egy drón (pilóta nélküli légijármű) és egy hagyományos repülőgép között?",
+      "a": [
+        "A drónt távolról vagy autonóm módon vezérlik, fedélzeti pilóta nélkül",
+        "A drón mindig nagyobb, mint egy utasszállító repülőgép",
+        "A hagyományos repülőgép sosem szállít árut",
+        "A drón kizárólag vízen tud közlekedni"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A drónokat távirányítással vagy automatizált vezérléssel repülik, fedélzeti pilóta jelenléte nélkül, ellentétben a hagyományos repülőgépekkel.",
+      "t": "robotika"
+    },
+    {
+      "q": "Miért használnak egyre több autógyárban robotkarokat az emberi munkaerő mellett?",
+      "a": [
+        "Mert nagy pontossággal és fáradás nélkül végzik el az ismétlődő, nehéz feladatokat",
+        "Mert olcsóbbak, mint bármelyik kézi szerszám",
+        "Mert törvény tiltja az emberi munkát autógyárban",
+        "Mert kizárólag éjszaka képesek dolgozni"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A robotkarok fáradtság nélkül, nagy pontossággal és sebességgel végzik el az ismétlődő, gyakran veszélyes vagy megterhelő gyártási feladatokat.",
+      "t": "robotika"
     }
   ]
 }

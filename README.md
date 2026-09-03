@@ -99,6 +99,12 @@ játékosonként 5 hibás tipp után 10 percre zárol.
 csatlakozni, csak a pont nem kerül a nyilvános ranglistára. Erre a felület
 figyelmeztet is.
 
+**Ki mit szavazott.** A kiértékelésnél minden válaszgombon kis avatarok
+mutatják, ki választotta azt a lehetőséget – ez csak a kérdés lezárása UTÁN
+jelenik meg, tehát nem szivárogtat. A jobb alsó buborékkal előre megírt, rövid
+beszólás küldhető, ami mindenkinél felvillan a képernyő tetején; a kliens itt
+is csak egy azonosítót küld, a szöveg a szerveren van.
+
 A biztonsági kulcspont: a **helyes válasz addig senkinek nem derül ki, amíg a
 kérdés le nem zárult** – akkor sem, aki már válaszolt. Így egy gyors játékos nem
 tudja megsúgni a többieknek. Ezt SQL kényszeríti ki, nem a felület, és a kliens

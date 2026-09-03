@@ -443,9 +443,22 @@
         ),
         'a többi játékos neve a felső pontsávban látszik'
       );
+      // KI MIT SZAVAZOTT: a felhasználó kérésére a lezárt válaszokon kompakt
+      // avatarcsík mutatja, ki melyik lehetőséget választotta. Nem külön
+      // szakasz – ez korábban kikerült, mert nem fért ki a fix magasságú
+      // képernyőn –, hanem magán a válaszgombon, hogy ne foglaljon extra helyet.
+      const resolvedAnswerNodes = [...roomHost.querySelectorAll('.answers-spectator .answer')];
+      const correctVoters = resolvedAnswerNodes[1]?.querySelectorAll('.answer-voter') ?? [];
+      const myVoters = resolvedAnswerNodes[2]?.querySelectorAll('.answer-voter') ?? [];
+      check(correctVoters.length === 1, 'a helyes válasznál egy szavazó avatar látszik (Anna)');
+      check(myVoters.length === 1, 'a saját rossz válasznál is látszik a szavazó avatar');
       check(
-        roomHost.querySelector('.answer-pickers') === null,
-        'a válaszok mellett nincsenek avatarok'
+        (resolvedAnswerNodes[0]?.querySelectorAll('.answer-voter').length ?? 0) === 0,
+        'olyan válasznál, amit senki sem választott, nincs avatarcsík'
+      );
+      check(
+        myVoters[0]?.getAttribute('title') === 'Bela',
+        'az avatar title attribútuma megmondja, ki szavazott (kisegítő technológiához is)'
       );
       unmountRoom(node);
 

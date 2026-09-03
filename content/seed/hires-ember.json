@@ -1938,6 +1938,721 @@
       "d": "easy",
       "e": "Petőfi 1849. július 31-én tűnt el a csatában; halálának pontos körülményei ma sem ismertek.",
       "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik fizikus dolgozta ki a mozgástörvényeket és az egyetemes tömegvonzás elméletét a Principia című művében?",
+      "a": [
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Johannes Kepler",
+        "René Descartes"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Newton 1687-ben kiadott Principia című művében fektette le a klasszikus mechanika alaptörvényeit.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik orosz kémikus alkotta meg 1869-ben a kémiai elemek periódusos rendszerét?",
+      "a": [
+        "Dmitrij Mengyelejev",
+        "Antoine Lavoisier",
+        "Marie Curie",
+        "Ernest Rutherford"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mengyelejev rendezte táblázatba az elemeket atomtömegük és tulajdonságaik szerint, üres helyeket hagyva a még fel nem fedezett elemeknek.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Miért egyedülálló Marie Curie tudományos pályafutása a Nobel-díjak történetében?",
+      "a": [
+        "Két különböző tudományágban is Nobel-díjat kapott",
+        "Ő volt az első nő, aki egyetemi diplomát szerzett Európában",
+        "Egyetlen év alatt három Nobel-díjat is elnyert",
+        "Ő alapította az első kizárólag nőknek szóló tudományos akadémiát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Curie 1903-ban fizikai, 1911-ben kémiai Nobel-díjat kapott a radioaktivitás kutatásáért.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik évben jelent meg Charles Darwin A fajok eredete című, az evolúció elméletét kifejtő könyve?",
+      "a": [
+        "1859",
+        "1837",
+        "1871",
+        "1901"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Darwin 1859-ben adta ki fő művét, amelyben a természetes szelekció elméletét fejtette ki.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik szerzetes-botanikus fektette le a genetika alaptörvényeit borsónövényeken végzett keresztezési kísérletekkel?",
+      "a": [
+        "Gregor Mendel",
+        "Charles Darwin",
+        "Louis Pasteur",
+        "Robert Hooke"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mendel az 1860-as években végzett kísérletei alapozták meg az öröklődéstan tudományát.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Mit állít Albert Einstein általános relativitáselmélete a gravitációról?",
+      "a": [
+        "A tömeg görbíti a téridőt, és ez okozza a gravitációs vonzást",
+        "A gravitáció egy láthatatlan részecske kibocsátásából ered",
+        "A gravitáció erőssége minden bolygón azonos",
+        "A fény sebessége a gravitáció hatására folyamatosan változik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Einstein 1915-ös elmélete szerint a nagy tömegű testek meggörbítik a téridőt, ez okozza a bolygópályákat.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik osztrák fizikus alkotta meg a kvantummechanika alapegyenletét, a róla elnevezett hullámegyenletet?",
+      "a": [
+        "Erwin Schrödinger",
+        "Werner Heisenberg",
+        "Niels Bohr",
+        "Max Planck"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Schrödinger 1926-ban publikálta a kvantumrendszerek időfejlődését leíró egyenletét.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Milyen véletlen felfedezés vezetett el Alexander Fleminget a penicillin azonosításához 1928-ban?",
+      "a": [
+        "Egy magára hagyott baktériumtenyészeten penészgomba pusztította el a kórokozókat",
+        "Egy elrontott kísérlet során véletlenül gyógyszert kevert a vérmintákba",
+        "Egy beteg gyógyulását figyelte meg antibiotikum nélkül",
+        "Egy állatkísérlet során figyelt fel a gomba gyógyhatására"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Fleming észrevette, hogy egy szennyeződött Petri-csészében a penészgomba körül elpusztultak a staphylococcus-baktériumok.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Hány szabadalmat jegyeztek be összesen Thomas Edison, az amerikai feltaláló nevén élete során?",
+      "a": [
+        "Több mint ezret",
+        "Körülbelül százat",
+        "Pontosan ötvenet",
+        "Néhány tucatot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Edison neve alatt több mint 1000 amerikai szabadalmat tartanak nyilván, köztük a fonográfét és az izzólámpáét.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Miért nevezik a 19. század végi technológiai versengést Edison és Tesla között 'áramok háborújának'?",
+      "a": [
+        "Mert Edison az egyenáramot, Tesla a váltakozó áramot szorgalmazta az elektromos hálózatokhoz",
+        "Mert mindketten saját áramszolgáltató céget alapítottak ugyanabban a városban",
+        "Mert perben álltak egymással egy izzólámpa-szabadalom miatt",
+        "Mert versenyt rendeztek, ki tud gyorsabban villanyt szerelni egy házba"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Edison az egyenáramú (DC), Tesla és Westinghouse a váltakozó áramú (AC) rendszert népszerűsítette, végül az AC terjedt el.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik francia mérnök tervezte az 1889-es párizsi világkiállításra épült tornyot, amelyet eredetileg ideiglenesnek szántak?",
+      "a": [
+        "Gustave Eiffel",
+        "Gustave Doré",
+        "Auguste Perret",
+        "Le Corbusier"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Eiffel-torony Gustave Eiffel mérnöki irodájának tervei alapján épült, és csak 20 évre szánták.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik angol feltaláló hajtotta végre 1804-ben az első sikeres, síneken közlekedő gőzmozdonyos utat?",
+      "a": [
+        "Richard Trevithick",
+        "George Stephenson",
+        "James Watt",
+        "Robert Fulton"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Trevithick mozdonya 1804-ben Walesben, a Penydarren vasúton húzott először vagonokat sínen.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Mit jelent az, hogy egy találmány 'szabadalmaztatott'?",
+      "a": [
+        "Feltalálója törvényes, kizárólagos jogot kap a hasznosítására egy időre",
+        "A találmányt egy nemzetközi versenyen hivatalosan a legjobbnak ítélik",
+        "A találmányt bárki szabadon és ingyenesen felhasználhatja korlátlanul",
+        "A találmányt kötelezően egy tudományos múzeumban kell bemutatni"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szabadalom a feltalálónak korlátozott ideig kizárólagos jogot biztosít találmánya gyártására és értékesítésére.",
+      "t": "feltalálók"
+    },
+    {
+      "q": "Melyik ókori ország trónját foglalta el fáraóként Hatsepszut, annak ellenére, hogy nő volt?",
+      "a": [
+        "Egyiptom",
+        "Perzsia",
+        "Babilónia",
+        "Núbia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hatsepszut az i. e. 15. században uralkodott Egyiptomban, és férfi fáraóként ábrázoltatta magát a hagyomány szerint.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Miért nevezik gyakran Nagy Károly frank uralkodót 'Európa atyjának'?",
+      "a": [
+        "Mert birodalma egyesítette Nyugat-Európa nagy részét, és 800-ban római császárrá koronázták",
+        "Mert ő alapította az Európai Uniót elődjének tekintett szövetséget",
+        "Mert minden akkor létező európai nyelvet egyetlen közös nyelvvé egységesített",
+        "Mert ő hozta létre Európa legelső, egész kontinenst behálózó postai rendszerét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nagy Károly frank birodalma a mai Nyugat- és Közép-Európa nagy részét felölelte, uralkodását a Karoling-reneszánsz fémjelezte.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Ki alapította meg a keresztény magyar államot, és lett Magyarország első megkoronázott királya?",
+      "a": [
+        "I. (Szent) István",
+        "I. László",
+        "Könyves Kálmán",
+        "Géza fejedelem"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "István az ezredforduló táján koronáztatta meg magát, és térítette keresztény hitre az országot.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Ki volt az Amerikai Egyesült Államok első elnöke, aki korábban a szövetségi alkotmányt megfogalmazó konvent elnöke is volt?",
+      "a": [
+        "George Washington",
+        "Thomas Jefferson",
+        "John Adams",
+        "Benjamin Franklin"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Washington 1789-től 1797-ig volt az USA első elnöke, korábban az alkotmányozó konvent elnökeként is tevékenykedett.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik brit uralkodó ünnepelte 2022-ben platinajubileumát, 70 évnyi trónon töltött idő alkalmából?",
+      "a": [
+        "II. Erzsébet királynő",
+        "III. Károly király",
+        "Viktória királynő",
+        "VI. György király"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "II. Erzsébet 1952-ben lépett trónra, és 2022-ben, 70 uralkodási év után ünnepelte platinajubileumát.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Mit jelentett Winston Churchill 1946-os beszédében a 'vasfüggöny' kifejezés?",
+      "a": [
+        "A kommunista és nyugati blokk közötti politikai és katonai elzárkózás jelképes határvonalát",
+        "Egy ténylegesen megépített fémkerítést a lengyel-német határon",
+        "A brit és francia gyarmatbirodalom közötti kereskedelmi tilalmat",
+        "Egy titkos katonai szervezetnek adott fedőnevet a brit hírszerzésen belül"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Churchill a fultoni beszédében nevezte így a hidegháborús Európát kettéosztó, jelképes határvonalat.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik indiai politikai vezető szervezte az erőszakmentes ellenállás mozgalmát a brit gyarmati uralom ellen?",
+      "a": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Muhammad Ali Jinnah",
+        "Subhas Chandra Bose"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Gandhi a szatjagraha, vagyis az erőszakmentes polgári engedetlenség elvét hirdette India függetlenségi mozgalmában.",
+      "t": "uralkodók, államférfiak"
+    },
+    {
+      "q": "Melyik holland festő vágta le saját fülének egy részét egy 1888-as idegösszeomlása során?",
+      "a": [
+        "Vincent van Gogh",
+        "Rembrandt van Rijn",
+        "Johannes Vermeer",
+        "Piet Mondrian"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Van Gogh Arles-ban, Paul Gauguinnel való heves vitája után csonkította meg fülét 1888 decemberében.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Ki festette a Sixtus-kápolna mennyezetét, benne az Ádám teremtése jelenettel?",
+      "a": [
+        "Michelangelo Buonarroti",
+        "Raffaello Santi",
+        "Leonardo da Vinci",
+        "Sandro Botticelli"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Michelangelo 1508 és 1512 között festette meg a Sixtus-kápolna mennyezetfreskóit II. Gyula pápa megbízásából.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Miért különleges Ludwig van Beethoven Kilencedik szimfóniájának megszületése?",
+      "a": [
+        "Beethoven már szinte teljesen megsüketült, mire megkomponálta",
+        "A darabot mindössze egyetlen nap alatt írta meg",
+        "Sosem hallgatta meg élőben, mert száműzetésben élt",
+        "Kizárólag zongorára írta, zenekari átiratát más készítette"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Beethoven hallása az 1810-es évekre szinte teljesen elveszett, mégis megalkotta egyik legnagyobb művét, benne az Örömódával.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Mi volt szokatlan Wolfgang Amadeus Mozart gyermekkori zenei pályafutásában?",
+      "a": [
+        "Már ötévesen komponált, és Európa udvaraiban koncertezett csodagyerekként",
+        "Csak felnőttként, harmincévesen tanult meg kottát olvasni",
+        "Kizárólag népzenét játszott, klasszikus képzést nem kapott",
+        "Süketen született, és csak rezgésekből tanult zenélni"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Mozart apja, Leopold már kisgyermekként Európa-szerte bemutatta fia rendkívüli tehetségét.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik holland festő híres a fény és árnyék drámai kezeléséről, valamint az Éjjeli őrjárat című festményéről?",
+      "a": [
+        "Rembrandt van Rijn",
+        "Vincent van Gogh",
+        "Jan Vermeer",
+        "Frans Hals"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Rembrandt 1642-ben festette az Éjjeli őrjáratot, amely a barokk festészet egyik csúcsteljesítménye.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Melyik itáliai reneszánsz polihisztor festette meg a Mona Lisát?",
+      "a": [
+        "Leonardo da Vinci",
+        "Michelangelo Buonarroti",
+        "Raffaello Santi",
+        "Donatello"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Leonardo da Vinci a 16. század elején festette a ma a párizsi Louvre-ban őrzött portrét.",
+      "t": "művészek, zeneszerzők"
+    },
+    {
+      "q": "Hány olimpiai aranyérmet szerzett Michael Phelps amerikai úszó, minden idők legeredményesebb olimpikonja?",
+      "a": [
+        "23",
+        "19",
+        "27",
+        "15"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Phelps négy olimpián (2004, 2008, 2012, 2016) összesen 23 arany- és 28 érmet gyűjtött.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Milyen néven vált világhírűvé az ökölvívó Cassius Clay vallási megtérése után?",
+      "a": [
+        "Muhammad Ali",
+        "Sugar Ray Robinson",
+        "Joe Frazier",
+        "George Foreman"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Clay 1964-ben, iszlám hitre térése után vette fel a Muhammad Ali nevet.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik teniszező tartja a legtöbb Grand Slam-győzelmet szerző férfi teniszező rekordját?",
+      "a": [
+        "Novak Đoković",
+        "Roger Federer",
+        "Rafael Nadal",
+        "Pete Sampras"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Đoković 24 Grand Slam-győzelmével a legtöbb egyéni tornagyőzelmet szerezte a férfi tenisz történetében.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik brazil labdarúgót tartják sokan minden idők legjobbjának, három világbajnoki címével?",
+      "a": [
+        "Pelé",
+        "Diego Maradona",
+        "Ronaldinho",
+        "Zico"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pelé 1958-ban, 1962-ben és 1970-ben nyert világbajnokságot Brazíliával, ezzel egyedülálló rekordot állított fel.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Miért vált Jesse Owens az 1936-os berlini olimpia egyik legikonikusabb alakjává?",
+      "a": [
+        "Négy aranyérmet nyert, cáfolva a nácik faji felsőbbrendűségi propagandáját",
+        "Ő volt az első fekete-afrikai sportoló, aki egyáltalán részt vett olimpián",
+        "Egyedüliként győzött le egy német sportolót az összes versenyszámban",
+        "Ő szervezte meg a versenyt Hitler kérésére"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Owens négy aranyat nyert atlétikában a náci Németország fővárosában, ami komoly propagandavereséget jelentett a rezsimnek.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Melyik jamaicai sprinter tartja jelenleg is a férfi 100 méteres síkfutás világcsúcsát, 9,58 másodperccel?",
+      "a": [
+        "Usain Bolt",
+        "Tyson Gay",
+        "Yohan Blake",
+        "Justin Gatlin"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bolt 2009-ben, a berlini világbajnokságon futotta a máig érvényes 9,58 másodperces világrekordot.",
+      "t": "sportolók, ikonok"
+    },
+    {
+      "q": "Ki vezette azt a spanyol expedíciót, amely elsőként hajózta körbe a Földet, bár ő maga nem élte túl az utat?",
+      "a": [
+        "Ferdinánd Magellán",
+        "Vasco da Gama",
+        "Kolumbusz Kristóf",
+        "Francis Drake"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Magellán 1519-ben indult útnak, de a Fülöp-szigeteken életét vesztette; expedíciója 1522-ben fejezte be a föld körüli utat.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik évben ért partot Kolumbusz Kristóf expedíciója a Karib-térség szigetein, Amerika európai felfedezésének kezdetén?",
+      "a": [
+        "1492",
+        "1498",
+        "1487",
+        "1500"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kolumbusz 1492 októberében ért partot a mai Bahamák egyik szigetén, spanyol koronát szolgálva.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik norvég sarkkutató expedíciója érte el elsőként a Déli-sarkot, 1911 decemberében?",
+      "a": [
+        "Roald Amundsen",
+        "Robert Falcon Scott",
+        "Ernest Shackleton",
+        "Fridtjof Nansen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Amundsen csapata 1911. december 14-én ért a Déli-sarkra, egy hónappal megelőzve Scott brit expedícióját.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Mit kerestek évszázadokon át az európai felfedezők az 'Északnyugati átjáró' néven ismert útvonalon?",
+      "a": [
+        "Egy tengeri hajózási útvonalat Észak-Amerika felett az Atlanti- és Csendes-óceán között",
+        "Egy szárazföldi karavánutat Ázsia és Európa között",
+        "Egy elveszett aranyvárost Dél-Amerika belsejében",
+        "Egy föld alatti folyosót a sarkvidéki jégen keresztül"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Északnyugati átjárót Kanada északi szigetvilágán át keresték, hogy rövidebb tengeri utat találjanak Ázsiába.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik itáliai felfedező és térképész neve után nevezték el a frissen felfedezett kontinenst, Amerikát?",
+      "a": [
+        "Amerigo Vespucci",
+        "Kolumbusz Kristóf",
+        "Vasco Núñez de Balboa",
+        "Hernán Cortés"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A német térképész Martin Waldseemüller 1507-ben Vespucci keresztneve nyomán nevezte el a kontinenst Amerikának.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Ki jutott fel elsőként a Mount Everest csúcsára 1953-ban, egy új-zélandi hegymászó és nepáli serpa társaságában?",
+      "a": [
+        "Edmund Hillary és Tenzing Norgay",
+        "George Mallory és Andrew Irvine",
+        "Reinhold Messner és Peter Habeler",
+        "Junko Tabei és csapata"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Hillary és Tenzing Norgay 1953. május 29-én érte el a világ legmagasabb csúcsát.",
+      "t": "felfedezők, utazók"
+    },
+    {
+      "q": "Melyik angol drámaíró alkotta meg a Hamlet és a Rómeó és Júlia című tragédiákat?",
+      "a": [
+        "William Shakespeare",
+        "Christopher Marlowe",
+        "Oscar Wilde",
+        "George Bernard Shaw"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Shakespeare a 16-17. század fordulóján írta legismertebb tragédiáit a londoni színházak számára.",
+      "t": "írók, költők"
+    },
+    {
+      "q": "Ki írta a Háború és béke című, a napóleoni háborúk korát bemutató orosz regényt?",
+      "a": [
+        "Lev Tolsztoj",
+        "Fjodor Dosztojevszkij",
+        "Anton Csehov",
+        "Ivan Turgenyev"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Tolsztoj 1869-ben fejezte be a monumentális regényt, amely orosz családok sorsát követi a napóleoni háborúk idején.",
+      "t": "írók, költők"
+    },
+    {
+      "q": "Melyik magyar költő verse, a Nemzeti dal vált az 1848-as forradalom jelképévé?",
+      "a": [
+        "Petőfi Sándor",
+        "Arany János",
+        "Vörösmarty Mihály",
+        "Kölcsey Ferenc"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Petőfi Sándor 1848. március 13-án írta a Nemzeti dalt, amelyet másnap a pesti forradalmárok szavaltak.",
+      "t": "írók, költők"
+    },
+    {
+      "q": "Melyik brit írónő alkotta meg a világszerte milliós példányszámban elkelt Harry Potter regénysorozatot?",
+      "a": [
+        "J. K. Rowling",
+        "Agatha Christie",
+        "Jane Austen",
+        "Beatrix Potter"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Rowling 1997 és 2007 között adta ki a hétrészes fantasy-sorozatot a fiatal varázslóról.",
+      "t": "írók, költők"
+    },
+    {
+      "q": "Ki a szerzője a Bűn és bűnhődés című, egy szegény diák lelki vívódásait bemutató regénynek?",
+      "a": [
+        "Fjodor Dosztojevszkij",
+        "Lev Tolsztoj",
+        "Nyikolaj Gogol",
+        "Ivan Bunyin"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Dosztojevszkij 1866-ban jelentette meg a regényt, amely Raszkolnyikov gyilkosság utáni bűntudatát dolgozza fel.",
+      "t": "írók, költők"
+    },
+    {
+      "q": "Melyik ókori görög költő nevéhez kötik az Iliász és az Odüsszeia eposzokat?",
+      "a": [
+        "Homérosz",
+        "Hésziodosz",
+        "Szophoklész",
+        "Pindarosz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hagyomány szerint Homérosz alkotta meg a trójai háborúról és Odüsszeusz hazatéréséről szóló nagy eposzokat.",
+      "t": "írók, költők"
+    },
+    {
+      "q": "Melyik francia tudós fejlesztette ki az első hatásos veszettség elleni oltóanyagot 1885-ben?",
+      "a": [
+        "Louis Pasteur",
+        "Robert Koch",
+        "Edward Jenner",
+        "Alexander Fleming"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pasteur 1885-ben adta be az első sikeres veszettség elleni oltást egy megmart fiúnak.",
+      "t": "orvostudomány úttörői"
+    },
+    {
+      "q": "Melyik angol orvos vezette be a himlő elleni védőoltás módszerét a 18. század végén?",
+      "a": [
+        "Edward Jenner",
+        "Louis Pasteur",
+        "Joseph Lister",
+        "John Snow"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Jenner 1796-ban tehénhimlővel oltott be egy fiút, ezzel megalapozva a modern védőoltás elvét.",
+      "t": "orvostudomány úttörői"
+    },
+    {
+      "q": "Miért tartják Semmelweis Ignác magyar orvost úttörőnek a fertőtlenítés terén?",
+      "a": [
+        "Kimutatta, hogy a kézmosás klóros vízzel drasztikusan csökkenti a gyermekágyi láz halálozását",
+        "Ő fejlesztette ki elsőként az antibiotikumokat a bakteriális fertőzések ellen",
+        "Ő találta fel a steril sebészi gumikesztyűt a fertőzésveszély csökkentésére",
+        "Ő vezette be elsőként a kloroformmal történő műtéti altatás gyakorlatát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Semmelweis az 1840-es években bizonyította be bécsi klinikáján a kézfertőtlenítés életmentő hatását.",
+      "t": "orvostudomány úttörői"
+    },
+    {
+      "q": "Melyik német fizikus fedezte fel 1895-ben a röntgensugárzást, amiért az első fizikai Nobel-díjat kapta?",
+      "a": [
+        "Wilhelm Röntgen",
+        "Max Planck",
+        "Heinrich Hertz",
+        "Werner Heisenberg"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Röntgen 1895-ben véletlenül fedezte fel az általa X-sugárnak nevezett, testeken áthatoló sugárzást.",
+      "t": "orvostudomány úttörői"
+    },
+    {
+      "q": "Melyik amerikai orvoskutató fejlesztette ki az 1950-es években az első széles körben alkalmazott gyermekbénulás elleni oltóanyagot?",
+      "a": [
+        "Jonas Salk",
+        "Albert Sabin",
+        "Karl Landsteiner",
+        "Alexander Fleming"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Salk oltóanyagát 1955-ben engedélyezték, ami drasztikusan visszaszorította a gyermekbénulás terjedését.",
+      "t": "orvostudomány úttörői"
+    },
+    {
+      "q": "Melyik dél-afrikai sebész hajtotta végre 1967-ben az első sikeres emberi szívátültetést?",
+      "a": [
+        "Christiaan Barnard",
+        "Denton Cooley",
+        "Norman Shumway",
+        "Adrian Kantrowitz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Barnard 1967. december 3-án, Fokvárosban ültette át elsőként sikeresen egy ember szívét egy másik emberbe.",
+      "t": "orvostudomány úttörői"
+    },
+    {
+      "q": "Melyik ókori athéni filozófus volt Platón mestere, és fejezte be életét méregpohárral kivégezve?",
+      "a": [
+        "Szókratész",
+        "Arisztotelész",
+        "Periklész",
+        "Anaxagorasz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szókratészt i. e. 399-ben az athéni bíróság az ifjúság megrontásának és istentagadásnak vádjával ítélte halálra.",
+      "t": "filozófusok"
+    },
+    {
+      "q": "Mit fejez ki René Descartes híres mondása: 'Gondolkodom, tehát vagyok'?",
+      "a": [
+        "Azt, hogy a gondolkodás ténye önmagában bizonyítja a létezésünket",
+        "Azt, hogy csak a filozófusok léteznek valójában",
+        "Azt, hogy a test és a lélek ugyanaz az egy dolog",
+        "Azt, hogy csak az érzékszervi tapasztalat bizonyítja a létezést"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Descartes ezzel a mondattal jutott el a radikális kételkedésből az első biztos filozófiai alaptételhez.",
+      "t": "filozófusok"
+    },
+    {
+      "q": "Melyik ókori görög filozófus írta Az állam című művet, amelyben egy ideális társadalmi berendezkedést vázolt fel?",
+      "a": [
+        "Platón",
+        "Arisztotelész",
+        "Szókratész",
+        "Epikurosz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Platón Az állam című dialógusában az igazságos társadalom és a 'filozófus-király' eszméjét fejtette ki.",
+      "t": "filozófusok"
+    },
+    {
+      "q": "Melyik német filozófus dolgozta ki a kategorikus imperatívusz elméletét az erkölcsi cselekvésről?",
+      "a": [
+        "Immanuel Kant",
+        "Georg Wilhelm Friedrich Hegel",
+        "Friedrich Nietzsche",
+        "Arthur Schopenhauer"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kant szerint csak az az erkölcsi cselekedet helyes, amelynek elve általános törvénnyé tehető.",
+      "t": "filozófusok"
+    },
+    {
+      "q": "Melyik ókori görög filozófus alapította a Lükeion nevű athéni tanintézményt, és volt Nagy Sándor nevelője?",
+      "a": [
+        "Arisztotelész",
+        "Platón",
+        "Szókratész",
+        "Zénón"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Arisztotelész i. e. 335 körül alapította a Lükeiont, korábban pedig a fiatal Nagy Sándort tanította.",
+      "t": "filozófusok"
     }
   ]
 }

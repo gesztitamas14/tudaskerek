@@ -884,6 +884,1098 @@
       "e": "George Eastman House Rochesterban/ben található.",
       "t": "múzeumok",
       "s": "http://www.wikidata.org/entity/Q1507284"
+    },
+    {
+      "q": "Mit jelent a festészetben a „sfumato” technika, amelyet Leonardo da Vinci is alkalmazott?",
+      "a": [
+        "A körvonalak és színátmenetek füstszerű, éles határok nélküli elmosása",
+        "Kizárólag fekete-fehér színek használata a festményen",
+        "A vászon aranyfüsttel való bevonása festés előtt",
+        "A figurák díszes, aranyozott keretbe foglalása"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sfumato olasz eredetű szó, jelentése „elfüstölt”, és a lágy, észrevehetetlen átmenetekre utal a fények és árnyékok között.",
+      "t": "reneszánsz"
+    },
+    {
+      "q": "Ki tervezte a firenzei dóm hatalmas, kupola nélküli terének máig álló kupoláját a 15. században?",
+      "a": [
+        "Filippo Brunelleschi",
+        "Donato Bramante",
+        "Andrea Palladio",
+        "Leon Battista Alberti"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Brunelleschi 1420 és 1436 között építette meg a dómot lezáró kupolát, amely az egyik legnagyobb reneszánsz mérnöki teljesítmény.",
+      "t": "reneszánsz"
+    },
+    {
+      "q": "Mely festőt tartják az olajfestés technikájának egyik északi-európai úttörőjének a 15. században?",
+      "a": [
+        "Jan van Eyck",
+        "Albrecht Dürer",
+        "Hieronymus Bosch",
+        "Pieter Bruegel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A flamand Jan van Eyck a rétegzett olajfestés technikájának tökéletesítésével finomabb fény- és színhatásokat ért el, mint a korábbi tempera.",
+      "t": "reneszánsz"
+    },
+    {
+      "q": "Melyik festmény ábrázolja az ókori görög filozófusokat, köztük Platónt és Arisztotelészt, egy monumentális csarnokban?",
+      "a": [
+        "Az athéni iskola",
+        "A Sixtus-kápolna mennyezete",
+        "Az Utolsó ítélet",
+        "A Sixtusi Madonna"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Raffaello 1509–1511 körül festette Az athéni iskola című freskót a Vatikáni Palota egyik termébe.",
+      "t": "reneszánsz"
+    },
+    {
+      "q": "Miért nevezik a barokk festészet egyik jellemző fény-árnyék eljárását „chiaroscurónak”?",
+      "a": [
+        "Mert a világos és sötét foltok erős szembeállításával dramatizálja a jelenetet",
+        "Mert csak pasztellszíneket és lágy átmeneteket használ",
+        "Mert kizárólag templomi freskókon alkalmazták",
+        "Mert a festő mindig éjszaka dolgozott vele"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A chiaroscuro („világos-sötét”) az erős kontrasztokkal teremt drámai hatást; Caravaggio volt az egyik legismertebb alkalmazója.",
+      "t": "barokk"
+    },
+    {
+      "q": "Melyik szobrász alkotta meg a Szent Péter téri kolonnádot és a Szent Teréz eksztázisa című szoborcsoportot Rómában?",
+      "a": [
+        "Gian Lorenzo Bernini",
+        "Francesco Borromini",
+        "Alessandro Algardi",
+        "Pietro da Cortona"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bernini a barokk kor vezető szobrásza és építésze volt, aki mindkét alkotást a 17. században hozta létre Rómában.",
+      "t": "barokk"
+    },
+    {
+      "q": "Milyen egyházi-politikai háttérrel függ össze a barokk stílus 17. századi elterjedése?",
+      "a": [
+        "A katolikus egyház a reformáció ellensúlyozására pompás, érzelemgazdag művészetet szorgalmazott",
+        "A protestáns egyházak tiltották a díszes templombelsőket",
+        "A reneszánsz uralkodók egységes vallási béke jeleként hozták létre",
+        "A felvilágosodás filozófusai írták elő a stílus szabályait"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A katolikus egyház az ellenreformáció során a látványos, érzelmekre ható művészettel kívánta megerősíteni a hitéletet.",
+      "t": "barokk"
+    },
+    {
+      "q": "Melyik festmény mutatja be egy hintán ülő fiatal nőt, akit egy férfi lendít, miközben cipője a levegőbe repül?",
+      "a": [
+        "A hinta",
+        "A zarándoklat Cythera szigetére",
+        "Reggeli a szabadban",
+        "A csipkeverő nő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Jean-Honoré Fragonard A hinta című képe (1767 körül) a rokokó stílus könnyed, játékos, erotikus utalásokkal teli jelenete.",
+      "t": "rokokó"
+    },
+    {
+      "q": "Miben különbözik alapvetően a rokokó stílus a barokktól?",
+      "a": [
+        "Könnyedebb, kecsesebb, pasztellszínű és intimebb, szemben a barokk monumentalitásával",
+        "Kizárólag vallási témákat dolgoz fel, míg a barokk csak világit",
+        "Sötétebb színvilágú és nagyobb léptékű, mint a barokk",
+        "Teljesen elutasítja a díszítést és a dekorativitást"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 18. századi rokokó a francia arisztokrácia szalonjaihoz igazodva könnyedebb, játékosabb és kisebb léptékű a barokknál.",
+      "t": "rokokó"
+    },
+    {
+      "q": "Mi az a szerkezeti megoldás, amely lehetővé tette a gótikus katedrálisok magas, vékony falainak és nagy ablakainak megépítését?",
+      "a": [
+        "A támpillérek (kontrafors) rendszere",
+        "A vastag, tömör kőfalak",
+        "A fa vázszerkezetű tetőzet",
+        "A föld alatti alapozás mélyítése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A külső támpillérek átvették a boltozat oldalirányú nyomását, így a falak vékonyabbak és az ablakok nagyobbak lehettek.",
+      "t": "gótika"
+    },
+    {
+      "q": "Milyen ablaktípus vált a gótikus templomok jellegzetes díszévé, gyakran bibliai jeleneteket ábrázolva?",
+      "a": [
+        "Színes üvegablak (rózsaablak)",
+        "Zsalugáteres fából készült ablak",
+        "Mozaikkal kirakott üvegtégla",
+        "Áttört márványrács ablak"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gótikus katedrálisok festett üvegablakai, köztük a kör alakú rózsaablakok, fényjátékkal és bibliai jelenetekkel díszítették a belső teret.",
+      "t": "gótika"
+    },
+    {
+      "q": "Melyik festő alapította meg giverny-i kertjét, amely később számos vízililiom-festményének ihletforrása lett?",
+      "a": [
+        "Claude Monet",
+        "Camille Pissarro",
+        "Alfred Sisley",
+        "Gustave Caillebotte"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Monet 1883-ban költözött Givernybe, ahol kialakított kertje és tavirózsás tava lett élete végéig fő festői témája.",
+      "t": "impresszionizmus"
+    },
+    {
+      "q": "Melyik impresszionista festő ismert elsősorban a balett-táncosnőket ábrázoló képeiről és pasztelljeiről?",
+      "a": [
+        "Edgar Degas",
+        "Berthe Morisot",
+        "Mary Cassatt",
+        "Édouard Manet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Degas visszatérő témája volt az Opera balett-társulatának próbái és előadásai, gyakran szokatlan nézőpontból megfestve.",
+      "t": "impresszionizmus"
+    },
+    {
+      "q": "Mi jellemezte az impresszionista festők munkamódszerét a korábbi műtermi festéshez képest?",
+      "a": [
+        "Gyakran a szabad ég alatt, közvetlenül a helyszínen festettek, a fény pillanatnyi hatását rögzítve",
+        "Kizárólag emlékezetből, hetekkel a látvány után dolgoztak",
+        "Mindig fényképek alapján készítették el vázlataikat",
+        "Csak éjszaka, mesterséges fénynél alkottak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A plein air festés lehetővé tette, hogy a fény és a levegő állandóan változó hatását gyorsan, elevenen rögzítsék.",
+      "t": "impresszionizmus"
+    },
+    {
+      "q": "Kit neveznek gyakran „a modern festészet atyjának”, geometrikus formákra egyszerűsített tájképei miatt?",
+      "a": [
+        "Paul Cézanne",
+        "Paul Gauguin",
+        "Georges Seurat",
+        "Henri Rousseau"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Cézanne a természetet hengerekre, gömbökre és kúpokra egyszerűsítő látásmódja nagy hatással volt a kubizmus kialakulására.",
+      "t": "posztimpresszionizmus"
+    },
+    {
+      "q": "Melyik festő hagyta el Európát, hogy Tahitin fessen meg egyszerűsített formájú, élénk színű trópusi jeleneteket?",
+      "a": [
+        "Paul Gauguin",
+        "Vincent van Gogh",
+        "Henri Matisse",
+        "Paul Signac"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Gauguin 1891-ben költözött Francia Polinéziába, ahol a helyi kultúrát és tájat szintetikus, lapos színfoltokkal ábrázolta.",
+      "t": "posztimpresszionizmus"
+    },
+    {
+      "q": "Mit jelent a pointillizmus festészeti technika, amelyet Georges Seurat is alkalmazott?",
+      "a": [
+        "Apró, tiszta színfoltok pontszerű egymás mellé helyezése, amelyeket a szem kever össze",
+        "A vászon teljes felületének egyetlen színnel való bevonása",
+        "A festék kés helyett ujjal való felvitele",
+        "A kép körvonalainak fekete tussal való megrajzolása"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pointillizmus apró pontokból építi fel a képet, a színkeverés a néző szemében, optikailag történik.",
+      "t": "posztimpresszionizmus"
+    },
+    {
+      "q": "Melyik posztimpresszionista festő és grafikus vált híressé a párizsi Moulin Rouge plakátjairól és mulatói jeleneteiről?",
+      "a": [
+        "Henri de Toulouse-Lautrec",
+        "Édouard Vuillard",
+        "Pierre Bonnard",
+        "Odilon Redon"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Toulouse-Lautrec a párizsi éjszakai élet plakátjaival és festményeivel örökítette meg a Moulin Rouge világát.",
+      "t": "posztimpresszionizmus"
+    },
+    {
+      "q": "Melyik év manifesztuma tekinthető a szürrealista mozgalom hivatalos kezdetének?",
+      "a": [
+        "1924, André Breton Szürrealista kiáltványa",
+        "1909, Filippo Tommaso Marinetti kiáltványa",
+        "1917, Marcel Duchamp Szökőkút című műve",
+        "1907, Picasso Avignoni kisasszonyok című képe"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "André Breton 1924-ben tette közzé a Szürrealista kiáltványt, amely a tudattalan és az álmok szerepét helyezte a művészet középpontjába.",
+      "t": "szürrealizmus"
+    },
+    {
+      "q": "Mely tudós elméletei ihlették elsősorban a szürrealista művészeket a tudattalan és az álmok ábrázolásában?",
+      "a": [
+        "Sigmund Freud pszichoanalízise",
+        "Charles Darwin evolúcióelmélete",
+        "Albert Einstein relativitáselmélete",
+        "Karl Marx társadalomelmélete"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Freud tudattalanról és álmokról szóló elméletei adták a szürrealisták elméleti alapját a valóság szokatlan ábrázolásához.",
+      "t": "szürrealizmus"
+    },
+    {
+      "q": "Melyik osztrák festő ismert szögletes, feszült testtartású önarcképeiről és aktjairól, amelyekkel az expresszionizmus egyik vezető alakja lett?",
+      "a": [
+        "Egon Schiele",
+        "Gustav Klimt",
+        "Oskar Kokoschka",
+        "Richard Gerstl"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Schiele nyers, torzított formákkal és intenzív érzelmekkel dolgozó képei az osztrák expresszionizmus meghatározó alkotásai.",
+      "t": "expresszionizmus"
+    },
+    {
+      "q": "Melyik németországi művészcsoport indította útjára 1905-ben a német expresszionizmust erős színekkel és éles formákkal?",
+      "a": [
+        "Die Brücke (A Híd)",
+        "Der Blaue Reiter (A Kék Lovas)",
+        "Bauhaus",
+        "Novembergruppe"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Die Brücke csoportot 1905-ben alapították Drezdában, célja a hagyományos akadémikus festészettől való elszakadás volt.",
+      "t": "expresszionizmus"
+    },
+    {
+      "q": "Melyik Picasso-festmény tekinthető a kubizmus előfutárának, amely öt eltorzított, szögletes nőalakot ábrázol?",
+      "a": [
+        "Avignoni kisasszonyok",
+        "Guernica",
+        "Vak koldus",
+        "A vizesedény, pohár és üveg"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az 1907-ben festett Avignoni kisasszonyok radikálisan új, szögletes formanyelvével nyitotta meg az utat a kubizmus felé.",
+      "t": "kubizmus"
+    },
+    {
+      "q": "Miben tér el az analitikus kubizmus a szintetikus kubizmustól?",
+      "a": [
+        "Az analitikus a formákat sok nézőpontból bontja apró síkokra, a szintetikus egyszerűbb formákat és kollázst is használ",
+        "Az analitikus csak szobrászatban, a szintetikus csak festészetben létezik",
+        "Az analitikus élénk színeket, a szintetikus kizárólag szürkeárnyalatokat használ",
+        "Az analitikus csak portrékat, a szintetikus csak tájképeket ábrázol"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A korai, analitikus kubizmus a formák széttördelésére épült, míg a későbbi szintetikus szakasz egyszerűbb síkokkal és papírkollázzsal dolgozott.",
+      "t": "kubizmus"
+    },
+    {
+      "q": "Mely olasz költő tette közzé 1909-ben azt a kiáltványt, amely a sebesség, a gép és a modern technika ünneplésére szólított fel a művészetben?",
+      "a": [
+        "Filippo Tommaso Marinetti",
+        "Gabriele D'Annunzio",
+        "Giacomo Balla",
+        "Umberto Boccioni"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Marinetti Futurista kiáltványa 1909-ben jelent meg, és a mozgás, a sebesség és a modern gépi civilizáció dicsőítését hirdette.",
+      "t": "futurizmus"
+    },
+    {
+      "q": "Milyen témákat helyezett a középpontba a futurizmus mint művészeti irányzat?",
+      "a": [
+        "A mozgást, a sebességet és a modern ipari technikát",
+        "A vidéki élet nyugalmát és a hagyományos paraszti motívumokat",
+        "A klasszikus antik mitológiai jeleneteket",
+        "A vallásos áhítatot és a szentek ábrázolását"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A futuristák a dinamizmust, az autókat, gépeket és a városi élet lüktetését igyekeztek megragadni festményeiken és szobraikon.",
+      "t": "futurizmus"
+    },
+    {
+      "q": "Melyik svájci városban alapították 1916-ban a Cabaret Voltaire nevű helyet, amely a dadaizmus bölcsőjének számít?",
+      "a": [
+        "Zürich",
+        "Genf",
+        "Bázel",
+        "Bern"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A zürichi Cabaret Voltaire adott otthont az első dadaista előadásoknak, amelyeket az első világháború elleni tiltakozásként hoztak létre.",
+      "t": "dadaizmus"
+    },
+    {
+      "q": "Miért utasította el a dadaizmus a hagyományos esztétikai szabályokat és a logikus értelmezhetőséget?",
+      "a": [
+        "Az első világháború értelmetlen pusztítására reagálva a racionalitást és a hagyományos értékeket kérdőjelezte meg",
+        "Mert alkotói kizárólag gyerekeknek szánták a műveiket",
+        "Mert a mozgalom vallási tiltás alá esett",
+        "Mert a hagyományos festészeti anyagok akkoriban nem voltak elérhetők"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A dadaisták a háború borzalmait okozó „józan” civilizációt gúnyolták ki abszurd, provokatív alkotásaikkal.",
+      "t": "dadaizmus"
+    },
+    {
+      "q": "Melyik 1917-es alkotás egy egyszerű, aláírt piszoárt állított ki műalkotásként, kihívást intézve a művészet fogalma ellen?",
+      "a": [
+        "Szökőkút (Marcel Duchamp)",
+        "Bicikliroló (Marcel Duchamp)",
+        "A nagy üveg (Marcel Duchamp)",
+        "Mona Lisa bajusszal (Marcel Duchamp)"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Duchamp a Szökőkút néven, „R. Mutt” aláírással benyújtott piszoárral azt sugallta, hogy a művészi szándék önmagában alkotássá tehet egy hétköznapi tárgyat.",
+      "t": "dadaizmus"
+    },
+    {
+      "q": "Melyik pop-art festő hozta létre New Yorkban a „Factory” néven ismert stúdióját, ahol sorozatnyomatokat, például Marilyn Monroe portréit készítette?",
+      "a": [
+        "Andy Warhol",
+        "Roy Lichtenstein",
+        "Claes Oldenburg",
+        "Jasper Johns"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Warhol Factory nevű stúdiója a szitanyomatos technikával tömegtermelésszerűen készített képek és a pop-art kultúra központja volt.",
+      "t": "pop-art"
+    },
+    {
+      "q": "Melyik pop-art festő alkalmazta jellegzetesen a képregények stílusát, például a Whaam! című festményében?",
+      "a": [
+        "Roy Lichtenstein",
+        "Andy Warhol",
+        "Robert Rauschenberg",
+        "James Rosenquist"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Lichtenstein a képregények rácsos nyomdai pöttyeit (Ben-Day dots) és vastag körvonalait nagyítva vitte át a festészetbe.",
+      "t": "pop-art"
+    },
+    {
+      "q": "Melyik amerikai festő vált híressé arról, hogy a vászonra fektetve, festéket csepegtetve és fröcskölve alkotott monumentális képeket?",
+      "a": [
+        "Jackson Pollock",
+        "Willem de Kooning",
+        "Franz Kline",
+        "Clyfford Still"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Pollock „drip painting” technikájával, a vászon feletti mozgással hozta létre elvont, akciófestészetnek nevezett kompozícióit.",
+      "t": "absztrakt expresszionizmus"
+    },
+    {
+      "q": "Melyik festőt tartják az absztrakt festészet egyik korai úttörőjének, aki elméleti írásokat is publikált a színek és formák lelki hatásairól?",
+      "a": [
+        "Vaszilij Kandinszkij",
+        "Kazimir Malevics",
+        "Piet Mondrian",
+        "Frantisek Kupka"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kandinszkij a 20. század elején kezdett teljesen tárgy nélküli, elvont képeket festeni, és elméleti munkáiban is foglalkozott a színek hatásával.",
+      "t": "absztrakt expresszionizmus"
+    },
+    {
+      "q": "Melyik amerikai festő ismert a hatalmas, elmosódott színmezőkből álló, mély érzelmi hatású festményeiről?",
+      "a": [
+        "Mark Rothko",
+        "Barnett Newman",
+        "Adolph Gottlieb",
+        "Robert Motherwell"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Rothko színmezős festményei nagy, lágy szélű színfelületekből épülnek fel, amelyeket meditatív, érzelmi hatásúnak szánt.",
+      "t": "absztrakt expresszionizmus"
+    },
+    {
+      "q": "Melyik magyar származású festőt tartják az op-art (optikai művészet) egyik legfontosabb képviselőjének?",
+      "a": [
+        "Vasarely Viktor",
+        "Moholy-Nagy László",
+        "Csontváry Kosztka Tivadar",
+        "Rippl-Rónai József"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Vasarely Viktor geometrikus, optikai illúziót keltő mintáival vált a nemzetközi op-art mozgalom vezető alakjává Franciaországban.",
+      "t": "pop-art"
+    },
+    {
+      "q": "Melyik brit festőnő vált ismertté hullámzó, fekete-fehér vagy élénk színű mintázatú, szemet megtévesztő op-art képeiről?",
+      "a": [
+        "Bridget Riley",
+        "Barbara Hepworth",
+        "Gillian Ayres",
+        "Bridget Bate Tichenor"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Riley precízen megtervezett, ismétlődő vonalakból és formákból álló képei rezgő, mozgó érzetet keltenek a nézőben.",
+      "t": "pop-art"
+    },
+    {
+      "q": "Melyik amerikai szobrász nevéhez fűződik a minimalista irányzat, amely egyszerű, ipari anyagokból készült geometrikus formákat használt?",
+      "a": [
+        "Donald Judd",
+        "Sol LeWitt",
+        "Carl Andre",
+        "Dan Flavin"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Judd egyszerű, gyakran fémből vagy plexiből készült dobozformájú, sorozatban ismétlődő objektjeivel a minimalizmus meghatározó alkotója.",
+      "t": "szobrászat"
+    },
+    {
+      "q": "Melyik amerikai land art alkotás egy 460 méter hosszú, spirál alakú kőtöltés a Nagy Sós-tóban?",
+      "a": [
+        "Spirál móló (Robert Smithson)",
+        "Kettős negatív (Michael Heizer)",
+        "Napórák mezeje (Nancy Holt)",
+        "Kráterhalom (James Turrell)"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Robert Smithson 1970-ben építette meg a Spirál mólót bazaltkövekből az Utah állambeli Nagy Sós-tóban.",
+      "t": "szobrászat"
+    },
+    {
+      "q": "Melyik festmény ábrázolja Gustav Klimtet, amint egy aranyozott, ölelkező párt jelenít meg díszes, mintás köpenyekben?",
+      "a": [
+        "A csók",
+        "Judit I.",
+        "Danaé",
+        "Adele Bloch-Bauer I."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Klimt A csók című festménye (1907–1908) a bécsi Belvedere Múzeumban látható, és a szecesszió egyik legismertebb alkotása.",
+      "t": "szecesszió"
+    },
+    {
+      "q": "Melyik cseh származású grafikus vált híressé a szecesszió stílusában készült, virágos díszítésű színháztéri plakátjairól?",
+      "a": [
+        "Alfons Mucha",
+        "Egon Schiele",
+        "Gustav Klimt",
+        "František Kupka"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mucha díszes, lágy vonalú, gyakran nőalakokat ábrázoló plakátjai a szecesszió jellegzetes stílusát képviselik.",
+      "t": "szecesszió"
+    },
+    {
+      "q": "Melyik barcelonai templom építése tart még ma is, több mint 140 évvel a munkálatok megkezdése után?",
+      "a": [
+        "Sagrada Família",
+        "Barcelonai katedrális",
+        "Santa Maria del Mar",
+        "Sant Pau del Camp"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Antoni Gaudí 1882-ben kezdte tervezni a Sagrada Famíliát, amelynek építése a mai napig, adományokból folyik.",
+      "t": "szecesszió"
+    },
+    {
+      "q": "Melyik magyar festő Siralomház és Krisztus-trilógia című művei híresek drámai, sötét tónusú realizmusukról?",
+      "a": [
+        "Munkácsy Mihály",
+        "Székely Bertalan",
+        "Benczúr Gyula",
+        "Lotz Károly"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Munkácsy Mihály nemzetközi hírnevet szerzett drámai, sötét tónusú, realista festményeivel, köztük a Krisztus-trilógiával.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik magyar festő legismertebb műve a Zarándoklás a cédrusokhoz Libanonban című monumentális vászon?",
+      "a": [
+        "Csontváry Kosztka Tivadar",
+        "Rippl-Rónai József",
+        "Szinyei Merse Pál",
+        "Ferenczy Károly"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Csontváry különleges, látomásos stílusú festő volt, akinek Zarándoklás a cédrusokhoz Libanonban című képe egyik főműve.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik magyar festő tanult a francia posztimpresszionista körökben, és vitt haza dekoratív, síkszerű festésmódot Magyarországra?",
+      "a": [
+        "Rippl-Rónai József",
+        "Munkácsy Mihály",
+        "Csók István",
+        "Egry József"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Rippl-Rónai Párizsban a nabis csoporttal is kapcsolatba került, majd hazatérve a dekoratív, posztimpresszionista stílus egyik hazai úttörője lett.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik pécsi porcelánmanufaktúra vált híressé az általa kifejlesztett, fémesen csillogó eozin mázról?",
+      "a": [
+        "Zsolnay",
+        "Herendi Porcelánmanufaktúra",
+        "Hollóházi Porcelán",
+        "Kispesti Gránit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Zsolnay gyár a 19. század végén fejlesztette ki az eozinmázat, amely fémes, szivárványos fényt ad a kerámia felületének.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik magyar építész tervezte a Magyar Állami Operaházat Budapesten?",
+      "a": [
+        "Ybl Miklós",
+        "Steindl Imre",
+        "Hauszmann Alajos",
+        "Lechner Ödön"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ybl Miklós neoreneszánsz stílusban tervezte az 1884-ben megnyílt Operaházat.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik magyar építészt nevezik gyakran „a magyar Gaudínak” egyedi, keleties motívumokkal díszített szecessziós épületei miatt?",
+      "a": [
+        "Lechner Ödön",
+        "Ybl Miklós",
+        "Steindl Imre",
+        "Feszty Adolf"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Lechner Ödön a magyar népi és keleti motívumokat ötvözte a szecesszióval, például a budapesti Iparművészeti Múzeum épületén.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik évben fejezték be a budapesti Országház épületének építését, amelyet Steindl Imre tervezett?",
+      "a": [
+        "1904",
+        "1896",
+        "1918",
+        "1873"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bár 1896-ban ünnepélyesen felavatták, a teljes befejezés és belső kialakítás 1904-re valósult meg.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik németországi városban alapította Walter Gropius 1919-ben a Bauhaus iskolát?",
+      "a": [
+        "Weimar",
+        "Berlin",
+        "Drezda",
+        "Frankfurt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Bauhaus iskolát 1919-ben Weimarban alapították, majd később Dessauba, végül Berlinbe költözött.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik francia-svájci építész hirdette meg a „lakógép” elvét, és tervezte meg a modern lakóépület alapelveit a 20. század elején?",
+      "a": [
+        "Le Corbusier",
+        "Mies van der Rohe",
+        "Walter Gropius",
+        "Auguste Perret"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Le Corbusier szerint a ház olyan „gép a lakhatásra”, amelyet funkcionalitás és egyszerű geometrikus formák jellemeznek.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik amerikai építész tervezte a Fallingwater (Vízesésre épült ház) néven ismert, patak fölé nyúló lakóépületet?",
+      "a": [
+        "Frank Lloyd Wright",
+        "Louis Sullivan",
+        "Philip Johnson",
+        "Richard Neutra"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Wright 1935-ben tervezte a pennsylvaniai házat úgy, hogy az szó szerint egy vízesés fölé épüljön, összhangban a természeti környezettel.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik spanyolországi múzeumépület hozta meg Frank Gehry számára a nemzetközi hírnevet hullámzó, fémlemezes formáival?",
+      "a": [
+        "Guggenheim Múzeum, Bilbao",
+        "Prado Múzeum, Madrid",
+        "Reina Sofía Múzeum, Madrid",
+        "Thyssen-Bornemisza Múzeum, Madrid"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Gehry által tervezett bilbaói Guggenheim Múzeum 1997-es megnyitása a dekonstruktivista építészet egyik ikonikus példája.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik dán építész tervezte a Sydney-i Operaház vitorlaszerű, héjszerkezetű tetejét?",
+      "a": [
+        "Jørn Utzon",
+        "Arne Jacobsen",
+        "Alvar Aalto",
+        "Renzo Piano"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Utzon tervét 1957-ben választották ki egy nemzetközi pályázaton, az épület végül 1973-ban készült el.",
+      "t": "építészet"
+    },
+    {
+      "q": "Miért vált szükségessé a párizsi Notre-Dame székesegyház jelentős részének helyreállítása 2019 után?",
+      "a": [
+        "Tűzvész pusztította el a tetőszerkezetet és a huszártornyot",
+        "Földrengés döntötte le a homlokzatát",
+        "Háborús bombázás rongálta meg",
+        "Árvíz öntötte el a kriptát"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "2019 áprilisában tűz ütött ki az épületben, amely elpusztította a fa tetőszerkezetet és a huszártornyot, ezért kezdődött hosszú felújítás.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik ókori egyiptomi királyné híres, festett mészkő mellszobrát őrzik a berlini Neues Museumban?",
+      "a": [
+        "Nofertiti",
+        "Kleopátra",
+        "Hatsepszut",
+        "Nefertari"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kr. e. 14. századból származó Nofertiti-mellszobor 1912-es megtalálása óta a berlini Neues Museum egyik legfontosabb kiállítási tárgya.",
+      "t": "ókori művészet"
+    },
+    {
+      "q": "Melyik ókori egyiptomi kőtábla tette lehetővé a hieroglif írás megfejtését, mert ugyanazt a szöveget három írásmóddal tartalmazza?",
+      "a": [
+        "Rosette-i kő",
+        "Abüdoszi királylista",
+        "Palermo-kő",
+        "Narmer-paletta"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Rosette-i kövön a hieroglif, démotikus és ógörög szöveg összevetése tette lehetővé Jean-François Champollion számára a megfejtést.",
+      "t": "ókori művészet"
+    },
+    {
+      "q": "Melyik ókori kínai sírmellékletet fedeztek fel véletlenül 1974-ben, amikor parasztok kutat ástak Xi'an közelében?",
+      "a": [
+        "A terrakotta hadsereget",
+        "A Han-dinasztia jádeöltözékeit",
+        "A Nagy Fal alapkövét",
+        "A pekingi ember maradványait"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A több ezer életnagyságú agyagharcosból álló terrakotta hadsereget Qin Si Huang-di császár síremlékéhez készítették, és 1974-ben fedezték fel.",
+      "t": "ókori művészet"
+    },
+    {
+      "q": "Milyen jellegzetes testtartást vezetett be az ókori görög szobrászatban Polükleitosz, hogy természetesebb, mozgalmasabb hatást keltsen?",
+      "a": [
+        "A kontraposztót, azaz az aszimmetrikus, egy lábra nehezedő testtartást",
+        "A karok mereven a test mellett tartását",
+        "A fej hátrahajtását ima közben",
+        "A térdelő, imádkozó pózt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kontraposzt a súlypont eltolásával természetesebb, élettel telibb hatást kelt, mint a korábbi, mereven szimmetrikus szobrok.",
+      "t": "ókori művészet"
+    },
+    {
+      "q": "Mi jellemzi a freskófestés technikáját, amelyet templomi mennyezetek díszítésére is gyakran használtak?",
+      "a": [
+        "A festéket még nedves vakolatra viszik fel, így az a száradás során a fallal eggyé válik",
+        "A festéket vászonra viszik fel, majd a falra ragasztják",
+        "A képet apró üvegdarabokból rakják ki a falon",
+        "A falat előbb aranyfüsttel vonják be, majd erre festenek"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A freskó (affresco) technikájánál a pigment a nedves vakolattal kémiai kötést alkot, ami tartós, fénytelen felületet eredményez.",
+      "t": "technikák"
+    },
+    {
+      "q": "Melyik szobrászati eljárás lényege, hogy egy viaszmodellt formába öntenek, majd kiolvasztás után a helyére fémet öntenek?",
+      "a": [
+        "Elveszettviasz-öntés (cire perdue)",
+        "Márványfaragás",
+        "Terrakotta égetés",
+        "Gipszöntés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az elveszettviasz-öntésnél a viaszmodellt kiolvasztják a formából, majd a keletkezett üregbe öntik a folyékony bronzot vagy más fémet.",
+      "t": "technikák"
+    },
+    {
+      "q": "Melyik grafikai eljárásnál marja a művész savval a fémlemezt, hogy azon a rajzolt vonalak bemélyedjenek, majd erről nyomtat?",
+      "a": [
+        "Rézkarc (maratás)",
+        "Litográfia",
+        "Fametszet",
+        "Szitanyomás"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A rézkarcnál a viasszal bevont lemezbe karcolt vonalakat sav marja mélyebbre, Rembrandt is előszeretettel alkalmazta ezt a technikát.",
+      "t": "technikák"
+    },
+    {
+      "q": "Melyik japán fametszet-technikával készült nyomatsorozat legismertebb darabja a Nagy hullám Kanagavánál?",
+      "a": [
+        "Ukijo-e",
+        "Szumi-e tusfestészet",
+        "Origami-papírművészet",
+        "Kintsugi kerámiajavítás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hokuszai fametszete a Fudzsi 36 látképe sorozat része, amely az ukijo-e stílus egyik legismertebb alkotása.",
+      "t": "technikák"
+    },
+    {
+      "q": "Melyik francia fotós nevéhez fűződik a „döntő pillanat” fogalma, amely a tökéletes kompozíciójú felvétel törvényszerű pillanatát jelenti?",
+      "a": [
+        "Henri Cartier-Bresson",
+        "Man Ray",
+        "Robert Doisneau",
+        "Eugène Atget"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Cartier-Bresson szerint a fotósnak a mozgás, a fény és a kompozíció egyetlen, megismételhetetlen pillanatát kell megragadnia.",
+      "t": "fotográfia"
+    },
+    {
+      "q": "Melyik amerikai fotós ismert elsősorban a Yosemite Nemzeti Park fekete-fehér, éles kontrasztú tájfotóiról?",
+      "a": [
+        "Ansel Adams",
+        "Edward Weston",
+        "Dorothea Lange",
+        "Walker Evans"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Adams a zónarendszer nevű expozíciós technikájával készítette nagy tónusgazdagságú, monumentális tájfotóit.",
+      "t": "fotográfia"
+    },
+    {
+      "q": "Melyik évben tűnt el a Mona Lisa a párizsi Louvre-ból, amikor egy olasz munkás, Vincenzo Peruggia ellopta?",
+      "a": [
+        "1911",
+        "1923",
+        "1889",
+        "1940"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Peruggia 1911. augusztus 21-én lopta el a festményt, amelyet csak két évvel később, Firenzében sikerült megtalálni.",
+      "t": "múzeumok"
+    },
+    {
+      "q": "Hányszor lopták el Edvard Munch A sikoly című festményének egy-egy változatát múzeumokból az 1990-es és 2000-es években?",
+      "a": [
+        "Kétszer, 1994-ben és 2004-ben",
+        "Egyszer, 1994-ben",
+        "Háromszor, 1990 és 2010 között",
+        "Egyszer sem, sosem lopták el"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1994-ben a Nemzeti Galériából, 2004-ben pedig a Munch Múzeumból tulajdonították el a festmény egy-egy változatát, mindkettőt később megtalálták.",
+      "t": "múzeumok"
+    },
+    {
+      "q": "Mi teszi az 1990-es bostoni Isabella Stewart Gardner Múzeum-i rablást a történelem egyik leghíresebb megoldatlan műkincslopásává?",
+      "a": [
+        "13 műalkotást, köztük Rembrandt- és Vermeer-festményeket loptak el, és a mai napig nem került elő egyik sem",
+        "A tolvajokat elfogták, de a képeket sosem adták vissza",
+        "A múzeum egész épületét felgyújtották a rablás után",
+        "A múzeum önként adta oda a képeket egy csereüzlet keretében"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1990. március 18-án álruhás tolvajok 13 művet vittek el, köztük Rembrandt és Vermeer alkotásait; az ügy azóta is megoldatlan.",
+      "t": "múzeumok"
+    },
+    {
+      "q": "Mely festmény lett 2017-ben a valaha eladott legdrágább műalkotás egy aukción, több mint 450 millió dollárért?",
+      "a": [
+        "Salvator Mundi (Leonardo da Vincinek tulajdonítva)",
+        "Interchange (Willem de Kooning)",
+        "A kártyázók (Paul Cézanne)",
+        "Nafea Faa Ipoipo (Paul Gauguin)"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Salvator Mundi 2017 novemberében kelt el a Christie's aukcióján, mintegy 450,3 millió dollárért, ezzel rekordot döntve.",
+      "t": "múzeumok"
+    },
+    {
+      "q": "Mi történt Banksy Lány léggömbbel című képével közvetlenül azután, hogy 2018-ban egy aukción elkelt?",
+      "a": [
+        "A képkeretbe rejtett gépezet félig felaprította a vásznat",
+        "A vásárló azonnal jótékonysági célra ajándékozta",
+        "A festményt kiderült, hogy hamisítvány",
+        "A művet visszavonták az árverésről eladás előtt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vásznat a keretbe épített aprítógép a leütés pillanatában részben felszabdalta, amivel Banksy performansszerű akciót hajtott végre.",
+      "t": "múzeumok"
+    },
+    {
+      "q": "Melyik holland festő Gyöngyfüggős lány című képe látható a hágai Mauritshuis múzeumban?",
+      "a": [
+        "Johannes Vermeer",
+        "Rembrandt van Rijn",
+        "Frans Hals",
+        "Jan Steen"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Vermeer viszonylag kevés fennmaradt festménye közül a Gyöngyfüggős lány az egyik legismertebb, gyakran „az északi Mona Lisának” is nevezik.",
+      "t": "múzeumok"
+    },
+    {
+      "q": "Melyik festmény kapta a nevét arról, hogy a rajta ábrázolt jelenetet sokáig tévesen éjszakainak gondolták a felület elszíneződése miatt?",
+      "a": [
+        "Az éjjeli őrjárat (Rembrandt)",
+        "Éjkávézó (Vincent van Gogh)",
+        "Csillagos éj (Vincent van Gogh)",
+        "Éjszakai őrség (Frans Hals)"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Rembrandt festményét a rárakódott lakkréteg sötétedése miatt sokáig éjszakai jelenetnek hitték, pedig eredetileg nappali fényben játszódik.",
+      "t": "múzeumok"
+    },
+    {
+      "q": "Melyik spanyol udvari festő ábrázolta önmagát a festőállvány mellett a Az udvarhölgyek (Las Meninas) című képen?",
+      "a": [
+        "Diego Velázquez",
+        "Francisco Goya",
+        "El Greco",
+        "Bartolomé Esteban Murillo"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Velázquez az 1656-ban festett képen a spanyol királyi udvar tagjait és önmagát is megörökítette munka közben.",
+      "t": "reneszánsz"
+    },
+    {
+      "q": "Melyik görög származású, Spanyolországban alkotó festő ismert megnyúlt, szinte lángnyelvszerű alakjairól?",
+      "a": [
+        "El Greco",
+        "Diego Velázquez",
+        "Francisco de Zurbarán",
+        "Jusepe de Ribera"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "El Greco Toledóban telepedett le, és jellegzetes, megnyújtott, drámai alakjaival vált a manierista festészet kiemelkedő alakjává.",
+      "t": "barokk"
+    },
+    {
+      "q": "Melyik brit festő vált híressé a fényt és az atmoszférát elmosódott, szinte absztrakt formában megjelenítő tájképeiről és tengeri jeleneteiről?",
+      "a": [
+        "J. M. W. Turner",
+        "John Constable",
+        "Thomas Gainsborough",
+        "Richard Wilson"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Turner képein a fény és a köd gomolygása gyakran szinte teljesen feloldja a formákat, előrevetítve az impresszionizmus egyes elemeit.",
+      "t": "20. századi művészet"
+    },
+    {
+      "q": "Melyik német romantikus festő legismertebb képe egy hátulról ábrázolt vándort mutat egy sziklacsúcson, ködtenger felett?",
+      "a": [
+        "Caspar David Friedrich",
+        "Philipp Otto Runge",
+        "Carl Gustav Carus",
+        "Johan Christian Dahl"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Friedrich Vándor a ködtenger felett című képe (1818 körül) a német romantika egyik legismertebb, a fenséges természetet ábrázoló alkotása.",
+      "t": "20. századi művészet"
+    },
+    {
+      "q": "Melyik francia festmény ábrázolja allegorikusan a Szabadságot, amint félmeztelen nőalakként zászlót lengetve vezeti a forradalmárokat?",
+      "a": [
+        "A Szabadság vezeti a népet (Eugène Delacroix)",
+        "A Medúza tutaja (Théodore Géricault)",
+        "Marat halála (Jacques-Louis David)",
+        "Napóleon a Szent Bernát-hágón (Jacques-Louis David)"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Delacroix 1830-ban festette meg a júliusi forradalom emlékére ezt a romantikus, allegorikus jelenetet.",
+      "t": "20. századi művészet"
+    },
+    {
+      "q": "Melyik festmény egy hajótörés túlélőinek kétségbeesett tutajon való vergődését ábrázolja, valós esemény alapján?",
+      "a": [
+        "A Medúza tutaja (Théodore Géricault)",
+        "A Szabadság vezeti a népet (Eugène Delacroix)",
+        "A haldokló rabszolga (Théodore Géricault)",
+        "A jégmező (Caspar David Friedrich)"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Géricault 1818–1819-ben festette meg a Medúza fregatt 1816-os hajótörésének túlélőit ábrázoló, romantikus stílusú monumentális képet.",
+      "t": "20. századi művészet"
+    },
+    {
+      "q": "Melyik francia szobrász alkotta meg a Gondolkodó és A csók néven ismert bronz- és márványszobrokat?",
+      "a": [
+        "Auguste Rodin",
+        "Camille Claudel",
+        "Aristide Maillol",
+        "Antoine Bourdelle"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Rodin realisztikus, mégis erőteljesen kifejező emberábrázolása a 19–20. század fordulójának egyik legnagyobb hatású szobrásza volt.",
+      "t": "szobrászat"
+    },
+    {
+      "q": "Melyik román származású szobrász vívott jogi vitát az amerikai vámhatósággal, mert Madár a térben című absztrakt bronzszobrát nem ismerték el műalkotásnak?",
+      "a": [
+        "Constantin Brâncuși",
+        "Alberto Giacometti",
+        "Henry Moore",
+        "Hans Arp"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az 1926-os ügyben a vámhivatal fém tömegcikként vámoltatta volna a szobrot, végül a bíróság 1928-ban műalkotásnak minősítette.",
+      "t": "szobrászat"
+    },
+    {
+      "q": "Melyik svájci szobrász ismert vékony, megnyúlt, karcsú emberalakot ábrázoló bronzfiguráiról?",
+      "a": [
+        "Alberto Giacometti",
+        "Jean Tinguely",
+        "Constantin Brâncuși",
+        "Max Bill"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Giacometti háború utáni, rendkívül elnyújtott, törékeny alakjai az emberi lét magányát és sebezhetőségét fejezik ki.",
+      "t": "szobrászat"
+    },
+    {
+      "q": "Melyik amerikai-francia szobrásznő alkotta meg a Maman című, több méter magas pókszobrot?",
+      "a": [
+        "Louise Bourgeois",
+        "Niki de Saint Phalle",
+        "Barbara Hepworth",
+        "Eva Hesse"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Bourgeois 1999-ben készítette az anyai gondoskodást és erőt szimbolizáló, óriási acél-márvány pókszobrát.",
+      "t": "szobrászat"
+    },
+    {
+      "q": "Melyik ókori görög szobor, amely ma a párizsi Louvre-ban látható, elveszett karjairól híres, és 1820-ban találták meg Milosz szigetén?",
+      "a": [
+        "Milói Vénusz",
+        "Szamothrakéi Niké",
+        "Belvedere Apolló",
+        "Diszkoszvető"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hellenisztikus korból származó szobrot 1820-ban egy görög paraszt találta meg Milosz szigetén, azóta a Louvre-ban őrzik.",
+      "t": "ókori művészet"
+    },
+    {
+      "q": "Melyik amerikai szabadságszimbólum elkészítésében működött közre Gustave Eiffel, aki a belső fémvázat tervezte, míg a külső formát Frédéric Bartholdi alkotta meg?",
+      "a": [
+        "A Szabadság-szobor",
+        "A Golden Gate híd",
+        "A Rushmore-hegy",
+        "A Chrysler Building"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bartholdi tervezte a rézlemezekből álló szobor külsejét, míg Eiffel a belső, teherhordó vasszerkezetet dolgozta ki 1886-ra.",
+      "t": "szobrászat"
+    },
+    {
+      "q": "Kb. hány méter magas Michelangelo Dávid-szobra, amelyet a firenzei Accademia Galériában őriznek?",
+      "a": [
+        "Körülbelül 5,17 méter",
+        "Körülbelül 2 méter",
+        "Körülbelül 8,5 méter",
+        "Körülbelül 3,3 méter"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Michelangelo által 1501–1504 között készített márványszobor mintegy 5,17 méter magas, súlya körülbelül 5 tonna.",
+      "t": "szobrászat"
     }
   ]
 }

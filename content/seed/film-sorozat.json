@@ -884,6 +884,916 @@
       "e": "Trükkös fiúk bemutatója: 2000-es évek.",
       "t": "filmek évtizede",
       "s": "http://www.wikidata.org/entity/Q4536"
+    },
+    {
+      "q": "Mit jelent a 'spin-off' kifejezés a filmes-sorozatos szóhasználatban?",
+      "a": [
+        "Egy létező mű szereplőjéből vagy helyszínéből induló önálló, új sorozat",
+        "Egy sorozat évadzáró epizódjának másik, hivatalos elnevezése",
+        "Amikor egy filmet fekete-fehérből utólag színesre alakítanak át",
+        "Egy sorozat teljes forgatásának hivatalos, végleges berekesztése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Better Call Saul például a Breaking Bad spin-offja, Saul Goodman ügyvéd korábbi életét mutatja be.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Mire utal a 'cliffhanger' kifejezés egy sorozat epizódjának végén?",
+      "a": [
+        "Feszült, megoldatlan helyzetben szakad félbe a cselekmény a következő részre csábítva",
+        "A stáblista alatti extra jelenetre, ami inkább csak vicces poénnak számít",
+        "Arra, hogy az adott epizódot kifejezetten hegyvidéki tájakon forgatták",
+        "A sorozat végleges, minden szálat egyértelműen lezáró befejezésére"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cliffhanger szó szerint 'szikláról lógást' jelent, és a feszültség fenntartására szolgáló dramaturgiai eszköz.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Mi a szerepe egy sorozatnál a 'showrunner'-nek?",
+      "a": [
+        "Ő felügyeli kreatívan az egész sorozatot, gyakran a fő forgatókönyvíróból lett vezető producer",
+        "Ő a stúdió biztonsági őre, aki a forgatási területet felügyeli",
+        "Ő végzi kizárólag a szereplők jelmezeinek tervezését",
+        "Ő az a személy, aki a nézettségi adatokat méri epizódonként"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A showrunner tartja kézben a sorozat írói stábját és a történet egészének irányát évadról évadra.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Mit jelent, ha egy sorozat epizódját 'pilotnak' nevezik?",
+      "a": [
+        "Az első, próbaként forgatott epizód a sorozatindítási döntéshez",
+        "Az évad utolsó, gyakran két részes záróepizódját jelenti",
+        "Egy olyan epizódot, amelyben repülőgép szerepel a történetben",
+        "A rendező által külön megvágott, hosszított epizódváltozatot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pilot epizód alapján döntik el a tévécsatornák és streamingplatformok, elindítsák-e a teljes sorozatot.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Miért nevezik 'anthology' (antológia) sorozatnak az olyan műsorokat, mint az American Horror Story?",
+      "a": [
+        "Mert minden évadban új történetet és gyakran új szereplőgárdát mutatnak be, önálló cselekménnyel",
+        "Mert a sorozat epizódjait kizárólag rövidfilmesek rendezik felváltva",
+        "Mert minden epizód egy másik ország nyelvén készül",
+        "Mert a nézők szavazással döntik el az évad végén a folytatás irányát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az antológia-sorozatokban az évadok önálló, lezárt történetet mesélnek el, közös témával vagy alkotókkal összekötve.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Mit takar a 'season finale' kifejezés?",
+      "a": [
+        "Egy évad utolsó, gyakran a legnagyobb tétű epizódját",
+        "A sorozat legelső, bemutatkozó epizódját",
+        "Egy karakter halálát bemutató jelenetet, függetlenül az epizód helyétől",
+        "A szereplőválogatás (casting) záró fordulóját"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 'finale' szó a végződésű angol kifejezésben a lezárást jelenti, itt egy adott évad záróepizódjára utal.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Melyik televíziós díj számít az amerikai tévéipar legrangosabb elismerésének?",
+      "a": [
+        "Emmy-díj",
+        "Grammy-díj",
+        "Tony-díj",
+        "Golden Globe"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Emmy-díjat 1949 óta a televíziós szakma legjobbjainak ítélik oda, hasonlóan ahhoz, ahogy a film világában az Oscar-díj számít csúcselismerésnek.",
+      "t": "Emmy-díj"
+    },
+    {
+      "q": "Melyik sorozat tartja a valaha egy évad alatt kapott legtöbb Emmy-jelölés rekordját?",
+      "a": [
+        "A Trónok harca nyolcadik évada, 32 jelöléssel",
+        "A Breaking Bad ötödik évada, 21 jelöléssel",
+        "A Vészhelyzet első évada, 18 jelöléssel",
+        "A Mad Men negyedik évada, 25 jelöléssel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Trónok harca 8. évada 2019-ben 32 Emmy-jelölést kapott, ezzel megdöntve az NYPD Blue korábbi, 27 jelölésből álló rekordját.",
+      "t": "Emmy-díj"
+    },
+    {
+      "q": "Melyik sorozat gyűjtötte össze pályafutása során a legtöbb Emmy-díjat összesen?",
+      "a": [
+        "A Trónok harca, 59 díjjal",
+        "A Dumagép (Frasier), 37 díjjal",
+        "A Vészhelyzet (ER), 22 díjjal",
+        "A Modern család, 22 díjjal"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Trónok harca a HBO sorozataként összesen 59 Emmy-díjat gyűjtött össze, ezzel minden idők legdíjazottabb sorozata lett.",
+      "t": "Emmy-díj"
+    },
+    {
+      "q": "Miért oszt a Golden Globe két külön kategóriát a legjobb filmnek?",
+      "a": [
+        "Mert a drámákat és a musicaleket/vígjátékokat elkülönítve, saját kategóriában díjazza",
+        "Mert minden évben véletlenszerűen kisorsolják a két kategóriát",
+        "Mert a hosszú és a rövidfilmeket külön értékeli",
+        "Mert az amerikai és a nem amerikai filmeket külön bírálja el"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Golden Globe hagyományosan külön díjazza a drámai és a zenés/vígjáték kategóriájú filmeket és sorozatokat is.",
+      "t": "Golden Globe"
+    },
+    {
+      "q": "Melyik magyar film nyerte el elsőként a Golden Globe legjobb idegen nyelvű film díját?",
+      "a": [
+        "A Saul fia",
+        "Az Ajtó",
+        "A Mephisto",
+        "Az Éden"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Saul fia 2016-ban nyerte el a Golden Globe-ot, ezzel az első magyar film lett, amely megkapta ezt az elismerést.",
+      "t": "Golden Globe"
+    },
+    {
+      "q": "Melyik évtől kezdve különül el a Golden Globe televíziós díjazásában a dráma és a vígjáték/musical kategória?",
+      "a": [
+        "1968-tól",
+        "1975-től",
+        "1982-től",
+        "1990-től"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1962 és 1968 között egy kategóriában versenyeztek a tévésorozatok, 1968 után vált külön a drámai kategória.",
+      "t": "Golden Globe"
+    },
+    {
+      "q": "Melyik díjat osztják a Velencei Nemzetközi Filmfesztivál fődíjaként?",
+      "a": [
+        "Arany Oroszlán",
+        "Arany Pálma",
+        "Arany Medve",
+        "Ezüst Delfin"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Velencei Filmfesztivál legfőbb elismerése az Arany Oroszlán, míg Cannes-ban az Arany Pálmát, Berlinben az Arany Medvét adják át.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Melyik évben rendezték meg először a Cannes-i Filmfesztivált?",
+      "a": [
+        "1946-ban",
+        "1932-ben",
+        "1955-ben",
+        "1961-ben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az első Cannes-i Filmfesztivált 1946 szeptemberében tartották meg, a korábbi, 1939-es tervezett indulást a háború akadályozta meg.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Miért maradt el a Cannes-i Filmfesztivál tervezett első kiadása 1939-ben?",
+      "a": [
+        "A második világháború kitörése miatt szakították félbe a szervezést",
+        "Mert a Riviérát elöntötte az árvíz abban az évben",
+        "Mert a szervezők anyagi csődbe jutottak",
+        "Mert a francia kormány politikai okokból betiltotta"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az 1939-re tervezett első fesztivált a háború kitörése miatt törölték, így csak 1946-ban valósult meg végül az esemény.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Melyik fesztivál fődíja az Arany Medve?",
+      "a": [
+        "A Berlini Nemzetközi Filmfesztivál",
+        "A Cannes-i Filmfesztivál",
+        "A Velencei Filmfesztivál",
+        "A Torontói Filmfesztivál"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Berlinálé fődíja 1951 óta az Arany Medve, amelyet a fesztivál nemzetközi zsűrije ítél oda a legjobb filmnek.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Melyik országból indult világhírnévre a Nyerő páros (Squid Game) című sorozat?",
+      "a": [
+        "Dél-Koreából",
+        "Japánból",
+        "Kínából",
+        "Thaiföldről"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Nyerő páros dél-koreai gyártású Netflix-sorozat, amelyet Hwang Dong-hjuk alkotott, és 2021-ben globális sikert aratott.",
+      "t": "streaming"
+    },
+    {
+      "q": "Mi jellemzi általánosságban a streamingszolgáltatók 'binge-release' modelljét?",
+      "a": [
+        "Egy sorozat összes epizódját egyszerre teszik elérhetővé, hogy a nézők akár egyben végignézhessék",
+        "Az epizódokat hetente egyesével, hagyományos tévés ütemben adják ki",
+        "Csak a szezon záró epizódját közlik előre, a többit visszatartják",
+        "A nézők szavazással döntik el, mikor kerüljön ki egy új rész"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 'binge-release' modellt a Netflix tette népszerűvé, elsőként a House of Cards című sorozatnál alkalmazva 2013-ban.",
+      "t": "streaming"
+    },
+    {
+      "q": "Melyik 2012-es norvég-amerikai koprodukciós sorozatot tartják sokan a Netflix első saját gyártású sorozatának, a House of Cards előtt?",
+      "a": [
+        "A Lilyhammer, amelyet az NRK-val közösen gyártottak",
+        "A Narcos, amely a kolumbiai drogkartellekről szól",
+        "Az Orange Is the New Black, egy női börtönről szóló dráma",
+        "A Marco Polo, egy történelmi kalandsorozat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A norvég NRK-val közösen készült Lilyhammer 2012-ben indult, még a 2013-as House of Cards előtt, ezért vitatott az 'első' cím.",
+      "t": "streaming"
+    },
+    {
+      "q": "Miért jelent üzleti előnyt egy streamingplatform számára a saját gyártású ('original') sorozat?",
+      "a": [
+        "Mert kizárólagos, máshol nem elérhető tartalmat kínál, ami megkülönbözteti a versenytársaktól",
+        "Mert ezek gyártása mindig olcsóbb, mint egy licencelt sorozat megvásárlása",
+        "Mert törvény írja elő a helyi tartalom kötelező arányát minden platformon",
+        "Mert csak így kerülhetik el a szinkronizálási költségeket"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A saját gyártású tartalom egyedivé teszi a kínálatot, és nem függ más stúdiók licencszerződéseitől.",
+      "t": "streaming"
+    },
+    {
+      "q": "Mi a operatőr (director of photography) fő feladata egy film forgatásán?",
+      "a": [
+        "A kép vizuális megvalósításáért felel: a fényekért, a kameraállásokért és a beállításokért",
+        "A színészek szövegét írja át a forgatás közben",
+        "A film utómunkálatai során a hangeffekteket illeszti be",
+        "A stáb napi étkeztetését és logisztikáját szervezi"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az operatőr a rendezővel együttműködve alakítja ki a film vizuális stílusát, a fényektől a kameramozgásokig.",
+      "t": "filmes szakmák"
+    },
+    {
+      "q": "Mi a különbség a forgatókönyvíró és a rendező szerepe között egy film készítésekor?",
+      "a": [
+        "A forgatókönyvíró a történetet és a párbeszédeket írja meg, a rendező pedig a megvalósítást irányítja",
+        "A forgatókönyvíró csak a zenei aláfestést választja ki, a rendező mindent mást csinál",
+        "A forgatókönyvíró a vágást végzi, a rendező a jelmezeket tervezi",
+        "Nincs érdemi különbség, a két szerepet ma már mindig ugyanaz a személy tölti be"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A forgatókönyvíró alkotja meg a történet vázát, míg a rendező felel a színészi játék, a kép és a hangulat megvalósításáért.",
+      "t": "filmes szakmák"
+    },
+    {
+      "q": "Milyen feladatot lát el a vágó (film editor) a posztprodukció során?",
+      "a": [
+        "A leforgatott jeleneteket rendezi végső sorrendbe, alakítva ki a film ritmusát és tempóját",
+        "Kizárólag a stáblista szövegét formázza meg a film végén",
+        "A forgatás közbeni fényviszonyokat méri és jegyzi fel",
+        "A színészek hangját utólag szinkronizálja stúdióban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A vágó dönti el, mely felvett anyagok kerülnek a végleges filmbe, és milyen sorrendben, ez alapvetően formálja a film tempóját.",
+      "t": "filmes szakmák"
+    },
+    {
+      "q": "Mit jelent a 'casting' kifejezés a filmkészítésben?",
+      "a": [
+        "A szereplők kiválasztásának folyamatát a filmes szerepekre",
+        "A film végleges címének kiválasztását",
+        "A forgatási helyszín kijelölését",
+        "A film zenei anyagának összeállítását"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A casting során a rendező és a castingosok döntik el, mely színészek kapják meg az egyes szerepeket.",
+      "t": "filmes szakmák"
+    },
+    {
+      "q": "Melyik 1960-as Alfred Hitchcock-filmben szerepel a filmtörténet egyik leghíresebb zuhanyjelenete?",
+      "a": [
+        "A Psycho, Norman Bates moteljében",
+        "A Madarak, ahol a városra madarak támadnak",
+        "A Vertigo – Szédülés, San Franciscóban játszódó thriller",
+        "Az Ablak-hátsó, ami egy udvarra néző lakásban játszódik"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Psycho 1960-as zuhanyjelenete 78 kameraállásból és 52 vágásból áll össze mindössze 45 másodperc alatt.",
+      "t": "horror"
+    },
+    {
+      "q": "Miért választotta Hitchcock a fekete-fehér filmezést a Psycho zuhanyjelenetéhez?",
+      "a": [
+        "Mert így elkerülhette, hogy a jelenet túl véres és sokkoló hatású legyen",
+        "Mert a stúdiónak nem volt elég pénze színes filmszalagra",
+        "Mert az akkori cenzúra megtiltotta a színes horrorfilmeket",
+        "Mert a színészek jobban szerették a fekete-fehér megjelenést"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hitchcock tudatosan választotta a fekete-fehéret, hogy tompítsa a vér és az erőszak látványát, elkerülve a túlzott sokkhatást.",
+      "t": "horror"
+    },
+    {
+      "q": "Mi jellemzi a 'jump scare' nevű horror-eszközt?",
+      "a": [
+        "Hirtelen, éles hanggal vagy képi effektussal ijeszti meg váratlanul a nézőt",
+        "A film végén feloldja az összes addigi félelmet egy boldog befejezéssel",
+        "Lassan, fokozatosan építi fel a feszültséget zene nélkül",
+        "A szereplők közötti párbeszéddel magyarázza el a szörny eredetét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A jump scare egy hirtelen vizuális vagy hangeffektussal váltja ki az ijedtségreakciót, gyakran csendet követő éles zajjal.",
+      "t": "horror"
+    },
+    {
+      "q": "Melyik filmet tartják az első nagy hatású, önálló zombifilmnek, amely megalapozta a modern zombi-mitológiát?",
+      "a": [
+        "Az Élőhalottak éjszakája (1968), Romero rendezésében",
+        "A Frankenstein (1931), Universal-horrorklasszikus",
+        "A Drakula (1931), Bela Lugosi főszereplésével",
+        "A Múmia (1932), Boris Karloff főszereplésével"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "George A. Romero 1968-as Élőhalottak éjszakája alapozta meg a modern, húséhes zombi archetípusát a filmtörténetben.",
+      "t": "horror"
+    },
+    {
+      "q": "Melyik jellemző NEM tartozik a klasszikus film noir stílusjegyei közé?",
+      "a": [
+        "Élénk, telített színvilág és napfényes külső helyszínek",
+        "Kontrasztos fény-árnyék hatások és 'low-key' megvilágítás",
+        "Cinikus főhős és titokzatos, veszélyes femme fatale",
+        "Nagyvárosi, éjszakai helyszínek és bűnügyi cselekmény"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A film noir jellemzően fekete-fehér, sötét tónusú stílus, ezért az élénk, napfényes színvilág éppen ellentéte a műfaj jegyeinek.",
+      "t": "film noir"
+    },
+    {
+      "q": "Milyen történelmi korszakhoz köthető a klasszikus amerikai film noir virágkora?",
+      "a": [
+        "Az 1940-es és 1950-es évek Hollywoodjához",
+        "Az 1920-as évek némafilm-korszakához",
+        "Az 1970-es évek New Hollywood mozgalmához",
+        "A 2000-es évek digitális filmgyártásához"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A film noir a második világháborút követő évtizedben, az 1940-50-es években élte fénykorát az amerikai moziban.",
+      "t": "film noir"
+    },
+    {
+      "q": "Melyik visszatérő karaktertípus jellemző a film noir történetekre, egy titokzatos, veszélyes vonzerejű nőalak formájában?",
+      "a": [
+        "A femme fatale",
+        "A final girl",
+        "A comic relief",
+        "Az anti-hero"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A femme fatale (végzet asszonya) a film noir egyik alaparchetípusa, aki bajba sodorja a férfi főhőst.",
+      "t": "film noir"
+    },
+    {
+      "q": "Melyik évszázad amerikai vadnyugatán játszódnak jellemzően a klasszikus westernfilmek?",
+      "a": [
+        "A 19. században",
+        "A 17. században",
+        "A 21. században",
+        "A 14. században"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A westernfilmek klasszikusan a 19. századi amerikai vadnyugaton, a hódítás és a törvénytelen területek korában játszódnak.",
+      "t": "western"
+    },
+    {
+      "q": "Melyik jellegzetes sziklás táj vált John Ford westernfilmjeinek visszatérő helyszínévé?",
+      "a": [
+        "A Monument Valley",
+        "A Grand Canyon",
+        "A Death Valley",
+        "A Yellowstone-fennsík"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "John Ford számos westernje, köztük Az üldözők, a Monument Valley vörös sziklaformációi között játszódik.",
+      "t": "western"
+    },
+    {
+      "q": "Melyik alműfaj alakult ki az 1960-as években Olaszországban, alacsony költségvetésű westernfilmekből?",
+      "a": [
+        "A spagettiwestern",
+        "A neowestern",
+        "A revizionista western",
+        "A steampunk western"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A spagettiwestern az olasz filmgyártásban, gyakran Sergio Leone rendezésében készült, alacsony költségvetésű westernek gyűjtőneve.",
+      "t": "western"
+    },
+    {
+      "q": "Mi jellemzi elsősorban a musical (zenés) filmműfajt?",
+      "a": [
+        "A cselekményt énekelt és táncolt jelenetek viszik előre, a dalok szerves részei a történetnek",
+        "A film teljes egészében instrumentális aláfestő zenével, párbeszéd nélkül készül",
+        "A szereplők sosem szólalnak meg, csak zenei effektek kísérik a képet",
+        "A film kizárólag koncertfelvételekből áll össze"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A musicalekben az ének és a tánc a történetmesélés eszköze, a szereplők érzelmeiket gyakran dalban fejezik ki.",
+      "t": "musical"
+    },
+    {
+      "q": "Melyik 2016-os musical nyerte a legtöbb Golden Globe-díjat egyetlen film által valaha, hét kategóriában?",
+      "a": [
+        "A La La Land, Damien Chazelle rendezésében",
+        "A Greatest Showman, P.T. Barnumról szóló film",
+        "A Chicago, a Bob Fosse-örökségre épülő musical",
+        "A Mamma Mia!, ABBA-dalokra épülő film"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A La La Land 2017-ben hét Golden Globe-díjat nyert, ezzel minden idők legtöbb Golden Globe-ját elért egyetlen filmje lett.",
+      "t": "musical"
+    },
+    {
+      "q": "Miért forgatott sok klasszikus 1930-40-es évekbeli musicalt kifejezetten a nagy gazdasági világválság idején Hollywood?",
+      "a": [
+        "Mert a látványos, könnyed szórakoztatás elterelte a közönség figyelmét a nehéz mindennapokról",
+        "Mert csak a musicalekhez volt elég olcsó a filmszalag abban az időszakban",
+        "Mert a cenzúra kizárólag a zenés filmeket engedélyezte",
+        "Mert a színészszakszervezet ezt írta elő szerződésben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A válság éveiben a csillogó, optimista musicalek menekülést kínáltak a nézőknek a nehéz gazdasági valóságból.",
+      "t": "musical"
+    },
+    {
+      "q": "Mi különbözteti meg alapvetően a dokumentumfilmet a hagyományos, fikciós játékfilmtől?",
+      "a": [
+        "Valós eseményeket, embereket vagy jelenségeket dolgoz fel, kitalált történet helyett",
+        "Kizárólag animációs technikával készül minden esetben",
+        "Soha nem tartalmazhat narrátori hangot vagy interjút",
+        "Mindig fekete-fehér technikával kell forgatni"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A dokumentumfilm valóságalapú tartalmat mutat be, szemben a fikciós játékfilmek kitalált történeteivel.",
+      "t": "dokumentumfilm"
+    },
+    {
+      "q": "Melyik Oscar-kategóriában versenyeznek kifejezetten a valóságalapú, nem fikciós alkotások?",
+      "a": [
+        "A legjobb dokumentumfilm kategóriában",
+        "A legjobb eredeti forgatókönyv kategóriában",
+        "A legjobb adaptált forgatókönyv kategóriában",
+        "A legjobb hangvágás kategóriában"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Oscar-díjnak külön kategóriája van a legjobb dokumentumfilmnek (egészestésnek és rövidnek egyaránt) 1941 óta.",
+      "t": "dokumentumfilm"
+    },
+    {
+      "q": "Milyen filmes eszközt alkalmaznak gyakran a dokumentumfilmekben a múltbeli események vagy hiányzó felvételek pótlására?",
+      "a": [
+        "Rekonstrukciós, újra eljátszott jeleneteket (reenactment)",
+        "Kizárólag számítógépes animációt minden esetben",
+        "Élő koncertfelvételeket vágnak be helyettük",
+        "A nézőket kérdezik meg szavazással, mi történhetett"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A reenactment, azaz az események színészekkel történő újrajátszása gyakori eszköz, ha nincs eredeti felvétel egy eseményről.",
+      "t": "dokumentumfilm"
+    },
+    {
+      "q": "Melyik színész alakította motion capture technikával Gollam karakterét A Gyűrűk Ura filmtrilógiában?",
+      "a": [
+        "Andy Serkis",
+        "Ian McKellen",
+        "Viggo Mortensen",
+        "Orlando Bloom"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Andy Serkis testén elhelyezett szenzorokkal rögzített mozgása alapján animálták digitálisan Gollam karakterét.",
+      "t": "ikonikus karakterek"
+    },
+    {
+      "q": "Miért számított úttörőnek Andy Serkis Gollam-alakítása a filmes technológiában?",
+      "a": [
+        "Mert bebizonyította, hogy egy digitális figura is hordozhat teljes értékű színészi alakítást",
+        "Mert ő volt az első, aki csak a hangjával keltett életre egy animált filmszereplőt",
+        "Mert saját kezűleg tervezte meg a karakter teljes jelmezét és sminkjét",
+        "Mert ő írta meg a karakter valamennyi párbeszédét a forgatókönyvben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Serkis teljesítménye elindította a motion capture technológia elfogadását a főszerepekhez méltó eszközként Hollywoodban.",
+      "t": "ikonikus karakterek"
+    },
+    {
+      "q": "Melyik regény alapján készült a Szárnyas fejvadász (Blade Runner, 1982) című Ridley Scott-film?",
+      "a": [
+        "Philip K. Dick 1968-as regénye, az androidokról",
+        "Isaac Asimov klasszikus robotelbeszélés-gyűjteménye",
+        "William Gibson kiberpunk alapregénye, a Neurománc",
+        "Arthur C. Clarke világűrbe helyezett regénye"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A film Philip K. Dick 1968-ban megjelent 'Álmodnak-e az androidok elektronikus bárányokkal?' című regényén alapul.",
+      "t": "ikonikus karakterek"
+    },
+    {
+      "q": "Melyik Shrek-mellékszereplőből lett önálló DreamWorks-film főhőse a Csizmás, a kandúrban?",
+      "a": [
+        "Csizmás kandúrból, a spanyol akcentusú zsoldos macskából",
+        "Szamárból, a bőbeszédű, hűséges társból",
+        "Fiona hercegnőből, Shrek feleségéből",
+        "Torzonborz manóból, a gonosz ellenfélből"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Csizmás kandúr Shrek 2-ben mutatkozott be mellékszereplőként, majd 2011-ben saját önálló filmet kapott.",
+      "t": "ikonikus karakterek"
+    },
+    {
+      "q": "Melyik státusszimbólum-tárgyat viseli Indiana Jones karaktere emblematikus jelmezeként?",
+      "a": [
+        "A fedora kalapot és a bőrostort",
+        "A cowboy-kalapot és a revolvert",
+        "A cilindert és a sétapálcát",
+        "A szalmakalapot és a machetét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Indiana Jones ikonikus fedora kalapja és bőrostora a kalandfilm-műfaj egyik legfelismerhetőbb vizuális jelképévé vált.",
+      "t": "ikonikus karakterek"
+    },
+    {
+      "q": "Ki írta a Trónok harca alapjául szolgáló regényfolyamot, A tűz és jég dalát?",
+      "a": [
+        "George R. R. Martin",
+        "J. R. R. Tolkien",
+        "Patrick Rothfuss",
+        "Robert Jordan"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "George R. R. Martin 1996-ban kezdte publikálni A tűz és jég dala sorozatot, amelyből a HBO 2011-ben indította sorozatát.",
+      "t": "adaptációk"
+    },
+    {
+      "q": "Milyen forrásanyagból dolgozott a Watchmen (Watchmen – Az őrzők) című film alapanyaga?",
+      "a": [
+        "Egy képregényből, Alan Moore és Dave Gibbons alkotásából",
+        "Egy Broadway-musical eredeti forgatókönyvéből",
+        "Egy valós eseményeket feldolgozó dokumentumkönyvből",
+        "Egy népszerű videojáték eredeti történetéből"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Watchmen Alan Moore és Dave Gibbons 1986-87-es képregénysorozatán alapul, amelyet 2009-ben vitt filmvászonra Zack Snyder.",
+      "t": "adaptációk"
+    },
+    {
+      "q": "Melyik klasszikus science fiction regénysorozat szolgált alapul a Dűne (Dune) című filmeknek?",
+      "a": [
+        "Frank Herbert Dűne-sorozata",
+        "Isaac Asimov Alapítvány-sorozata",
+        "Douglas Adams Galaxis útikalauz stopposoknak sorozata",
+        "Orson Scott Card Ender-sorozata"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Frank Herbert 1965-ös Dűne című regénye és folytatásai adják az alapját Denis Villeneuve filmjeinek.",
+      "t": "adaptációk"
+    },
+    {
+      "q": "Melyik animációs stúdiót fejlesztette naggyá Steve Jobs, miután 1986-ban megszerezte a Lucasfilm számítógépes grafikai részlegét?",
+      "a": [
+        "A Pixar Animation Studiost",
+        "A DreamWorks Animationt",
+        "A Blue Sky Studiost",
+        "Az Illumination Entertainmentet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Steve Jobs 1986-ban vásárolta meg a Lucasfilmtől a részleget, amelyből a Pixar Animation Studios lett, majd 2006-ban a Disney vásárolta fel.",
+      "t": "stúdiók"
+    },
+    {
+      "q": "Melyik stop-motion animációs stúdió készítette a Coraline és a Kubo, a legendás szamuráj című filmeket?",
+      "a": [
+        "A Laika, oregoni székhelyű animációs stúdió",
+        "Az Aardman Animations, brit gyurmaanimációs stúdió",
+        "A Studio Ghibli, japán animációs műhely",
+        "A Pixar, a Disney animációs leányvállalata"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 2005-ben alapított Laika stúdió Oregonban készíti stop-motion filmjeit, mint a Coraline és a Kubo, a legendás szamuráj.",
+      "t": "stúdiók"
+    },
+    {
+      "q": "Melyik brit animációs stúdió vált híressé a Wallace és Gromit gyurmaanimációs sorozatával?",
+      "a": [
+        "Az Aardman Animations, Nick Park stúdiója",
+        "A Laika, amerikai stop-motion műhely",
+        "A Studio Ghibli, japán animációs stúdió",
+        "A Cartoon Saloon, ír animációs stúdió"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Aardman Animations brit stúdió Nick Park alkotásaként vált világhírűvé a Wallace és Gromit gyurmafigurákkal.",
+      "t": "stúdiók"
+    },
+    {
+      "q": "Melyik japán animációs stúdió alkotása a Chihiro Szellemországban és a Sétáló palota?",
+      "a": [
+        "A Studio Ghibli",
+        "A Toei Animation",
+        "A Madhouse",
+        "A Sunrise"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Studio Ghiblit Hajao Mijazaki és Iszao Takahata alapította 1985-ben, és olyan filmeket készítettek, mint a Chihiro Szellemországban.",
+      "t": "stúdiók"
+    },
+    {
+      "q": "Melyik animációs sorozat számít az amerikai televíziózás leghosszabb ideig futó, elsődleges műsoridős szkriptelt sorozatának?",
+      "a": [
+        "A Simpson család",
+        "A Family Guy",
+        "A South Park",
+        "A Futurama"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Simpson család 1989 óta fut, és jelenleg minden idők leghosszabb amerikai szkriptelt prime time sorozata epizódszám alapján.",
+      "t": "sorozatrekordok"
+    },
+    {
+      "q": "Hány évadból állt össze végül a Trónok harca című HBO-sorozat?",
+      "a": [
+        "Nyolc évadból",
+        "Hat évadból",
+        "Tíz évadból",
+        "Öt évadból"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Trónok harca 2011 és 2019 között nyolc évadon, összesen 73 epizódon keresztül futott.",
+      "t": "sorozatrekordok"
+    },
+    {
+      "q": "Melyik amerikai bűnügyi dráma sorozat futott megszakítás nélkül 1990-től 2010-ig, összesen 20 évadon át?",
+      "a": [
+        "A Esküdt ellenségek (Law & Order)",
+        "A CSI: A helyszínelők című sorozat",
+        "Az NCIS – Tengerészeti helyszínelők",
+        "A Bűbájos boszorkák című sorozat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Esküdt ellenségek (Law & Order) 1990 és 2010 között 20 évadon, 456 epizódon át futott az NBC-n.",
+      "t": "sorozatrekordok"
+    },
+    {
+      "q": "Melyik sorozat gyűjtötte össze pályafutása alatt a legtöbb Emmy-díjat egy vígjáték-sorozat kategóriájában, 37 díjjal?",
+      "a": [
+        "A Dumagép (Frasier), 37 díjjal",
+        "A Jóbarátok című sorozat",
+        "A Modern család című sorozat",
+        "Az Irodisták (The Office) című sorozat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Dumagép (Frasier) 37 Emmy-díjjal sokáig minden idők legdíjazottabb sorozata volt, amíg a Trónok harca meg nem döntötte a rekordot.",
+      "t": "sorozatrekordok"
+    },
+    {
+      "q": "Melyik technológia teszi lehetővé, hogy egy színész valós idejű mozgása alapján digitális karaktert animáljanak, mint Gollamot?",
+      "a": [
+        "A motion capture, azaz mozgásrögzítés",
+        "A stop-motion, azaz képkockánkénti animáció",
+        "A rotoszkópia, élő felvétel átrajzolása",
+        "A hagyományos, kézzel rajzolt 2D animáció"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A motion capture során a színész testére helyezett szenzorok rögzítik a mozgást, amit aztán digitálisan egy karakterre visznek át.",
+      "t": "effektek"
+    },
+    {
+      "q": "Milyen animációs technikát alkalmaz a Laika stúdió a Coraline és a Kubo elkészítéséhez, 3D nyomtatás segítségével kombinálva?",
+      "a": [
+        "Stop-motion, vagyis képkockánkénti bábanimáció",
+        "Hagyományos, kézzel rajzolt 2D-s technikát",
+        "Teljes egészében számítógépes CGI-animációt",
+        "Homokból készült, kép-kockánkénti animációt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Coraline volt az első sztereoszkópikus 3D-ben forgatott stop-motion film, amely 3D nyomtatást is alkalmazott a bábuk arcainál.",
+      "t": "effektek"
+    },
+    {
+      "q": "Miért tartják úttörőnek a Toy Story – Játékháborút 1995-ből a filmtechnika történetében?",
+      "a": [
+        "Mert ez volt az első teljes egészében számítógéppel animált nagyjátékfilm",
+        "Mert ez volt az első film, amely IMAX-mozikban debütált",
+        "Mert ebben alkalmaztak először hangot rajzfilmben",
+        "Mert ez volt az első film, amelyet kizárólag mobiltelefonon vetítettek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Pixar 1995-ös Toy Story – Játékháborúja volt a filmtörténet első, teljes egészében számítógépes animációval készült egész estés filmje.",
+      "t": "effektek"
+    },
+    {
+      "q": "Mi jellemzi a hagyományos 'rotoszkópia' animációs technikát?",
+      "a": [
+        "Élőszereplős felvételt vetítenek ki, majd képkockánként átrajzolják animációvá",
+        "Gyurmafigurákat mozgatnak apró lépésekben kamera előtt",
+        "Kizárólag számítógépes programok generálják a mozgást emberi beavatkozás nélkül",
+        "Homokszemcséket rendeznek mintákba egy megvilágított üveglapon"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rotoszkópia során valódi felvételt kockáról kockára átrajzolnak, ez adja az élethű, mégis rajzolt mozgást.",
+      "t": "effektek"
+    },
+    {
+      "q": "Melyik évben mutatták be a Csillagok háborúja univerzum első filmjét, az Egy új reményt?",
+      "a": [
+        "1977-ben",
+        "1969-ben",
+        "1983-ban",
+        "1991-ben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Csillagok háborúja első epizódját 1977. május 25-én mutatták be az amerikai mozikban.",
+      "t": "franchise"
+    },
+    {
+      "q": "Melyik közös univerzumot építette fel a Marvel Studios a 2000-es évek végétől kezdve, összekapcsolva a különálló szuperhősfilmeket?",
+      "a": [
+        "A Marvel Moziuniverzumot (MCU)",
+        "A DC Extended Universe-t",
+        "A Star Wars-univerzumot",
+        "A Universal Szörnyuniverzumát (Dark Universe)"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Marvel Studios 2008-tól, a Vasember című filmmel indította el a közös MCU-t, amelyben a filmek szereplői és sztorijai összekapcsolódnak.",
+      "t": "franchise"
+    },
+    {
+      "q": "Miért számít különlegesnek a Marvel Moziuniverzum felépítése a korábbi franchise-okhoz képest?",
+      "a": [
+        "Mert az önálló filmek egy közös, folytonos történetszálban és univerzumban kapcsolódnak össze",
+        "Mert minden filmjét ugyanaz az egyetlen rendező készítette el",
+        "Mert kizárólag animációs technikával készülnek a filmjei",
+        "Mert a filmek időrendben fordítva, a végétől az elejéig kerülnek bemutatásra"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az MCU újítása, hogy önálló filmjei egy közös kontinuitásba illeszkednek, a szereplők átjárnak egymás történeteibe.",
+      "t": "franchise"
+    },
+    {
+      "q": "Melyik film tartotta 2011-es bemutatásakor a valaha készült legdrágább film címét, mintegy 378,5 millió dolláros költségvetéssel?",
+      "a": [
+        "A Karib-tenger kalózai: Ismeretlen vizeken",
+        "Az Avatar, James Cameron sci-fi eposza",
+        "A Bosszúállók: Végjáték, a Marvel záró filmje",
+        "A Titanic, James Cameron katasztrófafilmje"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 2011-es Karib-tenger kalózai: Ismeretlen vizeken mintegy 378,5 millió dolláros gyártási költségével sokáig a legdrágább film volt.",
+      "t": "bevételi rekordok"
+    },
+    {
+      "q": "Miért lehet vitatott a 'valaha készült legdrágább film' cím pontos meghatározása a filmiparban?",
+      "a": [
+        "Mert a stúdiók gyakran nem hozzák nyilvánosságra a valódi költségvetést, és a marketingköltség sem mindig számít bele",
+        "Mert a filmeket törvény tiltja hivatalos költségvetés közzétételére",
+        "Mert minden film pontosan ugyanannyiba kerül, így a kérdés értelmetlen",
+        "Mert az inflációt sosem veszik figyelembe semmilyen összehasonlításban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A stúdiók ritkán publikálják a tényleges költségvetést, és az, hogy mi számít bele (pl. marketing), forrásonként eltér.",
+      "t": "bevételi rekordok"
+    },
+    {
+      "q": "Melyik Marvel-film előzte meg 2019-ben rövid időre az Avatart, mint minden idők legnagyobb bevételű filmje?",
+      "a": [
+        "A Bosszúállók: Végjáték",
+        "A Pókember: Idegenben",
+        "A Bosszúállók: Végtelen háború",
+        "A Fekete Párduc"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Bosszúállók: Végjáték 2019 nyarán megelőzte az Avatart, de 2021-es újbóli mozis bemutatója után az Avatar visszaszerezte az első helyet.",
+      "t": "bevételi rekordok"
+    },
+    {
+      "q": "Melyik magyar rendező filmje, a Saul fia nyerte el 2016-ban az Oscar-díjat a legjobb idegen nyelvű filmnek?",
+      "a": [
+        "Nemes Jeles Lászlóé",
+        "Szabó Istváné",
+        "Tarr Béláé",
+        "Fliegauf Benedeké"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nemes Jeles László Saul fia című filmje 2016-ban nyerte el az Oscart, ezzel a Mephisto (1982) óta a második magyar Oscar-győztes film lett.",
+      "t": "magyar film"
+    },
+    {
+      "q": "Melyik magyar filmet díjazták Oscar-díjjal 1982-ben Szabó István rendezésében?",
+      "a": [
+        "A Mephistót, Szabó István filmjét",
+        "A Saul fiát, Nemes Jeles László filmjét",
+        "A Sorstalanságot, Koltai Lajos filmjét",
+        "Az Ajtót, Szabó István másik filmjét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Szabó István Mephisto című filmje 1982-ben nyerte el az Oscar-díjat a legjobb idegen nyelvű film kategóriában.",
+      "t": "magyar film"
+    },
+    {
+      "q": "Melyik ország filmje volt az Élősködők (Parasite), amely 2020-ban elsőként nyert Oscar-díjat legjobb film kategóriában nem angol nyelvű alkotásként?",
+      "a": [
+        "Dél-Korea, Pong Dzsun Ho hazája",
+        "Japán, az anime-készítés fellegvára",
+        "Kína, a világ egyik legnagyobb filmpiaca",
+        "Thaiföld, a délkelet-ázsiai filmgyártás központja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Élősködők dél-koreai film, Pong Dzsun Ho rendezésében, 2020-ban lett az első nem angol nyelvű film, amely elnyerte a legjobb film Oscarját.",
+      "t": "világfilm"
+    },
+    {
+      "q": "Miért nevezte át 2019-ben az Amerikai Filmakadémia a 'legjobb idegen nyelvű film' Oscar-kategóriát 'legjobb nemzetközi játékfilmre'?",
+      "a": [
+        "Mert az 'idegen' kifejezést elavultnak és kirekesztőnek találták a nemzetközi filmkészítéssel kapcsolatban",
+        "Mert a kategóriát ettől kezdve angol nyelvű filmek is megkaphatták",
+        "Mert megszűnt a nyelvi alapú megkülönböztetés, és minden film egy kategóriában versenyzett",
+        "Mert a kategória nevét jogi vita miatt kellett megváltoztatni"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Akadémia 2019-ben az 'idegen' szót elavultnak ítélte, és a nemzetközibb, befogadóbb 'international feature film' elnevezésre váltott.",
+      "t": "Oscar"
     }
   ]
 }

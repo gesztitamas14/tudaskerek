@@ -133,6 +133,7 @@ input, textarea { -webkit-user-select: text; user-select: text; }
   cursor: pointer;
 }
 .icon-btn:active { background: var(--tint); }
+.icon-btn-active { background: var(--tint-strong); color: var(--primary); }
 
 /* ─────────────────────────── tartalom ─────────────────────────── */
 
@@ -389,7 +390,32 @@ input, textarea { -webkit-user-select: text; user-select: text; }
   font-weight: 800;
   font-size: 15px;
 }
-.answer-text { flex: 1; }
+.answer-text { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* Ki mit szavazott – kompakt avatarcsík a válasz sorának végén, nem külön
+   szakasz. Sok játékosnál vízszintesen görgethető, hogy ne nyújtsa meg a
+   sort függőlegesen (a fix magasságú kérdésképernyőn nincs erre hely). */
+.answer-voters {
+  flex: 0 0 auto;
+  display: flex;
+  gap: 2px;
+  max-width: 96px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.answer-voters::-webkit-scrollbar { display: none; }
+.answer-voter {
+  flex: 0 0 auto;
+  font-size: 14px;
+  line-height: 1;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--tint);
+}
 
 .answer-selected { border-color: var(--primary); background: rgba(154, 101, 52, 0.4); }
 .answer-correct {

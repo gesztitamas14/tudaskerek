@@ -2,60 +2,2605 @@
   "category": "allatvilag",
   "default_source": "saját szerkesztés (általános műveltségi tananyag)",
   "questions": [
-    {"q": "Melyik a legnagyobb ma élő állat?", "a": ["Kék bálna", "Afrikai elefánt", "Cetcápa", "Óriás tintahal"], "c": 0, "d": "easy", "e": "A kék bálna elérheti a 30 méteres hosszt és a 150 tonnát.", "t": "emlősök"},
-    {"q": "Melyik a legnagyobb szárazföldi állat?", "a": ["Afrikai elefánt", "Zsiráf", "Orrszarvú", "Víziló"], "c": 0, "d": "easy", "e": "Az afrikai elefánt akár 6 tonnát is elérhet.", "t": "emlősök"},
-    {"q": "Melyik a legmagasabb élő állat?", "a": ["Zsiráf", "Elefánt", "Strucc", "Jegesmedve"], "c": 0, "d": "easy", "e": "A zsiráf magassága 5-6 méter is lehet.", "t": "emlősök"},
-    {"q": "Melyik a leggyorsabb szárazföldi állat?", "a": ["Gepárd", "Antilop", "Ló", "Oroszlán"], "c": 0, "d": "easy", "e": "A gepárd rövid szakaszon 100 km/h fölé is gyorsul.", "t": "emlősök"},
-    {"q": "Melyik a leggyorsabb állat zuhanórepülésben?", "a": ["Vándorsólyom", "Sas", "Kolibri", "Fecske"], "c": 0, "d": "medium", "e": "A vándorsólyom zuhanás közben 300 km/h fölé is gyorsulhat.", "t": "madarak"},
-    {"q": "Melyik a legnagyobb ma élő madár?", "a": ["Strucc", "Kondor", "Albatrosz", "Emu"], "c": 0, "d": "easy", "e": "A strucc akár 2,7 méter magas és 150 kg is lehet.", "t": "madarak"},
-    {"q": "Melyik madárnak a legnagyobb a szárnyfesztávolsága?", "a": ["Vándoralbatrosz", "Kondor", "Rétisas", "Pelikán"], "c": 0, "d": "medium", "e": "A vándoralbatrosz szárnyfesztávolsága meghaladhatja a 3 métert.", "t": "madarak"},
-    {"q": "Melyik állatcsoportba tartozik a delfin?", "a": ["Emlősök", "Halak", "Hüllők", "Kétéltűek"], "c": 0, "d": "easy", "e": "A delfin tüdővel lélegzik, és a kicsinyeit szoptatja.", "t": "rendszerezés"},
-    {"q": "Melyik állatcsoportba tartozik a béka?", "a": ["Kétéltűek", "Hüllők", "Halak", "Emlősök"], "c": 0, "d": "easy", "e": "A kétéltűek lárvaállapotban vízben, felnőttként szárazföldön élnek.", "t": "rendszerezés"},
-    {"q": "Melyik állatcsoportba tartozik a teknős?", "a": ["Hüllők", "Kétéltűek", "Emlősök", "Puhatestűek"], "c": 0, "d": "easy", "e": "A teknősök pikkelyes, tojással szaporodó hüllők.", "t": "rendszerezés"},
-    {"q": "Melyik állat NEM emlős?", "a": ["Pingvin", "Bálna", "Denevér", "Delfin"], "c": 0, "d": "easy", "e": "A pingvin madár, még ha nem is tud repülni.", "t": "rendszerezés"},
-    {"q": "Melyik emlős tud aktívan repülni?", "a": ["Denevér", "Repülő mókus", "Repülő hal", "Kolibri"], "c": 0, "d": "medium", "e": "A repülő mókus csak vitorlázik, a denevér valóban csapkodó repülésre képes.", "t": "emlősök"},
-    {"q": "Hány szíve van a nyolckarú polipnak?", "a": ["Három", "Egy", "Kettő", "Négy"], "c": 0, "d": "hard", "e": "Két kopoltyúszív és egy fő szív pumpálja a kék hemocianines vérét.", "t": "tengeri állatok"},
-    {"q": "Melyik a legnagyobb hal?", "a": ["Cetcápa", "Fehér cápa", "Kardhal", "Óriás rája"], "c": 0, "d": "medium", "e": "A cetcápa 12 méter fölé is nőhet, planktont szűr.", "t": "halak"},
-    {"q": "Melyik állatnak van a legnagyobb szeme az élővilágban?", "a": ["Óriás tintahal", "Bálna", "Strucc", "Elefánt"], "c": 0, "d": "hard", "e": "Az óriás tintahal szemének átmérője elérheti a 27 centimétert.", "t": "tengeri állatok"},
-    {"q": "Melyik a legmérgezőbb szárazföldi kígyók egyike Ausztráliában?", "a": ["Belső taipán", "Vipera", "Boa", "Rézsikló"], "c": 0, "d": "hard", "e": "A belső taipán mérge a legerősebb a szárazföldi kígyók között.", "t": "hüllők"},
-    {"q": "Milyen módon szaporodnak a madarak?", "a": ["Tojással", "Elevenszülően", "Osztódással", "Bimbózással"], "c": 0, "d": "easy", "e": "Minden madárfaj tojással szaporodik.", "t": "madarak"},
-    {"q": "Melyik állat képes elveszített végtagját visszanöveszteni?", "a": ["Gőte", "Kutya", "Galamb", "Ló"], "c": 0, "d": "medium", "e": "A farkos kétéltűek, például a gőték, regenerálni tudják a végtagjukat.", "t": "kétéltűek"},
-    {"q": "Melyik állat hangja alapján tájékozódik (echolokáció)?", "a": ["Denevér", "Bagoly", "Vakond", "Sün"], "c": 0, "d": "medium", "e": "A denevérek ultrahangos visszhang alapján érzékelik a környezetet.", "t": "emlősök"},
-    {"q": "Melyik állat híres a hosszú, több hónapos téli álmáról?", "a": ["Barnamedve", "Farkas", "Hiúz", "Vaddisznó"], "c": 0, "d": "easy", "e": "A medve téli álma nem igazi hibernáció, de hónapokig tarthat.", "t": "emlősök"},
-    {"q": "Melyik állat mérete miatt kapta a „legkisebb madár” címet?", "a": ["Méhkolibri", "Kékcinege", "Ökörszem", "Sárgarigó"], "c": 0, "d": "hard", "e": "A kubai méhkolibri kb. 6 cm hosszú, 2 grammos.", "t": "madarak"},
-    {"q": "Melyik állat a leghosszabb életű gerinces?", "a": ["Grönlandi cápa", "Óriásteknős", "Elefánt", "Kék bálna"], "c": 0, "d": "hard", "e": "A grönlandi cápa akár 400 évig is élhet.", "t": "halak"},
-    {"q": "Melyik állat hordja a kicsinyét hasi tasakban?", "a": ["Kenguru", "Zebra", "Panda", "Tigris"], "c": 0, "d": "easy", "e": "A kenguru a kengurufélékhez, azaz a tasakos emlősökhöz tartozik.", "t": "emlősök"},
-    {"q": "Melyik kontinensen élnek szabadon a kenguruk?", "a": ["Ausztrália", "Afrika", "Dél-Amerika", "Ázsia"], "c": 0, "d": "easy", "e": "A kenguruk endemikus ausztráliai állatok.", "t": "élőhelyek"},
-    {"q": "Melyik kontinensen élnek szabadon a pingvinek nagy része?", "a": ["Antarktisz és a déli félteke", "Északi-sarkvidék", "Európa", "Ázsia"], "c": 0, "d": "medium", "e": "A pingvinek a déli féltekén élnek; a jegesmedve az északin.", "t": "élőhelyek"},
-    {"q": "Melyik állat NEM él természetes körülmények között Afrikában?", "a": ["Tigris", "Oroszlán", "Zsiráf", "Zebra"], "c": 0, "d": "medium", "e": "A tigris ázsiai faj.", "t": "élőhelyek"},
-    {"q": "Melyik nagyragadozó él állandó állományban Magyarországon?", "a": ["Hiúz", "Tigris", "Jaguár", "Barnamedve"], "c": 0, "d": "hard", "e": "A hiúz és a farkas állandó, kisebb állománnyal jelen van; barnamedve csak alkalmi kóborlóként.", "t": "magyar fauna"},
-    {"q": "Melyik madár Magyarország nemzeti madara?", "a": ["Túzok", "Fehér gólya", "Kerecsensólyom", "Szürke gém"], "c": 2, "d": "hard", "e": "A kerecsensólyom 2012 óta Magyarország nemzeti madara.", "t": "magyar fauna"},
-    {"q": "Melyik hal a Balaton jellegzetes ragadozója?", "a": ["Fogassüllő", "Lazac", "Pisztráng", "Tonhal"], "c": 0, "d": "medium", "e": "A balatoni fogassüllő a tó ikonikus étkezési halfaja.", "t": "magyar fauna"},
-    {"q": "Melyik szarvasmarhafajta magyar őshonos, hosszú szarvú fajta?", "a": ["Magyar szürke", "Holstein-fríz", "Jersey", "Charolais"], "c": 0, "d": "medium", "e": "A magyar szürke szarvasmarha hungarikum és őshonos fajta.", "t": "magyar fauna"},
-    {"q": "Melyik magyar háziállatfajta a mangalica?", "a": ["Sertés", "Szarvasmarha", "Juh", "Ló"], "c": 0, "d": "easy", "e": "A mangalica göndör szőrű magyar sertésfajta.", "t": "magyar fauna"},
-    {"q": "Melyik magyar kutyafajta a puli jellegzetessége?", "a": ["Gubancos, fürtös szőrzet", "Kopasz test", "Rövid láb", "Kék szem"], "c": 0, "d": "easy", "e": "A puli pásztorkutya, jellegzetes nemezes fürtökkel.", "t": "magyar fauna"},
-    {"q": "Melyik magyar kutyafajta a legnagyobb testű, fehér színű pásztorkutya?", "a": ["Komondor", "Puli", "Pumi", "Mudi"], "c": 0, "d": "medium", "e": "A komondor nyájvédő kutya, fehér, nemezes szőrzettel.", "t": "magyar fauna"},
-    {"q": "Melyik magyar vadászkutya-fajta rövid szőrű és arany-rozsdás színű?", "a": ["Magyar vizsla", "Erdélyi kopó", "Magyar agár", "Komondor"], "c": 0, "d": "medium", "e": "A rövid szőrű magyar vizsla a legismertebb hazai vadászkutya.", "t": "magyar fauna"},
-    {"q": "Melyik rovarcsoport tagjai a méhek?", "a": ["Hártyásszárnyúak", "Bogarak", "Lepkék", "Kétszárnyúak"], "c": 0, "d": "medium", "e": "A hártyásszárnyúakhoz a méhek, hangyák és darazsak tartoznak.", "t": "rovarok"},
-    {"q": "Hány lába van egy rovarnak?", "a": ["6", "8", "4", "10"], "c": 0, "d": "easy", "e": "A rovarok három pár lábbal rendelkeznek.", "t": "rovarok"},
-    {"q": "Hány lába van a pókoknak?", "a": ["8", "6", "10", "12"], "c": 0, "d": "easy", "e": "A pókok nem rovarok, hanem pókszabásúak, négy pár lábbal.", "t": "rovarok"},
-    {"q": "Milyen átalakuláson megy át a lepke?", "a": ["Teljes átalakulás", "Részleges átalakulás", "Nincs átalakulás", "Kettős vedlés"], "c": 0, "d": "medium", "e": "Lárva, báb, majd kifejlett állat: ez a teljes átalakulás.", "t": "rovarok"},
-    {"q": "Melyik rovar felelős a legtöbb virág beporzásáért a mezőgazdaságban?", "a": ["Háziméh", "Szitakötő", "Katicabogár", "Szöcske"], "c": 0, "d": "easy", "e": "A háziméh beporzási tevékenysége gazdaságilag is kulcsfontosságú.", "t": "rovarok"},
-    {"q": "Melyik állat termel mézet?", "a": ["Méh", "Lepke", "Hangya", "Szitakötő"], "c": 0, "d": "easy", "e": "A méhek a nektárt gyűjtik be és alakítják mézzé.", "t": "rovarok"},
-    {"q": "Mi a hangyák társas életének alapja?", "a": ["Kaszttal működő kolónia", "Magányos vadászat", "Vándorló pár", "Vezető nélküli csoport"], "c": 0, "d": "medium", "e": "A kolóniában királynő, dolgozók és katonák látnak el eltérő feladatokat.", "t": "rovarok"},
-    {"q": "Melyik állat képes színt váltani a környezetéhez alkalmazkodva?", "a": ["Kaméleon", "Gepárd", "Zebra", "Elefánt"], "c": 0, "d": "easy", "e": "A kaméleon színváltása hőszabályozásra és kommunikációra is szolgál.", "t": "hüllők"},
-    {"q": "Melyik állat a legnagyobb hüllő?", "a": ["Bordás krokodil", "Komodói sárkánygyík", "Anakonda", "Óriásteknős"], "c": 0, "d": "medium", "e": "A bordás (tengeri) krokodil hossza meghaladhatja a 6 métert.", "t": "hüllők"},
-    {"q": "Melyik állat vedli le teljes külső vázát a növekedéshez?", "a": ["Rák", "Kutya", "Galamb", "Ló"], "c": 0, "d": "medium", "e": "A rákok kitinvázát vedléssel cserélik.", "t": "rákok"},
-    {"q": "Melyik tengeri állat tud regenerálódni, ha egy karját elveszíti?", "a": ["Tengeri csillag", "Cápa", "Bálna", "Fóka"], "c": 0, "d": "medium", "e": "A tengeri csillag karjai újranövekednek.", "t": "tengeri állatok"},
-    {"q": "Melyik állat éjszakai ragadozó madár, kiváló hallással?", "a": ["Bagoly", "Sirály", "Pinty", "Hattyú"], "c": 0, "d": "easy", "e": "A baglyok arclemezei a hangot a fülhöz vezetik.", "t": "madarak"},
-    {"q": "Melyik állat vándorol a legnagyobb távolságot évente?", "a": ["Sarki csér", "Fecske", "Gólya", "Vadkacsa"], "c": 0, "d": "hard", "e": "A sarki csér a két sarkvidék között vándorol, évi több tízezer kilométert.", "t": "madarak"},
-    {"q": "Milyen táplálkozású a panda döntő részben?", "a": ["Bambuszevő", "Húsevő", "Halevő", "Rovarevő"], "c": 0, "d": "easy", "e": "A nagypanda medve, de étrendjének kb. 99%-a bambusz.", "t": "emlősök"},
-    {"q": "Melyik állatot nevezik a „szavanna tisztítóbrigádjának”?", "a": ["Hiénák és dögevő madarak", "Elefántok", "Zebrák", "Antilopok"], "c": 0, "d": "medium", "e": "A dögevők eltakarítják az elhullott állatokat, csökkentve a járványveszélyt.", "t": "ökológia"},
-    {"q": "Mi a szimbiózis?", "a": ["Két faj együttélése kölcsönös haszonnal", "Egy faj kihalása", "Egy faj vándorlása", "Két faj harca"], "c": 0, "d": "medium", "e": "A mutualista szimbiózisban mindkét fél nyer, például a virág és a beporzó.", "t": "ökológia"},
-    {"q": "Melyik állat a méhek legfontosabb ragadozója a méhkaptárnál Európában?", "a": ["Lódarázs", "Katicabogár", "Szitakötő", "Bogáncslepke"], "c": 0, "d": "hard", "e": "A lódarázs (és az invazív ázsiai darázs) komoly kárt tehet a méhcsaládokban.", "t": "rovarok"},
-    {"q": "Melyik állat képes napokig víz nélkül élni a sivatagban?", "a": ["Teve", "Ló", "Kutya", "Tehén"], "c": 0, "d": "medium", "e": "A teve a púpjában zsírt tárol, és nagyon hatékonyan takarékoskodik a vízzel.", "t": "emlősök"},
-    {"q": "Melyik állat kicsinye a „csikó”?", "a": ["Ló", "Szarvasmarha", "Sertés", "Kutya"], "c": 0, "d": "easy", "e": "A ló kicsinye a csikó, a szarvasmarháé a borjú.", "t": "állatnevek"},
-    {"q": "Melyik állat kicsinye a „bárány”?", "a": ["Juh", "Kecske", "Szarvasmarha", "Ló"], "c": 0, "d": "easy", "e": "A kecske kicsinye a gida, a juhé a bárány.", "t": "állatnevek"},
-    {"q": "Hogy nevezik a szarvasmarha hímjét?", "a": ["Bika", "Csődör", "Kan", "Kos"], "c": 0, "d": "easy", "e": "A csődör a ló, a kan a sertés, a kos a juh hímje.", "t": "állatnevek"}
+    {
+      "q": "Melyik a legnagyobb ma élő állat?",
+      "a": [
+        "Kék bálna",
+        "Afrikai elefánt",
+        "Cetcápa",
+        "Óriás tintahal"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kék bálna elérheti a 30 méteres hosszt és a 150 tonnát.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik a legnagyobb szárazföldi állat?",
+      "a": [
+        "Afrikai elefánt",
+        "Zsiráf",
+        "Orrszarvú",
+        "Víziló"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az afrikai elefánt akár 6 tonnát is elérhet.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik a legmagasabb élő állat?",
+      "a": [
+        "Zsiráf",
+        "Elefánt",
+        "Strucc",
+        "Jegesmedve"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A zsiráf magassága 5-6 méter is lehet.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik a leggyorsabb szárazföldi állat?",
+      "a": [
+        "Gepárd",
+        "Antilop",
+        "Ló",
+        "Oroszlán"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gepárd rövid szakaszon 100 km/h fölé is gyorsul.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik a leggyorsabb állat zuhanórepülésben?",
+      "a": [
+        "Vándorsólyom",
+        "Sas",
+        "Kolibri",
+        "Fecske"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vándorsólyom zuhanás közben 300 km/h fölé is gyorsulhat.",
+      "t": "madarak"
+    },
+    {
+      "q": "Melyik a legnagyobb ma élő madár?",
+      "a": [
+        "Strucc",
+        "Kondor",
+        "Albatrosz",
+        "Emu"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A strucc akár 2,7 méter magas és 150 kg is lehet.",
+      "t": "madarak"
+    },
+    {
+      "q": "Melyik madárnak a legnagyobb a szárnyfesztávolsága?",
+      "a": [
+        "Vándoralbatrosz",
+        "Kondor",
+        "Rétisas",
+        "Pelikán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vándoralbatrosz szárnyfesztávolsága meghaladhatja a 3 métert.",
+      "t": "madarak"
+    },
+    {
+      "q": "Melyik állatcsoportba tartozik a delfin?",
+      "a": [
+        "Emlősök",
+        "Halak",
+        "Hüllők",
+        "Kétéltűek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A delfin tüdővel lélegzik, és a kicsinyeit szoptatja.",
+      "t": "rendszerezés"
+    },
+    {
+      "q": "Melyik állatcsoportba tartozik a béka?",
+      "a": [
+        "Kétéltűek",
+        "Hüllők",
+        "Halak",
+        "Emlősök"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kétéltűek lárvaállapotban vízben, felnőttként szárazföldön élnek.",
+      "t": "rendszerezés"
+    },
+    {
+      "q": "Melyik állatcsoportba tartozik a teknős?",
+      "a": [
+        "Hüllők",
+        "Kétéltűek",
+        "Emlősök",
+        "Puhatestűek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A teknősök pikkelyes, tojással szaporodó hüllők.",
+      "t": "rendszerezés"
+    },
+    {
+      "q": "Melyik állat NEM emlős?",
+      "a": [
+        "Pingvin",
+        "Bálna",
+        "Denevér",
+        "Delfin"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pingvin madár, még ha nem is tud repülni.",
+      "t": "rendszerezés"
+    },
+    {
+      "q": "Melyik emlős tud aktívan repülni?",
+      "a": [
+        "Denevér",
+        "Repülő mókus",
+        "Repülő hal",
+        "Kolibri"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A repülő mókus csak vitorlázik, a denevér valóban csapkodó repülésre képes.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Hány szíve van a nyolckarú polipnak?",
+      "a": [
+        "Három",
+        "Egy",
+        "Kettő",
+        "Négy"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Két kopoltyúszív és egy fő szív pumpálja a kék hemocianines vérét.",
+      "t": "tengeri állatok"
+    },
+    {
+      "q": "Melyik a legnagyobb hal?",
+      "a": [
+        "Cetcápa",
+        "Fehér cápa",
+        "Kardhal",
+        "Óriás rája"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A cetcápa 12 méter fölé is nőhet, planktont szűr.",
+      "t": "halak"
+    },
+    {
+      "q": "Melyik állatnak van a legnagyobb szeme az élővilágban?",
+      "a": [
+        "Óriás tintahal",
+        "Bálna",
+        "Strucc",
+        "Elefánt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az óriás tintahal szemének átmérője elérheti a 27 centimétert.",
+      "t": "tengeri állatok"
+    },
+    {
+      "q": "Melyik a legmérgezőbb szárazföldi kígyók egyike Ausztráliában?",
+      "a": [
+        "Belső taipán",
+        "Vipera",
+        "Boa",
+        "Rézsikló"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A belső taipán mérge a legerősebb a szárazföldi kígyók között.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Milyen módon szaporodnak a madarak?",
+      "a": [
+        "Tojással",
+        "Elevenszülően",
+        "Osztódással",
+        "Bimbózással"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Minden madárfaj tojással szaporodik.",
+      "t": "madarak"
+    },
+    {
+      "q": "Melyik állat képes elveszített végtagját visszanöveszteni?",
+      "a": [
+        "Gőte",
+        "Kutya",
+        "Galamb",
+        "Ló"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A farkos kétéltűek, például a gőték, regenerálni tudják a végtagjukat.",
+      "t": "kétéltűek"
+    },
+    {
+      "q": "Melyik állat hangja alapján tájékozódik (echolokáció)?",
+      "a": [
+        "Denevér",
+        "Bagoly",
+        "Vakond",
+        "Sün"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A denevérek ultrahangos visszhang alapján érzékelik a környezetet.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik állat híres a hosszú, több hónapos téli álmáról?",
+      "a": [
+        "Barnamedve",
+        "Farkas",
+        "Hiúz",
+        "Vaddisznó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A medve téli álma nem igazi hibernáció, de hónapokig tarthat.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik állat mérete miatt kapta a „legkisebb madár” címet?",
+      "a": [
+        "Méhkolibri",
+        "Kékcinege",
+        "Ökörszem",
+        "Sárgarigó"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kubai méhkolibri kb. 6 cm hosszú, 2 grammos.",
+      "t": "madarak"
+    },
+    {
+      "q": "Melyik állat a leghosszabb életű gerinces?",
+      "a": [
+        "Grönlandi cápa",
+        "Óriásteknős",
+        "Elefánt",
+        "Kék bálna"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A grönlandi cápa akár 400 évig is élhet.",
+      "t": "halak"
+    },
+    {
+      "q": "Melyik állat hordja a kicsinyét hasi tasakban?",
+      "a": [
+        "Kenguru",
+        "Zebra",
+        "Panda",
+        "Tigris"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kenguru a kengurufélékhez, azaz a tasakos emlősökhöz tartozik.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik kontinensen élnek szabadon a kenguruk?",
+      "a": [
+        "Ausztrália",
+        "Afrika",
+        "Dél-Amerika",
+        "Ázsia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kenguruk endemikus ausztráliai állatok.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Melyik kontinensen élnek szabadon a pingvinek nagy része?",
+      "a": [
+        "Antarktisz és a déli félteke",
+        "Északi-sarkvidék",
+        "Európa",
+        "Ázsia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pingvinek a déli féltekén élnek; a jegesmedve az északin.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Melyik állat NEM él természetes körülmények között Afrikában?",
+      "a": [
+        "Tigris",
+        "Oroszlán",
+        "Zsiráf",
+        "Zebra"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tigris ázsiai faj.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Melyik nagyragadozó él állandó állományban Magyarországon?",
+      "a": [
+        "Hiúz",
+        "Tigris",
+        "Jaguár",
+        "Barnamedve"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hiúz és a farkas állandó, kisebb állománnyal jelen van; barnamedve csak alkalmi kóborlóként.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Melyik madár Magyarország nemzeti madara?",
+      "a": [
+        "Túzok",
+        "Fehér gólya",
+        "Kerecsensólyom",
+        "Szürke gém"
+      ],
+      "c": 2,
+      "d": "hard",
+      "e": "A kerecsensólyom 2012 óta Magyarország nemzeti madara.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Melyik hal a Balaton jellegzetes ragadozója?",
+      "a": [
+        "Fogassüllő",
+        "Lazac",
+        "Pisztráng",
+        "Tonhal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A balatoni fogassüllő a tó ikonikus étkezési halfaja.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Melyik szarvasmarhafajta magyar őshonos, hosszú szarvú fajta?",
+      "a": [
+        "Magyar szürke",
+        "Holstein-fríz",
+        "Jersey",
+        "Charolais"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar szürke szarvasmarha hungarikum és őshonos fajta.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Melyik magyar háziállatfajta a mangalica?",
+      "a": [
+        "Sertés",
+        "Szarvasmarha",
+        "Juh",
+        "Ló"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mangalica göndör szőrű magyar sertésfajta.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Melyik magyar kutyafajta a puli jellegzetessége?",
+      "a": [
+        "Gubancos, fürtös szőrzet",
+        "Kopasz test",
+        "Rövid láb",
+        "Kék szem"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A puli pásztorkutya, jellegzetes nemezes fürtökkel.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Melyik magyar kutyafajta a legnagyobb testű, fehér színű pásztorkutya?",
+      "a": [
+        "Komondor",
+        "Puli",
+        "Pumi",
+        "Mudi"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A komondor nyájvédő kutya, fehér, nemezes szőrzettel.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Melyik magyar vadászkutya-fajta rövid szőrű és arany-rozsdás színű?",
+      "a": [
+        "Magyar vizsla",
+        "Erdélyi kopó",
+        "Magyar agár",
+        "Komondor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rövid szőrű magyar vizsla a legismertebb hazai vadászkutya.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Melyik rovarcsoport tagjai a méhek?",
+      "a": [
+        "Hártyásszárnyúak",
+        "Bogarak",
+        "Lepkék",
+        "Kétszárnyúak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hártyásszárnyúakhoz a méhek, hangyák és darazsak tartoznak.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Hány lába van egy rovarnak?",
+      "a": [
+        "6",
+        "8",
+        "4",
+        "10"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A rovarok három pár lábbal rendelkeznek.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Hány lába van a pókoknak?",
+      "a": [
+        "8",
+        "6",
+        "10",
+        "12"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pókok nem rovarok, hanem pókszabásúak, négy pár lábbal.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Milyen átalakuláson megy át a lepke?",
+      "a": [
+        "Teljes átalakulás",
+        "Részleges átalakulás",
+        "Nincs átalakulás",
+        "Kettős vedlés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Lárva, báb, majd kifejlett állat: ez a teljes átalakulás.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Melyik rovar felelős a legtöbb virág beporzásáért a mezőgazdaságban?",
+      "a": [
+        "Háziméh",
+        "Szitakötő",
+        "Katicabogár",
+        "Szöcske"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A háziméh beporzási tevékenysége gazdaságilag is kulcsfontosságú.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Melyik állat termel mézet?",
+      "a": [
+        "Méh",
+        "Lepke",
+        "Hangya",
+        "Szitakötő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A méhek a nektárt gyűjtik be és alakítják mézzé.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Mi a hangyák társas életének alapja?",
+      "a": [
+        "Kaszttal működő kolónia",
+        "Magányos vadászat",
+        "Vándorló pár",
+        "Vezető nélküli csoport"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kolóniában királynő, dolgozók és katonák látnak el eltérő feladatokat.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Melyik állat képes színt váltani a környezetéhez alkalmazkodva?",
+      "a": [
+        "Kaméleon",
+        "Gepárd",
+        "Zebra",
+        "Elefánt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kaméleon színváltása hőszabályozásra és kommunikációra is szolgál.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Melyik állat a legnagyobb hüllő?",
+      "a": [
+        "Bordás krokodil",
+        "Komodói sárkánygyík",
+        "Anakonda",
+        "Óriásteknős"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A bordás (tengeri) krokodil hossza meghaladhatja a 6 métert.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Melyik állat vedli le teljes külső vázát a növekedéshez?",
+      "a": [
+        "Rák",
+        "Kutya",
+        "Galamb",
+        "Ló"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rákok kitinvázát vedléssel cserélik.",
+      "t": "rákok"
+    },
+    {
+      "q": "Melyik tengeri állat tud regenerálódni, ha egy karját elveszíti?",
+      "a": [
+        "Tengeri csillag",
+        "Cápa",
+        "Bálna",
+        "Fóka"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tengeri csillag karjai újranövekednek.",
+      "t": "tengeri állatok"
+    },
+    {
+      "q": "Melyik állat éjszakai ragadozó madár, kiváló hallással?",
+      "a": [
+        "Bagoly",
+        "Sirály",
+        "Pinty",
+        "Hattyú"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A baglyok arclemezei a hangot a fülhöz vezetik.",
+      "t": "madarak"
+    },
+    {
+      "q": "Melyik állat vándorol a legnagyobb távolságot évente?",
+      "a": [
+        "Sarki csér",
+        "Fecske",
+        "Gólya",
+        "Vadkacsa"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A sarki csér a két sarkvidék között vándorol, évi több tízezer kilométert.",
+      "t": "madarak"
+    },
+    {
+      "q": "Milyen táplálkozású a panda döntő részben?",
+      "a": [
+        "Bambuszevő",
+        "Húsevő",
+        "Halevő",
+        "Rovarevő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A nagypanda medve, de étrendjének kb. 99%-a bambusz.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik állatot nevezik a „szavanna tisztítóbrigádjának”?",
+      "a": [
+        "Hiénák és dögevő madarak",
+        "Elefántok",
+        "Zebrák",
+        "Antilopok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A dögevők eltakarítják az elhullott állatokat, csökkentve a járványveszélyt.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Mi a szimbiózis?",
+      "a": [
+        "Két faj együttélése kölcsönös haszonnal",
+        "Egy faj kihalása",
+        "Egy faj vándorlása",
+        "Két faj harca"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mutualista szimbiózisban mindkét fél nyer, például a virág és a beporzó.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Melyik állat a méhek legfontosabb ragadozója a méhkaptárnál Európában?",
+      "a": [
+        "Lódarázs",
+        "Katicabogár",
+        "Szitakötő",
+        "Bogáncslepke"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A lódarázs (és az invazív ázsiai darázs) komoly kárt tehet a méhcsaládokban.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Melyik állat képes napokig víz nélkül élni a sivatagban?",
+      "a": [
+        "Teve",
+        "Ló",
+        "Kutya",
+        "Tehén"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A teve a púpjában zsírt tárol, és nagyon hatékonyan takarékoskodik a vízzel.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik állat kicsinye a „csikó”?",
+      "a": [
+        "Ló",
+        "Szarvasmarha",
+        "Sertés",
+        "Kutya"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A ló kicsinye a csikó, a szarvasmarháé a borjú.",
+      "t": "állatnevek"
+    },
+    {
+      "q": "Melyik állat kicsinye a „bárány”?",
+      "a": [
+        "Juh",
+        "Kecske",
+        "Szarvasmarha",
+        "Ló"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kecske kicsinye a gida, a juhé a bárány.",
+      "t": "állatnevek"
+    },
+    {
+      "q": "Hogy nevezik a szarvasmarha hímjét?",
+      "a": [
+        "Bika",
+        "Csődör",
+        "Kan",
+        "Kos"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A csődör a ló, a kan a sertés, a kos a juh hímje.",
+      "t": "állatnevek"
+    },
+    {
+      "q": "Mit jelent az, hogy egy állat \"melegvérű\"?",
+      "a": [
+        "Testhőmérsékletét belső anyagcseréjével szabályozza",
+        "Csak meleg éghajlaton él",
+        "Vörös vére van",
+        "Csak nappal aktív"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A melegvérű (endoterm) állatok anyagcseréjükkel maguk termelik és szabályozzák testhőmérsékletüket, a környezettől függetlenül.",
+      "t": "rendszerezés"
+    },
+    {
+      "q": "Miért kék a polip vére, nem piros?",
+      "a": [
+        "Mert az oxigént szállító fehérjéje rézalapú, nem vasalapú",
+        "Mert hideg vízben élnek",
+        "Mert nincs szívük",
+        "Mert növényi festékanyagot fogyasztanak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A polipok vérében a hemocianin nevű, rézalapú fehérje szállítja az oxigént, ez adja a kék színt a vasalapú hemoglobin helyett.",
+      "t": "tengeri állatok"
+    },
+    {
+      "q": "Melyik ma élő szárazföldi emlősnél tart legtovább, mintegy 22 hónapig, a vemhesség?",
+      "a": [
+        "Afrikai elefánt",
+        "Zsiráf",
+        "Orrszarvú",
+        "Víziló"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az afrikai elefánt vemhessége körülbelül 22 hónapig tart, ez a leghosszabb az emlősök között.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik állat csapóvégtagja csap le olyan gyorsan, hogy az ütés nyomán gőzbuborékok (kavitáció) keletkeznek a vízben?",
+      "a": [
+        "Sáskarák (pávarák)",
+        "Remeterák",
+        "Tarisznyarák",
+        "Homár"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A sáskarák csapóvégtagja néhány ezredmásodperc alatt lecsap, ami akkora nyomáscsökkenést okoz, hogy gőzbuborékok keletkeznek a vízben.",
+      "t": "rákok"
+    },
+    {
+      "q": "Melyik hal képes akár 800 voltnál is nagyobb elektromos kisülést előállítani?",
+      "a": [
+        "Elektromos angolna",
+        "Elektromos harcsa",
+        "Elektromos rája",
+        "Európai angolna"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A dél-amerikai elektromos angolna (Electrophorus voltai) akár 860 voltos kisülést is képes leadni, ez a legerősebb ismert bioelektromos ütés.",
+      "t": "halak"
+    },
+    {
+      "q": "Melyik évben pusztult el az utolsó ismert tasmán tigris (erszényesfarkas) fogságban?",
+      "a": [
+        "1936",
+        "1901",
+        "1952",
+        "1978"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az utolsó ismert tasmán tigris 1936-ban pusztult el a hobarti állatkertben, ezzel a faj kihaltnak számít.",
+      "t": "kihalt fajok"
+    },
+    {
+      "q": "Melyik halfajt tartották évmilliókon át kihaltnak, mígnem 1938-ban élő példányt fogtak belőle Dél-Afrika partjainál?",
+      "a": [
+        "Latiméria (bojtosúszójú hal)",
+        "Tokhal",
+        "Angolna",
+        "Hidegvízi cápa"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A latimériát a dinoszauruszokkal együtt kihaltnak hitték, mígnem 1938-ban élő példányát fogták ki, ezért \"élő kövületnek\" is nevezik.",
+      "t": "halak"
+    },
+    {
+      "q": "Melyik rovarfaj vándorol évente akár 4000-4800 kilométert Kanada és Mexikó között?",
+      "a": [
+        "Mexikói királylepke (monarchlepke)",
+        "Vándorsáska",
+        "Nappali pávaszem",
+        "Vándorméh"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A monarchlepkék generációkon átívelő vándorlása során teszik meg az akár 4800 kilométeres utat téli szállásukra, Mexikóba.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Melyik madár Magyarország hivatalos nemzeti madara?",
+      "a": [
+        "Túzok",
+        "Fehér gólya",
+        "Parlagi sas",
+        "Fecske"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A túzok (Otis tarda) Magyarország nemzeti madara, Európa legnehezebb, még repülni tudó madara.",
+      "t": "madarak"
+    },
+    {
+      "q": "Repülés közben mekkora lehet egy kolibri szívverésének percenkénti száma?",
+      "a": [
+        "Akár 1200 is",
+        "Kb. 80",
+        "Kb. 150",
+        "Kb. 600"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kolibri aktív repülés közben a szíve percenként akár 1200-szor is verhet, ez minden madárfaj közül a legmagasabb érték.",
+      "t": "madarak"
+    },
+    {
+      "q": "Melyik rágcsáló élhet fogságban akár 30 évnél is tovább, ami testméretéhez képest rendkívülinek számít?",
+      "a": [
+        "Meztelen turkáló",
+        "Mezei egér",
+        "Pézsmapocok",
+        "Mókus"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A meztelen turkáló testméretéhez képest szokatlanul hosszú, akár 30 év feletti élettartamra képes, és öregedése is eltér a legtöbb emlősétől.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik állat mérge a legerősebb az összes ismert békafaj közül?",
+      "a": [
+        "Rettenetes nyílméregbéka (Phyllobates terribilis)",
+        "Zöld levelibéka",
+        "Óriásvarangy",
+        "Kecskebéka"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A rettenetes nyílméregbéka bőrváladéka olyan erős méreg, hogy egyetlen milligrammja is több felnőtt ember halálát okozhatja.",
+      "t": "kétéltűek"
+    },
+    {
+      "q": "Melyik kétéltű képes felnőttkorában is teljes végtagokat, sőt gerincvelő-részeket is újranöveszteni?",
+      "a": [
+        "Axolotl",
+        "Levelibéka",
+        "Kecskebéka",
+        "Vöröshasú unka"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az axolotl a tudomány egyik kedvenc kísérleti állata, mert felnőttként is képes teljes végtagokat, farkat, sőt szervrészeket újranöveszteni.",
+      "t": "kétéltűek"
+    },
+    {
+      "q": "Melyik tengeri állat kék vérét használja a gyógyszeripar a vakcinák és injekciók baktériumtoxin-szennyezettségének kimutatására?",
+      "a": [
+        "Patkósrák",
+        "Tintahal",
+        "Kagyló",
+        "Tengeri csillag"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A patkósrák vérében lévő anyag azonnal megalvad baktériumtoxinok jelenlétében, ezért évtizedek óta ezzel tesztelik a gyógyszerek biztonságosságát.",
+      "t": "rákok"
+    },
+    {
+      "q": "Az óriáspanda a ragadozók (medvefélék) közé tartozik, mégis étrendjének hány százalékát teszi ki a bambusz?",
+      "a": [
+        "Kb. 99%",
+        "Kb. 50%",
+        "Kb. 70%",
+        "Kb. 30%"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bár a panda emésztőrendszere húsevőké, étrendje szinte kizárólag, mintegy 99 százalékban bambuszból áll.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik hüllőnek van a feje búbján bőr alá rejtett, fejletlen \"harmadik szeme\"?",
+      "a": [
+        "Hidasgyík (tuatara)",
+        "Komodói varánusz",
+        "Zöld leguán",
+        "Kaméleon"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Új-Zélandon élő hidasgyík fején egy fényérzékeny, tobozmirigyhez kapcsolódó \"parietális szem\" található, amelynek pontos funkciója még nem teljesen tisztázott.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Melyik emlősnek van mérges tüskéje a hátsó lábán, amellyel a hím a párzási időszakban más hímeket is megtámadhat?",
+      "a": [
+        "Kacsacsőrű emlős",
+        "Sün",
+        "Tüskésdisznó",
+        "Hangyász"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hím kacsacsőrű emlős sarkantyúja olyan erős fájdalmat okozó mérget juttat áldozatába, amelyre még a morfium sem hat igazán.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik szigeten élt és halt ki a 17. század végére a röpképtelen dodó madár?",
+      "a": [
+        "Mauritius",
+        "Madagaszkár",
+        "Seychelle-szigetek",
+        "Galápagos-szigetek"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A dodó az Indiai-óceáni Mauritius szigetének endemikus, röpképtelen madara volt, amely az emberi betelepülés után néhány évtized alatt kihalt.",
+      "t": "kihalt fajok"
+    },
+    {
+      "q": "Hozzávetőleg meddig éltek túl a gyapjas mamutok egy elszigetelt szibériai szigeten, jóval a szárazföldi rokonaik kihalása után?",
+      "a": [
+        "Kb. 4000 évvel ezelőttig",
+        "Kb. 40 000 évvel ezelőttig",
+        "Kb. 400 évvel ezelőttig",
+        "Napjainkig"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Wrangel-szigeten élő törpe mamutpopuláció mintegy 6000 évvel élte túl a szárazföldi mamutokat, és csak kb. 4000 éve halt ki.",
+      "t": "kihalt fajok"
+    },
+    {
+      "q": "Melyik ma élő állatnak van az összes állat közül a legnagyobb, akár 180 kilogrammot is elérő szíve?",
+      "a": [
+        "Kék bálna",
+        "Ámbráscet",
+        "Afrikai elefánt",
+        "Zsiráf"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kék bálna szíve átlagosan mintegy 180 kilogrammot nyom, ami minden ma élő állat közül a legnagyobb szív.",
+      "t": "tengeri állatok"
+    },
+    {
+      "q": "Melyik emlősről mondható el, hogy egyetlen falat étel megemésztése akár egy hónapig is eltarthat nála?",
+      "a": [
+        "Lajhár",
+        "Koala",
+        "Óriáspanda",
+        "Tapír"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A lajhár rendkívül lassú anyagcseréje miatt egy-egy falat táplálék akár egy hónapig is a bélrendszerében maradhat.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Mi történhet, ha egy tengericsillag egyik karja letörik úgy, hogy rajta marad a központi test egy kis darabja is?",
+      "a": [
+        "A levált karból is új, teljes egyed nőhet",
+        "A tengericsillag azonnal elpusztul",
+        "A kar megmérgezi a vizet",
+        "A tengericsillag ivartalanná válik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tengericsillagok regenerációs képessége olyan erős, hogy egy központi testrésszel is rendelkező levált kar teljes új egyeddé fejlődhet.",
+      "t": "tengeri állatok"
+    },
+    {
+      "q": "Melyik fokozottan védett ragadozómadár uniós állományának több mint 60 százaléka fészkel Magyarországon?",
+      "a": [
+        "Kerecsensólyom",
+        "Vándorsólyom",
+        "Parlagi sas",
+        "Kék vércse"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kerecsensólyom (Falco cherrug) uniós állományának túlnyomó többsége Magyarországon költ, a faj a magyar mondavilágban (Emese álma) is szerepel.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Melyik ősi hazai szarvasmarhafajtát terelték magukkal már a honfoglaló magyarok a Kárpát-medencébe?",
+      "a": [
+        "Magyar szürke marha",
+        "Holstein-fríz",
+        "Jersey",
+        "Charolais"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar szürke marha az egyik legrégebbi, jól dokumentált hazai háziállatfajta, amely már a honfoglalás korában is jelen volt a Kárpát-medencében.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Melyik állatfajhoz tartozik Jonathan, a világ legidősebb ismert, ma is élő szárazföldi állata, aki 190 évnél is idősebb?",
+      "a": [
+        "Óriásteknős",
+        "Krokodil",
+        "Zöld leguán",
+        "Elefánt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Jonathan egy Seychelle-szigeteki óriásteknős, aki Szent Ilona szigetén él, és 1832 körül születhetett.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Hány nyakcsigolyája van egy zsiráfnak, ugyanannyi, mint egy embernek?",
+      "a": [
+        "Hét",
+        "Tizennégy",
+        "Húsz",
+        "Négy"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A zsiráf nyaka rendkívül hosszú, mégis csak hét, rendkívül megnyúlt nyakcsigolyából áll, ugyanannyiból, mint az emberi nyak.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Mit tárol valójában a teve púpja, szemben az elterjedt tévhittel, mely szerint vizet?",
+      "a": [
+        "Zsírt",
+        "Vért",
+        "Levegőt",
+        "Izmot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A teve púpja zsírszövetet tartalmaz, amelynek lebontásakor anyagcsere-víz is keletkezik, de a púp maga nem víztározó.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik hüllő nyelve képes néhány tized másodperc alatt testhossza többszörösére kilövellni, hogy elkapja zsákmányát?",
+      "a": [
+        "Kaméleon",
+        "Gekkó",
+        "Zöld leguán",
+        "Varánusz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kaméleon nyelve rugalmas energiatárolásnak köszönhetően rendkívül gyorsan, akár testhossza kétszeresének megfelelő távolságra is kilövell.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Melyik emlős használ rendszeresen követ szerszámként, hogy a hátán úszva feltörje a kagylók héját?",
+      "a": [
+        "Tengeri vidra",
+        "Fóka",
+        "Rozmár",
+        "Delfin"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tengeri vidra az egyik kevés eszközhasználó emlős: kagylóit egy hasán tartott kővel töri fel, amit bőrredőjében is magával hordhat.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik madár teszi meg a legnagyobb évi vándorlási távolságot az egész állatvilágban, sarkvidéktől sarkvidékig?",
+      "a": [
+        "Sarki csér",
+        "Fehér gólya",
+        "Vándorsólyom",
+        "Vándoralbatrosz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A sarki csér évente akár 70 000 kilométert is repülhet az északi és a déli sarkvidék között, ez a leghosszabb ismert vándorlás az állatvilágban.",
+      "t": "madarak"
+    },
+    {
+      "q": "Melyik halfajnál a hím hordja ki és \"szüli meg\" az utódokat egy hasi költőtáskában?",
+      "a": [
+        "Csikóhal",
+        "Pisztráng",
+        "Ponty",
+        "Csuka"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A csikóhalaknál a nőstény a hím költőtáskájába helyezi az ikrákat, ahonnan néhány hét múlva a hím \"szüli meg\" az apró csikóhalakat.",
+      "t": "halak"
+    },
+    {
+      "q": "Melyik hal szerveiben található a cianidnál is sokkal erősebb tetrodotoxin nevű méreg?",
+      "a": [
+        "Gömbhal (fugu)",
+        "Tőkehal",
+        "Lazac",
+        "Hering"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gömbhal máját, ikráit és beleit erős idegméreg, a tetrodotoxin szennyezi, ezért elkészítése Japánban szigorúan szabályozott, képzett szakácsokhoz kötött.",
+      "t": "halak"
+    },
+    {
+      "q": "Hova vándorolnak ívni az európai angolnák életük végén, több ezer kilométeres úton az édesvizektől?",
+      "a": [
+        "Sargasso-tenger",
+        "Balti-tenger",
+        "Fekete-tenger",
+        "Vörös-tenger"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az európai angolnák felnőttként visszavándorolnak az Atlanti-óceán közepén fekvő Sargasso-tengerbe, hogy ott ívjanak, majd elpusztuljanak.",
+      "t": "halak"
+    },
+    {
+      "q": "Milyen módon szerzik meg tápanyagukat a dél-amerikai levélvágó hangyák, holott maguk a levelek nem is a fő táplálékuk?",
+      "a": [
+        "Az összegyűjtött leveleken gombát termesztenek, és azt eszik",
+        "Kizárólag a levelek nedvét szívják ki",
+        "A leveleket más állatokkal cserélik élelemre",
+        "A leveleket a lárváik bőrébe építik be"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A levélvágó hangyák az összerágott levelekre gombát telepítenek, és ezt a termesztett gombát fogyasztják, nem magukat a leveleket.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Milyen módon adják tudtul a felderítő méhek a kaptárban társaiknak egy távoli virágos terület helyét?",
+      "a": [
+        "Egy jellegzetes \"farktánccal\" jelzik az irányt és a távolságot",
+        "Hangos zümmögéssel kiabálnak",
+        "Egy vezető méh odarepül velük",
+        "Illatnyomot húznak a levegőben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Karl von Frisch bizonyította, hogy a méhek nyolcas alakú farktáncukkal jelzik a táplálékforrás irányát és távolságát kaptártársaiknak.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Milyen módszerrel tájékozódik a legtöbb denevérfaj sötétben, akadályok és zsákmány felismerésére?",
+      "a": [
+        "Ultrahangos visszhang alapján (echolokáció)",
+        "Kizárólag szaglás alapján",
+        "Fejlett éjjellátó szemükkel",
+        "Mágneses érzékeléssel"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A denevérek ultrahangos hangokat bocsátanak ki, és a visszaverődő hullámok alapján térképezik fel környezetüket.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Miért nem sérül meg a harkály agya, amikor másodpercenként több csőrcsapással kopogtatja a fatörzset?",
+      "a": [
+        "Koponyája szerkezete elnyeli és eloszlatja a becsapódás energiáját",
+        "Az agya folyadékban lebeg, mint az emberi szemgolyó",
+        "Csőre rugalmas, mint a gumi",
+        "Csak nagyon lágy fát választ kopogtatásra"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A harkály koponyájának különleges csontszerkezete segít elnyelni a kopogtatás okozta ütés energiáját, védve az agyat.",
+      "t": "madarak"
+    },
+    {
+      "q": "Melyik halfaj jellemzően abba a folyóba tér vissza ívni, ahol maga is kikelt, akár hosszú óceáni vándorlás után is?",
+      "a": [
+        "Lazac",
+        "Ponty",
+        "Harcsa",
+        "Compó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A lazacok elsősorban szaglásuk alapján képesek visszatalálni születési folyójukhoz, hogy ott rakják le ikráikat.",
+      "t": "halak"
+    },
+    {
+      "q": "Milyen kapcsolat áll fenn a bohóchal és a tengeri rózsa (anemóna) között?",
+      "a": [
+        "Kölcsönösen előnyös együttélés (mutualizmus)",
+        "A bohóchal élősködik az anemónán",
+        "Az anemóna megeszi a bohóchalat",
+        "Versengenek ugyanazért a táplálékért"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A bohóchal az anemóna csápjai között védelmet talál a ragadozók elől, cserébe megtisztítja azt és táplálékmaradékot juttat neki.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Milyen szolgáltatást nyújtanak a \"tisztító halak\" (pl. bizonyos ajakoshalfajok) a nagyobb ragadozó halaknak?",
+      "a": [
+        "Élősködőket és elhalt bőrdarabkákat csipegetnek le róluk",
+        "Vadászni segítenek nekik",
+        "Oxigént termelnek a kopoltyújukban",
+        "Elrejtik őket a ragadozók elől"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tisztító halak \"tisztító állomásokon\" élősködőktől szabadítják meg a hozzájuk úszó nagyobb halakat, amelyek cserébe nem bántják őket.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Melyik hazánkban is honos rovarevő emlős tölti a telet valódi téli álomban, testhőmérsékletét is jelentősen csökkentve?",
+      "a": [
+        "Sün",
+        "Vaddisznó",
+        "Róka",
+        "Nyest"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sün ősszel felhalmozott zsírtartalékaiból él a téli álom hónapjai alatt, amikor testhőmérséklete és anyagcseréje drasztikusan lecsökken.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Milyen fejlődési szakaszokon megy át egy béka az ikrától a kifejlett állatig?",
+      "a": [
+        "Ikra – ebihal (kopoltyús lárva) – kifejlett béka",
+        "Ikra – báb – kifejlett béka",
+        "Ikra – lárva – báb – kifejlett béka",
+        "Közvetlenül ikrából kel ki a kifejlett béka"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A békák átalakulása (metamorfózisa) során az ikrából kopoltyús, farkas ebihal kel ki, amely fokozatosan alakul tüdővel lélegző, négylábú békává.",
+      "t": "kétéltűek"
+    },
+    {
+      "q": "Mi jellemzi a legtöbb kétéltűt a légzésük szempontjából, amire sok más gerinces nem képes?",
+      "a": [
+        "Nedves bőrükön keresztül is képesek lélegezni",
+        "Kizárólag kopoltyúval lélegeznek egész életükben",
+        "Egyáltalán nem igényelnek oxigént",
+        "Csak a farkukon keresztül lélegeznek"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kétéltűek vékony, nedves bőrükön keresztül is jelentős mennyiségű oxigént képesek felvenni, ez a bőrlégzés.",
+      "t": "kétéltűek"
+    },
+    {
+      "q": "Miért vedlik le rendszeresen a bőrét egy kígyó?",
+      "a": [
+        "Mert bőre nem nő a testével együtt, és elhasználódik",
+        "Mert így változtatja a színét",
+        "Mert a vedlés segíti a méregtermelést",
+        "Mert ez segíti a gyorsabb úszást"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kígyó bőre nem nyúlik a növekedéssel, ezért időnként ledobja az elhasználódott, szűkössé vált külső réteget.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Mi a fő oka annak, hogy egyes kaméleonfajok színt váltanak, szemben az elterjedt hiedelemmel?",
+      "a": [
+        "Elsősorban hangulatuk és kommunikációjuk jelzésére, nem álcázásra",
+        "Kizárólag a háttérhez való tökéletes alkalmazkodásra",
+        "Csak a hőmérséklet-szabályozásra",
+        "Csak a víztartalom jelzésére"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kaméleonok színváltása elsősorban a hangulatukat, területi vagy párzási jelzéseiket fejezi ki, és csak kisebb részben szolgálja az álcázást.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Melyik testrészük megléte alapján soroljuk egy csoportba az összes emlősfajt, a bálnától a denevérig?",
+      "a": [
+        "Tejmirigy, amellyel utódaikat táplálják",
+        "Szőrtelen bőr",
+        "Négy végtag",
+        "Meleg élőhely iránti igény"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az emlősök közös, csoportmeghatározó jellemzője a tejmirigy megléte, amellyel a nőstények szoptatják kölykeiket.",
+      "t": "rendszerezés"
+    },
+    {
+      "q": "Miből áll a cápák csontváza, szemben a legtöbb csontos hallal?",
+      "a": [
+        "Porcból",
+        "Kitinből",
+        "Csontból, mint minden halnak",
+        "Kollagénmentes kötőszövetből"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cápák a porcos halak közé tartoznak, csontvázuk rugalmas porcból épül fel, nem valódi csontból.",
+      "t": "halak"
+    },
+    {
+      "q": "Melyik jellemző NEM igaz a rovarokra, mint állatcsoportra?",
+      "a": [
+        "Négy pár lábuk van",
+        "Testük három fő részre tagolódik",
+        "Külső vázuk kitinből épül fel",
+        "A legtöbb fajuk szárnyat is növeszt felnőttkorára"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A rovaroknak három pár, azaz hat lábuk van, nem négy pár – ez különbözteti meg őket például a pókoktól.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Hány lába van egy jellemző pókféle (pl. keresztespók) felnőtt egyedének?",
+      "a": [
+        "Nyolc",
+        "Hat",
+        "Tíz",
+        "Négy"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pókok a nyolclábúak (pókszabásúak) csoportjába tartoznak, ellentétben a hatlábú rovarokkal.",
+      "t": "rendszerezés"
+    },
+    {
+      "q": "Mire szolgál elsősorban a mélytengeri ördöghal fejéből kilógó, világító \"horgászbot\"?",
+      "a": [
+        "Csali, amivel zsákmányt csal magához a sötétben",
+        "Hőszabályozás",
+        "Társai riasztása veszély esetén",
+        "Oxigéntermelés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ördöghal feje előtt lógó, biolumineszcens \"csalit\" használja arra, hogy a teljes sötétségben zsákmányát magához csalogassa.",
+      "t": "tengeri állatok"
+    },
+    {
+      "q": "Mi a korallzátonyokat felépítő korallpolipok besorolása a rendszertanban?",
+      "a": [
+        "Csalánozó állatok (a medúzák rokonai)",
+        "Növények",
+        "Gombák",
+        "Baktériumtelepek"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A korallok apró, telepesen élő csalánozó állatok, közeli rokonai a medúzáknak és a tengeri rózsáknak.",
+      "t": "tengeri állatok"
+    },
+    {
+      "q": "Miért van a sivatagi fennekrókának aránytalanul nagy füle a testméretéhez képest?",
+      "a": [
+        "A nagy fülfelület segít leadni a testhőt",
+        "Csak a hallását javítja jelentősen",
+        "Segít neki repülni",
+        "Vízgyűjtésre használja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fennekróka nagy fülében futó erek segítenek a testhő leadásában, ami a forró sivatagi éghajlaton létfontosságú hűtési mechanizmus.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Mit nevezünk \"kulcsfajnak\" egy ökoszisztémában?",
+      "a": [
+        "Olyan fajt, amelynek eltűnése aránytalanul nagy hatással lenne az élőhelyre",
+        "A táplálékláncban legmagasabb szinten álló ragadozót",
+        "A legnagyobb egyedszámú fajt",
+        "Az adott terület egyetlen endemikus faját"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kulcsfaj hiánya az egyedszámához képest aránytalanul nagy változást idézne elő az ökoszisztéma szerkezetében és működésében.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Miért létfontosságúak a beporzó rovarok, mint a méhek, sok növény szempontjából?",
+      "a": [
+        "Elviszik a virágport a virágok között, elősegítve a megtermékenyülést",
+        "Elpusztítják a kártevő rovarokat",
+        "Táplálékot termelnek a talajban",
+        "Megkötik a levegő nitrogénjét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A beporzó rovarok a virágporral vándorolva segítik elő a növények megtermékenyülését, amitől számos termés és mag képződik.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Hogyan nevezzük a farkasok együtt élő, vadászó csoportját?",
+      "a": [
+        "Falka",
+        "Csorda",
+        "Raj",
+        "Nyáj"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A farkasok szorosan összetartó, közösen vadászó csoportját falkának nevezzük.",
+      "t": "állatnevek"
+    },
+    {
+      "q": "Mire utal az állatok tudományos, kétrészes elnevezésének (pl. Panthera leo) második, kisbetűs tagja?",
+      "a": [
+        "Magára a fajra",
+        "Csak a nemre",
+        "Az élőhelyére",
+        "Mindig a felfedező nevére"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kettős (binomiális) névben az első szó a nemet, a második, kisbetűs szó pedig magát a fajt jelöli.",
+      "t": "állatnevek"
+    },
+    {
+      "q": "Nagyjából hányszorosát képes egy hangya megemelni saját testtömegének?",
+      "a": [
+        "Több tízszeresét is",
+        "Csak a sajátját",
+        "Kétszeresét",
+        "Felét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Sok hangyafaj izomzata arányaiban rendkívül erős, így testtömegük több tízszeresét is képesek megemelni vagy elvinni.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Milyen szokatlan viselkedés fordulhat elő egyes ájtatosmanó-fajoknál párzás közben vagy után?",
+      "a": [
+        "A nőstény megeszi a hímet",
+        "A hím és nőstény életre szóló párt alkot",
+        "A hím megvédi a nőstényt más ragadozóktól",
+        "Együtt gondozzák az utódokat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egyes ájtatosmanó-fajoknál megfigyelt jelenség, hogy a nőstény párzás közben vagy után megeszi a hímet.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Milyen különleges funkciója van sok termeszfaj magas, kemény föld feletti építményének a szélsőséges hőmérséklet ellen?",
+      "a": [
+        "Természetes szellőzést és hőszabályozást biztosít a kolóniának",
+        "Csak dísznek épül, funkciója nincs",
+        "Kizárólag más állatok elleni menedékül szolgál",
+        "Kizárólag víz raktározására szolgál"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A termeszvárak belső járatrendszere légáramlást hoz létre, amely szabályozza a kolónia hőmérsékletét és páratartalmát.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Az ismert állatfajok túlnyomó többsége, mintegy 95%-a melyik nagy csoportba tartozik?",
+      "a": [
+        "Gerinctelenek",
+        "Gerincesek",
+        "Emlősök",
+        "Madarak"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ismert állatfajok döntő többsége, becslések szerint mintegy 95 százaléka gerinctelen, például rovar, puhatestű vagy féreg.",
+      "t": "rendszerezés"
+    },
+    {
+      "q": "Melyik állatot háziasította az ember minden más állat közül a legkorábban, több tízezer évvel ezelőtt?",
+      "a": [
+        "Kutya",
+        "Macska",
+        "Ló",
+        "Kecske"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kutya őse, a szürke farkas, régészeti és genetikai bizonyítékok szerint minden más állatnál korábban vált az ember társává.",
+      "t": "háziasítás"
+    },
+    {
+      "q": "Mi a lényege a háziállatok tenyésztésénél alkalmazott szelektív (mesterséges) kiválasztásnak?",
+      "a": [
+        "Az ember a kívánt tulajdonságú egyedeket szaporítja tovább",
+        "Az állatok maguk választják ki párjukat véletlenszerűen",
+        "A vadon élő állományból mindig a leggyengébb egyedeket válogatják ki",
+        "Kizárólag génmódosítást jelent"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szelektív tenyésztés során az ember tudatosan a kívánt tulajdonságokkal (pl. tejhozam, szelídség) rendelkező egyedeket szaporítja tovább.",
+      "t": "háziasítás"
+    },
+    {
+      "q": "Miért kell egy remeteráknak időről időre nagyobb elhagyott csigaházat keresnie?",
+      "a": [
+        "Mert teste növekszik, és kinövi a régi házat",
+        "Mert a régi ház megmérgeződik",
+        "Mert csak egyfajta csigaházban élhet egész életében",
+        "Mert a régi ház elveszti a színét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A remeterák puha potroha védtelen, ezért kölcsönvett csigaházban él, és ahogy nő, egyre nagyobb házra van szüksége.",
+      "t": "rákok"
+    },
+    {
+      "q": "Mi teszi lehetővé a legtöbb bagolyfaj számára a szinte teljesen zajtalan repülést vadászat közben?",
+      "a": [
+        "Szárnytollaik különleges, bolyhos, fésűs szerkezete",
+        "Rendkívül kis testtömegük",
+        "Csak éjszaka repülnek, amikor nincs zaj",
+        "Kizárólag siklórepülést végeznek, szárnycsapás nélkül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A baglyok evezőtollainak szélén finom, fésűszerű bojtok tompítják a légáramlás okozta zajt, így szinte hangtalanul repülnek.",
+      "t": "madarak"
+    },
+    {
+      "q": "Melyik ma élő madár tojása a legnagyobb, akár 1,4 kilogrammos tömegével?",
+      "a": [
+        "Strucc",
+        "Pingvin",
+        "Sasfajok",
+        "Pelikán"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A strucc tojása a legnagyobb ma élő madártojás, akár 1,4-2 kilogrammos tömeget is elérhet.",
+      "t": "madarak"
+    },
+    {
+      "q": "Kb. hány fokban tudja elfordítani a fejét egy bagolyfaj a nyaka speciális felépítése miatt?",
+      "a": [
+        "Akár 270 fokban",
+        "Csak 90 fokban",
+        "Teljes 360 fokban, körbe-körbe",
+        "Egyáltalán nem tudja oldalra fordítani"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A baglyok nyakcsigolyáinak és véredényeinek különleges felépítése miatt fejüket akár 270 fokban is el tudják forgatni anélkül, hogy megsérülnének.",
+      "t": "madarak"
+    },
+    {
+      "q": "Milyen alkalmazkodási stratégiát alkalmaz a botsáska a ragadozók ellen?",
+      "a": [
+        "Testalakjával és színével egy ágra vagy gallyra hasonlít",
+        "Rendkívül gyors futással menekül",
+        "Erős csípéssel védekezik",
+        "Csoportosan él, hogy elrettentse a ragadozókat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A botsáska teste és lába alakja, színe annyira hasonlít egy száraz gallyra, hogy a ragadozók nehezen veszik észre.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Mi az egyik vezető tudományos magyarázat a zebra csíkozottságára?",
+      "a": [
+        "Megzavarja és távol tartja a vérszívó bögölyöket és legyeket",
+        "Kizárólag a hím-nőstény megkülönböztetésre szolgál",
+        "Segít neki vízben lebegni",
+        "Csökkenti testsúlyát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kutatások szerint a zebra csíkozata megzavarja a vérszívó legyek repülését és tájékozódását, csökkentve a rovarcsípések számát.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Mivel ejti gyengébb állapotba zsákmányát a komodói varánusz a marás mellett, ahogy azt csak 2009-ben igazolták tudományosan?",
+      "a": [
+        "Méregmirigyéből származó véralvadásgátló méreggel",
+        "Elektromos kisüléssel",
+        "Kizárólag baktériumos nyállal",
+        "Csak a testsúlyával lenyomva a zsákmányt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "2009-es kutatás igazolta, hogy a komodói varánusznak valódi méregmirigyei vannak, amelyek véralvadást gátló és vérnyomáscsökkentő méreganyagot termelnek.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Milyen társas berendezkedés jellemző az afrikai elefántcsordákra?",
+      "a": [
+        "Egy idős nőstény (matriarcha) vezetésével élő családi csoportok",
+        "Magányosan élnek, csak párzáskor találkoznak",
+        "Kizárólag hímek alkotta csordák",
+        "Véletlenszerűen összeálló, állandó vezető nélküli csoportok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az elefántcsordákat jellemzően egy idősebb, tapasztalt nőstény, a matriarcha vezeti, aki ismeri a vízlelőhelyeket és vándorútvonalakat.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Mit jelent az, hogy egy emlős rágcsáló?",
+      "a": [
+        "Egész életében folyamatosan növő metszőfogai vannak, amelyeket rágással kell kopnia",
+        "Kizárólag húst fogyaszt, és rágás nélkül nyeli le a zsákmányt",
+        "Nincs foga, ezért zúzógyomorral emészti az ételt",
+        "Csak éjszaka táplálkozik, nappal a rágást pihenteti"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rágcsálók (pl. egerek, mókusok) metszőfogai egész életükben nőnek, ezért folyamatosan rágniuk kell, hogy megfelelő hosszúságúak maradjanak.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Miért alszik téli álmot a mormota?",
+      "a": [
+        "Így takarít meg energiát a hideg és a táplálékhiányos időszakban",
+        "Mert a bundája ilyenkor nem tudja megvédeni a hidegtől",
+        "Mert a szeme fényérzékeny, és a téli fény károsítja",
+        "Mert ragadozói ilyenkor különösen aktívak"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A téli álom alatt az anyagcsere és a testhőmérséklet erősen lecsökken, így az állat élelem nélkül is átvészeli a hideg hónapokat.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik szárazföldi emlős vemhessége tart a leghosszabb ideig, akár 22 hónapig is?",
+      "a": [
+        "Az elefánt",
+        "Az orrszarvú",
+        "A zsiráf",
+        "A víziló"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az elefántok vemhessége a szárazföldi emlősök között a leghosszabb, körülbelül 22 hónapig tart.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik évben klónozták Dolly bárányt, az első emlőst, amelyet felnőtt sejtből hoztak létre?",
+      "a": [
+        "1996",
+        "1985",
+        "2001",
+        "2010"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Dolly bárányt 1996-ban klónozták skót kutatók egy felnőtt juh testi sejtjéből, ez volt az első ilyen sikeres emlősklónozás.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Miért van szüksége az elefántnak szokatlanul nagy fülekre?",
+      "a": [
+        "A fülek nagy felülete segít a testhő leadásában, hűtve az állatot",
+        "Csak a hangok felerősítésére szolgálnak",
+        "Kizárólag a kölykök felismerésére valók",
+        "A nagy fülek egyensúlyoznak a hosszú ormány súlya ellen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az elefántfülekben sűrű érhálózat fut, és a legyezés hatására a vér lehűl, ez segít az állatnak a forró éghajlaton hűteni testét.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Mi jellemzi az erszényes emlősöket, mint amilyen a kenguru is?",
+      "a": [
+        "Kölykeik fejletlenül születnek, és az anya erszényében fejlődnek tovább",
+        "Nincs szőrzetük, csak pikkelyes bőrük van",
+        "Kizárólag vízben szaporodnak, mint a kétéltűek",
+        "Sosem szoptatják kölykeiket, azok azonnal önállóak"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az erszényesek kölykei nagyon éretlenül jönnek világra, és az anya erszényében, a csecsbimbóhoz tapadva fejlődnek tovább.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik nagytestű fogascet ismert arról, hogy szokatlanul mélyre, akár 2000-3000 méterig is lemerül zsákmányáért?",
+      "a": [
+        "Az ámbráscet",
+        "A kék bálna",
+        "A délidelfin",
+        "A grönlandi bálna"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ámbráscet a leghíresebb mélymerülő cetek egyike, akár 3000 méter körüli mélységbe is lemerül tintahalakra vadászva.",
+      "t": "emlősök"
+    },
+    {
+      "q": "Melyik állat a legkisebb testű ragadozó emlős Magyarországon és egyben Európában is?",
+      "a": [
+        "A menyét",
+        "A vadmacska",
+        "A görény",
+        "A vidra"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A menyét a legkisebb ragadozó emlős, testtömege mindössze 40-120 gramm körüli, de ügyesen vadászik rágcsálókra.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Hány pár szárnya van egy jellegzetes lepkének?",
+      "a": [
+        "Két pár, összesen négy szárny",
+        "Egy pár, összesen két szárny",
+        "Három pár, összesen hat szárny",
+        "Nincs valódi szárnya, csak szőrös nyúlványai"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A lepkéknek, mint a legtöbb rovarnak, két pár, azaz négy szárnya van, amelyeket pikkelyek borítanak.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Miért világítanak a szentjánosbogarak testük végén?",
+      "a": [
+        "A fényjelzéssel párzási partnert vonzanak vagy jeleznek egymásnak",
+        "A fény melegíti a testüket hideg éjszakákon",
+        "Ezzel riasztják el a növényevő rovarokat a levelekről",
+        "A fény segít nekik a sötétben repülni, mint egy lámpa"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szentjánosbogarak biolumineszcens fényjeleikkel elsősorban a párjukat hívják és fajtársaikat ismerik fel a sötétben.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Melyik rovarrend tagjai élnek gyakran a legnépesebb, akár milliós egyedszámú kolóniákban?",
+      "a": [
+        "A hangyák",
+        "A szitakötők",
+        "A lepkék",
+        "A szöcskék"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hangyák szigorúan szervezett, munkamegosztáson alapuló kolóniákban élnek, amelyek egyes fajoknál milliós létszámúak is lehetnek.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Mennyi ideig él jellemzően egy tiszavirág kifejlett, szárnyas egyede?",
+      "a": [
+        "Csak néhány óráig vagy legfeljebb pár napig",
+        "Körülbelül egy hónapig",
+        "Egy teljes évig",
+        "Több évig, akár öt évig is"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tiszavirág lárvakora évekig tart a folyóvízben, ám kifejlett, szárnyas alakja mindössze néhány óráig él, csak a szaporodásra szolgál.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Mit jelent a rovarok teljes átalakulással (holometabóliával) történő fejlődése?",
+      "a": [
+        "Pete, lárva, báb és kifejlett rovar egymást követő, eltérő testfelépítésű állapotai",
+        "Az egyed élete során nem változtatja meg alakját",
+        "Csak a szárnyak nőnek meg fokozatosan a felnőttkorig",
+        "A lárva azonnal ivarérett kifejlett rovarrá válik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Teljes átalakulásnál a lárva alakja gyökeresen eltér a kifejlett rovarétól, a báb állapotban zajlik le a testfelépítés átrendeződése.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Melyik rovarcsalád tagjai a legfontosabb beporzók a mezőgazdasági növénytermesztésben?",
+      "a": [
+        "A méhfélék",
+        "A svábbogárfélék",
+        "A szúnyogfélék",
+        "A tetűfélék"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A méhfélék, köztük a házi méh, számos termesztett növény virágának beporzását végzik, ami nélkülözhetetlen a terméshozamhoz.",
+      "t": "rovarok"
+    },
+    {
+      "q": "Melyik madár képes a levegőben hátrafelé is repülni?",
+      "a": [
+        "A kolibri",
+        "A sas",
+        "A gólya",
+        "A pingvin"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kolibri szárnyainak különleges, nyolcas alakú mozgása lehetővé teszi, hogy lebegjen, oldalra és hátrafelé is repüljön.",
+      "t": "madarak"
+    },
+    {
+      "q": "Miért fontos a vándormadaraknak az évenkénti hosszú távú vonulás?",
+      "a": [
+        "Így követik az élelemben gazdag és kedvező klímájú területeket az évszakok között",
+        "Kizárólag a tollazatuk cseréje miatt kell máshová repülniük",
+        "A vonulás segít elkerülni a saját fiókáikat",
+        "Csak azért repülnek el, hogy elkerüljék a víz közelségét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A vándormadarak a hideg, élelemszegény évszak elől melegebb, táplálékban gazdagabb vidékekre repülnek, majd visszatérnek költeni.",
+      "t": "madarak"
+    },
+    {
+      "q": "Melyik madárfaj Magyarország hivatalos nemzeti madara?",
+      "a": [
+        "A túzok",
+        "A gólya",
+        "A vándorsólyom",
+        "A parlagi sas"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A túzok Magyarország hivatalos nemzeti madara, egyben Európa legnagyobb testű, repülésre képes madara.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Melyik madárfaj vonulja meg évente a legnagyobb távolságot, akár 70 ezer kilométert is?",
+      "a": [
+        "A sarki csér",
+        "A fecske",
+        "A gólya",
+        "A vándorsólyom"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A sarki csér az Északi-sarkvidék és az Antarktisz között vonul évente, ezzel messze a leghosszabb távú vándorútját teszi meg minden állat között.",
+      "t": "madarak"
+    },
+    {
+      "q": "Melyik madár rakja testméretéhez viszonyítva a legnagyobb tojást?",
+      "a": [
+        "A kiwi",
+        "A strucc",
+        "A pingvin",
+        "A kolibri"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A röpképtelen kiwi testéhez képest szokatlanul nagy tojást rak, ami akár testtömegének húsz százalékát is kiteheti.",
+      "t": "madarak"
+    },
+    {
+      "q": "Mi a különbség a fészekhagyó és a fészeklakó madárfiókák között?",
+      "a": [
+        "A fészekhagyó fióka kikelve azonnal mozgásképes, míg a fészeklakó vak és tollatlan",
+        "A fészekhagyó fióka sosem hagyja el a fészket, a fészeklakó azonnal repül",
+        "A fészeklakó fiókák mindig vízimadarak, a fészekhagyók sosem",
+        "Nincs érdemi különbség, csak a fészek anyagában térnek el"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fészekhagyó madarak (pl. tyúkfélék) fiókái kelés után szinte azonnal önállóan mozognak, a fészeklakóké (pl. verébfélék) hosszan gondozásra szorulnak.",
+      "t": "madarak"
+    },
+    {
+      "q": "Melyik ragadozó madár Magyarország legnagyobb testű, ma is fészkelő fajtája?",
+      "a": [
+        "A rétisas",
+        "A vándorsólyom",
+        "A egerészölyv",
+        "A kabasólyom"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rétisas szárnyfesztávolsága elérheti a 230 centimétert is, ezzel Magyarország legnagyobb testű, rendszeresen fészkelő ragadozó madara.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Mikor kezdődött az eurázsiai hód sikeres visszatelepítése Magyarországra, miután a 19. században kipusztult?",
+      "a": [
+        "Az 1990-es években",
+        "Az 1950-es években",
+        "A 2010-es években",
+        "A 20. század elején"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hód az 1990-es évek elején jelent meg újra spontán módon, majd 1996-tól szervezett WWF-program keretében telepítették vissza nagyobb számban.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Miért veszélyeztetett fokozottan a magyarországi ürgeállomány?",
+      "a": [
+        "A természetes gyepterületek beszántása és beépítése miatt egyre kevesebb az élőhelye",
+        "Mert kizárólag mesterséges táplálékon él, ami hiánycikk lett",
+        "Mert nem képes alkalmazkodni a hideg téli időjáráshoz",
+        "Mert kizárólag más állatok elhagyott üregeiben tud élni"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ürge a száraz, rövid füvű gyepekhez kötődik, ezek eltűnése a mezőgazdasági területek terjedésével fenyegeti az állományt.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Melyik hazai kígyófaj számít Magyarország legnagyobb, akár két méteresre is megnövő siklójának?",
+      "a": [
+        "A kaszpi haragossikló",
+        "A vízisikló",
+        "A rézsikló",
+        "Az erdei sikló"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kaszpi haragossikló Magyarország legnagyobb testű kígyófaja, testhossza kivételes esetben elérheti a két métert is.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Melyik hal képes erős elektromos kisülést kibocsátani zsákmánya elkábítására?",
+      "a": [
+        "Az elektromos angolna",
+        "A pisztrángsügér",
+        "A közönséges ponty",
+        "A csuka"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az elektromos angolna testében speciális szervek termelik az áramütést, amellyel megbénítja zsákmányát vagy elriasztja ellenségeit.",
+      "t": "halak"
+    },
+    {
+      "q": "Melyik halfajok képesek némelyike szárazföldön, nedves talajon is hosszabb ideig életben maradni?",
+      "a": [
+        "Az iszapban élő tüdőshalak",
+        "A tonhalak",
+        "A hering",
+        "A tőkehal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tüdőshalak fejlett légzőszervüknek köszönhetően a kiszáradó víztestekben iszapba ágyazódva, levegőt lélegezve is átvészelik a szárazságot.",
+      "t": "halak"
+    },
+    {
+      "q": "Melyik ragadozó halfaj a Balaton egyik legjellegzetesebb, méltán híres őshonos fogása?",
+      "a": [
+        "A fogassüllő",
+        "A tőkehal",
+        "A lazac",
+        "A tonhal"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fogassüllő a Balaton egyik legismertebb, kereskedelmi és horgászati szempontból is fontos ragadozó halfaja.",
+      "t": "magyar fauna"
+    },
+    {
+      "q": "Melyik halfaj úszik jellemzően az óceánból vissza az édesvízbe, hogy ott ívjon?",
+      "a": [
+        "A lazac",
+        "A cápa",
+        "A tőkehal",
+        "A hering"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A lazac anadrom faj: tengerben nő fel, majd szaporodáskor visszaúszik a folyókba, ahol maga is kikelt, hogy ott ívjon.",
+      "t": "halak"
+    },
+    {
+      "q": "Mi jellemzi a porcos halakat, mint a cápák és a rájak, a csontos halakkal szemben?",
+      "a": [
+        "Csontváz helyett rugalmas porcból épül fel a testük, és nincs úszóhólyagjuk",
+        "Kizárólag édesvízben élnek, sosem óceánokban",
+        "Nincs uszonyuk, csak kopoltyúval mozognak",
+        "Mindig kisebbek, mint egy méter"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A porcos halak vázát porc alkotja csont helyett, és úszóhólyag híján máj olajtartalma segíti őket a lebegésben.",
+      "t": "halak"
+    },
+    {
+      "q": "Melyik halfaj a jelenleg ismert legmélyebben élő, csigolyás gerinces állat, amelyet 8000 méter alatti mélységben is megfigyeltek?",
+      "a": [
+        "Egy csigahalfaj (Pseudoliparis nemzetség)",
+        "A tonhal",
+        "A angolna",
+        "A cápa"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Mariana-árokban és más óceáni árkokban felfedezett csigahalfajokat 8000 méternél is mélyebben filmezték, ez a legmélyebb ismert halélőhely.",
+      "t": "halak"
+    },
+    {
+      "q": "Melyik hüllőcsoport tagjainak testét felül és alul is kemény, csontos páncél védi?",
+      "a": [
+        "A teknősök",
+        "A gyíkok",
+        "A krokodilok",
+        "A kígyók"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A teknősök páncélja a hátukon (háti pajzs) és a hasukon (hasi pajzs) is összefüggő, csontos-szarus lemezekből áll.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Miért képesek a kaméleonok gyorsan megváltoztatni bőrük színét?",
+      "a": [
+        "Elsősorban a testhőmérséklet szabályozására és mások felé való kommunikációra szolgál, nem csak álcázásra",
+        "Kizárólag azért, hogy elrejtőzzenek a ragadozók elől",
+        "A bőrszín kizárólag az étrendjüktől függ, tudatosan nem tudják irányítani",
+        "A színváltás csak akkor történik, amikor elpusztulnak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kaméleonok bőrében lévő speciális sejtek a hangulatot, a testhőmérsékletet és a fajtársak felé küldött jelzéseket is közvetítik, nem csak a rejtőzködést.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Melyik hüllőfaj a legnagyobb testű, ma élő hüllő a Földön?",
+      "a": [
+        "A tengeri krokodil",
+        "A komodói varánusz",
+        "A galápagosi óriásteknős",
+        "A anakonda"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tengeri krokodil hímjei elérhetik a 6 métert és az 1000 kilogrammot is, így ő a legnagyobb ma élő hüllőfaj.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Melyik teknősfaj (Jonathan névre keresztelt egyede) tartja a valaha ismert legidősebb, mintegy 190 éves szárazföldi állat rekordját?",
+      "a": [
+        "A szeychelle-óriásteknős",
+        "A galápagosi óriásteknős",
+        "A leveles teknős",
+        "A mocsári teknős"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Jonathan, a Szent Ilona szigetén élő szeychelle-óriásteknős a Guinness-rekordok szerint a valaha ismert legidősebb szárazföldi állat.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Mi jellemző a legtöbb boa- és pitonfajra zsákmányejtéskor?",
+      "a": [
+        "Testükkel körbetekerik és megfojtják áldozatukat, mielőtt lenyelnék",
+        "Erős méreggel bénítják meg zsákmányukat harapással",
+        "Kizárólag rovarokra vadásznak, sosem gerincesekre",
+        "Csak dögevők, élő állatot nem ejtenek el"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A boák és pitonok nem mérgesek, hanem úgynevezett fojtó kígyók: testükkel szorítják össze zsákmányukat, amíg az megfullad.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Mi különbözteti meg alapvetően a legtöbb gyíkot a kígyóktól?",
+      "a": [
+        "A legtöbb gyíknak van lába és mozgatható szemhéja, a kígyóknak nincs",
+        "A gyíkok mindig nagyobbak, mint a kígyók",
+        "Csak a gyíkok tudnak petéket rakni",
+        "A gyíkoknak nincs farkuk, a kígyóknak van"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A legtöbb gyíkfajnak van négy lába és mozgatható szemhéja, míg a kígyóknak nincs lábuk, és szemüket átlátszó pikkely fedi.",
+      "t": "hüllők"
+    },
+    {
+      "q": "Miért kötődnek a legtöbb kétéltűfaj szaporodása vízhez?",
+      "a": [
+        "Kocsonyás burkú petéik kiszáradnak levegőn, és lárváik (pl. ebihalak) is vízben fejlődnek",
+        "Mert csak vízben tudnak lélegezni egész életükben",
+        "Mert szárazföldön nem tudnak mozogni négy lábukkal",
+        "Mert a víz védi őket a hidegtől egész évben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kétéltűek héj nélküli, kocsonyás petéi kiszáradnának a levegőn, ezért a legtöbb faj vízbe rakja azokat, ahol a lárvák is fejlődnek.",
+      "t": "kétéltűek"
+    },
+    {
+      "q": "Melyik közép-amerikai béka mérge számít a legerősebb ismert kétéltű-méregnek, amelyből egy milligramm is halálos lehet emberre?",
+      "a": [
+        "A rettenetes nyílméregbéka",
+        "A zöld levelibéka",
+        "A barna varangy",
+        "Az erdei béka"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A rettenetes nyílméregbéka bőréből nyert batrachotoxin annyira erős, hogy egyetlen milligrammja is több ember halálát okozhatja.",
+      "t": "kétéltűek"
+    },
+    {
+      "q": "Mi történik a békák életciklusában a metamorfózis során?",
+      "a": [
+        "A vízben úszó, kopoltyús ebihalból fokozatosan négylábú, tüdővel lélegző béka lesz",
+        "A kifejlett béka visszaalakul ebihallá a téli hónapokra",
+        "A béka petéi azonnal kifejlett állattá válnak átalakulás nélkül",
+        "A béka elveszti a farkát már petekorában"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A metamorfózis során az ebihal elveszti farkát és kopoltyúját, lábai nőnek, és tüdővel lélegző, szárazföldre is kilépő békává alakul.",
+      "t": "kétéltűek"
+    },
+    {
+      "q": "Melyik mexikói eredetű szalamandrafaj híres arról, hogy felnőttkorában is teljesen visszanöveszti elveszített végtagjait?",
+      "a": [
+        "Az axolotl",
+        "A tűzszalamandra",
+        "A foltos szalamandra",
+        "A gőte"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az axolotl kivételes regenerációs képessége miatt tudományos kutatások kedvelt alanya, felnőttként is visszanöveszti végtagjait.",
+      "t": "kétéltűek"
+    },
+    {
+      "q": "Melyik évszakban vonulnak a magyarországi békák jellemzően tömegesen a szaporodóhelyükül szolgáló vizekhez?",
+      "a": [
+        "Kora tavasszal",
+        "Késő ősszel",
+        "Nyár derekán",
+        "Télen"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A telelőhelyükről előbújó békák kora tavasszal indulnak tömegesen az ívóvizek felé, ahol petéiket lerakják.",
+      "t": "kétéltűek"
+    },
+    {
+      "q": "Mi teszi a korallzátonyokat kiemelkedően fontossá az óceánok élővilága szempontjából?",
+      "a": [
+        "Rendkívül nagy fajgazdagságú élőhelyet nyújtanak sok tengeri élőlénynek",
+        "Ott él a legtöbb szárazföldi emlős",
+        "Kizárólag mélytengeri, fény nélküli fajok élnek bennük",
+        "Nincs bennük semmilyen élet, csak ásványi anyagok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A korallzátonyok a tengerek biodiverzitás-gócpontjai, a tengeri fajok jelentős hányada valamilyen életszakaszban tőlük függ.",
+      "t": "tengeri állatok"
+    },
+    {
+      "q": "Melyik óriási tengeri emlős mély morajlása hallható el akár 800 kilométeres távolságból is a víz alatt?",
+      "a": [
+        "A kék bálna",
+        "A delfin",
+        "A fóka",
+        "A rozmár"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kék bálna alacsony frekvenciájú, akár 188 decibeles morajlásai a vízben rendkívül messzire, több száz kilométerre is elhallatszanak.",
+      "t": "tengeri állatok"
+    },
+    {
+      "q": "Miért fehéredik ki (bleaching) a korall, ha a tengervíz hőmérséklete tartósan megemelkedik?",
+      "a": [
+        "A stressz miatt kilöki magából a színt adó, vele szimbiózisban élő algákat",
+        "Mert a meleg víz lemossa a korall külső rétegét",
+        "Mert a magas hőmérséklet felgyorsítja a korall szaporodását",
+        "Mert a korall ilyenkor átvált éjszakai táplálkozásra"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tartós hőstressz miatt a korall kiüríti szövetéből a színes zooxantella algákat, amelyek nélkül fehérnek és legyengültnek tűnik.",
+      "t": "tengeri állatok"
+    },
+    {
+      "q": "Melyik tengeri állat képes bőrén lévő speciális sejtekkel pillanatok alatt megváltoztatni testének színét és mintázatát?",
+      "a": [
+        "A polip",
+        "A tengeri csillag",
+        "A medúza",
+        "A tengeri sün"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A polip bőrében lévő kromatofóra sejtek gyors összehúzódásával és tágulásával szinte azonnal átalakíthatja testének színét és mintázatát.",
+      "t": "tengeri állatok"
+    },
+    {
+      "q": "Hány kar van jellemzően egy tengeri csillagnak?",
+      "a": [
+        "Öt",
+        "Három",
+        "Nyolc",
+        "Tizenkettő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A legtöbb tengericsillag-faj öt karral rendelkezik, bár léteznek tíz vagy akár több karú fajok is.",
+      "t": "tengeri állatok"
+    },
+    {
+      "q": "Melyik óriási termetű polipfaj él a Csendes-óceán hűvösebb vizeiben, és nőhet több tíz kilogrammosra?",
+      "a": [
+        "Az óriás csendes-óceáni polip",
+        "A közönséges polip",
+        "A törpe polip",
+        "A kékgyűrűs polip"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az óriás csendes-óceáni polip a legnagyobb ismert polipfaj, felnőtt egyedei jellemzően több tíz kilogrammosra is megnőnek.",
+      "t": "tengeri állatok"
+    },
+    {
+      "q": "Miért kell a rákoknak időnként levedleniük kemény páncéljukat?",
+      "a": [
+        "A merev kitinpáncél nem tud a testtel együtt növekedni, ezért új, tágasabb páncélra van szükségük",
+        "Mert a régi páncél mérgezővé válik számukra idővel",
+        "Mert a vedlés segít nekik gyorsabban úszni",
+        "Mert a páncél csak télen szükséges védelemként"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rákok merev kitinpáncélja nem nyúlik a növekedéssel, ezért időszakonként levedlik, és alatta egy nagyobb, kezdetben puha páncél alakul ki.",
+      "t": "rákok"
+    },
+    {
+      "q": "Melyik nagyobb állatcsoportba (törzsbe) tartozik mind a csiga, mind a kagyló?",
+      "a": [
+        "A puhatestűek",
+        "Az ízeltlábúak",
+        "A tüskésbőrűek",
+        "A gerincesek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A csigák és a kagylók egyaránt a puhatestűek (Mollusca) törzsébe tartoznak, lágy testüket gyakran mészvázas kagyló vagy csigaház védi.",
+      "t": "rákok"
+    },
+    {
+      "q": "Miért veti le néha egy rák a saját ollóját, ha ragadozó ragadja meg azt?",
+      "a": [
+        "Az önkéntes végtagvesztéssel (autotómiával) megmenekülhet, az olló pedig idővel újranő",
+        "Mert az olló ilyenkor felrobban, elriasztva a támadót",
+        "Mert az elveszett olló méreganyagot juttat a ragadozóba",
+        "Mert a rák így tud gyorsabban úszni menekülés közben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Sok ráknál kialakult az autotómia képessége: veszély esetén levetik a megragadott végtagjukat, amely a következő vedléskor visszanő.",
+      "t": "rákok"
+    },
+    {
+      "q": "Hány szeme van jellemzően egy póknak?",
+      "a": [
+        "Nyolc",
+        "Kettő",
+        "Négy",
+        "Hat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A legtöbb pókfajnak nyolc szeme van, bár egyes barlangi vagy föld alatti fajoknál a szemek száma csökkent vagy hiányzik.",
+      "t": "rákok"
+    },
+    {
+      "q": "Miért nem ragad bele a legtöbb pók a saját hálójába?",
+      "a": [
+        "Lábaikon speciális olajos bevonat és szőrök vannak, és nem minden szálat érintenek ragadósan",
+        "Mert a hálójuk sosem ragadós, csak a rovaroknak tűnik annak",
+        "Mert folyamatosan mozgásban vannak, így nincs idő beleragadni",
+        "Mert méregfoguk semlegesíti a háló ragadós anyagát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A pókok lábvégén lévő olajos bevonat és a nem ragadós szálak célzott érintése segít elkerülni, hogy saját hálójukba ragadjanak.",
+      "t": "rákok"
+    },
+    {
+      "q": "Melyik pókfaj szövi a jelenleg ismert legerősebb, akár kevlárnál is szívósabb pókfonalat, és 25 méteres szálakkal hidal át folyókat?",
+      "a": [
+        "A Darwin-héjkötőpók",
+        "A keresztes pók",
+        "A tarantula",
+        "A fekete özvegy"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Madagaszkáron élő Darwin-héjkötőpók selyme a tudomány szerint az egyik legellenállóbb ismert biológiai anyag, hálóival akár folyókat is áthidal.",
+      "t": "rákok"
+    },
+    {
+      "q": "Mi különbözteti meg a skorpiókat a legtöbb más pókszabású ízeltlábútól?",
+      "a": [
+        "Farkuk végén méregfullánk, elöl pedig nagy, ollós tapogatólábak vannak",
+        "Nincs lábuk, kizárólag csúszva mozognak",
+        "Vízben élnek kopoltyúval lélegezve",
+        "Kizárólag növényi táplálékon élnek"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A skorpiók jellegzetessége a hátrahajló, méregfullánkban végződő farok és az elöl elhelyezkedő nagy, ollós tapogatólábpár.",
+      "t": "rákok"
+    },
+    {
+      "q": "Mit jelent a csúcsragadozó fogalma egy ökoszisztémában?",
+      "a": [
+        "Felnőttkorában nincs természetes ellensége a táplálékláncban",
+        "Kizárólag növényi táplálékkal él",
+        "Minden más állatnál nagyobb testű",
+        "Csak éjszaka vadászik, nappal sosem"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A csúcsragadozókat, mint az oroszlánt vagy a fehér cápát, felnőttkorukban a táplálékláncban nem fenyegeti más állat rendszeres zsákmányként.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Mi az invazív faj definíciója az ökológiában?",
+      "a": [
+        "Emberi közreműködéssel új területre került, ott őshonos fajokat és élőhelyeket károsító idegenhonos faj",
+        "Bármely faj, amely nagyon nagy egyedszámban fordul elő",
+        "Kizárólag olyan faj, amely kihalás szélén áll",
+        "Egy terület legrégebb óta ott élő őshonos faja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az invazív faj olyan, ember által behurcolt idegenhonos élőlény, amely új élőhelyén gyorsan elterjed, és kiszorítja vagy károsítja a helyi fajokat.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Miért nélkülözhetetlenek a beporzó rovarok a mezőgazdaság számára?",
+      "a": [
+        "A termesztett növények nagy részének megtermékenyítését és terméshozamát biztosítják",
+        "Kizárólag a talaj lazítását végzik gyökereikkel",
+        "A kártevő rovarokat eszik meg, semmi más szerepük nincs",
+        "Csak a méz termelésében van szerepük, a növényekben nincs"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A rovarok, elsősorban a méhek, virágporátvitelükkel biztosítják számos gyümölcs- és zöldségnövény megtermékenyülését és termését.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Hogyan nevezik azt a szimbiotikus kapcsolatot, amelyben mindkét együtt élő faj hasznot húz a másikból?",
+      "a": [
+        "Mutualizmus",
+        "Parazitizmus",
+        "Kommenzalizmus",
+        "Predáció"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mutualizmus olyan kölcsönösen előnyös kapcsolat, amilyen például a virágok és beporzó rovarok között áll fenn.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Hogyan hívják magyarul a farkas kölykét?",
+      "a": [
+        "Kölyökfarkas",
+        "Bocs",
+        "Fióka",
+        "Gida"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A farkas utódját magyarul kölyökfarkasnak nevezik, ezzel szemben például a medve utódját hívják bocsnak.",
+      "t": "állatnevek"
+    },
+    {
+      "q": "Milyen gyűjtőnéven ismert az a rendszertani család, amelybe a farkasok, a rókák és a házi kutya is tartozik?",
+      "a": [
+        "Kutyafélék",
+        "Macskafélék",
+        "Menyétfélék",
+        "Medvefélék"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A farkas, a róka és a házi kutya közös rendszertani családja a kutyafélék (Canidae), amelyet közös testfelépítési jegyek jellemeznek.",
+      "t": "állatnevek"
+    },
+    {
+      "q": "Milyen néven ismert az a rend, amelybe a fókák és a rozmarak tartoznak?",
+      "a": [
+        "Úszólábúak",
+        "Cetfélék",
+        "Rágcsálók",
+        "Erszényesek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A fókák és a rozmarak az úszólábúak (Pinnipedia) csoportjába tartoznak, amelyeket úszáshoz alakult végtagjaik jellemeznek.",
+      "t": "állatnevek"
+    },
+    {
+      "q": "Melyik élőhelytípusra jellemző leginkább a tartósan fagyott altalaj, azaz a permafroszt?",
+      "a": [
+        "A tundra",
+        "Az esőerdő",
+        "A szavanna",
+        "A korallzátony"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sarkvidéki tundrán a talaj mélyebb rétegei egész évben fagyottak maradnak, ezt nevezzük permafrosztnak.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Miért alakult ki Madagaszkáron rendkívül sok, máshol sehol nem élő (endemikus) állatfaj?",
+      "a": [
+        "A sziget hosszú földrajzi elszigeteltsége miatt a fajok önálló úton fejlődtek",
+        "Mert a sziget éghajlata folyamatosan változik évről évre",
+        "Mert az emberek szándékosan telepítettek oda különleges fajokat",
+        "Mert a sziget talaja mérgező más kontinensek fajaira"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Madagaszkár évmilliókig elszigetelt volt a kontinensektől, ezért az ott élő fajok, mint a makik, önálló evolúciós utat jártak be.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Melyik sivatag számít a Föld egyik legszárazabb, csapadékban legszegényebb élőhelyének?",
+      "a": [
+        "Az Atacama-sivatag",
+        "A Szahara",
+        "A Gobi-sivatag",
+        "A Kalahári-sivatag"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A dél-amerikai Atacama-sivatag egyes részein évtizedekig egyáltalán nem esik csapadék, ezáltal a Föld egyik legszárazabb helye.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Mekkora kört tehet meg vonulása során nagyjából egy kelet-afrikai gnúcsorda a Serengeti ökoszisztémában évente?",
+      "a": [
+        "Nagyjából 3000 kilométert",
+        "Csak néhány száz métert",
+        "Körülbelül 100 kilométert",
+        "Több mint 50 000 kilométert"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A gnúk és zebrák hatalmas csordái az esőt és a friss füvet követve nagyjából 3000 kilométeres kört tesznek meg évente a Serengeti térségében.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Melyik évtizedben halt ki véglegesen a repülésre képtelen dodó madár Mauritius szigetén?",
+      "a": [
+        "Az 1680-as években",
+        "Az 1750-es években",
+        "Az 1800-as évek elején",
+        "Az 1900-as évek elején"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A dodót a holland telepesek megjelenése és a behurcolt ragadozók pusztították ki, a faj az 1680-as évekre tűnt el véglegesen.",
+      "t": "kihalt fajok"
+    },
+    {
+      "q": "Melyik jégkorszaki emlős ismert hosszú, íves agyaráról és sűrű szőrzetéről, amely megvédte a hidegtől?",
+      "a": [
+        "A gyapjas mamut",
+        "A szablyafogú tigris",
+        "Az óriás lajhár",
+        "A masztodon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gyapjas mamut vastag szőrzete és a hidegben tárolt zsírrétege segítette túlélni a jégkorszaki hideg telet, mielőtt kihalt.",
+      "t": "kihalt fajok"
+    },
+    {
+      "q": "Melyik évben pusztult el az utolsó ismert erszényes farkas (tasmán tigris) fogságban, egy ausztrál állatkertben?",
+      "a": [
+        "1936",
+        "1901",
+        "1955",
+        "1978"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az utolsó ismert erszényes farkas 1936-ban pusztult el a hobarti állatkertben, ezzel a faj hivatalosan kihaltnak számít.",
+      "t": "kihalt fajok"
+    },
+    {
+      "q": "Melyik óriási, röpképtelen madárfaj élt Új-Zélandon egészen az ember megjelenéséig, mire vadászat miatt kihalt?",
+      "a": [
+        "A moa",
+        "A dodó",
+        "A elefántmadár",
+        "A pingvin"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A moa a struccnál is nagyobbra megnövő, röpképtelen madár volt Új-Zélandon, amelyet a maori telepesek vadászata pusztított ki.",
+      "t": "kihalt fajok"
+    },
+    {
+      "q": "Melyik állatot háziasította feltehetően a legkorábban az ember, a régészeti leletek szerint?",
+      "a": [
+        "A kutyát",
+        "A macskát",
+        "A juhot",
+        "A lovat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kutya farkasból történő háziasítása a régészeti bizonyítékok szerint tízezer évekkel ezelőttre nyúlik vissza, megelőzve más háziállatokat.",
+      "t": "háziasítás"
+    },
+    {
+      "q": "Miért tenyésztették az embereke évezredeken át a háziasított galambokat postai üzenetküldésre is?",
+      "a": [
+        "Kiváló tájékozódó- és hazatérő képességük miatt megbízhatóan visszatalálnak dúcukhoz",
+        "Mert rendkívül gyorsan tudnak repülni, gyorsabban minden más madárnál",
+        "Mert könnyű volt őket beszélni tanítani",
+        "Mert éjszaka is kiválóan látnak, ellentétben más madarakkal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A postagalambok kiváló, máig nem teljesen tisztázott navigációs képessége tette lehetővé, hogy nagy távolságból is hazataláljanak üzenetet szállítva.",
+      "t": "háziasítás"
+    },
+    {
+      "q": "Melyik ma is élő vadlófaj a háziasított ló legközelebbi élő vadon élő rokona?",
+      "a": [
+        "A Przewalski-ló",
+        "A zebra",
+        "A tarpán",
+        "A vadszamár"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A közép-ázsiai Przewalski-ló az egyetlen máig fennmaradt igazi vadlófaj, és a háziasított lovak legközelebbi élő rokona.",
+      "t": "háziasítás"
+    },
+    {
+      "q": "Mi a taxonómiai rendszerezés legalapvetőbb egysége, amelyen belül az egyedek szaporodóképes utódokat hozhatnak létre?",
+      "a": [
+        "A faj",
+        "A nemzetség",
+        "Az osztály",
+        "A törzs"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A faj a rendszerezés alapegysége: olyan egyedek tartoznak egy fajba, amelyek egymással szaporodva életképes utódokat nemzenek.",
+      "t": "rendszerezés"
+    },
+    {
+      "q": "Melyik rendszertani kategória található közvetlenül a család fölött az élővilág hierarchikus rendszerezésében?",
+      "a": [
+        "A rend",
+        "A nemzetség",
+        "Az osztály",
+        "A törzs"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hagyományos rendszerezésben a család fölött a rend áll, majd afölött következik az osztály, a törzs és végül az ország.",
+      "t": "rendszerezés"
+    },
+    {
+      "q": "Mi különbözteti meg alapvetően a gerinces állatokat a gerinctelenektől?",
+      "a": [
+        "A gerinceseknek belső, csontos vagy porcos gerincoszlopuk van, amely tartja a testüket",
+        "A gerincesek mindig nagyobbak, mint a gerinctelenek",
+        "Csak a gerincesek képesek mozogni önállóan",
+        "A gerincesek kizárólag vízben élnek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gerinces állatok testét belső, csontos vagy porcos váz, azon belül a gerincoszlop tartja, ez hiányzik a gerinctelenekből.",
+      "t": "rendszerezés"
+    }
   ]
 }

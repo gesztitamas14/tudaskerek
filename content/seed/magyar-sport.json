@@ -716,6 +716,1813 @@
       "d": "medium",
       "e": "Magyarország az 1896-os athéni olimpia résztvevője volt.",
       "t": "olimpia"
+    },
+    {
+      "q": "Melyik magyar labdarúgóklub szerezte a legtöbb bajnoki címet, összesen 35-szörös bajnokként?",
+      "a": [
+        "Ferencvárosi TC",
+        "Újpest FC",
+        "MTK Budapest",
+        "Videoton FC"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Ferencváros 1903 óta összesen 35 alkalommal nyerte meg a magyar labdarúgó-bajnokságot, ez a rekord.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik magyar klub nyerte meg egymás után a legtöbb, tíz bajnoki címet, 1914 és 1925 között?",
+      "a": [
+        "MTK Budapest",
+        "Ferencvárosi TC",
+        "Újpest FC",
+        "Vasas SC"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az MTK 1914 és 1925 között tíz egymást követő bajnoki címmel állította fel az azóta is élő rekordot.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik magyar csapat nyert egymás után hét bajnoki címet 1969 és 1975 között?",
+      "a": [
+        "Újpest FC",
+        "Ferencvárosi TC",
+        "Honvéd",
+        "MTK Budapest"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Újpest 1969 és 1975 között hét egymást követő idényben lett magyar bajnok.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Hány góllal kapott ki a Videoton az 1985-ös UEFA-kupa-döntő székesfehérvári első mérkőzésén a Real Madridtól?",
+      "a": [
+        "Hárommal",
+        "Eggyel",
+        "Kettővel",
+        "Néggyel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Videoton 0:3-ra kikapott a Sóstói Stadionban rendezett első döntőn, 1985. május 8-án.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Hol nyert a Videoton az 1985-ös UEFA-kupa-döntő visszavágóján, a papírforma ellenére?",
+      "a": [
+        "A Real Madrid otthonában, a Santiago Bernabéuban",
+        "A Barcelona otthonában, a Camp Nouban",
+        "Semleges pályán, Párizsban",
+        "A Wembley stadionban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Videoton 1985. május 22-én 1:0-ra legyőzte a Real Madridot saját stadionjában, de a kupát összesítésben a spanyolok vitték el.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik ellenféltől kapott ki 4:0-ra a magyar válogatott a 2016-os franciaországi Európa-bajnokság nyolcaddöntőjében?",
+      "a": [
+        "Belgiumtól",
+        "Portugáliától",
+        "Izlandtól",
+        "Ausztriától"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Magyarország 2016. június 26-án 4:0-ra kikapott Belgiumtól, miután megnyerte a csoportkört.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Hány éves kihagyás után jutott ki ismét Európa-bajnokságra a magyar válogatott 2016-ban?",
+      "a": [
+        "44 éves",
+        "24 éves",
+        "32 éves",
+        "60 éves"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar válogatott 44 év szünet után szerepelt ismét Európa-bajnokságon 2016-ban.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik évben adták át a Puskás Arénát a régi Népstadion helyén?",
+      "a": [
+        "2019-ben",
+        "2016-ban",
+        "2021-ben",
+        "2014-ben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Puskás Arénát 2019. november 15-én adták át, nyitómérkőzésén a válogatott Uruguay ellen lépett pályára.",
+      "t": "stadionok"
+    },
+    {
+      "q": "Nagyjából hány nézőt fogad be teljesen kiépítve a Puskás Aréna?",
+      "a": [
+        "Mintegy 67 000 főt",
+        "Mintegy 40 000 főt",
+        "Mintegy 90 000 főt",
+        "Mintegy 55 000 főt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Puskás Aréna teljes befogadóképessége 67 215 fő, ezzel Magyarország legnagyobb stadionja.",
+      "t": "stadionok"
+    },
+    {
+      "q": "Melyik évben nyitották meg a Ferencváros otthonát, a Groupama Arénát?",
+      "a": [
+        "2014-ben",
+        "2010-ben",
+        "2019-ben",
+        "2006-ban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Groupama Arénát 2014. augusztus 10-én adták át a Ferencvárosi TC új otthonaként.",
+      "t": "stadionok"
+    },
+    {
+      "q": "Melyik magyar városban található a Nagyerdei Stadion, a Loki néven ismert labdarúgócsapat otthona?",
+      "a": [
+        "Debrecenben",
+        "Szegeden",
+        "Pécsett",
+        "Miskolcon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Nagyerdei Stadion Debrecenben áll, a Debreceni VSC, közismert nevén Loki otthona.",
+      "t": "stadionok"
+    },
+    {
+      "q": "Mikor nyílt meg újjáépítve, modern formájában a debreceni Nagyerdei Stadion?",
+      "a": [
+        "2014-ben",
+        "2009-ben",
+        "2019-ben",
+        "2001-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Nagyerdei Stadion bontás és újjáépítés után 2014. május 1-jén nyílt meg megújult formájában.",
+      "t": "stadionok"
+    },
+    {
+      "q": "Az alábbi állítások közül melyik NEM igaz a Puskás Arénára?",
+      "a": [
+        "1953-ban épült, és azóta nem is bővítették",
+        "A régi Népstadion helyén épült egy teljesen új stadion",
+        "2019-ben adták át",
+        "Több mint 67 000 nézőt fogad be"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mai Puskás Arénát 2019-ben adták át teljesen új építményként a lebontott Népstadion helyén, nem az 1953-as épület áll ma is.",
+      "t": "stadionok"
+    },
+    {
+      "q": "Miért számított különösen jelentősnek az 1986-os magyar Formula–1-es nagydíj a sportág történetében?",
+      "a": [
+        "Ez volt az első Forma–1-es futam a keleti blokk egy országában",
+        "Ez volt az első éjszakai Forma–1-es futam",
+        "Ekkor debütált az első magyar versenyző a mezőnyben",
+        "Ekkor épült az első aszfaltozott versenypálya Európában"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1986-os magyar nagydíj volt az első Forma–1-es futam, amelyet a keleti blokk egy országában rendeztek.",
+      "t": "motorsport"
+    },
+    {
+      "q": "Melyik magyarországi településen épült a Hungaroring versenypálya?",
+      "a": [
+        "Mogyoródon",
+        "Gödöllőn",
+        "Dunakeszin",
+        "Vácott"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Hungaroring Mogyoródon, Budapest közelében épült, és 1986 óta ad otthont a Forma–1-es magyar nagydíjnak.",
+      "t": "motorsport"
+    },
+    {
+      "q": "Ki nyerte meg az első Formula–1-es magyar nagydíjat 1986-ban?",
+      "a": [
+        "Nelson Piquet",
+        "Ayrton Senna",
+        "Alain Prost",
+        "Nigel Mansell"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nelson Piquet győzött 1986-ban, 17 másodperccel megelőzve a pole pozícióból rajtoló Ayrton Sennát.",
+      "t": "motorsport"
+    },
+    {
+      "q": "Hol szerezte meg Baumgartner Zsolt 2004-ben Magyarország mindeddig egyetlen Forma–1-es világbajnoki pontját?",
+      "a": [
+        "Indianapolisban",
+        "Monacóban",
+        "A Hungaroringen",
+        "Monzában"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Baumgartner Zsolt 2004. június 20-án Indianapolisban lett nyolcadik egy Minardival, így megszerezte Magyarország egyetlen F1-pontját.",
+      "t": "motorsport"
+    },
+    {
+      "q": "Hányadik rajthelyről indulva ért célba nyolcadikként Baumgartner Zsolt a történelmi indianapolisi futamon?",
+      "a": [
+        "A 19. helyről",
+        "Az 5. helyről",
+        "A 12. helyről",
+        "Az utolsó helyről"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Baumgartner a rácson csak 19. volt, mégis egy balesetekkel tarkított, kaotikus futamon nyolcadikként intették le.",
+      "t": "motorsport"
+    },
+    {
+      "q": "Hány évesen lett Polgár Judit minden idők akkori legfiatalabb nemzetközi nagymestere, megelőzve ezzel Bobby Fischer korábbi rekordját?",
+      "a": [
+        "15 évesen",
+        "12 évesen",
+        "18 évesen",
+        "21 évesen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Polgár Judit 15 évesen szerezte meg a nagymesteri címet, fiatalabb korban, mint korábban Bobby Fischer.",
+      "t": "sakk"
+    },
+    {
+      "q": "Melyik sakkolimpián lett Polgár Judit minden idők akkor legfiatalabb bajnoka?",
+      "a": [
+        "Az 1988-as sakkolimpián",
+        "Az 1994-es sakkolimpián",
+        "A 2000-es sakkolimpián",
+        "Az 1984-es sakkolimpián"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Polgár Judit 1988-ban, tizenkét évesen lett a legfiatalabb bajnok a sakkolimpia történetében.",
+      "t": "sakk"
+    },
+    {
+      "q": "Melyik ország sakkozója döntötte meg 2026-ban Polgár Judit 38 éve fennálló rekordját?",
+      "a": [
+        "Anglia",
+        "Franciaország",
+        "India",
+        "Kína"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 11 éves angol Bodhana Sivanandan 2026-ban győzött le egy 2600 Élő-pont feletti nagymestert, megdöntve Polgár Judit korábbi rekordját.",
+      "t": "sakk"
+    },
+    {
+      "q": "Melyik budapesti híd 1944-es váratlan felrobbantásakor vesztette életét a háromszoros olimpiai bajnok kardvívó, Kabos Endre?",
+      "a": [
+        "A Margit híd",
+        "A Lánchíd",
+        "Az Erzsébet híd",
+        "A Szabadság híd"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kabos Endre 1944 novemberében a Margit híd felrobbanásakor a helyszínen tartózkodott, és életét vesztette.",
+      "t": "vívás"
+    },
+    {
+      "q": "Hány olimpiai aranyérmet szerzett kardvívásban Kabos Endre?",
+      "a": [
+        "Hármat",
+        "Kettőt",
+        "Négyet",
+        "Egyet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kabos Endre 1932-ben csapatban, 1936-ban egyéniben és csapatban is olimpiai bajnok lett, összesen háromszor.",
+      "t": "vívás"
+    },
+    {
+      "q": "Hányszoros olimpiai bajnok volt Kárpáti Rudolf kardvívó, aki egyéniben és csapatban is többször diadalmaskodott?",
+      "a": [
+        "Hatszoros",
+        "Négyszeres",
+        "Kétszeres",
+        "Nyolcszoros"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kárpáti Rudolf hat olimpiai aranyérmet gyűjtött össze egyéni és csapat kardvívásban az 1948 és 1960 közötti játékokon.",
+      "t": "vívás"
+    },
+    {
+      "q": "Hány paralimpiai aranyérmet szerzett pályafutása során a kerekesszékes vívó, Szekeres Pál?",
+      "a": [
+        "Hármat",
+        "Egyet",
+        "Ötöt",
+        "Kettőt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Szekeres Pál három paralimpiai aranyérmet szerzett kerekesszékes vívásban, összesen hat érme van.",
+      "t": "paralimpia"
+    },
+    {
+      "q": "Melyik szeren lett olimpiai bajnok Berki Krisztián a 2012-es londoni olimpián?",
+      "a": [
+        "Lólengésben",
+        "Nyújtón",
+        "Gyűrűn",
+        "Talajon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Berki Krisztián a lólengés specialistájaként 2012-ben, Londonban szerezte meg egyetlen olimpiai aranyérmét.",
+      "t": "torna"
+    },
+    {
+      "q": "Miről vált világszerte ismertté a magyar tornász, Keleti Ágnes, öt olimpiai aranyérmén túl?",
+      "a": [
+        "Ő lett minden idők legidősebb olimpiai bajnoka",
+        "Ő volt az első női olimpiai résztvevő",
+        "Ő alapította az első magyar tornaklubot",
+        "Ő találta fel a felemás korlátot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Keleti Ágnes 2023-ban, 102 évesen és 242 naposan lett minden idők legidősebb élő olimpiai bajnoka.",
+      "t": "torna"
+    },
+    {
+      "q": "Hány szeren kell versenyeznie egy férfi tornásznak az olimpiai egyéni összetett versenyszámban?",
+      "a": [
+        "Hat szeren",
+        "Négy szeren",
+        "Nyolc szeren",
+        "Öt szeren"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A férfi tornászok hat szeren – talaj, ló, gyűrű, ugrás, korlát, nyújtó – versenyeznek az egyéni összetettben.",
+      "t": "torna"
+    },
+    {
+      "q": "A nemzetközi szabályok szerint hány szeren mutatkoznak be a női tornászok az egyéni összetett versenyszámban?",
+      "a": [
+        "Négy szeren",
+        "Hat szeren",
+        "Öt szeren",
+        "Három szeren"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A női tornászok négy szeren – ugrás, felemás korlát, gerenda és talaj – versenyeznek az összetettben.",
+      "t": "torna"
+    },
+    {
+      "q": "Milyen sportvezetői pozíciót töltött be visszavonulása után az olimpiai bajnok tornász, Berki Krisztián?",
+      "a": [
+        "A Magyar Tornaszövetség sportigazgatója lett",
+        "A Magyar Olimpiai Bizottság elnöke lett",
+        "Az Európai Torna Unió elnöke lett",
+        "A Nemzetközi Olimpiai Bizottság tagja lett"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Berki Krisztián 2021-es visszavonulása után a Magyar Tornaszövetség sportigazgatójaként dolgozik tovább.",
+      "t": "torna"
+    },
+    {
+      "q": "Milyen elismerésben részesítette 2016-ban a Nemzetközi Torna Szövetség (FIG) Berki Krisztiánt?",
+      "a": [
+        "Egy lólengés-elemkombinációt neveztek el róla",
+        "Örökös tagságot kapott a FIG vezetőségében",
+        "Neki ítélték a legjobb sportoló díjat",
+        "Múzeumot neveztek el róla Budapesten"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "2016-ban egy lólengésen bemutatott elemkombinációt neveztek el Berki Krisztiánról a nemzetközi szabálykönyvben.",
+      "t": "torna"
+    },
+    {
+      "q": "Hányszor nyerte meg eddig a női kézilabda Bajnokok Ligáját a Győri Audi ETO KC?",
+      "a": [
+        "Hétszer",
+        "Ötször",
+        "Kilencszer",
+        "Háromszor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Győri Audi ETO KC a legutóbbi diadalával hétszeres BL-győztes csapattá vált, Európa egyik legsikeresebb klubjaként.",
+      "t": "kézilabda"
+    },
+    {
+      "q": "Melyik másik országgal közösen rendezte meg Magyarország a 2022-es férfi kézilabda-Európa-bajnokságot?",
+      "a": [
+        "Szlovákiával",
+        "Horvátországgal",
+        "Ausztriával",
+        "Lengyelországgal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 2022-es férfi kézilabda-Európa-bajnokságot Magyarország és Szlovákia öt városban, közösen rendezte meg.",
+      "t": "kézilabda"
+    },
+    {
+      "q": "Hány városban bonyolították le a 2022-es férfi kézilabda-Európa-bajnokság mérkőzéseit Magyarországon és Szlovákiában összesen?",
+      "a": [
+        "Öt városban",
+        "Három városban",
+        "Nyolc városban",
+        "Két városban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tornát Budapesten, Szegeden, Debrecenben, Kassán és Pozsonyban rendezték meg.",
+      "t": "kézilabda"
+    },
+    {
+      "q": "Melyik magyar női kosárlabdacsapat nyerte meg elsőként a történelemben az Euroligát, 2022-ben?",
+      "a": [
+        "A Sopron Basket",
+        "Az UNI Győr",
+        "A Szeged",
+        "A ZTE KK"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Sopron Basket 2022-ben Isztambulban 60:55-re legyőzte a Fenerbahcét, első magyar kosárlabdacsapatként nyerve Euroligát.",
+      "t": "kosárlabda"
+    },
+    {
+      "q": "Melyik török csapat ellen nyerte meg a Sopron Basket a 2022-es női Euroliga döntőjét?",
+      "a": [
+        "A Fenerbahce ellen",
+        "A Galatasaray ellen",
+        "A Besiktas ellen",
+        "A Trabzonspor ellen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Sopron a házigazda Fenerbahcét győzte le 60:55-re az isztambuli négyes döntő fináléjában.",
+      "t": "kosárlabda"
+    },
+    {
+      "q": "Hány évvel a korábbi siker után nyerte meg a magyar asztalitenisz-válogatott az 1979-es phenjani csapat-világbajnokságot?",
+      "a": [
+        "27 évvel később",
+        "10 évvel később",
+        "50 évvel később",
+        "5 évvel később"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar csapat 1979-ben, Phenjanban 27 év után nyert ismét csapat-világbajnokságot asztaliteniszben.",
+      "t": "asztalitenisz"
+    },
+    {
+      "q": "Melyik ázsiai fővárosban nyerte meg a magyar asztalitenisz-válogatott az 1979-es csapat-világbajnokságot, legyőzve a kínai csapatot?",
+      "a": [
+        "Phenjanban",
+        "Pekingben",
+        "Szöulban",
+        "Tokióban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar csapat 1979-ben Phenjanban 5:1-re verte Kínát, és világbajnok lett asztaliteniszben.",
+      "t": "asztalitenisz"
+    },
+    {
+      "q": "Hány évesen ért el meglepetésre negyedik helyet egyéniben az 1988-as szöuli olimpián a magyar asztaliteniszező, Klampár Tibor?",
+      "a": [
+        "35 évesen",
+        "20 évesen",
+        "45 évesen",
+        "28 évesen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Klampár Tibor 35 évesen, 1988-ban Szöulban ért el meglepő negyedik helyet egyéniben.",
+      "t": "asztalitenisz"
+    },
+    {
+      "q": "Hány olimpiai aranyérmet szerzett pályafutása során a kajakozó Kammerer Zoltán?",
+      "a": [
+        "Hármat",
+        "Kettőt",
+        "Négyet",
+        "Egyet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kammerer Zoltán 2000-ben kettőt (K-2 500 m, K-4 1000 m), 2004-ben pedig egyet (K-4 1000 m) szerzett, összesen hármat.",
+      "t": "kajak-kenu"
+    },
+    {
+      "q": "Ki lett minden idők legeredményesebb magyar olimpikonja, miután a tokiói olimpián megszerezte hatodik aranyérmét kajak-kenuban?",
+      "a": [
+        "Kozák Danuta",
+        "Egerszegi Krisztina",
+        "Kovács Katalin",
+        "Janics Natasa"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kozák Danuta a tokiói négyes kajak aranyával lett minden idők legeredményesebb magyar olimpikonja, hat arannyal.",
+      "t": "kajak-kenu"
+    },
+    {
+      "q": "Hány aranyérmet szerzett egymaga Kozák Danuta a 2016-os riói olimpián?",
+      "a": [
+        "Hármat",
+        "Kettőt",
+        "Egyet",
+        "Négyet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kozák Danuta Rióban egyesben, párosban és négyesben is aranyérmet nyert, azaz három arannyal zárt.",
+      "t": "kajak-kenu"
+    },
+    {
+      "q": "Mit jelöl a kajak-kenu versenyszámok elnevezésében szereplő \"K-4\" jelölés?",
+      "a": [
+        "Egy négyfős kajakot",
+        "Egy négy kilométeres távot",
+        "A negyedik futamot",
+        "Egy négyevezős kenut"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A \"K\" a kajakot, a szám pedig a hajóban evező sportolók létszámát jelöli, így a K-4 négyfős kajakot jelent.",
+      "t": "kajak-kenu"
+    },
+    {
+      "q": "Az alábbi állítások közül melyik NEM igaz Kozák Danutára?",
+      "a": [
+        "Pályafutása alatt sosem szerzett világbajnoki aranyérmet",
+        "Hat olimpiai aranyérmet szerzett pályafutása során",
+        "A riói olimpián három aranyérmet nyert egyéniben, párosban és négyesben",
+        "A tokiói olimpián is szerzett aranyérmet a négyes kajakkal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kozák Danuta olimpiai sikerei mellett számos világbajnoki aranyérmet is szerzett pályafutása során.",
+      "t": "kajak-kenu"
+    },
+    {
+      "q": "Hagyományosan mely öt sportágból állt az öttusa versenyszám, amelyben Balczó András háromszoros olimpiai bajnok lett?",
+      "a": [
+        "Vívás, úszás, lovaglás, sportlövészet, futás",
+        "Futás, kerékpározás, úszás, evezés, íjászat",
+        "Torna, atlétika, úszás, vívás, cselgáncs",
+        "Vívás, birkózás, futás, dobás, ugrás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A klasszikus öttusa vívásból, úszásból, lovaglásból, sportlövészetből és futásból állt.",
+      "t": "öttusa"
+    },
+    {
+      "q": "Hányszoros olimpiai bajnok az öttusázó Balczó András?",
+      "a": [
+        "Háromszoros",
+        "Kétszeres",
+        "Négyszeres",
+        "Egyszeres"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Balczó András 1960-ban és 1968-ban csapatban, 1972-ben pedig egyéniben is olimpiai bajnok lett.",
+      "t": "öttusa"
+    },
+    {
+      "q": "Hány világbajnoki aranyérmet szerzett pályafutása során összesen az öttusázó Balczó András?",
+      "a": [
+        "Tízet",
+        "Ötöt",
+        "Hármat",
+        "Tizenötöt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Balczó András tíz világbajnoki aranyérmet gyűjtött össze az öttusa versenyszámban pályafutása során.",
+      "t": "öttusa"
+    },
+    {
+      "q": "Milyen úszásnemben és távon lett olimpiai bajnok Gyurta Dániel 2012-ben Londonban, világcsúccsal?",
+      "a": [
+        "200 méteres mellúszásban",
+        "100 méteres gyorsúszásban",
+        "200 méteres pillangóúszásban",
+        "400 méteres vegyesúszásban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Gyurta Dániel 2:07,28-as világcsúccsal nyerte a 200 méteres mellúszást a londoni olimpián.",
+      "t": "úszás"
+    },
+    {
+      "q": "Cseh László pályafutása során hányszor állt fel az olimpiai dobogó második, ezüstérmes fokára?",
+      "a": [
+        "Négyszer",
+        "Kétszer",
+        "Hatszor",
+        "Egyszer"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Cseh László négyszeres olimpiai ezüstérmes lett, gyakran Michael Phelps mögött végezve.",
+      "t": "úszás"
+    },
+    {
+      "q": "Kivel alakult ki hármas holtverseny az ezüstéremért Cseh László számára a 2016-os riói olimpia 100 méteres pillangóúszás döntőjében?",
+      "a": [
+        "Michael Phelpsszel és Chad le Clos-val",
+        "Ryan Lochte-val és Ian Thorpe-pal",
+        "Katie Ledeckyvel",
+        "Mark Spitz-cel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Rióban hármas holtverseny alakult ki az ezüstérem helyezésért Cseh László, Michael Phelps és Chad le Clos között.",
+      "t": "úszás"
+    },
+    {
+      "q": "Hány érmet szerzett összesen Hosszú Katinka a 2016-os riói olimpián?",
+      "a": [
+        "Négyet",
+        "Kettőt",
+        "Hármat",
+        "Ötöt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hosszú Katinka Rióban három aranyat (400 vegyes, 100 hát, 200 vegyes) és egy ezüstöt (200 hát) szerzett, összesen négyet.",
+      "t": "úszás"
+    },
+    {
+      "q": "Melyik legendás amerikai úszó fénykorában versenyzett Cseh László, ami miatt sosem sikerült olimpiai aranyat szereznie?",
+      "a": [
+        "Michael Phelps",
+        "Mark Spitz",
+        "Ian Thorpe",
+        "Ryan Lochte"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Cseh László Michael Phelps fénykorában versenyzett, ezért gyakran csak ezüst- vagy bronzérmet szerzett arany helyett.",
+      "t": "úszás"
+    },
+    {
+      "q": "Melyik budapesti aréna adott otthont a 2017-es úszó-vizes világbajnokság versenyszámai nagy részének?",
+      "a": [
+        "A Duna Aréna",
+        "A Papp László Aréna",
+        "A Groupama Aréna",
+        "Az Aréna Balaton"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 2017-es vizes világbajnokság fő helyszíne a Duna Aréna volt, emellett a Hajós Alfréd Stadion és a Balaton is szerepelt.",
+      "t": "sportesemények"
+    },
+    {
+      "q": "Melyik évben adott otthont Budapest a FINA úszó-vizes világbajnokságnak, miután Mexikó visszalépett a rendezéstől?",
+      "a": [
+        "2017-ben",
+        "2013-ban",
+        "2021-ben",
+        "2009-ben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Miután Mexikó lemondta a rendezést, a FINA úgy döntött, hogy Budapest rendezi meg a világbajnokságot 2017-ben.",
+      "t": "sportesemények"
+    },
+    {
+      "q": "Melyik újonnan épült budapesti létesítmény adott otthont a 2023-as atlétikai világbajnokságnak?",
+      "a": [
+        "A Nemzeti Atlétikai Központ",
+        "A Puskás Aréna",
+        "A Groupama Aréna",
+        "A Papp László Aréna"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Duna partján épült Nemzeti Atlétikai Központban rendezték 2023-ban Magyarország első atlétikai világbajnokságát.",
+      "t": "sportesemények"
+    },
+    {
+      "q": "Nagyjából hány nemzet sportolói vettek részt a 2023-as budapesti atlétikai világbajnokságon?",
+      "a": [
+        "195 nemzet",
+        "100 nemzet",
+        "250 nemzet",
+        "150 nemzet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 2023-as budapesti világbajnokságon 195 nemzet mintegy 2000 versenyzője indult 49 versenyszámban.",
+      "t": "sportesemények"
+    },
+    {
+      "q": "Hányszor rendezték meg Budapesten a cselgáncs-világbajnokságot 2025-ig bezárólag?",
+      "a": [
+        "Háromszor",
+        "Egyszer",
+        "Ötször",
+        "Kétszer"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Budapest 2017-ben, 2021-ben és 2025-ben is otthont adott a cselgáncs-világbajnokságnak.",
+      "t": "cselgáncs"
+    },
+    {
+      "q": "Melyik nemzetközi sportszövetség szervezi azokat a cselgáncs-világbajnokságokat, amelyeknek Budapest többször is házigazdája volt?",
+      "a": [
+        "A Nemzetközi Dzsúdószövetség (IJF)",
+        "A Nemzetközi Olimpiai Bizottság",
+        "A Nemzetközi Vívószövetség",
+        "A Nemzetközi Birkózó Szövetség"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cselgáncs-világbajnokságokat a Nemzetközi Dzsúdószövetség (IJF) szervezi.",
+      "t": "cselgáncs"
+    },
+    {
+      "q": "Melyik versenyszámban ért el ötödik helyezést a magyar sportlövő, Péni István, legjobb olimpiai eredményeként a 2020-as, 2021-ben megrendezett tokiói olimpián?",
+      "a": [
+        "10 méteres légpuska",
+        "10 méteres légpisztoly",
+        "Skeet",
+        "50 méteres kisöbű puska"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Péni István 186,5 ponttal ötödik lett a légpuskások döntőjében, ez addigi legjobb olimpiai eredménye volt.",
+      "t": "sportlövészet"
+    },
+    {
+      "q": "Hány érmet szerzett összesen a magyar csapat a 2024-es párizsi paralimpián?",
+      "a": [
+        "15 érmet",
+        "8 érmet",
+        "22 érmet",
+        "30 érmet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar paralimpiai csapat 15 éremmel zárta a 2024-es párizsi versenyt.",
+      "t": "paralimpia"
+    },
+    {
+      "q": "Melyik sportágban szerezte érmeit a hatszoros paralimpiai érmes, köztük többszörös aranyérmes Szekeres Pál?",
+      "a": [
+        "Vívásban",
+        "Úszásban",
+        "Asztaliteniszben",
+        "Íjászatban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szekeres Pál egy közlekedési baleset után kerekesszékbe kényszerült, majd kerekesszékes vívóként lett többszörös paralimpiai bajnok.",
+      "t": "paralimpia"
+    },
+    {
+      "q": "Vízilabdában hányszor lett olimpiai bajnok Kárpáti György, aki később a sportág vezetője is lett?",
+      "a": [
+        "Háromszor",
+        "Kétszer",
+        "Egyszer",
+        "Négyszer"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kárpáti György háromszoros olimpiai bajnok lett a magyar vízilabda-válogatott tagjaként, később edzőként is dolgozott.",
+      "t": "vízilabda"
+    },
+    {
+      "q": "Hány mezőnyjátékos és kapus alkotja együttesen egy vízilabdacsapat vízben lévő létszámát egy adott pillanatban?",
+      "a": [
+        "Hét fő",
+        "Öt fő",
+        "Kilenc fő",
+        "Hat fő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A vízilabdában egy csapat hat mezőnyjátékosból és egy kapusból, azaz hét főből áll a vízben.",
+      "t": "vízilabda"
+    },
+    {
+      "q": "Hány hivatalos fegyverfajtát különböztet meg a modern sportvívás?",
+      "a": [
+        "Hármat: kard, tőr, párbajtőr",
+        "Kettőt: kard és tőr",
+        "Négyet",
+        "Egyet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A vívásban három fegyvernemet különböztetnek meg: a kardot, a tőrt és a párbajtőrt.",
+      "t": "vívás"
+    },
+    {
+      "q": "Hány versenyszámból áll a férfi atlétikai tízpróba, a decathlon?",
+      "a": [
+        "Tízből",
+        "Nyolcból",
+        "Tizenkettőből",
+        "Hétből"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tízpróba (decathlon) elnevezése is jelzi, hogy tíz atlétikai versenyszámból áll össze két nap alatt.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Nagyjából hány nemzet sportolói versenyeztek a 2017-es budapesti vizes világbajnokságon?",
+      "a": [
+        "182 nemzet",
+        "100 nemzet",
+        "220 nemzet",
+        "150 nemzet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 2017-es budapesti vizes világbajnokságon 182 nemzet sportolói vettek részt.",
+      "t": "sportesemények"
+    },
+    {
+      "q": "Nagyjából hány sportoló vett részt összesen a 2017-es budapesti vizes világbajnokságon?",
+      "a": [
+        "Mintegy 2360 fő",
+        "Mintegy 500 fő",
+        "Mintegy 5000 fő",
+        "Mintegy 1000 fő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 2017-es budapesti vizes világbajnokságon 182 nemzet összesen 2360 sportolója versenyzett.",
+      "t": "sportesemények"
+    },
+    {
+      "q": "Mi volt a 2017-es budapesti vizes világbajnokság hivatalos szlogenje?",
+      "a": [
+        "\"Water, Wonder, Welcome\"",
+        "\"Faster, Higher, Stronger\"",
+        "\"One World, One Dream\"",
+        "\"Sport for All\""
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 2017-es budapesti vizes világbajnokság szlogenje a magyar népművészet és a víz ihlette logóhoz kapcsolódva a \"Water, Wonder, Welcome\" volt.",
+      "t": "sportesemények"
+    },
+    {
+      "q": "Melyik tavat is bevonták helyszínként a 2017-es vizes világbajnokság nyíltvízi versenyszámaiba a budapesti helyszínek mellett?",
+      "a": [
+        "A Balatont",
+        "A Velencei-tavat",
+        "A Fertő tavat",
+        "A Tisza-tavat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 2017-es vizes világbajnokság nyíltvízi úszóversenyeit részben a Balatonon rendezték a budapesti helyszínek mellett.",
+      "t": "sportesemények"
+    },
+    {
+      "q": "Melyik magyar kalapácsvető nyerte meg 2026-ban a birminghami atlétikai Európa-bajnokságot nemzeti csúccsal?",
+      "a": [
+        "Halász Bence",
+        "Pars Krisztián",
+        "Németh Miklós",
+        "Kozmus Krisztián"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Halász Bence 84,26 méteres új magyar csúccsal nyerte az Európa-bajnokságot, első felnőtt egyéni világversenyi aranyát nyolcadik világversenyén szerezte.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Milyen eredménnyel zárt Halász Bence a 2024-es párizsi olimpia kalapácsvetés versenyszámában?",
+      "a": [
+        "Ezüstérmet szerzett",
+        "Aranyérmet szerzett",
+        "Bronzérmet szerzett",
+        "Négy közé sem jutott be"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Halász Bence a párizsi olimpián ezüstérmet nyert kalapácsvetésben.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Melyik olimpián lett Németh Miklós gerelyhajításban olimpiai bajnok?",
+      "a": [
+        "Az 1976-os montreali olimpián",
+        "Az 1980-as moszkvai olimpián",
+        "Az 1972-es müncheni olimpián",
+        "Az 1984-es los angeles-i olimpián"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Németh Miklós az 1976-os montreali olimpián nyert aranyérmet gerelyhajításban.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Melyik olimpián szerzett aranyérmet kalapácsvetésben Pars Krisztián?",
+      "a": [
+        "A 2012-es londoni olimpián",
+        "A 2008-as pekingi olimpián",
+        "A 2016-os riói olimpián",
+        "A 2020-as tokiói olimpián"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pars Krisztián a 2012-es londoni olimpián lett bajnok kalapácsvetésben.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Mit jelent a Gyulai István Memorial elnevezés a magyar atlétikában?",
+      "a": [
+        "Egy évente megrendezett nemzetközi atlétikai versenyt Budapesten",
+        "Egy magyar atlétikai stadion nevét Debrecenben",
+        "Egy olimpiai bajnokok számára alapított díjat",
+        "Az atlétikai szövetség éves közgyűlését"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Gyulai István Memorial egy rangos, évente megrendezett nemzetközi atlétikai gálaverseny Budapesten.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Milyen új létesítményben rendezték meg a 2023-as budapesti atlétikai világbajnokságot?",
+      "a": [
+        "A Nemzeti Atlétikai Központban",
+        "A Puskás Arénában",
+        "A Groupama Arénában",
+        "A Papp László Sportarénában"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A világbajnokságnak a Csepel-sziget közelében épült, kifejezetten atlétikára tervezett Nemzeti Atlétikai Központ adott otthont.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Honnan indult a maratoni futók mezőnye a 2023-as budapesti atlétikai világbajnokságon?",
+      "a": [
+        "A Hősök teréről",
+        "A Kossuth térről",
+        "A Margitszigetről",
+        "A Deák Ferenc térről"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A maraton és a gyaloglás rajtja és célja is a Hősök terén volt, az útvonal az Andrássy úton és a Lánchídon vezetett át.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Hányadik felnőtt világversenyén szerezte meg Halász Bence az első egyéni aranyérmét 2026-ban?",
+      "a": [
+        "A nyolcadikon",
+        "A másodikon",
+        "A negyediken",
+        "A tizediken"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Halász Bence saját elmondása szerint nyolcadik világversenyén nyert először aranyat, korábban többször is közel járt hozzá.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Melyik évben nyerte meg a magyar női kézilabda-válogatott az Európa-bajnokságot?",
+      "a": [
+        "2000-ben",
+        "1996-ban",
+        "2004-ben",
+        "2008-ban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar női válogatott 2000-ben, Romániában rendezett Európa-bajnokságon szerzett aranyérmet.",
+      "t": "kézilabda"
+    },
+    {
+      "q": "Melyik magyar kézilabdázót választották 2005-ben a nemzetközi szövetség a világ legjobb női játékosának?",
+      "a": [
+        "Görbicz Anitát",
+        "Kökény Beatrixet",
+        "Herr Juditot",
+        "Szucsánszki Zitát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Görbicz Anitát 2005-ös teljesítménye alapján választotta a Nemzetközi Kézilabda-szövetség a világ legjobb női kézilabdázójának.",
+      "t": "kézilabda"
+    },
+    {
+      "q": "Mennyi ideig áll ki a pályáról egy kézilabdázó, ha kiállítást kap?",
+      "a": [
+        "2 percig",
+        "1 percig",
+        "5 percig",
+        "A mérkőzés végéig"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kiállítás büntetése kézilabdában 2 perc, ezalatt a csapat emberhátrányban játszik.",
+      "t": "kézilabda"
+    },
+    {
+      "q": "Milyen távolságról dobják a hétméteres büntetőt kézilabdában?",
+      "a": [
+        "7 méterről a kaputól",
+        "6 méterről a kaputól",
+        "9 méterről a kaputól",
+        "11 méterről a kaputól"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A büntetődobást a kapu előtt 7 méterre húzott vonalról kell végrehajtani, innen kapta a nevét is.",
+      "t": "kézilabda"
+    },
+    {
+      "q": "Miért kerül emberhátrányba leggyakrabban egy kézilabdacsapat a mérkőzés során?",
+      "a": [
+        "Mert az egyik játékosuk kiállítást kapott szabálytalanságért",
+        "Mert a csapat lejátszotta a rendelkezésre álló támadási időt",
+        "Mert a kapusuk elhagyta a kaput labdaszerzés közben",
+        "Mert passzív játékért sípolt a játékvezető ellenük"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A leggyakoribb emberhátrányt a durva vagy szabálytalan védekezésért járó 2 perces kiállítás okozza.",
+      "t": "kézilabda"
+    },
+    {
+      "q": "Hány mezőnyjátékos alkot egy kézilabdacsapatot a pályán a kapus mellett?",
+      "a": [
+        "Hat",
+        "Öt",
+        "Hét",
+        "Nyolc"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kézilabdában egy csapat hat mezőnyjátékossal és egy kapussal játszik egyszerre a pályán.",
+      "t": "kézilabda"
+    },
+    {
+      "q": "Melyik évben szerzett először ezüstérmet a magyar női kosárlabda-válogatott az Európa-bajnokságon?",
+      "a": [
+        "1950-ben",
+        "1972-ben",
+        "1990-ben",
+        "1960-ban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar női válogatott 1950-ben és 1956-ban is ezüstérmet szerzett a kontinensbajnokságon.",
+      "t": "kosárlabda"
+    },
+    {
+      "q": "Hány pontot ér egy dobás a kosárlabda-pályán húzott háromponti vonalon kívülről?",
+      "a": [
+        "Három pontot",
+        "Két pontot",
+        "Négy pontot",
+        "Egy pontot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A háromponti vonalon kívülről eldobott és bedobott labda három pontot ér.",
+      "t": "kosárlabda"
+    },
+    {
+      "q": "Mit jelent a kosárlabdában a lépéshiba szabálysértés?",
+      "a": [
+        "A játékos labdatartás közben szabálytalanul mozgatja a lábát",
+        "A játékos túllépi a 24 másodpercet",
+        "A játékos belép az ellenfél térfelére",
+        "A játékos kétszer indít labdavezetést"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A lépéshiba akkor történik, ha a labdát kézben tartó játékos szabálytalanul mozdítja a lábát a talajon.",
+      "t": "kosárlabda"
+    },
+    {
+      "q": "Hány másodperc áll rendelkezésre egy csapatnak, hogy kosárra dobjon, mielőtt elveszíti a labdát?",
+      "a": [
+        "24 másodperc",
+        "30 másodperc",
+        "20 másodperc",
+        "45 másodperc"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A támadó csapatnak a nemzetközi szabályok szerint 24 másodperce van a dobás elvégzésére.",
+      "t": "kosárlabda"
+    },
+    {
+      "q": "Hány fős a kosárlabdacsapatok pályán lévő létszáma egyszerre a mérkőzés során?",
+      "a": [
+        "Öt-öt játékos",
+        "Hat-hat játékos",
+        "Négy-négy játékos",
+        "Hét-hét játékos"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kosárlabdában mindkét csapat öt-öt játékossal van jelen egyszerre a pályán.",
+      "t": "kosárlabda"
+    },
+    {
+      "q": "Hány éves korában szerezte meg Polgár Judit a nemzetközi nagymesteri címet, megdöntve Bobby Fischer korábbi rekordját?",
+      "a": [
+        "15 évesen",
+        "12 évesen",
+        "18 évesen",
+        "20 évesen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Polgár Judit 15 évesen lett nagymester, ezzel akkor minden idők legfiatalabb nagymestere lett.",
+      "t": "sakk"
+    },
+    {
+      "q": "Hány hónapon át vezette megszakítás nélkül a női sakk-világranglistát Polgár Judit?",
+      "a": [
+        "312 hónapon át",
+        "100 hónapon át",
+        "50 hónapon át",
+        "200 hónapon át"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Polgár Judit 1989-től 2015 márciusáig, összesen 312 hónapig állt a női világranglista élén.",
+      "t": "sakk"
+    },
+    {
+      "q": "Mekkora volt Polgár Judit legmagasabb Élő-pontszáma pályafutása során?",
+      "a": [
+        "2735 pont",
+        "2600 pont",
+        "2900 pont",
+        "2500 pont"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Polgár Judit 2005 júliusában érte el 2735 pontos csúcsértékelését, elsőként a nők közül lépve a szuper-nagymesteri szint fölé.",
+      "t": "sakk"
+    },
+    {
+      "q": "Mit jelent a sakkban a patt helyzet?",
+      "a": [
+        "A lépésre kötelezett fél nem tud szabályos lépést tenni, királya nincs sakkban",
+        "A király sakkban van, és nem tud kimenekülni belőle",
+        "Mindkét játékos egyszerre kerül lépéskényszerbe",
+        "A parti 50 lépés után automatikusan döntetlenné válik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Patt akkor jön létre, ha a lépésre kötelezett fél egyetlen szabályos lépést sem tud tenni, miközben a királya nincs sakkban - ekkor a parti döntetlen.",
+      "t": "sakk"
+    },
+    {
+      "q": "Melyik sakkbábu léphet a táblán kizárólag átlósan, tetszőleges távolságra?",
+      "a": [
+        "A futó",
+        "A bástya",
+        "A huszár",
+        "A gyalog"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A futó kizárólag átlós irányban mozoghat, tetszőleges számú mezőn keresztül.",
+      "t": "sakk"
+    },
+    {
+      "q": "Kikkel együtt nyerte meg Klampár Tibor az 1979-es phenjani asztalitenisz-világbajnokság csapatdöntőjét Kína ellen?",
+      "a": [
+        "Jónyer Istvánnal és Gergely Gáborral",
+        "Berczik Zoltánnal és Sidó Ferenccel",
+        "Fazekas Pállal és Bottyán Péterrel",
+        "Rózsás Istvánnal és Kishegyi Sándorral"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az 1979-es phenjani vb-n a Jónyer-Klampár-Gergely trió sokkolóan 5:1-re győzte le a nagy esélyes Kínát.",
+      "t": "asztalitenisz"
+    },
+    {
+      "q": "Hányadik helyen végzett Klampár Tibor a legjobb egyéni olimpiai eredményével?",
+      "a": [
+        "Negyedik lett",
+        "Bajnok lett",
+        "Ezüstérmes lett",
+        "Nyolcadik lett"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Klampár Tibor 35 évesen, az 1988-as szöuli olimpián meglepetésre a negyedik helyen zárt egyéniben.",
+      "t": "asztalitenisz"
+    },
+    {
+      "q": "Hány pontot kell elérni egy játszmában a modern asztalitenisz-szabályok szerint a győzelemhez?",
+      "a": [
+        "11 pontot, legalább kétpontos előnnyel",
+        "21 pontot, legalább kétpontos előnnyel",
+        "15 pontot, egyenlő állás esetén hosszabbítással",
+        "9 pontot, döntetlen esetén újrajátszással"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "2001 óta egy asztalitenisz-játszma 11 pontig tart, de legalább kétpontos különbséggel kell nyerni.",
+      "t": "asztalitenisz"
+    },
+    {
+      "q": "Miért szabálytalan az asztaliteniszben, ha a szerváló játékos a labdát a tenyerén elrejti adogatás közben?",
+      "a": [
+        "Mert az ellenfél nem láthatja tisztán a labda elhagyását a kéztől",
+        "Mert ez lassítja a játék tempóját feleslegesen",
+        "Mert így nem lehet pörgetést adni a labdának",
+        "Mert a labdának az asztal fölé kell emelkednie adogatáskor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szabály célja, hogy az adogatás átlátható legyen: az ellenfélnek látnia kell a labda elhagyását a nyitó kézből.",
+      "t": "asztalitenisz"
+    },
+    {
+      "q": "Ki lett 2004-ben Athénban az első magyar női olimpiai bajnok sportlövő?",
+      "a": [
+        "Igaly Diána",
+        "Kurková Katalin",
+        "Balogh Zsuzsanna",
+        "Németh Renáta"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Igaly Diána skeet lövészetben szerzett aranyérmet a 2004-es athéni olimpián.",
+      "t": "sportlövészet"
+    },
+    {
+      "q": "Melyik fegyvernemben versenyzett olimpiai bajnokként Igaly Diána?",
+      "a": [
+        "A skeet, vagyis az agyaggalamb-lövészet",
+        "A légpuska versenyszám",
+        "A sportpisztoly versenyszám",
+        "A sporttrap gyorstüzelő pisztoly"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Igaly Diána a skeet, vagyis az agyaggalamb-lövészet versenyszámban lett olimpiai bajnok 2004-ben.",
+      "t": "sportlövészet"
+    },
+    {
+      "q": "Ki volt az első magyar olimpiai bajnok sportlövő?",
+      "a": [
+        "Prokopp Sándor",
+        "Igaly Diána",
+        "Sidi Péter",
+        "Kovács Antal"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Prokopp Sándor tekinthető az első magyar sportlövő olimpiai bajnoknak.",
+      "t": "sportlövészet"
+    },
+    {
+      "q": "Milyen céltárgyat kell eltalálni a skeet lövészetben?",
+      "a": [
+        "Repülő agyaggalambot",
+        "Álló papírcélt",
+        "Mozgó vadkacsa-sziluettet",
+        "Vízen úszó bóját"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A skeet versenyszámban a lövőnek különböző szögekből kirepített agyaggalambokat kell eltalálnia.",
+      "t": "sportlövészet"
+    },
+    {
+      "q": "Milyen eredménnyel zárta a 2020-as, 2021-ben megrendezett tokiói olimpiát a cselgáncsozó Tóth Krisztián?",
+      "a": [
+        "Bronzérmet szerzett",
+        "Aranyérmet szerzett",
+        "Ezüstérmet szerzett",
+        "Az elődöntőben kiesett érem nélkül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Tóth Krisztián 90 kg-ban bronzérmet nyert a tokiói olimpián.",
+      "t": "cselgáncs"
+    },
+    {
+      "q": "Mit jelent a cselgáncsban az ippon minősítés?",
+      "a": [
+        "A dobás vagy fogás azonnali, teljes győzelmet ér",
+        "Egy apró technikai hibát a versenyzőnél",
+        "A mérkőzés döntetlen eredményét",
+        "A versenyző kizárását a versenyből"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ippon a legmagasabb értékelés cselgáncsban, amellyel a mérkőzés azonnal véget ér a dobást végrehajtó javára.",
+      "t": "cselgáncs"
+    },
+    {
+      "q": "Milyen színű övet visel a legmagasabb technikai fokozatot elért, tapasztalt cselgáncsmester?",
+      "a": [
+        "Fekete övet",
+        "Piros övet",
+        "Barna övet",
+        "Lila övet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cselgáncsban a fekete öv jelzi a mesterfokozatot, a legmagasabb szintet elérőknél piros-fehér csíkozású változat is létezik.",
+      "t": "cselgáncs"
+    },
+    {
+      "q": "Mekkora a cselgáncs küzdőterének, a tataminak a mérete jellemzően egy nemzetközi versenyen?",
+      "a": [
+        "Kb. 8x8 méter",
+        "Kb. 4x4 méter",
+        "Kb. 20x20 méter",
+        "Kb. 12x12 méter"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A nemzetközi versenyeken a versenyterület jellemzően 8x8 méteres tatamiból áll.",
+      "t": "cselgáncs"
+    },
+    {
+      "q": "Melyik számban nyert aranyérmet Konkoly Zsófia a 2024-es párizsi paralimpián?",
+      "a": [
+        "400 méteres gyorsúszásban",
+        "100 méteres pillangóúszásban",
+        "200 méteres hátúszásban",
+        "50 méteres gyorsúszásban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Konkoly Zsófia a 400 méteres gyorsúszás S9-es kategóriájában szerzett aranyérmet Párizsban.",
+      "t": "paralimpia"
+    },
+    {
+      "q": "Milyen érmet szerzett Illés Fanni a tokiói paralimpián 100 méteres mellúszásban?",
+      "a": [
+        "Aranyérmet",
+        "Ezüstérmet",
+        "Bronzérmet",
+        "Negyedik helyezést"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Illés Fanni a tokiói paralimpián aranyérmet nyert 100 méteres mellúszásban.",
+      "t": "paralimpia"
+    },
+    {
+      "q": "Melyik magyar paraúszó vitte a magyar csapat zászlaját a 2024-es párizsi paralimpia megnyitóján?",
+      "a": [
+        "Illés Fanni",
+        "Konkoly Zsófia",
+        "Pap Bianka",
+        "Fehér Zsófia"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Illés Fanni, ötödik paralimpiáján részt vevő paraúszó vitte a magyar zászlót a párizsi megnyitón.",
+      "t": "paralimpia"
+    },
+    {
+      "q": "Mire utal a paralimpiai úszóversenyszámok elnevezésében az S betűt követő szám?",
+      "a": [
+        "A versenyző fogyatékossági, funkcionális osztályát jelzi",
+        "Az adott versenyszám úszott távját jelöli méterben",
+        "A nap versenyszámainak sorrendjét mutatja meg",
+        "Az uszoda adott pályájának sorszámát jelenti"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az S-osztályozás a mozgáskorlátozottság mértéke szerint sorolja csoportokba az úszókat, minél alacsonyabb a szám, annál súlyosabb a fogyatékosság.",
+      "t": "paralimpia"
+    },
+    {
+      "q": "Hogyan nevezik azt az olimpiai játékokkal párhuzamosan, ugyanazon helyszíneken rendezett versenysorozatot, amelyen fogyatékkal élő sportolók indulnak?",
+      "a": [
+        "Paralimpia",
+        "Universiade",
+        "Deaflimpia",
+        "Special Olympics"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A paralimpiát az olimpiai játékok után, ugyanazokon a helyszíneken rendezik fogyatékkal élő sportolók számára.",
+      "t": "paralimpia"
+    },
+    {
+      "q": "Hány mezőnyjátékos alkot egy vízilabdacsapatot a kapus mellett a medencében?",
+      "a": [
+        "Hat",
+        "Hét",
+        "Öt",
+        "Nyolc"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Vízilabdában egy csapat hat mezőnyjátékossal és egy kapussal van jelen a vízben egyszerre.",
+      "t": "vízilabda"
+    },
+    {
+      "q": "Hány másodpercen belül kell egy vízilabdacsapatnak kapura lőnie, mielőtt elveszítené a labdát?",
+      "a": [
+        "30 másodpercen belül",
+        "45 másodpercen belül",
+        "20 másodpercen belül",
+        "60 másodpercen belül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A modern szabályok szerint a támadó csapatnak 30 másodperce van lövés leadására.",
+      "t": "vízilabda"
+    },
+    {
+      "q": "Mit jelent a vízilabdában a kiállítás, azaz a 20 másodperces kizárás büntetése?",
+      "a": [
+        "A szabálytalankodó játékos 20 másodpercre kiúszik, csapata emberhátrányban marad",
+        "A csapat elveszít egy létszámcserét és időkérést egyszerre",
+        "A kapusnak azonnal ki kell állnia a helyéről és cserét kell kérni",
+        "A mérkőzést a bíró rövid időre teljesen félbeszakítja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szabálytalankodó játékosnak 20 másodpercre ki kell úsznia a medencéből, eddig csapata emberhátrányban játszik.",
+      "t": "vízilabda"
+    },
+    {
+      "q": "Hány mérkőzésrészből áll egy hivatalos felnőtt vízilabda-mérkőzés?",
+      "a": [
+        "Négy negyedből",
+        "Két félidőből",
+        "Három harmadból",
+        "Öt szakaszból"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A vízilabda-mérkőzés négy, egyenként nyolc perces negyedből áll a nemzetközi szabályok szerint.",
+      "t": "vízilabda"
+    },
+    {
+      "q": "Milyen érmet szerzett Kovács Sarolta a 2020-as, 2021-ben rendezett tokiói olimpián öttusában?",
+      "a": [
+        "Bronzérmet",
+        "Aranyérmet",
+        "Ezüstérmet",
+        "Negyedik helyezést"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kovács Sarolta a tokiói olimpián bronzérmet nyert női öttusában.",
+      "t": "öttusa"
+    },
+    {
+      "q": "Melyik hagyományos öttusa-versenyszámot váltotta le a nemzetközi szövetség 2024 után biztonsági aggályok miatt?",
+      "a": [
+        "A lovaglást",
+        "Az úszást",
+        "A vívást",
+        "A futást"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A lovaglást biztonsági problémák miatt kivezették az öttusából, helyette akadálypályás versenyszámot vezettek be.",
+      "t": "öttusa"
+    },
+    {
+      "q": "Hány sportágból áll össze hagyományosan az öttusa versenyszáma?",
+      "a": [
+        "Ötből",
+        "Négyből",
+        "Hatból",
+        "Háromból"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az öttusa neve is jelzi: hagyományosan öt sportágból áll, ezek közé tartozik az úszás, a vívás és a lövészet is.",
+      "t": "öttusa"
+    },
+    {
+      "q": "Mit jelent az öttusában a laser run versenyszám?",
+      "a": [
+        "A futás és a lézerpisztolyos lövészet váltakozó szakaszai",
+        "Kizárólag lövészeti verseny lézerfegyverrel",
+        "Kerékpáros és futó versenyszámok kombinációja",
+        "Úszás és futás egymást váltó szakaszai"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A laser run futásból és lézeres pisztolylövészetből álló, egymást váltó szakaszokból épül fel.",
+      "t": "öttusa"
+    },
+    {
+      "q": "Melyik magyar városban rendezték 2026 tavaszán a jégkorong-válogatott egyik vb-felkészülési mérkőzését Dánia ellen?",
+      "a": [
+        "Miskolcon",
+        "Székesfehérváron",
+        "Debrecenben",
+        "Szegeden"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar válogatott 2026 áprilisában Miskolcon játszott felkészülési mérkőzést Dánia ellen a világbajnokság előtt.",
+      "t": "jégkorong"
+    },
+    {
+      "q": "Hány mezőnyjátékos alkot egy jégkorongcsapatot a jégen egyszerre a kapus mellett?",
+      "a": [
+        "Öt mezőnyjátékos",
+        "Hat mezőnyjátékos",
+        "Négy mezőnyjátékos",
+        "Hét mezőnyjátékos"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jégkorongban egy csapat öt mezőnyjátékossal és egy kapussal van jelen egyszerre a jégen.",
+      "t": "jégkorong"
+    },
+    {
+      "q": "Mit jelent a jégkorongban a repülő csere szabálya?",
+      "a": [
+        "A játékosok játék közben, megállás nélkül cserélhetők a padról",
+        "A csapatok csak a szünetekben cserélhetnek játékost",
+        "Csak a kapust lehet menet közben cserélni",
+        "Sérülés esetén 5 perces szünetet kell tartani"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A repülő csere lényege, hogy a játékosok a mérkőzés folyamatos játéka közben, a pad felől lépnek be és ki a jégre.",
+      "t": "jégkorong"
+    },
+    {
+      "q": "Milyen kategóriájú világbajnoki csoportba kerül vissza az a válogatott, amely az erősebb divízióban utolsó helyen végez?",
+      "a": [
+        "Az eggyel alacsonyabb osztályú divízióba",
+        "Automatikusan kizárják a következő vb-ről",
+        "A legfelső, elit divízióba",
+        "Csak barátságos mérkőzéseket játszhat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A jégkorong-világbajnokságok rendszerében az utolsó helyezett csapat kiesik az eggyel gyengébb divízióba.",
+      "t": "jégkorong"
+    },
+    {
+      "q": "Melyik Grand Slam-tornán nyert páros bajnoki címet Taróczy Balázs 1985-ben?",
+      "a": [
+        "A wimbledoni bajnokságon",
+        "A US Open tornáján",
+        "A Roland Garros tornáján",
+        "Az Australian Openen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Taróczy Balázs 1985-ben Heinz Günthardt oldalán nyerte meg a wimbledoni páros tornát.",
+      "t": "tenisz"
+    },
+    {
+      "q": "Milyen világranglista-helyezést ért el pályafutása csúcsán egyéniben Taróczy Balázs?",
+      "a": [
+        "A 12. helyet",
+        "Az 1. helyet",
+        "A 30. helyet",
+        "A 5. helyet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Taróczy Balázs 1982-ben a világranglista 12. helyéig jutott egyéniben, minden idők egyik legjobb magyar férfi teniszezőjeként.",
+      "t": "tenisz"
+    },
+    {
+      "q": "Melyik magyar teniszezőnőt választották 2007-ben a WTA Év Újoncájának?",
+      "a": [
+        "Szávay Ágnes",
+        "Babos Tímea",
+        "Stollár Fanny",
+        "Czink Melinda"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szávay Ágnest 2007-ben választották a WTA Év Újoncává, majd 2008-ban elérte a világranglista 13. helyét.",
+      "t": "tenisz"
+    },
+    {
+      "q": "Melyik Grand Slam-tornán jutott először negyeddöntőbe egyéniben Fucsovics Márton?",
+      "a": [
+        "A wimbledoni bajnokságon",
+        "A US Open tornáján",
+        "Az Australian Openen",
+        "A Roland Garros tornáján"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Fucsovics Márton 2018-ban Wimbledonban jutott először Grand Slam-negyeddöntőbe, ahol Novak Djokovicstól kapott ki.",
+      "t": "tenisz"
+    },
+    {
+      "q": "Hány nyert szettet kell elérnie egy férfi teniszezőnek egy hagyományos ötszettes Grand Slam-mérkőzés megnyeréséhez?",
+      "a": [
+        "Hármat, öt szettes rendszerben",
+        "Kettőt, három szettes rendszerben",
+        "Négyet, hét szettes rendszerben",
+        "Egyet, egy szettes rendszerben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A férfi Grand Slam-mérkőzéseken a győzelemhez hagyományosan három megnyert szett szükséges egy legfeljebb öt szettes meccsen.",
+      "t": "tenisz"
+    },
+    {
+      "q": "Melyik súlycsoportban nyert olimpiai aranyérmet Kárpáti Károly az 1936-os berlini olimpián?",
+      "a": [
+        "Könnyűsúlyban (66 kg)",
+        "Nehézsúlyban",
+        "Pehelysúlyban",
+        "Váltósúlyban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kárpáti Károly az 1936-os berlini olimpián a könnyűsúlyú, 66 kg-os szabadfogású birkózásban lett bajnok.",
+      "t": "birkózás"
+    },
+    {
+      "q": "Hányszor lett olimpiai ezüstérmes Polyák Imre kötöttfogású birkózó, mielőtt 1964-ben aranyérmet szerzett volna?",
+      "a": [
+        "Négy olimpián indult, előtte háromszor lett ezüstérmes",
+        "Csak egyetlen olimpián vett részt élete során",
+        "Összesen hét olimpián szerepelt versenyzőként",
+        "Mindössze kétszer indult olimpián pályafutása alatt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Polyák Imre 1952-ben, 1956-ban és 1960-ban is ezüstérmes lett, majd 1964-ben végre aranyérmet szerzett.",
+      "t": "birkózás"
+    },
+    {
+      "q": "Mi a fő különbség a szabadfogású és a kötöttfogású birkózás szabályai között?",
+      "a": [
+        "Szabadfogásban a lábak is fogásra és dobásra használhatók, kötöttben nem",
+        "Kötöttfogásban teljesen tilos bármiféle földharc alkalmazása",
+        "Szabadfogásban a versenyzők kizárólag állva küzdhetnek",
+        "Kötöttfogásban nincsenek hivatalos súlycsoport-beosztások"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kötöttfogású birkózásban tilos a lábakat fogásra használni és az ellenfél derék alatti részét megfogni, szabadfogásban ez megengedett.",
+      "t": "birkózás"
+    },
+    {
+      "q": "Melyik súlycsoportban lett olimpiai bajnok Lőrincz Tamás a 2020-as, 2021-ben rendezett tokiói olimpián?",
+      "a": [
+        "77 kg-os kötöttfogásban",
+        "97 kg-os szabadfogásban",
+        "60 kg-os kötöttfogásban",
+        "86 kg-os szabadfogásban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Lőrincz Tamás a tokiói olimpián a 77 kg-os kötöttfogású versenyszámban szerezte meg az aranyérmet.",
+      "t": "birkózás"
+    },
+    {
+      "q": "Hány éves volt Földi Imre, amikor 1972-ben világcsúccsal megszerezte élete első olimpiai aranyérmét?",
+      "a": [
+        "34 éves",
+        "24 éves",
+        "40 éves",
+        "28 éves"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Földi Imre 34 évesen, 1972-ben, Münchenben lett olimpiai bajnok az 56 kg-os súlyemelésben, két korábbi ezüstérem után.",
+      "t": "súlyemelés"
+    },
+    {
+      "q": "Melyik két gyakorlat összesített eredménye adja a súlyemelés versenyszámok végeredményét?",
+      "a": [
+        "A szakítás és a lökés",
+        "A guggolás és a fekvenyomás",
+        "A húzás és a felállás",
+        "A rántás és a tolás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A súlyemelésben a versenyző szakítás és lökés gyakorlatban elért legjobb eredményeinek összege dönt.",
+      "t": "súlyemelés"
+    },
+    {
+      "q": "Hány kísérletet kap egy súlyemelő versenyző mindkét gyakorlatban, azaz a szakításban és a lökésben is?",
+      "a": [
+        "Háromat gyakorlatonként",
+        "Egyet gyakorlatonként",
+        "Ötöt gyakorlatonként",
+        "Kettőt gyakorlatonként"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A versenyzők mindkét gyakorlatban három-három kísérletet kapnak, ebből a legjobb sikeres eredmény számít.",
+      "t": "súlyemelés"
+    },
+    {
+      "q": "Milyen eredményt ért el Galambos Péter könnyűsúlyú egypárevezésben az evezős-világbajnokságokon?",
+      "a": [
+        "Háromszor lett világbajnoki ezüstérmes",
+        "Egyszer olimpiai bajnoki címet szerzett",
+        "Egyszer lett világbajnok aranyéremmel",
+        "Egyetlen nemzetközi érmet sem szerzett"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Galambos Péter háromszor lett világbajnoki ezüstérmes, 2012-ben, 2016-ban és 2019-ben, könnyűsúlyú egypárevezésben.",
+      "t": "evezés"
+    },
+    {
+      "q": "Hány evezős alkot egy nyolcas versenyszámú evezős csapatot a kormányossal együtt?",
+      "a": [
+        "Kilenc főt",
+        "Nyolc főt",
+        "Tíz főt",
+        "Hat főt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A nyolcas hajóban nyolc evezős és egy kormányos foglal helyet, összesen kilenc fő.",
+      "t": "evezés"
+    },
+    {
+      "q": "Mi jellemzi az evezésben a soros technikát a pár technikához képest?",
+      "a": [
+        "Az evezős egy evezőt fog mindkét kézzel",
+        "Az evezős két evezőt fog egyszerre",
+        "Az evezős állva hajtja a csónakot",
+        "Az evezősök nem használnak kormányost"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Soros technikánál egy hosszú evezőt fog két kézzel az evezős, párevezésnél viszont egy-egy rövidebb evezőt kezenként.",
+      "t": "evezés"
+    },
+    {
+      "q": "Melyik évben rendezték meg az első Formula-1-es Magyar Nagydíjat a Hungaroringen?",
+      "a": [
+        "1986-ban",
+        "1990-ben",
+        "1980-ban",
+        "1994-ben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az első Magyar Nagydíjat 1986. augusztus 10-én rendezték meg a Hungaroringen.",
+      "t": "motorsport"
+    },
+    {
+      "q": "Milyen eredményt ért el Baumgartner Zsolt a 2004-es Formula-1-es szezonban Indianapolisban?",
+      "a": [
+        "Megszerezte Magyarország egyetlen F1-es világbajnoki pontját",
+        "Megnyerte a futamot élete első Forma-1-es győzelmeként",
+        "Kizárták a versenyből technikai szabálytalanság miatt",
+        "Feladni kényszerült motorhiba miatt az első körben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Baumgartner Zsolt 2004-ben, Indianapolisban nyolcadik helyen zárva szerezte meg Magyarország mindmáig egyetlen Forma-1-es világbajnoki pontját.",
+      "t": "motorsport"
     }
   ]
 }

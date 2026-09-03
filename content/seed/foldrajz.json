@@ -1556,6 +1556,773 @@
       "e": "Antigua és Barbuda Észak-Amerika területén helyezkedik el.",
       "t": "kontinensek",
       "s": "http://www.wikidata.org/entity/Q781"
+    },
+    {
+      "q": "Melyik folyó halad keresztül a legtöbb ország területén a Földön?",
+      "a": [
+        "A Duna",
+        "A Nílus",
+        "Az Amazonas",
+        "A Volga"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Duna tíz ország területét érinti Németországtól Ukrajnáig, ezzel a világ legnemzetközibb folyója.",
+      "t": "folyók"
+    },
+    {
+      "q": "Miért nevezik a kínai Sárga-folyót (Huang He) gyakran 'Kína bánatának'?",
+      "a": [
+        "Mert történelme során rengeteg pusztító árvizet okozott",
+        "Mert vize mérgező vegyi anyagokat tartalmaz évszázadok óta",
+        "Mert medre folyamatosan kiszárad az öntözés miatt",
+        "Mert partjain sosem lehetett biztonságos ivóvizet találni"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A folyó gátjainak gyakori átszakadása és áradásai a történelem során milliók halálát okozták.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik folyó választja el hagyományosan Európát Ázsiától az Urál-hegység déli szakaszán?",
+      "a": [
+        "Az Ural folyó",
+        "A Volga folyó",
+        "Az Ob folyó",
+        "A Léna folyó"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Ural folyó az Urál-hegységtől a Kaszpi-tengerig húzódva jelöli ki a két kontinens hagyományos határát.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik folyó torkolatvidékén épült New Orleans városa?",
+      "a": [
+        "A Mississippi",
+        "A Colorado",
+        "A Rio Grande",
+        "Az Ohio"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "New Orleans a Mississippi folyó torkolatához közel, a Mexikói-öböl partján fekszik.",
+      "t": "folyók"
+    },
+    {
+      "q": "Mit jelent a folyók esetében a 'vízgyűjtő terület' kifejezés?",
+      "a": [
+        "Azt a területet, ahonnan a csapadék egy adott folyóba jut",
+        "A folyó torkolatánál kialakuló, gyakran termékeny deltavidéket",
+        "A folyó legmélyebb és legveszélyesebb szakaszát a hegyvidéken",
+        "A folyóparti védőgátak és töltések teljes hosszúságát"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A vízgyűjtő terület minden olyan felszínt magába foglal, amelyről a lehulló csapadék végül az adott folyóba folyik.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik hegység a leghosszabb szárazföldi hegylánc a Földön?",
+      "a": [
+        "Az Andok",
+        "A Himalája",
+        "A Kaukázus",
+        "Az Alpok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Andok mintegy 7000 km hosszan húzódik végig Dél-Amerika nyugati partvidékén.",
+      "t": "hegyek"
+    },
+    {
+      "q": "Mi hozta létre a Himalája hegységet?",
+      "a": [
+        "Az indiai és az eurázsiai kőzetlemez ütközése",
+        "Egy hatalmas meteorbecsapódás",
+        "Vulkánkitörések sorozata",
+        "A jégkorszaki gleccserek nyomása"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az indiai kőzetlemez mintegy 50 millió éve kezdett ütközni Eurázsiával, ami a Himalája folyamatos emelkedését okozza ma is.",
+      "t": "hegyek"
+    },
+    {
+      "q": "Mekkora a Mount Everest 2020-ban Kína és Nepál által közösen elfogadott hivatalos magassága?",
+      "a": [
+        "8848,86 méter",
+        "8611 méter",
+        "9000 méter",
+        "8200 méter"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "2020 decemberében Kína és Nepál közös méréssel 8848,86 méterben állapította meg a csúcs hivatalos magasságát.",
+      "t": "hegyek"
+    },
+    {
+      "q": "Melyik hegycsúcs Afrika legmagasabb pontja?",
+      "a": [
+        "A Kilimandzsáró",
+        "A Kenya-hegy",
+        "A Ruwenzori",
+        "Az Atlasz-hegység"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Kilimandzsáró Tanzániában emelkedik 5895 méter magasra, ezzel Afrika legmagasabb hegye.",
+      "t": "hegyek"
+    },
+    {
+      "q": "Melyik hegycsúcs a legmagasabb pont Dél-Amerikában?",
+      "a": [
+        "Az Aconcagua",
+        "A Chimborazo",
+        "A Cotopaxi",
+        "Az Illimani"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Argentínában található Aconcagua 6961 méteres magasságával Dél-Amerika és egyben a nyugati félteke legmagasabb csúcsa.",
+      "t": "hegyek"
+    },
+    {
+      "q": "Melyik ország fővárosát telepítették át a tengerparti Lagosból egy központi fekvésű, épített városba 1991-ben?",
+      "a": [
+        "Nigéria",
+        "Kenya",
+        "Ghána",
+        "Kamerun"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Nigéria fővárosa 1991-ben lett hivatalosan a központi fekvésű, tervezetten épített Abuja, felváltva Lagost.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik ország fővárosát nevezték át Akmolából Asztanára, miután 1997-ben ez lett az ország új fővárosa?",
+      "a": [
+        "Kazahsztán",
+        "Üzbegisztán",
+        "Türkmenisztán",
+        "Kirgizisztán"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kazahsztán fővárosa 1997-ben költözött Almatiból a korábbi Akmolába, amelyet 1998-ban Asztanára neveztek át.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik ország fővárosa fekszik a tengerszint alatt, mintegy 28 méterrel a Kaszpi-tenger partján?",
+      "a": [
+        "Azerbajdzsán (Baku)",
+        "Grúzia (Tbiliszi)",
+        "Örményország (Jereván)",
+        "Irán (Teherán)"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Baku 28 méterrel a tengerszint alatt fekszik, ezzel a világ legmélyebben fekvő fővárosa.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik dél-amerikai ország adminisztratív fővárosa, La Paz, a világ legmagasabban fekvő fővárosa?",
+      "a": [
+        "Bolívia",
+        "Peru",
+        "Ecuador",
+        "Kolumbia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "La Paz körülbelül 3630 méteres magasságban fekszik, ezzel a Föld legmagasabban fekvő adminisztratív fővárosa.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik ország esetében fordul elő, hogy a legnagyobb és legnépesebb városa (Isztambul) nem a fővárosa?",
+      "a": [
+        "Törökország",
+        "Görögország",
+        "Bulgária",
+        "Szíria"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Törökország fővárosa Ankara, jóval kisebb Isztambulnál, amely az ország legnagyobb és legnépesebb városa.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik ország tervezi hivatalos fővárosát Jakartáról egy Borneó szigetén épülő új városba, Nusantarába költöztetni?",
+      "a": [
+        "Indonézia",
+        "Malajzia",
+        "Thaiföld",
+        "Vietnám"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Indonézia a túlzsúfolt és süllyedő Jakarta helyett Borneó szigetén épít új fővárost Nusantara néven.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Mi az elnevezése annak a mesterséges vízi útnak, amelyet 1869-ben adtak át, és a Földközi-tengert köti össze a Vörös-tengerrel?",
+      "a": [
+        "Szuezi-csatorna",
+        "Panama-csatorna",
+        "Korinthoszi-csatorna",
+        "Kieli-csatorna"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Szuezi-csatornát 1869. november 17-én adták át, és jelentősen lerövidítette az Európa és Ázsia közti hajóutat.",
+      "t": "vízi utak"
+    },
+    {
+      "q": "Melyik évben nyílt meg hajóforgalom előtt a Panama-csatorna?",
+      "a": [
+        "1914",
+        "1869",
+        "1903",
+        "1935"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Panama-csatornán 1914. augusztus 15-én haladt át az első hivatalos hajó, ezzel megnyílt a Csendes- és Atlanti-óceán közti rövid átjáró.",
+      "t": "vízi utak"
+    },
+    {
+      "q": "Melyik szoros választja el Európát Afrikától, összekötve az Atlanti-óceánt a Földközi-tengerrel?",
+      "a": [
+        "Gibraltári-szoros",
+        "Boszporusz",
+        "Dardanellák",
+        "Messinai-szoros"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Gibraltári-szoros a legkeskenyebb pontján mindössze körülbelül 14 km széles, és Spanyolországot választja el Marokkótól.",
+      "t": "vízi utak"
+    },
+    {
+      "q": "Melyik szoros választja el Ázsiát Európától Isztambul városánál?",
+      "a": [
+        "A Boszporusz",
+        "A Dardanellák",
+        "A Gibraltári-szoros",
+        "A Messinai-szoros"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Boszporusz-szoros köti össze a Fekete-tengert a Márvány-tengerrel, és Isztambulnál választja el Európát Ázsiától.",
+      "t": "vízi utak"
+    },
+    {
+      "q": "Melyik tó a Föld legrégebbi tava, amelyet a kutatók 25-30 millió évesre becsülnek?",
+      "a": [
+        "A Bajkál-tó",
+        "A Viktória-tó",
+        "A Tanganyika-tó",
+        "A Titicaca-tó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szibériai Bajkál-tó egy tektonikus árokban jött létre, és 25-30 millió éves korával a világ legidősebb tava.",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik tavat tekintik a Föld legnagyobb tavának, annak ellenére, hogy sós vize miatt gyakran tengernek is nevezik?",
+      "a": [
+        "A Kaszpi-tenger",
+        "A Fekete-tenger",
+        "Az Aral-tó",
+        "A Holt-tenger"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Kaszpi-tenger zárt, sós vizű beltengerként a legnagyobb tó a Földön területét tekintve.",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik afrikai tó a kontinens legnagyobb területű tava, és a Nílus egyik forrásvidéke?",
+      "a": [
+        "A Viktória-tó",
+        "A Tanganyika-tó",
+        "A Malawi-tó",
+        "A Csád-tó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Viktória-tó Kelet-Afrikában fekszik, és a Fehér-Nílus egyik legfontosabb forrásvidéke.",
+      "t": "tavak"
+    },
+    {
+      "q": "Mennyivel fekszik a Holt-tenger partvidéke a tengerszint alatt, ami a Föld legalacsonyabb szárazföldi pontjává teszi?",
+      "a": [
+        "Körülbelül 430 méterrel",
+        "Körülbelül 150 méterrel",
+        "Körülbelül 900 méterrel",
+        "Körülbelül 60 méterrel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Holt-tenger partvidéke mintegy 430 méterrel fekszik a tengerszint alatt, ezzel a Föld legmélyebb szárazföldi pontja.",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik tengert nevezik el vasoxid-tartalmú algák időszakos elszaporodásáról, ami vöröses színt adhat a víz felszínének?",
+      "a": [
+        "A Vörös-tenger",
+        "A Fekete-tenger",
+        "A Sárga-tenger",
+        "A Fehér-tenger"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Vörös-tenger nevét feltehetően a felszínén időszakosan elszaporodó Trichodesmium algák vöröses elszíneződéséről kapta.",
+      "t": "tengerek"
+    },
+    {
+      "q": "Melyik tengert veszi körül teljesen szárazföld vagy szigetlánc úgy, hogy csak keskeny szorosokon át kapcsolódik az óceánhoz, és emiatt a világ legnagyobb beltengere?",
+      "a": [
+        "A Földközi-tenger",
+        "A Vörös-tenger",
+        "A Balti-tenger",
+        "Az Északi-tenger"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Földközi-tenger csak a keskeny Gibraltári-szoroson keresztül érintkezik az Atlanti-óceánnal, ezzel a világ legnagyobb tengerrel körülvett vízteste.",
+      "t": "tengerek"
+    },
+    {
+      "q": "Melyik a Föld legkisebb és legsekélyebb óceánja?",
+      "a": [
+        "A Jeges-tenger",
+        "Az Indiai-óceán",
+        "Az Atlanti-óceán",
+        "A Csendes-óceán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Északi-sarki-óceán, azaz a Jeges-tenger mérete és átlagos mélysége is jóval kisebb, mint a másik négy óceáné.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Melyik sziget a világ legnépesebb szigete, ahol Indonézia fővárosa, Jakarta is található?",
+      "a": [
+        "Jáva",
+        "Szumátra",
+        "Borneó",
+        "Sulawesi"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Jáva szigetén él a világ egyik legsűrűbben lakott térsége, összlakossága meghaladja a 150 milliót.",
+      "t": "szigetek"
+    },
+    {
+      "q": "Miért egyedülálló Madagaszkár állat- és növényvilága a bioszférák között?",
+      "a": [
+        "Mert az Afrikától való elszigeteltsége miatt fajainak nagy része sehol máshol nem él",
+        "Mert a sziget teljes egészét trópusi esőerdő borítja",
+        "Mert a világ legmagasabb biodiverzitási sűrűségét egy vulkáni eredetű talaj adja",
+        "Mert a sziget klímája megegyezik a szomszédos kontinensével"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Madagaszkár mintegy 88 millió éve szakadt le Afrikáról, így fajainak jelentős része endemikus, azaz kizárólag ott él.",
+      "t": "szigetek"
+    },
+    {
+      "q": "Melyik szigetország teljes területe vulkáni eredetű, és a kontinentális Eurázsiai- és az Északi-amerikai-lemez határán fekszik?",
+      "a": [
+        "Izland",
+        "Írország",
+        "Ciprus",
+        "Málta"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Izland az Atlanti-hátság vulkanikusan aktív vonalán fekszik, ahol két kőzetlemez távolodik egymástól.",
+      "t": "szigetek"
+    },
+    {
+      "q": "Melyik szigetcsoport vulkáni eredetű szigeteiről ismert egyedülálló, más sehol elő nem forduló élővilágáról, amely inspirálta Charles Darwin evolúciós elméletét?",
+      "a": [
+        "A Galápagos-szigetek",
+        "A Kanári-szigetek",
+        "A Fülöp-szigetek",
+        "A Seychelle-szigetek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Csendes-óceán keleti részén fekvő, vulkáni eredetű Galápagos-szigetek elszigeteltsége egyedi fajok kialakulásához vezetett, amit Darwin tanulmányozott.",
+      "t": "szigetek"
+    },
+    {
+      "q": "Melyik sivatag a Föld legnagyobb, nem sarkvidéki forró sivataga?",
+      "a": [
+        "A Szahara",
+        "A Góbi-sivatag",
+        "Az Arab-sivatag",
+        "A Kalahári"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Szahara mintegy 9,2 millió km² területű, ezzel a legnagyobb forró sivatag a Földön.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Melyik sivatagot tartják a Föld legszárazabb, nem sarkvidéki helyének, ahol egyes állomásokon évekig nem mértek csapadékot?",
+      "a": [
+        "Az Atacama-sivatag",
+        "A Namíb-sivatag",
+        "A Mojave-sivatag",
+        "A Thar-sivatag"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Atacama-sivatag Chilében az Andok és a Chilei-parti-hegység közti esőárnyékban fekszik, ami rendkívüli szárazságát okozza.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Melyik ázsiai sivatag számít hideg sivatagnak, ahol télen mínusz húsz fok alá is süllyedhet a hőmérséklet?",
+      "a": [
+        "A Góbi-sivatag",
+        "A Thar-sivatag",
+        "Az Arab-sivatag",
+        "A Rub al-Khali"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Góbi Mongólia és Kína határvidékén magas fekvése miatt télen rendkívül hideggé válik, ezért hideg sivatagnak számít.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Melyik igaz állítás a Szaharára vonatkozóan a felszínét illetően?",
+      "a": [
+        "A Szahara nagy részét kavicsos és sziklás felszín borítja, nem csak homokdűnék",
+        "A Szaharának egyetlen oázisa sincs, mert a talajvíz túl mélyen található",
+        "A Szahara teljes egészében a tengerszint alatt fekszik, akár egy medence",
+        "A Szaharában soha nem esett még hó, mivel odáig sosem ér le hideg levegő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Szahara felszínének nagy részét kavicsos, sziklás fennsíkok (reg és hamada) alkotják, a homokdűnék csak a terület kisebb hányadát fedik.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Mit jelent a 'monszun' szó a földrajzi éghajlat-tanban?",
+      "a": [
+        "Egy évszakosan megforduló, jellegzetes szélrendszert, ami jelentős csapadékot hoz",
+        "Egy állandóan fújó, száraz sivatagi szelet, amely sosem változtat irányt",
+        "A trópusi ciklonok másik, régies elnevezését meteorológiai szakkörökben",
+        "Egy magas légnyomású, csapadékmentes légtömeg tartós, éves jelenlétét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A monszun egy évszakosan irányt váltó szélrendszer, amely Dél- és Délkelet-Ázsiában nyáron heves esőzéseket okoz.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Milyen éghajlati jelenség az El Niño?",
+      "a": [
+        "A csendes-óceáni felszíni vizek időszakos felmelegedése, ami globális időjárási hatásokkal jár",
+        "Egy állandóan visszatérő, minden évben azonos erősségű trópusi vihar hivatalos neve",
+        "A sarki jégsapkák évenként ismétlődő, szabályos olvadási és fagyási ciklusának elnevezése",
+        "Az egyenlítői esőerdők száraz évszakának tudományos, meteorológiai megnevezése"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az El Niño a Csendes-óceán keleti részén jelentkező vízfelmelegedés, amely szárazságot, áradásokat és időjárási szélsőségeket okozhat világszerte.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Mi jellemzi a mediterrán éghajlatot?",
+      "a": [
+        "Forró, száraz nyár és enyhe, csapadékosabb tél",
+        "Egész évben egyenletesen magas hőmérséklet és csapadék",
+        "Rendkívül száraz nyár és hideg, havas tél",
+        "Rövid, forró nyár és hosszú, fagyos tél"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mediterrán éghajlaton a nyár forró és száraz, míg a csapadék jelentős része a viszonylag enyhe télre koncentrálódik.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Milyen éghajlati övben helyezkedik el a legtöbb esőerdő, köztük az Amazonas-medence nagy része?",
+      "a": [
+        "Trópusi övben",
+        "Mérsékelt övben",
+        "Szubarktikus övben",
+        "Sivatagi övben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A trópusi éghajlati övben az egész éven át magas hőmérséklet és bőséges csapadék teszi lehetővé a buja esőerdők kialakulását.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Melyik vízesés számít a Föld legnagyobb, összefüggő zuhanó vízfüggönyének szélessége és magassága együttes figyelembevételével?",
+      "a": [
+        "A Viktória-vízesés",
+        "A Niagara-vízesés",
+        "Az Angel-vízesés",
+        "Az Iguazú-vízesés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Zambezi folyón lévő Viktória-vízesés 1708 méteres szélessége és 108 méteres magassága alapján a világ legnagyobb zuhanó vízfüggönye.",
+      "t": "vízesések"
+    },
+    {
+      "q": "Melyik vízesés a Föld legmagasabb, megszakítás nélküli zuhanású vízesése, mintegy 979 méteres teljes eséssel?",
+      "a": [
+        "Az Angel-vízesés",
+        "A Viktória-vízesés",
+        "A Niagara-vízesés",
+        "A Yosemite-vízesés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A venezuelai Angel-vízesés egy fennsíkról zuhan alá, teljes esése körülbelül 979 méter, ebből a legnagyobb egybefüggő zuhanás 807 méter.",
+      "t": "vízesések"
+    },
+    {
+      "q": "Két ország határán található a Niagara-vízesés: melyik két állam osztozik rajta?",
+      "a": [
+        "Kanada és az Amerikai Egyesült Államok",
+        "Az Amerikai Egyesült Államok és Mexikó",
+        "Kanada és Grönland partjai között",
+        "Két amerikai szövetségi állam közt, nem országhatáron"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Niagara-vízesés a Niagara folyón fekszik, Kanada (Ontario) és az Amerikai Egyesült Államok (New York állam) határán.",
+      "t": "vízesések"
+    },
+    {
+      "q": "Melyik vulkán 1883-as kitörése okozta a valaha rögzített leghangosabb hangot, amely több mint 4800 km távolságból is hallható volt?",
+      "a": [
+        "A Krakatau",
+        "A Vezúv",
+        "Az Etna",
+        "A Pinatubo"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Krakatau indonéziai vulkán 1883-as robbanása olyan erős volt, hogy hangját Ausztráliában és a Mauritius közelében is hallani lehetett.",
+      "t": "vulkánok"
+    },
+    {
+      "q": "Melyik i.sz. 79-es kitörésű vulkán temette be a római Pompeii és Herculaneum városát?",
+      "a": [
+        "A Vezúv",
+        "Az Etna",
+        "A Sztromboli",
+        "A Vulcano"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Vezúv i.sz. 79-es kitörése hamuval és piroklaszt árral borította be Pompeiit és Herculaneumot, sok lakosukat megölve.",
+      "t": "vulkánok"
+    },
+    {
+      "q": "Melyik vulkán Európa legmagasabb és legaktívabb tűzhányója, amely Szicília szigetén emelkedik?",
+      "a": [
+        "Az Etna",
+        "A Vezúv",
+        "A Sztromboli",
+        "A Teide"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Etna mintegy 3300 méter magas, és gyakori, folyamatos vulkáni tevékenysége miatt Európa legaktívabb tűzhányója.",
+      "t": "vulkánok"
+    },
+    {
+      "q": "Mit jelent a 'szupervulkán' kifejezés a földtudományban?",
+      "a": [
+        "Olyan vulkánt, amely képes egy rendkívül nagy méretű, kontinentális léptékű kitörésre",
+        "Egy föld alatti magmakamra nélküli, régen kihunyt, teljesen inaktív vulkánt",
+        "A legmagasabb tengerszint feletti csúcsponttal rendelkező vulkáni hegyet",
+        "Egy vulkáni szigetekből álló, óceáni láncolatot a kontinensek peremén"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szupervulkán olyan hatalmas magmakamrával rendelkezik, amely egy kitöréskor több ezer köbkilométernyi anyagot képes kilövellni, mint a Yellowstone alatti rendszer.",
+      "t": "vulkánok"
+    },
+    {
+      "q": "Melyik barlang a világ leghosszabb, jelenleg ismert barlangrendszere, mintegy 686 km feltárt járattal?",
+      "a": [
+        "A Mammoth-barlang (Kentucky, USA)",
+        "A Son Doong-barlang (Vietnám)",
+        "A Postojnai-barlang (Szlovénia)",
+        "Az Eisriesenwelt (Ausztria)"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kentuckyi Mammoth-barlang több mint 686 km feltárt járatával a világ leghosszabb ismert barlangrendszere.",
+      "t": "barlangok"
+    },
+    {
+      "q": "Melyik vietnami barlang számít térfogata alapján a világ legnagyobb egybefüggő barlangjáratának?",
+      "a": [
+        "A Son Doong-barlang",
+        "A Mammoth-barlang",
+        "A Postojnai-barlang",
+        "A Carlsbad-barlang"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Son Doong-barlang egyetlen járata mintegy 38,5 millió köbméteres térfogatával a legnagyobb ismert barlangtér a Földön.",
+      "t": "barlangok"
+    },
+    {
+      "q": "Melyik a világ legkisebb önálló állama területét tekintve?",
+      "a": [
+        "Vatikánváros",
+        "Monacói Hercegség",
+        "San Marino",
+        "Liechtenstein"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Vatikánváros mindössze körülbelül 0,44 km² területű, ezzel a világ legkisebb önálló állama.",
+      "t": "államok"
+    },
+    {
+      "q": "Melyik ország a Föld legnagyobb területű állama, amely két kontinensen, Európában és Ázsiában is elterül?",
+      "a": [
+        "Oroszország",
+        "Kanada",
+        "Ausztrália",
+        "Kazahsztán"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Oroszország mintegy 17 millió km² területével a legnagyobb ország, és az Urál-hegység mentén húzódik a két kontinens határa rajta.",
+      "t": "államok"
+    },
+    {
+      "q": "Mi az elnevezése annak a jelenségnek, amikor egy ország területe egy másik ország területétől körülzárva, elszigetelten helyezkedik el, mint Kalinyingrád esetében?",
+      "a": [
+        "Exklávé",
+        "Protektorátus",
+        "Kondomínium",
+        "Enklávé"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az orosz Kalinyingrád terület Lengyelország és Litvánia közé ékelődve, Oroszország fő területétől elválasztva fekszik, ez az exklávé.",
+      "t": "államok"
+    },
+    {
+      "q": "Hány hivatalos időzónára terjed ki Oroszország területe napjainkban?",
+      "a": [
+        "Tizenegyre",
+        "Hatra",
+        "Húszra",
+        "Négyre"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Oroszország hatalmas kelet-nyugati kiterjedése miatt jelenleg 11 időzónán osztozik Kalinyingrádtól Kamcsatkáig.",
+      "t": "államok"
+    },
+    {
+      "q": "Melyik kontinensen nincs egyetlen aktív vulkán sem, mert geológiailag stabil, régi kőzetlemezen fekszik?",
+      "a": [
+        "Ausztrália",
+        "Dél-Amerika",
+        "Európa",
+        "Afrika"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ausztrália szárazföldi részén nincs aktív vulkán, mivel a kontinens egy stabil, tektonikusan nyugodt kőzetlemez belsejében fekszik.",
+      "t": "kontinensek"
+    },
+    {
+      "q": "Melyik kontinensen húzódik végig az Egyenlítő a legtöbb szárazföldi kilométeren keresztül?",
+      "a": [
+        "Afrikában",
+        "Dél-Amerikában",
+        "Ázsiában",
+        "Óceániában"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Egyenlítő Afrikában halad át a legtöbb országon és szárazföldi szakaszon a kontinensek közül.",
+      "t": "kontinensek"
+    },
+    {
+      "q": "Melyik nagyváros tartja számon magát a világ egyik legrégebb óta folyamatosan lakott településeként, több ezer éves történelemmel?",
+      "a": [
+        "Damaszkusz",
+        "Jeruzsálem",
+        "Bejrút",
+        "Alexandria"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Damaszkuszt gyakran említik a világ egyik legrégebb óta folyamatosan lakott fővárosaként, régészeti nyomai több ezer évre nyúlnak vissza.",
+      "t": "városok"
+    },
+    {
+      "q": "Melyik japán nagyváros és környéke alkotja a világ legnépesebb nagyvárosi agglomerációját?",
+      "a": [
+        "Tokió",
+        "Oszaka",
+        "Jokohama",
+        "Nagoja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nagy-Tokiói térség lakossága meghaladja a 37 milliót, ezzel a legnépesebb városi agglomeráció a Földön.",
+      "t": "városok"
+    },
+    {
+      "q": "Melyik ausztrál államban fekszik Sydney, az ország legnagyobb és legnépesebb városa?",
+      "a": [
+        "Új-Dél-Wales",
+        "Victoria",
+        "Queensland",
+        "Tasmania"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Sydney Új-Dél-Wales állam fővárosa és egyben Ausztrália legnagyobb városa, bár nem az ország fővárosa.",
+      "t": "városok"
+    },
+    {
+      "q": "Miért terjedt el az a téves állítás, hogy az Amazonas esőerdő adja a Föld légköri oxigénjének nagy részét?",
+      "a": [
+        "Mert a lebomló növényi anyag elhasználja a termelt oxigén nagy részét, ezért az erdő nettó oxigénmérlege alacsony",
+        "Mert az esőerdő fái éjszaka szén-dioxidot bocsátanak ki oxigén termelés helyett",
+        "Mert a becslés a valós adatok tízszerese, egy régi íróhiba miatt terjedt el",
+        "Mert az oxigént kizárólag az óceáni fitoplankton termeli, nem a szárazföldi növényzet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Bár az esőerdő rengeteg oxigént termel fotoszintézissel, a lebomlási folyamatok nagyjából ugyanennyit el is használnak, így nettó hozzájárulása a légköri oxigénhez csekély.",
+      "t": "természet"
+    },
+    {
+      "q": "Melyik jégtakaró tartalmazza a Föld édesvízkészletének legnagyobb részét?",
+      "a": [
+        "Az Antarktiszi jégtakaró",
+        "A Grönlandi jégtakaró",
+        "A Himalája gleccserei",
+        "Az Alpok gleccserei"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Antarktiszi jégtakaró egymaga a Föld édesvízkészletének mintegy 60-70 százalékát tárolja fagyott formában.",
+      "t": "természet"
     }
   ]
 }

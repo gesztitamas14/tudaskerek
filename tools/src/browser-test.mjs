@@ -191,7 +191,11 @@ try {
     ['kérdés (címsávval)', 'lobby-shot.html%23answer', 700],
     ['kérdés, 5 játékos, hosszú szöveg', 'lobby-shot.html%23answer5', 700],
     ['kérdés, szűk képernyő', 'lobby-shot.html%23answer5', 560],
-    ['kérdés, nagyon szűk képernyő', 'lobby-shot.html%23answer5', 520]
+    ['kérdés, nagyon szűk képernyő', 'lobby-shot.html%23answer5', 520],
+    // A kiértékelt válaszokon a szavazó-avatarcsík is ott van; ez a
+    // legrosszabb eset öt játékossal, mindenki más választ ad.
+    ['kiértékelés, szavazó avatarokkal', 'lobby-shot.html%23resolved5', 700],
+    ['kiértékelés, szűk képernyőn', 'lobby-shot.html%23resolved5', 560]
   ];
 
   console.log('\n── elrendezés telefonon ───────────────────────');
@@ -232,6 +236,21 @@ try {
   console.log(layoutOk ? '\nELRENDEZÉS: MINDEN RENDBEN' : '\nELRENDEZÉS: HIBA');
   if (!layoutOk) result.ok = false;
 
+
+  // ─────────────── teljes képernyő gomb a valódi alkalmazásban ────────────
+  //
+  // Nem a smoke.html-ben teszteljük (az nem építi fel a teljes App-vázat),
+  // hanem a valódi index.html-t töltjük be, és megnézzük, hogy a felső
+  // sávban ott van-e a gomb. A kattintás/API-hívás böngészőgesztus nélkül
+  // úgyis elutasulna, ezért csak a jelenlétet és a feliratot ellenőrizzük.
+  console.log('\n── teljes képernyő gomb ───────────────────────');
+  const appDom = await runBrowser(browser, `http://localhost:${PORT}/index.html`, { budget: 6000 });
+  const hasFullscreenBtn = /aria-label="Teljes képernyő"/.test(appDom);
+  console.log(hasFullscreenBtn
+    ? '  ✓ a teljes képernyő gomb megjelenik a felső sávban'
+    : '  ✗ a teljes képernyő gomb HIÁNYZIK a felső sávból');
+  if (!hasFullscreenBtn) result.ok = false;
+
   if (SHOTS) {
     mkdirSync(SHOT_DIR, { recursive: true });
     const shots = [
@@ -249,6 +268,7 @@ try {
       ['pwa-create.png', '%23create'],
       ['pwa-answer.png', '%23answer'],
       ['pwa-answer5.png', '%23answer5'],
+      ['pwa-resolved5.png', '%23resolved5'],
       ['pwa-spin.png', '%23spin']
     ];
     console.log('\nKépernyőképek:');

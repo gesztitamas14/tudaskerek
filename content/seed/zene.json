@@ -884,6 +884,916 @@
       "e": "Alphabeta származási helye: Izrael.",
       "t": "zenekarok",
       "s": "http://www.wikidata.org/entity/Q661126"
+    },
+    {
+      "q": "Melyik amerikai jazz-trombitást és énekest hívták „Satchmo” becenéven?",
+      "a": [
+        "Louis Armstrong",
+        "Duke Ellington",
+        "Dizzy Gillespie",
+        "Miles Davis"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A „Satchmo” a „satchelmouth” (tarisznyaszáj) szóból ered, és Louis Armstrong ragadványneve volt.",
+      "t": "jazz"
+    },
+    {
+      "q": "Melyik amerikai várost tartják a jazz zenei stílus bölcsőjének a 20. század elején?",
+      "a": [
+        "New Orleans",
+        "Chicago",
+        "New York",
+        "Memphis"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jazz a 20. század elején New Orleans kikötővárosában alakult ki a blues, a ragtime és a katonazenekari hagyományok keveredéséből.",
+      "t": "jazz"
+    },
+    {
+      "q": "Melyik Miles Davis-albumot tartják minden idők legkelendőbb jazzlemezének?",
+      "a": [
+        "Kind of Blue",
+        "A Love Supreme",
+        "Time Out",
+        "Blue Train"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1959-ben megjelent Kind of Blue több millió eladott példányával a valaha volt legsikeresebb jazzalbum.",
+      "t": "jazz"
+    },
+    {
+      "q": "Ki tervezte és szabadalmaztatta a szaxofont a 19. század közepén?",
+      "a": [
+        "Adolphe Sax",
+        "Theobald Boehm",
+        "Heinrich Stölzel",
+        "Charles Wheatstone"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A belga hangszerkészítő, Adolphe Sax 1846-ban szabadalmaztatta az általa kifejlesztett szaxofont.",
+      "t": "jazz"
+    },
+    {
+      "q": "Ki szerezte a Csillagok háborúja filmsorozat ikonikus szimfonikus filmzenéjét?",
+      "a": [
+        "John Williams",
+        "Hans Zimmer",
+        "Ennio Morricone",
+        "Danny Elfman"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "John Williams 1977-től napjainkig komponálta a Csillagok háborúja-filmek zenéjét.",
+      "t": "filmzene"
+    },
+    {
+      "q": "Melyik olasz zeneszerző neve fűződik a spagettiwesternekhez, köztük az Egy maréknyi dollárért emblematikus filmzenéjéhez?",
+      "a": [
+        "Ennio Morricone",
+        "Nino Rota",
+        "Riz Ortolani",
+        "Piero Piccioni"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ennio Morricone Sergio Leone westernfilmjeihez komponált szokatlan, fütyülős-csattanós zenéket az 1960-as években.",
+      "t": "filmzene"
+    },
+    {
+      "q": "Miért használt Ennio Morricone szokatlan hangeffektusokat (füttyszó, ostorcsattanás, pisztolylövés) az Egy maréknyi dollárért zenéjében?",
+      "a": [
+        "Mert alacsony költségvetésű produkcióhoz kellett egyedi, feltűnő hangzást teremtenie hagyományos zenekar helyett",
+        "Mert a rendező kifejezetten spanyol flamenco-hatású kísérőzenét kért tőle a forgatás elejétől",
+        "Mert a stúdió megtiltotta neki a vonós hangszerek használatát a magas bérleti költségek miatt",
+        "Mert a film cselekménye Japánban játszódott, és japán hagyományos hangszereket akart idézni"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Morricone kis költségvetésből dolgozott, ezért hagyományos zenekari hangzás helyett szokatlan, olcsón előállítható effektusokat alkalmazott.",
+      "t": "filmzene"
+    },
+    {
+      "q": "Melyik német filmzeneszerző neve fűződik olyan filmekhez, mint A Gladiátor és az Eredet (Inception)?",
+      "a": [
+        "Hans Zimmer",
+        "John Williams",
+        "Alexandre Desplat",
+        "Danny Elfman"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Hans Zimmer számos nagysikerű hollywoodi film, köztük A Gladiátor és az Eredet zenéjét szerezte.",
+      "t": "filmzene"
+    },
+    {
+      "q": "Melyik zeneszerző komponálta Tim Burton legtöbb filmjének (pl. Batman, Karácsonyi lidércnyomás) zenéjét?",
+      "a": [
+        "Danny Elfman",
+        "Hans Zimmer",
+        "John Williams",
+        "Alan Silvestri"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Danny Elfman évtizedek óta Tim Burton állandó zeneszerzői partnere.",
+      "t": "filmzene"
+    },
+    {
+      "q": "Melyik német együttest tartják az elektronikus popzene egyik legfontosabb úttörőjének az 1970-es évekből?",
+      "a": [
+        "Kraftwerk",
+        "Modern Talking",
+        "Rammstein",
+        "Scorpions"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A düsseldorfi Kraftwerk szintetizátorokkal és elektronikus ritmusokkal alapjaiban formálta át a populáris zenét.",
+      "t": "elektronikus zene"
+    },
+    {
+      "q": "Mit jelent a zenei technológiában használt MIDI rövidítés?",
+      "a": [
+        "Musical Instrument Digital Interface",
+        "Multi Instrument Digital Input",
+        "Music Integrated Data Index",
+        "Musical Interface for Digital Instruments"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A MIDI (Musical Instrument Digital Interface) egy szabvány, amely lehetővé teszi elektronikus hangszerek és számítógépek digitális kommunikációját.",
+      "t": "elektronikus zene"
+    },
+    {
+      "q": "Mi a lényege a DJ-k által alkalmazott „scratch” technikának?",
+      "a": [
+        "A hanglemez kézzel történő előre-hátra mozgatása a tűn, jellegzetes recsegő hangeffektust létrehozva",
+        "A két lemezjátszón szóló zene hangerejének fokozatos, észrevétlen összekeverése",
+        "A hangszóró membránjának szándékos túlvezérlése torz hanghatás elérése érdekében",
+        "A hanglemez felszínének finom karcolása tűvel, hogy egyedi zajmintát hozzon létre"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A scratch során a DJ kézzel mozgatja a lemezt a tűn, amitől jellegzetes, ritmikus recsegő hang keletkezik.",
+      "t": "elektronikus zene"
+    },
+    {
+      "q": "Mire szolgál az Auto-Tune nevű szoftver a modern zenei produkcióban?",
+      "a": [
+        "Az énekhang hangmagasságának automatikus korrigálására vagy jellegzetes torzítására",
+        "A hangfelvétel háttérzajának teljes kiszűrésére utólagos feldolgozás során",
+        "A hangszerek hangerejének automatikus kiegyenlítésére keverés közben",
+        "A dob- és ütőhangszerek ritmusának számítógépes generálására élő koncerten"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Auto-Tune eredetileg a hamis éneklés korrigálására készült, ma gyakran stíluselemként, robotikus hangzás elérésére is használják.",
+      "t": "elektronikus zene"
+    },
+    {
+      "q": "Melyik nép hagyományos fúvós hangszere a mélyzengésű didzseridu?",
+      "a": [
+        "Az ausztrál aboriginal (őslakos) népek",
+        "Az új-zélandi maorik",
+        "Az észak-amerikai indián népek",
+        "A grönlandi inuitok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A didzseridut az ausztrál aboriginal közösségek használják hagyományosan, jellemzően eukaliptuszfa törzséből készítve.",
+      "t": "világzene"
+    },
+    {
+      "q": "Melyik spanyol régióhoz köthető elsősorban a flamenco zenei és tánc stílus eredete?",
+      "a": [
+        "Andalúzia",
+        "Katalónia",
+        "Baszkföld",
+        "Galícia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A flamenco a dél-spanyolországi Andalúziában alakult ki, gitárjátékkal, énekkel és tánccal.",
+      "t": "világzene"
+    },
+    {
+      "q": "Melyik fúvós hangszer vált a skót nemzeti identitás egyik jelképévé jellegzetes zúgó hangjával?",
+      "a": [
+        "A skót duda (bagpipe)",
+        "A tangóharmonika",
+        "A francia kürtduda (cornemuse)",
+        "A pánsíp"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A skót duda (bagpipe) skót ünnepségek és katonai parádék elmaradhatatlan hangszere.",
+      "t": "világzene"
+    },
+    {
+      "q": "Melyik karibi szigetországból indult hódító útjára a reggae zenei stílus a 20. század közepén?",
+      "a": [
+        "Jamaica",
+        "Kuba",
+        "Trinidad és Tobago",
+        "Barbados"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A reggae az 1960-as években Jamaicában alakult ki a ska és a rocksteady stílusokból.",
+      "t": "világzene"
+    },
+    {
+      "q": "Mit jelent a „szoprán” kifejezés az éneklésben?",
+      "a": [
+        "A legmagasabb fekvésű női énekhangfajt",
+        "A legmélyebb fekvésű férfi énekhangfajt",
+        "A középmagas férfi énekhangfajt (tenor)",
+        "A legmélyebb fekvésű női énekhangfajt (alt)"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szoprán a legmagasabb női hangfaj, tipikusan az operák főszereplő női hangja.",
+      "t": "hangfajok"
+    },
+    {
+      "q": "Melyik olasz tenort ismerték meg világszerte a „három tenor” egyikeként, a Nessun dorma előadójaként?",
+      "a": [
+        "Luciano Pavarotti",
+        "Plácido Domingo",
+        "José Carreras",
+        "Andrea Bocelli"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Luciano Pavarotti, Plácido Domingo és José Carreras alkották a híres „három tenor” formációt.",
+      "t": "énekesek"
+    },
+    {
+      "q": "Melyik brit énekesnő 21 című albuma vált az egyik legkelendőbb lemezzé a 2010-es években?",
+      "a": [
+        "Adele",
+        "Rihanna",
+        "Beyoncé",
+        "Shakira"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Adele 21 című albuma olyan slágereket tartalmaz, mint a Rolling in the Deep, és világszerte több tízmillió példányban kelt el.",
+      "t": "énekesek"
+    },
+    {
+      "q": "Melyik énekest illetik gyakran a „popzene királya” (King of Pop) elnevezéssel?",
+      "a": [
+        "Michael Jackson",
+        "Freddie Mercury",
+        "David Bowie",
+        "Elvis Presley"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Michael Jacksont az 1980-as évektől kezdve nevezik a „popzene királyának” a Thriller albummal elért világsikere után.",
+      "t": "énekesek"
+    },
+    {
+      "q": "Melyik díjat tartják az amerikai zeneipar legrangosabb szakmai elismerésének?",
+      "a": [
+        "A Grammy-díj",
+        "Az Oscar-díj",
+        "A Tony-díj",
+        "Az Emmy-díj"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Grammy-díjat 1959 óta ítéli oda évente az amerikai lemezakadémia a zenei teljesítményekért.",
+      "t": "zenei díjak"
+    },
+    {
+      "q": "Melyik svájci városban rendezték meg 1956-ban az első Eurovíziós Dalfesztivált?",
+      "a": [
+        "Lugano",
+        "Genf",
+        "Zürich",
+        "Bern"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az első Eurovíziós Dalfesztivált 1956. május 24-én rendezték a svájci Luganóban.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Melyik amerikai államban tartották az 1969-es Woodstock fesztivált?",
+      "a": [
+        "New York állam",
+        "Kalifornia",
+        "Pennsylvania",
+        "Massachusetts"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Woodstock fesztivált 1969 augusztusában New York államban, Bethel település közelében rendezték.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Melyik angliai szabadtéri zenei fesztivált tartják Európa egyik legnagyobb ilyen rendezvényének, amelyet rendszerint egy farmon szerveznek meg?",
+      "a": [
+        "A Glastonbury Fesztivál",
+        "A Roskilde Fesztivál",
+        "Az Isle of Wight Fesztivál",
+        "A Reading Fesztivál"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Glastonbury Fesztivált Somerset megyében, egy tejgazdaság területén rendezik meg évente.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Melyik svéd együttes nyerte meg az Eurovíziós Dalfesztivált 1974-ben a Waterloo című dallal?",
+      "a": [
+        "Az ABBA",
+        "A Roxette",
+        "Az Ace of Base",
+        "Az Europe"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ABBA a Waterloo című dallal aratott Eurovíziós győzelmével indult el nemzetközi karrierje.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Melyik brit városban alakult meg 1960-ban a Beatles együttes?",
+      "a": [
+        "Liverpool",
+        "London",
+        "Manchester",
+        "Birmingham"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Beatles négy tagja mind a liverpooli munkásnegyedekből származott.",
+      "t": "pop-rock"
+    },
+    {
+      "q": "Ki szerezte a Queen Bohemian Rhapsody című dalát?",
+      "a": [
+        "Freddie Mercury",
+        "Brian May",
+        "Roger Taylor",
+        "John Deacon"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A dalt Freddie Mercury írta, és 1975-ben jelent meg a Queen A Night at the Opera albumán.",
+      "t": "pop-rock"
+    },
+    {
+      "q": "Melyik brit rockegyüttes frontembere Mick Jagger, aki már az 1960-as évek óta énekel a zenekarban?",
+      "a": [
+        "The Rolling Stones",
+        "Led Zeppelin",
+        "Fleetwood Mac",
+        "Deep Purple"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Mick Jagger 1962 óta a The Rolling Stones énekese és egyik alapítója.",
+      "t": "pop-rock"
+    },
+    {
+      "q": "Melyik zenei stílus vált ismertté az 1990-es évek elején Seattle-ből, olyan együttesekkel, mint a Nirvana és a Pearl Jam?",
+      "a": [
+        "A grunge",
+        "A britpop",
+        "A new wave",
+        "A glam metal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A grunge stílus az 1990-es évek elején Seattle zenei szcénájából robbant be, disztorált gitárhangzással és nyers dalszövegekkel.",
+      "t": "pop-rock"
+    },
+    {
+      "q": "Melyik brit rockegyüttes egyik leghíresebb dala a Stairway to Heaven?",
+      "a": [
+        "A Led Zeppelin",
+        "A Deep Purple",
+        "A Black Sabbath",
+        "A Pink Floyd"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Stairway to Heaven a Led Zeppelin 1971-es, negyedik albumán jelent meg.",
+      "t": "pop-rock"
+    },
+    {
+      "q": "Mit nevezünk a zenében „vezérmotívumnak” (leitmotívnak)?",
+      "a": [
+        "Egy visszatérő zenei témát, amely egy adott szereplőhöz vagy fogalomhoz kötődik",
+        "Egy rögtönzött hangszeres szólórészt, amelyet a karmester vezet be a mű elején",
+        "Egy kötelezően ismételt ütemet, amely minden tételt lezár egy szimfóniában",
+        "Egy díszítő hangsort, amelyet kizárólag fúvós hangszerek játszanak el"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A leitmotív egy jellegzetes, visszatérő téma, amelyet például Wagner használt operáiban szereplők vagy eszmék jelölésére.",
+      "t": "zeneelmélet"
+    },
+    {
+      "q": "Mi a fő különbség a dúr és a moll hangnem hangzása között?",
+      "a": [
+        "A dúr jellemzően vidámabb, a moll melankolikusabb hangzású a köztük lévő terc hangköz eltérése miatt",
+        "A dúr mindig gyorsabb tempójú, míg a moll hangnemben írt művek mindig lassú tempójúak",
+        "A dúr kizárólag zongorára, a moll kizárólag vonós hangszerekre jellemző hangnem",
+        "A dúr csak egyházi zenében, a moll csak világi zenében fordul elő hagyományosan"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A dúr és moll hangnemek közti eltérés a harmadik hangfok (terc) magasságában rejlik, ami eltérő hangulatot kölcsönöz.",
+      "t": "zeneelmélet"
+    },
+    {
+      "q": "Mire szolgál a zenében a metronóm nevű eszköz?",
+      "a": [
+        "Az egyenletes tempó pontos megtartásának segítésére gyakorlás közben",
+        "A hangszer pontos hangolására szolgáló rezgésméréssel",
+        "A hangfelvétel hangerejének automatikus szabályozására",
+        "A kottalapok automatikus lapozására koncert közben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A metronóm szabályos ütemben kattogó vagy villogó jelzésekkel segíti a zenészt a tempó betartásában.",
+      "t": "zeneelmélet"
+    },
+    {
+      "q": "Mit jelent a „staccato” előadásmód a kottában?",
+      "a": [
+        "A hangokat rövidre, egymástól elválasztva kell megszólaltatni",
+        "A hangokat összekötve, folyamatosan, szünet nélkül kell játszani",
+        "A hangokat fokozatosan halkulva kell megszólaltatni",
+        "A hangot hirtelen hangosan kell megszólaltatni, majd rögtön elhalkítani"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A staccato jelölés (pont a hangjegy felett) rövid, elválasztott hangzást ír elő a legato ellentéteként.",
+      "t": "zeneelmélet"
+    },
+    {
+      "q": "Hány vonalból áll a hagyományos kottavonalrendszer?",
+      "a": [
+        "Öt vonal",
+        "Négy vonal",
+        "Hat vonal",
+        "Hét vonal"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A modern kottaírásban használt vonalrendszer öt párhuzamos vonalból és a köztük lévő négy hézagból áll.",
+      "t": "zeneelmélet"
+    },
+    {
+      "q": "Mit nevezünk „abszolút hallásnak” a zenében?",
+      "a": [
+        "Azt a ritka képességet, hogy valaki referenciahang nélkül is azonnal felismeri és megnevezi a hangokat",
+        "Azt a képességet, hogy valaki két hang távolságát pontosan megállapítja egy ismert hanghoz viszonyítva",
+        "Azt a jelenséget, amikor valaki egyszerre több hangszeren képes játszani",
+        "Azt az állapotot, amikor valaki teljesen hangsüket, és nem érzékeli a zenét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az abszolút hallással rendelkezők külső referencia nélkül is pontosan felismerik és megnevezik a hangmagasságokat.",
+      "t": "zeneelmélet"
+    },
+    {
+      "q": "Melyik hangszerhez köthető Bartolomeo Cristofori neve, aki a hangerő-árnyalást lehetővé tevő billentyűs mechanikát alkotta meg a 18. század elején?",
+      "a": [
+        "A zongora",
+        "A csembaló",
+        "Az orgona",
+        "A klavikord"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Cristofori 1700 körül alkotta meg az első „pianoforte” hangszert, amelynek elődje a csembaló volt.",
+      "t": "hangszerek"
+    },
+    {
+      "q": "Milyen hangnevekre hangolják hagyományosan a hegedű négy húrját a legmélyebbtől a legmagasabbig?",
+      "a": [
+        "G-D-A-E",
+        "C-G-D-A",
+        "D-A-E-H",
+        "A-D-G-C"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hegedű négy húrja kvintekre hangolt: a legmélyebb a G, majd D, A, és a legmagasabb az E húr.",
+      "t": "hangszerek"
+    },
+    {
+      "q": "Hány billentyűje van egy hagyományos, teljes méretű zongorának?",
+      "a": [
+        "88",
+        "76",
+        "92",
+        "100"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A modern koncertzongorák szabványosan 88 billentyűvel (52 fehér és 36 fekete) rendelkeznek.",
+      "t": "hangszerek"
+    },
+    {
+      "q": "Melyik ütőhangszernek van fém üstje, és pedállal hangolható különböző hangmagasságokra?",
+      "a": [
+        "Az üstdob (timpani)",
+        "A xilofon",
+        "A marimba",
+        "A cintányér"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az üstdob pedálszerkezettel feszíthető meg vagy engedhető el, így pontos hangmagasságra hangolható.",
+      "t": "hangszerek"
+    },
+    {
+      "q": "Melyik vonós hangszer hangfekvése helyezkedik el a brácsa és a nagybőgő között egy szimfonikus zenekarban?",
+      "a": [
+        "A cselló (gordonka)",
+        "A hegedű",
+        "A brácsa",
+        "A nagybőgő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A vonósok hangfekvés szerinti sorrendje: hegedű, brácsa, cselló, nagybőgő – a cselló adja a középső-mély regisztert.",
+      "t": "hangszerek"
+    },
+    {
+      "q": "Melyik fújtatós, gombos vagy billentyűs hangszer népszerű a magyar és a balkáni népzenében egyaránt?",
+      "a": [
+        "A harmonika",
+        "A citera",
+        "A tekerőlyra",
+        "A duda"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A harmonika fújtatóval és gombokkal vagy billentyűkkel szólaltatható meg, és számos európai népzenei hagyományban elterjedt.",
+      "t": "hangszerek"
+    },
+    {
+      "q": "Ki fejezte be Mozart befejezetlenül maradt Requiemjét a zeneszerző 1791-es halála után?",
+      "a": [
+        "Franz Xaver Süssmayr",
+        "Antonio Salieri",
+        "Joseph Haydn",
+        "Constanze Mozart"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mozart tanítványa, Franz Xaver Süssmayr fejezte be a Requiemet az özvegy Constanze Mozart kérésére.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik érzékszervi probléma nehezítette meg Beethoven életét felnőttkorától kezdve, miközben legnagyobb műveit komponálta?",
+      "a": [
+        "Fokozatosan súlyosbodó hallásvesztés",
+        "Fokozatos látásvesztés és vakság",
+        "Krónikus hangszálgyulladás",
+        "Kéztremor, amely lehetetlenné tette a hangszerjátékot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Beethoven felnőttkorától kezdve fokozatosan elveszítette hallását, és élete végére szinte teljesen megsüketült.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik zenetörténeti korszak legjelentősebb alakjának tartják Johann Sebastian Bachot?",
+      "a": [
+        "A barokk",
+        "A reneszánsz",
+        "A klasszicizmus",
+        "A romantika"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bach a barokk zene csúcspontját képviseli összetett polifon szerkesztésmódjával.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Hány hegedűversenyből áll Vivaldi Négy évszak (Le quattro stagioni) című ciklusa?",
+      "a": [
+        "Négy",
+        "Hat",
+        "Nyolc",
+        "Tizenkettő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A ciklus négy hegedűversenyből áll, egy-egy évszakot (tavasz, nyár, ősz, tél) megjelenítve.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Hány tételből áll jellemzően egy bécsi klasszicista szimfónia?",
+      "a": [
+        "Négy",
+        "Három",
+        "Öt",
+        "Hat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A klasszikus szimfónia hagyományosan négy tételes: gyors, lassú, menüett vagy scherzo, majd ismét gyors tétel.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik osztrák karmestert tartják a 20. század egyik legbefolyásosabb karmesterének, aki évtizedekig vezette a Berlini Filharmonikusokat?",
+      "a": [
+        "Herbert von Karajan",
+        "Leonard Bernstein",
+        "Arturo Toscanini",
+        "Georg Solti"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Herbert von Karajan több mint három évtizeden át, 1989-ig volt a Berlini Filharmonikusok vezető karmestere.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik Verdi-opera Rabszolgák kórusa (Va, pensiero) vált az olasz nemzeti öntudat jelképévé a 19. században?",
+      "a": [
+        "A Nabucco",
+        "Az Aida",
+        "Az Otello",
+        "A Rigoletto"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nabucco Rabszolgák kórusa a babiloni fogságba hurcolt zsidók honvágyát fejezi ki, és az olasz egységtörekvések jelképévé vált.",
+      "t": "opera"
+    },
+    {
+      "q": "Melyik olasz zeneszerző operáját, a Turandotot fejezte be más zeneszerző a szerző halála miatt?",
+      "a": [
+        "Giacomo Puccini",
+        "Giuseppe Verdi",
+        "Gaetano Donizetti",
+        "Pietro Mascagni"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Puccini 1924-es halála miatt a Turandot végét Franco Alfano fejezte be a fennmaradt vázlatok alapján.",
+      "t": "opera"
+    },
+    {
+      "q": "Mit jelent szó szerint az opera „bel canto” stílusának elnevezése?",
+      "a": [
+        "Szép éneklés",
+        "Erős hang",
+        "Gyors ütem",
+        "Magas hangfekvés"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A „bel canto” olaszul „szép éneklést” jelent, és a hajlékony, díszes énektechnikát hangsúlyozó stílust jelöli.",
+      "t": "opera"
+    },
+    {
+      "q": "Mi különbözteti meg az operai „áriát” a „recitativótól”?",
+      "a": [
+        "Az ária dallamos, érzelmeket kifejező énekszakasz, míg a recitativo a cselekményt vivő, beszédszerű éneklés",
+        "Az ária mindig kórusra, a recitativo mindig szólistára van komponálva minden operában",
+        "Az ária tisztán hangszeres betét, a recitativo pedig kizárólag énekes rész zenekari kíséret nélkül",
+        "Az ária csak vígoperákban, a recitativo csak komoly, drámai operákban fordul elő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ária a szereplő érzelmeit fejezi ki dallamosan, míg a recitativo a történet előrevitelére szolgáló, beszédszerű éneklés.",
+      "t": "opera"
+    },
+    {
+      "q": "Melyik évben mutatták be Csajkovszkij A diótörő című balettjét a szentpétervári Mariinszkij Színházban?",
+      "a": [
+        "1892",
+        "1877",
+        "1912",
+        "1885"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A diótörő ősbemutatójára 1892. december 18-án került sor Szentpéterváron.",
+      "t": "balett"
+    },
+    {
+      "q": "Melyik Csajkovszkij-balett meséli el egy hattyúvá varázsolt hercegnő történetét?",
+      "a": [
+        "A hattyúk tava",
+        "A diótörő",
+        "Csipkerózsika",
+        "Coppélia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hattyúk tava főszereplője Odett hercegnő, akit egy gonosz varázsló hattyúvá változtatott.",
+      "t": "balett"
+    },
+    {
+      "q": "Milyen korabeli technikai eszközzel rögzítette Bartók Béla és Kodály Zoltán a gyűjtött magyar népdalokat a 20. század elején?",
+      "a": [
+        "Fonográffal (viaszhengerre)",
+        "Magnetofonnal",
+        "Bakelitlemez-vágóval",
+        "Rádióadóval"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Bartók és Kodály 1905-1906-tól kezdve fonográf viaszhengerekre rögzítették a gyűjtött népdalokat.",
+      "t": "magyar zene"
+    },
+    {
+      "q": "Melyik évben mutatták be nyilvánosan Erkel Ferenc megzenésített Himnuszát a pesti Nemzeti Színházban?",
+      "a": [
+        "1844",
+        "1823",
+        "1848",
+        "1867"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kölcsey verse 1823-ban született, Erkel zenéjét azonban csak 1844-ben mutatták be egy pályázat nyomán.",
+      "t": "magyar zene"
+    },
+    {
+      "q": "Melyik 19. századi magyar zeneszerzőt és zongoravirtuózt tartják minden idők egyik legnagyobb zongoristájának?",
+      "a": [
+        "Liszt Ferencet",
+        "Erkel Ferencet",
+        "Bartók Bélát",
+        "Dohnányi Ernőt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Liszt Ferenc rendkívüli technikai tudásával és előadói stílusával forradalmasította a zongorajátékot.",
+      "t": "magyar zene"
+    },
+    {
+      "q": "Melyik 1962-ben alakult magyar rockegyüttes vált az egyik legismertebb hazai zenekarrá (pl. Gyöngyhajú lány)?",
+      "a": [
+        "Az Omega",
+        "Az Illés",
+        "A Metró",
+        "A Locomotiv GT"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Omega együttes 1962-es megalakulása óta a magyar rockzene egyik meghatározó formációja.",
+      "t": "magyar zene"
+    },
+    {
+      "q": "Melyik magyar népi pengetős hangszer testén húrok feszülnek egy hosszúkás, ládaszerű testen, amelyet ölben tartva szólaltatnak meg?",
+      "a": [
+        "A citera",
+        "A tekerőlyra",
+        "A koboz",
+        "A tambura"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A citerát hagyományosan az ölben fekve tartják, és a húrokat pengetve vagy vonóval szólaltatják meg.",
+      "t": "magyar zene"
+    },
+    {
+      "q": "Mit nevezünk Magyarországon „táncháznak”, amely mozgalomként az 1970-es években indult?",
+      "a": [
+        "Olyan közösségi összejövetelt, ahol élő népzenére hagyományos táncokat tanulnak és táncolnak",
+        "Egy hagyományos falusi lakodalmi szertartást, amely kizárólag esküvőkön zajlik le",
+        "Egy komolyzenei versenyt fiatal klasszikus zenészek számára",
+        "Egy rádiós zenei vetélkedőt, amelyet a Kossuth rádió sugárzott"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A táncházmozgalom az 1970-es években indult, célja az élő népzenei és néptánc-hagyomány közösségi átörökítése.",
+      "t": "magyar zene"
+    },
+    {
+      "q": "Melyik pápáról nevezték el a középkori egyszólamú, latin nyelvű egyházi éneklési formát?",
+      "a": [
+        "I. (Nagy Szent) Gergely pápáról",
+        "III. Ince pápáról",
+        "VII. Gergely pápáról",
+        "II. János Pál pápáról"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A gregorián éneket hagyományosan I. (Nagy Szent) Gergely pápáról nevezték el, bár kialakulása évszázadokkal később zajlott.",
+      "t": "zenetörténet"
+    },
+    {
+      "q": "Melyik találmány tette lehetővé a 15. század végén a kották tömeges sokszorosítását?",
+      "a": [
+        "A könyvnyomtatás",
+        "A gramofonlemez",
+        "A távíróhálózat",
+        "A fényképezőgép"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Gutenberg-féle nyomdatechnika a 15. század végére a kották sokszorosítását is lehetővé tette.",
+      "t": "zenetörténet"
+    },
+    {
+      "q": "Melyik zenetörténeti korszak követte közvetlenül a barokkot a 18. század közepén?",
+      "a": [
+        "A klasszicizmus",
+        "A reneszánsz",
+        "A romantika",
+        "Az impresszionizmus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A barokkot a 18. század közepén a bécsi klasszicizmus váltotta fel, olyan zeneszerzőkkel, mint Haydn és Mozart.",
+      "t": "zenetörténet"
+    },
+    {
+      "q": "Melyik Sztravinszkij-mű párizsi ősbemutatója váltott ki botrányt a közönség körében 1913-ban?",
+      "a": [
+        "A tavaszi áldozat",
+        "A tűzmadár",
+        "A Petruska",
+        "Az Apolló"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tavaszi áldozat 1913-as párizsi bemutatóján a szokatlan ritmusok és koreográfia miatt dulakodás tört ki a nézőtéren.",
+      "t": "zenetörténet"
+    },
+    {
+      "q": "Ki szabadalmaztatta 1877-ben az első hangrögzítésre és -lejátszásra alkalmas eszközt, a fonográfot?",
+      "a": [
+        "Thomas Edison",
+        "Alexander Graham Bell",
+        "Emile Berliner",
+        "Nikola Tesla"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Thomas Edison 1877-ben mutatta be a fonográfot, amely viaszhengerre rögzítette és játszotta le a hangot.",
+      "t": "zenetörténet"
+    },
+    {
+      "q": "Melyik brit zeneszerző neve fűződik olyan sikeres musicalekhez, mint Az operaház fantomja és a Cats?",
+      "a": [
+        "Andrew Lloyd Webber",
+        "Tim Rice",
+        "Elton John",
+        "Stephen Sondheim"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Andrew Lloyd Webber komponálta a musicalek zenéjét, gyakran Tim Rice vagy más szövegírók dalszövegeivel.",
+      "t": "musical"
+    },
+    {
+      "q": "Melyik híres musical helyezi át a Rómeó és Júlia történetét az 1950-es évek New York-i bandaháborúiba?",
+      "a": [
+        "A West Side Story",
+        "A Chicago",
+        "A Grease",
+        "A Hairspray"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A West Side Story a Jets és a Sharks nevű utcai bandák viszályán keresztül dolgozza fel a Shakespeare-történetet.",
+      "t": "musical"
+    },
+    {
+      "q": "Melyik musical és film épül kizárólag az ABBA együttes dalaira?",
+      "a": [
+        "A Mamma Mia!",
+        "A Moulin Rouge!",
+        "A Rock of Ages",
+        "A Jersey Boys"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Mamma Mia! cselekménye az ABBA legismertebb slágereire, például a Dancing Queenre épül.",
+      "t": "musical"
+    },
+    {
+      "q": "Melyik amerikai musical dolgozza fel hiphop és R&B stílusban Alexander Hamilton alapító atya történetét?",
+      "a": [
+        "A Hamilton",
+        "Az In the Heights",
+        "A Dear Evan Hansen",
+        "A The Book of Mormon"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Lin-Manuel Miranda 2015-ös Hamilton musicalje modern zenei stílusban meséli el az amerikai alapító atya életét.",
+      "t": "musical"
     }
   ]
 }

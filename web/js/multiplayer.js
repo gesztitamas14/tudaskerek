@@ -1294,19 +1294,42 @@ export function roomScreen(app, { room: initialRoom }) {
   }
 
   /** Kiértékelés: a helyes válasz zölden, a sajátom (ha rontottam) piros. */
+  /**
+   * A kiértékelt válaszgombok, RAJTUK ki mit szavazott.
+   *
+   * A „ki mit válaszolt” listát korábban kivettük (nem fért ki egy fix
+   * magasságú képernyőre) – ezt a felhasználó utólag kérte vissza, ezért itt
+   * most kompakt formában, magán a válaszgombon jelenik meg: kis avatarok a
+   * sor végén, nem egy külön, helyet foglaló szakasz. Sok játékosnál az
+   * avatarcsík vízszintesen görgethető, hogy ne nyújtsa meg a sort.
+   */
   function answersResolved(q) {
     const mine = (q.results ?? []).find((r) => r.player_id === myId());
+    const results = q.results ?? [];
     const host = el('div.answers.answers-spectator');
     (q.answers ?? []).forEach((answer, index) => {
       let stateClass = 'answer-dimmed';
       if (index === q.correct_answer) stateClass = 'answer-correct';
       else if (mine && index === mine.selected_answer) stateClass = 'answer-wrong';
 
+      const voters = results.filter((r) => r.selected_answer === index);
+      const voterStrip = voters.length
+        ? el('div.answer-voters', null, voters.map((r) =>
+            el('span.answer-voter', {
+              title: nameOf(r.player_id),
+              text: avatarEmoji(
+                (room.players ?? []).find((p) => p.player_id === r.player_id)?.avatar_id
+              )
+            })
+          ))
+        : null;
+
       host.append(
         el('div.answer', { class: `answer-static ${stateClass}` }, [
           el('span.answer-letter', { text: LETTERS[index] ?? '?' }),
-          el('span.answer-text', { text: answer })
-        ])
+          el('span.answer-text', { text: answer }),
+          voterStrip
+        ].filter(Boolean))
       );
     });
     return host;

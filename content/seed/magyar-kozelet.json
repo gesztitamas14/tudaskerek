@@ -950,6 +950,916 @@
       "d": "hard",
       "e": "A 2011-es reform óta a képviselők egy része egyéni választókerületben, más része listán szerez mandátumot.",
       "t": "választás"
+    },
+    {
+      "q": "Ki írta a Himnusz szövegét, amelynek zenéjét később Erkel Ferenc szerezte meg?",
+      "a": [
+        "Kölcsey Ferenc",
+        "Vörösmarty Mihály",
+        "Petőfi Sándor",
+        "Arany János"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Himnusz szövegét Kölcsey Ferenc írta 1823-ban, zenéjét Erkel Ferenc komponálta 1844-ben.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Mit szimbolizál hagyományosan a magyar címerben látható hármas halom?",
+      "a": [
+        "A Tátra, a Mátra és a Fátra hegységeit",
+        "A három részre szakadt középkori Magyarországot",
+        "Szent István, Szent László és Szent Imre királyokat",
+        "A Kárpát-medence három nagy folyóját"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hármas halom hagyományosan a Tátra, a Mátra és a Fátra hegységeket jelképezi a magyar címerben.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Mit jelképeznek a magyar címer hétszer vágott mezőjének ezüst sávjai?",
+      "a": [
+        "A Duna, a Tisza, a Dráva és a Száva folyóit",
+        "Magyarország négy égtáj felőli határait",
+        "A négy évszázados török uralom emlékét",
+        "A honfoglaló hét törzs egyesülését"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A négy ezüst sáv hagyományosan a Dunát, a Tiszát, a Drávát és a Szávát jelképezi a címerben.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Mire utal a magyar címerben látható kettős kereszt?",
+      "a": [
+        "Szent István apostoli királyságára és a kereszténység felvételére",
+        "A Habsburg-ház több évszázados magyarországi uralmára",
+        "A tatárjárás utáni újjáépítés korszakára",
+        "A török hódoltság végleges megszűnésére"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kettős kereszt az apostoli királyságra és a kereszténység felvételére utal, amelyet Szent István vezetett be.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Mit jelent a Szent Korona a magyar alkotmányos hagyományban?",
+      "a": [
+        "A magyar állami szuverenitás és jogfolytonosság jelképét",
+        "Kizárólag a mindenkori uralkodó személyes ékszerét",
+        "Az Osztrák–Magyar Monarchia közös jelvényét",
+        "Egy 20. században alapított állami emlékművet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Szent Korona a magyar államiság és alkotmányos jogfolytonosság szimbóluma, az úgynevezett Szentkorona-tan alapja.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Milyen színsorrendben helyezkednek el a magyar zászló sávjai felülről lefelé?",
+      "a": [
+        "Piros, fehér, zöld",
+        "Zöld, fehér, piros",
+        "Piros, zöld, fehér",
+        "Fehér, piros, zöld"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A magyar nemzeti lobogó felülről lefelé piros, fehér és zöld sávból áll.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Melyik évszázadra rögzült véglegesen a magyar címer ma is használt alapformája?",
+      "a": [
+        "A 16. századra",
+        "A 11. századra",
+        "A 18. századra",
+        "A 20. századra"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar címer alapelemei a történeti kutatások szerint a 16. századra alakultak ki mai formájukban.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Milyen történelmi eseményre emlékezünk augusztus 20-án Magyarországon?",
+      "a": [
+        "Az államalapításra és Szent István királyra",
+        "Az 1848-as forradalom kitörésére",
+        "A rendszerváltás kezdetére",
+        "Magyarország uniós csatlakozására"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Augusztus 20. Szent István államalapításának és hagyományosan az új kenyér ünnepének napja.",
+      "t": "ünnepek"
+    },
+    {
+      "q": "Mi történt Budapesten 1956. október 23-án, amelynek emlékére nemzeti ünnep lett ez a nap?",
+      "a": [
+        "Kitört a szovjet uralom elleni forradalom",
+        "Aláírták a rendszerváltás alkotmányát",
+        "Megalakult az első többpárti kormány",
+        "Kikiáltották a Magyar Köztársaságot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1956. október 23-án Budapesten kitört a szovjet rendszer elleni forradalom és szabadságharc.",
+      "t": "ünnepek"
+    },
+    {
+      "q": "Melyik napon kiáltották ki a Magyar Köztársaságot 1989-ben?",
+      "a": [
+        "Október 23-án",
+        "Március 15-én",
+        "Június 16-án",
+        "Augusztus 20-án"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szűrös Mátyás ideiglenes államfő 1989. október 23-án kiáltotta ki a Magyar Köztársaságot.",
+      "t": "ünnepek"
+    },
+    {
+      "q": "Mit ünnepelnek Magyarországon minden év június 4-én?",
+      "a": [
+        "A nemzeti összetartozás napját",
+        "A magyar kultúra napját",
+        "A magyar tudomány napját",
+        "Az alaptörvény napját"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Június 4. a trianoni békeszerződés aláírásának évfordulóján a nemzeti összetartozás napja.",
+      "t": "ünnepek"
+    },
+    {
+      "q": "Hány hivatalos nemzeti ünnepe van Magyarországnak?",
+      "a": [
+        "Három",
+        "Kettő",
+        "Négy",
+        "Öt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Magyarországnak három nemzeti ünnepe van: március 15., augusztus 20. és október 23.",
+      "t": "ünnepek"
+    },
+    {
+      "q": "Melyik márciusi nap emlékeztet az 1848–49-es forradalom és szabadságharc kezdetére?",
+      "a": [
+        "Március 15.",
+        "Március 8.",
+        "Március 21.",
+        "Március 30."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1848. március 15-én tört ki a forradalom Pesten, ennek emlékére nemzeti ünnep e nap.",
+      "t": "ünnepek"
+    },
+    {
+      "q": "Mikor lépett hatályba Magyarország jelenlegi Alaptörvénye?",
+      "a": [
+        "2012. január 1-jén",
+        "1990. október 23-án",
+        "2004. május 1-jén",
+        "1949. augusztus 20-án"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Országgyűlés 2011-ben fogadta el, és 2012. január 1-jén lépett hatályba az új Alaptörvény.",
+      "t": "alaptörvény"
+    },
+    {
+      "q": "Melyik szót használja Magyarország jelenlegi alkotmánya önmaga megnevezésére a korábbi \"alkotmány\" szó helyett?",
+      "a": [
+        "Alaptörvény",
+        "Alapokmány",
+        "Szabadságlevél",
+        "Nemzeti Charta"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A 2012 óta hatályos magyar alkotmány hivatalos neve Alaptörvény, nem pedig alkotmány.",
+      "t": "alaptörvény"
+    },
+    {
+      "q": "Hány tagja van a magyar Alkotmánybíróságnak?",
+      "a": [
+        "Tizenöt",
+        "Kilenc",
+        "Tizenkettő",
+        "Húsz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar Alkotmánybíróságnak tizenöt tagja van, akiket az Országgyűlés választ.",
+      "t": "alaptörvény"
+    },
+    {
+      "q": "Hány évre szól egy alkotmánybíró megbízatása Magyarországon?",
+      "a": [
+        "Tizenkét évre",
+        "Hat évre",
+        "Kilenc évre",
+        "Négy évre"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar alkotmánybírókat az Országgyűlés tizenkét évre választja, megbízatásuk nem újítható meg.",
+      "t": "alaptörvény"
+    },
+    {
+      "q": "Milyen parlamenti többség szükséges az Alaptörvény módosításához?",
+      "a": [
+        "A képviselők kétharmada",
+        "A képviselők egyszerű többsége",
+        "A képviselők háromnegyede",
+        "Kötelező népszavazás jóváhagyása"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Alaptörvény módosításához az Országgyűlés tagjainak kétharmados szavazata szükséges.",
+      "t": "alaptörvény"
+    },
+    {
+      "q": "Hány vármegyére (korábbi nevén megyére) oszlik Magyarország területe?",
+      "a": [
+        "Tizenkilencre",
+        "Tizenháromra",
+        "Huszonegyre",
+        "Tizenhétre"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Magyarország területe Budapest mellett tizenkilenc vármegyére tagolódik.",
+      "t": "közigazgatás"
+    },
+    {
+      "q": "Mi lett a \"megye\" elnevezés hivatalos utóda 2023. január 1-től Magyarországon?",
+      "a": [
+        "Vármegye",
+        "Járás",
+        "Tartomány",
+        "Régió"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "2023. január 1-től a megye elnevezést a történelmi vármegye szó váltotta fel hivatalosan.",
+      "t": "közigazgatás"
+    },
+    {
+      "q": "Hány kerületre oszlik Budapest?",
+      "a": [
+        "Huszonháromra",
+        "Tizenkilencre",
+        "Tizenötre",
+        "Harmincra"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Budapest főváros huszonhárom kerületből áll.",
+      "t": "közigazgatás"
+    },
+    {
+      "q": "Mi a járás szerepe a magyar közigazgatási rendszerben?",
+      "a": [
+        "A vármegyén belüli, önkormányzatoknál nagyobb államigazgatási egység",
+        "A legkisebb önálló önkormányzati egység egyetlen faluban",
+        "Az Európai Unió egyik hivatalos statisztikai régiója",
+        "Egy mára csak jelképes, közigazgatási feladat nélküli elnevezés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A járás a vármegyén belüli középszintű közigazgatási egység, a járási hivatalok működési területe.",
+      "t": "közigazgatás"
+    },
+    {
+      "q": "Milyen gyakorisággal tartanak helyi önkormányzati választásokat Magyarországon?",
+      "a": [
+        "Ötévente",
+        "Négyévente",
+        "Háromévente",
+        "Kétévente"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Magyarországon 2014 óta ötévente tartanak helyi önkormányzati választásokat.",
+      "t": "közigazgatás"
+    },
+    {
+      "q": "Ki áll egy magyar település élén, akit közvetlenül választanak a helyi választópolgárok?",
+      "a": [
+        "A polgármester",
+        "A jegyző",
+        "A megyei elnök",
+        "A kormánymegbízott"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A polgármestert a település lakói közvetlenül választják, ő a helyi önkormányzat vezetője.",
+      "t": "közigazgatás"
+    },
+    {
+      "q": "Mi a vármegyei kormányhivatal fő szerepe a közigazgatásban?",
+      "a": [
+        "Az állami közigazgatási feladatok összefogása területi szinten",
+        "Kizárólag a helyi iparűzési adók beszedése",
+        "A helyi rendőrkapitányságok napi irányítása",
+        "Az országgyűlési választások szavazatszámlálása"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A vármegyei kormányhivatal fogja össze az államigazgatási feladatokat az adott terület egészén.",
+      "t": "közigazgatás"
+    },
+    {
+      "q": "Melyik szerv látja el az önkormányzatok törvényességi felügyeletét Magyarországon?",
+      "a": [
+        "A kormányhivatal",
+        "Az Alkotmánybíróság",
+        "Az Állami Számvevőszék",
+        "A Kúria"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kormányhivatal ellenőrzi, hogy a helyi önkormányzatok döntései megfelelnek-e a jogszabályoknak.",
+      "t": "közigazgatás"
+    },
+    {
+      "q": "Hány egyéni választókerületben zajlik a képviselőválasztás a 199 fős Országgyűlésben?",
+      "a": [
+        "106 választókerületben",
+        "176 választókerületben",
+        "93 választókerületben",
+        "152 választókerületben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 199 mandátumból 106-ot egyéni választókerületekben, a többit listás szavazatok alapján osztanak ki.",
+      "t": "választás"
+    },
+    {
+      "q": "Mi történik az országos listás szavazatokkal a magyar választási rendszerben?",
+      "a": [
+        "Ezekből osztják ki a fennmaradó 93 mandátumot arányosan",
+        "Ezek csak tanácsadó jellegűek, mandátumot nem eredményeznek",
+        "Kizárólag az önkormányzati választásokon számítanak",
+        "Csak akkor számítanak, ha egy párt eléri az 50 százalékot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A listás szavazatokból – köztük a töredékszavazatokból – osztják szét a maradék 93 képviselői helyet.",
+      "t": "választás"
+    },
+    {
+      "q": "Hány százalékos küszöböt kell elérnie egy önállóan induló pártnak a listás mandátumszerzéshez?",
+      "a": [
+        "Öt százalékot",
+        "Három százalékot",
+        "Tíz százalékot",
+        "Nyolc százalékot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az önállóan induló pártoknak az országos listás szavazatok legalább öt százalékát kell megszerezniük.",
+      "t": "választás"
+    },
+    {
+      "q": "Mi szükséges ahhoz, hogy országos népszavazást lehessen kezdeményezni Magyarországon?",
+      "a": [
+        "Meghatározott számú választópolgár érvényes aláírása",
+        "Kizárólag a köztársasági elnök egyoldalú döntése",
+        "Bárki kezdeményezheti, előzetes feltétel nélkül",
+        "Csak parlamenti képviselők indítványozhatják"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Országos népszavazás kezdeményezéséhez a törvényben meghatározott számú választópolgár aláírása szükséges.",
+      "t": "választás"
+    },
+    {
+      "q": "Hány fordulóban dől el ma Magyarországon az egyéni választókerületek győztese?",
+      "a": [
+        "Egy fordulóban",
+        "Két fordulóban",
+        "Három fordulóban, ha szükséges",
+        "Öt fordulóban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jelenlegi rendszerben egyetlen forduló dönt, a legtöbb szavazatot kapó jelölt nyer.",
+      "t": "választás"
+    },
+    {
+      "q": "Ki jogosult szavazni a magyar országgyűlési választásokon?",
+      "a": [
+        "A nagykorú, választójogból ki nem zárt magyar állampolgárok",
+        "Csak az adott településen született állampolgárok",
+        "Csak a 25 év felettiek, felsőfokú végzettséggel",
+        "Csak azok, akik befizetik a választási illetéket"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A választójog a nagykorú, választójogból ki nem zárt magyar állampolgárokat illeti meg.",
+      "t": "választás"
+    },
+    {
+      "q": "Melyik bírói fórum dönt végérvényesen az országgyűlési választással kapcsolatos jogorvoslati ügyekben?",
+      "a": [
+        "A Kúria",
+        "Az Alkotmánybíróság",
+        "A Nemzeti Választási Bizottság önállóan",
+        "A Legfőbb Ügyészség"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az országgyűlési választással kapcsolatos jogorvoslati ügyekben végső fokon a Kúria dönt.",
+      "t": "választás"
+    },
+    {
+      "q": "Milyen ügyekben segíti az alapvető jogok biztosának munkáját a két helyettese?",
+      "a": [
+        "A nemzetiségi jogok és a jövő nemzedékek érdekeinek védelmében",
+        "Az Alkotmánybíróság ügyrendjének kialakításában",
+        "A vármegyei kormányhivatalok irányításában",
+        "A rendőrség fegyelmi ügyeiben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ombudsmant két helyettese segíti: az egyik a nemzetiségi jogokat, a másik a jövő nemzedékek érdekeit védi.",
+      "t": "intézmények"
+    },
+    {
+      "q": "Mi a Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH) fő feladata?",
+      "a": [
+        "A személyes adatok védelmének és a közérdekű adatok megismerésének felügyelete",
+        "A bankok tőkemegfelelésének pénzügyi ellenőrzése",
+        "A médiatartalmak erkölcsi és korhatár szerinti minősítése",
+        "Az állami tulajdonú vagyon üzemeltetése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A NAIH a személyes adatok védelméhez és a közérdekű adatok megismeréséhez fűződő jogok érvényesülését felügyeli.",
+      "t": "intézmények"
+    },
+    {
+      "q": "Milyen ügyekben lép fel jellemzően a Gazdasági Versenyhivatal (GVH)?",
+      "a": [
+        "Kartellek és fogyasztókat megtévesztő piaci magatartás esetén",
+        "Kizárólag munkaügyi jogviták rendezésében",
+        "Az állami költségvetés végrehajtásának ellenőrzésében",
+        "Bírósági ítéletek végrehajtásának felügyeletében"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A GVH a versenyt korlátozó megállapodások, a piaci erőfölénnyel való visszaélés és a megtévesztő reklámok ellen lép fel.",
+      "t": "intézmények"
+    },
+    {
+      "q": "Mi a Költségvetési Tanács szerepe az állami költségvetés elfogadásában?",
+      "a": [
+        "Szakmailag véleményezi a költségvetési törvényjavaslatot",
+        "Egyedül dönt a következő évi adókulcsokról",
+        "Kinevezi a Magyar Nemzeti Bank elnökét",
+        "Lebonyolítja az önkormányzati választásokat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Költségvetési Tanács szakmailag véleményezi a költségvetési törvényjavaslatot, és egyetértési joga is van.",
+      "t": "intézmények"
+    },
+    {
+      "q": "Mi a Magyar Nemzeti Bank egyik fő törvényi feladata?",
+      "a": [
+        "Az árstabilitás fenntartása és a monetáris politika irányítása",
+        "Az állami nyugdíjak havi folyósítása",
+        "A helyi iparűzési adók beszedése",
+        "Az útépítési beruházások közvetlen finanszírozása"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Magyar Nemzeti Bank elsődleges célja az árstabilitás elérése és fenntartása.",
+      "t": "intézmények"
+    },
+    {
+      "q": "Milyen típusú szervezet a Magyar Tudományos Akadémia?",
+      "a": [
+        "Köztestület, amely a tudomány művelését és támogatását szolgálja",
+        "Minisztériumi háttérintézmény, amely csak tankönyveket ad ki",
+        "Egyetemi kar, amely önállóan oszt diplomát",
+        "Nemzetközi civil szervezet magyarországi fiókintézménye"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Magyar Tudományos Akadémia köztestület, amely a tudományos kutatást és a tudomány művelését szolgálja.",
+      "t": "intézmények"
+    },
+    {
+      "q": "Milyen parlamenti többséggel választják meg az Állami Számvevőszék elnökét?",
+      "a": [
+        "Kétharmados többséggel",
+        "Egyszerű többséggel",
+        "Háromnegyedes többséggel",
+        "Népszavazásos jóváhagyással"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Állami Számvevőszék elnökét az Országgyűlés kétharmados többséggel választja meg.",
+      "t": "intézmények"
+    },
+    {
+      "q": "Melyik évben vált Magyarország teljes jogú NATO-taggá?",
+      "a": [
+        "1999-ben",
+        "1994-ben",
+        "2004-ben",
+        "2009-ben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Magyarország 1999. március 12-én csatlakozott a NATO-hoz Lengyelországgal és Csehországgal együtt.",
+      "t": "nemzetközi"
+    },
+    {
+      "q": "Melyik napon csatlakozott Magyarország az Európai Unióhoz a 2004-es bővítés keretében?",
+      "a": [
+        "2004. május 1-jén",
+        "2004. január 1-jén",
+        "2007. január 1-jén",
+        "1999. március 12-én"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Magyarország 2004. május 1-jén, kilenc másik országgal együtt csatlakozott az Európai Unióhoz.",
+      "t": "nemzetközi"
+    },
+    {
+      "q": "Hányadik alkalommal töltötte be Magyarország az Európai Unió Tanácsának soros elnökségét 2024-ben?",
+      "a": [
+        "Másodszor",
+        "Először",
+        "Harmadszor",
+        "Negyedszer"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Magyarország 2011 után 2024-ben másodszor látta el az uniós tanácsi elnökség feladatait.",
+      "t": "nemzetközi"
+    },
+    {
+      "q": "Mely országokkal alkot Magyarország regionális együttműködést Visegrádi Csoport néven?",
+      "a": [
+        "Lengyelország, Csehország és Szlovákia",
+        "Ausztria, Szlovénia és Horvátország",
+        "Románia, Szerbia és Ukrajna",
+        "Németország, Ausztria és Svájc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Visegrádi Csoportot (V4) Magyarország, Lengyelország, Csehország és Szlovákia alkotja.",
+      "t": "nemzetközi"
+    },
+    {
+      "q": "Melyik évben vették fel Magyarországot az Egyesült Nemzetek Szervezetébe?",
+      "a": [
+        "1955-ben",
+        "1945-ben",
+        "1989-ben",
+        "1968-ban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Magyarországot 1955. december 14-én vették fel az ENSZ tagjai közé.",
+      "t": "nemzetközi"
+    },
+    {
+      "q": "Mi jellemzi Magyarország viszonyát a schengeni övezethez?",
+      "a": [
+        "Magyarország tagja a belső határellenőrzés nélküli schengeni térségnek",
+        "Magyarország sosem csatlakozott a schengeni övezethez",
+        "Magyarország csak a légi határain alkalmazza a schengeni szabályokat",
+        "Magyarország 2015-ben kilépett a schengeni övezetből"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Magyarország 2007 óta tagja a schengeni övezetnek, amely a belső határellenőrzés eltörlését jelenti.",
+      "t": "nemzetközi"
+    },
+    {
+      "q": "Ki tölti be jelenleg Magyarország köztársasági elnöki tisztségét?",
+      "a": [
+        "Sulyok Tamás",
+        "Orbán Viktor",
+        "Novák Katalin",
+        "Áder János"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Sulyok Tamást az Országgyűlés 2024 februárjában választotta köztársasági elnökké.",
+      "t": "államszervezet"
+    },
+    {
+      "q": "Ki tölti be 2010 óta folyamatosan az Országgyűlés elnöki (házelnöki) tisztségét?",
+      "a": [
+        "Kövér László",
+        "Áder János",
+        "Szili Katalin",
+        "Lezsák Sándor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kövér László 2010 óta tölti be az Országgyűlés elnöki tisztségét.",
+      "t": "államszervezet"
+    },
+    {
+      "q": "Mi a Kormány fő feladata a hatalmi ágak rendszerében?",
+      "a": [
+        "A végrehajtó hatalom gyakorlása és az ország kormányzása",
+        "A törvények alkotmányosságának felülvizsgálata",
+        "A bírói ítéletek meghozatala peres ügyekben",
+        "A választások törvényességének ellenőrzése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Kormány a végrehajtó hatalmi ág csúcsszerve, amely az ország kormányzati feladatait látja el.",
+      "t": "államszervezet"
+    },
+    {
+      "q": "Hogyan kerül hivatalba Magyarországon a miniszterelnök?",
+      "a": [
+        "Az Országgyűlés választja meg, majd a köztársasági elnök nevezi ki",
+        "Kizárólag a Kúria elnöke jelöli ki",
+        "Az Alkotmánybíróság nevezi ki tagjai közül",
+        "Közvetlenül a választópolgárok választják népszavazáson"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A miniszterelnököt az Országgyűlés választja meg a köztársasági elnök javaslata alapján, majd ő nevezi ki.",
+      "t": "államszervezet"
+    },
+    {
+      "q": "Miért nevezik Magyarország államformáját köztársaságnak?",
+      "a": [
+        "Mert az államfő nem örökletes jogon, hanem választással nyeri el tisztségét",
+        "Mert az ország nem tagja egyetlen nemzetközi szervezetnek sem",
+        "Mert az országnak nincs kijelölt fővárosa",
+        "Mert az országnak nincs írott alkotmánya"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A köztársaság olyan államforma, ahol az államfői tisztséget nem öröklés, hanem választás útján nyerik el.",
+      "t": "államszervezet"
+    },
+    {
+      "q": "Mit jelent a hatalommegosztás elve, amelyre a magyar államberendezkedés épül?",
+      "a": [
+        "A törvényhozó, végrehajtó és bírói hatalom elkülönülve működik és ellensúlyozza egymást",
+        "Minden hatalmi ágat egyetlen testület, az Országgyűlés gyakorol",
+        "A hatalmi ágakat kizárólag a köztársasági elnök egyesíti magában",
+        "A hatalmi ágak megosztása csak választási időszakban érvényesül"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hatalommegosztás elve szerint a törvényhozó, végrehajtó és bírói hatalom elkülönül és ellensúlyozza egymást.",
+      "t": "államszervezet"
+    },
+    {
+      "q": "Ki kiáltotta ki a Magyar Köztársaságot 1989. október 23-án?",
+      "a": [
+        "Szűrös Mátyás, ideiglenes államfői jogkörben eljáró országgyűlési elnök",
+        "Antall József, akkori miniszterelnök-jelölt",
+        "Göncz Árpád, az első köztársasági elnök",
+        "Kádár János, az MSZMP korábbi vezetője"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A köztársaságot Szűrös Mátyás, az Országgyűlés elnöke, ideiglenes államfőként kiáltotta ki 1989. október 23-án.",
+      "t": "történelem"
+    },
+    {
+      "q": "Ki lett Magyarország első szabadon választott miniszterelnöke a rendszerváltás után?",
+      "a": [
+        "Antall József",
+        "Horn Gyula",
+        "Göncz Árpád",
+        "Orbán Viktor"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Antall József 1990-ben, az első szabad választás után lett Magyarország miniszterelnöke.",
+      "t": "történelem"
+    },
+    {
+      "q": "Mikor tartották Magyarországon a rendszerváltás utáni első szabad országgyűlési választásokat?",
+      "a": [
+        "1990 tavaszán",
+        "1989 őszén",
+        "1994 nyarán",
+        "1985 telén"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az első szabad választásokat 1990 márciusában és áprilisában, két fordulóban tartották.",
+      "t": "történelem"
+    },
+    {
+      "q": "Mit jelent a \"rendszerváltás\" kifejezés a magyar történelemben?",
+      "a": [
+        "Az egypárti szocialista rendszerből a többpárti demokráciába való átmenetet",
+        "Kizárólag a forint bevezetését 1946-ban",
+        "Magyarország uniós csatlakozását 2004-ben",
+        "A Monarchia felbomlását 1918-ban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A rendszerváltás az 1989–1990 körüli időszakot jelöli, amikor Magyarország demokratikus többpártrendszerre tért át.",
+      "t": "történelem"
+    },
+    {
+      "q": "Melyik évben hunyt el hivatali ideje alatt Antall József miniszterelnök?",
+      "a": [
+        "1993-ban",
+        "1990-ben",
+        "1998-ban",
+        "1996-ban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Antall József 1993. december 12-én, még hivatalban lévő miniszterelnökként hunyt el.",
+      "t": "történelem"
+    },
+    {
+      "q": "Ki volt Magyarország első köztársasági elnöke a rendszerváltás után?",
+      "a": [
+        "Göncz Árpád",
+        "Antall József",
+        "Szűrös Mátyás",
+        "Mádl Ferenc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Göncz Árpádot 1990-ben választotta meg az Országgyűlés a rendszerváltás utáni első köztársasági elnöknek.",
+      "t": "történelem"
+    },
+    {
+      "q": "Melyik évben alapította az Országgyűlés a Kossuth-díjat?",
+      "a": [
+        "1948-ban",
+        "1990-ben",
+        "1956-ban",
+        "1867-ben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kossuth-díjat az Országgyűlés 1948-ban, az 1848-as forradalom centenáriuma alkalmából alapította.",
+      "t": "kitüntetések"
+    },
+    {
+      "q": "Melyik napon adják át hagyományosan a Kossuth-díjakat?",
+      "a": [
+        "Március 15-én",
+        "Augusztus 20-án",
+        "Október 23-án",
+        "Január 1-jén"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Kossuth-díjakat rendszerint március 15-én, a nemzeti ünnepen adják át.",
+      "t": "kitüntetések"
+    },
+    {
+      "q": "Ki adományozza jelenleg a Kossuth-díjat Magyarországon?",
+      "a": [
+        "A köztársasági elnök, a miniszterelnök előterjesztésére",
+        "Az Országgyűlés közvetlen szavazással",
+        "A Magyar Tudományos Akadémia elnöke",
+        "A Kúria mindenkori elnöke"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1990 óta a köztársasági elnök adományozza a Kossuth-díjat, jellemzően a miniszterelnök javaslatára.",
+      "t": "kitüntetések"
+    },
+    {
+      "q": "Milyen területeken tevékenykedőket ismer el jellemzően a Kossuth-díj?",
+      "a": [
+        "A művészeti és kulturális élet kiemelkedő alkotóit",
+        "Kizárólag sportolókat és sportedzőket",
+        "Csak katonai érdemeket szerzett tiszteket",
+        "Kizárólag közigazgatási vezetőket"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Kossuth-díjat elsősorban a zene, irodalom, színház és képzőművészet kiemelkedő alkotói kapják.",
+      "t": "kitüntetések"
+    },
+    {
+      "q": "Ki tervezte a magyar Országház neogótikus épületét?",
+      "a": [
+        "Steindl Imre",
+        "Ybl Miklós",
+        "Lechner Ödön",
+        "Hild József"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Országházat Steindl Imre tervezte, aki az 1902-es megnyitó előtt, 1902 augusztusában elhunyt.",
+      "t": "épületek"
+    },
+    {
+      "q": "Melyik évre készült el teljesen az Országház épülete?",
+      "a": [
+        "1904-re",
+        "1896-ra",
+        "1918-ra",
+        "1944-re"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bár 1896-ra részben elkészült, az Országház teljes befejezése 1904-re történt meg.",
+      "t": "épületek"
+    },
+    {
+      "q": "Hol őrzik és mutatják be a Szent Koronát 2000 óta, kiemelve alkotmányos jelentőségét?",
+      "a": [
+        "Az Országház kupolacsarnokában",
+        "A Budai Várban",
+        "A Mátyás-templomban",
+        "A Nemzeti Múzeumban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Szent Koronát 2000 óta az Országház kupolacsarnokában őrzik és mutatják be.",
+      "t": "épületek"
+    },
+    {
+      "q": "Milyen építészeti stílusban épült a magyar Országház?",
+      "a": [
+        "Neogótikus stílusban",
+        "Barokk stílusban",
+        "Bauhaus stílusban",
+        "Klasszicista stílusban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Országházat neogótikus stílusban tervezték, az angol parlament épülete ihlette.",
+      "t": "épületek"
+    },
+    {
+      "q": "Miért kellett Magyarországnak új fizetőeszközt, a forintot bevezetnie 1946-ban?",
+      "a": [
+        "A pengő elszabadult hiperinflációja miatt vált gyakorlatilag értéktelenné",
+        "Mert Magyarország ekkor csatlakozott az euróövezethez",
+        "Mert a Monarchia felbomlása szüntette meg a korona érvényét",
+        "Mert a szövetséges hatalmak új közös valutát írtak elő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pengő a történelem egyik legsúlyosabb hiperinflációját szenvedte el, ezért vezették be helyette a forintot.",
+      "t": "gazdaság"
+    },
+    {
+      "q": "Mi a fő célja a Magyar Nemzeti Bank alapkamat-döntéseinek?",
+      "a": [
+        "Az árstabilitás és a kiszámítható infláció fenntartása",
+        "A költségvetési hiány közvetlen finanszírozása",
+        "Az állami vállalatok nyereségének maximalizálása",
+        "A helyi önkormányzatok adóbevételének növelése"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az alapkamat meghatározásával a jegybank elsősorban az árstabilitást és az inflációs cél elérését szolgálja.",
+      "t": "gazdaság"
+    },
+    {
+      "q": "Mi a feladata a Magyar Államkincstárnak?",
+      "a": [
+        "Az államháztartás pénzforgalmának lebonyolítása és nyilvántartása",
+        "A jegybanki alapkamat meghatározása",
+        "Az egyéni adóbevallások elbírálása a NAV helyett",
+        "A tőzsdei kereskedés napi felügyelete"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Magyar Államkincstár az állami költségvetés végrehajtásával összefüggő pénzforgalmi és nyilvántartási feladatokat látja el.",
+      "t": "gazdaság"
+    },
+    {
+      "q": "Melyik szerv felelős Magyarországon az adók beszedéséért és az adóügyi ellenőrzésekért?",
+      "a": [
+        "A Nemzeti Adó- és Vámhivatal (NAV)",
+        "A Magyar Nemzeti Bank",
+        "A Költségvetési Tanács",
+        "Az Állami Számvevőszék"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Nemzeti Adó- és Vámhivatal (NAV) végzi Magyarországon az adóztatási és vámügyi feladatokat.",
+      "t": "gazdaság"
     }
   ]
 }

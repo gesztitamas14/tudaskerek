@@ -897,6 +897,1007 @@
       "e": "A mű szerzője Orhan Pamuk.",
       "t": "szerzők és műveik",
       "s": "http://www.wikidata.org/entity/Q557511"
+    },
+    {
+      "q": "Melyik évben írta Petőfi Sándor a Nemzeti dal című versét?",
+      "a": [
+        "1848",
+        "1841",
+        "1854",
+        "1867"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A verset 1848. március 13-án írta, két nappal a forradalom kitörése előtt.",
+      "t": "magyar irodalom"
+    },
+    {
+      "q": "Ki az egyetlen magyar író, aki irodalmi Nobel-díjat kapott?",
+      "a": [
+        "Kertész Imre",
+        "Márai Sándor",
+        "Esterházy Péter",
+        "Nádas Péter"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kertész Imre 2002-ben kapta a Nobel-díjat, elsősorban a Sorstalanság című regénye miatt.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik regénye miatt kapta elsősorban Kertész Imre a Nobel-díjat?",
+      "a": [
+        "Sorstalanság",
+        "Egri csillagok",
+        "Az Pál utcai fiúk",
+        "Bűn és bűnhődés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Sorstalanság a szerző saját koncentrációs táboros élményein alapuló regény.",
+      "t": "magyar irodalom"
+    },
+    {
+      "q": "Melyik magyar költő alkotása Toldi Miklós, a mesebeli erejű parasztlegény alakja?",
+      "a": [
+        "Arany János",
+        "Petőfi Sándor",
+        "Vörösmarty Mihály",
+        "Jókai Mór"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Arany János 1846-ban írta meg elbeszélő költeményét Toldi Miklósról.",
+      "t": "magyar irodalom"
+    },
+    {
+      "q": "Melyik városban született Petőfi Sándor?",
+      "a": [
+        "Kiskőrös",
+        "Kecskemét",
+        "Szeged",
+        "Debrecen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Petőfi Sándor 1823-ban Kiskőrösön született.",
+      "t": "magyar irodalom"
+    },
+    {
+      "q": "Melyik évszázadban élt és alkotott Balassi Bálint, az első jelentős magyar nyelvű lírikus?",
+      "a": [
+        "16. század",
+        "14. század",
+        "15. század",
+        "17. század"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Balassi 1554 és 1594 között élt, tehát a 16. században alkotott.",
+      "t": "magyar irodalom"
+    },
+    {
+      "q": "Melyik regény középpontjában áll a Grund nevű telek, amelyért két fiúcsapat harcol?",
+      "a": [
+        "Az Pál utcai fiúk",
+        "Egri csillagok",
+        "Légy jó mindhalálig",
+        "A kőszívű ember fiai"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Molnár Ferenc regényében a Grund a Pál utcai fiúk és a Vörösingesek harcának színtere.",
+      "t": "magyar irodalom"
+    },
+    {
+      "q": "Melyik történelmi drámában lázad fel a címszereplő nádor II. Endre király ellen, felesége, Gertrudis meggyilkolása miatt?",
+      "a": [
+        "Bánk bán",
+        "Toldi szerelme",
+        "Egri csillagok",
+        "Ludas Matyi"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Katona József drámájában Bánk bán bosszút áll a királynén, mert hozzájárult felesége meggyilkolásához.",
+      "t": "magyar irodalom"
+    },
+    {
+      "q": "Melyik brit író alkotta meg Sherlock Holmes, a híres detektív alakját?",
+      "a": [
+        "Arthur Conan Doyle",
+        "Agatha Christie",
+        "Wilkie Collins",
+        "G. K. Chesterton"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Conan Doyle 1887-ben mutatta be először Sherlock Holmest A bíborvörös dolgozószoba című regényben.",
+      "t": "szerzők és műveik"
+    },
+    {
+      "q": "Milyen írói álnéven adta ki regényeit Mary Ann Evans angol írónő?",
+      "a": [
+        "George Eliot",
+        "George Sand",
+        "Currer Bell",
+        "Ellis Bell"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mary Ann Evans férfias álnevet, George Eliot-ot használt, hogy komolyan vegyék munkáit.",
+      "t": "szerzők és műveik"
+    },
+    {
+      "q": "Mi volt Molière, a híres francia drámaíró valódi neve?",
+      "a": [
+        "Jean-Baptiste Poquelin",
+        "François-Marie Arouet",
+        "Pierre Corneille",
+        "Nicolas Boileau"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Molière született neve Jean-Baptiste Poquelin volt, a Molière csak művésznév.",
+      "t": "szerzők és műveik"
+    },
+    {
+      "q": "Milyen írói álnéven publikálta regényeit Samuel Langhorne Clemens amerikai író?",
+      "a": [
+        "Mark Twain",
+        "Ambrose Bierce",
+        "O. Henry",
+        "Bret Harte"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Samuel Clemens Mark Twain álnéven vált híressé, amely egy mississippi hajózási kifejezésből ered.",
+      "t": "szerzők és műveik"
+    },
+    {
+      "q": "Melyik művet tartják gyakran a világirodalom első modern regényének, amelyet Miguel de Cervantes írt a 17. század elején?",
+      "a": [
+        "Don Quijote",
+        "Dekameron",
+        "Candide",
+        "Robinson"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Don Quijotét (1605) sokan az első modern regénynek tartják jellegzetes elbeszélésmódja miatt.",
+      "t": "szerzők és műveik"
+    },
+    {
+      "q": "Melyik 11. századi japán udvarhölgy írta a Genji regényét, amelyet sokan a világ első regényének tartanak?",
+      "a": [
+        "Muraszaki Sikibu",
+        "Szei Sónagon",
+        "Ono no Komacsi",
+        "Izumi Sikibu"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Muraszaki Sikibu Genji regénye a 11. század elején keletkezett, a világirodalom egyik legkorábbi regénye.",
+      "t": "ókori irodalom"
+    },
+    {
+      "q": "Melyik regény kezdődik a \"Hívjatok csak Ishmaelnek\" mondattal?",
+      "a": [
+        "Moby Dick",
+        "Walden",
+        "Ivanhoe",
+        "Candide"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Moby Dick nyitómondata az amerikai irodalom egyik leghíresebb sora.",
+      "t": "amerikai irodalom"
+    },
+    {
+      "q": "Melyik Mark Twain-regény főszereplője egy fiú, aki egy szökött rabszolgával utazik tutajon a Mississippin?",
+      "a": [
+        "Huckleberry Finn kalandjai",
+        "Tom Sawyer kalandjai",
+        "A koldus és királyfi",
+        "Egy jenki Arthur király udvarában"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A regényben Huck Finn és Jim, a szökött rabszolga közösen menekülnek a folyón.",
+      "t": "amerikai irodalom"
+    },
+    {
+      "q": "Melyik regényéért kapott Harper Lee Pulitzer-díjat 1961-ben?",
+      "a": [
+        "Ne bántsátok a feketerigót!",
+        "Száll a kakukk fészkére",
+        "Az öreg halász és a tenger",
+        "Akiért a harang szól"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A regény a rasszizmus elleni küzdelmet mutatja be egy alabamai kisváros szemszögéből.",
+      "t": "amerikai irodalom"
+    },
+    {
+      "q": "Melyik évtizedet, a \"jazz-korszakot\" ábrázolja F. Scott Fitzgerald A nagy Gatsby című regénye?",
+      "a": [
+        "1920-as évek",
+        "1930-as évek",
+        "1950-es évek",
+        "1900-as évek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A regény az 1920-as évek Amerikájának gazdagságát és erkölcsi üresség ét mutatja be.",
+      "t": "amerikai irodalom"
+    },
+    {
+      "q": "Melyik évben jelent meg Ernest Hemingway Az öreg halász és a tenger című kisregénye?",
+      "a": [
+        "1952",
+        "1929",
+        "1940",
+        "1961"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kisregény 1952-ben jelent meg, és hozzájárult, hogy Hemingway 1954-ben irodalmi Nobel-díjat kapjon.",
+      "t": "amerikai irodalom"
+    },
+    {
+      "q": "Melyik Jane Austen-regény kezdődik azzal az általánosan elismert igazsággal, hogy egy vagyonos agglegénynek feleségre van szüksége?",
+      "a": [
+        "Büszkeség és balítélet",
+        "Értelem és érzelem",
+        "Mansfield Park",
+        "Northangeri apátság"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Büszkeség és balítélet híres nyitómondata gúnyosan jellemzi a korabeli házassági szokásokat.",
+      "t": "angol irodalom"
+    },
+    {
+      "q": "Melyik Dickens-regény főszereplője Pip, az árva fiú, akit egy titokzatos jótevő taníttat?",
+      "a": [
+        "Nagy várakozások",
+        "Twist Olivér",
+        "Karácsonyi ének",
+        "Copperfield Dávid"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nagy várakozásokban Pip váratlan örökség reményében válik úriemberré.",
+      "t": "angol irodalom"
+    },
+    {
+      "q": "Hány éves volt Mary Shelley, amikor 1816-ban elkezdte írni a Frankenstein című regényt?",
+      "a": [
+        "18",
+        "22",
+        "16",
+        "25"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mary Shelley mindössze 18 évesen kezdte írni a regényt egy genfi tónál töltött nyáron.",
+      "t": "angol irodalom"
+    },
+    {
+      "q": "Melyik angol költő írta a Paradicsom elveszett című eposzt a bibliai bűnbeesésről?",
+      "a": [
+        "John Milton",
+        "William Blake",
+        "John Donne",
+        "Alexander Pope"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "John Milton 1667-ben adta ki eposzát, amikorra már megvakult.",
+      "t": "angol irodalom"
+    },
+    {
+      "q": "Milyen álnéven adta ki első regényét, a Jane Eyre-t Charlotte Brontë?",
+      "a": [
+        "Currer Bell",
+        "Ellis Bell",
+        "Acton Bell",
+        "George Eliot"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Brontë nővérek nemük leplezésére férfias hangzású álneveket használtak első kiadásaikban.",
+      "t": "angol irodalom"
+    },
+    {
+      "q": "Melyik Csehov-dráma középpontjában áll egy eladósodott család birtokának gyümölcsöskertje?",
+      "a": [
+        "Cseresznyéskert",
+        "A sirály",
+        "Ványa bácsi",
+        "Három nővér"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Cseresznyéskertben a család kénytelen eladni ősi birtokát és annak gyümölcsösét.",
+      "t": "orosz irodalom"
+    },
+    {
+      "q": "Melyik regénye miatt utasította el Borisz Paszternak 1958-ban a neki ítélt irodalmi Nobel-díjat szovjet nyomásra?",
+      "a": [
+        "Doktor Zsivágó",
+        "A csendes Don",
+        "Első kör",
+        "Rákosztály"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szovjet hatóságok nyomására Paszternak kénytelen volt lemondani a díjról a Doktor Zsivágó miatt.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik évszázadban alkotott Alekszandr Puskin, akit az orosz irodalmi nyelv megújítójának tartanak?",
+      "a": [
+        "19. század",
+        "18. század",
+        "20. század",
+        "17. század"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Puskin 1799 és 1837 között élt, munkássága a 19. század első felére esik.",
+      "t": "orosz irodalom"
+    },
+    {
+      "q": "Melyik Gogol-mű szatirizálja az orosz bürokráciát halott jobbágyok felvásárlásáról szóló történeten keresztül?",
+      "a": [
+        "Holt lelkek",
+        "A köpönyeg",
+        "A revizor",
+        "Az orr"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Holt lelkekben a főhős elhunyt jobbágyok nevét vásárolja fel csalárd módon.",
+      "t": "orosz irodalom"
+    },
+    {
+      "q": "Melyik orosz író volt grófi családból származó nemesember, aki élete végén lemondott vagyonáról és egyszerű életet választott?",
+      "a": [
+        "Lev Tolsztoj",
+        "Fjodor Dosztojevszkij",
+        "Ivan Turgenyev",
+        "Anton Csehov"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Tolsztoj gróf volt, de élete végén aszketikus, egyszerű életmódra váltott.",
+      "t": "orosz irodalom"
+    },
+    {
+      "q": "Melyik Victor Hugo-regény játszódik az 1832-es párizsi felkelés idején, és főhőse a szökött fegyenc Jean Valjean?",
+      "a": [
+        "Nyomorultak",
+        "A párizsi Notre-Dame",
+        "A nevető ember",
+        "Kilencvenhárom"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Nyomorultakban Jean Valjean sorsa fonódik össze a párizsi barikádharcokkal.",
+      "t": "francia irodalom"
+    },
+    {
+      "q": "Melyik Alexandre Dumas-regény főhőse Edmond Dantès, akit ártatlanul zárnak börtönbe egy szigeti erődben?",
+      "a": [
+        "Monte Cristo grófja",
+        "A három testőr",
+        "Húsz év múlva",
+        "A vasálarcos"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Edmond Dantès a If-kastélyból szökve áll bosszút ellenségein Monte Cristo grófjaként.",
+      "t": "francia irodalom"
+    },
+    {
+      "q": "Milyen férfias írói álnevet használt Amantine Lucile Aurore Dupin francia írónő?",
+      "a": [
+        "George Sand",
+        "George Eliot",
+        "Colette",
+        "Daniel Stern"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A francia írónő George Sand néven publikálta regényeit a 19. században.",
+      "t": "francia irodalom"
+    },
+    {
+      "q": "Melyik Molière-vígjáték gúnyolja ki a képmutató vallásos álszenteskedést egy címszereplő csaló alakján keresztül?",
+      "a": [
+        "Tartuffe",
+        "A fösvény",
+        "Úrhatnám polgár",
+        "Képzelt beteg"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Tartuffe címszereplője vallásos képmutatással veri be a jóhiszemű családfő bizalmába.",
+      "t": "francia irodalom"
+    },
+    {
+      "q": "Melyik 19. századi költészeti irányzathoz köthető Charles Baudelaire A Romlás virágai című verseskötete?",
+      "a": [
+        "szimbolizmus",
+        "romantika",
+        "klasszicizmus",
+        "realizmus"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Baudelaire kötete a szimbolista és dekadens költészet egyik alapműve.",
+      "t": "francia irodalom"
+    },
+    {
+      "q": "Melyik Goethe-regény hőse, egy boldogtalanul szerelmes fiatalember öngyilkossága keltett hatalmas visszhangot Európában a 18. század végén?",
+      "a": [
+        "Werther szenvedései",
+        "Wilhelm Meister tanulóévei",
+        "Az affinitások",
+        "Torquato Tasso"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A regény hatására számos fiatal öngyilkosságot követett el, utánozva a főhős sorsát.",
+      "t": "német irodalom"
+    },
+    {
+      "q": "Melyik Thomas Mann-regény játszódik egy davosi tüdőszanatóriumban az első világháború előtti Európában?",
+      "a": [
+        "A varázshegy",
+        "Buddenbrook ház",
+        "Doktor Faustus",
+        "József és testvérei"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A varázshegy főhőse, Hans Castorp, hét évet tölt a hegyi szanatóriumban.",
+      "t": "német irodalom"
+    },
+    {
+      "q": "Melyik Grimm-mesében lakik egy gonosz boszorkány mézeskalácsból épült házikóban?",
+      "a": [
+        "Jancsi és Juliska",
+        "Hófehérke és a törpék",
+        "Csipkerózsika",
+        "Piroska és a farkas"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Jancsi és Juliska című mesében a testvérpár egy mézeskalács házikóra bukkan az erdőben.",
+      "t": "német irodalom"
+    },
+    {
+      "q": "Melyik német író kapta meg A bádogdob szerzőjeként az 1999-es irodalmi Nobel-díjat?",
+      "a": [
+        "Günter Grass",
+        "Heinrich Böll",
+        "Thomas Mann",
+        "Hermann Hesse"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Günter Grass 1999-ben kapta meg a Nobel-díjat, elsősorban A bádogdob című regénye miatt.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik Homérosz-eposz meséli el a trójai háború utolsó éveit és Akhilleusz haragját?",
+      "a": [
+        "Iliász",
+        "Odüsszeia",
+        "Aeneis",
+        "Argonautika"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Iliász középpontjában Akhilleusz haragja és a trójai háború eseményei állnak.",
+      "t": "ókori irodalom"
+    },
+    {
+      "q": "Melyik római költő írta az Aeneist, amely Trója pusztulása utáni menekülést és Róma alapítását meséli el?",
+      "a": [
+        "Vergilius",
+        "Ovidius",
+        "Horatius",
+        "Catullus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Vergilius az Aeneisben Aeneas történetét dolgozza fel, aki Trója bukása után Itáliába menekül.",
+      "t": "ókori irodalom"
+    },
+    {
+      "q": "Hány könyvre (énekre) tagolódik Homérosz Odüsszeia című eposza?",
+      "a": [
+        "24",
+        "12",
+        "36",
+        "18"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Odüsszeia, akárcsak az Iliász, hagyományosan 24 könyvre oszlik.",
+      "t": "ókori irodalom"
+    },
+    {
+      "q": "Melyik görög drámaíró írta az Oidipusz király című tragédiát, amelyben a főhős tudtán kívül teljesíti be a jóslatot?",
+      "a": [
+        "Szophoklész",
+        "Aiszkhülosz",
+        "Euripidész",
+        "Arisztophanész"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szophoklész tragédiájában Oidipusz akaratlanul is megöli apját és feleségül veszi anyját.",
+      "t": "ókori irodalom"
+    },
+    {
+      "q": "Melyik ókori indiai eposz tartalmazza a Bhagavad-gítá néven ismert filozófiai betétet?",
+      "a": [
+        "Mahábhárata",
+        "Rámájana",
+        "Rigvéda",
+        "Upanisadok"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Bhagavad-gítá a Mahábhárata egyik könyvében, Krisna és Ardzsuna párbeszédeként szerepel.",
+      "t": "ókori irodalom"
+    },
+    {
+      "q": "Ki volt az első nő, aki elnyerte az irodalmi Nobel-díjat, 1909-ben?",
+      "a": [
+        "Selma Lagerlöf",
+        "Sigrid Undset",
+        "Gabriela Mistral",
+        "Pearl S. Buck"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A svéd Selma Lagerlöf 1909-ben kapta meg a díjat, elsőként a nők közül.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik francia filozófus és író utasította el önként az 1964-es irodalmi Nobel-díjat?",
+      "a": [
+        "Jean-Paul Sartre",
+        "Albert Camus",
+        "André Malraux",
+        "Simone de Beauvoir"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Sartre elvi okokból, az intézményesített elismerések elutasítása miatt nem fogadta el a díjat.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik brit írónő kapta meg 2007-ben az irodalmi Nobel-díjat, Az arany jegyzetfüzet szerzőjeként?",
+      "a": [
+        "Doris Lessing",
+        "Iris Murdoch",
+        "A. S. Byatt",
+        "Muriel Spark"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Doris Lessing 2007-ben, 88 évesen vehette át a díjat hosszú írói pályafutásáért.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik kolumbiai író kapta meg 1982-ben az irodalmi Nobel-díjat a Száz év magány szerzőjeként?",
+      "a": [
+        "García Márquez",
+        "Vargas Llosa",
+        "Pablo Neruda",
+        "Octavio Paz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "García Márquez a mágikus realizmus egyik legismertebb alkotása, a Száz év magány miatt kapta a díjat.",
+      "t": "latin-amerikai irodalom"
+    },
+    {
+      "q": "Melyik chilei költő kapta meg 1971-ben az irodalmi Nobel-díjat?",
+      "a": [
+        "Pablo Neruda",
+        "García Márquez",
+        "Jorge Luis Borges",
+        "Isabel Allende"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pablo Neruda szenvedélyes szerelmes versei és politikai költészete tették világhírűvé.",
+      "t": "latin-amerikai irodalom"
+    },
+    {
+      "q": "Melyik argentin írót ismerik elsősorban rövid, labirintusszerű elbeszéléseiről, mint A Bábeli könyvtár?",
+      "a": [
+        "Jorge Luis Borges",
+        "Julio Cortázar",
+        "Ernesto Sabato",
+        "Adolfo Bioy Casares"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Borges novellái gyakran végtelen könyvtárakat, labirintusokat és filozófiai paradoxonokat ábrázolnak.",
+      "t": "latin-amerikai irodalom"
+    },
+    {
+      "q": "Hány szótagból áll hagyományosan a japán haiku három sora összesen?",
+      "a": [
+        "17",
+        "14",
+        "20",
+        "12"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A haiku klasszikus formája 5-7-5 szótagos sorokból áll, összesen 17 szótaggal.",
+      "t": "műfajok"
+    },
+    {
+      "q": "Mit jelent az \"in medias res\" elbeszélésmód az irodalomban?",
+      "a": [
+        "a cselekmény közepén, előzmények nélkül indul",
+        "időrendi sorrendben meséli el az eseményeket",
+        "a narrátor mindentudó nézőpontból beszél",
+        "kizárólag versben íródott elbeszélés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az in medias res technika az események közepébe repíti az olvasót, előzmények ismertetése nélkül.",
+      "t": "stilisztika"
+    },
+    {
+      "q": "Hogyan nevezzük azt a stíluseszközt, amikor egy élettelen tárgy vagy elvont fogalom emberi tulajdonságokat kap?",
+      "a": [
+        "megszemélyesítés",
+        "hangutánzás",
+        "alliteráció",
+        "hiperbola"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A megszemélyesítés emberi jellemzőket rendel élettelen dolgokhoz vagy fogalmakhoz.",
+      "t": "stilisztika"
+    },
+    {
+      "q": "Hány sorból áll a klasszikus szonett versforma?",
+      "a": [
+        "14",
+        "12",
+        "16",
+        "10"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szonett hagyományosan 14 sorból épül fel, jellemzően két négysoros és két háromsoros egységből.",
+      "t": "versformák"
+    },
+    {
+      "q": "Melyik disztópikus regényben égetik el a \"tűzoltók\" a betiltott könyveket, mert az olvasás bűncselekménynek számít?",
+      "a": [
+        "Fahrenheit 451",
+        "Szép új világ",
+        "A szolgálólány meséje",
+        "A gépezet leáll"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ray Bradbury regényében 451 Fahrenheit az a hőfok, amelyen a papír meggyullad.",
+      "t": "antiutópia"
+    },
+    {
+      "q": "Melyik Margaret Atwood-regényben szorítják a nőket kizárólag szaporodási szerepbe egy totalitárius rendszerben?",
+      "a": [
+        "A szolgálólány meséje",
+        "Oryx és Crake",
+        "A vak bérgyilkos",
+        "Testamentumok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szolgálólány meséjében a nőket termékenységük alapján osztályozzák egy vallási diktatúrában.",
+      "t": "antiutópia"
+    },
+    {
+      "q": "Melyik regényben osztják be a társadalmat genetikailag előre meghatározott kasztokba, Alfától Epszilonig?",
+      "a": [
+        "Szép új világ",
+        "Fahrenheit 451",
+        "A szolgálólány meséje",
+        "A gépezet leáll"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Aldous Huxley regényében a Világállam biotechnológiával hozza létre a merev társadalmi kasztokat.",
+      "t": "antiutópia"
+    },
+    {
+      "q": "Melyik trilógia főszereplője Frodó Zsákos, aki elpusztítja a Hatalom Gyűrűjét?",
+      "a": [
+        "A Gyűrűk Ura",
+        "Narnia Krónikái",
+        "Harry Potter",
+        "A Szigetvilág"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "J. R. R. Tolkien trilógiájában Frodó viszi el a Gyűrűt a Végzet Hegyéig, hogy megsemmisítse.",
+      "t": "fantasy"
+    },
+    {
+      "q": "Melyik brit író alkotta meg a Narnia Krónikái fantasyvilágát, amelybe egy szekrényen át jutnak be a gyerekek?",
+      "a": [
+        "C. S. Lewis",
+        "J. R. R. Tolkien",
+        "Philip Pullman",
+        "Terry Pratchett"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "C. S. Lewis hét kötetes sorozata a Narnia nevű varázslatos világban játszódik.",
+      "t": "fantasy"
+    },
+    {
+      "q": "Melyik szigeten található a varázslóiskola Ursula K. Le Guin Szigetvilág (Earthsea) című sorozatában?",
+      "a": [
+        "Roke",
+        "Gont",
+        "Havnor",
+        "Osskil"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Roke szigetén álló iskolában tanulják a leendő varázslók a mágia mesterségét.",
+      "t": "fantasy"
+    },
+    {
+      "q": "Melyik Shakespeare-vígjátékban varázsolják szamárfejűvé Zubolyt, akibe egy tündérkirálynő szeret bele tévedésből?",
+      "a": [
+        "Szentivánéji álom",
+        "Ahogy tetszik",
+        "Sok hűhó semmiért",
+        "A makrancos hölgy"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Szentivánéji álomban Puck bűvölete miatt Titánia beleszeret a szamárfejű Zubolyba.",
+      "t": "Shakespeare"
+    },
+    {
+      "q": "Melyik Shakespeare-tragédia főszereplője egy velencei mór hadvezér, akit felesége hűtlenségéről győznek meg hamisan?",
+      "a": [
+        "Othello",
+        "Hamlet",
+        "Macbeth",
+        "Lear király"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Othellót Jágó ármánykodása győzi meg felesége, Desdemona hűtlenségéről.",
+      "t": "Shakespeare"
+    },
+    {
+      "q": "Melyik Shakespeare-dráma zárul azzal, hogy egy skót nemes felesége noszogatására meggyilkolja a királyt, majd megőrül a bűntudattól?",
+      "a": [
+        "Macbeth",
+        "Hamlet",
+        "Lear király",
+        "III. Richárd"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Macbeth felesége biztatására gyilkolja meg Duncan királyt, majd mindketten beleőrülnek a bűntudatba.",
+      "t": "Shakespeare"
+    },
+    {
+      "q": "Melyik amerikai szerző írta Az Óz, a nagy varázsló című regényt, amelyben egy forgószél repíti el Dorothyt Kansasból?",
+      "a": [
+        "L. Frank Baum",
+        "Lewis Carroll",
+        "H. C. Andersen",
+        "Roald Dahl"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "L. Frank Baum 1900-ban jelentette meg a regényt, amely a modern amerikai meseirodalom alapműve.",
+      "t": "gyermekirodalom"
+    },
+    {
+      "q": "Melyik testvérpár gyűjtötte össze és adta ki a német népmeséket a 19. század elején?",
+      "a": [
+        "Grimm testvérek",
+        "Andersen testvérek",
+        "Brontë nővérek",
+        "Karinthy testvérek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Jacob és Wilhelm Grimm 1812-től jelentették meg a német népmesegyűjteményüket.",
+      "t": "gyermekirodalom"
+    },
+    {
+      "q": "Melyik svéd írónő alkotta meg Harisnyás Pippi, az önálló és erős kislány alakját?",
+      "a": [
+        "Astrid Lindgren",
+        "Selma Lagerlöf",
+        "Tove Jansson",
+        "Maria Gripe"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Astrid Lindgren 1945-ben jelentette meg az első Harisnyás Pippi-kötetet.",
+      "t": "gyermekirodalom"
+    },
+    {
+      "q": "Melyik regény főszereplője az a kislány, aki egy nyúlüreget követve jut el egy varázslatos, fura világba?",
+      "a": [
+        "Alice Csodaországban",
+        "Pinokkió kalandjai",
+        "Momo és az időtolvajok",
+        "Mary Poppins kalandjai"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Lewis Carroll regényében Alice egy fehér nyulat követve esik be Csodaországba.",
+      "t": "gyermekirodalom"
+    },
+    {
+      "q": "Hány sorból áll hagyományosan egy limerick, a jellegzetesen humoros angol versforma?",
+      "a": [
+        "5",
+        "4",
+        "8",
+        "6"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A limerick öt soros, jellegzetes AABBA rímképletű tréfás versforma.",
+      "t": "versformák"
+    },
+    {
+      "q": "Melyik rímképletet nevezzük páros rímnek, amikor egymást követő sorok végződése cseng össze?",
+      "a": [
+        "AABB",
+        "ABAB",
+        "ABBA",
+        "AAAA"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A páros rímnél az egymás után következő sorpárok rímelnek egymással.",
+      "t": "versformák"
+    },
+    {
+      "q": "Melyik ókori görög szerzőt tartják \"a komédia atyjának\", A békák és A felhők című művek írójaként?",
+      "a": [
+        "Arisztophanész",
+        "Szophoklész",
+        "Euripidész",
+        "Menandrosz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Arisztophanész az ókori görög komédia legismertebb és legtöbbet játszott szerzője volt.",
+      "t": "ókori irodalom"
+    },
+    {
+      "q": "Melyik XX. századi ír-francia drámaíró írta a Godot-ra várva című abszurd drámát?",
+      "a": [
+        "Samuel Beckett",
+        "Eugène Ionesco",
+        "Jean Genet",
+        "Harold Pinter"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Samuel Beckett 1953-ban mutatta be a Godot-ra várva című abszurd drámáját Párizsban.",
+      "t": "dráma"
+    },
+    {
+      "q": "Melyik latin-amerikai irodalmi irányzat jellemzi Gabriel García Márquez és Isabel Allende regényeit, ahol a hétköznapi és a csodás elemek természetesen keverednek?",
+      "a": [
+        "mágikus realizmus",
+        "szürrealizmus",
+        "naturalizmus",
+        "expresszionizmus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mágikus realizmusban a fantasztikus elemek a valóság magától értetődő részeként jelennek meg.",
+      "t": "műfajok"
+    },
+    {
+      "q": "Miért nem tudta befejezni Franz Kafka A per és A kastély című regényeit még életében?",
+      "a": [
+        "mert korán, tüdőbajban meghalt, és a műveket befejezetlenül hagyta",
+        "mert a cenzúra betiltotta a folytatásukat",
+        "mert szándékosan nyitva hagyta a történeteket lezárás nélkül",
+        "mert elveszítette a kéziratok egy részét egy tűzvészben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kafka 1924-ben, 40 évesen halt meg tüdőbajban, regényei befejezetlenül maradtak, barátja adta ki őket.",
+      "t": "német irodalom"
+    },
+    {
+      "q": "Mit jelent a \"pikareszk regény\" műfaji megjelölés az irodalomban?",
+      "a": [
+        "egy szegény sorból induló, ravasz csavargó kalandjait bemutató elbeszélés",
+        "verses formában írt, hősi témájú elbeszélő költemény",
+        "kizárólag levelek formájában megírt regény",
+        "egyetlen nap eseményeit valós időben elmesélő történet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A pikareszk regény tipikus hőse egy talpraesett, alacsony sorból származó csavargó, aki epizodikus kalandokat él át.",
+      "t": "műfajok"
+    },
+    {
+      "q": "Melyik regényformát nevezzük levélregénynek, mert a cselekmény kizárólag a szereplők közötti levelekből bontakozik ki?",
+      "a": [
+        "episztoláris regény",
+        "keretes elbeszélés",
+        "tudatfolyam-regény",
+        "kalandregény"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az episztoláris regényben a történetet a szereplők egymásnak írt levelei mesélik el.",
+      "t": "műfajok"
+    },
+    {
+      "q": "Melyik hosszú, egymást követő gondolatokat megszakítás nélkül visszaadó elbeszélő technikát alkalmazta James Joyce az Ulysses című regényében?",
+      "a": [
+        "tudatfolyam",
+        "keretes elbeszélés",
+        "in medias res",
+        "epizodikus szerkesztés"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tudatfolyam-technika a szereplők belső gondolatmenetét rendezetlen, asszociatív formában jeleníti meg.",
+      "t": "stilisztika"
+    },
+    {
+      "q": "Melyik legrégebbi fennmaradt teljes angol nyelvű eposz meséli el egy hős küzdelmét a Grendel nevű szörnyeteggel?",
+      "a": [
+        "Beowulf",
+        "A Canterbury mesék",
+        "Sir Gawain és a zöld lovag",
+        "Piers Plowman"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Beowulf óangol nyelven íródott, valószínűleg a 8-11. század között, és a germán hőskölteszet klasszikusa.",
+      "t": "angol irodalom"
+    },
+    {
+      "q": "Melyik reneszánsz kori olasz költő írta az Isteni színjátékot, amelyben a pokol, a purgatórium és a mennyország bejárását meséli el?",
+      "a": [
+        "Dante Alighieri",
+        "Francesco Petrarca",
+        "Giovanni Boccaccio",
+        "Torquato Tasso"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Dante a 14. század elején írta meg az Isteni színjátékot, végigvezetve az olvasót a túlvilág három birodalmán.",
+      "t": "ókori irodalom"
     }
   ]
 }

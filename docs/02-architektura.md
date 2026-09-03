@@ -142,10 +142,16 @@ hálózatvesztésével megállna a játék, és nincs szükség külön háttér
 | válasz | `deadline_at`-ig | kérdés + 4 lehetőség + visszaszámláló |
 | kiértékelés | `reveal_seconds` | a helyes válasz zölden, a sajátom pirosan, és hogy kiestem-e |
 
-A kiértékelés **szándékosan szűkszavú**: nincs magyarázat, és nincs
-játékosonkénti „ki mit válaszolt” lista. Két okból: a képernyő pár másodpercig
-látszik, tehát nincs idő elolvasni, a helyükre viszont kell a hely, hogy a
-kérdés és mind a négy válasz **egy képernyőre kiférjen**.
+A kiértékelés **szándékosan nem tartalmaz magyarázatot**: a képernyő pár
+másodpercig látszik, nincs idő egy hosszabb szöveget elolvasni, a helyére
+viszont kell a hely, hogy a kérdés és mind a négy válasz **egy képernyőre
+kiférjen**.
+
+**Ki mit szavazott** viszont látszik – kompakt formában: minden lezárt
+válaszgomb sorának végén kis avatarok jelzik, ki választotta azt a
+lehetőséget. Ez SZÁNDÉKOSAN nem külön szakasz vagy lista (az korábban kikerült
+a fix magasságú képernyőn), hanem magán a gombon fér el, extra hely nélkül;
+sok játékosnál az avatarcsík vízszintesen görgethető.
 
 **A kérdésképernyő fix magasságú és nem görgethető.** Időzített kérdésnél
 elfogadhatatlan, hogy a negyedik válaszhoz görgetni kelljen. Ezért:

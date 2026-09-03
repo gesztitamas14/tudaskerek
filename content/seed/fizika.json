@@ -791,6 +791,1826 @@
       "d": "hard",
       "e": "Egyenként kilőtt elektronokból is kirajzolódik a csíkos mintázat – mintha mindegyik egyszerre mindkét résen átmenne.",
       "t": "modern fizika"
+    },
+    {
+      "q": "Newton második törvénye szerint mivel egyenesen arányos egy testre ható erő, ha a tömeg állandó?",
+      "a": [
+        "A test gyorsulásával",
+        "A test sebességével",
+        "A test helyzetével",
+        "A test hőmérsékletével"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Newton II. törvénye: F=ma, azonos tömeg mellett a gyorsulás arányos az erővel.",
+      "t": "mechanika"
+    },
+    {
+      "q": "Mi Newton első törvényének (tehetetlenség törvénye) lényege?",
+      "a": [
+        "Egy test megtartja mozgásállapotát, ha nem hat rá erő",
+        "Minden testre azonos nagyságú erő hat",
+        "A gyorsulás mindig állandó érték",
+        "A tömeg a sebességgel egyenesen nő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tehetetlenség törvénye kimondja, hogy külső erő hiányában a test sebessége nem változik.",
+      "t": "mechanika"
+    },
+    {
+      "q": "Newton harmadik törvénye szerint mi történik, amikor egy test erőt fejt ki egy másik testre?",
+      "a": [
+        "A másik test ugyanakkora, ellentétes irányú erőt fejt ki rá",
+        "A másik test nem reagál semmivel",
+        "Az erő azonnal eltűnik",
+        "A kifejtett erő megkétszereződik"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ez a hatás-ellenhatás törvénye: minden erőhatáshoz tartozik egy vele egyenlő nagyságú, ellentétes irányú ellenerő.",
+      "t": "mechanika"
+    },
+    {
+      "q": "Mit nevezünk súrlódásnak a mechanikában?",
+      "a": [
+        "Két érintkező felület egymáshoz képesti elmozdulását akadályozó erőt",
+        "A testek közötti tömegvonzást",
+        "A fény törését egy felületen",
+        "A hő terjedését egy anyagon belül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A súrlódás a felületek érintkezésekor fellépő, a mozgást gátló erő.",
+      "t": "mechanika"
+    },
+    {
+      "q": "Melyik mennyiség fejezi ki, mennyire nehéz egy testet mozgásba hozni vagy megállítani?",
+      "a": [
+        "A tömeg",
+        "A sebesség",
+        "A hőmérséklet",
+        "A térfogat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tömeg a test tehetetlenségének, azaz mozgásállapot-változással szembeni ellenállásának mértéke.",
+      "t": "mechanika"
+    },
+    {
+      "q": "Egyenletesen gyorsuló mozgásnál a mozgó test sebessége hogyan változik az eltelt idővel?",
+      "a": [
+        "Egyenesen arányosan nő vele",
+        "Fordítottan arányos vele",
+        "Négyzetesen csökken vele",
+        "Állandó marad, nem változik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Egyenletesen gyorsuló mozgásnál a gyorsulás állandó, ezért a sebesség az idővel egyenes arányban nő.",
+      "t": "mechanika"
+    },
+    {
+      "q": "Miért csúszik meg könnyebben egy autó jeges úton, mint száraz aszfalton?",
+      "a": [
+        "Mert a jég és a gumi közti súrlódási együttható jóval kisebb",
+        "Mert a jég nehezebb, mint az aszfalt",
+        "Mert a hőmérséklet növeli a jármű sebességét",
+        "Mert a jég mágnesesen taszítja a kereket"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jég sima felülete jelentősen csökkenti a kerék és az útfelület közötti tapadási súrlódást.",
+      "t": "mechanika"
+    },
+    {
+      "q": "Hány fok Celsius az abszolút nulla fok?",
+      "a": [
+        "-273,15 °C",
+        "-100 °C",
+        "0 °C",
+        "-373 °C"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az abszolút nulla a Kelvin-skála kezdőpontja, ez felel meg -273,15 °C-nak.",
+      "t": "hőtan"
+    },
+    {
+      "q": "Mi történik egy zárt tartályban lévő gáz nyomásával, ha állandó térfogaton növeljük a hőmérsékletét?",
+      "a": [
+        "Nő",
+        "Csökken",
+        "Változatlan marad",
+        "Nullára esik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Gay-Lussac törvénye szerint állandó térfogaton a gáz nyomása egyenesen arányos az abszolút hőmérséklettel.",
+      "t": "hőtan"
+    },
+    {
+      "q": "Mit nevezünk hővezetésnek?",
+      "a": [
+        "A hőenergia terjedését egy anyagon belül részecskeütközések útján",
+        "A hő terjedését teljesen üres térben",
+        "A fény terjedését átlátszó anyagban",
+        "Az elektromos áram terjedését vezetőben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hővezetés (kondukció) során a hőenergia a részecskék ütközésein keresztül adódik át anyagon belül.",
+      "t": "hőtan"
+    },
+    {
+      "q": "Melyik halmazállapot-változás közben vesz fel hőt egy jégdarab úgy, hogy közben a hőmérséklete nem változik?",
+      "a": [
+        "Olvadás",
+        "Lehűlés",
+        "Összenyomás",
+        "Mágnesezés"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az olvadáshő a halmazállapot-változáshoz szükséges energia, amit az anyag hőmérséklet-változás nélkül vesz fel.",
+      "t": "hőtan"
+    },
+    {
+      "q": "Mi a neve annak a hőterjedési módnak, amely elektromágneses sugárzással történik, és vákuumban is működik?",
+      "a": [
+        "Hősugárzás",
+        "Hővezetés",
+        "Hőáramlás",
+        "Hőtágulás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hősugárzás (radiáció) útján közeg nélkül is terjedhet a hő, például a Nap melegíti így a Földet.",
+      "t": "hőtan"
+    },
+    {
+      "q": "Miért tágul ki a legtöbb anyag melegítés hatására?",
+      "a": [
+        "Mert a részecskéi gyorsabban mozognak és nagyobb helyet foglalnak",
+        "Mert a tömegük melegítéskor megnő",
+        "Mert elektromosan töltötté válnak",
+        "Mert a felületükön súrlódás lép fel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Melegítéskor a részecskék mozgási energiája nő, átlagos távolságuk pedig megnő, ez okozza a hőtágulást.",
+      "t": "hőtan"
+    },
+    {
+      "q": "Melyik hőmérsékleti skálán 0 fok a víz fagyáspontja és 100 fok a forráspontja normál légköri nyomáson?",
+      "a": [
+        "Celsius-skála",
+        "Kelvin-skála",
+        "Fahrenheit-skála",
+        "Rankine-skála"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Celsius-skálát éppen erre a két referenciapontra, a víz fagyás- és forráspontjára definiálták.",
+      "t": "hőtan"
+    },
+    {
+      "q": "Miért nem terjed a hang a világűr vákuumában?",
+      "a": [
+        "Mert nincs közeg, amelyben a hanghullám terjedhetne",
+        "Mert a világűrben túl hideg van",
+        "Mert nincs jelen gravitáció",
+        "Mert a fény gyorsabb, és elnyomja a hangot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hang mechanikai hullám, terjedéséhez anyagi közegre, például levegőre vagy vízre van szükség.",
+      "t": "hullámok, hang"
+    },
+    {
+      "q": "Mi a neve annak a jelenségnek, amikor egy közeledő hangforrás hangját magasabbnak, egy távolodóét mélyebbnek halljuk?",
+      "a": [
+        "Doppler-effektus",
+        "Visszhang",
+        "Rezonancia",
+        "Interferencia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A jelenséget Christian Doppler írta le 1842-ben, innen kapta a nevét.",
+      "t": "hullámok, hang"
+    },
+    {
+      "q": "Mekkora hozzávetőlegesen a hang terjedési sebessége levegőben, szobahőmérsékleten?",
+      "a": [
+        "Kb. 340 m/s",
+        "Kb. 3000 m/s",
+        "Kb. 34 m/s",
+        "Kb. 340 000 m/s"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szobahőmérsékletű levegőben a hang sebessége körülbelül 340-343 m/s.",
+      "t": "hullámok, hang"
+    },
+    {
+      "q": "Hogyan jön létre a visszhang, amit hegyekben vagy nagy termekben hallhatunk?",
+      "a": [
+        "A hanghullám visszaverődik egy távoli felületről, és késleltetve jut a fülünkbe",
+        "A hang azonnal, teljesen elnyelődik a levegőben",
+        "A hang mágneses hullámmá alakul át",
+        "A hangforrás a levegőben megkettőződik"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A visszhang a hanghullám egy felületről történő visszaverődése és késleltetett megérkezése a fülünkhöz.",
+      "t": "hullámok, hang"
+    },
+    {
+      "q": "Mitől függ elsősorban egy hang magassága?",
+      "a": [
+        "A rezgés frekvenciájától",
+        "A rezgés amplitúdójától",
+        "A hangforrás színétől",
+        "A hangforrás tömegétől"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Minél nagyobb a rezgés frekvenciája, annál magasabbnak halljuk a hangot.",
+      "t": "hullámok, hang"
+    },
+    {
+      "q": "Mi történik egy rezgő rendszerrel, ha a gerjesztő rezgés frekvenciája megegyezik a saját frekvenciájával?",
+      "a": [
+        "Nagy amplitúdójú rezgésbe, rezonanciába jön",
+        "Azonnal leáll a mozgása",
+        "Hővé alakul a mozgási energiája",
+        "Mágnesessé válik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ezt a jelenséget rezonanciának nevezzük, ilyenkor a rendszer amplitúdója drasztikusan megnő.",
+      "t": "hullámok, hang"
+    },
+    {
+      "q": "Miért látunk szivárványt eső után, ha a Nap a hátunk mögött süt?",
+      "a": [
+        "Mert a fény megtörik és visszaverődik a vízcseppekben, színeire bomlva",
+        "Mert a felhők megfestik a napfényt",
+        "Mert a párás levegő önmagában színes",
+        "Mert a Nap fénye ilyenkor megváltozik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vízcseppekben történő fénytörés és belső visszaverődés bontja színeire a fehér napfényt.",
+      "t": "fény, optika"
+    },
+    {
+      "q": "Mi a fénytörés (refrakció) jelensége?",
+      "a": [
+        "A fény irányváltozása, amikor egyik közegből másikba lép át",
+        "A fény visszaverődése egy tükörről",
+        "A fény teljes elnyelődése egy felületen",
+        "A fény felmelegedése a levegőben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fénytörés akkor jön létre, amikor a fény olyan közeghatáron halad át, ahol a fény terjedési sebessége megváltozik.",
+      "t": "fény, optika"
+    },
+    {
+      "q": "Miért látszik megtörtnek egy egyenes szívószál, ha félig vízbe merítjük?",
+      "a": [
+        "Mert a fény sebessége és iránya megváltozik a víz és levegő határán",
+        "Mert a szívószál ténylegesen elhajlik a vízben",
+        "Mert a víz felnagyítja a tárgyat",
+        "Mert a szemünk félrevezet minket a színek terén"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jelenséget a fénytörés okozza a levegő és a víz határfelületén.",
+      "t": "fény, optika"
+    },
+    {
+      "q": "Milyen típusú tükörnél keletkezik valós, fordított állású kép, ha a tárgy a fókusztávolságon kívül helyezkedik el?",
+      "a": [
+        "Homorú (konkáv) tükörnél",
+        "Domború (konvex) tükörnél",
+        "Sík tükörnél",
+        "Egyik felsoroltnál sem"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A homorú tükör a fókusztávolságon kívül elhelyezett tárgyról valós, fordított állású képet alkot.",
+      "t": "fény, optika"
+    },
+    {
+      "q": "Mi a teljes visszaverődés (totálreflexió) jelensége az optikában?",
+      "a": [
+        "Egy bizonyos beesési szög felett a fény nem lép ki egy sűrűbb közegből, hanem teljesen visszaverődik",
+        "A fény teljes mértékben elnyelődik egy közegben",
+        "Két fénysugár teljesen kioltja egymást",
+        "A fény felmelegíti a közeget, amelyben terjed"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A totálreflexió jelenségét használják ki például az optikai szálak a fény vezetésére.",
+      "t": "fény, optika"
+    },
+    {
+      "q": "Milyen színekre bomlik a fehér fény, ha prizmán halad át?",
+      "a": [
+        "A szivárvány színeire, vöröstől ibolyáig",
+        "Csak kékre és feketére",
+        "Csak pirosra",
+        "Nem bomlik színekre"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A prizma a fény törésekor szétválasztja a fehér fényben lévő különböző hullámhosszú összetevőket.",
+      "t": "fény, optika"
+    },
+    {
+      "q": "Mit fejez ki a törésmutató egy átlátszó anyagnál?",
+      "a": [
+        "Azt, hogy az adott közegben mennyivel lassabb a fény a vákuumbelihez képest",
+        "A közeg színét",
+        "A közeg hőmérsékletét",
+        "A közeg mágneses tulajdonságát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Minél nagyobb egy anyag törésmutatója, annál jobban lelassul benne a fény a vákuumbeli sebességéhez képest.",
+      "t": "fény, optika"
+    },
+    {
+      "q": "Melyik három elektromos mennyiség közötti kapcsolatot írja le Ohm törvénye?",
+      "a": [
+        "Feszültség, áramerősség és ellenállás",
+        "Teljesítmény, munka és idő",
+        "Töltés, tömeg és sebesség",
+        "Frekvencia, hullámhossz és terjedési sebesség"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ohm törvénye szerint U = I × R, vagyis a feszültség az áramerősség és az ellenállás szorzata.",
+      "t": "elektromosság"
+    },
+    {
+      "q": "Miért kezd izzani egy izzószál, ha elegendő elektromos áram folyik át rajta?",
+      "a": [
+        "Mert az ellenállása miatt felmelegszik, és a hő fénnyé alakul",
+        "Mert mágneses teret hoz létre maga körül",
+        "Mert kémiai reakció zajlik le benne",
+        "Mert az áram önmagában is színes fényt hordoz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az elektromos ellenállás miatt a szál felmelegszik, majd izzásig hevülve fényt bocsát ki.",
+      "t": "elektromosság"
+    },
+    {
+      "q": "Milyen jelenség lép fel egyes anyagoknál nagyon alacsony hőmérsékleten, amikor elektromos ellenállásuk gyakorlatilag nullára esik?",
+      "a": [
+        "Szupravezetés",
+        "Ellenállás-növekedés",
+        "Mágneses telítődés",
+        "Hővezetési zárlat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A jelenséget Heike Kamerlingh Onnes fedezte fel 1911-ben lehűtött higanyban.",
+      "t": "elektromosság"
+    },
+    {
+      "q": "Mit jelent az, hogy egy áramkör elemei sorosan vannak kötve?",
+      "a": [
+        "Az elemek egymás után, egyetlen közös áramúton kapcsolódnak",
+        "Az elemek külön párhuzamos ágakon helyezkednek el",
+        "Az áram csak az egyik elemen folyhat át egyszerre",
+        "Az elemekben nincs elektromos ellenállás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Soros kapcsolásnál az áram egyetlen úton, az összes elemen egymás után folyik keresztül.",
+      "t": "elektromosság"
+    },
+    {
+      "q": "Miért van szükség biztosítékra (kismegszakítóra) egy elektromos hálózatban?",
+      "a": [
+        "Hogy túl nagy áramerősség esetén megszakítsa az áramkört, megelőzve a károsodást",
+        "Hogy növelje a hálózati feszültséget",
+        "Hogy tárolja az elektromos energiát",
+        "Hogy mágnesezze a vezetéket"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A biztosíték túlterhelés esetén megszakítja az áramkört, így megelőzi a tüzet vagy a berendezés károsodását.",
+      "t": "elektromosság"
+    },
+    {
+      "q": "Melyik részecske hordozza az elektromos áramot a legtöbb fémes vezetőben?",
+      "a": [
+        "Az elektron",
+        "A proton",
+        "A neutron",
+        "Az atommag"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Fémekben a szabadon mozgó elektronok áramlása hozza létre az elektromos áramot.",
+      "t": "elektromosság"
+    },
+    {
+      "q": "Mi történik két azonos előjelű elektromos töltéssel, ha közel kerülnek egymáshoz?",
+      "a": [
+        "Taszítják egymást",
+        "Vonzzák egymást",
+        "Semmilyen kölcsönhatás nem lép fel köztük",
+        "Egyesülnek egyetlen töltéssé"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az azonos előjelű töltések taszítják, az ellentétes előjelűek vonzzák egymást.",
+      "t": "elektromosság"
+    },
+    {
+      "q": "Melyik égtáj felé mutat nagyjából egy iránytű mágnestűjének északi vége?",
+      "a": [
+        "A földrajzi észak felé",
+        "Dél felé",
+        "Kelet felé",
+        "Nyugat felé"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ez a Föld mágneses terének köszönhető, amelynek mágneses pólusa a földrajzi északi pólus közelében van.",
+      "t": "mágnesesség"
+    },
+    {
+      "q": "Mi történik, ha egy rúdmágnest kettétörünk?",
+      "a": [
+        "Két új, önálló mágnes keletkezik, mindkettőn É- és D-pólussal",
+        "Az egyik darabon csak északi, a másikon csak déli pólus marad",
+        "A mágnesesség teljesen megszűnik",
+        "A két darab folyamatosan taszítani kezdi egymást"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mágneses pólusok nem választhatók szét: minden darab önmagában is teljes, két pólusú mágnessé válik.",
+      "t": "mágnesesség"
+    },
+    {
+      "q": "Mi az elektromágneses indukció jelensége?",
+      "a": [
+        "Egy vezetőben változó mágneses tér elektromos feszültséget hoz létre",
+        "Az elektromos áram önmagában mágnesezi a levegőt",
+        "A fény mágneses tulajdonságokat vesz fel",
+        "A hő közvetlenül mágneses teret kelt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A jelenséget Michael Faraday fedezte fel 1831-ben, ez a generátorok működésének alapja.",
+      "t": "mágnesesség"
+    },
+    {
+      "q": "Mire szolgál az elektromágnes egy elektromos csengőben vagy daru emelőfejében?",
+      "a": [
+        "Áram hatására ideiglenes, kapcsolható mágneses teret hoz létre",
+        "Áram nélkül is állandó mágnesként működik",
+        "Kizárólag hőt termel működés közben",
+        "Csak fényjelzést ad le"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az elektromágnes mágnesessége az áram be- és kikapcsolásával szabályozható, ellentétben az állandó mágnessel.",
+      "t": "mágnesesség"
+    },
+    {
+      "q": "Melyik anyag NEM vonzódik jelentősen egy közönséges mágneshez?",
+      "a": [
+        "Az alumínium",
+        "A vas",
+        "A nikkel",
+        "A kobalt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az alumínium nem ferromágneses anyag, ezért gyakorlatilag nem vonzódik hétköznapi mágnesekhez.",
+      "t": "mágnesesség"
+    },
+    {
+      "q": "Mit mond ki az energiamegmaradás törvénye?",
+      "a": [
+        "Az energia nem vész el és nem keletkezik, csak egyik formából a másikba alakul",
+        "Az energia mennyisége folyamatosan csökken a világegyetemben",
+        "Az energia kizárólag hővé alakulhat át",
+        "Az energia csak elektromos formában létezhet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A zárt rendszerben a teljes energia mennyisége állandó marad, csak az energia formája változhat.",
+      "t": "energia, munka"
+    },
+    {
+      "q": "Melyik energiafajta jellemzi elsősorban egy mozgásban lévő testet?",
+      "a": [
+        "Mozgási (kinetikus) energia",
+        "Helyzeti (potenciális) energia",
+        "Rugalmas energia",
+        "Kémiai energia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mozgásban lévő test mozgási energiával rendelkezik, amely a tömegétől és sebességétől függ.",
+      "t": "energia, munka"
+    },
+    {
+      "q": "Mitől függ egy test helyzeti energiája a Föld gravitációs terében?",
+      "a": [
+        "A tömegétől és a magasságától",
+        "Kizárólag a sebességétől",
+        "Kizárólag a színétől",
+        "Kizárólag a hőmérsékletétől"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A helyzeti energia képlete E = m × g × h, tehát a tömegtől és a magasságtól függ.",
+      "t": "energia, munka"
+    },
+    {
+      "q": "Miért melegszik fel a tenyerünk, ha gyorsan összedörzsöljük?",
+      "a": [
+        "Mert a súrlódás a mozgási energiát hővé alakítja",
+        "Mert az izmok elektromos áramot termelnek",
+        "Mert a bőr mágneses teret hoz létre",
+        "Mert a mozgás lehűti a környező levegőt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A súrlódási erő munkát végez, amely hőenergiává alakul, ezért érezzük melegnek a tenyerünket.",
+      "t": "energia, munka"
+    },
+    {
+      "q": "Mit fejez ki egy energiaátalakító gép hatásfoka?",
+      "a": [
+        "A hasznos kimenő energia és a befektetett energia arányát",
+        "A gép tömegének és sebességének viszonyát",
+        "A gép működési hőmérsékletét",
+        "A gép várható élettartamát években"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hatásfok azt mutatja meg, a befektetett energia mekkora hányada alakul át hasznos energiává.",
+      "t": "energia, munka"
+    },
+    {
+      "q": "Melyik erőműtípus alakítja folyó vagy vízesés mozgási és helyzeti energiáját elektromos energiává?",
+      "a": [
+        "Vízerőmű",
+        "Naperőmű",
+        "Szélerőmű",
+        "Atomerőmű"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A vízerőmű a lezúduló víz mozgási energiáját turbinákon keresztül elektromos energiává alakítja.",
+      "t": "energia, munka"
+    },
+    {
+      "q": "Miért nem lehet 100 százalékos hatásfokú hőerőgépet építeni a termodinamika törvényei szerint?",
+      "a": [
+        "Mert a második főtétel szerint mindig keletkezik olyan hulladékhő, ami nem alakítható munkává",
+        "Mert az ilyen gépekben mindig nulla a súrlódás",
+        "Mert az energia idővel teljesen megsemmisül",
+        "Mert a hő mindig teljes egészében fénnyé alakul"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A termodinamika második főtétele elvi korlátot szab minden hőerőgép elérhető hatásfokának.",
+      "t": "energia, munka"
+    },
+    {
+      "q": "Melyik fizikus dolgozta ki a 17. században az általános tömegvonzás törvényét és a klasszikus mozgástörvényeket?",
+      "a": [
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Johannes Kepler",
+        "Albert Einstein"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Newton Principia Mathematica című művében fektette le a klasszikus mechanika és a gravitáció alaptörvényeit.",
+      "t": "híres fizikusok"
+    },
+    {
+      "q": "Melyik fizikus alkotta meg a speciális, majd az általános relativitáselméletet a 20. század elején?",
+      "a": [
+        "Albert Einstein",
+        "Niels Bohr",
+        "Max Planck",
+        "Werner Heisenberg"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Einstein 1905-ben publikálta a speciális, 1915-ben pedig az általános relativitáselméletet.",
+      "t": "híres fizikusok"
+    },
+    {
+      "q": "Miért kapott Albert Einstein fizikai Nobel-díjat 1921-ben?",
+      "a": [
+        "A fotoelektromos hatás törvényének felfedezéséért",
+        "A relativitáselmélet megalkotásáért",
+        "A radioaktivitás felfedezéséért",
+        "Az atombomba kifejlesztéséért"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Nobel-bizottság a relativitáselmélet helyett a fotoelektromos hatásra vonatkozó, kísérletileg igazolt eredményéért díjazta.",
+      "t": "híres fizikusok"
+    },
+    {
+      "q": "Melyik magyar származású tudós nyújtott be szabadalmi kérelmet 1934-ben a neutronindukálta nukleáris láncreakció ötletére?",
+      "a": [
+        "Szilárd Leó",
+        "Wigner Jenő",
+        "Teller Ede",
+        "Neumann János"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Szilárd Leó 1934-ben nyújtotta be a láncreakció elvére vonatkozó szabadalmát, amelyet titkosítva a brit Admiralitásra ruházott át.",
+      "t": "híres fizikusok"
+    },
+    {
+      "q": "Mit fedezett fel Marie Curie és Pierre Curie 1898-as kutatásai során?",
+      "a": [
+        "A polónium és a rádium elemeket",
+        "Az elektront",
+        "A röntgensugárzást",
+        "A neutront"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Curie házaspár 1898-ban fedezte fel mindkét radioaktív elemet, a polóniumot és a rádiumot.",
+      "t": "híres fizikusok"
+    },
+    {
+      "q": "Hány Nobel-díjat kapott összesen Marie Curie, és milyen tudományterületeken?",
+      "a": [
+        "Kettőt: fizikai (1903) és kémiai (1911) Nobel-díjat",
+        "Egyet, kizárólag fizikai Nobel-díjat",
+        "Hármat: fizikai, kémiai és orvosi Nobel-díjat",
+        "Egyet sem, csupán jelölték többször"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Marie Curie volt az első ember, aki két különböző tudományterületen is Nobel-díjat kapott.",
+      "t": "híres fizikusok"
+    },
+    {
+      "q": "Ki fogalmazta meg 1927-ben a kvantummechanika határozatlansági (bizonytalansági) relációját?",
+      "a": [
+        "Werner Heisenberg",
+        "Niels Bohr",
+        "Erwin Schrödinger",
+        "Max Planck"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Heisenberg elve szerint egy részecske helye és impulzusa nem mérhető meg egyidejűleg tetszőleges pontossággal.",
+      "t": "híres fizikusok"
+    },
+    {
+      "q": "Melyik fizikus fedezte fel a röntgensugárzást 1895-ben, amiért 1901-ben az első fizikai Nobel-díjat kapta?",
+      "a": [
+        "Wilhelm Röntgen",
+        "Henri Becquerel",
+        "J. J. Thomson",
+        "Ernest Rutherford"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Röntgen 1895-ben fedezte fel az általa X-sugárzásnak nevezett jelenséget, amiért 1901-ben elsőként kapott fizikai Nobel-díjat.",
+      "t": "híres fizikusok"
+    },
+    {
+      "q": "Melyik szubatomi részecskét fedezte fel J. J. Thomson 1897-ben?",
+      "a": [
+        "Az elektront",
+        "A protont",
+        "A neutront",
+        "A pozitront"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Thomson 1897-ben mutatta ki a katódsugarakban a negatív töltésű elektront.",
+      "t": "atomfizika, kvantumfizika"
+    },
+    {
+      "q": "Melyik semleges töltésű szubatomi részecskét azonosította James Chadwick 1932-ben?",
+      "a": [
+        "A neutront",
+        "Az elektront",
+        "A protont",
+        "A pozitront"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Chadwick 1932-ben fedezte fel a neutront, amiért 1935-ben fizikai Nobel-díjat kapott.",
+      "t": "atomfizika, kvantumfizika"
+    },
+    {
+      "q": "Miből épül fel egy atom magja?",
+      "a": [
+        "Protonokból és neutronokból",
+        "Kizárólag elektronokból",
+        "Kizárólag protonokból",
+        "Fotonokból"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az atommagot a pozitív töltésű protonok és a semleges töltésű neutronok alkotják.",
+      "t": "atomfizika, kvantumfizika"
+    },
+    {
+      "q": "Hogyan nevezzük azt a folyamatot, amikor instabil atommagok elbomlanak, és eközben sugárzást bocsátanak ki?",
+      "a": [
+        "Radioaktivitás",
+        "Fotoszintézis",
+        "Mágnesezés",
+        "Kondenzáció"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A radioaktív bomlás során az instabil atommag sugárzás kibocsátása közben stabilabb állapotba kerül.",
+      "t": "atomfizika, kvantumfizika"
+    },
+    {
+      "q": "Mit jelent a maghasadás (nukleáris fisszió) folyamata?",
+      "a": [
+        "Egy nehéz atommag két kisebb magra hasad, közben energiát szabadítva fel",
+        "Két könnyű atommag egyesül egy nehezebb maggá",
+        "Az elektronok teljesen leválnak az atomról",
+        "A proton közvetlenül neutronná alakul át"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A maghasadáson alapul az atomerőművek energiatermelése és az atombomba működése is.",
+      "t": "atomfizika, kvantumfizika"
+    },
+    {
+      "q": "Mit jelent a magfúzió folyamata, amely a Napban is végbemegy?",
+      "a": [
+        "Könnyű atommagok egyesülnek egy nehezebb maggá, energiát felszabadítva",
+        "Nehéz atommagok hasadnak szét kisebb darabokra",
+        "Elektronok egyesülnek protonokkal semleges atommá",
+        "A fény közvetlenül atommaggá alakul"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Nap energiatermelésének alapja a magfúzió, amely során hidrogénmagokból héliummag keletkezik.",
+      "t": "atomfizika, kvantumfizika"
+    },
+    {
+      "q": "Melyik részecskefizikai berendezésben fedezték fel 2012-ben a Higgs-bozont?",
+      "a": [
+        "A CERN Nagy Hadronütköztetőjében (LHC)",
+        "A Hubble-űrteleszkópban",
+        "A Nemzetközi Űrállomáson",
+        "A Fermilab régi részecskegyorsítójában"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Higgs-bozont 2012-ben a genfi CERN LHC gyorsítójának ATLAS és CMS kísérletei mutatták ki.",
+      "t": "atomfizika, kvantumfizika"
+    },
+    {
+      "q": "Mit fejez ki Einstein híres E=mc² képlete?",
+      "a": [
+        "Az energia és a tömeg egyenértékűségét",
+        "Az erő és a gyorsulás közötti kapcsolatot",
+        "A fénysebesség és a hullámhossz viszonyát",
+        "A hő és a nyomás közötti összefüggést"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A képlet szerint a tömeg és az energia egymásba átalakítható mennyiségek, amelyeket a fénysebesség négyzete köt össze.",
+      "t": "relativitáselmélet"
+    },
+    {
+      "q": "Mi jellemzi a gravitációt az általános relativitáselmélet szerint?",
+      "a": [
+        "A tömeg görbíti a téridőt, és ez okozza a gravitációs vonzást",
+        "A gravitáció elektromágneses eredetű jelenség",
+        "A gravitáció csak a Föld felszínén hat",
+        "A gravitáció fénysebességnél gyorsabban terjed"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Einstein elmélete szerint a tömeggel rendelkező testek meggörbítik a körülöttük lévő téridőt, ez adja a gravitáció hatását.",
+      "t": "relativitáselmélet"
+    },
+    {
+      "q": "Mi jellemzi a fekete lyukat az általános relativitáselmélet szerint?",
+      "a": [
+        "Olyan nagy tömegsűrűségű objektum, amelynek vonzásából még a fény sem tud kiszabadulni",
+        "Egy szilárd anyagból álló, teljesen sötét bolygó",
+        "Egy különösen sötét, de hideg csillag",
+        "Egy gravitációtól teljesen mentes üres térrész"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fekete lyuk eseményhorizontján belülről semmilyen sugárzás, még a fény sem tud kijutni.",
+      "t": "relativitáselmélet"
+    },
+    {
+      "q": "Mit jósol a relativitáselmélet a nagy sebességgel mozgó testek idejéről egy nyugvó megfigyelőhöz képest?",
+      "a": [
+        "Lassabban telik (idődilatáció lép fel)",
+        "Gyorsabban telik a nyugvó megfigyelőéhez képest",
+        "Nincs semmilyen hatással rá",
+        "Minden sebességnél teljesen megáll"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A speciális relativitáselmélet szerint a nagy sebességgel mozgó testeken az idő a nyugvó megfigyelőhöz képest lassabban telik.",
+      "t": "relativitáselmélet"
+    },
+    {
+      "q": "Mit mond ki Arkhimédész törvénye?",
+      "a": [
+        "A folyadékba merülő testre ható felhajtóerő egyenlő a kiszorított folyadék súlyával",
+        "A folyadék nyomása minden irányban azonos nagyságú",
+        "A gázok nyomása egyenesen arányos a hőmérséklettel",
+        "A folyadékok gyakorlatilag összenyomhatatlanok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Arkhimédész törvénye szerint a felhajtóerő nagysága megegyezik a test által kiszorított folyadék súlyával.",
+      "t": "folyadékok, gázok"
+    },
+    {
+      "q": "Miért úszik a jég a folyékony vízen?",
+      "a": [
+        "Mert a jég sűrűsége kisebb, mint a folyékony vízé",
+        "Mert a jég melegebb, mint a víz",
+        "Mert a jég elektromosan töltött",
+        "Mert a víz mágneses tulajdonságú"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jég sűrűsége körülbelül 9 százalékkal kisebb a folyékony vízénél, ezért úszik rajta.",
+      "t": "folyadékok, gázok"
+    },
+    {
+      "q": "Melyik fizikus nevéhez fűződik az a törvény, amely szerint a zárt folyadékra kifejtett nyomás minden irányban változatlanul továbbterjed?",
+      "a": [
+        "Blaise Pascal",
+        "Isaac Newton",
+        "Robert Boyle",
+        "Daniel Bernoulli"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Pascal törvényén alapul például a hidraulikus emelők és fékrendszerek működése is.",
+      "t": "folyadékok, gázok"
+    },
+    {
+      "q": "Melyik fizikai elv magyarázza, hogy a repülőgép szárnya felhajtóerőt kap repülés közben?",
+      "a": [
+        "A Bernoulli-elv, mely szerint a gyorsabban áramló levegő nyomása kisebb",
+        "Az Arkhimédész-elv",
+        "Ohm törvénye",
+        "A Doppler-effektus"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szárny alakja miatt a felette áramló levegő gyorsabb, nyomása kisebb, ez hozza létre a felhajtóerőt.",
+      "t": "folyadékok, gázok"
+    },
+    {
+      "q": "Mitől függ elsősorban, hogy egy test úszik-e vagy elmerül egy folyadékban?",
+      "a": [
+        "A test és a folyadék sűrűségének viszonyától",
+        "Kizárólag a test színétől",
+        "Kizárólag a folyadék hőmérsékletétől",
+        "Kizárólag a test alakjától"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ha a test átlagos sűrűsége kisebb a folyadékénál, úszik, ha nagyobb, elmerül.",
+      "t": "folyadékok, gázok"
+    },
+    {
+      "q": "Hogyan nevezzük azt a mennyiséget, amelyet a tömeg és a sebesség szorzataként számítunk ki?",
+      "a": [
+        "A lendület (impulzus)",
+        "A mechanikai munka",
+        "A pillanatnyi teljesítmény",
+        "A közegellenállási erő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A lendület a tömeg és a sebesség szorzata, jele p, mértékegysége kg·m/s.",
+      "t": "mechanika"
+    },
+    {
+      "q": "Miért csúszik meg könnyebben egy autó kereke jeges úton, mint száraz aszfalton?",
+      "a": [
+        "Mert a jég és a gumiabroncs közötti súrlódási együttható jóval kisebb, mint aszfalton",
+        "Mert jeges úton megnő a levegő közegellenállása a kerék körül",
+        "Mert a hideg levegő csökkenti a motor által leadott forgatónyomatékot",
+        "Mert a gumiabroncs anyaga jeges hidegben megnyúlik és nagyobb lesz az átmérője"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A súrlódási erő a súrlódási együtthatótól függ, ami jégen sokkal kisebb, mint száraz úton.",
+      "t": "mechanika"
+    },
+    {
+      "q": "Melyik évben jelent meg Isaac Newton Philosophiae Naturalis Principia Mathematica című alapműve?",
+      "a": [
+        "1687",
+        "1666",
+        "1705",
+        "1727"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Newton 1687-ben publikálta a Principia Mathematicát, amelyben megfogalmazta mozgástörvényeit.",
+      "t": "mechanika"
+    },
+    {
+      "q": "Newton második törvénye szerint azonos erő hatására melyik test gyorsul nagyobb mértékben?",
+      "a": [
+        "A kisebb tömegű test gyorsul jobban",
+        "A nagyobb tömegű test gyorsul jobban",
+        "A két test gyorsulása mindig megegyezik",
+        "A kezdősebességtől függ, melyik gyorsul jobban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Newton II. törvénye alapján a=F/m, így azonos erő mellett kisebb tömeg nagyobb gyorsulást eredményez.",
+      "t": "mechanika"
+    },
+    {
+      "q": "Hogyan nevezik azt a fizikai mennyiséget, amely a forgó mozgásban a tömeg szerepét tölti be?",
+      "a": [
+        "Tehetetlenségi nyomaték",
+        "Impulzusmomentum",
+        "Forgatónyomaték",
+        "Szögsebesség"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tehetetlenségi nyomaték fejezi ki, mennyire nehéz egy testet forgásba hozni vagy forgásából kitéríteni.",
+      "t": "mechanika"
+    },
+    {
+      "q": "Mekkora hőmérsékletet jelöl a Kelvin-skála 0 pontja, az abszolút nulla fok, Celsius-fokban kifejezve?",
+      "a": [
+        "-273,15 °C",
+        "-100 °C",
+        "-200 °C",
+        "-459,67 °C"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nemzetközi megegyezés szerint az abszolút nulla fok -273,15 °C-nak felel meg, ez a Kelvin-skála kezdőpontja.",
+      "t": "hőtan"
+    },
+    {
+      "q": "Mi történik egy gáz nyomásával, ha állandó térfogaton emeljük a hőmérsékletét?",
+      "a": [
+        "A nyomása arányosan növekszik",
+        "A nyomása arányosan csökken",
+        "A nyomása nem változik",
+        "A nyomása véletlenszerűen ingadozik"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Gay-Lussac törvénye szerint állandó térfogaton a gáz nyomása egyenesen arányos az abszolút hőmérséklettel.",
+      "t": "hőtan"
+    },
+    {
+      "q": "Miért érezzük hidegebbnek a szelet ugyanolyan levegőhőmérséklet mellett, mint szélcsendes időben?",
+      "a": [
+        "Mert a szél gyorsabban elvezeti a testfelület körüli meleg levegőréteget",
+        "Mert a szél megnöveli a levegő oxigéntartalmát a bőr közelében",
+        "Mert a szélben a levegő páratartalma mindig lecsökken",
+        "Mert a szél lehűti magát a levegőt is néhány fokkal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szél elviszi a bőr melletti felmelegedett, szigetelő levegőréteget, így gyorsabb a hőleadás (szélhűtés).",
+      "t": "hőtan"
+    },
+    {
+      "q": "Melyik halmazállapot-változás neve, amikor egy szilárd anyag közvetlenül gázhalmazállapotúvá alakul olvadás nélkül?",
+      "a": [
+        "Szublimáció",
+        "Kondenzáció",
+        "Deszikáció",
+        "Dermedés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szublimáció során a szilárd anyag folyékony fázis nélkül közvetlenül gázzá alakul, például a szárazjégnél.",
+      "t": "hőtan"
+    },
+    {
+      "q": "Mit nevezünk fajhőnek egy anyag esetében?",
+      "a": [
+        "Azt a hőmennyiséget, amely 1 kg anyag hőmérsékletét 1 Celsius-fokkal emeli",
+        "Azt a hőmennyiséget, amely egy egész test megolvasztásához szükséges",
+        "Azt a hőmennyiséget, amelyet egy test egy másodperc alatt lead",
+        "Azt a nyomást, amelyet egy anyag hő hatására kifejt a tartályára"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fajhő megmutatja, mennyi hő kell 1 kg anyag hőmérsékletének 1 fokos emeléséhez.",
+      "t": "hőtan"
+    },
+    {
+      "q": "Hogyan nevezzük azt a jelenséget, amikor egy hullámforrás és a megfigyelő egymáshoz képesti mozgása miatt megváltozik az észlelt frekvencia?",
+      "a": [
+        "Doppler-effektus",
+        "Interferencia",
+        "Diffrakció",
+        "Rezonancia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Doppler-effektust Christian Doppler írta le 1842-ben; közeledéskor magasabb, távolodáskor mélyebb hangot észlelünk.",
+      "t": "hullámok, hang"
+    },
+    {
+      "q": "Mekkora a hang terjedési sebessége levegőben, 20 Celsius-fokon, kerekítve?",
+      "a": [
+        "Kb. 343 m/s",
+        "Kb. 150 m/s",
+        "Kb. 700 m/s",
+        "Kb. 1000 m/s"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "20 °C-os levegőben a hang sebessége körülbelül 343 m/s, ami hozzávetőleg 1235 km/h-nak felel meg.",
+      "t": "hullámok, hang"
+    },
+    {
+      "q": "Melyik közegben terjed gyorsabban a hang: a levegőben vagy a vízben?",
+      "a": [
+        "A vízben, mert a sűrűbb közeg jobban közvetíti a rezgéseket",
+        "A levegőben, mert ott kisebb a súrlódás a részecskék között",
+        "Mindkettőben pontosan ugyanolyan sebességgel terjed",
+        "A levegőben, mert a hanghullám ott hosszabb hullámhosszú"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vízben a hang kb. 1480 m/s sebességgel terjed, jóval gyorsabban, mint a levegőben mért 343 m/s.",
+      "t": "hullámok, hang"
+    },
+    {
+      "q": "Mit nevezünk a hullámok azon tulajdonságának, hogy akadály vagy rés körül elhajolva a geometriai árnyéktérbe is behatolnak?",
+      "a": [
+        "Diffrakció (elhajlás)",
+        "Refrakció (törés)",
+        "Reflexió (visszaverődés)",
+        "Polarizáció (rezgéssík)"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A diffrakció során a hullám akadály vagy rés szélénél elhajlik, és benyúlik az árnyéktérbe is.",
+      "t": "hullámok, hang"
+    },
+    {
+      "q": "Milyen erő hat felfelé egy folyadékba merített testre, Arkhimédész törvénye szerint?",
+      "a": [
+        "A kiszorított folyadék súlyával megegyező nagyságú felhajtóerő",
+        "A test saját súlyával megegyező nagyságú erő, iránytól függetlenül",
+        "A folyadék felszínén mérhető légnyomással arányos erő",
+        "A test térfogatával fordítottan arányos nyomóerő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Arkhimédész törvénye szerint a felhajtóerő nagysága a test által kiszorított folyadék súlyával egyenlő.",
+      "t": "folyadékok, gázok"
+    },
+    {
+      "q": "Miért lebeg meg egy hajó, annak ellenére, hogy fémből készült és a fém önmagában elsüllyedne?",
+      "a": [
+        "Mert a hajótest alakja miatt nagy térfogatú vizet szorít ki, ami elég nagy felhajtóerőt ad",
+        "Mert a fém a víz felszínén mindig kevésbé sűrű, mint a víz alatt",
+        "Mert a hajó motorja folyamatosan felfelé irányuló erőt fejt ki",
+        "Mert a tengervíz sótartalma minden hajót automatikusan megtart"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hajótest üreges formája miatt nagy térfogatú vizet szorít ki, ezért a felhajtóerő meghaladja a hajó súlyát.",
+      "t": "folyadékok, gázok"
+    },
+    {
+      "q": "Melyik törvény mondja ki, hogy állandó hőmérsékleten egy gáz nyomása és térfogata fordítottan arányos egymással?",
+      "a": [
+        "Boyle–Mariotte-törvény",
+        "Gay-Lussac-törvény",
+        "Charles-törvény",
+        "Avogadro-törvény"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Boyle–Mariotte-törvény szerint állandó hőmérsékleten a gáz nyomásának és térfogatának szorzata állandó.",
+      "t": "folyadékok, gázok"
+    },
+    {
+      "q": "Hogyan nevezik azt a jelenséget, amikor egy folyadék keskeny csőben a gravitációval szemben felemelkedik?",
+      "a": [
+        "Kapillaritás",
+        "Ozmózis",
+        "Diffúzió",
+        "Turbulencia"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kapillaritás a felületi feszültség és az adhéziós erők miatt húzza fel a folyadékot vékony csövekben.",
+      "t": "folyadékok, gázok"
+    },
+    {
+      "q": "Melyik törvény írja le az elektromos áram, a feszültség és az ellenállás közötti kapcsolatot egy vezetőben?",
+      "a": [
+        "Ohm törvénye",
+        "Kirchhoff törvénye",
+        "Coulomb törvénye",
+        "Lenz törvénye"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ohm törvénye szerint az áramerősség egyenesen arányos a feszültséggel és fordítottan arányos az ellenállással.",
+      "t": "elektromosság"
+    },
+    {
+      "q": "Melyik évben mutatta be Michael Faraday az elektromágneses indukció jelenségét?",
+      "a": [
+        "1831",
+        "1800",
+        "1865",
+        "1905"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Faraday 1831-ben fedezte fel, hogy a változó mágneses tér elektromos áramot indukál egy vezető hurokban.",
+      "t": "elektromosság"
+    },
+    {
+      "q": "Miért világít fel egy izzószál villanykörtében, amikor áram folyik át rajta?",
+      "a": [
+        "Mert az elektromos ellenállás miatt a szál felmelegszik, és izzása fényt bocsát ki",
+        "Mert az áram közvetlenül fényrészecskékké alakul a szálban",
+        "Mert a szál felületén kémiai égés zajlik le áram hatására",
+        "Mert a szálban lévő gáz atomjai elektromos szikrát gyújtanak"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az izzószál ellenállása miatt az elektromos energia hővé alakul, ami olyan magas hőmérsékletet ér el, hogy a szál látható fényt bocsát ki.",
+      "t": "elektromosság"
+    },
+    {
+      "q": "Két, egymással sorba kapcsolt ellenállás eredő ellenállása hogyan viszonyul az egyes ellenállásokhoz?",
+      "a": [
+        "Az eredő ellenállás mindig nagyobb, mint bármelyik egyedi ellenállás",
+        "Az eredő ellenállás mindig kisebb, mint a legkisebb egyedi ellenállás",
+        "Az eredő ellenállás mindig egyenlő a kettő átlagával",
+        "Az eredő ellenállás független az egyes ellenállások értékétől"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Soros kapcsolásnál az eredő ellenállás az egyes ellenállások összege, ezért mindig nagyobb bármelyik tagnál.",
+      "t": "elektromosság"
+    },
+    {
+      "q": "Mit tapasztalunk, ha egy rúdmágnest kettévágunk?",
+      "a": [
+        "Két új, önálló mágnes keletkezik, mindkettőnek külön északi és déli pólusa lesz",
+        "Az egyik darabnak csak északi, a másiknak csak déli pólusa marad",
+        "A mágnesesség teljesen megszűnik mindkét különálló darabban",
+        "Csak az egyik darab marad mágneses, a másik nem"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mágneses pólusok nem választhatók szét: minden darab újra teljes, két pólusú mágnes lesz.",
+      "t": "mágnesesség"
+    },
+    {
+      "q": "Melyik hőmérséklet felett veszíti el egy vasdarab a ferromágneses tulajdonságát?",
+      "a": [
+        "A Curie-hőmérséklet felett",
+        "Az olvadáspont felett",
+        "Az abszolút nulla fok felett",
+        "A forráspont felett"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Curie-hőmérséklet (vasnál kb. 770 °C) felett a hőmozgás megbontja a mágneses rendezettséget, és az anyag paramágnesessé válik.",
+      "t": "mágnesesség"
+    },
+    {
+      "q": "Mire használjuk a Föld mágneses terét tájékozódás céljából elsősorban?",
+      "a": [
+        "Az iránytű működésének alapjaként, amely északi irányba áll be",
+        "A napórák árnyékvetésének pontos beállítására",
+        "A csillagok helyzetének meghatározására éjszaka",
+        "A tengerszint feletti magasság mérésére"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az iránytű mágnestűje a Föld mágneses terének vonalai mentén áll be, ezzel mutatva az északi irányt.",
+      "t": "mágnesesség"
+    },
+    {
+      "q": "Miért látjuk kékesnek az égboltot napközben?",
+      "a": [
+        "Mert a légkör molekulái a rövidebb hullámhosszú kék fényt sokkal erősebben szórják, mint a vöröset",
+        "Mert a Nap fénye eredetileg is kék színű, és csak napnyugtakor válik sárgává",
+        "Mert az ózonréteg kék fényt bocsát ki a napsugárzás elnyelésekor",
+        "Mert a szemünk retinája napközben érzékenyebb a kék tartományra"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Rayleigh-szórás miatt a légkör a rövidebb hullámhosszú (kék) fényt sokkal jobban szórja, mint a hosszabb hullámhosszú vöröset.",
+      "t": "fény, optika"
+    },
+    {
+      "q": "Melyik jelenség okozza, hogy egy pohár vízbe állított szívószál törötten látszik a felszín mentén?",
+      "a": [
+        "A fénytörés (refrakció), mert a fény sebessége eltérő a levegőben és a vízben",
+        "A fényvisszaverődés, mert a víz felszíne tükörként viselkedik",
+        "A fényelhajlás, mert a pohár pereme rést képez a fénysugárnak",
+        "A polarizáció, mert a víz molekulái rendezik a fény rezgéssíkját"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fény a levegőből a vízbe lépve irányt változtat (törik), mert a két közegben eltérő a terjedési sebessége.",
+      "t": "fény, optika"
+    },
+    {
+      "q": "Mekkora a fénysebesség pontos, hivatalosan rögzített értéke vákuumban?",
+      "a": [
+        "299 792 458 m/s",
+        "300 000 000 m/s",
+        "186 000 km/s",
+        "150 000 km/s"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A méter jelenlegi definíciója alapján a fénysebesség vákuumban pontosan 299 792 458 m/s, ez rögzített, nem mért érték.",
+      "t": "fény, optika"
+    },
+    {
+      "q": "Melyik optikai eszköz gyűjti össze a párhuzamos fénysugarakat egyetlen pontba, a fókuszpontba?",
+      "a": [
+        "A domború (gyűjtő) lencse",
+        "A homorú (szóró) lencse",
+        "A sík felületű tükör",
+        "A háromszög alakú üvegprizma"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A domború lencse a rá eső párhuzamos fénysugarakat egy pontban, a fókuszpontban egyesíti.",
+      "t": "fény, optika"
+    },
+    {
+      "q": "Hogyan határozzuk meg a teljesítményt fizikai értelemben?",
+      "a": [
+        "Az egységnyi idő alatt végzett munka vagy átadott energia mennyiségeként",
+        "A testre ható összes erő és az elmozdulás szorzataként",
+        "A megtett út és a sebesség hányadosaként",
+        "A test tömegének és a gyorsulásának a szorzataként"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A teljesítmény a munka és az idő hányadosa, mértékegysége a watt (1 W = 1 J/s).",
+      "t": "energia, munka"
+    },
+    {
+      "q": "Az energiamegmaradás törvénye szerint mi történik a világegyetem teljes energiájával zárt rendszerben?",
+      "a": [
+        "Állandó marad, csak formát változtathat, de nem keletkezik és nem vész el",
+        "Folyamatosan csökken a súrlódás miatt, még ideális esetben is",
+        "Időnként hirtelen megnő, amikor új részecskék keletkeznek",
+        "Csak akkor marad állandó, ha nincs jelen semmilyen hőmérséklet-különbség"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az energiamegmaradás törvénye kimondja, hogy zárt rendszerben az összes energia állandó, csak átalakulhat egyik formából a másikba.",
+      "t": "energia, munka"
+    },
+    {
+      "q": "Melyik energiafajtát nevezzük annak, amelyet egy megemelt test a helyzete miatt tárol?",
+      "a": [
+        "Helyzeti (potenciális) energia",
+        "Mozgási (kinetikus) energia",
+        "Hőenergia (belső energia)",
+        "Rugalmas alakváltozási energia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A helyzeti energia a test tömegétől, a nehézségi gyorsulástól és a magasságtól függ (E=mgh).",
+      "t": "energia, munka"
+    },
+    {
+      "q": "Mi jellemzi a hatásfokot egy gép vagy folyamat esetében?",
+      "a": [
+        "A hasznos munka és a befektetett összes energia arányát fejezi ki",
+        "A gép által egy másodperc alatt elvégzett munka nagyságát mutatja",
+        "A gép tömegének és teljesítményének hányadosát adja meg",
+        "Azt mutatja, mennyi hőt veszít a gép egy óra alatt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hatásfok a hasznosan felhasznált energia és a befektetett teljes energia hányadosa, mindig 100% alatti valós gépeknél.",
+      "t": "energia, munka"
+    },
+    {
+      "q": "Hány fokos a víz forráspontja normál légköri nyomáson, Celsius-skálán?",
+      "a": [
+        "100 °C",
+        "90 °C",
+        "120 °C",
+        "212 °C"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Normál légköri nyomáson (1013 hPa) a víz 100 °C-on forr a Celsius-skála definíciója szerint.",
+      "t": "mértékegységek"
+    },
+    {
+      "q": "Melyik alapmértékegység méri az anyagmennyiséget a nemzetközi mértékegységrendszerben (SI)?",
+      "a": [
+        "A mol",
+        "A gramm",
+        "A liter",
+        "A joule"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mol az SI hét alapegysége közül az, amely az anyagmennyiséget fejezi ki, egy mól kb. 6,022×10²³ részecskét jelent.",
+      "t": "mértékegységek"
+    },
+    {
+      "q": "Miért vezették be a tudósok a Kelvin-skálát a Celsius-skála mellett?",
+      "a": [
+        "Mert a Kelvin-skála nullpontja az abszolút nulla fok, ami termodinamikai számításokhoz kényelmesebb",
+        "Mert a Kelvin-skála pontosabban méri a szobahőmérsékletet",
+        "Mert a Kelvin-skálát könnyebb hőmérőn ábrázolni",
+        "Mert a Kelvin-skála a víz fagyáspontjából indul ki, akárcsak a Celsius"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Kelvin-skála az abszolút nulla fokból indul, ezért nincsenek negatív értékei, ami megkönnyíti a fizikai számításokat.",
+      "t": "mértékegységek"
+    },
+    {
+      "q": "Mi a különbség a tömeg és a súly fogalma között?",
+      "a": [
+        "A tömeg az anyagmennyiség mértéke, a súly pedig a rá ható gravitációs erő",
+        "A tömeg és a súly ugyanazt jelenti, csak más mértékegységben mérik",
+        "A súly állandó, a tömeg helytől függően változik",
+        "A tömeg csak folyadékokra, a súly csak szilárd testekre értelmezhető"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tömeg az anyag mennyiségét jelöli és állandó, míg a súly a gravitációs erő, amely helytől (pl. Holdon) függően változik.",
+      "t": "alapfogalmak"
+    },
+    {
+      "q": "A sebesség és a gyorsaság (sebesség nagysága) közül melyik vektormennyiség?",
+      "a": [
+        "A sebesség, mert iránya és nagysága is van",
+        "A gyorsaság, mert csak számértékkel adható meg",
+        "Mindkettő skalármennyiség, iránya nincs",
+        "Egyik sem, mindkettő csak mértékegységgel jellemezhető"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sebesség vektormennyiség, mert nagysága mellett iránya is van, míg a gyorsaság csak a nagyságot adja meg.",
+      "t": "alapfogalmak"
+    },
+    {
+      "q": "Mit jelent az, hogy egy mozgás egyenletesen gyorsuló?",
+      "a": [
+        "Azt, hogy a test sebessége minden egyenlő időközben ugyanannyival változik",
+        "Azt, hogy a test sebessége állandó és nem változik",
+        "Azt, hogy a test csak egyenes vonalban mozoghat",
+        "Azt, hogy a test gyorsulása időben véletlenszerűen ingadozik"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egyenletesen gyorsuló mozgásnál a gyorsulás állandó, így a sebesség minden másodpercben ugyanannyival nő.",
+      "t": "alapfogalmak"
+    },
+    {
+      "q": "Mekkora a szökési sebesség (a második kozmikus sebesség) a Föld felszínén, kerekítve?",
+      "a": [
+        "Kb. 11,2 km/s",
+        "Kb. 7,9 km/s",
+        "Kb. 3,4 km/s",
+        "Kb. 16,7 km/s"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Föld felszínéről induló testnek legalább 11,2 km/s sebességre van szüksége ahhoz, hogy végleg elhagyja a Föld gravitációs vonzását.",
+      "t": "csillagászat, űr"
+    },
+    {
+      "q": "Nagyjából hányszorosa a Nap tömege a Föld tömegének?",
+      "a": [
+        "Kb. 333 000-szerese",
+        "Kb. 1000-szerese",
+        "Kb. 10 000-szerese",
+        "Kb. 1 000 000-szorosa"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nap tömege körülbelül 333 000-szerese a Föld tömegének, ez adja a Naprendszer tömegének döntő részét.",
+      "t": "csillagászat, űr"
+    },
+    {
+      "q": "Mit nevezünk fekete lyuknak az asztrofizikában?",
+      "a": [
+        "Olyan égitestet, amelynek gravitációja olyan erős, hogy még a fény sem tud kiszabadulni belőle",
+        "Olyan csillagot, amely már teljesen kihűlt és nem bocsát ki fényt",
+        "Olyan üres térrészt, ahonnan minden anyag elszökött",
+        "Olyan bolygót, amelynek nincs saját fényvisszaverő felszíne"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fekete lyuk körüli eseményhorizonton belül a szökési sebesség meghaladja a fénysebességet, ezért semmi, még a fény sem tud kijutni.",
+      "t": "csillagászat, űr"
+    },
+    {
+      "q": "Melyik évben végezte el a LIGO obszervatórium az első közvetlen gravitációshullám-észlelést, amelyet 2016 elején jelentettek be?",
+      "a": [
+        "2015-ben",
+        "2005-ben",
+        "2010-ben",
+        "1995-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A gravitációs hullámot 2015. szeptember 14-én észlelték a LIGO detektorai, a felfedezést 2016 februárjában jelentették be hivatalosan.",
+      "t": "csillagászat, űr"
+    },
+    {
+      "q": "Melyik CERN-kísérletben fedezték fel 2012-ben a Higgs-bozont?",
+      "a": [
+        "A Nagy Hadronütköztetőben (LHC)",
+        "A Hubble-űrtávcső megfigyeléseiben",
+        "A Manhattan-terv kísérleteiben",
+        "A Chicago Pile-1 reaktorban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Higgs-bozon létezését 2012-ben igazolták a CERN Nagy Hadronütköztetőjében az ATLAS és CMS kísérletek adatai alapján.",
+      "t": "modern fizika"
+    },
+    {
+      "q": "Miért kapott Albert Einstein Nobel-díjat, és nem a relativitáselméletért, ahogy sokan hiszik?",
+      "a": [
+        "A fényelektromos hatás magyarázatáért kapta az 1921. évi fizikai Nobel-díjat",
+        "A relativitáselméletért kapta 1915-ben, de az átvételt elhalasztották",
+        "A Brown-mozgás felfedezéséért kapta, amit ő fedezett fel elsőként",
+        "A híres E=mc² képlet levezetéséért kapta 1930-ban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Einstein az 1921. évi fizikai Nobel-díjat a fényelektromos hatás törvényének magyarázatáért kapta, nem a relativitáselméletért.",
+      "t": "modern fizika"
+    },
+    {
+      "q": "Ki volt az első két tudós, akiknek 2013-ban Nobel-díjat ítéltek oda a Higgs-mechanizmus elméleti leírásáért?",
+      "a": [
+        "Peter Higgs és François Englert",
+        "Albert Einstein és Niels Bohr",
+        "Enrico Fermi és James Chadwick",
+        "Max Planck és Werner Heisenberg"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 2013. évi fizikai Nobel-díjat Peter Higgs és François Englert kapta a Higgs-mechanizmus elméleti kidolgozásáért.",
+      "t": "modern fizika"
+    },
+    {
+      "q": "Mi a neutrínó legjellemzőbb tulajdonsága, amely rendkívül nehézzé teszi az észlelését?",
+      "a": [
+        "Alig lép kölcsönhatásba az anyaggal, szinte akadálytalanul áthalad rajta",
+        "Rendkívül nagy tömege miatt csak erős mágneses térben mozog",
+        "Csak fényes csillagok belsejében létezik, onnan nem távozik",
+        "Elektromos töltése miatt azonnal semlegesítődik levegőben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A neutrínók szinte nem lépnek kölcsönhatásba az anyaggal, ezért másodpercenként billiószám haladnak át testünkön észrevétlenül.",
+      "t": "modern fizika"
+    },
+    {
+      "q": "Melyik részecskét fedezte fel James Chadwick 1932-ben az atommag felépítésének kutatása során?",
+      "a": [
+        "A neutront",
+        "A protont",
+        "A pozitront",
+        "A müont"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Chadwick 1932-ben mutatta ki a semleges töltésű neutron létezését, amiért 1935-ben Nobel-díjat kapott.",
+      "t": "atomfizika, kvantumfizika"
+    },
+    {
+      "q": "Mi történik egy radioaktív izotóp felezési ideje alatt?",
+      "a": [
+        "Az adott anyagmennyiség fele elbomlik a bomlástermékké",
+        "Az anyag teljesen elveszti radioaktivitását",
+        "Az anyag tömege pontosan megkétszereződik",
+        "Az anyag hőmérséklete lecsökken az abszolút nulla közelébe"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A felezési idő az az időtartam, amely alatt egy radioaktív anyag atomjainak fele elbomlik.",
+      "t": "atomfizika, kvantumfizika"
+    },
+    {
+      "q": "Miért nem határozható meg egyszerre tetszőleges pontossággal egy részecske helye és impulzusa a kvantummechanikában?",
+      "a": [
+        "Mert a Heisenberg-féle határozatlansági reláció szerint a két mennyiség pontossága elvi korlátba ütközik",
+        "Mert a méréshez használt műszereink még nem elég fejlettek",
+        "Mert a részecskék folyamatosan helyet változtatnak a mérés közben véletlenszerűen",
+        "Mert a hőmérséklet mindig zavarja a mérőeszközök működését"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A határozatlansági reláció elvi, nem technikai korlát: minél pontosabban ismerjük a helyet, annál bizonytalanabb az impulzus, és fordítva.",
+      "t": "atomfizika, kvantumfizika"
+    },
+    {
+      "q": "Melyik fizikus vezette be 1900-ban a kvantumhipotézist, megalapozva ezzel a kvantummechanikát?",
+      "a": [
+        "Max Planck",
+        "Niels Bohr",
+        "Erwin Schrödinger",
+        "Werner Heisenberg"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Max Planck 1900-ban vetette fel, hogy az energia nem folytonosan, hanem meghatározott csomagokban (kvantumokban) sugárzódik ki.",
+      "t": "atomfizika, kvantumfizika"
+    },
+    {
+      "q": "Mi jellemzi az elektron viselkedését a kettős rés kísérletben?",
+      "a": [
+        "Egyszerre mutat hullám- és részecsketulajdonságokat is",
+        "Kizárólag hullámként viselkedik, részecskeként soha",
+        "Kizárólag részecskeként viselkedik, hullámként soha",
+        "A kísérletben mindig eltűnik, mielőtt célba érne"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kettős rés kísérlet igazolja a hullám-részecske kettősséget: az elektron interferenciamintázatot hoz létre, mégis pontszerű becsapódásokban érkezik.",
+      "t": "atomfizika, kvantumfizika"
+    },
+    {
+      "q": "Mit állít Einstein speciális relativitáselmélete a fénysebességről?",
+      "a": [
+        "Vákuumban minden megfigyelő számára ugyanakkora, függetlenül a megfigyelő mozgásától",
+        "A fénysebesség a megfigyelő sebességétől függően összeadódik vagy kivonódik",
+        "A fénysebesség csak vákuumban állandó, de mindig a Föld mozgásához igazodik",
+        "A fénysebesség lassabban terjed, ha a fényforrás közeledik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Einstein posztulátuma szerint a fény sebessége vákuumban minden inerciarendszerben azonos, ez a relativitáselmélet egyik alappillére.",
+      "t": "relativitáselmélet"
+    },
+    {
+      "q": "Mi történik egy gyorsan mozgó űrhajóban lévő órával egy álló megfigyelő szemszögéből, a relativitáselmélet szerint?",
+      "a": [
+        "Lassabban jár, mint az álló megfigyelő órája (időlassulás)",
+        "Gyorsabban jár, mint az álló megfigyelő órája",
+        "Pontosan ugyanolyan ütemben jár, mint bármely álló óra",
+        "Teljesen leáll, amint eléri a fénysebesség felét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A speciális relativitáselmélet szerint a nagy sebességgel mozgó óra az álló megfigyelőhöz képest lassabban jár (időlassulás).",
+      "t": "relativitáselmélet"
+    },
+    {
+      "q": "Melyik 1887-es kísérlet cáfolta meg a fényt közvetítő éter létezését, és készítette elő a relativitáselmélet talaját?",
+      "a": [
+        "A Michelson–Morley-kísérlet",
+        "A Rutherford-féle szórási kísérlet",
+        "A Millikan-féle olajcsepp-kísérlet",
+        "A Young-féle kettős rés kísérlet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Michelson és Morley által 1887-ben végzett kísérlet nem talált éterszelet, ami hozzájárult az éterelmélet elvetéséhez.",
+      "t": "relativitáselmélet"
+    },
+    {
+      "q": "Miért görbül el a fény útja egy nagy tömegű égitest, például a Nap közelében?",
+      "a": [
+        "Mert a tömeg meggörbíti maga körül a téridőt, és a fény ezen görbült úton halad",
+        "Mert a fény lelassul a Nap hőjének hatására, és emiatt elhajlik",
+        "Mert a Nap mágneses tere eltéríti a fényrészecskéket",
+        "Mert a napszél részecskéi fizikailag eltérítik a fotonokat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az általános relativitáselmélet szerint a tömeg görbíti a téridőt, és a fény ezen görbült téridőben halad egyenes vonalban.",
+      "t": "relativitáselmélet"
+    },
+    {
+      "q": "Melyik fizikusnő az egyetlen, aki két különböző tudományterületen kapott Nobel-díjat (fizika és kémia)?",
+      "a": [
+        "Marie Curie",
+        "Lise Meitner",
+        "Maria Goeppert-Mayer",
+        "Rosalind Franklin"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Marie Curie 1903-ban fizikai, 1911-ben kémiai Nobel-díjat kapott, egyedüliként két különböző területen.",
+      "t": "híres fizikusok"
+    },
+    {
+      "q": "Ki fogalmazta meg a mozgás három alaptörvényét, amelyeket ma is Newton törvényeiként tanítunk?",
+      "a": [
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Johannes Kepler",
+        "René Descartes"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Isaac Newton 1687-ben, a Principia Mathematicában publikálta a mozgás három alaptörvényét.",
+      "t": "híres fizikusok"
+    },
+    {
+      "q": "Melyik magyar származású fizikus nevéhez fűződik a láncreakció elvének felismerése, amely a nukleáris energia alapja?",
+      "a": [
+        "Szilárd Leó",
+        "Wigner Jenő",
+        "Teller Ede",
+        "Neumann János"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szilárd Leó 1933-ban ismerte fel elméletileg a nukleáris láncreakció lehetőségét, amely a reaktorok és az atombomba alapja.",
+      "t": "híres fizikusok"
+    },
+    {
+      "q": "Miért vált híressé Wilhelm Conrad Röntgen 1895-ös felfedezése?",
+      "a": [
+        "Olyan sugárzást fedezett fel, amely áthatol az emberi testen, ma röntgensugárzásnak nevezzük",
+        "Felfedezte a rádióaktivitás jelenségét urántartalmú ásványokban",
+        "Elsőként bizonyította be az elektron létezését kísérletileg",
+        "Megalkotta az első működő lézert kísérleti körülmények között"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Röntgen 1895-ben fedezte fel az X-sugarakat, amiért 1901-ben elsőként kapott fizikai Nobel-díjat.",
+      "t": "híres fizikusok"
+    },
+    {
+      "q": "Melyik holland fizikus fedezte fel elsőként a szupravezetés jelenségét 1911-ben, higanyon végzett kísérletében?",
+      "a": [
+        "Heike Kamerlingh Onnes",
+        "Christiaan Huygens",
+        "Hendrik Lorentz",
+        "Pieter Zeeman"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kamerlingh Onnes 1911-ben figyelte meg, hogy a higany ellenállása 4,19 kelvinen hirtelen nullára esik, ez a szupravezetés.",
+      "t": "híres fizikusok"
+    },
+    {
+      "q": "Mikor hajtották végre az első önfenntartó, ember alkotta nukleáris láncreakciót a Chicago Pile-1 reaktorban?",
+      "a": [
+        "1942-ben",
+        "1932-ben",
+        "1945-ben",
+        "1955-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1942. december 2-án Enrico Fermi vezetésével a Chicagói Egyetemen sikerült elindítani az első önfenntartó nukleáris láncreakciót.",
+      "t": "termodinamika"
+    },
+    {
+      "q": "Mi a termodinamika első főtétele lényegében?",
+      "a": [
+        "Az energia nem vész el és nem keletkezik, csak átalakul más formává",
+        "A hő mindig a hidegebb testből a melegebb felé áramlik",
+        "Minden zárt rendszer entrópiája idővel csökken",
+        "Az abszolút nulla fok gyakorlatilag elérhető megfelelő hűtéssel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A termodinamika első főtétele az energiamegmaradás elve: az energia nem tűnik el, csupán átalakul (pl. hővé, munkává).",
+      "t": "termodinamika"
+    },
+    {
+      "q": "Mit mond ki a termodinamika második főtétele az entrópiáról zárt rendszerben?",
+      "a": [
+        "A zárt rendszer entrópiája idővel nem csökkenhet, magától nem nő a rendezettség",
+        "A zárt rendszer entrópiája folyamatosan csökken, egyre rendezettebb lesz",
+        "A zárt rendszer entrópiája állandó marad minden folyamat során",
+        "A zárt rendszer entrópiája hőmérséklettől függetlenül nulla"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A második főtétel szerint zárt rendszerben az entrópia (a rendezetlenség mértéke) idővel nő vagy legfeljebb állandó marad, magától nem csökken.",
+      "t": "termodinamika"
+    },
+    {
+      "q": "Melyik halmazállapot-változás hűti le a bőrünket verejtékezéskor?",
+      "a": [
+        "A párolgás, mert a folyadék hővé alakuláshoz energiát von el a bőrről",
+        "A kondenzáció, mert eközben hő szabadul fel a bőr felszínén",
+        "A fagyás, mert a folyamat során hő szabadul fel a testből",
+        "Az olvadás, mert a jégkristályok hőt vonnak el a levegőből"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Verejtékezéskor a víz elpárolog a bőrről, s ehhez az energiát (hőt) a bőr felszínéből vonja el, ezért érzünk hűvösséget.",
+      "t": "termodinamika"
+    },
+    {
+      "q": "Mit nevezünk ultrahangnak?",
+      "a": [
+        "Az emberi hallásküszöb (kb. 20 000 Hz) feletti frekvenciájú hanghullámokat",
+        "Az emberi hallásküszöb alatti, 20 Hz-nél alacsonyabb frekvenciájú hangokat",
+        "A hangsebességnél gyorsabban terjedő hanghullámokat",
+        "A csak vízben terjedni képes különleges hanghullámokat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ultrahang az emberi fül számára hallhatatlan, kb. 20 kHz feletti frekvenciájú hanghullám, denevérek is használják tájékozódásra.",
+      "t": "akusztika"
+    },
+    {
+      "q": "Mi okozza a hangrobbanást, amikor egy repülőgép átlépi a hangsebességet?",
+      "a": [
+        "A repülőgép előtt torlódó lökéshullámok hirtelen felszabaduló energiája",
+        "A gép hajtóművének hirtelen megnövekedő hangereje",
+        "A levegő felmelegedése a súrlódás miatt, ami hangot kelt",
+        "A gép szárnyai által keltett rezonancia a levegőben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Amikor a gép eléri a hangsebességet, az előtte torlódó lökéshullámok hirtelen felszabadulása kelti a jellegzetes dörrenést.",
+      "t": "akusztika"
+    },
+    {
+      "q": "Mi táplálja a Nap energiatermelését a magjában?",
+      "a": [
+        "A hidrogénatomok magfúziója, amely héliummá alakítja őket",
+        "A szén elégése oxigén jelenlétében, mint a földi tüzeknél",
+        "A felszíni kőzetek radioaktív bomlása",
+        "A napfolt-tevékenység által termelt elektromosság"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Nap magjában hidrogénmagok egyesülnek (fúzió) héliummá, ez a folyamat szabadítja fel a Nap energiáját.",
+      "t": "asztrofizika"
+    },
+    {
+      "q": "Melyik csillagászati egység fejezi ki a Föld és a Nap átlagos távolságát, kb. 150 millió kilométert?",
+      "a": [
+        "A csillagászati egység (AU)",
+        "A fényév (egy év alatt megtett fényút)",
+        "A parsec (parallaxis-másodperc)",
+        "A holdtávolság-egység"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Egy csillagászati egység (AU) a Föld–Nap átlagos távolság, kb. 150 millió kilométer.",
+      "t": "asztrofizika"
+    },
+    {
+      "q": "Mi a neutroncsillag, amely egyes hatalmas csillagok szupernóva-robbanása után jöhet létre?",
+      "a": [
+        "Rendkívül sűrű égitest, amelyben az anyag szinte kizárólag neutronokból áll",
+        "Olyan csillag, amely csak neutrínókat bocsát ki magából",
+        "Olyan bolygó, amelynek légköre túlnyomórészt nitrogénből áll",
+        "Olyan mesterséges égitest, amelyet űrszondák hoztak létre"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A neutroncsillag egy összeomlott csillagmag, amelyben a protonok és elektronok neutronokká egyesülnek, extrém sűrűséget hozva létre.",
+      "t": "asztrofizika"
     }
   ]
 }

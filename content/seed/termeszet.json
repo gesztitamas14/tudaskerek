@@ -865,6 +865,1748 @@
       "e": "Chimborazo Ecuador területén található.",
       "t": "hegyek",
       "s": "http://www.wikidata.org/entity/Q14081"
+    },
+    {
+      "q": "Melyik folyót tartja hagyományosan a világ leghosszabb folyójának a Guinness Rekordok Könyve?",
+      "a": [
+        "A Nílust",
+        "Az Amazonast",
+        "A Jangcét",
+        "A Mississippit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nílus hossza kb. 6650 km, ez a hagyományosan elfogadott rekord, bár az Amazonas hossza vitatott mérések szerint közel akkora.",
+      "t": "folyók"
+    },
+    {
+      "q": "Mekkora körülbelül a Duna hossza, amivel Európa második leghosszabb folyója a Volga után?",
+      "a": [
+        "Körülbelül 2850 km",
+        "Körülbelül 1200 km",
+        "Körülbelül 4500 km",
+        "Körülbelül 6650 km"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Duna hossza a legtöbb forrás szerint 2850-2860 km, ezzel Európa második leghosszabb folyója.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik magyarországi folyó a leghosszabb az ország területén belül mérve?",
+      "a": [
+        "A Tisza",
+        "A Duna",
+        "A Dráva",
+        "A Rába"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bár a Duna nagyobb vízhozamú, a Tiszának van a leghosszabb magyarországi szakasza.",
+      "t": "folyók"
+    },
+    {
+      "q": "Miért árad ki gyakran a Tisza tavasszal a hazai folyók közül a leginkább?",
+      "a": [
+        "Mert vízgyűjtője hegyvidéki, hó- és esővíz egyszerre árasztja el",
+        "Mert medre mesterségesen mélyebbre van ásva, mint a Dunáé",
+        "Mert a tengerszint feletti magassága alacsonyabb, mint a Dunáé",
+        "Mert nincsenek gátak a folyó mentén sehol"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Tisza vízgyűjtője a Kárpátokban van, ahol a hóolvadás és a tavaszi esők egyszerre növelik meg a vízhozamot.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik a Föld legnagyobb, tóként számon tartott, szárazföld által körülzárt víztömege?",
+      "a": [
+        "A Kaszpi-tenger",
+        "A Fekete-tenger",
+        "Az Aral-tó",
+        "A Holt-tenger"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Kaszpi-tenger a Föld legnagyobb, óceánhoz nem kapcsolódó víztömege, ezért gyakran a legnagyobb tónak számít.",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik tó tartalmazza a Föld édesvízkészletének legnagyobb hányadát víztérfogat szerint?",
+      "a": [
+        "A Bajkál-tó",
+        "A Felső-tó",
+        "A Viktória-tó",
+        "A Tanganyika-tó"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szibériai Bajkál-tó a világ édesvizének mintegy ötödét tartalmazza, és egyben a legmélyebb tó is.",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik tó a legnagyobb felszínű édesvizű tó a Földön?",
+      "a": [
+        "A Felső-tó",
+        "A Bajkál-tó",
+        "A Viktória-tó",
+        "A Csád-tó"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Felszín szerint az észak-amerikai Felső-tó a legnagyobb édesvizű tó, bár térfogat szerint a Bajkál-tó vezet.",
+      "t": "tavak"
+    },
+    {
+      "q": "Hány négyzetkilométer körülbelül a Balaton felszíne, amivel Közép-Európa legnagyobb tava?",
+      "a": [
+        "Körülbelül 600 km²",
+        "Körülbelül 60 km²",
+        "Körülbelül 6000 km²",
+        "Körülbelül 1200 km²"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Balaton felszíne kb. 594-600 négyzetkilométer, ezzel Közép-Európa legnagyobb tava.",
+      "t": "tavak"
+    },
+    {
+      "q": "Mi jellemzi a Fertő-tavat a magyarországi tavak között?",
+      "a": [
+        "Sekély, sztyeppei jellegű tó kiterjedt nádasokkal",
+        "Magyarország legmélyebb hegyi tava",
+        "Mesterségesen létrehozott víztározó tó",
+        "Kizárólag sós vizű, élővilág nélküli tó"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Fertő-tó sekély, szikes jellegű tó, partját hatalmas nádasok szegélyezik, ökológiailag kiemelten értékes terület.",
+      "t": "tavak"
+    },
+    {
+      "q": "Miért nevezik gyakran „magyar tengernek” a Balatont?",
+      "a": [
+        "Mert Magyarország legnagyobb, tengerre emlékeztető kiterjedésű tava",
+        "Mert vize sós, mint a tengervíz",
+        "Mert dagály és apály figyelhető meg rajta",
+        "Mert egykor tényleg tenger része volt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Balaton kiterjedt, nyílt vízfelülete tengerre emlékeztet, bár vize édesvíz és nincs számottevő árapálya.",
+      "t": "tavak"
+    },
+    {
+      "q": "Hány óceánt különböztet meg a hagyományos földrajzi felosztás?",
+      "a": [
+        "Ötöt",
+        "Négyet",
+        "Hatot",
+        "Hármat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hagyományos felosztás a Csendes-, Atlanti-, Indiai-, Déli- és a Jeges-tengert (Északi-sarki-óceánt) különbözteti meg.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Melyik a Föld legnagyobb kiterjedésű óceánja?",
+      "a": [
+        "A Csendes-óceán",
+        "Az Atlanti-óceán",
+        "Az Indiai-óceán",
+        "A Jeges-tenger"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Csendes-óceán területe nagyobb, mint az összes szárazföld együttvéve, ezzel a legnagyobb óceán.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Hol található a Föld legmélyebb ismert pontja, a Challenger-mélyedés?",
+      "a": [
+        "A Mariana-árokban, a Csendes-óceánban",
+        "A Puerto Ricó-árokban, az Atlanti-óceánban",
+        "A Szunda-árokban, az Indiai-óceánban",
+        "A Jeges-tenger mélyén, Norvégia partjainál"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Challenger-mélyedés a Mariana-árokban van, mélysége a mérések szerint kb. 10 900-11 000 méter.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Mi okozza elsősorban az óceánok árapályát?",
+      "a": [
+        "A Hold, kisebb részben a Nap gravitációs vonzása",
+        "A szél állandó nyomása a víz felszínén",
+        "A Föld forgásából eredő centrifugális erő önmagában",
+        "Az óceáni áramlatok hőmérséklet-különbsége"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az árapályt főként a Hold, kisebb mértékben a Nap gravitációs hatása kelti, ahogy a Föld körülöttük mozog.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Melyik óceánban található a Nagy-korallzátony, a Föld legnagyobb korallrendszere?",
+      "a": [
+        "A Csendes-óceánban, Ausztrália partjainál",
+        "Az Atlanti-óceánban, Karib-térségben",
+        "Az Indiai-óceánban, Madagaszkár mellett",
+        "A Jeges-tengerben, Norvégia közelében"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Nagy-korallzátony Ausztrália északkeleti partjainál, a Csendes-óceánban húzódik, több mint 2300 km hosszan.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Melyik a Föld legnagyobb sivataga, ha a hideg sivatagokat is számításba vesszük?",
+      "a": [
+        "Az Antarktiszi-sivatag",
+        "A Szahara",
+        "A Góbi-sivatag",
+        "Az Arab-sivatag"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Csapadékmennyiség alapján az egész Antarktisz sivatagnak számít, és ez a legnagyobb sivatag a Földön, megelőzve a Szaharát.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Melyik a legnagyobb kiterjedésű forró sivatag a Földön?",
+      "a": [
+        "A Szahara",
+        "A Góbi-sivatag",
+        "A Kalahári-sivatag",
+        "Az Atacama-sivatag"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Szahara Észak-Afrikában húzódik, területe meghaladja a 9 millió négyzetkilométert, ez a legnagyobb forró sivatag.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Mi teszi sivataggá egy terület éghajlatát a földrajzi meghatározás szerint?",
+      "a": [
+        "Az, hogy évi csapadéka 250 mm alatt marad",
+        "Az, hogy nincs rajta semmilyen élőlény",
+        "Az, hogy a hőmérséklete mindig 40 fok fölött van",
+        "Az, hogy kizárólag homokból áll a felszíne"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A sivatag meghatározó jellemzője az alacsony, jellemzően 250 mm alatti évi csapadékmennyiség, nem a hőmérséklet vagy a homok.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Miért alakulnak ki homokdűnék a sivatagokban?",
+      "a": [
+        "Mert a szél a laza homokszemcséket felhalmozza és mozgatja",
+        "Mert a talajvíz felszínre nyomja a homokot",
+        "Mert a hőingás szétmorzsolja a sziklákat egy helyben",
+        "Mert az esővíz lemossa a homokot a hegyekről"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szél folyamatosan szállítja és rendezi a homokszemcséket, ez hozza létre a jellegzetes dűneformákat.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Mit jelent a monszun kifejezés?",
+      "a": [
+        "Évszakosan megforduló szélrendszer, ami esős és száraz időszakot hoz",
+        "Egyetlen hatalmas, hirtelen kialakuló zápor",
+        "A trópusi ciklonok másik neve",
+        "A sarkvidéki szél állandó neve"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A monszun a nyár és a tél között irányt váltó szélrendszer, ami Dél- és Délkelet-Ázsiában esős, illetve száraz évszakot okoz.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Miért fúj a passzátszél viszonylag állandó irányból a trópusokon?",
+      "a": [
+        "Mert a Föld forgása (Coriolis-hatás) eltéríti a levegő áramlását",
+        "Mert a tengeráramlatok mindig ugyanabba az irányba haladnak",
+        "Mert a hegyláncok ezt az irányt kényszerítik ki",
+        "Mert a Nap mindig ugyanabból az irányból süt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A trópusi légkörzést a Coriolis-hatás téríti el, ez alakítja ki az egyenlítő felé állandóan fújó passzátszeleket.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Mi a különbség az időjárás és az éghajlat fogalma között?",
+      "a": [
+        "Az időjárás rövid távú állapot, az éghajlat hosszú távú átlag",
+        "Az időjárás csak a hőmérsékletre, az éghajlat a szélre vonatkozik",
+        "Nincs közöttük érdemi különbség, felcserélhető szavak",
+        "Az éghajlat csak a sarkvidékekre használt kifejezés"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az időjárás egy adott pillanat vagy nap állapotát írja le, az éghajlat pedig egy térség több évtizedes átlagos mintázatát.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Melyik jelenség okozza a Föld átlaghőmérsékletének emberi tevékenység miatti emelkedését?",
+      "a": [
+        "Az üvegházhatású gázok légköri feldúsulása",
+        "Az óceánok sótartalmának csökkenése",
+        "A Nap sugárzásának folyamatos erősödése",
+        "A Föld mágneses terének gyengülése"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szén-dioxid és más üvegházhatású gázok légköri koncentrációjának növekedése fokozza a hőmegtartást, ez az antropogén felmelegedés fő oka.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Melyik éghajlati övezetre jellemző a négy jól elkülönülő évszak megléte?",
+      "a": [
+        "A mérsékelt övre",
+        "A trópusi övre",
+        "A sarkvidéki övre",
+        "Az egyenlítői övre"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mérsékelt égövben a Nap beesési szögének éves változása miatt alakul ki tavasz, nyár, ősz és tél.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Mi okozza a mennydörgést egy zivatar során?",
+      "a": [
+        "A villám hirtelen felmelegíti a levegőt, ami robbanásszerűen kitágul",
+        "A felhők egymásnak ütköznek a magasban",
+        "Az esőcseppek nagy sebességgel csapódnak a földnek",
+        "A szél hirtelen irányt vált a légkörben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A villám néhány tized másodperc alatt akár 30 000 fokra hevíti a levegőt, ami hirtelen kitágul és hanghullámot kelt.",
+      "t": "időjárás"
+    },
+    {
+      "q": "Miért látunk szivárványt eső után, ha a Nap a hátunk mögött süt?",
+      "a": [
+        "Mert a fény megtörik és visszaverődik a levegőben lévő vízcseppekben",
+        "Mert a nedves levegő tükörként veri vissza a napfényt",
+        "Mert a felhők prizmaként törik meg a fényt",
+        "Mert a por a levegőben szórja szét a fényt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A napfény a vízcseppekbe belépve megtörik, belül visszaverődik, majd kilépve ismét megtörik, ez bontja színeire a fényt.",
+      "t": "időjárás"
+    },
+    {
+      "q": "Mi a viharfelhő, azaz a zivatarfelhő tudományos neve?",
+      "a": [
+        "Cumulonimbus felhő",
+        "Cirrusfelhő",
+        "Stratusfelhő",
+        "Nimbosztrátusz felhő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cumulonimbus a függőlegesen hatalmasra növő viharfelhő, amely zivatart, jégesőt és villámlást is okozhat.",
+      "t": "időjárás"
+    },
+    {
+      "q": "Hogyan nevezik a trópusi ciklonokat az Atlanti-óceán térségében?",
+      "a": [
+        "Hurrikánnak nevezik",
+        "Tájfunnak nevezik",
+        "Willy-willynek nevezik",
+        "Extratrópusi ciklonnak hívják"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ugyanazt a jelenséget az Atlanti-óceánon és a kelet-csendes-óceáni térségben hurrikánnak, Kelet-Ázsiában tájfunnak nevezik.",
+      "t": "időjárás"
+    },
+    {
+      "q": "Mi a különbség a harmat és a dér képződése között?",
+      "a": [
+        "A dér fagypont alatti hőmérsékleten, a harmat afölött csapódik ki",
+        "A harmat csak nyáron, a dér csak télen létezik",
+        "A dér a tengerparton, a harmat a hegyekben alakul ki",
+        "Nincs közöttük különbség, ugyanaz a jelenség"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mindkettő a levegő páratartalmának lecsapódása felszíni tárgyakon, de dér csak fagypont alatti hőmérsékleten képződik jégkristályok formájában.",
+      "t": "időjárás"
+    },
+    {
+      "q": "Melyik szélrendszer felelős azért, hogy a repülőgépek gyorsabban repülnek nyugatról keletre?",
+      "a": [
+        "A futóáramlás (jet stream)",
+        "A passzátszél",
+        "A monszunszél",
+        "A helyi tengeri szél"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A futóáramlás a troposzféra felső részén húzódó, gyors nyugat-keleti irányú légáramlás, ami felgyorsítja a repülőket.",
+      "t": "időjárás"
+    },
+    {
+      "q": "Melyik ásvány a legkeményebb a Mohs-féle keménységi skálán?",
+      "a": [
+        "A gyémánt",
+        "A kvarc",
+        "A korund",
+        "A topáz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Mohs-skálán a gyémánt kapta a 10-es, legkeményebb fokozatot, ez a természetben előforduló legkeményebb anyag.",
+      "t": "ásványok"
+    },
+    {
+      "q": "Ki dolgozta ki 1812-ben az ásványok keménységét mérő tízfokú skálát?",
+      "a": [
+        "Friedrich Mohs",
+        "Charles Richter",
+        "Alfred Wegener",
+        "James Hutton"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A német geológus, Friedrich Mohs alkotta meg 1812-ben a róla elnevezett keménységi skálát.",
+      "t": "ásványok"
+    },
+    {
+      "q": "Melyik kőzettípusba tartozik a márvány, keletkezése szerint?",
+      "a": [
+        "Az átalakult (metamorf) kőzetek közé",
+        "Az üledékes kőzetek közé",
+        "A vulkáni kőzetek közé",
+        "A mélységi magmás kőzetek közé"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A márvány mészkőből jön létre nagy hő és nyomás hatására, ezért átalakult, azaz metamorf kőzetnek számít.",
+      "t": "kőzetek"
+    },
+    {
+      "q": "Melyik üledékes kőzet a fő alkotóeleme a barlangokat kialakító karsztos tájaknak?",
+      "a": [
+        "A mészkő",
+        "A homokkő",
+        "A gránit",
+        "A bazalt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A karsztos formák, köztük a barlangok, jellemzően vízben oldódó mészkőben alakulnak ki.",
+      "t": "kőzetek"
+    },
+    {
+      "q": "Melyik kőzet keletkezik a láva gyors, felszíni megszilárdulásából?",
+      "a": [
+        "A bazalt, a megszilárdult láva",
+        "A gránit, egy mélységi kőzet",
+        "A pala, egy rétegzett kőzet",
+        "A homokkő, egy üledékes kőzet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A bazalt a vulkáni láva gyors, felszíni lehűlésével keletkező, sötét színű vulkáni kőzet.",
+      "t": "kőzetek"
+    },
+    {
+      "q": "Mi a különbség a magmás és az üledékes kőzetek keletkezése között?",
+      "a": [
+        "A magmás kőzet megszilárdult olvadékból, az üledékes lerakódott törmelékből képződik",
+        "A magmás kőzet mindig a tenger alján, az üledékes a szárazföldön keletkezik",
+        "A kettő között csak a színük különbözik, keletkezésük azonos",
+        "Az üledékes kőzet mindig keményebb, mint a magmás"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magmás kőzetek megolvadt kőzetanyag megszilárdulásával, az üledékesek pedig törmelék vagy oldott anyagok lerakódásával jönnek létre.",
+      "t": "kőzetek"
+    },
+    {
+      "q": "Melyik folyamat alakítja évmilliók alatt a hegyeket dombokká, síkságokká?",
+      "a": [
+        "Az erózió, azaz a felszín folyamatos lepusztulása",
+        "A vulkánkitörés hirtelen hatása",
+        "A földrengések azonnali hatása",
+        "A jégkorszakok egyszeri eseménye"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az eróziót a víz, a szél és a jég okozza, ami folyamatosan lehordja a kőzeteket, így alakítva a felszínt.",
+      "t": "földtan"
+    },
+    {
+      "q": "Miből keletkezik a kőolaj a földtani folyamatok szerint?",
+      "a": [
+        "Ősi tengeri élőlények maradványaiból, nagy nyomás és hő hatására",
+        "Kizárólag elhalt szárazföldi növényekből, gyors bomlással",
+        "Vulkáni tevékenység során, a magma átalakulásából",
+        "Kőzetekben eleve jelen lévő anyagból, keletkezés nélkül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kőolaj évmilliók alatt, üledékes kőzetrétegek alatt, hő és nyomás hatására alakul ki elhalt tengeri szervezetek maradványaiból.",
+      "t": "földtan"
+    },
+    {
+      "q": "Melyik övezetben található a Föld vulkánjainak és földrengéseinek jelentős része?",
+      "a": [
+        "A Csendes-óceáni tűzgyűrűben",
+        "Az Atlanti-hátságon",
+        "A Himalája vonulatában",
+        "A Szahara övezetében"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Csendes-óceánt körülvevő lemezszegélyeken koncentrálódik a világ vulkánjainak és földrengéseinek nagy része, ezért hívják tűzgyűrűnek.",
+      "t": "vulkánok"
+    },
+    {
+      "q": "Ki publikálta 1935-ben a földrengések erősségét mérő magnitúdóskálát?",
+      "a": [
+        "Charles Richter",
+        "Friedrich Mohs",
+        "Alfred Wegener",
+        "James Hutton"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Charles Richter amerikai szeizmológus 1935-ben tette közzé a róla elnevezett magnitúdóskálát.",
+      "t": "földrengések"
+    },
+    {
+      "q": "Melyik évben fogalmazta meg Alfred Wegener a kontinensvándorlás elméletét?",
+      "a": [
+        "1912-ben",
+        "1935-ben",
+        "1960-ban",
+        "1885-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Wegener 1912-ben ismertette elméletét, miszerint a kontinensek egykor egyetlen szárazföldből váltak szét.",
+      "t": "földtan"
+    },
+    {
+      "q": "Miért mozognak a kontinensek a lemeztektonika elmélete szerint?",
+      "a": [
+        "A köpeny forró anyagának áramlása mozgatja a merev kőzetlemezeket",
+        "A Hold gravitációja húzza el őket helyükről",
+        "A Föld forgása centrifugális erővel taszítja szét őket",
+        "A tengerek vízszintje löki arrébb a szárazföldeket"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A földköpeny lassú, hőkonvekciós áramlásai mozgatják a felszíni kőzetlemezeket, ez okozza a kontinensek elmozdulását.",
+      "t": "földtan"
+    },
+    {
+      "q": "Mi történt a dinoszauruszokkal nagyjából 66 millió évvel ezelőtt a vezető elmélet szerint?",
+      "a": [
+        "Egy kisbolygó becsapódása vezetett a kihalásukhoz",
+        "Fokozatosan elfogyott a levegő oxigénje",
+        "Egy jégkorszak fagyasztotta meg őket egyetlen tél alatt",
+        "Egy vírusjárvány pusztította el az összes fajt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Chicxulub-becsapódás Mexikó partjainál olyan éghajlati változást indított el, ami a dinoszauruszok és sok más faj kihalásához vezetett.",
+      "t": "földtan"
+    },
+    {
+      "q": "Melyik a világ leghosszabb ismert barlangja, amely az USA-ban található?",
+      "a": [
+        "A Mammoth-barlang, Kentucky",
+        "A Carlsbad-barlang, Új-Mexikó",
+        "A Postojnai-barlang, Szlovénia",
+        "A Baradla-barlang, Magyarország"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kentuckyi Mammoth-barlangrendszer feltárt hossza meghaladja a 680 kilométert, ezzel a világ leghosszabb ismert barlangja.",
+      "t": "barlangok"
+    },
+    {
+      "q": "Melyik magyarországi barlangrendszer szerepel önálló természeti világörökségi helyszínként?",
+      "a": [
+        "A Baradla-barlang az Aggteleki-karszton",
+        "A Pál-völgyi-barlang Budapesten",
+        "A Szemlő-hegyi-barlang Budapesten",
+        "Az Anna-barlang Lillafüreden"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Aggteleki-karszt barlangjait, élükön a Baradlával, 1995-ben vették fel az UNESCO világörökségi listájára.",
+      "t": "barlangok"
+    },
+    {
+      "q": "Hogyan keletkeznek a mészkőbarlangok földtani szempontból?",
+      "a": [
+        "A szénsavas víz lassan feloldja a mészkövet, üregeket vájva benne",
+        "A folyók mechanikusan vájják ki a sziklát belülről",
+        "A vulkáni gázok robbanással hoznak létre üregeket",
+        "A jég olvadás közben mossa ki a kőzetet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A csapadékvíz a levegő szén-dioxidjától enyhén savassá válik, és évezredek alatt kioldja a mészkövet, üregeket, barlangokat hozva létre.",
+      "t": "barlangok"
+    },
+    {
+      "q": "Melyik a Föld legnagyobb kiterjedésű gleccsere, amely Antarktiszon található?",
+      "a": [
+        "A Lambert-gleccser",
+        "A Perito Moreno-gleccser",
+        "A Jakobshavn-gleccser",
+        "Az Aletsch-gleccser"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az antarktiszi Lambert-gleccser a Föld legnagyobb ismert gleccsere, több mint 400 km hosszú jégfolyam.",
+      "t": "gleccserek"
+    },
+    {
+      "q": "Mi jellemzi a permafrosztot, azaz az örökfagyot a sarkvidéki és tundrai talajokban?",
+      "a": [
+        "A talaj egy rétege legalább két éven át fagyott állapotban marad",
+        "A talaj felszíne egész évben hóval van borítva folyamatosan",
+        "A talajban gyakorlatilag egyáltalán nincs jelen semmi víz",
+        "A talaj kizárólag a legmagasabb hegycsúcsokon fordulhat elő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A permafroszt olyan talaj- vagy kőzetréteg, amely legalább két egymást követő évben állandóan fagyott állapotban marad.",
+      "t": "sarkvidék"
+    },
+    {
+      "q": "Miért veszélyes a sarkvidéki jég olvadása a globális éghajlatra nézve?",
+      "a": [
+        "Mert a jég helyett sötétebb víz vagy föld kevesebb napfényt ver vissza",
+        "Mert a jég olvadása önmagában lehűti a bolygót",
+        "Mert csökkenti a légkör oxigéntartalmát azonnal",
+        "Mert megváltoztatja a Föld forgástengelyének irányát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fehér jég sok napfényt visszaver, a helyébe lépő sötétebb felszín viszont több hőt nyel el, ez tovább gyorsítja a felmelegedést.",
+      "t": "sarkvidék"
+    },
+    {
+      "q": "Mi hozza létre a sarki fényt (auróra) az északi és déli sarkvidékeken?",
+      "a": [
+        "A napszél töltött részecskéi ütköznek a légkör gázatomjaival",
+        "A Hold fénye törik meg a jeges felhőkön",
+        "A sarki hideg maga bocsát ki látható fényt",
+        "A vulkáni tevékenység világítja meg az eget"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Nap által kibocsátott töltött részecskék a Föld mágneses terelésével a sarkokhoz áramlanak, és a légköri gázokkal ütközve fénylenek.",
+      "t": "sarkvidék"
+    },
+    {
+      "q": "Mit jelent a szimbiózis fogalma az ökológiában?",
+      "a": [
+        "Két különböző faj szoros, tartós együttélése",
+        "Egyetlen faj gyors elszaporodása egy élőhelyen",
+        "Egy faj teljes kipusztulása egy területről",
+        "Két faj közötti véletlen, egyszeri találkozás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szimbiózis olyan tartós kapcsolat két faj között, amely lehet mindkettőnek előnyös, vagy csak az egyiknek hasznos.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Melyik szervezetpáros a klasszikus példa a mindkét fél számára előnyös, mutualista együttélésre?",
+      "a": [
+        "A zuzmót alkotó gomba és alga",
+        "A galandféreg és gazdaszervezete",
+        "A kullancs és a szarvas",
+        "A gyomnövény és a termesztett növény"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A zuzmóban a gomba védelmet és vizet, az alga fotoszintézissel táplálékot ad, mindkettő profitál a kapcsolatból.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Miért tekinthető veszélyesnek egy ökoszisztémára az invazív faj megjelenése?",
+      "a": [
+        "Mert természetes ellenség nélkül kiszoríthatja a helyi fajokat",
+        "Mert minden esetben azonnal kipusztítja az egész élőhelyet",
+        "Mert kizárólag esztétikai problémát okoz a tájban",
+        "Mert csak városi környezetben tud megtelepedni"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az idegen fajnak gyakran nincs természetes ellensége az új élőhelyen, így korlátlanul elszaporodhat és kiszoríthatja az őshonos fajokat.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Mi a különbség a táplálékháló és a tápláléklánc fogalma között?",
+      "a": [
+        "A táplálékháló több összefonódó táplálékláncot foglal magába egyszerre",
+        "A táplálékháló csak vízi élőlényekre vonatkozik kizárólag",
+        "A tápláléklánc mindig hosszabb, mint egy táplálékháló",
+        "A kettő ugyanazt jelenti, csak más elnevezéssel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Egy táplálékháló a valóságban egymást keresztező táplálékláncok összessége, mivel a legtöbb faj több szinten is táplálkozik.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Milyen szerepet töltenek be a lebontó szervezetek, például a gombák és baktériumok, az anyagkörforgásban?",
+      "a": [
+        "Elpusztult szervezeteket bontanak le szervetlen anyagokra",
+        "Kizárólag a fotoszintézisben vesznek részt aktívan",
+        "Új fajok kialakulását idézik elő gyorsan",
+        "A ragadozók táplálékául szolgálnak elsősorban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A lebontók az elhalt növényi és állati anyagot bontják vissza szervetlen tápanyagokká, amit a növények újra felhasználhatnak.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Melyik biomra jellemző az alacsony, fátlan növényzet és a fagyott altalaj?",
+      "a": [
+        "A tundrára",
+        "A szavannára",
+        "Az esőerdőre",
+        "A sztyeppére"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tundra hideg, rövid nyarú biom, ahol a talaj mélyebb rétegei egész évben fagyottak maradnak, ez gátolja a fák növekedését.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Mi különbözteti meg a tajgát (boreális erdőt) a trópusi esőerdőtől?",
+      "a": [
+        "A tajga hideg övi, tűlevelű fákból áll, kevesebb fajjal",
+        "A tajga melegebb és fajgazdagabb, mint az esőerdő",
+        "A tajgában egyáltalán nincsenek fák, csak fű",
+        "A tajga kizárólag a déli féltekén található"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tajga a magas szélességi körök hideg, tűlevelű erdőövezete, sokkal kevesebb fajjal, mint a fajgazdag trópusi esőerdő.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Melyik élőhelytípusra jellemzőek a sós vízben is megélő, léggyökeres fák a trópusi partvidékeken?",
+      "a": [
+        "A mangroveerdőkre",
+        "A korallzátonyokra",
+        "A tundrákra",
+        "A szavannákra"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mangroveerdők sós, árapály által elöntött partvidékeken alakulnak ki, fáik léggyökerekkel alkalmazkodtak az oxigénhiányos talajhoz.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Mi jellemzi a szavanna élőhelyet Afrikában?",
+      "a": [
+        "Füves térség szórványos fákkal, száraz és esős évszakkal",
+        "Sűrű, egybefüggő trópusi esőerdő fedi teljesen",
+        "Kizárólag sivatagi homok borítja, növényzet nélkül",
+        "Örökké fagyott talajú, fátlan hideg vidék"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szavannára jellemző a füves aljnövényzet elszórt fákkal, valamint a kifejezett száraz és esős évszak váltakozása.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Melyik tényező korlátozza leginkább a fák növekedését a sivatagi élőhelyeken?",
+      "a": [
+        "A rendkívül alacsony és kiszámíthatatlan csapadékmennyiség",
+        "A talaj állandóan fagyott állapota",
+        "A napfény teljes hiánya a felszínen",
+        "A talaj túlzottan magas szervesanyag-tartalma"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sivatagokban a kevés és szabálytalanul hulló csapadék nem elég a legtöbb fa vízigényének fedezésére.",
+      "t": "élőhelyek"
+    },
+    {
+      "q": "Melyik volt Magyarország első, 1973-ban alapított nemzeti parkja?",
+      "a": [
+        "A Hortobágyi Nemzeti Park",
+        "A Bükki Nemzeti Park",
+        "A Kiskunsági Nemzeti Park",
+        "Az Aggteleki Nemzeti Park"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Hortobágyi Nemzeti Parkot 1973. január 1-jén hozták létre, ez Magyarország legelső nemzeti parkja.",
+      "t": "természetvédelem"
+    },
+    {
+      "q": "Mi a célja egy nemzeti park vagy természetvédelmi terület jogi kijelölésének?",
+      "a": [
+        "A természetes élővilág és tájkép hosszú távú megőrzése",
+        "Kizárólag a turizmus bevételeinek növelése",
+        "A mezőgazdasági termelés fokozása az adott területen",
+        "Az ipari beruházások gyorsabb engedélyezése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A védett terület elsődleges célja a természetes élőhelyek, fajok és tájértékek megőrzése az utókor számára.",
+      "t": "természetvédelem"
+    },
+    {
+      "q": "Miért fontos a biodiverzitás, azaz a fajgazdagság megőrzése egy ökoszisztémában?",
+      "a": [
+        "Mert a sokféleség növeli az ökoszisztéma ellenálló képességét",
+        "Mert minél kevesebb faj él együtt, annál stabilabb a rendszer",
+        "Mert a fajgazdagságnak nincs hatása a rendszer működésére",
+        "Mert csak esztétikai szempontból van jelentősége"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fajgazdag ökoszisztémák jobban tűrik a környezeti változásokat és zavarokat, mint az egyszerű, kevés fajból álló rendszerek.",
+      "t": "természetvédelem"
+    },
+    {
+      "q": "Melyik nemzetközi szervezet tart nyilván hivatalos, veszélyeztetettségi státusz szerinti fajlistát, a Vörös Listát?",
+      "a": [
+        "A Természetvédelmi Világszövetség (IUCN)",
+        "Az ENSZ Biztonsági Tanácsa",
+        "A Vöröskereszt Nemzetközi Bizottsága",
+        "A Meteorológiai Világszervezet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az IUCN Vörös Listája a világ legátfogóbb nyilvántartása a fajok kihalási kockázatáról.",
+      "t": "természetvédelem"
+    },
+    {
+      "q": "Hogyan szereznek tápanyagot a húsevő növények, például a Vénusz légycsapója, a szegényes talajok ellenére?",
+      "a": [
+        "Rovarokat és apró állatokat fognak be és emésztenek meg",
+        "Kizárólag a levegőből szűrik ki a nitrogént",
+        "Más növények gyökereiből szívják el a tápanyagot",
+        "Napfényből állítják elő a hiányzó ásványi anyagokat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A húsevő növények tápanyagszegény talajon élnek, ezért csapdáikkal rovarokat fognak, amelyek megemésztésével jutnak nitrogénhez.",
+      "t": "növények"
+    },
+    {
+      "q": "Melyik folyamat során vesznek fel a fák szén-dioxidot és bocsátanak ki oxigént?",
+      "a": [
+        "A fotoszintézis során",
+        "A légzés során",
+        "A párologtatás során",
+        "Az erjedés során"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fotoszintézis során a növények a napfény energiáját felhasználva szén-dioxidból és vízből szerves anyagot és oxigént állítanak elő.",
+      "t": "növények"
+    },
+    {
+      "q": "Miért fontos a talaj termékenysége szempontjából a humusz jelenléte?",
+      "a": [
+        "Mert tápanyagokat tárol és javítja a talaj vízmegtartó képességét",
+        "Mert kizárólag a talaj színét sötétíti el látványra",
+        "Mert megakadályozza teljesen a víz beszivárgását",
+        "Mert csökkenti a talajban élő szervezetek számát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A humusz elhalt szerves anyagokból képződik, tápanyagokat köt meg, és javítja a talaj szerkezetét, illetve víztartó képességét.",
+      "t": "talaj"
+    },
+    {
+      "q": "Mi a vízkörforgás (hidrológiai ciklus) folyamatának egyik fő lépése a párolgás után?",
+      "a": [
+        "A kondenzáció, azaz a vízgőz felhővé sűrűsödése",
+        "A fotoszintézis, a víz elbontása oxigénre",
+        "Az erózió, a kőzetek lassú lepusztulása",
+        "A kristályosodás, ásványok keletkezése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Párolgás után a vízgőz lehűlve kondenzálódik, felhőket alkotva, amelyekből később csapadék formájában hullik vissza a víz.",
+      "t": "vízkörforgás"
+    },
+    {
+      "q": "Melyik szigetet tartják a Föld legnagyobb szigetének, ha a kontinenseket nem számítjuk?",
+      "a": [
+        "Grönlandot",
+        "Madagaszkárt",
+        "Borneót",
+        "Új-Guineát"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Grönland területe meghaladja a 2,1 millió km²-t, ezzel messze a legnagyobb sziget, amelyet nem tekintenek önálló kontinensnek.",
+      "t": "földrajz"
+    },
+    {
+      "q": "Mit jelent az „endemikus faj” kifejezés a biológiában?",
+      "a": [
+        "Olyan fajt, amely csak egy adott, jól körülhatárolt területen fordul elő",
+        "Olyan fajt, amely szinte minden kontinensen szabadon megtalálható",
+        "Olyan fajt, amely az elmúlt évszázadban teljesen kihalt már",
+        "Olyan fajt, amelyet kizárólag ember tenyésztett ki mesterségesen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az endemikus faj kizárólag egy meghatározott, gyakran szűk földrajzi területen honos, máshol természetes állapotban nem fordul elő.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Hogyan nevezik a vulkánból a felszínre törő olvadt kőzetanyagot?",
+      "a": [
+        "Láva",
+        "Magma",
+        "Gránit",
+        "Bazalt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A földkéreg alatt magmának, a felszínre kerülve lávának nevezik az olvadt kőzetanyagot.",
+      "t": "vulkánok"
+    },
+    {
+      "q": "Melyik ország rendelkezik a legtöbb aktív vulkánnal a világon?",
+      "a": [
+        "Indonézia",
+        "Japán",
+        "Új-Zéland",
+        "Mexikó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Indonéziában közel 130 aktív vulkán található, ez a világ aktív vulkánjainak mintegy harmada.",
+      "t": "vulkánok"
+    },
+    {
+      "q": "Melyik izlandi vulkán 2010-es kitörése bénította meg hetekre Európa légi közlekedését?",
+      "a": [
+        "Eyjafjallajökull",
+        "Grímsvötn",
+        "Bárðarbunga",
+        "Öræfajökull"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Eyjafjallajökull 2010 áprilisi kitörése olyan finom vulkáni hamut bocsátott ki, amely veszélyeztette a repülőgép-hajtóműveket.",
+      "t": "vulkánok"
+    },
+    {
+      "q": "Mi a neve annak a tölcsér alakú mélyedésnek, amely egy vulkán csúcsán található?",
+      "a": [
+        "Kráter",
+        "Kaldera",
+        "Geyzír",
+        "Fumarola"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kráter a vulkán kitörési nyílása körül kialakuló tölcsér alakú mélyedés.",
+      "t": "vulkánok"
+    },
+    {
+      "q": "Melyik évben pusztította el Pompeji városát a Vezúv kitörése?",
+      "a": [
+        "Kr. u. 79",
+        "Kr. u. 129",
+        "Kr. e. 79",
+        "Kr. u. 200"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Vezúv Kr. u. 79-ben tört ki, hamu- és salaktakaró alá temetve Pompejit és Herculaneumot.",
+      "t": "vulkánok"
+    },
+    {
+      "q": "Milyen vulkántípusra jellemzőek a lapos, széles lejtők és a folyékony bazaltos lávafolyások, mint a hawaii vulkánoknál?",
+      "a": [
+        "Pajzsvulkán",
+        "Rétegvulkán",
+        "Kúpvulkán",
+        "Kaldera"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pajzsvulkánok lassan folyó, híg lávából épülnek fel, ezért alacsony, széles kiterjedésű formájuk van.",
+      "t": "vulkánok"
+    },
+    {
+      "q": "Milyen skálával fejezik ki leggyakrabban egy földrengés erősségét (magnitúdóját)?",
+      "a": [
+        "Richter-skála",
+        "Celsius-skála",
+        "Beaufort-skála",
+        "Mohs-skála"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Richter-skála a földrengések során felszabaduló energiát méri számszerű magnitúdóval.",
+      "t": "földrengések"
+    },
+    {
+      "q": "Mi okozza a legtöbb földrengést a lemeztektonika szerint?",
+      "a": [
+        "A tektonikus lemezek hirtelen elmozdulása a törésvonalak mentén",
+        "A vulkánkitörések által keltett légnyomás-hullámok terjedése",
+        "A Hold és a Nap együttes gravitációs húzóereje a kéregre",
+        "A talajvízszint szezonális ingadozása a mélyrétegekben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A földrengéseket a kéreglemezek határán felhalmozódó feszültség hirtelen kioldódása okozza.",
+      "t": "földrengések"
+    },
+    {
+      "q": "Melyik övezet a Csendes-óceánt körülvéve felelős a Föld földrengéseinek és vulkánkitöréseinek túlnyomó részéért?",
+      "a": [
+        "Csendes-óceáni tűzgyűrű",
+        "Atlanti-hasadékvölgy",
+        "Indiai-óceáni törészóna",
+        "Sarki törészóna a kéregben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Csendes-óceáni tűzgyűrű mentén futnak a legaktívabb lemezhatárok, itt zajlik a világ földrengéseinek és vulkánkitöréseinek nagy része.",
+      "t": "földrengések"
+    },
+    {
+      "q": "Milyen néven ismert a tenger alatti földrengés vagy hirtelen fenékelmozdulás keltette, partközelben óriásira növő hullám?",
+      "a": [
+        "Cunami",
+        "Dagály",
+        "Passzátszél",
+        "Anticiklon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cunamit tenger alatti földrengés vagy más hirtelen vízmozgás váltja ki, és a partközelben nő meg drámaian a magassága.",
+      "t": "földrengések"
+    },
+    {
+      "q": "Mi jellemzi a gleccsert mint jégalakzatot?",
+      "a": [
+        "Lassan lejtőn lefelé mozgó, tömör jégtömeg",
+        "Gyorsan olvadó, egyévnyi hótakaró a síkságokon",
+        "Tengeri jégtábla, amely sosem éri el a szárazföldet",
+        "Vulkáni eredetű, forró jégpáncél"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gleccser a saját súlya alatt lassan lefelé csúszó, felhalmozódott hó tömörödéséből álló jégtömeg.",
+      "t": "gleccserek"
+    },
+    {
+      "q": "Melyik kontinensen található a Föld legnagyobb kiterjedésű jégtakarója?",
+      "a": [
+        "Antarktisz",
+        "Grönland",
+        "Észak-Amerika",
+        "Dél-Amerika"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az antarktiszi jégtakaró a bolygó legnagyobb édesvízkészlete, a kontinens csaknem teljes felszínét borítja.",
+      "t": "gleccserek"
+    },
+    {
+      "q": "Mi a neve a gleccser által szállított és a jég olvadásakor lerakott kőzettörmeléknek?",
+      "a": [
+        "Moréna",
+        "Löszréteg",
+        "Zsomboly",
+        "Karsztmező"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A morénát a gleccser sodorja magával, majd a jég visszahúzódásakor vagy megolvadásakor rakja le a felszínen.",
+      "t": "gleccserek"
+    },
+    {
+      "q": "Mi történik, amikor egy nagy jégtömb leszakad egy tengerbe nyúló gleccser végéről?",
+      "a": [
+        "Jéghegy keletkezik belőle",
+        "Azonnal teljesen elpárolog",
+        "Gleccsertóvá alakul át helyben",
+        "Morénasánccá tömörödik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tengerbe nyúló gleccser végéről leváló jégtömbökből úszó jéghegyek keletkeznek.",
+      "t": "gleccserek"
+    },
+    {
+      "q": "Melyik folyó a leghosszabb Európában, és a Kaszpi-tengerbe torkollik?",
+      "a": [
+        "Volga",
+        "Duna",
+        "Dnyeper",
+        "Rajna"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Volga mintegy 3530 km hosszú, Oroszország területén folyik végig, és a Kaszpi-tengerbe ömlik.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik folyó Magyarország második legjelentősebb folyója a Duna után?",
+      "a": [
+        "Tisza",
+        "Dráva",
+        "Rába",
+        "Körös"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Tisza az ország második legjelentősebb folyója, amely Ukrajnából és Romániából érkezve szeli át az Alföldet.",
+      "t": "folyók"
+    },
+    {
+      "q": "Mit nevezünk egy folyó torkolatánál kialakuló, gyakran háromszög alakú, hordalékból felépülő síkságnak?",
+      "a": [
+        "Delta",
+        "Fjord",
+        "Kanyon",
+        "Meander"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A folyó a torkolatnál lelassul, és az addig szállított hordalékot lerakja, ez hozza létre a deltát.",
+      "t": "folyók"
+    },
+    {
+      "q": "Miért kanyarog jellemzően sokkal erősebben egy folyó alsó, síkvidéki szakasza, mint a hegyvidéki felső szakasz?",
+      "a": [
+        "Mert kis esésű, lassú vízben az oldalirányú eróziónak jut nagyobb szerep",
+        "Mert a hegyvidéki víz sótartalma gátolja a kanyarulatok kialakulását",
+        "Mert az alsó szakaszon a víz hőmérséklete jelentősen magasabb",
+        "Mert ott a folyó medre kizárólag kemény kőzetekből épül fel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A sík vidéken lelassuló víz oldalirányban erodálja a partokat, ez alakítja ki a folyó kanyarulatait (mendereit).",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik folyószakaszra jellemző a legnagyobb esés és a legerősebb sodrás, ahol a mélyítő erózió dominál?",
+      "a": [
+        "Hegyvidéki, forrásközeli szakasz",
+        "Torkolati, tengerparti szakasz",
+        "Alsó, lassan folyó síkvidéki szakasz",
+        "Deltaági, elágazó szakasz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A folyó felső szakasza rendelkezik a legnagyobb eséssel és legerősebb sodrással, itt a mélyítő erózió dominál.",
+      "t": "folyók"
+    },
+    {
+      "q": "Nagyjából mekkora hányadát borítják óceánok és tengerek a Föld felszínének?",
+      "a": [
+        "Kb. 71%",
+        "Kb. 50%",
+        "Kb. 85%",
+        "Kb. 60%"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az óceánok és tengerek a Föld felszínének mintegy 71%-át borítják.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Hogyan nevezik a Mariana-árok legmélyebb, mintegy 10 900 méter mély pontját?",
+      "a": [
+        "Challenger-mélyedés",
+        "Puerto Rico-mélyedés",
+        "Tonga-mélyedés",
+        "Kermadec-mélyedés"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Challenger-mélyedés a Mariana-árokban található, és a Föld ismert legmélyebb pontja az óceánfenéken.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Mi hajtja elsősorban a nagy óceáni áramlatokat, mint például a Golf-áramlatot?",
+      "a": [
+        "A szél, valamint a víz hőmérséklet- és sótartalom-különbségei",
+        "A Hold és a Nap váltakozó gravitációs vonzása",
+        "A tengerfenéki vulkáni tevékenység hője",
+        "A kontinensek lassú elmozdulása egymáshoz képest"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az óceáni áramlatokat a felszíni szelek, illetve a víz eltérő hőmérséklete és sűrűsége (termohalin keringés) hajtja.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Melyik óceán foglalja el a Föld felszínének legnagyobb részét?",
+      "a": [
+        "Csendes-óceán",
+        "Atlanti-óceán",
+        "Indiai-óceán",
+        "Jeges-tenger"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Csendes-óceán a legnagyobb kiterjedésű óceán, egymagában nagyobb, mint az összes szárazföld együttvéve.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Miért nem él meg szinte semmilyen hal a Holt-tengerben?",
+      "a": [
+        "Mert a víz sótartalma a tengervízének nagyságrendekkel magasabb",
+        "Mert a víz hőmérséklete állandóan fagypont körüli",
+        "Mert teljesen mentes az oldott ásványi anyagoktól",
+        "Mert a medencéjében erős radioaktív sugárzás mérhető"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Holt-tenger sótartalma rendkívül magas, jóval meghaladja a tengervízét, ez teszi élettelenné a legtöbb élőlény számára.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Melyik sivatag borítja Észak-Afrika nagy részét, és a legnagyobb forró sivatag a Földön?",
+      "a": [
+        "Szahara",
+        "Namib",
+        "Kalahári",
+        "Atacama"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Szahara Észak-Afrika nagy részét beborító, közel 9 millió négyzetkilométeres forró sivatag, a legnagyobb a maga típusában.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Milyen éves csapadékmennyiség alatt sorolható egy terület általában sivatagi éghajlatúnak?",
+      "a": [
+        "Kb. 250 milliméter",
+        "Kb. 1000 milliméter",
+        "Kb. 600 milliméter",
+        "Kb. 100 centiméter"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sivatagi éghajlat általános meghatározása szerint az évi csapadékösszeg jellemzően 250 mm alatt marad.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Melyik dél-amerikai sivatag számít a Föld egyik legszárazabb helyének, ahol egyes állomásokon évtizedekig nem mértek csapadékot?",
+      "a": [
+        "Atacama-sivatag",
+        "Patagóniai-sivatag",
+        "Sechura-sivatag",
+        "Monte-sivatag"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Chilében fekvő Atacama-sivatag egyes részein évtizedekig sem regisztráltak mérhető csapadékot, ez az egyik legszárazabb hely a Földön.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Mi a neve a sivatagi tájakon kialakuló, csak esőzés után rövid ideig vízzel telt folyómedernek?",
+      "a": [
+        "Vádi",
+        "Fjord",
+        "Delta",
+        "Kanyon"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vádi olyan időszakos folyómeder sivatagi vidéken, amely csak heves esőzések után telik meg vízzel.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Milyen kőzet oldódása hozza létre a legtöbb barlangot a Földön?",
+      "a": [
+        "Mészkő",
+        "Gránit",
+        "Bazalt",
+        "Homokkő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mészkövet a víz szén-dioxiddal dúsulva lassan oldja, ez a folyamat (karsztosodás) alakítja ki a legtöbb barlangot.",
+      "t": "barlangok"
+    },
+    {
+      "q": "Milyen elnevezéssel illetik a barlang mennyezetéről lefelé növő, csapadékvízből kicsapódó mészkő-képződményt?",
+      "a": [
+        "Cseppkő (sztalaktit)",
+        "Cseppkő (sztalagmit)",
+        "Karsztos víznyelő mező",
+        "Barlangi zsomboly-akna"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mennyezetről lelógó cseppkövet sztalaktitnak, a padlóból felfelé növőt sztalagmitnak nevezik.",
+      "t": "barlangok"
+    },
+    {
+      "q": "Melyik amerikai barlangrendszer a Föld ismert leghosszabb, feltárt barlangja, több mint 600 km felmért járattal?",
+      "a": [
+        "Mammut-barlang (Kentucky)",
+        "Carlsbad-barlangok (Új-Mexikó)",
+        "Waitomo-barlangok (Új-Zéland)",
+        "Postojnai-barlang (Szlovénia)"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Kentucky állambeli Mammut-barlangrendszert eddig több mint 600 kilométer hosszan térképezték fel, ezzel a világ leghosszabb ismert barlangja.",
+      "t": "barlangok"
+    },
+    {
+      "q": "Melyik magyarországi barlang a leghosszabb, és az Aggteleki Nemzeti Park világörökségi része?",
+      "a": [
+        "Baradla-barlang",
+        "Pál-völgyi-barlang",
+        "Szemlő-hegyi-barlang",
+        "Abaligeti-barlang"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Baradla-barlang az Aggteleki-karszt legismertebb, több mint 25 km hosszú barlangrendszere, világörökségi helyszín.",
+      "t": "barlangok"
+    },
+    {
+      "q": "Milyen típusú kőzet a gránit, keletkezése alapján?",
+      "a": [
+        "Magmás kőzet",
+        "Üledékes kőzet",
+        "Metamorf kőzet",
+        "Vulkáni üveg"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gránit a földkéreg mélyén, lassan lehűlő magmából kristályosodik ki, ezért magmás kőzet.",
+      "t": "kőzetek"
+    },
+    {
+      "q": "Mi a márvány kiindulási kőzete, mielőtt hő és nyomás hatására átalakult volna?",
+      "a": [
+        "Mészkő",
+        "Homokkő",
+        "Bazalt",
+        "Gránit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A márvány a mészkő átalakulásával (metamorfózisával) jön létre magas hőmérséklet és nyomás hatására.",
+      "t": "kőzetek"
+    },
+    {
+      "q": "Hogyan nevezzük azt a kőzetet, amely egy már meglévő kőzetből hő és nyomás hatására, megolvadás nélkül alakul át?",
+      "a": [
+        "Metamorf kőzet",
+        "Üledékes kőzet",
+        "Magmás kőzet",
+        "Vulkáni tufa"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A metamorf kőzetek egy korábbi kőzet szilárd állapotú átalakulásával, magas hőmérséklet és nyomás hatására keletkeznek.",
+      "t": "kőzetek"
+    },
+    {
+      "q": "Melyik ásvány a közönséges konyhasó fő alkotórésze, kémiai nevén nátrium-klorid?",
+      "a": [
+        "Halit",
+        "Gipsz",
+        "Kvarc",
+        "Kalcit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A halit a nátrium-klorid ásványtani neve, ez adja a kősó és a konyhasó fő anyagát.",
+      "t": "ásványok"
+    },
+    {
+      "q": "Milyen módon jönnek létre az üledékes kőzetek, mint például a homokkő vagy a mészkő?",
+      "a": [
+        "Törmelék vagy oldott anyagok fokozatos lerakódásával és összecementálódásával",
+        "Magma gyors lehűlésével közvetlenül a felszínen",
+        "Már meglévő kőzetek megolvadásával és újrakristályosodásával",
+        "Vulkáni hamu azonnali megszilárdulásával a levegőben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az üledékes kőzetek apró szemcsék, törmelék vagy oldott ásványi anyagok lerakódásából és tömörödéséből alakulnak ki hosszú idő alatt.",
+      "t": "kőzetek"
+    },
+    {
+      "q": "Melyik ásvány jellegzetessége, hogy híg sósavval érintkezve pezsegve szén-dioxidot fejleszt, ezt használják terepen az azonosítására?",
+      "a": [
+        "Kalcit",
+        "Kvarc",
+        "Földpát",
+        "Csillám"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kalcit jellegzetes tulajdonsága, hogy híg sósavval érintkezve pezsegve szén-dioxidot fejleszt, ez segít azonosítani terepen.",
+      "t": "ásványok"
+    },
+    {
+      "q": "Melyik sarki régió a jegesmedvék egyetlen természetes élőhelye a vadonban?",
+      "a": [
+        "Az Északi-sarkvidék (Arktisz)",
+        "Kizárólag az Antarktisz",
+        "Mindkét sarkvidék egyaránt",
+        "Egyik sarkvidék sem igazán"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jegesmedvék kizárólag az északi félteke sarkvidékén, az Arktiszban élnek a vadonban, az Antarktiszon nem fordulnak elő.",
+      "t": "sarkvidék"
+    },
+    {
+      "q": "Mi terül el ténylegesen az Északi-sark alatt?",
+      "a": [
+        "Befagyott óceán (tengeri jég)",
+        "Egy önálló kis kontinens",
+        "Vulkanikus szigetvilág",
+        "Sík, jégmentes szárazföld"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Északi-sarkot nem szárazföld, hanem a Jeges-tenger vastag, úszó jégtakarója borítja, ellentétben a szárazföldi Antarktisszal.",
+      "t": "sarkvidék"
+    },
+    {
+      "q": "Mi a neve annak a fénytüneménynek, amely a sarkvidékek éjszakai egén színes fényként jelenik meg?",
+      "a": [
+        "Sarki fény (aurora)",
+        "Delejes vihar",
+        "Ózonlyuk-fény",
+        "Halojelenség"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sarki fényt (auróra) a napszélből érkező töltött részecskék és a légkör gázmolekuláinak találkozása hozza létre a mágneses sarkok közelében.",
+      "t": "sarkvidék"
+    },
+    {
+      "q": "Miért hiányoznak a szárazföldi ragadozó emlősök az Antarktiszról, szemben az Északi-sarkvidékkel?",
+      "a": [
+        "Mert a kontinens földrajzilag elszigetelt, és nincs elég szárazföldi táplálékforrás",
+        "Mert ott törvény tiltja a ragadozók betelepítését",
+        "Mert az Antarktisz éghajlata melegebb, mint az Arktiszé",
+        "Mert a talaj összetétele mérgező minden emlősre"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Antarktisz a többi kontinenstől elszigetelt, szárazföldi tápláléklánca nem képes eltartani nagytestű ragadozó emlősöket.",
+      "t": "sarkvidék"
+    },
+    {
+      "q": "Mi a neve a termőtalaj legfelső, legtöbb tápanyagot tartalmazó rétegének?",
+      "a": [
+        "Humusz",
+        "Altalaj",
+        "Alapkőzet",
+        "Löszréteg"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A humusz az elhalt növényi és állati maradványok elbomlásából keletkező, tápanyagban gazdag felső talajréteg.",
+      "t": "talaj"
+    },
+    {
+      "q": "Mi a talajerózió két leggyakoribb természetes okozója?",
+      "a": [
+        "A szél és a csapadékvíz lehordó hatása",
+        "A földrengések és a vulkánkitörések",
+        "A talajvíz emelkedése és süllyedése",
+        "A hőmérséklet napi ingadozása"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A talajeróziót elsősorban a szél és a lezúduló csapadékvíz mozgatja meg és hordja el a felső termőréteget.",
+      "t": "talaj"
+    },
+    {
+      "q": "Hogyan hívjuk azt a folyamatot, amikor a víz hő hatására gőz alakban a légkörbe jut a felszínről?",
+      "a": [
+        "Párolgás",
+        "Csapadékhullás",
+        "Lecsapódás",
+        "Beszivárgás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A párolgás során a felszíni vizek hő hatására gáz halmazállapotúvá válva a légkörbe kerülnek, ez a vízkörforgás első lépése.",
+      "t": "vízkörforgás"
+    },
+    {
+      "q": "Mi történik a vízkörforgásban a párolgást követően, mielőtt a víz csapadék formájában visszahullana a felszínre?",
+      "a": [
+        "A vízgőz lehűl és felhőkké kondenzálódik",
+        "A vízgőz azonnal talajvízzé alakul",
+        "A vízgőz sótalanítva folyóvízzé válik",
+        "A vízgőz megfagy és jégtakarót képez a légkörben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magasba emelkedő vízgőz lehűlve apró cseppekké kondenzálódik, ezekből épülnek fel a felhők.",
+      "t": "vízkörforgás"
+    },
+    {
+      "q": "Mi okozza a szivárvány színeinek kialakulását?",
+      "a": [
+        "A napfény törése és visszaverődése a levegőben lévő vízcseppeken",
+        "A légkör magas ózontartalma",
+        "A felhőkben felhalmozódó elektromos töltés",
+        "A napfény ütközése jégkristályokkal a sztratoszférában"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szivárvány a napsugarak vízcseppeken belüli törése, visszaverődése és színekre bontása révén jön létre.",
+      "t": "légkör"
+    },
+    {
+      "q": "Milyen néven ismerik a trópusi ciklonokat az Atlanti-óceán és a Karib-térség vidékén?",
+      "a": [
+        "Hurrikán",
+        "Tájfun",
+        "Willy-willy",
+        "Monszun"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ugyanazt az időjárási jelenséget az Atlanti-óceán térségében hurrikánnak, Kelet-Ázsiában tájfunnak nevezik.",
+      "t": "légkör"
+    },
+    {
+      "q": "Melyik légköri réteg tartalmazza az élővilágot védő ózonréteg nagy részét?",
+      "a": [
+        "Sztratoszféra",
+        "Troposzféra",
+        "Mezoszféra",
+        "Termoszféra"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ózonréteg túlnyomó része a troposzféra fölötti sztratoszférában helyezkedik el, kb. 15-35 km magasságban.",
+      "t": "légkör"
+    },
+    {
+      "q": "Mit jelent meteorológiai értelemben a harmatpont fogalma?",
+      "a": [
+        "Az a hőmérséklet, amelyen a levegő páratartalma telítetté válik és vízgőz kicsapódik",
+        "A tengerszint feletti magasság, ahol a hőmérséklet 0 fokra csökken",
+        "A légnyomás azon értéke, amelynél csapadék biztosan kialakul",
+        "A szélsebesség azon határa, amely felett viharnak minősül az időjárás"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A harmatpont az a hőmérséklet, amelyre lehűlve a levegőben lévő vízgőz eléri a telítettséget és cseppekké kezd kicsapódni.",
+      "t": "légkör"
+    },
+    {
+      "q": "Mi a neve annak a jelenségnek, amikor egy hideg és egy meleg légtömeg határvonala mentén jellemzően csapadékos idő alakul ki?",
+      "a": [
+        "Időjárási front",
+        "Anticiklon",
+        "Szélnyírás",
+        "Inverziós réteg"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az időjárási front két eltérő hőmérsékletű és páratartalmú légtömeg határvonala, mentén jellemzően csapadékos idő alakul ki.",
+      "t": "légkör"
+    },
+    {
+      "q": "Milyen halmazállapotú csapadék a jégeső?",
+      "a": [
+        "Szilárd, jégszemcsékből álló csapadék",
+        "Folyékony, hideg esőcseppek",
+        "Vízgőzből álló köd a talaj közelében",
+        "Fagyott harmat a növényzeten"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jégeső zivatarfelhőkben kialakuló, szilárd jégszemcsékből álló csapadékfajta.",
+      "t": "légkör"
+    },
+    {
+      "q": "Mi a tornádó?",
+      "a": [
+        "Zivatarfelhőből lenyúló, gyorsan forgó, erőteljes légoszlop",
+        "Trópusi eredetű, több napig tartó esőzéssel járó ciklon",
+        "Tengerfenéki földrengés által keltett óriáshullám",
+        "Sivatagi homokviharok által keltett forgószél kizárólag száraz éghajlaton"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tornádó egy zivatarfelhőből a talajig lenyúló, rendkívül erős, forgó légoszlop.",
+      "t": "természeti jelenségek"
+    },
+    {
+      "q": "Mi a lavina?",
+      "a": [
+        "Hó vagy jég hirtelen lezúdulása egy hegyoldalon",
+        "Folyó áradása heves esőzés után",
+        "Tengerparti szökőár egy föld alatti robbanás után",
+        "Sivatagi homokdűnék lassú vándorlása"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A lavina a hegyoldalon felhalmozódott hótömeg hirtelen, nagy sebességű lecsúszása vagy zuhanása.",
+      "t": "természeti jelenségek"
+    },
+    {
+      "q": "Mi váltja ki leggyakrabban a folyók áradását?",
+      "a": [
+        "Tartós, heves esőzés vagy gyors hóolvadás a vízgyűjtő területen",
+        "A tengerek dagályhulláma, amely visszanyomja a folyók vizét",
+        "A talajvízszint hirtelen csökkenése a mederben",
+        "A folyó medrében önmagában lezajló földcsuszamlás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A folyók áradását jellemzően a vízgyűjtő területre hulló nagy mennyiségű csapadék vagy a hirtelen hóolvadás okozza.",
+      "t": "természeti jelenségek"
+    },
+    {
+      "q": "Mi a neve annak a jelenségnek, amikor forró, száraz szél zúdul le hirtelen a hegyek szélárnyékos lejtőjén, gyors felmelegedést okozva?",
+      "a": [
+        "Főn-szél",
+        "Passzátszél",
+        "Monszun",
+        "Sirokkó"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A főn egy száraz, meleg, lejtőn lezúduló szél, amely a hegyek szélárnyékos oldalán jelentkezik és gyors felmelegedést okoz.",
+      "t": "természeti jelenségek"
+    },
+    {
+      "q": "Hogyan nevezik azt az optikai jelenséget, amely forró úttesteken vagy sivatagokban vizet imitáló csillogást kelt?",
+      "a": [
+        "Délibáb (fata morgana)",
+        "Sarki fény jelensége",
+        "Halojelenség a felhőkben",
+        "Zöld sugár naplementekor"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A délibáb a levegő eltérő hőmérsékletű rétegein megtörő fény által keltett optikai csalódás, amely gyakran víztükröt imitál.",
+      "t": "természeti jelenségek"
+    },
+    {
+      "q": "A Bajkál-tó a Föld legmélyebb tava – hozzávetőleg hány méter a legnagyobb mélysége?",
+      "a": [
+        "Kb. 1600 méter",
+        "Kb. 800 méter",
+        "Kb. 2500 méter",
+        "Kb. 400 méter"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Bajkál-tó maximális mélysége mintegy 1642 méter, ezzel a Föld legmélyebb tava.",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik tó Közép-Európa legnagyobb kiterjedésű tava, mintegy 600 négyzetkilométerrel?",
+      "a": [
+        "Balaton",
+        "Fertő-tó",
+        "Bodeni-tó",
+        "Genfi-tó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Balaton felszíne mintegy 600 négyzetkilométer, ezzel Közép-Európa legnagyobb tava.",
+      "t": "tavak"
+    },
+    {
+      "q": "Milyen vizű a Balaton, ha a kémhatását és sótartalmát nézzük?",
+      "a": [
+        "Enyhén lúgos kémhatású édesvíz",
+        "Erősen sós, tengeri jellegű víz",
+        "Savas kémhatású mocsárvíz",
+        "Ásványi anyagoktól teljesen mentes desztillált víz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Balaton vize édesvíz, enyhén lúgos kémhatású, ami a mésztartalmú környező kőzeteknek köszönhető.",
+      "t": "tavak"
+    },
+    {
+      "q": "Mi a neve annak a tónak, amely egy kihunyt vulkán kráterében vagy kalderájában gyűlik össze?",
+      "a": [
+        "Kalderató",
+        "Morénató",
+        "Holtág",
+        "Fjordtó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kráter- vagy kaldera-tavak kihunyt vulkánok mélyedésében gyűlnek össze, jellemzően csapadékvízből.",
+      "t": "tavak"
+    },
+    {
+      "q": "Mi a lemeztektonika elmélet lényege?",
+      "a": [
+        "A földkéreg merev lemezekre tagolódik, amelyek folyamatosan, lassan mozognak",
+        "A Föld belseje egyetlen, mozdulatlan szilárd kőzetgömb",
+        "A kontinensek súlyuk miatt évente süllyednek a tengerszint alá",
+        "A földkéreg kizárólag függőleges irányban mozog, oldalirányban soha"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A lemeztektonika szerint a földkéreg nagy, merev lemezekre tagolódik, amelyek a köpeny áramlásai miatt lassan elmozdulnak egymáshoz képest.",
+      "t": "földtan"
+    },
+    {
+      "q": "Mi történik a szubdukciós zónákban a lemeztektonika során?",
+      "a": [
+        "Az egyik kőzetlemez a másik alá bukik és a köpenybe süllyed",
+        "Két lemez folyamatosan távolodik egymástól, új óceáni kéreg keletkezik köztük",
+        "A lemezek egymás mellett vízszintesen csúsznak el, süllyedés nélkül",
+        "A kőzetlemezek végleg összeforrnak és megszűnik a határvonaluk"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szubdukció során az egyik, jellemzően óceáni lemez a másik lemez alá bukik és a földköpenybe hatol.",
+      "t": "földtan"
+    },
+    {
+      "q": "Melyik hegységlánc jött létre India és Ázsia kőzetlemezének ütközése révén?",
+      "a": [
+        "Himalája",
+        "Alpok-hegység",
+        "Andok-hegység",
+        "Kordillerák"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Himalája az indiai és az eurázsiai kőzetlemez lassú, folyamatos ütközése során, a kéreg összegyűrődésével emelkedett ki.",
+      "t": "földtan"
     }
   ]
 }

@@ -729,6 +729,916 @@
       "d": "hard",
       "e": "A Tóték a groteszk hatalomkritika klasszikus magyar drámája.",
       "t": "Örkény"
+    },
+    {
+      "q": "Melyik korszakhoz köthető Balassi Bálint, a magyar szerelmi líra egyik megteremtője?",
+      "a": [
+        "reneszánsz",
+        "barokk",
+        "felvilágosodás",
+        "romantika"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Balassi a 16. századi magyar reneszánsz legjelentősebb lírikusa volt.",
+      "t": "Balassi Bálint"
+    },
+    {
+      "q": "Hogyan vesztette életét Balassi Bálint 1594-ben?",
+      "a": [
+        "Esztergom ostrománál szerzett sebesülésben halt meg",
+        "Párbajban esett el",
+        "Fogságban végezték ki",
+        "Hajótörésben vesztette életét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Balassi 1594-ben Esztergom visszafoglalásakor megsebesült, és a sérüléseibe belehalt.",
+      "t": "Balassi Bálint"
+    },
+    {
+      "q": "Melyik városhoz kötődik szorosan Csokonai Vitéz Mihály élete és halála?",
+      "a": [
+        "Debrecen",
+        "Eger",
+        "Kolozsvár",
+        "Pécs"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Csokonai Debrecenben született 1773-ban, és ott is halt meg 1805-ben.",
+      "t": "Csokonai Vitéz Mihály"
+    },
+    {
+      "q": "Kihez írta Csokonai Vitéz Mihály legismertebb szerelmes versciklusát, a Lilla-dalokat?",
+      "a": [
+        "Vajda Juliannához",
+        "Szendrey Júliához",
+        "Jókai Rózához",
+        "Prielle Kornéliához"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Csokonai a Lilla néven megénekelt Vajda Juliannának írta verseit, akivel végül nem házasodhatott össze.",
+      "t": "Csokonai Vitéz Mihály"
+    },
+    {
+      "q": "Milyen verselési stílus legnagyobb magyar mestereként tartják számon Berzsenyi Dánielt?",
+      "a": [
+        "az antik mértékes (ódai) klasszicista verselés",
+        "a szimbolista szabadvers",
+        "a népdalszerű helyzetdal",
+        "a szonett műfaja"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Berzsenyi az antik mértékes ódaköltészet legjelentősebb magyar mestere volt.",
+      "t": "Berzsenyi Dániel"
+    },
+    {
+      "q": "Melyik 1566-os várostromot dolgozza fel Zrínyi Miklós Szigeti veszedelem című eposza?",
+      "a": [
+        "Szigetvár ostromát",
+        "Eger ostromát",
+        "Buda visszavételét",
+        "Nándorfehérvár ostromát"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hőseposz a szerző dédapjának, Zrínyi Miklósnak 1566-os szigetvári hőshalálát örökíti meg.",
+      "t": "Zrínyi Miklós"
+    },
+    {
+      "q": "Milyen szokatlan körülmények között halt meg Zrínyi Miklós hadvezér és költő 1664-ben?",
+      "a": [
+        "Vadászaton egy megsebzett vadkan végzett vele",
+        "Csatában esett el",
+        "Mérgezés áldozata lett",
+        "Párbajban vesztette életét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Zrínyit 1664-ben a csáktornyai erdőben vadászat közben egy sebzett vadkan ölte meg.",
+      "t": "Zrínyi Miklós"
+    },
+    {
+      "q": "Melyik évben írta meg Kölcsey Ferenc a Himnusz szövegét?",
+      "a": [
+        "1823",
+        "1848",
+        "1867",
+        "1790"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kölcsey 1823. január 22-én fejezte be a Himnusz kéziratát Szatmárcsekén.",
+      "t": "Kölcsey Ferenc"
+    },
+    {
+      "q": "Milyen műfajba sorolható Vörösmarty Mihály Csongor és Tünde című alkotása?",
+      "a": [
+        "tündérmesei elemekkel átszőtt drámai költemény",
+        "történelmi tragédia",
+        "verses regény",
+        "szatirikus eposz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Csongor és Tünde tündérmesei elemekkel átszőtt drámai költemény.",
+      "t": "Vörösmarty Mihály"
+    },
+    {
+      "q": "Melyik Vörösmarty-műben szerepel az „Ez a föld, melyen annyiszor apáid vére folyt” sor?",
+      "a": [
+        "Szózat",
+        "Himnusz",
+        "Szép Ilonka",
+        "A vén cigány"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A sor a Szózat egyik legismertebb szakaszából származik.",
+      "t": "Vörösmarty Mihály"
+    },
+    {
+      "q": "Melyik évben esett el Petőfi Sándor a segesvári csatában?",
+      "a": [
+        "1849",
+        "1848",
+        "1867",
+        "1850"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Petőfi 1849. július 31-én tűnt el a segesvári csatában.",
+      "t": "Petőfi Sándor"
+    },
+    {
+      "q": "Hány nap alatt írta meg Petőfi Sándor a hagyomány szerint a János vitéz című elbeszélő költeményt?",
+      "a": [
+        "Hat nap alatt",
+        "Egy hónap alatt",
+        "Fél év alatt",
+        "Egy év alatt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hagyomány szerint Petőfi mindössze hat nap alatt írta meg a művet 1844-ben.",
+      "t": "Petőfi Sándor"
+    },
+    {
+      "q": "Melyik Arany-mű megírása tartott a leghosszabb ideig, összesen mintegy tizenhat évig?",
+      "a": [
+        "Toldi szerelme",
+        "Toldi",
+        "Toldi estéje",
+        "A walesi bárdok"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Toldi-trilógia középső részének, a Toldi szerelmének megírása évekig, mintegy tizenhat évig húzódott.",
+      "t": "Arany János"
+    },
+    {
+      "q": "Mi volt a megírás sorrendje Arany János Toldi-trilógiájának?",
+      "a": [
+        "Toldi, Toldi estéje, Toldi szerelme",
+        "Toldi, Toldi szerelme, Toldi estéje",
+        "Toldi estéje, Toldi, Toldi szerelme",
+        "Toldi szerelme, Toldi, Toldi estéje"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Arany először a Toldit írta meg, majd a Toldi estéjét, végül évekkel később a Toldi szerelmét fejezte be.",
+      "t": "Arany János"
+    },
+    {
+      "q": "Hány színből (jelenetből) áll Madách Imre Az ember tragédiája című drámai költeménye?",
+      "a": [
+        "Tizenöt",
+        "Tíz",
+        "Húsz",
+        "Öt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mű tizenöt színre tagolódik, a mennyei prológustól a záró jelenetig.",
+      "t": "Madách Imre"
+    },
+    {
+      "q": "Melyik városban mutatták be először, 1833-ban, Katona József Bánk bán című drámáját?",
+      "a": [
+        "Kassán",
+        "Pesten",
+        "Kolozsváron",
+        "Debrecenben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A dráma ősbemutatójára 1833. február 15-én Kassán került sor.",
+      "t": "Katona József"
+    },
+    {
+      "q": "Hogyan nevezik Jókai Mór Az arany ember című regényében Tímár Mihály és Noémi rejtekhelyét, a titkos Duna-szigetet?",
+      "a": [
+        "Senki szigete",
+        "Arany-sziget",
+        "Tündérsziget",
+        "Elysium"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A regényben azt a Duna-szigetet, ahol Tímár Mihály és Noémi új életet kezdenek, Senki szigetének nevezik.",
+      "t": "Jókai Mór"
+    },
+    {
+      "q": "Mi köti össze A kőszívű ember fiai főszereplőit, a Baradlay testvéreket?",
+      "a": [
+        "Mindhárman az 1848–49-es szabadságharc idején más-más oldalon vagy szerepben állnak helyt",
+        "Mindannyian orvosok lesznek",
+        "Egy külföldi kalandban vesznek részt",
+        "Közösen alapítanak bankot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A regény a szabadságharc idején mutatja be a három Baradlay testvér eltérő sorsát és helytállását.",
+      "t": "Jókai Mór"
+    },
+    {
+      "q": "Milyen tárgy titka köré épül Mikszáth Kálmán Szent Péter esernyője című regényének cselekménye?",
+      "a": [
+        "Egy titokzatos piros esernyő köré",
+        "Egy elveszett gyűrű köré",
+        "Egy régi családi kastély köré",
+        "Egy örökölt malom köré"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A regény cselekménye egy különös piros esernyő és az ahhoz fűződő családi titok köré szerveződik.",
+      "t": "Mikszáth Kálmán"
+    },
+    {
+      "q": "Milyen valós újsághír ihlette Mikszáth Kálmán A Noszty fiú esete Tóth Marival című regényét?",
+      "a": [
+        "Egy vagyonos polgárlány és egy elszegényedett nemesi hozományvadász története",
+        "Egy híres párbaj leírása",
+        "Egy vasúti szerencsétlenség híre",
+        "Egy politikai botrány"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mikszáthot egy hírlapi tudósítás ihlette meg egy hozományvadász nemesifjú és egy gazdag polgárlány esetéről.",
+      "t": "Mikszáth Kálmán"
+    },
+    {
+      "q": "Melyik történelmi eseményt dolgozza fel Gárdonyi Géza Egri csillagok című regénye?",
+      "a": [
+        "Eger 1552-es török ostromát",
+        "Buda 1541-es elfoglalását",
+        "A mohácsi csatát 1526-ban",
+        "Szigetvár 1566-os ostromát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A regény Eger várának 1552-es sikeres védelmét meséli el Dobó István vezetésével.",
+      "t": "Gárdonyi Géza"
+    },
+    {
+      "q": "Melyik Móricz-regény főhőse a szegény sorsú diák, Nyilas Misi?",
+      "a": [
+        "Légy jó mindhalálig",
+        "Rokonok",
+        "Úri muri",
+        "Az Isten háta mögött"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Nyilas Misi a Légy jó mindhalálig című, 1920-ban megjelent regény főszereplője.",
+      "t": "Móricz Zsigmond"
+    },
+    {
+      "q": "Melyik irodalmi irányzathoz sorolható leginkább Móricz Zsigmond prózája?",
+      "a": [
+        "a századforduló utáni realizmus, a parasztság sorsát ábrázoló irodalom",
+        "a szimbolizmus",
+        "a szürrealizmus",
+        "a klasszicizmus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Móricz műveiben a századforduló utáni magyar valóság, elsősorban a parasztság élete jelenik meg realista ábrázolásban.",
+      "t": "Móricz Zsigmond"
+    },
+    {
+      "q": "Melyik évben jelent meg Ady Endre Új versek című, a modern magyar líra kezdetét jelző kötete?",
+      "a": [
+        "1906",
+        "1919",
+        "1877",
+        "1890"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Új versek 1906-os megjelenése korszakhatárnak számít a magyar költészetben.",
+      "t": "Ady Endre"
+    },
+    {
+      "q": "Ki volt az az asszony, akihez Ady Endre híres szerelmi versciklusát, a Léda-verseket írta?",
+      "a": [
+        "Diósy Ödönné Brüll Adél",
+        "Csinszka, azaz Boncza Berta",
+        "Vajda Julianna",
+        "Szendrey Júlia"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ady múzsája, akit Léda néven emlegetett, Brüll Adél volt, Diósy Ödön felesége.",
+      "t": "Ady Endre"
+    },
+    {
+      "q": "Milyen tisztséget töltött be Babits Mihály a Nyugat folyóiratnál élete utolsó éveiben?",
+      "a": [
+        "Főszerkesztő volt",
+        "Csak alkalmi cikkíróként közreműködött",
+        "Nyomdászként dolgozott a lapnál",
+        "Kiadóhivatal-vezető volt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Babits a Nyugat főszerkesztője volt egészen 1941-ben bekövetkezett haláláig.",
+      "t": "Babits Mihály"
+    },
+    {
+      "q": "Milyen betegséggel küzdött élete utolsó éveiben Babits Mihály, amiről az Ősz és tavasz között és a Jónás könyve is tanúskodik?",
+      "a": [
+        "Gégerákkal",
+        "Szívbetegséggel",
+        "Vaksággal",
+        "Ízületi gyulladással"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Babits gégerákban szenvedett, ami fokozatosan elvette a hangját is.",
+      "t": "Babits Mihály"
+    },
+    {
+      "q": "Melyik Kosztolányi-regény főszereplője egy fiatal cselédlány, aki végül gyilkosságot követ el?",
+      "a": [
+        "Édes Anna",
+        "Pacsirta",
+        "Aranysárkány",
+        "Nero, a véres költő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Édes Anna, a regény címszereplője cselédként szolgál egy budapesti családnál, majd gyilkosságot követ el.",
+      "t": "Kosztolányi Dezső"
+    },
+    {
+      "q": "Ki az a visszatérő, ironikus alteregó-szereplő, aki több Kosztolányi-novellafüzér főhőse?",
+      "a": [
+        "Esti Kornél",
+        "Pacsirta",
+        "Nero",
+        "Édes Anna"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Esti Kornél Kosztolányi egyik legismertebb, önironikus alakja, önálló novellaciklus főszereplője.",
+      "t": "Kosztolányi Dezső"
+    },
+    {
+      "q": "Melyik visszatérő figura Krúdy Gyula legismertebb alakja, akiről regény- és novellaciklust írt?",
+      "a": [
+        "Szindbád",
+        "Esti Kornél",
+        "Édes Anna",
+        "Timár Mihály"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Szindbád Krúdy jellegzetes, álmodozó hőse, akiről több kötetet is írt.",
+      "t": "Krúdy Gyula"
+    },
+    {
+      "q": "Milyen hangulatú írásairól híres elsősorban Krúdy Gyula prózája?",
+      "a": [
+        "Álomszerű, nosztalgikus, a régi Magyarországot idéző hangulatáról",
+        "Kemény realista társadalomkritikájáról",
+        "Tudományos-fantasztikus témáiról",
+        "Szigorúan történelmi hitelességéről"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Krúdy prózáját különleges, álomszerű, melankolikus atmoszféra és a letűnt világ nosztalgiája jellemzi.",
+      "t": "Krúdy Gyula"
+    },
+    {
+      "q": "Melyik Karinthy-kötet paródiázza humorosan ismert magyar írók és költők stílusát?",
+      "a": [
+        "Így írtok ti",
+        "Tanár úr kérem",
+        "Utazás a koponyám körül",
+        "Capillária"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Így írtok ti kötetben Karinthy kortárs írók stílusát figurázza ki humorosan.",
+      "t": "Karinthy Frigyes"
+    },
+    {
+      "q": "Miről szól Karinthy Frigyes Utazás a koponyám körül című önéletrajzi műve?",
+      "a": [
+        "A saját agydaganatának felfedezéséről és stockholmi műtétjéről",
+        "Egy afrikai utazás élményeiről",
+        "Egy képzeletbeli országba tett utazásról",
+        "Gyerekkori iskolai élményeiről"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A mű Karinthy agydaganatának tüneteit és az 1936-os stockholmi műtétet dolgozza fel.",
+      "t": "Karinthy Frigyes"
+    },
+    {
+      "q": "Hogyan halt meg József Attila 1937-ben?",
+      "a": [
+        "Egy tehervonat gázolta el Balatonszárszón",
+        "Szívrohamban hunyt el",
+        "Vízbe fulladt a Balatonban",
+        "Munkatáborban vesztette életét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "József Attila 1937. december 3-án Balatonszárszón egy tehervonat elé került.",
+      "t": "József Attila"
+    },
+    {
+      "q": "Melyik témát dolgozza fel József Attila Mama című verse?",
+      "a": [
+        "Édesanyja elvesztésének fájdalmát és utólagos bűntudatát",
+        "Egy elveszett szerelem emlékét",
+        "A háború borzalmait",
+        "A természet szépségét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A vers a korán elhunyt édesanya emlékét és a felnőtt fejjel átérzett hiányt idézi meg.",
+      "t": "József Attila"
+    },
+    {
+      "q": "Hol találták meg 1946-ban Radnóti Miklós holttestét és az utolsó verseit tartalmazó jegyzetfüzetét?",
+      "a": [
+        "Egy abdai tömegsírban",
+        "A Duna partján Budapesten",
+        "Egy bécsi hadikórházban",
+        "Recsken"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Radnóti holttestét és az úgynevezett bori noteszt 1946-ban egy abdai tömegsírból exhumálták.",
+      "t": "Radnóti Miklós"
+    },
+    {
+      "q": "Hol és hogyan fejezte be életét Márai Sándor 1989-ben?",
+      "a": [
+        "San Diegó-i otthonában öngyilkos lett",
+        "Budapesti kórházban hunyt el természetes halállal",
+        "Egy autóbalesetben vesztette életét",
+        "Olaszországi emigrációjában halt meg"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Márai súlyos betegen, magányosan, San Diegóban lett öngyilkos 1989-ben.",
+      "t": "Márai Sándor"
+    },
+    {
+      "q": "Melyik önéletrajzi ihletésű regényében mutatja be Márai Sándor a két világháború közötti polgári Kassa világát?",
+      "a": [
+        "Egy polgár vallomásai",
+        "A gyertyák csonkig égnek",
+        "Az igazi",
+        "Föld, föld!"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Egy polgár vallomásai Márai gyermek- és ifjúkorát, a polgári Kassa világát idézi fel.",
+      "t": "Márai Sándor"
+    },
+    {
+      "q": "Milyen körülmények között halt meg Szerb Antal 1945-ben?",
+      "a": [
+        "Munkaszolgálatosként a balfi táborban bántalmazás következtében",
+        "Szívrohamban egy budapesti kávéházban",
+        "Bombatámadás áldozataként",
+        "Természetes halállal, idős korban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Szerb Antalt zsidó származása miatt munkaszolgálatra hurcolták, és a balfi táborban halt meg 1945 elején.",
+      "t": "Szerb Antal"
+    },
+    {
+      "q": "Melyik régióhoz kötődik elsősorban Wass Albert élete és irodalmi életműve?",
+      "a": [
+        "Erdélyhez",
+        "A Felvidékhez",
+        "A Délvidékhez",
+        "Budapesthez"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Wass Albert erdélyi származású író, művei jellemzően Erdély tájait és sorsát idézik meg.",
+      "t": "Wass Albert"
+    },
+    {
+      "q": "Melyik Németh László-regény középpontjában áll Kárász Nelli, aki képtelen szeretetet érezni férje iránt?",
+      "a": [
+        "Iszony",
+        "Gyász",
+        "Égető Eszter",
+        "Bűn"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Iszony főszereplője Kárász Nelli, akinek házassága érzelmi zsákutcába torkollik.",
+      "t": "Németh László"
+    },
+    {
+      "q": "Milyen jellegzetes, rövid műfajt tett híressé Örkény István?",
+      "a": [
+        "Az egyperces novellát",
+        "A szonettkoszorút",
+        "A hosszú eposzt",
+        "A ponyvaregényt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Örkény az Egyperces novellák című kötetével teremtette meg jellegzetes, rövid, groteszk műfaját.",
+      "t": "Örkény István"
+    },
+    {
+      "q": "Melyik Örkény-műben teszi tönkre egy vidéki házaspár életét a hozzájuk beszállásolt zsarnokoskodó őrnagy?",
+      "a": [
+        "Tóték",
+        "Pisti a vérzivatarban",
+        "Macskajáték",
+        "Kulcskeresők"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Tóték című műben a Tót család életét dúlja fel a hozzájuk beszállásolt őrnagy zsarnoki viselkedése.",
+      "t": "Örkény István"
+    },
+    {
+      "q": "Milyen álnéven jelentette meg kalandregényeinek egy részét Rejtő Jenő?",
+      "a": [
+        "P. Howard",
+        "Kittenberger Kálmán",
+        "Szindbád",
+        "Gerő Ödön"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Rejtő Jenő angolszász hangzású álnéven, P. Howardként is publikálta regényeit.",
+      "t": "Rejtő Jenő"
+    },
+    {
+      "q": "Hogyan halt meg Rejtő Jenő 1943-ban?",
+      "a": [
+        "Munkaszolgálatosként megfagyott Ukrajnában",
+        "Természetes halállal hunyt el Budapesten",
+        "Autóbalesetben vesztette életét",
+        "Szívinfarktust kapott íróasztalánál"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Rejtő Jenőt munkaszolgálatra hurcolták, és 1943 elején megfagyott a fronton, Ukrajnában.",
+      "t": "Rejtő Jenő"
+    },
+    {
+      "q": "Milyen állat a főszereplője Fekete István Vuk című regényének?",
+      "a": [
+        "Egy árva rókakölyök",
+        "Egy komondor kutya",
+        "Egy szelídített őz",
+        "Egy sasmadár"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Vuk egy árva rókakölyök, akinek felnövését és kalandjait követhetjük nyomon a regényben.",
+      "t": "Fekete István"
+    },
+    {
+      "q": "Ki a főszereplője Móra Ferenc Kincskereső kisködmön című regényének?",
+      "a": [
+        "Gergő, a szegény sorsú kisfiú",
+        "Toldi Miklós",
+        "Nyilas Misi",
+        "Vuk"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A regény főhőse Gergő, akinek szegénységben telt gyermekkori élményeit követhetjük.",
+      "t": "Móra Ferenc"
+    },
+    {
+      "q": "Melyik Szabó Magda-regény helyszíne egy háborús évek alatti leánynevelő intézet, ahol a titokzatos Abigél segít a rászorulókon?",
+      "a": [
+        "Abigél",
+        "Az ajtó",
+        "Für Elise",
+        "Katalin utca"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Abigél egy háború alatti leánynevelő intézetben játszódik, ahol a titokzatos Abigél segít a diákoknak.",
+      "t": "Szabó Magda"
+    },
+    {
+      "q": "Melyik Szabó Magda-regényben áll a középpontban az írónő és bejárónője, Szeredás Emerenc bonyolult kapcsolata?",
+      "a": [
+        "Az ajtó",
+        "Abigél",
+        "Ókút",
+        "Mózes egy, huszonkettő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ajtó című regényben az írónő és házvezetőnője, Emerenc különleges viszonyát ismerhetjük meg.",
+      "t": "Szabó Magda"
+    },
+    {
+      "q": "Milyen jellegű intézményben játszódik javarészt Ottlik Géza Iskola a határon című regénye?",
+      "a": [
+        "Egy szigorú katonai alreáliskolában",
+        "Egy budapesti gimnáziumban",
+        "Egy erdélyi kollégiumban",
+        "Egy vidéki tanyavilágban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A regény egy szigorú katonai nevelőintézet, egy alreáliskola világát idézi fel.",
+      "t": "Ottlik Géza"
+    },
+    {
+      "q": "Melyik Molnár Ferenc-regényben harcolnak a fiúk egy grundért a Vörösingesek ellen?",
+      "a": [
+        "A Pál utcai fiúk",
+        "Liliom",
+        "Az üvegcipő",
+        "A doktor úr"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A regény a Pál utcai fiúk és a Vörösingesek küzdelmét meséli el a grund birtoklásáért.",
+      "t": "Molnár Ferenc"
+    },
+    {
+      "q": "Melyik évben jelent meg a Nyugat című folyóirat első száma?",
+      "a": [
+        "1908",
+        "1918",
+        "1898",
+        "1920"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nyugat első száma 1908. január 1-jén jelent meg.",
+      "t": "Nyugat"
+    },
+    {
+      "q": "Melyik művel és évvel szokás számítani a magyar felvilágosodás irodalmának kezdetét?",
+      "a": [
+        "Bessenyei György Ágis tragédiája, 1772",
+        "Kazinczy Ferenc fordításai, 1790",
+        "Csokonai Lilla-versei, 1802",
+        "Kölcsey Himnusza, 1823"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar felvilágosodás kezdetét hagyományosan Bessenyei György 1772-es Ágis tragédiája jelzi.",
+      "t": "felvilágosodás"
+    },
+    {
+      "q": "Kit tartunk számon a magyar nyelvújítási mozgalom vezéralakjaként a 19. század elején?",
+      "a": [
+        "Kazinczy Ferencet",
+        "Kölcsey Ferencet",
+        "Vörösmarty Mihályt",
+        "Bessenyei Györgyöt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kazinczy Ferenc szervezte és irányította levelezésén keresztül a nyelvújítók táborát.",
+      "t": "nyelvújítás"
+    },
+    {
+      "q": "Ki volt az első magyar irodalmi Nobel-díjas író?",
+      "a": [
+        "Kertész Imre",
+        "Márai Sándor",
+        "Esterházy Péter",
+        "Illyés Gyula"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kertész Imre 2002-ben kapta meg az irodalmi Nobel-díjat, elsőként a magyar írók közül.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik regényéért ítélték oda Kertész Imrének a 2002-es irodalmi Nobel-díjat?",
+      "a": [
+        "Sorstalanság",
+        "Kaddis a meg nem született gyermekért",
+        "Kudarc",
+        "Az angol lobogó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Nobel-bizottság indoklásában elsősorban a Sorstalanság című regényét emelte ki.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik magyar szerző kapta meg 2015-ben a rangos Man Booker International-díjat életműve elismeréseként?",
+      "a": [
+        "Krasznahorkai László",
+        "Esterházy Péter",
+        "Nádas Péter",
+        "Dragomán György"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Krasznahorkai Lászlót 2015-ben tüntették ki a Man Booker International-díjjal.",
+      "t": "kortárs irodalom"
+    },
+    {
+      "q": "Melyik Esterházy Péter-regény dolgozza fel önéletrajzi ihletéssel az Esterházy család több évszázados történetét?",
+      "a": [
+        "Harmonia caelestis",
+        "Termelési-regény",
+        "Egy nő",
+        "Bevezetés a szépirodalomba"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Harmonia caelestis az Esterházy família évszázadainak történetét meséli el egyedi, mozaikos szerkezetben.",
+      "t": "kortárs irodalom"
+    },
+    {
+      "q": "Melyik kortárs magyar író ismert A fehér király című, diktatúrában felnövő kamaszfiúról szóló regényéről?",
+      "a": [
+        "Dragomán György",
+        "Krasznahorkai László",
+        "Nádas Péter",
+        "Spiró György"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Dragomán György A fehér király című regénye egy kamasz felnövését mutatja be a Ceaușescu-korszak Romániájában.",
+      "t": "kortárs irodalom"
+    },
+    {
+      "q": "Melyik költő írta mind a gyerekek körében közkedvelt Bóbitát, mind a fiktív költőnő álarcában megszólaló Psychét?",
+      "a": [
+        "Weöres Sándor",
+        "Nemes Nagy Ágnes",
+        "Pilinszky János",
+        "Nagy László"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Weöres Sándor egyaránt írt gyerekverseket és a fiktív költőnő alakját megformáló Psychét.",
+      "t": "Weöres Sándor"
+    },
+    {
+      "q": "Milyen szokatlan formában íródott Weöres Sándor Psyché című műve?",
+      "a": [
+        "Egy fiktív 19. századi költőnő versesregényeként, vers és próza keverékeként",
+        "Klasszikus szonettkoszorúként",
+        "Filmforgatókönyv formájában",
+        "Levélregényként"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Psyché egy kitalált, korán elhunyt költőnő verseit és írásait imitálja vers és próza keverékében.",
+      "t": "Weöres Sándor"
+    },
+    {
+      "q": "Milyen élmény hatotta át meghatározóan Pilinszky János költészetét, különösen az Apokrif című versét?",
+      "a": [
+        "A második világháborús koncentrációs táborok borzalmainak látványa",
+        "Gyermekkori betegsége",
+        "Egy hosszú tengeri utazás",
+        "Egy politikai száműzetés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pilinszky háborús frontszolgálata és a koncentrációs táborok látványa mély nyomot hagyott költészetén.",
+      "t": "Pilinszky János"
+    },
+    {
+      "q": "Melyik Illyés Gyula-mű mutatja be szociográfiai hitelességgel a dunántúli pusztai cselédség nyomorát?",
+      "a": [
+        "Puszták népe",
+        "Hetvenhét magyar népmese",
+        "Kháron ladikján",
+        "Kegyenc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Puszták népe az uradalmi cselédség sanyarú életkörülményeit tárja fel önéletrajzi elemekkel.",
+      "t": "Illyés Gyula"
+    },
+    {
+      "q": "Melyik magyar régió székely népi hagyományait és nyelvjárását idézi meg jellegzetesen Tamási Áron prózája?",
+      "a": [
+        "Székelyföld",
+        "Alföld",
+        "Felvidék",
+        "Bácska"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Tamási Áron székely származású erdélyi író, művei a székelyföldi világot és nyelvjárást idézik meg.",
+      "t": "Tamási Áron"
+    },
+    {
+      "q": "Melyik a legrégebbi fennmaradt összefüggő magyar nyelvű szövegemlék?",
+      "a": [
+        "A Halotti beszéd és könyörgés",
+        "Az Ómagyar Mária-siralom",
+        "A Tihanyi alapítólevél",
+        "A Königsbergi töredék"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Halotti beszéd és könyörgés a 12. század végéről származó legrégebbi összefüggő magyar nyelvű szöveg.",
+      "t": "ómagyar nyelvemlékek"
+    },
+    {
+      "q": "Milyen műfajú az Ómagyar Mária-siralom, a legrégebbi ismert magyar nyelvű vers?",
+      "a": [
+        "Siratóének, amelyben Mária a keresztre feszített fiát gyászolja",
+        "Hősi eposz",
+        "Vidám lakodalmas dal",
+        "Gúnyvers"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Ómagyar Mária-siralomban Mária siratja a keresztre feszített Jézust.",
+      "t": "ómagyar nyelvemlékek"
+    },
+    {
+      "q": "Melyik erdélyi író híres az Anyám könnyű álmot ígér című önéletrajzi ihletésű prózájáról?",
+      "a": [
+        "Sütő András",
+        "Tamási Áron",
+        "Wass Albert",
+        "Kányádi Sándor"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Sütő András erdélyi író Anyám könnyű álmot ígér című műve édesanyja alakját és Erdély sorsát idézi meg.",
+      "t": "Sütő András"
+    },
+    {
+      "q": "Mi jellemzi a ballada műfaját, amelyben Arany János is kiemelkedőt alkotott?",
+      "a": [
+        "Sűrített, drámai, gyakran tragikus történetet mond el versben",
+        "Csak vidám, komikus témákat dolgoz fel",
+        "Kizárólag szerelmi témájú lírai vers",
+        "Mindig prózában írt párbeszédes dráma"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A ballada tömör, drámai, gyakran tragikus cselekményt elbeszélő versforma; Arany a magyar ballada egyik mestere.",
+      "t": "irodalmi műfajok"
+    },
+    {
+      "q": "Mit jelent az „elbeszélő költemény” irodalmi műfaji megnevezés?",
+      "a": [
+        "Verses formában megírt, cselekményes, epikus mű",
+        "Csak párbeszédes színdarab",
+        "Rímtelen szabadvers-gyűjtemény",
+        "Rövid, tömör aforizma-gyűjtemény"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az elbeszélő költemény verses formában elmondott, cselekményes epikai mű, mint Arany Toldija.",
+      "t": "irodalmi műfajok"
+    },
+    {
+      "q": "Mi az eposz irodalmi műfaj legfontosabb jellemzője?",
+      "a": [
+        "Nagyszabású, verses formájú elbeszélő mű, gyakran hősi témával",
+        "Rövid lírai vers szerelemről",
+        "Kizárólag prózában írt regény",
+        "Rövid filozófiai értekezés"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az eposz terjedelmes, verses elbeszélő mű, mint Zrínyi Szigeti veszedelme.",
+      "t": "irodalmi műfajok"
     }
   ]
 }

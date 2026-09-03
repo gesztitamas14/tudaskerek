@@ -1038,6 +1038,1176 @@
       "e": "Bartók Béla születése: 19. század.",
       "t": "történelmi személyek",
       "s": "http://www.wikidata.org/entity/Q83326"
+    },
+    {
+      "q": "Hogyan nevezik azt a szerződést, amellyel a hét törzs vezetői a hagyomány szerint Álmost fejedelemmé választották?",
+      "a": [
+        "Vérszerződésnek",
+        "Aranybullának",
+        "Pusztaszeri eskünek",
+        "Tihanyi egyezségnek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hagyomány szerint a törzsfők vérszerződéssel pecsételték meg Álmos fejedelemmé választását.",
+      "t": "honfoglalás"
+    },
+    {
+      "q": "Milyen eredetű törzsek voltak a magyarokhoz csatlakozó kabarok a honfoglalás előtt?",
+      "a": [
+        "Elszakadt, lázadó kazár törzsek voltak",
+        "Besenyő szövetséges törzsek voltak",
+        "Frank eredetű zsoldos csapatok voltak",
+        "Bizánci eredetű hittérítő csoportok voltak"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kabarok kazár eredetű, a kazár birodalomtól elszakadt törzsek voltak, amelyek csatlakoztak a magyar törzsszövetséghez.",
+      "t": "honfoglalás"
+    },
+    {
+      "q": "Melyik hágón át vonult be a hagyomány szerint a magyar törzsszövetség fő tömege a Kárpát-medencébe?",
+      "a": [
+        "A Vereckei-hágón",
+        "A Tömösi-szoroson",
+        "A Törcsvári-szoroson",
+        "Az Ojtozi-szoroson"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hagyomány szerint a magyar törzsek nagy része a Vereckei-hágón át lépett be a Kárpát-medencébe.",
+      "t": "honfoglalás"
+    },
+    {
+      "q": "Mit jelentett a 'gyepű' kifejezés az államalapítás kori Magyarországon?",
+      "a": [
+        "Az ország határát védő, elzárt, ritkán lakott terepsávot",
+        "A királyi udvar díszőrségének elnevezését",
+        "Az egyházi tized beszedésének rendszerét",
+        "A vármegyék központi épületét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A gyepű a honfoglalás utáni Magyarország határvidékén húzódó, mesterségesen is akadályozott, ritkán lakott védősáv volt.",
+      "t": "honfoglalás"
+    },
+    {
+      "q": "Milyen fő céllal indultak a magyar törzsek a 10. századi kalandozó hadjáratokra?",
+      "a": [
+        "Zsákmányszerzés és félelemkeltés volt a céljuk",
+        "Új letelepedésre alkalmas hazát kerestek",
+        "Keresztény hittérítőket kísértek nyugatra",
+        "Kereskedelmi útvonalakat térképeztek fel"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kalandozó hadjáratok elsődleges célja a zsákmányszerzés és a szomszédos hatalmak megfélemlítése volt.",
+      "t": "kalandozások"
+    },
+    {
+      "q": "Melyik itáliai várost dúlták fel a magyar seregek egy 899-900 körüli hadjáratuk során?",
+      "a": [
+        "Páviát",
+        "Rómát",
+        "Velencét",
+        "Milánót"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar kalandozók 899-900-ban legyőzték Berengár itáliai király seregét, és feldúlták Páviát.",
+      "t": "kalandozások"
+    },
+    {
+      "q": "Mi vetett véget a nyugat felé irányuló kalandozó hadjáratoknak 955-ben?",
+      "a": [
+        "Egy súlyos vereség I. Ottó német seregétől",
+        "A kereszténység önkéntes felvétele",
+        "Egy pápai keresztes hadjárat",
+        "A besenyők elzárták a nyugati utakat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az augsburgi (Lech-mezei) csatában elszenvedett vereség fordulópontot jelentett a kalandozások történetében.",
+      "t": "kalandozások"
+    },
+    {
+      "q": "Milyen igazgatási egységeket hozott létre I. István az ország megszervezésekor?",
+      "a": [
+        "Vármegyéket és egyházmegyéket",
+        "Kizárólag törzsi szövetségeket",
+        "Önálló városállamokat",
+        "Csak katonai körzeteket, vármegyék nélkül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "István tíz egyházmegyét és számos vármegyét szervezett az ország igazgatására.",
+      "t": "államalapítás"
+    },
+    {
+      "q": "Miért vezette be I. István a kötelező tizedfizetést?",
+      "a": [
+        "Az egyház fenntartását és működését finanszírozta belőle",
+        "A királyi hadsereg zsoldját fedezte belőle",
+        "A távolsági kereskedelmet ösztönözte vele",
+        "A vármegyeépítés költségeit fedezte belőle"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tized az egyházszervezet és a papság fenntartásának alapvető bevételi forrása volt.",
+      "t": "államalapítás"
+    },
+    {
+      "q": "Melyik magyar uralkodó kezdte meg elsőként saját néven a rendszeres pénzverést az országban?",
+      "a": [
+        "I. István",
+        "I. László",
+        "Könyves Kálmán",
+        "II. András"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "I. István már uralkodása elején megkezdte saját dénárjainak veretését.",
+      "t": "államalapítás"
+    },
+    {
+      "q": "Milyen intézkedéssel korlátozta Könyves Kálmán a boszorkányperek elterjedését törvényében?",
+      "a": [
+        "Kimondta, hogy boszorkányok nem léteznek, ezért vizsgálat sem indítható ellenük",
+        "Halálbüntetést vezetett be a hamis vádaskodókra",
+        "Kizárólag egyházi bíróságok elé utalta az ilyen pereket",
+        "Eltörölte az addig alkalmazott istenítéleteket"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kálmán törvénye kimondta: 'boszorkányokról pedig, mivel nincsenek, semmi további vizsgálat ne essék.'",
+      "t": "Árpád-kor"
+    },
+    {
+      "q": "Melyik magyar uralkodó nyerte el vitézsége miatt a 'Lovagkirály' melléknevet?",
+      "a": [
+        "I. László",
+        "Szent István",
+        "Könyves Kálmán",
+        "III. Béla"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "I. Lászlót vitézsége és lovagi erényei miatt nevezte el az utókor Lovagkirálynak.",
+      "t": "Árpád-kor"
+    },
+    {
+      "q": "Mit biztosított elsősorban az 1222-es Aranybulla a köznemességnek?",
+      "a": [
+        "Kiváltságokat és az ellenállás jogát jogtalan királyi intézkedés esetén",
+        "Teljes és örökös adómentességet minden birtokra",
+        "A király megválasztásának kizárólagos jogát",
+        "Saját, önálló törvényhozó testület felállítását"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Aranybulla rögzítette a nemesség kiváltságait, köztük az ellenállási jogot (ius resistendi).",
+      "t": "Aranybulla"
+    },
+    {
+      "q": "Miért kellett IV. Bélának Dalmáciába menekülnie a tatárjárás idején?",
+      "a": [
+        "A muhi csatavesztés után a mongolok elől menekült oda",
+        "Diplomáciai tárgyalásokat folytatott ott a pápával",
+        "Zarándokútra indult a tatárjárás előtt",
+        "Katonai szövetséget kötött a velenceiekkel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A muhi csatában elszenvedett vereség után IV. Béla a tengerparti Dalmáciába menekült a mongolok elől.",
+      "t": "tatárjárás"
+    },
+    {
+      "q": "Milyen új védelmi elemet épített ki IV. Béla a tatárjárás pusztításai után?",
+      "a": [
+        "Kővárak hálózatát az ország védelmére",
+        "Állandó zsoldos hadsereget",
+        "Tengeri hadiflottát a partvidéken",
+        "Új gyepűrendszert a nyugati határon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tatárjárás tanulságaként IV. Béla tömegesen építtetett kővárakat, mert a föld- és fasáncok nem nyújtottak elég védelmet.",
+      "t": "tatárjárás"
+    },
+    {
+      "q": "Mi okozta a mongol sereg váratlan kivonulását Magyarországról 1242-ben?",
+      "a": [
+        "Ögödej nagykán halála, mely miatt haza kellett térniük",
+        "A magyar sereg végleges győzelme felettük",
+        "Éhínség kitörése a mongol táborban",
+        "Egy pápai keresztes hadjárat megindulása"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ögödej nagykán 1241 végi halála miatt a mongol vezéreknek vissza kellett térniük a kánválasztó gyűlésre.",
+      "t": "tatárjárás"
+    },
+    {
+      "q": "Milyen bányászati reformmal növelte Károly Róbert a királyi jövedelmeket?",
+      "a": [
+        "Bevezette az urburát, a nemesfém beszolgáltatásának kötelezettségét",
+        "Államosította az összes erdélyi és felvidéki bányát",
+        "Eltörölte a bányászathoz kapcsolódó összes adót",
+        "Kitiltotta a külföldi bányászokat az országból"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Károly Róbert az urbura (bányabér) bevezetésével jelentősen növelte a királyi kincstár bevételeit.",
+      "t": "Anjou-kor"
+    },
+    {
+      "q": "Miért volt jelentős Nagy Lajos 1351-es törvénye a nemesség számára?",
+      "a": [
+        "Kimondta a nemesek jogegyenlőségét, az 'egy és ugyanazon szabadságot'",
+        "Bevezette az örökös jobbágyságot az egész országban",
+        "Eltörölte a nemesi birtokok ősiségét",
+        "Megszüntette a vármegyerendszert"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az 1351. évi törvény kimondta a nemesek 'egy és ugyanazon szabadságát' (una eademque libertas).",
+      "t": "Anjou-kor"
+    },
+    {
+      "q": "Melyik ország ellen vezetett hadjáratokat Nagy Lajos öccse, Endre herceg meggyilkolása miatt?",
+      "a": [
+        "Nápoly ellen",
+        "Velence ellen",
+        "Bizánc ellen",
+        "Havasalföld ellen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Endre herceget, Nagy Lajos öccsét Nápolyban meggyilkolták, ezért Lajos több hadjáratot is vezetett Nápoly ellen.",
+      "t": "Anjou-kor"
+    },
+    {
+      "q": "Meddig viselte Nagy Lajos egyszerre a magyar és a lengyel királyi koronát 1370-től?",
+      "a": [
+        "Haláláig, 1382-ig",
+        "Csak három évig, 1373-ig",
+        "1370-től 1401-ig",
+        "Egész uralkodása alatt, kezdettől fogva"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Nagy Lajos 1370-ben lett lengyel király is, ezt a rangját pedig haláláig, 1382-ig viselte.",
+      "t": "Anjou-kor"
+    },
+    {
+      "q": "Milyen súlyos vereséget szenvedett Luxemburgi Zsigmond az oszmánoktól 1396-ban?",
+      "a": [
+        "A nikápolyi csatavesztést",
+        "A várnai csatavesztést",
+        "A rigómezei vereséget",
+        "A galambóci kudarcot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1396-os nikápolyi csatában az európai keresztes sereg és Zsigmond súlyos vereséget szenvedett I. Bajazidtól.",
+      "t": "Zsigmond-kor"
+    },
+    {
+      "q": "Milyen évszázados egyházi vitát zárt le a Zsigmond által összehívott konstanzi zsinat?",
+      "a": [
+        "A nyugati egyházszakadást, amikor egyszerre három pápa is uralkodott",
+        "Az invesztitúraharcot a császár és a pápa között",
+        "A keleti és nyugati egyház szakadását",
+        "A husziták és a katolikusok fegyveres háborúját"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A konstanzi zsinat (1414-1418) vetett véget a nyugati egyházszakadásnak, amikor egyszerre három pápa is uralkodni akart.",
+      "t": "Zsigmond-kor"
+    },
+    {
+      "q": "Milyen három koronát viselt egyszerre Zsigmond uralkodása csúcsán?",
+      "a": [
+        "A magyar, a cseh és a német-római császári koronát",
+        "A magyar, a lengyel és a horvát koronát",
+        "A cseh, a bizánci és a nápolyi koronát",
+        "A magyar, az osztrák és a bajor koronát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Zsigmond magyar királyból német-római császárrá és cseh királlyá is vált, így egy személyben három koronát viselt.",
+      "t": "Zsigmond-kor"
+    },
+    {
+      "q": "Milyen intézkedést kezdett meg Zsigmond a déli végeken az oszmán terjeszkedés feltartóztatására?",
+      "a": [
+        "A déli végvárrendszer kiépítését",
+        "Egy állandó zsoldos lovassereg felállítását",
+        "Egy önálló hadiflotta felépítését",
+        "Itáliai zsoldos gyalogság felfogadását"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Zsigmond megkezdte a déli végvárrendszer kiépítését, hogy feltartóztassa az egyre erősödő oszmán támadásokat.",
+      "t": "Zsigmond-kor"
+    },
+    {
+      "q": "Milyen győzelmeket aratott Hunyadi János 1442-ben az Erdélybe betörő török seregek felett?",
+      "a": [
+        "Két csatában is legyőzte a betörő oszmán seregeket",
+        "Elfoglalta Konstantinápolyt a törököktől",
+        "Felszabadította Belgrádot a török ostrom alól",
+        "Legyőzte a törököket a várnai csatában"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Hunyadi 1442-ben két csatában is legyőzte az Erdélybe betörő oszmán seregeket.",
+      "t": "Hunyadiak"
+    },
+    {
+      "q": "Miért végződött katasztrofálisan az 1444-es várnai hadjárat a magyar-lengyel sereg számára?",
+      "a": [
+        "I. Ulászló király elesett a csatában, és a sereg szétzilálódott",
+        "Hunyadi árulása miatt vesztették el a csatát",
+        "Élelemhiány miatt kellett feladniuk a hadjáratot",
+        "A pápai flotta cserbenhagyta a keresztes sereget"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A várnai csatában I. Ulászló magyar-lengyel király életét vesztette, ami katasztrofális vereséghez vezetett.",
+      "t": "Hunyadiak"
+    },
+    {
+      "q": "Milyen egyházi hagyományt kötnek a nándorfehérvári diadal emlékéhez a mai napig?",
+      "a": [
+        "A déli harangszót minden keresztény templomban",
+        "Egy új ünnepnap bevezetését augusztus 20-án",
+        "A rózsafüzér kötelező napi imádkozását",
+        "A keresztes hadjáratok végleges beszüntetését"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A pápa a nándorfehérvári győzelem emlékéül tartatja a mai napig a déli harangszót minden keresztény templomban.",
+      "t": "Hunyadiak"
+    },
+    {
+      "q": "Milyen tisztséget töltött be Hunyadi János V. László kiskorúsága idején, 1446 és 1452 között?",
+      "a": [
+        "Kormányzó (gubernátor) volt",
+        "Nádor volt",
+        "Csak erdélyi vajda maradt",
+        "Országbíró volt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hunyadi Jánost 1446-ban kormányzóvá választották, mivel V. László még kiskorú volt.",
+      "t": "Hunyadiak"
+    },
+    {
+      "q": "Miben volt újszerű a fekete sereg a korabeli magyar hadviselésben?",
+      "a": [
+        "Állandóan zsoldon tartott, hivatásos hadsereg volt",
+        "Kizárólag nehézlovasokból állt",
+        "Önkéntes nemesi felkelésből szerveződött",
+        "Csak külföldi zsoldosokból állt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fekete sereg állandó zsoldoshadsereg volt, amely békeidőben is fenntartott, ütőképes haderőt jelentett.",
+      "t": "Mátyás király"
+    },
+    {
+      "q": "Milyen céllal hozta létre Mátyás király a Corvina könyvtárat udvarában?",
+      "a": [
+        "A reneszánsz kori tudás és kultúra gyűjtésére és terjesztésére",
+        "Kizárólag jogi kódexek megőrzésére",
+        "Az egyházi cenzúra ellenőrzésére",
+        "Diplomáciai ajándékok tárolására"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Mátyás a reneszánsz szellemében hozta létre Európa egyik legjelentősebb reneszánsz könyvtárát, a Corvinát.",
+      "t": "Mátyás király"
+    },
+    {
+      "q": "Miért vezette be Mátyás az egyforintos kapuadót a jobbágyság körében?",
+      "a": [
+        "Az állandó hadsereg és a hadjáratok fenntartásához volt szüksége a bevételre",
+        "Az egyházi tizedet akarta vele kiváltani",
+        "A vármegyék önállóságát akarta megszüntetni",
+        "A nemesi birtokok pontos felmérését szolgálta"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mátyásnak a fekete sereg és hadjáratai fenntartásához jelentős, rendszeres bevételre volt szüksége, ezt szolgálta a kapuadó.",
+      "t": "Mátyás király"
+    },
+    {
+      "q": "Melyik osztrák várost foglalta el Mátyás 1485-ben, és tette évekre székhelyévé?",
+      "a": [
+        "Bécset",
+        "Grazot",
+        "Linzet",
+        "Salzburgot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Mátyás 1485-ben elfoglalta Bécset, és élete végéig ott is székelt.",
+      "t": "Mátyás király"
+    },
+    {
+      "q": "Mit tartott róla a néphagyomány, hogyan ellenőrizte Mátyás az igazságos ítélkezést az országban?",
+      "a": [
+        "Állítólag álruhában járta az országot, hogy meggyőződjön róla",
+        "Kizárólag írásos panaszokat fogadott el a Kúrián",
+        "Megszüntette a vármegyei bíráskodást teljesen",
+        "Csak a főnemesség pereiben ítélkezett személyesen"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A 'Mátyás igazságos' legendakör szerint a király álruhában járta az országot, hogy meggyőződjön az igazságos ítélkezésről.",
+      "t": "Mátyás király"
+    },
+    {
+      "q": "Miért nem tudott időben megérkezni a mohácsi csata helyszínére Szapolyai János erdélyi hada?",
+      "a": [
+        "A nagy távolság miatt nem ért oda időben Erdélyből",
+        "Fogságba esett útközben a törököknél",
+        "Az utolsó pillanatban átállt a török oldalára",
+        "A pápa visszahívta seregét Rómába"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Szapolyai János erdélyi vajda serege a nagy távolság miatt nem ért oda a mohácsi csata idejére.",
+      "t": "Mohács"
+    },
+    {
+      "q": "Nagyjából mekkora létszámfölényben volt az oszmán sereg a magyar haderővel szemben Mohácsnál?",
+      "a": [
+        "Mintegy két-háromszoros túlerőben volt",
+        "Valójában kisebb létszámú volt, mint a magyar sereg",
+        "Nagyjából azonos létszámú volt a két hadsereg",
+        "Tízszeres túlerőben volt a török sereg"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A becslések szerint a török sereg mintegy kétszer-háromszor nagyobb volt a magyar haderőnél Mohácsnál.",
+      "t": "Mohács"
+    },
+    {
+      "q": "Milyen politikai következménnyel járt II. Lajos trónörökös nélküli halála Mohácsnál?",
+      "a": [
+        "Kettős királyválasztás történt, ami évtizedes belháborúhoz vezetett",
+        "Magyarország és Ausztria azonnal egyesült",
+        "A nemesség köztársaságot kiáltott ki",
+        "Az Oszmán Birodalom rögtön bekebelezte az egész országot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "II. Lajos örökös nélküli halála után Ferdinándot és Szapolyai Jánost is királlyá választották, ami polgárháborúhoz vezetett.",
+      "t": "Mohács"
+    },
+    {
+      "q": "Melyik magyar főpap esett el a mohácsi csatában a sereg egyik fővezéreként?",
+      "a": [
+        "Tomori Pál kalocsai érsek",
+        "Az esztergomi érsek",
+        "Az egri püspök",
+        "A váradi püspök"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Tomori Pál kalocsai érsek a magyar sereg egyik fővezéreként esett el a mohácsi csatában.",
+      "t": "Mohács"
+    },
+    {
+      "q": "Hogyan szervezték közigazgatásilag a hódoltsági területet a 16-17. században?",
+      "a": [
+        "Oszmán mintára vilajetekre és szandzsákokra osztották",
+        "Az egész országot egyetlen tartományként kezelték",
+        "A régi magyar vármegyerendszert érintetlenül hagyták",
+        "Kizárólag Buda és környéke tartozott ide"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hódoltság a török közvetlen uralma alá tartozó terület volt, amelyet oszmán mintára vilajetekre és szandzsákokra osztottak.",
+      "t": "török hódoltság"
+    },
+    {
+      "q": "Milyen kettős teher nehezedett gyakran a hódoltsági jobbágyokra a 16-17. században?",
+      "a": [
+        "Fizettek a török hatóságoknak és a régi magyar földesuraknak is",
+        "Kizárólag a töröknek adóztak, magyar uraiknak nem",
+        "Teljes adómentességet élveztek egész életükben",
+        "Csak terményben adóztak, pénzben soha"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hódoltsági jobbágyokat gyakran kettős teher sújtotta: fizettek a török hatóságoknak és a régi magyar földesuraknak is.",
+      "t": "török hódoltság"
+    },
+    {
+      "q": "Miért volt stratégiailag kulcsfontosságú Eger vára a 16. századi hódoltság idején?",
+      "a": [
+        "A Felső-Magyarországra és Kassára vezető utat zárta el",
+        "Ez volt az ország egyetlen tengeri kikötője",
+        "Itt székelt ekkor a királyi udvar",
+        "Ez volt az ország legnagyobb bányavárosa"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Eger a Felső-Magyarországra és Kassára vezető utat zárta el, ezért volt kulcsfontosságú a török terjeszkedés megállításában.",
+      "t": "török hódoltság"
+    },
+    {
+      "q": "Mit mondott ki 1568-ban a tordai országgyűlés vallásügyi törvénye?",
+      "a": [
+        "Négy vallás egyenjogúságát Erdélyben",
+        "A katolikus vallás kizárólagosságát",
+        "A protestánsok teljes betiltását",
+        "A vallásszabadság megszüntetését"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tordai országgyűlés 1568-ban Európában elsőként mondta ki négy vallás (katolikus, református, evangélikus, unitárius) egyenjogúságát.",
+      "t": "török hódoltság"
+    },
+    {
+      "q": "Milyen fő feladatuk volt a végvári vitézeknek a hódoltság korában?",
+      "a": [
+        "A határvidék váraiban védték a lakosságot a török betörésektől",
+        "Kizárólag adóbeszedéssel foglalkoztak",
+        "Kereskedelmi karavánokat kísértek béke idején",
+        "A királyi udvar ceremoniális őrségét alkották"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A végvári vitézek a határvidék erődrendszerében szolgálva védték az országot a folyamatos török portyázásoktól.",
+      "t": "török hódoltság"
+    },
+    {
+      "q": "Miként jött létre az önálló Erdélyi Fejedelemség a 16. század közepén?",
+      "a": [
+        "A középkori Magyar Királyság harmadik utódállamaként, török hűbéresként",
+        "Teljesen független államként, mindenféle hódoltság nélkül",
+        "Bécs közvetlen alárendelt tartományaként",
+        "Az Oszmán Birodalom rendes tartományaként"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Erdély a mohácsi vész utáni háromfelé szakadás nyomán jött létre önálló fejedelemségként, török hűbéresként.",
+      "t": "Erdély"
+    },
+    {
+      "q": "Miért nevezik Bethlen Gábor korát Erdély aranykorának?",
+      "a": [
+        "Gazdasági és kulturális fellendülés, politikai stabilitás jellemezte",
+        "Ekkor szűnt meg végleg a török fennhatóság Erdélyben",
+        "Ekkor épült fel az összes erdélyi vár egyszerre",
+        "Ekkor vezették be a papírpénzt Erdélyben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bethlen Gábor idején Erdély gazdasági, kulturális és politikai szempontból is virágkorát élte.",
+      "t": "Erdély"
+    },
+    {
+      "q": "Hogyan jutalmazta Bocskai István a hozzá csatlakozó hajdúkat?",
+      "a": [
+        "Nemesi kiváltsággal és földdel, hajdúvárosok adományozásával",
+        "Kizárólag zsolddal, kiváltság nélkül",
+        "Jobbágysorba taszította legtöbbjüket",
+        "Kitiltotta őket Erdélyből a szabadságharc után"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bocskai a hozzá csatlakozó hajdúkat kollektív nemesi kiváltsággal és földadománnyal (hajdúvárosokkal) jutalmazta.",
+      "t": "Erdély"
+    },
+    {
+      "q": "Mit biztosított a bécsi béke 1606-ban Bocskai István szabadságharca nyomán?",
+      "a": [
+        "A protestánsok vallásszabadságát a Magyar Királyságban",
+        "A katolikus vallás gyakorlásának betiltását",
+        "A vallásszabadságot kizárólag Erdélyben",
+        "A vallásszabadságot csak a nemesség számára"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A bécsi béke biztosította a rendek és a protestáns felekezetek szabad vallásgyakorlását a Magyar Királyságban.",
+      "t": "Erdély"
+    },
+    {
+      "q": "Miért veszítette el önállóságát fokozatosan az Erdélyi Fejedelemség a 17. század végén?",
+      "a": [
+        "A törökök kiűzése után a Habsburgok szerezték meg felette az ellenőrzést",
+        "Belső polgárháborúban semmisült meg teljesen",
+        "Lengyelország csatolta magához a fejedelemséget",
+        "Velence fennhatósága alá került"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A török kiűzése (1699, karlócai béke) után Erdély fokozatosan Habsburg fennhatóság alá került.",
+      "t": "Erdély"
+    },
+    {
+      "q": "Mi volt a Rákóczi-szabadságharc 1703-as kitörésének fő kiváltó oka?",
+      "a": [
+        "A Habsburg abszolutista uralom és a súlyos adóterhek",
+        "A protestáns vallás azonnali betiltása",
+        "A magyar nyelv hivatalossá tétele elleni tiltakozás",
+        "A jobbágyfelszabadítás elmaradása miatti parasztlázadás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Habsburg elnyomó, abszolutista politikája és a magas adók elégedetlenséget szültek, ami a kuruc felkeléshez vezetett.",
+      "t": "Rákóczi"
+    },
+    {
+      "q": "Milyen európai háború teremtett kedvező helyzetet a Rákóczi-szabadságharc kirobbanásához 1703-ban?",
+      "a": [
+        "A spanyol örökösödési háború lekötötte a Habsburg haderő nagy részét",
+        "A svéd-orosz háború vonta el a figyelmet Magyarországról",
+        "A pápa háborút indított a Habsburgok ellen",
+        "Anglia inváziót indított Ausztria ellen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A spanyol örökösödési háború miatt a Habsburg hadsereg jelentős része lekötve volt, ami kedvező helyzetet teremtett a felkelésnek.",
+      "t": "Rákóczi"
+    },
+    {
+      "q": "Milyen politikai lépést tett az ónodi országgyűlés 1707-ben?",
+      "a": [
+        "Kimondta a Habsburg-ház trónfosztását",
+        "Békét kötött a Habsburgokkal",
+        "Rákóczit királlyá koronázta",
+        "Erdélyt egyesítette a Királysággal"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az 1707-es ónodi országgyűlés kimondta a Habsburg-ház trónfosztását Magyarországon.",
+      "t": "Rákóczi"
+    },
+    {
+      "q": "Miért nem tért haza II. Rákóczi Ferenc a szatmári béke megkötése után, bár a harcok lezárultak?",
+      "a": [
+        "Nem bízott a Habsburg békeígéretekben, ezért inkább emigrációt vállalt",
+        "Már nem volt életben, korábban meghalt",
+        "Törökország nem engedte elhagyni Rodostót",
+        "A magyar rendek megtiltották neki a hazatérést"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Rákóczi nem hitt a Habsburg ígéretek tartósságában, ezért inkább száműzetést vállalt, mintsem aláírja a békét.",
+      "t": "Rákóczi"
+    },
+    {
+      "q": "Milyen célt szolgált Mária Terézia 1767-es úrbéri rendelete?",
+      "a": [
+        "Egységesen szabályozta és korlátozta a jobbágyi terheket az egész országban",
+        "Teljesen és azonnal eltörölte a jobbágyságot",
+        "Kizárólag az egyházi birtokokra vonatkozott",
+        "Bevezette a jobbágyok szabad költözési jogát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az úrbérrendezés egységes szabályokat vezetett be a jobbágyi szolgáltatások mértékére, hogy korlátozza a földesúri önkényt.",
+      "t": "felvilágosult abszolutizmus"
+    },
+    {
+      "q": "Miért kapta II. József a 'kalapos király' gúnynevet?",
+      "a": [
+        "Mert nem koronáztatta meg magát, elkerülve az alkotmányos esküt",
+        "Mert mindig kalapban jelent meg a nyilvánosság előtt",
+        "Mert kalapgyárat alapított Budán",
+        "Mert megtiltotta a Szent Korona nyilvános kiállítását"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "II. József szándékosan nem koronáztatta meg magát, hogy szabadabban kormányozhasson a rendi kötöttségek nélkül.",
+      "t": "felvilágosult abszolutizmus"
+    },
+    {
+      "q": "Mit tett lehetővé a türelmi rendelet 1781-ben?",
+      "a": [
+        "A protestánsok és az ortodoxok szabad vallásgyakorlását",
+        "A zsidók azonnali és teljes egyenjogúsítását",
+        "A katolikus egyház teljes megszüntetését",
+        "A cenzúra teljes körű eltörlését"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "II. József türelmi rendelete vallásszabadságot biztosított a protestánsoknak és az ortodoxoknak.",
+      "t": "felvilágosult abszolutizmus"
+    },
+    {
+      "q": "Miért vonta vissza II. József halálos ágyán szinte összes rendeletét?",
+      "a": [
+        "Belátta, hogy reformjai a rendi ellenállás miatt nem valósíthatók meg tartósan",
+        "A magyar rendek fegyveresen kényszerítették rá",
+        "A francia forradalom híre miatt cselekedett így",
+        "Anyja, Mária Terézia utolsó kérése volt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "II. József halála előtt visszavonta rendeleteit (a türelmi rendelet és a jobbágyrendelet kivételével), mert reformjai kudarcot vallottak.",
+      "t": "felvilágosult abszolutizmus"
+    },
+    {
+      "q": "Mit tett lehetővé a jobbágyoknak II. József 1785-ös rendelete?",
+      "a": [
+        "Eltörölte a röghöz kötöttséget, engedélyezve a szabad költözést",
+        "Teljesen felszabadította őket minden szolgáltatás alól",
+        "Bevezette a kötelező iskoláztatást gyermekeiknek",
+        "Megtiltotta a házasságkötést uruk engedélye nélkül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1785-ös jobbágyrendelet megszüntette a röghöz kötöttséget, így a jobbágyok szabadon költözhettek.",
+      "t": "felvilágosult abszolutizmus"
+    },
+    {
+      "q": "Mit ajánlott fel Széchenyi István a Magyar Tudós Társaság megalapítására az 1825-ös pozsonyi országgyűlésen?",
+      "a": [
+        "Birtokai egyévi jövedelmét",
+        "Teljes vagyonát az államnak",
+        "Egyetlen budai palotáját",
+        "Könyvtárának teljes anyagát"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Széchenyi az 1825-ös pozsonyi országgyűlésen birtokai egyévi, 60 000 forintos jövedelmét ajánlotta fel a Magyar Tudós Társaságra.",
+      "t": "reformkor"
+    },
+    {
+      "q": "Miért volt jelentős a Lánchíd megépítése Széchenyi kezdeményezésére?",
+      "a": [
+        "Állandó híddal kötötte össze Pestet és Budát, vámmal a nemességre is",
+        "Mert ez volt az első vasúti híd Magyarországon",
+        "Mert kizárólag katonai célokat szolgált",
+        "Mert minden társadalmi réteg számára ingyenes volt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Lánchíd volt az első állandó Duna-híd Pest és Buda között, és vámfizetésre kötelezte az addig mentesülő nemességet is.",
+      "t": "reformkor"
+    },
+    {
+      "q": "Mi volt Kossuth Lajos Pesti Hírlapjának fő szerepe a reformkorban?",
+      "a": [
+        "A reformeszmék, köztük a jobbágyfelszabadítás terjesztése",
+        "Kizárólag gazdasági hirdetések közlése",
+        "A Habsburg udvar hivatalos közlönyeként működött",
+        "Csak szépirodalmi művek megjelentetése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Pesti Hírlap Kossuth vezetésével a reformkor legolvasottabb és legradikálisabb hangú lapja volt.",
+      "t": "reformkor"
+    },
+    {
+      "q": "Milyen gazdasági céllal alapította Széchenyi a hitelintézeti és gőzhajózási vállalkozásait?",
+      "a": [
+        "A hazai ipar és a modern gazdaság fejlesztésére",
+        "Kizárólag saját vagyonának gyarapítására",
+        "A jobbágyfelszabadítás megakadályozására",
+        "Az osztrák gazdasági érdekek kiszolgálására"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Széchenyi számos vállalkozása (hitelintézet, gőzhajózás, hengermalom) a modern magyar gazdaság megteremtését szolgálta.",
+      "t": "reformkor"
+    },
+    {
+      "q": "Miben tért el alapvetően Kossuth és Széchenyi elképzelése a reformok ütemezéséről?",
+      "a": [
+        "Kossuth gyors, radikális, Széchenyi fokozatos, óvatos reformokat sürgetett",
+        "Széchenyi azonnali forradalmat akart, Kossuth inkább halogatást",
+        "Mindketten teljesen egyetértettek a reformok ütemében",
+        "Kossuth ellenezte, Széchenyi sürgette a Habsburgokkal való szakítást"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kossuth radikálisabb, gyorsabb átalakulást sürgetett, míg Széchenyi a fokozatos, megfontolt reformok híve volt.",
+      "t": "reformkor"
+    },
+    {
+      "q": "Mit követelt elsőként a 12 pont a sajtóval kapcsolatban?",
+      "a": [
+        "A cenzúra eltörlését és a sajtószabadság bevezetését",
+        "A külföldi lapok betiltását",
+        "Az összes újság állami tulajdonba vételét",
+        "A cenzúra szigorítását a rend érdekében"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A 12 pont első követelése a sajtószabadság és a cenzúra eltörlése volt.",
+      "t": "1848–49"
+    },
+    {
+      "q": "Ki volt Magyarország első, az országgyűlésnek felelős kormányának miniszterelnöke 1848-ban?",
+      "a": [
+        "Batthyány Lajos",
+        "Kossuth Lajos",
+        "Széchenyi István",
+        "Deák Ferenc"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Batthyány Lajos gróf lett az első, a magyar országgyűlésnek felelős kormány miniszterelnöke 1848 áprilisában.",
+      "t": "1848–49"
+    },
+    {
+      "q": "Mit mondott ki a debreceni trónfosztás 1849. április 14-én?",
+      "a": [
+        "A Habsburg-ház trónfosztását és Magyarország függetlenségét",
+        "Békekötést a Habsburgokkal",
+        "A Habsburg uralkodó jogainak visszaállítását",
+        "Kossuth Lajos királlyá koronázását"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A debreceni országgyűlés 1849. április 14-én kimondta a Habsburg-ház trónfosztását, és Kossuthot kormányzó-elnökké választotta.",
+      "t": "1848–49"
+    },
+    {
+      "q": "Melyik győzelem nyitotta meg 1849 áprilisában az utat a magyar sereg előtt Pest-Buda felé?",
+      "a": [
+        "Az isaszegi csata",
+        "A pákozdi csata",
+        "A branyiszkói csata",
+        "A szolnoki csata"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az 1849 áprilisi isaszegi győzelem a tavaszi hadjárat egyik döntő ütközete volt, amely megnyitotta az utat Pest-Buda felé.",
+      "t": "1848–49"
+    },
+    {
+      "q": "Miért vonult be az orosz cári hadsereg 1849-ben a magyar szabadságharc leverésére?",
+      "a": [
+        "Ferenc József kérte fel a segítségnyújtásra I. Miklós cárt",
+        "Saját önálló területi igényei miatt támadott",
+        "A törökök elleni közös hadjárat része volt",
+        "A lengyel felkelés megtorlásaként vonult át az országon"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "I. Ferenc József I. Miklós orosz cár segítségét kérte, aki jelentős haderőt küldött a szabadságharc leverésére.",
+      "t": "1848–49"
+    },
+    {
+      "q": "Hol tette le a fegyvert Görgei Artúr honvédserege 1849 augusztusában?",
+      "a": [
+        "Világosnál, az orosz csapatok előtt",
+        "Aradnál, az osztrák csapatok előtt",
+        "Temesvárnál, az osztrák csapatok előtt",
+        "Komáromnál, a magyar erők előtt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Görgei Artúr 1849. augusztus 13-án Világosnál tette le a fegyvert az orosz haderő előtt.",
+      "t": "1848–49"
+    },
+    {
+      "q": "Milyen közjogi berendezkedést hozott létre az 1867-es kiegyezés?",
+      "a": [
+        "Az Osztrák–Magyar Monarchiát, közös uralkodóval és külön kormányokkal",
+        "Magyarország teljes függetlenségét Ausztriától",
+        "Egy egységes, központosított birodalmi kormányzatot",
+        "Magyarország bekebelezését Ausztriába"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kiegyezés létrehozta az Osztrák–Magyar Monarchiát, amelyben Magyarország és Ausztria közös uralkodó alatt, de önálló kormányokkal működött.",
+      "t": "dualizmus"
+    },
+    {
+      "q": "Miért nevezik Deák Ferencet 'a haza bölcsének'?",
+      "a": [
+        "Mert békés, tárgyalásos úton érte el a kiegyezést a Habsburgokkal",
+        "Mert ő vezette az 1848-as forradalmat",
+        "Mert győztes csatákat vezényelt 1849-ben",
+        "Mert megalapította a Magyar Tudományos Akadémiát"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Deák Ferenc a mérsékelt, megegyezésre törekvő politikájával érte el az 1867-es kiegyezést, ezért nevezték a haza bölcsének.",
+      "t": "dualizmus"
+    },
+    {
+      "q": "Milyen területeket tartott fenn közös ügyként a kiegyezés a Monarchia két fele között?",
+      "a": [
+        "A külügyet, a hadügyet és az ezekhez kapcsolódó pénzügyeket",
+        "Az oktatást és az egészségügyet",
+        "A mezőgazdaságot és az ipart",
+        "A belügyet és az igazságszolgáltatást"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kiegyezés a külügyet, a hadügyet és az ezekhez kapcsolódó pénzügyeket közösnek nyilvánította, minden mást önálló magyar hatáskörbe utalt.",
+      "t": "dualizmus"
+    },
+    {
+      "q": "Milyen infrastrukturális elsőséget ért el Budapest Európában 1896-ban?",
+      "a": [
+        "Megnyílt a kontinens első földalatti vasútja",
+        "Megépült Európa első felhőkarcolója",
+        "Átadták Európa első autópályáját",
+        "Megnyílt Európa első repülőtere"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1896-ban Budapesten adták át a Millenniumi Földalatti Vasutat, a kontinens első földalatti vasútvonalát.",
+      "t": "dualizmus"
+    },
+    {
+      "q": "Milyen gazdasági folyamat jellemezte Magyarországot a dualizmus korában, a kiegyezés utáni évtizedekben?",
+      "a": [
+        "Gyors iparosodás és városiasodás, elsősorban Budapest köré összpontosulva",
+        "Az ipar és a mezőgazdaság egyidejű, folyamatos hanyatlása",
+        "Folyamatos elvándorlás és teljes gazdasági visszaesés",
+        "Az ország teljes gazdasági elzárkózása a külföldtől"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A dualizmus korában Magyarország gyors iparosodáson és városiasodáson ment keresztül, Budapest világvárossá fejlődött.",
+      "t": "dualizmus"
+    },
+    {
+      "q": "Hol írták alá a Magyarországra vonatkozó békeszerződést 1920-ban?",
+      "a": [
+        "A versailles-i Nagy-Trianon palotában",
+        "A párizsi Élysée-palotában",
+        "A genfi Nemzetek Szövetsége székházában",
+        "A bécsi Hofburgban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A trianoni békeszerződést 1920. június 4-én a Nagy-Trianon palotában írták alá Versailles mellett.",
+      "t": "Trianon"
+    },
+    {
+      "q": "Milyen mértékű területveszteséget szenvedett el Magyarország a trianoni békeszerződés következtében?",
+      "a": [
+        "Területének mintegy kétharmadát elvesztette",
+        "Területének körülbelül egytizedét elvesztette",
+        "Területe lényegében változatlan maradt",
+        "Területét gyakorlatilag megkétszerezte"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A trianoni béke következtében Magyarország elveszítette korábbi területének és lakosságának mintegy kétharmadát.",
+      "t": "Trianon"
+    },
+    {
+      "q": "Milyen államformát vezetett be Magyarország 1920-ban, uralkodó nélkül?",
+      "a": [
+        "Királyságot kormányzói államfővel az élén",
+        "Köztársaságot elnökkel az élén",
+        "Katonai diktatúrát",
+        "Szovjet mintájú tanácsköztársaságot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1920-ban Magyarország hivatalosan királyság maradt uralkodó nélkül, az államfői teendőket a kormányzó, Horthy Miklós látta el.",
+      "t": "két világháború"
+    },
+    {
+      "q": "Miért volt jelentős Bethlen István miniszterelnöksége a húszas években?",
+      "a": [
+        "Konszolidálta az országot gazdaságilag és politikailag a háborús évek után",
+        "Ő indította el Magyarország hadba lépését a második világháborúban",
+        "Ő kötötte meg a trianoni békeszerződést",
+        "Ő vezette be elsőként a numerus clausus törvényt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Bethlen István kormánya (1921–1931) stabilizálta a gazdaságot és a politikai berendezkedést a háborús és forradalmi évek után.",
+      "t": "két világháború"
+    },
+    {
+      "q": "Mi volt a Horthy-korszak revíziós politikájának fő célja?",
+      "a": [
+        "A trianoni békében elvesztett területek visszaszerzése",
+        "Gyarmatok szerzése Afrikában",
+        "A köztársasági államforma bevezetése",
+        "Szovjet mintájú tervgazdaság kiépítése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A revíziós politika célja a trianoni békeszerződésben elcsatolt magyar területek visszaszerzése volt.",
+      "t": "két világháború"
+    },
+    {
+      "q": "Milyen esemény szolgált ürügyül Magyarország hadba lépésére a Szovjetunió ellen 1941-ben?",
+      "a": [
+        "Kassa bombázása, amelynek elkövetőjét a mai napig sem sikerült egyértelműen azonosítani",
+        "Egy tengeri csata a Duna-deltában",
+        "Egy magyar hadihajó elsüllyesztése",
+        "Egy merénylet a budapesti szovjet nagykövetség ellen"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1941. június 26-án ismeretlen gépek bombázták Kassát, ez szolgált ürügyül a Szovjetunió elleni hadba lépésre.",
+      "t": "II. világháború"
+    },
+    {
+      "q": "Melyik magyar hadsereg szenvedett katasztrofális vereséget a Don-kanyarnál 1943 januárjában?",
+      "a": [
+        "A 2. magyar hadsereg",
+        "Az 1. magyar hadsereg",
+        "A honvéd légierő teljes állománya",
+        "A Duna Flottilla"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 2. magyar hadsereg 1943 januárjában a Don-kanyarnál szenvedett súlyos, sok tízezer áldozattal járó vereséget.",
+      "t": "II. világháború"
+    },
+    {
+      "q": "Miért szállta meg Németország Magyarországot 1944 márciusában?",
+      "a": [
+        "Meg akarta akadályozni Magyarország esetleges háborúból való kiugrását",
+        "Magyarország megtagadta korábbi szövetségét Németországgal",
+        "A magyar hadsereg fellázadt Horthy kormányzó ellen",
+        "Szövetségesi kérésre vonultak be a Vörös Hadsereg ellen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Németország attól tartott, hogy Magyarország különbékét köt a szövetségesekkel, ezért szállta meg 1944 márciusában.",
+      "t": "II. világháború"
+    },
+    {
+      "q": "Mivel próbálta Horthy Miklós kivezetni Magyarországot a háborúból 1944 októberében, sikertelenül?",
+      "a": [
+        "Bejelentette a fegyverszünetet, de a németek megakadályozták végrehajtását",
+        "Hivatalosan hadat üzent Németországnak, és folytatta a harcot",
+        "Elmenekült külföldre, és onnan próbálta irányítani az országot",
+        "Katonai puccsal próbálta megdönteni a németbarát kormányt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Horthy 1944. október 15-én bejelentette a fegyverszünetet, de a németek Szálasit juttatták hatalomra, és megakadályozták a kiugrást.",
+      "t": "II. világháború"
+    },
+    {
+      "q": "Meddig tartott Budapest ostroma a második világháború végén?",
+      "a": [
+        "1944 végétől 1945 februárjáig",
+        "1944 nyarától egészen 1945 nyaráig",
+        "Mindössze néhány napig, 1945 márciusában",
+        "1943 telétől 1944 tavaszáig"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Budapest ostroma 1944 végén kezdődött és 1945. február 13-án, a főváros teljes elfoglalásával ért véget.",
+      "t": "II. világháború"
+    },
+    {
+      "q": "Mi váltotta ki közvetlenül az 1956. október 23-i tüntetést Budapesten?",
+      "a": [
+        "A lengyelországi reformfolyamattal való szolidaritás és a diákok követelései",
+        "Egy közvetlen szovjet katonai provokáció",
+        "Nagy Imre nyilvános letartóztatása",
+        "A gazdasági válság aznapi hirtelen kirobbanása"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tüntetést a lengyel reformfolyamat iránti szolidaritás és a Műegyetem hallgatóinak reformkövetelései indították el.",
+      "t": "1956"
+    },
+    {
+      "q": "Milyen bejelentés előzte meg közvetlenül a szovjet csapatok 1956. november 4-i támadását?",
+      "a": [
+        "Nagy Imre bejelentette Magyarország semlegességét és kilépését a Varsói Szerződésből",
+        "A kormány bejelentette a többpártrendszer végleges eltörlését",
+        "Kádár János bejelentette lemondását a hatalomról",
+        "Az ENSZ hadüzenetet küldött a Szovjetuniónak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nagy Imre november 1-jén jelentette be Magyarország kilépését a Varsói Szerződésből és semlegességét, amire válaszul a szovjetek támadást indítottak.",
+      "t": "1956"
+    },
+    {
+      "q": "Ki lett a szovjet intervenció után felállított új magyar kormány élén 1956 novemberében?",
+      "a": [
+        "Kádár János",
+        "Nagy Imre",
+        "Rákosi Mátyás",
+        "Gerő Ernő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szovjet beavatkozás után Kádár János alakított új, Moszkva által támogatott kormányt 1956 novemberében.",
+      "t": "1956"
+    },
+    {
+      "q": "Milyen sorsra jutott Nagy Imre a forradalom leverése után?",
+      "a": [
+        "Koncepciós perben halálra ítélték és kivégezték",
+        "Száműzetésbe kényszerült Nyugatra",
+        "Amnesztiát kapott, és visszatérhetett a politikába",
+        "Életfogytiglani börtönbüntetést kapott, majd szabadult"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nagy Imrét titkos perben halálra ítélték, és 1958-ban kivégezték a forradalomban játszott szerepéért.",
+      "t": "1956"
+    },
+    {
+      "q": "Milyen jelképes esemény zajlott 1989. június 16-án Budapesten, a Hősök terén?",
+      "a": [
+        "Nagy Imre és mártírtársai ünnepélyes újratemetése",
+        "A Szabadság-szobor ünnepélyes leleplezése",
+        "Az első szabad országgyűlési választás megtartása",
+        "A szovjet csapatok teljes kivonulásának bejelentése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1989. június 16-án Nagy Imre és mártírtársai ünnepélyes újratemetésére került sor, amelyen több százezren vettek részt.",
+      "t": "rendszerváltás"
+    },
+    {
+      "q": "Mit jelentett be Szűrös Mátyás 1989. október 23-án a Kossuth téren?",
+      "a": [
+        "A Magyar Köztársaság kikiáltását",
+        "Az egypártrendszer további fenntartását",
+        "Nagy Imre kinevezését miniszterelnökké",
+        "A szovjet csapatok bevonulásának kérését"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szűrös Mátyás ideiglenes köztársasági elnökként 1989. október 23-án kikiáltotta a Magyar Köztársaságot.",
+      "t": "rendszerváltás"
+    },
+    {
+      "q": "Miért volt jelentős a Nemzeti Kerekasztal-tárgyalások lezárása 1989-ben?",
+      "a": [
+        "Megegyezés született a békés átmenet politikai és jogi feltételeiről",
+        "Ekkor döntöttek a Varsói Szerződés azonnali megszüntetéséről",
+        "Ekkor írták alá az első uniós csatlakozási szerződést",
+        "Ekkor egyeztek meg az ország kettéosztásáról"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kerekasztal-tárgyalásokon az állampárt és az ellenzéki szervezetek megállapodtak a többpárti demokráciába való békés átmenet feltételeiről.",
+      "t": "rendszerváltás"
+    },
+    {
+      "q": "Mikor tartották Magyarországon az első többpárti, szabad országgyűlési választásokat a rendszerváltás után?",
+      "a": [
+        "1990 tavaszán",
+        "1989 őszén",
+        "1991 nyarán",
+        "1988 telén"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az első szabad, többpárti parlamenti választásokra 1990 tavaszán került sor Magyarországon.",
+      "t": "rendszerváltás"
     }
   ]
 }

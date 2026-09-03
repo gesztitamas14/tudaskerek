@@ -2,61 +2,2280 @@
   "category": "logika",
   "default_source": "saját szerkesztés (logikai és számtani feladatok)",
   "questions": [
-    {"q": "Melyik szám következik: 2, 4, 8, 16, ...?", "a": ["32", "24", "20", "64"], "c": 0, "d": "easy", "e": "Minden tag az előző kétszerese.", "t": "számsorok"},
-    {"q": "Melyik szám következik: 1, 1, 2, 3, 5, 8, ...?", "a": ["13", "11", "12", "16"], "c": 0, "d": "easy", "e": "Fibonacci-sorozat: minden tag az előző kettő összege.", "t": "számsorok"},
-    {"q": "Melyik szám következik: 3, 6, 12, 24, ...?", "a": ["48", "36", "30", "60"], "c": 0, "d": "easy", "e": "Minden tag az előző kétszerese.", "t": "számsorok"},
-    {"q": "Melyik szám következik: 1, 4, 9, 16, 25, ...?", "a": ["36", "30", "35", "49"], "c": 0, "d": "easy", "e": "Négyzetszámok: 1², 2², 3², … a következő 6² = 36.", "t": "számsorok"},
-    {"q": "Melyik szám következik: 2, 3, 5, 7, 11, ...?", "a": ["13", "12", "15", "9"], "c": 0, "d": "medium", "e": "Prímszámok sorozata.", "t": "számsorok"},
-    {"q": "Melyik szám következik: 100, 90, 81, 73, ...?", "a": ["66", "64", "70", "68"], "c": 0, "d": "hard", "e": "A kivonás nagysága csökken: -10, -9, -8, -7 → 73 - 7 = 66.", "t": "számsorok"},
-    {"q": "Melyik szám következik: 1, 8, 27, 64, ...?", "a": ["125", "100", "81", "128"], "c": 0, "d": "medium", "e": "Köbszámok: 1³, 2³, 3³, 4³, 5³ = 125.", "t": "számsorok"},
-    {"q": "Melyik szám következik: 31, 28, 31, 30, 31, ...?", "a": ["30", "31", "28", "29"], "c": 0, "d": "hard", "e": "A hónapok napjainak száma januártól: január, február, március, április, május, június = 30.", "t": "számsorok"},
-    {"q": "Melyik szám hiányzik: 4, 9, 16, ?, 36", "a": ["25", "20", "24", "30"], "c": 0, "d": "easy", "e": "Négyzetszámok: 2², 3², 4², 5², 6².", "t": "számsorok"},
-    {"q": "Melyik szám következik: 2, 6, 12, 20, 30, ...?", "a": ["42", "40", "36", "45"], "c": 0, "d": "medium", "e": "A különbségek: 4, 6, 8, 10, 12 → 30 + 12 = 42.", "t": "számsorok"},
-    {"q": "Ha minden A elem B, és minden B elem C, akkor mi következik?", "a": ["Minden A elem C", "Minden C elem A", "Nincs A, ami C", "Semmi nem következik"], "c": 0, "d": "medium", "e": "Ez a tranzitív következtetés klasszikus szillogizmusa.", "t": "következtetés"},
-    {"q": "„Ha esik az eső, akkor nedves az út.” Az út nedves. Mi következik biztosan?", "a": ["Semmi biztos nem következik", "Esett az eső", "Nem esett az eső", "Mindig esik az eső"], "c": 0, "d": "hard", "e": "Ez a fordított következtetés hibája: az út más okból is lehet nedves.", "t": "következtetés"},
-    {"q": "„Ha esik az eső, akkor nedves az út.” Az út nem nedves. Mi következik?", "a": ["Nem esett az eső", "Esett az eső", "Semmi nem következik", "Mindkettő lehetséges"], "c": 0, "d": "medium", "e": "Ez az érvényes modus tollens következtetés.", "t": "következtetés"},
-    {"q": "Minden macska emlős. Néhány emlős fekete. Mi következik biztosan?", "a": ["Semmi biztos a macskák színéről", "Minden macska fekete", "Néhány macska fekete", "Egy macska sem fekete"], "c": 0, "d": "hard", "e": "A „néhány emlős fekete” állításból nem következik semmi a macskákra.", "t": "következtetés"},
-    {"q": "Egy dobozban 3 piros és 2 kék golyó van. Mennyi az esélye, hogy pirosat húzunk?", "a": ["3/5", "2/5", "1/2", "1/3"], "c": 0, "d": "easy", "e": "Öt golyóból három piros.", "t": "valószínűség"},
-    {"q": "Mennyi az esélye, hogy egy szabályos dobókockával hatost dobunk?", "a": ["1/6", "1/2", "1/3", "1/12"], "c": 0, "d": "easy", "e": "Hat egyenlő esélyű kimenet van.", "t": "valószínűség"},
-    {"q": "Mennyi az esélye, hogy két érmefeldobásból mindkettő fej?", "a": ["1/4", "1/2", "1/3", "1/8"], "c": 0, "d": "medium", "e": "1/2 × 1/2 = 1/4.", "t": "valószínűség"},
-    {"q": "Egy órán a nagymutató és a kismutató 3:00-kor mekkora szöget zár be?", "a": ["90 fok", "45 fok", "120 fok", "60 fok"], "c": 0, "d": "medium", "e": "A nagymutató a 12-nél, a kismutató a 3-nál van: negyed kör.", "t": "geometria"},
-    {"q": "Mennyi a szöge két egymást követő óraszám között az órán?", "a": ["30 fok", "15 fok", "45 fok", "60 fok"], "c": 0, "d": "medium", "e": "360 fok osztva 12 számmal.", "t": "geometria"},
-    {"q": "Egy szoba 4 méter × 5 méter. Mennyi a területe?", "a": ["20 m²", "18 m²", "9 m²", "25 m²"], "c": 0, "d": "easy", "e": "4 × 5 = 20.", "t": "számolás"},
-    {"q": "Egy termék 100 forintba kerül. 20% engedmény után mennyi az ára?", "a": ["80 forint", "75 forint", "85 forint", "90 forint"], "c": 0, "d": "easy", "e": "100 - 20 = 80.", "t": "számolás"},
-    {"q": "Egy termék 80 forint, ez 20%-os engedmény utáni ár. Mennyi volt az eredeti ár?", "a": ["100 forint", "96 forint", "88 forint", "120 forint"], "c": 0, "d": "medium", "e": "80 / 0,8 = 100.", "t": "számolás"},
-    {"q": "Ha egy vonat 60 km/h-val megy, mennyi idő alatt tesz meg 150 km-t?", "a": ["2 óra 30 perc", "2 óra", "3 óra", "1 óra 50 perc"], "c": 0, "d": "medium", "e": "150 / 60 = 2,5 óra.", "t": "számolás"},
-    {"q": "Öt gép öt perc alatt öt terméket készít. Mennyi idő alatt készít száz gép száz terméket?", "a": ["5 perc", "100 perc", "20 perc", "1 perc"], "c": 0, "d": "hard", "e": "Egy gép öt perc alatt egy terméket készít, ezért száz gép is öt perc alatt száz terméket.", "t": "fejtörő"},
-    {"q": "Egy tavon a tavirózsa minden nap duplázódik, és 48 nap alatt betakarja a tavat. Mikor takarja be a felét?", "a": ["A 47. napon", "A 24. napon", "A 46. napon", "A 12. napon"], "c": 0, "d": "medium", "e": "Ha a 48. napon teli, akkor eggyel korábban félig volt.", "t": "fejtörő"},
-    {"q": "Egy ütő és egy labda együtt 1100 forint. Az ütő 1000 forinttal drágább. Mennyi a labda?", "a": ["50 forint", "100 forint", "150 forint", "10 forint"], "c": 0, "d": "hard", "e": "Ha a labda 50, az ütő 1050, összesen 1100 – a különbség pontosan 1000.", "t": "fejtörő"},
-    {"q": "Hány születésnapja van egy 40 éves embernek?", "a": ["Egy", "Negyven", "Negyvenegy", "Kettő"], "c": 0, "d": "medium", "e": "Születésnapja egy van: az a dátum, amikor született.", "t": "fejtörő"},
-    {"q": "Egy ember minden nap ugyanazzal a lifttel jár. Mennyi lehet a legkevesebb lift a házban?", "a": ["Egy", "Kettő", "Három", "Nulla"], "c": 0, "d": "easy", "e": "Egyetlen lift is elég ahhoz, hogy mindig ugyanazzal járjon.", "t": "fejtörő"},
-    {"q": "Ha három alma három forintba kerül, mennyibe kerül kilenc alma?", "a": ["9 forint", "3 forint", "12 forint", "27 forint"], "c": 0, "d": "easy", "e": "Egy alma egy forint, kilenc alma kilenc forint.", "t": "számolás"},
-    {"q": "Melyik nem tartozik a többi közé: kör, négyzet, háromszög, kocka?", "a": ["Kocka", "Kör", "Négyzet", "Háromszög"], "c": 0, "d": "easy", "e": "A kocka térbeli test, a többi síkbeli alakzat.", "t": "kakukktojás"},
-    {"q": "Melyik nem tartozik a többi közé: hegedű, cselló, brácsa, trombita?", "a": ["Trombita", "Hegedű", "Cselló", "Brácsa"], "c": 0, "d": "easy", "e": "A trombita fúvós, a többi vonós hangszer.", "t": "kakukktojás"},
-    {"q": "Melyik nem tartozik a többi közé: Duna, Tisza, Balaton, Rába?", "a": ["Balaton", "Duna", "Tisza", "Rába"], "c": 0, "d": "easy", "e": "A Balaton tó, a többi folyó.", "t": "kakukktojás"},
-    {"q": "Melyik nem tartozik a többi közé: 2, 3, 5, 9?", "a": ["9", "2", "3", "5"], "c": 0, "d": "medium", "e": "A 9 nem prímszám (3 × 3).", "t": "kakukktojás"},
-    {"q": "Melyik nem tartozik a többi közé: réz, vas, alumínium, gyémánt?", "a": ["Gyémánt", "Réz", "Vas", "Alumínium"], "c": 0, "d": "medium", "e": "A gyémánt nem fém, hanem a szén egyik módosulata.", "t": "kakukktojás"},
-    {"q": "Ha ma szerda van, milyen nap lesz 10 nap múlva?", "a": ["Szombat", "Péntek", "Vasárnap", "Hétfő"], "c": 0, "d": "medium", "e": "10 = 7 + 3, tehát három nappal későbbi nap: szombat.", "t": "számolás"},
-    {"q": "Ha ma péntek van, milyen nap volt 100 nappal korábban?", "a": ["Szerda", "Péntek", "Csütörtök", "Vasárnap"], "c": 0, "d": "hard", "e": "98 nap pontosan 14 hét (péntek), további 2 nap visszafelé: szerda.", "t": "számolás"},
-    {"q": "Hány háromszög van egy négyzet két átlójának behúzása után (a legkisebbeket számolva)?", "a": ["4", "2", "6", "8"], "c": 0, "d": "medium", "e": "A két átló négy kis háromszögre osztja a négyzetet.", "t": "geometria"},
-    {"q": "Mennyi 200-nak a 15 százaléka?", "a": ["30", "20", "25", "35"], "c": 0, "d": "easy", "e": "200 × 0,15 = 30.", "t": "számolás"},
-    {"q": "Egy négyzet oldala 6 cm. Mennyi a kerülete?", "a": ["24 cm", "36 cm", "12 cm", "18 cm"], "c": 0, "d": "easy", "e": "4 × 6 = 24 cm.", "t": "geometria"},
-    {"q": "Egy négyzet oldala 6 cm. Mennyi a területe?", "a": ["36 cm²", "24 cm²", "12 cm²", "18 cm²"], "c": 0, "d": "easy", "e": "6 × 6 = 36 cm².", "t": "geometria"},
-    {"q": "Mennyi az összege az első tíz pozitív egész számnak?", "a": ["55", "45", "50", "60"], "c": 0, "d": "medium", "e": "10 × 11 / 2 = 55.", "t": "számolás"},
-    {"q": "Egy zsákban 10 fekete és 10 fehér zokni van, sötétben. Legalább hány zoknit kell kivenni, hogy biztosan legyen egy egyszínű pár?", "a": ["3", "2", "11", "20"], "c": 0, "d": "medium", "e": "Két zokni lehet különböző színű, a harmadik biztosan párt képez valamelyikkel.", "t": "fejtörő"},
-    {"q": "Egy szobában négy sarok van, mindegyikben egy macska, minden macska előtt három macska. Hány macska van a szobában?", "a": ["4", "12", "16", "8"], "c": 0, "d": "hard", "e": "Mindegyik macska a másik hármat látja, tehát négy macska van.", "t": "fejtörő"},
-    {"q": "Ha egy csiga naponta 3 métert felmászik és éjjel 2 métert visszacsúszik, mennyi idő alatt ér fel egy 10 méteres falra?", "a": ["8 nap", "10 nap", "7 nap", "9 nap"], "c": 0, "d": "hard", "e": "Naponta 1 métert haladva a 7. nap végén 7 méteren van, a 8. napon 3 métert mászva eléri a 10 métert.", "t": "fejtörő"},
-    {"q": "Melyik betű következik: A, C, E, G, ...?", "a": ["I", "H", "J", "K"], "c": 0, "d": "medium", "e": "Minden második betű az angol ábécében.", "t": "sorozatok"},
-    {"q": "Melyik betűsor a következő: AB, CD, EF, ...?", "a": ["GH", "FG", "HI", "GI"], "c": 0, "d": "easy", "e": "Kettesével haladunk az ábécében.", "t": "sorozatok"},
-    {"q": "Ha KUTYA = 5 betű, akkor MACSKA hány betű?", "a": ["6", "5", "7", "4"], "c": 0, "d": "easy", "e": "A macska szó hat betűből áll.", "t": "sorozatok"},
-    {"q": "Mennyi 7 × 8?", "a": ["56", "54", "63", "48"], "c": 0, "d": "easy", "e": "A hetes szorzótábla nyolcadik eleme.", "t": "számolás"},
-    {"q": "Mennyi 144 gyöke?", "a": ["12", "14", "16", "11"], "c": 0, "d": "medium", "e": "12 × 12 = 144.", "t": "számolás"},
-    {"q": "Mennyi 2 a tizedik hatványon?", "a": ["1024", "512", "2048", "100"], "c": 0, "d": "medium", "e": "Ezért egy kibibájt 1024 bájt.", "t": "számolás"},
-    {"q": "Két testvér közül az egyik 3 évvel idősebb. Együtt 21 évesek. Hány éves a fiatalabb?", "a": ["9", "10", "8", "12"], "c": 0, "d": "medium", "e": "9 + 12 = 21, a különbség 3.", "t": "számolás"},
-    {"q": "Egy kosárban 12 alma van. Elveszed a felét, majd annak a felét visszateszed. Hány alma van a kosárban?", "a": ["9", "6", "12", "3"], "c": 0, "d": "medium", "e": "12 - 6 = 6, majd +3 = 9.", "t": "számolás"},
-    {"q": "Mennyi a legkisebb szám, amely osztható 2-vel, 3-mal és 4-gyel is?", "a": ["12", "6", "24", "8"], "c": 0, "d": "medium", "e": "A legkisebb közös többszörös 12.", "t": "számolás"},
-    {"q": "Hány átlója van egy négyszögnek?", "a": ["2", "4", "1", "3"], "c": 0, "d": "medium", "e": "Négy csúcsnál két átló húzható.", "t": "geometria"},
-    {"q": "Hány éle van egy kockának?", "a": ["12", "8", "6", "16"], "c": 0, "d": "easy", "e": "Hat lap, nyolc csúcs, tizenkét él.", "t": "geometria"},
-    {"q": "Hány csúcsa van egy kockának?", "a": ["8", "6", "12", "4"], "c": 0, "d": "easy", "e": "Nyolc csúcs, hat lap, tizenkét él.", "t": "geometria"}
+    {
+      "q": "Melyik szám következik: 2, 4, 8, 16, ...?",
+      "a": [
+        "32",
+        "24",
+        "20",
+        "64"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Minden tag az előző kétszerese.",
+      "t": "számsorok"
+    },
+    {
+      "q": "Melyik szám következik: 1, 1, 2, 3, 5, 8, ...?",
+      "a": [
+        "13",
+        "11",
+        "12",
+        "16"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Fibonacci-sorozat: minden tag az előző kettő összege.",
+      "t": "számsorok"
+    },
+    {
+      "q": "Melyik szám következik: 3, 6, 12, 24, ...?",
+      "a": [
+        "48",
+        "36",
+        "30",
+        "60"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Minden tag az előző kétszerese.",
+      "t": "számsorok"
+    },
+    {
+      "q": "Melyik szám következik: 1, 4, 9, 16, 25, ...?",
+      "a": [
+        "36",
+        "30",
+        "35",
+        "49"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Négyzetszámok: 1², 2², 3², … a következő 6² = 36.",
+      "t": "számsorok"
+    },
+    {
+      "q": "Melyik szám következik: 2, 3, 5, 7, 11, ...?",
+      "a": [
+        "13",
+        "12",
+        "15",
+        "9"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Prímszámok sorozata.",
+      "t": "számsorok"
+    },
+    {
+      "q": "Melyik szám következik: 100, 90, 81, 73, ...?",
+      "a": [
+        "66",
+        "64",
+        "70",
+        "68"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kivonás nagysága csökken: -10, -9, -8, -7 → 73 - 7 = 66.",
+      "t": "számsorok"
+    },
+    {
+      "q": "Melyik szám következik: 1, 8, 27, 64, ...?",
+      "a": [
+        "125",
+        "100",
+        "81",
+        "128"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Köbszámok: 1³, 2³, 3³, 4³, 5³ = 125.",
+      "t": "számsorok"
+    },
+    {
+      "q": "Melyik szám következik: 31, 28, 31, 30, 31, ...?",
+      "a": [
+        "30",
+        "31",
+        "28",
+        "29"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hónapok napjainak száma januártól: január, február, március, április, május, június = 30.",
+      "t": "számsorok"
+    },
+    {
+      "q": "Melyik szám hiányzik: 4, 9, 16, ?, 36",
+      "a": [
+        "25",
+        "20",
+        "24",
+        "30"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Négyzetszámok: 2², 3², 4², 5², 6².",
+      "t": "számsorok"
+    },
+    {
+      "q": "Melyik szám következik: 2, 6, 12, 20, 30, ...?",
+      "a": [
+        "42",
+        "40",
+        "36",
+        "45"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A különbségek: 4, 6, 8, 10, 12 → 30 + 12 = 42.",
+      "t": "számsorok"
+    },
+    {
+      "q": "Ha minden A elem B, és minden B elem C, akkor mi következik?",
+      "a": [
+        "Minden A elem C",
+        "Minden C elem A",
+        "Nincs A, ami C",
+        "Semmi nem következik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ez a tranzitív következtetés klasszikus szillogizmusa.",
+      "t": "következtetés"
+    },
+    {
+      "q": "„Ha esik az eső, akkor nedves az út.” Az út nedves. Mi következik biztosan?",
+      "a": [
+        "Semmi biztos nem következik",
+        "Esett az eső",
+        "Nem esett az eső",
+        "Mindig esik az eső"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ez a fordított következtetés hibája: az út más okból is lehet nedves.",
+      "t": "következtetés"
+    },
+    {
+      "q": "„Ha esik az eső, akkor nedves az út.” Az út nem nedves. Mi következik?",
+      "a": [
+        "Nem esett az eső",
+        "Esett az eső",
+        "Semmi nem következik",
+        "Mindkettő lehetséges"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ez az érvényes modus tollens következtetés.",
+      "t": "következtetés"
+    },
+    {
+      "q": "Minden macska emlős. Néhány emlős fekete. Mi következik biztosan?",
+      "a": [
+        "Semmi biztos a macskák színéről",
+        "Minden macska fekete",
+        "Néhány macska fekete",
+        "Egy macska sem fekete"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A „néhány emlős fekete” állításból nem következik semmi a macskákra.",
+      "t": "következtetés"
+    },
+    {
+      "q": "Egy dobozban 3 piros és 2 kék golyó van. Mennyi az esélye, hogy pirosat húzunk?",
+      "a": [
+        "3/5",
+        "2/5",
+        "1/2",
+        "1/3"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Öt golyóból három piros.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Mennyi az esélye, hogy egy szabályos dobókockával hatost dobunk?",
+      "a": [
+        "1/6",
+        "1/2",
+        "1/3",
+        "1/12"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Hat egyenlő esélyű kimenet van.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Mennyi az esélye, hogy két érmefeldobásból mindkettő fej?",
+      "a": [
+        "1/4",
+        "1/2",
+        "1/3",
+        "1/8"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1/2 × 1/2 = 1/4.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Egy órán a nagymutató és a kismutató 3:00-kor mekkora szöget zár be?",
+      "a": [
+        "90 fok",
+        "45 fok",
+        "120 fok",
+        "60 fok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nagymutató a 12-nél, a kismutató a 3-nál van: negyed kör.",
+      "t": "geometria"
+    },
+    {
+      "q": "Mennyi a szöge két egymást követő óraszám között az órán?",
+      "a": [
+        "30 fok",
+        "15 fok",
+        "45 fok",
+        "60 fok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "360 fok osztva 12 számmal.",
+      "t": "geometria"
+    },
+    {
+      "q": "Egy szoba 4 méter × 5 méter. Mennyi a területe?",
+      "a": [
+        "20 m²",
+        "18 m²",
+        "9 m²",
+        "25 m²"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "4 × 5 = 20.",
+      "t": "számolás"
+    },
+    {
+      "q": "Egy termék 100 forintba kerül. 20% engedmény után mennyi az ára?",
+      "a": [
+        "80 forint",
+        "75 forint",
+        "85 forint",
+        "90 forint"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "100 - 20 = 80.",
+      "t": "számolás"
+    },
+    {
+      "q": "Egy termék 80 forint, ez 20%-os engedmény utáni ár. Mennyi volt az eredeti ár?",
+      "a": [
+        "100 forint",
+        "96 forint",
+        "88 forint",
+        "120 forint"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "80 / 0,8 = 100.",
+      "t": "számolás"
+    },
+    {
+      "q": "Ha egy vonat 60 km/h-val megy, mennyi idő alatt tesz meg 150 km-t?",
+      "a": [
+        "2 óra 30 perc",
+        "2 óra",
+        "3 óra",
+        "1 óra 50 perc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "150 / 60 = 2,5 óra.",
+      "t": "számolás"
+    },
+    {
+      "q": "Öt gép öt perc alatt öt terméket készít. Mennyi idő alatt készít száz gép száz terméket?",
+      "a": [
+        "5 perc",
+        "100 perc",
+        "20 perc",
+        "1 perc"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Egy gép öt perc alatt egy terméket készít, ezért száz gép is öt perc alatt száz terméket.",
+      "t": "fejtörő"
+    },
+    {
+      "q": "Egy tavon a tavirózsa minden nap duplázódik, és 48 nap alatt betakarja a tavat. Mikor takarja be a felét?",
+      "a": [
+        "A 47. napon",
+        "A 24. napon",
+        "A 46. napon",
+        "A 12. napon"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ha a 48. napon teli, akkor eggyel korábban félig volt.",
+      "t": "fejtörő"
+    },
+    {
+      "q": "Egy ütő és egy labda együtt 1100 forint. Az ütő 1000 forinttal drágább. Mennyi a labda?",
+      "a": [
+        "50 forint",
+        "100 forint",
+        "150 forint",
+        "10 forint"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ha a labda 50, az ütő 1050, összesen 1100 – a különbség pontosan 1000.",
+      "t": "fejtörő"
+    },
+    {
+      "q": "Hány születésnapja van egy 40 éves embernek?",
+      "a": [
+        "Egy",
+        "Negyven",
+        "Negyvenegy",
+        "Kettő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Születésnapja egy van: az a dátum, amikor született.",
+      "t": "fejtörő"
+    },
+    {
+      "q": "Egy ember minden nap ugyanazzal a lifttel jár. Mennyi lehet a legkevesebb lift a házban?",
+      "a": [
+        "Egy",
+        "Kettő",
+        "Három",
+        "Nulla"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egyetlen lift is elég ahhoz, hogy mindig ugyanazzal járjon.",
+      "t": "fejtörő"
+    },
+    {
+      "q": "Ha három alma három forintba kerül, mennyibe kerül kilenc alma?",
+      "a": [
+        "9 forint",
+        "3 forint",
+        "12 forint",
+        "27 forint"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egy alma egy forint, kilenc alma kilenc forint.",
+      "t": "számolás"
+    },
+    {
+      "q": "Melyik nem tartozik a többi közé: kör, négyzet, háromszög, kocka?",
+      "a": [
+        "Kocka",
+        "Kör",
+        "Négyzet",
+        "Háromszög"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kocka térbeli test, a többi síkbeli alakzat.",
+      "t": "kakukktojás"
+    },
+    {
+      "q": "Melyik nem tartozik a többi közé: hegedű, cselló, brácsa, trombita?",
+      "a": [
+        "Trombita",
+        "Hegedű",
+        "Cselló",
+        "Brácsa"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A trombita fúvós, a többi vonós hangszer.",
+      "t": "kakukktojás"
+    },
+    {
+      "q": "Melyik nem tartozik a többi közé: Duna, Tisza, Balaton, Rába?",
+      "a": [
+        "Balaton",
+        "Duna",
+        "Tisza",
+        "Rába"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Balaton tó, a többi folyó.",
+      "t": "kakukktojás"
+    },
+    {
+      "q": "Melyik nem tartozik a többi közé: 2, 3, 5, 9?",
+      "a": [
+        "9",
+        "2",
+        "3",
+        "5"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 9 nem prímszám (3 × 3).",
+      "t": "kakukktojás"
+    },
+    {
+      "q": "Melyik nem tartozik a többi közé: réz, vas, alumínium, gyémánt?",
+      "a": [
+        "Gyémánt",
+        "Réz",
+        "Vas",
+        "Alumínium"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gyémánt nem fém, hanem a szén egyik módosulata.",
+      "t": "kakukktojás"
+    },
+    {
+      "q": "Ha ma szerda van, milyen nap lesz 10 nap múlva?",
+      "a": [
+        "Szombat",
+        "Péntek",
+        "Vasárnap",
+        "Hétfő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "10 = 7 + 3, tehát három nappal későbbi nap: szombat.",
+      "t": "számolás"
+    },
+    {
+      "q": "Ha ma péntek van, milyen nap volt 100 nappal korábban?",
+      "a": [
+        "Szerda",
+        "Péntek",
+        "Csütörtök",
+        "Vasárnap"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "98 nap pontosan 14 hét (péntek), további 2 nap visszafelé: szerda.",
+      "t": "számolás"
+    },
+    {
+      "q": "Hány háromszög van egy négyzet két átlójának behúzása után (a legkisebbeket számolva)?",
+      "a": [
+        "4",
+        "2",
+        "6",
+        "8"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A két átló négy kis háromszögre osztja a négyzetet.",
+      "t": "geometria"
+    },
+    {
+      "q": "Mennyi 200-nak a 15 százaléka?",
+      "a": [
+        "30",
+        "20",
+        "25",
+        "35"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "200 × 0,15 = 30.",
+      "t": "számolás"
+    },
+    {
+      "q": "Egy négyzet oldala 6 cm. Mennyi a kerülete?",
+      "a": [
+        "24 cm",
+        "36 cm",
+        "12 cm",
+        "18 cm"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "4 × 6 = 24 cm.",
+      "t": "geometria"
+    },
+    {
+      "q": "Egy négyzet oldala 6 cm. Mennyi a területe?",
+      "a": [
+        "36 cm²",
+        "24 cm²",
+        "12 cm²",
+        "18 cm²"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "6 × 6 = 36 cm².",
+      "t": "geometria"
+    },
+    {
+      "q": "Mennyi az összege az első tíz pozitív egész számnak?",
+      "a": [
+        "55",
+        "45",
+        "50",
+        "60"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "10 × 11 / 2 = 55.",
+      "t": "számolás"
+    },
+    {
+      "q": "Egy zsákban 10 fekete és 10 fehér zokni van, sötétben. Legalább hány zoknit kell kivenni, hogy biztosan legyen egy egyszínű pár?",
+      "a": [
+        "3",
+        "2",
+        "11",
+        "20"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Két zokni lehet különböző színű, a harmadik biztosan párt képez valamelyikkel.",
+      "t": "fejtörő"
+    },
+    {
+      "q": "Egy szobában négy sarok van, mindegyikben egy macska, minden macska előtt három macska. Hány macska van a szobában?",
+      "a": [
+        "4",
+        "12",
+        "16",
+        "8"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mindegyik macska a másik hármat látja, tehát négy macska van.",
+      "t": "fejtörő"
+    },
+    {
+      "q": "Ha egy csiga naponta 3 métert felmászik és éjjel 2 métert visszacsúszik, mennyi idő alatt ér fel egy 10 méteres falra?",
+      "a": [
+        "8 nap",
+        "10 nap",
+        "7 nap",
+        "9 nap"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Naponta 1 métert haladva a 7. nap végén 7 méteren van, a 8. napon 3 métert mászva eléri a 10 métert.",
+      "t": "fejtörő"
+    },
+    {
+      "q": "Melyik betű következik: A, C, E, G, ...?",
+      "a": [
+        "I",
+        "H",
+        "J",
+        "K"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Minden második betű az angol ábécében.",
+      "t": "sorozatok"
+    },
+    {
+      "q": "Melyik betűsor a következő: AB, CD, EF, ...?",
+      "a": [
+        "GH",
+        "FG",
+        "HI",
+        "GI"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kettesével haladunk az ábécében.",
+      "t": "sorozatok"
+    },
+    {
+      "q": "Ha KUTYA = 5 betű, akkor MACSKA hány betű?",
+      "a": [
+        "6",
+        "5",
+        "7",
+        "4"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A macska szó hat betűből áll.",
+      "t": "sorozatok"
+    },
+    {
+      "q": "Mennyi 7 × 8?",
+      "a": [
+        "56",
+        "54",
+        "63",
+        "48"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hetes szorzótábla nyolcadik eleme.",
+      "t": "számolás"
+    },
+    {
+      "q": "Mennyi 144 gyöke?",
+      "a": [
+        "12",
+        "14",
+        "16",
+        "11"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "12 × 12 = 144.",
+      "t": "számolás"
+    },
+    {
+      "q": "Mennyi 2 a tizedik hatványon?",
+      "a": [
+        "1024",
+        "512",
+        "2048",
+        "100"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ezért egy kibibájt 1024 bájt.",
+      "t": "számolás"
+    },
+    {
+      "q": "Két testvér közül az egyik 3 évvel idősebb. Együtt 21 évesek. Hány éves a fiatalabb?",
+      "a": [
+        "9",
+        "10",
+        "8",
+        "12"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "9 + 12 = 21, a különbség 3.",
+      "t": "számolás"
+    },
+    {
+      "q": "Egy kosárban 12 alma van. Elveszed a felét, majd annak a felét visszateszed. Hány alma van a kosárban?",
+      "a": [
+        "9",
+        "6",
+        "12",
+        "3"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "12 - 6 = 6, majd +3 = 9.",
+      "t": "számolás"
+    },
+    {
+      "q": "Mennyi a legkisebb szám, amely osztható 2-vel, 3-mal és 4-gyel is?",
+      "a": [
+        "12",
+        "6",
+        "24",
+        "8"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A legkisebb közös többszörös 12.",
+      "t": "számolás"
+    },
+    {
+      "q": "Hány átlója van egy négyszögnek?",
+      "a": [
+        "2",
+        "4",
+        "1",
+        "3"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Négy csúcsnál két átló húzható.",
+      "t": "geometria"
+    },
+    {
+      "q": "Hány éle van egy kockának?",
+      "a": [
+        "12",
+        "8",
+        "6",
+        "16"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Hat lap, nyolc csúcs, tizenkét él.",
+      "t": "geometria"
+    },
+    {
+      "q": "Hány csúcsa van egy kockának?",
+      "a": [
+        "8",
+        "6",
+        "12",
+        "4"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Nyolc csúcs, hat lap, tizenkét él.",
+      "t": "geometria"
+    },
+    {
+      "q": "Mit nevezünk a logikában szillogizmusnak?",
+      "a": [
+        "Két premisszából levont érvényes következtetést",
+        "Egyetlen állítás igazságtáblázatát",
+        "Egy kör alakú érvelési hibát",
+        "Egy valószínűségi becslést"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Arisztotelész nevezte el a két premisszából konklúzióhoz jutó érvelést szillogizmusnak.",
+      "t": "szillogizmus"
+    },
+    {
+      "q": "„Minden ember halandó. Szókratész ember.” Mi következik biztosan?",
+      "a": [
+        "Szókratész halandó",
+        "Szókratész nem halandó",
+        "Minden halandó ember",
+        "Szókratész görög"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A klasszikus szillogizmus: ha minden ember halandó és Szókratész ember, akkor Szókratész halandó.",
+      "t": "szillogizmus"
+    },
+    {
+      "q": "„Egyetlen hüllő sem meleg vérű. Néhány állat hüllő.” Mi következik biztosan?",
+      "a": [
+        "Néhány állat nem meleg vérű",
+        "Minden állat hüllő",
+        "Egyetlen állat sem meleg vérű",
+        "Néhány hüllő meleg vérű"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ha van hüllő az állatok közt, és a hüllők nem meleg vérűek, akkor legalább néhány állat sem az.",
+      "t": "szillogizmus"
+    },
+    {
+      "q": "Hány premisszából (előfeltevésből) áll egy klasszikus szillogizmus?",
+      "a": [
+        "Kettőből",
+        "Egyből",
+        "Háromból",
+        "Négyből"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szillogizmus két premisszából (egy fő- és egy altételből) vezet le egy konklúziót.",
+      "t": "szillogizmus"
+    },
+    {
+      "q": "„Minden madár tud repülni. A pingvin madár.” Mi a hiba ebben az érvelésben?",
+      "a": [
+        "Az első állítás hamis: nem minden madár repül",
+        "A második állítás hamis: a pingvin nem madár",
+        "A következtetés logikai szerkezete érvénytelen",
+        "Nincs hiba, az érvelés helyes"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pingvin valóban madár, de nem minden madár repül, így a premissza hamis, nem a logika.",
+      "t": "szillogizmus"
+    },
+    {
+      "q": "Lehet-e érvényes a szillogizmus formája akkor is, ha a premisszák ténylegesen hamisak?",
+      "a": [
+        "Igen, a forma lehet érvényes hamis premisszák mellett is",
+        "Nem, hamis premisszából soha nem lehet érvényes forma",
+        "Csak akkor, ha a konklúzió is hamis",
+        "Csak matematikai szillogizmusokban fordulhat elő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az érvényesség a forma helyességét jelenti, nem a premisszák tényleges igazságát.",
+      "t": "szillogizmus"
+    },
+    {
+      "q": "Mit jelent a hazug paradoxona, ha valaki azt mondja: „Ez a mondat hamis”?",
+      "a": [
+        "A mondat sem igaznak, sem hamisnak nem tehető meg ellentmondás nélkül",
+        "A mondat mindig igaz, mert önmagára utal",
+        "A mondat mindig hamis, mert tagadást tartalmaz",
+        "A mondat jelentés nélküli, ezért figyelmen kívül hagyható"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ha igaznak vesszük, akkor hamis, ha hamisnak, akkor igaz – ez az önreferenciális ellentmondás.",
+      "t": "paradoxon"
+    },
+    {
+      "q": "Mit nevezünk logikai paradoxonnak?",
+      "a": [
+        "Olyan állítást, amely önmagának ellentmond, bár a levezetés helyesnek tűnik",
+        "Olyan kérdést, amelyre nincs egyértelmű numerikus válasz",
+        "Olyan érvet, amely mindig igaz állítást ad",
+        "Olyan sorozatot, amely véletlenszerűen ismétlődik"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A paradoxon olyan látszólag érvényes gondolatmenet, amely mégis ellentmondásos következtetéshez vezet.",
+      "t": "paradoxon"
+    },
+    {
+      "q": "A Monty Hall-paradoxonban három ajtó közül az egyik mögött nyeremény van. Miután választunk, a műsorvezető kinyit egy üres ajtót a maradék kettő közül. Érdemes-e ajtót cserélni?",
+      "a": [
+        "Igen, cserével 2/3 az esély a nyereményre, csere nélkül csak 1/3",
+        "Nem, mindkét stratégia esélye pontosan 1/2",
+        "Nem, az eredeti ajtónál maradva 2/3 az esély",
+        "Igen, de csak akkor, ha négy ajtó van"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A műsorvezető tudatosan üres ajtót nyit, így a le nem választott ajtóra 2/3 valószínűség koncentrálódik.",
+      "t": "paradoxon"
+    },
+    {
+      "q": "Mi a kupac-paradoxon (sorites-paradoxon) lényege?",
+      "a": [
+        "Nem határozható meg élesen, hány szem homoktól lesz valami „kupac”",
+        "Egy kupac homok mindig pontosan ezer szemből áll",
+        "A homokszemek száma véletlenszerűen változik idővel",
+        "Egy kupac homokot lehetetlen megszámolni fizikailag"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A paradoxon azt mutatja, hogy a homályos fogalmaknál (pl. „kupac”) nincs éles határvonal.",
+      "t": "paradoxon"
+    },
+    {
+      "q": "Zénón egyik paradoxona szerint Akhilleusz sosem érheti utol a teknőst, ha az előnnyel indul. Mi ennek a feloldása modern matematikával?",
+      "a": [
+        "Végtelen sok, de egyre rövidebb szakasz összege véges idő alatt megtehető",
+        "A teknős valójában gyorsabb, mint Akhilleusz",
+        "Akhilleusz sosem indulhat el, mert a tér végtelenül osztható",
+        "A paradoxon ma is megoldatlan probléma a matematikában"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A végtelen mértani sor összege véges lehet, így Akhilleusz véges idő alatt utoléri a teknőst.",
+      "t": "paradoxon"
+    },
+    {
+      "q": "9 egyforma külsejű golyó közül 1 hamis, ami könnyebb a többinél. Egy kétkarú mérleggel legalább hány méréssel biztosan megtalálható a hamis golyó?",
+      "a": [
+        "2 méréssel",
+        "1 méréssel",
+        "3 méréssel",
+        "4 méréssel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A golyókat 3 egyenlő csoportra osztva 2 mérés elég 9 golyó közül a hamis kiválasztásához.",
+      "t": "mérlegelés"
+    },
+    {
+      "q": "12 golyó közül 1 hamis, de nem tudjuk, könnyebb-e vagy nehezebb a többinél. Egy kétkarú mérleggel legalább hány méréssel garantáltan megtalálható?",
+      "a": [
+        "3 méréssel",
+        "2 méréssel",
+        "4 méréssel",
+        "5 méréssel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A klasszikus 12 golyós rejtvény megoldása 3 mérésben rejlik, még a könnyű/nehéz eldöntésével együtt is.",
+      "t": "mérlegelés"
+    },
+    {
+      "q": "Van egy kétkarú mérlegünk és 2 egyforma külsejű érménk, amelyek közül az egyik hamis és könnyebb. Hány méréssel található meg biztosan a hamis érme?",
+      "a": [
+        "1 méréssel",
+        "2 méréssel",
+        "3 méréssel",
+        "Sosem található meg"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egyetlen mérés elég: a két érmét egymással szemben mérve a könnyebbik felbillenti a mérleget.",
+      "t": "mérlegelés"
+    },
+    {
+      "q": "8 érme közül pontosan 1 hamis és nehezebb a többinél. Egy kétkarú mérleggel minimum hány méréssel található meg biztosan?",
+      "a": [
+        "2 méréssel",
+        "1 méréssel",
+        "3 méréssel",
+        "4 méréssel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "8 érmét 3-3-2 csoportra osztva 2 mérés elegendő a nehezebb hamis érme megtalálásához.",
+      "t": "mérlegelés"
+    },
+    {
+      "q": "Egy lovagok és lókötők szigetén a lovagok mindig igazat mondanak, a lókötők mindig hazudnak. Mondhatja-e valaki magáról: „Én lókötő vagyok”?",
+      "a": [
+        "Ilyet egyik lakó sem mondhatna, mert mindkét esetben ellentmondáshoz vezetne",
+        "Csak egy lovag mondhatja ezt, mert igazat mond",
+        "Csak egy lókötő mondhatja ezt, mert hazudik",
+        "Bárki mondhatja, mert semleges kijelentés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Egy lovag nem hazudhatna ilyet, egy lókötő pedig nem mondhatna igazat magáról – így senki sem állíthatja.",
+      "t": "igazmondók"
+    },
+    {
+      "q": "A szigeten csak A és B van jelen. A azt mondja: „Legalább egyikünk lókötő.” Mi következik ebből biztosan?",
+      "a": [
+        "A lovag, B pedig lókötő",
+        "A lókötő, B pedig lovag",
+        "Mindketten lovagok",
+        "Mindketten lókötők"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ha A lókötő lenne, állítása hamis lenne, tehát mindketten lovagok lennének – ellentmondás, így A lovag és B lókötő.",
+      "t": "igazmondók"
+    },
+    {
+      "q": "Mi jellemzi a „lókötőt” a lovagok és lókötők klasszikus logikai rejtvényeiben?",
+      "a": [
+        "Mindig hazudik, minden állítása hamis",
+        "Mindig igazat mond, mint a lovag",
+        "Néha hazudik, néha igazat mond",
+        "Csak kérdésekre válaszol, állításokat nem tesz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A rejtvények szabálya szerint a lókötő minden kijelentése hamis, a lovagé mindig igaz.",
+      "t": "igazmondók"
+    },
+    {
+      "q": "Három lakos, A, B és C áll együtt. B azt mondja: „A azt állította, hogy lókötő.” C szerint „B hazudik.” Mit lehet biztosan tudni C-ről?",
+      "a": [
+        "C lovag, mert igazat mond arról, hogy B hazudik",
+        "C lókötő, mert hazudik B-ről",
+        "C-ről semmi biztos nem állapítható meg",
+        "C mindig ugyanazt mondja, mint A"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Senki sem mondja önmagát lókötőnek, így A nem mondta ezt B-nek – B tehát hazudott, C állítása igaz, C lovag.",
+      "t": "igazmondók"
+    },
+    {
+      "q": "Egy lovagok-lókötők szigeten tudjuk, hogy van legalább egy lókötő a szigeten. Valaki ezt ki is mondja: „Van legalább egy lókötő a szigeten.” Mit tudhatunk a beszélőről?",
+      "a": [
+        "A beszélő biztosan lovag, hiszen igaz állítást tett",
+        "A beszélő biztosan lókötő, hiszen hazudott",
+        "A beszélő lehet akár lovag, akár lókötő is",
+        "Ilyen állítást senki sem tehet a szigeten"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mivel az állítás igaz (van lókötő a szigeten), csak egy lovag mondhatta, hiszen a lókötő hazudna.",
+      "t": "igazmondók"
+    },
+    {
+      "q": "Ma Péter kétszer annyi idős, mint Anna. 10 év múlva Péter 30 éves lesz. Hány éves Anna ma?",
+      "a": [
+        "10 éves",
+        "15 éves",
+        "20 éves",
+        "5 éves"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Péter most 20 éves (30-10), és mivel kétszer annyi idős, mint Anna, Anna 10 éves.",
+      "t": "életkor"
+    },
+    {
+      "q": "Anna 3 évvel idősebb Bélánál, Béla pedig 2 évvel idősebb Csillánál. Ha Csilla 15 éves, hány éves Anna?",
+      "a": [
+        "20 éves",
+        "18 éves",
+        "17 éves",
+        "22 éves"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Béla 15+2=17 éves, Anna pedig 17+3=20 éves.",
+      "t": "életkor"
+    },
+    {
+      "q": "Egy apa most háromszor idősebb a fiánál. 10 év múlva már csak kétszer lesz idősebb nála. Hány éves most a fiú?",
+      "a": [
+        "10 éves",
+        "15 éves",
+        "20 éves",
+        "5 éves"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az egyenlet: 3x+10=2(x+10), amiből x=10 adódik a fiú mai életkorára.",
+      "t": "életkor"
+    },
+    {
+      "q": "Kata és Éva életkorának összege ma 26 év. 4 évvel ezelőtt Kata kétszer annyi idős volt, mint Éva. Hány éves most Éva?",
+      "a": [
+        "10 éves",
+        "12 éves",
+        "14 éves",
+        "16 éves"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "4 éve Éva 6, Kata 12 éves volt (kétszerese), így most Éva 6+4=10 éves.",
+      "t": "életkor"
+    },
+    {
+      "q": "Egy gyerek most fele annyi idős, mint az édesanyja, aki most 36 éves. Hány éves lesz a gyerek, amikor az anya 45 éves lesz?",
+      "a": [
+        "27 éves",
+        "22 éves",
+        "18 éves",
+        "30 éves"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gyerek most 18 éves (36 fele); 9 év múlva, amikor az anya 45 lesz, a gyerek 27 éves lesz.",
+      "t": "életkor"
+    },
+    {
+      "q": "Hányféleképpen ülhet le 3 ember egymás mellé egy padra, ha a sorrend számít?",
+      "a": [
+        "6-féleképpen",
+        "3-féleképpen",
+        "9-féleképpen",
+        "12-féleképpen"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "3 elem sorbarendezéseinek száma 3! = 3×2×1 = 6.",
+      "t": "kombinatorika"
+    },
+    {
+      "q": "Egy fagyizóban 4 féle gombóc közül választhatunk, és egy tölcsérbe pontosan 2 különböző gombócot teszünk. Hányféle kombináció lehetséges, ha a sorrend nem számít?",
+      "a": [
+        "6 féle",
+        "4 féle",
+        "8 féle",
+        "12 féle"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "4 elemből 2 kiválasztása sorrend nélkül C(4,2)=6 lehetőséget ad.",
+      "t": "kombinatorika"
+    },
+    {
+      "q": "Egy 5 fős társaságban mindenki kezet fog mindenkivel pontosan egyszer. Hány kézfogás történik összesen?",
+      "a": [
+        "10 kézfogás",
+        "20 kézfogás",
+        "15 kézfogás",
+        "5 kézfogás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "5 emberből páronként C(5,2)=10 különböző pár alakítható ki, ennyi kézfogás lesz.",
+      "t": "kombinatorika"
+    },
+    {
+      "q": "Hányféleképpen rakható sorba 3 piros és 2 kék golyó egy sorban, ha az azonos színű golyók megkülönböztethetetlenek?",
+      "a": [
+        "10-féleképpen",
+        "20-féleképpen",
+        "5-féleképpen",
+        "15-féleképpen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "5 hely közül a 2 kék helyét kell kiválasztani: C(5,2)=10 elrendezés lehetséges.",
+      "t": "kombinatorika"
+    },
+    {
+      "q": "Egy lakat 3 számjegyű kóddal nyitható, minden helyen 0–9 közötti számmal, ismétlés megengedett. Hány különböző kód lehetséges?",
+      "a": [
+        "1000",
+        "100",
+        "720",
+        "500"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Minden pozícióban 10 lehetőség van, így 10×10×10=1000 kód létezik.",
+      "t": "kombinatorika"
+    },
+    {
+      "q": "Egy 6 fős csapatból hányféleképpen választható ki egy 3 fős bizottság, ha a bizottságon belüli szerepek nem számítanak?",
+      "a": [
+        "20-féleképpen",
+        "18-féleképpen",
+        "120-féleképpen",
+        "15-féleképpen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "6 elemből 3 kiválasztása sorrend nélkül C(6,3)=20 lehetőséget ad.",
+      "t": "kombinatorika"
+    },
+    {
+      "q": "Mi jellemzi a deduktív érvelést?",
+      "a": [
+        "Általános szabályból következtet biztosan egyedi esetre",
+        "Egyedi esetekből következtet valószínűsíthetően általánosra",
+        "Kizárólag matematikai bizonyításokban használható eljárás",
+        "Csak megfigyelésen alapul, sosem szabályokon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A dedukció általánosból indul ki, és logikailag szükségszerű, biztos következtetést ad.",
+      "t": "dedukció"
+    },
+    {
+      "q": "Mi jellemzi az induktív érvelést?",
+      "a": [
+        "Egyedi megfigyelésekből általános szabályra következtet, de nem biztosan",
+        "Általános szabályból egyedi esetre következtet biztosan",
+        "Csak matematikai axiómákból indulhat ki",
+        "Mindig két premisszát igényel, mint a szillogizmus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az indukció egyedi esetekből von le általános következtetést, de az így kapott szabály nem garantáltan igaz.",
+      "t": "dedukció"
+    },
+    {
+      "q": "„Minden eddig megfigyelt hattyú fehér volt, tehát minden hattyú fehér.” Milyen típusú következtetés ez, és mi a gyenge pontja?",
+      "a": [
+        "Induktív, és egyetlen fekete hattyú megfigyelése megcáfolhatja",
+        "Deduktív, ezért logikailag mindig biztos",
+        "Induktív, de teljesen cáfolhatatlan bármilyen megfigyeléssel",
+        "Szillogizmus, ezért két premisszát igényelne"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ez induktív érvelés: a következtetés csak valószínű, egyetlen ellenpélda (fekete hattyú) megdöntheti.",
+      "t": "dedukció"
+    },
+    {
+      "q": "Melyik állítás igaz a deduktív és induktív érvelés kapcsolatára?",
+      "a": [
+        "A dedukció érvényes forma esetén biztos, az indukció csak valószínűsítő",
+        "Mindkettő ugyanolyan biztos következtetést ad",
+        "Az indukció mindig pontosabb, mint a dedukció",
+        "A dedukció csak természettudományban alkalmazható"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A deduktív érvelés logikai szükségszerűséget hordoz, míg az induktív csak valószínűséget.",
+      "t": "dedukció"
+    },
+    {
+      "q": "Mikor igaz egy „ÉS” (AND) logikai kapcsolat két állítás között?",
+      "a": [
+        "Csak akkor, ha mindkét állítás igaz",
+        "Ha legalább az egyik állítás igaz",
+        "Csak akkor, ha mindkét állítás hamis",
+        "Ha pontosan az egyik állítás igaz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ÉS (AND) kapcsolat csak akkor ad igaz értéket, ha mindkét bemenet igaz.",
+      "t": "logikai kapuk"
+    },
+    {
+      "q": "Mikor igaz egy „VAGY” (OR) logikai kapcsolat két állítás között?",
+      "a": [
+        "Ha legalább az egyik állítás igaz",
+        "Csak akkor, ha mindkét állítás igaz",
+        "Csak akkor, ha mindkét állítás hamis",
+        "Soha, ha bármelyik állítás hamis"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A VAGY (OR) kapcsolat igaz, amint legalább az egyik bemenet igaz.",
+      "t": "logikai kapuk"
+    },
+    {
+      "q": "Mit csinál a „NEM” (NOT) logikai művelet egy állítással?",
+      "a": [
+        "Megfordítja az igazságértékét: igazból hamis lesz, hamisból igaz",
+        "Kombinálja két másik állítással logikai ÉS kapcsolatban",
+        "Mindig igazra állítja az állítást, függetlenül az eredetitől",
+        "Csak számokra alkalmazható, állításokra nem"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A NOT (tagadás) az állítás igazságértékét az ellenkezőjére változtatja.",
+      "t": "logikai kapuk"
+    },
+    {
+      "q": "Mikor igaz a „kizáró VAGY” (XOR) logikai kapcsolat két állítás között?",
+      "a": [
+        "Ha pontosan az egyik állítás igaz, a másik hamis",
+        "Ha mindkét állítás igaz vagy mindkét hamis",
+        "Csak akkor, ha mindkét állítás igaz",
+        "Ha legalább az egyik állítás hamis"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az XOR (kizáró vagy) igaz, ha a két bemenet eltérő igazságértékű.",
+      "t": "logikai kapuk"
+    },
+    {
+      "q": "Ki dolgozta ki azt a szimbolikus logikai algebrát, amelyre a mai számítógépek logikai kapui épülnek?",
+      "a": [
+        "George Boole angol matematikus",
+        "Alan Turing brit matematikus",
+        "Gottfried Leibniz német filozófus",
+        "Kurt Gödel osztrák logikus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "George Boole 1854-es „A gondolkodás törvényei” című művében fektette le a Boole-algebra alapjait.",
+      "t": "logikai kapuk"
+    },
+    {
+      "q": "A farkas-kecske-káposzta rejtvényben a gazdának mindhármat át kell vinnie egy folyón egy csónakkal, amibe rajta kívül csak egy dolog fér. Miért nem hagyhatja a kecskét egyedül a káposztával?",
+      "a": [
+        "Mert a kecske megenné a káposztát, ha felügyelet nélkül maradnak",
+        "Mert a káposzta megmérgezné a kecskét",
+        "Mert a farkas így könnyebben elérné a kecskét",
+        "Mert a csónak felborulna a súlyuktól"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kecske megenné a káposztát, ha nincs jelen a gazda, ezért ezt a párost nem hagyhatja őrizetlenül.",
+      "t": "klasszikus rejtvény"
+    },
+    {
+      "q": "A farkas-kecske-káposzta rejtvényben minimum hány átkeléssel oldható meg a feladat?",
+      "a": [
+        "7 átkeléssel",
+        "5 átkeléssel",
+        "9 átkeléssel",
+        "3 átkeléssel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A klasszikus megoldás pontosan 7 folyami átkelést igényel, oda-vissza utakkal együtt.",
+      "t": "klasszikus rejtvény"
+    },
+    {
+      "q": "A „foglyok és kalapok” klasszikus logikai rejtvényben mi segíti a foglyokat a saját kalapszínük kitalálásában?",
+      "a": [
+        "A többiek kalapszínének megfigyelése és a csend/megszólalás mint jelzés",
+        "Egy tükör, amit véletlenül megtalálnak",
+        "Az őr súgja meg nekik titokban a színt",
+        "A kalapok súlyából következtetnek a színre"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A foglyok a mások fején látott kalapszínekből és egymás válaszainak logikájából következtetnek.",
+      "t": "klasszikus rejtvény"
+    },
+    {
+      "q": "Mi a lényege a „két vödrös” klasszikus fejtörőnek, amikor egy 3 és egy 5 literes vödörrel kell pontosan 4 liter vizet kimérni?",
+      "a": [
+        "A vödrök ismételt megtöltésével és átöntésével pontosan kimérhető a 4 liter",
+        "Lehetetlen 4 litert kimérni ezzel a két vödörrel",
+        "Csak akkor mérhető ki, ha van egy harmadik vödör is",
+        "A 4 liter csak megbecsülhető, pontosan nem mérhető"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 5 literes vödröt megtöltve, majd a 3 literesbe öntve kétszer, pontosan 4 liter marad az 5 literesben.",
+      "t": "klasszikus rejtvény"
+    },
+    {
+      "q": "Egy szigeten két őr van egy elágazásnál: az egyik mindig igazat mond, a másik mindig hazudik, de nem tudni, melyik melyik. Egyetlen kérdéssel hogyan derül ki a helyes út?",
+      "a": [
+        "Megkérdezzük, melyik utat mondaná a másik őr, és az ellenkezőjét választjuk",
+        "Megkérdezzük mindkettőt külön-külön, és összevetjük a válaszaikat",
+        "Megkérdezzük, ő maga igazmondó-e, és aszerint döntünk",
+        "Nem lehetséges egyetlen kérdéssel biztosan eldönteni"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mindkét őr ugyanazt a rossz utat nevezné meg a másik nevében, így annak ellenkezője a helyes.",
+      "t": "klasszikus rejtvény"
+    },
+    {
+      "q": "Melyik betű illik a sorba: A, C, E, G, ...?",
+      "a": [
+        "I",
+        "H",
+        "F",
+        "J"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sorozat minden második betűt tartalmazza az ábécében (A,C,E,G), így a következő I.",
+      "t": "mintafelismerés"
+    },
+    {
+      "q": "Melyik alak illik a sorba: kör, négyzet, kör, négyzet, kör, ...?",
+      "a": [
+        "Négyzet forma",
+        "Kör forma",
+        "Háromszög forma",
+        "Ötszög forma"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A minta felváltva ismétlődik (kör-négyzet), az ötödik elem kör után négyzet következik.",
+      "t": "mintafelismerés"
+    },
+    {
+      "q": "Melyik betűpár illik a sorba: AZ, BY, CX, ...?",
+      "a": [
+        "DW",
+        "DV",
+        "EW",
+        "DX"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az első betű előre (A,B,C,D), a második hátrafelé halad az ábécében (Z,Y,X,W), így DW következik.",
+      "t": "mintafelismerés"
+    },
+    {
+      "q": "Melyik kombináció illik a sorba: A1, B4, C9, D16, ...?",
+      "a": [
+        "E25",
+        "E20",
+        "D25",
+        "E36"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A számok a sorszám négyzetei (1²,2²,3²,4²), így az ötödik elem E25 (5²=25).",
+      "t": "mintafelismerés"
+    },
+    {
+      "q": "Mi a következő szám a sorozatban: 2, 4, 8, 16, 32, ...?",
+      "a": [
+        "64",
+        "48",
+        "36",
+        "128"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sorozat minden tagja az előző kétszerese (mértani sorozat, hányados 2), így 32 után 64 következik.",
+      "t": "mintafelismerés"
+    },
+    {
+      "q": "Ha egy kockát az egyik csúcsánál nézünk szembe, legfeljebb hány lapja látható egyszerre?",
+      "a": [
+        "3 lap",
+        "2 lap",
+        "4 lap",
+        "6 lap"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kocka csúcsánál nézve legfeljebb három egymással szomszédos lap látható egyszerre.",
+      "t": "térbeli logika"
+    },
+    {
+      "q": "Ha egy papírlapot félbehajtunk, majd a hajtás melletti sarkából levágunk egy háromszöget, és kihajtjuk a lapot, milyen alakú lyuk keletkezik?",
+      "a": [
+        "Egy rombusz (deltoid) alakú lyuk",
+        "Egy kör alakú lyuk",
+        "Két különálló háromszög alakú lyuk",
+        "Egy négyzet alakú lyuk"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hajtás vonala tükörtengelyként működik, így a levágott háromszög kihajtva egy szimmetrikus rombuszt ad.",
+      "t": "térbeli logika"
+    },
+    {
+      "q": "Ha egy tükörben nézed a „B” betűt, milyen tükörkép alakul ki?",
+      "a": [
+        "Egy tükrözött B, ami nem egyezik más betűvel",
+        "Pontosan ugyanolyan B betű marad, mint eredetileg volt",
+        "A D betűhöz nagyon hasonló tükörkép alakul ki",
+        "Az E betűhöz nagyon hasonló tükörkép alakul ki"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A B betű tükörképe balra néz, és nem azonos egyetlen szabványos latin betűvel sem.",
+      "t": "térbeli logika"
+    },
+    {
+      "q": "Feldobunk két szabályos dobókockát. Mennyi az esélye, hogy az összegük pontosan 7 lesz?",
+      "a": [
+        "1/6",
+        "1/12",
+        "1/8",
+        "1/4"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "36 lehetséges dobásból 6 esetben jön ki 7-es összeg, ez 6/36 = 1/6 valószínűség.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Egy szabályos érmét feldobunk kétszer egymás után. Mennyi az esélye, hogy mindkétszer fej lesz?",
+      "a": [
+        "1/4",
+        "1/2",
+        "1/3",
+        "3/4"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Két független dobás esetén a két fej esélye 1/2×1/2 = 1/4.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Egy 52 lapos francia kártyacsomagból húzunk egy lapot. Mennyi az esélye, hogy ász vagy piros lap lesz?",
+      "a": [
+        "7/13",
+        "30/52",
+        "1/2",
+        "8/13"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ászok (4) és piros lapok (26) uniója az átfedés (2 piros ász) nélkül számolva 28/52 = 7/13.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Ha 3 gép 3 óra leforgása alatt gyárt le 3 alkatrészt, mennyi idő kell 100 gépnek 100 alkatrész legyártásához?",
+      "a": [
+        "Ugyanannyi idő, mint az eredeti esetben",
+        "Körülbelül harmincháromszor annyi idő",
+        "Százszor annyi idő",
+        "Tizedannyi idő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Minden gép egyedül is 3 óra alatt készít el 1 alkatrészt, és a gépek párhuzamosan dolgoznak, így az idő nem változik.",
+      "t": "munkarejtvény"
+    },
+    {
+      "q": "Egy vonat 60 km/h sebességgel halad, és 2,5 óra alatt ér célba. Milyen messze van a célállomás?",
+      "a": [
+        "150 km",
+        "120 km",
+        "180 km",
+        "100 km"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A megtett út a sebesség és az idő szorzata: 60 km/h × 2,5 óra = 150 km.",
+      "t": "munkarejtvény"
+    },
+    {
+      "q": "Két csap együtt 4 óra alatt tölt meg egy medencét. Az egyik csap egyedül 6 óra alatt töltené meg. Mennyi idő alatt töltené meg a medencét a másik csap egyedül?",
+      "a": [
+        "12 óra alatt",
+        "8 óra alatt",
+        "10 óra alatt",
+        "14 óra alatt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az együttes ráta 1/4, az egyik csapé 1/6, a különbség 1/12, tehát a másik csap 12 óra alatt tölti meg egyedül.",
+      "t": "munkarejtvény"
+    },
+    {
+      "q": "Mi a neve annak a logikai formának, amelyben két előfeltevésből vonunk le egy harmadik állítást?",
+      "a": [
+        "Szillogizmus",
+        "Analógia",
+        "Indukció",
+        "Definíció"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szillogizmus két premisszából (előfeltevésből) épít fel egy érvényes logikai következtetést.",
+      "t": "szillogizmus"
+    },
+    {
+      "q": "Minden bálna emlős. Egyetlen emlős sem hidegvérű. Mi következik biztosan ebből a két állításból?",
+      "a": [
+        "Egyetlen bálna sem hidegvérű",
+        "Minden hidegvérű állat bálna",
+        "Néhány emlős bálna és hidegvérű is",
+        "A bálnák egy része hidegvérű"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ha minden bálna emlős, és egy emlős sem hidegvérű, akkor logikailag egy bálna sem lehet hidegvérű.",
+      "t": "szillogizmus"
+    },
+    {
+      "q": "„Minden macska ragadozó. Ez az állat ragadozó. Tehát ez az állat macska.” Milyen logikai hibát tartalmaz ez a következtetés?",
+      "a": [
+        "A következmény megerősítésének hibáját követi el",
+        "Körben forgó bizonyítást alkalmaz",
+        "Hamis dilemmát állít fel",
+        "Az elhamarkodott általánosítás hibáját követi el"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Abból, hogy a következmény (ragadozó) igaz, nem következik, hogy az előzmény (macska) is igaz – ez formális hiba.",
+      "t": "szillogizmus"
+    },
+    {
+      "q": "Egy szigeten mindenki vagy mindig igazat mond, vagy mindig hazudik. A odajön hozzád és azt mondja: „Én hazug vagyok.” Mi következik ebből?",
+      "a": [
+        "A mondata logikai ellentmondás, ilyen szigetlakó nem létezhet",
+        "A biztosan igazmondó, tehát a mondat szó szerint igaz",
+        "A biztosan hazug, tehát a mondat szó szerint hamis",
+        "A mondata egyszerre igaz is és hamis is lehet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ha igazat mondana, hazug lenne; ha hazudna, igazat mondana – ez klasszikus önreferens ellentmondás.",
+      "t": "igazmondók"
+    },
+    {
+      "q": "Egy szigeten A és B lakik. A ezt mondja: „Legalább egyikünk hazug.” Ha A igazmondó, mi következik biztosan B-ről?",
+      "a": [
+        "B biztosan hazug, mert A állítása igazmondóként csak így lehet igaz",
+        "B biztosan igazmondó, akárcsak A, mindketten igazat mondanak",
+        "B státusza az adott információból nem dönthető el biztosan",
+        "B egyszerre igazmondó is és hazug is lehet e szigeten"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mivel A igazmondó, állítása igaz; mivel A maga nem hazug, a mondat másik felének (B hazug) kell teljesülnie.",
+      "t": "igazmondók"
+    },
+    {
+      "q": "Egy szigeten A azt mondja: „Ha én igazmondó vagyok, akkor B is igazmondó.” Mit tudhatunk meg biztosan A-ról és B-ről?",
+      "a": [
+        "Mindketten igazmondók, A és B is",
+        "Mindketten hazugok, A és B is",
+        "A igazmondó, de B lehet hazug is",
+        "A hazug, de B biztosan igazmondó"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ha A hazug lenne, állítása hamis kéne legyen, de egy hamis előzményű feltételes mondat mindig igaz – ellentmondás, tehát A igazmondó, így B is az.",
+      "t": "igazmondók"
+    },
+    {
+      "q": "Mit jelent a logikában, ha valakit „hazugnak” nevezünk egy igazmondó–hazug rejtvényben?",
+      "a": [
+        "Minden állítása mindig hamis",
+        "Néha hamisat, néha igazat mond",
+        "Csak kérdésekre válaszol hamisan",
+        "Nem tudja, mi az igazság"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A klasszikus rejtvényekben a hazug szereplő definíció szerint kivétel nélkül mindig hamis állítást tesz.",
+      "t": "igazmondók"
+    },
+    {
+      "q": "9 azonos külsejű golyó közül 1 könnyebb hamis, a többi egyforma súlyú. Egy kétkarú mérleggel legkevesebb hány méréssel található meg biztosan a hamis golyó?",
+      "a": [
+        "2 mérés",
+        "3 mérés",
+        "4 mérés",
+        "9 mérés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "9 golyót 3-3-3-ra osztva egy méréssel a hamis harmadára szűkíthető, majd még egy méréssel pontosan azonosítható.",
+      "t": "mérlegelés"
+    },
+    {
+      "q": "27 azonos golyó közül pontosan 1 nehezebb a többinél. Egy kétkarú mérleggel minimum hány méréssel deríthető ki biztosan, melyik a nehezebb?",
+      "a": [
+        "3 mérés",
+        "2 mérés",
+        "4 mérés",
+        "27 mérés"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "27 golyót háromfelé osztva mérésenként a lehetőségek harmadára szűkíthetők, mivel 3 a köbön 27, így 3 mérés elég.",
+      "t": "mérlegelés"
+    },
+    {
+      "q": "Egy kétkarú mérleg pontosan akkor van egyensúlyban, ha a két serpenyőben lévő tárgyak tömege...?",
+      "a": [
+        "Pontosan megegyezik egymással",
+        "Az egyik serpenyő kétszer nehezebb",
+        "Mindkét serpenyő üres és súlytalan",
+        "Csak körülbelül azonos, sosem pontos"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kétkarú mérleg fizikai elve szerint egyensúly csak akkor áll fenn, ha a két oldal tömege pontosan azonos.",
+      "t": "mérlegelés"
+    },
+    {
+      "q": "Ma Kata négyszer annyi idős, mint Peti. 6 év múlva Kata csak háromszor lesz annyi idős, mint Peti. Hány éves ma Peti?",
+      "a": [
+        "12 éves",
+        "6 éves",
+        "18 éves",
+        "9 éves"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 4x+6=3(x+6) egyenletből x=12 adódik, tehát Peti ma 12 éves, Kata pedig 48.",
+      "t": "életkor"
+    },
+    {
+      "q": "Anna apja ötször idősebb Annánál. 15 év múlva az apa már csak kétszer lesz annyi idős, mint Anna. Hány éves ma Anna?",
+      "a": [
+        "5 éves",
+        "10 éves",
+        "15 éves",
+        "25 éves"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az 5x+15=2(x+15) egyenletből x=5 adódik, tehát Anna ma 5 éves, apja pedig 25.",
+      "t": "életkor"
+    },
+    {
+      "q": "Ha valaki 5 évvel ezelőtt 20 éves volt, hány éves most?",
+      "a": [
+        "25 éves",
+        "15 éves",
+        "20 éves",
+        "30 éves"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "20 éves volt 5 évvel ezelőtt, tehát mostanra 20 plusz 5, azaz 25 éves.",
+      "t": "életkor"
+    },
+    {
+      "q": "Hányféleképpen ülhet le 3 ember egy 3 személyes padra, ha a sorrend számít?",
+      "a": [
+        "6 féleképpen",
+        "3 féleképpen",
+        "9 féleképpen",
+        "27 féleképpen"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "3 elem sorba rendezése 3-faktoriális, azaz 3×2×1=6 lehetséges sorrendet ad.",
+      "t": "kombinatorika"
+    },
+    {
+      "q": "Egy 4 fős csapatból hányféleképpen választható ki egy 2 fős pár, ha a sorrend nem számít?",
+      "a": [
+        "6 féleképpen",
+        "4 féleképpen",
+        "8 féleképpen",
+        "12 féleképpen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 4 elemből képzett 2 elemű részhalmazok száma 6, mivel a párban a kiválasztás sorrendje nem számít.",
+      "t": "kombinatorika"
+    },
+    {
+      "q": "Hányféle 4 jegyű kód állítható össze a 0–9 számjegyekből, ha az ismétlés megengedett, de a kód nem kezdődhet 0-val?",
+      "a": [
+        "9000 féle",
+        "10000 féle",
+        "9999 féle",
+        "6561 féle"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az első jegy 9 lehetőség (1–9), a további három jegy 10-10 lehetőség: 9×10×10×10=9000.",
+      "t": "kombinatorika"
+    },
+    {
+      "q": "Hányféleképpen lehet kiválasztani 3 gyümölcsöt 5 különböző fajta közül, ha mindegyikből csak 1 db van, és a sorrend nem számít?",
+      "a": [
+        "10 féleképpen",
+        "15 féleképpen",
+        "20 féleképpen",
+        "60 féleképpen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 5 elemből képzett 3 elemű részhalmazok száma pontosan 10.",
+      "t": "kombinatorika"
+    },
+    {
+      "q": "Egy szabályos dobókockával mekkora eséllyel dobunk páros számot?",
+      "a": [
+        "1/2",
+        "1/3",
+        "1/6",
+        "2/3"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hat lehetséges szám közül három páros (2, 4, 6), így az esély 3/6, azaz 1/2.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Egy 52 lapos francia kártyacsomagból húzva mekkora az esélye, hogy ászt húzunk?",
+      "a": [
+        "1/13",
+        "1/4",
+        "1/52",
+        "4/13"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A csomagban 4 ász van az 52 lap közül, ez 4/52, vagyis 1/13 eséllyel egyezik meg.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Egy 23 fős csoportban körülbelül mekkora a valószínűsége, hogy legalább két embernek ugyanazon a napon van a születésnapja?",
+      "a": [
+        "Körülbelül 50%",
+        "Körülbelül 6%",
+        "Körülbelül 90%",
+        "Körülbelül 23%"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A születésnap-paradoxon szerint már 23 fő esetén is kb. 50,7% az esélye, hogy két embernek egybeesik a születésnapja.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Két szabályos dobókockával dobva mekkora eséllyel lesz a dobott számok összege pontosan 7?",
+      "a": [
+        "1/6",
+        "1/12",
+        "1/9",
+        "1/36"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 36 lehetséges dobáskombinációból 6 esetben ad az összeg 7-et, ez 6/36, azaz 1/6.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Mit nevezünk a logikában paradoxonnak?",
+      "a": [
+        "Olyan állítást vagy helyzetet, amely ellentmond a józan észnek, mégis logikailag levezethető",
+        "Olyan állítást, amely mindig hamis és semmi köze a logikához",
+        "Olyan matematikai képletet, amelynek nincs megoldása",
+        "Olyan kérdést, amelyre nem lehet válaszolni semmilyen módon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A paradoxon egy önmagában ellentmondásosnak tűnő, de logikus lépésekkel felépített állítás vagy helyzet.",
+      "t": "paradoxon"
+    },
+    {
+      "q": "Zénón „Akhilleusz és a teknős” paradoxonja szerint miért nem érheti utol Akhilleusz sosem a teknőst, ha az kis előnyt kapott?",
+      "a": [
+        "Mert amíg Akhilleusz a teknős előző helyére ér, a teknős már újra tovább halad",
+        "Mert Akhilleusz lassabban fut, mint a teknős valójában",
+        "Mert a teknős láthatatlanná válik menet közben",
+        "Mert Akhilleusz megáll pihenni útközben véletlenül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Zénón érvelése szerint a táv végtelen sok, egyre kisebb szakaszra osztható, ezért látszólag sosem érhető utol a teknős.",
+      "t": "paradoxon"
+    },
+    {
+      "q": "Hilbert „Végtelen Szálloda” gondolatkísérlete mit szemléltet a végtelen halmazokról?",
+      "a": [
+        "Egy tele végtelen szálloda is fogadhat új vendéget, ha mindenki eggyel arrébb költözik",
+        "A végtelen halmazok mindig kisebbek, mint bármely véges halmaz",
+        "Egy végtelen szálloda sosem lehet tele, mert nincs is bejárata",
+        "A végtelen fogalma matematikailag értelmezhetetlen és ellentmondásos"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "David Hilbert gondolatkísérlete szemlélteti, hogy végtelen sok szoba esetén mindenki eggyel arrébb tolásával új vendég is elfér.",
+      "t": "paradoxon"
+    },
+    {
+      "q": "A „borbély paradoxon” (a Russell-paradoxon átfogalmazása) szerint egy borbély csak azokat borotválja, akik nem borotválják önmagukat. Mi ebben az ellentmondás?",
+      "a": [
+        "Nem dönthető el, hogy a borbély megborotválja-e önmagát vagy sem",
+        "A borbély sosem tud senkit sem megborotválni valójában",
+        "Mindenki mindig megborotválja saját magát a faluban",
+        "A borbély egyszerre két különböző faluban dolgozik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ha a borbély megborotválja magát, megszegi a szabályt; ha nem, akkor is meg kellene tennie – önellentmondás.",
+      "t": "paradoxon"
+    },
+    {
+      "q": "Egy logikai ÉS (AND) kapu kimenete mikor lesz igaz (1)?",
+      "a": [
+        "Csak akkor, ha mindkét bemenet igaz",
+        "Csak akkor, ha legalább az egyik bemenet igaz",
+        "Csak akkor, ha mindkét bemenet hamis",
+        "Mindig igaz, függetlenül a bemenetektől"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az AND kapu logikai szorzatot valósít meg: kimenete csak akkor 1, ha minden bemenete 1.",
+      "t": "logikai kapuk"
+    },
+    {
+      "q": "Egy logikai VAGY (OR) kapu kimenete mikor lesz hamis (0)?",
+      "a": [
+        "Csak akkor, ha mindkét bemenet hamis",
+        "Csak akkor, ha mindkét bemenet igaz",
+        "Csak akkor, ha az egyik bemenet igaz",
+        "Sosem lehet hamis, bármi is a bemenet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az OR kapu logikai összeget valósít meg: kimenete csak akkor 0, ha minden bemenete 0.",
+      "t": "logikai kapuk"
+    },
+    {
+      "q": "Mi a jellemzője a kizáró VAGY (XOR) logikai kapunak két bemenet esetén?",
+      "a": [
+        "Kimenete csak akkor igaz, ha a két bemenet különböző értékű",
+        "Kimenete csak akkor igaz, ha a két bemenet egyforma értékű",
+        "Kimenete mindig megegyezik az egyik bemenettel",
+        "Kimenete független mindkét bemenet értékétől"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az XOR kapu pontosan akkor ad igaz értéket, ha a két bemenet eltér egymástól (egyik igaz, másik hamis).",
+      "t": "logikai kapuk"
+    },
+    {
+      "q": "Miért nevezik a NAND kaput „univerzális” logikai kapunak a digitális áramkörökben?",
+      "a": [
+        "Mert önmagában bármely más logikai kapu (ÉS, VAGY, NEM) felépíthető belőle",
+        "Mert minden bemenetre mindig igaz kimenetet ad automatikusan",
+        "Mert kizárólag analóg áramkörökben használható fel egyáltalán",
+        "Mert csak egyetlen bemenettel rendelkezik minden esetben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A NAND kapu funkcionálisan teljes: kizárólag NAND kapukból megépíthető bármelyik más alapkapu áramköre.",
+      "t": "logikai kapuk"
+    },
+    {
+      "q": "Egy szabályos kocka hány lapból áll?",
+      "a": [
+        "6 lapból",
+        "4 lapból",
+        "8 lapból",
+        "12 lapból"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kocka szabályos test, amelynek 6 négyzet alakú lapja van.",
+      "t": "térbeli logika"
+    },
+    {
+      "q": "Egy kockaháló (kiterített kocka) 6 négyzetből áll. Hány érvényes módon lehet síkba teríteni egy kockát, azaz hány különböző kockaháló létezik?",
+      "a": [
+        "11-féleképpen",
+        "6-féleképpen",
+        "24-féleképpen",
+        "8-féleképpen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hat négyzetből álló alakzatok közül pontosan 11 olyan van, amely kockává hajtható össze.",
+      "t": "térbeli logika"
+    },
+    {
+      "q": "Ha egy órát tükörbe nézünk, és a valós idő pontosan délután 3 óra, mit mutat a tükörkép az óra számlapján?",
+      "a": [
+        "9 órát mutat",
+        "3 órát mutat, semmi nem változik",
+        "6 órát mutat",
+        "12 órát mutat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tükörkép a számlapot vízszintesen tükrözi, így a 3 óra pozíciója a 9 óra helyére kerül át.",
+      "t": "térbeli logika"
+    },
+    {
+      "q": "Hány éle van egy szabályos kockának?",
+      "a": [
+        "12 él",
+        "6 él",
+        "8 él",
+        "24 él"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kockának 6 lapja, 8 csúcsa és 12 éle van.",
+      "t": "térbeli logika"
+    },
+    {
+      "q": "Egy csapat 6 fő 12 nap alatt fejez be egy projektet. Hány nap alatt végezne el ugyanennyi munkát 3 fő, ha fele annyian dolgoznak, de azonos tempóban?",
+      "a": [
+        "24 nap alatt",
+        "12 nap alatt",
+        "18 nap alatt",
+        "36 nap alatt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "6 fő 12 nap alatt végzi el a munkát, azaz összesen 72 emberfő-nap szükséges; 3 fővel ez 24 nap alatt készül el.",
+      "t": "munkarejtvény"
+    },
+    {
+      "q": "Egy medencét egy csap 6 óra alatt tölt fel, egy másik csap pedig 3 óra alatt. Ha mindkét csapot egyszerre nyitjuk, mennyi idő alatt telik meg a medence?",
+      "a": [
+        "2 óra alatt",
+        "4,5 óra alatt",
+        "3 óra alatt",
+        "9 óra alatt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A két csap együttes teljesítménye óránként fél medence, így 2 óra alatt telik meg a medence.",
+      "t": "munkarejtvény"
+    },
+    {
+      "q": "Egy nyomtató 5 perc alatt nyomtat ki 100 oldalt. Ha duplájára gyorsítjuk a nyomtatási sebességét, mennyi idő alatt nyomtat ki ugyanennyi oldalt?",
+      "a": [
+        "2,5 perc alatt",
+        "5 perc alatt",
+        "10 perc alatt",
+        "1 perc alatt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ha a sebesség duplájára nő, az azonos munka elvégzéséhez szükséges idő a felére csökken.",
+      "t": "munkarejtvény"
+    },
+    {
+      "q": "Ha igaz, hogy „minden énekes tud táncolni”, és tudjuk, hogy Zoltán nem tud táncolni, mi következik biztosan?",
+      "a": [
+        "Zoltán nem énekes",
+        "Zoltán biztosan énekes",
+        "Nem lehet semmit sem megállapítani Zoltánról",
+        "Zoltán csak félig tud táncolni"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ez a kontrapozíció esete: ha minden énekes táncol, és Zoltán nem táncol, akkor nem lehet énekes.",
+      "t": "dedukció"
+    },
+    {
+      "q": "Tudjuk, hogy legalább az egyik igaz: esik az eső, vagy éppen napos az idő. Azt is tudjuk, hogy nem esik. Mi következik biztosan?",
+      "a": [
+        "Süt a nap",
+        "Esik az eső mégis",
+        "Sem eső, sem napsütés nincs",
+        "Nem dönthető el, mi történik"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A megengedő „vagy” esetén, ha az egyik lehetőség hamis, a másiknak igaznak kell lennie.",
+      "t": "következtetés"
+    },
+    {
+      "q": "Ha igaz, hogy „ha Márk tanult, akkor átment a vizsgán”, és tudjuk, hogy Márk nem ment át a vizsgán, milyen logikai szabály alapján mondható ki biztosan, hogy Márk nem tanult?",
+      "a": [
+        "Modus tollens (a következmény tagadásából a feltétel tagadása következik)",
+        "Modus ponens (a feltétel igazolásából a következmény igazolása)",
+        "Körkörös érvelés (a következtetés az előfeltevésben rejlik)",
+        "Hamis ok-okozati hiba (post hoc érvelés)"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A modus tollens szabály szerint ha „ha P akkor Q” igaz és Q hamis, akkor P-nek is hamisnak kell lennie.",
+      "t": "dedukció"
+    },
+    {
+      "q": "Néhány tanár szigorú. Kovács tanár nem szigorú. Mi következik biztosan ebből a két állításból?",
+      "a": [
+        "Nem minden tanár szigorú",
+        "Egyetlen tanár sem szigorú",
+        "Minden tanár szigorú, kivéve Kovácsot",
+        "Kovács tanár valójában nem is létezik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mivel Kovács tanár nem szigorú, legalább egy kivétel van, tehát nem lehet igaz, hogy minden tanár szigorú.",
+      "t": "következtetés"
+    },
+    {
+      "q": "Melyik szó NEM illik a sorba: kör, négyzet, háromszög, gömb, téglalap?",
+      "a": [
+        "Gömb",
+        "Kör",
+        "Háromszög",
+        "Téglalap"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gömb térbeli (3D) test, míg a többi felsorolt alakzat síkidom (2D).",
+      "t": "kakukktojás"
+    },
+    {
+      "q": "Melyik szó NEM illik a sorba jelentése alapján: mindig, gyakran, soha, néha?",
+      "a": [
+        "Soha",
+        "Mindig",
+        "Gyakran",
+        "Néha"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A „soha” nulla gyakoriságot jelent, míg a többi szó valamilyen fokú, de nem nulla gyakoriságot fejez ki.",
+      "t": "kakukktojás"
+    },
+    {
+      "q": "Az alábbi fogalmak közül melyik NEM tartozik szorosan a matematikai logikához: konjunkció, diszjunkció, negáció, integrálás?",
+      "a": [
+        "Integrálás",
+        "Konjunkció",
+        "Diszjunkció",
+        "Negáció"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az integrálás az analízis fogalma, míg a többi felsorolt a logikai műveletek közé tartozik.",
+      "t": "kakukktojás"
+    },
+    {
+      "q": "A klasszikus „farkas, kecske, káposzta” folyami rejtvényben miért nem hagyható a kecske és a káposzta felügyelet nélkül egy parton?",
+      "a": [
+        "Mert a kecske megenné a káposztát, ha egyedül maradnak",
+        "Mert a farkas megenné mindkettőt egyszerre nagyon gyorsan",
+        "Mert a káposzta megmérgezné a kecskét lassan",
+        "Mert a kecske és a káposzta elszöknének együtt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rejtvény szabálya szerint felügyelet nélkül a kecske megenné a káposztát, ezért ezt a párost sosem hagyhatjuk egyedül.",
+      "t": "klasszikus rejtvény"
+    },
+    {
+      "q": "Egy klasszikus hídrejtvényben 4 ember 1, 2, 5 és 10 perc alatt kel át egy hídon, egyszerre legfeljebb ketten mehetnek, és csak egy zseblámpájuk van, amit mindig vissza kell vinni. Mennyi a legrövidebb idő, amíg mindenki átér?",
+      "a": [
+        "17 perc",
+        "19 perc",
+        "10 perc",
+        "18 perc"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az optimális megoldásban a két leggyorsabb ember viszi oda-vissza a lámpát, így összesen 17 perc alatt mindenki átér.",
+      "t": "klasszikus rejtvény"
+    },
+    {
+      "q": "A königsbergi hidak híres feladatában Euler mit bizonyított be 1736-ban a hét híddal kapcsolatban?",
+      "a": [
+        "Lehetetlen úgy bejárni a várost, hogy minden hídon pontosan egyszer haladjunk át",
+        "Pontosan egyetlen módon lehet bejárni minden hidat egyszer",
+        "A hidak száma valójában téves volt, csak hat híd létezett",
+        "Bármely sorrendben bejárható az összes híd egyszer"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Euler megmutatta, hogy mivel minden partrésznél páratlan számú híd torkollik, nem létezhet olyan séta, amely mindegyiken csak egyszer halad át.",
+      "t": "klasszikus rejtvény"
+    },
+    {
+      "q": "Mit mond ki a „skatulya-elv” (Dirichlet-elv), ha 10 galambot 9 fészekbe akarunk elhelyezni?",
+      "a": [
+        "Legalább egy fészekbe biztosan kettő vagy több galamb kerül",
+        "Pontosan egy fészek marad biztosan üresen mindig",
+        "Minden fészekbe pontosan egy galamb fér csak el",
+        "A galambok fele biztosan a földön marad kint"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ha több elemet helyezünk el, mint ahány kategória van, legalább egy kategóriába kettő is jut.",
+      "t": "klasszikus rejtvény"
+    },
+    {
+      "q": "Egy mintában minden alakzat mérete pontosan a felére csökken az előzőhöz képest. Ha az első alakzat 80 cm, mekkora a negyedik alakzat mérete?",
+      "a": [
+        "10 cm",
+        "20 cm",
+        "5 cm",
+        "40 cm"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Minden lépésben felezünk: 80, majd 40, majd 20, majd 10, tehát a negyedik alakzat 10 cm.",
+      "t": "mintafelismerés"
+    },
+    {
+      "q": "Egy mintázatban a betűk ábécé szerint minden lépésben két helyet ugranak előre: A, C, E, G, ... Melyik betű következik?",
+      "a": [
+        "I",
+        "H",
+        "K",
+        "F"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A minta minden lépésben két betűt ugrik az ábécében, A-tól C-ig, E-ig, G-ig, így a következő betű az I.",
+      "t": "mintafelismerés"
+    },
+    {
+      "q": "Egy sorozatban minden elem az előző kétszerese, mínusz 1. Ha az első elem 2, mi a harmadik elem?",
+      "a": [
+        "5",
+        "3",
+        "7",
+        "4"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "2-ből a szabály szerint 3 lesz, abból pedig 5, tehát a harmadik elem 5.",
+      "t": "mintafelismerés"
+    },
+    {
+      "q": "Egy háromszög belső szögeinek összege hány fok?",
+      "a": [
+        "180 fok",
+        "360 fok",
+        "90 fok",
+        "270 fok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Euklideszi síkon minden háromszög belső szögeinek összege pontosan 180 fok.",
+      "t": "geometria"
+    },
+    {
+      "q": "Egy derékszögű háromszög két befogója 3 cm és 4 cm. Milyen hosszú az átfogója?",
+      "a": [
+        "5 cm",
+        "6 cm",
+        "7 cm",
+        "4,5 cm"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Pitagorasz-tétel szerint a befogók négyzetösszegének gyöke adja az átfogót, ami itt pontosan 5 cm.",
+      "t": "geometria"
+    },
+    {
+      "q": "Egy szabályos hatszög belső szögeinek összege hány fok, ha a képlet (n-2)×180?",
+      "a": [
+        "720 fok",
+        "540 fok",
+        "900 fok",
+        "360 fok"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A képlet szerint (6−2)×180=4×180=720 fok a hatszög belső szögeinek összege.",
+      "t": "geometria"
+    },
+    {
+      "q": "Egy sorozat elemei közötti különbség mindig eggyel nő: 1, 2, 4, 7, 11, ... Mi a sorozat következő eleme?",
+      "a": [
+        "16",
+        "15",
+        "18",
+        "14"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A különbségek rendre 1, 2, 3, 4, 5 – az utolsó lépésben 11-hez 5-öt adva 16 adódik.",
+      "t": "sorozatok"
+    },
+    {
+      "q": "Egy sorozatban felváltva adunk hozzá 3-at, majd szorzunk 2-vel: 1, 4, 8, 11, 22, ... Mi a hatodik elem?",
+      "a": [
+        "25",
+        "24",
+        "26",
+        "44"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A műveletek felváltva összeadás és szorzás: 22-höz 3-at adva 25 adódik, ami a hatodik elem.",
+      "t": "sorozatok"
+    },
+    {
+      "q": "Egy sorozat minden tagja 5-tel nő az előzőhöz képest: 3, 8, 13, 18, ... Mi a sorozat következő eleme?",
+      "a": [
+        "23",
+        "21",
+        "25",
+        "20"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sorozat számtani, minden tag 5-tel nő az előzőhöz képest, így 18-hoz 5-öt adva 23 a következő elem.",
+      "t": "sorozatok"
+    },
+    {
+      "q": "Van 8 azonos külsejű érme, de az egyik hamis és könnyebb a többinél. Egy kétkarú mérleggel minimum hány méréssel található meg biztosan a hamis érme?",
+      "a": [
+        "2 mérés",
+        "3 mérés",
+        "1 mérés",
+        "8 mérés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "8 érmét háromfelé osztva az első méréssel jelentősen szűkíthető a kör, a második méréssel pontosan megtalálható a hamis érme.",
+      "t": "fejtörő"
+    },
+    {
+      "q": "A klasszikus „két őr” rejtvényben az egyik ajtó mögött szabadság, a másik mögött veszély van. Az egyik őr mindig igazat mond, a másik mindig hazudik, de nem tudni, melyik melyik. Milyen egyetlen kérdéssel deríthető ki biztosan a szabad ajtó?",
+      "a": [
+        "Megkérdezzük bármelyiket, hogy a másik őr melyik ajtóra mondaná, hogy szabad",
+        "Megkérdezzük mindkettőt külön-külön, melyikük hazudik éppen",
+        "Megkérdezzük, hogy melyikük az igazmondó közülük",
+        "Megkérdezzük, hány éve őrzik már ezt a két ajtót"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Bármelyik őr válasza a másik állítólagos válaszára mindig a veszélyes ajtóra mutat, így az ellenkezőjét választva biztosan jó a döntés.",
+      "t": "fejtörő"
+    },
+    {
+      "q": "Egy gazdálkodónak csirkéi és nyulai vannak, összesen 10 állat, 28 lábbal. Hány csirke van a gazdaságban?",
+      "a": [
+        "6 csirke",
+        "4 csirke",
+        "8 csirke",
+        "5 csirke"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az egyenletrendszert megoldva 6 csirke és 4 nyúl adódik, ami összesen 28 lábat ad ki.",
+      "t": "fejtörő"
+    },
+    {
+      "q": "Egy dobozban csak piros és kék golyók vannak. Ha 3-mal több piros van, mint kék, és összesen 15 golyó van, hány piros golyó van?",
+      "a": [
+        "9 piros golyó",
+        "6 piros golyó",
+        "12 piros golyó",
+        "7 piros golyó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kék golyók száma 6, a piros golyóké 3-mal több, azaz 9, ami összesen 15-öt ad ki.",
+      "t": "fejtörő"
+    }
   ]
 }

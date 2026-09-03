@@ -1190,6 +1190,916 @@
       "d": "medium",
       "e": "A pécsi gyár eozin technikája fémes csillogású, színjátszó felületet ad.",
       "t": "magyar márkák"
+    },
+    {
+      "q": "Mennyi tiszteletdíjat kapott Carolyn Davidson 1971-ben a Nike ikonikus \"szósz\" logójának megtervezéséért?",
+      "a": [
+        "35 dollárt",
+        "150 dollárt",
+        "500 dollárt",
+        "1500 dollárt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A grafikus hallgató mindössze 35 dollárt (17,5 munkaóráért) számított fel Phil Knightnak a logóért.",
+      "t": "logók, jelképek"
+    },
+    {
+      "q": "Melyik görög istennőről kapta a nevét a Nike sportmárka?",
+      "a": [
+        "Niké, a győzelem istennője",
+        "Athéné, a bölcsesség istennője",
+        "Aphrodité, a szépség istennője",
+        "Artemisz, a vadászat istennője"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A céget 1971-ben nevezték át Blue Ribbon Sportsról Nikére, a győzelem görög istennőjének nevére.",
+      "t": "névadás"
+    },
+    {
+      "q": "Kinek a repülőgépéről került át a táncoló ló embléma Enzo Ferrari autóira?",
+      "a": [
+        "Francesco Baracca olasz pilótáéról",
+        "Gianni Caproni repülőtervezőéről",
+        "Italo Balbo olasz tábornokéról",
+        "Umberto Nobile sarkkutatóéról"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Baracca I. világháborús ászpilóta vadászgépén szerepelt a táncoló ló, amelyet családja engedélyével Ferrari 1932-ben vett át.",
+      "t": "logók, jelképek"
+    },
+    {
+      "q": "Miért választotta Ferruccio Lamborghini a bikát cégének jelképéül?",
+      "a": [
+        "Csillagjegye Bika volt, és rajongott a bikaviadalokért",
+        "Egy tenyésztőtől ajándékba kapott bikaszobrot",
+        "Gyermekkori kedvence egy bika nevű ökör volt",
+        "Versenyistállója korábban Toro néven futott"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Lamborghini a Bika csillagjegyben született, és lelkes rajongója volt a spanyol bikaviadaloknak is, ez ihlette az 1963-as logót.",
+      "t": "logók, jelképek"
+    },
+    {
+      "q": "Melyik svájci várost jelképezi a Toblerone csomagolásán a Matterhorn-hegybe rejtett medve?",
+      "a": [
+        "Bernt, a \"medvék városát\"",
+        "Zürichet, a pénzügyi központot",
+        "Genfet, a nemzetközi várost",
+        "Baselt, a vegyipari központot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Toblerone csokoládét 1908 óta Bernben gyártják, amelynek címerállata a medve, ezt rejtette el a tervező a hegy sziluettjében.",
+      "t": "logók, jelképek"
+    },
+    {
+      "q": "Milyen céllal fejlesztette ki Spencer Silver a Post-it jegyzettömb alapját adó ragasztót?",
+      "a": [
+        "Erős repülőgépipari ragasztót akart, de gyenge lett",
+        "Kifejezetten újrahasznosítható papírhoz tervezte",
+        "Gyógyszertapaszokhoz kísérletezett vele",
+        "Egy versenytárs receptjét próbálta lemásolni"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Silver 1968-ban egy szuperragasztón dolgozott a 3M-nél, de csak egy gyenge, újra leválasztható tapadású anyagot kapott.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Milyen természeti jelenség ihlette George de Mestralt a tépőzár feltalálásában?",
+      "a": [
+        "A ruhájára tapadt bogáncsmagvak apró horgai",
+        "A pókháló rendkívül ragadós szálai",
+        "A kagylók egymásba kapaszkodó héjai",
+        "A fenyőtoboz pikkelyeinek szerkezete"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egy 1941-es séta után de Mestral mikroszkóp alatt vizsgálta meg a ruhájára tapadt bogáncsmagvak apró horgait, ez adta a tépőzár ötletét.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Ki alkotta meg valójában a Monopoly elődjét, a \"The Landlord's Game\"-et, jóval Charles Darrow előtt?",
+      "a": [
+        "Elizabeth Magie",
+        "Milton Bradley",
+        "George Parker",
+        "Ruth Handler"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Magie 1904-ben szabadalmaztatta a földbérleti viszonyokat bemutató játékot, amelyet évtizedekkel később Darrow néven adtak el sajátjaként.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Kiről nevezte el Ruth Handler a Barbie babát?",
+      "a": [
+        "A lányáról, Barbaráról",
+        "Az édesanyjáról",
+        "Egy svájci babagyártó cégről",
+        "Kedvenc színésznőjéről"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Mattel társalapítója lányáról, Barbara Handlerről nevezte el az 1959-ben bemutatott babát.",
+      "t": "névadás"
+    },
+    {
+      "q": "Mit jelent pontosan a WD-40 termék nevében szereplő szám?",
+      "a": [
+        "A 40. kísérlet hozta meg a sikeres képletet",
+        "40 évig tartott a termék fejlesztése",
+        "A termék 40 alapanyagot tartalmaz",
+        "40 dollárba került a szabadalom"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A név a \"Water Displacement, 40th attempt\" kifejezésből ered, mert a vegyész 40. próbálkozásra találta meg a jó receptet 1953-ban.",
+      "t": "névadás"
+    },
+    {
+      "q": "Mi volt a Subway gyorséttermi lánc eredeti neve 1965-ös alapításakor?",
+      "a": [
+        "Pete's Super Submarines",
+        "Fred's Sandwich Shop",
+        "Connecticut Subs",
+        "The Sub Station"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Fred DeLuca és Peter Buck az étteremet eredetileg Pete's Super Submarines néven nyitotta meg Connecticutban.",
+      "t": "névadás"
+    },
+    {
+      "q": "Milyen becenévből ered a Danone márkanév?",
+      "a": [
+        "Isaac Carasso fia, Daniel becenevéből",
+        "Egy dél-francia folyó nevéből",
+        "Az alapító feleségének nevéből",
+        "A cég első gyárának városnevéből"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Isaac Carasso 1919-ben fia, Daniel katalán becenevéről, \"Danon\"-ról nevezte el a joghurtmárkát.",
+      "t": "névadás"
+    },
+    {
+      "q": "Melyik amerikai nagyvárosban alapították az egzotikusan, dánosan hangzó nevű Häagen-Dazs fagylaltmárkát?",
+      "a": [
+        "New York Bronx kerületében",
+        "Chicago belvárosában",
+        "Koppenhágában, Dániában",
+        "Boston kikötőnegyedében"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Häagen-Dazs nevet a lengyel-zsidó Reuben Mattus találta ki 1961-ben a New York-i Bronxban, a szó semmit nem jelent dánul.",
+      "t": "névadás"
+    },
+    {
+      "q": "Miből rövidült a Skype név, miután az eredeti \"Skyper\" domain nem volt elérhető?",
+      "a": [
+        "A \"sky peer-to-peer\" kifejezésből",
+        "A \"sky keeper\" angol kifejezésből",
+        "Az alapítók vezetéknevéből",
+        "A \"speak\" és \"type\" szavak elegyéből"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A \"sky peer-to-peer\" hálózati elvre utaló Skyper névből hagyták el az r betűt, amikor a Skyper.com domain foglalt volt.",
+      "t": "névadás"
+    },
+    {
+      "q": "Melyik bajor városban osztott ketté egyetlen cipőgyárat a Dassler testvérek 1948-as veszekedése, létrehozva az Adidast és a Pumát?",
+      "a": [
+        "Herzogenaurach",
+        "Nürnberg belvárosa",
+        "München külvárosa",
+        "Augsburg óvárosa"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Adolf és Rudolf Dassler közös gyárukat Herzogenaurachban osztották ketté, a folyó két partján alapítva külön céget.",
+      "t": "egyesülések"
+    },
+    {
+      "q": "Milyen néven árulta első fényképezőgépét a később Canonná átnevezett japán cég?",
+      "a": [
+        "Kwanon, egy buddhista istenség után",
+        "Nikkon, a fény szó után elnevezve",
+        "Sakura, a cseresznyevirág nyomán",
+        "Fuji, a szent hegy nevét idézve"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A vállalat 1934-ben a könyörület buddhista istennőjéről, Kwanonról nevezte el első fényképezőgépét, mielőtt 1935-ben Canonra váltott.",
+      "t": "névadás"
+    },
+    {
+      "q": "Milyen elírásból született a Google név?",
+      "a": [
+        "A \"googol\" szó véletlen félregépeléséből",
+        "A \"goggle\" szemüveg szó nyomán",
+        "Az alapítók kutyájának nevéből",
+        "A \"go\" és \"legal\" szavak elegyéből"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Larry Page és Sean Anderson a \"googol\" matematikai kifejezésre gondoltak, de a domain regisztrálásakor elgépelték google.com-ra.",
+      "t": "névadás"
+    },
+    {
+      "q": "Mit szimbolizál az Amazon logójában az \"a\" és a \"z\" betű alatt húzódó mosolygó nyíl?",
+      "a": [
+        "Hogy a cég A-tól Z-ig mindent kínál",
+        "Hogy a szállítás mindig mosolyt okoz",
+        "Az Amazonas folyó kanyarulatát",
+        "A cég induló tőkéjének növekedését"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A 2000-ben bevezetett nyíl az A és Z betűket köti össze, jelezve a kínálat sokféleségét, miközben mosolyt is formáz.",
+      "t": "logók, jelképek"
+    },
+    {
+      "q": "Hol rejtőzik a FedEx logójában egy szinte észrevehetetlen nyíl?",
+      "a": [
+        "Az \"E\" és az \"x\" betű közötti negatív térben",
+        "A narancssárga háttér mintázatában",
+        "A \"Fed\" szó nagy F betűjében",
+        "A csomagszimbólumban a logó alatt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tervező, Lindon Leader, a két betű negatív terében alakította ki a sebességet sugalló rejtett nyilat.",
+      "t": "logók, jelképek"
+    },
+    {
+      "q": "Miből ered a Pepsi név, amelyet Caleb Bradham gyógyszerész adott italának?",
+      "a": [
+        "A \"dyspepsia\" (emésztési zavar) szóból",
+        "A \"pep\" (energia) angol szóból",
+        "Alapítója saját keresztnevéből",
+        "A kóladió növény latin nevéből"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bradham 1898-ban a dyspepsia szóból alkotta a Pepsi nevet, mert italát emésztést segítő szerként reklámozta.",
+      "t": "névadás"
+    },
+    {
+      "q": "Mit ábrázol a Nestlé logója, amely a családi címerből ered?",
+      "a": [
+        "Madárfészket, benne etetett fiókákat",
+        "Svájci Alpokat egy naplementében",
+        "Legelésző tehenet a hegyoldalban",
+        "Gőzölgő kávébabot egy csészében"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Henri Nestlé családi címerében egy madárfészek szerepelt, ezt vette át 1868-ban logóként, utalva nevének \"kis fészek\" jelentésére is.",
+      "t": "logók, jelképek"
+    },
+    {
+      "q": "Miből áll össze az IKEA márkanév?",
+      "a": [
+        "Az alapító nevéből, farmja és faluja nevéből",
+        "Az \"otthon\" jelentésű svéd szóból",
+        "Az alapító három lányának nevéből",
+        "A cég első négy boltjának városából"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az IKEA Ingvar Kamprad nevének kezdőbetűiből (I, K), valamint az Elmtaryd farm és Agunnaryd falu nevéből épül fel.",
+      "t": "névadás"
+    },
+    {
+      "q": "Milyen tréfás mozaikszóként is értelmezték a Yahoo nevet az alapítók?",
+      "a": [
+        "Yet Another Hierarchical Officious Oracle",
+        "Young Adults Hunting Amazing Opportunities",
+        "Your Answer Has Only One Option",
+        "Yearly Analysis Handling Online Orders"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az alapítók önironikus mozaikszóval is feloldották a nevet, bár állításuk szerint a Gulliver utazásaiban szereplő szó jelentése miatt választották.",
+      "t": "névadás"
+    },
+    {
+      "q": "Milyen néven nyitotta meg első üzletét Richard Schulze 1966-ban, amelyből később a Best Buy lett?",
+      "a": [
+        "Sound of Music",
+        "Electronics World",
+        "Schulze Audio Shop",
+        "The Music Box"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Schulze hi-fi szaküzlete Sound of Music néven indult Minnesotában, majd 1983-ban vette fel a Best Buy nevet.",
+      "t": "névadás"
+    },
+    {
+      "q": "Melyik évben szabadalmaztatta Levi Strauss és Jacob Davis a rézszegecses farmernadrágot?",
+      "a": [
+        "1873-ban",
+        "1853-ban",
+        "1890-ben",
+        "1901-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A két üzlettárs 1873. május 20-án kapott szabadalmat a zsebnyílásokat megerősítő rézszegecsekre, ez a mai farmer születése.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Melyik regény szereplőjéről kapta végül a nevét a Starbucks kávéházlánc?",
+      "a": [
+        "A Moby Dick első tisztjéről, Starbuckról",
+        "A Kincses sziget kalózfiguráiról",
+        "A Robinson Crusoe főszereplőjéről",
+        "A Verne-regény kapitányáról, Nemóról"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az alapítók egy Starbo nevű bányászvárosból jutottak el Herman Melville regényének Starbuck nevű első tisztjéig.",
+      "t": "névadás"
+    },
+    {
+      "q": "Miért választotta George Eastman a \"Kodak\" kitalált szót cége nevéül?",
+      "a": [
+        "Erős, könnyen kiejthető K hanggal kezdődött és zárult",
+        "Egy indián törzs nyelvén \"fényt\" jelentett",
+        "Felesége nevéből alkotta a kifejezést",
+        "Egy fényképész barátja javasolta neki"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Eastman kedvelte a K betűt, ezért teljesen kitalált, könnyen kiejthető szót alkotott, amely K-val kezdődik és végződik.",
+      "t": "névadás"
+    },
+    {
+      "q": "Melyik görög szóból ered a Xerox név, amely a száraz másolási eljárásra utal?",
+      "a": [
+        "\"Xérosz\" (száraz)",
+        "\"Xénosz\" (idegen)",
+        "\"Xülon\" (fa)",
+        "\"Xronosz\" (idő)"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A xerográfia elnevezés a görög xérosz (száraz) és grafein (írni) szavakból ered, innen kapta nevét a Xerox is.",
+      "t": "névadás"
+    },
+    {
+      "q": "Mit jelent dánul a \"leg godt\" kifejezés, amelyből a LEGO név született?",
+      "a": [
+        "\"Jól játszani\"",
+        "\"Kis kockák\"",
+        "\"Örök építés\"",
+        "\"Gyermeki öröm\""
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ole Kirk Christiansen 1934-ben a \"leg godt\" (jól játszani) kifejezés összevonásából alkotta meg a LEGO nevet.",
+      "t": "névadás"
+    },
+    {
+      "q": "Milyen terméket gyártott eredetileg William Colgate New York-i műhelye a 19. század elején?",
+      "a": [
+        "Szappant és gyertyát árult",
+        "Fogkeféket gyártott csak",
+        "Csomagolópapírt készített",
+        "Gyógyszereket forgalmazott"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Colgate 1806-ban szappan- és gyertyakészítő üzemként indította vállalkozását, a fogápolási termékek csak később kerültek a kínálatba.",
+      "t": "korai évek"
+    },
+    {
+      "q": "Mit talált fel King Camp Gillette, aki nevét adta a borotvamárkának?",
+      "a": [
+        "Az eldobható pengéjű borotvát",
+        "A villanyborotva ötletét",
+        "A habosítható borotvahabot",
+        "A modern borotvakrém receptjét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Gillette a 20. század elején fejlesztette ki és szabadalmaztatta az eldobható pengéjű biztonsági borotvát.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Miért kapta az 5-ös számot a híres Chanel No. 5 parfüm?",
+      "a": [
+        "Az ötödik illatminta nyerte el Chanel tetszését",
+        "Május 5-én mutatták be a parfümöt",
+        "Öt évig tartott a kifejlesztése",
+        "Öt alapanyagból kevert illat volt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A parfümőr, Ernest Beaux több mintát mutatott be, és Coco Chanel a sorban ötödikként számozott üveget választotta.",
+      "t": "névadás"
+    },
+    {
+      "q": "Milyen szakmában dolgozott eredetileg Louis Vuitton, mielőtt 1854-ben megalapította híres márkáját?",
+      "a": [
+        "Utazóládakészítőként dolgozott",
+        "Szabóként dolgozott Párizsban",
+        "Ékszerészként tanult szakmát",
+        "Cipészmesterként kezdte pályáját"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Vuitton párizsi ládakészítőként tanulta ki szakmáját, mielőtt saját poggyászkészítő márkáját alapította.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Mit jelent szó szerint a Volkswagen név?",
+      "a": [
+        "\"Népautó\"",
+        "\"Sebes szekér\"",
+        "\"Vas ökör\"",
+        "\"Erős motor\""
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A német \"Volkswagen\" szó jelentése \"népautó\", a márkát 1937-ben egy mindenki számára elérhető autó gyártására hozták létre.",
+      "t": "névadás"
+    },
+    {
+      "q": "Mi az elterjedt, de téves magyarázat a BMW kék-fehér logójára a valódi eredettel (Bajorország zászlaja) szemben?",
+      "a": [
+        "Egy forgó repülőgép-légcsavart ábrázol",
+        "Egy motorkerékpár kerekét jelképezi",
+        "A müncheni éjszakai eget mutatja",
+        "Az alapító monogramját rejti el"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gyakori legenda szerint a logó egy repülőgép-légcsavart mutat, valójában a minta Bajorország kék-fehér zászlajára utal.",
+      "t": "logók, jelképek"
+    },
+    {
+      "q": "Milyen eredeti tevékenységre utal a Shell olajtársaság kagylót ábrázoló logója?",
+      "a": [
+        "A cég díszkagylók kereskedelmével foglalkozott",
+        "Az alapító kagylógyűjtő volt hobbiból",
+        "Az első olajmezőt kagylóalakú öbölben találták",
+        "A logót egy ausztrál tervező alkotta"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Marcus Samuel apja londoni díszkagyló-kereskedésből alapozta meg a családi vállalkozást, amelyből később a Shell olajcég nőtt ki.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Mit jelképez a Mitsubishi három gyémánt alakú elemből álló logója?",
+      "a": [
+        "Az alapító Iwasaki család címerét",
+        "Japán három legnagyobb szigetét",
+        "A cég három alapító tagját",
+        "Három egymást keresztező kardot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A \"mitsu\" (három) és \"hishi\" (rombusz) szavakból álló név és a logó az Iwasaki család címerének három gyémántjából ered.",
+      "t": "logók, jelképek"
+    },
+    {
+      "q": "Mit jelent koreaiul a Samsung név?",
+      "a": [
+        "\"Három csillag\"",
+        "\"Nagy folyó\"",
+        "\"Fényes jövő\"",
+        "\"Erős kéz\""
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az alapító, Lee Byung-chull olyan nevet akart, amely erős és örökkévaló, mint a csillagok, ezért lett a cég neve \"három csillag\".",
+      "t": "névadás"
+    },
+    {
+      "q": "Melyik latin szóból ered részben a Sony név?",
+      "a": [
+        "\"Sonus\" (hang)",
+        "\"Solus\" (egyedüli)",
+        "\"Sonare\" (csengeni)",
+        "\"Solis\" (napé)"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Sony nevet a latin \"sonus\" (hang) szó és az 1950-es években népszerű \"sonny\" angol becézés összevonásából alkották meg 1958-ban.",
+      "t": "névadás"
+    },
+    {
+      "q": "Kiről nevezték el a Mercedes autómárkát?",
+      "a": [
+        "Emil Jellinek lányáról, Mercédèsről",
+        "Egy híres versenypálya nevéről",
+        "A Daimler egyik mérnökének feleségéről",
+        "Egy spanyol tengerparti városról"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Emil Jellinek üzletember 1902-ben lánya, Mercédès nevét adta a Daimler által gyártott autóknak.",
+      "t": "névadás"
+    },
+    {
+      "q": "Hogyan ismerkedett meg egymással Charles Rolls és Henry Royce 1904-ben?",
+      "a": [
+        "Közös ismerősük hozta össze egy manchesteri ebéden",
+        "Egy autóversenyen versenyeztek egymás ellen",
+        "Levelezés útján ismerkedtek meg",
+        "Egy szabadalmi jogvita során találkoztak"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Henry Edmunds hozta össze a két férfit a manchesteri Midland Hotelben, ebből a találkozóból nőtte ki magát a Rolls-Royce.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Milyen rokoni kapcsolat fűzte össze a Procter & Gamble alapítóit, William Proctert és James Gamble-t?",
+      "a": [
+        "Sógorok lettek, mert két testvért vettek el",
+        "Testvérek voltak egymással",
+        "Apa és fia volt a viszonyuk",
+        "Unokatestvérek voltak születésüktől"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gyertyakészítő Procter és a szappankészítő Gamble sógorok lettek, miután két testvért vettek el, majd 1837-ben társultak.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Melyik péksüteményes cég tésztásdobozairól kapta a nevét a frizbi?",
+      "a": [
+        "A Frisbie Pie Company pitésdobozairól",
+        "A Kellogg's kekszes csomagolásáról",
+        "A Nabisco süteményes dobozáról",
+        "Egy sörfőzde söralátétjeiről"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Egyetemisták a connecticuti Frisbie pékség üres pitésdobozaival dobálóztak, ebből született a Wham-O által elnevezett frizbi.",
+      "t": "névadás"
+    },
+    {
+      "q": "Mit jelent latinul a Volvo szó, amelyet a márka nevéül választottak?",
+      "a": [
+        "\"Gördülök\"",
+        "\"Erős vagyok\"",
+        "\"Előre haladok\"",
+        "\"Biztonságos vagyok\""
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Volvo a latin \"volvere\" (gördülni) ige ragozott alakja, jelentése \"gördülök\", utalva a gördülőcsapágyakra és autókra egyaránt.",
+      "t": "névadás"
+    },
+    {
+      "q": "Mi volt Mickey Mouse eredeti neve, mielőtt Walt Disney felesége lebeszélte róla?",
+      "a": [
+        "Mortimer",
+        "Oswald",
+        "Maxwell",
+        "Herbert"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Walt Disney eredetileg Mortimer Mouse-nak nevezte volna el a karaktert, de felesége, Lillian javasolta a Mickey nevet.",
+      "t": "névadás"
+    },
+    {
+      "q": "Miből áll össze az Airbnb elnevezés?",
+      "a": [
+        "Az \"Air Bed and Breakfast\" kifejezésből",
+        "Az alapítók keresztneveinek kezdőbetűiből",
+        "Az \"Air Business and Booking\" szavakból",
+        "Egy repülőtéri szállodalánc nevéből"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A vállalkozás onnan indult, hogy 2007-ben légmatracokat kínáltak reggelivel bérlakásukban, innen az \"Air Bed and Breakfast\" név.",
+      "t": "névadás"
+    },
+    {
+      "q": "Milyen néven futott az eBay 1995-ös indulásakor, mielőtt jelenlegi nevét felvette volna?",
+      "a": [
+        "AuctionWeb néven",
+        "eCommerce Hub néven",
+        "BidNet Online néven",
+        "TradeSpot Market néven"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pierre Omidyar oldala eredetileg AuctionWeb néven indult 1995-ben, majd 1997-ben nevezték át eBay-re.",
+      "t": "névadás"
+    },
+    {
+      "q": "Melyik korábbi cégből alakult ki fúzió révén a mai PayPal?",
+      "a": [
+        "A Confinity és az X.com egyesüléséből",
+        "A Netscape és a Yahoo közös projektjéből",
+        "A Visa belső fejlesztési részlegéből",
+        "Az eBay saját fizetési részlegéből"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 2000-ben Confinity (korábban Fieldlink) és az Elon Musk-féle X.com egyesüléséből jött létre a PayPal.",
+      "t": "egyesülések"
+    },
+    {
+      "q": "Hány éves korában kezdte franchise-ba adni csirkerecept-üzletét Colonel Sanders, a KFC alapítója?",
+      "a": [
+        "65 éves korában",
+        "35 éves korában",
+        "50 éves korában",
+        "80 éves korában"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Miután üzlete a nyugdíjkorhatár körül csődbe ment, Sanders 65 évesen, alig 105 dollár társadalombiztosítási ellátással kezdett franchise-t építeni.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Milyen két nyelvi elemből rakta össze a nevét a Vaseline márka?",
+      "a": [
+        "A német \"víz\" és a görög \"olaj\" szóból",
+        "A francia \"edény\" és a latin \"kenőcs\" szóból",
+        "Az alapító és felesége nevének elegyéből",
+        "Két régi latin orvosi kifejezésből"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Robert Chesebrough a víz és olaj szavak (Wasser, elaion) összevonásából alkotta a Vaseline nevet, mert tévesen víz eredetűnek hitte a kőolajat.",
+      "t": "névadás"
+    },
+    {
+      "q": "Mi ihlette a Michelin embléma, Bibendum alakját?",
+      "a": [
+        "Egymásra rakott gumiabroncsokból álló halom",
+        "Egy híres párizsi cirkuszi bohóc alakja",
+        "Az alapító testvérek gyermekkori rajza",
+        "Egy régi francia mesehős figurája"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1894-es lyoni kiállításon egy gumihalmot látva jutott eszébe Édouard Michelinnek, hogy karokkal emberalakot formázzanak belőle.",
+      "t": "kabalák és logók"
+    },
+    {
+      "q": "Mit jelent a 3M cégnév eredetileg?",
+      "a": [
+        "Minnesota Mining and Manufacturing",
+        "Modern Machines and Materials",
+        "Multinational Metal Manufacturing",
+        "Minneapolis Motor Machinery"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A 3M nevet a Minnesota Mining and Manufacturing Company rövidítéséből kapta, amely eredetileg bányászati ásványokkal foglalkozott.",
+      "t": "névadás"
+    },
+    {
+      "q": "Mit jelent az IBM cégnév?",
+      "a": [
+        "International Business Machines",
+        "Industrial Business Manufacturing",
+        "International Banking Machines",
+        "Integrated Business Modules"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az IBM nevet 1924-ben vették fel, jelentése International Business Machines Corporation.",
+      "t": "névadás"
+    },
+    {
+      "q": "Melyik áruházlánc jeleníti meg logójában tükrözve az \"R\" betűt gyermekes hatás kedvéért?",
+      "a": [
+        "Toys \"R\" Us",
+        "Sports Authority",
+        "Circuit City",
+        "Radio Shack"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Toys \"R\" Us játékáruházlánc az \"R\" betűt gyermekes, kézzel írt hatás kedvéért tükrözve jeleníti meg a logójában.",
+      "t": "logók, jelképek"
+    },
+    {
+      "q": "Milyen szakmában dolgozott John Pemberton, a Coca-Cola feltalálója, mielőtt megalkotta az italt?",
+      "a": [
+        "Gyógyszerészként dolgozott Atlantában",
+        "Vegyészmérnökként egy vasúttársaságnál",
+        "Cukrászmesterként tanult szakmát",
+        "Katonai orvosként egy tábori kórházban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Pemberton atlantai gyógyszerész volt, aki 1886-ban gyógyhatású tonikként fejlesztette ki az italt, amelyből a Coca-Cola lett.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Milyen üzletágban működött eredetileg a Netflix, mielőtt streamingszolgáltatóvá vált volna?",
+      "a": [
+        "DVD-ket kölcsönzött postai úton",
+        "Videojátékokat kölcsönzött boltjaiban",
+        "Kábeltévé-csatornákat üzemeltetett",
+        "Filmeket forgalmazott moziknak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Netflix 1997-ben postai DVD-kölcsönzőként indult, és csak 2007-től vezette be az online videó-streamelést.",
+      "t": "korai évek"
+    },
+    {
+      "q": "Miért nem tekinthető Henry Ford az autó feltalálójának, annak ellenére, hogy nevéhez kötjük a tömeggyártást?",
+      "a": [
+        "A futószalagos gyártást tökéletesítette, nem az autót",
+        "Csak alkatrészgyártással foglalkozott korábban",
+        "Sosem vezetett saját autót életében",
+        "A Ford céget valójában nem is ő alapította"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ford a mozgó futószalagos tömeggyártást vezette be és tette hatékonyabbá, miközben az autót már korábban mások feltalálták.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Melyik thaiföldi energiaital ihlette az osztrák Dietrich Mateschitzet a Red Bull megalkotásában?",
+      "a": [
+        "A Krating Daeng nevű ital",
+        "A Chang Beer nevű sör",
+        "A Singha nevű üdítőital",
+        "A Mekhong nevű likőr"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mateschitz egy ázsiai üzleti útja során ismerte meg a Krating Daeng nevű thai energiaitalt, amelyből a Red Bull receptje kiindult.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Mennyire volt mély a Dassler testvérek, az Adidas és a Puma alapítóinak élethosszig tartó viszálya?",
+      "a": [
+        "Végrendeletükben külön sírhelyet kértek egymástól távol",
+        "Egyetlen közös fényképük sem maradt fenn",
+        "Sosem éltek ugyanabban a városban",
+        "Egyikük megváltoztatta a vezetéknevét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A testvérek viszálya olyan mély volt, hogy kikötötték: a herzogenaurachi temető ellentétes végein temessék el őket.",
+      "t": "kudarcok"
+    },
+    {
+      "q": "Melyik iparágból váltott a Nokia a mobiltelefon-gyártásra, mielőtt piacvezető lett a szektorban?",
+      "a": [
+        "Papírgyártásból és gumitermékekből",
+        "Autóalkatrész-gyártásból",
+        "Textiliparból és szövésből",
+        "Élelmiszer-feldolgozásból"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A finn Nokia eredetileg papírmalomként indult, később gumitermékeket is gyártott, mielőtt az elektronikai iparba lépett.",
+      "t": "iparágak"
+    },
+    {
+      "q": "Milyen okból váltott nevet a Facebook anyavállalata Metára 2021-ben?",
+      "a": [
+        "A metaverzumra, virtuális térre való fókuszváltás jelzésére",
+        "Jogi vitába keveredett a Facebook névvel",
+        "Egyesült egy másik technológiai céggel",
+        "Megszüntették a Facebook alkalmazást"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mark Zuckerberg a Meta nevet azért választotta, hogy a cég jövőjét a metaverzum, azaz a virtuális terek fejlesztéséhez kösse.",
+      "t": "névadás"
+    },
+    {
+      "q": "Mi történt a Kodak vállalattal a digitális fényképezés elterjedése idején, holott saját mérnöke fejlesztette ki az egyik első digitális gépet?",
+      "a": [
+        "Csődvédelmet kért, mert nem váltott elég gyorsan",
+        "Azonnal piacvezető lett digitális gépek terén",
+        "Összeolvadt versenytársával, a Fujifilmmel",
+        "Teljesen kivonult a fényképezés piacáról"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kodak mérnöke már 1975-ben megépítette az első digitális fényképezőgépet, de a cég a filmpiacra összpontosított, és 2012-ben csődvédelmet kért.",
+      "t": "kudarcok"
+    },
+    {
+      "q": "Mit jelent a Škoda autómárka nevében szereplő, alapítóktól örökölt vezetéknév eredete?",
+      "a": [
+        "Emil Škoda mérnök nevét viseli a márka",
+        "Egy cseh folyó nevéből ered",
+        "Egy prágai városrész neve",
+        "Az alapítók monogramjából alkották"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A csehországi gépgyárat Emil Škoda vásárolta fel és fejlesztette tovább 1869 után, innen ered a ma is használt márkanév.",
+      "t": "névadás"
+    },
+    {
+      "q": "Miért volt szokatlan Elizabeth Magie szerepe a Monopoly nevű társasjáték kialakulásában a 20. század elején?",
+      "a": [
+        "Nőként ő szabadalmaztatta a játékot, egy férfi kapta érte az elismerést",
+        "Ő volt az első, aki társasjátékot exportált Európába",
+        "Gyermekként, tíz évesen találta fel a játékot",
+        "Vakon, látássérültként tervezte meg a táblát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Magie 1904-ben szabadalmaztatta a Landlord's Game-et, de évtizedekig Charles Darrow-t tartották a Monopoly kitalálójának.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Melyik kifejezésből ered a Zippo öngyújtó neve, amely a kattanó záródás hangját idézi?",
+      "a": [
+        "A \"zipper\" (cipzár) angol szóból",
+        "Az alapító vezetéknevéből",
+        "A \"zip\" jelentésű francia szóból",
+        "Egy régi katonai kódszóból"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "George Blaisdell a cipzárt jelentő \"zipper\" szóhoz hasonló, pattogó hangzású \"Zippo\" nevet választotta öngyújtójának 1933-ban.",
+      "t": "névadás"
+    },
+    {
+      "q": "Melyik márka nevét jegyezték be véletlenül köznévvé, amikor eredetileg csak egy adott gyártó zsebkendőpapírját jelölte?",
+      "a": [
+        "A Kleenex",
+        "A Kellogg's",
+        "A Colgate",
+        "A Gillette"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kleenex név annyira elterjedt, hogy sok angol nyelvterületen általában a papírzsebkendőt jelöli, függetlenül a gyártótól.",
+      "t": "szlogenek"
+    },
+    {
+      "q": "Milyen jogi problémát okozott a Bayer cégnek, hogy az aszpirin neve köznévvé vált a 20. század elején?",
+      "a": [
+        "Több országban elveszítette a védjegyoltalmat a szóra",
+        "Perbe fogták a szó feltalálásáért",
+        "Vissza kellett vonnia a terméket a piacról",
+        "Át kellett neveznie a hatóanyagot"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az I. világháború utáni békeszerződések nyomán a Bayer több országban, köztük az USA-ban is elveszítette az \"aspirin\" szó védjegyét.",
+      "t": "kudarcok"
+    },
+    {
+      "q": "Kiről kapta a nevét a Wrigley rágógumimárka, amely eredetileg szappan- és sütőporgyártásból nőtte ki magát?",
+      "a": [
+        "Az alapítóról, William Wrigley Jr.-ról",
+        "Egy chicagói üzlettársról",
+        "Az első gyár utcájának nevéről",
+        "Egy mexikói gumifa fajtájáról"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "William Wrigley Jr. eredetileg szappant és sütőport árult, ráadásként adott rágógumival, amely végül fő termékévé vált.",
+      "t": "korai évek"
+    },
+    {
+      "q": "Milyen elnevezéssel indult a Warner Bros filmstúdió, amelyet négy testvér alapított a 20. század elején?",
+      "a": [
+        "A négy Warner testvér vezetéknevét viselte kezdettől",
+        "Eredetileg First National Pictures néven futott",
+        "Kezdetben Warner Sisters néven indult",
+        "Az alapítás után csak egy testvér nevét vette fel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Harry, Albert, Sam és Jack Warner 1923-ban közösen alapította a stúdiót, amely mindvégig a Warner Bros nevet viselte.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Milyen elven kapta a nevét a Duracell elemgyártó márka?",
+      "a": [
+        "A \"tartós\" és \"elem\" angol szavainak összevonásából",
+        "Az alapító francia vezetéknevéből",
+        "Egy görög mitológiai alak nevéből",
+        "Az első gyár utcájának nevéből"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Duracell név a \"durable\" (tartós) és a \"cell\" (elem) angol szavak összevonásából született, a hosszú élettartamra utalva.",
+      "t": "névadás"
     }
   ]
 }

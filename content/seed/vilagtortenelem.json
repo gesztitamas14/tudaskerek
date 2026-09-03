@@ -1038,6 +1038,1163 @@
       "e": "Libanon függetlenségének évtizede: 1940-es évek.",
       "t": "függetlenségi dátumok",
       "s": "http://www.wikidata.org/entity/Q822"
+    },
+    {
+      "q": "Mit jelentett szó szerint a fáraó cím az ókori Egyiptomban?",
+      "a": [
+        "Nagy ház",
+        "Napisten fia",
+        "Örök uralkodó",
+        "Kettős korona"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szó az egyiptomi 'per-aa' kifejezésből ered, ami eredetileg a királyi palotát, azaz 'nagy házat' jelentette.",
+      "t": "ókor"
+    },
+    {
+      "q": "Melyik ókori nép fejlesztette ki elsőként az ékírást Mezopotámiában?",
+      "a": [
+        "A sumérok",
+        "A babiloniak",
+        "Az asszírok",
+        "A perzsák"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ékírást a sumérok alkották meg Kr. e. 3400 körül, agyagtáblákba nyomott jelekkel.",
+      "t": "ókor"
+    },
+    {
+      "q": "Melyik csatában tartott ki 300 spártai vezette görög sereg a hatalmas perzsa haderő ellen Kr. e. 480-ban?",
+      "a": [
+        "Thermopülai csata",
+        "Marathoni csata",
+        "Szalamiszi csata",
+        "Plataiai csata"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A thermopülai szorosban Leónidasz spártai király serege napokig feltartóztatta a perzsa hadat, mielőtt elesett.",
+      "t": "ókor"
+    },
+    {
+      "q": "Melyik görög filozófus alapította az Akadémia nevű iskolát Athénban?",
+      "a": [
+        "Platón",
+        "Szókratész",
+        "Arisztotelész",
+        "Periklész"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Platón Kr. e. 387 körül alapította az Akadémiát, amely évszázadokig működött filozófiai iskolaként.",
+      "t": "ókor"
+    },
+    {
+      "q": "Melyik évben halt meg Nagy Sándor, ami birodalma szétesésének kezdetét jelentette?",
+      "a": [
+        "Kr. e. 323",
+        "Kr. e. 336",
+        "Kr. e. 301",
+        "Kr. e. 310"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Nagy Sándor Kr. e. 323-ban, 32 évesen halt meg Babilonban, birodalmát utódai osztották fel.",
+      "t": "ókor"
+    },
+    {
+      "q": "Melyik ókori nagybirodalom terjedt ki Perzsiától egészen az Indus folyóig I. Dareiosz uralkodása alatt?",
+      "a": [
+        "Az Akhaimenida (perzsa) Birodalom",
+        "Az Asszír Birodalom",
+        "A Babiloni Birodalom",
+        "A Makedón Birodalom"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Akhaimenida Birodalom I. Dareiosz alatt érte el legnagyobb kiterjedését, Perzsiától az Indus-völgyig.",
+      "t": "ókor"
+    },
+    {
+      "q": "Mit jelent eredetileg a latin 'gladiator' szó, amelyből a magyar 'gladiátor' származik?",
+      "a": [
+        "Kardforgató",
+        "Halálra ítélt",
+        "Arénai bajnok",
+        "Harci fogoly"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szó a 'gladius' (kard) szóból ered, jelentése tehát nagyjából 'kardforgató' vagy 'kardvívó'.",
+      "t": "ókor"
+    },
+    {
+      "q": "Melyik ókori uralkodónő volt a Ptolemaiosz-dinasztia utolsó ténylegesen uralkodó tagja Egyiptomban?",
+      "a": [
+        "Kleopátra",
+        "Nofertiti",
+        "Hatsepszut",
+        "Néfertari"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "VII. Kleopátra volt az utolsó Ptolemaiosz-uralkodó, halálával Egyiptom római provinciává vált Kr. e. 30-ban.",
+      "t": "ókor"
+    },
+    {
+      "q": "Miért nevezik a Kr. e. 5. század közepét Athén 'aranykorának'?",
+      "a": [
+        "Mert Periklész alatt virágzott a demokrácia, épült a Parthenón és fellendültek a művészetek",
+        "Mert ekkor foglalta el Athén az egész görög félszigetet katonai erővel",
+        "Mert ekkor szűnt meg végleg a rabszolgaság az athéni társadalomban",
+        "Mert ekkor egyesült Athén és Spárta egyetlen közös állammá"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Periklész vezetése alatt Athén kulturálisan és politikailag is virágkorát élte, ekkor épült többek közt a Parthenón.",
+      "t": "ókor"
+    },
+    {
+      "q": "Melyik épület a Kr. e. 5. századi athéni Akropolisz legismertebb szimbóluma, Periklész idejéből?",
+      "a": [
+        "A Parthenón",
+        "A Kolosszeum",
+        "Az Erekhtheion",
+        "Zeusz temploma Olümpiában"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Parthenón Athéné istennő tiszteletére épült a Kr. e. 5. században, az Akropolisz csúcsán.",
+      "t": "ókor"
+    },
+    {
+      "q": "Mit jelentett a középkori hűbériség (feudalizmus) rendszerének lényege?",
+      "a": [
+        "A hűbérúr földet adott a vazallusnak katonai és hűségi szolgálat fejében",
+        "Minden földbirtok a király közvetlen tulajdonában maradt örökre",
+        "A parasztok szabadon választhatták meg, kinek dolgoznak",
+        "A egyház volt az egyetlen földbirtokos egész Európában"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A feudalizmus alapja a föld és védelem cseréje hűségért és katonai szolgálatért a hűbérúr és vazallusa között.",
+      "t": "középkor"
+    },
+    {
+      "q": "Melyik évben következett be a nagy egyházszakadás Róma és Konstantinápoly egyháza között?",
+      "a": [
+        "1054",
+        "1096",
+        "1204",
+        "1453"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1054-ben szakadt véglegesen ketté a keresztény egyház római katolikus és keleti ortodox ágra.",
+      "t": "középkor"
+    },
+    {
+      "q": "Melyik angol királyt kényszerítették a nemesek a Magna Carta aláírására 1215-ben?",
+      "a": [
+        "Földnélküli János",
+        "Oroszlánszívű Richárd",
+        "Hódító Vilmos",
+        "III. Henrik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Földnélküli János 1215-ben írta alá a Magna Cartát, amely korlátozta a királyi hatalmat.",
+      "t": "középkor"
+    },
+    {
+      "q": "Melyik járvány pusztította el Európa lakosságának jelentős részét a 14. század közepén?",
+      "a": [
+        "A Fekete Halál (pestis)",
+        "A kolerajárvány",
+        "A himlőjárvány",
+        "A tífuszjárvány"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pestisjárvány 1347 és 1351 között Európa lakosságának becslések szerint harmadát-felét pusztította el.",
+      "t": "középkor"
+    },
+    {
+      "q": "Melyik csata nyitotta meg 1066-ban Anglia normann meghódítását?",
+      "a": [
+        "A hastingsi csata",
+        "A crécyi csata",
+        "A poitiers-i csata",
+        "A bosworthi csata"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1066-ban Hódító Vilmos normann herceg a hastingsi csatában győzte le Harold angol királyt.",
+      "t": "középkor"
+    },
+    {
+      "q": "Melyik birodalom szűnt meg formálisan 1806-ban, miután Napóleon vereséget mért II. Ferencre?",
+      "a": [
+        "A Szent Római Birodalom",
+        "A Bizánci Birodalom",
+        "Az Oszmán Birodalom",
+        "A Frank Birodalom"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "II. Ferenc 1806-ban lemondott a Szent Római Birodalom császári címéről, ezzel a birodalom megszűnt.",
+      "t": "középkor"
+    },
+    {
+      "q": "Miért indították a nyugat-európai keresztény hatalmak az első keresztes hadjáratot a 11. század végén?",
+      "a": [
+        "Hogy visszafoglalják a Szentföldet és Jeruzsálemet a muszlim uralom alól",
+        "Hogy megvédjék Bizáncot a mongol seregek betörésétől",
+        "Hogy egyesítsék Nyugat-Európa királyságait egyetlen birodalommá",
+        "Hogy megszerezzék az arab kereskedelmi flották uralmát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1096-ban induló hadjárat célja a Szentföld, elsősorban Jeruzsálem visszaszerzése volt a keresztények számára.",
+      "t": "középkor"
+    },
+    {
+      "q": "Melyik évben ért véget a franciák és angolok közti százéves háború?",
+      "a": [
+        "1453",
+        "1415",
+        "1381",
+        "1492"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A háború 1453-ban, a castillon-i csatával zárult, ekkorra a franciák kiszorították az angolokat szinte teljesen.",
+      "t": "középkor"
+    },
+    {
+      "q": "Ki vezette a francia csapatokat a százéves háború idején, akit végül eretnekség vádjával megégettek?",
+      "a": [
+        "Jeanne d'Arc",
+        "Fülöp Ágost",
+        "VII. Károly",
+        "Bertrand du Guesclin"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Orléans-i Szüzet, Jeanne d'Arcot 1431-ben égették meg Rouenban eretnekség vádjával.",
+      "t": "középkor"
+    },
+    {
+      "q": "Melyik mongol vezér hódította meg a történelem egyik legnagyobb összefüggő szárazföldi birodalmát a 13. században?",
+      "a": [
+        "Dzsingisz kán",
+        "Attila",
+        "Timur Lenk",
+        "Batu kán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Dzsingisz kán az 1200-as évek elején alapította meg a Mongol Birodalmat, amely Ázsia nagy részét lefedte.",
+      "t": "középkor"
+    },
+    {
+      "q": "Melyik évben ért partot Kolumbusz Kristóf Amerikában, spanyol koronától kapott hajókkal?",
+      "a": [
+        "1492",
+        "1498",
+        "1502",
+        "1488"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kolumbusz 1492 októberében ért partot a Bahamák egyik szigetén, Ázsiát keresve nyugat felől.",
+      "t": "reneszánsz és felfedezések"
+    },
+    {
+      "q": "Melyik portugál felfedező hajózta körbe elsőként Afrikát, hogy tengeri úton eljusson Indiába 1498-ban?",
+      "a": [
+        "Vasco da Gama",
+        "Bartolomeu Dias",
+        "Ferdinand Magellán",
+        "Henrik herceg"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Vasco da Gama 1498-ban ért el Indiába a Jóreménység fokát megkerülve, tengeri utat nyitva Ázsiába.",
+      "t": "reneszánsz és felfedezések"
+    },
+    {
+      "q": "Melyik itáliai várost tartják a reneszánsz bölcsőjének a 15. században?",
+      "a": [
+        "Firenzét",
+        "Rómát",
+        "Velencét",
+        "Milánót"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Firenze a Medici család mecénási tevékenysége révén vált a reneszánsz művészet és tudomány központjává.",
+      "t": "reneszánsz és felfedezések"
+    },
+    {
+      "q": "Ki festette a Sixtus-kápolna mennyezetét a Vatikánban a 16. század elején?",
+      "a": [
+        "Michelangelo",
+        "Raffaello",
+        "Leonardo da Vinci",
+        "Botticelli"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Michelangelo 1508 és 1512 között festette meg a Sixtus-kápolna mennyezetfreskóit II. Gyula pápa megbízásából.",
+      "t": "reneszánsz és felfedezések"
+    },
+    {
+      "q": "Melyik találmány tette lehetővé a könyvek tömeges terjesztését Európában a 15. század közepétől?",
+      "a": [
+        "A mozgatható betűs nyomtatás",
+        "A papír feltalálása Európában",
+        "A táviratozás",
+        "A könyvkötészet elterjedése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Johannes Gutenberg 1450 körül fejlesztette ki a mozgatható betűs nyomdagépet, ami forradalmasította a könyvkiadást.",
+      "t": "reneszánsz és felfedezések"
+    },
+    {
+      "q": "Melyik évben fejeződött be Magellán expedíciója a Föld első körülhajózásával, bár ő maga már nem élte meg?",
+      "a": [
+        "1522",
+        "1519",
+        "1533",
+        "1508"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Victoria nevű hajó 1522-ben tért vissza Spanyolországba, befejezve az első földkörüli hajóutat.",
+      "t": "reneszánsz és felfedezések"
+    },
+    {
+      "q": "Melyik csillagász állította fel elsőként a heliocentrikus világképet, mely szerint a Nap áll a rendszer középpontjában?",
+      "a": [
+        "Kopernikusz",
+        "Galilei",
+        "Kepler",
+        "Newton"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kopernikusz 1543-ban megjelent művében fejtette ki, hogy a Föld és a bolygók a Nap körül keringenek.",
+      "t": "reneszánsz és felfedezések"
+    },
+    {
+      "q": "Miért nevezik 'reneszánsznak', azaz újjászületésnek a 14-16. századi európai korszakot?",
+      "a": [
+        "Mert újjáéledt az ókori görög-római műveltség és művészet szemlélete",
+        "Mert ekkor épült újjá az összes lerombolt középkori katedrális",
+        "Mert visszaállították a Nyugatrómai Birodalom politikai rendszerét",
+        "Mert újjászervezték az egész európai hűbéri rendszert"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A reneszánsz az ókori klasszikus műveltség, esztétika és tudomány újrafelfedezését és utánzását jelentette.",
+      "t": "reneszánsz és felfedezések"
+    },
+    {
+      "q": "Melyik itáliai polihisztor tervezett repülő szerkezeteket és festette meg a Mona Lisát?",
+      "a": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Raffaello",
+        "Donatello"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Leonardo da Vinci egyszerre volt festő, feltaláló és tudós, számos géptervet is hátrahagyott.",
+      "t": "reneszánsz és felfedezések"
+    },
+    {
+      "q": "Melyik ország uralkodópárja finanszírozta Kolumbusz Kristóf első útját 1492-ben?",
+      "a": [
+        "Spanyolország",
+        "Portugália",
+        "Anglia",
+        "Franciaország"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Izabella kasztíliai és Ferdinánd aragóniai uralkodók támogatták Kolumbusz első nyugati útját.",
+      "t": "reneszánsz és felfedezések"
+    },
+    {
+      "q": "Melyik szerzetes szegezte ki állítólag 95 tételét a wittenbergi templom kapujára 1517-ben?",
+      "a": [
+        "Luther Márton",
+        "Kálvin János",
+        "Husz János",
+        "Zwingli Ulrich"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Luther Márton 1517-es tételei a búcsúcédulák árusítása ellen tiltakoztak, elindítva a reformációt.",
+      "t": "újkor"
+    },
+    {
+      "q": "Mi volt a reformáció egyik fő teológiai követelése a katolikus egyházzal szemben?",
+      "a": [
+        "A hit általi megigazulás és a búcsúcédulák elutasítása",
+        "A pápai hatalom további kiterjesztése minden uralkodó felett",
+        "A latin nyelvű mise kizárólagossá tétele",
+        "A szerzetesrendek számának radikális növelése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A reformátorok szerint az üdvösség hit, nem pedig búcsúcédulák vásárlása révén nyerhető el.",
+      "t": "újkor"
+    },
+    {
+      "q": "Melyik háború pusztította végig Németország területét 1618 és 1648 között vallási és hatalmi okokból?",
+      "a": [
+        "A harmincéves háború",
+        "A hétéves háború",
+        "A spanyol örökösödési háború",
+        "A schmalkaldeni háború"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A harmincéves háború (1618-1648) protestánsok és katolikusok, illetve nagyhatalmak közti küzdelem volt.",
+      "t": "újkor"
+    },
+    {
+      "q": "Melyik francia uralkodót nevezték kortársai 'Napkirálynak'?",
+      "a": [
+        "XIV. Lajost",
+        "XVI. Lajost",
+        "IV. Henriket",
+        "XIII. Lajost"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "XIV. Lajos abszolutista uralkodásáról és a versailles-i pompáról kapta a 'Napkirály' elnevezést.",
+      "t": "újkor"
+    },
+    {
+      "q": "Melyik évben végezték ki I. Károly angol királyt az angol polgárháborút követően?",
+      "a": [
+        "1649",
+        "1642",
+        "1660",
+        "1688"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "I. Károlyt 1649 januárjában végezték ki, miután a parlamenti erők legyőzték a királypártiakat.",
+      "t": "újkor"
+    },
+    {
+      "q": "Miért nevezik 'dicsőséges forradalomnak' az 1688-as angliai eseményeket?",
+      "a": [
+        "Mert szinte vér nélkül buktatták meg II. Jakab királyt, és korlátozták a királyi hatalmat",
+        "Mert ekkor sikerült véglegesen legyőzni a francia hadsereget angol földön",
+        "Mert ekkor egyesült véglegesen Anglia és Skócia egyetlen közös parlamentté",
+        "Mert ekkor törölték el végleg a monarchiát Nagy-Britanniában"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "II. Jakabot 1688-ban vér nélkül buktatták meg, helyére III. Vilmos és Mária lépett, korlátozott hatalommal.",
+      "t": "újkor"
+    },
+    {
+      "q": "Melyik orosz uralkodó alapította Szentpétervárt, és modernizálta erőszakos reformokkal az országot?",
+      "a": [
+        "I. (Nagy) Péter",
+        "Rettegett Iván",
+        "Nagy Katalin",
+        "I. Miklós"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "I. Péter cár 1703-ban alapította Szentpétervárt, és nyugati mintára reformálta meg Oroszországot.",
+      "t": "újkor"
+    },
+    {
+      "q": "Melyik francia felvilágosodás kori gondolkodó fogalmazta meg a hatalmi ágak szétválasztásának elvét?",
+      "a": [
+        "Montesquieu",
+        "Voltaire",
+        "Rousseau",
+        "Diderot"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Montesquieu 'A törvények szelleméről' című művében fejtette ki a törvényhozó, végrehajtó és bírói hatalom szétválasztását.",
+      "t": "újkor"
+    },
+    {
+      "q": "Melyik háborúban veszítette el Franciaország észak-amerikai gyarmatainak jelentős részét Nagy-Britannia javára?",
+      "a": [
+        "A hétéves háborúban",
+        "A napóleoni háborúkban",
+        "A spanyol örökösödési háborúban",
+        "Az amerikai függetlenségi háborúban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az 1756-1763 közötti hétéves háborúban Franciaország elveszítette Kanadát és gyarmatai nagy részét.",
+      "t": "újkor"
+    },
+    {
+      "q": "Melyik év július 14-én rohanták meg a párizsiak a Bastille börtönt, jelezve a francia forradalom kezdetét?",
+      "a": [
+        "1789",
+        "1793",
+        "1799",
+        "1804"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1789. július 14-én a felkelők elfoglalták a Bastille-t, a королyi önkényuralom jelképét.",
+      "t": "francia forradalom és Napóleon"
+    },
+    {
+      "q": "Melyik francia királyt végezték ki nyaktilóval 1793-ban a forradalom idején?",
+      "a": [
+        "XVI. Lajost",
+        "XV. Lajost",
+        "XIV. Lajost",
+        "X. Károlyt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "XVI. Lajos királyt 1793 januárjában végezték ki Párizsban, hazaárulás vádjával.",
+      "t": "francia forradalom és Napóleon"
+    },
+    {
+      "q": "Miből ered a nyaktiló ('guillotine') elnevezése, amelyet a francia forradalom idején használtak?",
+      "a": [
+        "Joseph-Ignace Guillotin orvos nevéből, aki humánusabb kivégzési módot javasolt",
+        "A guillon nevű francia város nevéből, ahol elsőként alkalmazták",
+        "A latin 'guillo' szóból, amely pengét jelent",
+        "Egy középkori hóhér, Guillaume nevéből"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szerkezetet Joseph-Ignace Guillotin javasolta a nemzetgyűlésnek gyorsabb, fájdalommentesebb kivégzés céljából.",
+      "t": "francia forradalom és Napóleon"
+    },
+    {
+      "q": "Melyik csatában szenvedett Napóleon végleges vereséget 1815-ben?",
+      "a": [
+        "A waterlooi csatában",
+        "A lipcsei csatában",
+        "Az austerlitzi csatában",
+        "A trafalgari csatában"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1815 júniusában Waterloonál a brit-porosz szövetséges erők döntő vereséget mértek Napóleonra.",
+      "t": "francia forradalom és Napóleon"
+    },
+    {
+      "q": "Melyik szigetre száműzték Napóleont első alkalommal, 1814-ben?",
+      "a": [
+        "Elbára",
+        "Szent Ilonára",
+        "Korzikára",
+        "Szardíniára"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Napóleont 1814-ben az Elba-szigetre száműzték, ahonnan 1815-ben visszatért Franciaországba.",
+      "t": "francia forradalom és Napóleon"
+    },
+    {
+      "q": "Melyik évben koronázták Napóleont Franciaország császárává?",
+      "a": [
+        "1804",
+        "1799",
+        "1810",
+        "1815"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Napóleon 1804 decemberében koronázta magát császárrá a párizsi Notre-Dame-ban.",
+      "t": "francia forradalom és Napóleon"
+    },
+    {
+      "q": "Miért lett végzetes Napóleon számára az 1812-es oroszországi hadjárat?",
+      "a": [
+        "Mert hadserege a hideg és az ellátási nehézségek miatt katasztrofális veszteségeket szenvedett",
+        "Mert az orosz cár azonnal átállt Napóleon oldalára a hadjárat elején",
+        "Mert Nagy-Britannia ekkor kötött végleges békét Franciaországgal",
+        "Mert ekkor tört ki forradalom Párizsban, megbuktatva Napóleont"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Grande Armée nagy része odaveszett a visszavonulás során, ami súlyosan meggyengítette Napóleon hatalmát.",
+      "t": "francia forradalom és Napóleon"
+    },
+    {
+      "q": "Melyik szigeten halt meg Napóleon száműzetésben 1821-ben?",
+      "a": [
+        "Szent Ilonán",
+        "Elbán",
+        "Máltán",
+        "Korzikán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Napóleon élete utolsó éveit a távoli Szent Ilona szigetén töltötte brit fogságban, ott is halt meg.",
+      "t": "francia forradalom és Napóleon"
+    },
+    {
+      "q": "Melyik törvénykönyvet vezette be Napóleon, amely ma is alapja számos ország polgári jogának?",
+      "a": [
+        "A Code Civilt (napóleoni törvénykönyv)",
+        "A Magna Cartát",
+        "A Habeas Corpus törvényt",
+        "A Nemzeti Alkotmányt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Code Civil 1804-ben lépett életbe, és mind a mai napig hatással van sok ország jogrendszerére.",
+      "t": "francia forradalom és Napóleon"
+    },
+    {
+      "q": "Melyik hármas jelszó vált a francia forradalom máig ismert szimbólumává?",
+      "a": [
+        "Szabadság, egyenlőség, testvériség",
+        "Béke, kenyér, föld",
+        "Egység, erő, jog",
+        "Haza, hit, becsület"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A 'Szabadság, egyenlőség, testvériség' jelmondat a forradalom eszméit foglalta össze, és ma Franciaország mottója.",
+      "t": "francia forradalom és Napóleon"
+    },
+    {
+      "q": "Melyik országban indult el elsőként az ipari forradalom a 18. század végén?",
+      "a": [
+        "Nagy-Britanniában",
+        "Franciaországban",
+        "Németországban",
+        "Belgiumban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ipari forradalom Nagy-Britanniában kezdődött, elsősorban a textilipar gépesítésével.",
+      "t": "19. század"
+    },
+    {
+      "q": "Melyik találmány forradalmasította a szállítást és az ipart a 19. század első felében?",
+      "a": [
+        "A gőzgép",
+        "A villanymotor",
+        "A belső égésű motor",
+        "A távíró"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gőzgép tette lehetővé a gyárak gépesítését és a gőzmozdonyok, gőzhajók elterjedését.",
+      "t": "19. század"
+    },
+    {
+      "q": "Melyik években zajlott a bécsi kongresszus, amely újrarendezte Európa térképét Napóleon bukása után?",
+      "a": [
+        "1814-1815",
+        "1789-1790",
+        "1848-1849",
+        "1870-1871"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A bécsi kongresszuson a győztes hatalmak 1814-1815-ben alakították ki az új európai hatalmi egyensúlyt.",
+      "t": "19. század"
+    },
+    {
+      "q": "Melyik amerikai konfliktusban (1861-1865) törölték el a rabszolgaságot az Egyesült Államokban?",
+      "a": [
+        "Az amerikai polgárháborúban",
+        "A függetlenségi háborúban",
+        "A mexikói-amerikai háborúban",
+        "Az 1812-es háborúban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A polgárháborút követően, 1865-ben fogadták el a rabszolgaságot eltörlő tizenharmadik alkotmánykiegészítést.",
+      "t": "19. század"
+    },
+    {
+      "q": "Melyik amerikai elnök adta ki a rabszolgákat felszabadító nyilatkozatot 1863-ban?",
+      "a": [
+        "Abraham Lincoln",
+        "George Washington",
+        "Andrew Johnson",
+        "Ulysses Grant"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Lincoln 1863-ban adta ki az emancipációs nyilatkozatot, amely a déli államok rabszolgáit szabadította fel.",
+      "t": "19. század"
+    },
+    {
+      "q": "Melyik évtizedben tartották a berlini konferenciát, amely felosztotta Afrikát a gyarmatosító hatalmak között?",
+      "a": [
+        "Az 1880-as években",
+        "Az 1850-es években",
+        "Az 1900-as években",
+        "Az 1860-as években"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az 1884-85-ös berlini konferencián az európai hatalmak szabályokat állítottak fel Afrika felosztására.",
+      "t": "19. század"
+    },
+    {
+      "q": "Miért nevezik a 19. század nagy részét 'viktoriánus kornak' Nagy-Britanniában?",
+      "a": [
+        "Mert Viktória királynő hosszú, 1837-től 1901-ig tartó uralkodásáról kapta a nevét",
+        "Mert ekkor győzte le véglegesen Franciaországot a waterlooi csatában",
+        "Mert ekkor alapították a Viktória-tavat körülvevő gyarmatokat",
+        "Mert ekkor vezették be a viktoriánus alkotmányt Európa több országában"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Viktória királynő 1837-től 1901-ig uralkodott, ez az időszak Nagy-Britannia egyik legmeghatározóbb korszaka volt.",
+      "t": "19. század"
+    },
+    {
+      "q": "Melyik évben egyesült Olaszország egységes királysággá Garibaldi és Cavour törekvései nyomán?",
+      "a": [
+        "1861",
+        "1848",
+        "1871",
+        "1815"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Olasz Királyságot 1861-ben kiáltották ki, II. Viktor Emánuel lett az egyesült ország uralkodója.",
+      "t": "19. század"
+    },
+    {
+      "q": "Melyik ázsiai birodalmat kényszerítették a nyugati hatalmak kereskedelmi megnyitásra az ópiumháborúk után?",
+      "a": [
+        "Kínát",
+        "Japánt",
+        "Indiát",
+        "Perzsiát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Csing-dinasztia vezette Kína az ópiumháborúk vereségei után kényszerült megnyitni kikötőit a nyugati kereskedelem előtt.",
+      "t": "19. század"
+    },
+    {
+      "q": "Melyik vízi útvonalat nyitották meg 1869-ben, jelentősen lerövidítve az Európa és Ázsia közti hajóutat?",
+      "a": [
+        "A Szuezi-csatornát",
+        "A Panama-csatornát",
+        "A Korinthoszi-csatornát",
+        "A Kieli-csatornát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Szuezi-csatorna 1869-es megnyitása összekötötte a Földközi-tengert a Vörös-tengerrel, megkerülve Afrikát.",
+      "t": "19. század"
+    },
+    {
+      "q": "Melyik esemény robbantotta ki közvetlenül az első világháborút 1914 nyarán?",
+      "a": [
+        "Ferenc Ferdinánd trónörökös meggyilkolása Szarajevóban",
+        "Németország hadüzenete Oroszországnak",
+        "Az Osztrák-Magyar Monarchia felbomlása",
+        "A balkáni háborúk kitörése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1914 júniusában Szarajevóban egy szerb nacionalista lelőtte Ferenc Ferdinándot, ez indította el a háborús eseményeket.",
+      "t": "első világháború"
+    },
+    {
+      "q": "Melyik szervezet tagja volt Gavrilo Princip, aki 1914-ben meggyilkolta Ferenc Ferdinándot?",
+      "a": [
+        "Az Ifjú Bosznia nevű szerb nacionalista csoport",
+        "A Fekete Kéz katonai titkosszolgálat",
+        "Az Osztrák-Magyar titkosrendőrség",
+        "A Balkán Szövetség mozgalom"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Gavrilo Princip a szerb nacionalista Ifjú Bosznia mozgalom tagjaként hajtotta végre a merényletet.",
+      "t": "első világháború"
+    },
+    {
+      "q": "Melyik két nagy szövetségi rendszer állt egymással szemben az első világháborúban?",
+      "a": [
+        "Az Antant és a Központi hatalmak",
+        "A NATO és a Varsói Szerződés",
+        "A Szent Szövetség és a Liga",
+        "A Hármas Szövetség és a Balkán Liga"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Antant (Franciaország, Britannia, Oroszország) állt szemben a Központi hatalmakkal (Németország, Ausztria-Magyarország).",
+      "t": "első világháború"
+    },
+    {
+      "q": "Miért volt különösen pusztító az állóháború a nyugati fronton az első világháborúban?",
+      "a": [
+        "Mert a lövészárkok és gépfegyverek mellett alig sikerült területet nyerni, óriási veszteségek árán",
+        "Mert a katonák többsége éhínség miatt már a harcok előtt elpusztult",
+        "Mert egyik fél sem rendelkezett tüzérséggel vagy modern fegyverekkel",
+        "Mert a hadviselő felek folyamatosan fegyverszünetet kötöttek egymással"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kiépített lövészárok-rendszerek és gépfegyverek miatt a frontvonal évekig alig mozdult, hatalmas emberáldozat mellett.",
+      "t": "első világháború"
+    },
+    {
+      "q": "Melyik évben lépett hadba az Egyesült Államok az első világháborúban?",
+      "a": [
+        "1917",
+        "1914",
+        "1915",
+        "1918"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az USA 1917-ben, német tengeralattjáró-hadviselés és a Zimmermann-táviratot követően lépett a háborúba.",
+      "t": "első világháború"
+    },
+    {
+      "q": "Melyik békeszerződés zárta le hivatalosan Németország számára az első világháborút 1919-ben?",
+      "a": [
+        "A versailles-i békeszerződés",
+        "A trianoni békeszerződés",
+        "A brest-litovszki béke",
+        "A saint-germaini béke"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A versailles-i szerződést 1919 júniusában írták alá, súlyos jóvátételi kötelezettségeket róva Németországra.",
+      "t": "első világháború"
+    },
+    {
+      "q": "Melyik birodalom omlott össze a háború végén, amelynek utódállamaként Magyarország is önállóvá vált?",
+      "a": [
+        "Az Osztrák-Magyar Monarchia",
+        "Az Orosz Birodalom",
+        "Az Oszmán Birodalom",
+        "A Német Császárság"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Osztrák-Magyar Monarchia 1918 végén felbomlott, ebből alakult ki többek közt az önálló Magyarország.",
+      "t": "első világháború"
+    },
+    {
+      "q": "Melyik fegyvertípust vetették be tömegesen először az első világháborúban, mérgező felhőt bocsátva ki?",
+      "a": [
+        "Vegyi (mérges gáz) fegyvereket",
+        "Tankokat",
+        "Repülőgép-anyahajókat",
+        "Ballisztikus rakétákat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1915-től kezdve a hadviselő felek klórt, majd más mérgező gázokat is bevetettek a fronton.",
+      "t": "első világháború"
+    },
+    {
+      "q": "Melyik 1917-es oroszországi forradalom vezetett az ország kilépéséhez az első világháborúból?",
+      "a": [
+        "Az októberi (bolsevik) forradalom",
+        "A februári polgári forradalom",
+        "A dekabrista felkelés",
+        "A narodnyik mozgalom"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A bolsevikok 1917 októberében ragadták magukhoz a hatalmat, majd 1918-ban különbékét kötöttek a központi hatalmakkal.",
+      "t": "első világháború"
+    },
+    {
+      "q": "Melyik csata számít az első világháború egyik leghosszabb és legvéresebb ütközetének, amely 1916-ban zajlott Franciaországban?",
+      "a": [
+        "A verduni csata",
+        "A marne-i csata",
+        "A tannenbergi csata",
+        "A gallipoli hadjárat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A verduni csata 1916-ban tíz hónapig tartott, és mindkét oldalon több százezer áldozatot követelt.",
+      "t": "első világháború"
+    },
+    {
+      "q": "Melyik ország megtámadásával kezdődött a második világháború Európában, 1939 szeptemberében?",
+      "a": [
+        "Lengyelország",
+        "Franciaország",
+        "Csehszlovákia",
+        "Ausztria"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Németország 1939. szeptember 1-jei támadása Lengyelország ellen indította el a második világháborút Európában.",
+      "t": "második világháború"
+    },
+    {
+      "q": "Melyik 1941 decemberi japán támadás sodorta hadba az Egyesült Államokat a második világháborúban?",
+      "a": [
+        "A Pearl Harbor elleni támadás",
+        "A Midway-i csata",
+        "A Fülöp-szigetek elleni invázió",
+        "Az Iwo Jima elleni partraszállás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Japán 1941. december 7-én váratlan légitámadást indított a hawaii Pearl Harbor amerikai flottabázisa ellen.",
+      "t": "második világháború"
+    },
+    {
+      "q": "Melyik 1944. júniusi szövetséges partraszállás nyitotta meg a nyugati frontot Franciaországban?",
+      "a": [
+        "A normandiai partraszállás",
+        "A szicíliai partraszállás",
+        "A dieppe-i rajtaütés",
+        "A dél-franciaországi partraszállás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1944. június 6-án, a D-napon a szövetségesek Normandia partjainál szálltak partra Franciaországban.",
+      "t": "második világháború"
+    },
+    {
+      "q": "Melyik csata jelentette a keleti front fordulópontját 1942-1943-ban?",
+      "a": [
+        "A sztálingrádi csata",
+        "A kurszki csata",
+        "A moszkvai csata",
+        "A berlini csata"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sztálingrádi csatában a szovjet erők bekerítették és megsemmisítették a német 6. hadsereget.",
+      "t": "második világháború"
+    },
+    {
+      "q": "Melyik két japán városra dobtak atombombát 1945 augusztusában?",
+      "a": [
+        "Hirosima és Nagaszaki",
+        "Tokió és Oszaka",
+        "Kiotó és Jokohama",
+        "Nagoja és Kobe"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az USA 1945. augusztus 6-án Hirosimára, augusztus 9-én Nagaszakira dobott atombombát.",
+      "t": "második világháború"
+    },
+    {
+      "q": "Melyik évben ért véget a második világháború Európában, Németország feltétel nélküli megadásával?",
+      "a": [
+        "1945",
+        "1943",
+        "1944",
+        "1946"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1945 májusában Németország feltétel nélkül kapitulált, ezzel véget ért a háború Európában.",
+      "t": "második világháború"
+    },
+    {
+      "q": "Miért volt stratégiailag döntő jelentőségű a sztálingrádi vereség a németek számára?",
+      "a": [
+        "Mert elveszítették a hadászati kezdeményezést, és onnantól a szovjet erők nyomultak nyugat felé",
+        "Mert ekkor kötött végleges békét Németország a Szovjetunióval",
+        "Mert ez volt az egyetlen csata, ahol a japán haderő is részt vett",
+        "Mert ezután azonnal megszűnt a német légierő tevékenysége"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hatalmas emberveszteség és a 6. hadsereg megsemmisülése után a németek fokozatosan defenzívába szorultak keleten.",
+      "t": "második világháború"
+    },
+    {
+      "q": "Melyik 1945 eleji konferencián egyeztek meg a nagyhatalmak a háború utáni Európa felosztásáról?",
+      "a": [
+        "A jaltai konferencia",
+        "A potsdami konferencia",
+        "A teheráni konferencia",
+        "A müncheni konferencia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1945 februárjában Jaltában Roosevelt, Churchill és Sztálin egyeztek meg a háború utáni rendezésről.",
+      "t": "második világháború"
+    },
+    {
+      "q": "Melyik lengyelországi koncentrációs és haláltábor vált a holokauszt legismertebb szimbólumává?",
+      "a": [
+        "Auschwitz-Birkenau",
+        "Buchenwald",
+        "Dachau",
+        "Treblinka"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Auschwitz-Birkenau táborban a becslések szerint több mint egymillió embert öltek meg a náci megszállók.",
+      "t": "második világháború"
+    },
+    {
+      "q": "Melyik nemzetközi szervezetet hozták létre 1945-ben a háborút követően a béke fenntartására?",
+      "a": [
+        "Az Egyesült Nemzetek Szervezetét",
+        "A Népszövetséget",
+        "A NATO-t",
+        "Az Európai Uniót"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ENSZ-t 1945-ben alapították San Franciscóban, a Népszövetség helyébe lépve.",
+      "t": "második világháború"
+    },
+    {
+      "q": "Melyik fal választotta ketté Berlint 1961-től 1989-ig, a hidegháború egyik legismertebb jelképeként?",
+      "a": [
+        "A berlini fal",
+        "A vasfüggöny (fizikai határkerítés)",
+        "A koreai demarkációs vonal kerítése",
+        "A francia Maginot-vonal"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A berlini falat 1961-ben építették Kelet-Berlin és Nyugat-Berlin elválasztására, 1989-ben bontották le.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Melyik évben omlott le a berlini fal, jelezve a hidegháború végét?",
+      "a": [
+        "1989",
+        "1991",
+        "1985",
+        "1990"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1989 novemberében nyitották meg a berlini fal átkelőit, hamarosan lebontották magát a falat is.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Melyik két szuperhatalom állt egymással szemben a hidegháború évtizedeiben?",
+      "a": [
+        "Az Egyesült Államok és a Szovjetunió",
+        "Nagy-Britannia és Franciaország",
+        "Kína és Japán",
+        "Németország és az Egyesült Államok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hidegháború fő szereplője az USA és a Szovjetunió volt, eltérő ideológiai rendszereikkel.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Melyik 1962-es esemény hozta a világot a legközelebb egy nukleáris háborúhoz?",
+      "a": [
+        "A kubai rakétaválság",
+        "A berlini blokád",
+        "A koreai háború kitörése",
+        "A szuezi válság"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1962-ben a Kubára telepített szovjet rakéták miatt kirobbant válság hetekig a nukleáris háború szélére sodorta a világot.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Melyik szovjet vezető nevéhez fűződik a peresztrojka és a glasznoszty reformpolitikája a nyolcvanas években?",
+      "a": [
+        "Mihail Gorbacsov",
+        "Leonyid Brezsnyev",
+        "Nyikita Hruscsov",
+        "Jurij Andropov"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Gorbacsov az 1980-as évek közepétől vezette be a gazdasági átalakítást (peresztrojka) és a nyíltság (glasznoszty) politikáját.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Melyik évben szűnt meg a Szovjetunió, tizenöt független államra bomlva?",
+      "a": [
+        "1991",
+        "1989",
+        "1985",
+        "1993"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Szovjetunió 1991 decemberében szűnt meg hivatalosan, utódállamai önálló köztársaságokként alakultak meg.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Miért nevezik a történészek 'hidegháborúnak' az USA és a Szovjetunió közti szembenállást?",
+      "a": [
+        "Mert a két nagyhatalom között nem robbant ki közvetlen katonai háború, csak közvetett konfliktusok",
+        "Mert a konfliktus kizárólag a sarkvidéki térségekben zajlott katonai összecsapások formájában",
+        "Mert a két ország diplomáciai kapcsolatai a teljes időszak alatt hivatalosan meg voltak szakítva",
+        "Mert a szembenállás kizárólag gazdasági szankciók formájában nyilvánult meg"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szembenállás elsősorban proxy-háborúkban, fegyverkezési versenyben és propagandában nyilvánult meg, nyílt háború nélkül.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Melyik katonai szövetséget hozták létre a nyugati országok 1949-ben, közös védelmi céllal?",
+      "a": [
+        "A NATO-t",
+        "A Varsói Szerződést",
+        "Az ENSZ Biztonsági Tanácsát",
+        "Az Európai Szenet és Acélközösséget"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A NATO-t 1949-ben alapították az USA és nyugat-európai szövetségesei, kölcsönös védelmi kötelezettséggel.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Melyik ország szakadt kommunista északi és nem-kommunista déli részre 1954 után, ami később háborúhoz vezetett?",
+      "a": [
+        "Vietnam",
+        "Korea",
+        "Németország",
+        "Kína"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1954-es genfi egyezmény után Vietnam kettévált, ami elvezetett a vietnami háború kirobbanásához.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Melyik évben egyesült újra Németország a hidegháború lezárultával?",
+      "a": [
+        "1990",
+        "1989",
+        "1991",
+        "1988"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kelet- és Nyugat-Németország 1990 októberében egyesült ismét egyetlen állammá.",
+      "t": "hidegháború"
     }
   ]
 }

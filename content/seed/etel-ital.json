@@ -2,61 +2,1643 @@
   "category": "etel-ital",
   "default_source": "saját szerkesztés (általános műveltségi tananyag)",
   "questions": [
-    {"q": "Melyik fűszer a magyar konyha jellegzetes alapanyaga a pörköltben?", "a": ["Pirospaprika", "Sáfrány", "Kurkuma", "Szerecsendió"], "c": 0, "d": "easy", "e": "A fűszerpaprika a 18. századtól lett a magyar konyha alapja.", "t": "magyar konyha"},
-    {"q": "Mi a gulyás alaphúsa a klasszikus receptben?", "a": ["Marhahús", "Csirkehús", "Sertéshús", "Bárány"], "c": 0, "d": "easy", "e": "A gulyásleves marhahúsból, hagymával és paprikával készül.", "t": "magyar konyha"},
-    {"q": "Mi a különbség a pörkölt és a paprikás között?", "a": ["A paprikáshoz tejfölt is adnak", "A pörkölt hideg étel", "A paprikás nem tartalmaz paprikát", "A pörkölthöz mindig tészta jár"], "c": 0, "d": "medium", "e": "A paprikás a pörkölt tejfölös változata, jellemzően fehér húsokból.", "t": "magyar konyha"},
-    {"q": "Melyik magyar ételhez tekerik darált húsos-rizses tölteléket savanyú levelekbe?", "a": ["Töltött káposzta", "Rakott káposzta", "Székelykáposzta", "Lecsó"], "c": 0, "d": "easy", "e": "A töltelék darált húsból és rizsből készül, a levél savanyú káposzta.", "t": "magyar konyha"},
-    {"q": "Miből készül a lángos?", "a": ["Kelt tésztából, olajban sütve", "Kukoricalisztből, sütőben", "Burgonyából, grillen", "Rizsből, gőzölve"], "c": 0, "d": "easy", "e": "A lángos hagyományos magyar utcai étel, tejföllel és sajttal.", "t": "magyar konyha"},
-    {"q": "Mi a halászlé fő alapanyaga?", "a": ["Édesvízi hal", "Tengeri hal", "Kagyló", "Rák"], "c": 0, "d": "easy", "e": "A szegedi és a bajai halászlé alapja jellemzően a ponty és a harcsa.", "t": "magyar konyha"},
-    {"q": "Melyik magyar süteményt nevezik „Dobos”-nak?", "a": ["Dobostorta", "Rétes", "Zserbó", "Somlói galuska"], "c": 0, "d": "easy", "e": "Dobos C. József 1885-ben mutatta be a karamellel bevont tortát.", "t": "magyar konyha"},
-    {"q": "Melyik magyar desszert piskótából, mazsolából, csokoládéöntetből és tejszínhabból áll?", "a": ["Somlói galuska", "Rákóczi túrós", "Krémes", "Flódni"], "c": 0, "d": "medium", "e": "A somlói galuska háromféle piskótából és rumos-mazsolás rétegekből épül fel.", "t": "magyar konyha"},
-    {"q": "Melyik magyar bor a világhírű aszú?", "a": ["Tokaji", "Egri", "Villányi", "Soproni"], "c": 0, "d": "easy", "e": "A tokaji aszú botritiszes szemekből készülő természetes édes bor.", "t": "italok"},
-    {"q": "Mit jelent a „puttonyos” a tokaji aszú esetében?", "a": ["Az aszúszemek arányát", "A palack méretét", "Az érlelés helyét", "A szőlő fajtáját"], "c": 0, "d": "hard", "e": "A puttonyszám a hozzáadott aszúszemek mennyiségére utal.", "t": "italok"},
-    {"q": "Melyik magyar párlat készül gyümölcsből?", "a": ["Pálinka", "Vodka", "Rum", "Gin"], "c": 0, "d": "easy", "e": "A pálinka uniós oltalom alatt álló magyar eredetmegjelölés.", "t": "italok"},
-    {"q": "Melyik magyar keserűlikőr gyógynövényekből készül?", "a": ["Unicum", "Vermut", "Campari", "Jägermeister"], "c": 0, "d": "medium", "e": "Az Unicumot a Zwack család receptje alapján készítik.", "t": "italok"},
-    {"q": "Melyik olasz étel alapja a lapos, kelt tésztából sült korong feltétekkel?", "a": ["Pizza", "Risotto", "Lasagne", "Focaccia"], "c": 0, "d": "easy", "e": "A pizza Nápolyból származik, a margherita a legklasszikusabb.", "t": "olasz konyha"},
-    {"q": "Miből készül a hagyományos pesto genovese?", "a": ["Bazsalikom, fenyőmag, sajt, olívaolaj", "Paradicsom és bazsalikom", "Tejszín és sonka", "Padlizsán és paprika"], "c": 0, "d": "medium", "e": "A pesto nevét a mozsárban való zúzásról kapta.", "t": "olasz konyha"},
-    {"q": "Melyik olasz tészta forma neve „csavart”?", "a": ["Fusilli", "Penne", "Farfalle", "Rigatoni"], "c": 0, "d": "medium", "e": "A penne toll alakú, a farfalle pillangó formájú.", "t": "olasz konyha"},
-    {"q": "Melyik olasz sajtot használják hagyományosan a tiramisuhoz?", "a": ["Mascarpone", "Mozzarella", "Gorgonzola", "Pecorino"], "c": 0, "d": "medium", "e": "A tiramisu kávéba áztatott piskótából és mascarpone krémből áll.", "t": "olasz konyha"},
-    {"q": "Melyik olasz étel rizsből készül, lassan hozzáadott alaplével?", "a": ["Risotto", "Polenta", "Gnocchi", "Arancini"], "c": 0, "d": "medium", "e": "A risottóhoz keményítőben gazdag rizsfajtát, például arboriót használnak.", "t": "olasz konyha"},
-    {"q": "Melyik francia étel csigából készül?", "a": ["Escargot", "Ratatouille", "Quiche", "Bouillabaisse"], "c": 0, "d": "medium", "e": "Az escargot vajjal és petrezselyemmel a klasszikus francia előétel.", "t": "francia konyha"},
-    {"q": "Mi a croissant jellegzetessége?", "a": ["Réteges, vajas leveles tészta", "Élesztő nélküli lepény", "Rizsalapú tészta", "Kukoricás piskóta"], "c": 0, "d": "easy", "e": "A vajréteges tésztát hajtogatással készítik.", "t": "francia konyha"},
-    {"q": "Melyik francia leves halakból és tenger gyümölcseiből készül Marseille-ben?", "a": ["Bouillabaisse", "Consommé", "Vichyssoise", "Soupe à l'oignon"], "c": 0, "d": "hard", "e": "A bouillabaisse többféle halból készülő provence-i halleves.", "t": "francia konyha"},
-    {"q": "Melyik sajt kék erezetű, penészes érlelésű?", "a": ["Roquefort", "Camembert", "Emmentaler", "Feta"], "c": 0, "d": "medium", "e": "A kékpenészes sajtokat Penicillium roqueforti gombával érlelik.", "t": "sajtok"},
-    {"q": "Melyik ország sajtja a cheddar?", "a": ["Anglia", "Franciaország", "Hollandia", "Svájc"], "c": 0, "d": "medium", "e": "A cheddar a somerseti Cheddar faluról kapta a nevét.", "t": "sajtok"},
-    {"q": "Melyik sajt jellemzője a nagy lyukak?", "a": ["Emmentaler", "Brie", "Mozzarella", "Halloumi"], "c": 0, "d": "medium", "e": "A lyukakat a baktériumok által termelt szén-dioxid hozza létre.", "t": "sajtok"},
-    {"q": "Miből készül a hagyományos mozzarella eredetileg?", "a": ["Bivalytej", "Kecsketej", "Juhtej", "Szójatej"], "c": 0, "d": "hard", "e": "A mozzarella di bufala campana bivalytejből készül.", "t": "sajtok"},
-    {"q": "Melyik japán étel áll rizsből és nyers halból?", "a": ["Sushi", "Ramen", "Tempura", "Yakitori"], "c": 0, "d": "easy", "e": "A sushi alapja az ecetes rizs.", "t": "ázsiai konyha"},
-    {"q": "Mi a wasabi?", "a": ["Csípős zöld gyökér alapú fűszer", "Halolaj", "Szójaszósz-változat", "Rizsecet"], "c": 0, "d": "medium", "e": "Az igazi wasabi a japán tormaféle növény gyöktörzse.", "t": "ázsiai konyha"},
-    {"q": "Melyik ázsiai étel jellemzője a wokban, magas hőn, gyorsan sütés?", "a": ["Stir-fry", "Curry", "Sashimi", "Kimchi"], "c": 0, "d": "medium", "e": "A wok formája miatt egyenletesen oszlik el a hő.", "t": "ázsiai konyha"},
-    {"q": "Melyik koreai étel fermentált káposztából készül?", "a": ["Kimchi", "Bibimbap", "Bulgogi", "Tteokbokki"], "c": 0, "d": "medium", "e": "A kimchit erjesztéssel, csípős paprikával készítik.", "t": "ázsiai konyha"},
-    {"q": "Melyik indiai fűszerkeverék neve?", "a": ["Garam masala", "Harissa", "Za'atar", "Furikake"], "c": 0, "d": "medium", "e": "A garam masala több fűszer őrölt keveréke.", "t": "ázsiai konyha"},
-    {"q": "Melyik mexikói étel kukoricalepénybe csavart töltelék?", "a": ["Taco", "Paella", "Gyros", "Falafel"], "c": 0, "d": "easy", "e": "A tortilla lehet kukorica- vagy búzaalapú.", "t": "világkonyha"},
-    {"q": "Melyik spanyol étel rizsből, sáfránnyal és tenger gyümölcseivel készül?", "a": ["Paella", "Gazpacho", "Tortilla española", "Churros"], "c": 0, "d": "medium", "e": "A paella Valencia környékéről származik.", "t": "világkonyha"},
-    {"q": "Melyik spanyol hidegleves paradicsomból készül?", "a": ["Gazpacho", "Paella", "Fabada", "Cocido"], "c": 0, "d": "medium", "e": "A gazpacho nyers zöldségekből, hidegen tálalva.", "t": "világkonyha"},
-    {"q": "Melyik közel-keleti étel csicseriborsóból készült krém?", "a": ["Hummusz", "Tzatziki", "Baba ghanoush", "Falafel"], "c": 0, "d": "medium", "e": "A hummuszhoz tahinit, citromot és olívaolajat is adnak.", "t": "világkonyha"},
-    {"q": "Miből készül a falafel?", "a": ["Csicseriborsó vagy lóbab", "Darált marhahús", "Rizs", "Burgonya"], "c": 0, "d": "medium", "e": "A fűszeres pürét golyókká formálva sütik olajban.", "t": "világkonyha"},
-    {"q": "Melyik görög étel joghurtból, uborkából és fokhagymából áll?", "a": ["Tzatziki", "Moussaka", "Souvlaki", "Spanakopita"], "c": 0, "d": "medium", "e": "A tzatziki hűsítő köret vagy szósz.", "t": "világkonyha"},
-    {"q": "Melyik növény magjából készül a csokoládé?", "a": ["Kakaóbab", "Kávébab", "Szójabab", "Mandula"], "c": 0, "d": "easy", "e": "A kakaófa termésének magjait fermentálják és pörkölik.", "t": "alapanyagok"},
-    {"q": "Milyen növény magjából készül a kávé?", "a": ["Kávécserje termésének magja", "Kakaófa magja", "Tealevél", "Cukornád"], "c": 0, "d": "easy", "e": "A két legelterjedtebb faj az arabica és a robusta.", "t": "alapanyagok"},
-    {"q": "Melyik a legdrágább fűszer súly szerint?", "a": ["Sáfrány", "Vanília", "Kardamom", "Szegfűszeg"], "c": 0, "d": "medium", "e": "A sáfrányt kézzel gyűjtött krókuszbibékből nyerik.", "t": "alapanyagok"},
-    {"q": "Melyik növényből készül a cukor legnagyobb részben a világon?", "a": ["Cukornád", "Cukorrépa", "Kukorica", "Nyírfa"], "c": 0, "d": "medium", "e": "A világ cukortermelésének nagyobb része cukornádból származik.", "t": "alapanyagok"},
-    {"q": "Milyen folyamat során lesz a szőlőből bor?", "a": ["Alkoholos fermentáció", "Pasztőrözés", "Karamellizálás", "Emulgeálás"], "c": 0, "d": "medium", "e": "Az élesztő a cukrot alkohollá és szén-dioxiddá alakítja.", "t": "italok"},
-    {"q": "Mi a pezsgő buborékainak forrása a hagyományos módszerben?", "a": ["Palackban zajló másodlagos fermentáció", "Utólag befújt szén-dioxid", "Élesztő nélküli erjedés", "Hőkezelés"], "c": 0, "d": "hard", "e": "A palackos érlelés adja a finom, tartós buborékokat.", "t": "italok"},
-    {"q": "Melyik ország borvidéke a Champagne?", "a": ["Franciaország", "Olaszország", "Spanyolország", "Németország"], "c": 0, "d": "easy", "e": "Csak az itt készült pezsgő nevezhető champagne-nak.", "t": "italok"},
-    {"q": "Melyik szeszes ital alapanyaga jellemzően az árpamaláta?", "a": ["Whisky", "Rum", "Tequila", "Vodka"], "c": 0, "d": "medium", "e": "A rum cukornádból, a tequila agávéból készül.", "t": "italok"},
-    {"q": "Miből készül a tequila?", "a": ["Agávé", "Cukornád", "Kukorica", "Burgonya"], "c": 0, "d": "medium", "e": "A kék agávé szívéből főzött cukrot fermentálják.", "t": "italok"},
-    {"q": "Melyik ital készül tealevélből, tejjel és fűszerekkel Indiában?", "a": ["Masala chai", "Matcha", "Kombucha", "Lassi"], "c": 0, "d": "medium", "e": "A masala chai fekete teából, fűszerekkel és tejjel készül.", "t": "italok"},
-    {"q": "Mi a különbség a zöld és a fekete tea között?", "a": ["A fekete tea oxidált", "A zöld tea más növényből származik", "A fekete tea koffeinmentes", "A zöld tea erjesztett"], "c": 0, "d": "medium", "e": "Mindkettő a Camellia sinensis leveléből készül, a feldolgozás különbözik.", "t": "italok"},
-    {"q": "Mit jelent az „al dente” a tésztafőzésnél?", "a": ["Roppanós, nem teljesen puha", "Teljesen szétfőzött", "Nyers", "Sütőben sült"], "c": 0, "d": "easy", "e": "Szó szerint „foghoz”, azaz még van harapása.", "t": "konyhatechnika"},
-    {"q": "Mit jelent a „blansírozás”?", "a": ["Rövid forró vizes főzés, majd hűtés", "Olajban sütés", "Füstölés", "Szárítás"], "c": 0, "d": "medium", "e": "A blansírozás megőrzi a zöldségek színét és állagát.", "t": "konyhatechnika"},
-    {"q": "Mi a „sous-vide” eljárás?", "a": ["Vákuumcsomagolt étel alacsony hőn, vízben", "Nyílt lángon grillezés", "Fagyasztva szárítás", "Nyers marinálás"], "c": 0, "d": "medium", "e": "A pontos hőmérséklet miatt egyenletes átsülést ad.", "t": "konyhatechnika"},
-    {"q": "Mit jelent a „karamellizálás”?", "a": ["A cukor hő hatására megbarnul", "A hús pácolása", "A tojás felverése", "A tészta kelesztése"], "c": 0, "d": "medium", "e": "A karamellizálás és a Maillard-reakció adja a sült ételek aromáit.", "t": "konyhatechnika"},
-    {"q": "Mi a Maillard-reakció?", "a": ["Aminosavak és cukrok barnulási reakciója", "A zsír avasodása", "A fehérje kicsapódása", "A rost lebomlása"], "c": 0, "d": "hard", "e": "Ez adja a kenyérhéj, a pörkölt kávé és a sült hús aromáit.", "t": "konyhatechnika"},
-    {"q": "Melyik vitaminban gazdag a citrusfélék?", "a": ["C-vitamin", "D-vitamin", "B12-vitamin", "K-vitamin"], "c": 0, "d": "easy", "e": "A C-vitamin vízben oldódó, hőre érzékeny vitamin.", "t": "táplálkozás"},
-    {"q": "Melyik tápanyagcsoportba tartozik az olívaolaj?", "a": ["Zsírok", "Szénhidrátok", "Fehérjék", "Vitaminok"], "c": 0, "d": "easy", "e": "Az olívaolaj főleg egyszeresen telítetlen zsírsavakat tartalmaz.", "t": "táplálkozás"},
-    {"q": "Melyik étel a gluténérzékenyek számára nem alkalmas?", "a": ["Búzakenyér", "Rizs", "Burgonya", "Kukoricakása"], "c": 0, "d": "easy", "e": "A glutén a búzában, rozsban és árpában található fehérje.", "t": "táplálkozás"},
-    {"q": "Mit jelent a „vegán” étrend?", "a": ["Semmilyen állati eredetű terméket nem tartalmaz", "Csak halat tartalmaz", "Tojást és tejet engedélyez", "Csak nyers ételeket engedélyez"], "c": 0, "d": "easy", "e": "A vegetáriánus étrend tojást és tejterméket megengedhet, a vegán nem.", "t": "táplálkozás"},
-    {"q": "Melyik magyar étel jellegzetes alapanyaga a túró és a tejföl, sós változatban?", "a": ["Túrós csusza", "Somlói galuska", "Máglyarakás", "Aranygaluska"], "c": 0, "d": "medium", "e": "A túrós csuszához pirított szalonna is jár.", "t": "magyar konyha"}
+    {
+      "q": "Melyik fűszer a magyar konyha jellegzetes alapanyaga a pörköltben?",
+      "a": [
+        "Pirospaprika",
+        "Sáfrány",
+        "Kurkuma",
+        "Szerecsendió"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fűszerpaprika a 18. századtól lett a magyar konyha alapja.",
+      "t": "magyar konyha"
+    },
+    {
+      "q": "Mi a gulyás alaphúsa a klasszikus receptben?",
+      "a": [
+        "Marhahús",
+        "Csirkehús",
+        "Sertéshús",
+        "Bárány"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gulyásleves marhahúsból, hagymával és paprikával készül.",
+      "t": "magyar konyha"
+    },
+    {
+      "q": "Mi a különbség a pörkölt és a paprikás között?",
+      "a": [
+        "A paprikáshoz tejfölt is adnak",
+        "A pörkölt hideg étel",
+        "A paprikás nem tartalmaz paprikát",
+        "A pörkölthöz mindig tészta jár"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A paprikás a pörkölt tejfölös változata, jellemzően fehér húsokból.",
+      "t": "magyar konyha"
+    },
+    {
+      "q": "Melyik magyar ételhez tekerik darált húsos-rizses tölteléket savanyú levelekbe?",
+      "a": [
+        "Töltött káposzta",
+        "Rakott káposzta",
+        "Székelykáposzta",
+        "Lecsó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A töltelék darált húsból és rizsből készül, a levél savanyú káposzta.",
+      "t": "magyar konyha"
+    },
+    {
+      "q": "Miből készül a lángos?",
+      "a": [
+        "Kelt tésztából, olajban sütve",
+        "Kukoricalisztből, sütőben",
+        "Burgonyából, grillen",
+        "Rizsből, gőzölve"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A lángos hagyományos magyar utcai étel, tejföllel és sajttal.",
+      "t": "magyar konyha"
+    },
+    {
+      "q": "Mi a halászlé fő alapanyaga?",
+      "a": [
+        "Édesvízi hal",
+        "Tengeri hal",
+        "Kagyló",
+        "Rák"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szegedi és a bajai halászlé alapja jellemzően a ponty és a harcsa.",
+      "t": "magyar konyha"
+    },
+    {
+      "q": "Melyik magyar süteményt nevezik „Dobos”-nak?",
+      "a": [
+        "Dobostorta",
+        "Rétes",
+        "Zserbó",
+        "Somlói galuska"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Dobos C. József 1885-ben mutatta be a karamellel bevont tortát.",
+      "t": "magyar konyha"
+    },
+    {
+      "q": "Melyik magyar desszert piskótából, mazsolából, csokoládéöntetből és tejszínhabból áll?",
+      "a": [
+        "Somlói galuska",
+        "Rákóczi túrós",
+        "Krémes",
+        "Flódni"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A somlói galuska háromféle piskótából és rumos-mazsolás rétegekből épül fel.",
+      "t": "magyar konyha"
+    },
+    {
+      "q": "Melyik magyar bor a világhírű aszú?",
+      "a": [
+        "Tokaji",
+        "Egri",
+        "Villányi",
+        "Soproni"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tokaji aszú botritiszes szemekből készülő természetes édes bor.",
+      "t": "italok"
+    },
+    {
+      "q": "Mit jelent a „puttonyos” a tokaji aszú esetében?",
+      "a": [
+        "Az aszúszemek arányát",
+        "A palack méretét",
+        "Az érlelés helyét",
+        "A szőlő fajtáját"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A puttonyszám a hozzáadott aszúszemek mennyiségére utal.",
+      "t": "italok"
+    },
+    {
+      "q": "Melyik magyar párlat készül gyümölcsből?",
+      "a": [
+        "Pálinka",
+        "Vodka",
+        "Rum",
+        "Gin"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pálinka uniós oltalom alatt álló magyar eredetmegjelölés.",
+      "t": "italok"
+    },
+    {
+      "q": "Melyik magyar keserűlikőr gyógynövényekből készül?",
+      "a": [
+        "Unicum",
+        "Vermut",
+        "Campari",
+        "Jägermeister"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Unicumot a Zwack család receptje alapján készítik.",
+      "t": "italok"
+    },
+    {
+      "q": "Melyik olasz étel alapja a lapos, kelt tésztából sült korong feltétekkel?",
+      "a": [
+        "Pizza",
+        "Risotto",
+        "Lasagne",
+        "Focaccia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pizza Nápolyból származik, a margherita a legklasszikusabb.",
+      "t": "olasz konyha"
+    },
+    {
+      "q": "Miből készül a hagyományos pesto genovese?",
+      "a": [
+        "Bazsalikom, fenyőmag, sajt, olívaolaj",
+        "Paradicsom és bazsalikom",
+        "Tejszín és sonka",
+        "Padlizsán és paprika"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pesto nevét a mozsárban való zúzásról kapta.",
+      "t": "olasz konyha"
+    },
+    {
+      "q": "Melyik olasz tészta forma neve „csavart”?",
+      "a": [
+        "Fusilli",
+        "Penne",
+        "Farfalle",
+        "Rigatoni"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A penne toll alakú, a farfalle pillangó formájú.",
+      "t": "olasz konyha"
+    },
+    {
+      "q": "Melyik olasz sajtot használják hagyományosan a tiramisuhoz?",
+      "a": [
+        "Mascarpone",
+        "Mozzarella",
+        "Gorgonzola",
+        "Pecorino"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tiramisu kávéba áztatott piskótából és mascarpone krémből áll.",
+      "t": "olasz konyha"
+    },
+    {
+      "q": "Melyik olasz étel rizsből készül, lassan hozzáadott alaplével?",
+      "a": [
+        "Risotto",
+        "Polenta",
+        "Gnocchi",
+        "Arancini"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A risottóhoz keményítőben gazdag rizsfajtát, például arboriót használnak.",
+      "t": "olasz konyha"
+    },
+    {
+      "q": "Melyik francia étel csigából készül?",
+      "a": [
+        "Escargot",
+        "Ratatouille",
+        "Quiche",
+        "Bouillabaisse"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az escargot vajjal és petrezselyemmel a klasszikus francia előétel.",
+      "t": "francia konyha"
+    },
+    {
+      "q": "Mi a croissant jellegzetessége?",
+      "a": [
+        "Réteges, vajas leveles tészta",
+        "Élesztő nélküli lepény",
+        "Rizsalapú tészta",
+        "Kukoricás piskóta"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A vajréteges tésztát hajtogatással készítik.",
+      "t": "francia konyha"
+    },
+    {
+      "q": "Melyik francia leves halakból és tenger gyümölcseiből készül Marseille-ben?",
+      "a": [
+        "Bouillabaisse",
+        "Consommé",
+        "Vichyssoise",
+        "Soupe à l'oignon"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A bouillabaisse többféle halból készülő provence-i halleves.",
+      "t": "francia konyha"
+    },
+    {
+      "q": "Melyik sajt kék erezetű, penészes érlelésű?",
+      "a": [
+        "Roquefort",
+        "Camembert",
+        "Emmentaler",
+        "Feta"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kékpenészes sajtokat Penicillium roqueforti gombával érlelik.",
+      "t": "sajtok"
+    },
+    {
+      "q": "Melyik ország sajtja a cheddar?",
+      "a": [
+        "Anglia",
+        "Franciaország",
+        "Hollandia",
+        "Svájc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A cheddar a somerseti Cheddar faluról kapta a nevét.",
+      "t": "sajtok"
+    },
+    {
+      "q": "Melyik sajt jellemzője a nagy lyukak?",
+      "a": [
+        "Emmentaler",
+        "Brie",
+        "Mozzarella",
+        "Halloumi"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A lyukakat a baktériumok által termelt szén-dioxid hozza létre.",
+      "t": "sajtok"
+    },
+    {
+      "q": "Miből készül a hagyományos mozzarella eredetileg?",
+      "a": [
+        "Bivalytej",
+        "Kecsketej",
+        "Juhtej",
+        "Szójatej"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A mozzarella di bufala campana bivalytejből készül.",
+      "t": "sajtok"
+    },
+    {
+      "q": "Melyik japán étel áll rizsből és nyers halból?",
+      "a": [
+        "Sushi",
+        "Ramen",
+        "Tempura",
+        "Yakitori"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sushi alapja az ecetes rizs.",
+      "t": "ázsiai konyha"
+    },
+    {
+      "q": "Mi a wasabi?",
+      "a": [
+        "Csípős zöld gyökér alapú fűszer",
+        "Halolaj",
+        "Szójaszósz-változat",
+        "Rizsecet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az igazi wasabi a japán tormaféle növény gyöktörzse.",
+      "t": "ázsiai konyha"
+    },
+    {
+      "q": "Melyik ázsiai étel jellemzője a wokban, magas hőn, gyorsan sütés?",
+      "a": [
+        "Stir-fry",
+        "Curry",
+        "Sashimi",
+        "Kimchi"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A wok formája miatt egyenletesen oszlik el a hő.",
+      "t": "ázsiai konyha"
+    },
+    {
+      "q": "Melyik koreai étel fermentált káposztából készül?",
+      "a": [
+        "Kimchi",
+        "Bibimbap",
+        "Bulgogi",
+        "Tteokbokki"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kimchit erjesztéssel, csípős paprikával készítik.",
+      "t": "ázsiai konyha"
+    },
+    {
+      "q": "Melyik indiai fűszerkeverék neve?",
+      "a": [
+        "Garam masala",
+        "Harissa",
+        "Za'atar",
+        "Furikake"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A garam masala több fűszer őrölt keveréke.",
+      "t": "ázsiai konyha"
+    },
+    {
+      "q": "Melyik mexikói étel kukoricalepénybe csavart töltelék?",
+      "a": [
+        "Taco",
+        "Paella",
+        "Gyros",
+        "Falafel"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tortilla lehet kukorica- vagy búzaalapú.",
+      "t": "világkonyha"
+    },
+    {
+      "q": "Melyik spanyol étel rizsből, sáfránnyal és tenger gyümölcseivel készül?",
+      "a": [
+        "Paella",
+        "Gazpacho",
+        "Tortilla española",
+        "Churros"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A paella Valencia környékéről származik.",
+      "t": "világkonyha"
+    },
+    {
+      "q": "Melyik spanyol hidegleves paradicsomból készül?",
+      "a": [
+        "Gazpacho",
+        "Paella",
+        "Fabada",
+        "Cocido"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gazpacho nyers zöldségekből, hidegen tálalva.",
+      "t": "világkonyha"
+    },
+    {
+      "q": "Melyik közel-keleti étel csicseriborsóból készült krém?",
+      "a": [
+        "Hummusz",
+        "Tzatziki",
+        "Baba ghanoush",
+        "Falafel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hummuszhoz tahinit, citromot és olívaolajat is adnak.",
+      "t": "világkonyha"
+    },
+    {
+      "q": "Miből készül a falafel?",
+      "a": [
+        "Csicseriborsó vagy lóbab",
+        "Darált marhahús",
+        "Rizs",
+        "Burgonya"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fűszeres pürét golyókká formálva sütik olajban.",
+      "t": "világkonyha"
+    },
+    {
+      "q": "Melyik görög étel joghurtból, uborkából és fokhagymából áll?",
+      "a": [
+        "Tzatziki",
+        "Moussaka",
+        "Souvlaki",
+        "Spanakopita"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tzatziki hűsítő köret vagy szósz.",
+      "t": "világkonyha"
+    },
+    {
+      "q": "Melyik növény magjából készül a csokoládé?",
+      "a": [
+        "Kakaóbab",
+        "Kávébab",
+        "Szójabab",
+        "Mandula"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kakaófa termésének magjait fermentálják és pörkölik.",
+      "t": "alapanyagok"
+    },
+    {
+      "q": "Milyen növény magjából készül a kávé?",
+      "a": [
+        "Kávécserje termésének magja",
+        "Kakaófa magja",
+        "Tealevél",
+        "Cukornád"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A két legelterjedtebb faj az arabica és a robusta.",
+      "t": "alapanyagok"
+    },
+    {
+      "q": "Melyik a legdrágább fűszer súly szerint?",
+      "a": [
+        "Sáfrány",
+        "Vanília",
+        "Kardamom",
+        "Szegfűszeg"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sáfrányt kézzel gyűjtött krókuszbibékből nyerik.",
+      "t": "alapanyagok"
+    },
+    {
+      "q": "Melyik növényből készül a cukor legnagyobb részben a világon?",
+      "a": [
+        "Cukornád",
+        "Cukorrépa",
+        "Kukorica",
+        "Nyírfa"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A világ cukortermelésének nagyobb része cukornádból származik.",
+      "t": "alapanyagok"
+    },
+    {
+      "q": "Milyen folyamat során lesz a szőlőből bor?",
+      "a": [
+        "Alkoholos fermentáció",
+        "Pasztőrözés",
+        "Karamellizálás",
+        "Emulgeálás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az élesztő a cukrot alkohollá és szén-dioxiddá alakítja.",
+      "t": "italok"
+    },
+    {
+      "q": "Mi a pezsgő buborékainak forrása a hagyományos módszerben?",
+      "a": [
+        "Palackban zajló másodlagos fermentáció",
+        "Utólag befújt szén-dioxid",
+        "Élesztő nélküli erjedés",
+        "Hőkezelés"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A palackos érlelés adja a finom, tartós buborékokat.",
+      "t": "italok"
+    },
+    {
+      "q": "Melyik ország borvidéke a Champagne?",
+      "a": [
+        "Franciaország",
+        "Olaszország",
+        "Spanyolország",
+        "Németország"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Csak az itt készült pezsgő nevezhető champagne-nak.",
+      "t": "italok"
+    },
+    {
+      "q": "Melyik szeszes ital alapanyaga jellemzően az árpamaláta?",
+      "a": [
+        "Whisky",
+        "Rum",
+        "Tequila",
+        "Vodka"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rum cukornádból, a tequila agávéból készül.",
+      "t": "italok"
+    },
+    {
+      "q": "Miből készül a tequila?",
+      "a": [
+        "Agávé",
+        "Cukornád",
+        "Kukorica",
+        "Burgonya"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kék agávé szívéből főzött cukrot fermentálják.",
+      "t": "italok"
+    },
+    {
+      "q": "Melyik ital készül tealevélből, tejjel és fűszerekkel Indiában?",
+      "a": [
+        "Masala chai",
+        "Matcha",
+        "Kombucha",
+        "Lassi"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A masala chai fekete teából, fűszerekkel és tejjel készül.",
+      "t": "italok"
+    },
+    {
+      "q": "Mi a különbség a zöld és a fekete tea között?",
+      "a": [
+        "A fekete tea oxidált",
+        "A zöld tea más növényből származik",
+        "A fekete tea koffeinmentes",
+        "A zöld tea erjesztett"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mindkettő a Camellia sinensis leveléből készül, a feldolgozás különbözik.",
+      "t": "italok"
+    },
+    {
+      "q": "Mit jelent az „al dente” a tésztafőzésnél?",
+      "a": [
+        "Roppanós, nem teljesen puha",
+        "Teljesen szétfőzött",
+        "Nyers",
+        "Sütőben sült"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Szó szerint „foghoz”, azaz még van harapása.",
+      "t": "konyhatechnika"
+    },
+    {
+      "q": "Mit jelent a „blansírozás”?",
+      "a": [
+        "Rövid forró vizes főzés, majd hűtés",
+        "Olajban sütés",
+        "Füstölés",
+        "Szárítás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A blansírozás megőrzi a zöldségek színét és állagát.",
+      "t": "konyhatechnika"
+    },
+    {
+      "q": "Mi a „sous-vide” eljárás?",
+      "a": [
+        "Vákuumcsomagolt étel alacsony hőn, vízben",
+        "Nyílt lángon grillezés",
+        "Fagyasztva szárítás",
+        "Nyers marinálás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pontos hőmérséklet miatt egyenletes átsülést ad.",
+      "t": "konyhatechnika"
+    },
+    {
+      "q": "Mit jelent a „karamellizálás”?",
+      "a": [
+        "A cukor hő hatására megbarnul",
+        "A hús pácolása",
+        "A tojás felverése",
+        "A tészta kelesztése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A karamellizálás és a Maillard-reakció adja a sült ételek aromáit.",
+      "t": "konyhatechnika"
+    },
+    {
+      "q": "Mi a Maillard-reakció?",
+      "a": [
+        "Aminosavak és cukrok barnulási reakciója",
+        "A zsír avasodása",
+        "A fehérje kicsapódása",
+        "A rost lebomlása"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ez adja a kenyérhéj, a pörkölt kávé és a sült hús aromáit.",
+      "t": "konyhatechnika"
+    },
+    {
+      "q": "Melyik vitaminban gazdag a citrusfélék?",
+      "a": [
+        "C-vitamin",
+        "D-vitamin",
+        "B12-vitamin",
+        "K-vitamin"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A C-vitamin vízben oldódó, hőre érzékeny vitamin.",
+      "t": "táplálkozás"
+    },
+    {
+      "q": "Melyik tápanyagcsoportba tartozik az olívaolaj?",
+      "a": [
+        "Zsírok",
+        "Szénhidrátok",
+        "Fehérjék",
+        "Vitaminok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az olívaolaj főleg egyszeresen telítetlen zsírsavakat tartalmaz.",
+      "t": "táplálkozás"
+    },
+    {
+      "q": "Melyik étel a gluténérzékenyek számára nem alkalmas?",
+      "a": [
+        "Búzakenyér",
+        "Rizs",
+        "Burgonya",
+        "Kukoricakása"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A glutén a búzában, rozsban és árpában található fehérje.",
+      "t": "táplálkozás"
+    },
+    {
+      "q": "Mit jelent a „vegán” étrend?",
+      "a": [
+        "Semmilyen állati eredetű terméket nem tartalmaz",
+        "Csak halat tartalmaz",
+        "Tojást és tejet engedélyez",
+        "Csak nyers ételeket engedélyez"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A vegetáriánus étrend tojást és tejterméket megengedhet, a vegán nem.",
+      "t": "táplálkozás"
+    },
+    {
+      "q": "Melyik magyar étel jellegzetes alapanyaga a túró és a tejföl, sós változatban?",
+      "a": [
+        "Túrós csusza",
+        "Somlói galuska",
+        "Máglyarakás",
+        "Aranygaluska"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A túrós csuszához pirított szalonna is jár.",
+      "t": "magyar konyha"
+    },
+    {
+      "q": "Mely három alapanyagból állhatott a sör az 1516-os bajor Reinheitsgebot törvény szerint?",
+      "a": [
+        "Víz, árpamaláta és komló",
+        "Víz, búza és méz",
+        "Árpa, rozs és élesztő",
+        "Komló, cukor és víz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A törvény kizárólag vizet, árpamalátát és komlót engedélyezett sörfőzési alapanyagként.",
+      "t": "sörök"
+    },
+    {
+      "q": "Miért adtak sok komlót az Indiába szánt angol söröknek a 18. században?",
+      "a": [
+        "Mert a komló tartósítószerként védte a sört a hosszú hajóút alatt",
+        "Mert Indiában akkoriban nem termett komló, ezt akarták pótolni",
+        "Mert a komló olcsóbb volt, mint az árpa Angliában",
+        "Mert a brit korona megkövetelte a magasabb alkoholtartalmat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A komló természetes tartósítószerként segített a sörnek túlélni a hónapokig tartó tengeri utat.",
+      "t": "sörök"
+    },
+    {
+      "q": "Melyik évben kapták az első Michelin-csillagokat éttermek Franciaországban?",
+      "a": [
+        "1926-ban",
+        "1900-ban",
+        "1954-ben",
+        "1972-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Michelin-kalauz 1926-ban kezdett csillagokat adományozni a legjobb éttermeknek.",
+      "t": "éttermek és séfek"
+    },
+    {
+      "q": "Melyik francia szakácsot nevezik a modern francia konyha atyjának, aki megalkotta az öt anyamártás rendszerét?",
+      "a": [
+        "Auguste Escoffier",
+        "Paul Bocuse",
+        "Marie-Antoine Carême",
+        "Alain Ducasse"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Escoffier rendszerezte a francia konyha alapmártásait és vezette be a konyhai brigádrendszert.",
+      "t": "éttermek és séfek"
+    },
+    {
+      "q": "Ki fejlesztette ki a 19. század elején az élelmiszer-tartósítás úttörő módszerét, amiből a konzerv is kialakult?",
+      "a": [
+        "Nicolas Appert francia cukrász",
+        "Louis Pasteur francia vegyész",
+        "Peter Durand angol feltaláló",
+        "Justus von Liebig német kémikus"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Appert kísérletezte ki, hogy a lezárt és felfőzött üvegekben az étel sokáig eltartható.",
+      "t": "konyhatechnika"
+    },
+    {
+      "q": "Miért a sáfrány a világ legdrágább fűszere grammra vetítve?",
+      "a": [
+        "Mert a virág három bibéjét kézzel kell leszedni, rengeteg virág kell egy grammhoz",
+        "Mert csak egyetlen országban, Iránban engedélyezett a termesztése",
+        "Mert mesterségesen korlátozzák a kínálatát a magas ár fenntartásáért",
+        "Mert nagyon nehéz raktáron tartani, gyorsan megromlik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Egy gramm sáfrányhoz kb. 150 virág bibéjét kell egyenként kézzel leszedni.",
+      "t": "alapanyagok"
+    },
+    {
+      "q": "Ki fejlesztette ki 1841-ben a vanília kézi beporzásának módszerét, amely lehetővé tette a növény termesztését Madagaszkáron is?",
+      "a": [
+        "Edmond Albius, egy 12 éves rabszolgasorban élő fiú Réunion szigetén",
+        "Charles Darwin brit természettudós egyik expedíciója során",
+        "Louis Pasteur francia mikrobiológus egyik kísérletében",
+        "Egy francia botanikus, aki szabadalmaztatta az eljárást"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A fiatal Albius dolgozta ki a ma is használt kézi beporzási technikát Réunion szigetén.",
+      "t": "alapanyagok"
+    },
+    {
+      "q": "Mit adott hozzá a görög muszakához az 1920-as években Nikolaosz Celementész, hogy 'európaibbá' tegye az ételt?",
+      "a": [
+        "Egy vastag béchamel mártásréteget a tetejére",
+        "Darált marhahúst a padlizsán helyett",
+        "Paradicsomos szószt a rétegek közé",
+        "Kecskesajtot a legfelső rétegre"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Celementész francia hatásra egészítette ki a hagyományos padlizsános ételt béchamellel.",
+      "t": "görög konyha"
+    },
+    {
+      "q": "Mekkora lehet legfeljebb a kecsketej aránya az eredetvédett (PDO) görög fetában?",
+      "a": [
+        "30 százalék",
+        "10 százalék",
+        "50 százalék",
+        "70 százalék"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az uniós eredetvédelem szerint a feta juhtejből és legfeljebb 30% kecsketejből készülhet.",
+      "t": "sajtok"
+    },
+    {
+      "q": "Mi volt a hagyományos valenciai paella húsalapja, mielőtt a tenger gyümölcsei elterjedtek a receptben?",
+      "a": [
+        "Nyúl és csirke",
+        "Bárány és kecske",
+        "Sertés és marha",
+        "Kacsa és liba"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az eredeti valenciai paellában nyúl, csirke, zöldbab és csigák szerepeltek, tenger gyümölcsei nem.",
+      "t": "spanyol konyha"
+    },
+    {
+      "q": "Mi volt az andalúziai gazpacho eredeti formája, mielőtt paradicsommal készült volna?",
+      "a": [
+        "Kenyérből, olívaolajból és fokhagymából mozsárban készült pép",
+        "Hideg húsleves finomra vágott zöldségekkel és tejszínnel",
+        "Sűrű, forró bableves füstölt szalonnával és paprikával",
+        "Rizottószerű sáfrányos étel csirkehússal és zöldségekkel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A paradicsom európai elterjedése előtt a gazpacho alapja áztatott kenyér volt olívaolajjal.",
+      "t": "spanyol konyha"
+    },
+    {
+      "q": "Melyik bevándorló közösség hozta magával Mexikóba a shawarmát, amiből a taco al pastor kialakult?",
+      "a": [
+        "Libanoni bevándorlók a 20. század elején",
+        "Spanyol gyarmatosítók a 16. században",
+        "Kínai munkások a 19. század végén",
+        "Olasz bevándorlók a 20. század közepén"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Libanoni bevándorlók vitték Mexikóba a nyárson sült húst, amiből Pueblában lett a taco al pastor.",
+      "t": "mexikói konyha"
+    },
+    {
+      "q": "Mit jelent a 'guacamole' szó eredeti azték (nahuatl) megfelelője?",
+      "a": [
+        "Avokádószósz (ahuacamolli)",
+        "Csípős paradicsommártás",
+        "Kukoricalepény tölteléke",
+        "Kakaóból készült ital"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A nahuatl 'ahuacamolli' szóból ered, jelentése avokádóból készült szósz.",
+      "t": "mexikói konyha"
+    },
+    {
+      "q": "Mit jelent szó szerint a hummusz teljes neve, a 'hummusz bi tahína'?",
+      "a": [
+        "Csicseriborsó tahínával",
+        "Bab olívaolajjal",
+        "Lencse citromlével",
+        "Borsó fokhagymával"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hummusz arabul csicseriborsót jelent, a bi tahína pedig azt, hogy tahínával.",
+      "t": "közel-keleti konyha"
+    },
+    {
+      "q": "Melyik birodalom idején nyerte el a baklava a ma ismert, egységes rétestésztás formáját?",
+      "a": [
+        "Az Oszmán Birodalom",
+        "A Perzsa Birodalom",
+        "A Bizánci Birodalom",
+        "Az Egyiptomi Ókirályság"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A baklava az ókori Közel-Keletről ered, de mai formáját az oszmán palotai konyhákban nyerte el.",
+      "t": "közel-keleti konyha"
+    },
+    {
+      "q": "Mikor kerültek először csípős paprikák a koreai kimcsibe, amely előtte csak sós lében erjesztett zöldség volt?",
+      "a": [
+        "A 16. század után, portugál kereskedők közvetítésével",
+        "Már az i. e. 1. századi kezdetektől fogva",
+        "A 20. század elején, japán megszállás alatt",
+        "Csak az 1988-as szöuli olimpia után"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A chilipaprikát portugál kereskedők hozták Ázsiába, a kimcsi csak a 16. század után lett csípős.",
+      "t": "koreai konyha"
+    },
+    {
+      "q": "Melyik olasz városhoz köthető a tiramisu megalkotása, ahol a Le Beccherie étterem állítólag kitalálta?",
+      "a": [
+        "Treviso",
+        "Firenze",
+        "Nápoly",
+        "Torinó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tiramisu eredete a venetói Trevisóhoz és a Le Beccherie étteremhez köthető a 20. század közepéről.",
+      "t": "olasz konyha"
+    },
+    {
+      "q": "Mi a fő különbség a gelato és a hagyományos amerikai jégkrém között?",
+      "a": [
+        "A gelato kevesebb zsírt és kevesebb belekevert levegőt tartalmaz",
+        "A gelato mindig csokoládéból készül, a jégkrém gyümölcsből",
+        "A gelatóba tojást kevernek, a jégkrémbe sosem",
+        "A gelato melegen, a jégkrém fagyasztva készül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gelato jellemzően 4-9% zsírt és kevesebb levegőt tartalmaz, ezért sűrűbb és intenzívebb ízű.",
+      "t": "olasz konyha"
+    },
+    {
+      "q": "Melyik régióból származik a mascarpone, a tiramisu egyik alapanyaga?",
+      "a": [
+        "Lombardia",
+        "Toszkána",
+        "Szicília",
+        "Veneto"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A mascarpone a lombardiai Lodi és Abbiategrasso környékéről származó krémsajt.",
+      "t": "sajtok"
+    },
+    {
+      "q": "Melyik nemespenészgomba adja a Roquefort sajt jellegzetes kék erezetét?",
+      "a": [
+        "Penicillium roqueforti",
+        "Penicillium notatum",
+        "Aspergillus oryzae",
+        "Rhizopus oligosporus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Penicillium roqueforti gomba a Roquefort barlangjainak természetes flórájából származik.",
+      "t": "sajtok"
+    },
+    {
+      "q": "Melyik évben lett a Roquefort a világ első hivatalosan védett eredetű sajtja?",
+      "a": [
+        "1925-ben",
+        "1789-ben",
+        "1955-ben",
+        "1891-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Roquefort 1925-ben kapta meg a legrégebbi eredetvédelmet (oltalom alatt álló eredetmegjelölést).",
+      "t": "sajtok"
+    },
+    {
+      "q": "Hány hónapig kell legalább érlelni a Parmigiano Reggianót, hogy megkaphassa a nevét?",
+      "a": [
+        "12 hónapig",
+        "3 hónapig",
+        "6 hónapig",
+        "24 hónapig"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szabályzat szerint legalább 12 hónapos érlelés szükséges, bár gyakran 24-36 hónapig érlelik.",
+      "t": "sajtok"
+    },
+    {
+      "q": "Melyik öt olasz tartomány területén állítható elő eredetvédett Parmigiano Reggiano?",
+      "a": [
+        "Parma, Reggio Emilia, Modena, Mantova és Bologna egy része",
+        "Toszkána, Umbria, Lazio, Campania és Molise",
+        "Piemont, Liguria, Lombardia, Veneto és Trentino",
+        "Szicília, Calabria, Puglia, Basilicata és Campania"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az eredetvédett terület Parma, Reggio Emilia, Modena, valamint Mantova és Bologna egy-egy része.",
+      "t": "sajtok"
+    },
+    {
+      "q": "Melyik angol grófságban lévő faluról nevezték el a cheddar sajtot?",
+      "a": [
+        "Somerset",
+        "Yorkshire",
+        "Kent",
+        "Devon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cheddar sajt a Somerset megyei Cheddar faluról kapta a nevét.",
+      "t": "sajtok"
+    },
+    {
+      "q": "Melyik növényből és melyik mexikói államból származik eredetileg a tequila?",
+      "a": [
+        "Kék agávéból, Jalisco államból",
+        "Cukornádból, Oaxaca államból",
+        "Kukoricából, Chihuahua államból",
+        "Kaktuszból, Sonora államból"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tequilát a kék agávé cukros tövéből erjesztik, nevét a Jalisco állambeli Tequila városról kapta.",
+      "t": "párlatok"
+    },
+    {
+      "q": "Melyik évben kapta meg a tequila a mexikói eredetmegjelölés jogi státuszát?",
+      "a": [
+        "1974-ben",
+        "1910-ben",
+        "1821-ben",
+        "1994-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tequila 1974-ben kapott hivatalos eredetvédelmet, hasonlóan a konyakhoz vagy a bourbonhoz.",
+      "t": "párlatok"
+    },
+    {
+      "q": "Miért nem nevezhető törvényesen 'champagne'-nak egy Franciaországon kívül készült habzóbor?",
+      "a": [
+        "Mert a champagne név védett, és csak a franciaországi Champagne régióból származhat",
+        "Mert csak a champagne régióban engedélyezett a szőlőtermesztés Európában",
+        "Mert a champagne szó szabadalmaztatott márkanév egyetlen pincészeté",
+        "Mert az EU csak a francia habzóborokat sorolja a borok közé"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A champagne elnevezés jogilag védett, kizárólag a franciaországi Champagne régióból származó habzóborra használható.",
+      "t": "borok"
+    },
+    {
+      "q": "Mi a különbség a sör és a szake erjesztési folyamata között?",
+      "a": [
+        "A szakénál a keményítő cukorrá és a cukor alkohollá alakulása egyszerre zajlik egy tartályban",
+        "A szakét a főzés után mindig kétszer desztillálják egy hagyományos rézüstben",
+        "A sör árpamalátából készül, a szake pedig kizárólag búzalisztből erjed",
+        "A szakéhoz nem szükséges élesztő, csak a koji nevű penészgomba önmagában"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szake egyedi 'párhuzamos erjesztése' során a keményítő-cukor és cukor-alkohol átalakulás egyidejűleg zajlik.",
+      "t": "italok"
+    },
+    {
+      "q": "Miért kapta a cappuccino a nevét a kapucinus szerzetesekről?",
+      "a": [
+        "Mert az eszpresszó és a tejhab színe hasonlított a szerzetesek csuhájára",
+        "Mert a szerzetesek találták fel az itallevet Rómában",
+        "Mert a kávézó, ahol kitalálták, kapucinus kolostor mellett állt",
+        "Mert a szerzetesek importálták először a kávét Itáliába"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A barna eszpresszó és a fehér tejhab színkombinációja emlékeztetett a kapucinus rend csuhájára.",
+      "t": "kávé és tea"
+    },
+    {
+      "q": "Mi határozza meg, hogy egy tealevélből zöld, oolong vagy fekete tea lesz?",
+      "a": [
+        "Az oxidáció mértéke a feldolgozás során",
+        "A tealevél szedésének napszaka",
+        "A tea ültetvény tengerszint feletti magassága",
+        "A száradási idő hossza percekben mérve"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A zöld tea alig oxidálódik, az oolong részben, a fekete tea pedig teljesen oxidálódik feldolgozáskor.",
+      "t": "kávé és tea"
+    },
+    {
+      "q": "Mi a fő különbség a Maillard-reakció és a karamellizáció között sütés közben?",
+      "a": [
+        "A Maillard-reakció aminosavak és cukrok között zajlik, a karamellizáció csak a cukrok barnulása",
+        "Mindkettő pontosan ugyanaz a kémiai folyamat, csak eltérő elnevezéssel illetik a szakácskönyvekben",
+        "A karamellizáció csak sós ételeknél, a Maillard húsoknál fordul elő",
+        "A Maillard-reakció hidegen is végbemegy, a karamellizáció csak melegen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Maillard-reakcióhoz fehérje és cukor kell, a karamellizáció tisztán a cukor magas hőn történő bomlása.",
+      "t": "konyhatechnika"
+    },
+    {
+      "q": "Miért nevezik 'esszenciálisnak' bizonyos aminosavakat a táplálkozástanban?",
+      "a": [
+        "Mert a szervezet nem képes előállítani őket, táplálékkal kell bevinni",
+        "Mert csak állati eredetű ételekben fordulnak elő",
+        "Mert ezek adják a fehérjék teljes tömegének felét",
+        "Mert hiányukban azonnal életveszélyes állapot alakul ki"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az esszenciális aminosavakat a szervezet nem tudja szintetizálni, ezért táplálékból kell származniuk.",
+      "t": "táplálkozás"
+    },
+    {
+      "q": "Mit jelent pontosan az élelmiszereken feltüntetett 'kalória' (kilokalória) mértékegység?",
+      "a": [
+        "Az energiamennyiséget, ami 1 kg víz hőmérsékletét 1 fokkal emeli",
+        "A tápanyagok tömegét grammban kifejezve",
+        "Az élelmiszer emészthetőségének arányát százalékban",
+        "A cukortartalom mennyiségét milligrammban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egy kilokalória az az energia, amely 1 kilogramm víz hőmérsékletét 1 Celsius-fokkal emeli meg.",
+      "t": "táplálkozás"
+    },
+    {
+      "q": "Melyik vitamin hiánya okozza a tengerészek körében híres skorbut betegséget?",
+      "a": [
+        "C-vitamin",
+        "B12-vitamin",
+        "D-vitamin",
+        "K-vitamin"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A C-vitamin hiánya vezet skorbuthoz; James Lind 1747-es kísérlete igazolta a citrusfélék gyógyhatását.",
+      "t": "táplálkozás"
+    },
+    {
+      "q": "Ki bizonyította 1747-es kísérletében először, hogy a citrusfélék megelőzik a skorbutot?",
+      "a": [
+        "James Lind brit hajóorvos",
+        "Louis Pasteur francia vegyész",
+        "James Cook brit felfedező",
+        "Edward Jenner brit orvos"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "James Lind hajóorvos kísérlete során figyelte meg, hogy a citrusfélék fogyasztása gyógyítja a skorbutot.",
+      "t": "táplálkozás"
+    },
+    {
+      "q": "Mi a fő különbség a francia macaron és az angolszász macaroon között?",
+      "a": [
+        "A macaron mandulahabos, krémmel töltött korong, a macaroon kókuszos süti",
+        "Csak a kiejtésben térnek el, az étel ugyanaz mindkét esetben",
+        "A macaron csokoládéból, a macaroon vaníliából készül",
+        "A macaroon francia, a macaron amerikai eredetű"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A macaron francia mandulás meringue-korong krémmel, a macaroon pedig kókuszreszelékből sült süti.",
+      "t": "édességek"
+    },
+    {
+      "q": "Melyik magyar régióhoz köthető eredetileg a kürtőskalács, mielőtt Magyarországon elterjedt volna?",
+      "a": [
+        "Erdély, a székelyek konyhája",
+        "A Balaton-felvidék térsége",
+        "A Duna-Tisza köze homokvidéke",
+        "Az Alföld tanyavilága"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kürtőskalácsot eredetileg az erdélyi székelyek készítették, nyárson sütve.",
+      "t": "magyar konyha"
+    },
+    {
+      "q": "Miből ered a gulyás elnevezés a magyar konyhában?",
+      "a": [
+        "A 'gulyás' szóból, ami marhapásztort, csordást jelent",
+        "A Gulya folyó nevéből, ahol állítólag kitalálták",
+        "Egy középkori uralkodó, Gulyás vezetéknevéből",
+        "A gulya szóból, ami magát az üstöt jelentette"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gulyás szó eredetileg marhapásztort jelent, az étel az ő útközbeni bográcsos ételükből ered.",
+      "t": "magyar konyha"
+    },
+    {
+      "q": "Melyik magyar zöldségalapú nyári étel fő alapanyagai a paradicsom, a sárga paprika és a hagyma?",
+      "a": [
+        "A lecsó",
+        "A pörkölt",
+        "A halászlé",
+        "A töltött káposzta"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A lecsó paradicsomból, sárga paprikából, hagymából és pirospaprikából készülő hagyományos étel.",
+      "t": "magyar konyha"
+    },
+    {
+      "q": "Honnan ered a hamburger elnevezése, annak ellenére, hogy nincs benne sonka?",
+      "a": [
+        "A németországi Hamburg városáról, ahonnan a darálthús-szelet ötlete származik",
+        "Az angol 'ham' (sonka) és 'burger' szavak összevonásából eredetileg is",
+        "Egy Hamburger nevű amerikai mészárosról a 20. század elején",
+        "A hamburgeres dobozok gyártójának Hamburg nevű cégéről"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A név a németországi Hamburgból ered, ahol népszerű volt a darált marhahúsból készült Hamburg-szelet.",
+      "t": "brit-amerikai konyha"
+    },
+    {
+      "q": "Melyik évi világkiállításon vált országosan ismertté a hamburger az Egyesült Államokban?",
+      "a": [
+        "Az 1904-es St. Louis-i világkiállításon",
+        "Az 1876-os philadelphiai világkiállításon",
+        "Az 1893-as chicagói világkiállításon",
+        "Az 1939-es New York-i világkiállításon"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hamburger az 1904-es St. Louis-i világkiállításon vált országosan ismertté.",
+      "t": "brit-amerikai konyha"
+    },
+    {
+      "q": "Mit jelent szó szerint a 'garam masala' kifejezés a hindi nyelvben?",
+      "a": [
+        "Meleg (fűszeres) keverék",
+        "Édes leves",
+        "Sült kenyér",
+        "Csípős szósz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A garam masala jelentése kb. 'meleg fűszerkeverék', utalva a benne lévő fűszerek 'melegítő' hatására.",
+      "t": "indiai konyha"
+    },
+    {
+      "q": "Milyen hagyományos kemencében sütik az indiai naan lepénykenyeret?",
+      "a": [
+        "Tandoorban, agyagból készült hengeres kemencében",
+        "Wokban, forró olajban sütve",
+        "Nyílt tűz felett rácson",
+        "Gőzölő kosárban párolva"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A naant hagyományosan a tandoor nevű, forró agyagkemence falára tapasztva sütik ki.",
+      "t": "indiai konyha"
+    },
+    {
+      "q": "Milyen alapanyagból erjesztik hagyományosan a koreai szodzsu párlatot?",
+      "a": [
+        "Rizsből",
+        "Árpából",
+        "Burgonyából",
+        "Cukorrépából"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hagyományos szodzsut rizs erjesztésével és lepárlásával készítik, bár ma gyakran más keményítőből is.",
+      "t": "italok"
+    },
+    {
+      "q": "Melyik ország nemzeti street food-jának tartják a pad thai néven ismert tésztaételt?",
+      "a": [
+        "Thaiföld",
+        "Vietnám",
+        "Indonézia",
+        "Malajzia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pad thai rizstésztából készülő wokban sütött étel, Thaiföld egyik legismertebb utcai fogása.",
+      "t": "ázsiai konyha"
+    },
+    {
+      "q": "Mivel helyettesítik gyakran az éttermekben a valódi, ritka és drága wasabit?",
+      "a": [
+        "Színezett tormapasztával",
+        "Mustárral és cukorral",
+        "Zöld chilipürével",
+        "Avokádókrémmel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A valódi wasabi drága és nehezen termeszthető, ezért gyakran zöldre színezett torma helyettesíti.",
+      "t": "ázsiai konyha"
+    },
+    {
+      "q": "Miért nem számít a szake desztillált italnak, szemben pl. a vodkával?",
+      "a": [
+        "Mert erjesztéssel készül, nem párolják le, a cukrosodás és az alkoholképződés egy lépésben zajlik",
+        "Mert az alkoholtartalma túl alacsony ahhoz, hogy egyáltalán desztillálni lehessen gazdaságosan",
+        "Mert rizsből készül, nem pedig gabonafélékből vagy burgonyából, mint a legtöbb párlat",
+        "Mert csak hideg vízzel hígítják forralás és bármilyen lepárlás nélkül a végén"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szake sörhöz hasonlóan erjesztett, nem desztillált ital, egyedi 'párhuzamos erjesztéssel' készül.",
+      "t": "italok"
+    },
+    {
+      "q": "Melyik ország konyhájából ered a szójaszósz, amely aztán Japánban is elterjedt?",
+      "a": [
+        "Kína",
+        "Korea",
+        "Vietnám",
+        "Thaiföld"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szójaszósz erjesztett szójababból készülő fűszer, eredetileg kínai találmány.",
+      "t": "ázsiai konyha"
+    },
+    {
+      "q": "Melyik kínai város ad nevet a ropogós bőrű, hagyományosan egész sütött kacsaételnek?",
+      "a": [
+        "Peking (Peking kacsa)",
+        "Sanghaj",
+        "Kanton",
+        "Hongkong"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Peking kacsa a kínai főváros, Peking (Beijing) híres, ropogós bőrű sült kacsaétele.",
+      "t": "ázsiai konyha"
+    },
+    {
+      "q": "Mivel készül hagyományosan a koreai bibimbap fűszeres, vörös színű szósza?",
+      "a": [
+        "Gochudzsang nevű erjesztett chilipasztával",
+        "Szójaszósszal és mézzel",
+        "Sriracha csípős szósszal",
+        "Kimcsilével és ecettel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A bibimbap jellegzetes csípős szósza a gochudzsang, egy erjesztett rizs- és chilipaszta.",
+      "t": "ázsiai konyha"
+    },
+    {
+      "q": "Melyik karibi országból származik a mojito koktél, amely rummal, mentával és limével készül?",
+      "a": [
+        "Kuba",
+        "Jamaica",
+        "Puerto Rico",
+        "Dominikai Köztársaság"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mojito hagyományosan kubai koktél, fehér rummal, friss mentával, limelével és szódavízzel.",
+      "t": "koktélok"
+    },
+    {
+      "q": "Miből készül a hagyományos görög tzatziki mártás alapja?",
+      "a": [
+        "Görög joghurtból, uborkából és fokhagymából",
+        "Tejfölből és kaporból",
+        "Majonézből és citromból",
+        "Tejszínből és petrezselyemből"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tzatziki sűrű görög joghurtból, reszelt uborkából, fokhagymából és olívaolajból készül.",
+      "t": "görög konyha"
+    },
+    {
+      "q": "Milyen jellegzetes vizuális jelenség figyelhető meg, ha vizet öntenek a görög ouzóhoz?",
+      "a": [
+        "A víz hatására az ital tejfehérre színeződik (louche hatás)",
+        "Az ital azonnal két rétegre válik szét",
+        "Az ital erős pezsgést és habzást mutat",
+        "Az ital színe zöldről kékre változik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ouzóban lévő anetol vízzel érintkezve kicsapódik, ettől lesz az ital tejszerűen fehér.",
+      "t": "italok"
+    },
+    {
+      "q": "Melyik francia régióról kapta a nevét a szalonnás, tojásos-tejszínes quiche lorraine?",
+      "a": [
+        "Lotaringiáról (Lorraine)",
+        "Normandiáról",
+        "Provence-ról",
+        "Burgundiáról"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A quiche lorraine a franciaországi Lotaringia (Lorraine) tartományból származik.",
+      "t": "francia konyha"
+    },
+    {
+      "q": "Melyik francia kikötővárosban alakult ki hagyományosan a bouillabaisse nevű halleves?",
+      "a": [
+        "Marseille",
+        "Bordeaux",
+        "Nizza",
+        "Cannes"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A bouillabaisse a dél-franciaországi Marseille kikötőjének halászai által készített halleves.",
+      "t": "francia konyha"
+    },
+    {
+      "q": "Mely zöldségek adják a hagyományos provence-i ratatouille alapját?",
+      "a": [
+        "Padlizsán, cukkini, paprika és paradicsom",
+        "Sárgarépa, zeller és póréhagyma",
+        "Karfiol, brokkoli és zöldbab",
+        "Burgonya, hagyma és articsóka"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A ratatouille a padlizsánból, cukkiniből, paprikából és paradicsomból készülő provence-i egytálétel.",
+      "t": "francia konyha"
+    },
+    {
+      "q": "Miért nem francia találmány valójában a croissant, ahogy azt sokan hiszik?",
+      "a": [
+        "Az osztrák kipferl nevű félhold alakú tésztából fejlődött ki Bécsben",
+        "Eredetileg olasz cornetto receptből másolták Párizsban",
+        "Belga pékek találták fel a 20. század elején",
+        "Valójában svájci recept, amit franciásítottak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A croissant elődje az osztrák kipferl volt, amit egy bécsi pék honosított meg Párizsban 1839-ben.",
+      "t": "francia konyha"
+    },
+    {
+      "q": "Milyen rizsfajtákat használnak leggyakrabban az olasz rizottóhoz, mert sok keményítőt engednek el?",
+      "a": [
+        "Arborio vagy carnaroli",
+        "Basmati vagy jázmin",
+        "Hosszú szemű indica",
+        "Barna, hántolatlan rizs"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az arborio és a carnaroli rizs magas keményítőtartalma adja a rizottó krémes állagát.",
+      "t": "olasz konyha"
+    },
+    {
+      "q": "Melyik olasz régióból származik az eredeti bivalytejes mozzarella (mozzarella di bufala)?",
+      "a": [
+        "Campania",
+        "Toszkána",
+        "Szicília",
+        "Piemont"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A mozzarella di bufala Campania régióból, elsősorban a Caserta és Salerno környéki bivalytartó vidékekről ered.",
+      "t": "sajtok"
+    },
+    {
+      "q": "Melyik növény kérgéből nyerik a fahéj fűszert?",
+      "a": [
+        "A fahéjfa (Cinnamomum) belső kérgéből",
+        "A fahéjfa magvaiból",
+        "A fahéjfa gyökeréből",
+        "A fahéjfa leveleiből, szárítva"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fahéjat a Cinnamomum nemzetségbe tartozó fák belső kérgének szárított, feltekert csíkjaiból nyerik.",
+      "t": "alapanyagok"
+    },
+    {
+      "q": "Mi pontosan a fekete bors, amit őrölve fűszerként használunk?",
+      "a": [
+        "A borscserje éretlen, szárított bogyója",
+        "A borscserje virágának szárított szirma",
+        "A borscserje gyökértörzse, porrá őrölve",
+        "A borscserje éretten leszedett, friss magja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fekete bors a Piper nigrum növény éretlenül szedett és szárított bogyója, a boroskata.",
+      "t": "alapanyagok"
+    },
+    {
+      "q": "Melyik kontinensről származik eredetileg a paradicsom, mielőtt Európába került volna?",
+      "a": [
+        "Amerikából (Dél- és Közép-Amerika)",
+        "Ázsiából, Indiából",
+        "Afrikából, Etiópiából",
+        "Ausztráliából"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A paradicsom amerikai eredetű növény, amit a spanyol hódítók vittek Európába a 16. században.",
+      "t": "alapanyagok"
+    },
+    {
+      "q": "Mi történt a kakaóval, a csokoládé alapanyagával, amikor Európába került Mezoamerikából?",
+      "a": [
+        "A keserű kakaóitalt cukorral édesítve alakították csokoládévá",
+        "Azonnal szilárd csokoládé formában fogyasztották, ahogy ma is",
+        "Kizárólag gyógyszerként, orvosi célra használták sokáig",
+        "Kávéval keverve itták, sosem önmagában"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az aztékok keserű, fűszeres kakaóitalt fogyasztottak, Európában adtak hozzá cukrot, így lett csokoládé.",
+      "t": "alapanyagok"
+    },
+    {
+      "q": "Milyen mikroorganizmusok végzik a kovászos kenyér erjesztését az iparilag előállított élesztővel szemben?",
+      "a": [
+        "Vad élesztők és tejsavbaktériumok együttesen",
+        "Kizárólag ecetsavbaktériumok",
+        "Kizárólag penészgombák",
+        "Élesztőgombák, de más fajtájúak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kovászban vad élesztők és tejsavbaktériumok együtt erjesztik a tésztát, ez adja jellegzetes ízét.",
+      "t": "konyhatechnika"
+    },
+    {
+      "q": "Miért emészthetőbb sokak szerint a hagyományos kovászos kenyér, mint az élesztős?",
+      "a": [
+        "A tejsavbaktériumok csökkentik a fitinsav-tartalmat, ami javítja az ásványianyag-felszívódást",
+        "Mert kevesebb lisztet tartalmaz, mint az élesztős kenyér",
+        "Mert alacsonyabb hőmérsékleten sütik meg, mint az élesztőset",
+        "Mert nem tartalmaz glutént, ellentétben az élesztős kenyérrel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az erjedés során a tejsavbaktériumok lebontják a fitinsavat, ami javítja az ásványi anyagok felszívódását.",
+      "t": "táplálkozás"
+    },
+    {
+      "q": "Milyen fánkféle édesség jellemzően csillag alakú fúvókával préselt tésztából készül forró olajban?",
+      "a": [
+        "A churro",
+        "A beignet",
+        "A krapfen",
+        "A zeppole"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A churro csillag alakú nyílású fecskendővel formázott, forró olajban sült spanyol-mexikói tészta.",
+      "t": "spanyol konyha"
+    },
+    {
+      "q": "Melyik két fő kávébab-fajta adja a kávépiac túlnyomó részét, eltérő koffein- és íztartalommal?",
+      "a": [
+        "Arabica és robusta",
+        "Bourbon és tipica",
+        "Excelsa és liberica",
+        "Maragogype és pacamara"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az arabica lágyabb, kevesebb koffeint tartalmaz, a robusta erősebb és magasabb koffeintartalmú.",
+      "t": "kávé és tea"
+    },
+    {
+      "q": "Melyik citrusos illóolaj adja a klasszikus Earl Grey fekete tea jellegzetes aromáját?",
+      "a": [
+        "Bergamott",
+        "Grapefruit",
+        "Mandarin",
+        "Citromfű"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Earl Grey teát bergamott (egy citrusféle) héjából nyert illóolajjal ízesítik.",
+      "t": "kávé és tea"
+    },
+    {
+      "q": "Melyik országok írják 'whisky', és melyek 'whiskey' alakban a párlat nevét?",
+      "a": [
+        "Skócia és Kanada 'whisky', Írország és az USA 'whiskey' alakot használ hagyományosan",
+        "A whisky mindig kizárólag árpából készül, a whiskey pedig csak kukoricából erjesztve",
+        "A whisky pálinkaszerű gyümölcspárlat, a whiskey pedig sörből lepárolt ital",
+        "Csak a brit angol nyelvben van különbség, az amerikai angolban egyáltalán nincs"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Hagyományosan Skócia és Kanada 'whisky', Írország és az USA 'whiskey' alakot használ.",
+      "t": "párlatok"
+    },
+    {
+      "q": "Mi védi jogilag a magyar pálinka elnevezést, megkülönböztetve más gyümölcspárlatoktól?",
+      "a": [
+        "Földrajzi árujelző, mely szerint csak Magyarországon és részben Ausztriában termett gyümölcsből, ott is desztillálva készülhet",
+        "Szabadalom, amit egy magyar pálinkafőző céh jegyeztetett be hivatalosan a 19. század közepén",
+        "Nemzetközi védjegy, amit az ENSZ Élelmezésügyi és Mezőgazdasági Világszervezete hivatalosan kiadott",
+        "Uniós élelmiszerbiztonsági szabvány, amely kizárólag a végső cukortartalmat szabályozza szigorúan"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A pálinka földrajzi árujelzőt élvez: csak Magyarországon és néhány ausztriai tartományban termett gyümölcsből készülhet.",
+      "t": "magyar konyha"
+    }
   ]
 }

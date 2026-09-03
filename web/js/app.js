@@ -36,6 +36,44 @@ function resetViewportScroll() {
   setTimeout(fix, 250);
 }
 
+/**
+ * Teljes képernyős mód.
+ *
+ * PWA-ként a home képernyőről indítva ez már eleve teljes képernyős
+ * (`display: standalone`), de böngészőlapon (asztali gép, Android Chrome)
+ * hasznos a rendszersávok elrejtése, főleg többjátékos parti közben.
+ * iOS Safari-n a Fullscreen API nem támogatott tetszőleges elemre – ott a
+ * gomb elrejtve marad, mert amúgy sem működne.
+ */
+function fullscreenSupported() {
+  return Boolean(
+    document.documentElement.requestFullscreen || document.documentElement.webkitRequestFullscreen
+  );
+}
+
+function isFullscreen() {
+  return Boolean(document.fullscreenElement || document.webkitFullscreenElement);
+}
+
+function toggleFullscreen() {
+  if (isFullscreen()) {
+    if (document.exitFullscreen) document.exitFullscreen().catch(() => {});
+    else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+    return;
+  }
+  const root = document.documentElement;
+  const request = root.requestFullscreen || root.webkitRequestFullscreen;
+  if (request) request.call(root).catch?.(() => {});
+}
+
+function updateFullscreenIcon(button) {
+  if (!button) return;
+  const active = isFullscreen();
+  button.textContent = active ? '⛶' : '⛶';
+  button.classList.toggle('icon-btn-active', active);
+  button.setAttribute('aria-label', active ? 'Kilépés a teljes képernyőből' : 'Teljes képernyő');
+}
+
 const TABS = [
   { id: 'home', label: 'Játék', icon: '🎡' },
   { id: 'leaderboard', label: 'Ranglista', icon: '🏆' },
@@ -140,6 +178,17 @@ class App {
     this.offlineChip = el('span.chip.chip-warn.small', { text: '📴 offline' });
     this.offlineChip.hidden = navigator.onLine;
 
+    this.fullscreenBtn = el('button.icon-btn', {
+      type: 'button',
+      'aria-label': 'Teljes képernyő',
+      text: '⛶',
+      hidden: !fullscreenSupported(),
+      on: { click: () => toggleFullscreen() }
+    });
+    updateFullscreenIcon(this.fullscreenBtn);
+    document.addEventListener('fullscreenchange', () => updateFullscreenIcon(this.fullscreenBtn));
+    document.addEventListener('webkitfullscreenchange', () => updateFullscreenIcon(this.fullscreenBtn));
+
     const topBar = el('header.top-bar', null, [
       el('button.icon-btn', {
         type: 'button',
@@ -148,6 +197,7 @@ class App {
         on: { click: () => this.navigate('about') }
       }),
       el('div.top-bar-center', null, [this.titleEl, this.offlineChip]),
+      this.fullscreenBtn,
       el('button.icon-btn', {
         type: 'button',
         'aria-label': 'Beállítások',

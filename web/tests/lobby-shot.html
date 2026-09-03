@@ -72,9 +72,13 @@
     // #spin → a pörgetés fázisa; #answer → a válaszfázis (a kérdés + 4 válasz);
     // #answer5 → ugyanaz ÖT játékossal és hosszú kérdéssel, hogy a szűk eset is
     // mérhető legyen (kiférés-ellenőrzés a layout-check.html-ben).
-    if (location.hash === '#spin' || location.hash.startsWith('#answer')) {
+    if (location.hash === '#spin' || location.hash.startsWith('#answer') || location.hash.startsWith('#resolved')) {
       const isAnswer = location.hash.startsWith('#answer');
-      const crowded = location.hash === '#answer5';
+      const isResolved = location.hash.startsWith('#resolved');
+      // #resolved5 → lezárt kérdés, ÖT játékossal, mindegyik más választ adott
+      // (a legrosszabb eset: minden válasznál van legalább egy szavazó
+      // avatar, ez méri, hogy az avatarcsík sem töri meg a fix magasságot).
+      const crowded = location.hash === '#answer5' || location.hash === '#resolved5';
       const now = Date.now();
       const extraPlayers = [
         { player_id: 'd', seat: 4, score: 5000, block_score: 1000, is_ready: true,
@@ -110,11 +114,31 @@
           category_slug: 'magyar-tortenelem', ordinal: 1, max_questions: 10,
           reward: 1000,
           // Válaszfázisban a válaszablak MÁR nyitva van, pörgetésnél még nem.
-          answer_open_at: new Date(now + (isAnswer ? -1000 : 3200)).toISOString(),
+          answer_open_at: new Date(now + (isAnswer || isResolved ? -1000 : 3200)).toISOString(),
           deadline_at: new Date(now + (isAnswer ? 12000 : 18200)).toISOString(),
-          resolved: false, resolved_at: null, my_answer: null, i_answered: false,
-          answered_count: 0, alive_count: 4,
-          correct_answer: null, explanation: null, results: null
+          resolved: isResolved,
+          resolved_at: isResolved ? new Date(now - 500).toISOString() : null,
+          my_answer: isResolved ? 1 : null,
+          i_answered: isResolved,
+          answered_count: isResolved ? (crowded ? 5 : 3) : 0,
+          alive_count: crowded ? 5 : 4,
+          correct_answer: isResolved ? 1 : null,
+          explanation: isResolved ? '1526. augusztus 29-én a magyar sereg vereséget szenvedett.' : null,
+          results: isResolved
+            ? (crowded
+                ? [
+                    { player_id: 'me', selected_answer: 1, is_correct: true, awarded_points: 1000 },
+                    { player_id: 'a', selected_answer: 1, is_correct: true, awarded_points: 1000 },
+                    { player_id: 'c', selected_answer: 0, is_correct: false, awarded_points: 0 },
+                    { player_id: 'd', selected_answer: 2, is_correct: false, awarded_points: 0 },
+                    { player_id: 'e', selected_answer: 3, is_correct: false, awarded_points: 0 }
+                  ]
+                : [
+                    { player_id: 'me', selected_answer: 1, is_correct: true, awarded_points: 1000 },
+                    { player_id: 'a', selected_answer: 1, is_correct: true, awarded_points: 1000 },
+                    { player_id: 'c', selected_answer: 2, is_correct: false, awarded_points: 0 }
+                  ])
+            : null
         },
         last_block_scores: null, last_block_ended_at: null,
         players: [

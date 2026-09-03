@@ -634,6 +634,2216 @@
       "d": "easy",
       "e": "A pápa egyben Vatikánváros államfője is – a világ legkisebb önálló államáé.",
       "t": "világvallások"
+    },
+    {
+      "q": "Mit jelképezett az ókori egyiptomi 'anh' (ankh) jel?",
+      "a": [
+        "Az életet",
+        "A halált",
+        "A háborút",
+        "A gazdagságot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ankh az örök élet és a lét jelképe volt az ókori egyiptomi vallásban.",
+      "t": "egyiptomi mitológia"
+    },
+    {
+      "q": "Melyik egyiptomi istent ábrázolták sakálfejjel, és a halottak balzsamozásához, a temetkezéshez kötötték?",
+      "a": [
+        "Anubisz",
+        "Hórusz",
+        "Széth",
+        "Thot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Anubisz volt a balzsamozás és a temetkezési szertartások sakálfejű istene az egyiptomi mitológiában.",
+      "t": "egyiptomi mitológia"
+    },
+    {
+      "q": "Mi volt a Duat az ókori egyiptomi hitvilágban?",
+      "a": [
+        "A halottak túlvilági birodalma",
+        "A fáraó koronázási városa",
+        "A Nílus áradásának istennője",
+        "Egy szent állat neve"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Duat az ókori egyiptomiak elképzelése szerint a holtak túlvilági birodalma volt, ahol az ítélet is zajlott.",
+      "t": "egyiptomi mitológia"
+    },
+    {
+      "q": "Mi volt a mumifikálás fő célja az ókori egyiptomi hitvilágban?",
+      "a": [
+        "A test megőrzése a túlvilági élethez",
+        "A test gyors elpusztítása",
+        "A lélek elűzése a testből",
+        "A fáraó nevének eltörlése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az egyiptomiak hite szerint a léleknek szüksége volt az ép testre a túlvilági élethez, ezért balzsamozták a holttestet.",
+      "t": "egyiptomi mitológia"
+    },
+    {
+      "q": "Miért helyeztek az egyiptomi múmiák szívének helyére szkarabeusz alakú amulettet?",
+      "a": [
+        "Hogy megakadályozza, hogy a szív tanúskodjon a halott ellen az ítéletkor",
+        "Hogy elűzze a gonosz szellemeket a sírból",
+        "Hogy jelezze a halott társadalmi rangját",
+        "Hogy segítse a bebalzsamozás folyamatát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szívszkarabeuszra vésett szöveg (a Halottak Könyve 30B fejezete) arra kérte a szívet, hogy ne tanúskodjon a halott ellen a túlvilági megméretéskor.",
+      "t": "egyiptomi mitológia"
+    },
+    {
+      "q": "Melyik istennő volt Ozirisz felesége, Hórusz anyja, és a mágia egyiptomi istennője?",
+      "a": [
+        "Ízisz",
+        "Nephthüsz",
+        "Hathór",
+        "Basztet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ízisz Ozirisz felesége, Hórusz anyja és a mágikus tudás egyiptomi istennője volt.",
+      "t": "egyiptomi mitológia"
+    },
+    {
+      "q": "Mi a neve annak a hatalmas kőrisfának, amely az északi mitológia szerint összeköti a kilenc világot?",
+      "a": [
+        "Yggdrasil",
+        "Bifröst",
+        "Midgard",
+        "Ginnungagap"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Yggdrasil az a kozmikus kőrisfa, amely az északi mitológiában a kilenc világot tartja össze.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Hogyan nevezik az északi mitológia végítéletét, amikor az istenek nagy csatában elpusztulnak?",
+      "a": [
+        "Ragnarök",
+        "Valhalla",
+        "Ásgard",
+        "Niflheim"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Ragnarök az északi mitológia szerinti világvége, amikor az istenek és szörnyek nagy csatában elpusztítják egymást.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Melyik szivárványhíd köti össze Midgardot (az emberek világát) Ásgarddal (az istenek világával) az északi mitológiában?",
+      "a": [
+        "Bifröst",
+        "Gjallarbrú",
+        "Valgrind",
+        "Hlidskjálf"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Bifröst az a lángoló szivárványhíd, amely az északi mitológiában Midgardot Ásgarddal köti össze.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Az északi mitológia szerint miért veszítette el Odin a fél szemét?",
+      "a": [
+        "Feláldozta bölcsességért Mímir kútjánál",
+        "Egy sárkánnyal vívott harcban vesztette el",
+        "Loki büntetésül vakította meg",
+        "Egy jégóriással vívott párbajban sérült meg"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Odin egy szemét áldozta fel Mímir bölcsesség-kútjánál, hogy igyon a bölcsesség vizéből.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Melyik csarnokba viszi Odin a csatában elesett harcosok egy részét az északi mitológia szerint?",
+      "a": [
+        "Valhalla",
+        "Fólkvangr",
+        "Helheim",
+        "Niflheim"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Valhalla Odin csarnoka, ahová az elesett hősök egy részét, az einherjaroknak nevezett harcosokat viszik.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Melyik két holló hozott naponta híreket Odinnak a világról az északi mitológiában?",
+      "a": [
+        "Hugin és Munin",
+        "Geri és Freki",
+        "Sleipnir és Fenrir",
+        "Sköll és Hati"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Hugin és Munin, Odin két hollója repülte be naponta a világot, és számolt be neki mindenről.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Melyik ősi kelta ünnepet tartják a mai Halloween egyik elődjének, amelyet október végén ünnepeltek?",
+      "a": [
+        "Samhain",
+        "Beltane",
+        "Imbolc",
+        "Lughnasadh"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Samhain a kelta év végét jelző ünnep volt, amelyből több elem is átkerült a mai Halloweenbe.",
+      "t": "kelta mitológia"
+    },
+    {
+      "q": "Melyik istennőről kapta a nevét az ír mitológia természetfeletti népe, a Tuatha Dé Danann?",
+      "a": [
+        "Danu",
+        "Brigid",
+        "Ériu",
+        "Macha"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Tuatha Dé Danann elnevezés jelentése 'Danu istennő népe', bár Danu alakja csak közvetve, a népnév ragozott formájából ismert.",
+      "t": "kelta mitológia"
+    },
+    {
+      "q": "Melyik kelta istennő kötődik a háborúhoz és a végzethez, és a hagyomány szerint gyakran varjú alakjában jelenik meg a csatatereken?",
+      "a": [
+        "Morrígan",
+        "Epona",
+        "Rhiannon",
+        "Brigid"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Morrígan a háború, a viszály és a végzet ír istennője, akit gyakran varjúként ábrázolnak a csatamezőkön.",
+      "t": "kelta mitológia"
+    },
+    {
+      "q": "Miért tartották szent növénynek a fagyöngyöt az ókori kelta druida hagyományban?",
+      "a": [
+        "Mert télen is zölden maradt, ezért gyógyító és termékenységi erőt tulajdonítottak neki",
+        "Mert mérgező tulajdonsága miatt fegyverek mérgezésére használták",
+        "Mert kizárólag a druidák sírjai fölött nőtt",
+        "Mert a kelta naptár kezdetét jelezte a virágzása"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tölgyfán élő, télen is zöld fagyöngyöt a druidák szent, gyógyító és termékenységet hozó növénynek tartották, ahogy azt ókori római források is feljegyezték.",
+      "t": "kelta mitológia"
+    },
+    {
+      "q": "Melyik szláv isten volt a mennydörgés, a háború és a törvény ura, akit a kijevi Rusz idején a főisten szerepében tiszteltek?",
+      "a": [
+        "Perun",
+        "Veles",
+        "Szvarog",
+        "Sztribog"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Perun volt a szláv pantheon legfőbb istene, a mennydörgés és a háború ura, akit Kijevben is a legelőkelőbb helyen tiszteltek.",
+      "t": "szláv mitológia"
+    },
+    {
+      "q": "Melyik szláv istenséghez kötődik az alvilág, a jószág és a mágia a szláv mitológiában?",
+      "a": [
+        "Veles",
+        "Perun",
+        "Marzanna",
+        "Sztribog"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Veles a szláv mitológia alvilági, jószágot és mágikus tudást felügyelő istensége, Perun mitikus ellenfele.",
+      "t": "szláv mitológia"
+    },
+    {
+      "q": "Melyik télhez és halálhoz kötött szláv nőalak szalmabábuját égetik el vagy vetik vízbe hagyományosan tavasszal?",
+      "a": [
+        "Marzanna",
+        "Baba Jaga",
+        "Vila",
+        "Zorja"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Marzanna (Morana) a tél és a halál megszemélyesítője a szláv néphitben, bábuját tavaszváró szertartásokon égetik vagy vízbe dobják.",
+      "t": "szláv mitológia"
+    },
+    {
+      "q": "Mi a neve azoknak a vízi szellemlényeknek a szláv folklórban, akikről a hagyomány szerint megfulladt lányok lelkei?",
+      "a": [
+        "Rusalka",
+        "Vila",
+        "Kikimora",
+        "Domovoj"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A rusalka a szláv folklór vízi szelleme, akiről úgy tartották, gyakran fiatalon vízbe fulladt lányok lelke.",
+      "t": "szláv mitológia"
+    },
+    {
+      "q": "Melyik szellemlényt tisztelték a szláv néphitben az otthon és a család védelmezőjeként?",
+      "a": [
+        "Domovoj",
+        "Leszij",
+        "Vodjanoj",
+        "Poludnica"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A domovoj a ház és a család jóindulatú védőszelleme volt a szláv néphitben, akit gyakran idős családfő alakjában képzeltek el.",
+      "t": "szláv mitológia"
+    },
+    {
+      "q": "Melyik hindu istent ábrázolják elefántfejjel, és tisztelik az akadályok elhárítójaként?",
+      "a": [
+        "Ganésa",
+        "Hanumán",
+        "Visnu",
+        "Brahma"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ganésa elefántfejű isten, akit a hinduizmusban az akadályok elhárítójaként és a bölcsesség istenségeként tisztelnek.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Mi a neve annak a hindu és buddhista fogalomnak, amely szerint a tettek meghatározzák a jövőbeli sorsot vagy újjászületést?",
+      "a": [
+        "Karma",
+        "Dharma",
+        "Móksa",
+        "Mája"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A karma a tettek és következményeik törvénye, amely a hindu és buddhista tanítás szerint a jövőbeli létállapotot alakítja.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Melyik hindu istennőt ábrázolják sötét bőrrel, koponyafüzérrel, a pusztítás és az idő megtestesítőjeként?",
+      "a": [
+        "Kálí",
+        "Laksmí",
+        "Szaraszvatí",
+        "Párvatí"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kálí a hindu mitológiában a pusztítás, a halál és az idő félelmetes istennője, sötét bőrrel és koponyafüzérrel ábrázolva.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Hány fő istenből áll a hindu Trimúrti, a teremtés, a fenntartás és a pusztítás hármas egysége?",
+      "a": [
+        "Három",
+        "Kettő",
+        "Négy",
+        "Öt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Trimúrti Brahmából (teremtő), Visnuból (fenntartó) és Sivából (pusztító) áll.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Melyik hindu eposz meséli el Ráma herceg történetét és feleségének, Szítának elrablását?",
+      "a": [
+        "Rámájana",
+        "Mahábhárata",
+        "Bhagavad-gítá",
+        "Rigvéda"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Rámájana Ráma herceg életét és Szíta elrablás utáni kiszabadítását meséli el.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Miért tekintik szent állatnak a tehenet a hinduizmusban?",
+      "a": [
+        "Az élet fenntartójaként és a bőség jelképeként tisztelik",
+        "Mert kizárólag papok fejhetik meg vallási előírás szerint",
+        "Mert a hindu naptár kezdetét egy tehénáldozat jelzi",
+        "Mert csak tehén tejéből készülhet szertartási étel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tehenet a hinduizmusban az élet fenntartójának és az anyai gondoskodás, bőség jelképének tartják, gyakran Kámadhénu istennővel is összekapcsolva.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Melyik folyót tartják a hinduizmusban a legszentebbnek, amelynek partján fekszik Varanaszi városa?",
+      "a": [
+        "Gangesz",
+        "Indus",
+        "Brahmaputra",
+        "Jamuna"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Gangesz a hinduizmus legszentebb folyója, partján fekszik a szent város, Varanaszi.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Hogyan nevezik a buddhizmusban azt az állapotot, amely a szenvedés körforgásából (a szamszárából) való végső megszabadulást jelenti?",
+      "a": [
+        "Nirvána",
+        "Karma",
+        "Dharma",
+        "Móksa"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A nirvána a buddhista tanítás szerint a vágyakozás és szenvedés megszűnésének, a szamszárából való megszabadulásnak az állapota.",
+      "t": "buddhizmus"
+    },
+    {
+      "q": "Ki volt a buddhizmus alapítója, akit Sziddhártha Gautama néven is ismernek?",
+      "a": [
+        "Buddha",
+        "Mahávíra",
+        "Konfuciusz",
+        "Lao-ce"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Sziddhártha Gautama, azaz Buddha ('a Felébredett') a buddhizmus alapítója, akinek tanításai a négy nemes igazságra épülnek.",
+      "t": "buddhizmus"
+    },
+    {
+      "q": "Hány nemes igazságot fogalmazott meg Buddha a szenvedésről és annak megszüntetéséről?",
+      "a": [
+        "Négyet",
+        "Hármat",
+        "Ötöt",
+        "Nyolcat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Buddha tanításának alapja a négy nemes igazság, amely a szenvedés okát és megszüntetésének útját írja le.",
+      "t": "buddhizmus"
+    },
+    {
+      "q": "Melyik mai országban található Lumbini, Buddha hagyomány szerinti születési helye?",
+      "a": [
+        "Nepálban",
+        "Indiában",
+        "Srí Lankán",
+        "Bhutánban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Lumbini a mai Nepál területén fekszik, és a hagyomány szerint itt született Sziddhártha Gautama.",
+      "t": "buddhizmus"
+    },
+    {
+      "q": "Mi a neve a buddhista szerzetesek és apácák közösségének, amely a buddhista tanítás egyik alappillére?",
+      "a": [
+        "Szangha",
+        "Sztúpa",
+        "Mandala",
+        "Tripitaka"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szangha a buddhista szerzetesi közösség neve, amely a Buddha és a tanítás (dharma) mellett a hármas menedék egyike.",
+      "t": "buddhizmus"
+    },
+    {
+      "q": "Melyik buddhista irányzat a legelterjedtebb Kelet-Ázsiában, például Kínában, Japánban és Koreában?",
+      "a": [
+        "Mahájána",
+        "Théraváda",
+        "Vadzsrajána",
+        "Nicsiren"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A mahájána buddhizmus (például a zen és a tiszta föld irányzatai) a legelterjedtebb Kelet-Ázsiában.",
+      "t": "buddhizmus"
+    },
+    {
+      "q": "Melyik várost tartják az iszlám legszentebb helyének, ahová évente milliók zarándokolnak el?",
+      "a": [
+        "Mekka",
+        "Medina",
+        "Jeruzsálem",
+        "Bagdad"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Mekka az iszlám legszentebb városa, itt található a Kába-kő, és ide irányul a hadzs zarándoklat.",
+      "t": "iszlám"
+    },
+    {
+      "q": "Hogyan nevezik az iszlám szent könyvét, amely a hagyomány szerint Mohamed prófétának kinyilatkoztatott isteni üzenet?",
+      "a": [
+        "Korán",
+        "Hadísz",
+        "Szunna",
+        "Tóra"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Korán az iszlám szent könyve, amelyet a hagyomány szerint Allah nyilatkoztatott ki Mohamed prófétának.",
+      "t": "iszlám"
+    },
+    {
+      "q": "Hány alappillére van az iszlámnak, amelyek a hívők legfőbb vallási kötelességeit határozzák meg?",
+      "a": [
+        "Öt",
+        "Négy",
+        "Hat",
+        "Hét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az iszlám öt pillére a hitvallás, az ima, az alamizsna, a böjt és a mekkai zarándoklat.",
+      "t": "iszlám"
+    },
+    {
+      "q": "Az iszlám holdnaptár hányadik hónapja a böjti hónap, a Ramadán?",
+      "a": [
+        "A kilencedik",
+        "A hetedik",
+        "A tizenkettedik",
+        "Az első"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Ramadán az iszlám (hidzsri) holdnaptár kilencedik hónapja, ekkor tartják a napközbeni böjtöt.",
+      "t": "iszlám"
+    },
+    {
+      "q": "Ki volt az az iszlám próféta, akinek a hagyomány szerint a Korán kinyilatkoztatását Gábriel arkangyal közvetítette?",
+      "a": [
+        "Mohamed",
+        "Ábrahám",
+        "Mózes",
+        "Ali"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hagyomány szerint Gábriel arkangyal (Dzsibríl) közvetítette Mohamed prófétának a Korán kinyilatkoztatásait.",
+      "t": "iszlám"
+    },
+    {
+      "q": "Hogyan nevezik Mohamed próféta hagyomány szerinti éjszakai utazását Mekkából Jeruzsálembe, majd égi felemelkedését?",
+      "a": [
+        "Iszra és Mirádzs",
+        "Hidzsra",
+        "Hadzs",
+        "Lejlat al-Kadr"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Iszra és Mirádzs Mohamed éjszakai utazása Mekkából Jeruzsálembe, majd az égbe való felemelkedése az iszlám hagyomány szerint.",
+      "t": "iszlám"
+    },
+    {
+      "q": "Hogyan nevezik a Héber Biblia első öt könyvét, amely a zsidó vallás alaptörvényét tartalmazza?",
+      "a": [
+        "Tóra",
+        "Talmud",
+        "Misna",
+        "Zsoltárok könyve"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Tóra a Héber Biblia első öt könyve, Mózes öt könyve, amely a zsidó vallás alapvető törvényeit tartalmazza.",
+      "t": "judaizmus"
+    },
+    {
+      "q": "Melyik napot ünneplik a zsidó vallásban heti munkaszünetes pihenőnapként, péntek estétől szombat estig?",
+      "a": [
+        "Sabbat",
+        "Peszach",
+        "Purim",
+        "Szukkot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Sabbat (szombat) a zsidó vallás heti pihenőnapja, péntek naplementétől szombat estig tart.",
+      "t": "judaizmus"
+    },
+    {
+      "q": "Melyik ünnepen emlékeznek meg a zsidók az egyiptomi rabszolgaságból való szabadulásról?",
+      "a": [
+        "Peszach",
+        "Chanuka",
+        "Sávuot",
+        "Ros Hasana"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Peszach a zsidó nép egyiptomi rabszolgaságból való kivonulásának emléknapja.",
+      "t": "judaizmus"
+    },
+    {
+      "q": "Melyik napot tartják a zsidó vallási év legszentebb napjának, az engesztelés napjaként?",
+      "a": [
+        "Jom Kippur",
+        "Purim",
+        "Tisá beáv",
+        "Ros Hasana"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Jom Kippur, az engesztelés napja a zsidó vallási év legszentebb napja, amikor böjttel és imával kérnek bocsánatot.",
+      "t": "judaizmus"
+    },
+    {
+      "q": "Melyik jeruzsálemi szent hely a második jeruzsálemi templom egyetlen fennmaradt része, ahová a zsidók imádkozni járnak?",
+      "a": [
+        "Siratófal",
+        "Sziklamecset",
+        "Templomhegy",
+        "Olajfák hegye"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Siratófal (Nyugati fal) a Kr. u. 70-ben lerombolt második jeruzsálemi templom egyetlen fennmaradt támfala.",
+      "t": "judaizmus"
+    },
+    {
+      "q": "Mi a neve annak a zsidó vallásjogi gyűjteménynek, amely a szóbeli tan (Misna) és annak magyarázatai (Gemára) összefoglalása?",
+      "a": [
+        "Talmud",
+        "Tóra",
+        "Kabbala",
+        "Midrás"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Talmud a Misnából és az azt magyarázó Gemárából álló zsidó vallásjogi és etikai gyűjtemény.",
+      "t": "judaizmus"
+    },
+    {
+      "q": "Melyik évben szakadt ketté véglegesen a kereszténység a keleti ortodox és a nyugati katolikus ágra a nagy egyházszakadással?",
+      "a": [
+        "1054-ben",
+        "1517-ben",
+        "1204-ben",
+        "313-ban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1054-ben a pápa és a konstantinápolyi pátriárka kölcsönösen kiközösítette egymást, ami a keleti-nyugati egyházszakadáshoz vezetett.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Ki indította el a reformációt 1517-ben a wittenbergi 95 tétel kifüggesztésével?",
+      "a": [
+        "Luther Márton",
+        "Kálvin János",
+        "Husz János",
+        "Zwingli Ulrich"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Luther Márton 1517-ben tette közzé 95 tételét, amivel elindította a reformációt.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Melyik római császárhoz köthető elsősorban a kereszténység legalizálása a 313-as milánói ediktummal?",
+      "a": [
+        "Nagy Konstantin",
+        "Nero",
+        "Diocletianus",
+        "I. Theodosius"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A milánói ediktumot 313-ban Nagy Konstantin adta ki Licinius társcsászárral együtt, ezzel legalizálva a kereszténységet a Római Birodalomban.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Miért tartják a keresztények a húsvétot az egyik legfontosabb ünnepüknek?",
+      "a": [
+        "Mert a hagyomány szerint ekkor támadt fel Jézus a halálból",
+        "Mert ekkor született Jézus Betlehemben",
+        "Mert ekkor kapta meg Mózes a tízparancsolatot",
+        "Mert ekkor keresztelték meg Jézust a Jordán folyóban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A húsvét a keresztény hagyomány szerint Jézus feltámadásának ünnepe, a keresztre feszítés utáni harmadik napon.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Hány evangélium található az Újszövetségben, amelyek Jézus életét és tanításait mondják el?",
+      "a": [
+        "Négy",
+        "Három",
+        "Öt",
+        "Hat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Újszövetség négy evangéliuma Máté, Márk, Lukács és János nevéhez fűződik.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Melyik városállamban van a katolikus egyház központja, ahol a pápa székhelye található?",
+      "a": [
+        "Vatikánvárosban",
+        "Jeruzsálemben",
+        "Avignonban",
+        "Konstantinápolyban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pápa székhelye Vatikánvárosban, a katolikus egyház központjában található, amely Róma városán belül önálló állam.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Kinek tulajdonítják hagyományosan a taoizmus alapművének, a Tao Te Kingnek a megírását?",
+      "a": [
+        "Lao-cének",
+        "Konfuciusznak",
+        "Mencinek",
+        "Csuang-cének"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Tao Te King megírását a hagyomány Lao-cének, a taoizmus félig legendás alapítójának tulajdonítja.",
+      "t": "kelet-ázsiai vallások"
+    },
+    {
+      "q": "Melyik japán őshonos vallás tiszteli a kamikat, a természeti erőkhöz és szent helyekhez kötődő szellemistenségeket?",
+      "a": [
+        "Sintó",
+        "Buddhizmus",
+        "Taoizmus",
+        "Konfucianizmus"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sintó, Japán őshonos vallása a kamik, vagyis a természeti jelenségekhez és helyekhez kötődő szellemistenségek tiszteletén alapul.",
+      "t": "kelet-ázsiai vallások"
+    },
+    {
+      "q": "Melyik japán mitológiai napistennőtől eredezteti a hagyomány a japán császári család származását?",
+      "a": [
+        "Amateraszutól",
+        "Cukujomitól",
+        "Izanamitól",
+        "Konohanaszakujatól"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A japán hagyomány szerint a császári család Amateraszu napistennő leszármazottja, unokáján, Ninigin keresztül.",
+      "t": "kelet-ázsiai vallások"
+    },
+    {
+      "q": "Melyik kínai filozófiai fogalompár jelképezi az ellentétes, mégis egymást kiegészítő erőket, például a fényt és a sötétséget?",
+      "a": [
+        "Jin és jang",
+        "Csi és tao",
+        "Feng shui",
+        "Vu-hszing"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jin és jang a kínai filozófia alapfogalma, amely az ellentétes, de egymást kiegészítő erők egyensúlyát fejezi ki.",
+      "t": "kelet-ázsiai vallások"
+    },
+    {
+      "q": "Melyik kínai bölcselő tanításai alapozzák meg a hagyománytiszteletet és a társadalmi rendet hangsúlyozó etikai rendszert?",
+      "a": [
+        "Konfuciusz",
+        "Lao-ce",
+        "Mo-ce",
+        "Han Fei-ce"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Konfuciusz tanításai alapozták meg a konfucianizmust, amely a hagyománytiszteletet és a társadalmi harmóniát hangsúlyozza.",
+      "t": "kelet-ázsiai vallások"
+    },
+    {
+      "q": "Melyik azték isten neve jelenti szó szerint a 'tollaskígyót', és a szél, a tudás és a tanulás istensége volt?",
+      "a": [
+        "Quetzalcoatl",
+        "Huitzilopochtli",
+        "Tezcatlipoca",
+        "Tláloc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Quetzalcoatl, a 'tollaskígyó' az azték mitológia szél-, tudás- és tanulásistene volt.",
+      "t": "mezoamerikai mitológia"
+    },
+    {
+      "q": "Melyik azték főistenség tiszteletére emelték a fő szentélyt, a Templo Mayort Tenochtitlan központjában?",
+      "a": [
+        "Huitzilopochtlinak",
+        "Quetzalcoatlnak",
+        "Xipe Totecnek",
+        "Tezcatlipocának"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Templo Mayor Tenochtitlan fő szentélye, amelyet a nap- és háborúisten Huitzilopochtlinak és az esőisten Tlálocnak szenteltek.",
+      "t": "mezoamerikai mitológia"
+    },
+    {
+      "q": "Melyik maja szent szöveg meséli el a világ teremtését és a Kicse (K'iche') maja nép mitológiáját?",
+      "a": [
+        "Popol Vuh",
+        "Chilam Balam könyvei",
+        "Drezdai kódex",
+        "Trójai-kódex"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Popol Vuh a Kicse maja nép szent szövege, amely a világ és az emberiség teremtésének történetét meséli el.",
+      "t": "mezoamerikai mitológia"
+    },
+    {
+      "q": "Melyik inka istent tartották a legfőbb teremtő istennek, aki a hagyomány szerint a Titicaca-tóból emelkedett ki?",
+      "a": [
+        "Viracochát",
+        "Intit",
+        "Illapát",
+        "Pachacamacot"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Viracocha volt az inka mitológia legfőbb teremtő istene, aki a hagyomány szerint a Titicaca-tóból bukkant elő, hogy világosságot teremtsen.",
+      "t": "mezoamerikai mitológia"
+    },
+    {
+      "q": "Melyik inka istennőt tekintették a Föld és a termékenység megtestesítőjének?",
+      "a": [
+        "Pachamama",
+        "Mama Killa",
+        "Mama Ocllo",
+        "Chaszka"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pachamama volt az inka hitvilágban a Föld és a termékenység istennője, akit ma is tisztelnek az Andokban.",
+      "t": "mezoamerikai mitológia"
+    },
+    {
+      "q": "Hány munkát kellett elvégeznie Héraklésznek vezeklésül, miután őrületében megölte saját gyermekeit?",
+      "a": [
+        "Tizenkettőt",
+        "Tízet",
+        "Nyolcat",
+        "Hetet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Héraklésznek tizenkét munkát kellett végrehajtania Eurüsztheusz király szolgálatában vezeklésül.",
+      "t": "görög mitológia"
+    },
+    {
+      "q": "Melyik trójai háborús hős sarkát tartják egyetlen sebezhető pontjának, mert anyja onnan fogva mártotta a Sztüx vizébe?",
+      "a": [
+        "Akhilleuszét",
+        "Hektórét",
+        "Aiászét",
+        "Odüsszeuszét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Akhilleusz sarka volt az egyetlen sebezhető pontja, mert anyja, Thetisz onnan fogva mártotta a Sztüx folyóba.",
+      "t": "görög mitológia"
+    },
+    {
+      "q": "Mi szabadult a görög mítosz szerint a világra, amikor Pandóra kíváncsiságból kinyitotta a rábízott edényt?",
+      "a": [
+        "A világ minden baja és csapása",
+        "Az istenek aranya",
+        "Az örök fiatalság itala",
+        "Zeusz villámai"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pandóra edényéből a mítosz szerint minden emberi baj és csapás kiszabadult, egyedül a remény maradt bent.",
+      "t": "görög mitológia"
+    },
+    {
+      "q": "Miért büntette meg Zeusz Prométheuszt örök gyötrelemmel egy sziklához láncolva?",
+      "a": [
+        "Mert ellopta az istenek tüzét, és odaadta az embereknek",
+        "Mert fellázadt Zeusz uralma ellen a titánok oldalán",
+        "Mert elárulta az olümposziak titkait a halandóknak",
+        "Mert megsértette Hérát egy jóslattal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Prométheusz ellopta az istenek tüzét, és átadta az embereknek, ezért Zeusz örök büntetésre ítélte.",
+      "t": "görög mitológia"
+    },
+    {
+      "q": "Melyik ősi indiai eredetű vallás tanítja a legszigorúbb formában az ahimszát, azaz az erőszakmentességet, kiterjesztve azt a rovarok védelmére is?",
+      "a": [
+        "Dzsainizmus",
+        "Hinduizmus",
+        "Buddhizmus",
+        "Szikhizmus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A dzsainizmus tanítja a legszigorúbb ahimszát, amely minden élőlény, akár a legkisebb rovarok bántalmazását is tiltja.",
+      "t": "vallástudomány"
+    },
+    {
+      "q": "Melyik vallás alapítója Guru Nának, és szent könyve a Guru Grantha Száhib?",
+      "a": [
+        "Szikhizmus",
+        "Dzsainizmus",
+        "Zoroasztrizmus",
+        "Bahái hit"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szikhizmust Guru Nának alapította a 15. században, szent könyve a Guru Grantha Száhib.",
+      "t": "vallástudomány"
+    },
+    {
+      "q": "Melyik ősi perzsa vallás tiszteli Ahura Mazdát mint a jóság és a fény legfőbb istenét, és kezeli szent elemként a tüzet?",
+      "a": [
+        "Zoroasztrizmus",
+        "Manicheizmus",
+        "Mitraizmus",
+        "Mandeizmus"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A zoroasztrizmus Ahura Mazdát tiszteli legfőbb istenként, és a tüzet a tisztaság szent jelképeként kezeli.",
+      "t": "vallástudomány"
+    },
+    {
+      "q": "Melyik vallás jelképe a félhold és a csillag kombinációja számos ország zászlaján?",
+      "a": [
+        "Az iszlám",
+        "A buddhizmus",
+        "A hinduizmus",
+        "A szikhizmus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A félhold és csillag az iszlámhoz kapcsolódó jelkép, amely több muszlim többségű ország zászlaján megjelenik.",
+      "t": "vallástudomány"
+    },
+    {
+      "q": "Mit jelent az \"ambrózia\" szó a görög mitológiában?",
+      "a": [
+        "Az istenek halhatatlanságot adó eledele",
+        "Egy híres görög templom neve",
+        "Zeusz kedvenc villáma",
+        "Az alvilág folyójának neve"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ambrózia az olümposzi istenek tápláléka volt, amely állítólag halhatatlanná tette azt, aki fogyasztotta.",
+      "t": "görög mitológia"
+    },
+    {
+      "q": "Miért vakította meg magát Oidipusz a görög mondában, miután megtudta tettei igazságát?",
+      "a": [
+        "Bűntudatában önmagát büntette apja megöléséért és anyjával kötött házasságáért",
+        "Mert Apollón papjai így ítélkeztek felette nyilvánosan",
+        "Mert egy jóslat szerint ez volt az egyetlen módja Théba megmentésének",
+        "Mert Athéné istennő haragjában sújtotta le rá ezt a büntetést"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Amikor Oidipusz rájött, hogy tudtán kívül megölte apját és feleségül vette anyját, kitűzte szemét bűnhődésül.",
+      "t": "görög mitológia"
+    },
+    {
+      "q": "Melyik görög istennő született felnőttként, teljes fegyverzetben Zeusz fejéből?",
+      "a": [
+        "Athéné",
+        "Artemisz",
+        "Hesztia",
+        "Démétér"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hagyomány szerint Athéné páncélban, dárdával a kezében pattant ki Zeusz fejéből, miután Héphaisztosz azt fejszével megnyitotta.",
+      "t": "görög-római istenek"
+    },
+    {
+      "q": "Mi okozta a görög mitológiában az évszakok váltakozását Perszephoné története szerint?",
+      "a": [
+        "Perszephoné évente fél évet az alvilágban, fél évet anyjával a felszínen tölt",
+        "Démétér minden évben megharagszik Zeuszra és elrejti a napot",
+        "Apollón kocsija évente egyszer megáll az égen",
+        "Héra átkot szór a földre, amikor Zeusz hűtlen hozzá"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mivel Perszephoné evett az alvilág gránátalmájából, évente fél évet Hadésznál kellett töltenie, ami alatt Démétér gyászolva télit hoz a földre.",
+      "t": "görög mitológia"
+    },
+    {
+      "q": "Melyik görög hérosz oldotta meg a szfinx rejtvényét Théba kapujánál?",
+      "a": [
+        "Oidipusz",
+        "Thészeusz",
+        "Perszeusz",
+        "Iaszón"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Oidipusz fejtette meg a szfinx rejtvényét az emberről, mire a szörny szégyenében a mélybe vetette magát.",
+      "t": "görög mitológia"
+    },
+    {
+      "q": "Mi volt Hermész egyik legfontosabb szerepe az olümposzi istenek között?",
+      "a": [
+        "Az istenek hírnöke és a lelkek alvilágba kísérője volt",
+        "Ő uralkodott a tenger és a viharok felett",
+        "Ő volt a kovácsmesterség és a tűz istene",
+        "Ő felelt a mezőgazdaság és a termékenység gondozásáért"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Hermész szárnyas saruban közvetítette az üzeneteket az istenek között, és ő kísérte a halottak lelkét az alvilágba.",
+      "t": "görög-római istenek"
+    },
+    {
+      "q": "Melyik istennőnek ítélte Parisz trójai királyfi az aranyalmát, ami a trójai háborúhoz vezetett?",
+      "a": [
+        "Aphroditénak",
+        "Hérának",
+        "Athénénak",
+        "Artemisznek"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Parisz Aphroditének adta az almát, mert ő ígérte neki a legszebb halandó nő, Heléna szerelmét.",
+      "t": "görög mitológia"
+    },
+    {
+      "q": "Melyik itáliai istent azonosították a rómaiak a görög Dionüszosszal?",
+      "a": [
+        "Bacchust",
+        "Vulcanust",
+        "Mercuriust",
+        "Neptunust"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rómaiak Bacchus néven tisztelték a bor és a mámor istenét, aki megfelelt a görög Dionüszosznak.",
+      "t": "görög-római istenek"
+    },
+    {
+      "q": "Miért nevezik gyakran a Nílus áradásáért felelős istennek Hápit az egyiptomi hitvilágban?",
+      "a": [
+        "Mert úgy hitték, ő szabályozza a folyó éves áradását, amely termékennyé tette a földet",
+        "Mert ő volt az egyiptomi fáraók egyetlen hivatalos védőistene",
+        "Mert templomát kizárólag a Níluson úszó hajókon építették fel",
+        "Mert csak éjszaka, holdfénynél lehetett hozzá imádkozni"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Hápi istent a Nílus áradásának megszemélyesítőjeként tisztelték, mivel az áradás termékennyé tette az iszapos partokat.",
+      "t": "egyiptomi mitológia"
+    },
+    {
+      "q": "Melyik egyiptomi istent ábrázolták sakálfejű alakként, a mumifikálás és a temetkezés patrónusaként?",
+      "a": [
+        "Anubiszt",
+        "Thotot",
+        "Széthet",
+        "Hóruszt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Anubiszt sakálfejjel ábrázolták, ő felügyelte a mumifikálás szertartását és a lelkek megmérettetését.",
+      "t": "egyiptomi mitológia"
+    },
+    {
+      "q": "Mi történt az egyiptomi hitvilág szerint a szívvel a halál utáni megmérettetéskor?",
+      "a": [
+        "Egy tollal mérték össze, hogy megállapítsák, méltó-e a halott a túlvilági életre",
+        "Elégették, hogy a hamvak visszakerüljenek a Nílusba",
+        "Bebalzsamozás előtt kicserélték egy arany szoborra",
+        "Egy külön edényben őrizték a piramis legmélyebb termében"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A halott szívét Maat istennő tollával mérték egy mérlegen; ha a szív könnyebb volt a tollnál, a halott üdvözülhetett.",
+      "t": "egyiptomi mitológia"
+    },
+    {
+      "q": "Melyik ókori egyiptomi istennő volt a mágia, a gyógyítás és az anyaság védelmezője, Ízisz és Ozirisz fiának, Hórusznak édesanyja?",
+      "a": [
+        "Ízisz",
+        "Nut",
+        "Bászet",
+        "Szahmet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ízisz istennőt a mágia és az anyai szeretet megtestesítőjeként tisztelték, ő volt Hórusz istenszülő anyja.",
+      "t": "egyiptomi mitológia"
+    },
+    {
+      "q": "Melyik állat testesítette meg az egyiptomi mitológiában Básztet istennőt?",
+      "a": [
+        "A macska",
+        "A krokodil",
+        "A sólyom",
+        "A skarabeusz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Básztet istennőt macskafejű nőalakként vagy macska formájában ábrázolták, az otthon és a termékenység védelmezőjeként.",
+      "t": "egyiptomi mitológia"
+    },
+    {
+      "q": "Mi Yggdrasil szerepe a skandináv mitológiában?",
+      "a": [
+        "A kilenc világot összekötő hatalmas kőrisfa, a mindenség tengelye",
+        "Az istenek egyik fegyverkovácsának neve",
+        "Odin egyszemű hollójának neve",
+        "Az istenek utolsó nagy csatájának helyszíne"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Yggdrasil az a hatalmas világfa, amelynek ágai és gyökerei a skandináv mitológia kilenc világát kötik össze.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Miért féltek különösen az istenek Fenrir farkastól a skandináv mondavilágban?",
+      "a": [
+        "Mert egy jóslat szerint Ragnarökkor ő fogja megölni Odint",
+        "Mert ő rabolta el Thor kalapácsát egy óriás kérésére",
+        "Mert minden éjjel felfalta a napot, amit reggelre újra elő kellett varázsolni",
+        "Mert őt bízták meg az istenek aranykincsének őrzésével"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A jóslat szerint Fenrir farkas a világvégi csatában, Ragnarökkor végez majd Odinnal, ezért láncolták meg őt előre az istenek.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Melyik skandináv istennő volt a szerelem, a szépség és egyben a háború és a halál istennője a vanok közül?",
+      "a": [
+        "Freyja",
+        "Frigg",
+        "Idun",
+        "Szif"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Freyja a vanok népéhez tartozó istennő volt, aki egyszerre uralta a szerelmet, a szépséget és a csatában elesettek egy részét.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Mi okozta Baldur isten halálát a skandináv mitológiában, annak ellenére, hogy minden létező eskü alatt megígérte, nem árt neki?",
+      "a": [
+        "Egy fagyöngyből készült nyílvessző, amit Loki juttatott a vak Höður kezébe",
+        "Egy mérgezett kard, amellyel testvére szúrta le álmában",
+        "Egy jeges folyóban fulladt meg vadászat közben",
+        "Egy sárkány mérge, amelytől lassan megbetegedett"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Loki rávette a vak Höðurt, hogy fagyöngyből készült nyilat lőjön Baldurra, mert egyedül a fagyöngy nem tett esküt, hogy nem árt neki.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Melyik lény Loki és egy óriásnő gyermeke, aki hatalmas kígyó formájában öleli körbe az egész világot a skandináv mitológiában?",
+      "a": [
+        "Jörmungandr",
+        "Fenrir",
+        "Sleipnir",
+        "Nidhogg"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Jörmungandr, a Midgard-kígyó Loki gyermeke, amely olyan hatalmasra nőtt, hogy körbeöleli az egész földet.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Mi Thor kalapácsának, a Mjölnirnek az egyik legfontosabb tulajdonsága a mondák szerint?",
+      "a": [
+        "Eldobás után mindig visszatér gazdája kezébe",
+        "Csak egyetlen alkalommal, egy óriás elleni csatában lehetett használni",
+        "Kizárólag Odin engedélyével volt aktiválható",
+        "Elolvasztja azt, akihez hozzáér, kivéve Thort magát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Mjölnir varázslatos tulajdonsága, hogy eldobás után mindig visszaszáll Thor kezébe, bármilyen messzire is repült.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Melyik skandináv isten szeme árán szerzett bölcsességet a Mímir kútjából ivott korty vízért cserébe?",
+      "a": [
+        "Odin",
+        "Thor",
+        "Tyr",
+        "Heimdall"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Odin feláldozta egyik szemét, hogy ihasson a bölcsesség forrásából, a Mímir-kútból.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Mit jelent a hinduizmusban a karma fogalma?",
+      "a": [
+        "A tettek törvénye, amely szerint minden cselekedet következménnyel jár a jelenben vagy egy jövőbeli életben",
+        "Egy szigorúan meghatározott napi imarend, amit minden hindunak be kell tartania",
+        "A lélekvándorlás végső, végleges megszűnése",
+        "A kasztrendszer legmagasabb, papi rétegének neve"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A karma azt a hindu elvet jelenti, hogy minden tettnek következménye van, ami befolyásolja a lélek jelenlegi vagy jövőbeli sorsát.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Melyik három főisten alkotja a hinduizmus trimúrtiját, a teremtés, fenntartás és pusztítás megtestesítőit?",
+      "a": [
+        "Brahma, Visnu és Siva",
+        "Indra, Agni és Varuna",
+        "Ganésa, Kartikéja és Hanumán",
+        "Kali, Durga és Laksmí"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A trimúrti Brahmát mint teremtőt, Visnut mint fenntartót és Sivát mint pusztítót foglalja magába.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Melyik hindu isten kapott elefántfejet, miután apja, Siva tévedésből lefejezte?",
+      "a": [
+        "Ganésa",
+        "Hanumán",
+        "Kartikéja",
+        "Indra"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A legenda szerint Siva véletlenül lefejezte fiát, Ganésát, majd egy elefánt fejét helyezte a testére, hogy életre keltse.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Mi a Bhagavad-gítá a hindu vallási hagyományban?",
+      "a": [
+        "A Mahábhárata eposz része, Krisna és Ardzsuna párbeszéde a kötelességről",
+        "A négy Véda közül a legrégebbi gyűjtemény",
+        "Egy szigorú böjti naptár, amely a hindu ünnepeket szabályozza",
+        "A hindu templomépítés szabályait tartalmazó kézikönyv"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Bhagavad-gítá a Mahábhárata eposz egyik részeként Krisna isten és Ardzsuna harcos beszélgetését meséli el a kötelességről és a lélekről.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Melyik szent folyót tisztelik a hinduk a legszentebbnek, amelyben a hamvasztás utáni rituálékat is végzik?",
+      "a": [
+        "A Gangeszt",
+        "A Brahmaputrát",
+        "Az Indus folyót",
+        "A Jamuna folyót"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Gangeszt tartják a hinduizmus legszentebb folyójának, ahol zarándokok fürdenek és hamvasztási szertartásokat is végeznek.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Mit jelent a buddhizmus négy nemes igazsága közül az első?",
+      "a": [
+        "Hogy a lét szenvedéssel jár",
+        "Hogy minden ember lelke halhatatlan",
+        "Hogy a világot egyetlen teremtő isten irányítja",
+        "Hogy a meditáció helyettesíti az összes egyéb vallási gyakorlatot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az első nemes igazság kimondja, hogy a lét (dukkha) elválaszthatatlan a szenvedéstől, ez a buddhista tanítás alapköve.",
+      "t": "buddhizmus"
+    },
+    {
+      "q": "Melyik fa alatt érte el Sziddhártha Gautama a megvilágosodást a hagyomány szerint?",
+      "a": [
+        "A bódhifa alatt",
+        "Egy szent fügefa alatt Rómában",
+        "Egy cédrusfa alatt a Himalájában",
+        "Egy szantálfa alatt Kína határán"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Sziddhártha Gautama egy bódhifa (szent füge) alatt ülve érte el a megvilágosodást, ezután lett Buddha, azaz a Megvilágosodott.",
+      "t": "buddhizmus"
+    },
+    {
+      "q": "Mi a nirvána fogalma a buddhista tanításban?",
+      "a": [
+        "A vágyakozás és a szenvedés körforgásából való végleges megszabadulás állapota",
+        "Egy fizikai hely, ahová a jó cselekedetek után a lélek testben újjászületik",
+        "A szerzetesi közösség vezetőjének hivatalos címe",
+        "A karma törvényének egy szigorúbb, büntető formája"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nirvána a vágy, a szenvedés és az újjászületések körforgásából (szanszára) való végleges kiszabadulás állapota.",
+      "t": "buddhizmus"
+    },
+    {
+      "q": "Melyik ország vezetőjeként ismert vallási méltóság a tibeti buddhizmus legfőbb lámája?",
+      "a": [
+        "A dalai láma",
+        "A pátriárka",
+        "A samán",
+        "A bonzé"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A dalai láma a tibeti buddhizmus egyik legfontosabb vallási vezetője, akit a hagyomány szerint egy korábbi láma újjászületésének tartanak.",
+      "t": "buddhizmus"
+    },
+    {
+      "q": "Melyik évben nyomtatták Kínában a Gyémánt-szútrát, amely a világ legrégebbi ismert, pontos dátummal ellátott nyomtatott könyve?",
+      "a": [
+        "868-ban",
+        "1215-ben",
+        "622-ben",
+        "1440-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Gyémánt-szútrát 868-ban fanyomtatási eljárással készítették Kínában, ez a legrégebbi ismert, pontos dátummal ellátott nyomtatott könyv.",
+      "t": "buddhizmus"
+    },
+    {
+      "q": "Melyik város felé kell imádkozniuk a muszlimoknak naponta ötször az iszlám vallás szerint?",
+      "a": [
+        "Mekka felé",
+        "Medina felé",
+        "Jeruzsálem felé",
+        "Damaszkusz felé"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A muszlimok a mekkai Kába felé fordulva imádkoznak naponta ötször, ez az imairány neve a kibla.",
+      "t": "iszlám"
+    },
+    {
+      "q": "Mit jelent a Ramadán hónap az iszlám vallásban?",
+      "a": [
+        "A böjt hónapja, amikor napkeltétől napnyugtáig tartózkodnak az evéstől és ivástól",
+        "Az az ünnep, amikor a zarándokok körbejárják a Kábát Mekkában",
+        "Az iszlám naptár első hónapja, amely az új év kezdetét jelzi",
+        "Az a nap, amikor a Korán teljes szövegét egyszerre olvassák fel a mecsetekben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Ramadán az iszlám holdnaptár böjti hónapja, amikor a hívők napkeltétől napnyugtáig nem ehetnek és ihatnak.",
+      "t": "iszlám"
+    },
+    {
+      "q": "Melyik évben menekült Mohamed próféta Mekkából Medinába, ami az iszlám naptár kezdőpontja lett?",
+      "a": [
+        "622-ben",
+        "570-ben",
+        "632-ben",
+        "700-ban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mohamed 622-ben menekült Medinába (hidzsra), és ez az esemény lett az iszlám holdnaptár kezdő éve.",
+      "t": "iszlám"
+    },
+    {
+      "q": "Mi a neve annak a kocka alakú épületnek Mekkában, amely az iszlám leginkább szent helye?",
+      "a": [
+        "A Kába",
+        "A Zamzam-kút háza",
+        "Az Al-Aksza mecset",
+        "A Próféta Mecsete"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Kába a mekkai Nagymecset udvarán álló kocka alakú szentély, amely felé a muszlimok imádkoznak, és amelyet a zarándoklat során körbejárnak.",
+      "t": "iszlám"
+    },
+    {
+      "q": "Az iszlám öt pillére közül melyik írja elő az életében legalább egyszer kötelező zarándoklatot Mekkába?",
+      "a": [
+        "A hadzs",
+        "A szaum",
+        "A zakát",
+        "A sahada"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hadzs az iszlám öt pillérének egyike, amely előírja, hogy minden anyagi és fizikai lehetőséggel rendelkező muszlim életében legalább egyszer zarándokoljon el Mekkába.",
+      "t": "iszlám"
+    },
+    {
+      "q": "Mit jelent a kóser fogalom a judaizmusban?",
+      "a": [
+        "Az étkezési törvényeknek megfelelő, fogyasztásra engedélyezett ételt",
+        "A szombati pihenőnap hivatalos elnevezését",
+        "A zsidó házassági szerződés dokumentumát",
+        "A zsinagógában őrzött Tóra-tekercs tartóedényét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kóser azokat az ételeket jelöli, amelyek megfelelnek a zsidó vallási étkezési törvényeknek (kasrut).",
+      "t": "judaizmus"
+    },
+    {
+      "q": "Melyik hét könyvből áll a Tóra, a judaizmus legszentebb szövegének gerince?",
+      "a": [
+        "Öt könyvből, Mózes öt könyvéből",
+        "Tíz könyvből, a tíz parancsolat szerint",
+        "Három könyvből, a pátriárkák történetei szerint",
+        "Tizenkét könyvből, Izrael tizenkét törzse szerint"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Tóra Mózes öt könyvéből áll (Genezis, Exodus, Leviticus, Numeri, Deuteronomium), ez a judaizmus alapszövege.",
+      "t": "judaizmus"
+    },
+    {
+      "q": "Miért gyújtanak a zsidó családok gyertyát a hanuka ünnepén nyolc egymást követő estén?",
+      "a": [
+        "Egy csoda emlékére, amikor egy napra elegendő szent olaj nyolc napig égett a jeruzsálemi templomban",
+        "Mert a hagyomány szerint nyolc angyal jelent meg Mózesnek a Sínai-hegyen",
+        "Mert a zsidó naptár nyolcadik hónapjában ünneplik",
+        "Mert nyolc pátriárka nevét idézik meg minden este egy-egy gyertyával"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hanuka a jeruzsálemi templom újraszentelésének csodáját ünnepli, amikor az egy napra elég szent olaj nyolc napig égett.",
+      "t": "judaizmus"
+    },
+    {
+      "q": "Melyik évtizedben fedezték fel a holt-tengeri tekercseket a qumráni barlangokban?",
+      "a": [
+        "Az 1940-es évek végén",
+        "Az 1800-as évek elején",
+        "Az 1990-es évek elején",
+        "A 2000-es évek elején"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A holt-tengeri tekercsek első darabjait 1947-ben, egy beduin pásztorfiú találta meg a qumráni barlangokban.",
+      "t": "judaizmus"
+    },
+    {
+      "q": "Mi a jom kippur jelentősége a judaizmusban?",
+      "a": [
+        "Ez az engesztelés napja, a zsidó vallás legszentebb böjti ünnepe",
+        "Ez az újév kezdetét jelző ünnep, amikor sófárkürtöt fújnak",
+        "Ez a szombati pihenőnap heti megünneplése",
+        "Ez a kivonulás emlékére tartott tavaszi ünnep"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A jom kippur, az engesztelés napja a judaizmus legszentebb napja, amikor teljes böjttel és imával kérnek bocsánatot a bűnökért.",
+      "t": "judaizmus"
+    },
+    {
+      "q": "Melyik évben tartották a niceai zsinatot, amely a keresztény hitvallás egyik alapdokumentumát fogalmazta meg?",
+      "a": [
+        "325-ben",
+        "451-ben",
+        "1054-ben",
+        "1517-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A niceai zsinatot 325-ben hívta össze Nagy Konstantin császár, itt fogalmazták meg a niceai hitvallás alapjait.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Mit ünnepelnek a keresztények húsvétkor?",
+      "a": [
+        "Jézus feltámadását a halálból",
+        "Jézus születését Betlehemben",
+        "A Szentlélek eljövetelét az apostolokhoz",
+        "Jézus megkeresztelkedését a Jordán folyóban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A húsvét a kereszténység legfontosabb ünnepe, amely Jézus Krisztus feltámadását ünnepli a keresztre feszítés után.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Melyik évben szegezte ki Luther Márton a hagyomány szerint 95 tételét a wittenbergi vártemplom kapujára, elindítva a reformációt?",
+      "a": [
+        "1517-ben",
+        "1492-ben",
+        "1555-ben",
+        "1618-ban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Luther Márton 1517. október 31-én tette közzé 95 tételét Wittenbergben, ami a reformáció kezdetének számít.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Mi a Szentháromság tana a keresztény teológiában?",
+      "a": [
+        "Az Atya, a Fiú és a Szentlélek egy isteni lényegben való egysége",
+        "Három különálló istenség, akiket egyenlő rangban tisztelnek",
+        "Mária, József és Jézus szent családjának elnevezése",
+        "A három legfontosabb apostol, Péter, Pál és János közös elnevezése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Szentháromság tana szerint Isten egyetlen lényegében három személyként létezik: Atya, Fiú és Szentlélek.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Melyik város a katolikus egyház egyházi és világi központja, egyben a legkisebb önálló állam a világon?",
+      "a": [
+        "Vatikánváros",
+        "Assisi",
+        "Avignon",
+        "Konstantinápoly"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Vatikánváros a katolikus egyház központja és a pápa székhelye, területét tekintve a világ legkisebb szuverén állama.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Melyik szláv isten volt a mennydörgés és a harc ura, akit gyakran a görög Zeusszal vagy a skandináv Thorral hasonlítottak össze?",
+      "a": [
+        "Perun",
+        "Veles",
+        "Szvarog",
+        "Sztribog"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Perun a szláv mitológia mennydörgés- és harcistene volt, szerepe hasonló a görög Zeuszéhoz vagy a skandináv Thoréhoz.",
+      "t": "szláv mitológia"
+    },
+    {
+      "q": "Melyik szláv istenség kapcsolódott a szláv hitvilágban a jószágokhoz, a földalatti világhoz és a varázslathoz, Perun örök ellenfeleként?",
+      "a": [
+        "Veles",
+        "Mokos",
+        "Dazsbog",
+        "Hors"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Veles a jószág, a földalatti világ és a mágia istene volt a szláv hitvilágban, aki mitikus küzdelmet vívott Perunnal.",
+      "t": "szláv mitológia"
+    },
+    {
+      "q": "Mi volt a szerepe a Rusalka nevű lényeknek a szláv néphitben?",
+      "a": [
+        "Vízi szellemek, gyakran korán elhunyt vagy fulladt lányok lelkeként képzelték el őket",
+        "Az otthon védelmét szolgáló háztartási szellemek voltak",
+        "Erdei óriások, akik az utazókat tévesztették el útjukon",
+        "Az aratás idejére megjelenő jótékony mezei tündérek voltak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rusalkákat a szláv néphit vízi, gyakran veszélyes szellemekként képzelte el, akik korán elhunyt vagy vízbe fulladt lányok lelkei voltak.",
+      "t": "szláv mitológia"
+    },
+    {
+      "q": "Melyik szláv istennő kapcsolódott a termékenységhez, a fonáshoz és az anyaföldhöz, az egyetlen jelentős női istenség a legtöbb forrásban?",
+      "a": [
+        "Mokos",
+        "Zorja",
+        "Zsiva",
+        "Lada"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mokos volt a szláv panteon egyik legfontosabb istennője, akit a termékenységgel, a fonással és az anyafölddel hoztak kapcsolatba.",
+      "t": "szláv mitológia"
+    },
+    {
+      "q": "Melyik kelta törzs mitikus tagjai érkeztek a hagyomány szerint Írországba, és uralkodtak, mielőtt a Milesiek legyőzték őket?",
+      "a": [
+        "A Tuatha Dé Danann",
+        "A Fomoriak",
+        "A Fir Bolg",
+        "A Firbolgok szövetsége"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Tuatha Dé Danann az ír mondavilág isteni törzse volt, amely az emberi Milesiek megérkezése előtt uralta Írországot.",
+      "t": "kelta mitológia"
+    },
+    {
+      "q": "Melyik kelta istent ábrázolják gyakran szarvakkal a fején, a vadon és a termékenység urát?",
+      "a": [
+        "Cernunnos",
+        "Lugh",
+        "Taranis",
+        "Belenos"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Cernunnost szarvakkal a fején ábrázolták, a kelta mitológiában a vadon, az állatok és a termékenység istene volt.",
+      "t": "kelta mitológia"
+    },
+    {
+      "q": "Ki volt Morrígan a kelta mondavilágban?",
+      "a": [
+        "A háború és a végzet istennője, aki gyakran holló alakjában jelent meg a csatatereken",
+        "A tenger és a hajósok védelmezője a ír partvidéken",
+        "A gyógyítás és a forrásvizek istennője",
+        "A druidák legfőbb papnője, aki emberi alakban élt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Morrígan a háború és a végzet istennője volt a kelta hitvilágban, aki gyakran holló képében jelent meg a csaták előtt vagy alatt.",
+      "t": "kelta mitológia"
+    },
+    {
+      "q": "Milyen szerepet töltöttek be a druidák a kelta társadalomban?",
+      "a": [
+        "Papi, bírói és tanácsadói feladatokat láttak el, a törzsek vallási és jogi vezetőiként",
+        "Kizárólag katonai vezetőként irányították a törzsi hadseregeket",
+        "Kereskedőként közvetítettek a kelta törzsek és a rómaiak között",
+        "Kizárólag kovácsmesterként fegyvereket készítettek a harcosoknak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A druidák a kelta társadalom papi, jogi és tanácsadói rétegét alkották, vallási szertartásokat vezettek és jogvitákban ítélkeztek.",
+      "t": "kelta mitológia"
+    },
+    {
+      "q": "Melyik toll alakú isten volt a legfontosabb azték istenségek egyike, akit a szélhez és a tudáshoz kötöttek, s tollas kígyó formájában ábrázoltak?",
+      "a": [
+        "Quetzalcoatl",
+        "Tezcatlipoca",
+        "Tlaloc",
+        "Xipe Totec"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Quetzalcoatl a tollas kígyó, az azték mitológia egyik legfontosabb istene, akit a széllel, a tudással és a tanulással azonosítottak.",
+      "t": "mezoamerikai mitológia"
+    },
+    {
+      "q": "Hány napból állt az aztékok szent naptára, a tonalpohualli?",
+      "a": [
+        "260 napból",
+        "365 napból",
+        "300 napból",
+        "400 napból"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tonalpohualli 260 napos szent naptár volt, amely 20 tizenhárom napos periódusból épült fel, és a jóslásban is szerepet játszott.",
+      "t": "mezoamerikai mitológia"
+    },
+    {
+      "q": "Melyik maja szövegben maradt fenn a teremtésmítosz, amely elbeszéli, hogyan formálták az isteneket kukoricatésztából az embereket?",
+      "a": [
+        "A Popol Vuh",
+        "A Trono-kódex",
+        "A Csilam Balam könyvei",
+        "A Madrid-kódex"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Popol Vuh a k'iche' maja nép szent könyve, amely elmeséli, hogyan próbálták az istenek kukoricából megformálni az első embereket.",
+      "t": "mezoamerikai mitológia"
+    },
+    {
+      "q": "Melyik azték isten kapcsolódott a naphoz és a háborúhoz, akinek tiszteletére emberáldozatokat mutattak be a fővárosban, Tenochtitlanban?",
+      "a": [
+        "Huitzilopochtli",
+        "Xochiquetzal",
+        "Mictlantecuhtli",
+        "Chalchiuhtlicue"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Huitzilopochtli a nap és a háború istene volt az aztékoknál, akinek tiszteletére Tenochtitlan főtemplomában emberáldozatokat mutattak be.",
+      "t": "mezoamerikai mitológia"
+    },
+    {
+      "q": "Mit jelentett Pacsamama az inka hitvilágban?",
+      "a": [
+        "A Föld istennőjét, akit a termékenységért és a jó termésért tiszteltek",
+        "A napisten, Inti egyik mellékalakját",
+        "Az inka birodalom mitikus alapítójának feleségét",
+        "Az Andok legmagasabb hegyének szellemét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pacsamama a Föld istennője volt az inka hitvilágban, akinek a jó termésért és a termékenységért mutattak be áldozatokat.",
+      "t": "mezoamerikai mitológia"
+    },
+    {
+      "q": "Melyik japán istennő testvére Szuszanoo, a vihar istene, s aki a nap istennőjeként a szintó vallás legfőbb alakja?",
+      "a": [
+        "Amateraszu",
+        "Izanami",
+        "Uzume",
+        "Konohanaszakuja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Amateraszu a nap istennője a szintó vallásban, testvére Szuszanoo, a vihar istene, akivel viszályba keveredett.",
+      "t": "kelet-ázsiai vallások"
+    },
+    {
+      "q": "Mit jelent a taoizmusban a jin és jang fogalompár?",
+      "a": [
+        "A világegyetemet alkotó két ellentétes, ám egymást kiegészítő erőt",
+        "Két legendás kínai uralkodó nevét, akik a taoizmust megalapították",
+        "A taoista szerzetesek két fő rendjének elnevezését",
+        "Két szent hegy nevét Kína középső részén"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jin és jang a taoista világkép szerint a valóságot alkotó két ellentétes, de egymást kiegészítő erő, mint a sötét és a világos.",
+      "t": "kelet-ázsiai vallások"
+    },
+    {
+      "q": "Ki volt Konfuciusz, akinek tanításai a kínai gondolkodás egyik alappillérévé váltak?",
+      "a": [
+        "Egy ókori kínai filozófus, aki az erkölcsről és a társadalmi rendről tanított",
+        "Egy legendás kínai császár, aki egyesítette a hadakozó fejedelemségeket",
+        "Az első buddhista szerzetes, aki eljutott Kínába Indiából",
+        "Egy mitikus sárkánykirály, akit istenként tiszteltek Kínában"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Konfuciusz ókori kínai filozófus volt, akinek erkölcsi és társadalmi tanításai a konfucianizmus alapjait képezik.",
+      "t": "kelet-ázsiai vallások"
+    },
+    {
+      "q": "Mi a szintó vallásban a kami fogalma?",
+      "a": [
+        "Szellemek vagy istenségek, amelyek természeti jelenségekben, tárgyakban és helyekben is jelen lehetnek",
+        "A szentélyekben szolgáló papok hivatalos címe",
+        "A halottak tiszteletére rendezett éves ünnepség neve",
+        "A szintó szent könyveinek gyűjteményes elnevezése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kami a szintó vallásban szellemi lényeket jelöl, amelyek megjelenhetnek természeti jelenségekben, helyekben vagy tárgyakban is.",
+      "t": "kelet-ázsiai vallások"
+    },
+    {
+      "q": "Melyik indiai vallás alapítója volt Mahávíra, aki a huszonnegyedik és egyben utolsó tanítómesterként az erőszakmentesség elvét hirdette?",
+      "a": [
+        "A dzsainizmus",
+        "A szikhizmus",
+        "A zoroasztrizmus",
+        "A dzsaina hagyomány szerinti hinduizmus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mahávíra a dzsainizmus huszonnegyedik tirthankarája volt, aki az ahimszá, vagyis az erőszakmentesség tanát hirdette.",
+      "t": "vallástudomány"
+    },
+    {
+      "q": "Hány guru vezette egymást követően a szikh vallást Guru Nának Dévtől Guru Góbind Szingig?",
+      "a": [
+        "Tíz guru",
+        "Hét guru",
+        "Öt guru",
+        "Tizenkét guru"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szikh vallást összesen tíz emberi guru vezette Guru Nának Dévtől Guru Góbind Szingig, aki után a szent könyv vette át a guru szerepét.",
+      "t": "vallástudomány"
+    },
+    {
+      "q": "Ki volt Zarathustra, akinek tanításai a zoroasztrizmus alapjait fektették le?",
+      "a": [
+        "Egy ókori perzsa próféta, aki Ahura Mazda főisten tanítójaként lépett fel",
+        "Egy indiai bölcs, aki a Védák szerzőjeként vált ismertté",
+        "Egy mezopotámiai király, aki egyesítette Babilónt és Asszíriát",
+        "Egy egyiptomi pap, aki az egyistenhitet vezette be a fáraók udvarában"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Zarathustra ókori perzsa próféta volt, akinek tanításai alapján alakult ki a zoroasztrizmus, Ahura Mazda kultusza.",
+      "t": "vallástudomány"
+    },
+    {
+      "q": "Melyik 19. századi perzsa vallásalapító hirdette meg az emberiség lelki egységét, és alapította meg a bahái hitet?",
+      "a": [
+        "Bahá'u'lláh",
+        "Báb",
+        "Zarathustra",
+        "Mani"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Bahá'u'lláh 1863-ban jelentette be küldetését, ezzel megalapítva a bahái hitet, amely az emberiség lelki egységét hirdeti.",
+      "t": "vallástudomány"
+    },
+    {
+      "q": "Mi a különbség a politeizmus és a monoteizmus között?",
+      "a": [
+        "A politeizmus több isten létezését vallja, a monoteizmus egyetlen istenét",
+        "A politeizmus tagadja az istenek létezését, a monoteizmus elfogadja",
+        "A politeizmus csak a görögökre jellemző, a monoteizmus csak a keresztényekre",
+        "A politeizmus a lélekvándorlást, a monoteizmus a feltámadást tanítja"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A politeizmus több isten létezését feltételező hitrendszer, míg a monoteizmus egyetlen isten létezését vallja.",
+      "t": "vallástudomány"
+    },
+    {
+      "q": "Mit jelent az animizmus fogalma a vallástudományban?",
+      "a": [
+        "Azt a hitet, hogy a természeti tárgyaknak, jelenségeknek és lényeknek lelke vagy szelleme van",
+        "Azt a nézetet, hogy minden vallás egyetlen közös istenre vezethető vissza",
+        "Azt a szertartást, amellyel az őskori népek a halottaikat elégették",
+        "Azt a tanítást, hogy a lélek a halál után egy állat testébe költözik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az animizmus az a hitrendszer, amely szerint a természeti tárgyaknak, jelenségeknek és élőlényeknek is van lelke vagy szelleme.",
+      "t": "vallástudomány"
+    },
+    {
+      "q": "Melyik óvilági mezopotámiai eposz meséli el Gilgames uruki király és barátja, Enkidu történetét?",
+      "a": [
+        "A Gilgames-eposz",
+        "Az Enúma Elis",
+        "Az Atrahaszisz-eposz",
+        "A Descensus Istárja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Gilgames-eposz Gilgames uruki király és barátja, Enkidu kalandjait, valamint a halhatatlanság keresését meséli el.",
+      "t": "más mitológiák"
+    },
+    {
+      "q": "Melyik mezopotámiai istennő volt a szerelem, a termékenység és egyben a háború istennője a sumer-babilóni hitvilágban?",
+      "a": [
+        "Istár (Innana)",
+        "Ninhurszag",
+        "Ereskigal",
+        "Gula"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Istár, sumer nevén Innana volt a szerelem, a termékenység és a háború istennője a mezopotámiai mitológiában.",
+      "t": "más mitológiák"
+    },
+    {
+      "q": "Melyik ausztrál őslakos fogalom írja le azt a mitikus időszakot, amikor az ősök megteremtették a világot és a törvényeket?",
+      "a": [
+        "Az álomidő (Dreamtime)",
+        "A totemidő",
+        "A vándorlás kora",
+        "Az ébredés napja"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az álomidő az ausztrál őslakosok hitvilágában az az ősi korszak, amikor az ősök megteremtették a tájat, az élőlényeket és a törvényeket.",
+      "t": "más mitológiák"
+    },
+    {
+      "q": "Melyik nyugat-afrikai néphez köthető Anansi, a ravasz pókisten alakja, aki gyakran a mesék főszereplője?",
+      "a": [
+        "Az akan néphez (Ghána)",
+        "A zulu néphez",
+        "A maszáj néphez",
+        "A joruba néphez"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Anansi a pókisten az akan nép (mai Ghána területén élő) mitológiájából származik, ravaszságáról híres mesehős.",
+      "t": "más mitológiák"
+    },
+    {
+      "q": "Melyik istenség uralta a joruba (nyugat-afrikai) hitvilágban a viharokat és a vasat, s vált a rabszolgaság révén az amerikai kontinens több szinkretikus vallásának alakjává is?",
+      "a": [
+        "Ogun",
+        "Sango",
+        "Esu",
+        "Obatala"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ogun a joruba mitológia vas- és háborúistene, akinek tisztelete a rabszolgakereskedelem révén az amerikai szinkretikus vallásokban is fennmaradt.",
+      "t": "más mitológiák"
+    },
+    {
+      "q": "Miért olyan fontos szertartás a keresztségben a víz szimbolikája?",
+      "a": [
+        "A régi bűnös élettől való megtisztulást és az új, hívő életbe való belépést jelképezi",
+        "Kizárólag a nyári hőség elleni gyakorlati védelmet szolgálta az ókorban",
+        "A víz azt jelzi, hogy a keresztény csak folyóparton élő közösségekben terjedhetett el",
+        "A víz eredetileg a keresztény ünnepek dátumának meghatározására szolgált"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A keresztségben a víz a régi élettől való megtisztulást és a hitben való újjászületést jelképezi.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Mi az a szanszára fogalom, amely közös elem a hinduizmusban és a buddhizmusban is?",
+      "a": [
+        "A születés, halál és újjászületés körforgása",
+        "Egy szent zarándokhely neve Indiában",
+        "A papi rend legalacsonyabb fokozata",
+        "Egy szigorú böjti időszak megnevezése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szanszára a születés, halál és újjászületés végtelen körforgását jelenti mind a hindu, mind a buddhista tanításban.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Mi különbözteti meg a mahájána buddhizmust a theráváda iránytól?",
+      "a": [
+        "A mahájána szerint mindenki elérheti a felébredést mások megsegítésén keresztül is, nem csak szerzetesi úton",
+        "A mahájána tagadja Buddha valaha való létezését",
+        "A mahájána kizárólag Srí Lanka és Délkelet-Ázsia országaiban terjedt el",
+        "A mahájána szerint csak a szerzetesek juthatnak a nirvánába, a laikusok soha"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A mahájána irányzat szerint a felébredés (bódhiszattva-eszmény) mindenki számára elérhető, aki mások megvilágosodását is szolgálja.",
+      "t": "buddhizmus"
+    },
+    {
+      "q": "Melyik istennő volt a görög mitológiában a bölcsesség és a hadviselés istennője, aki Athén városának védnöke lett?",
+      "a": [
+        "Athéné",
+        "Nyx",
+        "Thémisz",
+        "Nemeszisz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Athéné a bölcsesség és a hadviselés istennője volt, aki egy olajfa ajándékáért cserébe lett Athén védnöke.",
+      "t": "görög-római istenek"
+    },
+    {
+      "q": "Miért büntette meg Zeusz Prométheuszt a görög mitológiában?",
+      "a": [
+        "Mert ellopta az égi tüzet és odaadta az embereknek",
+        "Mert megpróbálta megdönteni Zeusz uralmát a Titánokkal szövetkezve",
+        "Mert elárulta az olümposzi istenek egyik titkát a halandóknak",
+        "Mert visszautasította, hogy feleségül vegye Zeusz egyik lányát"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Prométheusz ellopta az istenek tüzét és átadta az embereknek, ezért Zeusz egy sziklához láncoltatta, ahol naponta egy sas emésztette máját.",
+      "t": "görög mitológia"
+    },
+    {
+      "q": "Melyik görög szörnyeteg haja kígyókból állt, és aki ránézett, kővé dermedt?",
+      "a": [
+        "Medúsza",
+        "Szkülla",
+        "Kharübdisz",
+        "Kimaira"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Medúsza a gorgók egyike volt, kígyóhajú szörnyeteg, akinek tekintete kővé dermesztette az embereket.",
+      "t": "görög mitológia"
+    },
+    {
+      "q": "Melyik évben nyitották meg a niceai zsinathoz hasonlóan fontos, a khalkédóni zsinatot, amely Krisztus két természetéről (isteni és emberi) hozott döntést?",
+      "a": [
+        "451-ben",
+        "325-ben",
+        "787-ben",
+        "1054-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A khalkédóni zsinatot 451-ben tartották, ahol a résztvevők megfogalmazták Krisztus isteni és emberi természetének egységét.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Mit jelent a Korán szó az iszlám hagyományban?",
+      "a": [
+        "Az Allah által Mohamed prófétának kinyilatkoztatott szent könyv szövegét",
+        "A muszlim zarándoklat hivatalos útikönyvét",
+        "A mecsetekben szolgáló imám hivatalos címét",
+        "Az iszlám jogtudomány gyűjteményes nevét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Korán az iszlám szent könyve, amely a hagyomány szerint Allah Mohamed prófétának kinyilatkoztatott üzenetét tartalmazza.",
+      "t": "iszlám"
+    },
+    {
+      "q": "Mi a különbség a szunnita és a síita irányzat között az iszlámon belül?",
+      "a": [
+        "Elsősorban Mohamed utódlásának kérdésében térnek el egymástól",
+        "A szunniták csak Mekkába, a síiták csak Medinába zarándokolnak",
+        "A szunniták a Koránt, a síiták egy másik szent könyvet követnek",
+        "A síiták nem tartják be a Ramadán böjtjét, a szunniták igen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szunnita-síita megosztottság gyökere Mohamed halála utáni utódlás kérdésében rejlik, ami politikai és teológiai különbségekhez vezetett.",
+      "t": "iszlám"
+    },
+    {
+      "q": "Melyik zsidó ünnep emlékezik meg az egyiptomi rabszolgaságból való kivonulásról?",
+      "a": [
+        "A pészah",
+        "A sávuot",
+        "A szukkot",
+        "A purim"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pészah, azaz a zsidó húsvét az egyiptomi kivonulás emlékére tartott ünnep, amelynek fő eseménye a szédereste.",
+      "t": "judaizmus"
+    },
+    {
+      "q": "Mit jelent a Talmud a judaizmusban?",
+      "a": [
+        "A Tóra magyarázatait és a zsidó vallási törvényeket tartalmazó gyűjteményt",
+        "A zsidó naptár hivatalos, évenként kiadott kiadványát",
+        "A jeruzsálemi templom eredeti alaprajzát tartalmazó könyvet",
+        "A zsidó házassági szertartás hivatalos szövegkönyvét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Talmud a Tóra rabbinikus magyarázatait és a zsidó vallási törvényeket (halacha) gyűjti össze, alapvető szerepe van a judaizmusban.",
+      "t": "judaizmus"
+    },
+    {
+      "q": "Melyik óegyiptomi isten volt Ozirisz gyilkosa és ellenlábasa, a viszály és a sivatag megtestesítője?",
+      "a": [
+        "Széth",
+        "Ré",
+        "Ptah",
+        "Khnum"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Széth volt Ozirisz testvére és gyilkosa az egyiptomi mitológiában, a viszály, a káosz és a sivatag istene.",
+      "t": "egyiptomi mitológia"
+    },
+    {
+      "q": "Melyik napisten volt a legfőbb egyiptomi istenség, akit gyakran sólyomfejjel, napkoronggal ábrázoltak?",
+      "a": [
+        "Ré",
+        "Thot",
+        "Amon",
+        "Ptah"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ré volt az ókori Egyiptom legfőbb napistene, akit gyakran sólyomfejjel és fején napkoronggal ábrázoltak.",
+      "t": "egyiptomi mitológia"
+    },
+    {
+      "q": "Miért fontos Heimdall alakja a skandináv mitológiában a világvégi csata, Ragnarök szempontjából?",
+      "a": [
+        "Ő az istenek őre, akinek kürtjelzése indítja el Ragnarök végső csatáját",
+        "Ő kovácsolta az istenek minden fegyverét a csatához",
+        "Ő volt az egyetlen isten, aki túlélte Ragnaröt sérülés nélkül",
+        "Ő vezette az óriások seregét az istenek ellen"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Heimdall az istenek éber őre, akinek kürtje, a Gjallarhorn jelzi majd Ragnarök, a világvégi csata kezdetét.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Melyik állat vitte Odin isten szavait a skandináv mitológiában, naponta bejárva a világot híreket gyűjtve?",
+      "a": [
+        "Két holló, Huginn és Muninn",
+        "Egy nyolclábú ló, Sleipnir",
+        "Két farkas, Geri és Freki, akik hírvivőként is szolgáltak",
+        "Egy sas, aki Yggdrasil csúcsán élt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Huginn és Muninn, Odin két hollója naponta bejárta a világot, majd visszatérve beszámoltak neki a látottakról.",
+      "t": "skandináv mitológia"
+    },
+    {
+      "q": "Mit jelent a hindu vallásban a jóga eredeti, klasszikus célja a testgyakorláson túl?",
+      "a": [
+        "A lélek egyesítése az egyetemes valósággal meditáció és fegyelem révén",
+        "Kizárólag a katonák harci felkészítését szolgáló gyakorlatsor",
+        "Egy díszes tánc, amelyet templomi ünnepségeken adtak elő",
+        "A kasztrendszeren belüli társadalmi felemelkedés rituáléja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A klasszikus jóga célja a lélek egyesítése az egyetemes valósággal, amit fegyelmezett gyakorlatok és meditáció révén értek el.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Melyik hindu istennő a bátorság és a gonosz erők legyőzésének megtestesítője, akit gyakran oroszlánháton, sok karral ábrázolnak?",
+      "a": [
+        "Durgá",
+        "Szaraszvati",
+        "Laksmí",
+        "Párvati"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Durgá a hindu mitológiában a gonosz legyőzésének istennője, akit gyakran oroszlánon ülve, több karral, fegyverekkel ábrázolnak.",
+      "t": "hindu vallás"
+    },
+    {
+      "q": "Melyik buddhista fogalom írja le a nyolc lépésből álló utat a szenvedés megszüntetéséhez?",
+      "a": [
+        "A nemes nyolcrétű ösvény",
+        "A négy mennyei lakhely",
+        "A tizenkét okságlánc",
+        "A hat páramitá"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nemes nyolcrétű ösvény a buddhizmus negyedik nemes igazsága, amely a szenvedés megszüntetéséhez vezető gyakorlati utat írja le.",
+      "t": "buddhizmus"
+    },
+    {
+      "q": "Melyik ország a zen buddhizmus egyik legfontosabb központja, ahol a szoto és a rinzai iskola is elterjedt?",
+      "a": [
+        "Japán",
+        "Thaiföld",
+        "Mongólia",
+        "Srí Lanka"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Japán a zen buddhizmus egyik legfontosabb központja, ahol a szoto és a rinzai iskola egyaránt jelentős hagyománnyal rendelkezik.",
+      "t": "buddhizmus"
+    },
+    {
+      "q": "Miért tartják különösen jelentősnek a keresztény hagyományban a betlehemi csillagot?",
+      "a": [
+        "A hagyomány szerint ez vezette a napkeleti bölcseket Jézus születési helyéhez",
+        "Mert ez jelezte a jeruzsálemi templom lerombolásának időpontját",
+        "Mert ez indította el a húsvéti ünnepkör kialakulását",
+        "Mert ez volt az első csillagászati jelenség, amit a Biblia lejegyzett"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hagyomány szerint a betlehemi csillag vezette el a napkeleti bölcseket Jézus születési helyéhez.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Melyik iszlám ünnep zárja le a Ramadán böjti hónapját nagy közösségi ünnepléssel?",
+      "a": [
+        "Az id al-fitr",
+        "Az id al-adha",
+        "A mevlid",
+        "Az asúra"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az id al-fitr a Ramadán böjti hónap végét jelző ünnep, amelyet közös imával és családi összejövetelekkel ünnepelnek meg.",
+      "t": "iszlám"
+    },
+    {
+      "q": "Melyik ószövetségi történet meséli el, hogy Noé bárkájával menekítette meg az élőlényeket egy pusztító özönvíz elől?",
+      "a": [
+        "Az özönvíz története a Genezis könyvében",
+        "Az egyiptomi kivonulás története az Exodus könyvében",
+        "Jónás és a cet története",
+        "Dávid és Góliát története"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az özönvíz története a Genezis könyvében szerepel, ahol Noé bárkája menti meg az élőlényeket az istenítéletként küldött áradástól.",
+      "t": "judaizmus"
+    },
+    {
+      "q": "Melyik mai kelta eredetű ünnep vált a modern halloween elődjévé, amely a nyár végét és a szellemvilág közeledését jelezte?",
+      "a": [
+        "A samhain",
+        "A beltane",
+        "Az imbolc",
+        "A lughnasadh"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A samhain kelta ünnep a nyár végét és a téli időszak kezdetét jelezte, hagyományosan ekkor vékonyodott meg a szellemvilág és az élők világa közötti határ.",
+      "t": "kelta mitológia"
+    },
+    {
+      "q": "Melyik mezoamerikai isten volt a halottak birodalmának, Mictlannak ura az aztékoknál?",
+      "a": [
+        "Mictlantecuhtli",
+        "Xolotl",
+        "Tlaloc",
+        "Tezcatlipoca"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mictlantecuhtli volt az azték alvilág, Mictlan ura, akit gyakran csontvázszerű alakban ábrázoltak.",
+      "t": "mezoamerikai mitológia"
+    },
+    {
+      "q": "Miért fontos esemény a mormon hagyományban Joseph Smith aranylemezekről szóló beszámolója?",
+      "a": [
+        "Ebből fordította állítása szerint a Mormon könyvét, amely az egyház alapszövege lett",
+        "Mert ez vezetett a keresztény egyházszakadáshoz a 16. században",
+        "Mert ez indította el a niceai zsinat összehívását",
+        "Mert ez alapján hozták létre az első keresztény szerzetesrendet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Joseph Smith állítása szerint aranylemezekről fordította le a Mormon könyvét, amely az általa alapított egyház szent szövege lett.",
+      "t": "kereszténység"
+    },
+    {
+      "q": "Melyik indiai vallás tanítja, hogy minden élőlénynek lelke van, ezért a szigorú vegetarianizmus és az erőszakmentesség alapelv?",
+      "a": [
+        "A dzsainizmus",
+        "A szikhizmus",
+        "A zoroasztrizmus",
+        "A sintoizmus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A dzsainizmus tanítása szerint minden élőlénynek lelke van, ezért az erőszakmentesség (ahimszá) és a szigorú vegetarianizmus alapelv.",
+      "t": "vallástudomány"
+    },
+    {
+      "q": "Mit jelent a panteizmus fogalma?",
+      "a": [
+        "Azt a nézetet, hogy Isten és a világegyetem egy és ugyanaz",
+        "Azt a hitet, hogy sok, egymástól független isten létezik",
+        "Azt a nézetet, hogy nincs semmilyen isteni lény",
+        "Azt a tanítást, hogy az istenek emberi alakban élnek a földön"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A panteizmus szerint Isten és a világegyetem egy és ugyanaz, tehát az isteni jelenlét mindenben megtalálható.",
+      "t": "vallástudomány"
     }
   ]
 }

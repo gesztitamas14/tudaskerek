@@ -1976,6 +1976,721 @@
       "d": "medium",
       "e": "A technikai kiütést a bíró vagy az orvos mondja ki, ha a versenyző nem védheti magát.",
       "t": "küzdősportok"
+    },
+    {
+      "q": "Milyen borítású pályán rendezik hagyományosan a wimbledoni tenisztornát?",
+      "a": [
+        "fűpálya",
+        "salakpálya",
+        "kemény pálya",
+        "homokpálya"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Wimbledon az egyetlen Grand Slam torna, amelyet hagyományosan fűpályán rendeznek.",
+      "t": "tenisz"
+    },
+    {
+      "q": "Melyik borítású pályán játsszák a Roland Garros tornát Párizsban?",
+      "a": [
+        "salakpálya",
+        "fűpálya",
+        "kemény pálya",
+        "homokpálya"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Roland Garrost vörös salakpályán rendezik, ez a leglassúbb felület a Grand Slam tornák közül.",
+      "t": "tenisz"
+    },
+    {
+      "q": "Mi történik a teniszben, ha a játékosok 40-40-nél állnak egy game-ben?",
+      "a": [
+        "döntetlen (deuce) alakul ki",
+        "azonnal vége a gamenek",
+        "tie-break következik",
+        "a szolgáló automatikusan nyer"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "40-40-nél a pontállás neve deuce, ekkor két pont előnyt kell szerezni a game megnyeréséhez.",
+      "t": "tenisz"
+    },
+    {
+      "q": "Hány pontot kell megnyerni egy szabályos tie-breakben a győzelemhez, legalább két pont előnnyel?",
+      "a": [
+        "7 pontot",
+        "5 pontot",
+        "10 pontot",
+        "6 pontot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hagyományos tie-breakben az győz, aki elsőként hét pontot szerez, legalább két pont előnnyel.",
+      "t": "tenisz"
+    },
+    {
+      "q": "Hány Grand Slam-egyéni tornagyőzelmet szerzett Serena Williams a pályafutása során?",
+      "a": [
+        "23",
+        "19",
+        "21",
+        "25"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Serena Williams 23 Grand Slam-egyéni címet nyert, ez az open éra rekordja.",
+      "t": "tenisz"
+    },
+    {
+      "q": "Melyik golfpályán rendezik hagyományosan a Masters tornát?",
+      "a": [
+        "Augusta National",
+        "St Andrews Old Course",
+        "Pebble Beach",
+        "Pinehurst No. 2"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Masters tornát minden áprilisban a georgiai Augusta National golfpályán rendezik.",
+      "t": "golf"
+    },
+    {
+      "q": "Hány ütéssel kevesebb egy 'birdie' a golfban a lyuk par-értékéhez képest?",
+      "a": [
+        "eggyel kevesebb, mint a par",
+        "eggyel több, mint a par",
+        "kettővel kevesebb, mint a par",
+        "pontosan annyi, mint a par"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A birdie azt jelenti, hogy a játékos a lyuk par-értékénél eggyel kevesebb ütésből fejezi be a lyukat.",
+      "t": "golf"
+    },
+    {
+      "q": "Hogyan nevezik azt a golfeseményt, amikor a játékos egyetlen ütéssel a lyukba juttatja a labdát az elütőről?",
+      "a": [
+        "egyetlen ütésből bejuttatott labda, azaz hole-in-one",
+        "par alatti két ütéssel lejátszott lyuk, azaz eagle",
+        "par alatti három ütéssel lejátszott lyuk, azaz albatrosz",
+        "a lyuk előírt ütésszámával megegyező eredmény, azaz par"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hole-in-one azt jelenti, hogy a golfozó egyetlen ütéssel juttatja be a labdát a lyukba az elütőről.",
+      "t": "golf"
+    },
+    {
+      "q": "Melyik golf-major tornát rendezik hagyományosan tengerparti (links) pályákon Nagy-Britanniában?",
+      "a": [
+        "a The Open Championship (a Brit Open)",
+        "a Masters Tournament Augustában",
+        "a US Open golfbajnokság",
+        "a PGA Championship tornája"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A The Open Championshipet, közismert nevén a Brit Opent, hagyományosan brit links pályákon rendezik.",
+      "t": "golf"
+    },
+    {
+      "q": "Milyen anyagból készül a jégkorongban használt korong?",
+      "a": [
+        "vulkanizált gumi",
+        "kemény műanyag",
+        "tömör faanyag",
+        "préselt bőr"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jégkorong korongja vulkanizált gumiból készül, ami ellenáll a lövések nagy erejének.",
+      "t": "jégkorong"
+    },
+    {
+      "q": "Nagyjából hány grammot nyom egy szabványos jégkorongkorong?",
+      "a": [
+        "kb. 160 gramm",
+        "kb. 60 gramm",
+        "kb. 400 gramm",
+        "kb. 900 gramm"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Egy szabványos jégkorongkorong körülbelül 154-168 gramm, azaz nagyjából 160 gramm tömegű.",
+      "t": "jégkorong"
+    },
+    {
+      "q": "Mit kap büntetésül az a jégkorongjátékos, aki súlyos szabálytalanságot követ el a mérkőzésen?",
+      "a": [
+        "kiállítást kap, csapata emiatt emberhátrányba kerül",
+        "azonnal kiállítják a mérkőzés hátralévő részére, csere nélkül",
+        "a csapata automatikusan elveszti az adott mérkőzést",
+        "a bíró azonnal gólt ítél oda az ellenfélnek büntetésül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szabálytalanságot elkövető játékos kiállítást kap, csapata ez idő alatt emberhátrányban játszik.",
+      "t": "jégkorong"
+    },
+    {
+      "q": "Melyik profi jégkorong-liga számít a világ legerősebb bajnokságának?",
+      "a": [
+        "NHL (Észak-amerikai Nemzeti Jégkorong Liga)",
+        "KHL (Kontinentális Jégkorong Liga)",
+        "SHL (Svéd Jégkorong Liga)",
+        "Liiga (Finn Jégkorong Liga)"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az NHL-ben játszik a világ legjobb jégkorongozóinak nagy része, ez számít a legerősebb ligának.",
+      "t": "jégkorong"
+    },
+    {
+      "q": "Hány részszámból áll a nők heptatlon nevű összetett atlétikai versenyszáma?",
+      "a": [
+        "7 részszámból",
+        "5 részszámból",
+        "10 részszámból",
+        "12 részszámból"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A heptatlon hét versenyszámból áll, ezt versenyzik a nők az összetett atlétikai számok között.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Mennyi Usain Bolt 100 méteres síkfutásban felállított világcsúcsa?",
+      "a": [
+        "9,58 másodperc",
+        "9,69 másodperc",
+        "9,79 másodperc",
+        "9,98 másodperc"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Usain Bolt 2009-ben, a berlini világbajnokságon futotta a jelenlegi 100 méteres világcsúcsot.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Mi a neve annak a körnek, amelyből az atléták a súlylökést végzik?",
+      "a": [
+        "dobókör",
+        "futópálya",
+        "gerelyfolyosó",
+        "ugrógödör"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A súlylökők egy kör alakú, korlátozott átmérőjű dobókörből indítják a lökést.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Melyik atlétikai számban kell az akadályok mellett egy vizesárkot is leküzdeni?",
+      "a": [
+        "3000 méteres akadályfutás",
+        "110 méteres gátfutás",
+        "400 méteres gátfutás",
+        "maratoni futás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 3000 méteres akadályfutásban az akadályok mellett egy vizesárkot is át kell ugrani minden körben.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Hogyan nevezik azt az atlétikai ugrószámot, amelyben a versenyző egy hajlékony rúd segítségével jut át egy magasban lévő lécen?",
+      "a": [
+        "rúdugrás",
+        "magasugrás",
+        "távolugrás",
+        "hármasugrás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A rúdugrásban a versenyző egy hajlékony rúd segítségével repül át a magasban elhelyezett léc felett.",
+      "t": "atlétika"
+    },
+    {
+      "q": "Milyen hosszú egy szabványos, hosszú pályás olimpiai úszómedence?",
+      "a": [
+        "50 méter",
+        "25 méter",
+        "100 méter",
+        "33 méter"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az olimpiai (hosszú pályás) úszómedence szabványos hossza 50 méter.",
+      "t": "úszás"
+    },
+    {
+      "q": "Hány olimpiai aranyérmet nyert összesen Michael Phelps amerikai úszó a pályafutása során?",
+      "a": [
+        "23 aranyérmet",
+        "18 aranyérmet",
+        "28 aranyérmet",
+        "15 aranyérmet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Michael Phelps 23 olimpiai arannyal minden idők legsikeresebb olimpikonja.",
+      "t": "úszás"
+    },
+    {
+      "q": "Melyik úszásnemben mozog mindkét kar egyszerre, szimmetrikusan előre, miközben a láb 'békatempót' végez?",
+      "a": [
+        "mellúszás",
+        "gyorsúszás",
+        "hátúszás",
+        "pillangóúszás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mellúszásra jellemző a szimmetrikus karmozgás és a békalábas rúgás.",
+      "t": "úszás"
+    },
+    {
+      "q": "Miért számít a pillangóúszás az egyik legfárasztóbb úszásnemnek?",
+      "a": [
+        "mert mindkét kar és láb egyszerre, nagy erővel, szimmetrikusan mozog",
+        "mert csak egy kar dolgozik úszás közben",
+        "mert a versenyzőnek hanyatt kell úsznia",
+        "mert nem szabad levegőt venni közben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pillangóúszásban mindkét kar és láb egyszerre végez nagy erőkifejtést igénylő, szimmetrikus mozdulatot.",
+      "t": "úszás"
+    },
+    {
+      "q": "Melyik tornaszeren dolgozik a tornász folyamatos körző és lendítő mozdulatokkal, anélkül hogy leülne rá?",
+      "a": [
+        "lólengés",
+        "nyújtó",
+        "korlát",
+        "gyűrű"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A lólengésen a tornász folyamatos körző és lendítő mozdulatokkal dolgozik, anélkül hogy megülne az eszközön.",
+      "t": "torna"
+    },
+    {
+      "q": "Melyik tornaszeren dolgozik a tornász két, egymástól eltérő magasságban rögzített rúddal?",
+      "a": [
+        "a felemás korlát nevű szeren",
+        "a gyűrű nevű szeren",
+        "a nyújtó nevű szeren",
+        "az ugrószekrény nevű szeren"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A felemás korlát a női szertorna egyik szere, két különböző magasságú ruddal.",
+      "t": "torna"
+    },
+    {
+      "q": "Miért kapnak pontlevonást a tornászok, ha érkezéskor lépnek egyet vagy megtántorodnak?",
+      "a": [
+        "mert a tiszta, mozdulatlan érkezés a pontozás fontos eleme",
+        "mert egyáltalán tilos talajt érnie a gyakorlat közben",
+        "mert a bírók kizárólag a levegőben töltött időt pontozzák",
+        "mert a bírók csak a gyakorlat kezdő mozdulatát figyelik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szertorna pontozásában a stabil, mozdulatlan érkezés kulcsfontosságú, ezért a lépés vagy tántorodás pontlevonással jár.",
+      "t": "torna"
+    },
+    {
+      "q": "Milyen színű trikót visel a Tour de France össztávjának aktuális éllovasa?",
+      "a": [
+        "sárga trikó",
+        "zöld trikó",
+        "pöttyös trikó",
+        "fehér trikó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Tour de France-on az összetett verseny vezetője a sárga trikót viseli.",
+      "t": "kerékpár"
+    },
+    {
+      "q": "Hány kerékpáros nyerte eddig ötször a Tour de France-ot, ezzel megosztva tartva a rekordot?",
+      "a": [
+        "öt kerékpáros",
+        "két kerékpáros",
+        "nyolc kerékpáros",
+        "három kerékpáros"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Jacques Anquetil, Eddy Merckx, Bernard Hinault, Miguel Induráin, majd 2026-ban Tadej Pogačar is ötször nyerte a Tour de France-ot.",
+      "t": "kerékpár"
+    },
+    {
+      "q": "Miért kapja a Tour de France mezőnyének legjobb hegyi versenyzője a pöttyös trikót?",
+      "a": [
+        "mert a hegyi (király) pontversenyt vezeti",
+        "mert ő a legfiatalabb versenyző",
+        "mert ő az összetett verseny éllovasa",
+        "mert a pontversenyt vezeti a rajtszáma alapján"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pöttyös trikót a hegyi pontverseny (King of the Mountains) vezetője viseli a Tour de France-on.",
+      "t": "kerékpár"
+    },
+    {
+      "q": "Nagyjából hány szakaszból (napból) áll egy mai Tour de France körverseny?",
+      "a": [
+        "kb. 21 szakaszból",
+        "kb. 10 szakaszból",
+        "kb. 35 szakaszból",
+        "kb. 5 szakaszból"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A modern Tour de France jellemzően 21 szakaszból áll, körülbelül három hét alatt.",
+      "t": "kerékpár"
+    },
+    {
+      "q": "Melyik két Forma-1-es versenyző tartja holtversenyben a legtöbb világbajnoki cím (7-7) rekordját?",
+      "a": [
+        "Michael Schumacher és Lewis Hamilton",
+        "Ayrton Senna és Alain Prost",
+        "Sebastian Vettel és Max Verstappen",
+        "Juan Manuel Fangio és Niki Lauda"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Michael Schumacher és Lewis Hamilton is hétszeres világbajnok, ők tartják közösen a rekordot.",
+      "t": "forma-1"
+    },
+    {
+      "q": "Melyik Forma-1-es versenyző nyerte a legtöbb futamot a sportág történetében?",
+      "a": [
+        "Lewis Hamilton",
+        "Michael Schumacher",
+        "Max Verstappen",
+        "Ayrton Senna"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Lewis Hamilton a Forma-1 történetének legtöbb futamgyőzelmével rendelkező versenyzője.",
+      "t": "forma-1"
+    },
+    {
+      "q": "Miért kap büntetést az a Forma-1-es versenyző, aki a rajt előtt korábban indul el, mint ahogy a lámpák kialszanak?",
+      "a": [
+        "mert ez szabálytalan rajtnak (jump start) minősül",
+        "mert túllépte a sebességhatárt a bokszutcában",
+        "mert nem tartotta be az előírt gumiszabályt",
+        "mert megelőzte a biztonsági autót"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A lámpák kialvása előtti elindulás szabálytalan rajtnak számít, amiért időbüntetés jár.",
+      "t": "forma-1"
+    },
+    {
+      "q": "Melyik évben tartották az első hivatalos Forma-1-es világbajnoki futamot?",
+      "a": [
+        "1950-ben",
+        "1946-ban",
+        "1960-ban",
+        "1938-ban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az első hivatalos Forma-1-es világbajnoki futamot 1950-ben rendezték a brit Silverstone-ban.",
+      "t": "forma-1"
+    },
+    {
+      "q": "Meddig terjed a nehézsúlyú kategória felső határa az amatőr ökölvívásban, a szupernehézsúly alatt?",
+      "a": [
+        "92 kg-ig",
+        "81 kg-ig",
+        "100 kg-ig",
+        "75 kg-ig"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az amatőr ökölvívásban a nehézsúly felső határa 92 kg, e fölött szupernehézsúlyról beszélünk.",
+      "t": "ökölvívás"
+    },
+    {
+      "q": "Mit jelent az ökölvívásban a KO (kiütés) kifejezés?",
+      "a": [
+        "az ellenfél nem tud tíz másodpercen belül lábra állni",
+        "az ellenfél elhagyja a szorítót",
+        "a bíró idő előtt lefújja a menetet pontozási okból",
+        "a versenyző túllépi a súlyhatárt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "KO-ról akkor beszélünk, ha az elütött versenyző nem tud tíz másodpercen belül újra állni.",
+      "t": "ökölvívás"
+    },
+    {
+      "q": "Hány menetből áll jellemzően egy profi ökölvívó világbajnoki mérkőzés napjainkban?",
+      "a": [
+        "12 menetből",
+        "15 menetből",
+        "10 menetből",
+        "3 menetből"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A profi ökölvívásban a világbajnoki mérkőzések ma jellemzően 12 menetesek, korábban 15 menet volt a szokás.",
+      "t": "ökölvívás"
+    },
+    {
+      "q": "Milyen sorrendben következnek a cselgáncsövek a kezdő fehértől a fekete övig?",
+      "a": [
+        "fehér, sárga, narancs, zöld, kék, barna, fekete",
+        "fehér, kék, zöld, sárga, barna, fekete, piros",
+        "fehér, zöld, sárga, kék, narancs, fekete, barna",
+        "fehér, barna, zöld, sárga, kék, narancs, fekete"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hagyományos judo övrendszer sorrendje: fehér, sárga, narancssárga, zöld, kék, barna, majd fekete öv.",
+      "t": "cselgáncs"
+    },
+    {
+      "q": "Melyik országból ered a cselgáncs (judo) sportág?",
+      "a": [
+        "Japánból",
+        "Kínából",
+        "Koreából",
+        "Thaiföldről"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cselgáncsot Kano Dzsigoró alapította Japánban, 1882-ben.",
+      "t": "cselgáncs"
+    },
+    {
+      "q": "Mit jelent a cselgáncsban az 'ippon' bírói jelzés?",
+      "a": [
+        "a mérkőzés azonnali, teljes értékű győzelmét",
+        "egy kisebb értékű, félbenmaradó pontot",
+        "a mérkőzés döntetlen véget érését",
+        "a versenyző kizárását szabálytalanság miatt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ippon a legmagasabb értékű pontozás cselgáncsban, amely azonnal, teljes győzelemmel zárja a mérkőzést.",
+      "t": "cselgáncs"
+    },
+    {
+      "q": "Hány pontot ér egy touchdown amerikai futballban, az azt követő extra próbálkozás nélkül?",
+      "a": [
+        "6 pontot",
+        "7 pontot",
+        "3 pontot",
+        "2 pontot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A touchdown alapesetben 6 pontot ér, ehhez jöhet még 1 vagy 2 pont az azt követő próbálkozásból.",
+      "t": "amerikai futball"
+    },
+    {
+      "q": "Mi a neve az amerikai profi futballbajnokság (NFL) évzáró döntőjének?",
+      "a": [
+        "Super Bowl",
+        "World Series",
+        "Stanley Kupa",
+        "NBA Finals"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az NFL szezonzáró döntőjét Super Bowlnak hívják, amelyet minden év februárjában rendeznek.",
+      "t": "amerikai futball"
+    },
+    {
+      "q": "Miért kap egy csapat 'safety' pontot amerikai futballban?",
+      "a": [
+        "mert az ellenfelet a saját védőterében szorítja le a labdával",
+        "mert a védekező csapat elfogja a passzt",
+        "mert a támadó csapat gólt rúg mezőnyből",
+        "mert a labdavivő túllépi az oldalvonalat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Safety akkor jár, ha a védekező csapat a támadót a saját végzónájában szorítja le a labdával, ez 2 pontot ér.",
+      "t": "amerikai futball"
+    },
+    {
+      "q": "Hány pontot ér egy lefektetett labda (try) a rögbi union szabályai szerint?",
+      "a": [
+        "5 pontot",
+        "3 pontot",
+        "7 pontot",
+        "2 pontot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rögbi unionban a try 5 pontot ér, amelyhez sikeres emelt rúgással további 2 pont szerezhető.",
+      "t": "rögbi"
+    },
+    {
+      "q": "Hány ütést (strike) kell összegyűjteni egy baseball-ütőjátékosnak ahhoz, hogy kiessen?",
+      "a": [
+        "hármat",
+        "kettőt",
+        "négyet",
+        "ötöt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A baseballban három strike után az ütőjátékos kiesik, ezt nevezik strikeoutnak.",
+      "t": "baseball"
+    },
+    {
+      "q": "Hogyan hívják azt a súlyemelő mozdulatot, amelyben a súlyzót egy folyamatos mozdulattal a fej fölé emelik?",
+      "a": [
+        "szakítás",
+        "felhúzás",
+        "nyomás",
+        "guggolás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szakításban a versenyző egyetlen, folyamatos mozdulattal emeli a súlyt a föld szintjéről a fej fölé.",
+      "t": "súlyemelés"
+    },
+    {
+      "q": "Miben tér el a súlyemelés 'lökés' nevű mozdulata a szakítástól?",
+      "a": [
+        "a súlyt előbb mellmagasságba emelik, majd onnan lökik a fej fölé",
+        "a súlyt egy folyamatos mozdulattal emelik a fej fölé, megállás nélkül",
+        "a versenyző fekvő helyzetben nyomja felfelé a súlyt mellkasáról",
+        "a súlyt a szabályok szerint kizárólag egy kézzel szabad megemelni"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A lökésnél a mozdulat két részből áll: felhúzás mellmagasságba, majd lökés a fej fölé, ellentétben az egyfázisú szakítással.",
+      "t": "súlyemelés"
+    },
+    {
+      "q": "Milyen sorrendben követik egymást a triatlon versenyszámai?",
+      "a": [
+        "úszás, kerékpározás, futás",
+        "futás, úszás, kerékpározás",
+        "kerékpározás, futás, úszás",
+        "úszás, futás, kerékpározás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A triatlonban a versenyzők mindig úszással kezdenek, ezt követi a kerékpározás, majd a futás.",
+      "t": "triatlon"
+    },
+    {
+      "q": "Nagyjából mekkora távot kell úszni az olimpiai távú triatlonban?",
+      "a": [
+        "kb. 1,5 km-t",
+        "kb. 3,8 km-t",
+        "kb. 750 métert",
+        "kb. 5 km-t"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az olimpiai távú triatlonban a versenyzők 1,5 km-t úsznak, 40 km-t kerékpároznak és 10 km-t futnak.",
+      "t": "triatlon"
+    },
+    {
+      "q": "Melyik évre datálják hagyományosan az első feljegyzett ókori olimpiai játékokat?",
+      "a": [
+        "Kr. e. 776-ra",
+        "Kr. e. 500-ra",
+        "Kr. e. 1000-re",
+        "Kr. e. 300-ra"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az első feljegyzett ókori olimpiai játékokat hagyományosan Kr. e. 776-ra datálják.",
+      "t": "olimpia"
+    },
+    {
+      "q": "Ki alapította a modern olimpiai mozgalmat és a Nemzetközi Olimpiai Bizottságot?",
+      "a": [
+        "Pierre de Coubertin",
+        "Baron Pierre Fournier",
+        "Avery Brundage",
+        "Juan Antonio Samaranch"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Pierre de Coubertin francia báró kezdeményezésére alakult meg 1894-ben a Nemzetközi Olimpiai Bizottság.",
+      "t": "olimpia"
+    },
+    {
+      "q": "Melyik városban rendezték az első újkori olimpiai játékokat 1896-ban?",
+      "a": [
+        "Athénban",
+        "Párizsban",
+        "Londonban",
+        "Rómában"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az 1896-os első újkori olimpiát Athénban, Görögországban rendezték.",
+      "t": "olimpia"
+    },
+    {
+      "q": "Melyik téli sportágban kell a versenyzőnek kapukon áthaladva minél gyorsabban lesiklania a hegyről?",
+      "a": [
+        "alpesisí",
+        "műkorcsolya",
+        "gyorskorcsolya",
+        "jégkorong"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az alpesisíben a versenyzők kapuk között lesiklanak a lejtőn, a cél a leggyorsabb idő elérése.",
+      "t": "téli sportok"
+    },
+    {
+      "q": "Hány hivatalos fegyvernemet különböztetnek meg a modern sportvívásban?",
+      "a": [
+        "hármat: tőr, kard és párbajtőr",
+        "kettőt: csak tőr és kard",
+        "négyet, beleértve a szablyát is",
+        "egyet, csak a párbajtőrt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sportvívásban három fegyvernemet versenyeznek: a tőrt, a kardot és a párbajtőrt.",
+      "t": "vívás"
+    },
+    {
+      "q": "Ki tekinthető a paralimpiai mozgalom megalapítójának, aki sérült veteránoknak szervezett sportversenyeket?",
+      "a": [
+        "Ludwig Guttmann",
+        "Pierre de Coubertin",
+        "Juan Antonio Samaranch",
+        "Avery Brundage"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ludwig Guttmann neurológus 1948-ban sportversenyt szervezett sérült veteránoknak, ebből nőtte ki magát a paralimpia.",
+      "t": "paralimpia"
+    },
+    {
+      "q": "Hány evezős alkot egy klasszikus 'nyolcas' evezőscsapatot, a kormányost nem számítva?",
+      "a": [
+        "nyolc evezőst",
+        "négy evezőst",
+        "hat evezőst",
+        "tíz evezőst"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nyolcas evezős egységben nyolc evezős dolgozik együtt, plusz egy kormányos irányítja őket.",
+      "t": "evezés"
     }
   ]
 }

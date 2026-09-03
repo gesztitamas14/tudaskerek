@@ -1050,6 +1050,1176 @@
       "d": "medium",
       "e": "Advent négy vasárnapján egyre több gyertya ég, jelezve a karácsony közeledtét.",
       "t": "ünnepi szokások"
+    },
+    {
+      "q": "Mit jelent az advent szó eredeti latin megfelelője?",
+      "a": [
+        "eljövetel",
+        "megváltás",
+        "bűnbánat",
+        "feltámadás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az \"adventus\" latinul eljövetelt jelent, a karácsonyi ünnepre való várakozás idejét jelöli.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Hány gyertyát gyújtanak meg összesen az adventi koszorún karácsonyig?",
+      "a": [
+        "négyet",
+        "hármat",
+        "ötöt",
+        "hatot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az adventi koszorún négy gyertya van, minden adventi vasárnapon eggyel több ég.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Melyik napon ünneplik a keresztények Vízkeresztet?",
+      "a": [
+        "január 6.",
+        "január 1.",
+        "december 25.",
+        "február 2."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Vízkereszt (Epifánia) január 6-án van.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "A nyugati kereszténységben mit ünnepelnek elsősorban Vízkereszt (január 6.) napján?",
+      "a": [
+        "a napkeleti bölcsek látogatását Jézusnál",
+        "Jézus születését",
+        "Jézus feltámadását",
+        "Jézus megkeresztelkedését"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nyugati hagyományban Vízkereszt a napkeleti bölcsek (háromkirályok) látogatásának emléknapja.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Húsvét után hányadik napra esik pünkösd?",
+      "a": [
+        "az 50.",
+        "a 40.",
+        "a 30.",
+        "a 60."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pünkösd húsvét utáni ötvenedik napra esik, innen ered a görög eredetű elnevezés is.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Mit ünnepel a kereszténység pünkösd napján?",
+      "a": [
+        "a Szentlélek kiáradását az apostolokra",
+        "Jézus mennybemenetelét",
+        "Jézus születését",
+        "Mária mennybevitelét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Pünkösdkor a Szentlélek apostolokra való kiáradását ünneplik, amit az egyház születésnapjának is tartanak.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Húsvét után hány nappal van Áldozócsütörtök, Jézus mennybemenetelének ünnepe?",
+      "a": [
+        "40 nappal",
+        "50 nappal",
+        "30 nappal",
+        "60 nappal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Áldozócsütörtök húsvét utáni negyvenedik napra esik.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Melyik nappal kezdődik a katolikus egyházban a negyven napos nagyböjt időszaka?",
+      "a": [
+        "Hamvazószerdával",
+        "Virágvasárnappal",
+        "Nagypéntekkel",
+        "Advent első vasárnapjával"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A nagyböjt Hamvazószerdán kezdődik, és húsvétig, negyven napon át tart.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Milyen eseményre emlékezünk virágvasárnap?",
+      "a": [
+        "Jézus bevonulására Jeruzsálembe",
+        "Jézus keresztre feszítésére",
+        "Jézus feltámadására",
+        "az utolsó vacsorára"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Virágvasárnap Jézus Jeruzsálembe való ünnepélyes bevonulásának emléknapja.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Melyik napon van Mindenszentek ünnepe a katolikus egyházban?",
+      "a": [
+        "november 1.",
+        "november 2.",
+        "október 31.",
+        "november 11."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Mindenszentek napja november 1., amikor az összes szentre emlékeznek.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Milyen elnevezéssel illetik november 2-át a keresztény hagyományban?",
+      "a": [
+        "Halottak napja",
+        "Mindenszentek",
+        "Nagyböjt kezdete",
+        "Úrnapja"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "November 2. a Halottak napja, az elhunytakról való megemlékezés napja, egy nappal Mindenszentek után.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Melyik keresztény ünnepet tartják pünkösd utáni második csütörtökön, Krisztus testének és vérének szentségére emlékezve?",
+      "a": [
+        "Úrnapja",
+        "Áldozócsütörtök",
+        "Nagycsütörtök",
+        "Advent első vasárnapja"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Úrnapja (Corpus Christi) pünkösd utáni második csütörtökön van, az Oltáriszentséget ünneplik ezen a napon.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Hány ágú a hanuka ünnepén használt gyertyatartó, a hanukija?",
+      "a": [
+        "kilenc",
+        "hét",
+        "tíz",
+        "hat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hanukija nyolc gyertyaágból és egy \"szolga\" (sámesz) ágból áll, összesen kilenc ágú.",
+      "t": "zsidó ünnepek"
+    },
+    {
+      "q": "Hány napig tart a zsidó hanuka ünnepe?",
+      "a": [
+        "nyolc napig",
+        "hét napig",
+        "tíz napig",
+        "három napig"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hanuka a fény nyolcnapos zsidó ünnepe.",
+      "t": "zsidó ünnepek"
+    },
+    {
+      "q": "Mit ünnepel a zsidóság a hanuka napjain?",
+      "a": [
+        "a jeruzsálemi templom újraszentelését a makkabeusok győzelme után",
+        "a kivonulást Egyiptomból",
+        "a Tízparancsolat átvételét",
+        "Izrael állam megalapítását"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hanuka a jeruzsálemi templom Kr. e. 165-ös újraszentelésének emlékünnepe a makkabeusok győzelme után.",
+      "t": "zsidó ünnepek"
+    },
+    {
+      "q": "Hogyan nevezik a zsidó vallás legszentebb, teljes böjttel járó napját, az engesztelés napját?",
+      "a": [
+        "Jom Kipur",
+        "Ros Hásáná",
+        "Szukot",
+        "Pészah"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Jom Kipur a zsidó naptár legszentebb napja, amelyet teljes böjttel tartanak meg.",
+      "t": "zsidó ünnepek"
+    },
+    {
+      "q": "Mi a neve a zsidó újévnek?",
+      "a": [
+        "Ros Hásáná",
+        "Jom Kipur",
+        "Purim",
+        "Sávuot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ros Hásáná a zsidó naptár szerinti újév ünnepe.",
+      "t": "zsidó ünnepek"
+    },
+    {
+      "q": "Melyik zsidó ünnep emlékezik az egyiptomi kivonulásra?",
+      "a": [
+        "Pészah",
+        "Hanuka",
+        "Purim",
+        "Szukot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pészah a zsidó nép egyiptomi rabszolgaságból való szabadulásának emlékünnepe.",
+      "t": "zsidó ünnepek"
+    },
+    {
+      "q": "Az iszlám naptár melyik hónapjában tartják a napkeltétől napnyugtáig tartó böjtöt?",
+      "a": [
+        "a ramadán hónapban",
+        "a savval hónapban",
+        "a muharram hónapban",
+        "a zu-l-hidzsa hónapban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A ramadán az iszlám naptár böjti hónapja.",
+      "t": "iszlám ünnepek"
+    },
+    {
+      "q": "Melyik ünnep zárja le a ramadáni böjti hónapot az iszlámban?",
+      "a": [
+        "az Eid al-Fitr",
+        "az Eid al-Adha",
+        "az Aszúra",
+        "a Mirádzs"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Eid al-Fitr a ramadán végét jelző, böjttörő ünnep.",
+      "t": "iszlám ünnepek"
+    },
+    {
+      "q": "Mit szimbolizál az iszlám áldozati ünnepe, az Eid al-Adha?",
+      "a": [
+        "Ábrahám engedelmességét, aki kész volt feláldozni a fiát Istennek",
+        "Mohamed próféta születését",
+        "a mekkai zarándoklat kezdetét",
+        "a Korán kinyilatkoztatásának kezdetét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Eid al-Adha Ábrahám próféta engedelmességét ünnepli, aki kész volt feláldozni fiát Isten parancsára.",
+      "t": "iszlám ünnepek"
+    },
+    {
+      "q": "Melyik két ünnep számít az iszlám naptár két legfontosabb ünnepének?",
+      "a": [
+        "az Eid al-Fitr és az Eid al-Adha",
+        "az Aszúra és a Mirádzs",
+        "a ramadán és a Mirádzs",
+        "az Aszúra és az Eid al-Fitr"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az iszlám két legnagyobb ünnepe a böjt utáni Eid al-Fitr és az áldozati ünnep, az Eid al-Adha.",
+      "t": "iszlám ünnepek"
+    },
+    {
+      "q": "Milyen naptár okozza, hogy a ramadán kezdete évről évre korábbra csúszik a Gergely-naptárhoz képest?",
+      "a": [
+        "az iszlám holdnaptár",
+        "a napnaptár",
+        "a luniszoláris naptár",
+        "a julián naptár"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az iszlám holdnaptár éve rövidebb a napévnél, ezért a ramadán a Gergely-naptárhoz képest évente korábbra csúszik.",
+      "t": "iszlám ünnepek"
+    },
+    {
+      "q": "Mit jelent az \"iftár\" szó a ramadáni böjt kapcsán?",
+      "a": [
+        "a napi böjt esti megtörését, étkezést napnyugtakor",
+        "a hajnali étkezést böjt kezdete előtt",
+        "a ramadán utolsó napját",
+        "a mecsetben tartott esti imát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az iftár a napnyugtakor elfogyasztott étkezés, amellyel a muszlimok megtörik napi böjtjüket ramadán idején.",
+      "t": "iszlám ünnepek"
+    },
+    {
+      "q": "Mit szimbolizál a hindu Diwali, a fények ünnepe?",
+      "a": [
+        "a világosság győzelmét a sötétség, a jó győzelmét a rossz felett",
+        "a monszuneső kezdetét",
+        "az új gazdasági év kezdetét",
+        "a Gangesz megtisztulását"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Diwali a fény sötétség feletti, illetve a jó rossz feletti győzelmét jelképezi.",
+      "t": "hindu és buddhista ünnepek"
+    },
+    {
+      "q": "Hány napig tart hagyományosan a hindu Diwali fényünnep?",
+      "a": [
+        "öt napig",
+        "három napig",
+        "hét napig",
+        "tíz napig"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Diwalit hagyományosan öt napon át ünneplik.",
+      "t": "hindu és buddhista ünnepek"
+    },
+    {
+      "q": "Melyik hindu ünnepen szokás egymást élénk színű porfestékkel bekenni?",
+      "a": [
+        "Holi",
+        "Diwali",
+        "Navaratri",
+        "Ganésh Csaturthi"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Holi a színek hindu fesztiválja, amelyen az emberek színes porral dobálják be egymást.",
+      "t": "hindu és buddhista ünnepek"
+    },
+    {
+      "q": "Mit jelképez a Holi ünnepén meggyújtott máglya, Holika elégetése?",
+      "a": [
+        "a jó győzelmét a gonosz démon felett",
+        "a téli hónapok végét",
+        "az esős évszak kezdetét",
+        "egy uralkodó halálát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hagyomány szerint a máglya Holika démon pusztulását és ezzel a jó gonosz feletti győzelmét jelképezi.",
+      "t": "hindu és buddhista ünnepek"
+    },
+    {
+      "q": "Melyik ünnepen emlékeznek meg egyetlen napon Buddha születéséről, megvilágosodásáról és haláláról is?",
+      "a": [
+        "a Vészák (Vesak)",
+        "a Szongkrán",
+        "a Loj Krathong",
+        "az Aszalha Puja"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A théraváda buddhizmusban a Vészák egyetlen napon ünnepli Buddha életének mindhárom fő eseményét.",
+      "t": "hindu és buddhista ünnepek"
+    },
+    {
+      "q": "Milyen naptári jelenséghez igazítják a Vészák, a Buddha-ünnep időpontját?",
+      "a": [
+        "a telihold napjához",
+        "a tavaszi napéjegyenlőséghez",
+        "az újholdhoz",
+        "a nyári napfordulóhoz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Vészák időpontját nem rögzített naptári naphoz, hanem a teliholdhoz igazítják.",
+      "t": "hindu és buddhista ünnepek"
+    },
+    {
+      "q": "Melyik hindu isten tiszteletére rendezik Indiában a Ganésh Csaturthi ünnepét?",
+      "a": [
+        "Ganésa",
+        "Siva",
+        "Visnu",
+        "Krisna"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Ganésh Csaturthi az elefántfejű Ganésa isten tiszteletére tartott ünnep.",
+      "t": "hindu és buddhista ünnepek"
+    },
+    {
+      "q": "Hány éjszakán át tart a hindu Navaratri fesztivál, ahogy a neve is mutatja?",
+      "a": [
+        "kilenc éjszakán át",
+        "hét éjszakán át",
+        "tíz éjszakán át",
+        "öt éjszakán át"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A \"navaratri\" szanszkrit szó jelentése \"kilenc éjszaka\".",
+      "t": "hindu és buddhista ünnepek"
+    },
+    {
+      "q": "Hány éves ciklusban ismétlődnek a kínai állatövi jegyek?",
+      "a": [
+        "12 éves ciklusban",
+        "10 éves ciklusban",
+        "8 éves ciklusban",
+        "24 éves ciklusban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kínai állatöv tizenkét éves ciklusban ismétlődő, tizenkét állatból áll.",
+      "t": "kelet-ázsiai ünnepek"
+    },
+    {
+      "q": "Milyen típusú naptár határozza meg a kínai holdújév időpontját?",
+      "a": [
+        "luniszoláris, hold- és napciklust ötvöző naptár",
+        "tisztán holdnaptár",
+        "tisztán napnaptár",
+        "a Gergely-naptár"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kínai újév dátumát a hold- és napciklusokat is figyelembe vevő luniszoláris naptár szabja meg, ezért évente változik.",
+      "t": "kelet-ázsiai ünnepek"
+    },
+    {
+      "q": "Melyik thaiföldi ünnepen locsolják meg egymást vízzel az utcákon az újév köszöntésére?",
+      "a": [
+        "a Szongkrán",
+        "a Loj Krathong",
+        "a Vészák",
+        "a Yi Peng"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Szongkrán a thai újév, amelyet vízzel való locsolkodással ünnepelnek áprilisban.",
+      "t": "kelet-ázsiai ünnepek"
+    },
+    {
+      "q": "Melyik thaiföldi fényünnepen bocsátanak lótuszvirág formájú, gyertyával díszített kis tutajokat a folyóvízre, hogy elengedjék a rossz szerencsét?",
+      "a": [
+        "a Loj Krathong",
+        "a Szongkrán",
+        "a Vészák",
+        "a Yi Peng"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Loj Krathong ünnepén díszes kis tutajokat úsztatnak a vízen, hogy elengedjék az elmúlt év rossz szerencséjét.",
+      "t": "kelet-ázsiai ünnepek"
+    },
+    {
+      "q": "Melyik kelet-ázsiai betakarítási ünnepet tartják a nyolcadik holdhónap 15. napján, teliholdkor?",
+      "a": [
+        "a közép-őszi fesztivált (Holdünnepet)",
+        "a Dragon Boat fesztivált",
+        "a Qingming ünnepet",
+        "a tavaszi vízöntő ünnepet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A közép-őszi fesztivált Kínában és több kelet-ázsiai országban a nyolcadik holdhónap 15. napján, teliholdkor tartják.",
+      "t": "kelet-ázsiai ünnepek"
+    },
+    {
+      "q": "Melyik jelképes süteményt fogyasztják hagyományosan a kínai közép-őszi fesztiválon?",
+      "a": [
+        "holdsüteményt (mooncake)",
+        "rizstésztát",
+        "sárkánygaluskát (zongzit)",
+        "tavaszi tekercset"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A holdsütemény a kínai közép-őszi fesztivál jellegzetes, kerek formájú süteménye.",
+      "t": "kelet-ázsiai ünnepek"
+    },
+    {
+      "q": "Az Amerikai Egyesült Államokban november melyik napján tartják a hálaadás ünnepét?",
+      "a": [
+        "november negyedik csütörtökén",
+        "november első hétfőjén",
+        "november 11-én",
+        "november utolsó péntekén"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az amerikai hálaadás napja november negyedik csütörtökje.",
+      "t": "amerikai ünnepek"
+    },
+    {
+      "q": "Kanadában melyik hónapban tartják a hálaadás napját, egy hónappal korábban, mint az Egyesült Államokban?",
+      "a": [
+        "októberben",
+        "szeptemberben",
+        "novemberben",
+        "decemberben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kanadai hálaadás október második hétfőjén van, korábban, mint az amerikai.",
+      "t": "amerikai ünnepek"
+    },
+    {
+      "q": "Melyik ősi kelta ünnepből eredeztetik a Halloween szokásait?",
+      "a": [
+        "a Samhain",
+        "a Beltane",
+        "a Lughnasadh",
+        "az Imbolc"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Halloween a kelta Samhain nevű őszi ünnepből ered.",
+      "t": "amerikai ünnepek"
+    },
+    {
+      "q": "Mexikóban melyik napokra esik a Halottak Napja (Día de los Muertos)?",
+      "a": [
+        "november 1-2.",
+        "október 31.",
+        "december 2.",
+        "november 11."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mexikói Halottak Napját november 1-2-án tartják.",
+      "t": "amerikai ünnepek"
+    },
+    {
+      "q": "Milyen jelképes tárgyat állítanak fel a mexikói Halottak Napján az elhunytak tiszteletére?",
+      "a": [
+        "díszes oltárt (ofrenda) fényképekkel és kedvenc ételekkel",
+        "gyertyás töklámpást",
+        "papírsárkányt",
+        "kis fenyőfát ajándékokkal"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ofrenda az elhunytak fényképeivel, kedvenc ételeivel díszített emlékoltár a mexikói ünnepen.",
+      "t": "amerikai ünnepek"
+    },
+    {
+      "q": "Melyik csata győzelmét ünnepli Mexikóban a Cinco de Mayo (május 5.)?",
+      "a": [
+        "az 1862-es pueblai csatát a francia csapatok felett",
+        "Mexikó függetlenségének kikiáltását",
+        "a mexikói forradalom kezdetét",
+        "a spanyol hódítók kiűzését"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Cinco de Mayo az 1862. május 5-i pueblai csatában aratott mexikói győzelemre emlékezik, nem Mexikó függetlenségi napja.",
+      "t": "amerikai ünnepek"
+    },
+    {
+      "q": "Melyik napon ünneplik Mexikó függetlenségének kikiáltását, amit gyakran összekevernek a Cinco de Mayóval?",
+      "a": [
+        "szeptember 16-án",
+        "május 5-én",
+        "szeptember 15-én",
+        "november 20-án"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mexikó függetlenségi napja szeptember 16., nem azonos a Cinco de Mayóval.",
+      "t": "amerikai ünnepek"
+    },
+    {
+      "q": "Melyik amerikai ünnepnapon szokás jelmezbe öltözni és \"csokit vagy csalunk\" felkiáltással házalni?",
+      "a": [
+        "Halloweenkor",
+        "Hálaadáskor",
+        "Cinco de Mayókor",
+        "a Munkások napján"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Halloweenkor, október 31-én szokás jelmezben házról házra járva édességet gyűjteni.",
+      "t": "amerikai ünnepek"
+    },
+    {
+      "q": "Melyik szentnek a tiszteletére tartják március 17-én Írország nemzeti ünnepét?",
+      "a": [
+        "Szent Patriknak",
+        "Szent Brigittának",
+        "Szent Kolumbának",
+        "Szent Györgynek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Március 17. Szent Patrik, Írország védőszentjének napja.",
+      "t": "európai népünnepek"
+    },
+    {
+      "q": "Milyen történelmi eseményre emlékeznek a francia nemzeti ünnepen, július 14-én?",
+      "a": [
+        "a párizsi Bastille börtön 1789-es ostromára",
+        "a francia forradalom végére",
+        "XVI. Lajos kivégzésére",
+        "Napóleon trónra lépésére"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Bastille-nap az 1789-es párizsi Bastille-ostromra emlékezik, a francia forradalom kezdő eseményére.",
+      "t": "európai népünnepek"
+    },
+    {
+      "q": "Melyik bajor városban rendezik meg minden ősszel a világ egyik legnagyobb sörfesztiválját, az Oktoberfestet?",
+      "a": [
+        "Münchenben",
+        "Berlinben",
+        "Bécsben",
+        "Nürnbergben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Oktoberfestet Münchenben tartják évente.",
+      "t": "európai népünnepek"
+    },
+    {
+      "q": "Milyen esemény nyomán alakult ki hagyományként a müncheni Oktoberfest megrendezése?",
+      "a": [
+        "I. Lajos bajor király és Terézia hercegnő 1810-es esküvői ünnepsége",
+        "egy középkori aratóünnep",
+        "a bajor sörfőzés feltalálásának emléknapja",
+        "egy 19. századi háborús győzelem"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Oktoberfest az 1810-es királyi esküvő ünnepségéből nőtte ki magát évenkénti hagyománnyá.",
+      "t": "európai népünnepek"
+    },
+    {
+      "q": "Melyik brit ünnepen gyújtanak hagyományosan máglyát egy 1605-ös parlamenti robbantási kísérlet emlékére?",
+      "a": [
+        "a Guy Fawkes-éjszakán (Bonfire Night, november 5.)",
+        "karácsony estéjén",
+        "Szent György napján",
+        "május elsején"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1605-ben Guy Fawkes és társai megpróbálták felrobbantani a brit parlamentet; a kudarcot ma is máglyákkal ünneplik.",
+      "t": "európai népünnepek"
+    },
+    {
+      "q": "A skandináv országokban mikor tartják a nyári napfordulóhoz kötődő nagy népünnepet, a napközepét (Midsommar)?",
+      "a": [
+        "június végén, a nyári napforduló körül",
+        "december végén, a téli napforduló körül",
+        "márciusban, a tavaszi napéjegyenlőségkor",
+        "szeptemberben, az őszi napéjegyenlőségkor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Midsommart Svédországban és Finnországban a nyári napforduló idején, június végén ünneplik.",
+      "t": "európai népünnepek"
+    },
+    {
+      "q": "Milyen eredetű ünnep május elseje, amely ma sok országban a munka ünnepe is?",
+      "a": [
+        "ősi tavaszköszöntő népünnep, amelyhez a 19. század végén társult a munkások ünnepe",
+        "középkori egyházi búcsúnap",
+        "20. századi olimpiai esemény",
+        "ókori római hadi győzelem emléknapja"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Május elseje ősi tavaszünnepként kezdődött, a munkások nemzetközi ünnepévé a 19. század végén vált.",
+      "t": "európai népünnepek"
+    },
+    {
+      "q": "A híres riói karnevált Brazíliában melyik keresztény időszak kezdete előtt rendezik meg?",
+      "a": [
+        "a nagyböjt kezdete előtt",
+        "az advent kezdete előtt",
+        "pünkösd előtt",
+        "Mindenszentek előtt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A riói karnevál a nagyböjt kezdete, Hamvazószerda előtt zajlik.",
+      "t": "európai népünnepek"
+    },
+    {
+      "q": "Melyik évben zajlott az a forradalom, amelynek kezdetére március 15-én emlékezünk Magyarországon?",
+      "a": [
+        "1848-ban",
+        "1849-ben",
+        "1867-ben",
+        "1918-ban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az 1848-as forradalom kitörésének napja március 15.",
+      "t": "magyar állami ünnepek"
+    },
+    {
+      "q": "Augusztus 20-a Magyarországon egyszerre állami ünnep és melyik egyházi ünnepnap?",
+      "a": [
+        "Szent István király ünnepe",
+        "Nagyboldogasszony ünnepe",
+        "Szent László napja",
+        "Szent Márton napja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Augusztus 20. Szent István király ünnepe, amely egyben állami ünnep is.",
+      "t": "magyar állami ünnepek"
+    },
+    {
+      "q": "Milyen jelképes ereklyét visznek hagyományosan körmenetben augusztus 20-án Magyarországon?",
+      "a": [
+        "a Szent Jobbot",
+        "a Szent Koronát",
+        "a koronázási palástot",
+        "Szent István kardját"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Augusztus 20-án a Szent Jobb, Szent István ereklyéjének körmenete a hagyomány.",
+      "t": "magyar állami ünnepek"
+    },
+    {
+      "q": "Hány hivatalos \"nemzeti ünnepe\" van törvény szerint Magyarországnak?",
+      "a": [
+        "három",
+        "kettő",
+        "négy",
+        "öt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Magyarországon törvény szerint három nemzeti ünnep van: március 15., augusztus 20. és október 23.",
+      "t": "magyar állami ünnepek"
+    },
+    {
+      "q": "Október 23. Magyarországon melyik két történelmi esemény közös emléknapja?",
+      "a": [
+        "az 1956-os forradalom kitörése és az 1989-es köztársaság kikiáltása",
+        "az 1848-as forradalom és az 1867-es kiegyezés",
+        "a trianoni békeszerződés és a rendszerváltás kezdete",
+        "az 1918-as forradalom és 1956"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Október 23-án egyszerre emlékezünk az 1956-os forradalom kitörésére és az 1989-es köztársaság kikiáltására.",
+      "t": "magyar állami ünnepek"
+    },
+    {
+      "q": "Melyik napot nyilvánították Magyarországon a munka ünnepének, amely nem tartozik a három nemzeti ünnep közé?",
+      "a": [
+        "május 1-jét",
+        "szeptember 1-jét",
+        "október 1-jét",
+        "június 1-jét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Május 1. a munka ünnepe Magyarországon, munkaszüneti nap, de nem az egyik hivatalos nemzeti ünnep.",
+      "t": "magyar állami ünnepek"
+    },
+    {
+      "q": "Milyen tárgyat kezdtek el hagyományosan december 13-án, Luca napján készíteni, hogy karácsonyra elkészüljön?",
+      "a": [
+        "a Luca-széket",
+        "a betlehemi jászolt",
+        "a karácsonyfadíszt",
+        "a mézeskalácsházat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Luca-széket december 13-tól kezdték faragni, szög nélkül, hogy karácsonyra elkészüljön.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Mire szolgált a néphit szerint a Luca-székre állás a karácsonyi éjféli misén?",
+      "a": [
+        "hogy felismerjék, ki a boszorkány a faluban",
+        "hogy jó termést jósoljanak",
+        "hogy megtudják, ki házasodik hamarosan",
+        "hogy távol tartsák a rontást a portától"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A néphit szerint a Luca-székről állva fel lehetett ismerni a templomban a boszorkányokat.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Melyik november 11-i szokáshoz kötődik a \"libanapi\" elnevezés a magyar hagyományban?",
+      "a": [
+        "Márton napjához",
+        "Katalin napjához",
+        "András napjához",
+        "Erzsébet napjához"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Márton napján, november 11-én hagyományosan libát esznek Magyarországon.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Milyen népi időjárás-jóslás fűződik Márton napjához?",
+      "a": [
+        "ha Márton fehér lovon érkezik, azaz havazik, kemény telet várnak",
+        "ha esik az eső, enyhe tél jön",
+        "ha köd van, korai tavasz várható",
+        "ha derült az idő, aszályos nyár jön"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A néphagyomány szerint, ha Márton napján havazik (fehér lovon jön), kemény tél várható.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Melyik napra esik a torokfájás elleni gyertyás áldással járó, Szent Balázshoz kötődő magyar népszokás?",
+      "a": [
+        "február 3-ra",
+        "február 2-ra",
+        "január 6-ra",
+        "március 1-jére"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A balázsolás, a torokfájás elleni gyertyás áldás szokása február 3-ához, Szent Balázs napjához kötődik.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Mi a neve annak a téli-tavaszváltó szokásnak, amikor szalmából font bábut égetnek el vagy dobnak vízbe a tél elűzésére?",
+      "a": [
+        "a kiszebábégetés",
+        "a betlehemezés",
+        "a regölés",
+        "a pünkösdölés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kiszebábégetés a tél jelképes elűzésének magyar népszokása.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Melyik magyar, az UNESCO szellemi kulturális örökségi listáján is szereplő farsangvégi népszokás jár ijesztő, faragott fabábuk viselésével Mohácson?",
+      "a": [
+        "a busójárás",
+        "a kiszehajtás",
+        "a regölés",
+        "a pünkösdölés"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mohácsi busójárás a farsang végi, ijesztő álarcos felvonulás, amely az UNESCO listáján is szerepel.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Karácsony és vízkereszt közötti időszakban mely fiatal legények járták régen a házakat sámáni eredetű énekekkel?",
+      "a": [
+        "a regösök",
+        "a betlehemesek",
+        "a háromkirályok",
+        "Balázs vitézei"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A regölés szokásában a regösök karácsony és vízkereszt között jártak házról házra énekelve.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Milyen szokás kapcsolódik húsvéthétfőn a magyar hagyományban a lányok, asszonyok meglocsolásához?",
+      "a": [
+        "a locsolkodás",
+        "a tojásfestés",
+        "a hímes tojás gurítása",
+        "a kalácssütés"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A locsolkodás húsvéthétfői magyar szokás, eredetileg vízzel, ma inkább kölnivel.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Milyen ünnepi alkalomhoz kötődik hagyományosan a \"pünkösdi királyné\" választása a magyar falvakban?",
+      "a": [
+        "pünkösdhöz",
+        "farsanghoz",
+        "aratáshoz",
+        "Szent Iván-éjhez"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pünkösdi királyné választása pünkösdhöz kötődő hagyományos magyar népszokás.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Melyik napon van a Föld napja, amelyet 1970 óta ünnepelnek világszerte?",
+      "a": [
+        "április 22-én",
+        "június 5-én",
+        "március 22-én",
+        "október 4-én"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Föld napját április 22-én tartják 1970 óta.",
+      "t": "világnapok"
+    },
+    {
+      "q": "Melyik napra esik a Víz világnapja?",
+      "a": [
+        "március 22-re",
+        "április 22-re",
+        "március 8-ra",
+        "június 8-ra"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Víz világnapja március 22.",
+      "t": "világnapok"
+    },
+    {
+      "q": "Március 8-a a naptárban melyik nemzetközi emléknap?",
+      "a": [
+        "a nemzetközi nőnap",
+        "a gyermekek világnapja",
+        "a családok napja",
+        "a béke világnapja"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Március 8. a nemzetközi nőnap.",
+      "t": "világnapok"
+    },
+    {
+      "q": "Melyik nemzetközi szervezet 1948-as megalapításának napjához igazították az Egészségügyi Világnapot (április 7.)?",
+      "a": [
+        "az Egészségügyi Világszervezethez (WHO)",
+        "az ENSZ-hez",
+        "a Vöröskereszthez",
+        "az UNICEF-hez"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Egészségügyi Világnapot a WHO 1948-as megalapításának évfordulójára, április 7-ére időzítették.",
+      "t": "világnapok"
+    },
+    {
+      "q": "Melyik napon van a Környezetvédelmi Világnap?",
+      "a": [
+        "június 5-én",
+        "április 22-én",
+        "szeptember 16-án",
+        "október 4-én"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Környezetvédelmi Világnap június 5.",
+      "t": "világnapok"
+    },
+    {
+      "q": "Melyik állatokhoz köthető emléknapot ülik meg október 4-én, Assisi Szent Ferenc emléknapjához igazítva?",
+      "a": [
+        "az állatok világnapját",
+        "a természetvédelem világnapját",
+        "a környezetvédelem világnapját",
+        "az erdők világnapját"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az állatok világnapja október 4., Assisi Szent Ferenc, az állatok védőszentjének emléknapján van.",
+      "t": "világnapok"
+    },
+    {
+      "q": "Mit ünnepelnek világszerte december 10-én, az ENSZ Közgyűlésének 1948-as nyilatkozatára emlékezve?",
+      "a": [
+        "az emberi jogok napját",
+        "a demokrácia nemzetközi napját",
+        "a tolerancia nemzetközi napját",
+        "a béke világnapját"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1948. december 10-én fogadták el az Emberi Jogok Egyetemes Nyilatkozatát, ennek emlékére van ezen a napon az emberi jogok napja.",
+      "t": "világnapok"
+    },
+    {
+      "q": "Melyik napon van a könyvek és a szerzői jogok világnapja?",
+      "a": [
+        "április 23-án",
+        "március 3-án",
+        "október 1-jén",
+        "szeptember 8-án"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A könyvek és a szerzői jogok világnapja április 23.",
+      "t": "világnapok"
+    },
+    {
+      "q": "Mikortól meddig tart hagyományosan a farsang időszaka Magyarországon?",
+      "a": [
+        "vízkereszttől (január 6.) hamvazószerdáig",
+        "adventtől karácsonyig",
+        "húsvéttől pünkösdig",
+        "szilvesztertől Balázs napjáig"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A farsang vízkereszttől hamvazószerdáig, a nagyböjt kezdetéig tart.",
+      "t": "farsang és karnevál"
+    },
+    {
+      "q": "Mi a neve a farsang utolsó, legvigalmasabb napjának, amelyet \"húshagyó\"-nak is neveznek?",
+      "a": [
+        "húshagyókedd",
+        "Hamvazószerda",
+        "virágvasárnap",
+        "nagycsütörtök"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A húshagyókedd a farsang utolsó, legvidámabb napja, ezt követi Hamvazószerda.",
+      "t": "farsang és karnevál"
+    },
+    {
+      "q": "Milyen édességet sütnek hagyományosan Magyarországon a farsangi időszakban?",
+      "a": [
+        "farsangi fánkot",
+        "bejglit",
+        "kürtőskalácsot",
+        "mézeskalácsot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A farsangi fánk a farsang időszakának jellegzetes magyar süteménye.",
+      "t": "farsang és karnevál"
+    },
+    {
+      "q": "Melyik olasz városban rendezik a világ egyik leghíresebb, álarcos karneválját?",
+      "a": [
+        "Velencében",
+        "Firenzében",
+        "Rómában",
+        "Nápolyban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A velencei karnevál a világ egyik leghíresebb, álarcos felvonulásokkal járó karneválja.",
+      "t": "farsang és karnevál"
+    },
+    {
+      "q": "Mi a \"karnevál\" szó feltételezett eredeti, latin jelentése?",
+      "a": [
+        "\"hús, ég veled\" (a húsevés böjt előtti búcsúztatása)",
+        "\"vidám menet\"",
+        "\"álarcos tánc\"",
+        "\"tavaszi ünnep\""
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A karnevál szó a latin \"carne vale\" (\"hús, ég veled\") kifejezésből eredhet, a böjt előtti húsevés búcsúztatására utalva.",
+      "t": "farsang és karnevál"
+    },
+    {
+      "q": "A hagyomány szerint melyik évben koronázták Magyarország első királyává Szent Istvánt?",
+      "a": [
+        "1000-ben",
+        "896-ban",
+        "1038-ban",
+        "1526-ban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hagyomány Szent István koronázását 1000 karácsonyára teszi, ehhez kötődik augusztus 20. is.",
+      "t": "ünnepi évfordulók"
+    },
+    {
+      "q": "Melyik évben kiáltották ki a Harmadik Magyar Köztársaságot, amelynek évfordulója ma is október 23.?",
+      "a": [
+        "1989-ben",
+        "1990-ben",
+        "1991-ben",
+        "1956-ban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Harmadik Magyar Köztársaságot 1989. október 23-án kiáltották ki.",
+      "t": "ünnepi évfordulók"
+    },
+    {
+      "q": "Melyik évben alapította Maulana Karenga a Kwanzaa ünnepét az afroamerikai közösség számára?",
+      "a": [
+        "1966-ban",
+        "1954-ben",
+        "1976-ban",
+        "1988-ban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Maulana Karenga 1966-ban hozta létre a Kwanzaa ünnepét.",
+      "t": "ünnepi évfordulók"
+    },
+    {
+      "q": "Mikor vették fel a mohácsi busójárást az UNESCO szellemi kulturális örökségi listájára?",
+      "a": [
+        "2009-ben",
+        "1999-ben",
+        "2015-ben",
+        "1985-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A busójárást 2009-ben vették fel az UNESCO listájára, az első magyar tételként.",
+      "t": "ünnepi évfordulók"
+    },
+    {
+      "q": "Hány alapelvre, úgynevezett Nguzo Sabára épül a Kwanzaa ünnepe?",
+      "a": [
+        "hétre",
+        "ötre",
+        "kilencre",
+        "tízre"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kwanzaa hét napja hét alapelvhez, a Nguzo Sabához kapcsolódik.",
+      "t": "afrikai és kulturális ünnepek"
+    },
+    {
+      "q": "Melyik nyelvből származik a Kwanzaa elnevezés, amely nagyjából \"az első termést\" jelenti?",
+      "a": [
+        "a szuahéli nyelvből",
+        "az arab nyelvből",
+        "a jorubából",
+        "az amhara nyelvből"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A \"kwanzaa\" a szuahéli \"matunda ya kwanza\" (az első termések) kifejezésből ered.",
+      "t": "afrikai és kulturális ünnepek"
+    },
+    {
+      "q": "December 26. és január 1. között tartják meg melyik afroamerikai kulturális ünnepet?",
+      "a": [
+        "a Kwanzaát",
+        "a Junteenth ünnepét",
+        "a Fekete Történelem Hónapját",
+        "az Emancipation Day-t"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Kwanzaát december 26. és január 1. között ünneplik.",
+      "t": "afrikai és kulturális ünnepek"
     }
   ]
 }

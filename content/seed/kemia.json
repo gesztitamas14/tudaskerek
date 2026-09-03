@@ -1327,6 +1327,916 @@
       "d": "medium",
       "e": "A hemoglobinhoz kötődve megakadályozza az oxigén szállítását, ezért szagtalanul is életveszélyes.",
       "t": "környezeti kémia"
+    },
+    {
+      "q": "Mi a háztartási ecet fő aktív összetevője, amely a savas ízét adja?",
+      "a": [
+        "Ecetsav",
+        "Citromsav",
+        "Kénsav",
+        "Sósav"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A háztartási ecet jellemzően 4-8% ecetsavat tartalmaz vízben oldva.",
+      "t": "mindennapi anyagok"
+    },
+    {
+      "q": "Milyen vegyület felelős a rozsda jellegzetes vörösesbarna színéért?",
+      "a": [
+        "Vas(III)-oxid-hidrát",
+        "Vas(II)-szulfid",
+        "Vas-karbonát",
+        "Vas-nitrid"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vas oxigénnel és vízzel reagálva vas(III)-oxid-hidráttá alakul, ez adja a rozsda színét.",
+      "t": "mindennapi anyagok"
+    },
+    {
+      "q": "Melyik gáz okozza a szénsavas üdítőitalok pezsgését?",
+      "a": [
+        "Szén-dioxid",
+        "Oxigén",
+        "Nitrogén",
+        "Hidrogén"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az üdítőket nyomás alatt szén-dioxiddal telítik, ami kinyitáskor buborékok formájában távozik.",
+      "t": "mindennapi anyagok"
+    },
+    {
+      "q": "Miért képes a szappan a vízzel keverve eltávolítani a zsíros szennyeződést?",
+      "a": [
+        "Mert molekulája egyik vége vízkedvelő, másik vége zsírkedvelő, így hidat képez köztük",
+        "Mert molekulája erősen savas, és feloldja a zsír kémiai kötéseit hővel",
+        "Mert molekulája erős mágneses töltéssel rendelkezik, és vonzza a zsírrészecskéket",
+        "Mert molekulája elpárologtatja a zsírt a víz felszínén hő felszabadításával"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szappanmolekula amfipatikus: poláris feje vízben, apoláris farka a zsírban oldódik, így emulziót képez.",
+      "t": "mindennapi anyagok"
+    },
+    {
+      "q": "Mi váltja ki a könnyezést hagyma vágásakor?",
+      "a": [
+        "Illékony kénvegyületek, amelyek a szemben irritáló anyaggá alakulnak",
+        "Illékony nitrogénvegyületek, amelyek a levegőn azonnal megkeményednek",
+        "Illékony foszforvegyületek, amelyek a bőrön hőt fejlesztenek",
+        "Illékony klórvegyületek, amelyek erős lúgos oldatot képeznek a szemben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hagyma sejtjeiből felszabaduló kénvegyület a könny nedvességével reagálva irritáló anyaggá alakul.",
+      "t": "mindennapi anyagok"
+    },
+    {
+      "q": "Milyen ásványi anyagok teszik \"keménnyé\" a vizet?",
+      "a": [
+        "Kalcium- és magnéziumionok",
+        "Nátrium- és káliumionok",
+        "Vas- és cinkionok",
+        "Alumínium- és réz ionok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A vízkeménységet elsősorban az oldott kalcium- és magnéziumsók mennyisége határozza meg.",
+      "t": "mindennapi anyagok"
+    },
+    {
+      "q": "Miért habosodik meg a tészta a sütőporral sütés közben?",
+      "a": [
+        "Mert a sütőpor hő hatására szén-dioxid gázt szabadít fel",
+        "Mert a sütőpor hő hatására vízgőzt köt meg a tésztában",
+        "Mert a sütőpor hő hatására nitrogén gázt fejleszt a tésztában",
+        "Mert a sütőpor hő hatására oxigénnel reagálva megduzzad"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sütőpor (nátrium-hidrogén-karbonát) hő hatására szén-dioxidot fejleszt, ez lazítja meg a tésztát.",
+      "t": "mindennapi anyagok"
+    },
+    {
+      "q": "Miben különbözik kémiailag a barna cukor a finomított fehér cukortól?",
+      "a": [
+        "A barna cukor kevés melaszmaradékot tartalmaz a kristályok felszínén",
+        "A barna cukor egy teljesen más cukormolekulából, fruktózból épül fel",
+        "A barna cukor mesterséges karamellszínezéket tartalmaz minden esetben",
+        "A barna cukor magasabb víztartalmú keményítőt tartalmaz hozzáadva"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A barna cukor lényegében szacharóz, amelyen visszamaradt vagy hozzáadott melasz ad színt és ízt.",
+      "t": "mindennapi anyagok"
+    },
+    {
+      "q": "Mit fejez ki egy oldat pH-értéke?",
+      "a": [
+        "Az oldat savasságának vagy lúgosságának mértékét",
+        "Az oldat sűrűségének mértékét",
+        "Az oldat forráspontjának magasságát",
+        "Az oldat elektromos vezetőképességének erősségét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pH-skála a hidrogénion-koncentráción alapul, és megmutatja, mennyire savas vagy lúgos egy oldat.",
+      "t": "savak és bázisok"
+    },
+    {
+      "q": "Milyen pH-értékű a vegytiszta víz szobahőmérsékleten?",
+      "a": [
+        "7",
+        "0",
+        "10",
+        "14"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A semleges kémhatású víz pH-ja szobahőmérsékleten 7, ez a savas és lúgos tartomány határa.",
+      "t": "savak és bázisok"
+    },
+    {
+      "q": "Melyik sav felelős elsősorban a gyomorban zajló emésztésért?",
+      "a": [
+        "Sósav",
+        "Ecetsav",
+        "Kénsav",
+        "Salétromsav"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gyomornedv sósavat tartalmaz, amely segíti a fehérjék bontását és elpusztítja a kórokozókat.",
+      "t": "savak és bázisok"
+    },
+    {
+      "q": "Milyen színűre változtatja a lakmuszpapírt egy savas oldat?",
+      "a": [
+        "Pirosra",
+        "Kékre",
+        "Zöldre",
+        "Sárgára"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kék lakmuszpapír savas oldatba mártva pirosra vált, ez az egyik legrégebbi sav-teszt.",
+      "t": "savak és bázisok"
+    },
+    {
+      "q": "Mi jellemzi a bázikus (lúgos) oldatokat érintés esetén?",
+      "a": [
+        "Csúszós, szappanos tapintásúak",
+        "Éles, csípős, savanyú illatúak",
+        "Erősen ragacsos, méz állagúak",
+        "Kristályosan száraz, porszerűek"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A lúgos oldatok a bőr zsírjaival reagálva szappanszerű, csúszós réteget képeznek.",
+      "t": "savak és bázisok"
+    },
+    {
+      "q": "Melyik sav adja a citrusfélék (pl. citrom) savanyú ízét?",
+      "a": [
+        "Citromsav",
+        "Tejsav",
+        "Almasav",
+        "Borkősav"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A citrusfélékben nagy mennyiségben található citromsav felelős a jellegzetes savanyú ízért.",
+      "t": "savak és bázisok"
+    },
+    {
+      "q": "Hány szénatomból áll egy metánmolekula?",
+      "a": [
+        "Egy",
+        "Kettő",
+        "Három",
+        "Négy"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A metán (CH4) a legegyszerűbb szénhidrogén, egyetlen szénatommal és négy hidrogénatommal.",
+      "t": "szerves kémia"
+    },
+    {
+      "q": "Melyik alkohol felelős a szeszes italok mámorító hatásáért?",
+      "a": [
+        "Etanol",
+        "Metanol",
+        "Glicerin",
+        "Izopropanol"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A borban és sörben fogyasztott alkohol az etanol, amely erjedéssel keletkezik cukrokból.",
+      "t": "szerves kémia"
+    },
+    {
+      "q": "Mit jelent az, hogy egy vegyület \"szénhidrogén\"?",
+      "a": [
+        "Kizárólag szénből és hidrogénből épül fel",
+        "Kizárólag szénből és oxigénből épül fel",
+        "Kizárólag hidrogénből és nitrogénből épül fel",
+        "Kizárólag szénből és kénből épül fel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szénhidrogének, mint a metán vagy a benzin alkotói, csak szén- és hidrogénatomokat tartalmaznak.",
+      "t": "szerves kémia"
+    },
+    {
+      "q": "Miben tér el kémiailag a telítetlen zsírsav a telített zsírsavtól?",
+      "a": [
+        "A telítetlen zsírsav legalább egy szén-szén kettős kötést tartalmaz a láncában",
+        "A telítetlen zsírsav sokkal hosszabb szénláncból épül fel mindig",
+        "A telítetlen zsírsav csak növényi eredetű lehet, sosem állati",
+        "A telítetlen zsírsav mindig gyűrűs szerkezetű, nem egyenes lánc"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A telítetlen zsírsavak láncában legalább egy kettős kötés van, ezért kevesebb hidrogént tartalmaznak.",
+      "t": "szerves kémia"
+    },
+    {
+      "q": "Mi történik kémiailag az erjedés során, amikor a cukor alkohollá alakul?",
+      "a": [
+        "Mikroorganizmusok oxigén nélkül bontják le a cukrot alkohollá és szén-dioxiddá",
+        "Mikroorganizmusok oxigén jelenlétében égetik el a cukrot vízzé és hővé",
+        "Enzimek fény hatására bontják szét a cukrot fehérjévé és zsírrá",
+        "Baktériumok a cukrot közvetlenül ecetsavvá alakítják hő nélkül"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az alkoholos erjedés anaerob folyamat, amelyben élesztők a cukrot etanollá és CO2-vé bontják.",
+      "t": "szerves kémia"
+    },
+    {
+      "q": "Melyik szerves vegyületcsoportba tartozik az ecetsav a funkciós csoportja alapján?",
+      "a": [
+        "Karbonsavak",
+        "Alkoholok",
+        "Aldehidek",
+        "Észterek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ecetsav karboxilcsoportot (-COOH) tartalmaz, ezért a karbonsavak közé tartozik.",
+      "t": "szerves kémia"
+    },
+    {
+      "q": "Mi jellemzi az exoterm kémiai reakciókat?",
+      "a": [
+        "Hőt adnak le a környezetnek",
+        "Hőt vonnak el a környezetből",
+        "Fényt nyelnek el reakció közben",
+        "Elektromos áramot termelnek mindig"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az exoterm reakciók lezajlása közben hő szabadul fel, amely a környezetbe távozik.",
+      "t": "reakciók"
+    },
+    {
+      "q": "Milyen kémiai folyamat zajlik égéskor?",
+      "a": [
+        "Gyors oxidáció hő és fény felszabadulásával",
+        "Lassú redukció hőelvonással",
+        "Egyszerű halmazállapot-változás égés nélkül",
+        "Ionos kötés kialakulása két fém között"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az égés egy gyors, hőt és fényt termelő oxidációs reakció, amelyhez oxigén szükséges.",
+      "t": "reakciók"
+    },
+    {
+      "q": "Mi a katalizátor szerepe egy kémiai reakcióban?",
+      "a": [
+        "Felgyorsítja a reakciót anélkül, hogy maga elhasználódna",
+        "Lelassítja a reakciót, hogy biztonságosabb legyen",
+        "Növeli a keletkező termék tömegét a reakcióban",
+        "Megváltoztatja a reakció végtermékének összetételét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A katalizátor csökkenti az aktiválási energiát, így gyorsítja a folyamatot, de kémiailag nem fogy el.",
+      "t": "reakciók"
+    },
+    {
+      "q": "Hogyan nevezzük azt a reakciótípust, amikor egy vegyület vízzel reagálva bomlik el?",
+      "a": [
+        "Hidrolízis",
+        "Hidrogénezés",
+        "Hidratáció",
+        "Dehidratáció"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hidrolízis során a víz molekulái bontják fel egy nagyobb vegyület kötéseit.",
+      "t": "reakciók"
+    },
+    {
+      "q": "Mi keletkezik jellemzően, amikor egy sav és egy bázis reagál egymással?",
+      "a": [
+        "Só és víz",
+        "Csak víz",
+        "Csak gáz",
+        "Só és gáz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A semlegesítési reakcióban a sav és a bázis egymást semlegesítve sót és vizet hoz létre.",
+      "t": "reakciók"
+    },
+    {
+      "q": "Miért rozsdásodik gyorsabban a vas sós vízben, mint desztillált vízben?",
+      "a": [
+        "A só növeli a víz elektromos vezetőképességét, ami felgyorsítja a korróziót",
+        "A só megköti a vízben lévő oxigént, ami direkt módon reagál a vas felszínével",
+        "A só lecsökkenti a víz fagyáspontját, ami hidegben gyorsítja a vas bomlását",
+        "A só közvetlenül vas-kloriddá alakítja a fémet egyetlen lépésben azonnal"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A sós víz jobb elektrolit, ez felgyorsítja a vas korróziójának elektrokémiai folyamatát.",
+      "t": "reakciók"
+    },
+    {
+      "q": "Hogyan nevezzük azt a hőmérsékletet, amelyen egy szilárd anyag folyékonnyá válik?",
+      "a": [
+        "Olvadáspont",
+        "Forráspont",
+        "Fagyáspont",
+        "Lobbanáspont"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az olvadáspont az a hőmérséklet, amelyen a szilárd és a folyékony fázis egyensúlyban van.",
+      "t": "anyagjellemzők"
+    },
+    {
+      "q": "Miért úszik a jég a folyékony víz tetején?",
+      "a": [
+        "Mert a jég sűrűsége kisebb, mint a folyékony vízé",
+        "Mert a jég molekulái elektromosan taszítják a vizet",
+        "Mert a jég hőmérséklete melegebb, mint a vízé",
+        "Mert a jég légbuborékokat zár magába mindig"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A víz különleges tulajdonsága, hogy fagyáskor kitágul, így a jég kevésbé sűrű a folyékony víznél.",
+      "t": "anyagjellemzők"
+    },
+    {
+      "q": "Mit jelent az, hogy egy anyag \"illékony\"?",
+      "a": [
+        "Szobahőmérsékleten is könnyen elpárolog",
+        "Csak magas hőmérsékleten olvad meg",
+        "Vízben egyáltalán nem oldódik fel",
+        "Elektromos áramot vezet szilárd állapotban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az illékony anyagoknak alacsony a forráspontjuk, ezért könnyen gőzzé alakulnak szobahőmérsékleten.",
+      "t": "anyagjellemzők"
+    },
+    {
+      "q": "Mi a fő különbség egy keverék és egy vegyület között?",
+      "a": [
+        "A keverék összetevői fizikailag, a vegyületé kémiailag kapcsolódnak",
+        "A keverék mindig folyékony, a vegyület mindig szilárd halmazállapotú",
+        "A keverék csak egyetlen elemből, a vegyület csak fémekből áll",
+        "A keverék elektromosan töltött, a vegyület mindig semleges"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Keverékben az alkotók megőrzik önálló tulajdonságaikat, vegyületben új anyag jön létre kémiai kötéssel.",
+      "t": "anyagjellemzők"
+    },
+    {
+      "q": "Melyik gáz a legnagyobb hozzájáruló az emberi eredetű üvegházhatáshoz?",
+      "a": [
+        "Szén-dioxid",
+        "Hidrogén",
+        "Nitrogén",
+        "Argon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fosszilis tüzelőanyagok égetése óriási mennyiségű szén-dioxidot juttat a légkörbe.",
+      "t": "környezeti kémia"
+    },
+    {
+      "q": "Milyen környezeti problémát okoz a kén-dioxid légköri jelenléte?",
+      "a": [
+        "Savas esőt",
+        "Ózonlyukat",
+        "Globális lehűlést",
+        "Csak talajvíz-szennyezést"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kén-dioxid a levegő nedvességével reagálva kénsavvá alakul, ez okozza a savas esőt.",
+      "t": "környezeti kémia"
+    },
+    {
+      "q": "Melyik légköri réteg védi a Földet a káros ultraibolya sugárzástól?",
+      "a": [
+        "Ózonréteg",
+        "Troposzféra alsó rétege",
+        "Nitrogénréteg",
+        "Szénréteg"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sztratoszférában található ózonréteg elnyeli az UV-sugárzás nagy részét.",
+      "t": "környezeti kémia"
+    },
+    {
+      "q": "Melyik vegyületcsoportot tiltották be nemzetközi egyezménnyel az ózonréteg védelme érdekében?",
+      "a": [
+        "Klór-fluor-szénhidrogének (freonok)",
+        "Nemesgázok, például az argon",
+        "Alkáli-fémsók, például a konyhasó",
+        "Egyszerű szénhidrogének, például a metán"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A montreali jegyzőkönyv (1987) korlátozta a freonok használatát, mert bontják az ózonréteget.",
+      "t": "környezeti kémia"
+    },
+    {
+      "q": "Mi az eutrofizáció fő kiváltó oka állóvizekben?",
+      "a": [
+        "A tápanyagok, például foszfát és nitrát túlzott bejutása a vízbe",
+        "A víz oxigéntartalmának mesterséges növelése szellőztetéssel",
+        "A vízhőmérséklet tartós csökkenése télen",
+        "A víz sótartalmának teljes eltűnése desztillálás után"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A túlzott tápanyagbevitel algásodást indít el, ami oxigénhiányhoz és élővilág-pusztuláshoz vezet.",
+      "t": "környezeti kémia"
+    },
+    {
+      "q": "Milyen részecskékből áll egy atom magja?",
+      "a": [
+        "Protonokból és neutronokból",
+        "Elektronokból és neutronokból",
+        "Csak elektronokból",
+        "Protonokból és fotonokból"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az atommag protonokat és neutronokat tartalmaz, míg az elektronok a mag körül keringenek.",
+      "t": "atomszerkezet"
+    },
+    {
+      "q": "Mi határozza meg egy kémiai elem rendszámát?",
+      "a": [
+        "A protonok száma az atommagban",
+        "A neutronok száma az atommagban",
+        "Az elektronhéjak száma",
+        "Az atom teljes tömege"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egy elem rendszámát a magjában található protonok száma határozza meg egyértelműen.",
+      "t": "atomszerkezet"
+    },
+    {
+      "q": "Mit nevezünk egy elem izotópjának?",
+      "a": [
+        "Azonos protonszámú, de eltérő neutronszámú atomváltozatot",
+        "Azonos neutronszámú, de eltérő protonszámú atomváltozatot",
+        "Két teljesen különböző elem vegyületét",
+        "Egy elem folyékony halmazállapotú formáját"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az izotópok protonszáma azonos, de a neutronok száma eltér, ami különböző tömegszámot eredményez.",
+      "t": "atomszerkezet"
+    },
+    {
+      "q": "Mi jellemzi az ionos kötést két atom között?",
+      "a": [
+        "Elektronleadás és -felvétel révén ellentétes töltésű ionok vonzzák egymást",
+        "Az atomok elektronpárt osztanak meg egyenlő mértékben",
+        "Az atomok kizárólag mágneses erővel kapcsolódnak egymáshoz",
+        "Az atomok fizikailag összetapadnak elektroncsere nélkül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ionos kötésben az egyik atom elektront ad le, a másik felveszi, így ellentétes töltésű ionok jönnek létre.",
+      "t": "anyagszerkezet"
+    },
+    {
+      "q": "Mi jellemzi a kovalens kötést két atom között?",
+      "a": [
+        "Egy vagy több elektronpár közös használata a két atom között",
+        "Az egyik atom teljesen átadja összes elektronját a másiknak",
+        "Az atomok kizárólag gravitációs vonzással kapcsolódnak",
+        "Az atomok között nincs is valódi kémiai kapcsolat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kovalens kötésben az atomok elektronpárt osztanak meg, hogy stabil elektronszerkezetet érjenek el.",
+      "t": "anyagszerkezet"
+    },
+    {
+      "q": "Miért lépnek a nemesgázok csak ritkán kémiai reakcióba más elemekkel?",
+      "a": [
+        "Mert legkülső elektronhéjuk már teljesen betöltött, így stabilak",
+        "Mert atomtömegük túl nagy ahhoz, hogy kötést alakítsanak ki",
+        "Mert minden nemesgáz negatív töltésű ionként létezik eleve",
+        "Mert csak folyékony halmazállapotban tudnak kötést létesíteni"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A nemesgázok külső elektronhéja teljesen betöltött, ezért energetikailag stabilak, nem hajlamosak reakcióra.",
+      "t": "nemesgázok"
+    },
+    {
+      "q": "Mit jelent az, hogy egy oldat \"telített\"?",
+      "a": [
+        "Adott hőmérsékleten már nem képes több oldott anyagot befogadni",
+        "Az oldott anyag teljesen elpárolgott belőle",
+        "Az oldat forráspontja elérte a maximumot",
+        "Az oldatban egyáltalán nincs oldott anyag"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Telített oldatban az oldott anyag és az oldatlan, kicsapódó forma egyensúlyban van.",
+      "t": "oldatok"
+    },
+    {
+      "q": "Mi növeli általában egy szilárd anyag oldhatóságát vízben?",
+      "a": [
+        "A hőmérséklet emelése",
+        "A nyomás csökkentése",
+        "Az oldat lehűtése fagypont alá",
+        "A fényexpozíció növelése"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A legtöbb szilárd anyag esetében a magasabb hőmérséklet több anyag feloldódását teszi lehetővé.",
+      "t": "oldatok"
+    },
+    {
+      "q": "Mit nevezünk oldószernek egy oldatban?",
+      "a": [
+        "A nagyobb mennyiségben jelen lévő, a másik anyagot feloldó komponenst",
+        "A kisebb mennyiségben jelen lévő, feloldódó komponenst",
+        "Az oldat teljes tömegét kitevő szilárd üledéket",
+        "Az oldatból elpárolgó gáz halmazállapotú részt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az oldószer a nagyobb mennyiségben jelen lévő anyag, amely feloldja a benne szétoszló oldott anyagot.",
+      "t": "oldatok"
+    },
+    {
+      "q": "Melyik módszerrel választható szét egyszerűen a homok és a víz keveréke?",
+      "a": [
+        "Szűréssel",
+        "Desztillálással",
+        "Kromatográfiával",
+        "Elektrolízissel"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szűrés a szemcsés, oldhatatlan homokot választja el a folyadéktól egy pórusos anyagon átvezetve.",
+      "t": "szétválasztás"
+    },
+    {
+      "q": "Milyen tulajdonságkülönbségen alapul a desztilláció?",
+      "a": [
+        "A folyadékok eltérő forráspontján",
+        "A folyadékok eltérő színén",
+        "A folyadékok eltérő elektromos töltésén",
+        "A folyadékok eltérő szagán"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A desztilláció során a keveréket felmelegítik, és az alacsonyabb forráspontú komponens párolog el előbb.",
+      "t": "szétválasztás"
+    },
+    {
+      "q": "Melyik módszert alkalmazzák jellemzően színezékek vagy oldott anyagok komponensekre bontására laboratóriumban?",
+      "a": [
+        "Kromatográfia",
+        "Szűrés",
+        "Ülepítés",
+        "Bepárlás"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kromatográfia a komponensek eltérő vándorlási sebességét használja ki egy hordozóközegben.",
+      "t": "szétválasztás"
+    },
+    {
+      "q": "Melyik nemesgázt használják gyakran izzólámpák töltőgázaként és hegesztésnél védőgázként?",
+      "a": [
+        "Argon",
+        "Hélium",
+        "Neon",
+        "Xenon"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az argon olcsó, inert gáz, amely megvédi az izzószálat és a hegesztett fémet az oxidációtól.",
+      "t": "nemesgázok"
+    },
+    {
+      "q": "Melyik nemesgázt töltik gyakran léggömbökbe, hogy a levegőnél könnyebbek legyenek?",
+      "a": [
+        "Hélium",
+        "Argon",
+        "Xenon",
+        "Kripton"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hélium a levegőnél jóval kisebb sűrűségű és nem gyúlékony, ezért ideális léggömbtöltő gáz.",
+      "t": "nemesgázok"
+    },
+    {
+      "q": "Melyik molekula hordozza az élőlények genetikai információját?",
+      "a": [
+        "DNS",
+        "ATP",
+        "Glükóz",
+        "Koleszterin"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A DNS-ben tárolt bázissorrend kódolja az élőlény öröklődő genetikai információját.",
+      "t": "biokémia"
+    },
+    {
+      "q": "Mi a fehérjék alapvető szerkezeti egysége?",
+      "a": [
+        "Aminosav",
+        "Zsírsav",
+        "Nukleotid",
+        "Monoszacharid"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A fehérjék aminosavak láncából épülnek fel, amelyek peptidkötésekkel kapcsolódnak egymáshoz.",
+      "t": "biokémia"
+    },
+    {
+      "q": "Milyen szerves molekula keletkezik a fotoszintézis során oxigén mellett?",
+      "a": [
+        "Glükóz",
+        "Etanol",
+        "Karbamid",
+        "Kollagén"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A növények a fotoszintézis során szén-dioxidból és vízből fényenergiával glükózt állítanak elő.",
+      "t": "biokémia"
+    },
+    {
+      "q": "Mi az enzimek elsődleges szerepe a szervezet biokémiai folyamataiban?",
+      "a": [
+        "Katalizálják, azaz felgyorsítják a kémiai reakciókat",
+        "Energiát tárolnak hosszú távra zsír formájában",
+        "Genetikai információt hordoznak sejtről sejtre",
+        "Mechanikai védelmet nyújtanak a sejtmembránnak"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az enzimek fehérje természetű katalizátorok, amelyek az aktiválási energia csökkentésével gyorsítják a reakciókat.",
+      "t": "biokémia"
+    },
+    {
+      "q": "Melyik gáz teszi ki a földi légkör legnagyobb hányadát térfogat szerint?",
+      "a": [
+        "Nitrogén",
+        "Oxigén",
+        "Szén-dioxid",
+        "Argon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A légkör térfogat szerint körülbelül 78%-ban nitrogénből áll, ezt követi az oxigén mintegy 21%-kal.",
+      "t": "levegő és gázok"
+    },
+    {
+      "q": "Mi történik egy zárt tartályban a gáz nyomásával, ha a hőmérséklete nő állandó térfogat mellett?",
+      "a": [
+        "A nyomás növekszik",
+        "A nyomás csökken",
+        "A nyomás változatlan marad",
+        "A gáz azonnal folyékonnyá válik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Állandó térfogaton a hőmérséklet emelése növeli a gázrészecskék mozgási energiáját, ez nagyobb nyomást okoz.",
+      "t": "levegő és gázok"
+    },
+    {
+      "q": "Melyik gáz elengedhetetlen az égési folyamatokhoz?",
+      "a": [
+        "Oxigén",
+        "Nitrogén",
+        "Hélium",
+        "Szén-monoxid"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az égés egy oxidációs folyamat, amelyhez oxigén jelenléte szükséges.",
+      "t": "levegő és gázok"
+    },
+    {
+      "q": "Mi történik szublimáció során?",
+      "a": [
+        "A szilárd anyag folyadékfázis nélkül közvetlenül gáz halmazállapotúvá válik",
+        "A folyékony anyag hirtelen lehűlve azonnal szilárd kristállyá alakul",
+        "A gáz halmazállapotú anyag közvetlenül szilárddá fagy le hő nélkül",
+        "A szilárd anyag megolvad, majd azonnal el is forr egy lépésben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Szublimációkor a szilárd anyag – például a szárazjég – közvetlenül gázzá alakul folyadékállapot nélkül.",
+      "t": "halmazállapotok"
+    },
+    {
+      "q": "Mi jellemzi a plazma halmazállapotot?",
+      "a": [
+        "Ionizált gáz, amelyben szabad töltéshordozók (ionok, elektronok) mozognak",
+        "Szilárd anyag, amely rendkívül alacsony hőmérsékleten szupravezetővé válik",
+        "Folyadék, amely nulla viszkozitással, súrlódás nélkül áramlik",
+        "Gáz, amely légköri nyomáson azonnal szilárd kristállyá alakul"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A plazma a negyedik halmazállapot: a gáz atomjai ionizálódnak, szabad töltéshordozók jönnek létre.",
+      "t": "halmazállapotok"
+    },
+    {
+      "q": "Melyik halmazállapot-változás nevét használjuk, amikor egy folyadék gőzzé alakul forráspontja alatt is?",
+      "a": [
+        "Párolgás",
+        "Forrás",
+        "Fagyás",
+        "Olvadás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A párolgás a folyadék felszínéről bármilyen hőmérsékleten végbemehet, nem csak forráspontnál.",
+      "t": "halmazállapotok"
+    },
+    {
+      "q": "Melyik fém van folyékony halmazállapotban szobahőmérsékleten?",
+      "a": [
+        "Higany",
+        "Vas",
+        "Alumínium",
+        "Cink"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A higany az egyetlen fém, amely már szobahőmérsékleten is folyékony halmazállapotú.",
+      "t": "fémek"
+    },
+    {
+      "q": "Mit nevezünk ötvözetnek?",
+      "a": [
+        "Két vagy több fém (vagy fém és nemfém) céltudatosan létrehozott keverékét",
+        "Egyetlen tiszta fém különböző kristályformáját",
+        "Egy fém és egy gáz kémiai vegyületét kizárólag",
+        "Egy fém felületi rozsdásodásának végtermékét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ötvözetek, mint a bronz vagy az acél, jobb tulajdonságokat kapnak az alkotó fémek kombinálásával.",
+      "t": "fémek"
+    },
+    {
+      "q": "Miért vezetik jól az elektromos áramot a fémek?",
+      "a": [
+        "A fémrácsban szabadon mozgó elektronok szállítják a töltést",
+        "A fématomok rögzített helyzetű pozitív ionrácsa maga vezeti az áramot",
+        "A fémek felszínén lévő oxidréteg biztosítja a vezetést",
+        "A fémek magas olvadáspontja teszi lehetővé az elektronmozgást"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A fémes kötésben az elektronok delokalizáltak, szabadon mozoghatnak, ez biztosítja a jó vezetőképességet.",
+      "t": "fémek"
+    },
+    {
+      "q": "Melyik orosz kémikus alkotta meg 1869-ben a periódusos rendszer első széles körben elfogadott változatát?",
+      "a": [
+        "Dmitrij Mengyelejev",
+        "Antoine Lavoisier",
+        "Marie Curie",
+        "Amedeo Avogadro"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mengyelejev 1869-ben rendezte táblázatba az elemeket atomtömegük és tulajdonságaik szerint.",
+      "t": "kémia története"
+    },
+    {
+      "q": "Melyik magyar tudós kapott Nobel-díjat a C-vitamin izolálásáért és biológiai szerepének feltárásáért?",
+      "a": [
+        "Szent-Györgyi Albert",
+        "Bay Zoltán",
+        "Hevesy György",
+        "Oláh György"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Szent-Györgyi Albert 1937-ben kapott élettani-orvosi Nobel-díjat a C-vitaminnal kapcsolatos kutatásaiért.",
+      "t": "kémia története"
+    },
+    {
+      "q": "Melyik magyar származású kémikus kapott Nobel-díjat a szénhidrogének kémiájában elért eredményeiért?",
+      "a": [
+        "Oláh György",
+        "Szent-Györgyi Albert",
+        "Hevesy György",
+        "Wigner Jenő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Oláh György 1994-ben kapott kémiai Nobel-díjat a karbokationok kutatásáért, amely a szénhidrogén-kémia alapja.",
+      "t": "kémia története"
+    },
+    {
+      "q": "Melyik tudományágban tevékenykedett Marie Curie, aki két Nobel-díjat is kapott?",
+      "a": [
+        "Fizika és kémia (radioaktivitás kutatása)",
+        "Biológia és orvostudomány",
+        "Csillagászat és matematika",
+        "Geológia és meteorológia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Marie Curie fizikai (1903) és kémiai (1911) Nobel-díjat is kapott a radioaktivitás terén végzett munkájáért.",
+      "t": "kémia története"
+    },
+    {
+      "q": "Miért kell hígításkor mindig a savat a vízbe önteni, és nem fordítva?",
+      "a": [
+        "Mert fordított sorrendben heves, fröccsenő hőfejlődés léphet fel",
+        "Mert fordított sorrendben a sav azonnal semlegessé válik hatástalanul",
+        "Mert fordított sorrendben a víz megfagy a hirtelen hőelvonástól",
+        "Mert fordított sorrendben színtelen mérgező gáz képződik azonnal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ha vizet öntünk savhoz, a felszabaduló hő hirtelen felforralhatja és kifröccsentheti a maró savat.",
+      "t": "laborbiztonság"
+    },
+    {
+      "q": "Mi a védőszemüveg elsődleges célja a kémiai laboratóriumban?",
+      "a": [
+        "A szem védelme vegyszerfröccsenéstől és gőzöktől",
+        "A halláskárosodás megelőzése robbanás esetén",
+        "A kéz védelme éles üvegeszközöktől",
+        "A légzőszervek védelme portól és füsttől"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A védőszemüveg megakadályozza, hogy maró vagy irritáló vegyszerek a szembe kerüljenek.",
+      "t": "laborbiztonság"
+    },
+    {
+      "q": "Miért fontos a vegyszeres üvegeket mindig pontosan felcímkézni a laborban?",
+      "a": [
+        "Mert a tévesztés súlyos mérgezést vagy veszélyes reakciót okozhat",
+        "Mert a felcímkézés növeli az anyag tisztaságát kémiailag",
+        "Mert a felcímkézés meghosszabbítja az anyag lejárati idejét",
+        "Mert a felcímkézés szabályozza az anyag hőmérsékletét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hibás vagy hiányzó címke összekeveréshez vezethet, ami veszélyes vegyi reakciót vagy mérgezést okozhat.",
+      "t": "laborbiztonság"
+    },
+    {
+      "q": "Mi történik egy elektrolízis folyamat során?",
+      "a": [
+        "Elektromos áram hatására egy kémiai reakció megy végbe (vegyület bomlik)",
+        "Kémiai reakció hatására elektromos áram keletkezik egy telepben",
+        "Két fém érintkezésekor önként hő szabadul fel reakció nélkül",
+        "Egy oldat hőmérséklete elektromos áram nélkül magától csökken"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az elektrolízis során külső elektromos áram bontja el a vegyületet, például vizet hidrogénre és oxigénre.",
+      "t": "elektrokémia"
     }
   ]
 }

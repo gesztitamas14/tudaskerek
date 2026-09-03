@@ -1548,6 +1548,786 @@
       "d": "hard",
       "e": "A felszólító módban a rövidebb és a hosszabb alak is szabályos.",
       "t": "nyelvtan"
+    },
+    {
+      "q": "Miből ered a magyar 'gulyás' étel neve?",
+      "a": [
+        "A marhacsordát őrző pásztor, a gulyás elnevezéséből.",
+        "Egy 19. századi budapesti étterem tulajdonosának nevéből.",
+        "A 'guba' szóból, ami az étel sűrű állagára utal.",
+        "Egy középkori lovagrend jelmondatából."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gulyás szó eredetileg a gulyát (marhacsordát) őrző pásztort jelentette, aki bográcsban főzte az ételt.",
+      "t": "gasztronómia"
+    },
+    {
+      "q": "Melyik erdélyi eredetű, parázs felett sütött tésztát vették fel 2015-ben a hungarikumok közé?",
+      "a": [
+        "A kürtőskalács",
+        "A dobostorta",
+        "A rákóczi túrós",
+        "A somlói galuska"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kürtőskalácsot 2015-ben nyilvánították hungarikummá, eredete a 18. századi erdélyi fejedelmi udvarokhoz köthető.",
+      "t": "gasztronómia"
+    },
+    {
+      "q": "Milyen uniós szabályozás korlátozza, hogy hol készülhet 'pálinka' néven gyümölcspárlat?",
+      "a": [
+        "2004 óta a nevet csak Magyarország és Ausztria négy tartománya használhatja.",
+        "A pálinka nevet csak a rézüstös lepárlás technológiájával élő gyártók használhatják bárhol.",
+        "A szabályozás csak az exportra szánt palackokra vonatkozik.",
+        "Az uniós adótörvény kedvezményes kulcsot ír elő e két ország termékeire."
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "2004-ben az EU földrajzi árujelzőként Magyarországnak és Ausztria négy tartományának tartotta fenn a pálinka elnevezést.",
+      "t": "hungarikumok"
+    },
+    {
+      "q": "Milyen legenda kapcsolódik az Unicum likőr eredetéhez?",
+      "a": [
+        "Állítólag II. József kóstolta meg, és 'Unicum'-nak, azaz egyedülállónak nevezte.",
+        "Egy 1848-as szabadságharcos tábori orvos találta fel sebfertőtlenítésre.",
+        "Egy budai apátság szerzetesei őrizték a receptet évszázadokig titokban.",
+        "Egy tokaji borkereskedő próbálta vele utánozni az aszú ízét."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A családi legenda szerint Zwack doktor 1790-ben készítette az italt II. József számára, aki 'Das ist ein Unicum!' felkiáltással illette.",
+      "t": "gasztronómia"
+    },
+    {
+      "q": "Honnan indult a hazai fűszerpaprika-termesztés a 17. században a hagyomány szerint?",
+      "a": [
+        "A szegedi ferences kolostor kertjéből.",
+        "A budai királyi udvar kertészetéből.",
+        "A Balaton-felvidéki apátsági birtokokról.",
+        "A debreceni vásárok kereskedőinek raktáraiból."
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hagyomány szerint a paprikát a szegedi ferences kolostor kertjében kezdték termeszteni, innen indult a szegedi paprikakultúra.",
+      "t": "gasztronómia"
+    },
+    {
+      "q": "Igazolható-e történelmi forrásokkal az Egri Bikavér elnevezésének az 1552-es várostromhoz kötődő legendája?",
+      "a": [
+        "Nem, a kutatás szerint az elnevezés egy 1846-os Garay János-vers hasonlatából ered.",
+        "Igen, korabeli krónikák is megörökítették az elnevezés keletkezését.",
+        "Igen, de csak a török seregek szóbeli hagyományában maradt fenn.",
+        "Nem, mert Egerben csak a 20. században kezdtek vörösbort készíteni."
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kutatás szerint a bikavér elnevezés nem az ostromtól, hanem Garay János 1846-os Szegszárdi bordal című verséből ered.",
+      "t": "borkultúra"
+    },
+    {
+      "q": "Mi teszi világelsővé a Tokaji borvidéket a borkultúra történetében?",
+      "a": [
+        "Ez volt a világ első jogilag zárt, körülhatárolt borvidéke.",
+        "Itt szüretelték a történelem legmagasabb hektáronkénti termését.",
+        "Itt épült a világ első pincészeti hűtőrendszere.",
+        "Itt exportáltak elsőként palackozott bort tengerentúlra."
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Tokaj-Hegyaljai borvidéket 1737-ben zárták körül, ezzel a világ első jogilag szabályozott, zárt borvidéke lett.",
+      "t": "borkultúra"
+    },
+    {
+      "q": "Melyik francia uralkodónak küldött tokaji aszút II. Rákóczi Ferenc a versailles-i udvarba?",
+      "a": [
+        "XIV. Lajosnak",
+        "I. Napóleonnak",
+        "IV. Henriknek",
+        "XVI. Lajosnak"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "II. Rákóczi Ferenc XIV. Lajosnak küldött tokaji aszút Versailles-ba, ezzel is öregbítve a bor nemzetközi hírnevét.",
+      "t": "borkultúra"
+    },
+    {
+      "q": "Mit ábrázol Munkácsy Mihály 1870-es Siralomház című festménye?",
+      "a": [
+        "Egy falusi börtönt, ahol a halálraítélt búcsúzhat kivégzése előtt.",
+        "Egy tokaji szüretet pásztorok és szüretelők körében.",
+        "A millenniumi ünnepségek egyik jelenetét.",
+        "Egy erdélyi fejedelmi udvar mindennapjait."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Siralomházat Munkácsy 1870-ben festette, s vele elnyerte a párizsi Szalon nagy aranyérmét.",
+      "t": "képzőművészet"
+    },
+    {
+      "q": "Mi volt Munkácsy Mihály eredeti családneve, mielőtt felvette volna festői nevét?",
+      "a": [
+        "Lieb",
+        "Kovács",
+        "Halász",
+        "Szabó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Munkácsy eredetileg Lieb Mihály Leó néven született, s csak 1868 után használta a Munkácsy nevet.",
+      "t": "képzőművészet"
+    },
+    {
+      "q": "Melyik Csontváry-festmény készült 1907-ben Libanonban?",
+      "a": [
+        "A Zarándoklás a cédrusokhoz Libanonban",
+        "A Taorminai görög színház romjai",
+        "A Panaszfal Jeruzsálemben",
+        "Az Athéni Akropolisz látképe"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Csontváry 1907-ben Libanonban festette a Zarándoklás a cédrusokhoz című képét, amely önarcképi jelentéssel is bír.",
+      "t": "képzőművészet"
+    },
+    {
+      "q": "Melyik művészeti irányzatokhoz sorolható Rippl-Rónai József festészete pályája csúcsán?",
+      "a": [
+        "A posztimpresszionizmushoz és a szecesszióhoz",
+        "A klasszicizmushoz és az akadémizmushoz",
+        "A szürrealizmushoz és a dadaizmushoz",
+        "A barokk historizmushoz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Rippl-Rónai a francia Nabis-csoport tagjaként a posztimpresszionizmus és a szecesszió legjelentősebb hazai képviselője lett.",
+      "t": "képzőművészet"
+    },
+    {
+      "q": "Melyik nemzetközi művészeti irányzat megalapítójaként tartják számon a magyar származású Vasarely Viktort?",
+      "a": [
+        "Az op art (optikai művészet)",
+        "A pop art (populáris művészet)",
+        "A kubizmus (geometrikus formanyelv)",
+        "A futurizmus (mozgásművészet)"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Vasarely Viktort a geometrikus, optikai illúziókat keltő op art irányzat megalapítójaként tartják számon.",
+      "t": "képzőművészet"
+    },
+    {
+      "q": "Melyik, ma Ausztriához tartozó faluban született Liszt Ferenc 1811-ben?",
+      "a": [
+        "Doborjánban (ma Raiding)",
+        "Sopronban, a megyeszékhelyen",
+        "Kismartonban (ma Eisenstadt)",
+        "Pozsonyban, a régi fővárosban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Liszt Ferenc 1811. október 22-én született a Sopron vármegyei Doborjánban, amely ma Ausztriához tartozik, neve Raiding.",
+      "t": "zene"
+    },
+    {
+      "q": "Mi a lényege a zeneoktatásban alkalmazott Kodály-módszernek?",
+      "a": [
+        "A relatív szolmizáció és az éneklésen alapuló zenei nevelés.",
+        "Kizárólag hangszeres oktatás kisgyermekkortól.",
+        "A klasszikus zeneelmélet memoriter alapú tanítása.",
+        "A népzene helyett a barokk zene előtérbe helyezése."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kodály-módszer alapja a relatív szolmizáció és az ének középpontba állítása; 2016-ban az UNESCO is felvette örökségi listájára.",
+      "t": "zene"
+    },
+    {
+      "q": "Milyen pályázaton nyerte el Erkel Ferenc a Himnusz megzenésítésének jogát?",
+      "a": [
+        "Az 1844-es országos pályázaton, amelyet Kölcsey versére írtak ki.",
+        "Egy bécsi udvari zeneszerzői versenyen.",
+        "A Nemzeti Színház igazgatói kinevezésével automatikusan.",
+        "Egy 1848-as forradalmi dalpályázaton."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Erkel Ferenc 1844-ben nyerte meg a Kölcsey Ferenc versére kiírt megzenésítési pályázatot, ez lett a Himnusz zenéje.",
+      "t": "zene"
+    },
+    {
+      "q": "Melyik évben mutatták be teljes egészében Erkel Ferenc Bánk bán című operáját a Nemzeti Színházban?",
+      "a": [
+        "1861-ben",
+        "1848-ban",
+        "1875-ben",
+        "1896-ban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A cenzúra és a szabadságharc miatt csak 1861. március 9-én kerülhetett színre a teljes Bánk bán a Nemzeti Színházban.",
+      "t": "zene"
+    },
+    {
+      "q": "Milyen technikai eszközzel örökítette meg Bartók Béla és Kodály Zoltán a 20. század eleji népdalgyűjtéseit?",
+      "a": [
+        "Fonográfhengerekkel rögzítették a dallamokat.",
+        "Korai elektromos magnószalagokkal dolgoztak.",
+        "Kizárólag emlékezetből jegyezték le a dallamokat.",
+        "Bakelitlemezekre vették fel élőben a felvételeket."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bartók és Kodály 1905-1906-tól fonográfhengerekre rögzítették a gyűjtött népdalokat, összesen több mint 4500 hengernyi anyagot.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Melyik magyar zeneszerző operettje, a Csárdáskirálynő, vált minden idők egyik legnépszerűbb operettjévé?",
+      "a": [
+        "Kálmán Imre",
+        "Lehár Ferenc",
+        "Huszka Jenő",
+        "Jacobi Viktor"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kálmán Imre 1915-ben mutatta be a Csárdáskirálynőt, amely azóta is a legtöbbet játszott operettek egyike.",
+      "t": "operett"
+    },
+    {
+      "q": "Hol volt Lehár Ferenc A víg özvegy című operettjének ősbemutatója 1905-ben?",
+      "a": [
+        "A bécsi Theater an der Wienben",
+        "A budapesti Népszínházban",
+        "A párizsi Opéra Comique-ban",
+        "A londoni Theatre Royalban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A víg özvegy ősbemutatójára 1905. december 30-án került sor a bécsi Theater an der Wienben, óriási nemzetközi sikerrel.",
+      "t": "operett"
+    },
+    {
+      "q": "Milyen tudományos munkásságáról nevezték el Kármán Tódorról a légkör és az űr határát jelölő 'Kármán-vonalat'?",
+      "a": [
+        "A szuperszonikus áramlástani kutatásairól.",
+        "A Holdra küldött első magyar rádiójelről.",
+        "A magyar űrhajózás 1980-as megalapításáról.",
+        "A radarantennák feltalálásáról."
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kármán Tódor légkörtani és szuperszonikus repüléssel kapcsolatos munkássága nyomán nevezték el róla a 100 km magasban húzódó határvonalat.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Miért kapta Wigner Jenő az 1963-as fizikai Nobel-díjat?",
+      "a": [
+        "Az atommagok és elemi részecskék szimmetriaelveinek feltárásáért.",
+        "A radioaktív nyomjelzés kifejlesztéséért.",
+        "A holográfia elvének megalkotásáért.",
+        "A lézer működési elvének leírásáért."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Wigner Jenő 1963-ban kapott fizikai Nobel-díjat az atommagok és elemi részecskék alapvető szimmetriaelveinek felfedezéséért.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Mivel érdemelte ki Hevesy György az 1943-as kémiai Nobel-díjat?",
+      "a": [
+        "A radioaktív izotópok nyomjelzőként való alkalmazásának kidolgozásával.",
+        "A C-vitamin izolálásával a paprikából.",
+        "A hafnium elem önálló felfedezésével.",
+        "A periódusos rendszer két új elemmel való kiegészítésével."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hevesy Györgyöt a radioaktív izotópok nyomjelzőként, kémiai kutatásban való alkalmazásáért tüntették ki 1943-ban.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Mit szabadalmaztatott Szilárd Leó 1934-ben, amely később az atomenergia alapja lett?",
+      "a": [
+        "A nukleáris láncreakció elvét.",
+        "Az első működő atomreaktort.",
+        "Az uránium dúsításának ipari eljárását.",
+        "A hidrogénbomba tervrajzát."
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Szilárd Leó 1934-es szabadalma írta le először a nukleáris láncreakció elvét, amelyet háborús félelmek miatt titkosítottak.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Milyen úttörő kísérletet hajtott végre Bay Zoltán és csapata 1946-ban?",
+      "a": [
+        "Radarjeleket küldtek a Holdra, és érzékelték a visszaverődő jelet.",
+        "Elsőként mértek kozmikus sugárzást magyar léggömbbel.",
+        "Létrehozták Magyarország első mesterséges holdját.",
+        "Rádiótávcsövet építettek a Naprendszer határának feltérképezésére."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bay Zoltán 1946. február 6-án radarjelekkel érte el a Holdat és érzékelte a visszavert jelet, megalapozva a radarcsillagászatot.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Miért nevezetes Teller Ede a nukleáris fizika történetében?",
+      "a": [
+        "A hidrogénbomba kifejlesztésében játszott meghatározó szerepéről.",
+        "Az első atomreaktor megépítéséről Chicagóban.",
+        "A radioaktivitás Marie Curie-vel közös felfedezéséről.",
+        "A neutron 1932-es felfedezéséről."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Teller Edét a hidrogénbomba kifejlesztésében betöltött vezető szerepe miatt nevezik 'a hidrogénbomba atyjának'.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Melyik két kerámiatechnikai újítás tette világhírűvé Zsolnay Vilmos pécsi gyárát?",
+      "a": [
+        "A fagyálló pirogránit és az eozinmáz.",
+        "A porcelánfestés arannyal és a kék-fehér mázazás.",
+        "A terrakotta égetés és a márványutánzat.",
+        "A dombormintás cserép és a fajanszmáz."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Zsolnay Vilmos nevéhez fűződik a fagyálló pirogránit kifejlesztése és az eozinmáz alkalmazása, ezek tették híressé a gyárat.",
+      "t": "iparművészet"
+    },
+    {
+      "q": "Melyik évben alapították a Herendi Porcelánmanufaktúra elődjét?",
+      "a": [
+        "1826-ban",
+        "1867-ben",
+        "1848-ban",
+        "1900-ban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Herendi Porcelánmanufaktúra elődjét 1826-ban alapította Stingl Vince Herend községben.",
+      "t": "iparművészet"
+    },
+    {
+      "q": "Milyen esemény kapcsán született meg a híres herendi 'Viktória' mintázat?",
+      "a": [
+        "Viktória angol királynő 1851-ben pillangós-virágos étkészletet rendelt.",
+        "Viktória királynő koronázásának emlékére tervezték.",
+        "Egy magyar Viktória nevű hercegnő esküvőjére készült.",
+        "A herendi gyárat Viktória korában alapították."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Viktória angol királynő az 1851-es londoni világkiállításon rendelt pillangós-virágos herendi étkészletet, innen a minta neve.",
+      "t": "iparművészet"
+    },
+    {
+      "q": "Mi az oka a Szent Korona ferde állású keresztjének?",
+      "a": [
+        "Egy 1638-as balesetnek, amikor a láda felfeszítésekor elgörbült.",
+        "Az apostoli királyság jelképes elutasításának a 17. században.",
+        "A tatárjárás idején elszenvedett sérülésének a koronán.",
+        "Egy tudatos, szimbolikus üzenetnek a nemzeti összefogásról."
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kereszt elferdülése egy 1638-as balesetre vezethető vissza, amikor a koronát tartalmazó ládát erőszakkal törték fel.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Ki írta a Himnusz szövegét, amelyet később Erkel Ferenc zenésített meg?",
+      "a": [
+        "Kölcsey Ferenc",
+        "Vörösmarty Mihály",
+        "Petőfi Sándor",
+        "Arany János"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Himnusz szövegét Kölcsey Ferenc írta 1823-ban Szatmárcsekén, ezt zenésítette meg Erkel Ferenc 1844-ben.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Ki zenésítette meg Vörösmarty Mihály Szózat című versét 1843-ban?",
+      "a": [
+        "Egressy Béni",
+        "Erkel Ferenc",
+        "Liszt Ferenc",
+        "Kodály Zoltán"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egressy Béni 1843-as, pályázatnyertes dallamával vált a Szózat Magyarország második nemzeti énekévé.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Mióta szerepel a Szent Korona Magyarország hivatalos állami címerén?",
+      "a": [
+        "1990 óta, amikor az Országgyűlés a koronás címert fogadta el.",
+        "1848 óta, a szabadságharc kitörésétől.",
+        "2011 óta, az Alaptörvény hatálybalépésétől.",
+        "1867 óta, a kiegyezés emlékére."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Országgyűlés 1990. július 3-án döntött úgy, hogy Magyarország címerén a Szent Koronával díszített pajzs szerepeljen.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Mekkora vagyonfelajánlással alapozta meg Széchenyi István 1825-ben a Magyar Tudós Társaság létrejöttét?",
+      "a": [
+        "Egyévi jövedelmét, mintegy 60 000 forintot ajánlott fel.",
+        "Teljes birtokvagyonát örökre felajánlotta.",
+        "Egyetlen jószágának bevételét ajánlotta fel évente.",
+        "Egy győri birtok bérleti díját ajánlotta fel tíz évre."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Széchenyi István 1825-ben a pozsonyi országgyűlésen egyévi, 60 000 forintos jövedelmét ajánlotta fel egy tudós társaság létrehozására.",
+      "t": "intézmények"
+    },
+    {
+      "q": "Kinek a gyűjteményfelajánlása alapozta meg 1802-ben a Magyar Nemzeti Múzeum létrejöttét?",
+      "a": [
+        "Széchényi Ferenc",
+        "Széchenyi István",
+        "Batthyány Lajos",
+        "Eötvös József"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Széchényi Ferenc 1802-ben ajánlotta fel könyv-, kézirat- és éremgyűjteményét a nemzetnek, ez lett a Magyar Nemzeti Múzeum alapja.",
+      "t": "intézmények"
+    },
+    {
+      "q": "Melyik intézmény jött létre szintén az 1802-es Széchényi-felajánlásból, a nemzeti könyvgyűjtemény őrzésére?",
+      "a": [
+        "Az Országos Széchényi Könyvtár",
+        "A Magyar Tudományos Akadémia Könyvtára",
+        "Az Egyetemi Könyvtár",
+        "A Fővárosi Szabó Ervin Könyvtár"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Országos Széchényi Könyvtár Széchényi Ferenc 1802-es adományából jött létre, ez lett Magyarország nemzeti könyvtára.",
+      "t": "intézmények"
+    },
+    {
+      "q": "Milyen apropóból alapította az Országgyűlés 1948-ban a Kossuth-díjat?",
+      "a": [
+        "Az 1848-as forradalom centenáriuma alkalmából.",
+        "Kossuth Lajos halálának 50. évfordulóján.",
+        "A második világháború lezárásának emlékére.",
+        "A Magyar Népköztársaság kikiáltásának évfordulóján."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Kossuth-díjat 1948-ban, az 1848. március 15-i forradalom centenáriuma alkalmából alapította az Országgyűlés.",
+      "t": "díjak"
+    },
+    {
+      "q": "Ki alapította 2003-ban a Prima Primissima díjat, amely a magyar tudomány, művészet és sport elismerésére szolgál?",
+      "a": [
+        "Demján Sándor",
+        "Orbán Viktor",
+        "Soros György",
+        "Csányi Sándor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Prima Primissima díjat Demján Sándor alapította 2003-ban a Vállalkozók és Munkáltatók Országos Szövetségének támogatásával.",
+      "t": "díjak"
+    },
+    {
+      "q": "Melyik építész tervei alapján épült fel a Magyar Állami Operaház 1875 és 1884 között?",
+      "a": [
+        "Ybl Miklós",
+        "Steindl Imre",
+        "Schulek Frigyes",
+        "Hauszmann Alajos"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Operaházat Ybl Miklós tervezte neoreneszánsz stílusban, 1884-ben nyitották meg.",
+      "t": "építészet"
+    },
+    {
+      "q": "Milyen építészeti stílusban tervezte Steindl Imre az Országházat?",
+      "a": [
+        "Neogótikus (gótikus újjászületés) stílusban.",
+        "Klasszicista, oszlopsoros stílusban.",
+        "Barokk, díszes homlokzati stílusban.",
+        "Bauhaus, letisztult modernista stílusban."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Országházat Steindl Imre az angol gótikus újjászületés (neogótika) stílusjegyeit követve tervezte.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik budai várnegyedbeli látványosságot építette Schulek Frigyes 1895 és 1902 között?",
+      "a": [
+        "A Halászbástya épületét",
+        "A Mátyás-templom tornyát",
+        "A Budai Várpalota szárnyát",
+        "A Sándor-palota épületét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Halászbástyát Schulek Frigyes tervei alapján építették 1895 és 1902 között, neoromán stílusban.",
+      "t": "építészet"
+    },
+    {
+      "q": "Melyik magyar hímzéskultúra vált 2012-ben az UNESCO szellemi kulturális örökség részévé?",
+      "a": [
+        "A matyó hímzéskultúra",
+        "A kalotaszegi varrottas",
+        "A sárközi szőttes",
+        "A hollókői szűrhímzés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mezőkövesdi matyó hímzéskultúrát 2012-ben vették fel az UNESCO szellemi kulturális örökség listájára.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Miből áll a hagyományos magyar csárdás tánc szerkezete?",
+      "a": [
+        "Egy lassú és egy friss részből.",
+        "Kizárólag gyors, páros forgásokból.",
+        "Három azonos tempójú szakaszból.",
+        "Egy bevezető szólóból és egy kórustáncból."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A csárdás jellemzően egy lassú és egy friss (gyors) részből épül fel, a 19. század első felében alakult ki.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Milyen színű fonallal díszítették eredetileg a matyó népviselet hímzését Mezőkövesden?",
+      "a": [
+        "Piros és kék pamutfonallal.",
+        "Kizárólag arany szállal.",
+        "Fekete és fehér lenfonállal.",
+        "Zöld és lila selyemmel."
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A matyó hímzés eredetileg egyszerű piros és kék pamutfonallal készült, később élénk selyem- és gyapjúfonalak váltották fel.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Milyen nemzetközi elismerést kapott a halasi csipke már az 1904-es St. Louis-i világkiállításon?",
+      "a": [
+        "Nagydíjat nyert, megelőzve a híres brüsszeli csipkét is.",
+        "Csak dicséretben részesült, díjat nem kapott.",
+        "Kizárták a versenyből eredetiségi vita miatt.",
+        "Ezüstérmet kapott, a brüsszeli csipke mögött másodikként."
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A halasi csipke az 1904-es St. Louis-i világkiállításon nagydíjat nyert, megelőzve a korábban híresebb brüsszeli csipkét.",
+      "t": "hungarikumok"
+    },
+    {
+      "q": "Melyik nemzetközi, sok országot összefogó UNESCO-listás hagyománynak Magyarország is részese a solymászattal?",
+      "a": [
+        "A solymászat mint élő emberi örökség listájának.",
+        "A vándormadár-védelmi egyezménynek.",
+        "A hagyományos vadászfegyverek listájának.",
+        "A középkori lovagi tornák hagyományának."
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar solymászat 2012 óta a solymászatot mint élő emberi örökséget bemutató, több tucat országot összefogó UNESCO-listás elem része.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Mikor és milyen céllal ismerte el az UNESCO a magyar táncházmódszert?",
+      "a": [
+        "2011-ben, mint az örökségátörökítés jó gyakorlatát.",
+        "1990-ben, a rendszerváltás emlékére.",
+        "2004-ben, az uniós csatlakozás alkalmából.",
+        "1972-ben, a néptáncmozgalom elindításakor."
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az UNESCO 2011-ben vette fel a táncházmódszert a szellemi örökség megőrzésének jó gyakorlatai közé, mint a hagyományátadás magyar modelljét.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Melyik budapesti fürdő őrzi legjobban a török hódoltság korának építészeti örökségét?",
+      "a": [
+        "A Rudas gyógyfürdő",
+        "A Széchenyi gyógyfürdő",
+        "A Gellért fürdő épülete",
+        "A Dagály strandfürdő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Rudas fürdő török kori kupolás medencéje az 1570-es évekből származik, ez Budapest legépebb török fürdőmaradványa.",
+      "t": "fürdőkultúra"
+    },
+    {
+      "q": "Mitől számít Európa egyik legnagyobb gyógyfürdőjének a budapesti Széchenyi fürdő?",
+      "a": [
+        "Az épületegyüttesének és medencéinek mérete miatt.",
+        "Mert napi vendégforgalma meghaladja az 50 ezer főt.",
+        "Mert itt található a legmélyebb termálkút.",
+        "Mert egyszerre 12 különböző gyógyvízforrásra épült."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Széchenyi fürdő 1913-as megnyitása óta épületegyüttesének és medencéinek mérete miatt Európa egyik legnagyobb gyógyfürdője.",
+      "t": "fürdőkultúra"
+    },
+    {
+      "q": "Ki fordította magyarra a Vizsolyi Bibliát, amely 1590-ben jelent meg?",
+      "a": [
+        "Károli Gáspár",
+        "Pázmány Péter",
+        "Heltai Gáspár",
+        "Bornemisza Péter"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A teljes magyar nyelvű Biblia első fordítása Károli Gáspár gönci lelkész nevéhez fűződik, 1590-ben Vizsolyban nyomtatták.",
+      "t": "könyvkultúra"
+    },
+    {
+      "q": "Melyik nyomdász nevéhez fűződik az első Magyarországon nyomtatott könyv, a Chronica Hungarorum 1473-as kiadása?",
+      "a": [
+        "Hess András",
+        "Károli Gáspár",
+        "Sylvester János",
+        "Heltai Gáspár"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hess András budai nyomdájában készült el 1473-ban a Chronica Hungarorum, az első Magyarországon nyomtatott könyv.",
+      "t": "könyvkultúra"
+    },
+    {
+      "q": "Miben egyezett meg, és miben tért el egymástól Bartók Béla és Kodály Zoltán népzenegyűjtői módszere?",
+      "a": [
+        "Mindketten fonográfot használtak, de Bartók a pontos rögzítésre, Kodály a dallam lényegére törekedett.",
+        "Mindketten kizárólag kottára támaszkodtak, felvételt nem készítettek.",
+        "Bartók csak Erdélyben, Kodály csak az Alföldön gyűjtött.",
+        "Egyikük sem használt technikai eszközt, csak emlékezetből dolgoztak."
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mindketten fonográffal dolgoztak, de Bartók a minél pontosabb rögzítésre, Kodály a népdal jellegzetes, lényegi alakjára koncentrált.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Mikor és milyen néven nyílt meg az első állandó magyar nyelvű színház Pesten?",
+      "a": [
+        "1837-ben, Pesti Magyar Színház néven.",
+        "1848-ban, Nemzeti Opera néven.",
+        "1884-ben, az Operaházzal egy épületben.",
+        "1900-ban, a Vígszínházzal egy időben."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1837. augusztus 22-én nyílt meg Pesti Magyar Színház néven az első állandó magyar nyelvű színház, 1840-től Nemzeti Színház néven.",
+      "t": "színház"
+    },
+    {
+      "q": "Melyik magyar zeneszerző lett 1875-ben a frissen alapított Zeneakadémia első elnöke?",
+      "a": [
+        "Liszt Ferenc",
+        "Erkel Ferenc",
+        "Bartók Béla",
+        "Dohnányi Ernő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Liszt Ferencet 1875-ben nevezte ki a magyar parlament a Zeneakadémia elnökévé, míg az igazgatói posztot Erkel Ferenc kapta.",
+      "t": "zene"
+    },
+    {
+      "q": "Miért nem tekinthető teljesen magyar eredetűnek a kürtőskalács, annak ellenére, hogy hungarikum?",
+      "a": [
+        "Mert az ősrecept német nyelvterületről került át az erdélyi udvarokba a 18. században.",
+        "Mert a sütemény formáját csehek találták fel a 20. században.",
+        "Mert eredetileg csak Ausztriában készítették karácsonyi ételként.",
+        "Mert a receptet egy olasz szakácskönyvből vették át szó szerint."
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kürtőskalács alaprecept a német nyelvterületről jutott el az erdélyi fejedelmi udvarokba az 1700-as évek végén, ott vált székely hagyománnyá.",
+      "t": "gasztronómia"
+    },
+    {
+      "q": "Melyik törvény adja Magyarországon a jogi keretet a hungarikumok meghatározásához és nyilvántartásához?",
+      "a": [
+        "A 2012. évi XXX. törvény a magyar nemzeti értékekről és a hungarikumokról.",
+        "Az 1949. évi Alkotmány kulturális záradéka.",
+        "A 2004-es uniós csatlakozási szerződés melléklete.",
+        "A 2001. évi kulturális örökségvédelmi törvény."
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 2012. évi XXX. törvényt az Országgyűlés egyhangúlag fogadta el, ez adja a hungarikumok azonosításának és minősítésének jogi keretét.",
+      "t": "hungarikumok"
+    },
+    {
+      "q": "Melyik szőlőfajta a legelterjedtebb és legjellemzőbb a Tokaji borvidéken?",
+      "a": [
+        "A furmint szőlőfajta",
+        "A kékfrankos szőlőfajta",
+        "Az olaszrizling szőlőfajta",
+        "A cabernet sauvignon szőlőfajta"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A furmint a tokaji borvidék meghatározó, az aszúsodásra különösen alkalmas fehér szőlőfajtája.",
+      "t": "borkultúra"
+    },
+    {
+      "q": "Kiket neveztek tréfásan 'marslakóknak' az amerikai tudományos életben, utalva rendkívüli tehetségükre?",
+      "a": [
+        "A Magyarországról emigrált zseniális tudósokat (Szilárd, Teller, Wigner).",
+        "A NASA első hivatalos asztronautacsapatának tagjait.",
+        "Az MTA külföldön dolgozó kutatóit összefoglalóan.",
+        "Az 1956-os disszidens mérnökök egy csoportját kizárólag."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 20. század közepén az USA-ba emigrált kivételes tehetségű magyar tudósokat (Szilárd, Teller, Wigner, Neumann) hívták tréfásan 'marslakóknak'.",
+      "t": "tudósok"
+    },
+    {
+      "q": "Mi az UNESCO szellemi kulturális örökségi listáján szereplő magyar elemek, például a matyó hímzés és a táncházmódszer közös vonása?",
+      "a": [
+        "Mindkettő élő, ma is gyakorolt hagyomány, amelynek fennmaradását közösségek biztosítják.",
+        "Mindkettő kizárólag múzeumi tárgyként maradt fenn.",
+        "Mindkettőt állami rendelettel hozták létre a 20. században.",
+        "Mindkettő kizárólag exportcikként hasznosul ma."
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az UNESCO szellemi kulturális örökségi listája olyan élő hagyományokat véd, mint a matyó hímzés vagy a táncházmódszer, amelyeket közösségek gyakorolnak ma is.",
+      "t": "néphagyomány"
+    },
+    {
+      "q": "Melyik budapesti épület jellegzetes, mintázott tetőzetét díszíti Zsolnay pirogránit cserép?",
+      "a": [
+        "A Mátyás-templom tetőzete",
+        "A Szent István-bazilika kupolája",
+        "A Nemzeti Múzeum homlokzata",
+        "A Vigadó koncertterme"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Mátyás-templom színes tetőcserepei Zsolnay pirogránitból készültek, a magyar szecessziós építészet jellegzetes példájaként.",
+      "t": "építészet"
     }
   ]
 }

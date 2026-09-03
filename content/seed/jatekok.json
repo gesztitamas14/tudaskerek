@@ -577,6 +577,1826 @@
       "d": "easy",
       "e": "A háromszor hármas változat matematikailag megoldott: helyes játékkal mindig döntetlen.",
       "t": "logikai játékok"
+    },
+    {
+      "q": "Melyik sakkbábu az egyetlen, amely nem ugyanabba az irányba üt, amerre lépni szokott?",
+      "a": [
+        "Gyalog",
+        "Huszár",
+        "Futó",
+        "Bástya"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gyalog egyenesen lép előre, de csak átlósan üthet, ellentétben a többi bábuval.",
+      "t": "sakk"
+    },
+    {
+      "q": "Melyik évben győzte le hivatalos versenykörülmények között a Deep Blue nevű IBM-szuperszámítógép a regnáló sakkvilágbajnok Garri Kaszparovot?",
+      "a": [
+        "1997",
+        "1989",
+        "2001",
+        "1985"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Deep Blue 1997 májusában, egy hatpartis mérkőzésen győzte le Kaszparovot, ez volt az első ilyen eset a sakktörténelemben.",
+      "t": "sakk"
+    },
+    {
+      "q": "Melyik ókori indiai játékot tartják a modern sakk elődjének?",
+      "a": [
+        "Csaturanga",
+        "Mahjong",
+        "Backgammon",
+        "Go"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A csaturanga már az i. sz. 6. század körül kialakult Indiában, és onnan terjedt tovább perzsa, majd arab közvetítéssel Európába.",
+      "t": "sakk"
+    },
+    {
+      "q": "Hány bábuval rendelkezik egy-egy játékos a sakkjátszma kezdetén?",
+      "a": [
+        "16",
+        "20",
+        "24",
+        "12"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Mindkét fél 8 gyaloggal és 8 tiszttel (király, vezér, két bástya, két futó, két huszár) kezdi a partit, ez összesen 16 bábu.",
+      "t": "sakk"
+    },
+    {
+      "q": "Melyik sakkbábu az egyetlen, amelyik lépéskor átugorhat más bábukon, akár sajátján, akár az ellenfelén?",
+      "a": [
+        "Huszár",
+        "Futó",
+        "Vezér",
+        "Király"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A huszár L alakú lépése miatt a köztes mezőkön álló bábuk nem akadályozzák a mozgását.",
+      "t": "sakk"
+    },
+    {
+      "q": "Melyik magyar sakkozónő volt az első nő a sportág történetében, aki 2700 fölötti Élő-pontszámot ért el?",
+      "a": [
+        "Polgár Judit",
+        "Polgár Zsófia",
+        "Polgár Zsuzsa",
+        "Lángos Zsuzsanna"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Polgár Judit 2005 nyarán érte el 2735 pontos csúcsát, ezzel minden idők legerősebb női sakkozója.",
+      "t": "sakk"
+    },
+    {
+      "q": "Mi történik a sáncolás nevű sakklépés végrehajtásakor?",
+      "a": [
+        "A király és az egyik bástya egyszerre mozdul el",
+        "Két gyalog helyet cserél",
+        "A vezér a király helyére lép",
+        "A király két mezőt lép hátra"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Sáncoláskor a király két mezőt lép a bástya felé, a bástya pedig átugorja a királyt, és mellé kerül.",
+      "t": "sakk"
+    },
+    {
+      "q": "Hány lapból áll a hagyományos magyar kártyacsomag?",
+      "a": [
+        "32",
+        "52",
+        "36",
+        "40"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A magyar kártya négy színből (tök, makk, piros, zöld) és soronként 8 lapból áll, összesen 32 lap.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "Melyik amerikai várostól és a Mississippi folyón közlekedő gőzhajóktól ered a póker elterjedése a 19. század elején?",
+      "a": [
+        "New Orleans",
+        "Chicago",
+        "Boston",
+        "San Francisco"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A póker New Orleans környékén, a Mississippin közlekedő gőzhajók szerencsejátékosai körében vált népszerűvé az 1800-as évek elején.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "Melyik osztrák kártyajátékból fejlődött ki a 19. században a magyar tarokk?",
+      "a": [
+        "Zwanzigerrufen",
+        "Skat",
+        "Piquet",
+        "Preferansz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar tarokk a bécsi Zwanzigerrufen (\"Call Twenty\") egyik változataként terjedt el a 19. századi Magyarországon.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "Hagyományosan hány játékos vesz részt egy ulti nevű magyar kártyajáték egyetlen partijában?",
+      "a": [
+        "Három",
+        "Kettő",
+        "Négy",
+        "Öt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ulti alapváltozatát három játékossal játsszák 32 lapos magyar kártyával, ahol a licitáló fél egyedül játszik a másik kettő ellen.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "A magyar kártya melyik négy színe szimbolizálja hagyományosan a négy évszakot?",
+      "a": [
+        "Tök, makk, piros, zöld",
+        "Kőr, káró, treff, pikk",
+        "Arany, ezüst, réz, bronz",
+        "Nap, hold, csillag, felhő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A négy ász a négy évszakot jelképezi: a tök az őszt, a makk a telet, a piros a nyarat, a zöld a tavaszt.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "Melyik angol kártyajátékból alakult ki a 19. század végén a bridzs?",
+      "a": [
+        "Whist",
+        "Piquet",
+        "Ecarté",
+        "Euchre"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A bridzs a whist szabályainak módosításával jött létre, és a 20. század elejére vált önálló, ma is ismert játékká.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "Melyik kártyajáték legmagasabb értékű kombinációja a royal flush, azaz a színsor ásztól tízesig?",
+      "a": [
+        "Póker",
+        "Römi",
+        "Bridzs",
+        "Snapszer"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pókerben a royal flush (A-K-Q-J-10 egy színben) a legritkább és legerősebb lapkombináció.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "Melyik amerikai borbély találta fel 1971-ben az Uno kártyajátékot egy fiával folytatott szabályvita nyomán?",
+      "a": [
+        "Merle Robbins",
+        "Alfred Butts",
+        "Edwin Lowe",
+        "Charles Darrow"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Merle Robbins a Fekete Péter (Crazy Eights) szabályai körüli vitájuk után alkotta meg az Uno saját változatát Ohióban.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "Milyen eredeti néven adta el 1938-ban Alfred Mosher Butts azt a szókirakó játékot, amelyből később a Scrabble lett?",
+      "a": [
+        "Criss-Crosswords",
+        "Lexiko",
+        "Word Power",
+        "Anagram"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Butts a Criss-Crosswords nevű játékát adta el James Brunot-nak, aki átdolgozta és Scrabble néven forgalmazta tovább.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "Mi a neve annak a kínai eredetű, kockás lapokkal játszott társasjátéknak, amelyet gyakran \"kínai dominónak\" is neveznek?",
+      "a": [
+        "Mahjong",
+        "Go",
+        "Xiangqi",
+        "Pachisi"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mahjong a 19. századi Kínában alakult ki elefántcsont- vagy bambuszlapkákból, és világszerte népszerű logikai-szerencsejáték.",
+      "t": "táblás játékok"
+    },
+    {
+      "q": "Egy szabványos dobókockán mennyi a két szemközti lap pontjainak összege?",
+      "a": [
+        "7",
+        "6",
+        "8",
+        "12"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hagyományos dobókockán a szemközti lapok mindig 7-re egészítik ki egymást (1-6, 2-5, 3-4).",
+      "t": "kockajátékok"
+    },
+    {
+      "q": "Melyik amerikai üzletember jegyeztette be 1956-ban a Yahtzee nevet, miután megvásárolta az ötletet egy kanadai házaspártól?",
+      "a": [
+        "Edwin S. Lowe",
+        "Alfred Mosher Butts",
+        "Charles Darrow",
+        "Merle Robbins"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Edwin S. Lowe 1956-ban vásárolta meg és védette le a Yahtzee nevet, amely korábban \"The Yacht Game\" néven létezett.",
+      "t": "kockajátékok"
+    },
+    {
+      "q": "Melyik ókori mezopotámiai leletegyüttesből ismert táblajátékot tartják a backgammon egyik legkorábbi ősének?",
+      "a": [
+        "Ur királyi játéka",
+        "Senet",
+        "Csaturanga",
+        "Mancala"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az i. e. 2600 körüli Ur királyi sírjaiból előkerült játékot a régészek a backgammon egyik legrégebbi elődjének tartják.",
+      "t": "kockajátékok"
+    },
+    {
+      "q": "Két dobókockával dobva mennyi a lehetséges legnagyobb összeg?",
+      "a": [
+        "12",
+        "10",
+        "11",
+        "14"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Két hatoldalú kockával a legnagyobb dobható összeg 6+6, azaz 12.",
+      "t": "kockajátékok"
+    },
+    {
+      "q": "Backgammonban mit jelent, ha egy játékos a duplázókockával megduplázza a tétet?",
+      "a": [
+        "Megnöveli a parti végén elszámolandó pontok értékét",
+        "Újra kell osztani a bábukat",
+        "Kizárja magát a további dobásokból",
+        "Automatikusan megnyeri a partit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A duplázókockával a felajánló játékos megduplázza a tétet, amit az ellenfél elfogadhat, vagy feladhatja a partit.",
+      "t": "kockajátékok"
+    },
+    {
+      "q": "1935-ben ki szerezte meg hivatalosan a Monopoly szabadalmát, jóllehet az alapötlet egy korábbi, Elizabeth Magie-féle játékra épült?",
+      "a": [
+        "Charles Darrow",
+        "Elizabeth Magie",
+        "James Brunot",
+        "Anthony Pratt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Charles Darrow adta el a játék jogait a Parker Brothersnek 1935-ben, jóllehet az alapötlet Magie korábbi \"Landlord's Game\" című játékára épült.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Ki tervezte a Catan telepesei nevű, 1995-ben megjelent és rögtön Spiel des Jahres díjat nyert társasjátékot?",
+      "a": [
+        "Klaus Teuber",
+        "Klaus-Jürgen Wrede",
+        "Reiner Knizia",
+        "Uwe Rosenberg"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Klaus Teuber 1995-ben adta ki a Die Siedler von Catan című játékot, amely még abban az évben elnyerte a Spiel des Jahres díjat.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Anthony Pratt brit zenész mikor kapott szabadalmat a háborús légópincékben kitalált Cluedo (Ki a tettes?) társasjáték-ötletére?",
+      "a": [
+        "1947",
+        "1935",
+        "1960",
+        "1971"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pratt 1943-ban dolgozta ki az ötletet, 1947-ben kapott rá szabadalmat, a Waddingtons cég pedig 1949-től gyártotta.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik társasjátékban kell 54 fából készült elemből tornyot építeni, majd egyenként kihúzogatni azokat anélkül, hogy a torony összedőlne?",
+      "a": [
+        "Jenga",
+        "Kerplunk",
+        "Twister",
+        "Ki nevet a végén"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Jengát Leslie Scott alkotta meg egy afrikai gyerekjátékból kiindulva, a neve szuahéliül azt jelenti: \"építeni\".",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik két kanadai újságíró találta ki egyetlen este alatt, 1979 decemberében, a Trivial Pursuit ötletét?",
+      "a": [
+        "Chris Haney és Scott Abbott",
+        "Klaus Teuber és Reiner Knizia",
+        "Leslie Scott és Merle Robbins",
+        "Alfred Butts és James Brunot"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Haney és Abbott montreali otthonukban, egy Scrabble-parti után ötlötték ki a kvízjátékot 1979 decemberében.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik 1966-os Milton Bradley társasjátékot vádolták a versenytársak azzal, hogy \"szexet árul dobozban\", mert a testrészeket használja játékelemként?",
+      "a": [
+        "Twister",
+        "Ki nevet a végén",
+        "Activity",
+        "Ki vagyok én"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Twistert kezdetben sok bolt visszautasította, de Johnny Carson show-jában bemutatott játék után hatalmas siker lett.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik 2000-ben megjelent társasjátékban raknak le a játékosok kártyalapokat városokból, utakból és mezőkből, hogy egy középkori francia várost építsenek fel?",
+      "a": [
+        "Carcassonne",
+        "Catan telepesei",
+        "Ticket to Ride",
+        "Dominion"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Carcassonne-t Klaus-Jürgen Wrede tervezte, akit a dél-franciaországi Carcassonne erődje ihletett meg.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Hányféle alapvető módszerrel (rajz, szóbeli leírás, némajáték) kell megfejtetni a fogalmakat az Activity társasjátékban?",
+      "a": [
+        "Három",
+        "Kettő",
+        "Négy",
+        "Öt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Activity klasszikus verziójában a fogalmakat rajzolással, szavakkal vagy pantomimmel kell elmagyarázni a csapattársaknak.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "A modern Othello (Reversi) társasjáték jelenlegi formáját egy japán középiskolás fejlesztette ki az 1970-es évek elején - ki volt ő?",
+      "a": [
+        "Goro Hasegawa",
+        "Klaus Teuber",
+        "Toru Iwatani",
+        "Maki Kaji"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Hasegawa a hagyományos go köveit felhasználva alakította ki a modern Othello prototípusát, amelyet 1973-tól gyártottak.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik francia társasjátékban kell a mesélőnek egy illusztrált kártyához olyan kifejezést mondania, ami se túl nyilvánvaló, se túl rejtélyes a többieknek?",
+      "a": [
+        "Dixit",
+        "Activity",
+        "Alias",
+        "Story Cubes"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Dixit játékban a mesélő pontja csak akkor jár, ha se mindenki, se senki nem találja ki a kártyáját a mondott kifejezés alapján.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik szójáték lényege, hogy egy 4x4-es rácsban dobókockákkal kirajzolt betűkből kell időre szavakat kiolvasni a szomszédos betűket összekötve?",
+      "a": [
+        "Boggle",
+        "Scrabble",
+        "Bananagrams",
+        "Anagrams"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Boggle játékban 16 kockát felráznak egy tálcában, és a játékosoknak a szomszédos betűkből kell szavakat alkotniuk egy megadott időn belül.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik társasjátékban kell egyetlen szóból álló kulcsszavakkal saját csapatunknak megfejtetni a táblán szereplő kódszavakat, miközben kerülni kell az ellenfél szavait és a halálügynököt?",
+      "a": [
+        "Codenames",
+        "Dixit",
+        "Cluedo",
+        "Activity"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Codenames játékban a csapatkapitányok egy szóval és egy számmal próbálják jelezni, mely mezőkre gondolnak, elkerülve a fekete \"merénylő\" mezőt.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Hogyan nevezik azt a kooperatív társasjátékot, amelyben a játékosok együtt próbálnak kincseket kimenteni egy fokozatosan elsüllyedő szigetről?",
+      "a": [
+        "Forbidden Island",
+        "Pandemic",
+        "Catan telepesei",
+        "Carcassonne"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Forbidden Island kooperatív társasjátékban a játékosok együtt próbálják megszerezni a kincseket, mielőtt a sziget mezői elsüllyednek.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik klasszikus magyar gyerek-társasjátékban rejt egy pukkantható műanyag búra egy kockát, amellyel a pályán az ellenfél bábuit vissza lehet ütni a rajthoz?",
+      "a": [
+        "Ki nevet a végén",
+        "Activity",
+        "Twister",
+        "Jenga"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Ki nevet a végén társasjátékban a kockát egy pukkantható műanyag búra rejti, és a pályán egymás bábuit ütésekkel lehet visszaküldeni a rajthoz.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Hány kis négyzetből (mezőből) áll egy szabványos Sudoku-rács?",
+      "a": [
+        "81",
+        "64",
+        "100",
+        "36"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Sudoku 9x9-es rácsán 81 mező található, amelyeket kilenc darab 3x3-as blokkra osztanak.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Melyik japán rejtvénykiadó nevezte el és tette népszerűvé 1984-ben a ma Sudokuként ismert számrejtvényt, amelyet eredetileg egy amerikai szerkesztő tervezett?",
+      "a": [
+        "Nikoli",
+        "Namco",
+        "Nintendo",
+        "Sega"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nikoli nevű japán rejtvénykiadó Maki Kaji vezetésével 1984-ben mutatta be és nevezte el a korábban Number Place néven ismert rejtvényt.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Hozzávetőlegesen hány különböző kirakott állás lehetséges egy standard 3x3-as Rubik-kockán?",
+      "a": [
+        "Kb. 43 trillió",
+        "Kb. 1 millió",
+        "Kb. 8 milliárd",
+        "Kb. 100 ezer"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A pontos szám 43 252 003 274 489 856 000, vagyis nagyjából 43 trillió lehetséges állás létezik.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "1974-ben egy magyar építészmérnök oktatási segédeszközként tervezte meg azt a forgatható logikai kockajátékot, amely később az ő nevét viselte - ki volt ő?",
+      "a": [
+        "Rubik Ernő",
+        "Neumann János",
+        "Kürti Sándor",
+        "Bíró László József"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Rubik Ernő 1974-ben, oktatási segédeszközként tervezte meg az azóta világhírűvé vált Rubik-kockát.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Mi a neve annak az ősi geometriai kirakós játéknak, amelyben hét sík alakzatból kell alakzatokat, például állatokat vagy embereket kirakni?",
+      "a": [
+        "Tangram",
+        "Mahjong",
+        "Pentomino",
+        "Mancala"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tangram kínai eredetű kirakós játék, amelyben egy négyzetet hét darabra (öt háromszög, egy négyzet, egy paralelogramma) vágnak.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Melyik logikai kirakós elem alapötletéből fejlesztette ki Alekszej Pazsitnov 1984-ben a Tetris nevű videojátékot?",
+      "a": [
+        "Pentomino",
+        "Tangram",
+        "Mahjong",
+        "Sudoku"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Pazsitnov gyerekkora óta kedvelt pentominó-kirakós elemeit alakította számítógépes játékká, amelyet Tetrisnek nevezett el.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Melyik klasszikus logikai játékban kell egy 4x4-es keretben 15 számozott lapot sorrendbe rendezni az egyetlen üres hely mozgatásával?",
+      "a": [
+        "Tizenötös játék (15 puzzle)",
+        "Rubik-kocka",
+        "Tangram",
+        "Sudoku"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tizenötös csúszkás játékban (15 puzzle) egy 4x4-es keretben 15 számozott lapot kell sorrendbe tolni az egyetlen üres mező segítségével.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Melyik ősi afrikai-ázsiai játékcsaládban kell magokat vagy kavicsokat gödörből gödörbe rakosgatva a saját tárolónkba gyűjteni?",
+      "a": [
+        "Mancala",
+        "Tangram",
+        "Dominó",
+        "Malom"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mancala az egyik legrégebbi és legelterjedtebb táblajáték-család, amelynek több száz helyi változata ismert Afrikában és Ázsiában.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Melyik legendás arcade játékban kell egy sárga, köralakú figurával szellemeket kerülgetve pontokat gyűjteni egy labirintusban?",
+      "a": [
+        "Pac-Man",
+        "Space Invaders",
+        "Donkey Kong",
+        "Frogger"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Pac-Mant Toru Iwatani tervezte a Namco számára, 1980-ban jelent meg, és hamar minden idők egyik legsikeresebb arcade játéka lett.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "A Tetris nevű videojátékot 1984-ben egy szovjet informatikus fejlesztette ki a Szovjet Tudományos Akadémián - ki volt ő?",
+      "a": [
+        "Alekszej Pazsitnov",
+        "Sigeru Mijamoto",
+        "Toru Iwatani",
+        "Markus Persson"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pazsitnov 1984 júniusában fejlesztette ki a Tetrist, de a jogdíjakhoz csak 1996-ban, a szovjet állami tulajdon lejárta után jutott hozzá.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Ki volt az a svéd programozó, akinek 2009-es Minecraft Classicából 2011-re a világ legkelendőbb videojátéka lett?",
+      "a": [
+        "Markus Persson",
+        "Satoshi Tajiri",
+        "Toru Iwatani",
+        "Alekszej Pazsitnov"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Markus \"Notch\" Persson kezdte fejleszteni a Minecraftot, amelyet 2011-ben adtak ki hivatalosan, és a valaha eladott legtöbb példányszámú videojáték lett.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik japán játéktervező, aki gyerekkorában rovarokat gyűjtött, alkotta meg a Pokémon márkát és annak első Game Boy-játékait 1996-ban?",
+      "a": [
+        "Satoshi Tajiri",
+        "Sigeru Mijamoto",
+        "Hideo Kodzsima",
+        "Toru Iwatani"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Tajiri gyerekkori rovargyűjtő szenvedélyéből született a Pokémon Vörös és Zöld verzió, amely 1996. február 27-én jelent meg Japánban.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik Atari-játékot tartják az első kereskedelmileg is sikeres videojátéknak, amely két ütőt és egy pattogó labdát szimulált?",
+      "a": [
+        "Pong",
+        "Computer Space",
+        "Space Invaders",
+        "Asteroids"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Pongot Allan Alcorn fejlesztette Nolan Bushnell megbízásából, és 1972 végén mutatták be egy kaliforniai kocsmában.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Japánban 1985. szeptember 13-án melyik konzolra jelent meg először a Super Mario Bros., amely aztán feléleszette az észak-amerikai piacot is?",
+      "a": [
+        "Family Computer (Famicom)",
+        "Sega Genesis",
+        "PlayStation",
+        "Game Boy"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Super Mario Bros. 1985. szeptember 13-án jelent meg Japánban a Famicomra, majd októberben az észak-amerikai NES-re is.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik páros tervezte a Super Mario Bros. című 1985-ös platformjátékot?",
+      "a": [
+        "Sigeru Mijamoto és Takasi Tezuka",
+        "Toru Iwatani és Alekszej Pazsitnov",
+        "Satoshi Tajiri és Markus Persson",
+        "Hideo Kodzsima és Sigeru Mijamoto"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Sigeru Mijamoto és Takasi Tezuka közösen tervezte a Super Mario Bros. pályáit és játékmenetét a Nintendónál.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Miért nem részesült Alekszej Pazsitnov évekig jogdíjból a Tetris sikeréből, annak ellenére, hogy ő fejlesztette ki a játékot?",
+      "a": [
+        "Mert 1986-ban tíz évre a szovjet államra ruházta a jogokat",
+        "Mert elvesztette a szabadalmi pert",
+        "Mert ingyen adta oda egy amerikai cégnek",
+        "Mert sosem jelentette be a szabadalmat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Pazsitnov 1986-ban a szovjet államnak engedte át a Tetris jogait, és csak 1996-ban, azok lejártával alapíthatta meg saját céget.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Mi az oka annak, hogy Pac-Man tervezője, Toru Iwatani, egy kör alakú, szájat formázó karaktert álmodott meg főszereplőnek?",
+      "a": [
+        "Egy pizzaszelet hiányzó darabja adta az ötletet",
+        "Egy holdfogyatkozás ihlette",
+        "Egy japán meseszereplő alapján készült",
+        "A csapat kabalaállata volt a minta"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Iwatani állítása szerint egy elfogyasztott pizzaszeletből eredt az ötlet a szájat formázó, kör alakú Pac-Man figurára.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik céget vásárolta meg 2014-ben 2,5 milliárd dollárért a Microsoft, hogy megszerezze a Minecraft jogait?",
+      "a": [
+        "Mojang",
+        "Namco",
+        "Nintendo",
+        "Rovio"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Microsoft 2014 novemberében vásárolta fel a svéd Mojang Studiót, amely a Minecraftot fejlesztette.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Miért volt csak mérsékelt sikerű a Pac-Man Japánban megjelenésekor, szemben az észak-amerikai óriási sikerével?",
+      "a": [
+        "A Namco saját Galaxian című játéka jobban teljesített akkoriban",
+        "Túl drága volt az arcade gép",
+        "A japán közönség nem szerette a labirintusjátékokat",
+        "Betiltották erőszakos tartalom miatt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Japánban a Namco korábbi Galaxian című lövöldözős játéka népszerűbb volt, míg Észak-Amerikában a Pac-Man vált a legkelendőbb arcade géppé.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Mi az eredete a Tetris névnek, amelyet Pazsitnov két szó összevonásával alkotott meg?",
+      "a": [
+        "A görög \"tetra\" (négy) és a tenisz szavakból",
+        "A latin \"terra\" és \"matrix\" szavakból",
+        "Az orosz \"tyetra\" és \"risz\" szavakból",
+        "A \"tesszellál\" szóból"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Pazsitnov a görög \"tetra\" (négy) szót és kedvenc sportja, a tenisz angol nevét vonta össze a játék elnevezéséhez.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Mikor debütált világszerte a hordozható és otthoni tévéhez is köthető Nintendo Switch konzol?",
+      "a": [
+        "2017",
+        "2013",
+        "2020",
+        "2015"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Nintendo Switch 2017. március 3-án került piacra, ötvözve a hordozható és otthoni konzolok tulajdonságait.",
+      "t": "konzolok"
+    },
+    {
+      "q": "Melyik technológiai vállalat indította el 1994-ben Japánban az első PlayStation konzoljával a saját videojáték-üzletágát?",
+      "a": [
+        "Sony",
+        "Nintendo",
+        "Sega",
+        "Microsoft"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Sony 1994. december 3-án dobta piacra Japánban a PlayStationt, amely később világszerte meghatározó konzollá vált.",
+      "t": "konzolok"
+    },
+    {
+      "q": "Melyik cég fejlesztette és adta ki a Game Boy hordozható konzolt, amelyen az első Pokémon-játékok is megjelentek?",
+      "a": [
+        "Nintendo",
+        "Sega",
+        "Sony",
+        "Atari"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Nintendo Game Boyja 1989-ben jelent meg, és a Pokémon Vörös és Zöld 1996-os debütálásával vált még ikonikusabbá.",
+      "t": "konzolok"
+    },
+    {
+      "q": "Melyik céget és annak alapítóját, Nolan Bushnellt tartják az arcade-videojáték-ipar egyik elindítójának a Pong 1972-es sikere nyomán?",
+      "a": [
+        "Atari",
+        "Namco",
+        "Sega",
+        "Taito"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Atarit Nolan Bushnell alapította, és az általa megbízott Allan Alcorn fejlesztette ki a Pongot, amely 1972-ben óriási sikert aratott.",
+      "t": "konzolok"
+    },
+    {
+      "q": "Mi segített talpra állítani az észak-amerikai videojáték-piacot az 1983-as videojáték-piaci összeomlás után?",
+      "a": [
+        "A Nintendo Entertainment System és a Super Mario Bros. sikere",
+        "Az Atari 2600 újrakiadása",
+        "A számítógépes játékok betiltása",
+        "A Sega Mega Drive megjelenése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nintendo 1985-ös NES-je és a hozzá tartozó Super Mario Bros. című játék sikere lendítette újra fel az amerikai konzolpiacot.",
+      "t": "konzolok"
+    },
+    {
+      "q": "Melyik videojáték-sorozat főszereplőjét, egy vörös sapkás olasz vízvezeték-szerelőt, tervezte Sigeru Mijamoto a Nintendónak?",
+      "a": [
+        "Mario",
+        "Link",
+        "Sonic",
+        "Kirby"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Mario a Nintendo leghíresebb karaktere, első fontos szereplése az 1981-es Donkey Kong című arcade játékban volt.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Mi az elsődleges célja a Pokémon videojátékok hagyományos történetének, amelyben a játékos egy fiatal edzőt irányít?",
+      "a": [
+        "Zsebszörnyek elfogása, kiképzése és versenyeztetése",
+        "Egy labirintusból való kimenekülés",
+        "Egy középkori város felépítése",
+        "Egy űrhajó irányítása"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Pokémon-játékokban a cél zsebszörnyek (Pokémonok) gyűjtése, edzése és csatáztatása más edzők ellen.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Mi volt a neve a Minecraft első, 2009 májusában nyilvánosan elérhetővé tett korai verziójának, a 2011-es teljes kiadás előtt?",
+      "a": [
+        "Minecraft Classic",
+        "Minecraft Alpha",
+        "Minecraft Beta",
+        "Minecraft Indev"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Minecraft Classic 2009. május 17-én jelent meg először nyilvánosan, a hivatalos, teljes kiadásra pedig 2011. november 18-án került sor.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Az 1981-es Donkey Kong című arcade játékban milyen néven szerepelt a Nintendo későbbi híres hőse, mielőtt a Mario nevet kapta volna?",
+      "a": [
+        "Jumpman",
+        "Fixit Felix",
+        "Mr. Video",
+        "Popeye"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A karaktert eredetileg Jumpmannek hívták, és csak később, a Mario Bros. című 1983-as játéktól kezdve vált Marióvá a hivatalos neve.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Mit jelent az \"esport\" kifejezés a modern szóhasználatban?",
+      "a": [
+        "Versenyszerűen, szervezett versenyeken űzött videojátékozás",
+        "Hagyományos sportok kizárólagos videojátékos szimulációja",
+        "Kizárólag mobiltelefonon játszott játékok gyűjtőneve",
+        "Az olimpiai játékok digitális változata"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az esport a videojátékok versenyszerű, gyakran professzionális szinten, csapatokban vagy egyénileg űzött formáját jelöli.",
+      "t": "esport"
+    },
+    {
+      "q": "Melyik évben jelent meg a League of Legends, amely azóta az egyik legnépszerűbb MOBA-stílusú esport-játékká vált?",
+      "a": [
+        "2009",
+        "2013",
+        "2005",
+        "2016"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Riot Games 2009-ben adta ki a League of Legendst, amely mára a legnézettebb esport-versenyek egyikének, a Worldsnek is otthont ad.",
+      "t": "esport"
+    },
+    {
+      "q": "Mit jelent a MOBA műfaji rövidítés, amelybe olyan játékok tartoznak, mint a League of Legends vagy a Dota 2?",
+      "a": [
+        "Multiplayer Online Battle Arena",
+        "Massive Open Battle Application",
+        "Multiplayer Objective Based Action",
+        "Mobile Online Battle Adventure"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A MOBA (Multiplayer Online Battle Arena) műfajban két csapat versenyez egymással, jellemzően egyedi képességű hősökkel egy pályán.",
+      "t": "esport"
+    },
+    {
+      "q": "Hozzávetőlegesen hány éves múltra tekint vissza játékként a go nevű kínai eredetű stratégiai táblajáték?",
+      "a": [
+        "Kb. 2500 év",
+        "Kb. 300 év",
+        "Kb. 800 év",
+        "Kb. 100 év"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gót játékként legalább 2500 éve, stratégiai eszközként pedig már közel 4000 éve ismerik Kínában.",
+      "t": "táblás játékok"
+    },
+    {
+      "q": "Melyik ókori táblajáték legkorábbi ismert ábrázolását vésték egy egyiptomi templom tetőlapjára, i. e. 1400 körül?",
+      "a": [
+        "Malom (Nine Men's Morris)",
+        "Senet",
+        "Go",
+        "Sakk"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A malom játék legkorábbi ismert ábrázolása a kurnai egyiptomi templom tetőlapján maradt fenn, i. e. 1400 körülről.",
+      "t": "táblás játékok"
+    },
+    {
+      "q": "Melyik évben találta fel Rubik Ernő a később róla elnevezett bűvös kockát?",
+      "a": [
+        "1974",
+        "1968",
+        "1980",
+        "1991"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Rubik Ernő 1974-ben, budapesti építész-formatervezőként alkotta meg a kockát.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Nagyjából hány lehetséges kirakása van a klasszikus 3x3-as Rubik-kockának?",
+      "a": [
+        "Több mint 43 trillió",
+        "Csak néhány ezer",
+        "Körülbelül egymillió",
+        "Alig több mint száz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kocka lehetséges állásainak száma megközelítőleg 43 trillió (4,3x10 a 19-en).",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Egy 2010-es matematikai bizonyítás szerint legfeljebb hány lépésből kirakható bármely összekevert Rubik-kocka?",
+      "a": [
+        "20 lépésből",
+        "50 lépésből",
+        "8 lépésből",
+        "100 lépésből"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "2010-ben számítógépes bizonyítással igazolták, hogy minden állás legfeljebb 20 lépésben megoldható, ezt hívják az 'Isten számának'.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Ki alkotta meg a Tetris nevű logikai videojátékot 1984-ben?",
+      "a": [
+        "Alekszej Pazsitnov",
+        "Sid Meier",
+        "Shigeru Miyamoto",
+        "Will Wright"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szovjet programozó moszkvai kutatóintézetében, szabadidejében fejlesztette ki a játékot.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Miből ered a Tetris játék elnevezése?",
+      "a": [
+        "A görög 'tetra' szóból és a teniszből",
+        "A feltaláló kutyájának nevéből",
+        "Egy szibériai folyó nevéből",
+        "Az orosz 'négy elem' kifejezésből"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Pazsitnov a négyet jelentő görög 'tetra' szót és kedvenc sportját, a teniszt vonta össze a névben.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Milyen hétköznapi élmény ihlette állítólag Tóru Ivatanit a Pac-Man karakter formájának megalkotásakor?",
+      "a": [
+        "Egy szeletke nélküli kerek pizza látványa",
+        "Egy telihold látványa éjszaka",
+        "Egy sárga futball-labda gurulása",
+        "Egy régi japán legenda szörnye"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ivatani elmondása szerint egy pizzáról hiányzó szeletre nézve jutott eszébe a szájat formázó kerek alak.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik japán cég fejlesztette és adta ki a Pac-Mant 1980-ban?",
+      "a": [
+        "Namco",
+        "Sega",
+        "Capcom",
+        "Konami"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Pac-Mant a Namco jelentette meg 1980 májusában Japánban, Tóru Ivatani tervezésében.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik két sakkozó vívta az 1972-es, 'évszázad mérkőzésének' nevezett világbajnoki döntőt Reykjavíkban?",
+      "a": [
+        "Bobby Fischer és Borisz Szpasszkij",
+        "Garri Kaszparov és Anatolij Karpov",
+        "Magnus Carlsen és Viswanathan Anand",
+        "Mihail Tal és Vaszilij Szmiszlov"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az amerikai Fischer legyőzte a szovjet világbajnok Szpasszkijt, megtörve a szovjet sakkozók évtizedes dominanciáját.",
+      "t": "sakk"
+    },
+    {
+      "q": "Melyik körülmény zárja ki, hogy egy sakkjátékos éppen sáncolhasson?",
+      "a": [
+        "Ha a király korábban már lépett a partiban",
+        "Ha a játékos gyalogja éppen üt egy figurát",
+        "Ha kevesebb mint tíz perce tart a parti",
+        "Ha a huszár még egyszer sem lépett"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Sáncolni csak akkor lehet, ha sem a király, sem az adott bástya nem lépett még, és a köztük lévő mezők üresek és nem fenyegetettek.",
+      "t": "sakk"
+    },
+    {
+      "q": "Hogyan jelölik a sakkjegyzőkönyvekben a rövid, azaz királyszárnyi sáncot?",
+      "a": [
+        "0-0",
+        "K-B",
+        "0-0-0",
+        "S-h"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rövid sáncot 0-0, a hosszú, vezérszárnyi sáncot pedig 0-0-0 jelöli a sakknotációban.",
+      "t": "sakk"
+    },
+    {
+      "q": "Ki vezette tervezőként az 1985-ös Super Mario Bros. fejlesztését a Nintendónál?",
+      "a": [
+        "Shigeru Miyamoto",
+        "Hideo Kojima",
+        "Satoru Iwata",
+        "Yuji Naka"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Miyamoto vezette a fejlesztést Takashi Tezuka közreműködésével, és a játék világszerte áttörést hozott a platformer műfajnak.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Ki tervezte és szabadalmaztatta 1904-ben a Monopoly alapjául szolgáló táblajátékot?",
+      "a": [
+        "Elizabeth Magie",
+        "Charles Darrow",
+        "George Parker",
+        "Milton Bradley"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Magie 'The Landlord's Game' néven alkotta meg a földbérletet bíráló játékot, amelyet évtizedekkel később Monopoly néven adtak ki.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik évben jelent meg Klaus Teuber Catan telepesei című társasjátéka?",
+      "a": [
+        "1995",
+        "1985",
+        "2001",
+        "2010"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A német Klaus Teuber 1995-ben adta ki a játékot, amely még abban az évben elnyerte a németországi Év Játéka díjat.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Hány saját lapot kap minden játékos a Texas Hold'em póker parti kezdetekor?",
+      "a": [
+        "Kettőt",
+        "Ötöt",
+        "Hetet",
+        "Hármat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Minden játékos két zárt lapot kap, majd öt közös lap kerül az asztalra, amit mindenki felhasználhat.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "Ki programozta le a Pong videojátékot Nolan Bushnell megbízásából 1972-ben?",
+      "a": [
+        "Allan Alcorn",
+        "Steve Wozniak",
+        "Ralph Baer",
+        "Ted Dabney"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Alcorn az Atari mérnökeként gyakorlófeladatból készítette el a játékot, amely az első kereskedelmileg sikeres videojáték lett.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik volt az első kereskedelmi forgalomba került otthoni videojáték-konzol?",
+      "a": [
+        "Magnavox Odyssey",
+        "Atari 2600",
+        "Nintendo Entertainment System",
+        "Sega Genesis"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Magnavox Odyssey 1972-ben jelent meg, és beépített teniszjátéka ihlette később a Pongot is.",
+      "t": "konzolok"
+    },
+    {
+      "q": "Melyik cég fejlesztette a 2004-ben megjelent World of Warcraft nevű MMORPG-t?",
+      "a": [
+        "Blizzard Entertainment",
+        "Electronic Arts",
+        "Bethesda",
+        "Ubisoft"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Blizzard 2004 novemberében adta ki a játékot, a Warcraft-univerzum tizedik évfordulójára időzítve.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Ki alkotta meg a Sudoku ősének tartott 'Number Place' rejtvényt 1979-ben egy amerikai magazinnak?",
+      "a": [
+        "Howard Garns",
+        "Maki Kaji",
+        "Alfred Butts",
+        "Will Shortz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az amerikai Garns tervezte a rejtvényt; a japán Nikoli kiadó tette népszerűvé és nevezte át Sudokura.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Mi a Sudoku alapszabálya a számok elhelyezésére a 9x9-es rácsban?",
+      "a": [
+        "Minden sorban, oszlopban és blokkban 1-9 csak egyszer szerepelhet",
+        "A számoknak növekvő sorrendben kell következniük",
+        "Csak páros számok használhatók",
+        "Minden oszlopnak azonos összegűnek kell lennie"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cél, hogy a rácsot úgy töltsük ki, hogy egyetlen szám se ismétlődjön egy soron, oszlopon vagy 3x3-as blokkon belül.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Ki találta fel az UNO kártyajátékot 1971-ben?",
+      "a": [
+        "Merle Robbins",
+        "Alfred Butts",
+        "Milton Bradley",
+        "Elizabeth Magie"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ohiói fodrász a fiával folytatott vitájából alkotta meg a játékot, amelynek jogait végül 50 ezer dollárért adta el.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "Mi volt a Scrabble játék eredeti neve, mielőtt jelenlegi elnevezését megkapta volna?",
+      "a": [
+        "Lexico",
+        "WordCraft",
+        "Anagramma",
+        "Betűvadász"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Alfred Mosher Butts építész 1938-ban Lexico néven tervezte meg a játékot, a Scrabble nevet később James Brunot adta neki.",
+      "t": "szójátékok"
+    },
+    {
+      "q": "Melyik évben jelent meg Japánban a Nintendo első kézikonzolja, a Game Boy?",
+      "a": [
+        "1989",
+        "1985",
+        "1994",
+        "1998"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Game Boyt 1989 áprilisában adták ki Japánban, kezdetben a Tetris-szel egybecsomagolva árulták.",
+      "t": "konzolok"
+    },
+    {
+      "q": "Melyik stúdió adta ki a League of Legends nevű MOBA játékot 2009-ben?",
+      "a": [
+        "Riot Games",
+        "Blizzard Entertainment",
+        "Valve",
+        "Epic Games"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Riot Games 2009 októberében jelentette meg a Warcraft III egyik módosítása, a DotA ihlette játékot.",
+      "t": "esport"
+    },
+    {
+      "q": "Melyik ókori civilizációhoz köthető az 'Ur királyi játéka' nevű, a backgammon egyik legrégebbi elődjének tartott tábla?",
+      "a": [
+        "Ókori Mezopotámia",
+        "Ókori Egyiptom",
+        "Ókori Kína",
+        "Ókori Görögország"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A táblát Ur sumer városában találták meg, kora mintegy 4600 évre tehető.",
+      "t": "kockajátékok"
+    },
+    {
+      "q": "Mi volt a Cluedo társasjáték eredeti munkacíme, mielőtt 1949-ben piacra dobták volna?",
+      "a": [
+        "Murder!",
+        "Whodunit",
+        "Death at Tudor Manor",
+        "The Mystery Game"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Anthony Pratt brit zenész 1943-ban 'Murder!' néven tervezte meg a gyilkossági rejtélyjátékot.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Ki a Minecraft eredeti alkotója, akit 'Notch' becenéven ismertek?",
+      "a": [
+        "Markus Persson",
+        "Markus Frind",
+        "Gabe Newell",
+        "Notch Anderson"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A svéd programozó 2009-ben kezdte fejleszteni a játékot, amelyet később a Mojang stúdióval jelentetett meg.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik évben jelent meg a Minecraft hivatalos, végleges 1.0-s verziója?",
+      "a": [
+        "2011",
+        "2009",
+        "2014",
+        "2016"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A teljes verziót 2011. november 18-án adták ki, bár korábbi fejlesztői változatok már 2009-től elérhetők voltak.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Elsősorban miből gyűlik össze a Dota 2 The International esport-torna rekordösszegű díjazása?",
+      "a": [
+        "A közösség által vásárolt 'Battle Pass' bevételének egy részéből",
+        "Kizárólag a Valve saját befektetéséből",
+        "Állami sportminisztériumi támogatásból",
+        "A helyszíni jegyeladásokból"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "2013 óta a Battle Pass bevételének 25 százaléka automatikusan a torna díjalapjába kerül, ami így milliókra duzzadt.",
+      "t": "esport"
+    },
+    {
+      "q": "Hány vonal alkotja a hagyományos, versenyszintű Go (weiqi) táblát soronként és oszloponként?",
+      "a": [
+        "19",
+        "15",
+        "9",
+        "25"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szabványos versenytábla 19x19 vonalból áll, bár kezdőknek 9x9-es vagy 13x13-as táblát is szoktak használni.",
+      "t": "táblás játékok"
+    },
+    {
+      "q": "Melyik ország hagyományos táblajátékát tartják az egyik legrégebb óta folyamatosan játszott stratégiai játéknak?",
+      "a": [
+        "Kína (a Go/weiqi)",
+        "India (a sakk őse)",
+        "Egyiptom (a szenet)",
+        "Görögország (a petteia)"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Go eredete legalább 2500 évre nyúlik vissza Kínában, és gyakorlatilag változatlan szabályokkal játsszák a mai napig.",
+      "t": "táblás játékok"
+    },
+    {
+      "q": "Melyik két kanadai újságíró alkotta meg a Trivial Pursuit kvízjátékot 1979-ben?",
+      "a": [
+        "Chris Haney és Scott Abbott",
+        "Alfred Butts és James Brunot",
+        "Klaus Teuber és Reiner Knizia",
+        "Charles Darrow és George Parker"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A montreali páros egy hiányos Scrabble-készlet miatt kezdett saját játékot tervezni, ebből született a Trivial Pursuit.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik francia filmrendező tervezte a Risk elődjét, a 'La Conquête du Monde' nevű világhódító társasjátékot?",
+      "a": [
+        "Albert Lamorisse",
+        "Jean-René Vernes",
+        "François Truffaut",
+        "Georges Méliès"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Cannes-i díjas rendező 1957-ben adta ki Franciaországban a játékot, amit a Parker Brothers alakított át Risk néven.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Hány dobókockával játsszák a Yahtzee (Kockapóker) nevű játékot?",
+      "a": [
+        "Öttel",
+        "Hárommal",
+        "Héttel",
+        "Kettővel"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A játékosok öt kockával dobnak körönként, és 13 körön át gyűjtenek pontot különböző kombinációkért.",
+      "t": "kockajátékok"
+    },
+    {
+      "q": "Mennyi idő alatt lépte át a Grand Theft Auto V az 1 milliárd dolláros bevételt 2013-as megjelenése után?",
+      "a": [
+        "Három nap alatt",
+        "Egy év alatt",
+        "Egy hónap alatt",
+        "Tíz nap alatt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A játék az első napon 800 millió, három nap alatt pedig már 1 milliárd dollár bevételt hozott, minden idők egyik leggyorsabban fogyó szórakoztatóipari terméke lett.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Hány kőből (lapból) áll a hagyományos kínai mahjong (madzsong) készlet?",
+      "a": [
+        "144",
+        "108",
+        "52",
+        "78"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A klasszikus madzsongkészlet 144 elemből áll, bambusz-, karakter- és köralakú sorozatokból.",
+      "t": "táblás játékok"
+    },
+    {
+      "q": "Melyik cég adta ki 2017-ben a Fortnite Battle Royale módot?",
+      "a": [
+        "Epic Games",
+        "Ubisoft",
+        "Bungie",
+        "PUBG Corporation"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Epic Games a PUBG sikerén felbuzdulva mindössze két hónap fejlesztés után adta ki a módot 2017 szeptemberében.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik országból származik az Angry Birds mobiljátékot fejlesztő Rovio stúdió?",
+      "a": [
+        "Finnország",
+        "Svédország",
+        "Norvégia",
+        "Dánia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A finn Rovio 2009 decemberében adta ki a játékot, ami a csőd szélén álló cégnek hatalmas sikert hozott.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik régi kártyajátékból fejlődött ki a bridzs a 19. század végén?",
+      "a": [
+        "Whist",
+        "Piquet",
+        "Skat",
+        "Ferbli"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A bridzs a whistből alakult ki azzal az újítással, hogy a felvevő maga választhatja meg az adu színét.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "Ki tervezte a Space Invaders című 1978-as arcade játékot a Taito számára?",
+      "a": [
+        "Tomohiro Nishikado",
+        "Toru Iwatani",
+        "Shigeru Miyamoto",
+        "Yuji Horii"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Nishikado egy évig dolgozott a játékon, és saját maga tervezte hozzá a szükséges arcade-hardvert is.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Hány bábuval kezd egy fél a hagyományos, 8x8-as táblán játszott dámajátékban?",
+      "a": [
+        "12-vel",
+        "16-tal",
+        "8-cal",
+        "20-szal"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Mindkét fél 12-12 koronggal indul, amelyeket a tábla sötét mezőin, három sorban helyeznek el.",
+      "t": "táblás játékok"
+    },
+    {
+      "q": "Melyik évben jelent meg Japánban Sony első PlayStation konzolja?",
+      "a": [
+        "1994",
+        "1990",
+        "1998",
+        "2000"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A PlayStation 1994. december 3-án jelent meg Japánban, Ken Kutaragi vezetésével fejlesztették.",
+      "t": "konzolok"
+    },
+    {
+      "q": "Melyik amerikai lap vásárolta meg a Wordle szójátékot 2022 elején a fejlesztőjétől?",
+      "a": [
+        "The New York Times",
+        "The Washington Post",
+        "USA Today",
+        "The Wall Street Journal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Josh Wardle a párjának készítette a játékot, majd 2022 januárjában hétjegyű összegért adta el a New York Timesnak.",
+      "t": "szójátékok"
+    },
+    {
+      "q": "Ki tervezte a fadarabokból épített Jenga tornyot, amit 1983-ban mutattak be Londonban?",
+      "a": [
+        "Leslie Scott",
+        "Klaus Teuber",
+        "Reiner Knizia",
+        "Sid Sackson"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Ghánában felnőtt brit Leslie Scott családi fadarab-játékából fejlesztette ki a Jengát.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Milyen formában jött létre eredetileg a Counter-Strike, mielőtt a Valve önálló játékká alakította?",
+      "a": [
+        "A Half-Life egy közösségi módosításaként (mod)",
+        "Egy egyetemi programozási szakdolgozatként",
+        "A Valve hivatalos belső fejlesztéseként",
+        "Egy japán arcade-automata játékként"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Minh 'Gooseman' Le fejlesztette ki modként 1999-ben, majd a Valve megvásárolta és önálló játékként adta ki 2000-ben.",
+      "t": "esport"
+    },
+    {
+      "q": "Hány mezőt léphet előre egy gyalog az induló pozíciójából a sakkban?",
+      "a": [
+        "Egyet vagy kettőt, választása szerint",
+        "Csak egyet",
+        "Csak kettőt",
+        "Hármat is léphet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gyalog minden más lépésnél csak egy mezőt léphet előre, de induláskor választhat két mezőt is.",
+      "t": "sakk"
+    },
+    {
+      "q": "Mit jelent a sakkban az 'en passant' (útközbeni ütés) szabálya?",
+      "a": [
+        "A kétmezős gyaloglépés mellett elhaladó ellenséges gyalogot leüthetjük",
+        "A király két mezőt léphet egyszerre menekülés közben",
+        "A vezér átugorhat egy másik bábun",
+        "A huszár kétszer léphet egymás után"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ha egy gyalog két mezőt lép és így elhalad egy ellenséges gyalog mellett, az közvetlenül utána úgy ütheti le, mintha csak egyet lépett volna.",
+      "t": "sakk"
+    },
+    {
+      "q": "A sakkban hagyományosan használt pontozás szerint hány pontot ér a vezér a többi bábuhoz viszonyítva?",
+      "a": [
+        "9 pontot",
+        "3 pontot",
+        "5 pontot",
+        "1 pontot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szokásos érékelés szerint a vezér 9, a bástya 5, a futó és a huszár 3, a gyalog pedig 1 pontot ér.",
+      "t": "sakk"
+    },
+    {
+      "q": "Hány kőből áll a hagyományos, dupla hatos dominókészlet?",
+      "a": [
+        "28",
+        "32",
+        "52",
+        "36"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A dupla hatos készlet a 0-0-tól a 6-6-ig minden lehetséges számpárt tartalmazza, összesen 28 követ.",
+      "t": "kártya, kockajátékok"
+    },
+    {
+      "q": "Hány saját koronggal indul egy fél a malom (Nine Men's Morris) nevű ősi táblajátékban?",
+      "a": [
+        "Kilenccel",
+        "Tizenkettővel",
+        "Hattal",
+        "Nyolccal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A malomjáték elnevezése is onnan ered, hogy mindkét fél fejenként kilenc bábuval kezdi a partit.",
+      "t": "táblás játékok"
+    },
+    {
+      "q": "Mi a célja a kínai dáma (Halma) nevű, csillag alakú táblán játszott társasjátéknak?",
+      "a": [
+        "Bábuinkat átjuttatni a velünk szemközti csúcsba",
+        "Az ellenfél bábuit levenni a tábláról",
+        "A legtöbb pontot elérni kártyalapokkal",
+        "A táblát teljesen beteríteni saját bábukkal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A csillag alakú táblán a cél, hogy bábuinkat ugrásokkal minél gyorsabban átjuttassuk a szemközti sarokba.",
+      "t": "táblás játékok"
+    },
+    {
+      "q": "Hány azonos színű korongot kell egy sorba rendezni a Connect Four (Négy nyerő) játékban a győzelemhez?",
+      "a": [
+        "Négyet",
+        "Ötöt",
+        "Hármat",
+        "Hatot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cél, hogy vízszintesen, függőlegesen vagy átlósan négy azonos színű korongot rakjunk egymás mellé a függőleges rácsban.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Melyik országból ered a Kígyók és létrák nevű gyerekjáték?",
+      "a": [
+        "India",
+        "Kína",
+        "Egyiptom",
+        "Perzsia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A játék indiai eredetű, eredetileg Moksha Patam néven erkölcsi tanmeseként szolgált, a brit gyarmati korban terjedt el Nyugaton.",
+      "t": "táblás játékok"
+    },
+    {
+      "q": "Melyik a póker legerősebb kézkombinációja az öt lap közül?",
+      "a": [
+        "A királyi színsor, tízestől ászig",
+        "A négyes, négy azonos értékű lapból",
+        "A teli ház, egy pár és egy drill",
+        "Az egyszerű színsor, alacsonyabb lapokkal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A royal flush az azonos színű tízes-bubi-dáma-király-ász kombináció, ez veri az összes többi kezet.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "Mi a Blackjack (huszonegy) kártyajáték alapvető célja?",
+      "a": [
+        "A lapok összértékét minél közelebb hozni 21-hez, túllépés nélkül",
+        "Minden lapot leütni az asztalról",
+        "A legkevesebb pontot összegyűjteni körönként",
+        "Négy egyforma lapot gyűjteni egy színből"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A játékos célja, hogy a kezében lévő lapok összértéke 21 legyen vagy ahhoz minél közelebb, 21 fölé lépés nélkül.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "Melyik évben alapították Párizsban a Nemzetközi Sakkszövetséget (FIDE)?",
+      "a": [
+        "1924",
+        "1900",
+        "1950",
+        "1972"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A FIDE-t 1924. július 20-án alapították Párizsban, az első nem hivatalos sakkolimpiához kapcsolódva.",
+      "t": "sakk"
+    },
+    {
+      "q": "Melyik évben jelent meg a Nintendo Switch hibrid konzol?",
+      "a": [
+        "2017",
+        "2012",
+        "2020",
+        "2015"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Nintendo Switch 2017 márciusában jelent meg, és otthoni, valamint hordozható üzemmódot is kínál.",
+      "t": "konzolok"
+    },
+    {
+      "q": "Miért forgalmazta a Sega Észak-Amerikában 'Genesis' néven a Mega Drive konzolt?",
+      "a": [
+        "Egy másik cégé volt már a 'Mega Drive' védjegy az USA-ban",
+        "A Nintendo pert indított a Mega Drive név ellen",
+        "A Genesis szó rövidebb volt reklámcélokra",
+        "A konzolt eredetileg is így nevezték el Japánban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Egyesült Államokban egy tárolóeszközöket gyártó cég már birtokolta a Mega Drive védjegyet, ezért kellett új nevet választani.",
+      "t": "konzolok"
+    },
+    {
+      "q": "Melyik cég dobta piacra 2001-ben az első Xbox konzolt?",
+      "a": [
+        "Microsoft",
+        "Sony",
+        "Nintendo",
+        "Sega"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Microsoft 2001 novemberében jelentette meg első konzolját, ezzel belépve a videojáték-piacra.",
+      "t": "konzolok"
+    },
+    {
+      "q": "Miben hozott jelentős újítást a 2006-os Nintendo Wii konzol a korábbi rendszerekhez képest?",
+      "a": [
+        "Mozgásérzékelő vezérlőt vezetett be",
+        "Elsőként használt optikai lemezt",
+        "Elsőként támogatott online többjátékos módot",
+        "Elsőként jelent meg érintőképernyővel"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Wii Remote mozgásérzékelése tette lehetővé, hogy a játékosok fizikai mozdulatokkal irányítsák a játékot.",
+      "t": "konzolok"
+    },
+    {
+      "q": "Ki tervezte a 2000-ben megjelent The Sims szimulációs videojátékot?",
+      "a": [
+        "Will Wright",
+        "Sid Meier",
+        "Peter Molyneux",
+        "Warren Spector"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A SimCity alkotója, Will Wright tervezte a virtuális emberek életét szimuláló játékot, amely a világ egyik legkelendőbb PC-s játéka lett.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik évben jelentek meg Japánban az első Pokémon videojátékok, a Vörös és a Zöld verzió?",
+      "a": [
+        "1996",
+        "1990",
+        "2000",
+        "1985"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Pokémon Vörös és Zöld verziója 1996 februárjában jelent meg a Game Boyra, a Game Freak fejlesztésében.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik stúdió fejlesztette az Among Us nevű játékot, amely 2018-as megjelenése után 2020-ban vált világszerte népszerűvé?",
+      "a": [
+        "InnerSloth",
+        "Mojang",
+        "Rovio",
+        "Supercell"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az amerikai InnerSloth 2018-ban adta ki a játékot, de csak a 2020-as világjárvány idején robbant be igazán.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik cég fejlesztette a Candy Crush Saga nevű mobiljátékot?",
+      "a": [
+        "King",
+        "Zynga",
+        "Supercell",
+        "Niantic"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A svéd King stúdió 2012-ben adta ki a Facebookon és mobilon is elérhető puzzle-játékot.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik videojáték lépte át elsőként a 300 millió eladott példányt egy 2023-as bejelentés szerint?",
+      "a": [
+        "Minecraft",
+        "Fortnite",
+        "Grand Theft Auto V",
+        "Wii Sports"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Mojang 2023-ban jelentette be, hogy a Minecraft átlépte a 300 millió eladott példányt.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Mit jelent az 'esport' kifejezés a köznyelvben?",
+      "a": [
+        "Versenyszerűen, szervezett keretek között űzött videojáték-versenyzést",
+        "Kizárólag mobiltelefonon játszott játékokat",
+        "A hagyományos sportok videojáték-szimulációját",
+        "Az olimpiai játékok digitális kísérőrendezvényét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az esport a videojátékok versenyszerű, gyakran nagy közönség előtt zajló űzését jelenti, saját ligákkal és tornákkal.",
+      "t": "esport"
+    },
+    {
+      "q": "Mit jelent a videojátékos szóhasználatban a 'speedrun' kifejezés?",
+      "a": [
+        "Egy játék minél gyorsabb végigjátszását",
+        "Egy játék grafikájának utólagos feljavítását",
+        "Egy csapat gyors, egymás utáni mérkőzéseit",
+        "Egy konzol teljesítményének túlhajtását"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A speedrun lényege, hogy a játékos a lehető legrövidebb idő alatt teljesítse a játékot, gyakran speciális trükköket kihasználva.",
+      "t": "esport"
+    },
+    {
+      "q": "Mit jelent a sakkban a német eredetű 'zugzwang' kifejezés?",
+      "a": [
+        "Olyan helyzet, amikor bármely lépés rontja a játékos állását",
+        "A király gyors menekülését az ellenfél elől",
+        "Két bástya összehangolt támadását",
+        "A parti automatikus döntetlenné nyilvánítását"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Zugzwang esetén a lépéskényszerben lévő fél helyzete lépés nélkül jobb lenne, mégis lépnie kell, ami rontja az állását.",
+      "t": "sakk"
+    },
+    {
+      "q": "Mi jellemzi elsősorban a 'roguelike' videojáték-műfajt?",
+      "a": [
+        "A véletlenszerűen generált pályák és a végleges halál",
+        "A kizárólag többjátékos mód",
+        "A valós idejű stratégiai csaták",
+        "A fényképszerűen realisztikus grafika"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A roguelike játékokban a pályák véletlenszerűen generálódnak, és a karakter halála után elölről kell kezdeni a játékot.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Mit jelent a sakkban az 'örökös sakk' (perpetual check), ami gyakran döntetlenhez vezet?",
+      "a": [
+        "Amikor az egyik fél végtelenített sakksorozattal kényszerít ismétlődést",
+        "Amikor egy gyalog sosem léphet előre",
+        "Amikor a király sosem sáncolhat",
+        "Amikor mindkét vezér lekerül a tábláról"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az örökös sakk azt jelenti, hogy a támadó fél folyamatosan sakkot ad, amiből a védekező nem tud kikerülni, ez az állásismétlési szabály miatt gyakran döntetlent eredményez.",
+      "t": "sakk"
+    },
+    {
+      "q": "Mi a lényege a Bobby Fischer által kidolgozott Chess960 (Fischer-random sakk) változatnak?",
+      "a": [
+        "A kezdő felállás minden partiban véletlenszerű, de szimmetrikus",
+        "A partit fordított sorrendben kell lejátszani",
+        "Minden bábu dupla sebességgel mozog",
+        "A tábla mérete 10x10-re nő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Fischer 1996-ban dolgozta ki a variánst, amelyben a bábuk véletlenszerű, de szimmetrikus kezdőállásba kerülnek, hogy csökkentse a memorizált nyitáselméletek szerepét.",
+      "t": "sakk"
     }
   ]
 }
