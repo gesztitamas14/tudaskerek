@@ -623,9 +623,11 @@
       );
       const columns = roomHost.querySelectorAll('.picker-col');
       check(columns.length === 3, `három számjegy-oszlop van (${columns.length})`);
+      // A körkörös lapozáshoz a 0–9 sor HÁROMSZOR ismétlődik oszloponként
+      // (lásd picker.js) – ezért 30 tétel oszloponként, nem összesen.
       check(
-        roomHost.querySelectorAll('.picker-col .picker-item').length === 30,
-        'minden oszlopban 0–9 választható'
+        columns[0]?.querySelectorAll('.picker-item').length === 30,
+        `az első oszlopban a 0-9 sor háromszor ismétlődik a körkörös görgetéshez (${columns[0]?.querySelectorAll('.picker-item').length})`
       );
       check(
         columns[0]?.querySelector('.picker-item') !== null &&
@@ -644,6 +646,25 @@
       check(
         roomHost.querySelectorAll('.picker-item.picker-active').length === 3,
         'mindhárom oszlopban ki van jelölve egy szám'
+      );
+
+      // ── körkörös lapozás: a 0 felett a 9-nek kell jönnie ──
+      //
+      // A felhasználó kifejezetten ezt kérte: a PIN-választó ne érjen véget
+      // a 0-nál/9-nél, hanem lapozzon körbe. A 2. oszlop épp 0-n áll (a fenti
+      // beállítás után) – innen felfelé (ArrowUp) a 9-et kell adja.
+      columns[1].focus();
+      columns[1].dispatchEvent(new KeyboardEvent('keydown', { key: 'ArrowUp', bubbles: true }));
+      check(
+        columns[1].querySelector('.picker-item.picker-active')?.dataset.digit === '9',
+        'a 0 fölött körbe lapozva a 9 következik (nem áll meg a lista végén)'
+      );
+      // ...és onnan tovább (ArrowDown, kétszer) vissza kell érjen a 0-ra és 1-re.
+      columns[1].dispatchEvent(new KeyboardEvent('keydown', { key: 'ArrowDown', bubbles: true }));
+      columns[1].dispatchEvent(new KeyboardEvent('keydown', { key: 'ArrowDown', bubbles: true }));
+      check(
+        columns[1].querySelector('.picker-item.picker-active')?.dataset.digit === '1',
+        'a 9-ről lefelé lapozva visszaérünk a 0-n át az 1-re'
       );
 
 
@@ -740,6 +761,30 @@
         'kiírja, hány próbálkozás maradt'
       );
 
+      lobby.dispatchEvent(new CustomEvent('screen:unmount'));
+      roomHost.replaceChildren();
+
+      // ── 6b. szoba létrehozása: a kezdő PIN mindig 0-0-0 ──
+      //
+      // A felhasználó kifejezetten ezt kérte: ne véletlenszerű legyen a
+      // kezdő PIN (azt nehéz visszaolvasni/megjegyezni), hanem mindig 000-ról
+      // induljon, és onnan lehessen felfelé/lefelé lapozni.
+      lobby = multiplayerScreen(makeLobbyApp({ joinResult: () => ({ ok: true, room: { id: 'x', players: [] } }) }));
+      roomHost.append(lobby);
+      await wait(120);
+      roomHost.querySelector('.btn-gold')?.click();
+      // A választó `requestAnimationFrame` után áll be a kezdőértékre –
+      // ugyanaz a késleltetés kell, mint a join-PIN tesztnél feljebb.
+      await wait(150);
+      const createPinColumns = roomHost.querySelectorAll('.modal-sheet .picker-col');
+      check(createPinColumns.length === 3, 'a szoba létrehozó párbeszédben is 3 PIN-oszlop van');
+      const createPinDigits = [...createPinColumns].map(
+        (col) => col.querySelector('.picker-item.picker-active')?.dataset.digit
+      );
+      check(
+        createPinDigits.join('') === '000',
+        `szoba létrehozásakor a kezdő PIN 0-0-0 (kapott: ${createPinDigits.join('')})`
+      );
       lobby.dispatchEvent(new CustomEvent('screen:unmount'));
       roomHost.replaceChildren();
 
@@ -1505,9 +1550,54 @@
         'a felvillanó beszólásnál látszik, ki küldte'
       );
 
+      // Valaki kilép a szobából JÁTÉK KÖZBEN: felül fel kell villannia.
+      reactRoom.players = reactRoom.players.map((p) =>
+        p.player_id === 'cccc' ? { ...p, has_left: true } : p
+      );
+      await wait(1300);
+      const leaveFlashes = [...roomHost.querySelectorAll('.reaction-flash-warn')];
+      check(leaveFlashes.length === 1, 'a kilépés egyetlen figyelmeztető üzenetet villant fel');
+      check(
+        leaveFlashes.some((f) => f.textContent.includes('Cili') && f.textContent.includes('kilépett')),
+        'a kilépés-üzenet megmondja, ki lépett ki'
+      );
+
+      // A SAJÁT kilépésünket nem kell magunknak jelezni.
+      reactRoom.players = reactRoom.players.map((p) =>
+        p.player_id === ME ? { ...p, has_left: true } : p
+      );
+      await wait(1300);
+      check(
+        roomHost.querySelectorAll('.reaction-flash-warn').length === 1,
+        'a saját kilépésünket nem villantjuk fel magunknak'
+      );
+
       unmountRoom(reactNode);
 
-
+      // ── 11b. hosszú válasz: TÖBB SORBA törik, nem "…"-tal vágja le ──
+      const wrapNode = mountRoom(
+        makeRoom({
+          players: PLAYERS,
+          question: {
+            ...OPEN_QUESTION,
+            answers: [
+              'Ez egy nagyon hosszú válaszlehetőség, ami biztosan nem fér ki egyetlen sorba sem',
+              '1526', '1541', '1552'
+            ]
+          }
+        })
+      );
+      const longAnswerText = roomHost.querySelector('.answers .answer-text');
+      const wrapStyle = getComputedStyle(longAnswerText);
+      check(
+        wrapStyle.whiteSpace !== 'nowrap',
+        'a hosszú válasz szövege tördelhető, nem egyetlen sorba kényszerített'
+      );
+      check(
+        longAnswerText.getBoundingClientRect().height > 24,
+        'a hosszú válasz ténylegesen több sorra törik (magasabb, mint egy sornyi szöveg)'
+      );
+      unmountRoom(wrapNode);
 
       // ── 11. a host indítása után induljon el a kerék ──
       //

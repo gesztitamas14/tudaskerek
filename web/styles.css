@@ -393,7 +393,20 @@ input, textarea { -webkit-user-select: text; user-select: text; }
   font-weight: 800;
   font-size: 15px;
 }
-.answer-text { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* Hosszú válasznál TÖBB SORBA törik, nem "..."-tal vágja le. Legfeljebb 2
+   sor, hogy a fix magasságú kérdésképernyőn is kiszámítható maradjon a hely
+   – ha a 2 sor sem elég, csak akkor jön az ellipszis. */
+.answer-text {
+  flex: 1;
+  min-width: 0;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  line-height: 1.25;
+}
 
 /* Ki mit szavazott – kompakt avatarcsík a válasz sorának végén, nem külön
    szakasz. Sok játékosnál vízszintesen görgethető, hogy ne nyújtsa meg a
@@ -1350,21 +1363,27 @@ input[type='checkbox'] {
   z-index: 70;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   max-width: min(92vw, 420px);
-  padding: 6px 12px;
+  padding: 9px 16px;
   border-radius: 999px;
   background: rgba(255, 253, 248, 0.96);
   border: 1px solid var(--stroke);
   box-shadow: var(--shadow);
-  font-size: 13px;
+  font-size: 16px;
   animation: reaction-in 0.18s ease-out;
   pointer-events: none;
 }
-.reaction-flash + .reaction-flash { top: calc(var(--safe-top) + 96px); }
-.reaction-flash + .reaction-flash + .reaction-flash { top: calc(var(--safe-top) + 136px); }
+.reaction-flash + .reaction-flash { top: calc(var(--safe-top) + 106px); }
+.reaction-flash + .reaction-flash + .reaction-flash { top: calc(var(--safe-top) + 156px); }
 
-.reaction-flash-emoji { font-size: 15px; flex: 0 0 auto; }
+/* A kilépés-jelzés figyelmeztető színű, hogy elüssön a beszólásoktól. */
+.reaction-flash-warn {
+  background: rgba(185, 119, 14, 0.12);
+  border-color: rgba(185, 119, 14, 0.4);
+}
+
+.reaction-flash-emoji { font-size: 19px; flex: 0 0 auto; }
 .reaction-flash-name { font-weight: 600; flex: 0 0 auto; }
 .reaction-flash-body {
   color: var(--text-2);

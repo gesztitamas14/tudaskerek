@@ -58,6 +58,21 @@ function syncViewportHeight() {
 }
 
 /**
+ * Ugyanaz, de KÉSLELTETVE megismételve.
+ *
+ * A hiba NEM csak háttérből visszatéréskor jelentkezik: URL-sávból frissen
+ * megnyitva is felcsúszva, alul üres sávval jelenhet meg az app, mert a
+ * Safari címsora ilyenkor is egy animációval húzódik össze/szét, ÉS ez az
+ * animáció a lap betöltése UTÁN fejeződik be – egyetlen azonnali mérés még
+ * a régi (átmeneti) magasságot látja. A staggerelt újramérés lefedi ezt.
+ */
+function scheduleViewportSync() {
+  syncViewportHeight();
+  requestAnimationFrame(syncViewportHeight);
+  for (const delay of [150, 350, 700, 1200]) setTimeout(syncViewportHeight, delay);
+}
+
+/**
  * Teljes képernyős mód.
  *
  * PWA-ként a home képernyőről indítva ez már eleve teljes képernyős
@@ -126,15 +141,19 @@ class App {
     bindUnlockOnFirstGesture();
 
     // Lásd a `syncViewportHeight` doksiját: a `dvh` WebKit-en háttérből
-    // visszatérve nem mindig frissül, ezért JS-ből, pixelben tartjuk karban.
-    syncViewportHeight();
+    // visszatérve, sőt friss betöltéskor is elmaradhat – JS-ből, pixelben
+    // tartjuk karban. Boot-kor és visszatéréskor a KÉSLELTETETT verzió kell,
+    // mert a Safari címsor-animációja a betöltés UTÁN ér véget.
+    scheduleViewportSync();
+    window.addEventListener('load', scheduleViewportSync);
     window.addEventListener('resize', syncViewportHeight);
-    window.addEventListener('orientationchange', syncViewportHeight);
+    window.addEventListener('orientationchange', scheduleViewportSync);
     window.visualViewport?.addEventListener('resize', syncViewportHeight);
+    window.visualViewport?.addEventListener('scroll', syncViewportHeight);
     document.addEventListener('visibilitychange', () => {
-      if (document.visibilityState === 'visible') syncViewportHeight();
+      if (document.visibilityState === 'visible') scheduleViewportSync();
     });
-    window.addEventListener('pageshow', syncViewportHeight);
+    window.addEventListener('pageshow', scheduleViewportSync);
 
     if (!storageAvailable()) {
       toast(

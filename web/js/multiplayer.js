@@ -321,7 +321,7 @@ export function multiplayerScreen(app) {
     let difficulty = null;
     let usePin = true;
 
-    const picker = digitPicker({ value: randomPin() });
+    const picker = digitPicker({ value: '000' });
 
     const pinRow = el('div', null, [
       el('p.muted.small.center', {
@@ -420,11 +420,6 @@ export function multiplayerScreen(app) {
   return root;
 }
 
-/** Véletlen 3 jegyű kezdő-PIN, hogy ne kelljen kitalálni. */
-function randomPin() {
-  return String(Math.floor(Math.random() * 1000)).padStart(3, '0');
-}
-
 /**
  * Egyszerű modális párbeszéd. Az `onConfirm` visszatérési értéke dönt: `true`
  * esetén bezárul, `false` esetén nyitva marad (pl. hibás PIN után).
@@ -516,6 +511,12 @@ export function roomScreen(app, { room: initialRoom }) {
   // Melyik kérdés kiértékelését jeleztük már rezgéssel / üzenettel.
   let notifiedFor = null;
   let lastBlockShown = null;
+  // Kik léptek már ki – hogy csak az ÚJ kilépést jelezzük, ne mindig
+  // mindenkit, aki valaha kilépett. A kezdőállapotból töltjük fel, hogy ne
+  // jelezzünk visszamenőleg olyat, ami már a becsatlakozás előtt megtörtént.
+  const leftPlayersSeen = new Set(
+    (initialRoom.players ?? []).filter((p) => p.has_left).map((p) => p.player_id)
+  );
 
   // Élő elemek, amiket a helyi óra frissít újrarajzolás nélkül.
   let timerFill = null;
@@ -646,6 +647,23 @@ export function roomScreen(app, { room: initialRoom }) {
       if (room.status === 'playing') {
         haptic(HAPTIC.bigWin);
         sfx.bigWin();
+      }
+    }
+
+    // Kilépés jelzése JÁTÉK KÖZBEN: a többieknek fel kell tűnnie, ha valaki
+    // otthagyja a szobát, különben csak a pontsáv halványulásából vennék
+    // észre. A saját kilépésünket nem jelezzük (azt már úgyis mi tettük).
+    if (room.status === 'playing') {
+      for (const player of room.players ?? []) {
+        if (!player.has_left || player.player_id === myId()) continue;
+        if (leftPlayersSeen.has(player.player_id)) continue;
+        leftPlayersSeen.add(player.player_id);
+        flashReaction({
+          nickname: player.nickname,
+          emoji: '🚪',
+          body: 'kilépett a szobából',
+          tone: 'warn'
+        });
       }
     }
   }
@@ -897,8 +915,8 @@ export function roomScreen(app, { room: initialRoom }) {
     if (shownReactionIds.size > 200) shownReactionIds = new Set();
   }
 
-  function flashReaction({ nickname, emoji, body }) {
-    const node = el('div.reaction-flash', null, [
+  function flashReaction({ nickname, emoji, body, tone = null }) {
+    const node = el('div.reaction-flash', { class: tone ? `reaction-flash-${tone}` : '' }, [
       el('span.reaction-flash-emoji', { text: emoji ?? '💬' }),
       el('span.reaction-flash-name', { text: nickname ?? 'Játékos' }),
       el('span.reaction-flash-body', { text: body ?? '' })
