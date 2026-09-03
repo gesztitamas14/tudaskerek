@@ -107,6 +107,10 @@ input, textarea { -webkit-user-select: text; user-select: text; }
   align-items: center;
   gap: 8px;
   padding: calc(var(--safe-top) + 8px) 10px 8px;
+  /* Explicit, ALACSONY réteg – a párbeszédeknek (z-index: 60) egyértelműen
+     e fölött kell nyílniuk, saját külön rétegként, nem "egy szinten". */
+  position: relative;
+  z-index: 10;
 }
 
 .top-bar-center {
@@ -168,6 +172,11 @@ input, textarea { -webkit-user-select: text; user-select: text; }
   background: rgba(255, 253, 248, 0.94);
   backdrop-filter: blur(12px);
   padding-bottom: var(--safe-bottom);
+  /* Explicit, ALACSONY réteg – lásd a `.top-bar` megjegyzését. A párbeszéd
+     (`.modal-overlay`, z-index: 60) fixen az egész képernyőt fedi, ez alatta
+     marad, nem "egy szinten" vele. */
+  position: relative;
+  z-index: 10;
 }
 /* A `hidden` attribútum a böngésző saját szabályában `display: none`, de azt
    BÁRMELY osztályszelektor felülírja, ami display-t állít – ezt a szabályt
@@ -932,6 +941,12 @@ body.in-game #toast { bottom: calc(var(--safe-bottom) + 24px); }
   scroll-snap-type: y mandatory;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
+  /* A HIBA, amit ez javít: enélkül iOS Safari-n a görgetés a lista szélén
+     (vagy akár menet közben) "kiszivárgott" a dokumentum szintjére – az
+     EGÉSZ felület (a lenti tabsorral együtt) elcsúszott a PIN görgetésekor,
+     mintha nem is fixen lenne a helyén. Az `overscroll-behavior: contain`
+     a görgetést a saját oszlopán belül tartja. */
+  overscroll-behavior: contain;
   border-radius: 14px;
   background: var(--tint-weak);
   border: 1px solid var(--stroke);
@@ -1024,6 +1039,9 @@ body.in-game #toast { bottom: calc(var(--safe-bottom) + 24px); }
   position: fixed;
   inset: 0;
   z-index: 60;
+  /* Második védelmi vonal a `.picker-col` `overscroll-behavior`-ja mellett:
+     a párbeszéd rétege se engedjen át semmilyen görgetés-szivárgást. */
+  overscroll-behavior: contain;
   display: flex;
   align-items: flex-end;
   justify-content: center;

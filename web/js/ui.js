@@ -242,7 +242,7 @@ export function spinner(label = 'Betöltés…') {
 export const AVATARS = [
   { id: 'fox', emoji: '🦊', name: 'Róka' },
   { id: 'owl', emoji: '🦉', name: 'Bagoly' },
-  { id: 'bear', emoji: '🐻', name: 'Medve' },
+  { id: 'bald', emoji: '👨🏼‍🦲', name: 'Kopasz' },
   { id: 'cat', emoji: '🐱', name: 'Macska' },
   { id: 'dog', emoji: '🐶', name: 'Kutya' },
   { id: 'hare', emoji: '🐰', name: 'Nyúl' },

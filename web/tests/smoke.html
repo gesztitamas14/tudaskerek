@@ -634,6 +634,13 @@
           getComputedStyle(columns[0]).overflowY === 'scroll',
         'az oszlopok görgethetők (nem sima beviteli mező)'
       );
+      // REGRESSZIÓ: enélkül iOS Safari-n a PIN görgetése a teljes felületre
+      // "kiszivárgott" – az egész képernyő (a lenti tabsorral együtt)
+      // elmozdult, mintha nem is fixen lenne a helyén.
+      check(
+        [...columns].every((col) => getComputedStyle(col).overscrollBehaviorY === 'contain'),
+        'a PIN-oszlopok görgetése nem szivárog ki a dokumentum szintjére'
+      );
 
       // A választó billentyűzetről is állítható – így teszteljük az értékét.
       for (const [index, digit] of ['4', '0', '7'].entries()) {
@@ -773,9 +780,10 @@
       roomHost.append(lobby);
       await wait(120);
       roomHost.querySelector('.btn-gold')?.click();
-      // A választó `requestAnimationFrame` után áll be a kezdőértékre –
-      // ugyanaz a késleltetés kell, mint a join-PIN tesztnél feljebb.
-      await wait(150);
+      // A választó kezdőértéke SZINKRON áll be (lásd picker.js) – nem kell
+      // `requestAnimationFrame`-re várni. Ez korábban versenyhelyzet volt: a
+      // fix várakozás a headless böngésző virtuális órájával nem mindig járt
+      // együtt, ezért időnként üresen, kijelölés nélkül találta a választót.
       const createPinColumns = roomHost.querySelectorAll('.modal-sheet .picker-col');
       check(createPinColumns.length === 3, 'a szoba létrehozó párbeszédben is 3 PIN-oszlop van');
       const createPinDigits = [...createPinColumns].map(

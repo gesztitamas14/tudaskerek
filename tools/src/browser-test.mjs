@@ -13,7 +13,7 @@
 // requestAnimationFrame-et használ – ezt csak igazi böngésző tudja futtatni.
 
 import { spawn } from 'node:child_process';
-import { existsSync, mkdirSync, rmSync } from 'node:fs';
+import { existsSync, mkdirSync, rmSync, readFileSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { createReadStream, statSync } from 'node:fs';
 import { extname, join, normalize, resolve } from 'node:path';
@@ -250,6 +250,30 @@ try {
     ? '  ✓ a teljes képernyő gomb megjelenik a felső sávban'
     : '  ✗ a teljes képernyő gomb HIÁNYZIK a felső sávból');
   if (!hasFullscreenBtn) result.ok = false;
+
+  // ─────────────── réteg-sorrend: a párbeszéd a tabsor FÖLÖTT nyíljon ──────
+  //
+  // REGRESSZIÓ: a felhasználó jelezte, hogy a szoba létrehozó párbeszéd és
+  // az alsó tabsor "egy szinten" tűnt lenni. A tényleges ok egy görgetés-
+  // szivárgás volt (lásd `.picker-col` `overscroll-behavior`-ja), de a
+  // réteg-sorrendet ETTŐL FÜGGETLENÜL is explicitté tettük: a `.top-bar` és
+  // `.tab-bar` most fix, alacsony z-indexet kap, ami itt statikusan (a
+  // CSS-forrásból) ellenőrizhető – nem kell hozzá élő böngésző-mérés.
+  console.log('\n── réteg-sorrend (tabsor a párbeszéd alatt) ───');
+  const css = readFileSync(join(ROOT, 'styles.css'), 'utf8');
+  const zIndexOf = (selector) => {
+    const m = css.match(new RegExp(`${selector.replace(/[.]/g, '\\.')}\\s*\\{[^}]*z-index:\\s*(\\d+)`));
+    return m ? Number(m[1]) : null;
+  };
+  const modalZ = zIndexOf('.modal-overlay');
+  const topBarZ = zIndexOf('.top-bar');
+  const tabBarZ = zIndexOf('.tab-bar');
+  const layersOk =
+    modalZ !== null && topBarZ !== null && tabBarZ !== null && topBarZ < modalZ && tabBarZ < modalZ;
+  console.log(layersOk
+    ? `  ✓ a tabsor (z-index ${topBarZ}/${tabBarZ}) a párbeszéd (z-index ${modalZ}) alatt marad`
+    : `  ✗ réteg-sorrend hibás: top-bar=${topBarZ}, tab-bar=${tabBarZ}, modal-overlay=${modalZ}`);
+  if (!layersOk) result.ok = false;
 
   if (SHOTS) {
     mkdirSync(SHOT_DIR, { recursive: true });

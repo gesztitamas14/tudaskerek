@@ -25,6 +25,15 @@ import { sfx } from './sound.js';
 
 const DIGITS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 const SET_SIZE = DIGITS.length;
+// A `.picker-item` magassága a CSS-ben FIXEN 44px (nem reszponzív, nincs rá
+// médialekérdezés) – ezért ezt nem kell (és nem is szabad) élő DOM-mérésből
+// (`offsetHeight`) kiolvasni. A KEZDETI pozicionálás korábban erre épült, és
+// versenyhelyzetet okozott: ha a párbeszéd elemei még nem voltak teljesen
+// kiszámolva (lassabb eszköz, vagy – ahogy a tesztekben kiderült – headless
+// böngésző virtuális órája alatt), az `offsetHeight` időnként 0-t vagy egy
+// átmeneti, hibás értéket adott vissza, és a választó rossz pozícióra ugrott
+// (vagy sehova). Egy állandóval ez a hibaosztály megszűnik.
+const ITEM_HEIGHT = 44;
 // Három másolat: egy "előtte", egy "otthon" (ahonnan indulunk és ahová
 // mindig visszaugrunk), egy "utána". Bőven elég, mert minden megálláskor
 // visszaközepedünk – a felhasználó sosem tudja "kigörgetni" a puffert.
@@ -82,14 +91,10 @@ export function digitPicker({ length = 3, value = '', onChange = null } = {}) {
     // ki, nem a felhasználó – ilyenkor nem indítunk újabb settle-ciklust.
     let recentering = false;
 
-    function itemHeight() {
-      return list.querySelector('.picker-item')?.offsetHeight || 44;
-    }
-
     /** Melyik (0..SET_SIZE*REPEAT-1) tétel van középen? */
     function currentRaw() {
       const max = SET_SIZE * REPEAT - 1;
-      return Math.min(max, Math.max(0, Math.round(list.scrollTop / itemHeight())));
+      return Math.min(max, Math.max(0, Math.round(list.scrollTop / ITEM_HEIGHT)));
     }
 
     function digitOf(raw) {
@@ -104,7 +109,7 @@ export function digitPicker({ length = 3, value = '', onChange = null } = {}) {
     }
 
     function scrollToRaw(raw, smooth) {
-      list.scrollTo({ top: raw * itemHeight(), behavior: smooth ? 'smooth' : 'auto' });
+      list.scrollTo({ top: raw * ITEM_HEIGHT, behavior: smooth ? 'smooth' : 'auto' });
     }
 
     /**
@@ -170,6 +175,12 @@ export function digitPicker({ length = 3, value = '', onChange = null } = {}) {
     // Billentyűzet: nyilakkal is állítható (asztali gép, kisegítő technológia).
     // A nyíl fel/le KÖRKÖRÖSEN is működik: a raw index a settle() utáni
     // visszaközepedés miatt sosem távolodik el messze az "otthon" tartománytól.
+    //
+    // SZÁNDÉKOSAN NEM animált (`smooth: false`): a `currentRaw()` a tényleges
+    // görgetési pozícióból számol, és egy előző, még animálódó (smooth)
+    // görgetés közepén lekérdezve HIBÁS pozíciót adna – két gyors egymás
+    // utáni billentyűleütés így rossz irányba ugorhatna. Billentyűzetnél az
+    // azonnali reakció egyébként is jobb kisegítő-technológiai élmény.
     list.addEventListener('keydown', (event) => {
       const raw = currentRaw();
       let nextRaw = null;
@@ -178,7 +189,7 @@ export function digitPicker({ length = 3, value = '', onChange = null } = {}) {
       else if (/^[0-9]$/.test(event.key)) nextRaw = HOME_BASE + Number(event.key);
       else return;
       event.preventDefault();
-      jumpTo(nextRaw, true);
+      jumpTo(nextRaw, false);
     });
 
     /** Külső hívás (kezdőérték beállítása): mindig az "otthon" másolatra ugrik. */
@@ -193,13 +204,25 @@ export function digitPicker({ length = 3, value = '', onChange = null } = {}) {
   // A kijelölt sort jelző keret. Külön elem, hogy a görgetéssel ne mozogjon.
   node.append(el('div.picker-highlight', { 'aria-hidden': 'true' }));
 
-  /**
-   * A kezdőértékre állás csak akkor működik, ha az elem már a DOM-ban van és
-   * van magassága. Ezért egy `requestAnimationFrame` után futtatjuk.
-   */
   function layout() {
     columns.forEach((column, index) => column.scrollToDigit(selected[index], false));
   }
+  // AZONNAL, szinkron módon beállítjuk a kijelölést és az értéket – ehhez
+  // nem kell megvárni, hogy az elem a dokumentumban legyen, mert a
+  // `.picker-active` osztály és a `selected` tömb kizárólag a `raw` indexből
+  // számolódik, nem élő DOM-mérésből (lásd `ITEM_HEIGHT`).
+  //
+  // KORÁBBAN ez egyetlen `requestAnimationFrame`-re várt, ami versenyhelyzetet
+  // okozott: ha a hívó (pl. `openCreate`) a picker létrehozása UTÁN fűzi be a
+  // DOM-ba a párbeszédet, a keret néha csak később, egy KÉSŐBBI képkockában
+  // fut le – addig a választó üresen, kijelölés nélkül állt (ezt a
+  // tesztkészlet is elkapta, nem csak elméleti eset).
+  layout();
+  // A látható GÖRGETÉSI pozíció (nem az érték!) csak akkor áll be helyesen,
+  // ha az elem már valóban a dokumentum része és van kiszámolt magassága –
+  // ezért ezt még egyszer, egy `requestAnimationFrame` után is elvégezzük.
+  // Ha időközben a hívó már be is fűzte a DOM-ba, ez a hívás egyszerűen
+  // megerősíti ugyanazt; ha csak ezután fűzi be, ez javítja a látványt.
   requestAnimationFrame(layout);
 
   return {
