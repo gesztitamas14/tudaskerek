@@ -229,6 +229,14 @@ Ezért nem adja vissza az `answer_room_question()` sem, hogy jó volt-e a válas
 csak `{"accepted": true}`. Az eredmény a következő tickből jön, mindenkinek
 egyszerre.
 
+**Ugyanezért a `room_players.block_score` sem nő azonnal.** Egy korábbi
+hibában a pont már a válasz beküldésekor jóváíródott, tehát a pontsávon
+azonnal látszott, ha valaki eltalálta (vagy elrontotta) a kérdést – ez
+ugyanolyan kiszivárgás volt, mint a helyes válasz idő előtti elárulása. A
+`room_tick()` most a lezárás UGYANABBAN a lépésében írja jóvá a pontot
+(`room_answers.awarded_points`-ból), amelyben a `resolved_at`-ot beállítja –
+lásd a `20260904090000_defer_block_score_to_resolution.sql` migrációt.
+
 A kliens nem kerülheti meg: a `questions`, `room_questions` és `room_answers`
 táblákhoz nincs olvasási joga, a kérdést csak ezek a `security definer`
 függvények adhatják ki. Ezt a `tools/src/db-test.mjs` külön ellenőrzi, kliens

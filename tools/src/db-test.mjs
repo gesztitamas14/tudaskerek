@@ -406,6 +406,28 @@ ok(
 ok(mid.current_question.i_answered === true, 'a saját válaszom viszont látszik');
 ok(mid.current_question.answered_count === 3, `látszik, hányan válaszoltak (${mid.current_question.answered_count})`);
 
+// A pontsáv NE árulja el a kiértékelést a lezárás előtt. Anna és Béla már
+// helyesen válaszolt, de amíg a kérdés nyitva van (Dóra még nem válaszolt),
+// a pontjuknak NULLÁNAK kell látszania mindenki számára – különben a
+// pontsávból ki lehetne következtetni, ki válaszolt helyesen, mielőtt a
+// kiértékelés hivatalosan megjelenne.
+const midPlayers = new Map((mid.players ?? []).map((p) => [p.player_id, p]));
+ok(
+  midPlayers.get(ANNA).block_score === 0,
+  `Anna helyes válasza a lezárás ELŐTT még nem látszik a pontsávon (${midPlayers.get(ANNA).block_score})`
+);
+ok(
+  midPlayers.get(BELA).block_score === 0,
+  `Béla helyes válasza a lezárás ELŐTT még nem látszik a pontsávon (${midPlayers.get(BELA).block_score})`
+);
+// Ugyanez MÁSIK JÁTÉKOS szemszögéből is – nem csak a sajátunkból.
+const midFromCili = await asPlayer(CILI, `select public.room_state(${q(room.id)})`);
+const midPlayersFromCili = new Map((midFromCili.players ?? []).map((p) => [p.player_id, p]));
+ok(
+  midPlayersFromCili.get(ANNA).block_score === 0,
+  'Cili sem látja Anna pontnövekedését a lezárás előtt'
+);
+
 // Dóra ideje lejár: a határidőt visszatekerjük, majd tickelünk.
 await db.exec(
   `update public.room_questions set deadline_at = now() - interval '1 second' where id = ${q(q1.id)}`
