@@ -964,6 +964,98 @@ const catalogRows = await asClient(
 );
 ok(catalogRows.length >= 10, `a katalógus olvasható a kliensnek (${catalogRows.length} tétel)`);
 
+// ─────────────────── 15. ismétlődés elleni védelem (host-történet) ───────────────────
+
+console.log('\n15. X napig ne jöjjön ugyanaz a kérdés a szobát INDÍTÓ profilnak');
+
+// Csak EGY kategóriát hagyunk aktívan, hogy a kérdésválasztás determinisztikus
+// legyen (ne ugorjon másik, "tiszta" kategóriára).
+const historyCategory = cats[0];
+await db.exec(`update public.categories set is_active = false where id <> ${q(historyCategory.id)}`);
+
+const catQuestionIds = (
+  await db.query(
+    `select id from public.questions where category_id = ${q(historyCategory.id)} order by question_text`
+  )
+).rows.map((r) => r.id);
+ok(catQuestionIds.length === 14, `a teszt-kategóriában 14 kérdés van (${catQuestionIds.length})`);
+
+// ANNA egy KORÁBBI (tegnapi) szobájában már "látta" a kérdések 13-át.
+const historyRoom = await asPlayer(
+  ANNA,
+  `select public.create_room(2::smallint, 1::smallint, null, 1::smallint, 15::smallint, null)`
+);
+for (let i = 0; i < 13; i++) {
+  await db.exec(
+    `insert into public.room_questions
+       (room_id, block_no, ordinal, question_id, category_id, started_at, answer_open_at, deadline_at)
+     values (${q(historyRoom.id)}, 1, ${i + 1}, ${q(catQuestionIds[i])}, ${q(historyCategory.id)},
+             now() - interval '1 day', now() - interval '1 day',
+             now() - interval '1 day' + interval '15 seconds')`
+  );
+}
+
+// Új szoba, UGYANAZ a host (Anna) – az egyetlen aktív kategóriában a 13
+// "látott" kérdés helyett a MARADÉK (14.) kérdésnek kell kijönnie.
+let repeatRoom = await asPlayer(
+  ANNA,
+  `select public.create_room(2::smallint, 1::smallint, null, 1::smallint, 15::smallint, null)`
+);
+await asPlayer(BELA, `select public.join_room(${q(repeatRoom.id)}, null)`);
+repeatRoom = await asPlayer(ANNA, `select public.start_room(${q(repeatRoom.id)})`);
+
+ok(
+  repeatRoom.current_question?.category_slug === historyCategory.slug,
+  'az egyetlen aktív kategóriát választotta (a teszt előfeltétele)'
+);
+const pickedQuestionId = (
+  await one(
+    `select question_id as id from public.room_questions
+     where room_id = ${q(repeatRoom.id)} order by ordinal limit 1`
+  )
+).id;
+ok(
+  pickedQuestionId === catQuestionIds[13],
+  'Anna 13, korábban látott kérdését elkerülve a maradék (14.) kérdés jött ki'
+);
+
+// MÁSIK host (Béla) ugyanabban a kategóriában viszont SZABADON kaphatja meg
+// bármelyik kérdést – a védelem a HOSTHOZ kötött, nem a kategóriához.
+let otherHostRoom = await asPlayer(
+  BELA,
+  `select public.create_room(2::smallint, 1::smallint, null, 1::smallint, 15::smallint, null)`
+);
+await asPlayer(CILI, `select public.join_room(${q(otherHostRoom.id)}, null)`);
+otherHostRoom = await asPlayer(BELA, `select public.start_room(${q(otherHostRoom.id)})`);
+ok(
+  Boolean(otherHostRoom.current_question),
+  'más hostnál (Béla) Anna előzménye nem akadályozza a kérdésválasztást'
+);
+
+// A VÉGSŐ FALLBACK: ha a hostnak MÁR AZ ÖSSZES kérdést kiadtuk ebben a
+// kategóriában, a preferencia elengedhető – a játék nem szakadhat meg emiatt.
+await db.exec(
+  `insert into public.room_questions
+     (room_id, block_no, ordinal, question_id, category_id, started_at, answer_open_at, deadline_at)
+   values (${q(historyRoom.id)}, 1, 14, ${q(catQuestionIds[13])}, ${q(historyCategory.id)},
+           now() - interval '1 day', now() - interval '1 day',
+           now() - interval '1 day' + interval '15 seconds')`
+);
+let exhaustedRoom = await asPlayer(
+  ANNA,
+  `select public.create_room(2::smallint, 1::smallint, null, 1::smallint, 15::smallint, null)`
+);
+await asPlayer(DORA, `select public.join_room(${q(exhaustedRoom.id)}, null)`);
+exhaustedRoom = await asPlayer(ANNA, `select public.start_room(${q(exhaustedRoom.id)})`);
+ok(
+  Boolean(exhaustedRoom.current_question),
+  'ha a hostnak MÁR MINDENT kiadtunk, a preferencia elengedve is folytatódik a játék'
+);
+
+// Kategóriák visszaállítása, hogy a fájl végén futó egyéb ellenőrzések (ha
+// bővülne a teszt) ne lássanak csonka kategórialistát.
+await db.exec(`update public.categories set is_active = true`);
+
 // ─────────────────── összegzés ───────────────────
 
 console.log(

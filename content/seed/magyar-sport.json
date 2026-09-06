@@ -2523,6 +2523,84 @@
       "d": "medium",
       "e": "Baumgartner Zsolt 2004-ben, Indianapolisban nyolcadik helyen zárva szerezte meg Magyarország mindmáig egyetlen Forma-1-es világbajnoki pontját.",
       "t": "motorsport"
+    },
+    {
+      "q": "Melyik magyar tornász nyert aranyérmet lólengésben a 2024-es párizsi olimpián?",
+      "a": [
+        "Fehér Krisztofer",
+        "Berki Krisztián",
+        "Hidvégi Krisztián",
+        "Vecsernyés Vince"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Fehér Krisztofer 2024-ben, Párizsban szerezte meg az olimpiai aranyat lólengésben.",
+      "t": "torna"
+    },
+    {
+      "q": "Melyik évben rendezték az első, hivatalos magyar labdarúgó-bajnokságot?",
+      "a": [
+        "1901-ben",
+        "1890-ben",
+        "1912-ben",
+        "1926-ban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az első magyar bajnoki címet 1901-ben a Budapesti TC szerezte meg.",
+      "t": "labdarúgás"
+    },
+    {
+      "q": "Melyik magyar vízilabdázó szerezte a legtöbb (öt) olimpiai aranyérmet egyéni sportolóként a magyar válogatottal?",
+      "a": [
+        "Kárpáti Rudolf",
+        "Kásás Tamás",
+        "Benedek Tibor",
+        "Molnár Tamás"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kárpáti Rudolf ötszörös olimpiai bajnok vízilabdázó, ezzel a magyar sport egyik legeredményesebb versenyzője.",
+      "t": "vízilabda"
+    },
+    {
+      "q": "Hány fős egy vívócsapat a csapatversenyeken?",
+      "a": [
+        "Négy, de csak három vív egyszerre mérkőzésenként",
+        "Öt vívó mindig egyszerre pástra lép",
+        "Kettő",
+        "Hat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A csapat négy főből áll, de mérkőzésenként csak hárman vívnak, a negyedik tartalék.",
+      "t": "vívás"
+    },
+    {
+      "q": "Melyik magyar városban rendezték meg a 2017-es úszó-világbajnokságot?",
+      "a": [
+        "Budapesten",
+        "Debrecenben",
+        "Szegeden",
+        "Győrben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A 2017-es vizes világbajnokságot Budapest rendezte, a Duna Arénában és a Margitszigeten.",
+      "t": "úszás"
+    },
+    {
+      "q": "Melyik magyar labdarúgócsapat nyerte az 1954-es világbajnokság ezüstérmét?",
+      "a": [
+        "A magyar válogatott, az Aranycsapat",
+        "Az akkori bajnokcsapat, az MTK",
+        "A Ferencváros",
+        "Az Újpest"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Aranycsapat 1954-ben a döntőben Nyugat-Németországtól kikapva szerezte az ezüstérmet.",
+      "t": "labdarúgás"
     }
   ]
 }

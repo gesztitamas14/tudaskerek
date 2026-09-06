@@ -2237,6 +2237,578 @@
       "d": "hard",
       "e": "Az elektrolízis során külső elektromos áram bontja el a vegyületet, például vizet hidrogénre és oxigénre.",
       "t": "elektrokémia"
+    },
+    {
+      "q": "Mi történik az elektronok szempontjából oxidáció során?",
+      "a": [
+        "Az anyag elektronokat veszít",
+        "Az anyag elektronokat vesz fel",
+        "Az anyag protonokat veszít",
+        "Az anyag neutronokat vesz fel"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az oxidáció definíció szerint elektronleadással jár, ellentétben a redukcióval.",
+      "t": "elektrokémia"
+    },
+    {
+      "q": "Melyik olasz tudós alkotta meg 1800-ban az első működő elektromos telepet, a voltaoszlopot?",
+      "a": [
+        "Alessandro Volta",
+        "Luigi Galvani",
+        "Amedeo Avogadro",
+        "Stanislao Cannizzaro"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Volta 1800-ban mutatta be a cink- és rézlemezekből álló voltaoszlopot, az első folyamatos áramot adó elemet.",
+      "t": "elektrokémia"
+    },
+    {
+      "q": "Miért használnak cinkbevonatot (horganyzást) a vasszerkezetek korrózió elleni védelmére?",
+      "a": [
+        "A cink a vasnál reakcióképesebb, így az korrodál előbb, védve a vasat",
+        "A cink teljesen megakadályozza a víz elérését a vas felszínéhez örökre",
+        "A cink megváltoztatja a vas kristályszerkezetét, ami rozsdaálló lesz",
+        "A cink hővezető réteget képez, ami megakadályozza az oxigén felmelegedését"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A cink oldódik előbb (áldozati fém), mert reakcióképesebb, mint a vas, így az véd a rozsdásodástól.",
+      "t": "elektrokémia"
+    },
+    {
+      "q": "Mit nevezünk galvánelemnek a kémiában?",
+      "a": [
+        "Olyan eszközt, amely kémiai reakció energiáját elektromos árammá alakítja",
+        "Olyan eszközt, amely elektromos áramot kémiai reakcióvá alakít elektrolízissel",
+        "Olyan eszközt, amely hőenergiát mechanikai mozgássá alakít hajtóművel",
+        "Olyan eszközt, amely fényenergiát közvetlenül hővé alakít tükrökkel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A galvánelem spontán redoxireakció energiáját alakítja elektromos energiává két elektród között.",
+      "t": "elektrokémia"
+    },
+    {
+      "q": "Melyik folyamat játszódik le elektrolízis során az elektromos áram hatására?",
+      "a": [
+        "Nem spontán kémiai reakciót kényszerítenek ki külső áramforrással",
+        "Egy spontán redoxireakciót gyorsítanak fel katalizátorral",
+        "Egy oldat hőmérsékletét emelik elektromos ellenállással",
+        "Egy fémet mágnesesen polarizálnak áram segítségével"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az elektrolízis a galvánelemmel ellentétes folyamat: elektromos energiával kényszerítünk ki nem spontán reakciót.",
+      "t": "elektrokémia"
+    },
+    {
+      "q": "Hozzávetőlegesen hány részecskét (atomot vagy molekulát) tartalmaz egy mól anyag?",
+      "a": [
+        "Kb. 6,022 × 10²³ darabot",
+        "Kb. 3,14 × 10²³ darabot",
+        "Kb. 9,81 × 10²³ darabot",
+        "Kb. 1,602 × 10²³ darabot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ez az Avogadro-állandó, amely megadja az egy mólnyi anyagban lévő elemi részecskék számát.",
+      "t": "számítások"
+    },
+    {
+      "q": "Melyik mennyiség adja meg egy mól anyag tömegét grammban kifejezve?",
+      "a": [
+        "A moláris tömeg",
+        "A sűrűség",
+        "A térfogat",
+        "Az anyagmennyiség"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A moláris tömeg (g/mol) megmutatja, hány gramm egy adott anyag egy mólja.",
+      "t": "számítások"
+    },
+    {
+      "q": "Ha egy oldat 1 literében 1 mol oldott anyag van, milyen koncentrációjúnak nevezzük?",
+      "a": [
+        "1 mol/dm³ (1 moláris) koncentrációjúnak",
+        "1 mol/kg (1 molális) koncentrációjúnak",
+        "1 tömegszázalékos koncentrációjúnak",
+        "1 normál (1 N) koncentrációjúnak"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A moláris koncentráció (mol/dm³) az oldott anyag anyagmennyiségét adja meg egy liter oldatra vonatkoztatva.",
+      "t": "számítások"
+    },
+    {
+      "q": "Miért van szükség a kémiai egyenletek rendezésére (sztöchiometriai együtthatók megadására)?",
+      "a": [
+        "Mert a tömegmegmaradás törvénye miatt a reakcióban részt vevő atomok száma nem változhat",
+        "Mert a reakcióhő értékét csak rendezett egyenletből lehet kiszámolni pontosan",
+        "Mert csak rendezett egyenlet esetén keletkezik katalizátor a reakcióban",
+        "Mert az egyenlet rendezése határozza meg a reakció színváltozását"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A rendezés biztosítja, hogy ugyanannyi atom legyen a nyíl két oldalán, a tömegmegmaradás törvénye szerint.",
+      "t": "számítások"
+    },
+    {
+      "q": "Mi jellemzi az ionos kötést a kémiai anyagszerkezetben?",
+      "a": [
+        "Elektronvándorlás ellentétes töltésű ionok között elektrosztatikus vonzással",
+        "Elektronpár közös használata két atom között egyenlő eloszlásban",
+        "Szabad elektronok tengere mozog a fémionok rácsában",
+        "Gyenge másodrendű vonzás molekulák között hidrogénkötéssel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ionos kötés fémek és nemfémek között jön létre, amikor elektronleadással és -felvétellel ionok keletkeznek.",
+      "t": "anyagszerkezet"
+    },
+    {
+      "q": "Miért vezetik jól az elektromos áramot a fémek szilárd állapotban is?",
+      "a": [
+        "Mert a fém rácsban delokalizált, szabadon mozgó elektronok találhatók",
+        "Mert a fémionok rácsában folyamatosan új elektronok keletkeznek",
+        "Mert a fémek kristályrácsa mágneses teret hoz létre önmagában",
+        "Mert a fématomok között ionos kötés biztosítja a töltésáramlást"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A fémes kötésben a külső elektronok delokalizáltak, ez az 'elektrontenger' szállítja az áramot.",
+      "t": "anyagszerkezet"
+    },
+    {
+      "q": "Milyen alakú a vízmolekula a kötésszög miatt?",
+      "a": [
+        "Hajlított (V alakú), mert a központi oxigénen két nemkötő elektronpár is van",
+        "Lineáris, mert az oxigén két kötése egy egyenesbe esik",
+        "Tetraéderes, mert négy egyenértékű kötés veszi körül az oxigént",
+        "Trigonális piramis alakú, mint az ammónia molekula"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A víz hajlított szerkezetű, mert az oxigén két nemkötő elektronpárja taszítja a kötő elektronpárokat.",
+      "t": "anyagszerkezet"
+    },
+    {
+      "q": "Mit jelent az, hogy egy anyag kristályos szerkezetű?",
+      "a": [
+        "Az alkotó részecskék szabályos, ismétlődő rácsban rendeződnek",
+        "Az alkotó részecskék teljesen rendezetlenül helyezkednek el",
+        "Az anyag csak folyékony halmazállapotban létezhet stabilan",
+        "Az anyag molekulái mind azonos méretűek és tömegűek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kristályos anyagokban a részecskék térben szabályosan, ismétlődő mintázatban helyezkednek el.",
+      "t": "anyagszerkezet"
+    },
+    {
+      "q": "Mit jelent az, hogy a bronz ötvözet?",
+      "a": [
+        "Legalább két fém (jellemzően réz és ón) összeolvasztásával készült anyag",
+        "Egyetlen tiszta fém, amelyet magas hőmérsékleten megolvasztottak",
+        "Egy fém és egy nemfém vegyülete, amely kémiai reakcióban jön létre",
+        "Egy fém felületi bevonata, amely megakadályozza a korróziót"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A bronz réz és ón ötvözete, azaz két vagy több fém keveréke egységes szerkezetben.",
+      "t": "fémek"
+    },
+    {
+      "q": "Miért adnak krómot az acélhoz a rozsdamentes acél előállításakor?",
+      "a": [
+        "A króm oxidálódva vékony, védő oxidréteget képez a felületen",
+        "A króm megnöveli az acél olvadáspontját extrém magas szintre",
+        "A króm elszínezi az acélt, hogy megkülönböztethető legyen",
+        "A króm csökkenti az acél tömegét, könnyebbé téve azt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A krómtartalom (kb. 10-13% felett) önjavító oxidréteget hoz létre, ez teszi az acélt rozsdaállóvá.",
+      "t": "fémek"
+    },
+    {
+      "q": "Melyik fém a Föld kérgében ismert legsűrűbb, természetben előforduló elem?",
+      "a": [
+        "Az ozmium",
+        "A platina",
+        "Az arany",
+        "Az ólom"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ozmium sűrűsége kb. 22,6 g/cm³, ezzel a legsűrűbb ismert természetes elem, szorosan az irídium előtt.",
+      "t": "fémek"
+    },
+    {
+      "q": "Melyik alkálifém reagál a leghevesebben vízzel a csoport stabil elemei közül?",
+      "a": [
+        "A cézium",
+        "A lítium",
+        "A nátrium",
+        "A kálium"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az alkálifémek reaktivitása lefelé nő a csoportban, a stabil elemek közül a cézium a leghevesebb.",
+      "t": "fémek"
+    },
+    {
+      "q": "Hogyan nevezzük azt a halmazállapot-változást, amikor egy szilárd anyag közvetlenül gázzá alakul, folyékony fázis nélkül?",
+      "a": [
+        "Szublimáció",
+        "Deszublimáció",
+        "Kondenzáció",
+        "Párolgás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szublimáció során a szilárd anyag közvetlenül gőzzé alakul, ilyen például a szárazjég is.",
+      "t": "halmazállapotok"
+    },
+    {
+      "q": "Miért nem keletkezik folyadék, amikor a szárazjég (szilárd szén-dioxid) a levegőn elpárolog?",
+      "a": [
+        "Mert normál légköri nyomáson a szén-dioxid egyenesen szilárdból gázzá alakul",
+        "Mert a szárazjég olyan hideg, hogy a keletkező víz azonnal újra megfagy",
+        "Mert a szén-dioxid molekulái túl kicsik ahhoz, hogy folyadékot alkossanak",
+        "Mert a szárazjég körüli levegő elpárologtatja a keletkező folyadékot azonnal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Normál nyomáson a CO2 fázisdiagramjában nincs stabil folyékony állapot, ezért közvetlenül szublimál.",
+      "t": "halmazállapotok"
+    },
+    {
+      "q": "Mi jellemzi az anyag negyedik halmazállapotát, a plazmát?",
+      "a": [
+        "Ionizált gáz, amelyben szabad elektronok és ionok mozognak",
+        "Szilárd anyag, amely extrém alacsony hőmérsékleten szupravezetővé válik",
+        "Folyadék, amely nulla felületi feszültséggel rendelkezik",
+        "Gáz, amely negatív nyomáson tágul ki a térben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A plazmában az atomok ionizálódnak, szabad töltéshordozók jelennek meg, ez teszi elektromosan vezetővé.",
+      "t": "halmazállapotok"
+    },
+    {
+      "q": "Melyik nemesgázt fedezték fel elsőként, 1894-ben, a levegő összetételének vizsgálata során?",
+      "a": [
+        "Az argont",
+        "A héliumot",
+        "A neont",
+        "A xenont"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Lord Rayleigh és William Ramsay 1894-ben azonosította az argont a levegő korábban ismeretlen alkotójaként.",
+      "t": "levegő és gázok"
+    },
+    {
+      "q": "Miért inertek (kémiailag alig reakcióképesek) a nemesgázok?",
+      "a": [
+        "Mert legkülső elektronhéjuk teljesen betöltött, stabil elektronszerkezetet alkotva",
+        "Mert atomjaik olyan kicsik, hogy nem tudnak kötést kialakítani más atomokkal",
+        "Mert minden nemesgáz negatív töltésű elektronfelhővel rendelkezik",
+        "Mert a nemesgázok csak folyékony halmazállapotban lépnek reakcióba"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A teljesen betöltött külső elektronhéj energetikailag stabil, ezért a nemesgázok ritkán lépnek kémiai kötésbe.",
+      "t": "levegő és gázok"
+    },
+    {
+      "q": "Mi okozza elsősorban az üvegházhatást a Föld légkörében?",
+      "a": [
+        "Egyes gázok (pl. szén-dioxid, metán) elnyelik és visszasugározzák a hőt",
+        "A nitrogén és az oxigén elnyeli a Nap teljes sugárzását",
+        "A légkör felső rétegeiben lévő ózon felmelegíti a felszínt",
+        "A vízgőz teljesen kiszűri a napfényt a felszín eléréséhez"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az üvegházgázok (CO2, metán, vízgőz) elnyelik a földfelszínről visszaverődő hősugárzást, és melegítik a légkört.",
+      "t": "levegő és gázok"
+    },
+    {
+      "q": "Melyik évben tette közzé Mengyelejev az első széles körben elfogadott periódusos rendszert?",
+      "a": [
+        "1869-ben",
+        "1889-ben",
+        "1901-ben",
+        "1859-ben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Mengyelejev 1869-ben rendezte táblázatba az akkor ismert elemeket kémiai tulajdonságaik szerint.",
+      "t": "kémia története"
+    },
+    {
+      "q": "Ki kapta az első kémiai Nobel-díjat 1901-ben?",
+      "a": [
+        "Jacobus van 't Hoff",
+        "Dmitrij Mengyelejev",
+        "Marie Curie",
+        "Svante Arrhenius"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Van 't Hoff az ozmózisnyomás és a kémiai egyensúly törvényeiért kapta az első kémiai Nobel-díjat.",
+      "t": "kémia története"
+    },
+    {
+      "q": "Mit jelentett az alkímia célja a modern kémia kialakulása előtt?",
+      "a": [
+        "Nemesfémek előállítása és az örök élet elixírjének keresése egyaránt",
+        "Kizárólag gyógyszerek fejlesztése betegségek gyógyítására",
+        "Csak az elemek pontos atomtömegének meghatározása",
+        "Kizárólag az égés folyamatának tudományos magyarázata"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az alkimisták a fémek arannyá alakítását és az örök életet ígérő elixírt keresték, közben sok eljárást fedeztek fel.",
+      "t": "kémia története"
+    },
+    {
+      "q": "Mi a különbség két izotóp között ugyanannak az elemnek az atomjai közt?",
+      "a": [
+        "A neutronok száma tér el, a protonszám azonos",
+        "A protonok száma tér el, a neutronszám azonos",
+        "Az elektronok száma tér el, a protonszám azonos",
+        "A vegyértékelektronok száma és a rendszám is eltér"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az izotópok azonos rendszámú, de eltérő tömegszámú atomok, mert a neutronszámuk különbözik.",
+      "t": "atomszerkezet"
+    },
+    {
+      "q": "Melyik szubatomi részecskét fedezte fel J. J. Thomson 1897-ben?",
+      "a": [
+        "Az elektront",
+        "A protont",
+        "A neutront",
+        "A pozitront"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Thomson a katódsugarak vizsgálatával mutatta ki a negatív töltésű elektron létezését 1897-ben.",
+      "t": "atomszerkezet"
+    },
+    {
+      "q": "Mi határozza meg elsősorban egy kémiai elem azonosságát (rendszámát)?",
+      "a": [
+        "A protonok száma az atommagban",
+        "A neutronok száma az atommagban",
+        "Az elektronok teljes száma az atomban",
+        "Az atom teljes tömege"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az elem rendszáma megegyezik az atommagban lévő protonok számával, ez határozza meg az elemet.",
+      "t": "atomszerkezet"
+    },
+    {
+      "q": "Mi az enzimek fő szerepe az élő szervezetek biokémiai folyamataiban?",
+      "a": [
+        "Katalizátorként felgyorsítják a kémiai reakciókat anélkül, hogy elfogynának",
+        "Energiát tárolnak a sejtekben hosszú távú felhasználásra",
+        "Genetikai információt hordoznak és adnak át az utódoknak",
+        "Szerkezeti fehérjeként merevséget adnak a sejtfalnak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az enzimek biológiai katalizátorok, csökkentik az aktiválási energiát, de maguk nem alakulnak át a reakcióban.",
+      "t": "biokémia"
+    },
+    {
+      "q": "Milyen kémiai kötés kapcsolja össze az aminosavakat egy fehérjeláncban?",
+      "a": [
+        "Peptidkötés",
+        "Glikozidos kötés",
+        "Foszfodiészter-kötés",
+        "Hidrogénkötés"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az aminosavak karboxil- és aminocsoportja között kialakuló peptidkötés fűzi fel a fehérjeláncot.",
+      "t": "biokémia"
+    },
+    {
+      "q": "Miért nevezik a vizet 'univerzális oldószernek' a biokémiai folyamatokban?",
+      "a": [
+        "Mert poláris szerkezete miatt sok ionos és poláris anyagot képes feloldani",
+        "Mert minden ismert szerves molekulával kémiai reakcióba lép azonnal",
+        "Mert a víz molekulái elektromosan semlegesek és nem oldanak semmit",
+        "Mert a víz forráspontja minden más folyadékénál magasabb"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A víz poláris molekula, ez teszi képessé arra, hogy sokféle iont és poláris vegyületet oldjon fel.",
+      "t": "biokémia"
+    },
+    {
+      "q": "Miért kell mindig a savat a vízbe önteni hígításkor, és nem fordítva?",
+      "a": [
+        "Mert így a keletkező hő fokozatosan oszlik el, elkerülve a fröccsenést",
+        "Mert a víz gyorsabban párolog el, ha előbb kerül az edénybe",
+        "Mert a sav sűrűbb, és így könnyebben keveredik alulról",
+        "Mert a víz semlegesíti a sav szagát, mielőtt elpárologna"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ha savat öntünk vízbe, a hő nagy térfogatú vízben oszlik el, míg fordítva a hirtelen felforrás fröccsenést okozhat.",
+      "t": "laborbiztonság"
+    },
+    {
+      "q": "Miért viselünk védőszemüveget vegyszerekkel végzett laboratóriumi munka során?",
+      "a": [
+        "Mert a szem nyálkahártyája különösen érzékeny a maró vegyszerekre és fröccsenésekre",
+        "Mert a vegyszerek gőze rontja a látás élességét tartósan",
+        "Mert a fény visszaverődése a lombikokról károsítja a szemet",
+        "Mert a hő sugárzása az edényekből száríthatja a szemet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szem különösen sérülékeny, egy vegyszerfröccsenés komoly, akár maradandó károsodást okozhat.",
+      "t": "laborbiztonság"
+    },
+    {
+      "q": "Melyik fizikai mennyiség fejezi ki egy anyag egységnyi térfogatra jutó tömegét?",
+      "a": [
+        "A sűrűség",
+        "A tömeg",
+        "A térfogat",
+        "A nyomás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sűrűség a tömeg és a térfogat hányadosa, jellemzően g/cm³ vagy kg/m³ egységben adják meg.",
+      "t": "anyagjellemzők"
+    },
+    {
+      "q": "Miért úszik a jég a folyékony víz tetején, ellentétben a legtöbb szilárd anyaggal?",
+      "a": [
+        "Mert a jég kristályrácsa lazább, így a jég sűrűsége kisebb a vízénél",
+        "Mert a jég hidegebb, és a hideg anyagok mindig könnyebbek",
+        "Mert a víz felületi feszültsége megtartja a jeget a felszínen",
+        "Mert a jégben lévő levegőbuborékok könnyebbé teszik azt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A jég hidrogénkötései nyitott rácsot alkotnak, ami kevésbé sűrű, mint a folyékony víz, ezért úszik.",
+      "t": "anyagjellemzők"
+    },
+    {
+      "q": "Melyik tulajdonság alapján mérik az ásványok és anyagok karcolással szembeni ellenállását?",
+      "a": [
+        "A keménység (pl. a Mohs-skálán)",
+        "A rugalmasság (pl. a Young-modulusszal)",
+        "A sűrűség (pl. g/cm³-ben)",
+        "Az olvadáspont (°C-ban)"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Mohs-skála 1-től 10-ig méri a karcolással szembeni ellenállást, a gyémánt a legkeményebb (10).",
+      "t": "anyagjellemzők"
+    },
+    {
+      "q": "Mely gázok elsődleges okozói a savas esőnek a légszennyezés következtében?",
+      "a": [
+        "A kén-dioxid és a nitrogén-oxidok",
+        "A szén-dioxid és a metán",
+        "Az oxigén és a nitrogén",
+        "A vízgőz és az ózon"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kén-dioxid és a nitrogén-oxidok a légköri vízzel reagálva savakat (kénsav, salétromsav) képeznek.",
+      "t": "környezeti kémia"
+    },
+    {
+      "q": "Mi okozza elsősorban az ózonréteg elvékonyodását a sztratoszférában?",
+      "a": [
+        "Az emberi eredetű klór- és brómtartalmú vegyületek (pl. freonok)",
+        "A vulkánkitörésekből származó szén-dioxid és hamu",
+        "A napszél által a légkörbe juttatott töltött részecskék",
+        "A nagy magasságban repülő repülőgépek kondenzcsíkjai"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A freonok (CFC-k) a sztratoszférában klóratomokat szabadítanak fel, amelyek katalitikusan bontják az ózont.",
+      "t": "környezeti kémia"
+    },
+    {
+      "q": "Mi a különbség az exoterm és az endoterm reakciók között?",
+      "a": [
+        "Az exoterm hőt ad le, az endoterm hőt vesz fel a környezetéből",
+        "Az exoterm gázt fejleszt, az endoterm csapadékot képez",
+        "Az exoterm gyorsabb, az endoterm mindig lassabb lefolyású",
+        "Az exoterm csak szerves, az endoterm csak szervetlen reakció"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Exoterm reakciónál energia szabadul fel hő formájában, endotermnél a reakció energiát von el a környezetből.",
+      "t": "reakciók"
+    },
+    {
+      "q": "Milyen szerepet játszik a katalizátor egy kémiai reakcióban?",
+      "a": [
+        "Csökkenti az aktiválási energiát, felgyorsítva a reakciót anélkül, hogy elfogyna",
+        "Növeli a termékek végső mennyiségét a reakcióegyensúlyban",
+        "Megváltoztatja a reakció végtermékeinek kémiai összetételét",
+        "Hőt von el a rendszertől, hogy lassítsa a mellékreakciókat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A katalizátor alacsonyabb energiájú reakcióutat kínál, ezért gyorsul a reakció, de maga nem alakul át véglegesen.",
+      "t": "reakciók"
+    },
+    {
+      "q": "Mi jellemzi a csapadékképződéssel járó kémiai reakciókat oldatban?",
+      "a": [
+        "Két oldat összeöntésekor oldhatatlan szilárd anyag válik ki",
+        "Két oldat összeöntésekor színtelen gáz keletkezik azonnal",
+        "Két oldat összekeverésekor a hőmérséklet drasztikusan csökken",
+        "Két oldat összeöntésekor az oldatok szétválnak rétegekre"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ha a keletkező vegyület nem oldódik az adott oldószerben, szilárd csapadékként válik ki az oldatból.",
+      "t": "reakciók"
+    },
+    {
+      "q": "Mi különbözteti meg kémiailag a telített és a telítetlen szénhidrogéneket?",
+      "a": [
+        "A telítetlenekben legalább egy kettős vagy hármas kötés van a szénatomok között",
+        "A telítetlenek mindig gyűrűs szerkezetűek, a telítettek soha",
+        "A telítettek csak gázhalmazállapotban fordulnak elő szobahőn",
+        "A telítetlenek kizárólag oxigénatomot is tartalmaznak a láncban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A telítetlen szénhidrogénekben kettős vagy hármas kötés van, míg a telítettekben csak egyszeres kötések kapcsolják a szénatomokat.",
+      "t": "szerves kémia"
+    },
+    {
+      "q": "Miért nem elegyedik az olaj a vízzel?",
+      "a": [
+        "Mert az olaj apoláris, a víz pedig poláris molekulákból áll",
+        "Mert az olaj sűrűbb, mint a víz minden hőmérsékleten",
+        "Mert az olaj molekulái elektromosan töltöttek, a vízé nem",
+        "Mert az olaj forráspontja alacsonyabb, mint a vízé"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A 'hasonló a hasonlót oldja' elv szerint az apoláris olaj nem keveredik a poláris vízzel.",
+      "t": "szerves kémia"
     }
   ]
 }

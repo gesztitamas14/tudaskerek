@@ -2195,6 +2195,578 @@
       "d": "medium",
       "e": "Kelet- és Nyugat-Németország 1990 októberében egyesült ismét egyetlen állammá.",
       "t": "hidegháború"
+    },
+    {
+      "q": "Melyik ország vált 1804-ben a világ első fekete vezetésű, rabszolgafelkelésből született független köztársaságává?",
+      "a": [
+        "Haiti",
+        "Jamaica",
+        "Brazília",
+        "Panama"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Haiti a rabszolgafelkelésből született meg, és 1804-ben nyilvánította ki függetlenségét Franciaországtól, elsőként a régióban.",
+      "t": "Amerika"
+    },
+    {
+      "q": "Mikor nyílt meg a Szuezi-csatorna, amely összeköti a Földközi- és a Vörös-tengert?",
+      "a": [
+        "1869",
+        "1859",
+        "1882",
+        "1904"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A csatornát tíz évnyi építkezés után, 1869 novemberében adták át a hajóforgalomnak.",
+      "t": "felfedezések és gyarmatosítás"
+    },
+    {
+      "q": "Mikor adták át a forgalomnak a Panama-csatornát, amely összeköti az Atlanti- és a Csendes-óceánt?",
+      "a": [
+        "1914",
+        "1904",
+        "1869",
+        "1898"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A csatornát 1914 augusztusában nyitották meg, épp az első világháború kirobbanásának idején.",
+      "t": "Amerika"
+    },
+    {
+      "q": "Mi történt Japánban 1868-ban a Meidzsi-restauráció során?",
+      "a": [
+        "A császár visszaszerezte a tényleges hatalmat a sógunátustól",
+        "Japán elveszítette függetlenségét egy nyugati hatalom javára",
+        "Japán demokratikus köztársasággá alakult át",
+        "A szamurájrendszert törvénybe iktatták és megerősítették"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Meidzsi-restauráció során a Tokugava-sógunátust megdöntötték, és a császár kapta vissza a hatalmat.",
+      "t": "Ázsia"
+    },
+    {
+      "q": "Melyik konferencia szabályozta 1884–85-ben az európai hatalmak versengését az afrikai gyarmatokért?",
+      "a": [
+        "A berlini konferencia",
+        "A bécsi kongresszus",
+        "A versailles-i békekonferencia",
+        "Az algecirasi konferencia"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Bismarck hívta össze a berlini konferenciát, amely szabályokat rögzített Afrika gyarmati felosztásához.",
+      "t": "Afrika"
+    },
+    {
+      "q": "Nelson Mandela elnökké választása mikor zárta le hivatalosan Dél-Afrika apartheid korszakát?",
+      "a": [
+        "1994",
+        "1990",
+        "1985",
+        "1999"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Mandela 1994 áprilisában győzött az első szabad, minden fajra kiterjedő választáson, 27 évnyi börtön után.",
+      "t": "Afrika"
+    },
+    {
+      "q": "Miért nevezik 1960-at gyakran „Afrika évének”?",
+      "a": [
+        "Mert tizenhét afrikai gyarmat nyerte el a függetlenségét ebben az évben",
+        "Mert ekkor alakult meg az Afrikai Unió nemzetközi szervezete",
+        "Mert ekkor ért véget hivatalosan az apartheid rendszer",
+        "Mert ekkor rendezték az első pánafrikai olimpiai játékokat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1960-ban tizenhét afrikai ország, többségük volt francia gyarmat, vált függetlenné.",
+      "t": "Afrika"
+    },
+    {
+      "q": "Melyik évben süllyedt el a Titanic óceánjáró az első útján?",
+      "a": [
+        "1912",
+        "1898",
+        "1923",
+        "1915"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hajó 1912 áprilisában, Southamptonból New Yorkba tartva ütközött jéghegybe és süllyedt el.",
+      "t": "20. század"
+    },
+    {
+      "q": "Mi volt a spanyolnátha?",
+      "a": [
+        "Az első világháború végén világszerte pusztító influenzajárvány",
+        "Egy 19. századi kolerajárvány, amely Spanyolországban tört ki",
+        "A napóleoni háborúk idején terjedő fertőző betegség",
+        "Egy középkori pestisjárvány másik elnevezése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az 1918–19-es influenzapandémia több tízmillió ember halálát okozta világszerte.",
+      "t": "20. század"
+    },
+    {
+      "q": "Melyik évben omlott össze a New York-i tőzsde az úgynevezett „fekete csütörtökön”?",
+      "a": [
+        "1929",
+        "1919",
+        "1933",
+        "1907"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1929. október 24-én a Wall Street tőzsdéjének összeomlása indította el a nagy gazdasági világválságot.",
+      "t": "20. század"
+    },
+    {
+      "q": "Mikor jött létre a NATO, a nyugati szövetségesek katonai szervezete?",
+      "a": [
+        "1949",
+        "1945",
+        "1955",
+        "1961"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Észak-atlanti Szerződés Szervezetét 1949-ben hozták létre a hidegháború kezdetén.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Mi váltotta ki közvetlenül a szovjet vezetésű Varsói Szerződés 1955-ös létrehozását?",
+      "a": [
+        "Nyugat-Németország csatlakozása a NATO-hoz",
+        "Az ENSZ Alapokmányának aláírása",
+        "A berlini blokád megkezdése",
+        "A koreai háború kitörése"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Varsói Szerződést a szovjet blokk Nyugat-Németország NATO-csatlakozására válaszul hozta létre 1955-ben.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Melyik évszám-tartomány jelöli a koreai háború idejét?",
+      "a": [
+        "1950–1953",
+        "1945–1948",
+        "1955–1958",
+        "1961–1964"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A háború 1950 júniusában kezdődött és 1953 júliusában fegyverszünettel zárult.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Melyik dél-vietnami város elfoglalása jelentette a vietnami háború végét 1975-ben?",
+      "a": [
+        "Saigon",
+        "Hanoi",
+        "Da Nang",
+        "Can Tho"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Észak-Vietnam csapatai 1975 áprilisában foglalták el Saigont, ezzel véget ért a háború.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Mi váltotta ki az 1962-es kubai rakétaválságot?",
+      "a": [
+        "Szovjet nukleáris rakéták titkos telepítése Kubára",
+        "Kuba amerikai csapatok általi inváziója",
+        "Fidel Castro hatalomra kerülése Kubában",
+        "A berlini fal felépítésének bejelentése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Szovjetunió titokban nukleáris rakétákat telepített Kubára, ami a hidegháború legfeszültebb pillanatához vezetett.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Ki volt az első ember, aki 1969-ben a Hold felszínére lépett?",
+      "a": [
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Jurij Gagarin",
+        "Michael Collins"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Neil Armstrong 1969. július 20-án lépett elsőként a Holdra az Apollo–11 küldetés során.",
+      "t": "20. század"
+    },
+    {
+      "q": "Az Egyesült Nemzetek Szervezetét mikor alapították meg?",
+      "a": [
+        "1945",
+        "1919",
+        "1939",
+        "1950"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ENSZ alapokmányát 1945-ben, a második világháború végén írták alá San Franciscóban.",
+      "t": "második világháború"
+    },
+    {
+      "q": "Mi volt az amerikai Marshall-terv fő célja a második világháború után?",
+      "a": [
+        "Nyugat-Európa gazdaságának pénzügyi támogatással történő újjáépítése",
+        "A Szovjetunió gazdasági integrálása a nyugati piacokba",
+        "Németország négy megszállási zónára osztásának megszervezése",
+        "A gyarmatbirodalmak gyors felszámolásának finanszírozása"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Egyesült Államok 1948-tól nagy összegű segéllyel támogatta a háború sújtotta nyugat-európai országok újjáépítését.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Kit neveznek „Libertadornak”, azaz felszabadítónak Dél-Amerika történetében?",
+      "a": [
+        "Simón Bolívart",
+        "José de San Martínt",
+        "Miguel Hidalgót",
+        "Bernardo O'Higginst"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Simón Bolívar vezető szerepet játszott több dél-amerikai ország spanyol uralom alóli felszabadításában.",
+      "t": "Amerika"
+    },
+    {
+      "q": "Melyik ókori egyiptomi uralkodónőt ábrázolták szobrain gyakran a fáraók hagyományos jelvényeivel és szakállával?",
+      "a": [
+        "Hatsepszutot",
+        "Nofertitit",
+        "VII. Kleopátrát",
+        "Netikertít"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Hatsepszut az egyik legsikeresebb fáraóként uralkodott, és hatalmát a férfi fáraók jelképeivel is megerősítette.",
+      "t": "ókor"
+    },
+    {
+      "q": "Melyik ptolemaida uralkodónő volt az ókori Egyiptom utolsó fáraója?",
+      "a": [
+        "VII. Kleopátra",
+        "Hatsepszut",
+        "Nofertiti",
+        "Arszinoé"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "VII. Kleopátra halálával Kr. e. 30-ban Egyiptom elvesztette függetlenségét, és római tartomány lett.",
+      "t": "ókor"
+    },
+    {
+      "q": "Melyik vezér egyesítette a mongol törzseket, és hozta létre a történelem legnagyobb összefüggő szárazföldi birodalmát?",
+      "a": [
+        "Dzsingisz kán",
+        "Timur Lenk",
+        "Attila",
+        "Nagy Sándor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Dzsingisz kán a 13. század elején egyesítette a mongol törzseket, és birodalma később Ázsia nagy részére kiterjedt.",
+      "t": "középkor"
+    },
+    {
+      "q": "Melyik útjáról vált híressé a velencei kereskedő, Marco Polo?",
+      "a": [
+        "Kínába és a mongol udvarba tett utazásáról",
+        "Amerika felfedezéséről szóló beszámolójáról",
+        "Afrika tengeri megkerüléséről",
+        "Az Újvilágba vezető nyugati útvonal feltárásáról"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A 13. században Kínába utazó Marco Polo élményeit könyvben örökítette meg, amely sokáig Európa fő forrása volt Ázsiáról.",
+      "t": "középkor"
+    },
+    {
+      "q": "Mi volt az eredeti fő célja a kínai Nagy Fal megépítésének?",
+      "a": [
+        "Az északi nomád népek betöréseinek megakadályozása",
+        "A Selyemúton közlekedő karavánok megvámoltatása",
+        "A császári palota díszes védőfalként való körülvétele",
+        "A Sárga-folyó áradásainak elterelése és szabályozása"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A falrendszert évszázadokon át bővítették, hogy megvédjék Kínát az északi lovas nomádok támadásaitól.",
+      "t": "ókor"
+    },
+    {
+      "q": "Melyik orosz uralkodónő idején (1762–1796) terjeszkedett jelentősen az ország déli és nyugati irányba?",
+      "a": [
+        "Nagy Katalin cárnő",
+        "I. Erzsébet cárnő",
+        "Anna Ivanovna cárnő",
+        "Sophie Charlotte hercegnő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "II. (Nagy) Katalin cárnő uralkodása alatt Oroszország jelentős területeket szerzett, például a Krím-félszigetet.",
+      "t": "újkor"
+    },
+    {
+      "q": "Miért vált Jeanne d'Arc a francia történelem egyik jelképévé?",
+      "a": [
+        "Vezette a francia csapatokat az angolok elleni százéves háborúban",
+        "Ő alapította a Francia Akadémiát a 15. században",
+        "Ő lett Franciaország első uralkodó királynője",
+        "Ő indította el a francia forradalmat 1789-ben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fiatal parasztlány isteni sugallatra hivatkozva vezette a francia sereget Orléans felszabadításáért 1429-ben.",
+      "t": "középkor"
+    },
+    {
+      "q": "Miért egyedülálló Marie Curie tudományos pályafutása a Nobel-díjak történetében?",
+      "a": [
+        "Két különböző tudományterületen is Nobel-díjat kapott",
+        "Ő volt az első nő, aki bármilyen Nobel-díjat kapott",
+        "Ő alapította a Nobel-díjat finanszírozó alapítványt",
+        "Ő volt az egyetlen díjazott, aki visszautasította a díjat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Marie Curie 1903-ban fizikai, 1911-ben kémiai Nobel-díjat kapott, egyedüliként két különböző tudományágban.",
+      "t": "20. század"
+    },
+    {
+      "q": "Ki vezette azt a spanyol hódítást, amely a 16. században az Inka Birodalom bukásához vezetett?",
+      "a": [
+        "Francisco Pizarro",
+        "Hernán Cortés",
+        "Vasco da Gama",
+        "Ferdinand Magellán"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Pizarro 1532-ben ejtette foglyul Atahualpa inka uralkodót, ami az Inka Birodalom összeomlásához vezetett.",
+      "t": "felfedezések és gyarmatosítás"
+    },
+    {
+      "q": "Ki vezette a spanyol csapatokat az Azték Birodalom leigázásakor 1519 és 1521 között?",
+      "a": [
+        "Hernán Cortés",
+        "Francisco Pizarro",
+        "Cristoforo Colombo",
+        "Juan Ponce de León"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Cortés csapatai 1521-ben foglalták el Tenochtitlant, az Azték Birodalom fővárosát.",
+      "t": "felfedezések és gyarmatosítás"
+    },
+    {
+      "q": "Mire szolgált elsősorban a Selyemút az ókorban és a középkorban?",
+      "a": [
+        "Kereskedelmi útvonalak hálózataként kötötte össze Kelet-Ázsiát Európával",
+        "Kizárólag vallási zarándokútként működött a buddhisták számára",
+        "Egy római hadiútvonal volt Britannia tartományban",
+        "A keresztes hadjáratok fő szárazföldi útvonala volt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Selyemút kereskedelmi útvonalak hálózata volt, amely árukat, eszméket és technológiákat közvetített Kína és Európa között.",
+      "t": "középkor"
+    },
+    {
+      "q": "Melyik birodalom őrizte meg és fejlesztette tovább a keleti kereszténység, az ortodoxia hagyományait a középkorban?",
+      "a": [
+        "A Bizánci Birodalom",
+        "A Frank Birodalom",
+        "A Szentszék, azaz a pápai állam",
+        "Az Oszmán Birodalom"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Bizánci Birodalom Konstantinápoly székhellyel az ortodox kereszténység szellemi központja volt évszázadokon át.",
+      "t": "középkor"
+    },
+    {
+      "q": "Melyik ország lakosságát tizedelte meg tömegesen a Vörös Khmerek rezsimje az 1970-es években?",
+      "a": [
+        "Kambodzsa",
+        "Vietnam",
+        "Laosz",
+        "Thaiföld"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Pol Pot Vörös Khmer rezsimje 1975 és 1979 között Kambodzsában okozott tömeges pusztítást.",
+      "t": "20. század"
+    },
+    {
+      "q": "Melyik brit politikus tette híressé a „vasfüggöny” kifejezést egy 1946-os beszédében?",
+      "a": [
+        "Winston Churchill",
+        "Neville Chamberlain",
+        "Clement Attlee",
+        "Anthony Eden"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Churchill 1946-os fultoni beszédében használta a „vasfüggöny” kifejezést Európa kettéosztottságára.",
+      "t": "hidegháború"
+    },
+    {
+      "q": "Milyen módszerrel harcolt Mahátma Gandhi India függetlenségéért?",
+      "a": [
+        "Erőszakmentes polgári engedetlenséggel",
+        "Fegyveres gerillaharc szervezésével",
+        "Titkos diplomáciai alkuval a brit koronával",
+        "Egy föld alatti felkelő hadsereg vezetésével"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Gandhi a passzív ellenállás és az erőszakmentesség elvét hirdette és alkalmazta a brit gyarmati uralom ellen.",
+      "t": "Ázsia"
+    },
+    {
+      "q": "Melyik évben nyerte el India a függetlenségét az Egyesült Királyságtól?",
+      "a": [
+        "1947",
+        "1950",
+        "1935",
+        "1962"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "India 1947 augusztusában nyerte el függetlenségét, amit az ország két államra osztása kísért.",
+      "t": "Ázsia"
+    },
+    {
+      "q": "Mikor döntötte meg a bolsevik forradalom a cári rendszert Oroszországban?",
+      "a": [
+        "1917",
+        "1905",
+        "1921",
+        "1914"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1917-ben a februári forradalom megdöntötte a cárt, majd az októberi forradalommal a bolsevikok vették át a hatalmat.",
+      "t": "forradalmak"
+    },
+    {
+      "q": "Ki vezette a bolsevik pártot az 1917-es októberi forradalom idején?",
+      "a": [
+        "Vlagyimir Lenin",
+        "Joszif Sztálin",
+        "Lev Trockij",
+        "Alekszandr Kerenszkij"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Lenin vezetésével a bolsevikok 1917 októberében ragadták magukhoz a hatalmat Oroszországban.",
+      "t": "forradalmak"
+    },
+    {
+      "q": "Mao Ce-tung mikor kiáltotta ki a Kínai Népköztársaságot?",
+      "a": [
+        "1949",
+        "1945",
+        "1953",
+        "1937"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mao a polgárháborús győzelem után, 1949. október 1-jén kiáltotta ki a Kínai Népköztársaságot.",
+      "t": "forradalmak"
+    },
+    {
+      "q": "A 18. századi ipari forradalom melyik országban vette kezdetét?",
+      "a": [
+        "Nagy-Britanniában",
+        "Franciaországban",
+        "Németországban",
+        "Belgiumban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ipari forradalom a 18. század második felében Nagy-Britanniában indult el, a textilipar és a gőzgép fejlődésével.",
+      "t": "forradalmak"
+    },
+    {
+      "q": "Mivel járult hozzá James Watt jelentősen az ipari forradalomhoz?",
+      "a": [
+        "Jelentősen továbbfejlesztette a gőzgépet, hatékonyabbá téve azt",
+        "Feltalálta az első gőzmozdonyt vasúti használatra",
+        "Megtervezte az első nagyüzemi textilgyárat",
+        "Felfedezte az elektromos áram gyakorlati alkalmazását"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Watt fejlesztései révén a gőzgép hatékonysága jelentősen nőtt, ami lehetővé tette széles körű ipari alkalmazását.",
+      "t": "forradalmak"
+    },
+    {
+      "q": "Melyik évek között zajlott az amerikai polgárháború?",
+      "a": [
+        "1861–1865",
+        "1776–1783",
+        "1898–1902",
+        "1846–1848"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A polgárháború az Unió és a rabszolgatartó déli Konföderáció között 1861 és 1865 között zajlott.",
+      "t": "Amerika"
+    },
+    {
+      "q": "Milyen intézkedésével vált Abraham Lincoln a rabszolgaság eltörlésének jelképévé?",
+      "a": [
+        "Kiadta az emancipációs kiáltványt a rabszolgák felszabadításáról",
+        "Ő fogalmazta meg a függetlenségi nyilatkozatot 1776-ban",
+        "Ő alapította az Egyesült Államok alkotmányát",
+        "Ő vezette a déli Konföderáció seregeit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Lincoln 1863-as emancipációs kiáltványa kimondta a déli államokban tartott rabszolgák felszabadítását.",
+      "t": "Amerika"
+    },
+    {
+      "q": "Melyik állítás NEM igaz a 18–19. századi ipari forradalomra vonatkozóan?",
+      "a": [
+        "Elsőként Franciaországban zajlott le, majd onnan terjedt tovább",
+        "Nagy-Britanniában kezdődött, a textilipar fejlődésével",
+        "A gőzgép elterjedése kulcsszerepet játszott benne",
+        "Tömeges vándorlást indított el vidékről a városokba"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ipari forradalom valójában Nagy-Britanniában kezdődött, nem Franciaországban.",
+      "t": "forradalmak"
+    },
+    {
+      "q": "Melyik esemény történt időrendben a legkorábban a gyarmati sorsfordulók közül?",
+      "a": [
+        "India függetlensége (1947)",
+        "Ghána függetlensége (1957)",
+        "Kongó függetlensége (1960)",
+        "Algéria függetlensége (1962)"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "India 1947-ben nyerte el függetlenségét, megelőzve a többi felsorolt afrikai ország függetlenné válását.",
+      "t": "dekolonizáció"
     }
   ]
 }

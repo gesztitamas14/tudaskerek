@@ -1976,6 +1976,786 @@
       "d": "hard",
       "e": "A Michelangelo által 1501–1504 között készített márványszobor mintegy 5,17 méter magas, súlya körülbelül 5 tonna.",
       "t": "szobrászat"
+    },
+    {
+      "q": "Melyik évben (kb.) készítette Nicéphore Niépce az első fennmaradt fényképet, a 'Kilátás a dolgozószoba ablakából' címűt?",
+      "a": [
+        "1826–1827 körül",
+        "1839-ben",
+        "1801-ben",
+        "1858-ban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Niépce bitumenes eljárással 1826–1827 körül készítette az első ismert, tartósan fennmaradt fényképet.",
+      "t": "fotográfia"
+    },
+    {
+      "q": "Mi volt Louis Daguerre 1839-ben bemutatott fényképészeti eljárásának a neve?",
+      "a": [
+        "Dagerrotípia",
+        "Kalotípia",
+        "Ambrotípia",
+        "Ferrotípia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az eljárás a feltalálója nevéből kapta a 'dagerrotípia' elnevezést, és ezüstözött rézlemezre rögzítette a képet.",
+      "t": "fotográfia"
+    },
+    {
+      "q": "Miért forradalmasította a fényképezés elterjedése a 19. századi festészetet?",
+      "a": [
+        "Mert a pontos ábrázolást átvette a fénykép, így a festők a valóság szubjektív, egyéni látásmódú megjelenítése felé fordultak",
+        "Mert a fényképezés miatt megszűnt az olajfesték iránti kereslet, és a festők akvarellre váltottak",
+        "Mert a fényképezőgépek árának csökkenése miatt a festők massziven fényképész-vállalkozásokba kezdtek",
+        "Mert a fénykép feketefehér jellege miatt a festők kizárólag a színek felé fordultak, formákkal nem foglalkoztak"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hű ábrázolás funkcióját átvette a fotó, ez segítette elő az impresszionizmus és a modern stílusok kialakulását.",
+      "t": "fotográfia"
+    },
+    {
+      "q": "Melyik amerikai fotós vált híressé az 1930-as évek gazdasági világválságát bemutató portréiról, például a Vándorló anya című képről?",
+      "a": [
+        "Dorothea Lange",
+        "Ansel Adams",
+        "Man Ray",
+        "Robert Capa"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Dorothea Lange készítette a 'Vándorló anya' (Migrant Mother) című ikonikus fotót 1936-ban.",
+      "t": "fotográfia"
+    },
+    {
+      "q": "Melyik fotótechnikai fogalom jelöli azt, amikor a kép szinte minden síkban éles, az előtértől a háttérig?",
+      "a": [
+        "Nagy mélységélesség",
+        "Nagy zajszint",
+        "Túlexponálás",
+        "Kromatikus aberráció"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nagy mélységélesség (jellemzően kis rekesznyílás) esetén az előtér és a háttér egyaránt éles marad.",
+      "t": "fotográfia"
+    },
+    {
+      "q": "Melyik évben és melyik újságban jelent meg Filippo Tommaso Marinetti Futurista kiáltványa?",
+      "a": [
+        "1909-ben, a francia Le Figaro hasábjain",
+        "1918-ban, az olasz Corriere della Sera hasábjain",
+        "1899-ben, a The Times hasábjain",
+        "1925-ben, a Der Sturm hasábjain"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Marinetti kiáltványát 1909. február 20-án közölte a párizsi Le Figaro.",
+      "t": "futurizmus"
+    },
+    {
+      "q": "Mit ünnepelt elsősorban a futurizmus mozgalom témáiban?",
+      "a": [
+        "A sebességet, a gépeket és a modern technika dinamizmusát",
+        "A vidéki élet nyugalmát és a hagyományos paraszti kultúrát",
+        "A középkori lovagi eszményeket és a vallásos áhítatot",
+        "A klasszikus antik mitológia szereplőit és történeteit"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A futuristák a modern kor sebességét, gépeit és dinamizmusát dicsőítették, szemben a hagyományokkal.",
+      "t": "futurizmus"
+    },
+    {
+      "q": "Melyik olasz futurista szobrász alkotása az 'Egyedülálló formák a tér folytonosságában' című, mozgó alakot ábrázoló bronzszobor?",
+      "a": [
+        "Umberto Boccioni",
+        "Antonio Canova",
+        "Gian Lorenzo Bernini",
+        "Constantin Brâncuși"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Umberto Boccioni 1913-ban készítette a futurizmus egyik legismertebb szobrát.",
+      "t": "futurizmus"
+    },
+    {
+      "q": "Melyik Picasso-festmény tekinthető a kubizmus előfutárának, amely öt eltorzult alakú nőalakot ábrázol egy bordélyházban?",
+      "a": [
+        "Az avignoni kisasszonyok",
+        "Guernica",
+        "Három muzsikus",
+        "A hegedűs"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1907-es 'Az avignoni kisasszonyok' című mű nyitotta meg az utat a kubizmus felé.",
+      "t": "kubizmus"
+    },
+    {
+      "q": "Mi különbözteti meg az analitikus kubizmust a szintetikus kubizmustól?",
+      "a": [
+        "Az analitikus kubizmus a formákat geometriai síkokra bontja szét, a szintetikus pedig egyszerűbb, kollázsszerű elemekből építkezik",
+        "Az analitikus kubizmus kizárólag szobrászati, a szintetikus kizárólag festészeti irányzat volt",
+        "Az analitikus kubizmus élénk színeket, a szintetikus kizárólag szürkeárnyalatokat használt",
+        "Az analitikus kubizmus csak tájképeket, a szintetikus kizárólag portrékat ábrázolt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az analitikus fázis a formák szétbontására, a szintetikus a kollázs-technikára és egyszerűsített formákra épült.",
+      "t": "kubizmus"
+    },
+    {
+      "q": "Melyik anyagot építettek be elsőként képi elemként Picasso és Braque kollázsaiba a szintetikus kubizmus idején?",
+      "a": [
+        "Újságpapírt és mintázott viaszosvászon-darabokat",
+        "Textilszálakat és apró üveggyöngyöket",
+        "Homokot és fémforgácsot",
+        "Száraz virágokat és préselt leveleket"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A papier collé technikával újságkivágásokat és mintázott papírt ragasztottak a vászonra.",
+      "t": "kubizmus"
+    },
+    {
+      "q": "Mi jellemzi elsősorban a gótikus katedrálisok építészeti szerkezetét a román stílushoz képest?",
+      "a": [
+        "A csúcsíves boltozatok, a támpillérek és a nagy, színes üvegablakok",
+        "A lapos tetők és a teljesen díszítetlen homlokzatok",
+        "A kizárólag fa vázszerkezet és a nádtető",
+        "Az alacsony, tömör falak, ablakok nélkül"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A csúcsív, a bordás keresztboltozat és a támpillérek magasabb, vékonyabb falú, sok ablakos épületeket tettek lehetővé.",
+      "t": "gótika"
+    },
+    {
+      "q": "Melyik francia katedrális híres a középkori üvegfestményeinek jellegzetes, 'chartres-i kék' néven ismert színéről?",
+      "a": [
+        "A chartres-i Notre-Dame",
+        "A reimsi katedrális",
+        "A párizsi Sacré-Cœur",
+        "A Mont Saint-Michel apátsága"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A chartres-i katedrális középkori üvegablakainak jellegzetes kékje vált híressé 'chartres-i kék' néven.",
+      "t": "gótika"
+    },
+    {
+      "q": "Melyik évben pusztított súlyos tűz a párizsi Notre-Dame székesegyházban, amely ledöntötte a torony gúláját?",
+      "a": [
+        "2019-ben",
+        "2015-ben",
+        "2001-ben",
+        "2010-ben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "2019. április 15-én tűz pusztított a Notre-Dame-ban, amely ledöntötte a 19. századi tornyot.",
+      "t": "gótika"
+    },
+    {
+      "q": "Mi a 'rokokó' szó eredete, amely a stílus névadója lett?",
+      "a": [
+        "A francia 'rocaille' (kagyló- és kőmintás dísz) szóból ered",
+        "A görög 'rhokos' (görbe vonal) szóból ered",
+        "Az olasz 'roca' (szikla) szóból ered",
+        "A latin 'rota' (kerék) szóból ered"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A rokokó elnevezés a kagylós-kavicsos díszítőmotívumokat jelentő francia 'rocaille' szóból származik.",
+      "t": "rokokó"
+    },
+    {
+      "q": "Melyik francia festő ismert a 'fête galante' (gáláns ünnepség) műfaj megteremtőjeként a rokokó korban?",
+      "a": [
+        "Antoine Watteau",
+        "Jacques-Louis David",
+        "Nicolas Poussin",
+        "Eugène Delacroix"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Watteau vezette be az idilli, könnyed társasági jeleneteket ábrázoló 'fête galante' műfajt a 18. század elején.",
+      "t": "rokokó"
+    },
+    {
+      "q": "Melyik rokokó festmény ábrázol egy hintázó fiatal nőt, akinek cipője a levegőbe repül, miközben egy rejtőzködő férfi felfelé les?",
+      "a": [
+        "A hinta (Jean-Honoré Fragonard)",
+        "A csók (Gustav Klimt)",
+        "Az esernyők (Auguste Renoir)",
+        "A báli táncosnő (Edgar Degas)"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Fragonard 1767 körül festett 'A hinta' című képe a rokokó könnyed, játékos szerelmi témáinak jellegzetes példája.",
+      "t": "rokokó"
+    },
+    {
+      "q": "Melyik amerikai festő vált híressé a vászonra csöpögtetett festékkel készített 'drip painting' technikájáról?",
+      "a": [
+        "Jackson Pollock",
+        "Mark Rothko",
+        "Willem de Kooning",
+        "Andy Warhol"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Pollock a vásznat a földre fektetve, festéket csöpögtetve dolgozott, ezt nevezik 'action painting'-nek is.",
+      "t": "absztrakt expresszionizmus"
+    },
+    {
+      "q": "Mit jelent az 'action painting' kifejezés az absztrakt expresszionizmusban?",
+      "a": [
+        "A festés fizikai, spontán cselekvésként történik, a mű a festő testi mozdulatainak lenyomata",
+        "A festmény kizárólag mozgó, animált digitális technikával készül",
+        "A festő élő modellek mozgását fényképezi le, majd azt másolja vászonra",
+        "A festmény témája mindig sportos, akciódús jelenet, például verseny vagy harc"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az 'action painting' a festés folyamatát, a spontán testi mozdulatokat helyezi a középpontba, nem a végeredményt másolja.",
+      "t": "absztrakt expresszionizmus"
+    },
+    {
+      "q": "Melyik New York-i festő ismert a nagy, elmosódott szélű színmezőkből álló, meditatív hatású vásznairól?",
+      "a": [
+        "Mark Rothko",
+        "Roy Lichtenstein",
+        "Salvador Dalí",
+        "Henri Matisse"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Rothko nagy méretű, lágy szélű színmezőkből építkező festményei a 'color field' festészet jellegzetes példái.",
+      "t": "absztrakt expresszionizmus"
+    },
+    {
+      "q": "Melyik svájci városban és melyik kabaréban indult el 1916-ban a dadaizmus mozgalom?",
+      "a": [
+        "Zürichben, a Cabaret Voltaire-ben",
+        "Genfben, a Théâtre du Léman-ban",
+        "Bázelben, a Stadttheaterben",
+        "Bernben, a Kunsthalle pincéjében"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hugo Ball és társai 1916-ban Zürichben nyitották meg a Cabaret Voltaire-t, ahol a dada megszületett.",
+      "t": "dadaizmus"
+    },
+    {
+      "q": "Miért jött létre a dadaizmus mozgalom az első világháború idején?",
+      "a": [
+        "Tiltakozásképp a háború értelmetlen pusztítása és a hagyományos, 'ésszerű' polgári kultúra ellen",
+        "Azért, hogy a katonai propagandát képi eszközökkel támogassa a hadviselő felek számára",
+        "Mert a művészeti akadémiák bezártak, és a diákoknak alternatív képzésre volt szükségük",
+        "Azért, hogy megőrizzék a klasszikus reneszánsz festészeti hagyományokat a háborús pusztítástól"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A dadaisták az értelmetlen háborús pusztítás és a polgári racionalitás ellen lázadtak abszurd, szabályokat felrúgó művekkel.",
+      "t": "dadaizmus"
+    },
+    {
+      "q": "Mi jellemzi elsősorban az expresszionista festészetet a valósághű ábrázoláshoz képest?",
+      "a": [
+        "A belső érzelmi állapot eltorzított formákkal és élénk, nem természetes színekkel történő kifejezése",
+        "A tárgyak és alakok fényképszerűen pontos, aprólékos visszaadása",
+        "Kizárólag geometriai, absztrakt formák használata, emberi alakok nélkül",
+        "Az ókori görög szobrászat arányrendszerének szigorú követése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az expresszionisták a külső valóság helyett a belső, szubjektív érzelmeket fejezték ki eltorzított formákkal, erős színekkel.",
+      "t": "expresszionizmus"
+    },
+    {
+      "q": "Melyik ország festői alapították a 'Die Brücke' (A híd) csoportot, amely az expresszionizmus egyik korai központja volt?",
+      "a": [
+        "Németország",
+        "Ausztria",
+        "Franciaország",
+        "Hollandia"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Die Brücke csoportot 1905-ben Drezdában alapították német festők, az expresszionizmus egyik úttörő közössége.",
+      "t": "expresszionizmus"
+    },
+    {
+      "q": "Melyik osztrák festő ismert megnyúlt, ideges vonalvezetésű, erős érzelmi töltetű portréiról és önarcképeiről?",
+      "a": [
+        "Egon Schiele",
+        "Gustav Klimt",
+        "Oskar Kokoschka",
+        "Franz Marc"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Egon Schiele feszes, szögletes vonalvezetésű, erős érzelmi töltetű alakjai az expresszionizmus jellegzetes példái.",
+      "t": "expresszionizmus"
+    },
+    {
+      "q": "Melyik osztrák festőcsoport szakadt ki 1897-ben a hivatalos bécsi akadémiából, és lett a szecesszió egyik központja?",
+      "a": [
+        "A Bécsi Szecesszió (Gustav Klimt vezetésével)",
+        "A Nazarénusok köre",
+        "A Nyolcak csoportja",
+        "A Der Blaue Reiter csoport"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1897-ben Klimt és társai kiváltak a konzervatív akadémiából, és megalapították a Bécsi Szecessziót.",
+      "t": "szecesszió"
+    },
+    {
+      "q": "Mi volt a Bécsi Szecesszió jelmondata, amely a művészet szabadságát hirdette?",
+      "a": [
+        "'A kornak a maga művészetét, a művészetnek a maga szabadságát'",
+        "'Ars longa, vita brevis'",
+        "'A művészet a nép szolgálatában áll'",
+        "'Vissza a természethez és az egyszerűséghez'"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Secession épületén máig olvasható jelmondat a kor és a művészet szabad kifejezését hirdeti.",
+      "t": "szecesszió"
+    },
+    {
+      "q": "Ki tervezte szecessziós stílusban a budapesti Iparművészeti Múzeumot és a Postatakarékpénztár épületét, Zsolnay-kerámia díszítéssel?",
+      "a": [
+        "Lechner Ödön",
+        "Steindl Imre",
+        "Ybl Miklós",
+        "Hauszmann Alajos"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Lechner Ödönt gyakran 'magyar Gaudínak' nevezik, ő honosította meg a magyaros szecessziót Zsolnay-kerámia díszítéssel.",
+      "t": "szecesszió"
+    },
+    {
+      "q": "Mikor adta ki André Breton az első Szürrealista Kiáltványt?",
+      "a": [
+        "1924-ben",
+        "1909-ben",
+        "1916-ban",
+        "1937-ben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Breton 1924-ben publikálta az első szürrealista kiáltványt, amely a tudattalan és az álmok szerepét hangsúlyozta.",
+      "t": "szürrealizmus"
+    },
+    {
+      "q": "Mire épített elsősorban a szürrealizmus mozgalom Sigmund Freud elméletei nyomán?",
+      "a": [
+        "A tudattalanra, az álmokra és a szabad asszociációra",
+        "A tudatos, racionális tervezésre és a matematikai arányokra",
+        "A vallásos ikonográfia szigorú szabályaira",
+        "A klasszikus antik szobrászat arányrendszerére"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szürrealisták Freud pszichoanalízise nyomán a tudattalant, az álmokat kívánták képi formába önteni.",
+      "t": "szürrealizmus"
+    },
+    {
+      "q": "Melyik NEM tartozik a szürrealizmus jellemző alkotói eszközei közé?",
+      "a": [
+        "A lineáris perspektíva reneszánsz kori szabályainak szigorú, tankönyvi alkalmazása",
+        "A véletlenre bízott, automatikus rajzolás (automatizmus)",
+        "Az álomszerű, logikátlan, egymásnak ellentmondó képi kombinációk",
+        "A hétköznapi tárgyak szokatlan, meghökkentő környezetbe helyezése"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szürrealisták éppen a szigorú, racionális szabályok (mint a klasszikus perspektíva) ellen lázadtak, nem azokat alkalmazták.",
+      "t": "szürrealizmus"
+    },
+    {
+      "q": "Melyik 1956-os brit kollázs tekinthető az egyik legkorábbi pop-art alkotásnak, amely egy modern otthon tárgyait halmozza egybe?",
+      "a": [
+        "Richard Hamilton: Just What Is It that Makes Today's Homes So Different, So Appealing?",
+        "Andy Warhol: Marilyn Diptych",
+        "Roy Lichtenstein: Whaam!",
+        "Claes Oldenburg: Soft Toilet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Richard Hamilton 1956-os kollázsa a fogyasztói társadalom tárgyait mutatja be, a pop-art egyik korai előfutára.",
+      "t": "pop-art"
+    },
+    {
+      "q": "Melyik amerikai pop-art festő alkalmazta munkáiban a képregényekre jellemző raszterpontokat és vastag kontúrvonalakat?",
+      "a": [
+        "Roy Lichtenstein",
+        "Jackson Pollock",
+        "Piet Mondrian",
+        "Marcel Duchamp"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Lichtenstein a nyomdai raszterpontokat (Ben-Day dots) nagyított formában vitte át festményeire.",
+      "t": "pop-art"
+    },
+    {
+      "q": "Melyik Monet-festmény címéből született meg az 'impresszionizmus' elnevezés?",
+      "a": [
+        "Impresszió, napkelte",
+        "Vízililiomok",
+        "A Rouen-i katedrális",
+        "Argenteuil-i híd"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egy kritikus gúnyosan az 1874-es kiállításon bemutatott 'Impresszió, napkelte' című Monet-kép címéből alkotta a kifejezést.",
+      "t": "impresszionizmus"
+    },
+    {
+      "q": "Melyik évben rendezték meg az első önálló impresszionista kiállítást Párizsban, a hivatalos szalonon kívül?",
+      "a": [
+        "1874-ben",
+        "1863-ban",
+        "1889-ben",
+        "1900-ban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1874-ben egy fényképész műtermében rendezték meg a festők első önálló, szalonon kívüli kiállítását.",
+      "t": "impresszionizmus"
+    },
+    {
+      "q": "Miért festettek az impresszionisták gyakran a szabadban (plein air), a műterem helyett?",
+      "a": [
+        "Mert a fény és a színek pillanatnyi, változó hatását akarták közvetlenül megörökíteni",
+        "Mert a műtermi bérleti díjak drágábbá váltak a szabadtéri festéknél",
+        "Mert az akadémia megtiltotta a műtermi festést a fiatal festőknek",
+        "Mert csak szabadban lehetett hozzáférni az új, tubusos olajfestékekhez"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az impresszionisták a fény és a légkör változó, pillanatnyi hatását akarták rögzíteni, ezért dolgoztak a szabad ég alatt.",
+      "t": "impresszionizmus"
+    },
+    {
+      "q": "Ki alkotta meg a 'posztimpresszionizmus' kifejezést egy 1910-es londoni kiállítás kapcsán?",
+      "a": [
+        "Roger Fry brit művészettörténész",
+        "Émile Zola francia író",
+        "Guillaume Apollinaire francia költő",
+        "Clement Greenberg amerikai kritikus"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Roger Fry 1910-ben, a 'Manet and the Post-Impressionists' kiállítás kapcsán vezette be a kifejezést.",
+      "t": "posztimpresszionizmus"
+    },
+    {
+      "q": "Melyik posztimpresszionista festő dolgozta ki a pointillizmus, a kis, tiszta színfoltokból építkező technikát?",
+      "a": [
+        "Georges Seurat",
+        "Paul Cézanne",
+        "Henri de Toulouse-Lautrec",
+        "Paul Gauguin"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Seurat apró, egymás mellé helyezett színes pontokból építette fel képeit, ez a pointillizmus technikája.",
+      "t": "posztimpresszionizmus"
+    },
+    {
+      "q": "Melyik szigetre költözött Paul Gauguin, hogy a nyugati civilizációtól távol, természetközeli életet és festészetet keressen?",
+      "a": [
+        "Tahitire",
+        "Szicíliára",
+        "Kréta szigetére",
+        "Málta szigetére"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Gauguin 1891-ben Tahitire költözött, ahol a helyi kultúra ihlette élénk színű festményeit alkotta.",
+      "t": "posztimpresszionizmus"
+    },
+    {
+      "q": "Melyik görög szigeten találták meg 1820-ban a Milói Vénusz szobrát, amelyet ma a párizsi Louvre-ban őriznek?",
+      "a": [
+        "Míloszon",
+        "Rodoszon",
+        "Kréta szigetén",
+        "Délosz szigetén"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szobrot 1820-ban egy paraszt találta meg Mílosz szigetén, majd Franciaországba került.",
+      "t": "ókori művészet"
+    },
+    {
+      "q": "Melyik évben (kb.) fedezték fel Rómában a Laokoón-csoport ókori szobrát, amely nagy hatással volt a reneszánsz szobrászokra?",
+      "a": [
+        "1506-ban",
+        "1650-ben",
+        "1400-ban",
+        "1750-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szobrot 1506-ban találták meg egy római szőlőben, s felfedezésekor Michelangelo is megtekintette.",
+      "t": "ókori művészet"
+    },
+    {
+      "q": "Mit ábrázol az ókori egyiptomi művészet jellegzetes emberábrázolása, amely a fejet és a lábakat profilból, a törzset szemből mutatja?",
+      "a": [
+        "Az emberi test legjellemzőbb nézeteinek egyidejű, szabályozott bemutatását, nem a valósághű térbeli látványt",
+        "A fáraó isteni testének szó szerinti, tökéletesen valósághű, arányos és mozdulatlan ábrázolását",
+        "A halál utáni élet birodalmának szigorúan tiltott, csak papok által látható titkos jeleneteit",
+        "Kizárólag az állatfejű istenek pontos, tudományos igényű anatómiai felépítését és izomzatát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az egyiptomi ábrázolási kánon a test részeit a legjellemzőbb szögből, egymás mellé rendezve mutatja, nem térbeli perspektívában.",
+      "t": "ókori művészet"
+    },
+    {
+      "q": "Mi volt a Colosseum eredeti, latin neve, amely a Flavius-dinasztia idején épült Rómában?",
+      "a": [
+        "Amphitheatrum Flavium",
+        "Circus Maximus",
+        "Forum Romanum",
+        "Pantheon"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Colosseum eredeti neve Amphitheatrum Flavium volt, a Flavius császárok építtették i. sz. 70–80 körül.",
+      "t": "ókori művészet"
+    },
+    {
+      "q": "Melyik olasz szobrász-építész alkotása a római Szent Péter téren található oszlopcsarnok, és a 'Szent Teréz eksztázisa' szoborcsoport?",
+      "a": [
+        "Gian Lorenzo Bernini",
+        "Michelangelo Buonarroti",
+        "Donato Bramante",
+        "Andrea Palladio"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bernini tervezte a Szent Péter tér kolonnádját és készítette a drámai, mozgalmas 'Szent Teréz eksztázisa' szoborcsoportot.",
+      "t": "barokk"
+    },
+    {
+      "q": "Melyik flamand festő nevéhez fűződnek a mozgalmas, testes alakokkal teli, monumentális barokk vásznak, mint a Marie de' Medici-ciklus?",
+      "a": [
+        "Peter Paul Rubens",
+        "Jan van Eyck",
+        "Rembrandt van Rijn",
+        "Hieronymus Bosch"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Rubens dinamikus, testes alakokkal teli monumentális festményei a flamand barokk csúcspontját jelentik.",
+      "t": "barokk"
+    },
+    {
+      "q": "Miért nevezik a barokk stílust gyakran a mozgás és a drámai hatás stílusának a reneszánsz kiegyensúlyozott nyugalmához képest?",
+      "a": [
+        "Mert az erős fény-árnyék kontrasztokkal, átlós kompozíciókkal és túlzó gesztusokkal fokozott érzelmi hatásra törekedett",
+        "Mert kizárólag mozgó, élő állatokat ábrázolt minden festményen",
+        "Mert az építészetben csak ideiglenes, lebontható díszleteket alkalmaztak",
+        "Mert a barokk festők sosem használtak modellt, csak emlékezetből dolgoztak"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A barokk erős kontrasztokkal, dinamikus kompozíciókkal keltett drámai, érzelemdús hatást a nyugodt reneszánsszal szemben.",
+      "t": "barokk"
+    },
+    {
+      "q": "Mi a freskófestés lényege, amely megkülönbözteti a többi falfestési technikától?",
+      "a": [
+        "A festéket nedves, friss vakolatra viszik fel, amely megszáradva magába zárja a pigmentet",
+        "A festéket olajjal keverve, száraz falra viszik fel több rétegben",
+        "A festéket viasszal olvasztva, meleg simítóval viszik a falra",
+        "A mintát előre kivágott sablonokkal, permetezve viszik fel a falra"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A freskó technikában a pigment a nedves vakolatba kötve tartósan megszárad, ezért nagyon időtálló.",
+      "t": "technikák"
+    },
+    {
+      "q": "Melyik festéktechnikát tökéletesítették elsőként a 15. századi németalföldi festők, mint Jan van Eyck, réteges, lazúros festésmóddal?",
+      "a": [
+        "Az olajfestést",
+        "A temperafestést",
+        "A pasztellt",
+        "A vízfestéket (akvarellt)"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Jan van Eyck és kortársai finomították az olajfestés technikáját, amely mély, lazúros színhatásokat tett lehetővé.",
+      "t": "technikák"
+    },
+    {
+      "q": "Mit jelent a 'sfumato' festészeti eljárás, amelyet Leonardo da Vinci alkalmazott a Mona Lisa arcán?",
+      "a": [
+        "A körvonalak és árnyékok füstszerű, elmosódott, lágy átmenettel történő ábrázolását",
+        "A vászon aranyfüsttel történő bevonását a fények kiemelésére",
+        "A festék füst fölé tartásával történő gyorsított szárítását",
+        "A kép hátterének kizárólag füstszürke színnel történő kitöltését"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sfumato a formák éles körvonalak nélküli, ködös átmenetekkel történő lágy megjelenítése, jellemzően az arcokon.",
+      "t": "technikák"
+    },
+    {
+      "q": "Melyik ősi fémöntési eljárást hívják 'elveszett viasz' (cire perdue) technikának, amelyet bronzszobrok készítésére használnak?",
+      "a": [
+        "A viaszmodellt formába öntik, majd kiolvasztják, és a helyére fémet öntenek",
+        "A fémet közvetlenül a szobrász kezével formázzák, viasz nélkül",
+        "A kész bronzszobrot viasszal vonják be a fényesség érdekében",
+        "A viaszt a fémötvözet egyik alkotóelemeként olvasztják bele a bronzba"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A cire perdue technikában a viaszmodellt agyagformába ágyazzák, kiolvasztják, majd a helyére öntik a folyékony fémet.",
+      "t": "technikák"
+    },
+    {
+      "q": "Melyik szoborcsoport része a párizsi Rodin Múzeum előtt is látható 'A gondolkodó', amely eredetileg egy nagyobb kompozíció figurájaként készült?",
+      "a": [
+        "A Pokol kapui (La Porte de l'Enfer)",
+        "A polgárok Calais-ból",
+        "Az Ovidius-ciklus",
+        "A Danaidák sorozata"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "'A gondolkodó' eredetileg a Dante Isteni Színjátékát idéző 'Pokol kapui' monumentális kapukompozíció egyik alakja volt.",
+      "t": "szobrászat"
+    },
+    {
+      "q": "Ki tervezte a Szabadság-szobrot, amelynek belső vasszerkezetét Gustave Eiffel mérnöki irodája dolgozta ki?",
+      "a": [
+        "Frédéric Auguste Bartholdi",
+        "Auguste Rodin",
+        "Antonio Canova",
+        "Jean-Baptiste Carpeaux"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szobrot Bartholdi tervezte, míg a belső tartószerkezetet Gustave Eiffel mérnöki irodája alkotta meg.",
+      "t": "szobrászat"
+    },
+    {
+      "q": "Melyik anyagból faragta Michelangelo a Dávid-szobrot, egy korábban két másik szobrász által is félbehagyott tömbből?",
+      "a": [
+        "Fehér carrarai márványból",
+        "Bronzból",
+        "Mészkőből",
+        "Terrakottából"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Michelangelo egy hibás, korábban félbehagyott carrarai márványtömbből faragta ki a Dávid-szobrot.",
+      "t": "szobrászat"
+    },
+    {
+      "q": "Melyik magyar festőt nevezik gyakran a 'Napút festőjének', aki a Zarándoklás a cédrusfához és a Magányos cédrus című képeket festette?",
+      "a": [
+        "Csontváry Kosztka Tivadar",
+        "Munkácsy Mihály",
+        "Rippl-Rónai József",
+        "Szinyei Merse Pál"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Csontváry Kosztka Tivadar különleges, misztikus fényhatású tájképei, mint a Magányos cédrus, egyedülállóak a magyar festészetben.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Mikor nyert aranyérmet Munkácsy Mihály 'Siralomház' című festménye a párizsi Szalonon?",
+      "a": [
+        "1870-ben",
+        "1885-ben",
+        "1900-ban",
+        "1861-ben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Siralomház 1870-ben nyert aranyérmet a párizsi Szalonon, ez alapozta meg Munkácsy nemzetközi hírnevét.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Milyen jellegzetes mázeljárásáról híres a pécsi Zsolnay-gyár, amely szivárványosan csillogó, fémes felületet hoz létre?",
+      "a": [
+        "Az eozinmázról",
+        "A kobaltmázról",
+        "Az ólommázról",
+        "A sómázról"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Zsolnay-gyár saját fejlesztésű eozinmáza fémes, szivárványos csillogást ad a kerámiáknak.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik porcelánmanufaktúrát alapították 1826-ban a Veszprém megyei Herenden, amely később a magyar királyi udvar kedvelt szállítója lett?",
+      "a": [
+        "A Herendi Porcelánmanufaktúra",
+        "A Zsolnay-gyár",
+        "A Kalocsai Porcelánmanufaktúra",
+        "A Hollóházi Porcelángyár"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Herendi Porcelánmanufaktúrát 1826-ban alapították, és a 19. század közepére Európa-szerte ismertté vált.",
+      "t": "magyar művészet"
+    },
+    {
+      "q": "Melyik firenzei építész dolgozta ki újra a lineáris perspektíva matematikai szabályait a 15. század elején?",
+      "a": [
+        "Filippo Brunelleschi",
+        "Leon Battista Alberti",
+        "Donato Bramante",
+        "Andrea Palladio"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Brunelleschi kísérletei alapozták meg a lineáris perspektíva geometriai szabályait a korai reneszánszban.",
+      "t": "reneszánsz"
+    },
+    {
+      "q": "Ki írta 'A legkiválóbb festők, szobrászok és építészek élete' című művet, amely elsőként használta a 'reneszánsz' (rinascita) fogalmát?",
+      "a": [
+        "Giorgio Vasari",
+        "Leonardo da Vinci",
+        "Baldassare Castiglione",
+        "Niccolò Machiavelli"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Vasari 1550-ben megjelent életrajzgyűjteménye a művészettörténet-írás egyik alapműve, ő vezette be a 'rinascita' kifejezést.",
+      "t": "reneszánsz"
+    },
+    {
+      "q": "Melyik vatikáni freskón ábrázolta Raffaello az ókori görög filozófusokat, köztük Platónt és Arisztotelészt, egy monumentális csarnokban?",
+      "a": [
+        "Az athéni iskola",
+        "A Sixtus-kápolna mennyezete",
+        "Az Utolsó ítélet",
+        "A Disputa"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Raffaello 'Az athéni iskola' című freskója a vatikáni Stanza della Segnaturában látható, a filozófusok gyűlését ábrázolja.",
+      "t": "reneszánsz"
     }
   ]
 }

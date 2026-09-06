@@ -2100,6 +2100,656 @@
       "d": "medium",
       "e": "A Duracell név a \"durable\" (tartós) és a \"cell\" (elem) angol szavak összevonásából született, a hosszú élettartamra utalva.",
       "t": "névadás"
+    },
+    {
+      "q": "Mit jelent a \"startup\" kifejezés az üzleti világban?",
+      "a": [
+        "Gyors növekedésű, innovatív modellt kereső fiatal vállalkozás",
+        "Régóta működő, tőzsdén jegyzett nagyvállalat",
+        "Csődeljárás egyik hivatalos jogi szakasza",
+        "Kizárólag állami tulajdonban álló cégforma"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A startup jellemzően új, bizonytalan piaci modellel induló, gyors skálázódásra törekvő vállalkozás.",
+      "t": "üzleti fogalmak"
+    },
+    {
+      "q": "Mit jelent a franchise rendszer a vállalkozások világában?",
+      "a": [
+        "Bevált üzleti modell és márkanév használati jogának átengedése díjért",
+        "Két vállalat egyesülése egyetlen új céggé",
+        "Állami támogatás induló vállalkozásoknak",
+        "Részvények nyilvános tőzsdei bevezetése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A franchise-ban a jogosult fizet a márkanév, a know-how és az üzleti modell használatáért.",
+      "t": "üzleti fogalmak"
+    },
+    {
+      "q": "Honnan ered az Adidas márkanév?",
+      "a": [
+        "Alapítója, Adolf \"Adi\" Dassler nevének rövidítéséből",
+        "Az \"atlétika\" és \"divat\" szavak összevonásából",
+        "Egy ógörög szóból, aminek jelentése \"gyors\"",
+        "Alapítójának lánya után nevezték el"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Adidas nevet Adolf \"Adi\" Dassler keresztnevének becézett formájából és vezetéknevének elejéből alkották.",
+      "t": "márkanevek eredete"
+    },
+    {
+      "q": "Melyik évben alapította Asa Candler hivatalosan a The Coca-Cola Company nevű vállalatot, jóval az ital 1886-os feltalálása után?",
+      "a": [
+        "1892-ben",
+        "1886-ban",
+        "1901-ben",
+        "1919-ben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az italt John Pemberton találta fel 1886-ban, de a céget Asa Candler alapította hivatalosan 1892-ben Atlantában.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Honnan kapta a Haribo cukorkamárka a nevét?",
+      "a": [
+        "Alapítója, Hans Riegel és székhelye, Bonn nevéből",
+        "A \"happy rainbow bonbon\" angol kifejezésből",
+        "Egy német meseszereplő nevéből",
+        "Alapítójának feleségét hívták így"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A HARIBO név a \"HAns RIegel BOnn\" szavak kezdőbetűiből áll össze.",
+      "t": "márkanevek eredete"
+    },
+    {
+      "q": "Milyen terméken szkennelték le elsőként kereskedelmi forgalomban a vonalkódot 1974-ben egy ohiói szupermarketben?",
+      "a": [
+        "Egy csomag Wrigley's rágógumin",
+        "Egy doboz gabonapehely dobozán",
+        "Egy üveg üdítőitalon",
+        "Egy csomag cigarettán"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1974. június 26-án egy csomag Wrigley's Juicy Fruit rágógumit szkenneltek le elsőként UPC vonalkóddal egy Ohio állambeli boltban.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Hányadik önálló autógyártó vállalkozása volt a Ford Motor Company Henry Ford számára, miután korábbi két cége is megbukott?",
+      "a": [
+        "A harmadik",
+        "Az első",
+        "A második",
+        "A negyedik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Henry Ford két korábbi autógyártó cége is csődbe ment, mielőtt 1903-ban megalapította a sikeres Ford Motor Companyt.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Mit takar az IKEA márkanév betűszava?",
+      "a": [
+        "Ingvar Kamprad, valamint az Elmtaryd farm és Agunnaryd falu nevéből",
+        "Az \"International Kitchen Equipment Association\" rövidítése",
+        "Alapítójának négy gyermeke nevének kezdőbetűiből",
+        "Svéd szavak, együttes jelentésük \"olcsó, jó bútor\""
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az IKEA az alapító Ingvar Kamprad nevéből, valamint az Elmtaryd farm és Agunnaryd falu kezdőbetűiből áll össze.",
+      "t": "márkanevek eredete"
+    },
+    {
+      "q": "Melyik országban van bejegyezve az IKEA márkanevet birtokló Inter IKEA Systems cég székhelye, annak ellenére, hogy a márka Svédországból indult?",
+      "a": [
+        "Hollandiában",
+        "Svájcban",
+        "Luxemburgban",
+        "Dániában"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az IKEA márkajogait birtokló Inter IKEA Systems B.V. hollandiai bejegyzésű vállalat, székhelye Delftben található.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Milyen terméket gyártott eredetileg a Nintendo, mielőtt videojáték-céggé vált?",
+      "a": [
+        "Hagyományos japán kártyákat, úgynevezett hanafudát",
+        "Kézzel készített rizspapír termékeket",
+        "Kerámia háztartási edényeket és tálakat",
+        "Szerencsejáték-automatákat és játékgépeket"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nintendót 1889-ben Fuszadzsiró Jamaucsi alapította hanafuda nevű japán kártyák gyártására.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Milyen terméket exportált eredetileg a dél-koreai Samsung, mielőtt technológiai vállalattá nőtte ki magát?",
+      "a": [
+        "Szárított halat, zöldséget és tésztát",
+        "Textilipari gépeket és berendezéseket",
+        "Elektronikai alkatrészeket és eszközöket",
+        "Gépjárműalkatrészeket és motorokat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Samsungot 1938-ban Li Pjongcshol alapította kereskedelmi cégként, amely élelmiszereket exportált Kínába.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Milyen iparágban kezdte működését a finn Nokia vállalat 1865-ben?",
+      "a": [
+        "Papírgyártás (farostpép-malom)",
+        "Halászati eszközök gyártása",
+        "Bányászati géptechnika",
+        "Textilipar és szövetgyártás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nokiát Fredrik Idestam alapította farostpép-malomként a Nokianvirta folyó partján, innen ered a cég neve is.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Mi volt a Canon fényképezőgép-gyártó cég eredeti, 1934-es márkaneve?",
+      "a": [
+        "Kwanon, egy buddhista istenség, a könyörület istennője után",
+        "Kyoto Optical, a gyártás helyére utalva",
+        "Precision Camera, a pontosságra utalva",
+        "Nippon Lens, a japán eredetre utalva"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az első próbagyártású fényképezőgépet Kwanonnak nevezték el, majd 1935-ben váltották a nemzetközileg jobban hangzó Canon névre.",
+      "t": "márkanevek eredete"
+    },
+    {
+      "q": "Mi volt az Amazon internetes áruház eredeti, alapításkor tervezett neve, mielőtt Jeff Bezos megváltoztatta?",
+      "a": [
+        "Cadabra",
+        "Relentless",
+        "Riverside",
+        "Bookline"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bezos eredetileg a Cadabra nevet szánta cégének, de ügyvédje félrehallotta \"cadaver\"-nek (hulla), ezért lecserélte Amazonra.",
+      "t": "márkanevek eredete"
+    },
+    {
+      "q": "Milyen szereplőről nevezték el a Starbucks kávéházláncot?",
+      "a": [
+        "A Moby Dick regény első tisztjéről, Starbuckról",
+        "Az egyik alapító nagyapjának nevéről",
+        "Egy Seattle-i utca nevéről",
+        "A kávécserjét állítólag felfedező tengerészről"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A név a \"Starbo\" nevű bányászfaluból eredő asszociáció és a Moby Dick regénybeli Starbuck karakter összecsengéséből született.",
+      "t": "márkanevek eredete"
+    },
+    {
+      "q": "Milyen néven ismert a Twitter (jelenleg X) madár alakú logója?",
+      "a": [
+        "Larry",
+        "Tweety",
+        "Blue",
+        "Charlie"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A logót Larry Birdről, a Boston Celtics kosárlabda-legendájáról nevezték el az egyik alapító, Biz Stone kedvenc csapata miatt.",
+      "t": "kabalák és logók"
+    },
+    {
+      "q": "Milyen alakot ábrázol a Michelin gumiabroncsgyártó \"Bibendum\" nevű kabalafigurája?",
+      "a": [
+        "Gumiabroncsokból összeálló emberalakot",
+        "Testes, kövér medvefigurát",
+        "Hosszú ormányú elefántfigurát",
+        "Sörényes oroszlánfigurát"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Bibendum, közismert nevén Michelin Man, egymásra rakott gumiabroncsokból formázott emberalak, 1898 óta a márka jelképe.",
+      "t": "kabalák és logók"
+    },
+    {
+      "q": "Ki volt valójában Ezredes Sanders, a KFC arca és kabalafigurája?",
+      "a": [
+        "Valóban élt személy, aki kidolgozta a lánccsirke receptjét",
+        "Kitalált reklámfigura, sosem élt valós ember",
+        "A cég reklámügynökségének rajzolója találta ki alakját",
+        "Alapítójának volt egy színészi álneve"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Harland Sanders valóban létező személy volt, aki kifejlesztette a fűszeres rántott csirke receptjét, és maga is arca lett a márkának.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Ki alapította a Walt Disney Company jogelődjét, a Disney Brothers Studiót?",
+      "a": [
+        "Walt Disney és testvére, Roy O. Disney",
+        "Walt Disney egymaga, testvér nélkül",
+        "Walt Disney és felesége, Lillian",
+        "Walt Disney és üzlettársa, Ub Iwerks"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A stúdiót 1923-ban Walt és bátyja, Roy O. Disney alapította közösen Hollywoodban.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Miért nem tekinthető Ray Kroc a McDonald's étteremlánc eredeti megalapítójának, bár gyakran annak tartják?",
+      "a": [
+        "A McDonald testvérek nyitották az első éttermet, ő csak később lett franchise-partner",
+        "Kroc soha nem is dolgozott a McDonald's vállalatnál",
+        "A nevet egy másik, megszűnt étteremtől vásárolta meg",
+        "Csak az étterem logóját tervezte, mást nem csinált"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A McDonald fivérek 1940-ben nyitották meg az első éttermet Kaliforniában, Kroc 1955-ben csatlakozott franchise-partnerként.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Ki alapította a Microsoftot 1975-ben?",
+      "a": [
+        "Bill Gates és Paul Allen",
+        "Bill Gates és Steve Jobs",
+        "Bill Gates egymaga, társ nélkül",
+        "Paul Allen és Steve Ballmer közösen"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bill Gates és gyerekkori barátja, Paul Allen alapította a Microsoftot 1975-ben.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Kik alapították az Apple céget 1976-ban?",
+      "a": [
+        "Steve Jobs, Steve Wozniak és Ronald Wayne",
+        "Csak Jobs és Wozniak, harmadik alapító nem volt",
+        "Steve Jobs és testvére, Patrick Jobs",
+        "Steve Wozniak és Bill Gates közösen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A harmadik alapító, Ronald Wayne néhány nap múlva eladta 10%-os részesedését, ezért kevesen ismerik a nevét.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Melyik két nagyvállalat egyesüléséből jött létre 1998-ban a DaimlerChrysler, amely 2007-ben ismét szétvált?",
+      "a": [
+        "A német Daimler-Benz és az amerikai Chrysler",
+        "A Ford Motor Company és a General Motors",
+        "A Volkswagen Csoport és a Chrysler",
+        "A Daimler-Benz és az olasz Fiat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A két autógyártó 1998-ban egyesült, majd 2007-ben a Daimler eladta a Chrysler-részesedését egy amerikai befektetési csoportnak.",
+      "t": "fúziók és felvásárlások"
+    },
+    {
+      "q": "Melyik két olajipari óriáscég egyesüléséből jött létre 1999-ben az ExxonMobil?",
+      "a": [
+        "Az Exxon és a Mobil",
+        "A Shell és a BP",
+        "A Chevron és a Texaco",
+        "A Total és az Elf"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mindkét vállalat a felbontott Standard Oil utódja volt, majd 1999-ben újra egyesültek ExxonMobil néven.",
+      "t": "fúziók és felvásárlások"
+    },
+    {
+      "q": "Miért ment tönkre a fényképezőgép-óriás Kodak, annak ellenére, hogy saját mérnöke találta fel a digitális fényképezőgépet?",
+      "a": [
+        "A vezetés nem karolta fel időben a digitális technológiát, félve a filmüzlet hanyatlásától",
+        "Soha nem is fejlesztettek digitális technológiát a cégnél",
+        "Egy szabadalmi pert vesztettek el a Sony ellen",
+        "Csődbe vitte őket egy sikertelen filmstúdió-felvásárlás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bár 1975-ben Steven Sasson Kodaknál építette meg az első digitális fényképezőgépet, a cég nem váltott időben, és 2012-ben csődvédelmet kért.",
+      "t": "kudarcok"
+    },
+    {
+      "q": "Melyik streaming céget utasította el a Blockbuster videókölcsönző lánc 2000 körül egy felvásárlási ajánlattal?",
+      "a": [
+        "A Netflix nevű streamingszolgáltatót",
+        "A Hulu nevű streamingszolgáltatást",
+        "A Disney+ nevű streamingszolgáltatást",
+        "Az Amazon Prime Video szolgáltatást"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Netflix alapítói mintegy 50 millió dollárért kínálták fel cégüket a Blockbusternek, amely visszautasította az ajánlatot.",
+      "t": "kudarcok"
+    },
+    {
+      "q": "Mi volt az 1985-ös \"New Coke\" kudarcának fő oka?",
+      "a": [
+        "A vásárlók ragaszkodtak az eredeti ízhez, tömegesen tiltakoztak a változtatás ellen",
+        "A termék egészségkárosító adalékanyagot tartalmazott",
+        "Egy gyártási hiba miatt vissza kellett hívni a terméket",
+        "Versenytársuk beperelte őket szabadalombitorlásért"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Coca-Cola alig három hónap után visszaállította az eredeti receptet a heves vásárlói felháborodás miatt.",
+      "t": "kudarcok"
+    },
+    {
+      "q": "Melyik sportmárka reklámszlogenje az 1988 óta használt \"Just Do It\"?",
+      "a": [
+        "A Nike",
+        "Az Adidas",
+        "A Puma",
+        "A Reebok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A \"Just Do It\" szlogent a Wieden+Kennedy ügynökség alkotta meg a Nike számára 1988-ban.",
+      "t": "szlogenek"
+    },
+    {
+      "q": "Melyik kozmetikai márka szlogenje magyarul \"Mert megérdemled\"?",
+      "a": [
+        "A L'Oréal",
+        "A Nivea",
+        "A Dove",
+        "A Rimmel"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A L'Oréal \"Because I'm worth it\" szlogenjét 1971-ben alkotta meg a reklámszakember Ilon Specht.",
+      "t": "szlogenek"
+    },
+    {
+      "q": "Melyik gyémántkereskedő vállalat alkotta meg az \"A gyémánt örökké tart\" szlogent?",
+      "a": [
+        "A De Beers",
+        "A Tiffany & Co.",
+        "A Cartier",
+        "A Swarovski"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szlogent a De Beers reklámkampányához találta ki az N.W. Ayer ügynökség, és a XX. század egyik leghíresebb reklámmondatává vált.",
+      "t": "szlogenek"
+    },
+    {
+      "q": "Melyik évtizedben mutatta be a Coca-Cola az azóta ikonikussá vált, hullámos formájú \"kontúros\" üvegét?",
+      "a": [
+        "Az 1910-es években",
+        "Az 1930-as években",
+        "Az 1950-es években",
+        "Az 1890-es években"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A jellegzetes formájú üveget 1915-ben tervezte az indianai Root Glass Company, hogy sötétben tapintással is felismerhető legyen.",
+      "t": "termékinnováció"
+    },
+    {
+      "q": "Miért vezette be a Ford 1913-ban a futószalagos gyártást a T-modell összeszereléséhez?",
+      "a": [
+        "Hogy jelentősen csökkentse az egy autóra jutó összeszerelési időt és költséget",
+        "Mert a munkások szakszervezete ezt követelte",
+        "Mert egy kormányrendelet írta elő a hatékonyabb gyártást",
+        "Hogy csökkentse a gyárban történő munkabaleseteket"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mozgó futószalag bevezetésével az összeszerelési idő drasztikusan lecsökkent, ami megfizethetőbbé tette az autót.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Melyik vállalatcsoport tulajdonába került 2006-ban a világ legrégebbi, eredetileg 578-ban alapított, még ma is működő japán cége, a Kongó Gumi építőipari vállalat?",
+      "a": [
+        "A Takamatsu építőipari csoport",
+        "A Kongó Gumi teljesen önálló maradt máig",
+        "A Mitsubishi konszern egyik leányvállalata",
+        "Az állam vette át teljes egészében"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A több mint 1400 évig családi kézben lévő Kongó Gumi 2006-ban anyagi nehézségek miatt a Takamatsu csoport leányvállalata lett.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Melyik amerikai áruházlánc számít bevétel alapján a világ legnagyobb kiskereskedőjének?",
+      "a": [
+        "A Walmart",
+        "A Costco",
+        "Az Amazon",
+        "A Target"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Sam Walton által 1962-ben alapított Walmart évtizedek óta a világ legnagyobb bevételű kiskereskedelmi vállalata.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Melyik ma is létező autógyártó márka gyökerei nyúlnak vissza a legrégebbre, ha alapcégét egy 1810-ben alapított francia acélöntödéig vezetjük vissza?",
+      "a": [
+        "A Peugeot autógyártó márka",
+        "A Ford Motor Company",
+        "A General Motors",
+        "A Chrysler Corporation"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Peugeot család vasöntödéje 1810-ben indult, autógyártásba csak 1889-ben kezdtek, így a márka gyökerei nyúlnak legrégebbre az autóiparban.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Melyik pénzintézeti szolgáltatás számít az első, kifejezetten erre a célra létrehozott univerzális fizetőkártyának, amelyet 1950-ben vezettek be?",
+      "a": [
+        "A Diners Club hitelkártyája",
+        "Az American Express kártyája",
+        "A Visa kártyájának elődje",
+        "A Mastercard korai elődje"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Diners Club kártyáját Frank McNamara hozta létre 1950-ben, miután egy étteremben elfelejtette a tárcáját.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Melyik internetes vállalatóriás alakította át 2015-ben a szervezeti felépítését úgy, hogy egy új anyavállalat, az Alphabet fogja össze a különböző üzletágakat?",
+      "a": [
+        "A Google",
+        "A Facebook",
+        "A Microsoft",
+        "A Yahoo"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Google 2015-ben hozta létre az Alphabet nevű holdingtársaságot, amely alá rendezte különböző üzletágait.",
+      "t": "márkaváltás"
+    },
+    {
+      "q": "Melyik névre keresztelte át magát a Facebook anyavállalata 2021-ben?",
+      "a": [
+        "A Meta névre",
+        "A Metaverse Inc. névre",
+        "A Zuck Holdings névre",
+        "A Nexus Group névre"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Mark Zuckerberg 2021-ben jelentette be, hogy a Facebook anyavállalata a Meta nevet veszi fel, a metaverzumra való fókuszálást hangsúlyozva.",
+      "t": "márkaváltás"
+    },
+    {
+      "q": "Melyik dohányipari vállalat vette fel az Altria nevet 2003-ban?",
+      "a": [
+        "A Philip Morris Companies",
+        "A British American Tobacco",
+        "A Japan Tobacco International",
+        "Az R.J. Reynolds Tobacco"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Philip Morris anyavállalata 2003-ban vette fel az Altria nevet, részben a dohánytermékekhez kötődő megítélés miatt.",
+      "t": "márkaváltás"
+    },
+    {
+      "q": "Melyik tanácsadó cég vette fel az Accenture nevet 2001-ben, miután különvált korábbi könyvvizsgáló anyacégétől?",
+      "a": [
+        "Az Andersen Consulting",
+        "A Deloitte Consulting",
+        "A McKinsey & Company",
+        "Az Ernst & Young Consulting"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Andersen Consulting jogi vita után vált külön az Arthur Andersen könyvvizsgáló cégtől, és 2001-ben Accenture néven folytatta működését.",
+      "t": "márkaváltás"
+    },
+    {
+      "q": "Melyik amerikai technológiai vállalat vásárolta meg a Nokia mobiltelefon-üzletágát 2014-ben?",
+      "a": [
+        "A Microsoft vállalat",
+        "A Google vállalat",
+        "A Hewlett-Packard vállalat",
+        "Az Apple vállalat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Microsoft 2014-ben vásárolta meg a Nokia mobiltelefon-gyártó üzletágát, bár a felvásárlás végül nem hozta meg a várt sikert.",
+      "t": "fúziók és felvásárlások"
+    },
+    {
+      "q": "Melyik évben mutatta be Steve Jobs az első iPhone-t a Macworld konferencián?",
+      "a": [
+        "2007-ben",
+        "2005-ben",
+        "2009-ben",
+        "2001-ben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Steve Jobs 2007 januárjában, a Macworld konferencián mutatta be az első iPhone-t, amely júniusban került piacra.",
+      "t": "cégtörténet"
+    },
+    {
+      "q": "Mi vezetett elsősorban a Toys \"R\" Us amerikai játékáruházlánc 2017-es csődjéhez?",
+      "a": [
+        "Egy korábbi tőkeáttételes kivásárlásból eredő hatalmas adósságteher és az online verseny",
+        "Egy súlyos termékbiztonsági botrány és tömeges visszahívás",
+        "Egy központi raktárukat elpusztító természeti katasztrófa",
+        "Egy elveszített védjegyper egy kisebb versenytárs ellen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 2005-ös tőkeáttételes kivásárlásból származó több milliárd dolláros adósság és az online kiskereskedők versenye ellehetetlenítette a láncot.",
+      "t": "kudarcok"
+    },
+    {
+      "q": "Milyen jelentésű betűszóból ered a Yahoo név egyik magyarázata?",
+      "a": [
+        "\"Yet Another Hierarchically Organized Oracle\", vagyis egy jósda-utalás",
+        "\"Young Adults Hosting Online Opportunities\" kifejezésből",
+        "\"Your Access to Home Office Options\" kifejezésből",
+        "Nincs is ilyen hivatalos betűszós magyarázata a névnek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Yahoo alapítói utólag alkották meg ezt a tréfás betűszót, bár a nevet eredetileg a Gulliver utazásai regény \"yahoo\" szaváról választották.",
+      "t": "márkanevek eredete"
+    },
+    {
+      "q": "Mi jellemezte a Volvo autógyártó céget alapításától kezdve, ami a mai napig a márka egyik fő imázsépítő eleme?",
+      "a": [
+        "A biztonságra helyezett kiemelt hangsúly, például a hárompontos öv feltalálása",
+        "A luxusautók kizárólagos gyártására való összpontosítás",
+        "A versenyautózásban elért kimagasló sikerek sorozata",
+        "Az elektromos hajtás úttörő, korai alkalmazása"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Volvo mérnöke, Nils Bohlin találta fel 1959-ben a hárompontos biztonsági övet, amelyet a cég szabadalom ellenére ingyen bocsátott más gyártók rendelkezésére.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Miben különbözött a Gillette által 1901-ben szabadalmaztatott borotva a korábbi borotvákhoz képest?",
+      "a": [
+        "Cserélhető, eldobható pengéje volt, nem kellett élesíteni",
+        "Elektromos motorral hajtották a pengét",
+        "Több pengét tartalmazott egyszerre már kezdettől",
+        "Kizárólag szakállvágásra tervezték, nem borotválásra"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "King Camp Gillette újítása az volt, hogy a kopott pengét egyszerűen ki lehetett cserélni egy újra, nem kellett fenőkővel élesíteni.",
+      "t": "ipari újítások"
+    },
+    {
+      "q": "Mit jelent a \"unikornis\" kifejezés a startup-világban?",
+      "a": [
+        "Egymilliárd dollárnál is nagyobb becsült értékű, tőzsdén még nem jegyzett startupot",
+        "Egy már csődbe ment, de újraindított vállalkozást",
+        "Egy kizárólag egyetlen alapító által vezetett céget",
+        "Egy állami támogatásból élő, nonprofit induló vállalkozást"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kifejezést Aileen Lee kockázatitőke-befektető alkotta meg 2013-ban az ilyen ritka, magas értékelésű startupokra.",
+      "t": "üzleti fogalmak"
+    },
+    {
+      "q": "Melyik németországi sörfőzde tartja magát a világ legrégebbi, folyamatosan működő sörgyárának, 1040 óta?",
+      "a": [
+        "A Weihenstephani Állami Sörfőzde",
+        "A müncheni Löwenbräu sörfőzde",
+        "A dublini Guinness sörfőzde",
+        "A brémai Beck's sörfőzde"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A bajorországi Freisingben található Weihenstephani sörfőzde egy 1040-ben alapított bencés kolostorból nőtte ki magát.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Ki alapította a Virgin márkacsaládot, amely mára zeneipari, légitársasági és egyéb üzletágakat is magába foglal?",
+      "a": [
+        "Richard Branson",
+        "Elon Musk",
+        "Steve Case",
+        "Rupert Murdoch"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Richard Branson 1970-ben induló lemezpostai rendeléssel, majd a Virgin Records megalapításával kezdte üzleti pályafutását.",
+      "t": "alapítók"
+    },
+    {
+      "q": "Miért nevezik gyakran tévesen Coca-Cola-találmánynak a Mikulás piros-fehér öltözetét?",
+      "a": [
+        "Mert a cég 1930-as reklámkampányai tették világszerte ismertté ezt a képet",
+        "Mert a cég valóban elsőként rajzolta meg és szabadalmaztatta ezt az öltözetet",
+        "Mert a Mikulás eredetileg a cég kabalafigurájaként indult",
+        "Mert a cég alapítója is így öltözött karácsonykor"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Habár piros-fehér Mikulás-ábrázolások korábban is léteztek, Haddon Sundblom Coca-Cola-reklámjai az 1930-as években tették ezt a mai napig élő, ikonikus képet világszerte ismertté.",
+      "t": "márkatörténetek"
     }
   ]
 }

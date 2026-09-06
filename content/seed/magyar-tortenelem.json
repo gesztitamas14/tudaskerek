@@ -2208,6 +2208,591 @@
       "d": "easy",
       "e": "Az első szabad, többpárti parlamenti választásokra 1990 tavaszán került sor Magyarországon.",
       "t": "rendszerváltás"
+    },
+    {
+      "q": "Hány négyzetkilométerre csökkent Magyarország területe a trianoni békeszerződés után?",
+      "a": [
+        "Körülbelül 93 ezer km²-re",
+        "Körülbelül 150 ezer km²-re",
+        "Körülbelül 200 ezer km²-re",
+        "Körülbelül 250 ezer km²-re"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A háború előtti mintegy 283 ezer km²-ről az ország területe kevesebb mint egyharmadára, kb. 93 ezer km²-re csökkent.",
+      "t": "Trianon"
+    },
+    {
+      "q": "Miért nevezik gyakran békediktátumnak a trianoni békeszerződést a magyar történetírásban?",
+      "a": [
+        "Mert a magyar delegáció a feltételek kialakításába érdemben nem szólhatott bele",
+        "Mert a szerződést titkos tárgyalásokon, népszavazás nélkül fogadták el",
+        "Mert a határokat kizárólag katonai megszállás alapján húzták meg",
+        "Mert a szerződést csak évekkel a háború lezárása után írták alá"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A győztes hatalmak előre kész feltételeket közöltek, a magyar felet érdemi tárgyalásból kizárva, ezért nevezik diktátumnak.",
+      "t": "Trianon"
+    },
+    {
+      "q": "Melyik ország kapta a legnagyobb területet a történelmi Magyarországból Trianon után?",
+      "a": [
+        "Románia",
+        "Csehszlovákia",
+        "Ausztria",
+        "Jugoszlávia"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Erdélyt és a Partiumot Romániához csatolták, ez volt a legnagyobb területi veszteség a történelmi Magyarországból.",
+      "t": "Trianon"
+    },
+    {
+      "q": "Melyik uralkodó adta ki az Aranybullát 1222-ben?",
+      "a": [
+        "II. András",
+        "III. Béla",
+        "IV. Béla",
+        "Imre király"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Aranybullát II. András adta ki 1222-ben, a nemesi jogok és kiváltságok rögzítésére.",
+      "t": "Aranybulla"
+    },
+    {
+      "q": "Miért fontos jogtörténeti szempontból az Aranybulla 31. cikkelye?",
+      "a": [
+        "Mert jogot adott a nemességnek a törvénytelen királyi intézkedések elleni fellépésre",
+        "Mert kimondta a nemesek adómentességét minden esetben",
+        "Mert eltörölte az egyházi tizedet a nemesek birtokain",
+        "Mert bevezette a nemesi vármegyék önkormányzatát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 31. cikkely (ellenállási záradék) feljogosította az egyházi és világi előkelőket, hogy ellenálljanak, ha a király megszegi a törvényt.",
+      "t": "Aranybulla"
+    },
+    {
+      "q": "Melyik évben egészítették ki az Aranybulla ellenállási záradékát egyházi kiközösítés lehetőségével?",
+      "a": [
+        "1231",
+        "1222",
+        "1267",
+        "1298"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1231-ben egészítették ki a záradékot: ha a király megszegi a szabadságjogokat, az esztergomi érsek kiközösítheti.",
+      "t": "Aranybulla"
+    },
+    {
+      "q": "Buda 1686-os visszafoglalása hány évvel követte a város 1541-es török kézre kerülését?",
+      "a": [
+        "145 évvel",
+        "100 évvel",
+        "200 évvel",
+        "50 évvel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Buda 1541-ben került török kézre, 1686-os visszafoglalása 145 évvel és néhány nappal később történt.",
+      "t": "török kiűzése"
+    },
+    {
+      "q": "Ki vezette a keresztény seregeket a törökök elleni győzelemhez a zentai csatában 1697-ben?",
+      "a": [
+        "Savoyai Jenő herceg",
+        "Hunyadi János hadvezér",
+        "Zrínyi Miklós horvát bán",
+        "Lotaringiai Károly herceg"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A zentai csatát (1697) Savoyai Jenő herceg nyerte meg, amely az egyik legsúlyosabb török vereség volt.",
+      "t": "török kiűzése"
+    },
+    {
+      "q": "Melyik békeszerződés zárta le hivatalosan a török kiűzéséért folyó háborút 1699-ben?",
+      "a": [
+        "Karlócai béke",
+        "Vasvári béke",
+        "Zsitvatoroki béke",
+        "Szatmári béke"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A karlócai békében (1699) az Oszmán Birodalom lemondott Magyarország nagy részéről a Habsburgok javára.",
+      "t": "török kiűzése"
+    },
+    {
+      "q": "Kik voltak a magyar kalandozó sereg vezérei az augsburgi csatában 955-ben?",
+      "a": [
+        "Bulcsú, Lehel és Súr",
+        "Álmos és Előd",
+        "Botond és Kál",
+        "Taksony és Tétény"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az augsburgi csatában Bulcsú, Lehel és Súr vezérelte magyar sereg vereséget szenvedett I. Ottó német király seregétől.",
+      "t": "kalandozások"
+    },
+    {
+      "q": "Mit jelentett a kalandozások korában a magyar könnyűlovas harcmodor lényege?",
+      "a": [
+        "Színlelt megfutamodás után hirtelen visszafordulás és nyilazás",
+        "Nehézpáncélos zárt alakzatban való frontális roham",
+        "Várak hosszú ostromzár alá vétele",
+        "Kizárólag éjszakai rajtaütések alkalmazása"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A magyar lovasság jellegzetes taktikája a színlelt megfutamodás és a hirtelen visszaforduló nyilazás volt, ami megzavarta az ellenséget.",
+      "t": "kalandozások"
+    },
+    {
+      "q": "Melyik irányba fordultak a magyar kalandozó hadjáratok az augsburgi vereség (955) után?",
+      "a": [
+        "Bizánc és a Balkán felé",
+        "Nyugat-Európa és Frankföld felé",
+        "Skandinávia felé",
+        "Ibériai-félsziget felé"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "955 után a nyugati hadjáratok megszűntek, a kalandozások súlypontja Bizánc és a Balkán felé tolódott.",
+      "t": "kalandozások"
+    },
+    {
+      "q": "Melyik magyar király törvénye mondta ki, hogy boszorkányok nem léteznek, ezért ellenük nem indítható per?",
+      "a": [
+        "Könyves Kálmán király",
+        "Szent László király",
+        "I. István, az államalapító",
+        "III. Béla király"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Könyves Kálmán törvénykönyve kimondta, hogy boszorkányok nincsenek, ezért miattuk nem lehet pert indítani.",
+      "t": "Árpád-kor"
+    },
+    {
+      "q": "Melyik magyar király korában keletkezett feltehetően Anonymus Gesta Hungarorum című munkája?",
+      "a": [
+        "III. Béla kora",
+        "II. András kora",
+        "Könyves Kálmán kora",
+        "IV. Béla kora"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kutatók többsége szerint Anonymus III. Béla király jegyzőjeként, az ő udvarában írta meg gesztáját a 12-13. század fordulóján.",
+      "t": "Árpád-kor"
+    },
+    {
+      "q": "Mi volt a vármegyerendszer alapfunkciója az Árpád-korban?",
+      "a": [
+        "A királyi birtokok igazgatása és a hadszervezés helyi alapegysége volt",
+        "Kizárólag az egyházi tizedszedést végezte",
+        "Csak a külkereskedelmi vámok beszedésére szolgált",
+        "Kizárólag bírósági feladatokat látott el"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vármegye a királyi birtokigazgatás és a hadkötelezettség szervezésének helyi egysége volt, élén az ispánnal.",
+      "t": "Árpád-kor"
+    },
+    {
+      "q": "Melyik csatában szenvedett súlyos vereséget Zsigmond király keresztes serege 1396-ban?",
+      "a": [
+        "Nikápolynál",
+        "Várnánál",
+        "Kunovicánál",
+        "Rigómezőnél"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nikápolyi csatában (1396) I. Bajazid szultán serege szétverte a Zsigmond vezette keresztes hadat.",
+      "t": "Zsigmond-kor"
+    },
+    {
+      "q": "Milyen egyházi eseményen ítélték el és végezték ki Husz Jánost Zsigmond menlevele ellenére?",
+      "a": [
+        "A konstanzi zsinaton",
+        "A tridenti zsinaton",
+        "A bázeli zsinaton",
+        "A ferrarai-firenzei zsinaton"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A konstanzi zsinaton (1414-1418) eretnekség vádjával elítélték és 1415-ben megégették Husz Jánost, noha Zsigmond menlevelet adott neki.",
+      "t": "Zsigmond-kor"
+    },
+    {
+      "q": "Milyen tisztséget szerzett meg Zsigmond magyar király 1433-ban, magyar uralkodóként egyedülálló módon?",
+      "a": [
+        "Német-római császári címet",
+        "Angol királyi címet",
+        "Bizánci császári címet",
+        "Francia királyi címet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Zsigmondot 1433-ban Rómában német-római császárrá koronázták, így egyszerre volt magyar, cseh és német-római uralkodó.",
+      "t": "Zsigmond-kor"
+    },
+    {
+      "q": "Mit vezetett be Magyarországon az 1920. évi numerus clausus törvény?",
+      "a": [
+        "Korlátozta egyes népcsoportok arányát az egyetemi felvételinél",
+        "Bevezette az általános, titkos választójogot",
+        "Eltörölte a nemesi birtokrendszert",
+        "Bevezette a nyolcórás munkaidőt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A numerus clausus korlátozta egyes népcsoportok, elsősorban a zsidóság arányát a felsőoktatási felvételinél, ez volt Európa első ilyen törvénye a háború után.",
+      "t": "két világháború"
+    },
+    {
+      "q": "Ki volt Magyarország miniszterelnöke a konszolidáció időszakában, 1921 és 1931 között?",
+      "a": [
+        "Bethlen István",
+        "Teleki Pál",
+        "Gömbös Gyula",
+        "Károlyi Mihály"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bethlen István kormányfőként stabilizálta a gazdaságot és a politikai rendszert az 1920-as években.",
+      "t": "két világháború"
+    },
+    {
+      "q": "Melyik magyarországi intézkedés vezette be az 1927-es pénzreform során az új fizetőeszközt?",
+      "a": [
+        "A pengő bevezetése a korona helyett",
+        "A forint bevezetése a korona helyett",
+        "Az arany korona visszaállítása",
+        "A dollár hivatalos forgalomba vonása"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1927-ben a korona helyett a pengőt vezették be új fizetőeszközként a gazdasági stabilizáció részeként.",
+      "t": "két világháború"
+    },
+    {
+      "q": "Miért lépett hadba Magyarország a Szovjetunió ellen 1941 júniusában?",
+      "a": [
+        "Kassa bombázását szovjet támadásnak tulajdonították, ami ürügyet adott a hadüzenetre",
+        "Mert a szovjet csapatok előzőleg megszállták Kárpátalját",
+        "Mert a nyugati szövetségesek erre kérték Magyarországot",
+        "Mert lejárt egy korábbi szovjet-magyar szövetségi szerződés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kassa 1941. június 26-i bombázását a magyar vezetés szovjet támadásként állította be, ez szolgált ürügyül a hadba lépésre.",
+      "t": "II. világháború"
+    },
+    {
+      "q": "Melyik hadszíntéren semmisült meg a magyar 2. hadsereg jelentős része 1943 januárjában?",
+      "a": [
+        "A Don folyó mentén",
+        "A Kárpátokban",
+        "Sztálingrád belvárosában",
+        "A Balkán-félszigeten"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A doni katasztrófa (1943 január) során a magyar 2. hadsereg a Don menti harcokban súlyos, több tízezres veszteséget szenvedett.",
+      "t": "II. világháború"
+    },
+    {
+      "q": "Melyik esemény vezetett Horthy Miklós kormányzói proklamációjának kudarcához 1944 októberében?",
+      "a": [
+        "A nyilasok a németek segítségével átvették a hatalmat",
+        "A szövetségesek nem ismerték el a fegyverszünetet",
+        "A magyar hadsereg fellázadt a proklamáció ellen",
+        "A szovjet csapatok elutasították a tárgyalást"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1944. október 15-16-án a németek támogatásával Szálasi Ferenc nyilas mozgalma vette át a hatalmat, Horthy fegyverszüneti kísérlete ellenére.",
+      "t": "II. világháború"
+    },
+    {
+      "q": "Mit jelentett a Corvina elnevezés Mátyás király udvarában?",
+      "a": [
+        "A híres reneszánsz könyvtár díszes kódexeit",
+        "A király zsoldos hadseregének zászlaját",
+        "A királyi udvar hivatalos pecsétjét",
+        "A budai vár egyik tornyát"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Corvina Mátyás király híres, Európa-szerte ismert reneszánsz könyvtárának díszes kódexeit jelölte.",
+      "t": "Mátyás király"
+    },
+    {
+      "q": "Miért szerveződött meg a fekete sereg Mátyás király uralkodása alatt?",
+      "a": [
+        "Állandó, zsoldon tartott hadsereg biztosítására, a nemesi felkelés helyett",
+        "Kizárólag egyetlen törökellenes hadjárat megvívására hozták létre",
+        "A budai polgárőrség helyettesítésére szervezték meg",
+        "A királyi udvari vadászatok kíséretéül alakították"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fekete sereg állandó zsoldoshadsereg volt, amely függetlenítette a királyt a lassú és megbízhatatlan nemesi felkeléstől.",
+      "t": "Mátyás király"
+    },
+    {
+      "q": "Melyik itáliai királyságból származott Mátyás második felesége, Aragóniai Beatrix?",
+      "a": [
+        "A Nápolyi Királyságból",
+        "A Velencei Köztársaságból",
+        "A Firenzei Köztársaságból",
+        "A Milánói Hercegségből"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Aragóniai Beatrix a Nápolyi Királyság uralkodócsaládjából származott, házassága erősítette a reneszánsz kapcsolatokat Budán.",
+      "t": "Mátyás király"
+    },
+    {
+      "q": "Milyen gazdaságpolitikát folytatott Bethlen Gábor erdélyi fejedelem uralkodása idején?",
+      "a": [
+        "Merkantilista politikát, állami monopóliumokkal és iparfejlesztéssel",
+        "Szabadkereskedelmi politikát, vámok eltörlésével",
+        "Kizárólag mezőgazdasági önellátásra épülő politikát",
+        "A nemesi adómentesség kiterjesztésén alapuló politikát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bethlen Gábor merkantilista politikával, állami monopóliumokkal és a manufaktúrák támogatásával fellendítette Erdély gazdaságát.",
+      "t": "Erdélyi fejedelemség"
+    },
+    {
+      "q": "Milyen korszakként tartja számon a történetírás Bethlen Gábor uralkodását Erdélyben?",
+      "a": [
+        "Az erdélyi fejedelemség aranykoraként",
+        "Az erdélyi fejedelemség hanyatló koraként",
+        "Az erdélyi polgárháborúk koraként",
+        "Az erdélyi fejedelemség megszűnésének koraként"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bethlen Gábor (1613-1629) idejét az erdélyi történelem aranykoraként tartják számon a kulturális és gazdasági fellendülés miatt.",
+      "t": "Erdélyi fejedelemség"
+    },
+    {
+      "q": "Melyik várost tette Bethlen Gábor kulturális központtá, ahol főiskolát is alapított?",
+      "a": [
+        "Gyulafehérvárt",
+        "Kolozsvárt",
+        "Nagyváradot",
+        "Marosvásárhelyt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bethlen Gábor Gyulafehérváron alapított főiskolát, és mecénásként külföldi egyetemekre is küldött erdélyi diákokat.",
+      "t": "Erdélyi fejedelemség"
+    },
+    {
+      "q": "Mit biztosított a magyar rendeknek az 1606-os bécsi béke, amely lezárta a Bocskai-felkelést?",
+      "a": [
+        "Vallásszabadságot a protestáns rendeknek",
+        "Teljes függetlenséget a Habsburgoktól",
+        "A jobbágyság eltörlését",
+        "Az örökös királyság megszüntetését"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A bécsi béke (1606) vallásszabadságot biztosított a protestáns magyar rendeknek, és elismerte Erdély önállóságát.",
+      "t": "kuruc mozgalmak"
+    },
+    {
+      "q": "Kik voltak Bocskai István felkelésének fő harcoló erői 1604 és 1606 között?",
+      "a": [
+        "A hajdúk és a hozzájuk csatlakozó jobbágyok",
+        "Kizárólag zsoldos idegen csapatok",
+        "Csak a vármegyei nemesi bandériumok",
+        "Kizárólag a városi polgárság fegyveresei"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bocskai felkelésének gerincét a hajdúk és a hozzájuk csatlakozó elnyomott jobbágyok adták.",
+      "t": "kuruc mozgalmak"
+    },
+    {
+      "q": "Milyen tisztséget viselt Thököly Imre a kuruc mozgalom élén 1682-től?",
+      "a": [
+        "Felső-Magyarország fejedelme",
+        "Erdély megkoronázott királya",
+        "Magyarország mindenkori nádora",
+        "A Habsburg udvar helytartója"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Thököly Imrét 1682-ben a török szultán támogatásával Felső-Magyarország fejedelmévé nyilvánították.",
+      "t": "kuruc mozgalmak"
+    },
+    {
+      "q": "Az első világháború végén Horthy Miklós lett az Osztrák-Magyar Monarchia haditengerészetének legmagasabb rangú parancsnoka. Milyen rendfokozatot viselt ekkor?",
+      "a": [
+        "Altengernagyi rendfokozatot",
+        "Vezérezredesi rendfokozatot",
+        "Tábornagyi rendfokozatot",
+        "Ezredesi rendfokozatot"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Horthy Miklóst 1918 őszén altengernaggyá léptették elő, ő lett a közös haditengerészet utolsó főparancsnoka.",
+      "t": "Horthy-korszak"
+    },
+    {
+      "q": "Milyen államformát vezetett be Magyarországon az 1920-as években, Horthy kormányzóságával?",
+      "a": [
+        "Király nélküli királyságot, kormányzói államfővel",
+        "Köztársaságot, elnöki államfővel",
+        "Alkotmányos monarchiát uralkodó királlyal",
+        "Katonai diktatúrát hadsereg-tanáccsal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1920-tól Magyarország király nélküli királyság maradt, az államfői teendőket a kormányzó, Horthy Miklós látta el.",
+      "t": "Horthy-korszak"
+    },
+    {
+      "q": "Mettől meddig töltötte be Horthy Miklós a kormányzói tisztséget?",
+      "a": [
+        "1920-tól 1944-ig",
+        "1918-tól 1938-ig",
+        "1925-től 1945-ig",
+        "1930-tól 1941-ig"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Horthy Miklós 1920. március 1-jétől 1944. október 15-éig volt Magyarország kormányzója.",
+      "t": "Horthy-korszak"
+    },
+    {
+      "q": "Milyen elnevezés terjedt el a Kádár-korszak enyhülő, viszonylagos jólétet hozó időszakára?",
+      "a": [
+        "Gulyáskommunizmus",
+        "Vasfüggöny-politika",
+        "Új gazdasági csoda",
+        "Aranykorszak-terv"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gulyáskommunizmus kifejezés arra utalt, hogy Kádár cserébe a politikai elfogadásért viszonylagos anyagi jólétet biztosított.",
+      "t": "Kádár-korszak"
+    },
+    {
+      "q": "Milyen esemény után került hatalomra Kádár János Magyarországon?",
+      "a": [
+        "Az 1956-os forradalom szovjet leverése után",
+        "A rendszerváltás után, szabad választásokon",
+        "Rákosi Mátyás önkéntes lemondása után",
+        "Az 1968-as reformok bevezetése után"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kádár János az 1956-os forradalom szovjet csapatok általi leverése után, szovjet támogatással került hatalomra.",
+      "t": "Kádár-korszak"
+    },
+    {
+      "q": "Mi volt az 1968-ban bevezetett új gazdasági mechanizmus lényege?",
+      "a": [
+        "A piaci elemek korlátozott beengedése a tervgazdaságba",
+        "A teljes piacgazdaságra való áttérés",
+        "A mezőgazdaság újbóli államosítása",
+        "A külkereskedelem teljes leállítása"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az új gazdasági mechanizmus korlátozott piaci elemeket engedett be a központi tervgazdaságba a hatékonyság növelésére.",
+      "t": "Kádár-korszak"
+    },
+    {
+      "q": "Melyik szövetségi rendszerhez csatlakozott Magyarország 1999-ben, Lengyelországgal és Csehországgal egy időben?",
+      "a": [
+        "A NATO védelmi szövetségéhez",
+        "Az Európai Unióhoz",
+        "A Varsói Szerződéshez",
+        "Az ENSZ Biztonsági Tanácsához"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Magyarország 1999. március 12-én csatlakozott a NATO-hoz, Lengyelországgal és Csehországgal egyszerre.",
+      "t": "EU-csatlakozás"
+    },
+    {
+      "q": "Hány másik országgal együtt csatlakozott Magyarország 2004-ben az Európai Unióhoz?",
+      "a": [
+        "Kilenc másik országgal",
+        "Három másik országgal",
+        "Tizenöt másik országgal",
+        "Egy másik országgal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Magyarország 2004. május 1-jén további kilenc országgal, köztük Lengyelországgal és Csehországgal, csatlakozott az EU-hoz.",
+      "t": "EU-csatlakozás"
+    },
+    {
+      "q": "Mi történt Magyarországon 2003 áprilisában az EU-csatlakozással kapcsolatban?",
+      "a": [
+        "Népszavazást tartottak a csatlakozásról",
+        "Aláírták a schengeni megállapodást",
+        "Bevezették az eurót",
+        "Megszűnt a magyar forint"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "2003 áprilisában népszavazást tartottak, amelyen a résztvevők 83,76%-a támogatta az uniós csatlakozást.",
+      "t": "EU-csatlakozás"
+    },
+    {
+      "q": "Melyik amerikai elnök döntése alapján adták vissza a Szent Koronát Magyarországnak 1978-ban?",
+      "a": [
+        "Jimmy Carter",
+        "Richard Nixon",
+        "Gerald Ford",
+        "Ronald Reagan"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Jimmy Carter amerikai elnök döntése alapján adták vissza a Szent Koronát 1978 januárjában Magyarországnak.",
+      "t": "Szent Korona"
+    },
+    {
+      "q": "Hol őrizték a Szent Koronát 1953-tól egészen 1978-as hazatéréséig?",
+      "a": [
+        "A Fort Knox-i amerikai katonai támaszponton",
+        "A londoni Tower erődjének kincstárában",
+        "A vatikáni titkos levéltár mélyén",
+        "A bécsi Hofburg császári kincstárában"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Szent Koronát 1953-tól a Fort Knox-i amerikai katonai támaszponton őrizték, mielőtt 1978-ban hazakerült.",
+      "t": "Szent Korona"
+    },
+    {
+      "q": "Mit fejez ki a Szent Korona-tan lényege a magyar történeti alkotmányban?",
+      "a": [
+        "Hogy az államhatalom forrása maga a Korona, nem csak az uralkodó",
+        "Hogy a Korona kizárólag vallási jelkép, politikai szerepe nincs",
+        "Hogy a Korona tulajdonjoga mindig a mindenkori pápáé",
+        "Hogy a Korona kizárólag a koronázási szertartás kelléke"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Szent Korona-tan szerint az államhatalom forrása és megtestesítője maga a Korona, nem kizárólag az uralkodó személye.",
+      "t": "Szent Korona"
     }
   ]
 }

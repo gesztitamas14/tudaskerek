@@ -1513,19 +1513,6 @@
       "t": "állatvilág"
     },
     {
-      "q": "Melyik a világ súlyra vetítve legdrágább fűszere?",
-      "a": [
-        "A sáfrány",
-        "A vanília",
-        "A kardamom",
-        "A szerecsendió"
-      ],
-      "c": 0,
-      "d": "medium",
-      "e": "A sáfrányt kézzel kell szedni a krókuszvirágokból, ezért a nagy munkaigénye miatt a legdrágább fűszer.",
-      "t": "gasztronómia"
-    },
-    {
       "q": "Melyik növény terméséből készül a csokoládé alapanyaga?",
       "a": [
         "A kakaófából",
@@ -1692,19 +1679,6 @@
       "c": 0,
       "d": "easy",
       "e": "A bőr a legnagyobb emberi szerv, egy felnőttnél a felülete elérheti a 2 négyzetmétert is.",
-      "t": "emberi test"
-    },
-    {
-      "q": "Nagyjából hány liter vér kering egy átlagos testsúlyú felnőtt szervezetében?",
-      "a": [
-        "Kb. 5 liter",
-        "Kb. 2 liter",
-        "Kb. 8 liter",
-        "Kb. 12 liter"
-      ],
-      "c": 0,
-      "d": "medium",
-      "e": "Egy átlagos felnőtt szervezetében körülbelül 4,5-5,5 liter vér kering.",
       "t": "emberi test"
     },
     {
@@ -1914,6 +1888,812 @@
       "d": "hard",
       "e": "A kínai írás logografikus: az írásjegyek (karakterek) elsősorban szavakat vagy morfémákat jelölnek, nem hangokat.",
       "t": "nyelvek"
+    },
+    {
+      "q": "Mi az arany vegyjele a kémiai periódusos rendszerben?",
+      "a": [
+        "Au",
+        "Ag",
+        "Fe",
+        "Al"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az arany vegyjele a latin 'aurum' szóból ered.",
+      "t": "kémiai elemek"
+    },
+    {
+      "q": "Melyik a legkönnyebb kémiai elem a periódusos rendszerben?",
+      "a": [
+        "A hidrogén",
+        "A hélium",
+        "A lítium",
+        "A nitrogén"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hidrogénatom a legkisebb tömegű, egyetlen protonból és elektronból áll.",
+      "t": "kémiai elemek"
+    },
+    {
+      "q": "Miért nem lép reakcióba a hélium szinte semmilyen más anyaggal?",
+      "a": [
+        "Mert teljesen betöltött a külső elektronhéja",
+        "Mert rendkívül alacsony a sűrűsége",
+        "Mert csak folyékony állapotban fordul elő",
+        "Mert erős mágneses tulajdonságokkal rendelkezik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hélium nemesgáz, mert teljes külső elektronhéja miatt kémiailag stabil és inert.",
+      "t": "kémiai elemek"
+    },
+    {
+      "q": "Hány kémiai elemet tart nyilván napjainkban a hivatalos periódusos rendszer?",
+      "a": [
+        "118",
+        "92",
+        "104",
+        "150"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "2016-ban az IUPAC hivatalosan is megerősítette a 118. elem, az oganesszon felfedezését.",
+      "t": "kémiai elemek"
+    },
+    {
+      "q": "Melyik fém olvadáspontja a legmagasabb az összes fém közül?",
+      "a": [
+        "A volfrám",
+        "A vas",
+        "A titán",
+        "Az ólom"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A volfrám olvadáspontja kb. 3422°C, ami minden fém közül a legmagasabb.",
+      "t": "kémiai elemek"
+    },
+    {
+      "q": "Miért 'Na' a nátrium vegyjele, holott a magyar név n-nel kezdődik?",
+      "a": [
+        "Mert a latin 'natrium' szóból származik",
+        "Mert az angol 'sodium' szóból rövidítették",
+        "Mert a felfedezője Nathan volt",
+        "Mert ez volt az ábécében szabad rövidítés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nátrium vegyjele a latin/középkori 'natrium' elnevezésből ered, bár angolul 'sodium' a neve.",
+      "t": "kémiai elemek"
+    },
+    {
+      "q": "Milyen élettani szerepe van a K-vitaminnak az emberi szervezetben?",
+      "a": [
+        "Elősegíti a vér alvadását",
+        "Szabályozza a testhőmérsékletet",
+        "Erősíti a látóideget",
+        "Segíti a nyál termelődését"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A K-vitamin nélkülözhetetlen a véralvadási faktorok képződéséhez a májban.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Melyik a legnagyobb szerv az emberi testben?",
+      "a": [
+        "A bőr",
+        "A máj",
+        "A tüdő",
+        "A vastagbél"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A bőr felnőtteknél átlagosan 1,5-2 négyzetméteres felületet borít, ezért ez a legnagyobb szerv.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Hány borda alkotja egy felnőtt ember mellkasát összesen?",
+      "a": [
+        "24",
+        "20",
+        "28",
+        "16"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ember mellkasát 12 pár, azaz összesen 24 borda alkotja.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Melyik az emberi test leghosszabb csontja?",
+      "a": [
+        "A combcsont",
+        "A sípcsont",
+        "A felkarcsont",
+        "A medencecsont"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A combcsont (femur) a legnagyobb és leghosszabb csont a testben.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Átlagosan hány liter vér kering egy felnőtt ember szervezetében?",
+      "a": [
+        "Kb. 5 liter",
+        "Kb. 2 liter",
+        "Kb. 8 liter",
+        "Kb. 12 liter"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Egy átlagos testű felnőttben körülbelül 4,5-5,5 liter vér kering.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Miért látszanak kéknek az erek a bőrünk alatt, holott a vér mindig vörös?",
+      "a": [
+        "Mert a bőr és a szövetek másképp szórják vissza a fény hullámhosszait",
+        "Mert az erekben oxigénszegény vér ténylegesen kék színű",
+        "Mert az erek fala kék pigmentet tartalmaz",
+        "Mert a vénák falában lévő kollagén kék fényt bocsát ki"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A fény bőrön való áthatolása és szóródása miatt látjuk kéknek az ereket, a vér valójában sosem kék.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Hány méter hosszú pontosan egy tengeri mérföld?",
+      "a": [
+        "1852 méter",
+        "1000 méter",
+        "1609 méter",
+        "2000 méter"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tengeri mérföldet nemzetközi megállapodás 1852 méterben rögzítette.",
+      "t": "mértékek"
+    },
+    {
+      "q": "Hány gramm egy karát, az ékszerkövek tömegének mértékegysége?",
+      "a": [
+        "0,2 gramm",
+        "1 gramm",
+        "0,5 gramm",
+        "2 gramm"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egy karátot nemzetközileg 0,2 grammban (200 milligramm) határoztak meg.",
+      "t": "mértékek"
+    },
+    {
+      "q": "Hány négyzetméter egy hektár?",
+      "a": [
+        "10 000 négyzetméter",
+        "1000 négyzetméter",
+        "100 négyzetméter",
+        "100 000 négyzetméter"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Egy hektár egy 100x100 méteres terület, azaz 10 000 négyzetméter.",
+      "t": "mértékek"
+    },
+    {
+      "q": "Hány Fahrenheit-fokon forr a víz normál légköri nyomáson?",
+      "a": [
+        "212 °F",
+        "100 °F",
+        "180 °F",
+        "32 °F"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Fahrenheit-skálán a víz forráspontja 212 fok, fagypontja 32 fok.",
+      "t": "mértékek"
+    },
+    {
+      "q": "Miért számít az Antarktisz a világ legnagyobb sivatagának, holott jégtakaró borítja?",
+      "a": [
+        "Mert a sivatag fogalmát a rendkívül alacsony csapadékmennyiség határozza meg",
+        "Mert a kontinensen egyáltalán nincs élővilág",
+        "Mert a felszínét vulkáni homok borítja a jég alatt",
+        "Mert éves átlaghőmérséklete meghaladja a Szahara hőmérsékletét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A sivatagot a csapadék hiánya, nem a hőmérséklet határozza meg, és az Antarktiszon rendkívül kevés csapadék hullik.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Melyik a világ leghosszabb, megszakítás nélküli zuhanású vízesése?",
+      "a": [
+        "Az Angel-vízesés Venezuelában",
+        "A Niagara-vízesés",
+        "A Viktória-vízesés",
+        "Az Iguazú-vízesés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Angel-vízesés 807 méteres megszakítás nélküli zuhanásával a leghosszabb ilyen vízesés a Földön.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Melyik a Föld legnagyobb tömegű és térfogatú, jelenleg is aktív vulkánja?",
+      "a": [
+        "A Mauna Loa Hawaiin",
+        "A Vezúv Olaszországban",
+        "A Kilimandzsáró Tanzániában",
+        "A Fuji-hegy Japánban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Mauna Loa térfogata kb. 75 000 köbkilométer, ezzel a legnagyobb aktív vulkán a Földön.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Melyik ország területén van a legtöbb, tengerentúli területekkel együtt akár 12 időzóna?",
+      "a": [
+        "Franciaország",
+        "Oroszország",
+        "Egyesült Államok",
+        "Egyesült Királyság"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Franciaország tengerentúli területei miatt 12 különböző időzónát fed le, ezzel világelső.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Hány kilométer hosszú a Kínai Nagy Fal a 2012-es hivatalos kínai felmérés szerint?",
+      "a": [
+        "Kb. 21 196 km",
+        "Kb. 8 850 km",
+        "Kb. 35 000 km",
+        "Kb. 6 000 km"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 2012-es felmérés a Nagy Fal teljes hosszát 21 196,18 kilométerben állapította meg.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Melyik a Föld legmélyebb pontja, a Mariana-árok legmélyebb része?",
+      "a": [
+        "A Challenger-mélyedés",
+        "A Puerto Rico-árok",
+        "A Java-árok",
+        "A Tonga-árok"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Mariana-árok Challenger-mélyedése kb. 10 935 méter mélyen található, ez a Föld legmélyebb ismert pontja.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Melyik a leggyorsabb szárazföldi állat rövid távon?",
+      "a": [
+        "A gepárd",
+        "Az oroszlán",
+        "A strucc",
+        "A gazella"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gepárd rövid rohanás közben akár 100-120 km/h sebességet is elérhet.",
+      "t": "állatvilág"
+    },
+    {
+      "q": "Melyik a legnagyobb ma élő szárazföldi állat?",
+      "a": [
+        "Az afrikai szavannai elefánt",
+        "Az orrszarvú",
+        "A zsiráf",
+        "A víziló"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hím afrikai szavannai elefánt akár 6 tonnát is nyomhat, ezzel a legnagyobb szárazföldi állat.",
+      "t": "állatvilág"
+    },
+    {
+      "q": "Melyik a valaha élt legnagyobb állat, beleértve a tengeri élőlényeket is?",
+      "a": [
+        "A kék bálna",
+        "Az ámbráscet",
+        "A hosszúúszójú bálna",
+        "A grönlandi bálna"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kék bálna akár 30 méter hosszú és 150 tonna tömegű is lehet, ez minden ismert állatnál nagyobb.",
+      "t": "állatvilág"
+    },
+    {
+      "q": "Hány szíve van egy polipnak?",
+      "a": [
+        "Három",
+        "Egy",
+        "Kettő",
+        "Négy"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A polipnak három szíve van: kettő a kopoltyúkhoz pumpálja a vért, egy a test többi részéhez.",
+      "t": "állatvilág"
+    },
+    {
+      "q": "Miért képesek a kaméleonok színt váltani?",
+      "a": [
+        "Elsősorban a hangulatuk és testhőmérsékletük jelzésére, nem álcázásra",
+        "Kizárólag azért, hogy elrejtőzzenek a ragadozók elől",
+        "Mert bőrük az évszakok szerint automatikusan színt vált",
+        "Mert a színváltás segíti az emésztésüket"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kutatások szerint a kaméleonok színváltása főként kommunikációs és hőszabályozási célt szolgál, nem álcázást.",
+      "t": "állatvilág"
+    },
+    {
+      "q": "Melyik szárazföldi állat a valaha ismert leghosszabb életű egyed birtokosa?",
+      "a": [
+        "Egy Jonathan nevű óriásteknős, kb. 190 éves korban",
+        "Egy afrikai elefánt, kb. 100 éves korban",
+        "Egy sarkvidéki bálna, kb. 200 éves korban",
+        "Egy grönlandi cápa, kb. 150 éves korban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Jonathan nevű Seychelle-óriásteknős 1832 körül született, így 2026-ban mintegy 193-194 éves, minden ismert szárazföldi állatnál idősebb.",
+      "t": "állatvilág"
+    },
+    {
+      "q": "Melyik bolygó a legnagyobb a Naprendszerben?",
+      "a": [
+        "A Jupiter",
+        "A Szaturnusz",
+        "A Neptunusz",
+        "Az Uránusz"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Jupiter átmérője kb. 143 000 km, ezzel messze a legnagyobb bolygó.",
+      "t": "csillagászat"
+    },
+    {
+      "q": "Melyik bolygó forog a Naprendszerben az összes többivel ellentétes irányba, azaz retrográd módon?",
+      "a": [
+        "A Vénusz",
+        "A Mars",
+        "A Merkúr",
+        "A Szaturnusz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Vénusz a Naprendszer legtöbb bolygójával ellentétes irányban, retrográd módon forog a tengelye körül.",
+      "t": "csillagászat"
+    },
+    {
+      "q": "Mit mér valójában a fényév, mint mértékegység?",
+      "a": [
+        "Egy távolságot, amit a fény egy év alatt megtesz",
+        "Egy időtartamot, egy év hosszát a világűrben",
+        "A csillagok fényességének mértékét",
+        "A fénysebesség változását az idő során"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fényév a fény által egy év alatt megtett út hossza, kb. 9,46 billió kilométer.",
+      "t": "csillagászat"
+    },
+    {
+      "q": "Melyik a Naprendszer legnagyobb holdja?",
+      "a": [
+        "A Ganymedes, a Jupiter holdja",
+        "A Titán, a Szaturnusz holdja",
+        "A mi Holdunk",
+        "Az Io, a Jupiter holdja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Jupiter Ganymedes nevű holdja nagyobb, mint a Merkúr bolygó, ezzel a Naprendszer legnagyobb holdja.",
+      "t": "csillagászat"
+    },
+    {
+      "q": "Miért látjuk mindig a Hold ugyanazon oldalát a Földről?",
+      "a": [
+        "Mert a Hold kötött keringésű, tengelyforgása megegyezik a keringési idejével",
+        "Mert a Hold egyáltalán nem forog a tengelye körül",
+        "Mert a Föld forgása kompenzálja a Hold mozgását",
+        "Mert a Hold pályája tökéletesen kör alakú"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Hold ún. kötött keringésben van: egy tengelyforgás pontosan annyi ideig tart, mint egy Föld körüli keringés.",
+      "t": "csillagászat"
+    },
+    {
+      "q": "Melyik a világ területileg legnagyobb országa?",
+      "a": [
+        "Oroszország",
+        "Kanada",
+        "Kína",
+        "Egyesült Államok"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Oroszország területe kb. 17,1 millió km², ezzel a világ legnagyobb országa.",
+      "t": "földrajz"
+    },
+    {
+      "q": "Melyik a világ legkisebb, önálló állama területét tekintve?",
+      "a": [
+        "A Vatikán",
+        "Monaco",
+        "San Marino",
+        "Liechtenstein"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Vatikán területe mindössze 0,44 négyzetkilométer, ez a világ legkisebb önálló állama.",
+      "t": "földrajz"
+    },
+    {
+      "q": "Melyik a világ legnagyobb szigete?",
+      "a": [
+        "Grönland",
+        "Új-Guinea",
+        "Borneó",
+        "Madagaszkár"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Grönland területe kb. 2,17 millió km², Ausztráliát kontinensnek tekintve ez a legnagyobb sziget.",
+      "t": "földrajz"
+    },
+    {
+      "q": "Melyik a Föld területileg legnagyobb óceánja?",
+      "a": [
+        "A Csendes-óceán",
+        "Az Atlanti-óceán",
+        "Az Indiai-óceán",
+        "A Jeges-tenger"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Csendes-óceán területe nagyobb, mint az összes szárazföld együttvéve.",
+      "t": "földrajz"
+    },
+    {
+      "q": "Melyik ország fekszik egyszerre két kontinensen, Európában és Ázsiában is?",
+      "a": [
+        "Törökország",
+        "Egyiptom",
+        "Kazahsztán",
+        "Görögország"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Törökország területének nagy része Ázsiában (Anatólia), kisebb része Európában (Trákia) fekszik.",
+      "t": "földrajz"
+    },
+    {
+      "q": "Melyik írásrendszert használja hivatalosan az orosz nyelv?",
+      "a": [
+        "A cirill ábécét",
+        "A latin ábécét",
+        "A görög ábécét",
+        "A glagolita írást"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az orosz nyelv a cirill ábécét használja, amelyet a 9. században fejlesztettek ki.",
+      "t": "nyelvek"
+    },
+    {
+      "q": "Hány hivatalos nyelve van Svájcnak?",
+      "a": [
+        "Négy",
+        "Kettő",
+        "Három",
+        "Öt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Svájc négy hivatalos nyelve a német, a francia, az olasz és a rétoromán.",
+      "t": "nyelvek"
+    },
+    {
+      "q": "Melyik nyelv NEM tartozik a magyarral azonos, uráli nyelvcsaládba?",
+      "a": [
+        "A török",
+        "A finn",
+        "Az észt",
+        "A manysi"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A török az altaji (türk) nyelvcsaládba tartozik, míg a finn, az észt és a manysi mind az uráli nyelvcsalád tagjai, akárcsak a magyar.",
+      "t": "nyelvek"
+    },
+    {
+      "q": "Mi az eszperantó?",
+      "a": [
+        "Egy mesterségesen létrehozott, nemzetközi segédnyelv",
+        "Egy kihalt ókori nyelv Dél-Európában",
+        "A svájci hivatalos negyedik nyelv neve",
+        "Egy afrikai kreol nyelv"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az eszperantót Lazarus Ludwik Zamenhof alkotta meg 1887-ben nemzetközi kommunikációs célra.",
+      "t": "nyelvek"
+    },
+    {
+      "q": "Hány betűből áll a modern angol ábécé?",
+      "a": [
+        "26",
+        "24",
+        "28",
+        "30"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A modern angol ábécé 26 betűből áll, a latin ábécé egyik változata.",
+      "t": "nyelvek"
+    },
+    {
+      "q": "Melyik ország nemzeti zászlaja az egyetlen a világon, amelynek alakja nem téglalap?",
+      "a": [
+        "Nepálé",
+        "Svájcé",
+        "Szváziföldé",
+        "Bhutáné"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nepál zászlaja két egymásra helyezett háromszögből áll, ez a világ egyetlen nem négyszög alakú nemzeti zászlaja.",
+      "t": "zászlók"
+    },
+    {
+      "q": "Melyik két ország zászlaja hasonlít egymásra annyira, hogy szinte csak méretarányukban térnek el?",
+      "a": [
+        "Monacóé és Indonéziáé",
+        "Brazíliáé és Kanadáé",
+        "Németországé és Japáné",
+        "Ausztráliáé és Egyiptomé"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Monaco és Indonézia zászlaja is piros-fehér vízszintes sávos, csak a hossz-szélesség arányuk különbözik.",
+      "t": "zászlók"
+    },
+    {
+      "q": "Melyik ország zászlaja a világ legrégebbi, folyamatosan használt nemzeti zászlaja?",
+      "a": [
+        "Dániáé",
+        "Franciaországé",
+        "Egyesült Királyságé",
+        "Svédországé"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A dán Dannebrog eredete a hagyomány szerint 1219-re nyúlik vissza, és folyamatosan használt zászlóként ez a legrégebbi.",
+      "t": "zászlók"
+    },
+    {
+      "q": "Mennyi az esélye, hogy egy szabályos dobókockával pontosan hatost dobjunk?",
+      "a": [
+        "1/6",
+        "1/3",
+        "1/2",
+        "1/12"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szabályos dobókockának hat egyenlő valószínűségű oldala van, ezért bármelyik szám esélye 1/6.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Hány lehetséges számkombináció van az ötös lottón (90 számból 5 kihúzva)?",
+      "a": [
+        "Több mint 43 millió",
+        "Kb. 1 millió",
+        "Kb. 10 millió",
+        "Kb. 100 millió"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 90 számból 5 kihúzására pontosan 43 949 268 lehetséges kombináció létezik.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Mi a neve annak a matematikai jelenségnek, amely szerint már 23 fős társaságban is 50% fölötti eséllyel van két azonos születésnapú ember?",
+      "a": [
+        "Születésnap-paradoxon",
+        "Monty Hall-paradoxon",
+        "Szimpson-paradoxon",
+        "Zénón-paradoxon"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A születésnap-paradoxon azt mutatja meg, hogy meglepően kevés ember esetén is nagy az egyezés esélye.",
+      "t": "valószínűség"
+    },
+    {
+      "q": "Melyik hónap a legrövidebb a Gergely-naptárban?",
+      "a": [
+        "A február",
+        "Az április",
+        "A június",
+        "A szeptember"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A február a legrövidebb hónap: 28, szökőévben 29 napos.",
+      "t": "naptár"
+    },
+    {
+      "q": "Miért van szükség szökőnapra majdnem minden negyedik évben?",
+      "a": [
+        "Mert a Föld Nap körüli keringése kb. 365,25 napig tart",
+        "Mert a Hold keringési ideje pontosan négy évente tér el",
+        "Mert a naptárkészítők tévedtek az eredeti számolásban",
+        "Mert a Föld forgása lassul, és ezt kell kompenzálni"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Föld keringési ideje kb. 365,25 nap, a többlet negyedórákat négyévente egy plusz nappal pótoljuk.",
+      "t": "naptár"
+    },
+    {
+      "q": "Melyik a világ legdrágább fűszere súlyra vetítve?",
+      "a": [
+        "A sáfrány",
+        "A vanília",
+        "A kardamom",
+        "A fahéj"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sáfrányt kézzel kell szedni krókuszvirágokból, ezért kilogrammonként akár több ezer dollárba is kerülhet.",
+      "t": "gasztronómia"
+    },
+    {
+      "q": "Mi az olasz pesto szósz hagyományos, legfontosabb alapanyaga?",
+      "a": [
+        "A friss bazsalikom",
+        "A friss petrezselyem",
+        "A rukkola",
+        "A menta"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A genovai pesto alapja a friss bazsalikom, amit fenyőmaggal, fokhagymával és olívaolajjal dolgoznak fel.",
+      "t": "gasztronómia"
+    },
+    {
+      "q": "Melyik országból származik a kimchi nevű erjesztett káposztaétel?",
+      "a": [
+        "Dél-Koreából",
+        "Kínából",
+        "Japánból",
+        "Vietnamból"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kimchi a koreai konyha hagyományos, évezredes múltra visszatekintő fűszeres, erjesztett étele.",
+      "t": "gasztronómia"
+    },
+    {
+      "q": "Melyik olasz étel készítési hagyományát vették fel 2017-ben az UNESCO szellemi kulturális örökségi listájára?",
+      "a": [
+        "A nápolyi pizzakészítés",
+        "A bolognai spagetti receptje",
+        "A milánói rizottó",
+        "A firenzei tiramisu"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "2017-ben a nápolyi pizzakészítők (pizzaiuolo) hagyományos mesterségét vette fel az UNESCO a listájára.",
+      "t": "gasztronómia"
+    },
+    {
+      "q": "Mit mond ki Newton harmadik törvénye?",
+      "a": [
+        "Minden hatásra egyenlő nagyságú és ellentétes irányú ellenhatás jön létre",
+        "A testek nyugalomban maradnak, amíg erő nem hat rájuk",
+        "Az erő egyenlő a tömeg és a gyorsulás szorzatával",
+        "A gravitációs erő fordítottan arányos a távolság négyzetével"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Newton harmadik törvénye a hatás-ellenhatás törvénye: minden erőhatásra ébred egy azonos nagyságú ellenerő.",
+      "t": "fizika"
+    },
+    {
+      "q": "Miért kék az égbolt derült, napos időben?",
+      "a": [
+        "Mert a légkör a kék fényt szórja szét a leghatékonyabban a rövid hullámhossza miatt",
+        "Mert a Nap fénye eredetileg is kék színű, csak felhők takarják el a többi színt",
+        "Mert az óceánok kék színe visszatükröződik a légkörön",
+        "Mert a magas légköri ózonréteg kék pigmentet tartalmaz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A rövidebb hullámhosszú kék fényt a légköri molekulák sokkal jobban szórják, mint a hosszabb hullámhosszú vöröset (Rayleigh-szórás).",
+      "t": "fizika"
+    },
+    {
+      "q": "Mekkora a hangsebesség levegőben, szobahőmérsékleten, kerekítve?",
+      "a": [
+        "Kb. 343 m/s",
+        "Kb. 150 m/s",
+        "Kb. 1000 m/s",
+        "Kb. 500 m/s"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "20°C-os levegőben a hang sebessége kb. 343 méter másodpercenként.",
+      "t": "fizika"
+    },
+    {
+      "q": "Melyik ősi találmány tette lehetővé az emberiség számára a főzést és a fémek megmunkálását?",
+      "a": [
+        "A tűz irányított, ellenőrzött használata",
+        "A kerék feltalálása",
+        "Az írás kialakulása",
+        "Az eke feltalálása"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tűz szándékos, ellenőrzött használata alapozta meg a főzést, a melegedést és később a fémmegmunkálást is.",
+      "t": "találmányok"
+    },
+    {
+      "q": "Melyik évben mutatták be az első kereskedelmi forgalomba került mobiltelefont?",
+      "a": [
+        "1983-ban",
+        "1973-ban",
+        "1995-ban",
+        "1990-ban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Motorola DynaTAC 8000X 1983-ban került piacra, ez volt az első kereskedelmi mobiltelefon.",
+      "t": "találmányok"
+    },
+    {
+      "q": "Két tizedesjegyre kerekítve mennyi a pi (π) értéke?",
+      "a": [
+        "3,14",
+        "3,41",
+        "3,12",
+        "3,16"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pi értéke végtelen tizedesjegyű, de két tizedesjegyre kerekítve 3,14.",
+      "t": "matematika"
+    },
+    {
+      "q": "Hogyan nevezzük azokat a számokat, amelyek nem írhatók fel két egész szám hányadosaként?",
+      "a": [
+        "Irracionális számok",
+        "Racionális számok",
+        "Prímszámok",
+        "Természetes számok"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az irracionális számok, mint például a pi vagy a gyök 2, nem fejezhetők ki törtként.",
+      "t": "matematika"
     }
   ]
 }

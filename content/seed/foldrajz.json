@@ -341,19 +341,6 @@
       "t": "tengerek"
     },
     {
-      "q": "Melyik csatorna kapcsolja össze a Földközi-tengert a Vörös-tengerrel?",
-      "a": [
-        "Szuezi-csatorna",
-        "Panama-csatorna",
-        "Kieli-csatorna",
-        "Korinthoszi-csatorna"
-      ],
-      "c": 0,
-      "d": "easy",
-      "e": "A Szuezi-csatorna 1869-ben nyílt meg.",
-      "t": "vízi utak"
-    },
-    {
       "q": "Melyik csatorna köti össze az Atlanti- és a Csendes-óceánt?",
       "a": [
         "Panama-csatorna",
@@ -2323,6 +2310,526 @@
       "d": "medium",
       "e": "Az Antarktiszi jégtakaró egymaga a Föld édesvízkészletének mintegy 60-70 százalékát tárolja fagyott formában.",
       "t": "természet"
+    },
+    {
+      "q": "Melyik hegység húzódik Oroszország nyugati részén, és hagyományosan Európa és Ázsia határvonalaként tartják számon?",
+      "a": [
+        "Urál-hegység",
+        "Kaukázus",
+        "Altaj-hegység",
+        "Tien-san"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Urál-hegység észak-déli irányban húzódik, és földrajzilag ez választja el Európát Ázsiától.",
+      "t": "hegyek"
+    },
+    {
+      "q": "Miért nő folyamatosan a Himalája legmagasabb csúcsainak magassága?",
+      "a": [
+        "Mert az Indiai-lemez folyamatosan az Eurázsiai-lemez alá gyűrődik",
+        "Mert a hó és a jég súlya lassan összenyomja a mélyebb kőzetrétegeket",
+        "Mert a szél állandóan új kőzetport hord fel és rétegez a csúcsokra",
+        "Mert a Föld forgásából eredő erő az anyagot a hegyekbe áramoltatja"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Indiai-lemez évente néhány centimétert mozog észak felé, és ütközése az Eurázsiai-lemezzel folyamatosan magasabbra gyűri a Himalája csúcsait.",
+      "t": "hegyek"
+    },
+    {
+      "q": "Mi teszi különlegessé a Kilimandzsárót Afrika hegyei között?",
+      "a": [
+        "Nem tartozik hegylánchoz, önálló sztratovulkánként emelkedik a síkság fölé",
+        "Ez az egyetlen afrikai hegy, amelyen soha nem esett hó",
+        "Ez Afrika legrégebbi, kihunyt tűzhányója, amely már nem aktív",
+        "Ez az egyetlen afrikai hegy, amely két ország határán fekszik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kilimandzsáró a világ legmagasabb szabadon álló, hegylánchoz nem tartozó hegye: egy önálló sztratovulkán Tanzániában.",
+      "t": "hegyek"
+    },
+    {
+      "q": "Hány országot érint területén vagy határán a Duna folyó?",
+      "a": [
+        "Tíz országot érint területén vagy határán",
+        "Négy országot érint területén vagy határán",
+        "Húsz országot érint területén vagy határán",
+        "Hat országot érint területén vagy határán"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Duna tíz európai ország területét érinti vagy határolja, Németországtól Ukrajnáig.",
+      "t": "folyók"
+    },
+    {
+      "q": "Miért nevezte Hérodotosz görög történetíró Egyiptomot 'a Nílus ajándékának'?",
+      "a": [
+        "Mert az évenkénti áradások termékeny iszapot hagytak a partvidéki földeken",
+        "Mert a Nílus vize aranyat sodort magával a sivatagból",
+        "Mert a folyó mentén épült fel az összes ókori egyiptomi piramis",
+        "Mert a Nílus volt az egyetlen ivóvízforrás egész Észak-Afrikában"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nílus évenkénti áradásai termékeny hordalékot terítettek szét a völgyben, ez tette lehetővé az egyiptomi mezőgazdaság kialakulását.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik óceánba torkollik az Amazonas folyó?",
+      "a": [
+        "Atlanti-óceán",
+        "Csendes-óceán",
+        "Indiai-óceán",
+        "Jeges-tenger"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Amazonas Brazília északkeleti partjainál ömlik az Atlanti-óceánba.",
+      "t": "folyók"
+    },
+    {
+      "q": "A Föld felszíni, nem fagyott édesvízkészletének hozzávetőleg hány százalékát tartalmazza a szibériai Bajkál-tó?",
+      "a": [
+        "Kb. 19 százalékát",
+        "Kb. 2 százalékát",
+        "Kb. 50 százalékát",
+        "Kb. 70 százalékát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Bajkál-tó a Föld legmélyebb tava, és önmagában a bolygó nem fagyott édesvízkészletének mintegy 19 százalékát tartalmazza.",
+      "t": "tavak"
+    },
+    {
+      "q": "Miért lehet szinte erőfeszítés nélkül, a felszínen lebegve úszni a Holt-tengerben?",
+      "a": [
+        "Mert a víz sótartalma jóval magasabb, mint bármely óceáné, ez megnöveli a felhajtóerőt",
+        "Mert a tó vize szokatlanul hideg, ami sűrűbbé teszi a vizet",
+        "Mert a tó alján erős víz alatti áramlatok tartják a felszínen a testeket",
+        "Mert a magas légnyomás a mélyedésben megnöveli a víz sűrűségét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Holt-tenger vizének sótartalma kb. 30%, ez a rendkívül magas sűrűség adja a nagy felhajtóerőt.",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik sivatagot tartják a Föld egyik legszárazabb vidékének, ahol egyes állomásokon évekig sem mértek esőt?",
+      "a": [
+        "Az Atacama-sivatag (Dél-Amerika)",
+        "A Szahara (Észak-Afrika)",
+        "A Gobi-sivatag (Belső-Ázsia)",
+        "A Namib-sivatag (Délnyugat-Afrika)"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A dél-amerikai Atacama-sivatag egyes részein évtizedekig sem regisztráltak mérhető csapadékot, ez a Föld egyik legszárazabb vidéke.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Mely két ország területén húzódik a Gobi-sivatag?",
+      "a": [
+        "Mongólia és Kína",
+        "Kazahsztán és Üzbegisztán",
+        "India és Pakisztán",
+        "Irán és Afganisztán"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Gobi Mongólia déli és Kína északi, Belső-Mongólia térségében terül el.",
+      "t": "sivatagok"
+    },
+    {
+      "q": "Melyik két ország közös határán zúdul alá a Zambézi folyó vizéből a Viktória-vízesés?",
+      "a": [
+        "Zambia és Zimbabwe határán",
+        "Kenya és Tanzánia határán",
+        "Dél-Afrika és Botswana határán",
+        "Mozambik és Malawi határán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Zambézi folyón kialakult Viktória-vízesés Zambia és Zimbabwe közös határán található.",
+      "t": "vízesések"
+    },
+    {
+      "q": "Hozzávetőleg hány méteres a venezuelai Angel-vízesés teljes zuhanási magassága?",
+      "a": [
+        "Közel 980 méter",
+        "Kb. 200 méter",
+        "Kb. 500 méter",
+        "Kb. 1500 méter"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Angel-vízesés a Föld egyik legmagasabb, megszakítás nélküli vízesése, teljes magassága mintegy 979 méter.",
+      "t": "vízesések"
+    },
+    {
+      "q": "Melyik óceánban fekszik Madagaszkár szigete?",
+      "a": [
+        "Indiai-óceán",
+        "Csendes-óceán",
+        "Atlanti-óceán",
+        "Jeges-tenger"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Madagaszkár Afrika délkeleti partjainál, az Indiai-óceánban található, a világ negyedik legnagyobb szigete.",
+      "t": "szigetek"
+    },
+    {
+      "q": "Miért nevezik Izlandot gyakran a 'tűz és jég szigetének'?",
+      "a": [
+        "Mert aktív vulkánok és kiterjedt gleccserek egyaránt jellemzik a szigetet",
+        "Mert a sziget felén állandóan havazik, míg a másik felén trópusi meleg van",
+        "Mert a lakosság fele a hegyekben, fele a tengerparton él",
+        "Mert a sziget két, egymással szemben lévő éghajlati övben fekszik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Izland vulkanikusan aktív terület, ahol a tűzhányók és a nagy kiterjedésű gleccserek egymás mellett léteznek.",
+      "t": "szigetek"
+    },
+    {
+      "q": "Hány óceánt különböztet meg a hagyományos földrajzi felosztás?",
+      "a": [
+        "Ötöt",
+        "Hármat",
+        "Négyet",
+        "Hetet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hagyományos felosztás öt óceánt különböztet meg: Csendes-, Atlanti-, Indiai-, Déli- és Jeges-óceán.",
+      "t": "óceánok"
+    },
+    {
+      "q": "Mi az egyik elfogadott tudományos magyarázat a Vörös-tenger elnevezésére?",
+      "a": [
+        "A vízben időszakosan elszaporodó vörös színű algák elszíneződést okoznak",
+        "A tenger fenekén lévő vörös homok látszik át a víz alatt",
+        "A napnyugtakor a parti hegyek vörösre festik a víz felszínét",
+        "A tengerparti sziklák vörös színű vasérce adja a nevét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Trichodesmium erythraeum nevű cianobaktérium időszakos elszaporodása vöröses elszíneződést okozhat a víz felszínén.",
+      "t": "tengerek"
+    },
+    {
+      "q": "Miért alacsonyabb a Balti-tenger vizének sótartalma az óceánokénál?",
+      "a": [
+        "Mert sok nagy folyó ömlik bele, miközben csak keskeny szoroson át cserélődik a vize az óceánnal",
+        "Mert a tenger nagy része télen befagy, ami kimossa belőle a sót",
+        "Mert a tengerfenéken édesvízforrások törnek fel nagy mennyiségben",
+        "Mert a Balti-tenger vize sokkal melegebb, mint a nyílt óceáné"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Balti-tengerbe ömlő folyók friss vize hígítja a tengert, miközben a keskeny Dán-szorosokon át csak korlátozottan cserélődik az óceánvízzel.",
+      "t": "tengerek"
+    },
+    {
+      "q": "Melyik évben pusztította el Pompeji városát a Vezúv kitörése?",
+      "a": [
+        "I. sz. 79-ben",
+        "I. sz. 250-ben",
+        "I. e. 79-ben",
+        "I. sz. 410-ben"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Vezúv i. sz. 79-es kitörése hamuval és vulkáni törmelékkel temette be Pompeji és Herculaneum városát.",
+      "t": "vulkánok"
+    },
+    {
+      "q": "Milyen globális hatása volt az indonéziai Krakatau vulkán 1883-as kitörésének?",
+      "a": [
+        "Az északi félteke átlaghőmérséklete a következő évben mérhetően lecsökkent",
+        "Néhány hónapra jelentősen lelassult a Föld tengely körüli forgásának sebessége",
+        "Az egész Csendes-óceán vízszintje több méterrel tartósan megemelkedett",
+        "Világszerte tartós, több évtizedes esőzési időszak vette kezdetét emiatt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kitörés kén-dioxidja a sztratoszférába jutva lehűtötte az éghajlatot, az északi félteke nyári átlaghőmérséklete a következő évben kb. 0,4 fokkal esett.",
+      "t": "vulkánok"
+    },
+    {
+      "q": "Melyik amerikai államban található a Mammut-barlang, a világ leghosszabb ismert barlangrendszere?",
+      "a": [
+        "Kentucky",
+        "Arizona",
+        "Kalifornia",
+        "Tennessee"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kentucky állambeli Mammut-barlangrendszer feltárt hossza meghaladja a 600 kilométert, messze a leghosszabb ismert barlangrendszer a Földön.",
+      "t": "barlangok"
+    },
+    {
+      "q": "Mit jelent az El Niño néven ismert éghajlati jelenség?",
+      "a": [
+        "A Csendes-óceán egyenlítői vizének időszakos, rendellenes felmelegedését",
+        "A sarkvidéki jégtakaró évenkénti visszahúzódását",
+        "Az Atlanti-óceán felett kialakuló állandó szélcsatornát",
+        "A monszunesők érkezésének pontos naptári időpontját"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az El Niño a Csendes-óceán keleti, egyenlítői részének néhány évenként bekövetkező felmelegedése, amely globális időjárási hatásokkal jár.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Miért fordul meg évszakonként a domináns szélirány Dél-Ázsiában a monszun idején?",
+      "a": [
+        "Mert a szárazföld és az óceán eltérő ütemben melegszik fel és hűl le",
+        "Mert a Himalája télen és nyáron ellentétes irányba tereli a szeleket",
+        "Mert a Föld tengelyferdesége évente megváltoztatja a forgás irányát",
+        "Mert az Indiai-óceán felszíni áramlatai félévente megfordulnak"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Nyáron a szárazföld gyorsabban felmelegszik, mint az óceán, ez a nedves tengeri levegőt szárazföld felé húzza; télen a folyamat megfordul.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Hogyan nevezik a trópusi ciklonokat az Atlanti-óceán és a Karib-térség vidékén?",
+      "a": [
+        "Hurrikán",
+        "Tájfun",
+        "Willy-willy",
+        "Monszun"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Atlanti-óceán és a keleti Csendes-óceán térségében kialakuló trópusi ciklonokat hurrikánnak nevezik.",
+      "t": "időjárás"
+    },
+    {
+      "q": "Hogyan nevezik a Csendes-óceán nyugati részén, Kelet- és Délkelet-Ázsia térségében kialakuló trópusi ciklonokat?",
+      "a": [
+        "Tájfun",
+        "Hurrikán",
+        "Ciklon",
+        "Passzátszél"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ugyanaz a jelenség, mint a hurrikán, csak a Csendes-óceán nyugati felén tájfunnak nevezik.",
+      "t": "időjárás"
+    },
+    {
+      "q": "Melyik mesterséges csatorna köti össze a Földközi-tengert a Vörös-tengerrel?",
+      "a": [
+        "Szuezi-csatorna",
+        "Panama-csatorna",
+        "Korinthoszi-csatorna",
+        "Kieli-csatorna"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Szuezi-csatorna Egyiptomban húzódik, és lehetővé teszi a hajók számára, hogy megkerüljék Afrikát.",
+      "t": "vízi utak"
+    },
+    {
+      "q": "Melyik csatorna teszi lehetővé, hogy a hajóknak ne kelljen megkerülniük Dél-Amerikát az Atlanti- és a Csendes-óceán között?",
+      "a": [
+        "Panama-csatorna",
+        "Szuezi-csatorna",
+        "Kieli-csatorna",
+        "Korinthoszi-csatorna"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Panama-csatorna köti össze az Atlanti- és a Csendes-óceánt Közép-Amerikában, jelentősen lerövidítve a hajóutakat.",
+      "t": "vízi utak"
+    },
+    {
+      "q": "Melyik ország fővárosa Ulánbátor?",
+      "a": [
+        "Mongólia",
+        "Kazahsztán",
+        "Türkmenisztán",
+        "Tádzsikisztán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ulánbátor Mongólia fővárosa és egyben legnagyobb városa.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik ország fővárosa Reykjavík?",
+      "a": [
+        "Izland",
+        "Norvégia",
+        "Finnország",
+        "Grönland"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Reykjavík Izland fővárosa, és a világ egyik legészakibb fővárosa.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik ország fővárosa Katmandu?",
+      "a": [
+        "Nepál",
+        "Bhután",
+        "Banglades",
+        "Mianmar"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Katmandu Nepál fővárosa, a Himalája lábánál fekvő völgyben.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik dél-amerikai várost tartják a világ legmagasabban fekvő kormányzati székhelyének?",
+      "a": [
+        "La Paz, Bolívia",
+        "Quito, Ecuador",
+        "Bogotá, Kolumbia",
+        "Sucre, Bolívia"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "La Paz mintegy 3600 méteres magasságban fekszik, ez teszi a világ legmagasabban fekvő kormányzati székhelyévé, bár Bolívia alkotmányos fővárosa hivatalosan Sucre.",
+      "t": "fővárosok"
+    },
+    {
+      "q": "Melyik a világ legkisebb szuverén állama területét tekintve?",
+      "a": [
+        "Vatikán",
+        "Monaco",
+        "Tuvalu",
+        "San Marino"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Vatikánváros mindössze 0,49 négyzetkilométeres területével a világ legkisebb szuverén állama.",
+      "t": "államok"
+    },
+    {
+      "q": "Bolívia mellett melyik a másik dél-amerikai ország, amelynek nincs tengerpartja?",
+      "a": [
+        "Paraguay",
+        "Uruguay",
+        "Ecuador",
+        "Suriname"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Dél-Amerikában csak Bolívia és Paraguay tengerparttal nem rendelkező, szárazföld által körülzárt ország.",
+      "t": "államok"
+    },
+    {
+      "q": "Melyik várost nevezik gyakran 'Örök Városnak'?",
+      "a": [
+        "Róma",
+        "Kairó",
+        "Athén",
+        "Velence"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Rómát több mint kétezer éves, folyamatos történelme miatt nevezik Örök Városnak.",
+      "t": "városok"
+    },
+    {
+      "q": "Honnan ered a 'gejzír' szó, amellyel az időszakosan feltörő forró vízoszlopokat nevezzük?",
+      "a": [
+        "Egy izlandi forrás, a Geysir nevéből",
+        "Egy görög mitológiai alak nevéből",
+        "Egy új-zélandi maori szóból",
+        "Az angol 'gas' szó torzult alakjából"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 'geyser' szó az izlandi Geysir nevű forrásból ered, amelynek neve az izlandi 'előretör' jelentésű igéből származik.",
+      "t": "természet"
+    },
+    {
+      "q": "Mit jelent a fjord szó geográfiai értelemben?",
+      "a": [
+        "Gleccser által kivájt, tengerrel elárasztott, meredek falú völgyet",
+        "Egy magányosan álló, kihunyt vulkáni kúpot",
+        "Sivatagi területen kialakuló időszakos folyómedret",
+        "Trópusi éghajlaton kialakuló mocsaras torkolatvidéket"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fjordok gleccserek által kivájt, majd a tengervíz által elárasztott, meredek falú völgyek, jellemzően Norvégiában és Izlandon.",
+      "t": "természet"
+    },
+    {
+      "q": "Melyik ország partjainál található a világ legnagyobb kiterjedésű korallzátony-rendszere, a Nagy-korallzátony?",
+      "a": [
+        "Ausztrália",
+        "Fülöp-szigetek",
+        "Indonézia",
+        "Maldív-szigetek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Nagy-korallzátony Ausztrália északkeleti partjainál, a Korall-tengerben húzódik, és a világ legnagyobb korallzátony-rendszere.",
+      "t": "természet"
+    },
+    {
+      "q": "Miért olyan gyakoriak a földrengések és vulkánkitörések a Csendes-óceánt körülölelő úgynevezett 'tűzgyűrűben'?",
+      "a": [
+        "Mert itt találkozik és ütközik számos tektonikus lemez pereme",
+        "Mert a Csendes-óceán vize szokatlanul forró, ami vulkáni tevékenységet indít",
+        "Mert itt a legvékonyabb a Föld légköre, ami felszínre engedi a magmát",
+        "Mert a Hold gravitációs hatása ezen a területen a legerősebb"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tűzgyűrű mentén óceáni lemezek húzódnak kontinentális lemezek alá, ez a szubdukció okozza a gyakori földrengéseket és vulkánkitöréseket.",
+      "t": "geológia"
+    },
+    {
+      "q": "Mi a fő torzítási probléma a Mercator-vetületű térképeknél?",
+      "a": [
+        "Az egyenlítőtől távolodva a szárazföldek területe eltúlzottan naggyá válik",
+        "A térkép csak az északi féltekét ábrázolja helyesen",
+        "A kontinensek alakja marad torz, de a méretük pontos",
+        "A térkép nem tudja ábrázolni a sarkvidéki területeket egyáltalán"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Mercator-vetület a pólusok felé haladva felnagyítja a területeket, ezért Grönland a térképen akkorának tűnik, mint Afrika, holott Afrika kb. 14-szer nagyobb.",
+      "t": "térképészet"
+    },
+    {
+      "q": "Miért nincs szárazföld az Északi-sarkponton, ellentétben a Déli-sarkkal?",
+      "a": [
+        "Mert az Északi-sarkot a Jeges-tenger úszó jégtakarója borítja, nincs alatta kontinens",
+        "Mert az Északi-sark folyamatosan mozgó jéghegyek gyűjtőhelye, amit senki nem térképezett fel",
+        "Mert az Északi-sarkvidék éghajlata melegebb, ezért ott nem alakulhatott ki szárazföld",
+        "Mert az Északi-sarkot borító jég túl vékony ahhoz, hogy szárazföldet hordozzon"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Északi-sarkot a Jeges-tenger úszó jege borítja, alatta óceáni mélység van, míg a Déli-sarkot az Antarktisz kontinense hordozza.",
+      "t": "sarkvidék"
+    },
+    {
+      "q": "Mit jelöl a Ráktérítő és a Baktérítő közötti földrajzi övezet?",
+      "a": [
+        "A forró éghajlati övet, ahol a Nap évente kétszer delel a zenitben",
+        "A mérsékelt övet, ahol négy jól elkülönülő évszak váltja egymást",
+        "A sarkvidéki övet, ahol évente csak egyszer kel fel a Nap",
+        "A magashegységi övet, ahol a hőmérséklet folyamatosan fagypont alatt van"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Ráktérítő és a Baktérítő közötti sáv a forró, trópusi éghajlati öv, ahol a Nap az év folyamán kétszer áll pontosan a zenitben.",
+      "t": "trópusok"
     }
   ]
 }

@@ -1898,6 +1898,838 @@
       "d": "easy",
       "e": "Dante a 14. század elején írta meg az Isteni színjátékot, végigvezetve az olvasót a túlvilág három birodalmán.",
       "t": "ókori irodalom"
+    },
+    {
+      "q": "Melyik Arany János-eposz meséli el Toldi Miklós király elleni lázadását és halálát, lezárva a trilógiát?",
+      "a": [
+        "Toldi estéje",
+        "Toldi szerelme",
+        "Buda halála",
+        "Csaba királyfi"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Toldi-trilógia harmadik, záró része a hős öregkorát, király elleni sérelmét és halálát dolgozza fel.",
+      "t": "magyar irodalom"
+    },
+    {
+      "q": "Ki a főszereplője Móricz Zsigmond Légy jó mindhalálig című regényének?",
+      "a": [
+        "Nyilas Misi",
+        "Nemecsek Ernő",
+        "Boka János",
+        "Bornemissza Gergely"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A regény Nyilas Misi debreceni kollégiumi diákéveit és megaláztatásait meséli el.",
+      "t": "magyar irodalom"
+    },
+    {
+      "q": "Melyik Gárdonyi Géza-regény állítja középpontba az egri vár 1552-es török ostromát?",
+      "a": [
+        "Egri csillagok",
+        "Isten rabjai",
+        "A láthatatlan ember",
+        "Ida regénye"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A regény Dobó István és a védők 1552-es sikeres várvédelmét dolgozza fel.",
+      "t": "magyar irodalom"
+    },
+    {
+      "q": "Kinek a főműve Az ember tragédiája című filozofikus drámai költemény?",
+      "a": [
+        "Madách Imre",
+        "Katona József",
+        "Vörösmarty Mihály",
+        "Arany János"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Madách Imre 1861-ben fejezte be az emberiség történelmén átívelő drámai költeményt.",
+      "t": "magyar irodalom"
+    },
+    {
+      "q": "Melyik magyar drámaíró Bánk bán című művében a nádorispán lázad fel a nemzeti sérelmek miatt a király ellen?",
+      "a": [
+        "Katona József",
+        "Madách Imre",
+        "Kisfaludy Károly",
+        "Vörösmarty Mihály"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Katona József 1819-ben írt drámája a merániai udvar és a magyar nemesség konfliktusát dolgozza fel.",
+      "t": "magyar irodalom"
+    },
+    {
+      "q": "Melyik Kosztolányi Dezső-regény középpontjában áll egy cselédlány, akit gazdái végül kegyetlenül elbocsátanak?",
+      "a": [
+        "Édes Anna",
+        "Pacsirta",
+        "Aranysárkány",
+        "Nero, a véres költő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A regény Édes Anna sorsán keresztül mutatja be az úri osztály és a szolgáló viszonyát.",
+      "t": "magyar irodalom"
+    },
+    {
+      "q": "Melyik magyar íróhoz köthető az 'egyperces novellák' rendkívül tömör, csattanóval záruló műfaji újítása?",
+      "a": [
+        "Örkény István",
+        "Karinthy Frigyes",
+        "Mikszáth Kálmán",
+        "Móricz Zsigmond"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Örkény István az 1960-70-es években alkotta meg és tette híressé az egyperces novella formáját.",
+      "t": "magyar irodalom"
+    },
+    {
+      "q": "Mi jellemzi a japán haiku versformát?",
+      "a": [
+        "Három sorból áll, szótagszáma hagyományosan 5-7-5",
+        "Négy sorból áll, mindig párrímes szerkezetű",
+        "Tizennégy sorból áll, két négyes és két hármas egységre bontva",
+        "Refrénnel záruló, hét versszakos formát követ"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hagyományos japán haiku háromsoros, 5-7-5 szótagszámú, természeti témájú vers.",
+      "t": "versformák"
+    },
+    {
+      "q": "Mi a limerick versforma jellegzetessége?",
+      "a": [
+        "Öt sorból áll, rímképlete AABBA, és tréfás hangvételű",
+        "Nyolc sorból áll, minden sora azonos szótagszámú",
+        "Tizennégy sort tartalmaz, filozofikus témát dolgoz fel",
+        "Refrén nélküli, szabad vers formájú, rímtelen"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A limerick angol eredetű, öt soros, humoros, jellegzetes AABBA rímképletű versforma.",
+      "t": "versformák"
+    },
+    {
+      "q": "Mit nevezünk balladának az irodalomban?",
+      "a": [
+        "Epikus, lírai és drámai elemeket ötvöző, tragikus témájú elbeszélő költeményt",
+        "Kizárólag szerelmi témájú, rímtelen szabadverset",
+        "Csak párbeszédes formában írt, humoros hangvételű költeményt",
+        "Ötsoros, tréfás rímképletű, könnyed hangvételű verset"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A ballada a líra, az epika és a dráma jegyeit ötvöző, jellemzően tragikus végű elbeszélő költemény.",
+      "t": "versformák"
+    },
+    {
+      "q": "Melyik irodalmi irányzat helyezi középpontba az érzelmeket és a nemzeti múltat a felvilágosodás racionalizmusával szemben?",
+      "a": [
+        "romantika",
+        "klasszicizmus",
+        "naturalizmus",
+        "szimbolizmus"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A romantika a 19. század elején az érzelmek, a képzelet és a nemzeti múlt felé fordult.",
+      "t": "irodalmi mozgalmak"
+    },
+    {
+      "q": "Mit jelent az irodalomban a 'realizmus' fogalma?",
+      "a": [
+        "A valóság hű, tárgyilagos ábrázolására törekvő irányzatot",
+        "A természet nyers, tudományos igényű bemutatására szűkülő irányzatot",
+        "A képzelet és álomvilág szabad, logikátlan ábrázolását",
+        "A versformák szigorú, klasszikus szabályok szerinti követését"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A realizmus a 19. század közepén a társadalmi valóság hiteles, tárgyilagos bemutatására törekedett.",
+      "t": "irodalmi mozgalmak"
+    },
+    {
+      "q": "Melyik 20. század eleji irányzat utasította el a hagyományos formákat, és dicsőítette a technikát és a sebességet?",
+      "a": [
+        "futurizmus",
+        "szimbolizmus",
+        "impresszionizmus",
+        "klasszicizmus"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A futurizmus az 1900-as évek elején a modern technika, a gépek és a mozgás kultuszát hirdette.",
+      "t": "irodalmi mozgalmak"
+    },
+    {
+      "q": "Mi jellemzi a szürrealista irodalmat?",
+      "a": [
+        "A tudatalatti és az álomszerű képzettársítások szabad kibontása",
+        "A hétköznapi valóság aprólékos, tárgyilagos leírása",
+        "A klasszikus mitológiai témák szigorú formai követése",
+        "A történelmi tények dokumentumszerű rögzítése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szürrealizmus a tudatalattit, az álmokat és a szabad képzettársítást állította a alkotás középpontjába.",
+      "t": "irodalmi mozgalmak"
+    },
+    {
+      "q": "Melyik regényt jelölték meg az 1969-es, első Booker-díjjal?",
+      "a": [
+        "P. H. Newby: Something to Answer For",
+        "Iris Murdoch: A tenger, a tenger",
+        "Muriel Spark: A Jean Brodie kisasszony bűvöletében",
+        "Kazuo Ishiguro: Napok romjai"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "P. H. Newby nyerte el 1969-ben az első Booker-díjat Something to Answer For című regényével.",
+      "t": "irodalmi díjak"
+    },
+    {
+      "q": "Melyik amerikai irodalmi díjat ítélik oda évente regény, dráma, líra és újságírás kategóriában, s első szépirodalmi díjazottja 1918-ban Ernest Poole volt?",
+      "a": [
+        "Pulitzer-díj",
+        "National Book Award",
+        "PEN/Faulkner-díj",
+        "Man Booker International-díj"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Pulitzer-díj szépirodalmi kategóriáját először 1918-ban ítélték oda, Ernest Poole His Family című regényének.",
+      "t": "irodalmi díjak"
+    },
+    {
+      "q": "Melyik francia irodalmi díjat ítélték oda először 1903-ban, John-Antoine Nau Force ennemie című regényének?",
+      "a": [
+        "Goncourt-díj",
+        "Femina-díj",
+        "Renaudot-díj",
+        "Médicis-díj"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Goncourt-díjat 1903-ban ítélték oda először, John-Antoine Nau Force ennemie című regényének.",
+      "t": "irodalmi díjak"
+    },
+    {
+      "q": "Melyik díjat kapta meg Kertész Imre 2002-ben, magyar íróként elsőként?",
+      "a": [
+        "irodalmi Nobel-díj",
+        "Booker-díj",
+        "Goncourt-díj",
+        "Nemzetközi Man Booker-díj"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kertész Imre 2002-ben lett az első magyar irodalmi Nobel-díjas a Sorstalanság szerzőjeként.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik Edgar Allan Poe-novella tartja sokak szerint a modern detektívtörténet kezdetét, C. Auguste Dupin nyomozóval?",
+      "a": [
+        "A Morgue utcai kettős gyilkosság",
+        "A holló",
+        "Az áruló szív",
+        "A vörös halál álarca"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1841-ben megjelent novella vezette be Dupin figuráját, s alapozta meg a detektívtörténet műfaját.",
+      "t": "krimi és detektívirodalom"
+    },
+    {
+      "q": "Ki Agatha Christie két leghíresebb nyomozó-főszereplője közül a belga, különc modorú detektív?",
+      "a": [
+        "Hercule Poirot",
+        "Miss Marple",
+        "Sherlock Holmes",
+        "Auguste Dupin"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Hercule Poirot Agatha Christie belga származású, jellegzetes bajszú, módszeres detektívje.",
+      "t": "krimi és detektívirodalom"
+    },
+    {
+      "q": "Melyik belga születésű francia nyelvű író írta meg Maigret felügyelő kalandjait több mint hetven regényben?",
+      "a": [
+        "Georges Simenon",
+        "Arthur Conan Doyle",
+        "Agatha Christie",
+        "Boileau-Narcejac"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Georges Simenon alkotta meg Maigret felügyelő figuráját, akiről közel száz művet írt.",
+      "t": "krimi és detektívirodalom"
+    },
+    {
+      "q": "Mi a jellemző szerkezete a klasszikus 'zárt szoba rejtélye' típusú krimiknek?",
+      "a": [
+        "A gyilkosság látszólag belülről bezárt, elérhetetlen térben történik",
+        "A nyomozó a gyilkosságot még megtörténte előtt megjósolja",
+        "A történet kizárólag a bűnöző szemszögéből mutatja be az eseményeket",
+        "A rejtély megoldása mindig a nyomozó véletlen balesetén múlik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 'locked room mystery' lényege, hogy a gyilkosság egy látszólag megközelíthetetlen, zárt térben történik.",
+      "t": "krimi és detektívirodalom"
+    },
+    {
+      "q": "Melyik regényt tartják sokan az első modern science fiction műnek, amelyben egy tudós életre kelti teremtményét?",
+      "a": [
+        "Frankenstein (Mary Shelley)",
+        "Az idővándor (H. G. Wells)",
+        "Fahrenheit 451 (Ray Bradbury)",
+        "A Marsbéli krónikák (Ray Bradbury)"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mary Shelley 1818-ban megjelent regényét sokan az első tudományos-fantasztikus műnek tartják.",
+      "t": "sci-fi irodalom"
+    },
+    {
+      "q": "Melyik cseh író alkotta meg 1920-as R.U.R. című drámájával a 'robot' szó ma ismert jelentését?",
+      "a": [
+        "Karel Čapek",
+        "Franz Kafka",
+        "Milan Kundera",
+        "Jaroslav Hašek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Karel Čapek R.U.R. című drámája vezette be a robot szót a mesterséges munkás lény jelölésére.",
+      "t": "sci-fi irodalom"
+    },
+    {
+      "q": "Melyik 1965-ben megjelent regényciklus indul a sivatagi Arrakis bolygón zajló politikai-vallási intrikával?",
+      "a": [
+        "Dűne (Frank Herbert)",
+        "Alapítvány (Isaac Asimov)",
+        "Neuromancer (William Gibson)",
+        "2001: Űrodisszeia (Arthur C. Clarke)"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Frank Herbert Dűne című regénye 1965-ben jelent meg, s a sivatagi Arrakis bolygón játszódik.",
+      "t": "sci-fi irodalom"
+    },
+    {
+      "q": "Mi közös vonása a disztópikus (antiutópikus) regényeknek?",
+      "a": [
+        "Egy elnyomó, gyakran totalitárius jövőbeli társadalmat mutatnak be",
+        "Mindig egy tökéletesnek ábrázolt, konfliktusmentes jövőt festenek le",
+        "Kizárólag a múlt idealizált, letűnt korszakait idézik fel",
+        "A cselekmény sosem lép túl a szerző saját korának valóságán"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A disztópikus regények közös vonása egy elnyomó, gyakran totalitárius berendezkedésű jövő ábrázolása.",
+      "t": "sci-fi irodalom"
+    },
+    {
+      "q": "Melyik testvérpár gyűjtötte össze és adta ki a nevükkel fémjelzett népmeséket a 19. század elején?",
+      "a": [
+        "Grimm testvérek (Jacob és Wilhelm)",
+        "Andersen és Perrault",
+        "Lindgren és Milne",
+        "Collodi és Carroll"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Jacob és Wilhelm Grimm 1812-től adta ki a német népmesegyűjteményt, a Grimm-meséket.",
+      "t": "gyermek- és ifjúsági irodalom"
+    },
+    {
+      "q": "Melyik svéd írónő alkotta meg Pippi Hosszúharisnya alakját?",
+      "a": [
+        "Astrid Lindgren",
+        "Selma Lagerlöf",
+        "Tove Jansson",
+        "Karin Boye"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Astrid Lindgren 1945-ben adta ki a rendkívüli erejű, önálló kislányról szóló első Pippi-kötetet.",
+      "t": "gyermek- és ifjúsági irodalom"
+    },
+    {
+      "q": "Melyik brit matematikus alkotta meg Alice Csodaországban történetét, Lewis Carroll álnéven?",
+      "a": [
+        "Charles Dodgson",
+        "J. M. Barrie",
+        "A. A. Milne",
+        "Kenneth Grahame"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Alice Csodaországban szerzője valójában Charles Lutwidge Dodgson matematikus volt, Lewis Carroll álnéven.",
+      "t": "gyermek- és ifjúsági irodalom"
+    },
+    {
+      "q": "Ki a főhőse Selma Lagerlöf Nils Holgersson csodálatos utazása című regényének?",
+      "a": [
+        "egy kisfiú, aki vadludakkal repül végig Svédországon",
+        "egy árva kislány, aki mesebeli erdőben bolyong",
+        "egy beszélő nyúl, aki elszökik otthonról",
+        "egy hercegnő, aki elvarázsolt kastélyban él"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nils Holgersson egy törpévé varázsolt kisfiú, aki vadludak hátán repülve járja be Svédországot.",
+      "t": "gyermek- és ifjúsági irodalom"
+    },
+    {
+      "q": "Melyik Ibsen-dráma állítja középpontba egy asszonyt, aki felismeri önállósága fontosságát és elhagyja családját?",
+      "a": [
+        "Nóra (Babaház)",
+        "Peer Gynt",
+        "A vadkacsa",
+        "Hedda Gabler"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nóra (Babaház) főhőse felismeri, hogy férje 'babájaként' él, és elhagyja otthonát.",
+      "t": "dráma és színház"
+    },
+    {
+      "q": "Mi a tragédia műfaji jellemzője a klasszikus dráma-elméletben?",
+      "a": [
+        "A főhős elkerülhetetlen bukása, gyakran saját jellemhibája miatt",
+        "A cselekmény mindig boldog, kiegyensúlyozott végkifejlettel zárul",
+        "A szereplők kizárólag verses formában szólalnak meg",
+        "A történet kizárólag történelmi eseményeket dolgoz fel"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A klasszikus tragédiában a főhős elkerülhetetlenül elbukik, gyakran saját jellemhibája miatt.",
+      "t": "dráma és színház"
+    },
+    {
+      "q": "Melyik spanyol drámaíró és költő Vérnász című tragédiájában egy esküvő napján tör ki a dráma?",
+      "a": [
+        "Federico García Lorca",
+        "Pedro Calderón de la Barca",
+        "Miguel de Cervantes",
+        "Antonio Machado"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Federico García Lorca 1932-es Vérnász című drámájában egy vidéki esküvő tragédiába torkollik.",
+      "t": "dráma és színház"
+    },
+    {
+      "q": "Mit jelentett a görög dráma 'kar' (kórus) szerepe az előadásokban?",
+      "a": [
+        "Kommentálta, értékelte az eseményeket, s a közösség hangját képviselte",
+        "Kizárólag a színpad díszleteit mozgatta a jelenetek között",
+        "A főszereplők párbeszédeit ismételte meg hangosabban",
+        "A nézőket szólította fel, hogy szavazzanak a végkifejletről"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A görög dráma kara kommentálta az eseményeket, s a közösség erkölcsi álláspontját jelenítette meg.",
+      "t": "dráma és színház"
+    },
+    {
+      "q": "Melyik eposzt tartják az emberiség legrégebbi fennmaradt írásos elbeszélő művének, egy uruki király történetéről?",
+      "a": [
+        "Gilgames-eposz",
+        "Iliász",
+        "Mahábhárata",
+        "Kalevala"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sumér-akkád Gilgames-eposz az ókori Kelet legrégebbi fennmaradt nagyepikai alkotása.",
+      "t": "mitológia és eposz"
+    },
+    {
+      "q": "Melyik latin nyelvű eposz meséli el Trója pusztulása után Aeneas és társai Itáliába vezető útját?",
+      "a": [
+        "Aeneis (Vergilius)",
+        "Metamorphoses (Ovidius)",
+        "Pharsalia (Lucanus)",
+        "Thébaisz (Statius)"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Vergilius Aeneis című eposza Aeneas trójai menekülő útját és Róma megalapítását dolgozza fel.",
+      "t": "mitológia és eposz"
+    },
+    {
+      "q": "Melyik finn nemzeti eposzt állította össze népköltési gyűjtésekből Elias Lönnrot a 19. században?",
+      "a": [
+        "Kalevala",
+        "Nibelung-ének",
+        "Edda",
+        "Kalevipoeg"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Elias Lönnrot karjalai és finn népi énekekből állította össze a Kalevala eposzt, első kiadása 1835-ben jelent meg.",
+      "t": "mitológia és eposz"
+    },
+    {
+      "q": "Melyik középkori germán eposz meséli el Siegfried hőstetteit és a burgund királyi udvar pusztulását?",
+      "a": [
+        "Nibelung-ének",
+        "Roland-ének",
+        "Edda",
+        "Béowulf"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Nibelung-ének Siegfried tetteit, majd a burgund udvar hun kézre kerülő pusztulását dolgozza fel.",
+      "t": "mitológia és eposz"
+    },
+    {
+      "q": "Melyik olasz költő alkotta meg a szonett egyik legismertebb, Laura nevű múzsájának szentelt versciklusát?",
+      "a": [
+        "Francesco Petrarca",
+        "Dante Alighieri",
+        "Giovanni Boccaccio",
+        "Torquato Tasso"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Petrarca Daloskönyvében a Laura iránti szerelmét dolgozza fel szonettek sorozatában.",
+      "t": "olasz irodalom"
+    },
+    {
+      "q": "Melyik regényben nyomoz Vilmos testvér, a ferences szerzetes, egy középkori kolostorban történt gyilkosságok ügyében?",
+      "a": [
+        "A rózsa neve (Umberto Eco)",
+        "A Foucault-inga (Umberto Eco)",
+        "Ha egy téli éjszakán egy utazó (Italo Calvino)",
+        "A vidám hercegkisasszony (Alberto Moravia)"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Umberto Eco A rózsa neve című regényében Baskerville-i Vilmos nyomoz egy kolostori gyilkosságsorozat ügyében.",
+      "t": "olasz irodalom"
+    },
+    {
+      "q": "Mi Boccaccio Dekameron című művének keretstörténete?",
+      "a": [
+        "Tíz fiatal a pestisjárvány elől menekülve tíz napig meséket mond egymásnak",
+        "Egy kereskedő fiai versengenek apjuk örökségéért",
+        "Egy király udvari bolondja meséli el bölcs tanmeséit",
+        "Tíz zarándok Rómába tartva osztja meg életének történetét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Dekameron keretstörténetében tíz firenzei fiatal a pestis elől menekülve mesél egymásnak tíz napon át.",
+      "t": "olasz irodalom"
+    },
+    {
+      "q": "Melyik anonim szerzőjű spanyol kisregényt tartják a pikareszk regény műfaj megalapítójának a 16. századból?",
+      "a": [
+        "Lazarillo de Tormes",
+        "Don Quijote",
+        "Celestina",
+        "La Regenta"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ismeretlen szerzőjű Lazarillo de Tormes (1554) tekinthető a pikareszk regény első jelentős példájának.",
+      "t": "spanyol irodalom"
+    },
+    {
+      "q": "Mi jellemzi a pikareszk regény műfaját?",
+      "a": [
+        "Egy alacsony sorból származó szereplő kalandjait meséli el epizódszerűen",
+        "Kizárólag verses formában íródik, szigorú rímképlettel",
+        "A cselekmény mindig egyetlen nap eseményeire korlátozódik",
+        "A főszereplő mindig nemesi származású lovag"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pikareszk regény egy alacsony sorból származó, csavaros eszű szereplő kalandjait meséli el laza epizódokban.",
+      "t": "spanyol irodalom"
+    },
+    {
+      "q": "Melyik svéd írónő lett 1909-ben az első nő, aki irodalmi Nobel-díjat kapott?",
+      "a": [
+        "Selma Lagerlöf",
+        "Astrid Lindgren",
+        "Sigrid Undset",
+        "Karen Blixen"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Selma Lagerlöf 1909-ben lett az első nő, aki elnyerte az irodalmi Nobel-díjat.",
+      "t": "skandináv irodalom"
+    },
+    {
+      "q": "Melyik norvég írónő kapta meg 1928-ban az irodalmi Nobel-díjat a Kristin Lavransdatter történelmi trilógiáért?",
+      "a": [
+        "Sigrid Undset",
+        "Selma Lagerlöf",
+        "Karen Blixen",
+        "Astrid Lindgren"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Sigrid Undset norvég írónő 1928-ban kapott irodalmi Nobel-díjat középkori tárgyú regénytrilógiájáért.",
+      "t": "skandináv irodalom"
+    },
+    {
+      "q": "Melyik ország irodalmához köthető a Kalevipoeg nemzeti eposz?",
+      "a": [
+        "Észtország",
+        "Finnország",
+        "Lettország",
+        "Litvánia"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Kalevipoeg az észt nemzeti eposz, amelyet Friedrich Reinhold Kreutzwald állított össze a 19. században.",
+      "t": "skandináv irodalom"
+    },
+    {
+      "q": "Melyik japán szerzőnő alkotta meg a Genji regényét, amelyet sokan a világ legkorábbi teljes regényének tartanak?",
+      "a": [
+        "Murasaki Shikibu",
+        "Szei Sónagon",
+        "Izumi Shikibu",
+        "Higucsi Icsijó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Heian-kori udvarhölgy, Murasaki Shikibu a 11. század elején írta meg a Genji regényét.",
+      "t": "japán irodalom"
+    },
+    {
+      "q": "Melyik japán író nyerte el elsőként japánként az irodalmi Nobel-díjat 1968-ban?",
+      "a": [
+        "Kavabata Jaszunari",
+        "Oe Kenzaburó",
+        "Murakami Haruki",
+        "Misima Jukio"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kavabata Jaszunari 1968-ban lett az első japán irodalmi Nobel-díjas.",
+      "t": "japán irodalom"
+    },
+    {
+      "q": "Melyik kortárs japán író világhírű regényei közé tartozik a Norvég erdő és az 1Q84?",
+      "a": [
+        "Murakami Haruki",
+        "Oe Kenzaburó",
+        "Misima Jukio",
+        "Josimoto Banana"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Murakami Haruki írta a Norvég erdő és az 1Q84 című, világszerte népszerű regényeket.",
+      "t": "japán irodalom"
+    },
+    {
+      "q": "Melyik zsidó lány második világháborús naplóját adták ki 1947-ben Het Achterhuis címmel?",
+      "a": [
+        "Anne Frank naplója",
+        "Etty Hillesum naplója",
+        "Viktor Frankl: Mégis mondj igent az életre",
+        "Primo Levi: Ez is ember?"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Anne Frank naplóját, eredeti címén Het Achterhuis, 1947-ben adta ki egy holland kiadó.",
+      "t": "napló és esszé"
+    },
+    {
+      "q": "Melyik francia gondolkodó Essais című művével teremtette meg az esszé műfaját a 16. században?",
+      "a": [
+        "Michel de Montaigne",
+        "René Descartes",
+        "Blaise Pascal",
+        "Voltaire"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Montaigne Essais (Esszék) című műve a 16. században alapozta meg az esszé mint irodalmi műfaj hagyományát.",
+      "t": "napló és esszé"
+    },
+    {
+      "q": "Melyik ókori római császár sztoikus szemléletű, naplószerű filozófiai feljegyzéseit ismerjük Elmélkedések címen?",
+      "a": [
+        "Marcus Aurelius",
+        "Seneca",
+        "Cicero",
+        "Epiktétosz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Marcus Aurelius császár görög nyelven írt, sztoikus filozófiai naplóját ismerjük Elmélkedések néven.",
+      "t": "napló és esszé"
+    },
+    {
+      "q": "Ki fejlesztette ki a mozgatható betűkkel történő nyomtatás Európában elterjedt technikáját a 15. század közepén?",
+      "a": [
+        "Johannes Gutenberg",
+        "Aldus Manutius",
+        "William Caxton",
+        "Nicolas Jenson"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Johannes Gutenberg dolgozta ki a mozgatható betűs nyomtatás technikáját a 15. század közepén.",
+      "t": "könyv- és nyomdatörténet"
+    },
+    {
+      "q": "Hol nyomtatták ki 1533-ban az első, teljes egészében magyar nyelvű nyomtatott könyvet?",
+      "a": [
+        "Krakkó",
+        "Buda",
+        "Bécs",
+        "Sárvár"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az első, teljes egészében magyar nyelvű nyomtatott könyv 1533-ban Krakkóban jelent meg.",
+      "t": "könyv- és nyomdatörténet"
+    },
+    {
+      "q": "Mit jelent a 'kolofon' kifejezés a régi nyomtatott könyvekben?",
+      "a": [
+        "A kiadás adatait (nyomdász, hely, év) tartalmazó záró szöveget",
+        "A könyv első, díszes kezdőbetűjét",
+        "A fejezetek élén álló rövid tartalmi összefoglalót",
+        "A szerző kézzel írt aláírását a könyv elején"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kolofon a régi könyvek végén szereplő, a kiadás körülményeit rögzítő szöveg volt.",
+      "t": "könyv- és nyomdatörténet"
+    },
+    {
+      "q": "Miért kapta meg Selma Lagerlöf 1909-ben az irodalmi Nobel-díjat?",
+      "a": [
+        "Magasrendű idealizmusáért és élénk képzeletéért, amit műveiben megjelenített",
+        "Kizárólag a Nils Holgersson tankönyvi felhasználásáért",
+        "Mert ő volt az első svédül publikáló szerző",
+        "Politikai tevékenységéért a nők választójogáért"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nobel-bizottság indoklása szerint Lagerlöf magasrendű idealizmusáért és élénk képzeletéért kapta a díjat.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Melyik magyar író kapta meg 2002-ben az irodalmi Nobel-díjat a Sorstalanság című regényéért is?",
+      "a": [
+        "Kertész Imre",
+        "Esterházy Péter",
+        "Márai Sándor",
+        "Nádas Péter"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kertész Imre 2002-ben kapott irodalmi Nobel-díjat, holokauszt-regényei, köztük a Sorstalanság alapján.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Ki nyerte el 1901-ben, elsőként, az irodalmi Nobel-díjat?",
+      "a": [
+        "Sully Prudhomme",
+        "Rudyard Kipling",
+        "Selma Lagerlöf",
+        "Anatole France"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A francia költő, Sully Prudhomme kapta meg 1901-ben az első irodalmi Nobel-díjat.",
+      "t": "Nobel-díj"
+    },
+    {
+      "q": "Mi a metafora és a hasonlat közötti fő különbség?",
+      "a": [
+        "A metafora nem jelöli az összehasonlítás kötőszavát, a hasonlat igen (pl. 'mint')",
+        "A metafora mindig hosszabb, mint a hasonlat",
+        "A hasonlat csak versekben fordulhat elő, a metafora prózában is",
+        "A metafora kizárólag emberekre, a hasonlat kizárólag tárgyakra vonatkozik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A metafora rejtett azonosítást fejez ki kötőszó nélkül, míg a hasonlat kötőszóval (pl. 'mint') jelöli az összevetést.",
+      "t": "stilisztika"
+    },
+    {
+      "q": "Mit nevezünk az irodalomban 'megszemélyesítésnek'?",
+      "a": [
+        "Amikor egy élettelen tárgy vagy fogalom emberi tulajdonságokat kap",
+        "Amikor két hasonló tulajdonságú dolgot kötőszóval hasonlítunk össze",
+        "Amikor egy szó szó szerinti és átvitt jelentése egyszerre jelenik meg",
+        "Amikor a mondat szórendje szokatlanul felcserélődik"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A megszemélyesítés stíluseszköz esetén egy élettelen dolog vagy fogalom emberi tulajdonságokat kap.",
+      "t": "stilisztika"
+    },
+    {
+      "q": "Melyik ókori görög filozófus Poétika című művében határozta meg először a tragédia és a komédia műfaji jellemzőit?",
+      "a": [
+        "Arisztotelész",
+        "Platón",
+        "Szókratész",
+        "Hérodotosz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Arisztotelész Poétika című művében fogalmazta meg elsőként a tragédia és a komédia elméleti alapjait.",
+      "t": "klasszikusok"
+    },
+    {
+      "q": "Melyik ókori római szerző Metamorphoses (Átváltozások) című művében gyűjtötte össze a görög-római mitológia átváltozás-történeteit?",
+      "a": [
+        "Ovidius",
+        "Vergilius",
+        "Homérosz",
+        "Hésziodosz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ovidius Metamorphoses című verses művében a görög-római mitológia átváltozás-történeteit dolgozta fel.",
+      "t": "klasszikusok"
+    },
+    {
+      "q": "Melyik brit szerző trilógiája, A Gyűrűk Ura, a Középfölde nevű képzeletbeli világban játszódik?",
+      "a": [
+        "J. R. R. Tolkien",
+        "C. S. Lewis",
+        "Terry Pratchett",
+        "George R. R. Martin"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "J. R. R. Tolkien alkotta meg A Gyűrűk Ura Középföldéjét és annak trilógiáját az 1950-es években.",
+      "t": "fantasy"
+    },
+    {
+      "q": "Mi jellemzi a 'high fantasy' alműfajt a fantasy irodalmon belül?",
+      "a": [
+        "Egy önálló, valóságtól elkülönülő, részletesen kidolgozott képzeletbeli világban játszódik",
+        "Kizárólag a szerző saját korának valóságában játszódik, mágia nélkül",
+        "A cselekmény mindig egyetlen szereplő monológjára épül",
+        "A történet sosem tartalmaz természetfeletti elemeket"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A high fantasy egy önálló, a valóságtól teljesen elkülönülő, saját szabályokkal bíró világban játszódik.",
+      "t": "fantasy"
     }
   ]
 }

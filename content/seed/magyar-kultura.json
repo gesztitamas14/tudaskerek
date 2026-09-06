@@ -2328,6 +2328,461 @@
       "d": "medium",
       "e": "A Mátyás-templom színes tetőcserepei Zsolnay pirogránitból készültek, a magyar szecessziós építészet jellegzetes példájaként.",
       "t": "építészet"
+    },
+    {
+      "q": "Melyik budapesti gyógyfürdő nyílt meg 1913-ban, és számít ma is Európa egyik legnagyobb fürdőkomplexumának?",
+      "a": [
+        "Széchenyi gyógyfürdő",
+        "Gellért fürdő",
+        "Rudas fürdő",
+        "Lukács fürdő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Széchenyi gyógyfürdőt 1913. június 16-án nyitották meg, korábban Artézi fürdő néven működött.",
+      "t": "fürdőkultúra"
+    },
+    {
+      "q": "Melyik budapesti fürdő nyerte el mai formáját még a török hódoltság idején, a 16. században?",
+      "a": [
+        "Rudas fürdő",
+        "Széchenyi fürdő",
+        "Gellért fürdő",
+        "Lukács fürdő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Rudas fürdőt a 16. században Ali pasa, majd Szokollu Musztafa pasa építtette át oszmán stílusú fürdővé.",
+      "t": "fürdőkultúra"
+    },
+    {
+      "q": "Miért alakulhatott ki Budapesten kiemelkedően gazdag fürdőkultúra?",
+      "a": [
+        "Mert a város területén sok termálforrás fakad a geológiai adottságok miatt",
+        "Mert a Duna vize melegebb, mint más folyóké",
+        "Mert a törvény kötelezte a lakosságot fürdőépítésre",
+        "Mert a város kizárólag exportra termelt ásványvizet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Budapest alatt jelentős geotermikus aktivitás húzódik, ez táplálja a város számos termálforrását.",
+      "t": "fürdőkultúra"
+    },
+    {
+      "q": "Melyik évben nyílt meg a Pesti Magyar Színház, a mai Nemzeti Színház jogelődje?",
+      "a": [
+        "1837",
+        "1867",
+        "1825",
+        "1848"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A színházat 1837. augusztus 22-én nyitották meg Pesten, ekkor még Pesti Magyar Színház néven.",
+      "t": "színház"
+    },
+    {
+      "q": "Melyik városban épült fel a Katona József Színház 1896-ban, a millenniumi ünnepségek részeként?",
+      "a": [
+        "Kecskemét",
+        "Szeged",
+        "Debrecen",
+        "Pécs"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kecskeméti színházat, amely a városban született drámaíróról kapta nevét, Fellner és Helmer tervezte.",
+      "t": "színház"
+    },
+    {
+      "q": "Melyik évben nyílt meg a budapesti Vígszínház?",
+      "a": [
+        "1896",
+        "1913",
+        "1884",
+        "1928"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Vígszínházat 1896. május 1-jén nyitották meg Jókai Mór bemutatott darabjával.",
+      "t": "színház"
+    },
+    {
+      "q": "Mit jelent a \"regölés\" elnevezésű néphagyomány?",
+      "a": [
+        "Karácsony és vízkereszt közötti időszak énekes-köszöntő szokása",
+        "Húsvéti locsolkodás egyik régi elnevezése",
+        "Aratás befejezését ünneplő falusi mulatság",
+        "Lakodalmi menyasszonytánc neve"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A regösök karácsonytól vízkeresztig házról házra jártak, és regösénekkel köszöntötték a családokat.",
+      "t": "szokások"
+    },
+    {
+      "q": "Melyik naphoz kötődik a \"Szent Iván-éji\" tűzgyújtás hagyománya?",
+      "a": [
+        "A nyári napforduló környékére, június végére",
+        "A téli napfordulóra, december végére",
+        "Húsvét vasárnapjára",
+        "Mindenszentek napjára"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Szent Iván éjszakája június 23-áról 24-ére virradóra esik, közel a nyári napfordulóhoz.",
+      "t": "szokások"
+    },
+    {
+      "q": "Mit jelentett hagyományosan a \"kaláka\" munkaforma a magyar falvakban?",
+      "a": [
+        "Szomszédok, rokonok önkéntes, közös segítsége egymás munkájában",
+        "Az adóbeszedés falusi rendszere",
+        "A céhek belső fegyelmi bírósága",
+        "Az aratás utáni táncmulatság elnevezése"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kaláka olyan közösen végzett munka volt, főként házépítésnél, amelyben a közösség tagjai ingyen segítettek egymásnak.",
+      "t": "szokások"
+    },
+    {
+      "q": "Melyik jellegzetesség teszi felismerhetővé a Zsolnay-gyár eozinmázas kerámiáit?",
+      "a": [
+        "Fémes csillogású, szivárványos felületük",
+        "Egyszínű kék-fehér porcelánfestésük",
+        "Kizárólag geometrikus, mintázat nélküli formájuk",
+        "Fekete-fehér kockás mázazásuk"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az eozinmázat Zsolnay Vilmos fejlesztette ki, jellemzője a fém fényű, irizáló felület.",
+      "t": "iparművészet"
+    },
+    {
+      "q": "Ki tervezte az Iparművészeti Múzeum különleges, keleties motívumú épületét Budapesten?",
+      "a": [
+        "Lechner Ödön",
+        "Steindl Imre",
+        "Ybl Miklós",
+        "Hild József"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Lechner Ödön az 1896-os millenniumi kiállításra tervezte az épületet, magyaros szecessziós stílusban.",
+      "t": "iparművészet"
+    },
+    {
+      "q": "Melyik magyar falu ófaluja szerepel 1987 óta az UNESCO világörökségi listáján, jellegzetes palóc parasztházaival?",
+      "a": [
+        "Hollókő",
+        "Szentendre",
+        "Tihany",
+        "Hortobágy"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Hollókő ófaluját 1987-ben vette fel az UNESCO a világörökségi listára élő, lakott településként.",
+      "t": "népi építészet"
+    },
+    {
+      "q": "Mi a fő célja a szabadtéri néprajzi múzeumoknak (skanzeneknek)?",
+      "a": [
+        "Történelmi népi épületek hiteles bemutatása eredeti helyükön vagy áttelepítve",
+        "Kizárólag régészeti leletek raktározása",
+        "Élő állatok bemutatása vidéki környezetben",
+        "Kortárs művészek alkotásainak kiállítása"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A skanzenek célja, hogy korhűen mutassák be a múlt településrészeit és életmódját.",
+      "t": "népi építészet"
+    },
+    {
+      "q": "Mit jelent az \"Egyszer volt Budán kutyavásár\" szólás?",
+      "a": [
+        "Egy kivételes alkalom, ami nem ismétlődik meg többé",
+        "Nagy tömeg gyűlt össze egy adott helyen",
+        "Olcsón lehet valamit megvásárolni",
+        "Kutyákat árulnak rendszeresen a piacon"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szólás arra utal, hogy valami csak egyszer, kivételes alkalommal történt meg, és nem várható el újra.",
+      "t": "szólások"
+    },
+    {
+      "q": "Mire figyelmeztet az \"Addig nyújtózkodj, amíg a takaród ér\" közmondás?",
+      "a": [
+        "Csak annyit költs, amennyi jövedelmed engedi",
+        "Ne aludj a kelleténél tovább",
+        "Segíts a rászoruló szomszédodnak",
+        "Ne beszélj feleslegesen sokat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A közmondás arra int, hogy anyagi lehetőségeinkhez mérten éljünk, és ne vállaljunk azon felüli kiadást.",
+      "t": "szólások"
+    },
+    {
+      "q": "Mit fejez ki a \"Sok lúd disznót győz\" közmondás?",
+      "a": [
+        "Sok gyengébb összefogva legyőzheti az erősebbet",
+        "A libapásztorok jövedelme nagyobb, mint a disznópásztoroké",
+        "A libahús értékesebb, mint a disznóhús",
+        "Az összefogás sosem vezet eredményre"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A mondás azt üzeni, hogy a létszámbeli fölény pótolhatja az egyéni erő hiányát.",
+      "t": "szólások"
+    },
+    {
+      "q": "Melyik két magyar város vált a 18-19. században a fűszerpaprika-termesztés és -feldolgozás fő központjává?",
+      "a": [
+        "Szeged és Kalocsa",
+        "Eger és Tokaj",
+        "Pécs és Villány",
+        "Gyula és Békéscsaba"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fűszerpaprika-termesztés Szeged környékén indult a 18. században, majd Kalocsa vidékén is elterjedt.",
+      "t": "gasztronómia"
+    },
+    {
+      "q": "Miért vált a pirospaprika a magyar konyha egyik legmeghatározóbb fűszerévé a 19. századtól?",
+      "a": [
+        "Mert a hazai termesztés révén olcsón és bőségesen elérhetővé vált",
+        "Mert csak Magyarországon terem a világon",
+        "Mert vallási előírás tette kötelezővé a használatát",
+        "Mert kizárólag gyógyszerként alkalmazták kezdetben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hazai paprikatermesztés kialakulásával a fűszer olcsóvá és általánosan elérhetővé vált, ami elterjedését segítette.",
+      "t": "gasztronómia"
+    },
+    {
+      "q": "Melyik borvidék adja a világhírű Tokaji aszút?",
+      "a": [
+        "Tokaj-hegyaljai borvidék",
+        "Egri borvidék",
+        "Villányi borvidék",
+        "Balatonfelvidéki borvidék"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Tokaji aszút a Tokaj-hegyaljai borvidéken termelik, amely 2002 óta az UNESCO világörökség része.",
+      "t": "borkultúra"
+    },
+    {
+      "q": "Melyik gomba okozza a nemesrothadást, amely a tokaji aszúszemek kialakulásához szükséges?",
+      "a": [
+        "Botrytis cinerea",
+        "Fusarium graminearum",
+        "Peronoszpóra",
+        "Penicillium"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Botrytis cinerea nevű penészgomba idézi elő a nemesrothadást megfelelő időjárási körülmények mellett.",
+      "t": "borkultúra"
+    },
+    {
+      "q": "Melyik naphoz kötődik hagyományosan az új kenyér ünnepe Magyarországon?",
+      "a": [
+        "Augusztus 20.",
+        "Október 23.",
+        "Március 15.",
+        "Június 4."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az új kenyér ünnepét Szent István napjához, augusztus 20-hoz kötik, az aratás lezárásaként.",
+      "t": "ünnepek"
+    },
+    {
+      "q": "Miért ünneplik december 6-án a Mikulást Magyarországon?",
+      "a": [
+        "Mert ez Szent Miklós püspök egyházi ünnepnapja",
+        "Mert ekkor van a téli napforduló",
+        "Mert ekkor kezdődött a reformkor",
+        "Mert ez volt Szent István koronázásának napja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szent Miklós myrai püspök decemberi ünnepnapjából alakult ki a gyermekeknek ajándékot hozó Mikulás alakja.",
+      "t": "ünnepek"
+    },
+    {
+      "q": "Melyik évben alapította az Országgyűlés a Kossuth-díjat, Magyarország egyik legrangosabb elismerését?",
+      "a": [
+        "1948",
+        "1920",
+        "1956",
+        "1990"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Kossuth-díjat 1948-ban, az 1848-as forradalom centenáriuma alkalmából alapították.",
+      "t": "díjak"
+    },
+    {
+      "q": "Elsősorban milyen szakma képviselőit ismeri el a Balázs Béla-díj?",
+      "a": [
+        "Film- és televíziós alkotókat",
+        "Klasszikus zeneszerzőket és karmestereket",
+        "Élsportolókat és edzőket",
+        "Természettudósokat és feltalálókat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Balázs Béla-díj a filmkészítőknek és televíziós alkotóknak adományozható legmagasabb szakmai elismerés.",
+      "t": "díjak"
+    },
+    {
+      "q": "Melyik nyelvi mozgalom nyomán keletkeztek a magyar nyelvben olyan új szavak, mint a \"mozdony\" vagy a \"gyár\"?",
+      "a": [
+        "A reformkori nyelvújítás",
+        "A honfoglalás kori nyelvi keveredés",
+        "A második világháború utáni szabványosítás",
+        "A rendszerváltás utáni internetkorszak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 18-19. századi nyelvújítás során alkottak tömegesen új szavakat a modern fogalmak kifejezésére.",
+      "t": "szókincs"
+    },
+    {
+      "q": "Ki volt a magyar nyelvújítás vezéralakja a reformkor előtti időszakban?",
+      "a": [
+        "Kazinczy Ferenc",
+        "Petőfi Sándor",
+        "Kossuth Lajos",
+        "Vörösmarty Mihály"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kazinczy Ferenc levelezésével és irodalomszervező munkájával irányította a nyelvújítás mozgalmát.",
+      "t": "szókincs"
+    },
+    {
+      "q": "Ki nyomtatta Budán 1473-ban a Chronica Hungarorumot, az első Magyarországon készült nyomtatott könyvet?",
+      "a": [
+        "Hess András",
+        "Johannes Gutenberg",
+        "Sylvester János",
+        "Károli Gáspár"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Hess András budai nyomdájában készült el a Chronica Hungarorum, amely az első Magyarországon nyomtatott könyv.",
+      "t": "könyvkultúra"
+    },
+    {
+      "q": "Melyik évben jelent meg a Vizsolyi Biblia, Károli Gáspár teljes magyar nyelvű bibliafordítása?",
+      "a": [
+        "1590",
+        "1541",
+        "1608",
+        "1650"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Vizsolyi Bibliát 1590. július 20-án fejezték be nyomtatni, ez az első teljes magyar bibliafordítás.",
+      "t": "könyvkultúra"
+    },
+    {
+      "q": "Hogyan ejtjük a mai magyar köznyelvben a legtöbb szóban az \"ly\" betűt?",
+      "a": [
+        "A „j” hanggal azonosan",
+        "Külön, saját „ly” hangként",
+        "Az „l” és „j” hosszan összeolvasztva",
+        "Néma betűként, kiejtés nélkül"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A történeti „ly” jelölés ma már a legtöbb szóban „j” hangot jelöl a köznyelvi kiejtésben.",
+      "t": "helyesírás"
+    },
+    {
+      "q": "Melyik az első összefüggő szövegű magyar nyelvemlék?",
+      "a": [
+        "Halotti beszéd és könyörgés",
+        "Ómagyar Mária-siralom",
+        "Tihanyi alapítólevél",
+        "Königsbergi töredék"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Halotti beszéd és könyörgés 1192-1195 körül keletkezett, ez a legkorábbi összefüggő magyar szöveg.",
+      "t": "nyelvtörténet"
+    },
+    {
+      "q": "Ki kezdeményezte a Magyar Tudományos Akadémia megalapítását 1825-ben, egyévi jövedelme felajánlásával?",
+      "a": [
+        "Széchenyi István",
+        "Kossuth Lajos",
+        "Deák Ferenc",
+        "Eötvös József"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Széchenyi István az 1825-ös pozsonyi országgyűlésen ajánlotta fel birtokai egyévi jövedelmét a tudós társaság létrehozására.",
+      "t": "intézmények"
+    },
+    {
+      "q": "Melyik zeneszerző szerezte A Csárdáskirálynő című világhírű operett zenéjét?",
+      "a": [
+        "Kálmán Imre",
+        "Lehár Ferenc",
+        "Huszka Jenő",
+        "Erkel Ferenc"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Csárdáskirálynő Kálmán Imre legnépszerűbb, háromfelvonásos operettje.",
+      "t": "operett"
+    },
+    {
+      "q": "Mi a lényege a Kodály-módszernek a zeneoktatásban?",
+      "a": [
+        "Az éneklésen és a magyar népdalon alapuló zenei nevelés kisgyermekkortól",
+        "Kizárólag hangszeres képzés felnőtt tanulóknak",
+        "Elektronikus zeneszerzési technikák oktatása",
+        "Zeneszerzés kizárólag számítógépes szoftverrel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A módszer az éneklést és a népdalkincset állítja a zenei nevelés középpontjába, szolmizáció segítségével.",
+      "t": "zene"
+    },
+    {
+      "q": "Mi Csontváry Kosztka Tivadar egyik leghíresebb, cédrusfát ábrázoló festményének közismert címe?",
+      "a": [
+        "A Magányos cédrus",
+        "Zarándoklás Egyiptomba",
+        "A taorminai színház romjai",
+        "Mária kútja Názáretben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A képet az utókor nevezte el Magányos cédrusnak, míg Csontváry saját katalógusában Egy cédrusfa Libanonból címen szerepelt.",
+      "t": "képzőművészet"
+    },
+    {
+      "q": "Ki tervezte az Országház (Parlament) épületét Budapesten?",
+      "a": [
+        "Steindl Imre",
+        "Ybl Miklós",
+        "Lechner Ödön",
+        "Hauszmann Alajos"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Steindl Imre neogótikus tervét fogadták el az 1883-as pályázaton, az épület 1904-re készült el.",
+      "t": "építészet"
     }
   ]
 }

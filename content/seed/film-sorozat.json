@@ -1794,6 +1794,981 @@
       "d": "hard",
       "e": "Az Akadémia 2019-ben az 'idegen' szót elavultnak ítélte, és a nemzetközibb, befogadóbb 'international feature film' elnevezésre váltott.",
       "t": "Oscar"
+    },
+    {
+      "q": "Mit jelent a „spin-off” kifejezés a sorozatok világában?",
+      "a": [
+        "Egy meglévő sorozat szereplőjéből vagy helyszínéből induló önálló új sorozat",
+        "Egy sorozat utolsó, lezáró jellegű évadának hivatalos elnevezése",
+        "Az a folyamat, amikor egy csatorna törli a sorozatot két évad után",
+        "Egy korábbi epizódot utólag újravágó, rövidített különkiadás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A spin-off egy meglévő sorozat mellékszereplőjét vagy helyszínét viszi tovább saját, önálló cselekménnyel.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Mit nevezünk egy sorozat „pilot” epizódjának?",
+      "a": [
+        "Az első, bemutató epizódot, amely eldönti, gyártsanak-e további részeket",
+        "Az utolsó epizódot, amely lezárja a sorozat cselekményét",
+        "Egy különleges, karácsonyi témájú epizódot",
+        "Egy epizódot, amelyben nincs párbeszéd, csak zene"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A pilot epizód alapján dönt a tévécsatorna vagy stúdió arról, hogy megrendeli-e a sorozat további részeit.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Mi a „showrunner” feladata egy tévésorozat készítésében?",
+      "a": [
+        "Ő a sorozat kreatív vezetője, aki felügyeli az írást és a gyártást",
+        "Ő vágja meg a nyers felvételeket a végleges epizódformára",
+        "Ő biztosítja a forgatási helyszíneket és engedélyeket",
+        "Ő készíti a szereplők jelmezeit és sminkjét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A showrunner általában a fő forgatókönyvíró-producer, aki a sorozat egészének kreatív irányát meghatározza.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Mit jelent a „cliffhanger” végű epizód a sorozatokban?",
+      "a": [
+        "Az epizód megoldatlan, feszült ponton szakad meg, kíváncsivá téve a nézőt",
+        "Az epizód végén minden szál lezárul, nincs folytatás",
+        "Az epizód közepén reklámszünet nélkül folytatódik a cselekmény",
+        "Az epizód elején összefoglalják az előző rész eseményeit"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cliffhanger szándékosan lezáratlanul hagyja a cselekményt, hogy a néző várja a folytatást.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Mit jelent a „binge-watching” (sorozatfalás) kifejezés?",
+      "a": [
+        "Egy sorozat sok epizódjának egyhuzamban, megszakítás nélküli megnézését",
+        "Egy sorozat epizódjainak hetente egyszeri, adagolt megtekintését",
+        "Egy sorozat előzeteseinek gyűjtését közösségi médiában",
+        "Egy sorozat feliratának saját fordítását"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A binge-watching során a néző több vagy akár egy teljes évadot is egyszerre néz meg, amit a streamingszolgáltatók epizódlistái is ösztönöznek.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Mi jellemzi az „antológiasorozat” típusú tévésorozatot?",
+      "a": [
+        "Minden évadban vagy epizódban új történet és gyakran új szereplők jelennek meg",
+        "Ugyanaz a történet folytatódik változatlan szereplőkkel évadokon át",
+        "Csak egyetlen, hosszú epizódból áll az egész sorozat",
+        "Kizárólag valós eseményeken alapuló dokumentumjeleneteket mutat be"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az antológiasorozatokban (pl. American Horror Story) évadonként önálló történet és szereplőgárda váltja egymást.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Mi jellemző a „procedurális” sorozatokra, mint a nyomozós vagy kórházi sorozatok?",
+      "a": [
+        "Minden epizódban önálló esetet oldanak meg, a szálak nem évadokon átívelők",
+        "Az egész évad egyetlen folytatólagos, lezáratlan történetet mesél el",
+        "Kizárólag flashback-jelenetekből épül fel minden epizód",
+        "A szereplők minden epizódban más városba költöznek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A procedurális formátumban (pl. CSI: A helyszínelők) az epizódok önmagukban lezárt esetet mutatnak be, ellentétben a szerializált sorozatokkal.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Milyen sorozattípust nevezünk „szappanoperának”?",
+      "a": [
+        "Napi vagy heti rendszerességű, hosszan futó, érzelmi drámákra épülő sorozatot",
+        "Egy évadból álló, zárt történetű minisorozatot",
+        "Kizárólag zenés-táncos jeleneteket tartalmazó sorozatot",
+        "Élő közönség előtt rögzített vígjáték-sorozatot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szappanopera elnevezés onnan ered, hogy az amerikai nappali sorozatokat eredetileg szappan- és mosószergyártók szponzorálták.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Melyik film indította el 2008-ban a Marvel Filmes Univerzumot (MCU)?",
+      "a": [
+        "Vasember (Iron Man), Robert Downey Jr. főszereplésével",
+        "A Hihetetlen Hulk, Edward Norton főszereplésével",
+        "Amerika Kapitány: Az első bosszúálló, Chris Evansszel",
+        "Thor, Chris Hemsworth főszereplésével"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Vasember 2008-as bemutatója indította útjára a Marvel Filmes Univerzumot, amely azóta több tucat filmet és sorozatot foglal magába.",
+      "t": "franchise-ok"
+    },
+    {
+      "q": "Melyik évben mutatták be az eredeti Csillagok háborúja (Star Wars) filmet?",
+      "a": [
+        "1977",
+        "1971",
+        "1980",
+        "1975"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Csillagok háborúja első epizódja 1977. május 25-én került az amerikai mozikba George Lucas rendezésében.",
+      "t": "franchise-ok"
+    },
+    {
+      "q": "A 2023-ban bemutatott Fast X hányadik főcímes epizódja volt a Halálos iramban filmsorozatnak?",
+      "a": [
+        "A tizedik",
+        "A hetedik",
+        "A nyolcadik",
+        "A tizenkettedik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Fast X 2023-ban jelent meg, és a főcímes Halálos iramban-filmek sorában a tizedik epizódnak számít.",
+      "t": "franchise-ok"
+    },
+    {
+      "q": "Melyik film indította el 1962-ben a James Bond-filmsorozatot?",
+      "a": [
+        "A Dr. No, Sean Connery első Bond-alakításával",
+        "Aranyujj, amely később klasszikussá vált",
+        "Élni és halni hagyni, Roger Moore első filmje",
+        "Csak kétszer élsz, japán helyszínekkel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Dr. No 1962-ben mutatta be Sean Connery-t James Bond szerepében, megalapozva az azóta is futó filmfranchise-t.",
+      "t": "franchise-ok"
+    },
+    {
+      "q": "Hány mozifilmből áll a Harry Potter-filmsorozat (2001–2011)?",
+      "a": [
+        "Nyolc film, mert az utolsó könyvet két részre bontották",
+        "Hét film, a könyvekkel megegyező számban",
+        "Tíz film, beleértve a kiegészítő történeteket is",
+        "Hat film, az utolsó két könyvet összevonva"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A hetedik könyvet (Halál ereklyéi) két filmre bontották, így összesen nyolc főcímes Harry Potter-film készült.",
+      "t": "franchise-ok"
+    },
+    {
+      "q": "Miért számított úttörőnek technikai szempontból az 1993-as Jurassic Park?",
+      "a": [
+        "Mert elsőként alkalmazott meggyőző, fotorealisztikus CGI dinoszaurusz-animációt",
+        "Mert kizárólag animációs technikával, rajzolt dinoszauruszokkal készült",
+        "Mert az összes jelenetét zöld háttér előtt vették fel",
+        "Mert ez volt az első film, amelyet teljes egészében digitális kamerával forgattak"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Jurassic Park CGI és animatronika ötvözésével teremtett addig nem látott, valósághű dinoszaurusz-effekteket.",
+      "t": "franchise-ok"
+    },
+    {
+      "q": "Melyik stúdió készítette a Shrek animációs filmsorozatot?",
+      "a": [
+        "A DreamWorks Animation",
+        "A Walt Disney Animation Studios",
+        "A Pixar Animation Studios",
+        "Az Illumination Entertainment"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Shrek-filmeket a DreamWorks Animation készítette, első részük 2001-ben jelent meg.",
+      "t": "franchise-ok"
+    },
+    {
+      "q": "Miért tekintik a Toy Story (1995) korszakalkotó filmnek az animáció történetében?",
+      "a": [
+        "Ez volt az első teljes egészében számítógépes animációval készült egész estés film",
+        "Ez volt az első film, amelyben élőszereplők és rajzfilmfigurák együtt szerepeltek",
+        "Ez volt az első Disney-film, amely fekete-fehérben készült",
+        "Ez volt az első animációs film, amely némafilmként jelent meg"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Toy Story 1995-ös bemutatásával vált az első, teljes egészében számítógépes animációval (CGI) készült egész estés filmmé.",
+      "t": "franchise-ok"
+    },
+    {
+      "q": "Ki alapította a japán Studio Ghiblit 1985-ben?",
+      "a": [
+        "Hayao Miyazaki és Isao Takahata",
+        "Walt Disney és Roy Disney",
+        "Osamu Tezuka egyedül",
+        "Satoshi Kon és Mamoru Oshii"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Studio Ghiblit Hayao Miyazaki és Isao Takahata alapította 1985-ben, olyan filmekkel, mint a Chihiro Szellemországban.",
+      "t": "animáció"
+    },
+    {
+      "q": "Melyik Disney-film volt az első teljes estés, színes rajzfilm 1937-ben?",
+      "a": [
+        "A Hófehérke és a hét törpe, 1937-es bemutatóval",
+        "A Fantázia, klasszikus zenei aláfestéssel",
+        "A Bambi, amely 1942-ben készült",
+        "A Pinokkió, amely 1940-ben jelent meg"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Hófehérke és a hét törpe 1937-ben mutatta be a Walt Disney Studio, ez volt az első egész estés színes animációs film.",
+      "t": "animáció"
+    },
+    {
+      "q": "Mi jellemzi a „stop-motion” animációs technikát?",
+      "a": [
+        "Fizikai bábukat vagy tárgyakat mozdítanak apránként, majd egyesével fényképeznek",
+        "Kizárólag számítógépes szoftverrel rajzolt kockákból építik fel a mozgást",
+        "Élő színészek mozgását digitálisan rögzítik érzékelőkkel",
+        "Kézzel rajzolt papírlapokat vetítenek egymás után nagy sebességgel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A stop-motionnál (pl. Wallace és Gromit) minden kockához apránként mozdítják el a bábukat, majd lefényképezik őket.",
+      "t": "animáció"
+    },
+    {
+      "q": "Melyik film nyerte el a legjobb animációs film Oscar-díjának első átadását 2002-ben?",
+      "a": [
+        "A Shrek, a DreamWorks filmje",
+        "A Szörny Rt., a Pixar alkotása",
+        "A Hupikék törpikék film-verziója",
+        "A Zootropolis, a Disney animációja"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A legjobb animációs film Oscar-kategóriáját 2002-ben vezették be, és az első díjat a Shrek nyerte el.",
+      "t": "animáció"
+    },
+    {
+      "q": "Melyik ország animációs stílusát nevezik „animénak”?",
+      "a": [
+        "Japán, ahol a stílus a 20. század elején alakult ki",
+        "Dél-Korea, ahol elsősorban webtoon-alapú sorozatok készülnek",
+        "Kína, ahol a hagyományos animációt donghuának nevezik",
+        "Franciaország, ahol Európa legnagyobb animációs ipara működik"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az anime kifejezés a japán animációra utal, amely jellegzetes rajzstílusáról és sokszínű műfaji kínálatáról ismert.",
+      "t": "animáció"
+    },
+    {
+      "q": "Mi különbözteti meg a „claymation” technikát az általános stop-motiontól?",
+      "a": [
+        "Gyurmából (agyagból) formázott figurákat animálnak kockánként",
+        "Kizárólag papírból kivágott sziluetteket mozgatnak",
+        "Csak digitálisan modellezett 3D-s bábukat használ",
+        "Élő színészeket vetítenek rajzolt háttér elé"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A claymation a stop-motion egyik altípusa, ahol a figurákat gyurmából formázzák, és képkockánként alakítják mozgásukat.",
+      "t": "animáció"
+    },
+    {
+      "q": "Melyik 2015-ös Pixar-film alapötlete forog az emberi érzelmek megszemélyesítése körül?",
+      "a": [
+        "Az Agymanók, amelyben az érzelmek irányítják egy kislány fejét",
+        "A Coco, amely a mexikói halottak napjáról szól",
+        "A Ratatouille, amely egy szakácspatkányról szól",
+        "A Wall-E, amely egy takarítórobotról szól"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Agymanók (Inside Out) 2015-ös Pixar-film, amelyben az alapérzelmek (Öröm, Szomor, Félsz, Undor, Harag) egy kislány fejében dolgoznak.",
+      "t": "animáció"
+    },
+    {
+      "q": "Mi a „jump scare” lényege a horrorfilmekben?",
+      "a": [
+        "Hirtelen, váratlan hang vagy kép ijeszti meg a nézőt egy csendes pillanat után",
+        "A film egésze lassú, fokozatosan épülő félelmet kelt",
+        "A szereplők folyamatosan sikoltoznak az egész film alatt",
+        "A rendező előre figyelmezteti a nézőt a következő ijesztő jelenetre"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jump scare hirtelen vizuális vagy hangeffektussal lepi meg a nézőt, gyakran feszült csend után.",
+      "t": "horror"
+    },
+    {
+      "q": "Mi jellemzi a „found footage” horrorfilmeket, mint a Baljós árnyék?",
+      "a": [
+        "Úgy mutatják be, mintha talált, amatőr felvételekből állna össze a film",
+        "Kizárólag régi filmarchívumokból vágott jelenetekből épülnek fel",
+        "A film végig egyetlen vágás nélküli beállításban játszódik",
+        "A szereplők sosem beszélnek, csak feliratok magyaráznak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A found footage stílus azt a látszatot kelti, hogy a felvételeket a szereplők maguk készítették, és utólag megtalálták.",
+      "t": "horror"
+    },
+    {
+      "q": "Melyik 1960-as Alfred Hitchcock-film zuhanyjelenete vált a filmtörténet egyik leghíresebb horrorpillanatává?",
+      "a": [
+        "A Psycho, Norman Bates történetével",
+        "A Madarak, amelyben tömegesen támadnak a szárnyasok",
+        "Az Ablak-hátsó, amely egy gyilkosság megfigyeléséről szól",
+        "A Szédülés, amely a magasságtól való félelemről szól"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Psycho (1960) híres zuhanyjelenetét hét napig forgatták, és azóta is a filmtörténet egyik legidézettebb pillanata.",
+      "t": "horror"
+    },
+    {
+      "q": "Mi különbözteti meg a „slasher” horror-alműfajt a horror más típusaitól?",
+      "a": [
+        "Egy álarcos vagy azonosítható gyilkos sorra öli az áldozatokat éles fegyverrel",
+        "A félelmet kizárólag pszichológiai eszközökkel, gyilkos nélkül kelti",
+        "A történet mindig egy elátkozott tárgy köré épül",
+        "A cselekmény kizárólag a szereplők álmaiban játszódik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A slasher filmekre (pl. Halloween, Péntek 13.) jellemző az ismétlődő, felismerhető gyilkos figurája és a sorozatos gyilkosságok.",
+      "t": "horror"
+    },
+    {
+      "q": "Melyik 1978-as film indította el a Halloween horror-filmfranchise-t, és tette ikonikussá Michael Myers alakját?",
+      "a": [
+        "A Halloween, John Carpenter rendezésében",
+        "A Texasi láncfűrészes mészárlás",
+        "A Karácsonyi ölés (Black Christmas)",
+        "A Ragyogás (The Shining)"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "John Carpenter 1978-as Halloween című filmje indította el a maszkos gyilkos Michael Myers történetét, megalapozva a slasher-műfajt.",
+      "t": "horror"
+    },
+    {
+      "q": "Miért volt jelentős újítás Az ördögűző (1973) a horrorfilmek történetében?",
+      "a": [
+        "Elsőként kapott Oscar-jelölést a legjobb film kategóriában horrorfilmként",
+        "Ez volt az első amerikai horrorfilm, amelyet feketefehérben forgattak",
+        "Ez volt az első horrorfilm, amelyben egyáltalán nem szerepelt zene",
+        "Ez volt az első horrorfilm, amelyet kizárólag gyerekszínészekkel forgattak"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ördögűző az első horrorfilm volt, amely Oscar-jelölést kapott a legjobb film kategóriában, ami akkoriban példátlan elismerésnek számított.",
+      "t": "horror"
+    },
+    {
+      "q": "Melyik 1982-es Ridley Scott-film alapozta meg a cyberpunk filmes esztétikát?",
+      "a": [
+        "A Szárnyas fejvadász, replikánsokkal és neonfényes városokkal",
+        "Az Alien, a nyolcadik utas, egy űrhajón bujkáló szörnnyel",
+        "A Tron, amely egy digitális világban játszódik",
+        "A Csillagközi invázió, egy idegen inváziós történet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Szárnyas fejvadász esőáztatta, neonfényes városképe és replikáns-témája meghatározta a cyberpunk vizuális nyelvét.",
+      "t": "sci-fi"
+    },
+    {
+      "q": "Mi a Mátrix (1999) című film egyik leghíresebb effektje, amely a lelassított, körbeforgó kameramozgást jelenti?",
+      "a": [
+        "A bullet time, amely a mozgást lelassítva, kameraforgással mutatja",
+        "A green screen technika, amely digitális hátteret illeszt be",
+        "A motion capture, amely színészi mozgást digitalizál",
+        "A stop-motion, amely bábukat kockánként mozgat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Mátrix bullet time effektje körben elhelyezett kamerák segítségével hozta létre a lelassított, forgó kameramozgás illúzióját.",
+      "t": "sci-fi"
+    },
+    {
+      "q": "Melyik 1968-as Stanley Kubrick-film dolgozza fel a mesterséges intelligencia témáját a HAL 9000 számítógéppel?",
+      "a": [
+        "A 2001: Űrodüsszeia, a HAL 9000 fedélzeti számítógéppel",
+        "A Dr. Strangelove, egy szatirikus hidegháborús film",
+        "A Ragyogás, egy kísértetjárta szálloda története",
+        "A Teljes fegyverzetben, egy vietnami háborús film"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 2001: Űrodüsszeiában szereplő HAL 9000 mesterséges intelligencia lett az egyik legikonikusabb sci-fi számítógép-karakter.",
+      "t": "sci-fi"
+    },
+    {
+      "q": "Melyik brit sci-fi sorozat fut megszakításokkal 1963 óta, és tartja az egyik leghosszabb futási idő rekordját?",
+      "a": [
+        "A Ki vagy, doki?, a regeneráció-koncepciójú brit sorozat",
+        "Az Idegen világ, az amerikai űropera-franchise",
+        "A Battlestar Galactica, egy emberiség-menekülés története",
+        "A Babylon 5, egy űrállomáson játszódó sorozat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Ki vagy, doki? 1963-ban indult a BBC-n, és a regeneráció koncepciója miatt tudott évtizedeken át új főszereplőkkel folytatódni.",
+      "t": "sci-fi"
+    },
+    {
+      "q": "Mi az oka annak, hogy a Csillagok háborúja eredeti trilógiáját (1977–1983) a legnagyobb hatású sci-fi sorozatok között tartják számon?",
+      "a": [
+        "Mert olyan effekteket és univerzumépítést hozott, ami mintaként szolgál azóta",
+        "Mert kizárólag amatőr színészekkel forgatták az összes szerepet",
+        "Mert soha nem játszódott a Földtől eltérő bolygón",
+        "Mert teljesen dialógus nélkül, csak zenével mesélte el a történetet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "George Lucas trilógiája új szintre emelte a különleges effektusokat és a franchise-építést, meghatározva a modern sci-fi filmezést.",
+      "t": "sci-fi"
+    },
+    {
+      "q": "Mit jelent a sci-fi „disztópia” kifejezés a filmekben?",
+      "a": [
+        "Egy elnyomó, kedvezőtlen jövőbeli társadalmi berendezkedést ábrázoló történet",
+        "Egy tökéletesen boldog, konfliktusmentes jövőt bemutató történet",
+        "Egy múltbeli, történelmi korban játszódó történetet",
+        "Egy kizárólag állatokról szóló mesefilmet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A disztópia egy elnyomó, gyakran totalitárius vagy összeomlott jövőbeli társadalmat mutat be, mint a Mátrix vagy az 1984 feldolgozásai.",
+      "t": "sci-fi"
+    },
+    {
+      "q": "Melyik színésznő rendelkezik minden idők legtöbb Oscar-jelölésével (21 jelöléssel)?",
+      "a": [
+        "Meryl Streep, akit 21-szer jelöltek Oscarra",
+        "Katharine Hepburn, aki négy Oscart nyert",
+        "Judi Dench, a brit színház és film ünnepelt alakja",
+        "Cate Blanchett, kétszeres Oscar-díjas ausztrál színésznő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Meryl Streepet a filmtörténetben eddig senki mást nem jelölték annyiszor (21 alkalommal) Oscar-díjra.",
+      "t": "Oscar"
+    },
+    {
+      "q": "Melyik film lett 2020-ban az első nem angol nyelvű alkotás, amely elnyerte a legjobb film Oscarját?",
+      "a": [
+        "Az Élősködők, Bong Joon-ho dél-koreai filmje",
+        "A Roma, Alfonso Cuarón mexikói-amerikai filmje",
+        "Az Amour, Michael Haneke osztrák-francia filmje",
+        "A Cold War, Paweł Pawlikowski lengyel filmje"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Élősködők (Parasite) 2020-ban az első, angolul nem forgatott film lett, amely elnyerte a legjobb film Oscarját.",
+      "t": "Oscar"
+    },
+    {
+      "q": "Melyik film volt az első, amely mind a 11 kategóriában, ahol jelölték, Oscar-díjat is nyert?",
+      "a": [
+        "A Gyűrűk Ura: A király visszatér, mind a 11 jelöléséből díjat nyert",
+        "A Titanic, amely szintén 11 Oscart nyert, de nem mind a jelöléséből",
+        "A Ben-Hur, amely 12 jelölésből 11 díjat nyert",
+        "A La La Land, amely 14 jelölésből 6 díjat nyert"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Gyűrűk Ura: A király visszatér egyedülálló módon mind a 11 kategóriában győzött, ahol jelölték, ezzel a legtöbb Oscart nyert filmek közé emelkedve.",
+      "t": "Oscar"
+    },
+    {
+      "q": "Miért vált híressé a 2017-es Oscar-gála a legjobb film kategóriájának bejelentésekor?",
+      "a": [
+        "Mert tévesen a La La Landet jelentették be győztesnek a Holdfény helyett",
+        "Mert a díjat véletlenül két filmnek is odaítélték egyszerre",
+        "Mert a nyertes rendező nem jelent meg átvenni a díjat",
+        "Mert a borítékot elveszítették, és újra kellett szavazni"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "2017-ben a bemutatók rossz borítékot kaptak, ezért tévesen a La La Landet hirdették ki győztesnek, mielőtt kiderült, hogy valójában a Holdfény nyert.",
+      "t": "Oscar"
+    },
+    {
+      "q": "Melyik három film osztozik a legtöbb, 11-11 elnyert Oscar-díj rekordján?",
+      "a": [
+        "A Titanic, a Ben-Hur és A Gyűrűk Ura: A király visszatér",
+        "A Titanic, az Avatar és a Bosszúállók: Végjáték",
+        "A Casablanca, az Elfújta a szél és a Ben-Hur",
+        "A Titanic, a La La Land és a Holdfény"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Titanic (1997), a Ben-Hur (1959) és A Gyűrűk Ura: A király visszatér (2003) mindegyike 11 Oscar-díjat nyert, holtversenyben a csúcson.",
+      "t": "Oscar"
+    },
+    {
+      "q": "Milyen szerepért kapott Oscar-díjat Meryl Streep 2012-ben, harmadik győzelmeként?",
+      "a": [
+        "Margaret Thatcher alakításáért A Vaslady című filmben",
+        "Julia Child alakításáért a Julie & Julia című filmben",
+        "Miranda Priestly alakításáért Az Ördög Pradát visel című filmben",
+        "Karen Blixen alakításáért Az Afrika, sötét kontinens című filmben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Meryl Streep 2012-ben A Vaslady című filmben nyújtott Margaret Thatcher-alakításáért kapta harmadik Oscar-díját.",
+      "t": "Oscar"
+    },
+    {
+      "q": "Melyik animációs sorozat vált 2018-ban minden idők leghosszabb ideig futó amerikai főműsoridős sorozatává?",
+      "a": [
+        "A Simpson család, amely lehagyta a Gunsmoke westernsorozatot",
+        "A Family Guy, a Seth MacFarlane-sorozat",
+        "A South Park, a Comedy Central sorozata",
+        "A Futurama, Matt Groening másik sorozata"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Simpson család 2018-ban a 636. epizódjával lekörözte a Gunsmoke westernsorozatot, és minden idők leghosszabb főműsoridős sorozatává vált.",
+      "t": "sorozatrekordok"
+    },
+    {
+      "q": "Melyik sorozat gyűjtötte a legtöbb Emmy-díjat a televíziótörténelemben, megelőzve a korábbi rekordtartó Dumagépet?",
+      "a": [
+        "A Trónok harca, az HBO fantasy-sorozata",
+        "A Breaking Bad, egy tanárból drogbáróvá váló főhőssel",
+        "A Mad Men, egy 1960-as évekbeli reklámügynökségről szóló sorozat",
+        "A The Crown, a brit királyi családról szóló sorozat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Trónok harca a nyolc évada alatt annyi Emmy-díjat gyűjtött, hogy megelőzte az addigi rekordtartó Dumagépet (Frasier).",
+      "t": "sorozatrekordok"
+    },
+    {
+      "q": "Melyik dél-koreai Netflix-sorozat vált 2021-es bemutatója után a szolgáltató valaha volt legnézettebb sorozatává?",
+      "a": [
+        "A Nyerd meg az életed (Squid Game), a halálos túlélőjátékról szóló sorozat",
+        "A Kingdom, egy zombis történelmi sorozat",
+        "Az Extraordinary Attorney Woo, egy jogi drámasorozat",
+        "A Sweet Home, egy szörnyekkel teli lakóházról szóló sorozat"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Nyerd meg az életed (Squid Game) 2021-es bemutatója után rekordidő alatt vált a Netflix valaha volt legnézettebb sorozatává.",
+      "t": "sorozatrekordok"
+    },
+    {
+      "q": "Mit jelent az, ha egy sorozat epizódjait „évadokra” bontják?",
+      "a": [
+        "Az epizódokat gyártási vagy sugárzási időszakok szerint csoportosítják",
+        "Az epizódokat kizárólag évszakok szerint (tavasz, nyár, ősz, tél) rendezik",
+        "Az epizódokat a szereplők életkora szerint sorolják csoportokba",
+        "Az epizódokat a nézettségük alapján rangsorolják"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az évad egy sorozat epizódjainak egy gyártási ciklusban bemutatott csoportja, amelyet gyakran hosszabb szünet választ el a következőtől.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Mi a „season finale”, azaz évadzáró epizód szerepe egy sorozatban?",
+      "a": [
+        "Lezárja az adott évad fő cselekményszálait, gyakran cliffhangerrel",
+        "Bemutatja a sorozat legelső jelenetét flashback formájában",
+        "Mindig a sorozat legnézettebb epizódja reklámbevétel szempontjából",
+        "Kizárólag a szereplők életét bemutató dokumentarista epizód"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A season finale az adott évad utolsó epizódja, amely lezárja vagy felfüggeszti, gyakran cliffhangerrel, a fő történetszálakat.",
+      "t": "sorozatfogalmak"
+    },
+    {
+      "q": "Melyik rendező készítette a Psycho, a Madarak és a Szédülés című filmeket, és vált a feszültségkeltés mesterének becézett alkotóvá?",
+      "a": [
+        "Alfred Hitchcock",
+        "Orson Welles, a Citizen Kane rendezője",
+        "Billy Wilder, a Van, aki forrón szereti rendezője",
+        "John Ford, a klasszikus westernek rendezője"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Alfred Hitchcockot a szuszpenzió (feszültségkeltés) mesterének tartják, olyan filmek miatt, mint a Psycho vagy a Madarak.",
+      "t": "rendezők"
+    },
+    {
+      "q": "Melyik japán rendező alkotta meg a Chihiro Szellemországban és a Vándorló palota című animációs filmeket?",
+      "a": [
+        "Hayao Miyazaki, a Studio Ghibli társalapítója",
+        "Isao Takahata, A tűzszentjánosbogarak sírja rendezője",
+        "Satoshi Kon, a Perfect Blue rendezője",
+        "Makoto Shinkai, a Kimi no Na wa rendezője"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Hayao Miyazaki rendezte a Chihiro Szellemországban (Oscar-díjas) és a Vándorló palota című animációs filmeket is.",
+      "t": "rendezők"
+    },
+    {
+      "q": "Melyik dél-koreai rendező nyert 2020-ban legjobb rendező Oscart az Élősködők (Parasite) című filmért?",
+      "a": [
+        "Bong Joon-ho, aki egyben producere is volt a filmnek",
+        "Park Chan-wook, az Oldboy rendezője",
+        "Kim Ki-duk, a Tavasz, nyár, ősz, tél... és tavasz rendezője",
+        "Lee Chang-dong, a Poetry rendezője"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Bong Joon-ho 2020-ban négy Oscart is nyert az Élősködőkkel, köztük a legjobb rendezőnek járót.",
+      "t": "rendezők"
+    },
+    {
+      "q": "Melyik rendező nevéhez fűződik a Ragyogás, a 2001: Űrodüsszeia és a Teljes fegyverzetben című filmek?",
+      "a": [
+        "Stanley Kubrick, aki minden filmjénél a részletekre koncentrált",
+        "Martin Scorsese, a Taxisofőr rendezője",
+        "Francis Ford Coppola, A Keresztapa rendezője",
+        "Terrence Malick, Az örök éden rendezője"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Stanley Kubrick rendezte a 2001: Űrodüsszeiát, a Ragyogást és a Teljes fegyverzetben című háborús drámát is.",
+      "t": "rendezők"
+    },
+    {
+      "q": "Miért volt szokatlan Quentin Tarantino elbeszélésmódja, amikor az 1990-es években berobbant a filmiparba a Ponyvaregénnyel?",
+      "a": [
+        "Mert gyakran időrendben felborított, nem lineáris szerkezetben mesélte el a történetet",
+        "Mert kizárólag néma, feliratos filmeket rendezett egész pályafutása alatt",
+        "Mert soha nem használt párbeszédet, csak zenét és képet",
+        "Mert minden filmjét valós idejű, vágás nélküli felvételként forgatta"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Tarantino filmjei, mint a Ponyvaregény, gyakran nem lineáris, felcserélt idősíkokban mesélik el a történetet.",
+      "t": "rendezők"
+    },
+    {
+      "q": "Melyik rendezőt nevezik gyakran a spagettiwestern műfaj megteremtőjének, aki Clint Eastwooddal forgatta a Dollár-trilógiát?",
+      "a": [
+        "Sergio Leone, olasz rendező, aki Spanyolországban forgatott westerneket",
+        "John Ford, az amerikai klasszikus western úttörője",
+        "Howard Hawks, sokoldalú amerikai rendező",
+        "Sam Peckinpah, a Vad banda rendezője"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Sergio Leone olasz rendező alkotta meg a spagettiwestern stílust, amelynek legismertebb darabjai a Clint Eastwooddal forgatott Dollár-trilógia részei.",
+      "t": "rendezők"
+    },
+    {
+      "q": "Melyik színész alakította Jack Sparrow kapitányt A Karib-tenger kalózai filmsorozatban?",
+      "a": [
+        "Johnny Depp, a főszereplő kapitány alakítója",
+        "Orlando Bloom, Will Turner alakítója",
+        "Geoffrey Rush, Barbossa kapitány alakítója",
+        "Javier Bardem, egy későbbi rész gonoszának alakítója"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Johnny Depp alakította Jack Sparrow kapitányt, amelyért Oscar-jelölést is kapott az első részben nyújtott alakításáért.",
+      "t": "színészek"
+    },
+    {
+      "q": "Melyik színésznő lett 21 évesen minden idők egyik legfiatalabb legjobb női főszereplő Oscar-díjasa 1987-ben, a Csend, dadogásom (Children of a Lesser God) című filmért?",
+      "a": [
+        "Marlee Matlin, aki egyben siket színésznőként is történelmet írt",
+        "Jennifer Lawrence, aki 22 évesen nyert Oscart",
+        "Natalie Portman, a Fekete hattyú főszereplője",
+        "Reese Witherspoon, a Walk the Line főszereplője"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Marlee Matlin 21 évesen nyerte el a legjobb női főszereplőnek járó Oscart, és ő az egyetlen siket színész, aki eddig díjat kapott ebben a kategóriában.",
+      "t": "színészek"
+    },
+    {
+      "q": "Melyik színész alakította a Terminátort a hasonló című filmsorozat első részeiben?",
+      "a": [
+        "Arnold Schwarzenegger, aki később kaliforniai kormányzó is lett",
+        "Sylvester Stallone, a Rocky és a Rambo főszereplője",
+        "Jean-Claude Van Damme, belga akciósztár",
+        "Dolph Lundgren, a Rocky IV szovjet ökölvívója"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Arnold Schwarzenegger alakította a Terminátort James Cameron 1984-es filmjében és annak folytatásaiban.",
+      "t": "színészek"
+    },
+    {
+      "q": "Melyik színész alakította Michael Corleonét A Keresztapa-trilógiában?",
+      "a": [
+        "Al Pacino, aki a fiatal Michael Corleonét alakította",
+        "Robert De Niro, a fiatal Vito Corleone alakítója a második részben",
+        "Marlon Brando, az idős Vito Corleone alakítója",
+        "James Caan, Sonny Corleone alakítója"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Al Pacino alakította Michael Corleonét mindhárom Keresztapa-filmben, míg apját fiatalon Robert De Niro, idősen Marlon Brando alakította.",
+      "t": "színészek"
+    },
+    {
+      "q": "Melyik színésznő alakította Elizabeth Bennetet a 2005-ös Büszkeség és balítélet filmadaptációban?",
+      "a": [
+        "Keira Knightley, aki Oscar-jelölést is kapott az alakításért",
+        "Emma Thompson, aki inkább az Értelem és érzelemben szerepelt",
+        "Kate Winslet, aki a Titanicban vált híressé",
+        "Rachel Weisz, aki inkább drámai szerepeiről ismert"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Keira Knightley alakította Elizabeth Bennetet a 2005-ös filmadaptációban, amelyért Oscar-jelölést is kapott.",
+      "t": "színészek"
+    },
+    {
+      "q": "Mi a „motion capture” lényege a filmkészítésben?",
+      "a": [
+        "Színészek mozgását érzékelőkkel rögzítik, majd digitális karakterre viszik át",
+        "A kamera mozgását robotkarral automatikusan ismétlik minden felvételnél",
+        "A film utómunkájában a színek telítettségét állítják be",
+        "A stúdióban rögzített hangokat utólag szinkronizálják a képre"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A motion capture technológiával (pl. Gollam alakja A Gyűrűk Ura filmekben) a színész valódi mozgását digitalizálják egy CGI-karakterre.",
+      "t": "effektek"
+    },
+    {
+      "q": "Melyik filmtrilógiában alkalmazták kiemelten a motion capture technológiát Gollam karakterének megalkotásához?",
+      "a": [
+        "A Gyűrűk Ura filmtrilógiában, Andy Serkis alakításával",
+        "A Karib-tenger kalózaiban, Davy Jones karakteréhez",
+        "Az Avatarban, a Na'vi karakterekhez",
+        "A Bosszúállók filmekben, Hulk karakteréhez"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Gollam karakterét A Gyűrűk Ura filmekben Andy Serkis alakította motion capture technológiával, amely úttörő volt a digitális karakteralkotásban.",
+      "t": "effektek"
+    },
+    {
+      "q": "Mi jellemzi a „gyakorlati effektusokat” a filmes CGI-vel szemben?",
+      "a": [
+        "Fizikailag, a forgatás helyszínén létrehozott hatásokat jelentenek",
+        "Kizárólag utómunkában, számítógépen létrehozott képi elemeket jelentenek",
+        "A film zenei aláfestésének utólagos hangkeverését jelentik",
+        "A színészek arcára utólag rárajzolt digitális sminket jelentik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gyakorlati effektusok fizikailag, forgatás közben jönnek létre, pl. animatronikus dinoszauruszok a Jurassic Parkban, szemben a digitálisan előállított CGI-vel.",
+      "t": "effektek"
+    },
+    {
+      "q": "Mit jelent a „green screen” technika alkalmazása egy filmben?",
+      "a": [
+        "Egyszínű háttér előtt forgatnak, amit utólag digitálisan más képre cserélnek",
+        "A film minden kockáját zöld szűrővel vetítik a moziban",
+        "A színészek arcát zöld sminkkel festik ki éjszakai jelenetekhez",
+        "A stáb zöld ruhát visel, hogy ne látszódjon a képen"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A green screen egyszínű háttér előtti forgatást jelent, amit a vágás során digitálisan lecserélnek egy másik képre vagy háttérre.",
+      "t": "effektek"
+    },
+    {
+      "q": "Mi a „Foley”-hang szerepe a filmes utómunkában?",
+      "a": [
+        "Stúdióban élőben újrakeltett hétköznapi hangeffektusokat jelent",
+        "A színészek eredeti, forgatáson rögzített párbeszédét jelenti",
+        "A film zenei aláfestésének szimfonikus felvételét jelenti",
+        "A háttérzajok teljes eltávolítását jelenti a végleges hangsávról"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Foley-hang olyan hétköznapi zajokat (lépések, ruhasuhogás, ütések) jelent, amelyeket a stúdióban utólag, élőben rögzítenek a képhez illesztve.",
+      "t": "effektek"
+    },
+    {
+      "q": "Mi jellemzi a klasszikus „film noir” stílust az 1940-es évek amerikai filmjeiben?",
+      "a": [
+        "Sötét, árnyékos fényképezés, cinikus főhős és bűnügyi, kiábrándult hangulat",
+        "Színes, derűs hangulat és happy enddel záruló romantikus történetek",
+        "Kizárólag zenés-táncos jelenetekre épülő cselekmény",
+        "Dokumentarista stílusú, valós eseményeket bemutató elbeszélés"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A film noirra jellemző a kontrasztos, árnyékos fényképezés, a cinikus főhős és a morálisan szürke, bűnügyi történetek.",
+      "t": "film noir"
+    },
+    {
+      "q": "Miért nevezik „spagettiwesternnek” az olasz-spanyol koprodukcióban készült westernfilmeket?",
+      "a": [
+        "Mert olasz alkotók és stáb készítette őket, gyakran Spanyolországban",
+        "Mert a szereplők mindig tésztát esznek a jelenetekben",
+        "Mert kizárólag olasz nyelven szinkronizálták őket utólag",
+        "Mert a filmzenéket mindig olasz operaénekesek adták elő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A spagettiwestern elnevezés onnan ered, hogy ezeket a westernfilmeket jellemzően olasz rendezők és stábok készítették, gyakran spanyolországi helyszíneken.",
+      "t": "western"
+    },
+    {
+      "q": "Melyik 1965-ös musicalfilm meséli el a Trapp-család történetét Ausztriában, és nyerte el a legjobb film Oscarját?",
+      "a": [
+        "A Muzsika hangja, Julie Andrews főszereplésével",
+        "A West Side Story, Natalie Wood főszereplésével",
+        "A Mary Poppins, egy varázslatos dadus történetével",
+        "Az Oliver!, Charles Dickens regénye alapján"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Muzsika hangja (1965) Julie Andrews főszereplésével dolgozta fel a Trapp-család történetét, és elnyerte a legjobb film Oscarját is.",
+      "t": "musical"
+    },
+    {
+      "q": "Mi a különbség a „jukebox musical” és a hagyományos musicalfilm között?",
+      "a": [
+        "A jukebox musical már létező, korábban megjelent slágerekre építi a történetet",
+        "A jukebox musical kizárólag hangszeres, szöveg nélküli zenét használ",
+        "A hagyományos musical soha nem tartalmaz eredeti dalokat",
+        "A jukebox musical mindig élő koncertfelvételekből áll össze"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A jukebox musical, pl. a Mamma Mia!, korábban kiadott, ismert slágerek köré építi fel a történetet, ellentétben az eredeti dalokkal készült musicalekkel.",
+      "t": "musical"
+    },
+    {
+      "q": "Melyik 1969-es western meséli el két törvényen kívüli barát történetét Paul Newman és Robert Redford főszereplésével?",
+      "a": [
+        "A Butch Cassidy és a Sundance kölyök, két törvényen kívüli barátról",
+        "A Volt egyszer egy vadnyugat, Sergio Leone rendezésében",
+        "A Hét mesterlövész, egy falut védő zsoldosokról",
+        "A Semmi vér, Coen testvérek filmje"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Butch Cassidy és a Sundance kölyök (1969) Paul Newman és Robert Redford főszereplésével az egyik legismertebb késői westernklasszikus.",
+      "t": "western"
+    },
+    {
+      "q": "Mi jellemzi a „revizionista western” alműfajt a klasszikus westernekhez képest?",
+      "a": [
+        "Árnyaltabban, kevésbé heroikusan ábrázolja a vadnyugatot és szereplőit",
+        "Kizárólag komikus, paródiajelleggel dolgozza fel a témát",
+        "Sosem szerepelnek benne lovak vagy fegyverek",
+        "Mindig happy enddel zárul, konfliktus nélkül"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A revizionista western, pl. a Nincs bocsánat, árnyaltabb, gyakran erkölcsileg összetettebb képet fest a vadnyugatról, mint a klasszikus műfaj.",
+      "t": "western"
+    },
+    {
+      "q": "Melyik évben indította el a Netflix a streamingszolgáltatását a korábbi DVD-kölcsönzés mellett?",
+      "a": [
+        "2007",
+        "1999",
+        "2013",
+        "2010"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Netflix 2007-ben indította el videó-streaming szolgáltatását, amely fokozatosan háttérbe szorította eredeti DVD-kölcsönző üzletágát.",
+      "t": "streaming"
+    },
+    {
+      "q": "Melyik volt a Netflix első saját gyártású, teljes évaddal egyszerre megjelent sorozata 2013-ban?",
+      "a": [
+        "A Kártyavár, Kevin Spacey főszereplésével",
+        "A Narcos, Pablo Escobarról szóló sorozat",
+        "A Stranger Things, egy 80-as évekbeli sci-fi horror",
+        "Az Orange is the New Black, egy női börtönről szóló sorozat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Kártyavár (House of Cards) volt a Netflix első nagy saját gyártású sorozata, amely 2013-ban indult, és teljes évaddal egyszerre jelent meg.",
+      "t": "streaming"
+    },
+    {
+      "q": "Mit jelent a „day-and-date” bemutatási modell a streaming korában?",
+      "a": [
+        "A film ugyanazon a napon jelenik meg moziban és a streamingplatformon is",
+        "A film kizárólag streamingen jelenik meg, moziban soha",
+        "A film csak korlátozott ideig, egyetlen napra érhető el",
+        "A film bemutatóját minden országban más napra időzítik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A day-and-date modellben a stúdió egyszerre indítja a mozis és a streaming-bemutatót, amit sok stúdió a pandémia idején alkalmazott.",
+      "t": "streaming"
+    },
+    {
+      "q": "Melyik ország filmipara gyártja évente a legtöbb egész estés játékfilmet, s ennek egyik központja Mumbai, azaz Bollywood?",
+      "a": [
+        "India, ahol a Bollywood mellett több regionális filmipar is működik",
+        "Kína, ahol az állami filmgyártás is jelentős",
+        "Nigéria, ahol a Nollywood filmipar működik",
+        "USA, ahol Hollywood a filmgyártás központja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "India filmipara, amelynek egyik központja a mumbai Bollywood, évente a legtöbb egész estés játékfilmet állítja elő a világon.",
+      "t": "világfilm"
+    },
+    {
+      "q": "Mi az elnevezése Nigéria virágzó, nagy mennyiségű filmet gyártó filmiparának?",
+      "a": [
+        "A Nollywood, amely a világ egyik legnagyobb volumenű filmipara",
+        "A Bollywood, India hindi nyelvű filmipara",
+        "A Lollywood, Pakisztán filmipara",
+        "A Tollywood, a dél-indiai telugu nyelvű filmipar"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nollywood elnevezés Nigéria hatalmas volumenű, alacsony költségvetésű filmiparára utal, amely darabszámban a világ élvonalába tartozik.",
+      "t": "világfilm"
+    },
+    {
+      "q": "Melyik 1922-es filmet tartják gyakran az első nagyjátékfilm-hosszúságú dokumentumfilmnek?",
+      "a": [
+        "A Nanook, az eszkimó, Robert Flaherty filmje",
+        "A Man with a Movie Camera, szovjet avantgárd film",
+        "A Triumph des Willens, náci propagandafilm",
+        "A Night and Fog, a holokausztról szóló film"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Nanook, az eszkimó (1922) Robert Flaherty filmje, amelyet gyakran az első nagyjátékfilm-hosszúságú dokumentumfilmnek tartanak, bár több jelenetét megrendezték.",
+      "t": "dokumentumfilm"
+    },
+    {
+      "q": "Mi a különbség a rendező és a producer feladatköre között egy filmes produkcióban?",
+      "a": [
+        "A rendező a kreatív megvalósítást, a producer a finanszírozást irányítja",
+        "A rendező csak a vágást végzi, a producer forgatja a jeleneteket",
+        "A producer írja a forgatókönyvet, a rendező azt csak felolvassa",
+        "A rendező és a producer feladata teljesen azonos, csak a cím különbözik"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A rendező felelős a film művészi irányításáért a forgatáson, míg a producer a projekt finanszírozását, ütemezését és gyártását szervezi.",
+      "t": "filmes szakmák"
     }
   ]
 }

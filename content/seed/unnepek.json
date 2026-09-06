@@ -2220,6 +2220,526 @@
       "d": "easy",
       "e": "A Kwanzaát december 26. és január 1. között ünneplik.",
       "t": "afrikai és kulturális ünnepek"
+    },
+    {
+      "q": "Miért esik a húsvét dátuma évről évre más napra a keresztény hagyományban?",
+      "a": [
+        "Mert a tavaszi napéjegyenlőség utáni első holdtöltét követő vasárnap",
+        "Mert mindig az adott hónap első vasárnapjára esik",
+        "Mert a pápa évente újra kijelöli a naptári dátumot",
+        "Mert a nyári napforduló utáni első teliholdhoz igazodik"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A niceai zsinat (325) óta a húsvét a tavaszi napéjegyenlőség utáni első holdtöltét követő vasárnapra esik.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Melyik pápa vezette be 1582-ben a ma is használt Gergely-naptárt?",
+      "a": [
+        "XIII. Gergely pápa",
+        "VIII. Orbán pápa",
+        "II. Ince pápa",
+        "XII. Piusz pápa"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "XIII. Gergely pápa 1582-ben rendelte el a naptárreformot, hogy a húsvét pontosan igazodjon a tavaszi napéjegyenlőséghez.",
+      "t": "naptárreform"
+    },
+    {
+      "q": "Melyik amerikai elnök nyilvánította 1863-ban országos ünneppé a hálaadás napját?",
+      "a": [
+        "Abraham Lincoln",
+        "George Washington",
+        "Thomas Jefferson",
+        "Franklin Roosevelt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Lincoln 1863-as kiáltványa jelölte ki november negyedik csütörtökét a hálaadás napjának.",
+      "t": "amerikai ünnepek"
+    },
+    {
+      "q": "Milyen csoda áll a hanuka nyolc napos gyertyagyújtásának hátterében a zsidó hagyományban?",
+      "a": [
+        "Egynapi olaj a jeruzsálemi templomban nyolc napig égett",
+        "Nyolc nap alatt épült újjá a lerombolt templom",
+        "Nyolc angyal jelent meg a makkabeusoknak álmukban",
+        "A gyertyák nyolc napig önmaguktól égtek ki sosem"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hagyomány szerint a felszentelt templomban talált, egy napra elegendő szent olaj csodával nyolc napig világított.",
+      "t": "zsidó ünnepek"
+    },
+    {
+      "q": "Melyik napokon zajlik Thaiföld vízzel teli újévi fesztiválja, a Songkran?",
+      "a": [
+        "Április 13. és 15. között",
+        "Január 1. és 3. között",
+        "Augusztus 10. és 12. között",
+        "Október 20. és 22. között"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Songkran hagyományosan április 13-tól 15-ig tart, ekkor ünneplik a thai holdnaptár szerinti újévet.",
+      "t": "kelet-ázsiai ünnepek"
+    },
+    {
+      "q": "Mit jelent szó szerint a hindu Diwali ünnep neve?",
+      "a": [
+        "Fények sora",
+        "Nagy áldozat",
+        "Új kezdet reggele",
+        "Az istenek tánca"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Diwali (dípávali) szó jelentése \"fénysor\", utalva az ünnepen meggyújtott olajmécsesek sorára.",
+      "t": "hindu és buddhista ünnepek"
+    },
+    {
+      "q": "Melyik évben alapította Maulana Karenga az afroamerikai Kwanzaa ünnepet?",
+      "a": [
+        "1966",
+        "1954",
+        "1978",
+        "1989"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Karenga 1966-ban, a Watts-i zavargások után hozta létre a Kwanzaát afroamerikai kulturális ünnepként.",
+      "t": "afrikai és kulturális ünnepek"
+    },
+    {
+      "q": "Milyen alkalomból rendezték meg 1810-ben Münchenben az első Oktoberfestet?",
+      "a": [
+        "Lajos trónörökös esküvője",
+        "A város alapításának évfordulója",
+        "Bajorország függetlenné válása",
+        "Egy győztes háború ünneplése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az első Oktoberfestet Lajos bajor trónörökös és Therese hercegnő esküvője alkalmából rendezték meg 1810-ben.",
+      "t": "európai népünnepek"
+    },
+    {
+      "q": "Milyen 1605-ös eseményre emlékeznek november 5-én a brit Guy Fawkes-éjszakán?",
+      "a": [
+        "Egy meghiúsult merényletre a parlament ellen",
+        "Egy sikeres királykoronázásra",
+        "A londoni nagy tűzvész kezdetére",
+        "Egy elveszített tengeri csatára"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1605-ben egy összeesküvés a parlamentet akarta felrobbantani, a tervet Guy Fawkes elfogásával leplezték le.",
+      "t": "európai népünnepek"
+    },
+    {
+      "q": "Melyik 1862-es csata évfordulóját ünneplik Mexikóval kapcsolatban Cinco de Mayo napján?",
+      "a": [
+        "A Puebla-i csatát",
+        "Az Alamo ostromát",
+        "A veracruzi partraszállást",
+        "A mexikóvárosi ütközetet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1862. május 5-én a mexikói hadsereg váratlanul legyőzte a francia inváziós sereget Pueblánál.",
+      "t": "amerikai ünnepek"
+    },
+    {
+      "q": "Milyen 1789-es eseményt ünnepel Franciaország július 14-én?",
+      "a": [
+        "A Bastille börtön ostromát",
+        "A királyi palota felgyújtását",
+        "A guillotine első használatát",
+        "A francia alkotmány aláírását"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A párizsi tömeg 1789. július 14-én rohanta meg a Bastille erődöt, ez a francia forradalom jelképes kezdete.",
+      "t": "nemzeti ünnepek"
+    },
+    {
+      "q": "Melyik amerikai városban történt 1886-ban az a zavargás, amely miatt május 1. a munka nemzetközi ünnepe lett?",
+      "a": [
+        "Chicago",
+        "New York",
+        "Boston",
+        "Detroit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1886. május 1-i chicagói nyolcórás munkaidőért folyó sztrájkot követő haymarketi zavargás nyomán vált május 1. a munka ünnepévé.",
+      "t": "nemzetközi ünnepek"
+    },
+    {
+      "q": "Mit jelent a keresztény \"advent\" szó latin eredetű jelentése?",
+      "a": [
+        "Eljövetel",
+        "Böjti idő",
+        "Megtisztulás",
+        "Virrasztás"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az advent a latin \"adventus\" szóból ered, jelentése \"eljövetel\", Krisztus születésének várakozását jelképezi.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Mi a \"karnevál\" szó egyik elfogadott olasz eredetű etimológiája?",
+      "a": [
+        "\"Carne vale\" - húsnak búcsú",
+        "\"Corona vale\" - koronának dicsőség",
+        "\"Cane vale\" - kutyának egészség",
+        "\"Carro vale\" - kocsinak út"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A közkeletű magyarázat szerint a \"carne vale\" (\"húsnak búcsú\") a böjt előtti utolsó lakomázásra utal.",
+      "t": "farsang és karnevál"
+    },
+    {
+      "q": "Melyik katolikus ünnep szolgál Krisztus testének és vérének, az Oltáriszentségnek külön tiszteletére?",
+      "a": [
+        "Úrnapja",
+        "Nagycsütörtök",
+        "Áldozócsütörtök",
+        "Gyertyaszentelő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Úrnapját a Szentháromság vasárnapja utáni csütörtökön tartják, kifejezetten az Oltáriszentség tiszteletére.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Milyen alkalomból tartanak Magyarországon február 3-án torokáldást, az úgynevezett balázsolást?",
+      "a": [
+        "Szent Balázs püspök emléknapján",
+        "A tavasz első napján",
+        "A farsang kezdetén",
+        "Gyertyaszentelő Boldogasszony ünnepén"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A balázsolás Szent Balázs vértanú püspök napjához (február 3.) kötődő szokás, torokbetegségek elleni áldással.",
+      "t": "magyar népszokások"
+    },
+    {
+      "q": "Melyik magyarországi állami ünnepnap esik egybe hagyományosan az új kenyér ünnepével?",
+      "a": [
+        "Augusztus 20.",
+        "Március 15.",
+        "Október 23.",
+        "Október 6."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Augusztus 20. Szent István államalapítására és hagyományosan az új kenyér ünnepére egyaránt utal.",
+      "t": "magyar állami ünnepek"
+    },
+    {
+      "q": "Melyik zsidó ünnepen olvassák fel Eszter könyvét, megemlékezve Hámán bukásáról?",
+      "a": [
+        "Purim",
+        "Sávuot",
+        "Tisá beáv",
+        "Simchat Torá"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Purimkor a hagyomány szerint Eszter királyné mentette meg népét Hámán tervétől, ezt idézi fel a könyv felolvasása.",
+      "t": "zsidó ünnepek"
+    },
+    {
+      "q": "Melyik hónapban van a zsidó naptár szerint Ros Hasáná, a zsidó újév?",
+      "a": [
+        "Tisri hónapban",
+        "Niszán hónapban",
+        "Ádár hónapban",
+        "Sváth hónapban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ros Hasánát Tisri hónap első napján tartják, ez a zsidó polgári naptár kezdete.",
+      "t": "zsidó ünnepek"
+    },
+    {
+      "q": "Melyik ünnep zárja le a ramadán havi böjtöt az iszlám hagyományban?",
+      "a": [
+        "Id al-Fitr",
+        "Id al-Adha",
+        "Mevlid",
+        "Ásúra"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Id al-Fitr, a böjt megtörésének ünnepe, közvetlenül a ramadán hónap végén következik.",
+      "t": "iszlám ünnepek"
+    },
+    {
+      "q": "Melyik történethez kötődik az iszlám Id al-Adha, az áldozat ünnepének eredete?",
+      "a": [
+        "Ábrahám próbatétele fia feláldozásáról",
+        "Mózes kivonulása Egyiptomból",
+        "Noé bárkájának partraszállása",
+        "József eladása testvérei által"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Id al-Adha Ábrahám (Ibrahim) engedelmességét ünnepli, aki kész lett volna feláldozni fiát Isten parancsára.",
+      "t": "iszlám ünnepek"
+    },
+    {
+      "q": "Mit ünnepel a buddhista Vesák (Vesak) napja egyetlen napon belül?",
+      "a": [
+        "Buddha születését, megvilágosodását és halálát",
+        "Csak Buddha megvilágosodását",
+        "A buddhista szerzetesrend alapítását",
+        "Az első buddhista templom felszentelését"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A théraváda hagyományban Vesák napja egybeesik Buddha születésének, megvilágosodásának és végső elmúlásának emléknapjával.",
+      "t": "hindu és buddhista ünnepek"
+    },
+    {
+      "q": "Mi a koreai Csuszok ünnep egyik gyakori magyar megnevezése?",
+      "a": [
+        "Koreai hálaadás",
+        "Koreai farsang",
+        "Koreai újév",
+        "Koreai gyertyás körmenet"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Csuszokot a bőséges termés miatti hálaadás ünnepeként is szokás emlegetni, a holdnaptár nyolcadik hónapjának közepén tartják.",
+      "t": "kelet-ázsiai ünnepek"
+    },
+    {
+      "q": "Mi alapján nevezik el az egyes kínai újéveket, például \"a sárkány éve\"?",
+      "a": [
+        "A tizenkét állatövi állat ciklusa",
+        "A négy évszak szelleme",
+        "A nyolc szerencseszimbólum sora",
+        "Az öt elem uralkodó istensége"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kínai naptárban tizenkét állat (patkány, ökör, tigris stb.) ciklikusan adja nevét az egyes éveknek.",
+      "t": "kelet-ázsiai ünnepek"
+    },
+    {
+      "q": "Melyik évben fogadta el az ENSZ közgyűlése az Emberi Jogok Egyetemes Nyilatkozatát, amelynek emléknapja december 10.?",
+      "a": [
+        "1948",
+        "1945",
+        "1957",
+        "1966"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ENSZ közgyűlése 1948. december 10-én fogadta el a nyilatkozatot, ez lett az Emberi Jogok Napja.",
+      "t": "nemzetközi ünnepek"
+    },
+    {
+      "q": "Melyik amerikai szenátor kezdeményezésére tartották meg először 1970-ben a Föld napját?",
+      "a": [
+        "Gaylord Nelson",
+        "Al Gore",
+        "John McCain",
+        "Robert Kennedy"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Gaylord Nelson wisconsini szenátor ötlete nyomán tartották meg 1970. április 22-én az első Föld napját.",
+      "t": "világnapok"
+    },
+    {
+      "q": "Melyik ősi kelta ünnepből eredeztetik a mai Halloween szokásait?",
+      "a": [
+        "Samhain",
+        "Beltane",
+        "Lughnasadh",
+        "Imbolc"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Samhain a kelta év végét jelző, a szellemvilággal kapcsolatba hozott ünnep volt, ebből fejlődött ki a Halloween.",
+      "t": "amerikai ünnepek"
+    },
+    {
+      "q": "Melyik szent nevéhez kötődik hagyományosan a február 14-i szerelmesek napja?",
+      "a": [
+        "Szent Bálint",
+        "Szent György",
+        "Szent Patrik",
+        "Szent Miklós"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Valentin-nap elnevezése a hagyomány szerint egy Bálint nevű keresztény vértanúra vezethető vissza.",
+      "t": "nemzetközi ünnepek"
+    },
+    {
+      "q": "Melyik ország védőszentjének emléknapja március 17-e, a zöld színéről ismert ünnep?",
+      "a": [
+        "Írország",
+        "Skócia",
+        "Wales",
+        "Portugália"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szent Patrik Írország védőszentje, március 17-i emléknapja nemzeti ünnep és a világszerte ismert felvonulások alkalma.",
+      "t": "nemzetközi ünnepek"
+    },
+    {
+      "q": "Hány nappal húsvétvasárnap után van pünkösd a keresztény hagyományban?",
+      "a": [
+        "50 nappal",
+        "30 nappal",
+        "60 nappal",
+        "40 nappal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A \"pünkösd\" szó a görög ötvenedik napot jelentő szóból ered, húsvét utáni ötvenedik napra esik.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Miért szórtak hagyományosan hamut a hívők fejére hamvazószerdán?",
+      "a": [
+        "A bűnbánat és a mulandóság jelképeként",
+        "A tavaszi megtisztulás higiéniai okából",
+        "A gonosz szellemek elűzésére",
+        "A böjt végének jelzésére"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hamu az emberi mulandóságra és bűnbánatra emlékeztet, ezzel kezdődik a nagyböjt negyven napja.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Mennyi ideig tart a húsvét előtti keresztény böjti időszak, a nagyböjt?",
+      "a": [
+        "40 nap",
+        "30 nap",
+        "50 nap",
+        "60 nap"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A nagyböjt hamvazószerdától húsvétvasárnapig tart, a vasárnapokat nem számítva összesen negyven napig.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Melyik napon emlékezik meg a keresztény egyház a napkeleti bölcsek (háromkirályok) látogatásáról?",
+      "a": [
+        "Január 6-án, vízkeresztkor",
+        "December 24-én",
+        "Február 2-án",
+        "Január 1-jén"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Vízkereszt január 6-án van, ekkor emlékeznek a napkeleti bölcsek Betlehembe érkezésére.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Hány napig tart a zsidó Szukkot, azaz a Sátoros ünnep alapvető, Tóra szerinti időtartama?",
+      "a": [
+        "Hét napig",
+        "Három napig",
+        "Tíz napig",
+        "Tizennégy napig"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Tóra Tisri hónap 15. napjától számított hét napot ír elő a Szukkot, a sátrak ünnepének megtartására.",
+      "t": "zsidó ünnepek"
+    },
+    {
+      "q": "Melyik japán nyári ünnep szolgál az elhunyt ősök szellemeinek hazavárására és tiszteletére?",
+      "a": [
+        "Obon",
+        "Tanabata",
+        "Hinamacuri",
+        "Sicsigoszan"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Obon idején a hagyomány szerint az ősök lelkei hazalátogatnak, ezért lampionokat gyújtanak és táncot (Bon odori) is járnak.",
+      "t": "kelet-ázsiai ünnepek"
+    },
+    {
+      "q": "Milyen legenda áll a hindu Holi, a színek fesztiválja mögött?",
+      "a": [
+        "Holiká démon bukása és a jó győzelme",
+        "Egy király esküvőjének emléke",
+        "Egy folyó kiszáradásának vége",
+        "Egy szent tehén megjelenése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Holi Holiká démon és Prahláda történetéhez kötődik, amely a jó gonosz felett aratott győzelmét jelképezi.",
+      "t": "hindu és buddhista ünnepek"
+    },
+    {
+      "q": "Melyik évi Baisakhi (Vaisakhi) ünnepen alapította Guru Gobind Singh a szikh Khalsa közösséget?",
+      "a": [
+        "1699",
+        "1750",
+        "1604",
+        "1849"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Guru Gobind Singh 1699-ben, a Baisakhi napján hozta létre a Khalsa harcos-közösséget.",
+      "t": "világ ünnepei"
+    },
+    {
+      "q": "Milyen csillagászati eseményhez igazodik a perzsa újév, a Nowruz időpontja?",
+      "a": [
+        "A tavaszi napéjegyenlőséghez",
+        "A nyári napfordulóhoz",
+        "A téli napfordulóhoz",
+        "Az őszi napéjegyenlőséghez"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nowruzt hagyományosan a tavaszi napéjegyenlőség napján, március 20-21. körül ünneplik.",
+      "t": "világ ünnepei"
+    },
+    {
+      "q": "Mi a neve a karácsonytól (december 25.) vízkeresztig (január 6.) tartó tizenkét napos időszaknak?",
+      "a": [
+        "Karácsonyi ünnepkör",
+        "Nagyböjt",
+        "Húsvéti ünnepkör",
+        "Ádventi ünnepkör"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A karácsonytól vízkeresztig tartó tizenkét napot nevezik karácsonyi ünnepkörnek a keresztény hagyományban.",
+      "t": "keresztény ünnepkör"
+    },
+    {
+      "q": "Hányadikán van Magyarországon a nemzeti összetartozás napja?",
+      "a": [
+        "Június 4.",
+        "Július 4.",
+        "Május 1.",
+        "Június 20."
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A nemzeti összetartozás napja június 4., a trianoni békeszerződés aláírásának (1920) évfordulója.",
+      "t": "magyar ünnepek"
     }
   ]
 }

@@ -1626,6 +1626,1111 @@
       "d": "hard",
       "e": "A Zselic Somogy megye déli, erdős dombvidéki tájegysége.",
       "t": "néprajzi tájak"
+    },
+    {
+      "q": "Melyik dunántúli városban maradtak fenn a Kr. u. I. században alapított római Savaria colonia romjai?",
+      "a": [
+        "Szombathely",
+        "Székesfehérvár",
+        "Veszprém",
+        "Kaposvár"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Szombathely a római Savaria jogutódja, amelyet Claudius császár alapított, ezért tartják Magyarország legrégebbi városának.",
+      "t": "megyeszékhelyek"
+    },
+    {
+      "q": "Melyik város kapta meg 2023-ban Európa Kulturális Fővárosa címet, mint „a királynék városa”?",
+      "a": [
+        "Veszprém",
+        "Székesfehérvár",
+        "Szombathely",
+        "Kaposvár"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Veszprémet régen a püspöke koronázhatta meg magyar királynékat, innen ered a becenév, és 2023-ban lett kulturális főváros.",
+      "t": "megyeszékhelyek"
+    },
+    {
+      "q": "Melyik város volt a középkori Magyarországon a magyar királyok kizárólagos koronázóvárosa a török hódoltságig?",
+      "a": [
+        "Székesfehérvár",
+        "Zalaegerszeg",
+        "Nagykanizsa",
+        "Kecskemét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Székesfehérváron koronázták a magyar királyokat egészen 1527-ig, itt helyezték fejükre Szent István koronáját.",
+      "t": "megyeszékhelyek"
+    },
+    {
+      "q": "Melyik megyeszékhelyen áll a Kő-hegyen Európa legnagyobb madárszobra, a Turul-emlékmű?",
+      "a": [
+        "Tatabánya",
+        "Esztergom",
+        "Komárom",
+        "Dorog"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tatabányai Turul-szobrot 1907-ben, a honfoglalás ezredik évfordulójára állították, szárnyfesztávolsága 12 méter.",
+      "t": "megyeszékhelyek"
+    },
+    {
+      "q": "Melyik folyók összefolyásánál fekszik Győr, ahonnan a „vizek városa” elnevezés is ered?",
+      "a": [
+        "Rába, Rábca és Mosoni-Duna",
+        "Dráva és Száva",
+        "Tisza és Bodrog",
+        "Zagyva és Tarna"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Győrben a Rába, a Rábca és a Mosoni-Duna találkozik, ezért nevezik gyakran a vizek városának.",
+      "t": "megyeszékhelyek"
+    },
+    {
+      "q": "Melyik megyeszékhely a Jász-Nagykun-Szolnok vármegye igazgatási központja a Tisza partján?",
+      "a": [
+        "Szolnok",
+        "Karcag",
+        "Mezőtúr",
+        "Jászberény"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Szolnok Jász-Nagykun-Szolnok vármegye székhelye, a Tisza és a Zagyva találkozásánál.",
+      "t": "megyeszékhelyek"
+    },
+    {
+      "q": "Melyik megyeszékhely híres arról, hogy nevéhez a paprikatermesztés egyik fő hazai központja kötődik?",
+      "a": [
+        "Nyíregyháza",
+        "Debrecen",
+        "Kaposvár",
+        "Szekszárd"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Szabolcs-Szatmár-Bereg megye székhelye Nyíregyháza, a térség fontos mezőgazdasági és paprikatermesztő vidék.",
+      "t": "megyeszékhelyek"
+    },
+    {
+      "q": "Melyik dunántúli megyeszékhely a Bakony és a Balaton közelében fekszik, és neve a Fejér vármegyeitől eltér?",
+      "a": [
+        "Veszprém",
+        "Székesfehérvár",
+        "Zalaegerszeg",
+        "Kaposvár"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Veszprém megye székhelye a Bakony hegység és a Balaton szomszédságában található.",
+      "t": "megyeszékhelyek"
+    },
+    {
+      "q": "Melyik folyó ered a Fekete-Tisza és a Fehér-Tisza összefolyásából a Kárpátokban?",
+      "a": [
+        "Tisza",
+        "Szamos",
+        "Bodrog",
+        "Maros"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Tisza a kárpátaljai Rahó közelében a Fekete-Tisza és a Fehér-Tisza egyesüléséből születik.",
+      "t": "folyók"
+    },
+    {
+      "q": "Mekkora a Duna hossza a magyarországi szakaszon, Rajkától Mohácsig?",
+      "a": [
+        "Kb. 417 kilométer",
+        "Kb. 217 kilométer",
+        "Kb. 617 kilométer",
+        "Kb. 117 kilométer"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Duna magyarországi szakasza mintegy 417 kilométer hosszú, ebből 142 km szlovák határfolyó.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik folyó alkotja a magyar–horvát határ jelentős szakaszát, miután Olaszországból ered?",
+      "a": [
+        "Dráva",
+        "Mura",
+        "Száva",
+        "Ipoly"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Dráva Olaszországban ered, és több országon átfolyva a magyar–horvát határ egy szakaszát is kijelöli.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik folyó ered a szlovákiai Vepor-hegységben, és jelöli ki a magyar–szlovák határ egy szakaszát, mielőtt Szobnál a Dunába torkollik?",
+      "a": [
+        "Ipoly",
+        "Zagyva",
+        "Rába",
+        "Sajó"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Ipoly a Vepor-hegységben ered, hosszú szakaszon határfolyó, majd Szobnál éri el a Dunát.",
+      "t": "folyók"
+    },
+    {
+      "q": "Miért nevezik a Rábát a Kisalföld egyik legfontosabb folyójának, amely Győrnél éri el a Mosoni-Dunát?",
+      "a": [
+        "Mert Ausztriából érkezve Győrig szeli át a Kisalföldet",
+        "Mert a Bükk hegységből ered és a Tiszába torkollik",
+        "Mert a Balatonból kifolyva a Dunáig vezet",
+        "Mert kizárólag Magyarország területén ered és folyik végig"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Rába Ausztriában ered, és a Kisalföldön át folyva Győrnél torkollik a Mosoni-Dunába.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik folyó a Balaton egyetlen természetes lefolyása, amelyet zsilippel is szabályoznak?",
+      "a": [
+        "Sió",
+        "Zala",
+        "Kapos",
+        "Marcal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Sió a Balaton vízszintjét szabályozó lefolyás, a Siófoki zsilip innen kapta a nevét.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik folyó táplálja a Kis-Balatont, mielőtt annak vizes élőhelyein átszűrődve érné el a Balatont?",
+      "a": [
+        "Zala",
+        "Séd",
+        "Kapos",
+        "Rába"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Zala folyó a Kis-Balaton mocsaras területein szűrődik át, mielőtt vize a Balatonba jutna.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik folyó jön létre a Fehér-, a Fekete- és a Sebes-Körös egyesüléséből, mielőtt a Tiszába ömlik?",
+      "a": [
+        "Hármas-Körös",
+        "Kettős-Körös",
+        "Alsó-Körös",
+        "Felső-Tisza"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A három Körös egyesülve alkotja a Hármas-Körösöt, amely Csongrád közelében ömlik a Tiszába.",
+      "t": "folyók"
+    },
+    {
+      "q": "Melyik tó Magyarország legnagyobb mesterséges tava, amely a kiskörei duzzasztás nyomán jött létre a Tiszán?",
+      "a": [
+        "Tisza-tó",
+        "Velencei-tó",
+        "Fertő tó",
+        "Balaton"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Tisza-tó a Kiskörei-víztározóból alakult ki, Magyarország legnagyobb mesterséges és második legnagyobb tava.",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik magyarországi tavat táplálja egy 38 méter mély forrásbarlangból feltörő, állandóan meleg víz, amely Európa legnagyobb ilyen tavává teszi?",
+      "a": [
+        "Hévízi-tó",
+        "Velencei-tó",
+        "Balaton",
+        "Fertő tó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Hévízi-tavat egy 38 fokos vizet adó forrásbarlang táplálja, ez Európa legnagyobb termálvizes fürdőtava.",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik hazai tó vize számít a sekély mélysége miatt Európa egyik legmelegebb nyári vizű tavának?",
+      "a": [
+        "Velencei-tó",
+        "Fertő tó",
+        "Tisza-tó",
+        "Balaton"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Velencei-tó átlagosan csupán 1,5 méter mély, ezért nyáron gyorsan és erősen felmelegszik.",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik tavat nyilvánította az UNESCO 2001-ben Ausztriával közösen világörökséggé, mint Európa egyik legnyugatibb sztyeppei tavát?",
+      "a": [
+        "Fertő tó",
+        "Velencei-tó",
+        "Hévízi-tó",
+        "Tisza-tó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Fertő tavat és környékét 2001-ben Magyarország és Ausztria közösen terjesztette fel, mert a tó nagy része osztrák oldalon van.",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik balatoni-felvidéki hegy oldalában alakultak ki a híres bazaltorgonák, mint a vulkanikus múlt tanúi?",
+      "a": [
+        "Badacsony",
+        "Csobánc",
+        "Somló",
+        "Gulács"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Badacsony vulkáni bazaltja a lehűléskor függőleges oszlopokra repedt, ezek a látványos bazaltorgonák.",
+      "t": "tavak"
+    },
+    {
+      "q": "Miért veszítette el a 20. század közepére a Kis-Balaton a Zala folyó vizét szűrő eredeti szerepét?",
+      "a": [
+        "Mert az árvízvédelmi töltések és csatornák kizárták az árvizeket a mocsárból",
+        "Mert a Balaton vízszintjét mesterségesen megemelték",
+        "Mert a Zala folyó medrét áthelyezték a Dráva vízgyűjtőjébe",
+        "Mert a terület egészét beépítették lakóövezetnek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 20. század elejétől kiépített töltések és csatornák miatt a Zala árvizei már nem jutottak be a mocsárba, így az elvesztette szűrő hatását.",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik tó Magyarország legnagyobb természetes tava, egyben Közép-Európa legnagyobb tava is?",
+      "a": [
+        "Balaton",
+        "Velencei-tó",
+        "Fertő tó",
+        "Tisza-tó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Balaton mintegy 594 négyzetkilométeres felületével Közép-Európa legnagyobb tava.",
+      "t": "tavak"
+    },
+    {
+      "q": "Melyik hegy a Mátra és egyben Magyarország legmagasabb pontja, 1014 méteres magasságával?",
+      "a": [
+        "Kékes",
+        "Zengő",
+        "Csóványos",
+        "Írott-kő"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Kékes a Mátrában 1014 méterrel Magyarország legmagasabb pontja.",
+      "t": "hegységek"
+    },
+    {
+      "q": "Pécs közelében melyik hegy éri el a Mecsek legmagasabb, 682 méteres pontját?",
+      "a": [
+        "Zengő",
+        "Kékes",
+        "Csóványos",
+        "Somló"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Zengő a Mecsek legmagasabb csúcsa, magassága 682 méter.",
+      "t": "hegységek"
+    },
+    {
+      "q": "Melyik hegység húzódik a Duna–Ipoly Nemzeti Park területén, és rejti a Csóványost, a Dunazug-hegység legmagasabb pontját?",
+      "a": [
+        "Börzsöny",
+        "Pilis",
+        "Naszály",
+        "Vértes"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Börzsönyben található a Csóványos, amely a Dunazug-hegység legmagasabb pontja.",
+      "t": "hegységek"
+    },
+    {
+      "q": "Melyik hegység húzódik Budapest és Esztergom között, és nevét egy középkori pálos kolostorról is ismerhetjük?",
+      "a": [
+        "Pilis",
+        "Vértes",
+        "Gerecse",
+        "Bakony"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Pilis hegység Budapest és Esztergom között húzódik, itt állt a híres pálos kolostor Pilisszentkereszten.",
+      "t": "hegységek"
+    },
+    {
+      "q": "Melyik dunántúli hegység a legkiterjedtebb középhegység Magyarországon, és ad otthont a Bakonyi-tájegységnek?",
+      "a": [
+        "Bakony",
+        "Vértes",
+        "Mecsek",
+        "Zselic"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Bakony a Dunántúli-középhegység legnagyobb kiterjedésű tagja.",
+      "t": "hegységek"
+    },
+    {
+      "q": "Melyik nemzeti park volt Magyarország első ilyen jellegű védett területe, 1973-as alapítással?",
+      "a": [
+        "Hortobágyi Nemzeti Park",
+        "Kiskunsági Nemzeti Park",
+        "Bükki Nemzeti Park",
+        "Aggteleki Nemzeti Park"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Hortobágyi Nemzeti Parkot 1973-ban alapították, ez volt Magyarország első nemzeti parkja.",
+      "t": "nemzeti parkok"
+    },
+    {
+      "q": "Melyik nemzeti park foglalja magába az Aggteleki-karszt barlangjait, amelyeket az UNESCO is világörökséggé nyilvánított?",
+      "a": [
+        "Aggteleki Nemzeti Park",
+        "Bükki Nemzeti Park",
+        "Duna–Ipoly Nemzeti Park",
+        "Fertő–Hansági Nemzeti Park"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Aggteleki Nemzeti Park őrzi a Baradla-barlangot és a karszt más barlangjait, amelyek 1995-ben lettek világörökségi helyszínek.",
+      "t": "nemzeti parkok"
+    },
+    {
+      "q": "Melyik nemzeti park jött létre 1996-ban a Duna és a Dráva árterületeinek védelmére?",
+      "a": [
+        "Duna–Dráva Nemzeti Park",
+        "Duna–Ipoly Nemzeti Park",
+        "Körös–Maros Nemzeti Park",
+        "Balaton-felvidéki Nemzeti Park"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Duna–Dráva Nemzeti Parkot 1996-ban hozták létre a két folyó ártéri élővilágának védelmére.",
+      "t": "nemzeti parkok"
+    },
+    {
+      "q": "Melyik nemzeti park a legfiatalabb a hazai tíz nemzeti park közül, 2002-es alapítással, a nyugat-magyarországi tájat védve?",
+      "a": [
+        "Őrségi Nemzeti Park",
+        "Körös-Maros Nemzeti Park",
+        "Balaton-felvidéki Nemzeti Park",
+        "Fertő–Hansági Nemzeti Park"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Őrségi Nemzeti Parkot 2002-ben alapították, ez a legutóbb létrehozott magyar nemzeti park.",
+      "t": "nemzeti parkok"
+    },
+    {
+      "q": "Melyik három hazai nemzeti park alapítására került sor egyszerre, 1997-ben?",
+      "a": [
+        "Balaton-felvidéki, Körös-Maros és Duna–Ipoly Nemzeti Park",
+        "Hortobágyi, Kiskunsági és Bükki Nemzeti Park",
+        "Aggteleki, Fertő–Hansági és Őrségi Nemzeti Park",
+        "Duna–Dráva, Bükki és Hortobágyi Nemzeti Park"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1997-ben egyszerre alapították a Balaton-felvidéki, a Körös-Maros és a Duna–Ipoly Nemzeti Parkot.",
+      "t": "nemzeti parkok"
+    },
+    {
+      "q": "Melyik nemzeti park védi a Nagyalföld tanyás pusztáit, és ad otthont a hagyományos pásztorkodásnak és a nóniusz lótenyésztésnek?",
+      "a": [
+        "Hortobágyi Nemzeti Park",
+        "Kiskunsági Nemzeti Park",
+        "Körös-Maros Nemzeti Park",
+        "Duna–Dráva Nemzeti Park"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Hortobágyi Nemzeti Park a magyar puszta jelképe, hagyományos pásztorélettel és lótenyésztéssel.",
+      "t": "nemzeti parkok"
+    },
+    {
+      "q": "Melyik nemzeti park öleli körbe a Fertő tavat, és lett 1991-ben az osztrák oldali Neusiedler See védett területének magyar párja?",
+      "a": [
+        "Fertő–Hansági Nemzeti Park",
+        "Balaton-felvidéki Nemzeti Park",
+        "Duna–Ipoly Nemzeti Park",
+        "Őrségi Nemzeti Park"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Fertő–Hansági Nemzeti Parkot 1991-ben alapították a Fertő tó és a Hanság védelmére.",
+      "t": "nemzeti parkok"
+    },
+    {
+      "q": "Melyik magyar világörökségi helyszín egy ófalu, ahol a hagyományos palóc népi építészet és viselet maradt fenn?",
+      "a": [
+        "Hollókő",
+        "Szentendre",
+        "Mezőkövesd",
+        "Tihany"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Hollókő ófaluja 1987 óta világörökség, itt maradt fenn a hagyományos palóc parasztépítészet.",
+      "t": "világörökség"
+    },
+    {
+      "q": "Melyik magyar apátságot 1996-ban vették fel az UNESCO világörökségi listájára ezeréves fennállására hivatkozva?",
+      "a": [
+        "Pannonhalmi Főapátság",
+        "Egri Székesegyház",
+        "Zirci Ciszterci Apátság",
+        "Pécsi Székesegyház"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Pannonhalmi Bencés Főapátságot és környezetét 1996-ban vették fel az ezeréves fennállás elismeréseként a világörökségi listára.",
+      "t": "világörökség"
+    },
+    {
+      "q": "Melyik hazai borvidék kultúrtáját nyilvánították világörökséggé 2002-ben, a több évszázados zárt bortermelés miatt?",
+      "a": [
+        "Tokaji borvidék",
+        "Egri borvidék",
+        "Villányi borvidék",
+        "Balatoni borvidék"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Tokaj-hegyaljai borvidéket 2002-ben vették fel a világörökségi listára, mint a világ első zárt borvidékét.",
+      "t": "világörökség"
+    },
+    {
+      "q": "Melyik dél-dunántúli városban találhatók az ókeresztény kori sírkamrák, amelyeket 2000-ben nyilvánítottak világörökséggé?",
+      "a": [
+        "Pécs",
+        "Győr",
+        "Eger",
+        "Sopron"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pécsi ókeresztény sírkamrák (Sopianae) 2000 óta szerepelnek az UNESCO világörökségi listáján.",
+      "t": "világörökség"
+    },
+    {
+      "q": "Melyik magyarországi tájat nyilvánította az UNESCO 1999-ben világörökséggé a hagyományos pásztorkultúra és a puszta miatt?",
+      "a": [
+        "Hortobágy",
+        "Kiskunság",
+        "Bugac",
+        "Zemplén"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Hortobágyot 1999-ben vették fel a világörökségi listára, mint az évezredes pásztorkultúra színhelyét.",
+      "t": "világörökség"
+    },
+    {
+      "q": "Melyik budapesti világörökségi helyszín foglalja magába a Duna partjait, a Várnegyedet és egy sugárutat is?",
+      "a": [
+        "Budapest – a Duna-partok, a Budai Várnegyed és az Andrássy út",
+        "Csak a Budai Várnegyed önmagában",
+        "Csak a Duna-partok városrésze nélkül",
+        "Csak a Városliget és a Hősök tere"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A budapesti világörökségi helyszín 1987 óta a Duna-partokat, a Budai Várnegyedet, majd 2002-től az Andrássy utat is magába foglalja.",
+      "t": "világörökség"
+    },
+    {
+      "q": "Melyik hazai barlangrendszer a leghosszabb, és nyúlik át részben Szlovákia területére is?",
+      "a": [
+        "Baradla-barlang",
+        "Pál-völgyi-barlang",
+        "Szemlő-hegyi-barlang",
+        "Abaligeti-barlang"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Baradla-Domica barlangrendszer több mint 25 kilométer hosszú, ebből egy szakasza szlovák területen húzódik.",
+      "t": "barlangok"
+    },
+    {
+      "q": "Melyik budapesti barlang ismert arról, hogy termálvíz alakította ki járatait a Rózsadomb alatt?",
+      "a": [
+        "Molnár János-barlang",
+        "Pál-völgyi-barlang",
+        "Szemlő-hegyi-barlang",
+        "Baradla-barlang"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Molnár János-barlang egyedülálló módon aktív termálvizes barlangrendszer a Rózsadomb alatt.",
+      "t": "barlangok"
+    },
+    {
+      "q": "Melyik barlangot lehet megközelíteni Pécs mellett, és melyik híres a látogatható cseppkőформáiról a Mecsekben?",
+      "a": [
+        "Abaligeti-barlang",
+        "Baradla-barlang",
+        "Pálvölgyi-barlang",
+        "Szemlő-hegyi-barlang"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Abaligeti-barlang a Mecsekben, Pécs közelében található, és látogatható cseppkőképződményeiről ismert.",
+      "t": "barlangok"
+    },
+    {
+      "q": "Mit jelent az, hogy egy barlangot cseppkőbarlangnak neveznek a geológiában?",
+      "a": [
+        "Olyan barlang, ahol mészkőből oldott ásványi anyagok rakódnak le cseppkövek formájában",
+        "Olyan barlang, amelyet kizárólag folyóvíz erodált ki homokkőből",
+        "Olyan barlang, amely csak jégkorszaki gleccserek maradványa",
+        "Olyan barlang, amelyben csak denevérek élnek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A cseppkövek a mészkövön átszivárgó víz oldott ásványanyagának kicsapódásából jönnek létre, jellegzetes formákat alkotva.",
+      "t": "barlangok"
+    },
+    {
+      "q": "Melyik borvidéken kell legalább három szőlőfajta házasításával készíteni a hungarikumnak nyilvánított vörösbort, a bikavért?",
+      "a": [
+        "Egri borvidék",
+        "Tokaji borvidék",
+        "Villányi borvidék",
+        "Balatonfelvidéki borvidék"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az egri bikavér legalább három szőlőfajta házasításával készül, kizárólag az Egri borvidék szőlőjéből, 2017 óta hungarikum.",
+      "t": "borvidékek"
+    },
+    {
+      "q": "Melyik magyar borvidék a legkisebb termőterületű, egy bazaltos hegy lejtőin, mintegy 480 hektáron?",
+      "a": [
+        "Somlói borvidék",
+        "Villányi borvidék",
+        "Szekszárdi borvidék",
+        "Egri borvidék"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Somlói borvidék a 432 méteres Somló-hegy lejtőin fekszik, és mindössze kb. 480 hektáros, ez hazánk legkisebb borvidéke.",
+      "t": "borvidékek"
+    },
+    {
+      "q": "Melyik borvidéken jellemző elsősorban a kékfrankos alapú vörösborok termelése a délvidéki, meleg klímájú dombvidéken?",
+      "a": [
+        "Villányi borvidék",
+        "Somlói borvidék",
+        "Móri borvidék",
+        "Etyek-budai borvidék"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Villányi borvidék meleg, mediterrán jellegű klímájában elsősorban vörösborokat, köztük kékfrankost termelnek.",
+      "t": "borvidékek"
+    },
+    {
+      "q": "Mit jelent az, hogy a Tokaji borvidéket 1737-ben zárt borvidékké nyilvánították?",
+      "a": [
+        "Csak a meghatározott településhatárokban termett szőlőből lehetett tokaji bort készíteni",
+        "A borvidék teljes területén betiltották a szőlőtermesztést",
+        "A borvidék határait teljesen lezárták a kereskedelem elől",
+        "A borvidék csak külföldi vevőknek adhatott el bort"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A királyi rendelet felsorolta azokat a településeket, amelyek határában termett szőlőből tokaji bor készülhetett, ez volt a világ első zárt borvidéke.",
+      "t": "borvidékek"
+    },
+    {
+      "q": "Melyik borvidék terem a Balaton északi partján, vulkanikus talajú hegyeken, mint például a Badacsonyon?",
+      "a": [
+        "Badacsonyi borvidék",
+        "Szekszárdi borvidék",
+        "Egri borvidék",
+        "Villányi borvidék"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Badacsonyi borvidék a Balaton-felvidék vulkanikus eredetű hegyein, például a Badacsonyon terül el.",
+      "t": "borvidékek"
+    },
+    {
+      "q": "Melyik dél-dunántúli borvidéken készül a bikavér másik, Egri mellett engedélyezett változata?",
+      "a": [
+        "Szekszárdi borvidék",
+        "Villányi borvidék",
+        "Somlói borvidék",
+        "Móri borvidék"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A bikavér elnevezést a jogszabály csak az Egri és a Szekszárdi borvidék boraira engedélyezi.",
+      "t": "borvidékek"
+    },
+    {
+      "q": "Hány országgal határos Magyarország a jelenlegi államhatárok szerint?",
+      "a": [
+        "Héttel",
+        "Öttel",
+        "Hattal",
+        "Nyolccal"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Magyarország hét országgal határos: Ausztriával, Szlovákiával, Ukrajnával, Romániával, Szerbiával, Horvátországgal és Szlovéniával.",
+      "t": "határok"
+    },
+    {
+      "q": "Melyik ország irányában húzódik Magyarország leghosszabb, kb. 679 kilométeres országhatár-szakasza?",
+      "a": [
+        "Szlovákia",
+        "Románia",
+        "Ausztria",
+        "Horvátország"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar–szlovák határ mintegy 679 kilométer hosszú, ez a leghosszabb magyar országhatár-szakasz.",
+      "t": "határok"
+    },
+    {
+      "q": "Melyik ország irányában húzódik Magyarország legrövidebb, kb. 102 kilométeres országhatár-szakasza?",
+      "a": [
+        "Szlovénia",
+        "Ukrajna",
+        "Szerbia",
+        "Horvátország"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar–szlovén határ mindössze kb. 102 kilométer hosszú, ez a legrövidebb magyar országhatár-szakasz.",
+      "t": "határok"
+    },
+    {
+      "q": "Mekkora Magyarország államhatárainak teljes hossza összesen, kerekítve?",
+      "a": [
+        "Kb. 2246 kilométer",
+        "Kb. 1246 kilométer",
+        "Kb. 3246 kilométer",
+        "Kb. 846 kilométer"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Magyarország hét szomszédos országgal közösen mintegy 2246 kilométernyi államhatárral rendelkezik.",
+      "t": "határok"
+    },
+    {
+      "q": "Melyik ország felé alkot Magyarország határának egy szakasza folyami határt az Ipoly mentén?",
+      "a": [
+        "Szlovákia felé",
+        "Ausztria felé",
+        "Ukrajna felé",
+        "Szerbia felé"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Ipoly folyó a magyar–szlovák határ egy szakaszát jelöli ki, mielőtt Szobnál a Dunába torkollik.",
+      "t": "határok"
+    },
+    {
+      "q": "Miért lett a Kékes 1014 méterrel Magyarország legmagasabb pontja, holott korábban ennél jóval magasabb csúcs is az ország része volt?",
+      "a": [
+        "Mert az első világháború utáni Trianoni békeszerződéssel a korábbi legmagasabb pont, a Magas-Tátra elcsatolásra került",
+        "Mert a Kékes csúcsát mesterségesen megmagasították egy kilátóval",
+        "Mert a korábbi legmagasabb hegy egy vulkánkitörésben elpusztult",
+        "Mert a mérési módszert megváltoztatták, és korábban rosszul mérték a Kékest"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A trianoni békeszerződés után Magyarország elvesztette a 2655 méteres Magas-Tátrát, így a Kékes vált az ország legmagasabb pontjává.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Milyen éghajlati típusba sorolható Magyarország, mivel távol fekszik a nyílt tengerektől?",
+      "a": [
+        "Mérsékelten kontinentális, meleg nyarakkal és hideg telekkel",
+        "Trópusi, egész évben magas páratartalommal",
+        "Szubarktikus, hosszú, zord telekkel",
+        "Sivatagi, rendkívül alacsony évi csapadékkal"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Magyarország éghajlata mérsékelten kontinentális, mivel a tengerektől távol fekszik, ezért nagyok az évszakos hőingadozások.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Hány fokot mértek 2026 nyarán Szécsényben, amivel megdőlt Magyarország addigi hőségrekordja?",
+      "a": [
+        "42,0 Celsius-fokot",
+        "38,5 Celsius-fokot",
+        "45,2 Celsius-fokot",
+        "39,9 Celsius-fokot"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "2026. június 30-án Szécsényben 42,0 fokot mértek, ezzel megdőlt a korábbi, 2007-es kiskunhalasi rekord.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Melyik településen mérték 1940-ben Magyarország valaha regisztrált leghidegebb hőmérsékletét, -35,0 fokot?",
+      "a": [
+        "Görömbölytapolcán",
+        "Kiskunhalason",
+        "Szécsényben",
+        "Debrecenben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "1940. február 16-án Görömbölytapolcán (a mai Miskolctapolcán) mérték a valaha regisztrált leghidegebb magyarországi hőmérsékletet.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Miért alakulnak ki jellemzően nagy hőingadozások Magyarországon egy nap vagy egy év leforgása alatt?",
+      "a": [
+        "Mert a szárazföld a tenger hőszabályozó hatása nélkül gyorsan melegszik és hűl",
+        "Mert az ország teljes területe magas hegyvidéken fekszik",
+        "Mert az egész ország sivatagi övezetben helyezkedik el",
+        "Mert az óceáni áramlatok közvetlenül befolyásolják az időjárást"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A tengertől távoli, kontinentális fekvés miatt a szárazföld gyorsabban melegszik és hűl, ezért nagyobbak a hőingadozások.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Melyik évszakban a legcsapadékosabb jellemzően Magyarország nagy része, a kontinentális éghajlati típus szerint?",
+      "a": [
+        "Nyár elején, kora nyáron",
+        "Télen, december-januárban",
+        "Ősszel, október-novemberben",
+        "Kora tavasszal, februárban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Magyarországon jellemzően a késő tavaszi és kora nyári hónapokban hullik a legtöbb csapadék.",
+      "t": "éghajlat"
+    },
+    {
+      "q": "Melyik hazai metróvonal számít a kontinentális Európa első földalatti gyorsvasútjának, 1896-os megnyitással?",
+      "a": [
+        "Budapesti M1-es (Földalatti)",
+        "Budapesti M2-es metró",
+        "Budapesti M3-as metró",
+        "Budapesti M4-es metró"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az 1896-ban megnyitott M1-es metró volt a kontinentális Európa első földalatti vasútja, az Andrássy út alatt húzódik.",
+      "t": "rekordok"
+    },
+    {
+      "q": "Hány kerületre oszlik közigazgatásilag Budapest?",
+      "a": [
+        "Huszonháromra",
+        "Tizenkilencre",
+        "Tizennyolcra",
+        "Huszonötre"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Budapest 23 kerületből áll, ezeket római számokkal jelölik I.-től XXIII.-ig.",
+      "t": "Budapest"
+    },
+    {
+      "q": "Melyik évben adták át a Széchenyi Lánchidat, Budapest első állandó Duna-hídját?",
+      "a": [
+        "1849-ben",
+        "1896-ban",
+        "1900-ban",
+        "1838-ban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Lánchíd 1849-ben készült el, William Tierney Clark tervei alapján, ez volt Pest és Buda első állandó hídja.",
+      "t": "Budapest"
+    },
+    {
+      "q": "Melyik budapesti sugárút mentén húzódik a világörökségi részét képező M1-es metróvonal?",
+      "a": [
+        "Andrássy út",
+        "Rákóczi út",
+        "Váci út",
+        "Üllői út"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az M1-es metró az Andrássy út alatt húzódik, és a sugárúttal együtt része a budapesti világörökségi helyszínnek.",
+      "t": "Budapest"
+    },
+    {
+      "q": "Melyik budapesti domb tetején áll a Citadella, ahonnan panoráma nyílik a Duna-partra?",
+      "a": [
+        "Gellért-hegy",
+        "Rózsadomb",
+        "Sváb-hegy",
+        "Várhegy"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Citadella a Gellért-hegy tetején épült, kilátással a Dunára és a világörökségi Duna-partokra.",
+      "t": "Budapest"
+    },
+    {
+      "q": "Mit jelent az, hogy a budapesti Duna-partok, a Várnegyed és az Andrássy út „világörökségi helyszín”?",
+      "a": [
+        "Az UNESCO kiemelkedő egyetemes kulturális értékként ismerte el és vette fel a védett listájára",
+        "A terület magántulajdonban lévő, zárt idegenforgalmi övezet",
+        "A helyszínt kizárólag magyar jogszabály védi nemzeti emlékhelyként",
+        "Az épületeket teljes egészében újjá kellett építeni a cím elnyeréséhez"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A világörökségi cím azt jelenti, hogy az UNESCO az emberiség közös, kiemelkedő értékű örökségeként tartja nyilván és védi a helyszínt.",
+      "t": "Budapest"
+    },
+    {
+      "q": "Melyik budapesti barlangrendszer húzódik a Rózsadomb alatt, és ismert termálvizes járatairól?",
+      "a": [
+        "Molnár János-barlang",
+        "Baradla-barlang",
+        "Abaligeti-barlang",
+        "Aggteleki-barlang"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Molnár János-barlang a Rózsadomb alatt húzódó, aktív termálvizes barlangrendszer.",
+      "t": "Budapest"
+    },
+    {
+      "q": "Melyik néprajzi tájegység híres a hímzett, virágmintás népviseletéről és a festett falú házairól?",
+      "a": [
+        "Kalocsa vidéke",
+        "Matyóföld",
+        "Palócföld",
+        "Hetés vidéke"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kalocsa-vidék népművészetét a színes, virágos hímzés és a festett falak jellemzik.",
+      "t": "néprajzi tájak"
+    },
+    {
+      "q": "Melyik néprajzi tájegység központja Mezőkövesd, ahol a hagyományos hímzést a helyiek „írásnak” is nevezték?",
+      "a": [
+        "Matyóföld",
+        "Palócföld",
+        "Kalotaszeg",
+        "Sárköz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Matyóföld központja Mezőkövesd, ahol a mintarajzolást és hímzést hagyományosan „írásnak” hívták.",
+      "t": "néprajzi tájak"
+    },
+    {
+      "q": "Melyik néprajzi tájegység nevéhez fűződik a palóc népi építészet és viselet, amelyet Hollókő ófaluja is őriz?",
+      "a": [
+        "Palócföld",
+        "Matyóföld",
+        "Sárköz",
+        "Jászság"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Hollókő a Palócföld része, ahol a hagyományos palóc népi építészet és viselet fennmaradt.",
+      "t": "néprajzi tájak"
+    },
+    {
+      "q": "Melyik néprajzi tájegység nevét viselő népcsoport a középkorban jász etnikumú, iráni eredetű bevándorlóktól származtatja magát?",
+      "a": [
+        "Jászság",
+        "Kunság",
+        "Sárköz",
+        "Bodrogköz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Jászság lakói a hagyomány szerint a középkorban betelepült jász néptől, egy iráni eredetű néptől származtatják magukat.",
+      "t": "néprajzi tájak"
+    },
+    {
+      "q": "Melyik néprajzi tájegység őrzi a középkori kun letelepedés emlékét, és ad nevet a Nagykunságnak és a Kiskunságnak is?",
+      "a": [
+        "Kunság",
+        "Jászság",
+        "Palócföld",
+        "Matyóföld"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kunság a középkori kun betelepülők emlékét őrzi, innen ered a Nagykunság és a Kiskunság elnevezés is.",
+      "t": "néprajzi tájak"
+    },
+    {
+      "q": "Mit jelent a „néprajzi tájegység” fogalma a magyar kultúrában?",
+      "a": [
+        "Olyan táj, amelynek lakói közös hagyományt, viseletet és szokásokat őriznek",
+        "Kizárólag közigazgatási határ, amelyet törvény jelöl ki",
+        "Egy adott folyó teljes vízgyűjtő területét jelölő fogalom",
+        "Egyetlen település belterületére korlátozódó fogalom"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A néprajzi tájegység olyan tájat jelöl, amelynek lakói hasonló népi hagyományokat, viseletet és szokásokat őriznek.",
+      "t": "néprajzi tájak"
+    },
+    {
+      "q": "Melyik tájegység a Tisza és a Hajdúság közötti sík terület, ahol a hagyományos pásztorkodás és a délibáb jelensége híres?",
+      "a": [
+        "Hortobágy",
+        "Nyírség",
+        "Nagykunság",
+        "Sárrét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Hortobágy a Tisza és a Hajdúság között elterülő puszta, ahol a pásztorkodás és a délibáb hagyománya híres.",
+      "t": "tájegységek"
+    },
+    {
+      "q": "Melyik alföldi tájegység őrzi a hajdani homokbuckás vidéket, és ad otthont jelentős szőlő- és gyümölcstermesztésnek?",
+      "a": [
+        "Nyírség",
+        "Sárrét",
+        "Bodrogköz",
+        "Zselic"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nyírség homokos talaján jelentős gyümölcs- és szőlőtermesztés alakult ki.",
+      "t": "tájegységek"
+    },
+    {
+      "q": "Melyik tájegység fekszik a Tisza és a Duna között, és foglalja magába egyebek mellett a Kiskunságot is?",
+      "a": [
+        "Duna–Tisza köze",
+        "Tiszántúl",
+        "Mezőföld",
+        "Dráva mente"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Duna–Tisza köze a két nagy folyó közötti terület, amelynek része a Kiskunság is.",
+      "t": "tájegységek"
+    },
+    {
+      "q": "Melyik kis kiterjedésű tájegység fekszik a Tisza és a Bodrog találkozásánál, ártéri erdőkkel és holtágakkal?",
+      "a": [
+        "Bodrogköz",
+        "Sárrét",
+        "Sárköz",
+        "Mezőföld"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Bodrogköz a Tisza és a Bodrog találkozásánál fekvő, ártéri erdőkben és holtágakban gazdag tájegység.",
+      "t": "tájegységek"
+    },
+    {
+      "q": "Melyik dél-dunántúli tájegység fekszik a Duna és a Dráva mentén, jellemzően síkvidéki, mezőgazdasági jelleggel?",
+      "a": [
+        "Mezőföld",
+        "Zselic",
+        "Bodrogköz",
+        "Sárrét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Mezőföld a Dunántúl délkeleti, síkvidéki tájegysége, jelentős mezőgazdasági termeléssel.",
+      "t": "tájegységek"
+    },
+    {
+      "q": "Melyik tájegység nevéhez fűződik a hagyományos gulyás- és pásztorkultúra a Tiszántúlon, a Körösök vidékén?",
+      "a": [
+        "Sárrét",
+        "Nyírség",
+        "Kiskunság",
+        "Zselic"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Sárrét a Körösök mentén fekvő, egykor mocsaras tájegység, ahol hagyományos pásztorkultúra alakult ki.",
+      "t": "tájegységek"
+    },
+    {
+      "q": "Melyik balatoni félsziget híres a levendulamezőiről és a gejzírkúpjairól, amelyek egykori forrástevékenységet őriznek?",
+      "a": [
+        "Tihanyi-félsziget",
+        "Kis-Balaton",
+        "Badacsonyi-félsziget",
+        "Balatonfüredi-öböl"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Tihanyi-félszigeten levendulaültetvények és az egykori vízalatti forrásokat őrző gejzírkúpok is láthatók.",
+      "t": "Balaton"
+    },
+    {
+      "q": "Mi a fő ökológiai funkciója a Kis-Balatonnak a Balaton vízgyűjtőjében?",
+      "a": [
+        "Kiszűri a Zala folyó által hordott tápanyagokat, mielőtt azok a Balatonba jutnának",
+        "Ivóvizet biztosít a Balaton-parti településeknek",
+        "Hajózási csatornaként köti össze a Balatont a Dunával",
+        "Kizárólag árvízvédelmi tározóként szolgál"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kis-Balaton Vízvédelmi Rendszer kiszűri a foszfort és a nitrogént, mielőtt a Zala vize elérné a Balatont, védve annak vízminőségét.",
+      "t": "Balaton"
+    },
+    {
+      "q": "Melyik nemzeti park foglalja magába a Balaton-felvidék vulkanikus tanúhegyeit, köztük a Badacsonyt is?",
+      "a": [
+        "Balaton-felvidéki Nemzeti Park",
+        "Kiskunsági Nemzeti Park",
+        "Fertő–Hansági Nemzeti Park",
+        "Duna-Ipoly Nemzeti Park"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Balaton-felvidéki Nemzeti Park védi a vulkáni tanúhegyeket, köztük a Badacsonyt, a Balaton északi partján.",
+      "t": "Balaton"
+    },
+    {
+      "q": "Melyik történelmi tájegység nevéhez fűződik a Maros, a Körös és a Tisza által határolt, egykor Erdély és a Tiszántúl közötti átmeneti terület?",
+      "a": [
+        "Partium",
+        "Bácska",
+        "Muraköz",
+        "Csallóköz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Partium a történelmi Erdély és a Tiszántúl közötti átmeneti terület volt, több folyó által határolva.",
+      "t": "történelmi régiók"
     }
   ]
 }

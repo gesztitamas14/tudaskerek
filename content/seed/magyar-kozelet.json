@@ -1238,19 +1238,6 @@
       "t": "közigazgatás"
     },
     {
-      "q": "Milyen gyakorisággal tartanak helyi önkormányzati választásokat Magyarországon?",
-      "a": [
-        "Ötévente",
-        "Négyévente",
-        "Háromévente",
-        "Kétévente"
-      ],
-      "c": 0,
-      "d": "medium",
-      "e": "Magyarországon 2014 óta ötévente tartanak helyi önkormányzati választásokat.",
-      "t": "közigazgatás"
-    },
-    {
       "q": "Ki áll egy magyar település élén, akit közvetlenül választanak a helyi választópolgárok?",
       "a": [
         "A polgármester",
@@ -1860,6 +1847,877 @@
       "d": "easy",
       "e": "A Nemzeti Adó- és Vámhivatal (NAV) végzi Magyarországon az adóztatási és vámügyi feladatokat.",
       "t": "gazdaság"
+    },
+    {
+      "q": "Mit ismer el elsősorban a magyar állam Kossuth-díja 1963 óta?",
+      "a": [
+        "A kulturális és művészeti alkotó tevékenység kiemelkedő teljesítményét",
+        "A sporteredmények és olimpiai érmek megszerzését",
+        "A gazdasági vállalkozások nemzetközi sikereit",
+        "A közigazgatási vezetők több évtizedes szolgálatát"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1963 óta a Kossuth-díjat kizárólag kulturális és művészeti alkotó tevékenységért ítélik oda.",
+      "t": "kitüntetések"
+    },
+    {
+      "q": "Melyik magyar állami kitüntetést adják át hagyományosan minden év március 15-én a tudomány és a technika kiemelkedő művelőinek?",
+      "a": [
+        "Széchenyi-díj",
+        "Kossuth-nagydíj",
+        "Magyar Corvin-lánc",
+        "Prima Primissima díj"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Széchenyi-díjat a kormány javaslatára a köztársasági elnök adja át, a tudományos és műszaki teljesítmények elismerésére.",
+      "t": "kitüntetések"
+    },
+    {
+      "q": "Mi a neve annak a magyar elismerésnek, amely pénzjutalom nélkül, ünnepélyes formában méltatja a nemzet kulturális és tudományos örökségéhez tartozó teljesítményeket?",
+      "a": [
+        "Magyar Örökség díj",
+        "Kossuth-nagydíj",
+        "Széchenyi-díj",
+        "Prima Primissima díj"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Magyar Örökség díj pénzjutalom nélküli elismerés, amely a nemzeti értékeket és a kulturális örökséget méltatja.",
+      "t": "kitüntetések"
+    },
+    {
+      "q": "Ki adja át hivatalosan a Kossuth-díjat és a Széchenyi-díjat Magyarországon?",
+      "a": [
+        "A köztársasági elnök",
+        "A miniszterelnök",
+        "Az Országgyűlés elnöke",
+        "A Magyar Tudományos Akadémia elnöke"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A kormány által javasolt díjazottakat a köztársasági elnök tünteti ki, hagyományosan március 15-én.",
+      "t": "kitüntetések"
+    },
+    {
+      "q": "Melyik évforduló alkalmából alapította az Országgyűlés 1948-ban a Kossuth-díjat?",
+      "a": [
+        "Az 1848-as forradalom és szabadságharc századik évfordulója",
+        "Kossuth Lajos halálának ötvenedik évfordulója",
+        "A Magyar Köztársaság kikiáltásának első évfordulója",
+        "A második világháború befejezésének harmadik évfordulója"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kossuth-díjat az Országgyűlés 1948-ban, az 1848-as forradalom és szabadságharc centenáriuma alkalmából alapította.",
+      "t": "kitüntetések"
+    },
+    {
+      "q": "Ki tervezte a Magyar Állami Operaház neoreneszánsz stílusú épületét?",
+      "a": [
+        "Ybl Miklós",
+        "Steindl Imre",
+        "Hauszmann Alajos",
+        "Lechner Ödön"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Operaházat Ybl Miklós tervei alapján építették, 1884-ben nyílt meg.",
+      "t": "épületek"
+    },
+    {
+      "q": "Melyik évben nyitotta meg kapuit a budapesti Operaház?",
+      "a": [
+        "1884",
+        "1896",
+        "1904",
+        "1872"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Operaház 1884. szeptember 27-én nyitotta meg kapuit a nagyközönség előtt.",
+      "t": "épületek"
+    },
+    {
+      "q": "Mit ábrázolnak a Hősök terén álló Millenniumi emlékmű oszlopcsarnokának bronzszobrai?",
+      "a": [
+        "A magyar történelem kiemelkedő alakjait, köztük a hét honfoglaló vezért",
+        "Kizárólag a huszadik századi magyar miniszterelnököket",
+        "A magyar olimpiai bajnokok sorozatát 1896-tól napjainkig",
+        "A magyar katolikus egyház szentjeit és pápáit"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az oszlopcsarnokban a hét vezér és további magyar történelmi személyiségek bronzszobrai állnak.",
+      "t": "épületek"
+    },
+    {
+      "q": "Hány méter magas a budapesti Országház kupolája, amely a Parlament szimbolikus központi eleme?",
+      "a": [
+        "96 méter",
+        "65 méter",
+        "120 méter",
+        "80 méter"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Országház teljes magassága 96 méter, ami a honfoglalás évére (896) utaló szimbolikus szám.",
+      "t": "épületek"
+    },
+    {
+      "q": "Ki kezdeményezte és finanszírozta jelentős részben a Lánchíd megépítését, az első állandó hidat Buda és Pest között?",
+      "a": [
+        "Széchenyi István",
+        "Kossuth Lajos",
+        "Deák Ferenc",
+        "Eötvös József"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Lánchíd Széchenyi István kezdeményezésére és jelentős anyagi áldozatvállalásával épült meg 1849-re.",
+      "t": "épületek"
+    },
+    {
+      "q": "Melyik budai palota a magyar köztársasági elnök hivatalos székhelye?",
+      "a": [
+        "A Sándor-palota",
+        "A Karmelita kolostor",
+        "Az Országház",
+        "A Budavári Palota"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A köztársasági elnök hivatala a Budai Várban álló Sándor-palotában működik.",
+      "t": "épületek"
+    },
+    {
+      "q": "Melyik ország Magyarország legnagyobb kereskedelmi partnere import és export tekintetében egyaránt?",
+      "a": [
+        "Németország",
+        "Ausztria",
+        "Kína",
+        "Lengyelország"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A magyar külkereskedelemben évtizedek óta Németország a legfontosabb partner, jelentős autóipari kapcsolatokkal.",
+      "t": "gazdaság"
+    },
+    {
+      "q": "Mi a Központi Statisztikai Hivatal (KSH) fő feladata Magyarországon?",
+      "a": [
+        "Az ország társadalmi és gazdasági folyamatainak hivatalos statisztikai megfigyelése",
+        "Az állami költségvetés végrehajtásának ellenőrzése",
+        "A monetáris politika irányítása és a jegybanki alapkamat meghatározása",
+        "Az adóbevallások feldolgozása és az adóellenőrzések lefolytatása"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A KSH gyűjti, dolgozza fel és teszi közzé Magyarország hivatalos statisztikai adatait.",
+      "t": "gazdaság"
+    },
+    {
+      "q": "Milyen típusú adó Magyarországon az általános forgalmi adó (ÁFA)?",
+      "a": [
+        "A termékek és szolgáltatások fogyasztását terhelő közvetett adó",
+        "A magánszemélyek jövedelmét terhelő közvetlen adó",
+        "Kizárólag a vállalati nyereséget terhelő társasági adó",
+        "Az ingatlanok tulajdonlását terhelő helyi adó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ÁFA közvetett adó, amelyet a fogyasztó fizet meg a termék vagy szolgáltatás árában.",
+      "t": "gazdaság"
+    },
+    {
+      "q": "Miért tartják különösen kitettnek a német gazdasági folyamatoknak a magyar gazdaságot?",
+      "a": [
+        "Mert a magyar ipar, főleg az autógyártás, szorosan összekapcsolódik a német beszállítói láncokkal",
+        "Mert Magyarország valutáját a német márkához rögzítették a rendszerváltás óta",
+        "Mert a magyar állami vállalatok többsége német állami tulajdonban van",
+        "Mert a magyar munkaerő nagy része hivatalosan Németországban dolgozik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar feldolgozóipar, különösen a járműgyártás, erősen függ a német nagyvállalatok beszállítói rendszerétől.",
+      "t": "gazdaság"
+    },
+    {
+      "q": "Mit jelent a \"minimálbér\" fogalma a magyar munkajogban?",
+      "a": [
+        "A törvény által meghatározott legalacsonyabb bér, amelyet teljes munkaidőben foglalkoztatottnak fizetni kell",
+        "Az átlagbérnek a felét kitevő önkéntes ajánlott díjazás",
+        "Csak a közszférában dolgozók számára előírt bérküszöb",
+        "A nyugdíjasok számára megállapított legkisebb ellátás összege"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A minimálbér a jogszabályban rögzített legalacsonyabb bér, amelyet a munkáltató köteles megfizetni a teljes munkaidőben foglalkoztatottaknak.",
+      "t": "gazdaság"
+    },
+    {
+      "q": "Mikor mondta ki törvényben az országgyűlés, hogy a magyar nyelv legyen a törvényhozás és a közigazgatás hivatalos nyelve?",
+      "a": [
+        "1844-ben",
+        "1867-ben",
+        "1848-ban",
+        "1790-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az 1844. évi II. törvénycikk tette a magyar nyelvet a törvényhozás és a közigazgatás hivatalos nyelvévé.",
+      "t": "történelem"
+    },
+    {
+      "q": "Mikor és hol írták alá a Magyarországot súlyosan sújtó trianoni békeszerződést?",
+      "a": [
+        "1920. június 4-én, a versailles-i Nagy-Trianon palotában",
+        "1918. november 3-án, Padovában",
+        "1919. június 28-án, a versailles-i kastélyban",
+        "1921. március 4-én, Bécsben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A trianoni békeszerződést 1920. június 4-én írták alá a versailles-i Nagy-Trianon palotában.",
+      "t": "történelem"
+    },
+    {
+      "q": "Melyik évben tért haza a Szent Korona az Egyesült Államokból Magyarországra?",
+      "a": [
+        "1978",
+        "1956",
+        "1989",
+        "1945"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Szent Korona 1978. január 6-án érkezett haza az Egyesült Államokból, ahol addig Fort Knoxban őrizték.",
+      "t": "történelem"
+    },
+    {
+      "q": "Mi történt Magyarországon 1989. október 23-án, amely a rendszerváltás egyik jelképes dátuma lett?",
+      "a": [
+        "Kikiáltották a Magyar Köztársaságot",
+        "Megalakult az első szabadon választott Országgyűlés",
+        "Aláírták a Varsói Szerződés felbontásáról szóló megállapodást",
+        "Megnyitották Magyarország és Ausztria közös határátkelőjét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "1989. október 23-án Szűrös Mátyás ideiglenes köztársasági elnök kikiáltotta a Magyar Köztársaságot.",
+      "t": "történelem"
+    },
+    {
+      "q": "Miért volt jelentős esemény Széchenyi István 1825-ös felajánlása a magyar közéletben?",
+      "a": [
+        "Ezzel megalapozta a Magyar Tudományos Akadémia létrejöttét",
+        "Ezzel megvásárolta a Budai Várat a magyar államnak",
+        "Ezzel finanszírozta az első magyar vasútvonal megépítését",
+        "Ezzel létrehozta az első magyar nyelvű napilapot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Széchenyi István 1825-ben egyévi jövedelmét ajánlotta fel egy tudós társaság létrehozására, amelyből a Magyar Tudományos Akadémia lett.",
+      "t": "történelem"
+    },
+    {
+      "q": "Hány kötelező tantárgyból kell érettségi vizsgát tenni a magyar középiskolákban?",
+      "a": [
+        "Négy kötelező és egy szabadon választott tantárgyból",
+        "Hat kötelező tantárgyból, választás nélkül",
+        "Két kötelező tantárgyból és három szabadon választottból",
+        "Kizárólag szabadon választott tantárgyakból, kötelezettség nélkül"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az érettségihez négy kötelező tárgy (magyar nyelv és irodalom, matematika, történelem, idegen nyelv) mellett egy szabadon választott tárgyból is vizsgázni kell.",
+      "t": "oktatás"
+    },
+    {
+      "q": "Hány éves korig áll fenn Magyarországon a tankötelezettség?",
+      "a": [
+        "A tanuló tizenhatodik életévének betöltéséig",
+        "A tanuló tizennegyedik életévének betöltéséig",
+        "A tanuló huszonegyedik életévének betöltéséig",
+        "A tanuló tizenkettedik életévének betöltéséig"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tankötelezettség a tanuló tizenhatodik életévének betöltéséig, illetve a tanév végéig tart.",
+      "t": "oktatás"
+    },
+    {
+      "q": "Ki volt az a XX. század eleji magyar kultuszminiszter, akinek nevéhez a két világháború közötti népiskola-építési program fűződik?",
+      "a": [
+        "Klebelsberg Kuno",
+        "Eötvös Loránd",
+        "Teleki Pál",
+        "Horthy Miklós"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Klebelsberg Kuno kultuszminiszterként (1922–1931) indította el a nagyszabású népiskola-építési programot.",
+      "t": "oktatás"
+    },
+    {
+      "q": "Mit jelent a \"kétszintű érettségi\" kifejezés a magyar oktatási rendszerben?",
+      "a": [
+        "A vizsgatárgyak közép- és emelt szinten is teljesíthetők, eltérő követelményekkel",
+        "Az érettségi bizonyítványt két különböző iskola adja ki közösen",
+        "A diákoknak két egymást követő évben kell megismételniük a vizsgát",
+        "A vizsga eredményét két külön tanár értékeli egymástól függetlenül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kétszintű érettséginél a vizsgázó választhat, hogy egy tárgyból közép- vagy emelt szintű vizsgát tesz.",
+      "t": "oktatás"
+    },
+    {
+      "q": "Melyik magyar egyetem a legrégebbi folyamatosan működő felsőoktatási intézmény?",
+      "a": [
+        "Az Eötvös Loránd Tudományegyetem",
+        "A Szegedi Tudományegyetem",
+        "A Budapesti Corvinus Egyetem",
+        "A Debreceni Egyetem"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ELTE jogelődjét, a nagyszombati egyetemet Pázmány Péter alapította 1635-ben.",
+      "t": "oktatás"
+    },
+    {
+      "q": "Mire szolgál a magyar TAJ szám?",
+      "a": [
+        "Az egészségügyi és társadalombiztosítási ügyintézésben a személyek azonosítására",
+        "Az adóbevallások benyújtásának egyedi azonosítására",
+        "A gépjárművek forgalomba helyezésének nyilvántartására",
+        "A bűnügyi nyilvántartásban szereplő személyek azonosítására"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A TAJ (társadalombiztosítási azonosító jel) az egészségbiztosítási és társadalombiztosítási rendszerben azonosítja a személyeket.",
+      "t": "egészségügy"
+    },
+    {
+      "q": "Hány számjegyből áll a magyar TAJ szám?",
+      "a": [
+        "Kilenc számjegyből",
+        "Hat számjegyből",
+        "Tizenegy számjegyből",
+        "Nyolc számjegyből"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A TAJ szám kilenc decimális számjegyből áll, amelynek utolsó jegye ellenőrző szám.",
+      "t": "egészségügy"
+    },
+    {
+      "q": "Melyik szerv felel Magyarországon az egészségbiztosítási ellátások (pl. táppénz, gyógyszertámogatás) igazgatásáért?",
+      "a": [
+        "A Nemzeti Egészségbiztosítási Alapkezelő (NEAK)",
+        "A Központi Statisztikai Hivatal",
+        "A Magyar Államkincstár kizárólagosan",
+        "Az Országos Rendőr-főkapitányság"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A NEAK kezeli a kötelező egészségbiztosítás pénzügyi alapját és igazgatja az egészségbiztosítási ellátásokat.",
+      "t": "egészségügy"
+    },
+    {
+      "q": "Mi a mentőszolgálat hivatalos, országos szervezetének neve Magyarországon?",
+      "a": [
+        "Országos Mentőszolgálat",
+        "Magyar Vöröskereszt",
+        "Katasztrófavédelmi Főigazgatóság",
+        "Nemzeti Népegészségügyi Központ"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Országos Mentőszolgálat látja el Magyarországon az azonnali egészségügyi ellátást igénylő sürgősségi feladatokat.",
+      "t": "egészségügy"
+    },
+    {
+      "q": "Miért kap minden magyar állampolgár TAJ kártyát már a születésekor?",
+      "a": [
+        "Mert az egészségbiztosítási jogosultság igazolásához életkortól függetlenül szükséges",
+        "Mert ez egyben a személyazonosító igazolvány helyettesítője is felnőttkorig",
+        "Mert ez szükséges a szülői felügyeleti jog gyakorlásához",
+        "Mert ez az egyetlen igazolvány, amellyel iskolába lehet iratkozni"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A TAJ kártya igazolja az egészségügyi ellátásra való jogosultságot, ezért azt magyar állampolgárként születéskor automatikusan megkapja mindenki.",
+      "t": "egészségügy"
+    },
+    {
+      "q": "Mi a neve a magyar hírügynökségnek, amely az ország legrégebbi, folyamatosan működő sajtóorgánuma?",
+      "a": [
+        "Magyar Távirati Iroda (MTI)",
+        "Magyar Rádió",
+        "Duna Televízió",
+        "Magyar Nemzeti Bank Sajtóosztálya"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az MTI (Magyar Távirati Iroda) az ország legrégebbi hírügynöksége, amely a XIX. század vége óta működik.",
+      "t": "média"
+    },
+    {
+      "q": "Mit garantál Magyarország Alaptörvénye a sajtó működésével kapcsolatban?",
+      "a": [
+        "A sajtószabadságot és a véleménynyilvánítás szabadságát",
+        "Az állami tulajdonú médiumok kizárólagosságát",
+        "A cenzúra intézményének fenntartását különleges esetekben",
+        "A magánszemélyek sajtóhoz való hozzáférésének korlátozását"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Alaptörvény alapjogként rögzíti a véleménynyilvánítás és a sajtó szabadságát.",
+      "t": "média"
+    },
+    {
+      "q": "Melyik testület felügyeli Magyarországon a médiaszolgáltatók működésének törvényességét?",
+      "a": [
+        "A Nemzeti Média- és Hírközlési Hatóság",
+        "A Gazdasági Versenyhivatal",
+        "Az Állami Számvevőszék",
+        "A Közbeszerzési Hatóság"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nemzeti Média- és Hírközlési Hatóság (NMHH) látja el a médiaszolgáltatások és a hírközlés hatósági felügyeletét.",
+      "t": "média"
+    },
+    {
+      "q": "Mi jellemzi elsősorban a közszolgálati médiát a kereskedelmi médiával szemben Magyarországon?",
+      "a": [
+        "Elsődlegesen közérdekű, kulturális és tájékoztatási céllal működik, nem a profitszerzésért",
+        "Kizárólag előfizetési díjból tartja fenn magát, állami támogatás nélkül",
+        "Nem sugározhat hirdetést semmilyen formában",
+        "Csak külföldi tulajdonban működhet a törvény szerint"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A közszolgálati média elsődleges célja a közérdekű tájékoztatás és a kulturális értékek közvetítése, szemben a kereskedelmi média profitorientáltságával.",
+      "t": "média"
+    },
+    {
+      "q": "Melyik évben függesztették fel Magyarországon a sorkatonai szolgálatot?",
+      "a": [
+        "2004",
+        "1990",
+        "2010",
+        "1996"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "2004 novemberében szerelt le az utolsó sorkatona-korosztály, ezzel gyakorlatilag megszűnt a kötelező sorkatonaság.",
+      "t": "honvédség"
+    },
+    {
+      "q": "Milyen típusú haderővé alakult a Magyar Honvédség a sorkatonaság felfüggesztése óta?",
+      "a": [
+        "Önkéntes, hivatásos és szerződéses katonákból álló haderővé",
+        "Kizárólag tartalékos állományból felépülő haderővé",
+        "Nemzetközi zsoldos egységekre épülő haderővé",
+        "Rendőrségi irányítás alá tartozó rendvédelmi szervvé"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A sorkatonaság megszűnése óta a Honvédség önkéntes, hivatásos és szerződéses állományra épül.",
+      "t": "honvédség"
+    },
+    {
+      "q": "Melyik szervezet felelős Magyarországon a katasztrófák elleni védekezésért, például árvizek vagy tűzesetek kezeléséért?",
+      "a": [
+        "Az Országos Katasztrófavédelmi Főigazgatóság",
+        "A Magyar Honvédség Vezérkara",
+        "Az Országos Rendőr-főkapitányság",
+        "A Nemzeti Adó- és Vámhivatal"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Országos Katasztrófavédelmi Főigazgatóság koordinálja a tűzoltóságot és a katasztrófák elleni védekezést.",
+      "t": "honvédség"
+    },
+    {
+      "q": "Mi a fő különbség a Magyar Honvédség és a rendőrség alkotmányos rendeltetése között?",
+      "a": [
+        "A Honvédség az ország külső védelmére, a rendőrség a belső rend fenntartására hivatott",
+        "A Honvédség kizárólag békefenntartásban, a rendőrség kizárólag katasztrófavédelemben vesz részt",
+        "A Honvédség csak önkéntes alapon, a rendőrség csak sorozás alapján toborozza tagjait",
+        "A Honvédségnek van, a rendőrségnek nincs alkotmányos rendeltetése, csak törvényi szabályozása"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Alaptörvény szerint a Honvédség az ország függetlenségének és területi épségének védelmére, a rendőrség a közbiztonság fenntartására hivatott.",
+      "t": "honvédség"
+    },
+    {
+      "q": "Mikor alakult meg a Magyar Olimpiai Bizottság?",
+      "a": [
+        "1895-ben",
+        "1912-ben",
+        "1945-ben",
+        "1867-ben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A MOB 1895-ben alakult meg Budapesten, a világ ötödik legrégebbi nemzeti olimpiai bizottságaként.",
+      "t": "sport"
+    },
+    {
+      "q": "Ki volt a Magyar Olimpiai Bizottság első elnöke?",
+      "a": [
+        "Berzeviczy Albert",
+        "Kemény Ferenc",
+        "Puskás Ferenc",
+        "Papp László"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A MOB első elnöke Berzeviczy Albert lett, titkára pedig Kemény Ferenc.",
+      "t": "sport"
+    },
+    {
+      "q": "Milyen szervezeti előzményből nőtt ki a Magyar Olimpiai Bizottság 1895-ös megalakulása?",
+      "a": [
+        "A Nemzeti Torna Egylet kezdeményezéséből",
+        "A Magyar Labdarúgó Szövetség szervezetéből",
+        "A Magyar Vöröskereszt sportosztályából",
+        "Az Országos Testnevelési Tanács utódszervezeteként"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A MOB a Nemzeti Torna Egylet Szentkirályi utcai tanácstermében alakult meg 1895-ben.",
+      "t": "sport"
+    },
+    {
+      "q": "Mit jelent az, hogy egy nemzeti sportszövetség \"olimpiai szakszövetség\" Magyarországon?",
+      "a": [
+        "Az adott sportág szerepel a nyári vagy téli olimpiai programban, és a szövetség a MOB tagja",
+        "A szövetség kizárólag állami finanszírozásból működhet",
+        "A szövetség sportolói automatikusan mentesülnek a versenyengedély alól",
+        "A szövetséget kizárólag olimpiai bajnokok vezethetik"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az olimpiai szakszövetségek az olimpiai programban szereplő sportágakat képviselik, és tagjai a Magyar Olimpiai Bizottságnak.",
+      "t": "sport"
+    },
+    {
+      "q": "Melyik magyar főnemes felajánlása vezetett a Magyar Tudományos Akadémia megalapításához?",
+      "a": [
+        "Széchenyi István egyévi jövedelem-felajánlása",
+        "Eötvös József birtokadománya",
+        "Andrássy Gyula alapítványa",
+        "Batthyány Lajos végrendelete"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Széchenyi István 1825-ben ajánlotta fel egyévi jövedelmét egy tudós társaság létrehozására, ebből lett az MTA.",
+      "t": "tudomány"
+    },
+    {
+      "q": "Milyen néven működött kezdetben a Magyar Tudományos Akadémia?",
+      "a": [
+        "Magyar Tudós Társaság",
+        "Magyar Királyi Egyetem",
+        "Nemzeti Kaszinó",
+        "Magyar Filozófiai Társulat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az MTA elődje 1825-ben Magyar Tudós Társaság néven jött létre, majd 1845-től vette fel mai nevét.",
+      "t": "tudomány"
+    },
+    {
+      "q": "Melyik intézmény őrzi Magyarország legjelentősebb régészeti és történeti gyűjteményét, amelynek épülete előtt a hagyomány szerint elhangzott a Nemzeti dal 1848-ban?",
+      "a": [
+        "A Magyar Nemzeti Múzeum",
+        "A Szépművészeti Múzeum",
+        "Az Iparművészeti Múzeum",
+        "A Néprajzi Múzeum"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Magyar Nemzeti Múzeum épülete előtt hirdette ki a hagyomány szerint Petőfi Sándor a Nemzeti dalt 1848. március 15-én.",
+      "t": "tudomány"
+    },
+    {
+      "q": "Mi a Nemzeti Színház jelenlegi épületének különlegessége az elhelyezkedését és történetét tekintve?",
+      "a": [
+        "A korábbi épületek lebontása után, teljesen új helyszínen, 2002-ben nyílt meg",
+        "Az 1837-es eredeti épületben működik a mai napig",
+        "Sosem volt önálló épülete, vándortársulatként működik",
+        "A Budai Várban, a Sándor-palota szomszédságában található"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A jelenlegi Nemzeti Színház épülete a Bajor Gizi parkban, új helyszínen épült, és 2002-ben nyitották meg.",
+      "t": "kultúra"
+    },
+    {
+      "q": "Mit rögzít Magyarország Alaptörvénye az ország hivatalos nyelvéről?",
+      "a": [
+        "Hogy Magyarországon a hivatalos nyelv a magyar",
+        "Hogy Magyarországon a magyar és a német egyaránt hivatalos nyelv",
+        "Hogy a hivatalos nyelvet megyénként önkormányzati rendelet határozza meg",
+        "Hogy Magyarországnak nincs alkotmányosan rögzített hivatalos nyelve"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Alaptörvény kimondja, hogy Magyarországon a hivatalos nyelv a magyar.",
+      "t": "demográfia"
+    },
+    {
+      "q": "Hány nemzetiséget (nemzeti kisebbséget) ismer el hivatalosan Magyarország törvénye?",
+      "a": [
+        "Tizenhármat",
+        "Ötöt",
+        "Huszonötöt",
+        "Kettőt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyarországi nemzetiségek jogairól szóló törvény tizenhárom elismert nemzetiséget sorol fel.",
+      "t": "demográfia"
+    },
+    {
+      "q": "Milyen jogi eszközzel képviselhetik érdekeiket Magyarországon a hivatalosan elismert nemzetiségek helyi szinten?",
+      "a": [
+        "Nemzetiségi önkormányzatok választásával",
+        "Kizárólag saját politikai pártok alapításával az Országgyűlésben",
+        "Külön nemzetiségi bíróságok felállításával",
+        "Saját valutával és vámhatárral rendelkező autonóm területekkel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hivatalosan elismert nemzetiségek helyi és országos nemzetiségi önkormányzatokat választhatnak érdekképviseletük érdekében.",
+      "t": "demográfia"
+    },
+    {
+      "q": "Melyik nemzetiség alkotja Magyarországon a legnépesebb, hivatalosan elismert kisebbséget a népszámlálási adatok szerint?",
+      "a": [
+        "A roma nemzetiség",
+        "A német nemzetiség",
+        "A szlovák nemzetiség",
+        "A román nemzetiség"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 2011-es népszámlálás szerint a roma nemzetiségűek alkották Magyarország legnagyobb hivatalosan elismert kisebbségét.",
+      "t": "demográfia"
+    },
+    {
+      "q": "Miért maradt fontos közéleti kérdés Magyarországon a magyar nyelven kívüli nemzetiségi nyelvek használatának szabályozása?",
+      "a": [
+        "Mert az Alaptörvény lehetővé teszi a nemzetiségi nyelvek használatának sarkalatos törvényi védelmét",
+        "Mert a nemzetiségi nyelveket az Alaptörvény kifejezetten tiltja a közigazgatásban",
+        "Mert minden hivatalos okiratot kötelezően le kell fordítani mind a 13 nemzetiség nyelvére",
+        "Mert a nemzetiségi nyelvek használatáról kizárólag nemzetközi szerződések rendelkeznek"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Alaptörvény a magyar mellett lehetővé teszi a nemzetiségek nyelvhasználatának sarkalatos törvényben történő szabályozását.",
+      "t": "demográfia"
+    },
+    {
+      "q": "Ki írta a Himnusz zenéjét, amelyet Kölcsey Ferenc verséhez komponált?",
+      "a": [
+        "Erkel Ferenc",
+        "Liszt Ferenc",
+        "Bartók Béla",
+        "Egressy Béni"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Himnusz zenéjét Erkel Ferenc szerezte Kölcsey Ferenc szövegéhez, 1844-ben.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Ki a szerzője a Szózat című versnek, amelyből Egressy Béni szerzett dallamot?",
+      "a": [
+        "Vörösmarty Mihály",
+        "Petőfi Sándor",
+        "Arany János",
+        "Kölcsey Ferenc"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Szózatot Vörösmarty Mihály írta, zenéjét pedig Egressy Béni szerezte.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Milyen arányban helyezkednek el a színek a magyar nemzeti zászlón?",
+      "a": [
+        "Egyenlő szélességű vízszintes piros-fehér-zöld sávokban",
+        "Egyenlő szélességű függőleges piros-fehér-zöld sávokban",
+        "Középen egy fehér kereszttel elválasztott piros és zöld mezőben",
+        "Piros keretben, középen fehér-zöld átlós sávokkal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar zászló három egyenlő szélességű vízszintes sávból áll: piros, fehér, zöld sorrendben.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Mit szimbolizál hagyományosan a magyar címerben látható kettős kereszt?",
+      "a": [
+        "Az apostoli királyságot és a kereszténység felvételét",
+        "A honfoglalás előtti hét törzs szövetségét",
+        "A négy folyó és három hegy egységét",
+        "A Habsburg-ház és a magyar korona uniós kapcsolatát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kettős kereszt a magyar apostoli királyság és a kereszténységhez való tartozás jelképe a címerben.",
+      "t": "jelképek"
+    },
+    {
+      "q": "Mi a különbség a polgármester és a jegyző szerepe között egy magyar önkormányzatnál?",
+      "a": [
+        "A polgármester politikai vezető, a jegyző a hivatal szakmai, jogszerűségi vezetője",
+        "A polgármestert a jegyző nevezi ki, és neki tartozik felelősséggel",
+        "A jegyző politikai tisztség, a polgármester szakmai köztisztviselő",
+        "A kettő között nincs érdemi különbség, csak elnevezésbeli eltérés van"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A polgármester a település politikai vezetője, míg a jegyző a hivatali munka szakszerűségéért és törvényességéért felel.",
+      "t": "önkormányzat"
+    },
+    {
+      "q": "Hány önkormányzati szint működik Magyarországon a helyi és területi igazgatásban?",
+      "a": [
+        "Kettő: a települési és a megyei (vármegyei) szint",
+        "Három: a települési, a járási és az országos szint",
+        "Egy: kizárólag a települési önkormányzat",
+        "Négy: a települési, a kerületi, a megyei és a regionális szint"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Magyarországon két önkormányzati szint van: a települési és a megyei (korábban vármegyei) önkormányzat.",
+      "t": "önkormányzat"
+    },
+    {
+      "q": "Mi a fő feladata egy magyar megyei/vármegyei önkormányzatnak a települési önkormányzatokkal szemben?",
+      "a": [
+        "Elsősorban területfejlesztési és területrendezési feladatokat lát el",
+        "Közvetlenül irányítja a települési polgármesterek munkáját",
+        "Kizárólagosan az oktatási intézmények fenntartásáért felel",
+        "Beszedi és elosztja a helyi iparűzési adó teljes bevételét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A megyei önkormányzat elsősorban területfejlesztési, területrendezési és koordinációs feladatokat lát el, nem irányítja a településeket.",
+      "t": "önkormányzat"
+    },
+    {
+      "q": "Mire kötelezi az Országgyűlést egy törvény sarkalatos jellege?",
+      "a": [
+        "Elfogadásához és módosításához a jelenlévő képviselők kétharmados szavazata szükséges",
+        "Elfogadásához népszavazás kötelező előzetes jóváhagyása szükséges",
+        "Csak egy kormányzati ciklusban marad hatályban, utána automatikusan hatályát veszti",
+        "Elfogadásához az Alkotmánybíróság előzetes normakontrollja kötelező"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A sarkalatos törvények elfogadásához és módosításához az országgyűlési képviselők kétharmados többségének szavazata szükséges.",
+      "t": "alaptörvény"
+    },
+    {
+      "q": "Miért nevezik \"Alaptörvénynek\" és nem \"alkotmánynak\" a 2012 óta hatályos magyar alaphatalmi normát?",
+      "a": [
+        "A jogalkotó tudatosan választotta ezt az elnevezést az új dokumentum megjelölésére",
+        "Mert nemzetközi szerződés írta elő ezt a kifejezést",
+        "Mert az Európai Unió jogrendje tiltja az \"alkotmány\" szó használatát",
+        "Mert a dokumentum ideiglenes, egy évre szóló hatállyal bír"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 2011-ben elfogadott új alaphatalmi norma tudatos elnevezésbeli döntés nyomán viseli az \"Alaptörvény\" nevet.",
+      "t": "alaptörvény"
+    },
+    {
+      "q": "Melyik regionális együttműködés tagja Magyarország Lengyelországgal, Csehországgal és Szlovákiával együtt?",
+      "a": [
+        "A Visegrádi Négyek (V4)",
+        "A Balti Tanács",
+        "A Benelux Unió",
+        "A Balkáni Együttműködési Tanács"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Visegrádi Négyek (V4) Magyarország, Lengyelország, Csehország és Szlovákia regionális együttműködési fóruma.",
+      "t": "nemzetközi"
+    },
+    {
+      "q": "Mikor alakult meg a visegrádi együttműködés, a mai V4 elődje?",
+      "a": [
+        "1991-ben, Visegrádon",
+        "2004-ben, az EU-csatlakozáskor",
+        "1999-ben, a NATO-csatlakozáskor",
+        "1956-ban, a forradalom idején"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A visegrádi együttműködést 1991-ben hozta létre Magyarország, Lengyelország és Csehszlovákia.",
+      "t": "nemzetközi"
+    },
+    {
+      "q": "Melyik övezethez való csatlakozás szüntette meg a rendszeres határellenőrzést Magyarország és a legtöbb szomszédos EU-tagállam között?",
+      "a": [
+        "A schengeni övezet",
+        "Az eurózóna",
+        "A Visegrádi Négyek övezete",
+        "Az Európai Gazdasági Térség"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A schengeni övezethez való csatlakozás (2007) szüntette meg a rendszeres határellenőrzést a legtöbb szomszédos EU-tagállammal.",
+      "t": "nemzetközi"
+    },
+    {
+      "q": "Mi a \"vegyes választási rendszer\" lényege a magyar országgyűlési választásokon 2014 óta?",
+      "a": [
+        "A képviselők egy részét egyéni választókerületben, más részét listás szavazással választják",
+        "Minden képviselőt kizárólag listás szavazással választanak",
+        "Minden képviselőt kizárólag egyéni választókerületben választanak",
+        "A képviselőket sorsolással jelölik ki a jelöltek közül"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magyar választási rendszer vegyes: egyéni választókerületi és listás mandátumok kombinációjából áll össze.",
+      "t": "választás"
+    },
+    {
+      "q": "Mit jelent a választásokon a \"kompenzációs lista\" fogalma a magyar rendszerben?",
+      "a": [
+        "Az egyéni kerületekben leadott, győzelemhez nem elegendő szavazatok listás mandátumokba való beszámítását",
+        "A külföldön élő magyar állampolgárok külön szavazólistáját",
+        "A kisebbségi listás jelöltek automatikus parlamenti helyét",
+        "A pártok kampányköltségeinek utólagos állami megtérítését"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kompenzációs lista az egyéni választókerületekben \"elveszett\" szavazatokat számítja be listás mandátumok elosztásába.",
+      "t": "választás"
+    },
+    {
+      "q": "Milyen gyakorisággal tartanak Magyarországon helyi önkormányzati választásokat?",
+      "a": [
+        "Négyévente",
+        "Kétévente",
+        "Hatévente",
+        "Ötévente, az európai parlamenti választásokkal egy napon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A magyar helyi önkormányzati választásokat főszabály szerint négyévente tartják.",
+      "t": "választás"
     }
   ]
 }

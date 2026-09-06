@@ -1807,6 +1807,942 @@
       "d": "medium",
       "e": "A szivárvány akkor jön létre, amikor a napfény vízcseppekben megtörik, majd visszaverődik, szétbontva a fényt színeire.",
       "t": "meteorológia"
+    },
+    {
+      "q": "Miért úszik a jég a folyékony víz tetején?",
+      "a": [
+        "Mert a jég sűrűsége kisebb a vízénél",
+        "Mert a jég hőmérséklete melegebb a víznél",
+        "Mert a jég elektromosan töltött részecskéket tartalmaz",
+        "Mert a jég a víz felszínén párolog el"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Fagyáskor a vízmolekulák laza rácsszerkezetbe rendeződnek, ami kisebb sűrűséget eredményez, mint a folyékony állapot.",
+      "t": "fizika"
+    },
+    {
+      "q": "Melyik évben tette közzé Albert Einstein az általános relativitáselmélet végleges egyenleteit?",
+      "a": [
+        "1915",
+        "1905",
+        "1922",
+        "1933"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Einstein 1915 novemberében terjesztette elő a gravitációs tér egyenleteit a Porosz Tudományos Akadémián.",
+      "t": "fizika"
+    },
+    {
+      "q": "Melyik hőmérsékleti skálán van a víz fagyáspontja 32 foknál?",
+      "a": [
+        "Fahrenheit-skálán",
+        "Celsius-skálán",
+        "Kelvin-skálán",
+        "Rankine-skálán"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Fahrenheit-skálán a víz fagyáspontja 32 °F, forráspontja pedig 212 °F.",
+      "t": "fizika"
+    },
+    {
+      "q": "Hogyan nevezzük azt a halmazállapot-változást, amikor egy anyag folyékony fázis nélkül alakul szilárdból gázzá?",
+      "a": [
+        "Szublimáció",
+        "Kondenzáció",
+        "Olvadás",
+        "Fagyás"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szublimáció során az anyag folyékony állapot nélkül megy át szilárdból gázzá, például a szárazjégnél.",
+      "t": "fizika"
+    },
+    {
+      "q": "Mit nevezünk a fény azon jelenségének, amikor egy adott szög felett a fény teljesen visszaverődik egy közeghatáron?",
+      "a": [
+        "Teljes visszaverődés",
+        "Diffrakció",
+        "Polarizáció",
+        "Interferencia"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A teljes visszaverődés akkor jön létre, ha a beesési szög meghaladja a határszöget, és a fény nem lép ki a közegből.",
+      "t": "fizika"
+    },
+    {
+      "q": "Melyik erőhatás felelős azért, hogy a Hold a Föld körül kering, ahelyett hogy egyenes vonalban távolodna?",
+      "a": [
+        "A gravitációs vonzás",
+        "A mágneses erő",
+        "A légellenállás",
+        "A centrifugális lökés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Föld gravitációs vonzása biztosítja a körpályához szükséges centripetális erőt, ez tartja pályán a Holdat.",
+      "t": "fizika"
+    },
+    {
+      "q": "Miért nem hallható hang az űrben?",
+      "a": [
+        "Mert a hanghullámok terjedéséhez közegre (pl. levegőre) van szükség",
+        "Mert az űrben túl hideg van a hanghullámokhoz",
+        "Mert a fény sebessége elnyomja a hanghullámokat",
+        "Mert az űrhajósok sisakja hangszigetelt"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A hang mechanikai hullám, ezért anyagi közeg (gáz, folyadék, szilárd anyag) szükséges a terjedéséhez, vákuumban nincs ilyen közeg.",
+      "t": "fizika"
+    },
+    {
+      "q": "Melyik állítás HAMIS a hangsebességre vonatkozóan?",
+      "a": [
+        "A hang lassabban terjed vízben, mint levegőben",
+        "A hang gyorsabban terjed szilárd anyagokban, mint gázokban",
+        "A hangsebesség függ a közeg hőmérsékletétől",
+        "Vákuumban a hang egyáltalán nem terjed"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A hang valójában gyorsabban terjed vízben (kb. 1481 m/s), mint levegőben (kb. 343 m/s), mert a víz sűrűbb, rugalmasabb közeg.",
+      "t": "fizika"
+    },
+    {
+      "q": "Hogyan nevezzük azokat a vegyületeket, amelyek vizes oldatban hidrogéniont (H+) adnak le?",
+      "a": [
+        "Savaknak",
+        "Bázisoknak",
+        "Sóknak",
+        "Oxidoknak"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A savak definíció szerint protont (H+ iont) adnak le vizes oldatban, ez okozza savas kémhatásukat.",
+      "t": "kémia"
+    },
+    {
+      "q": "Melyik évben alkotta meg Dmitrij Mengyelejev a periódusos rendszer első változatát?",
+      "a": [
+        "1869",
+        "1803",
+        "1913",
+        "1789"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Mengyelejev 1869-ben publikálta a kémiai elemek periódusos rendszerének első táblázatát.",
+      "t": "kémia"
+    },
+    {
+      "q": "Melyik a Föld légkörében természetesen előforduló leggyakoribb nemesgáz?",
+      "a": [
+        "Argon",
+        "Neon",
+        "Xenon",
+        "Kripton"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az argon a légkör kb. 0,93%-át teszi ki, ezzel a legelterjedtebb nemesgáz a Földön.",
+      "t": "kémia"
+    },
+    {
+      "q": "Mit jelent a 'katalizátor' szó a kémiában?",
+      "a": [
+        "Egy anyag, amely gyorsítja a reakciót, de nem fogy el",
+        "Egy anyag, amely lelassítja a kémiai reakciót",
+        "Egy kémiai reakció során keletkező végtermék",
+        "A reakcióhoz szükséges aktiválási energia mértéke"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A katalizátor csökkenti a reakció aktiválási energiáját, így gyorsítja a folyamatot, de a reakció végén változatlanul megmarad.",
+      "t": "kémia"
+    },
+    {
+      "q": "Melyik vegyész alkotta meg a modern kémiai nómenklatúra alapjait, és ő adta az oxigén nevét is?",
+      "a": [
+        "Antoine Lavoisier",
+        "John Dalton",
+        "Robert Boyle",
+        "Joseph Priestley"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Lavoisier a 18. század végén dolgozta ki a rendszeres kémiai elnevezéseket, és ő nevezte el az oxigént (Oxygenium).",
+      "t": "kémia"
+    },
+    {
+      "q": "Hogyan nevezzük azt a kémiai kötést, amelyben az atomok közösen használnak elektronpárokat?",
+      "a": [
+        "Kovalens kötés",
+        "Ionos kötés",
+        "Fémes kötés",
+        "Hidrogénkötés"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kovalens kötésben két atom megosztott elektronpárral kapcsolódik egymáshoz, ellentétben az ionos kötéssel.",
+      "t": "kémia"
+    },
+    {
+      "q": "Melyik gáz keletkezik, amikor ecetet szódabikarbónával keverünk?",
+      "a": [
+        "Szén-dioxid",
+        "Oxigén",
+        "Hidrogén",
+        "Nitrogén"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ecetsav és a nátrium-hidrogén-karbonát reakciója szén-dioxid gázt, vizet és nátrium-acetátot eredményez.",
+      "t": "kémia"
+    },
+    {
+      "q": "Mi okozza a zöld színt egyes tűzijátékok lángjában?",
+      "a": [
+        "Mert bárium-vegyületeket égetnek el benne",
+        "Mert a puskapor önmagában zöld fényt bocsát ki",
+        "Mert a magas hőmérséklet mindig zöld fényt eredményez",
+        "Mert a szén-dioxid zölden izzik égés közben"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A báriumsók (pl. bárium-nitrát) égetésekor felszabaduló energia jellegzetesen zöld színű lángot ad, ezt használják a tűzijátékokban.",
+      "t": "kémia"
+    },
+    {
+      "q": "Mit nevezünk fotoszintézisnek?",
+      "a": [
+        "A folyamatot, amelyben a növények fényenergiával szerves anyagot állítanak elő",
+        "A folyamatot, amelyben az állatok táplálékot emésztenek",
+        "A folyamatot, amelyben a sejtek osztódnak",
+        "A folyamatot, amelyben a víz elpárolog a levelekből"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fotoszintézis során a növények fényenergia segítségével szén-dioxidból és vízből szerves anyagot (glükózt) és oxigént állítanak elő.",
+      "t": "biológia"
+    },
+    {
+      "q": "Miért van szüksége az emberi szervezetnek C-vitaminra?",
+      "a": [
+        "Mert hozzájárul a kollagéntermeléshez és az immunműködéshez",
+        "Mert kizárólag a látás élességéért felelős",
+        "Mert megakadályozza a vér alvadását",
+        "Mert kizárólag a csontok keménységéért felel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A C-vitamin a kollagénszintézis és az immunrendszer normál működésének fontos kofaktora, hiánya skorbutot okozhat.",
+      "t": "biológia"
+    },
+    {
+      "q": "Melyik tudós dolgozta ki az evolúció természetes szelekción alapuló elméletét?",
+      "a": [
+        "Charles Darwin",
+        "Gregor Mendel",
+        "Louis Pasteur",
+        "Carl Linné"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Darwin 1859-ben publikálta A fajok eredete című művét, amelyben kifejtette a természetes szelekció elméletét.",
+      "t": "biológia"
+    },
+    {
+      "q": "Melyik a Föld legnagyobb testű, ma is élő állatfaja?",
+      "a": [
+        "A kékbálna",
+        "Az elefánt",
+        "A zsiráf",
+        "A fehér cápa"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kékbálna akár 30 méter hosszúra és 170 tonna feletti tömegűre is megnőhet, ezzel a valaha élt legnagyobb ismert állat.",
+      "t": "biológia"
+    },
+    {
+      "q": "Mit nevezünk szimbiózisnak a biológiában?",
+      "a": [
+        "Két különböző faj tartós, szoros együttélését",
+        "Egy faj egyedeinek versengését az élelemért",
+        "Egy faj kihalását élőhelyvesztés miatt",
+        "Egy sejt önmagát megkettőző osztódását"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A szimbiózis két faj közötti tartós, kölcsönös kapcsolatot jelent, amely lehet mindkét fél számára előnyös (mutualizmus) vagy egyoldalú.",
+      "t": "biológia"
+    },
+    {
+      "q": "Melyik állítás HAMIS a gerinces állatokra vonatkozóan?",
+      "a": [
+        "Minden gerinces állat állandó testhőmérsékletű",
+        "A halak, kétéltűek, hüllők, madarak és emlősök is gerincesek",
+        "A gerincesek belső csontvázzal rendelkeznek",
+        "A gerincesek testét gerincoszlop tartja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nem minden gerinces állandó testhőmérsékletű: a halak, kétéltűek és hüllők változó testhőmérsékletűek (hidegvérűek).",
+      "t": "biológia"
+    },
+    {
+      "q": "Melyik évben publikálta Charles Darwin A fajok eredete című könyvét?",
+      "a": [
+        "1859",
+        "1809",
+        "1900",
+        "1831"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A fajok eredete 1859-ben jelent meg, és alapjaiban változtatta meg az élővilág fejlődéséről alkotott tudományos képet.",
+      "t": "biológia"
+    },
+    {
+      "q": "Melyik szervükkel veszik ki a halak az oxigént a vízből?",
+      "a": [
+        "A kopoltyúikkal",
+        "A tüdejükkel",
+        "A bőrükön keresztül",
+        "Az úszóhólyagjukkal"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A halak kopoltyúikkal veszik ki az oxigént a vízből, amely a vér számára hozzáférhetővé válik.",
+      "t": "biológia"
+    },
+    {
+      "q": "Miért hullatják le a lombhullató fák a leveleiket ősszel?",
+      "a": [
+        "Mert csökkentik a vízveszteséget és energiát spórolnak télre",
+        "Mert a leveleket minden ősszel gombafertőzés pusztítja el",
+        "Mert a rovarok ősszel lerágják az összes falevelet",
+        "Mert a fák ezzel készülnek a téli szaporodásra fel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A lombhullás segít a fáknak csökkenteni a téli vízveszteséget és a fagykárt, mivel a levelek elpárologtatnák a vizet.",
+      "t": "biológia"
+    },
+    {
+      "q": "Miért van a Vénusznak a Naprendszer legforróbb felszíne, holott nem ez a Naphoz legközelebbi bolygó?",
+      "a": [
+        "Mert vastag szén-dioxid légköre erős üvegházhatást kelt",
+        "Mert a Vénusz forog leggyorsabban a bolygók közül",
+        "Mert a Vénusznak nincs légköre, ami felmelegíti a felszínt",
+        "Mert a Vénusz közelebb van a Holdhoz, mint a Merkúr"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Vénusz sűrű, szén-dioxidban gazdag légköre olyan erős üvegházhatást okoz, hogy a felszíni hőmérséklet meghaladja a 460 °C-ot.",
+      "t": "csillagászat"
+    },
+    {
+      "q": "Ki volt az első ember, aki a Holdra lépett?",
+      "a": [
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "John Glenn"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Neil Armstrong 1969. július 20-án lépett elsőként a Hold felszínére az Apollo–11 küldetés során.",
+      "t": "csillagászat"
+    },
+    {
+      "q": "Mit nevezünk fekete lyuknak?",
+      "a": [
+        "Olyan térrészt, ahonnan a gravitáció miatt még a fény sem tud kiszabadulni",
+        "Egy csillag által hagyott üres, sötét térrészt",
+        "A Tejútrendszer középpontjában lévő port",
+        "Egy bolygó légkörének legsötétebb rétegét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A fekete lyuk gravitációja akkora, hogy az eseményhorizonton belülről semmi, még a fény sem tud kiszabadulni.",
+      "t": "csillagászat"
+    },
+    {
+      "q": "Melyik állítás HAMIS a Holdra vonatkozóan?",
+      "a": [
+        "A Hold saját fényforrásból világít",
+        "A Föld egyetlen természetes holdja a Hold",
+        "A Hold felszínén gyakorlatilag nincs légkör",
+        "A holdfény a napfény visszaverődéséből ered"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Hold nem termel saját fényt, hanem a Nap fényét veri vissza, ezért látjuk fényesnek az égen.",
+      "t": "csillagászat"
+    },
+    {
+      "q": "Hány bolygója van jelenleg a Naprendszernek a Nemzetközi Csillagászati Unió besorolása szerint?",
+      "a": [
+        "Nyolc bolygó",
+        "Kilenc bolygó",
+        "Tíz bolygó",
+        "Hét bolygó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "2006 óta, amikor a Plútót törpebolygóvá minősítették, a Naprendszernek nyolc hivatalos bolygója van.",
+      "t": "csillagászat"
+    },
+    {
+      "q": "Melyik évben helyezték pályára az első mesterséges holdat, a Szputnyik–1-et?",
+      "a": [
+        "1957",
+        "1961",
+        "1969",
+        "1945"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Szovjetunió 1957. október 4-én indította útjára a Szputnyik–1-et, ezzel kezdődött az űrkorszak.",
+      "t": "csillagászat"
+    },
+    {
+      "q": "Mit nevezünk tektonikus lemezeknek?",
+      "a": [
+        "A Föld kérgét alkotó nagy, mozgó kőzetlemezeket",
+        "A Föld magjában található fémrétegeket",
+        "A légkör legmagasabb rétegeit",
+        "Az óceánok fenekén található üledékrétegeket"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tektonikus lemezek a földkéreg nagy, merev darabjai, amelyek lassan mozognak a köpeny felett, ez okozza a földrengéseket és a hegyláncok kialakulását.",
+      "t": "földtudomány"
+    },
+    {
+      "q": "Miért keletkeznek földrengések a tektonikus lemezek határainál?",
+      "a": [
+        "Mert a lemezek elmozdulása feszültséget halmoz fel, amely hirtelen szabadul fel",
+        "Mert a Hold gravitációja megrázza a földkérget",
+        "Mert a légnyomás hirtelen megváltozik a lemezek felett",
+        "Mert a tengeráramlatok súrlódást okoznak a talajban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A lemezek egymáshoz képesti elmozdulása mechanikai feszültséget halmoz fel a kőzetben, amely hirtelen felszabadulva rengést okoz.",
+      "t": "földtudomány"
+    },
+    {
+      "q": "Melyik a Föld legmélyebb ismert pontja az óceánokban?",
+      "a": [
+        "A Mariana-árok",
+        "A Puerto Ricó-i árok",
+        "A Fülöp-árok",
+        "A Tonga-árok"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Mariana-árok Challenger-mélyedése megközelítőleg 10 900-11 000 méter mély, ez a Föld legmélyebb ismert pontja.",
+      "t": "földtudomány"
+    },
+    {
+      "q": "Mit jelent a 'magma' szó a geológiában?",
+      "a": [
+        "A Föld belsejében található olvadt kőzetanyagot",
+        "A felszínre jutott, megszilárdult kőzetet",
+        "A talaj felső, termékeny rétegét",
+        "A légkörben lévő vízgőzt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A magma a földkéreg alatt vagy a köpenyben található olvadt kőzetanyag, amely felszínre jutva lávaként ismert.",
+      "t": "földtudomány"
+    },
+    {
+      "q": "Melyik földrész a legnagyobb kiterjedésű a Földön?",
+      "a": [
+        "Ázsia kontinense",
+        "Afrika kontinense",
+        "Észak-Amerika kontinense",
+        "Európa kontinense"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ázsia területe mintegy 44,6 millió km², ezzel messze a legnagyobb kontinens.",
+      "t": "földtudomány"
+    },
+    {
+      "q": "Melyik hegy a Föld legmagasabb pontja a tengerszint felett?",
+      "a": [
+        "A Mount Everest csúcsa",
+        "A K2 csúcsa",
+        "A Kancsendzönga csúcsa",
+        "A Mont Blanc csúcsa"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Mount Everest csúcsa 8848,86 méterre magasodik a tengerszint fölé (2020-as mérés), ezzel a Föld legmagasabb pontja.",
+      "t": "földtudomány"
+    },
+    {
+      "q": "Melyik állítás HAMIS a földrengésekre vonatkozóan?",
+      "a": [
+        "A földrengések ereje kizárólag a Richter-skálával mérhető",
+        "A földrengéseket gyakran tektonikuslemez-mozgások okozzák",
+        "A víz alatti földrengések cunamit válthatnak ki",
+        "A földrengések epicentruma a felszínen mérhető pont"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Ma már más skálákat is használnak, például a momentum-magnitúdó skálát, amely pontosabb a nagy erejű rengéseknél, mint a Richter-skála.",
+      "t": "földtudomány"
+    },
+    {
+      "q": "Melyik évben pusztított a történelem egyik legnagyobb vulkánkitörése, a Krakatau kitörése?",
+      "a": [
+        "1883",
+        "1815",
+        "1902",
+        "1991"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Krakatau indonéz vulkán 1883-ban tört ki olyan erővel, hogy a robbanás hangja több ezer kilométerre elhallatszott.",
+      "t": "földtudomány"
+    },
+    {
+      "q": "Melyik szerv feladata a vér testben történő keringetése?",
+      "a": [
+        "A szív",
+        "A tüdő",
+        "A máj",
+        "A vese"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szív pumpálja a vért az erekbe, biztosítva a tápanyagok és oxigén eljutását a szervekhez.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Miért van szükségünk a vesére?",
+      "a": [
+        "Mert kiszűri a salakanyagokat a vérből és vizeletet termel",
+        "Mert kizárólag a légzésért felelős",
+        "Mert emészti a fehérjéket és zsírokat",
+        "Mert szabályozza a testhőmérsékletet izzadással"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vesék szűrik ki a vérből a felesleges anyagokat és vizet, amelyek vizelet formájában távoznak a szervezetből.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Hány csontból áll egy felnőtt ember csontváza átlagosan?",
+      "a": [
+        "206",
+        "150",
+        "300",
+        "180"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A felnőtt emberi csontváz átlagosan 206 csontból épül fel, míg újszülötteknél ennél jóval több csont található.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Melyik vérsejtjeink feladata a szervezet védelme a kórokozók ellen?",
+      "a": [
+        "A fehérvérsejtek",
+        "A vörösvérsejtek",
+        "A vérlemezkék",
+        "A plazma fehérjéi"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fehérvérsejtek (leukociták) felelősek a kórokozók elleni immunválaszért, míg a vörösvérsejtek az oxigénszállításért.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Mit nevezünk reflexnek az emberi idegrendszerben?",
+      "a": [
+        "Egy ingerre adott automatikus, tudattalan választ",
+        "Egy hosszú gyakorlással megtanult mozdulatsort",
+        "Az agy hosszú távú emlékezeti folyamatát",
+        "Az izmok fokozatos, tudatos erősítését edzéssel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A reflex egy inger hatására lezajló gyors, automatikus válasz, amely nem igényel tudatos agyi feldolgozást, például a térdreflex.",
+      "t": "emberi test"
+    },
+    {
+      "q": "Mit nevezünk génnek?",
+      "a": [
+        "Az öröklődő tulajdonságokat kódoló DNS-szakaszt",
+        "A sejt energiatermelő szervecskéjét",
+        "A sejtmag körüli membránt",
+        "Egy fehérje lebontásáért felelős enzimet"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gén a DNS egy szakasza, amely egy adott fehérje vagy tulajdonság kialakításáért felelős örökítő információt tartalmaz.",
+      "t": "genetika"
+    },
+    {
+      "q": "Kit tartanak a genetika 'atyjának', a borsónövényeken végzett öröklődési kísérletei miatt?",
+      "a": [
+        "Gregor Mendel",
+        "Charles Darwin",
+        "James Watson",
+        "Rosalind Franklin"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Mendel a 19. században borsónövényeken végzett kísérletei alapján fogalmazta meg az öröklődés alaptörvényeit.",
+      "t": "genetika"
+    },
+    {
+      "q": "Miért lehetnek az egypetéjű ikrek genetikailag szinte teljesen egyformák?",
+      "a": [
+        "Mert egyetlen megtermékenyített petesejtből fejlődnek ketté",
+        "Mert két különböző petesejtből, de azonos apától származnak",
+        "Mert anyjuk immunrendszere másolja a genetikai anyagot",
+        "Mert méhen belül cserélődik a genetikai információjuk"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az egypetéjű ikrek egyetlen megtermékenyített petesejt kettéosztódásából alakulnak ki, ezért azonos genetikai állományúak.",
+      "t": "genetika"
+    },
+    {
+      "q": "Mit jelent a 'mutáció' fogalma a genetikában?",
+      "a": [
+        "A DNS-szekvencia véletlenszerű megváltozását",
+        "A sejt osztódásának teljes leállását",
+        "Két különböző faj keresztezését",
+        "A kromoszómák számának mesterséges növelését gyógyszerrel"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mutáció a genetikai állomány (DNS) spontán vagy indukált megváltozása, amely új tulajdonságok megjelenéséhez vezethet.",
+      "t": "genetika"
+    },
+    {
+      "q": "Melyik molekula hordozza az öröklődő genetikai információt a legtöbb élőlényben?",
+      "a": [
+        "A dezoxiribonukleinsav (DNS)",
+        "Az adenozin-trifoszfát (ATP)",
+        "A koleszterin molekula",
+        "A glikogén molekula"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A DNS kettős hélix szerkezetében tárolódik az élőlények genetikai információja, amely a fehérjeszintézist irányítja.",
+      "t": "genetika"
+    },
+    {
+      "q": "Mit nevezünk ökoszisztémának?",
+      "a": [
+        "Egy élőhely élőlényeinek és élettelen környezetének együttesét",
+        "Kizárólag egy adott terület állatfajainak listáját",
+        "Egy nemzeti park hivatalos határait",
+        "Egy faj génkészletének teljes egészét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az ökoszisztéma az élőlények és élettelen környezetük (talaj, víz, levegő) kölcsönhatásban álló rendszere.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Miért fontosak a méhek az ökoszisztémák és a mezőgazdaság szempontjából?",
+      "a": [
+        "Mert beporozzák a virágos növények jelentős részét",
+        "Mert kizárólag mézet termelnek emberi fogyasztásra",
+        "Mert lebontják a talajban lévő szerves hulladékot",
+        "Mert megvédik a növényeket a fagykároktól"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A méhek beporzó tevékenysége nélkülözhetetlen sok növényfaj, köztük számos termesztett növény szaporodásához.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Mit nevezünk egy tápláléklánc 'csúcsragadozójának'?",
+      "a": [
+        "Azt a fajt, amelynek nincs természetes ellensége a láncban",
+        "Az elsődleges termelő növényeket",
+        "A lánc legkisebb testű tagjait",
+        "A bomlasztó szervezeteket, mint a gombák"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A csúcsragadozó a tápláléklánc tetején áll, felnőttkorában nincs olyan más faj, amely rendszeresen zsákmányul ejtené.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Melyik földi biom rendelkezik a legnagyobb fajgazdagsággal?",
+      "a": [
+        "A trópusi esőerdő élővilága",
+        "A szavanna élővilága",
+        "A tundra élővilága",
+        "A sivatag élővilága"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A trópusi esőerdők a Föld szárazföldi felszínének kis részét borítják, mégis a szárazföldi fajok jelentős hányadának adnak otthont.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Melyik állítás HAMIS az invazív fajokra vonatkozóan?",
+      "a": [
+        "Az invazív fajok mindig az őshonos élőhelyükön okoznak problémát",
+        "Az invazív fajok versenyezhetnek az őshonos fajokkal az erőforrásokért",
+        "Az invazív fajokat gyakran az ember hurcolja be új területekre",
+        "Az invazív fajok elszaporodása csökkentheti a helyi biodiverzitást"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az invazív faj fogalma éppen azt jelenti, hogy egy idegen, nem őshonos területen szaporodik el károsan, nem a saját eredeti élőhelyén.",
+      "t": "ökológia"
+    },
+    {
+      "q": "Mit nevezünk prímszámnak?",
+      "a": [
+        "Egy olyan számot, aminek csak két osztója van: 1 és önmaga",
+        "Egy olyan számot, amely mindig osztható néggyel is",
+        "Egy olyan számot, amely mindig páratlan és négyzetszám",
+        "Egy olyan számot, amelynek négyzetgyöke mindig egész szám"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A prímszám olyan 1-nél nagyobb természetes szám, amelynek pontosan két osztója van: az 1 és önmaga.",
+      "t": "matematika"
+    },
+    {
+      "q": "Melyik ókori görög matematikus nevéhez fűződik a derékszögű háromszögek oldalai közötti összefüggést leíró tétel?",
+      "a": [
+        "Pitagorasz",
+        "Eukleidész",
+        "Arkhimédész",
+        "Thalész"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Pitagorasz-tétel szerint egy derékszögű háromszögben az átfogó négyzete egyenlő a befogók négyzetének összegével.",
+      "t": "matematika"
+    },
+    {
+      "q": "Mit jelent a matematikában a 'pi' (π) állandó?",
+      "a": [
+        "A kör kerületének és átmérőjének arányát",
+        "A kör sugarának és átmérőjének arányát",
+        "Egy szabályos háromszög szögeinek összegét",
+        "A négyzet oldalának és átlójának arányát"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A π állandó minden kör kerületének és átmérőjének állandó, kb. 3,14159 értékű hányadosa.",
+      "t": "matematika"
+    },
+    {
+      "q": "Miért nem lehet nullával osztani a matematikában?",
+      "a": [
+        "Mert nem létezik olyan szám, amely nullával szorozva a keresett eredményt adná",
+        "Mert a nulla mindig negatív előjelű eredményt ad",
+        "Mert a számítógépek technikai korlátai miatt tilos",
+        "Mert a nulla csak törtszámokkal kompatibilis"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nullával való osztás azért értelmezhetetlen, mert nincs olyan szám, amelyet nullával szorozva a kívánt osztandót kapnánk vissza.",
+      "t": "matematika"
+    },
+    {
+      "q": "Melyik számsorozatban minden tag az előző kettő összege, kezdve az 1, 1 számokkal?",
+      "a": [
+        "Fibonacci-sorozat",
+        "Mértani sorozat",
+        "Prímszám-sorozat",
+        "Faktoriális sorozat"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Fibonacci-sorozatban minden szám az előző két szám összegeként adódik: 1, 1, 2, 3, 5, 8, 13...",
+      "t": "matematika"
+    },
+    {
+      "q": "Ki fejlesztette ki az oltás korai formáját a himlő ellen a 18. század végén?",
+      "a": [
+        "Edward Jenner",
+        "Louis Pasteur",
+        "Robert Koch",
+        "Alexander Fleming"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Edward Jenner 1796-ban kezdte alkalmazni a tehénhimlő-alapú oltást, amely az első modern vakcina volt.",
+      "t": "tudománytörténet"
+    },
+    {
+      "q": "Melyik évben fedezte fel Alexander Fleming a penicillint?",
+      "a": [
+        "1928",
+        "1901",
+        "1945",
+        "1919"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Fleming 1928-ban vette észre, hogy egy penészgomba gátolja a baktériumok szaporodását, ez vezetett a penicillin felfedezéséhez.",
+      "t": "tudománytörténet"
+    },
+    {
+      "q": "Mi tette korszakalkotóvá Louis Pasteur munkásságát az orvostudomány számára?",
+      "a": [
+        "Mert igazolta a mikroorganizmusok szerepét a betegségekben",
+        "Mert felfedezte a röntgensugárzást",
+        "Mert elsőként térképezte fel az emberi genomot",
+        "Mert kifejlesztette az első antibiotikumot"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pasteur kísérletei igazolták, hogy a betegségeket mikroorganizmusok okozhatják, ez alapozta meg a mikrobiológiát és a higiéniai elveket.",
+      "t": "tudománytörténet"
+    },
+    {
+      "q": "Melyik páros nevéhez fűződik a DNS kettős hélix szerkezetének 1953-as leírása?",
+      "a": [
+        "James Watson és Francis Crick",
+        "Gregor Mendel és Charles Darwin",
+        "Marie Curie és Pierre Curie",
+        "Niels Bohr és Albert Einstein"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Watson és Crick 1953-ban publikálta a DNS kettős spirál szerkezetének modelljét, Rosalind Franklin röntgenfelvételei alapján.",
+      "t": "tudománytörténet"
+    },
+    {
+      "q": "Melyik tudós kapott két külön tudományterületen is Nobel-díjat a 20. század elején?",
+      "a": [
+        "Marie Curie",
+        "Albert Einstein",
+        "Niels Bohr",
+        "Max Planck"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Marie Curie fizikai (1903) és kémiai (1911) Nobel-díjat is kapott, ez egyedülálló teljesítmény volt.",
+      "t": "tudománytörténet"
+    },
+    {
+      "q": "Mit jelent a 'bit' kifejezés az informatikában?",
+      "a": [
+        "A digitális információ legkisebb egységét (0 vagy 1)",
+        "Egy számítógép memóriájának teljes kapacitását",
+        "A processzor fizikai méretét milliméterben",
+        "Egy program forráskódjának sorainak számát"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A bit a bináris számjegy rövidítése, az informatika legkisebb információegysége, amely két állapotot (0 vagy 1) vehet fel.",
+      "t": "számítástechnika"
+    },
+    {
+      "q": "Melyik brit matematikust tartják a modern számítástudomány egyik megalapozójának, aki részt vett a német Enigma-kód feltörésében is?",
+      "a": [
+        "Alan Turing",
+        "Charles Babbage",
+        "Tim Berners-Lee",
+        "John von Neumann"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Alan Turing dolgozta ki a később róla elnevezett Turing-gépet, és kulcsszerepet játszott a második világháborúban az Enigma-kód feltörésében.",
+      "t": "számítástechnika"
+    },
+    {
+      "q": "Melyik évben nyújtotta be Tim Berners-Lee a World Wide Web alapjául szolgáló javaslatát a CERN kutatóintézetben?",
+      "a": [
+        "1989",
+        "1969",
+        "1995",
+        "1975"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Berners-Lee 1989-ben dolgozta ki és terjesztette elő a CERN-ben a hipertextalapú információkezelési javaslatát, amelyből a World Wide Web kialakult.",
+      "t": "számítástechnika"
+    },
+    {
+      "q": "Mi a titkosítás (encryption) szerepe az internetes adatforgalomban?",
+      "a": [
+        "Mert megakadályozza, hogy illetéktelenek olvashassák el az elküldött adatokat",
+        "Mert felgyorsítja az internetkapcsolat sebességét",
+        "Mert csökkenti az adatok tárolási helyigényét",
+        "Mert automatikusan javítja a program hibáit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A titkosítás az adatokat olyan formává alakítja, amelyet csak a megfelelő kulccsal lehet visszafejteni, így védi az adatokat lehallgatás ellen.",
+      "t": "számítástechnika"
+    },
+    {
+      "q": "Mit jelent a 'szoftver' kifejezés?",
+      "a": [
+        "A számítógépen futó programokat és utasításokat",
+        "A számítógép fizikai alkatrészeit, például a processzort",
+        "Az internet kábeleit és routereit",
+        "A billentyűzet és egér gyűjtőnevét"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szoftver a számítógépen futó programok és adatok összessége, szemben a hardverrel, amely a fizikai eszközöket jelenti.",
+      "t": "számítástechnika"
+    },
+    {
+      "q": "Mit nevezünk trópusi ciklonnak azokon a területeken, ahol az Atlanti-óceánon alakul ki?",
+      "a": [
+        "Hurrikánnak",
+        "Tájfunnak",
+        "Tornádónak",
+        "Anticiklonnak"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Atlanti-óceán és a kelet-csendes-óceáni térség trópusi ciklonjait hurrikánnak nevezik, míg a nyugat-csendes-óceániakat tájfunnak.",
+      "t": "meteorológia"
+    },
+    {
+      "q": "Mi okozza a szivárvány kialakulását eső utáni napsütésben?",
+      "a": [
+        "Mert a napfény megtörik és szétbomlik a vízcseppekben",
+        "Mert a felhők színes gázokat bocsátanak ki",
+        "Mert a Nap hője megolvasztja a levegőben lévő port",
+        "Mert a szél színes részecskéket sodor a levegőbe"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A szivárvány akkor jön létre, amikor a napfény a levegőben lebegő vízcseppekben megtörik és színeire bomlik, majd visszaverődik.",
+      "t": "meteorológia"
+    },
+    {
+      "q": "Melyik skálával mérik a tornádók erősségét a keletkezett károk alapján?",
+      "a": [
+        "Fujita-skála",
+        "Richter-skála",
+        "Beaufort-skála",
+        "Celsius-skála"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tornádók erősségét a Fujita-skála (illetve annak továbbfejlesztett változata) alapján osztályozzák a keletkezett károk szerint.",
+      "t": "meteorológia"
     }
   ]
 }

@@ -1639,6 +1639,1098 @@
       "d": "easy",
       "e": "Az eposz terjedelmes, verses elbeszélő mű, mint Zrínyi Szigeti veszedelme.",
       "t": "irodalmi műfajok"
+    },
+    {
+      "q": "Melyik unokaöccséhez írta Kölcsey Ferenc erkölcsi tanácsokat tartalmazó Parainesis című művét?",
+      "a": [
+        "Kölcsey Kálmánhoz",
+        "Kölcsey Istvánhoz",
+        "Kölcsey Bálinthoz",
+        "Kölcsey Antalhoz"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Parainesis című intelmes levelet Kölcsey unokaöccsének, Kölcsey Kálmánnak írta.",
+      "t": "Kölcsey Ferenc"
+    },
+    {
+      "q": "Melyik évben fejezte be Kölcsey Ferenc a Himnusz végleges szövegét?",
+      "a": [
+        "1823",
+        "1829",
+        "1832",
+        "1817"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kölcsey 1823. január 22-én fejezte be a Himnusz szövegét Csekén.",
+      "t": "Kölcsey Ferenc"
+    },
+    {
+      "q": "Melyik reformkori almanachban jelent meg először nyomtatásban a Himnusz szövege, 1829-es évjelzéssel?",
+      "a": [
+        "Aurora",
+        "Hébe",
+        "Aspasia",
+        "Uránia"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Himnusz Kisfaludy Károly Aurora című almanachjában jelent meg először.",
+      "t": "Kölcsey Ferenc"
+    },
+    {
+      "q": "Melyik településen született Kölcsey Ferenc 1790-ben?",
+      "a": [
+        "Sződemeteren",
+        "Debrecenben",
+        "Csekén",
+        "Nagyváradon"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kölcsey Ferenc a Szatmár vármegyei Sződemeteren született 1790-ben.",
+      "t": "Kölcsey Ferenc"
+    },
+    {
+      "q": "Melyik két klasszikus mű témájával szokták rokonítani Az ember tragédiáját?",
+      "a": [
+        "Goethe Faustja és Milton Elveszett Paradicsoma",
+        "Dante Isteni színjátéka és Homérosz Iliásza",
+        "Shakespeare Hamletje és Szophoklész Antigonéja",
+        "Vergilius Aeneise és Ovidius Átváltozásai"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az emberiség sorsát bemutató művet gyakran vetik össze Goethe Faustjával és Milton Elveszett Paradicsomával.",
+      "t": "Madách Imre"
+    },
+    {
+      "q": "Milyen szerepet tölt be Lucifer Ádám és Éva mellett Az ember tragédiájában?",
+      "a": [
+        "Kísértőként végigvezeti őket a történelmi álomképeken",
+        "Testvérükként elárulja őket a Paradicsomban",
+        "Angyalként megvédi őket Isten haragjától",
+        "Királyként uralkodik felettük a földi életben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Lucifer kísértőként vezeti végig Ádámot és Évát a történelmi álomjeleneteken, hogy megmutassa az emberi élet hiábavalóságát.",
+      "t": "Madách Imre"
+    },
+    {
+      "q": "Melyik évben jelentette meg a Kisfaludy Társaság Madách Imre főművét, Az ember tragédiáját?",
+      "a": [
+        "1861",
+        "1848",
+        "1872",
+        "1855"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A művet a Kisfaludy Társaság 1861-ben adta ki.",
+      "t": "Madách Imre"
+    },
+    {
+      "q": "Melyik évben zajlott le Katona József Bánk bán című drámájának ősbemutatója Kassán?",
+      "a": [
+        "1833",
+        "1820",
+        "1848",
+        "1861"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A darabot 1833. február 15-én mutatták be először Kassán, három évvel Katona halála után.",
+      "t": "Katona József"
+    },
+    {
+      "q": "Miért nem lehetett jelen Katona József saját drámája, a Bánk bán 1833-as ősbemutatóján?",
+      "a": [
+        "1830-ban, a bemutató előtt szívrohamban meghalt",
+        "Emigrációba kényszerült, és nem térhetett haza",
+        "A cenzúra végleg betiltotta a darabot",
+        "Felhagyott az írással, és külföldre költözött"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Katona József 1830-ban, 38 évesen szívroham következtében hunyt el, három évvel a bemutató előtt.",
+      "t": "Katona József"
+    },
+    {
+      "q": "Melyik város ügyészeként dolgozott Katona József élete utolsó éveiben, miután felhagyott a színházi pályával?",
+      "a": [
+        "Kecskeméten dolgozott",
+        "Kassán dolgozott",
+        "Pesten dolgozott",
+        "Szegeden dolgozott"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Katona József szülővárosában, Kecskeméten dolgozott városi ügyészként élete utolsó éveiben.",
+      "t": "Katona József"
+    },
+    {
+      "q": "Mit jelentett eredetileg a „bán” cím, amelyet Katona József drámájának főszereplője visel?",
+      "a": [
+        "Középkori magyar főméltóság, egy tartomány élén álló kormányzói tisztség",
+        "Nemesi előnév, amely egy adott birtok tulajdonosára utal",
+        "Katonai rang, a hadsereg egyik parancsnoki fokozata",
+        "Egyházi cím, amelyet a püspökök viseltek a középkorban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A bán a középkori Magyar Királyságban egy tartomány, például Horvátország élén álló főméltóság volt.",
+      "t": "Katona József"
+    },
+    {
+      "q": "Melyik évben mutatták be Molnár Ferenc Liliom című színművét, amely később nemzetközi sikert is aratott?",
+      "a": [
+        "1909",
+        "1906",
+        "1919",
+        "1896"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Liliom 1909-ben került színre, és Molnár egyik legismertebb, nemzetközileg is sikeres darabja lett.",
+      "t": "Molnár Ferenc"
+    },
+    {
+      "q": "Hol hunyt el Molnár Ferenc 1952-ben, emigrációban?",
+      "a": [
+        "New Yorkban",
+        "Bécsben",
+        "Budapesten",
+        "Párizsban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Molnár Ferenc emigrációban, New Yorkban halt meg 1952-ben.",
+      "t": "Molnár Ferenc"
+    },
+    {
+      "q": "Milyen foglalkozású a Liliom című Molnár-dráma főszereplője a darab elején?",
+      "a": [
+        "Hintáskörhinta-kikiáltó a vurstliban",
+        "Gyári munkás egy üzemben",
+        "Rendőrtiszt a fővárosban",
+        "Színházi súgó egy teátrumban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Liliom a vurstliban dolgozó hintáskikiáltóként, mutatványosként keresi kenyerét a darab elején.",
+      "t": "Molnár Ferenc"
+    },
+    {
+      "q": "Melyik Molnár Ferenc-dráma szereplője egy sátáni alak, aki egy festő és barátja feleségének titkos érzéseit leplezi le?",
+      "a": [
+        "Az ördög",
+        "Liliom",
+        "A hattyú",
+        "A testőr"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az ördög (1907) című darabban a címszereplő sátáni figura leplezi le a festő és barátja felesége titkolt érzéseit.",
+      "t": "Molnár Ferenc"
+    },
+    {
+      "q": "Melyik olasz költő fő művét, az Isteni színjátékot fordította magyarra Babits Mihály?",
+      "a": [
+        "Dante Alighierit",
+        "Francesco Petrarcát",
+        "Giovanni Boccacciót",
+        "Torquato Tassót"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Babits Mihály lefordította Dante Alighieri Isteni színjátékát magyarra.",
+      "t": "Babits Mihály"
+    },
+    {
+      "q": "Melyik folyóirat főszerkesztője lett Babits Mihály Ignotus után?",
+      "a": [
+        "Nyugat",
+        "Napkelet",
+        "Válasz",
+        "Athenaeum"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Babits Mihály Ignotust követően lett a Nyugat folyóirat főszerkesztője.",
+      "t": "Babits Mihály"
+    },
+    {
+      "q": "Melyik bibliai próféta történetét dolgozta fel Babits Mihály az 1938-as Jónás könyve című művében?",
+      "a": [
+        "Jónás próféta",
+        "Illés próféta",
+        "Ézsaiás próféta",
+        "Jeremiás próféta"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Jónás könyve Jónás próféta bibliai történetét dolgozza fel költői formában.",
+      "t": "Babits Mihály"
+    },
+    {
+      "q": "Milyen elismerésben részesült Babits Mihály a Dante-fordításáért?",
+      "a": [
+        "San Remo-díjat és MTA-tagságot kapott",
+        "Elnyerte az irodalmi Nobel-díjat",
+        "Franciaország Becsületrendjét kapta",
+        "Semmilyen elismerésben nem részesült"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Babits a Dante-fordításért San Remo-díjat kapott, és 1930-ban a Magyar Tudományos Akadémia tagjává választották.",
+      "t": "Babits Mihály"
+    },
+    {
+      "q": "Melyik felvidéki, ma szlovákiai városban született Márai Sándor 1900-ban?",
+      "a": [
+        "Kassán",
+        "Pozsonyban",
+        "Aradon",
+        "Nagyváradon"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Márai Sándor Kassán született 1900. április 11-én.",
+      "t": "Márai Sándor"
+    },
+    {
+      "q": "Melyik amerikai városban élte le utolsó éveit, és vetett véget életének 1989-ben Márai Sándor?",
+      "a": [
+        "San Diegóban",
+        "Clevelandben",
+        "Bostonban",
+        "Chicagóban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Márai élete utolsó éveit a kaliforniai San Diegóban töltötte, ahol 1989-ben öngyilkos lett.",
+      "t": "Márai Sándor"
+    },
+    {
+      "q": "Melyik Márai-regényben tér vissza egy régi barát évtizedek után, hogy egy vacsora alkalmával szembenézzenek közös múltjukkal?",
+      "a": [
+        "A gyertyák csonkig égnek",
+        "Egy polgár vallomásai",
+        "Az igazi című regénye",
+        "Vendégjáték Bolzanóban"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gyertyák csonkig égnek című regényben egy régi barát évtizedek után tér vissza, hogy szembenézzenek közös múltjukkal.",
+      "t": "Márai Sándor"
+    },
+    {
+      "q": "Milyen jellegű Márai Sándor Egy polgár vallomásai című műve?",
+      "a": [
+        "Önéletrajzi regény a polgári lét eltűnéséről",
+        "Történelmi kalandregény a reformkorból",
+        "Verses eposz a huszadik századról",
+        "Tudományos-fantasztikus regény"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Egy polgár vallomásai önéletrajzi ihletésű regény, amely a polgári lét eltűnését is megörökíti.",
+      "t": "Márai Sándor"
+    },
+    {
+      "q": "Melyik évben jelent meg Ottlik Géza Iskola a határon című regénye?",
+      "a": [
+        "1959",
+        "1945",
+        "1963",
+        "1972"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A regény 1959-ben jelent meg a Magvető Kiadónál.",
+      "t": "Ottlik Géza"
+    },
+    {
+      "q": "Melyik intézmény szolgál helyszínül Ottlik Géza Iskola a határon című regényének?",
+      "a": [
+        "Egy katonai alreáliskola Kőszegen",
+        "Egy budapesti egyetem",
+        "Egy vidéki tanítóképző",
+        "Egy erdélyi gimnázium"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A regény a kőszegi katonai alreáliskola (kadétiskola) világát mutatja be.",
+      "t": "Ottlik Géza"
+    },
+    {
+      "q": "Milyen témát dolgoz fel elsősorban Ottlik Géza Iskola a határon című regénye?",
+      "a": [
+        "A katonaiskolák kemény fegyelmezését és a fiúk beilleszkedését",
+        "Az első világháborús frontélményeket",
+        "A vidéki dzsentricsalád hanyatlását",
+        "Egy falusi tanító mindennapjait"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A regény a katonai nevelőintézet kemény fegyelmét és a diákok emberi kapcsolatait ábrázolja.",
+      "t": "Ottlik Géza"
+    },
+    {
+      "q": "Melyik irodalmi stílusirányzathoz sorolják leginkább Berzsenyi Dániel ódaköltészetét?",
+      "a": [
+        "Klasszicizmus",
+        "Szimbolizmus",
+        "Realizmus",
+        "Posztmodern"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Berzsenyi ódaköltészete a klasszicista hagyományhoz kötődik, antik versformákat használva.",
+      "t": "Berzsenyi Dániel"
+    },
+    {
+      "q": "Melyik vármegyében található Berzsenyi Dániel szülőfaluja, Egyházashetye?",
+      "a": [
+        "Vas vármegyében",
+        "Somogy vármegyében",
+        "Zala vármegyében",
+        "Veszprém vármegyében"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Berzsenyi Dániel a Vas vármegyei Egyházashetyén született 1776-ban.",
+      "t": "Berzsenyi Dániel"
+    },
+    {
+      "q": "Milyen versformákat alkalmazott előszeretettel Berzsenyi Dániel ódáiban?",
+      "a": [
+        "Ókori, időmértékes strófaszerkezeteket használt",
+        "Kizárólag népi ütemhangsúlyos formákat",
+        "Kötetlen szabadverset, rímek nélkül",
+        "Szigorú szonettformát alkalmazott"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Berzsenyi verseiben antik, időmértékes strófaszerkezeteket, például az alkaioszi strófát alkalmazta.",
+      "t": "Berzsenyi Dániel"
+    },
+    {
+      "q": "Melyik régióhoz kötődik életműve nagy részében Wass Albert, ahonnan a második világháború után emigrálnia kellett?",
+      "a": [
+        "Erdélyhez",
+        "Felvidékhez",
+        "Vajdasághoz",
+        "Kárpátaljához"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Wass Albert erdélyi származású volt, és a második világháború után emigrált nyugatra.",
+      "t": "Wass Albert"
+    },
+    {
+      "q": "Melyik évben hunyt el Wass Albert az Amerikai Egyesült Államokban?",
+      "a": [
+        "1998",
+        "1989",
+        "2004",
+        "1975"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Wass Albert 1998-ban vetett véget életének floridai otthonában.",
+      "t": "Wass Albert"
+    },
+    {
+      "q": "Milyen témát dolgoz fel Wass Albert Adjátok vissza a hegyeimet! című műve?",
+      "a": [
+        "Az erdélyi magyarság kisebbségi sorsát",
+        "Egy budapesti polgárcsalád mindennapjait",
+        "A reformkori országgyűlés vitáit",
+        "Egy bevándorló sikertörténetét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A mű az erdélyi magyarság háború utáni tragédiáját és a szülőföld elvesztésének fájdalmát mutatja be.",
+      "t": "Wass Albert"
+    },
+    {
+      "q": "Melyik Németh László-regény főszereplője Kárász Nelli, akinek házassága fokozatos elidegenedésbe torkollik?",
+      "a": [
+        "Iszony című regénye",
+        "Gyász című regénye",
+        "Égető Eszter című regénye",
+        "Bűn című regénye"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Iszony főszereplője Kárász Nelli, akinek házassága érzelmi eltávolodásba fordul.",
+      "t": "Németh László"
+    },
+    {
+      "q": "Melyik ókori szerző szellemisége érződik leginkább Németh László Gyász című regényén?",
+      "a": [
+        "Szophoklész, a görög tragédiaíró",
+        "Homérosz görög eposzköltő",
+        "Vergilius, római eposzköltő",
+        "Platón görög filozófus"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Gyász a görög tragédia, elsősorban Szophoklész szellemében ábrázolja a gyász és a sorsszerűség témáját.",
+      "t": "Németh László"
+    },
+    {
+      "q": "Milyen műfajban alkotott Németh László regényei mellett még jelentőset?",
+      "a": [
+        "Drámaíróként és esszéíróként is maradandót alkotott",
+        "Kizárólag lírai költőként ismert",
+        "Csak filmforgatókönyveket írt",
+        "Kizárólag gyermekirodalommal foglalkozott"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Németh László regényei mellett drámákat és esszéket is írt, gondolkodóként is jelentős.",
+      "t": "Németh László"
+    },
+    {
+      "q": "Melyik díjat kapta meg Pilinszky János 1980-ban, költői életműve elismeréseként?",
+      "a": [
+        "Kossuth-díjat",
+        "Nobel-díjat",
+        "József Attila-díjat",
+        "Herder-díjat"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pilinszky János 1980-ban Kossuth-díjat kapott költői életműve elismeréseként.",
+      "t": "Pilinszky János"
+    },
+    {
+      "q": "Milyen élmény hatja át alapvetően Pilinszky János költészetét, például az Apokrif című versét?",
+      "a": [
+        "A koncentrációs táborok borzalmának emléke",
+        "A reformkor politikai küzdelmei",
+        "A gyermekkori falusi idill emlékei",
+        "A technikai fejlődés lelkesedése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pilinszky verseit mélyen áthatja a koncentrációs táborok borzalmának élménye, amelyet fogolyként is átélt.",
+      "t": "Pilinszky János"
+    },
+    {
+      "q": "Milyen stílusjegy jellemzi Pilinszky János kései költészetét, például a Négysoros című verset?",
+      "a": [
+        "Rendkívüli tömörség és a szavak minimalizálása",
+        "Terjengős, barokkos díszítettség",
+        "Népdalszerű, játékos rímelés",
+        "Hosszú, elbeszélő jellegű epikus formák"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Pilinszky kései verseit, mint a Négysoros, rendkívüli tömörség és a kifejezés minimalizálása jellemzi.",
+      "t": "Pilinszky János"
+    },
+    {
+      "q": "Melyik művében dolgozta fel Illyés Gyula saját pusztai gyermekkorát és a magyar agrárproletariátus sorsát?",
+      "a": [
+        "Puszták népe című műve",
+        "Ozorai példa című műve",
+        "Kegyenc című műve",
+        "Hunok Párizsban című műve"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Puszták népe (1936) Illyés Gyula önéletrajzi ihletésű szociográfiája a pusztai cselédség életéről.",
+      "t": "Illyés Gyula"
+    },
+    {
+      "q": "Milyen műfaji jegyeket ötvöz Illyés Gyula Puszták népe című műve?",
+      "a": [
+        "Szociográfiát és önéletrajzi emlékezést",
+        "Tudományos statisztikai elemzést",
+        "Verses eposzi formát alkalmaz",
+        "Kabaréjelenetek gyűjteménye"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A mű a szociográfiai tényfeltárást ötvözi az önéletrajzi, személyes emlékezéssel.",
+      "t": "Illyés Gyula"
+    },
+    {
+      "q": "Melyik társadalmi réteg életét mutatja be elsősorban Illyés Gyula Puszták népe című könyve?",
+      "a": [
+        "A dunántúli uradalmi cselédség életét",
+        "A fővárosi munkásosztály életét",
+        "Az erdélyi arisztokrácia hanyatlását",
+        "A felvidéki polgárság mindennapjait"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A könyv a Tolna megyei uradalmi puszták cselédségének kilátástalan sorsát tárja fel.",
+      "t": "Illyés Gyula"
+    },
+    {
+      "q": "Melyik régióban játszódik Tamási Áron Ábel-trilógiája?",
+      "a": [
+        "A székelyföldi Hargita vidékén",
+        "A Balaton-felvidéken",
+        "A budapesti Józsefvárosban",
+        "A Felvidéken, Kassa környékén"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Ábel-trilógia cselekménye a székelyföldi Hargita vidékén kezdődik, majd a nagyvilágban folytatódik.",
+      "t": "Tamási Áron"
+    },
+    {
+      "q": "Milyen sorrendben követik egymást Tamási Áron Ábel-trilógiájának részei a főhős életútja szerint?",
+      "a": [
+        "Erdei favágó, majd városi munkás, végül amerikai kivándorló",
+        "Katona, majd pap, végül tanító",
+        "Diák, majd tanár, végül politikus",
+        "Halász, majd földműves, végül kereskedő"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ábel előbb az erdőben (Ábel a rengetegben), majd a városban (Ábel az országban), végül Amerikában (Ábel Amerikában) próbál boldogulni.",
+      "t": "Tamási Áron"
+    },
+    {
+      "q": "Hová temették Tamási Áron írót 1966-os halála után?",
+      "a": [
+        "Farkaslakára",
+        "Kolozsvárra",
+        "Budapestre",
+        "Marosvásárhelyre"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Tamási Áront szülőfalujában, a székelyföldi Farkaslakán temették el.",
+      "t": "Tamási Áron"
+    },
+    {
+      "q": "Melyik erdélyi faluhoz kötődik Sütő András Anyám könnyű álmot ígér című önéletrajzi ihletésű műve?",
+      "a": [
+        "Pusztakamaráshoz",
+        "Farkaslakához",
+        "Válaszúthoz",
+        "Sződemeterhez"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mű Sütő András szülőfalujához, a mezőségi Pusztakamaráshoz kötődik.",
+      "t": "Sütő András"
+    },
+    {
+      "q": "Milyen műfaji jegyeket ötvöz Sütő András Anyám könnyű álmot ígér című alkotása?",
+      "a": [
+        "Naplójegyzetet és önéletrajzi emlékezést",
+        "Kizárólag történelmi drámát",
+        "Csak verses formájú elbeszélést",
+        "Tudományos-fantasztikus elemeket"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A mű naplószerű jegyzetek, szociográfia és önéletrajzi emlékezés keveréke a mezőségi falu életéről.",
+      "t": "Sütő András"
+    },
+    {
+      "q": "Milyen tudományos tevékenységet folytatott írói munkássága mellett Móra Ferenc?",
+      "a": [
+        "Régészként ásatásokat vezetett Szeged környékén",
+        "Csillagászként bolygókat kutatott",
+        "Orvosként dolgozott vidéki kórházban",
+        "Nyelvészként szótárakat szerkesztett"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Móra Ferenc régészként is dolgozott, és Szeged környékén jelentős ásatásokat vezetett.",
+      "t": "Móra Ferenc"
+    },
+    {
+      "q": "Melyik intézmény élén állt igazgatóként Móra Ferenc 1917-től?",
+      "a": [
+        "A szegedi múzeum",
+        "A Nemzeti Múzeum Budapesten",
+        "A debreceni egyetemi könyvtár",
+        "Az Országos Széchényi Könyvtár"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Móra Ferenc 1917-től a szegedi múzeum igazgatója volt.",
+      "t": "Móra Ferenc"
+    },
+    {
+      "q": "Milyen jellegű Móra Ferenc Kincskereső kisködmön című klasszikus regénye?",
+      "a": [
+        "Gyermek- és ifjúsági regény, saját gyermekkori emlékek alapján",
+        "Felnőtteknek szóló filozófiai regény",
+        "Történelmi kalandregény lovagokról",
+        "Tudományos ismeretterjesztő szakkönyv"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Kincskereső kisködmön Móra saját gyermekkori élményein alapuló, gyerekeknek szóló regény.",
+      "t": "Móra Ferenc"
+    },
+    {
+      "q": "Melyik évben kapta meg Kertész Imre az irodalmi Nobel-díjat?",
+      "a": [
+        "2002",
+        "1996",
+        "2005",
+        "2010"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Kertész Imre 2002-ben lett az első magyar irodalmi Nobel-díjas.",
+      "t": "Kertész Imre"
+    },
+    {
+      "q": "Melyik regényével vált ismertté Kertész Imre, amely egy fiatal fogoly koncentrációs táborbeli túlélését dolgozza fel?",
+      "a": [
+        "Sorstalanság című regénye",
+        "Kaddis a meg nem született gyermekért",
+        "A kudarc című regénye",
+        "Felszámolás című regénye"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Sorstalanság a fiatal Köves Gyuri koncentrációs táborbeli túlélését meséli el.",
+      "t": "Kertész Imre"
+    },
+    {
+      "q": "Nagyjából mennyi ideig dolgozott Kertész Imre a Sorstalanság című regényén, mielőtt 1975-ben megjelenhetett?",
+      "a": [
+        "Több mint egy évtizedig",
+        "Néhány hónap alatt",
+        "Egyetlen nyár alatt",
+        "Egy hét alatt, lázas ihlettel"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Kertész évekig, nagyjából 1960 és 1973 között dolgozott a regényen, mire végül 1975-ben megjelenhetett.",
+      "t": "Kertész Imre"
+    },
+    {
+      "q": "Melyik regényét nevezi a szakirodalom „nagy apakönyvnek”, amely a családtörténetet és a huszadik századot beszéli el?",
+      "a": [
+        "Harmonia caelestis című regénye",
+        "Termelési-regény című műve",
+        "Bevezetés a szépirodalomba",
+        "Egy nő című kisregénye"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Harmonia caelestis (2000) az Esterházy-família történetét dolgozza fel nagy ívű családregényként.",
+      "t": "Esterházy Péter"
+    },
+    {
+      "q": "Milyen írói eljárás jellemzi visszatérően Esterházy Péter prózáját?",
+      "a": [
+        "Idézéstechnika és a hagyomány újraírása, több stílusréteg keverése",
+        "Kizárólag lineáris, egyszerű elbeszélésmód",
+        "Szigorúan verses formák alkalmazása",
+        "Tisztán tényirodalmi, dokumentarista stílus"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Esterházy prózáját az idézéstechnika, az intertextualitás és a stílusok merész keverése jellemzi.",
+      "t": "Esterházy Péter"
+    },
+    {
+      "q": "Melyik évben hunyt el Esterházy Péter?",
+      "a": [
+        "2016",
+        "2010",
+        "2020",
+        "2005"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Esterházy Péter 2016-ban hunyt el hosszú betegség után.",
+      "t": "Esterházy Péter"
+    },
+    {
+      "q": "Melyik regénye hozta meg Krasznahorkai László első nagy irodalmi sikerét 1985-ben?",
+      "a": [
+        "Sátántangó című regénye",
+        "Az ellenállás melankóliája",
+        "Háború és háború című műve",
+        "Báró Wenckheim hazatér"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Krasznahorkai első regénye, a Sátántangó 1985-ben jelent meg, és azonnal jelentős elismerést hozott.",
+      "t": "Krasznahorkai László"
+    },
+    {
+      "q": "Melyik évben kapta meg Krasznahorkai László a Nemzetközi Man Booker-díjat életműve elismeréseként?",
+      "a": [
+        "2015",
+        "2019",
+        "2011",
+        "2008"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Krasznahorkai 2015-ben nyerte el a Nemzetközi Man Booker-díjat életműve elismeréseként.",
+      "t": "Krasznahorkai László"
+    },
+    {
+      "q": "Melyik évben kapta meg Krasznahorkai László az irodalmi Nobel-díjat, második magyar szerzőként?",
+      "a": [
+        "2025",
+        "2019",
+        "2021",
+        "2023"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Krasznahorkai László 2025-ben kapta meg az irodalmi Nobel-díjat.",
+      "t": "Krasznahorkai László"
+    },
+    {
+      "q": "Melyik regénye hozta meg Nádas Péter nemzetközi elismerését, amelyet Susan Sontag is kortárs világirodalmi remekműnek nevezett?",
+      "a": [
+        "Emlékiratok könyve",
+        "Párhuzamos történetek",
+        "Egy családregény vége",
+        "Világló részletek"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Emlékiratok könyve (1986) hozta meg Nádas nemzetközi elismerését.",
+      "t": "Nádas Péter"
+    },
+    {
+      "q": "Nagyjából mennyi ideig dolgozott Nádas Péter a háromkötetes Párhuzamos történetek című regényén, mielőtt 2005-ben megjelent?",
+      "a": [
+        "Közel két évtizedig dolgozott rajta",
+        "Néhány hónapig dolgozott rajta",
+        "Egy évig dolgozott rajta",
+        "Öt évig dolgozott rajta"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Nádas mintegy tizennyolc évig dolgozott a Párhuzamos történetek megírásán.",
+      "t": "Nádas Péter"
+    },
+    {
+      "q": "Melyik történelmi esemény hatására írta Nagy László a Ki viszi át a Szerelmet című, ars poetica jellegű versét?",
+      "a": [
+        "Az 1956-os forradalom leverése utáni csalódottság",
+        "A második világháború kitörése",
+        "A rendszerváltás öröme 1989-ben",
+        "Az első világháború befejezése"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A vers az 1956-os forradalom leverése utáni kiábrándultságot és a költői küldetés kérdését fogalmazza meg.",
+      "t": "Nagy László"
+    },
+    {
+      "q": "Melyik évtizedben vált Nagy László Ki viszi át a Szerelmet című versének sora szállóigévé a magyar közbeszédben?",
+      "a": [
+        "Az 1960-as években",
+        "Az 1930-as években",
+        "Az 1980-as években",
+        "A 2000-es években"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A vers sorai az 1960-as években váltak szállóigévé a magyar közbeszédben.",
+      "t": "Nagy László"
+    },
+    {
+      "q": "Melyik költői kör tagjaként indult pályája elején Nemes Nagy Ágnes?",
+      "a": [
+        "Az Újhold folyóirat köréhez tartozott",
+        "A Nyugat első nemzedékéhez tartozott",
+        "A népi írók mozgalmához csatlakozott",
+        "A szocialista realista költők közé sorolta magát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Nemes Nagy Ágnes az Újhold folyóirat köréhez tartozott indulásakor.",
+      "t": "Nemes Nagy Ágnes"
+    },
+    {
+      "q": "Milyen stílusjegy jellemzi általánosságban Nemes Nagy Ágnes költészetét?",
+      "a": [
+        "Tárgyias, fegyelmezett, gondolatilag pontos versbeszéd",
+        "Túláradó, érzelmes, dallamos rímelés",
+        "Népdalszerű, egyszerű, játékos hangvétel",
+        "Kizárólag politikai agitációs jelleg"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Nemes Nagy Ágnes költészetét a tárgyias, fegyelmezett és gondolatilag pontos versbeszéd jellemzi.",
+      "t": "Nemes Nagy Ágnes"
+    },
+    {
+      "q": "Melyik verseskötete/ciklusa dolgozza fel Szabó Lőrinc gyermekkori emlékeit?",
+      "a": [
+        "Tücsökzene című ciklusa",
+        "Kalibán! című kötete",
+        "A sátán műremekei kötet",
+        "Fény, fény, fény kötete"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Tücsökzene ciklusban Szabó Lőrinc gyermekkori emlékeit dolgozza fel.",
+      "t": "Szabó Lőrinc"
+    },
+    {
+      "q": "Melyik folyóiratnál dolgozott kritikusként Szabó Lőrinc az 1920-as évek elején?",
+      "a": [
+        "A Nyugatnál",
+        "A Napkeletnél",
+        "A Válasznál",
+        "Az Athenaeumnál"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Szabó Lőrinc 1920 és 1922 között a Nyugat kritikusaként dolgozott.",
+      "t": "Szabó Lőrinc"
+    },
+    {
+      "q": "Melyik költői nemzedékhez tartozott Tóth Árpád, akinek verseiben gyakori a fájdalom és a melankólia?",
+      "a": [
+        "A Nyugat első nemzedékéhez tartozott",
+        "Az Újhold köréhez tartozott",
+        "A népi írókhoz tartozott",
+        "A szocialista realizmushoz tartozott"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Tóth Árpád a Nyugat első nemzedékének tagja volt, verseiben gyakori a fájdalom és a melankólia.",
+      "t": "Tóth Árpád"
+    },
+    {
+      "q": "Melyik évben hunyt el Tóth Árpád, fiatalon, tüdőbetegségben?",
+      "a": [
+        "1928",
+        "1919",
+        "1937",
+        "1945"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Tóth Árpád 1928-ban, 42 évesen halt meg tüdőbajban.",
+      "t": "Tóth Árpád"
+    },
+    {
+      "q": "Kihez írta Juhász Gyula az Anna örök című, viszonzatlan szerelmét megéneklő versét?",
+      "a": [
+        "Sárvári Anna nevű szerelméhez",
+        "Feleségéhez, aki elhagyta",
+        "Egy soha nem látott ideálhoz",
+        "Édesanyja emlékéhez"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az Anna örök Juhász Gyula viszonzatlan szerelmét, Sárvári Annát örökíti meg.",
+      "t": "Juhász Gyula"
+    },
+    {
+      "q": "Melyik magyar várossal forrt össze legszorosabban Juhász Gyula élete és költészete?",
+      "a": [
+        "Szegeddel",
+        "Debrecennel",
+        "Péccsel",
+        "Miskolccal"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Juhász Gyula élete és költészete szorosan összefonódott Szegeddel, ahol tanárként is dolgozott.",
+      "t": "Juhász Gyula"
+    },
+    {
+      "q": "Melyik meseregény szereplői élnek a bizarr tilalmak és szabályok uralta, négyszögletű, mégis kerek erdőben?",
+      "a": [
+        "Lázár Ervin meseregénye",
+        "Csukás István meséi",
+        "Fekete István regénye",
+        "Móra Ferenc regénye"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Lázár Ervin meseregényében a szereplők a bizarr szabályok uralta Négyszögletű Kerek Erdőben élnek.",
+      "t": "gyermekirodalom"
+    },
+    {
+      "q": "Melyik kétfejű, verselő sárkány-mesehőst alkotta meg Csukás István?",
+      "a": [
+        "Süsüt",
+        "Pom Pomot",
+        "Mirr-Murrt",
+        "Dömdödömöt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Süsü, a sárkány Csukás István egyik legismertebb, kétfejű mesehőse.",
+      "t": "gyermekirodalom"
+    },
+    {
+      "q": "Milyen szokatlan tulajdonsága van Csukás István Pom Pom nevű meseszereplőjének?",
+      "a": [
+        "Alaktalan, folyton változó lény",
+        "Beszélő, repülő elefánt",
+        "Láthatatlan tündérlény",
+        "Óriási, félénk sárkány"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Pom Pom egy alaktalan, folyamatosan formát váltó, apró meselény.",
+      "t": "gyermekirodalom"
+    },
+    {
+      "q": "Melyik írónő ismert a gyerekek nézőpontját megjelenítő, Ha én felnőtt volnék című művéről?",
+      "a": [
+        "Janikovszky Éva",
+        "Szabó Magda",
+        "Csukás István",
+        "Lázár Ervin"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Janikovszky Éva a gyerekek nézőpontját megjelenítő könyveiről, például a Ha én felnőtt volnék címűről ismert.",
+      "t": "gyermekirodalom"
+    },
+    {
+      "q": "Melyik évben alapította a magyar országgyűlés a Kossuth-díjat, az 1848-as forradalom centenáriuma alkalmából?",
+      "a": [
+        "1948",
+        "1938",
+        "1956",
+        "1966"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Kossuth-díjat 1948-ban alapították, az 1848-as forradalom centenáriuma alkalmából.",
+      "t": "irodalmi díjak"
+    },
+    {
+      "q": "Hány magyar szerző kapott eddig irodalmi Nobel-díjat, Kertész Imrét és Krasznahorkai Lászlót is beleértve?",
+      "a": [
+        "Kettő",
+        "Egy",
+        "Három",
+        "Négy"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Eddig két magyar szerző, Kertész Imre (2002) és Krasznahorkai László (2025) kapott irodalmi Nobel-díjat.",
+      "t": "irodalmi díjak"
+    },
+    {
+      "q": "Milyen teljesítmény elismerésére alapították a József Attila-díjat, amelyet a magyar állam ítél oda?",
+      "a": [
+        "Szépirodalmi alkotói teljesítményért",
+        "Tudományos kutatásért",
+        "Sportteljesítményért",
+        "Diplomáciai szolgálatért"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A József Attila-díjat irodalmi, elsősorban szépirodalmi alkotói teljesítmény elismerésére alapították.",
+      "t": "irodalmi díjak"
+    },
+    {
+      "q": "Mi a fő különbség az időmértékes és az ütemhangsúlyos verselés között?",
+      "a": [
+        "Az időmértékes a szótagok hosszúságán, az ütemhangsúlyos a hangsúlyos szótagok számán alapul",
+        "Az időmértékes csak prózában, az ütemhangsúlyos csak versben létezik",
+        "Az időmértékes rímeket követel, az ütemhangsúlyos rímtelenséget",
+        "Az időmértékes csak vallásos, az ütemhangsúlyos csak világi témákhoz köthető"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az időmértékes verselés a szótagok hosszúságára, az ütemhangsúlyos a hangsúlyos szótagok számára épül.",
+      "t": "verstan"
+    },
+    {
+      "q": "Hány sorból áll a klasszikus szonett versforma?",
+      "a": [
+        "Tizennégy sorból",
+        "Tizenkettő sorból",
+        "Tíz sorból",
+        "Tizenhat sorból"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szonett hagyományosan tizennégy sorból áll, jellemzően két négysoros és két háromsoros egységre osztva.",
+      "t": "verstan"
+    },
+    {
+      "q": "Mi jellemzi elsősorban a ballada mint műfaj szerkezetét?",
+      "a": [
+        "Drámai és elbeszélő elemeket ötvöz, tragikus véggel",
+        "Humoros, vidám hangvételű elbeszélés",
+        "Tényszerű, dokumentarista leírás",
+        "Vallásos imaformák gyűjteménye"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A ballada a líra, az epika és a dráma elemeit ötvözi, jellemzően tragikus végkifejlettel.",
+      "t": "verstan"
+    },
+    {
+      "q": "Melyik kódexben maradt fenn az Ómagyar Mária-siralom szövege, az első fennmaradt magyar nyelvű vers?",
+      "a": [
+        "A Leuveni Kódexben",
+        "A Pray-kódexben",
+        "A Jókai-kódexben",
+        "Az Érdy-kódexben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Ómagyar Mária-siralom a Leuveni Kódexben maradt fenn.",
+      "t": "ómagyar nyelvemlékek"
+    },
+    {
+      "q": "Milyen műfajú az Ómagyar Mária-siralom, amely az első fennmaradt magyar nyelvű vers?",
+      "a": [
+        "Siralomének (planctus), Mária fájdalmát megéneklő vallásos vers",
+        "Hőskölteemény egy csata leírásával",
+        "Szerelmi bókoló vers egy hölgyhöz",
+        "Gúnyvers egy politikai ellenfélről"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A mű egy planctus, azaz siralomének, amely Mária anyai fájdalmát fejezi ki fia kereszthalálakor.",
+      "t": "ómagyar nyelvemlékek"
+    },
+    {
+      "q": "Milyen közös vonás jellemzi a Wass Albert, Tamási Áron és Sütő András nevéhez köthető erdélyi magyar irodalmat?",
+      "a": [
+        "A kisebbségi sors és a szülőföldhöz való kötődés áll a középpontban",
+        "Kizárólag történelmi kalandregényeket írtak",
+        "Mindannyian csak drámákat alkottak",
+        "Kizárólag gyermekirodalommal foglalkoztak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az erdélyi magyar irodalmat gyakran a kisebbségi lét és a szülőföldhöz való ragaszkodás témái jellemzik.",
+      "t": "határon túli irodalom"
+    },
+    {
+      "q": "Melyik régióhoz kötődik Sütő András és Tamási Áron munkássága egyaránt?",
+      "a": [
+        "Erdélyhez",
+        "Vajdasághoz",
+        "Kárpátaljához",
+        "Muravidékhez"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Mindkét szerző erdélyi származású, és életművük szorosan kötődik Erdélyhez.",
+      "t": "határon túli irodalom"
     }
   ]
 }

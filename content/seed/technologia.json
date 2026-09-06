@@ -2176,6 +2176,591 @@
       "d": "medium",
       "e": "A robotkarok fáradtság nélkül, nagy pontossággal és sebességgel végzik el az ismétlődő, gyakran veszélyes vagy megterhelő gyártási feladatokat.",
       "t": "robotika"
+    },
+    {
+      "q": "Ki kezdeményezte az első nyilvános mobiltelefon-hívást 1973-ban, egy kézi készülékről?",
+      "a": [
+        "Martin Cooper",
+        "Steve Jobs",
+        "Alexander Graham Bell",
+        "Guglielmo Marconi"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Martin Cooper, a Motorola mérnöke 1973-ban hívott fel egy riválisát egy általa fejlesztett kézi mobiltelefonról.",
+      "t": "mobiltechnológia"
+    },
+    {
+      "q": "Melyik évben jelent meg az IBM Simon, amelyet sokan az első okostelefonnak tartanak?",
+      "a": [
+        "1994",
+        "1989",
+        "1999",
+        "2001"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az IBM Simon 1994-ben jelent meg érintőképernyővel és beépített alkalmazásokkal.",
+      "t": "mobiltechnológia"
+    },
+    {
+      "q": "Mi a SIM kártya fő feladata egy mobiltelefonban?",
+      "a": [
+        "Azonosítja az előfizetőt és tárolja adatait a hálózaton",
+        "Kizárólag a telefon akkumulátorát tölti fel gyorsabban",
+        "Növeli a mobiltelefon kijelzőjének felbontását",
+        "Titkosítja a telefonon tárolt fényképeket"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A SIM kártya tárolja az előfizető azonosítóját és adatait, ez teszi lehetővé a mobilhálózathoz csatlakozást.",
+      "t": "mobiltechnológia"
+    },
+    {
+      "q": "Mi volt az első SMS szöveges üzenet tartalma, amelyet 1992-ben küldtek?",
+      "a": [
+        "\"Merry Christmas\"",
+        "\"Hello World\"",
+        "\"Test 1 2 3\"",
+        "\"Happy New Year\""
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Neil Papworth mérnök 1992. december 3-án küldte a \"Merry Christmas\" üzenetet egy Vodafone-vezetőnek.",
+      "t": "mobiltechnológia"
+    },
+    {
+      "q": "Mit jelent az 5G elnevezésben az \"G\" betű?",
+      "a": [
+        "Generáció",
+        "Gigabit",
+        "Globális",
+        "Giga"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A \"G\" a mobilhálózati generációt jelöli, az 5G az ötödik generációs mobilhálózati szabványt jelenti.",
+      "t": "mobiltechnológia"
+    },
+    {
+      "q": "Melyik japán cég fejlesztette ki a QR-kódot 1994-ben, eredetileg autóalkatrészek nyomon követésére?",
+      "a": [
+        "Denso Wave",
+        "Sony",
+        "Toyota",
+        "Panasonic"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Denso Wave mérnöke, Hara Maszahiro fejlesztette ki a QR-kódot 1994-ben gyorsabb vonalkód-olvasás céljából.",
+      "t": "digitális kultúra"
+    },
+    {
+      "q": "Melyik országból származik az első emoji-készlet, amelyet Kurita Sigetaka tervezett 1999-ben?",
+      "a": [
+        "Japán",
+        "Dél-Korea",
+        "Kína",
+        "USA"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Kurita Sigetaka japán tervező 1999-ben alkotta meg az első emoji-készletet egy mobilszolgáltató számára.",
+      "t": "digitális kultúra"
+    },
+    {
+      "q": "Ki alkotta meg a \"mém\" kifejezést, jóval az internet elterjedése előtt, 1976-ban?",
+      "a": [
+        "Richard Dawkins",
+        "Tim Berners-Lee",
+        "Marshall McLuhan",
+        "Douglas Adams"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Richard Dawkins biológus \"Az önző gén\" című 1976-os könyvében vezette be a \"mém\" fogalmát.",
+      "t": "digitális kultúra"
+    },
+    {
+      "q": "Miből ered valójában az \"emoji\" szó, amelyet sokan tévesen az angol \"emotion\" szóból eredeztetnek?",
+      "a": [
+        "A japán \"e\" (kép) és \"moji\" (karakter) szavak összetételéből",
+        "Az angol \"emotion\" és \"icon\" szavak összevonásából",
+        "A japán \"emo\" (érzelem) és \"ji\" (idő) szavakból",
+        "Az amerikai szleng \"emo\" és \"logo\" kifejezésekből"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az emoji szó a japán \"kép\" (e) és \"karakter\" (moji) szavak összetétele, nincs köze az angol \"emotion\" szóhoz.",
+      "t": "digitális kultúra"
+    },
+    {
+      "q": "Ki dolgozta ki a relációs adatbázis-modellt 1970-ben egy IBM-kutatóként?",
+      "a": [
+        "Edgar F. Codd",
+        "Donald Chamberlin",
+        "Larry Ellison",
+        "Michael Stonebraker"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Edgar F. Codd 1970-es tanulmányában írta le a táblákon alapuló relációs adatmodellt, amely az SQL-adatbázisok alapja lett.",
+      "t": "adatbázisok"
+    },
+    {
+      "q": "Melyik cégnél dolgozták ki az SQL adatbázis-nyelv elődjét (SEQUEL) az 1970-es évek elején?",
+      "a": [
+        "Az IBM-nél",
+        "A Microsoftnál",
+        "Az Oracle-nél",
+        "A Bell Labsnál"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az SQL elődjét, a SEQUEL nyelvet IBM-kutatók dolgozták ki az 1970-es évek elején, Codd relációs modellje alapján.",
+      "t": "adatbázisok"
+    },
+    {
+      "q": "Miért terjedtek el a NoSQL adatbázisok a 2000-es évek végén a hagyományos relációs rendszerek mellett?",
+      "a": [
+        "Mert rugalmasabban kezelik a nagy méretű, változó szerkezetű adatokat",
+        "Mert teljesen kiváltották a táblázatos adattárolást minden területen",
+        "Mert olcsóbbak voltak, mint bármelyik kereskedelmi adatbázis-motor",
+        "Mert kizárólag a mobilalkalmazások miatt vált szükségessé a fejlesztésük"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A NoSQL adatbázisok jobban skálázhatók nagy, rugalmas szerkezetű adathalmazoknál, mint a hagyományos SQL-táblák.",
+      "t": "adatbázisok"
+    },
+    {
+      "q": "Mi jellemzi elsősorban a kulcs-érték típusú adatbázisokat a relációs adatbázisokkal szemben?",
+      "a": [
+        "Az adatokat egyszerű pár formájában, táblák és kapcsolatok nélkül tárolják",
+        "Az adatokat kizárólag titkosított bináris formátumban tárolják",
+        "Az adatokat csak grafikus felületen keresztül lehet elérni",
+        "Az adatokat véletlenszerű sorrendben, index nélkül tárolják"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kulcs-érték adatbázisok egyszerű azonosító-érték párokat tárolnak, tábla-kapcsolatok nélkül, ami gyors elérést tesz lehetővé.",
+      "t": "adatbázisok"
+    },
+    {
+      "q": "Melyik évben indította el az Amazon a felhőalapú szolgáltatásait (AWS), amelyek ma piacvezetők?",
+      "a": [
+        "2006",
+        "2000",
+        "2010",
+        "2015"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az Amazon 2006-ban indította el az AWS-t: márciusban az S3 tárhelyet, augusztusban az EC2 számítási szolgáltatást.",
+      "t": "felhő számítástechnika"
+    },
+    {
+      "q": "Melyik felhőszolgáltatási modellben biztosít a szolgáltató nyers virtuális szervereket és tárhelyet, amelyeket a felhasználó maga kezel tovább?",
+      "a": [
+        "IaaS (Infrastructure as a Service)",
+        "PaaS (Platform as a Service)",
+        "SaaS (Software as a Service)",
+        "FaaS (Function as a Service)"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az IaaS modellben a szolgáltató virtuális szervereket, tárhelyet és hálózatot biztosít, amelyeket a felhasználó maga kezel.",
+      "t": "felhő számítástechnika"
+    },
+    {
+      "q": "Melyik céget alapította Drew Houston 2007-ben, amely az egyik legismertebb felhőalapú fájltároló szolgáltatássá vált?",
+      "a": [
+        "Dropbox",
+        "Google Drive",
+        "OneDrive",
+        "Box"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Drew Houston 2007-ben alapította a Dropboxot, miután kényelmesebb fájlszinkronizálási megoldást akart létrehozni.",
+      "t": "felhő számítástechnika"
+    },
+    {
+      "q": "Miért kockázatos, ha egy vállalat kizárólag egyetlen felhőszolgáltatóra bízza teljes informatikai infrastruktúráját?",
+      "a": [
+        "Mert szolgáltatáskimaradás vagy áremelés esetén nehéz gyorsan más szolgáltatóra váltani",
+        "Mert a felhőszolgáltatók törvény szerint csak öt évig tárolhatják az adatokat",
+        "Mert egyetlen szolgáltató sem képes napi száz gigabájtnál több adatot kezelni",
+        "Mert a felhőalapú rendszerek mindig lassabbak a helyi szerverekhez képest"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az egy szolgáltatótól való függés (\"vendor lock-in\") megnehezíti a váltást, és kiszolgáltatottá teszi a céget áremelés vagy leállás esetén.",
+      "t": "felhő számítástechnika"
+    },
+    {
+      "q": "Nagyjából mekkora tömegű volt a Unimate nevű, 1961-ben munkába állított első ipari robotkar?",
+      "a": [
+        "Körülbelül 1800 kilogramm",
+        "Körülbelül 200 kilogramm",
+        "Körülbelül 50 kilogramm",
+        "Körülbelül 5000 kilogramm"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Unimate nevű, 1961-ben egy General Motors gyárban munkába állított ipari robotkar mintegy 4000 font, azaz kb. 1800 kg volt.",
+      "t": "robotika"
+    },
+    {
+      "q": "Honnan ered a \"robot\" szó, amelyet Karel Čapek cseh író tett ismertté 1920-as színdarabjával?",
+      "a": [
+        "A cseh \"robota\" (kényszermunka) szóból",
+        "A latin \"robur\" (erő) szóból",
+        "Az orosz \"rabota\" (munka) angol félrefordításából",
+        "Egy fiktív vezetéknévből, amelyet Čapek talált ki"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Karel Čapek az R.U.R. című darabjában a cseh \"robota\" (kényszermunka) szóból alkotta meg a \"robot\" kifejezést.",
+      "t": "robotika"
+    },
+    {
+      "q": "Ki fogalmazta meg a robotika három alaptörvényét egy 1942-es tudományos-fantasztikus novellában?",
+      "a": [
+        "Isaac Asimov",
+        "Karel Čapek",
+        "Arthur C. Clarke",
+        "Philip K. Dick"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Isaac Asimov a \"Körbe-körbe\" (Runaround) című 1942-es novellájában fogalmazta meg a robotika híres három törvényét.",
+      "t": "robotika"
+    },
+    {
+      "q": "Melyik cég fejlesztette ki az ASIMO nevű humanoid robotot, amelyet 2000-ben mutattak be?",
+      "a": [
+        "Honda",
+        "Toyota",
+        "Sony",
+        "Boston Dynamics"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Honda 2000-ben mutatta be az ASIMO humanoid robotot, amely járni, futni és lépcsőzni is képes volt.",
+      "t": "robotika"
+    },
+    {
+      "q": "Mit váltott ki nagyrészt az USB szabvány 1996-os bevezetése a számítógépek perifériáinál?",
+      "a": [
+        "A korábbi, egymással nem kompatibilis soros és párhuzamos portokat",
+        "A számítógépek teljes belső áramellátását",
+        "A merevlemezek mágneses adattárolási elvét",
+        "A billentyűzetek mechanikus kapcsolóit"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az USB (Universal Serial Bus) egységesítette a perifériák csatlakoztatását, kiváltva a korábbi eltérő soros és párhuzamos portokat.",
+      "t": "technika"
+    },
+    {
+      "q": "Melyik évben találták fel a tranzisztort a Bell Laboratóriumban, amely a modern elektronika alapja lett?",
+      "a": [
+        "1947",
+        "1937",
+        "1957",
+        "1967"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "John Bardeen, Walter Brattain és William Shockley 1947-ben fejlesztette ki az első működő tranzisztort a Bell Labsnál.",
+      "t": "technika"
+    },
+    {
+      "q": "Mi jellemezte az 1971-ben bemutatott első, 8 hüvelykes floppy lemezt a későbbi verziókhoz képest?",
+      "a": [
+        "Csak olvasható volt, adatot nem lehetett rá írni",
+        "Kizárólag hangfelvételek tárolására szolgált",
+        "Csak vákuumcsöves számítógépekhez volt használható",
+        "Nem fért bele egyetlen szabványos számítógépházba sem"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az IBM által 1971-ben bemutatott első floppy lemez még csak olvasható (read-only) volt, az írható változat pár évvel később jelent meg.",
+      "t": "technika"
+    },
+    {
+      "q": "Ki alkotta meg 1974-ben, budapesti egyetemi oktatóként a világhírűvé vált bűvös kockát?",
+      "a": [
+        "Rubik Ernő",
+        "Kármán Tódor",
+        "Neumann János",
+        "Bíró László"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Rubik Ernő építész-professzor 1974-ben, a háromdimenziós mozgás szemléltetésére alkotta meg a bűvös kockát.",
+      "t": "technika"
+    },
+    {
+      "q": "Mikor küldték el az ARPANET-en az első üzenetet a UCLA és a Stanford között?",
+      "a": [
+        "1969-ben",
+        "1959-ben",
+        "1975-ben",
+        "1983-ban"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1969 októberében küldték az első ARPANET-üzenetet, amely a rendszer összeomlása miatt csak \"lo\" formában érkezett meg \"login\" helyett.",
+      "t": "internettörténet"
+    },
+    {
+      "q": "Mire használták az első webkamerát, amelyet 1991-ben állítottak be a Cambridge-i Egyetemen?",
+      "a": [
+        "Egy kávéfőző aktuális töltöttségi szintjének megfigyelésére",
+        "Az egyetemi könyvtár látogatóinak számának rögzítésére",
+        "A számítógépterem hőmérsékletének folyamatos ellenőrzésére",
+        "A kutatók irodai jelenlétének távoli nyomon követésére"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Cambridge-i Számítástechnikai Tanszéken egy kávéfőzőre szerelt kamerával ellenőrizték távolról, van-e még kávé.",
+      "t": "internettörténet"
+    },
+    {
+      "q": "Ki dolgozta ki a domain névrendszert (DNS) 1983-ban?",
+      "a": [
+        "Paul Mockapetris",
+        "Tim Berners-Lee",
+        "Vint Cerf",
+        "Ray Tomlinson"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Paul Mockapetris amerikai informatikus 1983-ban dolgozta ki a DNS-t, amely a numerikus IP-címeket könnyen megjegyezhető nevekre fordítja.",
+      "t": "internettörténet"
+    },
+    {
+      "q": "Melyik esemény számít az internet első nagy horderejű kártevő-támadásának, 1988-ból?",
+      "a": [
+        "A Morris-féle féreg",
+        "Az ILOVEYOU vírus",
+        "A Stuxnet támadás",
+        "A WannaCry zsarolóvírus"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az 1988-as Morris-féreg volt az internet első nagy figyelmet kapott kártevője, amely az akkori gépek jelentős részét megbénította.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Miért nevezik \"aszimmetrikusnak\" az RSA-hoz hasonló titkosítási eljárásokat?",
+      "a": [
+        "Mert a titkosításhoz és a visszafejtéshez különböző kulcsot használnak",
+        "Mert csak páratlan hosszúságú kulcsokkal működnek megbízhatóan",
+        "Mert kizárólag egyirányú, vissza nem fejthető üzeneteket küldenek",
+        "Mert a feladó és a címzett fizikailag különböző gépet kell használjon"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az aszimmetrikus titkosításnál nyilvános kulccsal kódolnak, de csak a hozzá tartozó, titokban tartott privát kulccsal lehet visszafejteni.",
+      "t": "biztonság"
+    },
+    {
+      "q": "Melyik 1956-os tudományos rendezvényen használták először hivatalosan a \"mesterséges intelligencia\" kifejezést?",
+      "a": [
+        "A Dartmouth-konferencián",
+        "A Bletchley Park-i találkozón",
+        "A MIT első számítástechnikai szimpóziumán",
+        "A Bell Labs nyári workshopján"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "John McCarthy és kollégái 1956-ban a Dartmouth College-on tartott nyári workshopon vezették be a \"mesterséges intelligencia\" kifejezést.",
+      "t": "mesterséges intelligencia"
+    },
+    {
+      "q": "Ki győzte le Garri Kaszparov sakkvilágbajnokot 1997-ben, egy hivatalos mérkőzésen?",
+      "a": [
+        "A Deep Blue nevű IBM-szuperszámítógép",
+        "Az AlphaGo nevű DeepMind-program",
+        "A Watson nevű IBM-rendszer",
+        "A Stockfish nevű nyílt forráskódú motor"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az IBM Deep Blue nevű számítógépe 1997. május 11-én győzte le Kaszparovot, először verve meg egy hivatalban lévő sakkvilágbajnokot.",
+      "t": "mesterséges intelligencia"
+    },
+    {
+      "q": "Mi történt 2016 márciusában, amikor a DeepMind AlphaGo programja játszott Lee Szedol koreai go-nagymesterrel?",
+      "a": [
+        "Az AlphaGo 4-1 arányban legyőzte Lee Szedolt egy ötmeccses párbajban",
+        "Lee Szedol 5-0 arányban simán legyőzte az AlphaGót",
+        "A mérkőzést döntetlenre hozták ki mindkét fél kérésére",
+        "Az AlphaGót technikai hiba miatt visszaléptették a versenytől"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A DeepMind AlphaGo programja 2016 márciusában, Szöulban 4-1 arányban győzte le Lee Szedol go-nagymestert.",
+      "t": "mesterséges intelligencia"
+    },
+    {
+      "q": "Miért számított a go játék begépesítése különösen nehéz feladatnak az AI-kutatók számára a sakkhoz képest?",
+      "a": [
+        "Mert a lehetséges lépések száma a go táblán messze meghaladja a sakkban lévőt",
+        "Mert a go szabályai gyakrabban változnak, mint a sakkéi",
+        "Mert a go tábláját nem lehet digitálisan ábrázolni koordinátákkal",
+        "Mert a go-ban a gépeknek fizikailag is mozgatniuk kell a köveket"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A go tábláján (19x19) a lehetséges állások száma csillagászati, ezért sokáig úgy vélték, gépek nem tudják legyőzni a legjobb embereket benne.",
+      "t": "mesterséges intelligencia"
+    },
+    {
+      "q": "Melyik magyar származású tudós kapott Nobel-díjat 1971-ben a hologram feltalálásáért?",
+      "a": [
+        "Gábor Dénes",
+        "Neumann János",
+        "Szilárd Leó",
+        "Wigner Jenő"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Gábor Dénes 1947-ben dolgozta ki a holográfia elméletét, amiért 1971-ben fizikai Nobel-díjat kapott.",
+      "t": "magyar mérnökök"
+    },
+    {
+      "q": "Mit épített ki Puskás Tivadar 1893-ban Budapesten, amely híreket és zenét közvetített telefonvonalon?",
+      "a": [
+        "A Telefonhírmondót",
+        "Az első magyar rádióadót",
+        "A budapesti telefonközpontot",
+        "Az első kábeltelevíziós hálózatot"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Puskás Tivadar 1893-ban indította el a Telefonhírmondót, amely híreket, időjárás-jelentést és zenét sugárzott telefonvonalon.",
+      "t": "magyar mérnökök"
+    },
+    {
+      "q": "Melyik magyar fizikus mérte meg 1946-ban elsőként a radarjel Holdról való visszaverődését?",
+      "a": [
+        "Bay Zoltán",
+        "Eötvös Loránd",
+        "Jánossy Lajos",
+        "Szilárd Leó"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Bay Zoltán és kutatócsoportja 1946-ban radarjelet küldött a Holdra, és elsőként észlelte annak visszaverődését a Földön.",
+      "t": "magyar mérnökök"
+    },
+    {
+      "q": "Melyik évben adták át a világ első atomerőművét, a szovjetunióbeli Obnyinszkban?",
+      "a": [
+        "1954-ben",
+        "1945-ben",
+        "1964-ben",
+        "1970-ben"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az obnyinszki atomerőmű 1954-ben kezdte meg működését, ez volt az első, amely villamos áramot táplált a hálózatba.",
+      "t": "energia"
+    },
+    {
+      "q": "Melyik amerikai laboratóriumban fejlesztették ki 1954-ben az első gyakorlati, hatékony szilícium napelemet?",
+      "a": [
+        "A Bell Laboratóriumban",
+        "A Los Alamos Nemzeti Laboratóriumban",
+        "A NASA Jet Propulsion Laboratoryjában",
+        "A Xerox PARC kutatóközpontjában"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Bell Labs kutatói 1954-ben mutatták be az első, kereskedelmi célra is alkalmas, kb. 6%-os hatásfokú szilícium napelemet.",
+      "t": "energia"
+    },
+    {
+      "q": "Miért vált a lítium-ion akkumulátor a hordozható elektronika meghatározó energiatárolójává az 1990-es évektől?",
+      "a": [
+        "Mert azonos méret és tömeg mellett jóval több energiát képes tárolni, mint a korábbi típusok",
+        "Mert kizárólag napenergiával tölthető fel bármilyen körülmények között",
+        "Mert teljesen kiküszöböli a túlmelegedés és a tűzveszély kockázatát",
+        "Mert gyártási költsége töredéke a nikkel-kadmium akkumulátorokénak"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A lítium-ion akkumulátorok nagy energiasűrűsége miatt kisebb, könnyebb eszközökbe is elfértek, ami a mobiltelefonok elterjedését segítette.",
+      "t": "energia"
+    },
+    {
+      "q": "Mit találtak a Harvard Mark II számítógép egyik reléjében 1947-ben, amely a \"bug\" (hiba) kifejezés elterjedéséhez kötődik?",
+      "a": [
+        "Egy molylepkét",
+        "Egy elszakadt vezetéket",
+        "Egy elveszett csavart",
+        "Egy rágcsáló által rágott kábelt"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "1947-ben Grace Hopper csapata egy valódi molylepkét talált a Harvard Mark II egyik reléjében, ami hozzájárult a \"bug\" kifejezés népszerűsítéséhez.",
+      "t": "informatikatörténet"
+    },
+    {
+      "q": "Ki írta az első publikált számítógépes algoritmust a 19. században, Charles Babbage Analitikus Motorjához?",
+      "a": [
+        "Ada Lovelace",
+        "Charles Babbage",
+        "George Boole",
+        "Alan Turing"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Ada Lovelace 1843-ban közölt jegyzeteiben olyan algoritmust írt le, amely Bernoulli-számokat számolt volna ki az Analitikus Motoron.",
+      "t": "informatikatörténet"
+    },
+    {
+      "q": "Melyik jelentésben fektették le 1945-ben a mai számítógépek alapjául szolgáló architektúra elveit?",
+      "a": [
+        "A \"First Draft of a Report on the EDVAC\" című jelentésben",
+        "A \"Computing Machinery and Intelligence\" című tanulmányban",
+        "A \"Mathematical Theory of Communication\" című cikkben",
+        "Az \"On Computable Numbers\" című dolgozatban"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Neumann János 1945-ben publikálta az EDVAC-jelentés első vázlatát, amely a tárolt programú architektúra elveit rögzítette.",
+      "t": "informatikatörténet"
+    },
+    {
+      "q": "Ki fejlesztette ki a Python programozási nyelvet, amelynek első verziója 1991-ben jelent meg?",
+      "a": [
+        "Guido van Rossum",
+        "Dennis Ritchie",
+        "James Gosling",
+        "Bjarne Stroustrup"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Guido van Rossum 1991-ben adta ki a Python első nyilvános verzióját, amelyet a hollandiai CWI kutatóintézetben kezdett fejleszteni.",
+      "t": "programozás"
+    },
+    {
+      "q": "Hány nap alatt fejlesztette ki Brendan Eich a JavaScript első változatát a Netscape-nél, 1995-ben?",
+      "a": [
+        "10 nap alatt",
+        "100 nap alatt",
+        "30 nap alatt",
+        "365 nap alatt"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Brendan Eichnek mindössze tíz napja volt megalkotni a JavaScriptet 1995-ben, hogy időben bekerülhessen a Netscape Navigatorba.",
+      "t": "programozás"
     }
   ]
 }

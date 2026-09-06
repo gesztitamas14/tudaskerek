@@ -207,6 +207,20 @@ továbbléptetés pontosan egyszer történik meg.
 A `room_state()` ugyanezt a szerkezetet adja vissza, de `stable` és nem léptet –
 a váróban és olvasáshoz ezt használjuk.
 
+#### Kérdésválasztás: nincs ismétlődés egy szobán belül, és 30 napig a hostnak sem
+
+Egy adott szobán belül egy kérdés csak egyszer jöhet elő (`unique(room_id,
+question_id)` kényszer a `room_questions` táblán). Emellett a `room_tick()` egy
+**30 napos, a szobát INDÍTÓ profilhoz (`rooms.host_id`) kötött** előzményt is
+figyelembe vesz: ha ugyanaz a host másik szobát nyit, a kérdésválasztás
+kerüli, amit neki már feltett bármelyik szobájában az elmúlt 30 napban.
+
+Ez **preferencia, nem kőbe vésett szabály**: ha egy kategóriában (vagy az
+egész aktív bankban) már csak a hostnak nemrég feltett kérdés maradna, a
+rendszer inkább azt adja ki, mint hogy feleslegesen véget érjen a játék –
+lásd a `20260905090000_avoid_repeat_questions_for_host.sql` migrációt és a
+hozzá tartozó teszteket (`tools/src/db-test.mjs`, 15. szakasz).
+
 #### Amit lezárás előtt nem küld el
 
 A `correct_answer`, az `explanation` és a `results` **addig `null`, amíg a kérdés

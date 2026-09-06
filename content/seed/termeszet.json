@@ -2607,6 +2607,19 @@
       "d": "medium",
       "e": "A Himalája az indiai és az eurázsiai kőzetlemez lassú, folyamatos ütközése során, a kéreg összegyűrődésével emelkedett ki.",
       "t": "földtan"
+    },
+    {
+      "q": "Mit nevezünk a talajtanban humusznak?",
+      "a": [
+        "Az elhalt növényi és állati maradványok elbomlásával keletkező szerves anyagot",
+        "A talaj ásványi vázát adó kőzettörmeléket",
+        "A talajban élő giliszták összességét",
+        "A talajvíz felszín alatti szintjét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A humusz a talaj termékenységét nagyban meghatározó, sötét színű szerves anyag.",
+      "t": "talaj"
     }
   ]
 }

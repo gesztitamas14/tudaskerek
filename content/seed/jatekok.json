@@ -2397,6 +2397,214 @@
       "d": "hard",
       "e": "Fischer 1996-ban dolgozta ki a variánst, amelyben a bábuk véletlenszerű, de szimmetrikus kezdőállásba kerülnek, hogy csökkentse a memorizált nyitáselméletek szerepét.",
       "t": "sakk"
+    },
+    {
+      "q": "Melyik társasjáték célja, hogy a játékosok vasúti útvonalakat építsenek ki városok között kártyák gyűjtésével?",
+      "a": [
+        "Ticket to Ride",
+        "Catan telepesei",
+        "Carcassonne",
+        "Risk"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Ticket to Ride játékban a játékosok vonatkártyákat gyűjtve építik ki vasútvonalaikat a térképen.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik klasszikus japán játékban kell egy 9x9-es (vagy nagyobb) táblán területet bekeríteni kövekkel?",
+      "a": [
+        "Go",
+        "Sógi",
+        "Mahjong",
+        "Hanafuda"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Go célja, hogy a játékos a saját köveivel minél nagyobb területet kerítsen be a táblán.",
+      "t": "táblás játékok"
+    },
+    {
+      "q": "Melyik videojáték-sorozat főszereplője Link, aki Hyrule királyságát menti meg?",
+      "a": [
+        "The Legend of Zelda",
+        "Final Fantasy",
+        "Metroid",
+        "Kirby"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A The Legend of Zelda sorozat 1986 óta a Nintendo egyik legismertebb franchise-a.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Mi a neve annak a kártyajáték-műfajnak, ahol a játékosok egyedi paklikat építenek fel korlátozott kártiakészletből (pl. Magic: the Gathering)?",
+      "a": [
+        "Gyűjthető kártyajáték",
+        "Klasszikus römi",
+        "Pasziánsz",
+        "Dominó"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A gyűjthető kártyajátékokban (TCG) a játékosok saját, egyedi paklit építenek a megszerzett kártyáikból.",
+      "t": "kártyajátékok"
+    },
+    {
+      "q": "Melyik társasjátékban kell egy elképzelt szót körülírással vagy rajzzal kitaláltatni a csapattársakkal?",
+      "a": [
+        "Activity vagy hasonló szótalálós játék",
+        "Sakk",
+        "Backgammon",
+        "Dominó"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szótalálós társasjátékokban (pl. Activity, Taboo) a játékosok rajzzal, mímeléssel vagy körülírással segítik a csapatot.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik régi logikai játék célja, hogy egy 15 db számozott csúsztatható kockát sorrendbe rakjunk egy 4x4-es keretben?",
+      "a": [
+        "A 15-ös játék (csúszkázó kirakó)",
+        "A Rubik-kocka",
+        "A Tangram",
+        "A Sudoku"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 15-ös játékban a számozott lapkákat egy üres mező segítségével kell sorba rendezni.",
+      "t": "logikai játékok"
+    },
+    {
+      "q": "Melyik kockajátékban dobott számok alapján kell pontgyűjtő kombinációkat (pl. póker-szerű dobásokat) leírni egy pontlapon?",
+      "a": [
+        "Yatzy, más néven Yahtzee",
+        "Backgammon",
+        "Dominó",
+        "Craps"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Yahtzee-ben öt kockával dobva kell különböző pontozott kombinációkat elérni.",
+      "t": "kártya, kockajátékok"
+    },
+    {
+      "q": "Melyik sakkfigura nem léphet hátrafelé soha, csak előre és oldalra üthet?",
+      "a": [
+        "A gyalog",
+        "A huszár",
+        "A futó",
+        "A bástya"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A gyalog csak előre léphet, és átlósan előre üthet – hátrafelé sosem mozoghat.",
+      "t": "sakk"
+    },
+    {
+      "q": "Melyik videojáték-konzolt hozta piacra a Sony 1994-ben, megnyitva az utat a CD-alapú konzolok előtt?",
+      "a": [
+        "PlayStation",
+        "Nintendo 64",
+        "Sega Saturn",
+        "Xbox"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az első PlayStation 1994-ben jelent meg Japánban, és CD-lemezeket használt kazetta helyett.",
+      "t": "konzolok"
+    },
+    {
+      "q": "Melyik esport-játékban versenyeznek ötfős csapatok egy térképen, bázisok elfoglalásáért és a másik csapat főépületének lerombolásáért (MOBA műfaj)?",
+      "a": [
+        "League of Legends",
+        "Counter-Strike",
+        "StarCraft",
+        "FIFA"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A League of Legends a MOBA (multiplayer online battle arena) műfaj egyik legnépszerűbb, legnagyobb esport-versenyekkel rendelkező játéka.",
+      "t": "esport"
+    },
+    {
+      "q": "Melyik szójátékban kell betűkockákból a lehető leghosszabb szót kirakni egy megadott időn belül?",
+      "a": [
+        "Boggle",
+        "Scrabble",
+        "Pasziánsz",
+        "Keresztrejtvény"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Boggle-ban a játékosok egy betűrács szomszédos betűiből alkotnak szavakat az idő lejártáig.",
+      "t": "szójátékok"
+    },
+    {
+      "q": "Melyik társasjátékban kell egy szigeten nyersanyagokat gyűjtve falvakat és városokat építeni?",
+      "a": [
+        "Catan telepesei",
+        "Monopoly",
+        "Risk",
+        "Cluedo"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Catan telepesei játékban a játékosok nyersanyagot gyűjtve fejlesztik birtokaikat a szigeten.",
+      "t": "társasjátékok"
+    },
+    {
+      "q": "Melyik klasszikus kártyajátékban kell a partnerünkkel jelek nélkül licitálva a lehető legtöbb ütést megnyerni?",
+      "a": [
+        "Bridzs",
+        "Römi",
+        "Snapszer",
+        "Huszonegyes"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A bridzsben licitálás után a párok az ütések megszerzéséért játszanak, szigorú etikai szabályok mellett.",
+      "t": "kártya, kockajátékok"
+    },
+    {
+      "q": "Melyik régi táblás játékot tartják a legkorábbi ismert, ma is játszott stratégiai játéknak, amely az ókori Mezopotámiából származik?",
+      "a": [
+        "Ur királyi játéka",
+        "Sakk",
+        "Backgammon",
+        "Dáma"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Ur királyi játéka egy több mint 4500 éves táblás játék, amelynek szabályait egy ékírásos tábla alapján rekonstruálták.",
+      "t": "táblás játékok"
+    },
+    {
+      "q": "Melyik videojáték-műfajban kell a szereplőt egy nyílt, felfedezhető világban irányítani, gyakran mellékküldetésekkel és fejlődési rendszerrel?",
+      "a": [
+        "Nyílt világú szerepjáték (open-world RPG)",
+        "Ritmusjáték",
+        "Puzzle-játék",
+        "Sportszimulátor"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A nyílt világú szerepjátékokban (pl. The Witcher 3) a játékos szabadon barangolhat egy nagy térképen.",
+      "t": "videojátékok"
+    },
+    {
+      "q": "Melyik logikai rejtvényben kell egy 9x9-es rácsot úgy kitölteni 1-től 9-ig terjedő számokkal, hogy minden sorban, oszlopban és kis négyzetben egyszer szerepeljen mindegyik?",
+      "a": [
+        "Szudoku",
+        "Kakuro",
+        "Keresztrejtvény",
+        "Nonogram"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A szudoku szabálya, hogy minden sorban, oszlopban és 3x3-as blokkban 1-től 9-ig minden szám pontosan egyszer szerepeljen.",
+      "t": "logikai játékok"
     }
   ]
 }

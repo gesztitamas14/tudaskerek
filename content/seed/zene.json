@@ -1794,6 +1794,968 @@
       "d": "hard",
       "e": "Lin-Manuel Miranda 2015-ös Hamilton musicalje modern zenei stílusban meséli el az amerikai alapító atya életét.",
       "t": "musical"
+    },
+    {
+      "q": "Milyen figyelemre méltó hosszal jelent meg a Queen Bohemian Rhapsody című dala 1975-ben kislemezként?",
+      "a": [
+        "Majdnem hat perces",
+        "Körülbelül két perces",
+        "Pontosan három perces",
+        "Tíz percnél is hosszabb"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A dal 5:55 percig tart, ami szokatlanul hosszú volt egy kislemeznek 1975-ben.",
+      "t": "pop-rock"
+    },
+    {
+      "q": "Kinek az 1973-as dalát dolgozta fel Whitney Houston az 1992-es 'I Will Always Love You' világslágerében?",
+      "a": [
+        "Dolly Parton",
+        "Linda Ronstadt",
+        "Barbra Streisand",
+        "Cher"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Dolly Parton írta és vette fel elsőként a dalt 1973-ban, saját búcsúdalaként.",
+      "t": "pop-rock"
+    },
+    {
+      "q": "Melyik énekesnő birtokolja jelenleg a valaha elnyert Grammy-díjak legmagasabb számának rekordját?",
+      "a": [
+        "Beyoncé",
+        "Adele",
+        "Whitney Houston",
+        "Mariah Carey"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Beyoncé 2023-ban 32 Grammy-díjjal megelőzte a korábbi rekorder Solti György karmestert.",
+      "t": "zenei díjak"
+    },
+    {
+      "q": "Kinek a korábbi rekordját döntötte meg Beyoncé, amikor 2023-ban minden idők legtöbb Grammy-díjas előadója lett?",
+      "a": [
+        "Solti György karmesteré",
+        "Quincy Jonesé",
+        "Stevie Wonderé",
+        "Michael Jacksoné"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A magyar származású karmester, Solti György 31 Grammyjét Beyoncé 32 díjjal múlta felül.",
+      "t": "zenei díjak"
+    },
+    {
+      "q": "Hány Grammy-díjat nyert Michael Jackson egyetlen este alatt az 1984-es gálán a Thriller albumért?",
+      "a": [
+        "Nyolcat",
+        "Hármat",
+        "Tizenkettőt",
+        "Egyet"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Thriller nyolc Grammyt szerzett 1984-ben, köztük az Év albuma díjat.",
+      "t": "zenei díjak"
+    },
+    {
+      "q": "Melyik évben rendezték meg az első Woodstock fesztivált az Egyesült Államokban?",
+      "a": [
+        "1969",
+        "1965",
+        "1972",
+        "1959"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A legendás fesztivált 1969 augusztusában tartották egy New York állambeli farmon.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Nagyjából hány néző vett részt az 1969-es Woodstock fesztiválon a becslések szerint?",
+      "a": [
+        "Mintegy félmillió ember",
+        "Körülbelül tízezer ember",
+        "Nagyjából ötvenezer ember",
+        "Több mint kétmillió ember"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A tervezettnél jóval többen, mintegy 500 ezren látogattak ki a háromnapos fesztiválra.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Melyik évben rendezték meg először a Sziget Fesztivált, akkor még Diáksziget néven, Budapesten?",
+      "a": [
+        "1993",
+        "1985",
+        "2000",
+        "1998"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az első Diákszigetet 1993 augusztusában szervezték meg a Hajógyári-szigeten.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Melyik ország nyerte meg az első, 1956-os Eurovíziós Dalfesztivált?",
+      "a": [
+        "Svájc",
+        "Franciaország",
+        "Hollandia",
+        "Németország"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Svájc nyert Lys Assia 'Refrain' című dalával az első Eurovízión, Luganóban.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Melyik évben aratta első Eurovíziós győzelmét a svéd ABBA együttes a Waterloo című dallal?",
+      "a": [
+        "1974",
+        "1969",
+        "1982",
+        "1977"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Az ABBA 1974-ben, Brightonban nyerte meg a Waterlooval Svédország első Eurovíziós győzelmét.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Miért tört ki botrány Sztravinszkij Tavaszi áldozat című balettjének 1913-as párizsi ősbemutatóján?",
+      "a": [
+        "A disszonáns zene és a szokatlan koreográfia felháborította a közönséget",
+        "A táncosok tömegesen elestek a végén a síkos színpadon",
+        "Az egyik díszletelem menet közben összedőlt a színpadon",
+        "A karmester hirtelen rosszul lett az előadás közepén"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A merész ritmusok és Nyizsinszkij szokatlan koreográfiája dulakodáshoz vezetett a nézőtéren.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Melyik zeneszerző veszítette el fokozatosan a hallását húszas évei végétől, mégis tovább komponált?",
+      "a": [
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach",
+        "Franz Schubert"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Beethoven körülbelül 31 éves korától kezdett megsüketülni, később már teljesen siketen komponált.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Mi történt Georges Bizet Carmen című operájával a szerző életében?",
+      "a": [
+        "A közönség elutasította, Bizet röviddel utána meghalt",
+        "Azonnal Európa legnépszerűbb operája lett",
+        "Bizet soha nem fejezte be a művet",
+        "Betiltották vallási okokból"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az 1875-ös párizsi bemutató megbukott, Bizet három hónappal később, 36 évesen halt meg.",
+      "t": "opera"
+    },
+    {
+      "q": "Miért maradt befejezetlen Puccini Turandot című operája?",
+      "a": [
+        "A zeneszerző 1924-ben meghalt, mielőtt lezárta volna a művet",
+        "Puccini elvesztette a kottákat egy tűzvészben",
+        "A cenzúra megtiltotta a mű befejezését",
+        "Puccini megunta a történetet és feladta"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Puccini torokrák szövődményei miatt hunyt el 1924-ben, a záró duettet más fejezte be helyette.",
+      "t": "opera"
+    },
+    {
+      "q": "Ki fejezte be Puccini Turandot című operáját a szerző halála után, a fennmaradt vázlatok alapján?",
+      "a": [
+        "Franco Alfano",
+        "Arturo Toscanini",
+        "Giuseppe Verdi",
+        "Pietro Mascagni"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Franco Alfano komponálta meg a mű záró részét Puccini vázlatai alapján 1926-ra.",
+      "t": "opera"
+    },
+    {
+      "q": "Ki szerezte a magyar Himnusz zenéjét Kölcsey Ferenc szövegéhez?",
+      "a": [
+        "Erkel Ferenc",
+        "Liszt Ferenc",
+        "Bartók Béla",
+        "Kodály Zoltán"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Erkel Ferenc 1844-ben nyert pályázatot a Himnusz megzenésítésére.",
+      "t": "magyar zene"
+    },
+    {
+      "q": "Melyik évben hangzott el nyilvánosan először a magyar Himnusz Erkel Ferenc zenéjével a Nemzeti Színházban?",
+      "a": [
+        "1844",
+        "1848",
+        "1867",
+        "1896"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Erkel Ferenc zenéjével 1844. július 2-án hangzott el először a Himnusz.",
+      "t": "magyar zene"
+    },
+    {
+      "q": "Melyik zeneoktatási intézményt alapította Liszt Ferenc 1875-ben Budapesten?",
+      "a": [
+        "A Zeneakadémiát",
+        "A Nemzeti Színházat",
+        "Az Operaházat",
+        "A Filharmóniai Társaságot"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az intézmény, a mai Liszt Ferenc Zeneművészeti Egyetem, 1875-ben nyílt meg.",
+      "t": "magyar zene"
+    },
+    {
+      "q": "Melyik évben mutatták be Andrew Lloyd Webber Az Operaház Fantomja című musicaljét Londonban?",
+      "a": [
+        "1986",
+        "1978",
+        "1994",
+        "1971"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A darab 1986 októberében debütált a londoni Her Majesty's Theatre-ben.",
+      "t": "musical"
+    },
+    {
+      "q": "Melyik regény ihlette Andrew Lloyd Webber Az Operaház Fantomja című musicalját?",
+      "a": [
+        "Gaston Leroux azonos című regénye",
+        "Victor Hugo A Nyomorultak című regénye",
+        "Bram Stoker Drakula című regénye",
+        "Oscar Wilde Dorian Gray arcképe című regénye"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A musical alapja Gaston Leroux 1910-es francia regénye.",
+      "t": "musical"
+    },
+    {
+      "q": "Melyik T. S. Eliot verseskötet ihlette Andrew Lloyd Webber Macskák című musicalját?",
+      "a": [
+        "Az Öreg Görény Macskakönyve",
+        "A Puszta Ország",
+        "Négy kvartett",
+        "A szerelmes ének"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A musical T. S. Eliot 1939-es gyerekverses kötetén alapul.",
+      "t": "musical"
+    },
+    {
+      "q": "Melyik musical alapja Victor Hugo 19. századi regénye a francia forradalom utáni évtizedekről?",
+      "a": [
+        "A Nyomorultak",
+        "Notre-Dame de Paris",
+        "Miss Saigon",
+        "Az Operaház Fantomja"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Nyomorultak musical Victor Hugo 1862-es regénye alapján készült.",
+      "t": "musical"
+    },
+    {
+      "q": "Melyik klasszikus musicalben énekli Julie Andrews karaktere a 'Do-Re-Mi' című dalt?",
+      "a": [
+        "A muzsika hangja",
+        "Mary Poppins",
+        "My Fair Lady",
+        "Grease"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A dal A muzsika hangja című musicalből és filmből ismert, ahol Andrews Mariát alakítja.",
+      "t": "musical"
+    },
+    {
+      "q": "Milyen becenéven vált világhírűvé Louis Armstrong jazz-trombitás és énekes?",
+      "a": [
+        "Satchmo",
+        "Duke",
+        "King",
+        "Bird"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A 'Satchmo' beceneve a 'satchel mouth' kifejezésből ered, a szájának méretére utalva.",
+      "t": "jazz"
+    },
+    {
+      "q": "Melyik zenei stílus alakult ki New Orleansban a 20. század elején, afroamerikai ritmusok és európai harmóniák ötvözeteként?",
+      "a": [
+        "A jazz",
+        "A country zene",
+        "A rockabilly",
+        "A bluegrass"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jazz New Orleansban született, afrikai ritmusok és európai harmóniák keveredéséből.",
+      "t": "jazz"
+    },
+    {
+      "q": "Melyik 1959-es Miles Davis album számít minden idők egyik legkelendőbb jazzlemezének?",
+      "a": [
+        "Kind of Blue",
+        "Bitches Brew",
+        "A Love Supreme",
+        "Time Out"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Kind of Blue a modális jazz úttörő albuma, minden idők egyik legnépszerűbb jazzlemeze.",
+      "t": "jazz"
+    },
+    {
+      "q": "Mit jelent az improvizáció fogalma a jazz zenében?",
+      "a": [
+        "A zenészek rögtönzött, előre le nem kottázott dallamalkotását",
+        "A kotta pontos, változtatás nélküli lejátszását",
+        "Egy karmester által vezényelt szimfonikus előadást",
+        "A dal szövegének utólagos átírását"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az improvizáció a jazz egyik alapvető jellemzője: a zenészek a pillanat hatására rögtönöznek.",
+      "t": "jazz"
+    },
+    {
+      "q": "Melyik német együttes számít az elektronikus popzene egyik legfontosabb úttörőjének, amely 1970-ben alakult Düsseldorfban?",
+      "a": [
+        "A Kraftwerk",
+        "A Scorpions",
+        "A Rammstein",
+        "A Modern Talking"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A Kraftwerk 1970-ben alakult, és szintetizátoros zenéjével alapvetően meghatározta az elektronikus zene fejlődését.",
+      "t": "elektronikus zene"
+    },
+    {
+      "q": "Melyik zenei elem nélkülözhetetlen az elektronikus zenében, szemben a hagyományos akusztikus hangszerekkel?",
+      "a": [
+        "A szintetizátorral vagy számítógéppel előállított hang",
+        "A vonós hangszerek kizárólagos használata",
+        "Az élő szimfonikus zenekari kíséret",
+        "A klasszikus kottaírás szigorú követése"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az elektronikus zenét szintetizátorok, szekvenszerek és digitális hangforrások jellemzik.",
+      "t": "elektronikus zene"
+    },
+    {
+      "q": "Melyik francia duó vált világhírűvé robotsisak-viseletével és house/elektronikus stílusú slágereivel?",
+      "a": [
+        "A Daft Punk",
+        "Az Air",
+        "A Justice",
+        "A Phoenix"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Daft Punk robotsisakjairól és olyan slágereiről ismert, mint a 'One More Time'.",
+      "t": "elektronikus zene"
+    },
+    {
+      "q": "Bob Marley zenéje elsősorban melyik zenei stílus nemzetközi népszerűsítéséhez kötődik?",
+      "a": [
+        "A reggae",
+        "A calypso",
+        "A salsa",
+        "A ska"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bob Marley a jamaicai gyökerű reggae stílust tette világhírűvé.",
+      "t": "világzene"
+    },
+    {
+      "q": "Mi jellemzi leginkább a portugál fado zenei műfaj hangulatát?",
+      "a": [
+        "Melankolikus vágyakozás, az úgynevezett 'saudade' érzése",
+        "Pörgős, ünnepi karneváli hangulat",
+        "Harcias, katonai indulózenei jelleg",
+        "Vidám, táncos gyerekdal-hagyomány"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A fadót a portugál 'saudade', vagyis a melankolikus vágyakozás érzése hatja át.",
+      "t": "világzene"
+    },
+    {
+      "q": "Milyen kulturális hatások keveredéséből alakult ki a spanyol flamenco Andalúziában?",
+      "a": [
+        "Andalúz, roma, mór és zsidó zenei hagyományok ötvözetéből",
+        "Kizárólag észak-európai népzenei elemekből",
+        "Csak az ókori görög zene hagyományaiból",
+        "Angolszász country-zenei hatásokból"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A flamenco az andalúz népzene és a betelepült roma közösség kultúrájának ötvözetéből született.",
+      "t": "világzene"
+    },
+    {
+      "q": "Melyik dél-amerikai város munkásnegyedeiből indult hódító útjára a tangó a 19-20. század fordulóján?",
+      "a": [
+        "Buenos Aires",
+        "Rio de Janeiro",
+        "Santiago",
+        "Lima"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tangó Buenos Aires külvárosi negyedeiből terjedt el a világban.",
+      "t": "világzene"
+    },
+    {
+      "q": "Melyik hangszer vált a tangó egyik legjellegzetesebb hangzásává, miután német telepesek hozták Argentínába?",
+      "a": [
+        "A bandoneon",
+        "A szitár",
+        "A duda",
+        "A balalajka"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A bandoneont, egy harmonikafélét, német bevándorlók hozták a Río de la Plata vidékére.",
+      "t": "világzene"
+    },
+    {
+      "q": "Melyik fesztivált szervezte meg Gerendai Károly és Müller Péter Sziámi 1993-ban a Hajógyári-szigeten?",
+      "a": [
+        "A Diákszigetet, a mai Sziget Fesztivál elődjét",
+        "A Volt Fesztivált",
+        "A Balaton Soundot",
+        "A Campus Fesztivált"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A későbbi Sziget Fesztivál elődje, a Diáksziget 1993-ban indult útjára.",
+      "t": "fesztiválok"
+    },
+    {
+      "q": "Melyik zeneszerző komponálta A diótörő című balettet, amelyet 1892-ben mutattak be Szentpéterváron?",
+      "a": [
+        "Pjotr Iljics Csajkovszkij",
+        "Igor Sztravinszkij",
+        "Szergej Prokofjev",
+        "Nyikolaj Rimszkij-Korszakov"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A diótörő Csajkovszkij műve, ősbemutatója 1892-ben volt a Mariinszkij Színházban.",
+      "t": "balett"
+    },
+    {
+      "q": "Ki fejezte be A diótörő koreográfiáját, miután Marius Petipa betegsége miatt nem tudta végigvinni a munkát?",
+      "a": [
+        "Lev Ivanov",
+        "Vaszlav Nyizsinszkij",
+        "Georges Balanchine",
+        "Michel Fokine"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Petipa asszisztense, Lev Ivanov vette át és fejezte be a koreográfiát.",
+      "t": "balett"
+    },
+    {
+      "q": "Milyen tánctechnikai elemet nevezünk 'pirouette'-nek a klasszikus balettben?",
+      "a": [
+        "Egy lábon végzett teljes testfordulatot, gyors pörgést",
+        "Egy nagy, repülő ugrást a színpad átlóján",
+        "A karok lassú, hullámzó mozgatását",
+        "A táncos meghajlását az előadás végén"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A pirouette a táncos egy lábon végzett gyors, teljes fordulata.",
+      "t": "balett"
+    },
+    {
+      "q": "Melyik zeneszerző komponálta a Csillagok háborúja filmsorozat ikonikus zenéjét?",
+      "a": [
+        "John Williams",
+        "Hans Zimmer",
+        "Ennio Morricone",
+        "Danny Elfman"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "John Williams szerezte a Csillagok háborúja emblematikus szimfonikus filmzenéjét 1977-től.",
+      "t": "filmzene"
+    },
+    {
+      "q": "Melyik zeneszerző komponálta A keresztapa (Godfather) film emblematikus témazenéjét?",
+      "a": [
+        "Nino Rota",
+        "John Barry",
+        "Jerry Goldsmith",
+        "Bernard Herrmann"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Nino Rota olasz zeneszerző írta A keresztapa híres, melankolikus főtémáját.",
+      "t": "filmzene"
+    },
+    {
+      "q": "Mi a filmzene elsődleges funkciója egy mozifilmben a képi történetmesélés mellett?",
+      "a": [
+        "A jelenetek hangulatának és érzelmi mondanivalójának erősítése",
+        "A film hosszának mesterséges növelése",
+        "A színészek beszédhangjának teljes elnyomása",
+        "A stáblista automatikus felgyorsítása"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A filmzene a jeleneteket kísérve fokozza az érzelmi hatást és a drámai feszültséget.",
+      "t": "filmzene"
+    },
+    {
+      "q": "Melyik zeneszerző neve fűződik a Titanic (1997) film zenéjéhez, amelyben Céline Dion is énekelt?",
+      "a": [
+        "James Horner",
+        "Hans Zimmer",
+        "James Newton Howard",
+        "Alan Silvestri"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "James Horner szerezte a Titanic zenéjét, míg a betétdalt Celine Dion énekelte.",
+      "t": "filmzene"
+    },
+    {
+      "q": "Melyik előadót nevezik világszerte 'a rock and roll királyának'?",
+      "a": [
+        "Elvis Presley",
+        "Chuck Berry",
+        "Little Richard",
+        "Buddy Holly"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Elvis Presley kapta a 'Rock and Roll királya' elnevezést népszerűsége csúcsán.",
+      "t": "énekesek"
+    },
+    {
+      "q": "Melyik operaénekesnőt illették 'La Divina' becenévvel kivételes hangja miatt?",
+      "a": [
+        "Maria Callas",
+        "Renée Fleming",
+        "Joan Sutherland",
+        "Montserrat Caballé"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A görög-amerikai szopránt, Maria Callast hívták 'La Divina' néven a 20. században.",
+      "t": "énekesek"
+    },
+    {
+      "q": "Melyik évben halt meg váratlanul Freddie Mercury, a Queen frontembere?",
+      "a": [
+        "1991",
+        "1985",
+        "1997",
+        "1980"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Freddie Mercury 1991-ben, AIDS szövődményei miatt hunyt el 45 évesen.",
+      "t": "énekesek"
+    },
+    {
+      "q": "Melyik tenor kapta Luciano Pavarotti és Plácido Domingo mellett 'a három tenor' egyikeként világhírét?",
+      "a": [
+        "José Carreras",
+        "Andrea Bocelli",
+        "Roberto Alagna",
+        "Juan Diego Flórez"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A 'három tenor' Luciano Pavarotti, Plácido Domingo és José Carreras volt.",
+      "t": "énekesek"
+    },
+    {
+      "q": "Melyik énekesnőt nevezik gyakran 'a pop királynőjének' hosszú és sikeres karrierje miatt?",
+      "a": [
+        "Madonna",
+        "Britney Spears",
+        "Kylie Minogue",
+        "Cher"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Madonnát világszerte 'a pop királynőjeként' emlegetik évtizedes hatása miatt.",
+      "t": "énekesek"
+    },
+    {
+      "q": "Melyik férfi énekhang számít a legmagasabbnak a klasszikus zenei hangfajok közül?",
+      "a": [
+        "A tenor",
+        "A basszus",
+        "A bariton",
+        "A basszbariton"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A tenor a legmagasabb férfi énekhang a klasszikus vokális zenében.",
+      "t": "hangfajok"
+    },
+    {
+      "q": "Mit jelent a 'koloratúrszoprán' kifejezés az operai éneklésben?",
+      "a": [
+        "Rendkívül virtuóz, gyors futamokra képes magas szopránhangot",
+        "A legmélyebb, legsötétebb tónusú női énekhangot",
+        "Egy férfi hangot, amely női regiszterben énekel",
+        "A kórusban éneklő átlagos női szólamot"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A koloratúrszoprán rendkívül mozgékony, magas hangterjedelmű, díszített énekstílusra képes hang.",
+      "t": "hangfajok"
+    },
+    {
+      "q": "Melyik ritka férfi hangfaj énekel a női alt vagy mezzoszoprán hangterjedelmében, falzett technikával?",
+      "a": [
+        "A kontratenor",
+        "A basszbariton",
+        "A tenor",
+        "A bariton"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A kontratenor falzett technikával a női regiszterben énekel, gyakran barokk zenében.",
+      "t": "hangfajok"
+    },
+    {
+      "q": "Melyik zenetörténeti korszakot jellemzi a szigorú formai szabályok és a harmonikus egyensúly, Haydn és Mozart munkássága nyomán?",
+      "a": [
+        "A klasszicizmus",
+        "A barokk",
+        "A romantika",
+        "A reneszánsz"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A klasszicizmus (kb. 1750–1820) korában vált meghatározóvá a formai tisztaság és egyensúly.",
+      "t": "zenetörténet"
+    },
+    {
+      "q": "Melyik zenetörténeti korszak helyezte előtérbe a klasszicizmust követően az érzelmek és az egyéniség kifejezését?",
+      "a": [
+        "A romantika",
+        "A barokk",
+        "A rokokó",
+        "A modernizmus"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A romantika a 19. században a klasszicizmust követően helyezte előtérbe az érzelmi kifejezést.",
+      "t": "zenetörténet"
+    },
+    {
+      "q": "Melyik zenetörténeti korszakban élt és alkotott Johann Sebastian Bach, a többszólamú zeneszerzés mestere?",
+      "a": [
+        "A barokk korban",
+        "A klasszicizmus korában",
+        "A romantika korában",
+        "A reneszánsz korában"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Bach a barokk korszak (kb. 1600–1750) egyik legjelentősebb alakja volt.",
+      "t": "zenetörténet"
+    },
+    {
+      "q": "Melyik zeneszerzőt nevezik gyakran 'a szimfónia atyjának' a műfaj formájának megteremtésében játszott szerepe miatt?",
+      "a": [
+        "Joseph Haydn",
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart",
+        "Johannes Brahms"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Haydn munkássága alapozta meg és formálta ki klasszikus formájában a szimfónia műfaját.",
+      "t": "zenetörténet"
+    },
+    {
+      "q": "Nagyjából mennyi ideig tartott, mire Beethoven teljesen elveszítette a hallását, miután először észlelte a tüneteket?",
+      "a": [
+        "Körülbelül két évtizedig",
+        "Néhány hónapig",
+        "Egyetlen évig",
+        "Fél évszázadig"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Beethoven húszas évei végén kezdett süketülni, és mintegy két évtized alatt vesztette el teljesen a hallását.",
+      "t": "klasszikus"
+    },
+    {
+      "q": "Milyen fogadtatásban részesült Bizet Carmen című operája az 1875-ös párizsi bemutatón?",
+      "a": [
+        "Megbukott, a közönség erkölcstelennek találta",
+        "Azonnal osztatlan sikert aratott",
+        "Betiltották politikai okokból",
+        "A kritikusok egyöntetűen remekműnek nevezték"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A közönség 'visszataszítónak' találta a történetet, az opera csak Bizet halála után lett világsiker.",
+      "t": "opera"
+    },
+    {
+      "q": "Melyik olasz zeneszerző operái közé tartozik a Nabucco és a Rigoletto is?",
+      "a": [
+        "Giuseppe Verdi",
+        "Giacomo Puccini",
+        "Gioachino Rossini",
+        "Gaetano Donizetti"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Verdi az olasz opera egyik legnagyobb alakja, számos híres mű, köztük a Nabucco és a Rigoletto szerzője.",
+      "t": "opera"
+    },
+    {
+      "q": "Melyik vígopera Rossini egyik legnépszerűbb műve, amelyben Figaro, a mindenes borbély a főszereplő?",
+      "a": [
+        "A sevillai borbély",
+        "Don Pasquale",
+        "Az álarcosbál",
+        "Nabucco"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A sevillai borbélyt Rossini írta 1816-ban, azóta is az opera egyik legnépszerűbb vígjátéka.",
+      "t": "opera"
+    },
+    {
+      "q": "Mi különbözteti meg alapvetően a barokk zenét a klasszicizmus korának zenéjétől?",
+      "a": [
+        "A barokk gazdag díszítettsége és polifóniája a klasszicizmus letisztultabb formáival szemben",
+        "A barokk kizárólag vokális, a klasszicizmus kizárólag hangszeres zene volt",
+        "A barokk csak egyházi zene volt, világi zene nem létezett",
+        "A klasszicizmus korában még nem használtak billentyűs hangszereket"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A barokk zenét a díszes dallamvezetés és többszólamúság, a klasszicizmust az egyszerűbb, kiegyensúlyozott formák jellemzik.",
+      "t": "műfajok"
+    },
+    {
+      "q": "Mit jelent a 'kamarazene' kifejezés a klasszikus zenében?",
+      "a": [
+        "Kis létszámú együttes által, karmester nélkül előadott zenét",
+        "Egy szimfonikus zenekar teljes létszámú előadását",
+        "Kizárólag zongorán játszott szólóművet",
+        "Egy opera teljes zenekari kíséretét"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A kamarazenét jellemzően kis létszámú, karmester nélküli együttesek adják elő.",
+      "t": "műfajok"
+    },
+    {
+      "q": "Melyik zenei műfaj épül jellemzően rögtönzésre és szinkópált ritmusokra, afroamerikai gyökerekkel?",
+      "a": [
+        "A jazz",
+        "A klasszikus szimfónia",
+        "A gregorián ének",
+        "Az opera"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A jazz alapvető jellemzője a rögtönzés és a szinkópált, lendületes ritmika.",
+      "t": "műfajok"
+    },
+    {
+      "q": "Melyik hangszercsaládba tartozik a fagott a zenekari hangszerek rendszerezésében?",
+      "a": [
+        "A fafúvósok közé",
+        "A rézfúvósok közé",
+        "A vonósok közé",
+        "Az ütőhangszerek közé"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A fagott nádnyelves fafúvós hangszer, a legmélyebb hangú tagja ennek a családnak.",
+      "t": "hangszerek"
+    },
+    {
+      "q": "Melyik billentyűs hangszert kell rendszeresen hangolni a húrjai kifeszítettsége miatt, szemben az elektronikus billentyűkkel?",
+      "a": [
+        "A zongorát",
+        "A szintetizátort",
+        "Az elektromos orgonát",
+        "A digitális zongorát"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A zongora acélhúrjai idővel elhangolódnak, ezért rendszeres hangolást igényelnek.",
+      "t": "hangszerek"
+    },
+    {
+      "q": "Melyik brit rockegyüttes tagjai közé tartozott Freddie Mercury, Brian May, Roger Taylor és John Deacon?",
+      "a": [
+        "A Queen",
+        "A Led Zeppelin",
+        "A Pink Floyd",
+        "A The Rolling Stones"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A Queen négy alapító tagja Freddie Mercury, Brian May, Roger Taylor és John Deacon voltak.",
+      "t": "zenekarok"
+    },
+    {
+      "q": "Melyik londoni zebrás gyalogátkelőt tette világhírűvé a The Beatles egyik albumborítója?",
+      "a": [
+        "Az Abbey Road utcai átkelőt",
+        "A Piccadilly Circus átkelőjét",
+        "A Baker Street átkelőjét",
+        "A Carnaby Street átkelőjét"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "Az Abbey Road stúdió előtti zebrán készült a Beatles 1969-es albumának ikonikus borítófotója.",
+      "t": "zenekarok"
+    },
+    {
+      "q": "Melyik évtizedben vált világszerte tömegesen népszerűvé a diszkó zenei stílus, mielőtt háttérbe szorult volna?",
+      "a": [
+        "Az 1970-es években",
+        "Az 1950-es években",
+        "A 2000-es években",
+        "Az 1930-as években"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "A diszkó az 1970-es években élte fénykorát, olyan filmekkel is népszerűsítve, mint a Szombat esti láz.",
+      "t": "pop-rock"
+    },
+    {
+      "q": "Melyik brit énekesnő 2011-es 'Rolling in the Deep' című dala hozta meg neki az áttörő nemzetközi sikert?",
+      "a": [
+        "Adele",
+        "Duffy",
+        "Amy Winehouse",
+        "Florence Welch"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "Adele a 21 című albumáról származó 'Rolling in the Deep' dallal ért el világsikert 2011-ben.",
+      "t": "pop-rock"
+    },
+    {
+      "q": "Melyik amerikai énekest nevezik gyakran 'a popzene királyának'?",
+      "a": [
+        "Michael Jackson",
+        "Prince",
+        "Elvis Presley",
+        "Stevie Wonder"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Michael Jacksont világszerte 'a popzene királyaként' (King of Pop) tartják számon.",
+      "t": "pop-rock"
+    },
+    {
+      "q": "Miért lett kereskedelmi és kritikai szempontból is kiemelkedő Michael Jackson 1982-es Thriller albuma?",
+      "a": [
+        "Több egymást követő slágert is tartalmazott, és rekordszámú Grammyt nyert",
+        "Kizárólag koncerteken adták elő élőben, lemezen nem jelent meg",
+        "Egyetlen dalból állt, ami egész oldalt betöltött",
+        "Csak instrumentális, ének nélküli számokat tartalmazott"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Thriller olyan slágereket tartalmazott, mint a Billie Jean és a Beat It, és nyolc Grammyt nyert.",
+      "t": "pop-rock"
+    },
+    {
+      "q": "Melyik musicalben szerepel a híres 'Memory' című dal, Andrew Lloyd Webber szerzeményeként?",
+      "a": [
+        "A Macskák (Cats)",
+        "Az Operaház Fantomja",
+        "Evita",
+        "Jézus Krisztus Szupersztár"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A 'Memory' a Macskák című musical egyik leghíresebb betétdala.",
+      "t": "musical"
+    },
+    {
+      "q": "Melyik zeneszerző-szövegíró páros alkotta az 1970-es Jézus Krisztus Szupersztár rockoperát?",
+      "a": [
+        "Andrew Lloyd Webber és Tim Rice",
+        "Andrew Lloyd Webber és Charles Hart",
+        "Stephen Sondheim és Leonard Bernstein",
+        "Claude-Michel Schönberg és Alain Boublil"
+      ],
+      "c": 0,
+      "d": "hard",
+      "e": "A rockoperát Andrew Lloyd Webber zenéjével és Tim Rice szövegével mutatták be 1970-ben.",
+      "t": "musical"
+    },
+    {
+      "q": "Milyen évben alapította az országgyűlés Magyarországon a Kossuth-díjat, amelyet zenészek is elnyerhetnek?",
+      "a": [
+        "1948",
+        "1867",
+        "1956",
+        "1990"
+      ],
+      "c": 0,
+      "d": "medium",
+      "e": "A Kossuth-díjat 1948-ban alapította az országgyűlés, az 1848-as forradalom századik évfordulóján.",
+      "t": "zenei díjak"
+    },
+    {
+      "q": "Milyen kategóriában osztják ki a Grammy-gála egyik legrangosabb díját, amely egy teljes lemez minőségét ismeri el?",
+      "a": [
+        "Az Év albuma",
+        "A Legjobb új előadó",
+        "Az Év dala",
+        "A Legjobb táncszám"
+      ],
+      "c": 0,
+      "d": "easy",
+      "e": "Az 'Év albuma' a Grammy-gála egyik legrangosabb, összesített kategóriája.",
+      "t": "zenei díjak"
     }
   ]
 }
