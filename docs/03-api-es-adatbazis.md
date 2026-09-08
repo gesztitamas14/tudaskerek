@@ -221,6 +221,23 @@ rendszer inkább azt adja ki, mint hogy feleslegesen véget érjen a játék –
 lásd a `20260905090000_avoid_repeat_questions_for_host.sql` migrációt és a
 hozzá tartozó teszteket (`tools/src/db-test.mjs`, 15. szakasz).
 
+**Fontos: ezek a migrációk nem települnek automatikusan** a `web/`
+statikus site-tól eltérően – manuálisan kell lefuttatni (`npx supabase db
+push`, vagy az `supabase/all-migrations.sql` beillesztése a Dashboard SQL
+Editorába). Ha egy éles projekten még mindig ismétlődő kérdéseket/kategóriákat
+tapasztalsz, az első gyanú, hogy ez a lépés elmaradt.
+
+Az egy JÁTÉKON (nem csak egy blokkon) belüli kategória-ismétlődést is
+kerüljük: új kategória választásakor mostantól nem csak az utóbbi hármat,
+hanem az EBBEN A SZOBÁBAN eddig előfordult ÖSSZES kategóriát kizárjuk (lásd
+`20260908090000_full_room_category_variety.sql`). 28 aktív kategóriánk van, a
+`rounds_per_player` felső korlátja pedig 10, tehát egy teljes játék normál
+esetben mind a 10 körben más-más kategóriát ad – ez is preferencia: ha a
+nehézség-szűrés miatt kevesebb kategória marad, a régi „utóbbi hármat
+kerüljük” szabályra esik vissza, majd a régi (funkció előtti) viselkedésre,
+hogy a játék soha ne szakadjon meg emiatt. Teszt: `tools/src/db-test.mjs`,
+16. szakasz.
+
 #### Amit lezárás előtt nem küld el
 
 A `correct_answer`, az `explanation` és a `results` **addig `null`, amíg a kérdés

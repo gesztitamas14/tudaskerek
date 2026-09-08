@@ -1056,6 +1056,78 @@ ok(
 // bővülne a teszt) ne lássanak csonka kategórialistát.
 await db.exec(`update public.categories set is_active = true`);
 
+// ─────────────────── 16. teljes játékban ismétlődésmentes kategóriák ───────────────────
+
+console.log('\n16. Egy teljes játékban nem ismétlődik kategória, amíg van elég másik');
+
+// questions_per_category = 1, tehát MINDEN kérdés előtt újra választunk
+// kategóriát – ez az 5 teszt-kategóriánkat gyorsan, egy blokkon belül végig
+// futtatja, és jól méri, hogy az összes eddig ELŐFORDULT (nem csak az
+// utóbbi három) kategóriát kerüli-e a választás.
+//
+// FRISS, még sosem hostolt profilokkal indítjuk – ANNA (és a többi eddig
+// használt teszt-játékos) host-történetében a korábbi szakaszok (10., 15.)
+// már felhasználták a kis, 14 kérdéses teszt-kategóriák nagy részét, ami a
+// 30 napos host-preferencián keresztül (jogosan) fallback-be kényszerítené
+// ezt a tesztet is – ez itt a kategória-változatosságot vizsgálja, nem a
+// host-előzményt, ezért azt a változót nullázzuk egy vadonatúj hosttal.
+const EMOKE = (
+  await one(
+    `insert into auth.users (email, raw_user_meta_data)
+     values ('emoke@example.test', jsonb_build_object('nickname', 'Emoke'))
+     returning id`
+  )
+).id;
+const FERENC = (
+  await one(
+    `insert into auth.users (email, raw_user_meta_data)
+     values ('ferenc@example.test', jsonb_build_object('nickname', 'Ferenc'))
+     returning id`
+  )
+).id;
+
+let varietyRoom = await asPlayer(
+  EMOKE,
+  `select public.create_room(2::smallint, 1::smallint, null, 1::smallint, 15::smallint, null)`
+);
+await asPlayer(FERENC, `select public.join_room(${q(varietyRoom.id)}, null)`);
+varietyRoom = await asPlayer(EMOKE, `select public.start_room(${q(varietyRoom.id)})`);
+
+const varietySlugs = [];
+for (let guard = 0; guard < 20 && varietySlugs.length < 5; guard++) {
+  varietyRoom = await asPlayer(EMOKE, `select public.room_tick(${q(varietyRoom.id)})`);
+  const current = varietyRoom.current_question;
+  if (!current) continue;
+
+  if (current.resolved) {
+    await db.exec(
+      `update public.room_questions set resolved_at = now() - interval '30 seconds'
+       where id = ${q(current.id)}`
+    );
+    continue;
+  }
+
+  varietySlugs.push(current.category_slug);
+  await db.exec(
+    `update public.room_questions set answer_open_at = now() where id = ${q(current.id)}`
+  );
+  const correct = await correctIndexOf(current.id);
+  await asPlayer(
+    EMOKE,
+    `select public.answer_room_question(${q(varietyRoom.id)}, ${q(current.id)}, ${correct}::smallint, 900)`
+  );
+  await asPlayer(
+    FERENC,
+    `select public.answer_room_question(${q(varietyRoom.id)}, ${q(current.id)}, ${correct}::smallint, 900)`
+  );
+}
+
+ok(
+  new Set(varietySlugs).size === varietySlugs.length,
+  `az első ${varietySlugs.length} kérdés mind KÜLÖNBÖZŐ kategóriából jött (${varietySlugs.join(', ')})`
+);
+ok(varietySlugs.length === 5, `mind az 5 elérhető kategória sorra került, mielőtt ismétlésre kerülne (${varietySlugs.length})`);
+
 // ─────────────────── összegzés ───────────────────
 
 console.log(
