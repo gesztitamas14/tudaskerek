@@ -980,9 +980,46 @@ const catQuestionIds = (
 ).rows.map((r) => r.id);
 ok(catQuestionIds.length === 14, `a teszt-kategóriában 14 kérdés van (${catQuestionIds.length})`);
 
-// ANNA egy KORÁBBI (tegnapi) szobájában már "látta" a kérdések 13-át.
+// FRISS profilokkal dolgozunk (nem ANNA/BELA/CILI/DORA-val): a korábbi
+// szakaszok (pl. a 10.) az ANNA-t hostoló "solo" szobában VÉLETLENSZERŰEN
+// választott kategóriát az öt teszt-kategória közül – ha ez a véletlen épp
+// a `historyCategory`-ra esett volna, ANNA host-történetében már eleve
+// "látott" lenne néhány kérdés ebből a kategóriából, ami ezt a tesztet
+// ritkán (kb. 1/5 eséllyel) hibásan buktatta volna (a 14. kérdés helyett a
+// preferencia-elengedés miatt véletlenszerű kérdés jönne ki). Ezt zárja ki
+// a vadonatúj GIZELLA/HUBA/ILDIKO/JANOS négyes.
+const GIZELLA = (
+  await one(
+    `insert into auth.users (email, raw_user_meta_data)
+     values ('gizella@example.test', jsonb_build_object('nickname', 'Gizella'))
+     returning id`
+  )
+).id;
+const HUBA = (
+  await one(
+    `insert into auth.users (email, raw_user_meta_data)
+     values ('huba@example.test', jsonb_build_object('nickname', 'Huba'))
+     returning id`
+  )
+).id;
+const ILDIKO = (
+  await one(
+    `insert into auth.users (email, raw_user_meta_data)
+     values ('ildiko@example.test', jsonb_build_object('nickname', 'Ildiko'))
+     returning id`
+  )
+).id;
+const JANOS = (
+  await one(
+    `insert into auth.users (email, raw_user_meta_data)
+     values ('janos@example.test', jsonb_build_object('nickname', 'Janos'))
+     returning id`
+  )
+).id;
+
+// GIZELLA egy KORÁBBI (tegnapi) szobájában már "látta" a kérdések 13-át.
 const historyRoom = await asPlayer(
-  ANNA,
+  GIZELLA,
   `select public.create_room(2::smallint, 1::smallint, null, 1::smallint, 15::smallint, null)`
 );
 for (let i = 0; i < 13; i++) {
@@ -995,14 +1032,14 @@ for (let i = 0; i < 13; i++) {
   );
 }
 
-// Új szoba, UGYANAZ a host (Anna) – az egyetlen aktív kategóriában a 13
+// Új szoba, UGYANAZ a host (Gizella) – az egyetlen aktív kategóriában a 13
 // "látott" kérdés helyett a MARADÉK (14.) kérdésnek kell kijönnie.
 let repeatRoom = await asPlayer(
-  ANNA,
+  GIZELLA,
   `select public.create_room(2::smallint, 1::smallint, null, 1::smallint, 15::smallint, null)`
 );
-await asPlayer(BELA, `select public.join_room(${q(repeatRoom.id)}, null)`);
-repeatRoom = await asPlayer(ANNA, `select public.start_room(${q(repeatRoom.id)})`);
+await asPlayer(HUBA, `select public.join_room(${q(repeatRoom.id)}, null)`);
+repeatRoom = await asPlayer(GIZELLA, `select public.start_room(${q(repeatRoom.id)})`);
 
 ok(
   repeatRoom.current_question?.category_slug === historyCategory.slug,
@@ -1016,20 +1053,20 @@ const pickedQuestionId = (
 ).id;
 ok(
   pickedQuestionId === catQuestionIds[13],
-  'Anna 13, korábban látott kérdését elkerülve a maradék (14.) kérdés jött ki'
+  'Gizella 13, korábban látott kérdését elkerülve a maradék (14.) kérdés jött ki'
 );
 
-// MÁSIK host (Béla) ugyanabban a kategóriában viszont SZABADON kaphatja meg
-// bármelyik kérdést – a védelem a HOSTHOZ kötött, nem a kategóriához.
+// MÁSIK host (Ildikó) ugyanabban a kategóriában viszont SZABADON kaphatja
+// meg bármelyik kérdést – a védelem a HOSTHOZ kötött, nem a kategóriához.
 let otherHostRoom = await asPlayer(
-  BELA,
+  ILDIKO,
   `select public.create_room(2::smallint, 1::smallint, null, 1::smallint, 15::smallint, null)`
 );
-await asPlayer(CILI, `select public.join_room(${q(otherHostRoom.id)}, null)`);
-otherHostRoom = await asPlayer(BELA, `select public.start_room(${q(otherHostRoom.id)})`);
+await asPlayer(JANOS, `select public.join_room(${q(otherHostRoom.id)}, null)`);
+otherHostRoom = await asPlayer(ILDIKO, `select public.start_room(${q(otherHostRoom.id)})`);
 ok(
   Boolean(otherHostRoom.current_question),
-  'más hostnál (Béla) Anna előzménye nem akadályozza a kérdésválasztást'
+  'más hostnál (Ildikó) Gizella előzménye nem akadályozza a kérdésválasztást'
 );
 
 // A VÉGSŐ FALLBACK: ha a hostnak MÁR AZ ÖSSZES kérdést kiadtuk ebben a
@@ -1042,11 +1079,11 @@ await db.exec(
            now() - interval '1 day' + interval '15 seconds')`
 );
 let exhaustedRoom = await asPlayer(
-  ANNA,
+  GIZELLA,
   `select public.create_room(2::smallint, 1::smallint, null, 1::smallint, 15::smallint, null)`
 );
-await asPlayer(DORA, `select public.join_room(${q(exhaustedRoom.id)}, null)`);
-exhaustedRoom = await asPlayer(ANNA, `select public.start_room(${q(exhaustedRoom.id)})`);
+await asPlayer(HUBA, `select public.join_room(${q(exhaustedRoom.id)}, null)`);
+exhaustedRoom = await asPlayer(GIZELLA, `select public.start_room(${q(exhaustedRoom.id)})`);
 ok(
   Boolean(exhaustedRoom.current_question),
   'ha a hostnak MÁR MINDENT kiadtunk, a preferencia elengedve is folytatódik a játék'
